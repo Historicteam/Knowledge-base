@@ -1,0 +1,24 @@
+concept_time_point
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[временная точка]
+	(*
+	<- lang_ru;;
+	*);
+	[time point]
+	(*
+	<- lang_en;;
+	*);
+	[часовая кропка]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[момент времени]
+	(*
+	<- lang_ru;;
+	*);
+	[момант часу]
+	(*
+	<- lang_by;;
+	*);;

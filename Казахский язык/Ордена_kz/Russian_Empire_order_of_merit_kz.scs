@@ -1,0 +1,11 @@
+Russian_Empire_order_of_merit
+=>nrel_main_idtf:
+	[Ресей империясының ордені] (* <-lang_kz;; *);;
+	
+Definition_of_a_Russian_Empire_order_of_merit
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Ресей империясының ордені - 1698 жыл мен 1917 жылдар аралығында болған айрықша еңбектер үшін берілетін награда, ерекшелік белгісі.] (* <-lang_kz;; *);; 
+		*);;
+	

@@ -1,0 +1,17 @@
+Priluki_village
+=> nrel_main_idtf:
+	[деревня Прилуки]
+	(*
+	<- lang_ru;;
+	*);
+	[Priluki village]
+	(*
+	<- lang_en;;
+	*);
+	[вёска Прылукі]
+	(*
+	<- lang_by;;
+	*);
+<-concept_terrain_object;
+<-concept_village
+;;

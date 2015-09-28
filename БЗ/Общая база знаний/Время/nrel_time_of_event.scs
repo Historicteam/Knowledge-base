@@ -1,0 +1,15 @@
+nrel_time_of_event 
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[время события*]
+	(*
+	<- lang_ru;;
+	*);
+	[time of event*]
+	(*
+	<- lang_en;;
+	*)
+;;

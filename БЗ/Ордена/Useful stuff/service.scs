@@ -1,0 +1,24 @@
+service
+=> nrel_main_idtf:
+	[услуга] (* <- lang_ru;; *);
+	[service] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	Definition_of_a_service
+	(* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Услуга - это нематериальный товар.] (* <-lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: [A service is an intangible commodity.] (* <-lang_en;; *);; 
+		*);;
+	*);;
+
+Definition_of_a_service
+=> nrel_main_idtf:
+	[Определение понятия "услуга"] (* <- lang_ru;; *);
+	[Definition of a service] (* <- lang_en;; *);;

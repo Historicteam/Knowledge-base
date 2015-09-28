@@ -1,0 +1,31 @@
+concept_political_party
+=>nrel_main_idtf:
+	[политическая партия] (* <-lang_ru;; *);
+	[political party] (* <-lang_en;; *);
+	[палітычная партыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_political_party_concept 
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия политическая партия] (* <-lang_ru;; *);
+		[Definition of the political party concept] (* <-lang_en;; *);
+		[Азначэнне паняцця палітычная партыя] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Политическая партия - это ассоциация людей, которая стремится достичь целей, общих для всех её членов, путем приобретения и осуществления политической власти.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [A political party is an organization of people which seeks to achieve goals common to its members through the acquisition and exercise of political power.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Палітычная партыя - гэта асацыяцыя людзей, якая імкнецца дасягнуць мэтаў, агульных для ўсіх яе членаў, шляхам набыцця і ажыццяўлення палітычнай улады.] (* <-lang_by;; *);; 
+		*);;
+	*);
+	
+<-sc_node_not_relation;
+<-sc_const;;

@@ -1,0 +1,29 @@
+nrel_full_sibling
+=>nrel_main_idtf:
+	[полный сиблинг*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[full sibling*] (* <-lang_en;; *);	
+=>nrel_main_idtf:
+	[поўны сіблінг*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Полный сиблинг — общий термин для обозначения братьев и сестёр (по отношению друг к другу), происходящих от одних родителей, но не являющихся близнецами.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Поўны сіблінг - агульны тэрмін для абазначэння братоў і сясцёр (у адносінах адзін да аднаго), якія адбываюцца ад адных бацькоў, але якія не з'яўляюцца двайнятамі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_brother;
+	nrel_sister;
+=>nrel_using_example:"file://content/nrel_full_sibling.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

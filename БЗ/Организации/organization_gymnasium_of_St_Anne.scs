@@ -1,0 +1,19 @@
+organization_gymnasium_of_St_Anne
+=> nrel_main_idtf:
+	[Гимназия Святой Анны]
+	(*
+	<- lang_ru;;
+	*);
+	[Gymnasium of St. Anne]
+	(*
+	<- lang_en;;
+	*);
+	[Гімназія Святой Ганны]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: building_Gymnasium_of_St_Anne;
+<-concept_gymnasium;
+<-concept_educational_institution;;
+
+

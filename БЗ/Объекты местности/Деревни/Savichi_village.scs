@@ -1,0 +1,13 @@
+Savichi_village
+=> nrel_main_idtf:
+	[деревня Савичи]
+	(*
+	<- lang_ru;;
+	*);
+	[Savichi village]
+	(*
+	<- lang_en;;
+	*);
+<-concept_terrain_object;
+<-concept_village
+;;

@@ -1,0 +1,20 @@
+concept_name
+=>nrel_main_idtf:
+	[имя] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[name] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[імя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Имя — ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;;

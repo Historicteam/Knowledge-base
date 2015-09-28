@@ -1,0 +1,28 @@
+nrel_stepfather
+=>nrel_main_idtf:
+	[отчим*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[stepfather*] (* <-lang_en;; *);
+=>nrel_idtf:
+	[stepparent*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[айчым*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Отчим — неродной отец для детей своей супруги, оставшихся у неё от предшествующего брака.] (* <-lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: [Айчым — няродны бацька для дзяцей сваёй жонкі, якія засталіся ў яе ад папярэдняга шлюбу.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_stepfather.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

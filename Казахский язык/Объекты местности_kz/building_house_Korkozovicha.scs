@@ -1,0 +1,13 @@
+Korkozovichs_House
+=> nrel_main_idtf:
+	[Коркозович үйі]
+	(*
+	<- lang_kz;;
+	*);;
+
+Alexandrovskaya_Street
+	=> nrel_main_idtf:
+			[Александров көшесі]
+			(*
+			<- lang_kz;;
+			*);;

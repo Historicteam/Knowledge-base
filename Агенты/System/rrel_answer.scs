@@ -1,0 +1,8 @@
+rrel_answer
+=> nrel_main_idtf: 
+[ответ']
+  (*
+    <- lang_ru;;
+  *)
+;
+<- sc_node_role_relation;;

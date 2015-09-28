@@ -1,0 +1,9 @@
+concept_ancestral_nobility
+	=>nrel_main_idtf:
+		[Рулы ақсүйектер] (* <-lang_kz;; *);;
+
+ Definition_of_the_concept_of_ancestral_nobility
+		<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Рулық ақсүйектер - феодалдық қоғамда және капитализмнің алғашқы кезінде үстемдік құрған помещиктер мен жоғары көтерілген шенеуліктер сословиесі.] (* <-lang_kz;; *);;
+	*);;

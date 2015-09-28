@@ -1,0 +1,25 @@
+Uzlovskaja_Olimpija
+=> nrel_main_idtf:
+	[Узловская Олимпия]
+	(*
+	<- lang_ru;;
+	*);
+	[Mickievich Olimpija]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_idtf:
+	[Войнилович Олимпия]
+	(*
+	<- lang_ru;;
+	*);
+	[Vojnilovich Olimpija]
+	(*
+	<- lang_en;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname:surname_Uzlovskaja;
+=>nrel_first_name: name_Olimpija;
+=>nrel_surname:surname_Vojnilovich;
+<=>nrel_spouse:Vojnilovich_Edvard_Adamavich;;

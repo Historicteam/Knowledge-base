@@ -1,0 +1,37 @@
+building_of_Red_Church
+=> nrel_main_idtf:
+		[костёл Святого Симеона и Святой Елены] (* <- lang_ru;; *);
+		[сhurch of Saints Simon and Helena] (* <- lang_en;; *);
+		[касцёл Святога Сымона і Святой Алены] (* <- lang_by;; *);
+=> nrel_main_idtf:
+		[красный костёл] (* <- lang_ru;; *);
+		[red Church] (* <- lang_en;; *);
+		[чырвоны касцёл)] (* <- lang_by;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Костёл Святого Симеона и Святой Елены — наиболее известный католический храм Минска, памятник архитектуры, включён в Государственный список историко-культурных ценностей Республики Беларусь, стиль храма характеризуется как неороманский или неоготика с чертами модерна.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Костёл Святого Симеона и Святой Елены.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+<-concept_building;;

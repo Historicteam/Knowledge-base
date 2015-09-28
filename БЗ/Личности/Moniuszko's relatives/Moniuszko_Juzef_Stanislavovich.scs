@@ -1,0 +1,17 @@
+Moniuszko_Juzef_Stanislavovich
+=> nrel_main_idtf:
+	[Монюшко Юзеф Станиславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Juzef Stanislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Юзэф Станіслававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Juzef;;

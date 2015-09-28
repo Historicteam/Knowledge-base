@@ -1,0 +1,15 @@
+organization_Minsk_Municipal_Public_Administration
+=> nrel_main_idtf:
+	[Минское городское общественное управление]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Municipal Public Administration]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае гарадское грамадскае кіраванне]
+	(*
+	<- lang_by;;
+	*)
+;;

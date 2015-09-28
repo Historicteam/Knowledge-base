@@ -1,0 +1,41 @@
+nrel_surname
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[фамилия*]
+	(*
+	<- lang_ru;;
+	*);
+	[surname*]
+	(*
+	<- lang_en;;
+	*);
+	[прозвішча*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=> nrel_second_domain:
+	concept_surname;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Фамилия — наследственное родовое имя, указывающее на принадлежность человека к одному роду, ведущему начало от общего предка, или в более узком понимании — к одной семье.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[Прозвішча — спадчыннае радавое імя, якое паказвае на прыналежнасць чалавека да аднаго роду, што вядзе пачатак ад агульнага продка, ці ў больш вузкім разуменні — да адной сям'і.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

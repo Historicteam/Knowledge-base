@@ -1,0 +1,2 @@
+scg_code => nrel_main_idtf: [SCg-код] (* <- lang_by;; *);;
+scs_code => nrel_main_idtf: [SCs-код] (* <- lang_by;; *);;

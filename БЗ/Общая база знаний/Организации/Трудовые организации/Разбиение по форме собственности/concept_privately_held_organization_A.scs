@@ -1,0 +1,50 @@
+concept_privately_held_organization
+=>nrel_main_idtf:
+	[частная организация] (* <-lang_ru;; *);
+	[privately held organization] (* <-lang_en;; *);
+	[прыватная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	 Definition_of_the_privately_held_organization_concept 
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "частная организация"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the privately held organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "прыватная арганізацыя"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Частная организация - это организация, созданная одним или несколькими индивидуальными предпринимателями для удовлетворения каких-либо общественных нужд.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Privately held organization is an organization established by one or more individual entrepreneurs to satisfy public needs.] (* <-lang_en;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Прыватная арганізацыя - гэта арганізацыя, створаная адным ці некалькімі індывідуальнымі прадпрымальнікамі для задавальнення якіх-небудзь грамадскіх патрэб.] (* <-lang_by;; *);; 
+			*);;
+	*);
+-> organization_school_of_PR_in_Warsaw;
+-> organization_gymnasium_of_St_Anne;
+-> organization_Minsk_Hospital_for_Prostitutes;
+-> organization_Minsk_Municipal_Hobo_Shelter;
+-> organization_Minsk_Municipal_Public_Library_named_after_Pushkin;
+-> organization_Brewery_Hutten_Czapsky_Count;
+-> organization_Minsk_Municipal_Pawnshop;
+
+<-sc_node_not_relation;
+<-sc_const;;

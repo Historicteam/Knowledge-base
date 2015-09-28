@@ -1,0 +1,59 @@
+concept_scientific_organization
+=>nrel_main_idtf:
+	[научная организация] (* <-lang_ru;; *);
+	[scientific organization] (* <-lang_en;; *);
+	[навуковая арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_scientific_organization_concept  
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "научная организация"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the scientific organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "навуковая арганізацыя"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Научная организация - это общественное объединение научных работников, осуществляющее в качестве основной деятельности научную или научно-техническую деятельность и подготовку научных работников.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Scientific organization is a public association of scientists which performs scientific and technical activities as well as training of the scientists.] (* <-lang_en;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Навуковая арганізацыя - гэта грамадскае аб'яднанне навуковых работнікаў, якое ажыццяўляе ў якасці асноўнай дзейнасці навуковую або навукова-тэхнічную дзейнасць і падрыхтоўку навуковых работнікаў.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+
+
+<-sc_node_not_relation;
+<-sc_const;;
+
+
+
+
+
+
+
+
+
+
+

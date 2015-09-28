@@ -1,0 +1,18 @@
+Czapsky_Emerick_August_Vojtech
+=> nrel_main_idtf:
+	[Чапский Эмерик Август Войтех]
+	(*
+	<- lang_ru;;
+	*);
+	[Czapsky Emerick August Vojtech]
+	(*
+	<- lang_en;;
+	*);
+	[Чапскі Эмерык Аўгуст Войцех]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky
+;;

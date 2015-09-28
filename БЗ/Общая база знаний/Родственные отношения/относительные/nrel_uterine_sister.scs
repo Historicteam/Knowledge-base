@@ -1,0 +1,30 @@
+nrel_uterine_sister
+=>nrel_main_idtf:
+	[единоутробная сестра*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[одноутробная сестра*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[uterine sister*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[адзінаўтробная сястра*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[аднаўтробная сястра*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Единоутробная (одноутробная) сестра — дочь той же матери от другого отца.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Адзінаўтробны (аднаўтробная) сястра — дачка той жа маці ад іншага бацькі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_uterine_sister.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

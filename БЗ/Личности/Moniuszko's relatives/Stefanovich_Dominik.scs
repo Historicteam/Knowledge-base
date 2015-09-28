@@ -1,0 +1,15 @@
+Stefanovich_Dominik
+=> nrel_main_idtf:
+	[Стефанович Доминик]
+	(*
+	<- lang_ru;;
+	*);
+	[Stefanovich Dominik]
+	(*
+	<- lang_en;;
+	*);
+	[Стэфановіч Дамінік]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

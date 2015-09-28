@@ -1,0 +1,60 @@
+scp_program -> proc_search_max(*
+  -> rrel_params: ... (*
+    -> rrel_1: rrel_in: rrel_fixed: rrel_scp_var: _inSet;;
+    -> rrel_2: rrel_out: rrel_assign: rrel_scp_var: _outMax;;
+  *);;
+  -> rrel_operators: ... (* 
+//Находим первый элемент множества
+    -> rrel_init: ..operator1 (*
+      <- varAssign;;
+      -> rrel_1: rrel_assign: rrel_scp_var: _outMax;;
+      -> rrel_2: rrel_fixed: rrel_scp_const: time_point_1600;;
+      => nrel_goto: ..operator2;;
+    *);;	
+//Копируем множество
+    -> ..operator2 (*
+      <- searchSetStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _inSet;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: .._tmp1;;
+      -> rrel_3: rrel_assign: rrel_scp_var: .._lll;;
+      -> rrel_set_3: rrel_assign: rrel_scp_var: .._searchMax;;
+      => nrel_goto: ..operator3;;
+    *);;
+//Находим элемент, принадлежащий копии
+    -> ..operator3 (*
+      <- searchElStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: .._searchMax;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: .._arc_to_delete;;
+      -> rrel_3: rrel_assign: rrel_scp_var: .._tmp;;
+      => nrel_then: ..operator4;;
+      => nrel_else: ..operator7;;
+    *);;
+//Если этот элемент больше текущего максимума
+    -> ..operator4 (*
+      <- searchElStr5;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: .._tmp;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_common: .._tmp1;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _outMax;;
+      -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: .._tmp2;;
+      -> rrel_5: rrel_fixed: rrel_scp_const: nrel_bigger_than;;
+      => nrel_then: ..operator5;;
+      => nrel_else: ..operator6;;
+    *);;
+//Делаем его текущим максимумом
+    -> ..operator5 (*
+      <- varAssign;;
+      -> rrel_1: rrel_assign: rrel_scp_var: _outMax;;
+      -> rrel_2: rrel_fixed: rrel_scp_var: .._tmp;;
+      => nrel_goto: ..operator6;;
+    *);;
+//Удаляем элемент из копии множества
+    -> ..operator6 (*
+      <- eraseEl;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: .._arc_to_delete;;
+      => nrel_goto: ..operator3;;
+    *);;
+    -> ..operator7 (*
+      <- return;;
+    *);;
+  *);;
+*);;

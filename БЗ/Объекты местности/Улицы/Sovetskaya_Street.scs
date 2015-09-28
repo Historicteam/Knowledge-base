@@ -1,0 +1,14 @@
+Sovetskaya_Street
+	=> nrel_main_idtf:
+			[Советская улица](* <- lang_ru;; *);
+			[Sovetskaya Street](* <- lang_en;; *);
+				[Савецкая вуліца]
+				(*
+				<- lang_by;;
+				*);
+	<= nrel_subdividing:
+		{
+			building_Przhelyaskovskiys_House
+		};
+	<-concept_street;;
+

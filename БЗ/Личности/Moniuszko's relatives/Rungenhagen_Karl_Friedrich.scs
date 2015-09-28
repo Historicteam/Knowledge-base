@@ -1,0 +1,15 @@
+Rungenhagen_Karl_Friedrich
+=> nrel_main_idtf:
+	[Рунгенхаген Карл Фридрих]
+	(*
+	<- lang_ru;;
+	*);
+	[Rungenhagen Karl Friedrich]
+	(*
+	<- lang_en;;
+	*);
+	[Рунгенхаген Карл Фрыдрых]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

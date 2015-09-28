@@ -1,0 +1,45 @@
+concept_gentry
+	=>nrel_main_idtf:
+		[нетитулованное дворянство] (* <-lang_ru;; *);
+		[gentry] (* <-lang_en;; *);
+		[нетытулаванае дваранства] (* <-lang_by;; *);;
+
+Definition_gentry
+	=>nrel_main_idtf:
+		[Определение понятия "нетитулованное дворянство"] (* <-lang_ru;; *);
+		[Азначэнне паняцця "нетытулаванае дваранства"] (* <-lang_by;; *);;
+
+The_composition_of_the_gentry
+	=>nrel_main_idtf:
+		[Состав нетитулованного дворянства] (* <-lang_ru;; *);
+		[Склад нетытулаванага дваранства] (* <-lang_by;; *);;
+
+concept_gentry
+	<- rrel_key_sc_element: Definition_gentry
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation:
+		 ...
+			(* -> rrel_example:
+	[Нетитулованное дворянство — дворяне, не имеющие родовых титулов.] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Нетытулаванае дваранства - дваране, якія не маюць радавых тытулаў.] (* <-lang_by;; *);;
+	*);;
+*);;
+
+concept_gentry
+	<- rrel_key_sc_element: The_composition_of_the_gentry
+	(*
+		<-sc_statement;;
+		<= nrel_sc_text_translation: 
+			...
+			(* -> rrel_example:
+	[Состояло нетитулованное дворянство из потомственных нетитулованных феодалов и жалованных дворян, последние могли не иметь земельных наделов.] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Складалася нетытулаванае дваранства з нетытулаваных феадалаў і даратчых дваран, апошнія маглі не мець зямельных надзелаў.] (* <-lang_by;; *);;
+	*);;
+*);;

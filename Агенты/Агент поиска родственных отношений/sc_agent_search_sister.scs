@@ -1,0 +1,67 @@
+// Объявляем sc-агент поисковой операции
+sc_agent_search_sister
+
+	=>nrel_main_idtf:
+	[sc-агент поиска всех сестер] (* <- lang_ru;; *);
+	[search sc-agent of sisters] (* <- lang_en;; *);
+	[sc-агент пошуку ўсіх сясцёр] (* <- lang_by;; *);
+	<- abstract_sc_agent;
+
+	=>nrel_primary_initiation_condition: (sc_event_add_output_arc =>question_initiated);
+
+	// Указываем начальное условие и результат для нашей операции
+	=>nrel_initiation_condition_and_result: (..sc_agent_of_search_operation_initiation_condition =>
+	..sc_agent_of_search_operation_result);
+	<= nrel_sc_agent_key_sc_elements:
+		{
+			question_initiated;
+			question;
+			question_search_sister
+		}; // Описание деятельности sc-агента
+	<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_description_of_sc_agent_behavior;;
+		<= nrel_sc_text_translation:
+		...
+		(*->rrel_example:
+			[Задачей sc-агента является поиск всех сестёр исходного человека.] (* <- lang_ru;; *);;
+		*);
+		...
+		(*->rrel_example:
+			[The purpose of the sc-agent is search for all sisters of a certain man.] (* <- lang_ru;; *);;
+		*);
+		...
+		(*->rrel_example:
+			[Задачай sc-агента з'яўляецца пошук усіх сясцёр дадзенага чалавека.] (* <- lang_by;; *);;
+		*);;
+	*); // описание первичного условия инициирования sc-агента
+	=>nrel_inclusion: ...
+	(*
+		<- platform_independent_abstract_sc_agent;;
+		<= nrel_sc_agent_program:
+		{
+			agent_search_test_sister;
+			proc_search_of_sister
+		};;
+		->sc_agent_of_search_operation_scp (* <- active_sc_agent;; *);;
+	*);;
+
+	// условия инициирования агента
+	..sc_agent_of_search_operation_initiation_condition
+	= [*
+			question_search_sister _-> .._question;;
+			question_initiated _-> .._question;;
+			question _-> .._question;;
+			.._question _-> .._parameter;;
+		*];;
+
+	// описание результатов выполнения sc-агента
+	..sc_agent_of_search_operation_result
+	= [*
+			question_search_sister _-> .._question;;
+			question_finished _-> .._question;;
+			question _-> .._question;;
+			.._question _=>nrel_answer:: .._answer;;
+			.._question _-> .._parameter;;
+		*];;

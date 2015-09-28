@@ -1,0 +1,16 @@
+organization_institute_Warsaw_Music_Institute
+=> nrel_main_idtf:
+	[Варшавский музыкальный институт]
+	(*
+	<- lang_ru;;
+	*);
+	[Warsaw Music Institute]
+	(*
+	<- lang_en;;
+	*);
+	[Варшаўскі музычны інстытут]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: Warsaw_Music_Institute_Building;
+<-concept_educational_institution;;

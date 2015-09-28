@@ -1,0 +1,7 @@
+organization_Imperial_St_Petersburg_Technological_Institute
+
+	=> nrel_main_idtf:
+		[Петербургский императорский технологический институт] (* <- lang_ru;; *);
+		[Imperial St. Petersburg Technological Institute] (* <- lang_en;; *);
+		[Пецярбургскі імператарскі тэхналагічны інстытут] (* <- lang_by;; *);
+<-concept_educational_institution;;

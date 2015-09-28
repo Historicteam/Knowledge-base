@@ -1,0 +1,19 @@
+Lieon_Pavlina
+=> nrel_main_idtf:
+	[Леон Павлина]
+	(*
+	<- lang_ru;;
+	*);
+	[Lieon Pavlina]
+	(*
+	<- lang_en;;
+	*);
+	[Леон Паўліна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_surname: surname_Lieon;
+=>nrel_first_name: name_Pavlina;
+<=nrel_parent: Vankovich_Liev_Lvovich;
+<=>nrel_spouse: Vankovich_Liev_Appolinarijevich;;

@@ -1,0 +1,9 @@
+concept_complained_nobility
+	=>nrel_main_idtf:
+		[марапатталған дворяндық] (* <-lang_kz;; *);;
+
+Definition_complained_nobility
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:
+	[Марапатталған дворяндық - ол, указ бойынша немесе атқарған еңбегіне бойынша беріледі.] (* <-lang_kz;; *);;
+	*);;

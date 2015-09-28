@@ -1,0 +1,18 @@
+organization_theater_Warsaw_Big_Teatr
+=> nrel_main_idtf:
+	[Варшавский большой театр]
+	(*
+	<- lang_ru;;
+	*);
+	[Warsaw Big Teatr]
+	(*
+	<- lang_en;;
+	*);
+	[Варшаўскі вялікі тэатр]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: Warsaw_Grand_Theatre_Building;
+<-concept_theater
+;;
+

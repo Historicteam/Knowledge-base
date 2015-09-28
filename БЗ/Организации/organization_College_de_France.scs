@@ -1,0 +1,7 @@
+organization_College_de_France
+
+	=> nrel_main_idtf:
+		[Коллеж де Франс] (* <- lang_ru;; *);
+		[College de France] (* <- lang_en;; *);
+		[Калеж дэ Франс] (* <- lang_by;; *);
+<-concept_educational_institution;;

@@ -1,0 +1,15 @@
+ui_menu_search_of_nodes_which_have_no_certain_lang_idtf<- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+ui_menu_search_of_nodes_which_have_no_certain_lang_idtf =>nrel_main_idtf: [Запрос поиска узлов с некоторым отсутствующим языковым идентификатором ] (* <- lang_ru;; *);;
+ui_menu_search_of_nodes_which_have_no_certain_lang_idtf =>nrel_main_idtf: [Request search of a node which hasn't a certain language identifier] (* <- lang_en;; *);;
+ui_menu_search_of_nodes_which_have_no_certain_lang_idtf =>ui_nrel_command_template:
+[*
+question_search_of_nodes_which_have_no_certain_lang_idtf _-> ._question_search_of_nodes_which_have_no_certain_lang_idtf_instance
+(*
+_-> ui_arg_1;;
+*);;
+._question_search_of_nodes_which_have_no_certain_lang_idtf_instance _<- question;;
+*];;
+ui_menu_search_of_nodes_which_have_no_certain_lang_idtf =>ui_nrel_command_lang_template: [Запрос поиска: $ui_arg_1] (*
+<- lang_ru;; *);;
+ui_menu_search_of_nodes_which_have_no_certain_lang_idtf =>ui_nrel_command_lang_template: [Request of search: $ui_arg_1]
+(* <- lang_en;; *);;

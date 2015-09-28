@@ -1,0 +1,238 @@
+Skurko_Fedor
+=> nrel_main_idtf:
+	[Скурко Фёдор]
+	(*
+	<- lang_ru;;
+	*);
+	[Skurko Fedor]
+	(*
+	<- lang_en;;
+	*);
+	[Скурко Фёдар]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Fedor;;
+
+
+Skurko_Domna
+=> nrel_main_idtf:
+	[Скурко Домна]
+	(*
+	<- lang_ru;;
+	*);
+	[Skurko Domna]
+	(*
+	<- lang_en;;
+	*);
+	[Скурко Домна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_woman;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Domna;
+<=>nrel_spouse:Skurko_Ivan_Fedorovich;;
+
+
+Skurko_Ivan_Fedorovich
+=> nrel_main_idtf:
+	[Скурко Иван Фёдорович]
+	(*
+	<- lang_ru;;
+	*);
+	[Skurko Ivan Fedorovich]
+	(*
+	<- lang_en;;
+	*);
+	[Скурко Іван Фёдаравіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Ivan;
+=>nrel_parent: Skurko_Fedor;;
+
+
+Skurko_Liubov
+=> nrel_main_idtf:
+	[Любовь Скурко]
+	(*
+	<- lang_ru;;
+	*);
+	[Liubov Skurko]
+	(*
+	<- lang_en;;
+	*);
+	[Любоў Скурко]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_woman;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Liubov;
+=>nrel_spouse:Skurko_Jevhienij_Ivanovich;;
+
+
+Skurko_Maksim_Jevhienievich
+=> nrel_main_idtf:
+	[Скурко Максим Евгеньевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Skurko Maksim Jevhienievich]
+	(*
+	<- lang_en;;
+	*);
+	[Скурко Максім Яўгеньевіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Maksim;
+=>nrel_parent:Skurko_Jevhienij_Ivanovich;
+=>nrel_parent:Skurko_Liubov;;
+
+
+Skurko_Irina_Jevhienievna
+=> nrel_main_idtf:
+	[Скурко Ирина Евгеньевна]
+	(*
+	<- lang_ru;;
+	*);
+	[Skurko Irina Jevhienievna]
+	(*
+	<- lang_en;;
+	*);
+	[Скурко Ірына Яўгеньеўна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_woman;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Irina;
+=>nrel_parent:Skurko_Jevhienij_Ivanovich;
+=>nrel_parent:Skurko_Liubov;;
+
+
+Skurko_Vera_Jevhienievna
+=> nrel_main_idtf:
+	[Скурко Вера Евгеньевна]
+	(*
+	<- lang_ru;;
+	*);
+	[Skurko Vera Jevhienievna]
+	(*
+	<- lang_en;;
+	*);
+	[Скурко Вера Яўгеньеўна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_woman;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Vera;
+=>nrel_parent:Skurko_Jevhienij_Ivanovich;
+=>nrel_parent:Skurko_Liubov;;
+
+Skurko_Jevhienij_Ivanovich
+=> nrel_main_idtf:
+	[Скурко Евгений Иванович]
+	(*
+	<- lang_ru;;
+	*);
+	[Skurko Jevhienij Ivanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Скурко Яўген Іванавіч]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_alias:
+	[Максим Танк]
+	(*
+	<- lang_ru;;
+	*);
+	[Maxim Tank]
+	(*
+	<- lang_en;;
+	*);
+	[Максім Танк]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+=>nrel_surname: surname_Skurko;
+=>nrel_first_name: name_Jevhienij;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Tank.jpeg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<-concept_writer;
+<-concept_translator;
+<-concept_poet;
+=>nrel_date_of_death: 7_08_1995
+	(*
+	=> nrel_main_idtf:
+		[7 августа 1995 года]
+		(*
+		<- lang_ru;;
+		*);
+		[7 жніўня 1995 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_birth: 17_09_1912
+	(*
+	=> nrel_main_idtf:
+		[17 сентября 1912 года]
+		(*
+		<- lang_ru;;
+		*);
+		[17 верасня 1912 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_birth: village_Pilkovschina(*
+	=> nrel_main_idtf:
+		[село Пильковщина]
+		(*
+		<- lang_ru;;
+		*);
+		[village Pilkovschina]
+		(*
+		<- lang_en;;
+		*);
+		[сяло Пількаўшчына]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_dwelling:house_15_Kullmans_Street;
+<=nrel_employee:organization_redaction_of_magazine_Vozhyk;
+<=nrel_employee:organization_redaction_of_magazine_Polymia;
+=>nrel_parent:Skurko_Ivan_Fedorovich;
+=>nrel_parent:Skurko_Domna;;

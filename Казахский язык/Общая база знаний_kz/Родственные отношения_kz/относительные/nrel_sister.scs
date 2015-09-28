@@ -1,0 +1,13 @@
+nrel_sister
+=>nrel_main_idtf:
+	[әпке*] (* <-lang_kz;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Әпке - бір ата-анадан туған басқа балаларға қатысты  әрбір қыз бала.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

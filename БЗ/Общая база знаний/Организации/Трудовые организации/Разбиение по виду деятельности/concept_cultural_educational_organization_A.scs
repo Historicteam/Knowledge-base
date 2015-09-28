@@ -1,0 +1,42 @@
+concept_cultural_educational_organization
+=>nrel_main_idtf:
+	[культурно-просветительская организация] (* <-lang_ru;; *);
+	[cultural educational organization] (* <-lang_en;; *);
+	[культурна-асветніцкая арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_cultural_educational_organization_concept
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "культурно-просветительская организация"] (* <-lang_ru;; *);
+		[Definition of the cultural educational organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "культурна-асветніцкая арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:[Культурно-просветительская организация - это организация, созданная с целью удовлетворения духовных, научных и профессиональных потребностей человека.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example:[Cultural educational organization is an organization which is established to satisfy spiritual, academic and professional needs of a person.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example:[Культурна-асветніцкая арганізацыя - гэта арганізацыя, створаная з мэтай задавальнення духоўных, навуковых і прафесійных патрэбаў чалавека.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+-> organization_theater_Warsaw_Big_Teatr;
+-> organization_Literary_Museum_of_Bogdanovich;
+-> organization_Literary_Museum_of_Bogdanovich_Belarusian_hut;
+-> organization_redaction_of_magazine_Vozhyk;
+-> organization_redaction_of_magazine_Polymia;
+
+=>nrel_inclusion:
+	concept_museum;
+	concept_theater;
+	concept_cinema;
+	concept_library;
+<-sc_node_not_relation;
+<-sc_const;;

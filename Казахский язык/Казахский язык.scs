@@ -1,0 +1,54 @@
+lang_kz
+=> nrel_main_idtf: 	[Казахский язык] (* <- lang_ru;; *);
+			[Kazakh language] (* <- lang_en;; *);
+			[Казахская мова] (* <- lang_by;; *);
+			[Қазақ] (* <- lang_kz;; *);
+<-languages;;
+
+lang_ru
+=> nrel_main_idtf:	[Орыс тілі] (* <- lang_kz;; *);;
+
+lang_en
+=> nrel_main_idtf:	[Ағылшын тілі] (* <- lang_kz;; *);;
+
+lang_by
+=> nrel_main_idtf:	[Белорус] (* <- lang_kz;; *);;
+
+nrel_main_idtf
+=> nrel_main_idtf:	[бастапқы sc-идентификатор*] (* <- lang_kz;; *);;
+
+nrel_idtf
+=> nrel_main_idtf:	[sc-идентификатор*] (* <- lang_kz;; *);;
+
+nrel_system_identifier
+=> nrel_main_idtf:	[жүйелік sc-идентификатор*] (* <- lang_kz;; *);;
+
+rrel_key_sc_element
+=> nrel_main_idtf:	[басты sc-элементі'] (* <- lang_kz;; *);;
+
+nrel_sc_text_translation
+=> nrel_main_idtf:	[мәтінді sc-аудару*] (* <- lang_kz;; *);;
+
+rrel_example
+=> nrel_main_idtf:	[мысал'] (* <- lang_kz;; *);;
+
+sc_explanation
+=> nrel_main_idtf:	[түсіндіру] (* <- lang_kz;; *);;
+
+nrel_inclusion
+=> nrel_main_idtf:	[инклюзия*] (* <- lang_kz;; *);;
+
+ui_start_sc_element
+=> nrel_main_idtf:	[бастау sc-элементі] (* <- lang_kz;; *);;
+
+ui_menu_na_view_kb_extended
+=> nrel_main_idtf:	[қарап командалары] (* <- lang_kz;; *);;
+
+ui_menu_na_keynodes
+=> nrel_main_idtf:	[Негізгі түйіндері навигация] (* <- lang_kz;; *);;
+
+nrel_first_domain
+=> nrel_main_idtf:	[бірінші домен*] (* <- lang_kz;; *);;
+
+nrel_second_domain
+=> nrel_main_idtf:	[екінші домен*] (* <- lang_kz;; *);;

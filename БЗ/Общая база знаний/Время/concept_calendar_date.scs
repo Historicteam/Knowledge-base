@@ -1,0 +1,16 @@
+concept_calendar_date
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[календарная дата]
+	(*
+	<- lang_ru;;
+	*);
+	[calendar date]
+	(*
+	<- lang_en;;
+	*);
+	[каляндарная дата]
+	(*
+	<- lang_by;;
+	*);;
+

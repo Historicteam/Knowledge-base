@@ -1,0 +1,34 @@
+organization_redaction_of_magazine_Vozhyk
+=> nrel_main_idtf:
+	[редакция журнала «Вожык»]
+	(*
+	<- lang_ru;;
+	*);
+	[redaction magazine of "Vozhyk"]
+	(*
+	<- lang_en;;
+	*);
+	[рэдакцыя часопіса «Вожык»]
+	(*
+	<- lang_by;;
+	*);
+
+=>nrel_location: house_39_Independence_Avenue
+(*
+	=> nrel_main_idtf:
+			[проспект Независимости дом 39]
+			(*
+			<- lang_ru;;
+			*);
+			[house 39 Independence avenue]
+			(*
+			<- lang_en;;
+			*);
+			[проспект Независимости дом 39]
+			(*
+			<- lang_ru;;
+			*);;
+	<-concept_building;;
+*);;
+
+

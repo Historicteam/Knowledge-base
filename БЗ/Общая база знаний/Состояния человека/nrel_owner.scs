@@ -1,0 +1,45 @@
+nrel_owner
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[владелец*]
+	(*
+	<- lang_ru;;
+	*);
+	[owner*]
+	(*
+	<- lang_en;;
+	*);
+	[уладальнік*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_object;
+=> nrel_second_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Владелец* - бинарное отношение связывающие человека с пренадлежащему ему предметом или объектам.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Уладальнік* - бінарнае дачыненне, якое злучае чалавека з прадметам або аб'ектам, што належыць гэтаму чалавеку.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

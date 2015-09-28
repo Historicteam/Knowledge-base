@@ -1,0 +1,19 @@
+nrel_combat_activities_participant
+=>nrel_main_idtf:
+	[участник участник боевых действий*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[combat activities' participant*] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Участник боевых действий* — это бинарное отношение, связывающее боевое действие и человека, который в нем участвовал.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

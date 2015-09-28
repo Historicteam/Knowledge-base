@@ -1,0 +1,26 @@
+nrel_great_grandson
+=>nrel_main_idtf:
+	[правнук*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[great-grandson*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[праўнук*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Правнук — сын внука или внучки.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Праўнук — сын ўнука ці ўнучкі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_great_grandson.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

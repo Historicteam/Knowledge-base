@@ -1,0 +1,30 @@
+concept_cooperative_organization
+=>nrel_main_idtf:
+	[кооперативная организация] (* <-lang_ru;; *);
+	[cooperative organization] (* <-lang_en;; *);
+	[кааператыўная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_cooperative_organization_concept
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "кооперативная организация"] (* <-lang_ru;; *);
+		[Definition of the cooperative organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "кааператыўная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Кооперативная организация - это хозяйственная организация, объединяющая на добровольных началах трудящихся с целью образования коллективных предприятий в различных отраслях народного хозяйства.] (* <-lang_ru;; *);; 
+		*);		
+		...
+		(* 
+		-> rrel_example: [Cooperative organization is an economic organization that unites volunteer workers to form collective enterprises in various sectors of the national economy.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Кааператыўная арганізацыя - гэта гаспадарчая арганізацыя, якая аб'ядноўвае на добраахвотных пачатках працоўных з мэтай адукацыі калектыўных прадпрыемстваў у розных галінах народнай гаспадаркі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;
+<-sc_const;;

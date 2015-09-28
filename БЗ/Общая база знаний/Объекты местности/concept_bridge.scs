@@ -1,0 +1,41 @@
+concept_bridge
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[мост]
+	(*
+	<- lang_ru;;
+	*);
+	[bridge]
+	(*
+	<- lang_en;;
+	*);
+	[мост]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Мост — искусственное сооружение, возведенное через реку, озеро, овраг, пролив или любое другое физическое препятствие.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Мост - штучнае збудаванне, якое узвялі праз раку, возера, яр, праліў або любую іншую фізічную перашкоду.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;
+

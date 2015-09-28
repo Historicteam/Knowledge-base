@@ -1,0 +1,25 @@
+concept_statesman
+=> nrel_main_idtf:
+	[государственный деятель]
+	(*
+	<- lang_ru;;
+	*);
+	[statesman]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Государственный деятель — политический деятель государственной власти.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);;

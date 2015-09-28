@@ -1,0 +1,28 @@
+nrel_connexion
+=>nrel_main_idtf:
+	[некровный родственник*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[connexion*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[някроўны сваяк*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Некровный родственник — человек, отношение близости с которым возникло не по родству, а из брачного союза.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Някроўны сваяк - чалавек, дачыненне блізкасці з якім узнікла не па сваяцтве, а з шлюбнага саюза.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:nrel_cousin_in_law;	
+	nrel_adopted_child;
+	nrel_foster_parent;
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_connexion.jpg";	
+<-sc_node_norole_relation;;

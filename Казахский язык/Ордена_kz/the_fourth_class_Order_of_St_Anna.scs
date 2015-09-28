@@ -1,0 +1,13 @@
+the_fourth_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[4 дәрежелі қасиетті Анна ордені] (* <-lang_kz;; *);;
+	
+Definition_of_the_fourth_class_Order_of_St_Anna 
+=>nrel_main_idtf:
+	[анықтама 4 дәрежелі қасиетті Анна орденіы] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [4 дәрежелі қасиетті Анна ордені - бұл салқын қару сабындағы крест және Орден лентасының темляк.] (* <-lang_kz;; *);; 
+		*);;
+	

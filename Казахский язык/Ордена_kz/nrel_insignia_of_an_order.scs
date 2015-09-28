@@ -1,0 +1,11 @@
+nrel_insignia_of_an_order
+=>nrel_main_idtf:
+	[инсигния ордені*] (* <-lang_kz;; *);;
+	
+Definition_of_nrel_insignia_of_an_order
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Инсигния ордені* - инстигний жиының анықталған орденмен байланыстыратын бинарлы қатынас.] (* <-lang_kz;; *);; 
+		*);;
+	

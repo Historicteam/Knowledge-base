@@ -1,0 +1,26 @@
+nrel_stepdaughter
+=>nrel_main_idtf:
+	[падчерица*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[stepdaughter*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[падчарка*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Падчерица — неродная дочь для одного из супругов, родившаяся от предшествующего брака второго супруга.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Падчарка — няродная дачка ў дачыненні да аднаго з мужоў, якая нарадзілася ад папярэдняга шлюбу другога мужа.] (* <-lang_by;; *);;  
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_stepdaughter.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

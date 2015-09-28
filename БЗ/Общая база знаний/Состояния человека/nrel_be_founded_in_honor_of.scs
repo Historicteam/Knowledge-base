@@ -1,0 +1,42 @@
+nrel_be_founded_in_the_name_of
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[быть основанным в честь*]
+	(*
+	<- lang_ru;;
+	*);
+	[be founded in the name of*]
+	(*
+	<- lang_en;;
+	*);
+	[быць заснаваным у гонар*]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Быть основанным в честь - ]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		
+		...
+		(*
+		-> rrel_example: 
+			[Быць заснаваным у гонар* - ]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

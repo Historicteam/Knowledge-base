@@ -1,0 +1,16 @@
+organization_Minsk_Hospital_for_Prostitutes
+=> nrel_main_idtf:
+	[Минская больница для проституток]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Hospital for Prostitutes]
+	(*
+	<- lang_en;;
+	*);
+	[Мінская бальніца для прастытутак]
+	(*
+	<- lang_by;;
+	*);
+<-concept_hospital
+;;

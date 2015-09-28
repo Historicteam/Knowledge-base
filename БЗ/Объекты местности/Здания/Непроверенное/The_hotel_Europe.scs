@@ -1,0 +1,21 @@
+The_hotel_Europe
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание гостиницы "Европа"] (* <- lang_ru;; *);
+	[The hotel Europe] (* <- lang_en;; *);
+	[Будынак гасцініцы "Еўропа"] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Picture_of_the_hotel_Europe (*
+	=> nrel_main_idtf:
+		[Изображение здания гостиницы "Европа"] (* <- lang_ru;; *);
+		[Picture of the hotel "Europe"] (* <- lang_en;; *);
+		[Выява будынка гасцініцы "Еўропа"] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Отель Европа.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,21 @@
+concept_monastery
+=> nrel_main_idtf:
+	[моностырь]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Моностырь - үй, ағалар мен әпкелер жатақханасы, монахтардың, монахиндардың, болжау.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*)
+;;

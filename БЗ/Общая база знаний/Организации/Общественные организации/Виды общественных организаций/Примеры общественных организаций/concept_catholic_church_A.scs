@@ -1,0 +1,64 @@
+concept_catholic_church
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[католическая церковь]
+	(*
+	<- lang_ru;;
+	*);
+	[catholic church]
+	(*
+	<- lang_en;;
+	*);
+	[каталіцкая царква]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_catholic_church_concept
+	(*
+	=> nrel_main_idtf:
+		[Определение понятия католическая церковь] (* <-lang_ru;; *);
+		[Definition of the catholic church concept] (* <-lang_en;; *);
+		[Азначэнне паняцця каталіцкая царква] (* <-lang_by;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Католическая церковь — это религиозное сообщество в католицизме.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+
+		...
+		(*
+		->rrel_example:
+			[Каталіцкая царква - гэта рэлігійная супольнасць у каталіцызме.]
+			(*
+			<- lang_by;;
+			*);;
+		*);
+
+		...
+		(*
+		->rrel_example:
+			[The Catholic Church is a religious community in Catholicism.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*)
+;;
+
+
+
+
+
+
+
+
+
+
+

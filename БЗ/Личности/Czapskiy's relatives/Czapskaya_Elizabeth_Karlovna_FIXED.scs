@@ -1,0 +1,18 @@
+Czapskaya_Elizabeth_Karlovna
+=> nrel_main_idtf:
+	[Чапская Елизавета Карловна]
+	(*
+	<- lang_ru;;
+	*);
+	[Czapskaya Elizabeth Karlovna]
+	(*
+	<- lang_en;;
+	*);
+	[Чапская Лізавета Карлаўна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapskaya
+;;

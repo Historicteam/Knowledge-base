@@ -1,0 +1,9 @@
+rrel_capital
+=> nrel_main_idtf:
+	[столица'] (* <- lang_ru;; *);
+	[capital'] (* <- lang_en;; *);
+	[сталіца'] (* <- lang_by;; *);
+<- sc_node_role_relation;
+=> nrel_first_domain:concept_country;
+=> nrel_second_domain:concept_city
+;;

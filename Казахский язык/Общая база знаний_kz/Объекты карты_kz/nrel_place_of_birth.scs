@@ -1,0 +1,21 @@
+nrel_place_of_birth
+=> nrel_main_idtf:
+	[туған жері*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Туған жері - адам құқықтарын байланыстыратын бинарлық қатынасы мен адам дүниеге келген жері.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

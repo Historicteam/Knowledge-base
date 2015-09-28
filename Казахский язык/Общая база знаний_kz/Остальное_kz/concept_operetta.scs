@@ -1,0 +1,14 @@
+concept_operetta
+=>nrel_main_idtf:
+	[оперетта] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Оперетта - диалог арқылы жеке музыкалық нөмірлер баламасының театрлық өнімі.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

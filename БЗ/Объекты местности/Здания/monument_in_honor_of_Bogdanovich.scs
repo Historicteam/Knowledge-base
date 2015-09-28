@@ -1,0 +1,32 @@
+monument_in_honor_of_Bogdanovich
+=> nrel_main_idtf:
+	[Памятник М.Богдановича]
+	(*
+	<- lang_ru;;
+	*);
+	[The Statue of Maksim Bohdanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Помнік М.Багдановіча]
+	(*
+	<- lang_by;;
+	*);
+	<-concept_monument;;
+
+Square_of_the_Paris_Commune
+	=> nrel_main_idtf:
+			[Площадь Парижской Коммуны]
+			(*
+			<- lang_ru;;
+			*);
+			[Square of the Paris Commune]
+			(*
+			<- lang_en;;
+			*);
+			[Плошча Парыжскай Камуны]
+			(*
+			<- lang_by;;
+			*);
+	<= nrel_decomposition: monument_in_honor_of_Bogdanovich;;
+

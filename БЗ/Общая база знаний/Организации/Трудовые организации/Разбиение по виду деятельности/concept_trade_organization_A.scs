@@ -1,0 +1,33 @@
+concept_trade_organization
+=>nrel_main_idtf:
+	[торговая организация] (* <-lang_ru;; *);
+	[trade organization] (* <-lang_en;; *);
+	[гандлёвая арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_trade_organization_concept  
+	(* 
+	=> nrel_main_idtf:
+		[Определение понятия "торговая организация"] (* <-lang_ru;; *);
+		[Definition of the trade organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "гандлёвая арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Торговая организация - это хозяйствующий субъект, обладающий правами юридического лица, созданный с целью получения прибыли и осуществляющий деятельность на свой риск по закупке, хранению, реализации товаров, направленную на удовлетворение потребностей рынка.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Trade organization is an economic entity with a legal personality that is created for profit-making and activities related to procurement, storage and sale of goods which are designed to satisfy the needs of the market.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Гандлёвая арганізацыя - гэта гаспадарчы суб'ект, які валодае правамі юрыдычнай асобы, створаны з мэтай атрымання прыбытку і ажыццяўляе дзейнасць на свой рызык па закупцы, захоўванню, рэалізацыі тавараў, накіраванаму на задавальненне патрэбаў рынку.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+-> organization_Minsk_Municipal_Pawnshop;
+
+<-sc_node_not_relation;
+<-sc_const;;

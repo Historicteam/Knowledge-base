@@ -1,0 +1,113 @@
+concept_theater
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[театр]
+	(*
+	<- lang_ru;;
+	*);
+	[theatre]
+	(*
+	<- lang_en;;
+	*);
+	[тэатр]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_theatre_concept
+	(*
+		=> nrel_main_idtf:
+			[Определение понятия "театр"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the theatre concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "тэатр"]
+			(*
+			<- lang_by;;
+			*);;
+	
+		<=nrel_sc_text_translation:
+			...
+				(*
+				->rrel_example:
+					[Театр — это организация, целью которой является создание спектакля, в котором происходит отражение действительности, конфликтов и характеров, а также их трактовка и оценка.]
+					(*
+					<- lang_ru;;
+					*);;
+				*);
+			...
+			(*
+			->rrel_example:
+				[Theatre is a special organization and its purpose is to create a play which represents a reflection of reality, conflict and characters. The play represents their interpretation and assessment as well.]
+				(*
+				<- lang_en;;
+				*);;
+			*);
+			...
+				(*
+				->rrel_example:
+					[Тэатр - гэта арганізацыя, мэтай якой з'яўляецца стварэнне спектакля, у якім адбываецца адлюстраванне рэчаіснасці, канфліктаў і характараў, а таксама іх трактоўка і ацэнка.]
+					(*
+					<- lang_by;;
+					*);;
+				*);;
+
+		<-sc_definition;;
+	*);
+
+<- rrel_key_sc_element:
+	Adoption_of_ideas_in_theatres
+	(*
+		=> nrel_main_idtf:
+			[Утверждение театральных идей]
+			(*
+			<- lang_ru;;
+			*);
+			[Adoption of ideas in theatres]
+			(*
+			<- lang_en;;
+			*);
+			[Зацвярджэнне тэатральных ідэй]
+			(*
+			<- lang_by;;
+			*);;
+	
+		<=nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				[ Утверждение тех или иных идей в театре происходит посредством драматического действия, главным носителем которого является актёр.]
+				(*
+				<- lang_ru;;
+				*);;
+			*);
+
+			...
+			(*
+			-> rrel_example:
+				[Adoption of certain ideas in theatres goes through dramatic actions which are performed by actors.]
+				(*
+				<- lang_en;;
+				*);;
+			*);
+
+			...
+			(*
+			-> rrel_example:
+				[Зацвярджэнне тых ці іншых ідэй у тэатры адбываецца з дапамогай драматычнага дзеяння, галоўным носьбітам якога з'яўляецца акцёр.]
+				(*
+				<- lang_by;;
+				*);;
+			*);;
+
+		<-sc_statement;;
+	*);;
+
+
+
+

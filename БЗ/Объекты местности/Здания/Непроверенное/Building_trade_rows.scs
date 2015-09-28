@@ -1,0 +1,22 @@
+Building_trade_rows
+<- concept_building;
+
+=> nrel_main_idtf:
+	[Здание торговых рядов] (* <- lang_ru;; *);
+	[Building trade rows] (* <- lang_en;; *);
+	[Будынак гандлёвых шэрагаў] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Image_building_shopping_malls (*
+	=> nrel_main_idtf:
+		[Изображение здания торговых рядов] (* <- lang_ru;; *);
+		[Image building shopping malls] (* <- lang_en;; *);
+		[Выява будынка гандлёвых шэрагаў] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Торговые ряды.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

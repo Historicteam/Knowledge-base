@@ -1,0 +1,16 @@
+Warsaw_Music_Institute_Building
+=> nrel_main_idtf:
+	[Здание Варшавского музыкального института]
+	(*
+	<- lang_ru;;
+	*);
+	[Warsaw Music Institute Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Варшаўскага музычнага інстытута]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building
+;;

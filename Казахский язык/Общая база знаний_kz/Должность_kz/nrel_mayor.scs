@@ -1,0 +1,13 @@
+nrel_mayor
+=>nrel_main_idtf:
+	[әкім*] (* <-lang_kz;; *);	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Әкім - Ресей империясының, қалалық мемлекеттік басқару бастығы.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

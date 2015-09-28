@@ -1,0 +1,13 @@
+the_second_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[2 дәрежелі қасиетті Анна ордені] (* <-lang_kz;; *);;
+	
+Definition_of_the_second_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[анықтама 2 дәрежелі қасиетті Анна ордені] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [2 дәрежелі Қасиетті Анна ордені - бұл 1 дәреже орденіне қарағанда кішірек мойынға арналған крест және 4,5 см болатын лента.] (* <-lang_kz;; *);; 
+		*);;
+	

@@ -1,0 +1,14 @@
+concept_state_organization
+=>nrel_main_idtf:
+	[мемлекеттік ұйым] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Мемлекеттік ұйым - Мемлекет функцияларын жүзеге асыру үшін құрылған ұйым.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

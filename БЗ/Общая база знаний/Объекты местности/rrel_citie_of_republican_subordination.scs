@@ -1,0 +1,9 @@
+rrel_citie_of_republican_subordination
+=> nrel_main_idtf:
+	[город республиканского подчинения'] (* <- lang_ru;; *);
+	[citie of republican subordination'] (* <- lang_en;; *);
+	[горад рэспубліканскага падпарадкавання'] (* <- lang_by;; *);
+<- sc_node_role_relation;
+=> nrel_first_domain:concept_country;
+=> nrel_second_domain:concept_city
+;;

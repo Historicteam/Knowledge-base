@@ -1,0 +1,20 @@
+Hutten_Czapsky_Franc_von
+=> nrel_main_idtf:
+	[Гуттен-Чапский Франц фон]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapsky Franc von]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапскі Франц фон]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Franc;;

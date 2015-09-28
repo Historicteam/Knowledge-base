@@ -1,0 +1,27 @@
+concept_estate
+=> nrel_main_idtf:
+	[имение]
+	(*
+	<- lang_ru;;
+	*);
+	[estate]
+	(*
+	<- lang_en;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<=nrel_inclusion: concept_locality;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Имение — земельное владение с помещичьим хозяйством, поместье.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);;

@@ -1,0 +1,17 @@
+organization_Minsk_Male_Gymnasium
+=> nrel_main_idtf:
+	[Минская мужская гимназия]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Male Gymnasium]
+	(*
+	<- lang_en;;
+	*);
+	[Мінская мужчынская гімназія]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: Male_Basilian_Monastery_Building;
+<-concept_gymnasium;
+<-concept_educational_institution;;

@@ -1,0 +1,51 @@
+concept_monastery
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[монастырь]
+	(*
+	<- lang_ru;;
+	*);
+	[monastery]
+	(*
+	<- lang_en;;
+	*);
+	[манастыр]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_monastery_concept
+	(*
+	=> nrel_main_idtf:
+		[Определение понятия монастырь] (* <- lang_ru;; *);
+		[Definition of the monastery concept] (* <- lang_en;; *);
+		[Азначэнне паняцця манастыр] (* <- lang_by;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Монастырь — это обитель монахов, монахинь или иноков, принявших монашеский обет.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Monastery is an abode of monks, nuns or coenobites who took monastic vows.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Манастыр - гэта мясціна манахаў, манашак, якія прынялі манаскі зарок.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

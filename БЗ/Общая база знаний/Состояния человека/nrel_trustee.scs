@@ -1,0 +1,18 @@
+nrel_trustee
+=> nrel_main_idtf:
+	[попечитель*]
+	(*
+	<- lang_ru;;
+	*);
+	[trustee*] 
+	(*
+	<- lang_en;;
+	*);
+	[папячыцель*]
+	(*
+	<- lang_by;;
+	*);
+
+<-sc_const;
+	
+<-sc_node_norole_relation;;

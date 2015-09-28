@@ -1,0 +1,5 @@
+concept_Russian_Orthodox_clergy
+=>nrel_main_idtf:
+	[русское православное духовенство] (* <-lang_ru;; *);
+	[Russian Orthodox clergy] (* <-lang_en;; *);
+	[рускае праваслаўнае духавенства] (* <-lang_by;; *);;

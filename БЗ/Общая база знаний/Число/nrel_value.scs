@@ -1,0 +1,19 @@
+nrel_value
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[значение*]
+	(*
+	<- lang_ru;;
+	*);
+	[value*]
+	(*
+	<- lang_en;;
+	*);
+	[значэнне*]
+	(*
+	<- lang_by;;
+	*)
+;;

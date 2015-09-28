@@ -1,0 +1,65 @@
+concept_labour_organization
+=>nrel_main_idtf:
+	[трудовая организация] (* <-lang_ru;; *);
+	[labour organization] (* <-lang_en;; *);
+	[працоўная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_labour_organization_concept
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "трудовая организация"] (* <-lang_ru;; *);
+		[Definition of the labour organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "працоўная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Трудовая организация – это организационно закрепленная совокупность людей, действующих по единому плану для достижения значимой для всех членов организации цели и для создания определенного общественно необходимого продукта или оказания услуг.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Labour organization is an institutionalized set of people that act on a special plan to achieve goals which are significant for all members of the organization and to create certain socially necessary products or services.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Працоўная арганізацыя - гэта арганізацыйна замацаваная сукупнасць людзей, якія дзейнічаюць па адзіным плане для дасягнення значнай для ўсіх членаў арганізацыі мэты і для стварэння вызначанага грамадска неабходнага прадукту або аказання паслуг.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+
+<=nrel_subdividing:
+	subdividing_of_organizations_in_accordance_with_kinds_of_activity
+	(*
+	=>nrel_main_idtf:
+		[разбиение организаций по видам деятельности] (* <-lang_ru;; *);
+		[subdividing of organizations in accordance with kinds of activity] (* <-lang_en;; *);
+		[разбіццё арганізацый па відам дзейнасці] (* <-lang_by;; *);;
+	
+		->	concept_industrial_organization;
+				concept_scientific_organization;
+				concept_educational_institution;
+				concept_medical_organization;
+				concept_cultural_educational_organization;
+				concept_administrative_organization;
+				concept_trade_organization;;
+	*);
+
+<=nrel_subdividing:
+	subdividing_in_accordance_with_types_of_ownership
+	(*
+	=>nrel_main_idtf:
+		[разбиение организаций по формам собственности] (* <-lang_ru;; *);
+		[subdividing of organizations in accordance with types of ownership] (* <-lang_en;; *);
+		[разбіццё арганізацый па формах уласнасці] (* <-lang_by;; *);;
+		
+		->	concept_state_organization;
+				concept_cooperative_organization;
+				concept_joint_stock_company;
+				concept_labor_collective_organization;
+				concept_privately_held_organization;
+				concept_national_and_foreign_capital_organization;
+				concept_foreign_organization;;
+	*);
+<-sc_node_not_relation;
+<-sc_const;;

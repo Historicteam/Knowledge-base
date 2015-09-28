@@ -1,0 +1,48 @@
+nrel_kinsman
+=>nrel_main_idtf:
+	[кровный родственник*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[kinsman*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[кроўны родзіч*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Кровный родственник — происходящий от одних предков, родной по крови.] (* <-lang_ru;; *);;
+		*);	
+		...
+		(* 
+		-> rrel_example: [Кроўны родзіч — паходзіць ад адных продкаў, родны па крыві.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_sibling;
+	nrel_twin;
+	nrel_child;
+	nrel_parent;
+	nrel_daughter_of_parent_s_cousin;
+	nrel_son_of_parent_s_cousin;
+	nrel_great_niece;
+	nrel_daughter_of_parent_s_sibling;
+	nrel_daughter_of_grandparent_s_sibling;
+	nrel_son_of_parent_s_sibling;
+	nrel_son_of_grandparent_s_sibling;
+	nrel_great_nephew;
+	nrel_grandfather;
+	nrel_uncle;
+	nrel_nephew;
+	nrel_niece;
+	nrel_great_grandmother;
+	nrel_great_grandson;
+	nrel_great_granddaughter;
+	nrel_great_grandfather;
+
+=>nrel_using_example:"file://content/nrel_kinsman.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

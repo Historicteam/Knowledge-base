@@ -1,0 +1,14 @@
+concept_leisure_organization
+=>nrel_main_idtf:
+	[көңілді уақыт өткізу ұйымы] (* <-lang_kz;; *);
+
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Көңілді уақыт өткізу ұйымы - қызығушылық тегін қызмет.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

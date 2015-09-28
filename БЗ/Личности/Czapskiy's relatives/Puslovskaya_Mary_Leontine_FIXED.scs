@@ -1,0 +1,34 @@
+Puslovskaya_Mary_Leontine
+=> nrel_main_idtf:
+	[Пусловская Мария Леонтина]
+	(*
+	<- lang_ru;;
+	*);
+	[Puslovskaya Mary Leontine]
+	(*
+	<- lang_en;;
+	*);
+	[Пуслоўская Марыя Леанціна]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Гуттен-Чапская Мария Леонтина]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten_Czapskaya Mary Leontine]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапская Марыя Леанціна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapskaya;
+=>nrel_surname: surname_Puslovskaya;
+=>nrel_first_name: name_Mary;
+=>nrel_middle_name: name_Lieontine;
+<= nrel_parent: Czapsky_Leon_Bogdan; Czapsky_Emerick_August_Vojtech; Czapskaya_Elizabeth_Karlovna;;

@@ -1,0 +1,24 @@
+rrel_awarded
+=> nrel_main_idtf:
+	[награждён'] (* <- lang_ru;; *);
+	[awarded'] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	Definition_of_rrel_awarded
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Награда' - это ролевое отношение, связывающее множество с определённой наградой.] (* <-lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: [Awarded' is a role relation which connects a set with a certain award.] (* <-lang_en;; *);; 
+		*);;
+	*);;
+
+Definition_of_rrel_awarded
+=> nrel_main_idtf:
+	[Определение ролевого отношения "награждён'"] (* <- lang_ru;; *);
+	[Definition of the "awarded'" role relation] (* <- lang_en;; *);;

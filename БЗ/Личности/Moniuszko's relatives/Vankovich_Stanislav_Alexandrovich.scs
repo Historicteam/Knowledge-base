@@ -1,0 +1,19 @@
+Vankovich_Stanislav_Alexandrovich
+=> nrel_main_idtf:
+	[Ванькович Станислав Александрович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Stanislav Alexandrovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч  Станіслаў Аляксандравіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Vankovich;
+=>nrel_first_name: name_Stanislav;
+<=nrel_parent:Vankovich_Edvard_Stanislavovich;;

@@ -1,0 +1,14 @@
+Warsaw
+=> nrel_main_idtf:
+	[Варшава]
+	(*
+	<- lang_ru;;
+	*);
+	[Warsaw]
+	(*
+	<- lang_en;;
+	*);
+	[Варшава]
+	(*
+	<- lang_by;;
+	*);;

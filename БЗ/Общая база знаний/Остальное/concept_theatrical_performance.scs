@@ -1,0 +1,39 @@
+concept_theatrical_performance
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[театральный спектакль]
+	(*
+	<- lang_ru;;
+	*);
+	[theatrical performance]
+	(*
+	<- lang_en;;
+	*);
+	[тэатральны спектакль]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Театральный спектакль — произведение сценического искусства поставленное на театральной сцене.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Тэатральны спектакль - твор сцэнічнага мастацтва пастаўлены на тэатральнай сцэне.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

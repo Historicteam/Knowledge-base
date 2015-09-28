@@ -1,0 +1,11 @@
+estste_Stankov
+=> nrel_main_idtf:
+	[Станьков]
+	(*
+	<- lang_ru;;
+	*);
+	[Stankov]
+	(*
+	<- lang_en;;
+	*);
+<-concept_estate;;

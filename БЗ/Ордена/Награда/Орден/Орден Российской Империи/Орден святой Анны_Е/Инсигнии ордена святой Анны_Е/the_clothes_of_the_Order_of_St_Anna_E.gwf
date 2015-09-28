@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/group" idtf="sc_statement" shapeColor="0" id="160178576" parent="0" left="0" top="0" right="80.2031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="690.5" y="377.971" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160349336" parent="0" x="95.8494" y="134.147" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[одежды ордена Святой Анны]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160346344" parent="0" x="93.8494" y="19.1471" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[одежды ордена Св. Анны]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160343080" parent="0" x="95.8494" y="183.147" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[the clothes of the Order of Saint Anna]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160339976" parent="0" x="92.8494" y="72.1471" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[the clothes of the Order of St. Anna]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160336672" parent="0" x="671.712" y="93.1364" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Description of the clothes of the Order of St. Anna]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160333432" parent="0" x="1388.69" y="643.325" haveBus="false" idtf_pos="0">
+            <content type="4" mime_type="image/png" content_visibility="true" file_name="erthggggggg.png"><![CDATA[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]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160242256" parent="0" x="514.944" y="665.055" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Image of the clothes of the Order of St. Anna]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="Image_of_the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160314024" parent="0" left="0" top="0" right="283.328" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="995.142" y="644.345" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160299984" parent="0" left="0" top="0" right="224.172" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="741.015" y="642.315" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Image_of_the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160285472" parent="0" left="0" top="0" right="283.328" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="379.944" y="575.056" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Description_of_the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160269696" parent="0" left="0" top="0" right="312.141" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="810.5" y="317.971" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160256792" parent="0" left="0" top="0" right="224.172" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="479.902" y="313.005" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Description_of_the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160242408" parent="0" left="0" top="0" right="312.141" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="536.712" y="3.13636" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160227800" parent="0" left="0" top="0" right="224.172" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="538.05" y="852.863" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="the_clothes_of_the_Order_of_St_Anna" shapeColor="0" id="160203432" parent="0" left="0" top="0" right="224.172" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-42.1506" y="-18.8529" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="clothes_of_an_order" shapeColor="0" id="160190888" parent="0" left="0" top="0" right="123.109" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="328.571" y="853.571" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="160166104" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="619.944" y="605.055" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="160165952" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="619.944" y="665.055" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="160140776" parent="0" left="0" top="0" right="81.4219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1233.72" y="584.878" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="image" shapeColor="0" id="160128000" parent="0" left="0" top="0" right="42.2656" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1510.34" y="642.675" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_illustration" shapeColor="0" id="160112976" parent="0" left="0" top="0" right="87.3281" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="875.142" y="704.345" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="159930912" parent="0" left="0" top="0" right="122.312" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="831.213" y="595.235" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159930648" parent="0" x="1145.14" y="644.345" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="160088080" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="454.944" y="545.056" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="160086768" parent="0" left="0" top="0" right="142.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1087.11" y="595.235" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="160071080" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="32.8494" y="-47.8529" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="160062624" parent="0" left="0" top="0" right="81.4219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1016.04" y="206.143" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="160048440" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1325.69" y="314.833" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="160036880" parent="0" left="0" top="0" right="122.312" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="646.571" y="267.393" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="160036176" parent="0" x="960.5" y="316.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="160023984" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="199.849" y="134.147" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="160011792" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="197.849" y="12.1471" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="159999608" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="200.849" y="183.147" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="159985768" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="197.849" y="72.1471" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="159974264" parent="0" left="0" top="0" right="142.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="902.464" y="267.393" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="159961008" parent="0" left="0" top="0" right="53.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="776.712" y="93.1364" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="159949488" parent="0" left="0" top="0" right="93.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="611.712" y="-26.8636" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="159938120" parent="0" left="0" top="0" right="52.6406" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="776.712" y="33.1364" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159934584" parent="0" x="671.712" y="33.1364" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Описание одежды ордена Святой Анны]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="158663968" parent="0" x="514.944" y="605.055" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Изображение одежды ордена Святой Анны]]></content>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="159918392" parent="0" left="0" top="0" right="52.625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="198" y="248.59" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="159862864" parent="0" left="0" top="0" right="52.625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="200" y="310.59" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159859656" parent="0" x="94" y="255.59" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[адзенне ордэна Св. Ганны]]></content>
+        </node>
+        <node type="node/const/relation" idtf="nrel_idtf" shapeColor="0" id="159847464" parent="0" left="0" top="0" right="58.2969" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="20.5" y="223.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159844296" parent="0" x="98" y="310.59" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[адзенне ордэна Святой Ганны]]></content>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="159832176" parent="0" left="0" top="0" right="52.625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="763.5" y="152.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="158592088" parent="0" x="658.5" y="152.5" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Апісанне адзення ордэна Святой Ганны]]></content>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="159816160" parent="0" left="0" top="0" right="81.4219" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1011.04" y="351.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159813696" parent="0" x="952.5" y="389.857" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="159799160" parent="0" left="0" top="0" right="142.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="832.464" y="405.75" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="159774728" parent="0" left="0" top="0" right="52.625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1317.69" y="388.19" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159779664" parent="0" x="1196.04" y="388.838" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Ордэнскае адзенне ордэна Св. Ганны - чырвоная аксамітная парча, падкладзеная тафтай жоўтага колеру, з залатым глазетавым крагенам і залатымі шнуркамі і пэндзлямі. На парчы, з правага боку, нашыта ордэнская зорка; супервест сярэбраны, глазетавы; чырвоны аксамітны капялюш з пёрамі і нашытым на ёй крыжам.]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159736656" parent="0" x="1204.04" y="315.481" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Орденские одежды ордена Св. Анны – красная бархатная епанча, подложенная тафтой желтого цвета, с золотым глазетовым крагеном и золотыми шнурками и кистями. На епанче, на правой стороне, нашита орденская звезда; супервест серебряный, глазетовый; красная бархатная шляпа с перьями и нашитым на ней крестом.]]></content>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="159624752" parent="0" left="0" top="0" right="52.625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="617" y="726" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="159443080" parent="0" x="512" y="726" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Малюнак адзення ордэна Святого Ганны]]></content>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160396024" parent="0" id_b="160398264" id_e="158663968" b_x="0" b_y="0" e_x="514.944" e_y="605.055" dotBBalance="0.128631" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160395288" parent="0" id_b="160398264" id_e="160242256" b_x="0" b_y="0" e_x="514.944" e_y="665.055" dotBBalance="0.626556" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160394552" parent="0" id_b="159930648" id_e="160314024" b_x="1145.14" b_y="644.345" e_x="995.142" e_y="644.345" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160393816" parent="0" id_b="160396760" id_e="160349336" b_x="0" b_y="0" e_x="95.8494" e_y="134.147" dotBBalance="0.398579" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160393080" parent="0" id_b="160396760" id_e="160346344" b_x="0" b_y="0" e_x="93.8494" e_y="19.1471" dotBBalance="0.0677938" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160392344" parent="0" id_b="160397392" id_e="159934584" b_x="0" b_y="0" e_x="671.712" e_y="33.1364" dotBBalance="0.128631" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160391608" parent="0" id_b="160396760" id_e="160339976" b_x="0" b_y="0" e_x="92.8494" e_y="72.1471" dotBBalance="0.226929" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160390872" parent="0" id_b="160397392" id_e="160336672" b_x="0" b_y="0" e_x="671.712" e_y="93.1364" dotBBalance="0.626556" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160390136" parent="0" id_b="160396760" id_e="160343080" b_x="0" b_y="0" e_x="95.8494" e_y="183.147" dotBBalance="0.539718" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160389400" parent="0" id_b="160036176" id_e="160269696" b_x="960.5" b_y="316.5" e_x="810.5" e_y="317.971" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160388664" parent="0" id_b="160396760" id_e="159859656" b_x="0" b_y="0" e_x="94" e_y="255.59" dotBBalance="0.738686" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160387928" parent="0" id_b="160396760" id_e="159844296" b_x="0" b_y="0" e_x="98" e_y="310.59" dotBBalance="1.11797" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160387192" parent="0" id_b="160397392" id_e="158592088" b_x="0" b_y="0" e_x="658.5" e_y="152.5" dotBBalance="0.911267" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160386456" parent="0" id_b="159813696" id_e="160269696" b_x="952.5" b_y="389.857" e_x="810.5" e_y="317.971" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="160385776" parent="0" id_b="160398264" id_e="159443080" b_x="0" b_y="0" e_x="512" e_y="726" dotBBalance="0.824262" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160385040" parent="0" id_b="160140776" id_e="160380624" b_x="1233.72" b_y="584.878" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.334559">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160384304" parent="0" id_b="160112976" id_e="160314024" b_x="875.142" b_y="704.345" e_x="995.142" e_y="644.345" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160383568" parent="0" id_b="160128000" id_e="160333432" b_x="1510.34" b_y="642.675" e_x="1388.69" e_y="643.325" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160382832" parent="0" id_b="160165952" id_e="160242256" b_x="619.944" b_y="665.055" e_x="514.944" e_y="665.055" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160382096" parent="0" id_b="160166104" id_e="158663968" b_x="619.944" b_y="605.055" e_x="514.944" e_y="605.055" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160381360" parent="0" id_b="160088080" id_e="160396024" b_x="454.944" b_y="545.056" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.248963">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160380624" parent="0" id_b="159930648" id_e="160333432" b_x="1145.14" b_y="644.345" e_x="1388.69" e_y="643.325" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160379888" parent="0" id_b="160088080" id_e="160395288" b_x="454.944" b_y="545.056" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.622407">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160379152" parent="0" id_b="159930912" id_e="160377680" b_x="831.213" b_y="595.235" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.665441">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160378416" parent="0" id_b="160086768" id_e="160394552" b_x="1087.11" b_y="595.235" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.376033">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160377680" parent="0" id_b="160314024" id_e="160299984" b_x="995.142" b_y="644.345" e_x="741.015" e_y="642.315" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160376944" parent="0" id_b="159847464" id_e="160393816" b_x="20.5" b_y="223.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.626406">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160376208" parent="0" id_b="159847464" id_e="160390136" b_x="20.5" b_y="223.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.25151">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160375472" parent="0" id_b="160062624" id_e="160371056" b_x="1016.04" b_y="206.143" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.334559">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160374736" parent="0" id_b="159974264" id_e="160389400" b_x="902.464" b_y="267.393" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.376033">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160374000" parent="0" id_b="159999608" id_e="160343080" b_x="200.849" b_y="183.147" e_x="95.8494" e_y="183.147" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160373264" parent="0" id_b="160036880" id_e="160372528" b_x="646.571" b_y="267.393" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.665441">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160372528" parent="0" id_b="160269696" id_e="160256792" b_x="810.5" b_y="317.971" e_x="479.902" e_y="313.005" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160371792" parent="0" id_b="160071080" id_e="160391608" b_x="32.8494" b_y="-47.8529" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.622407">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160371056" parent="0" id_b="160036176" id_e="159736656" b_x="960.5" b_y="316.5" e_x="1204.04" e_y="315.481" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160370320" parent="0" id_b="160048440" id_e="159736656" b_x="1325.69" b_y="314.833" e_x="1204.04" e_y="315.481" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160369584" parent="0" id_b="160178576" id_e="160269696" b_x="690.5" b_y="377.971" e_x="810.5" e_y="317.971" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160368848" parent="0" id_b="160071080" id_e="160393080" b_x="32.8494" b_y="-47.8529" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.248963">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160368112" parent="0" id_b="159985768" id_e="160339976" b_x="197.849" b_y="72.1471" e_x="92.8494" e_y="72.1471" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160367376" parent="0" id_b="160023984" id_e="160349336" b_x="199.849" b_y="134.147" e_x="95.8494" e_y="134.147" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160366640" parent="0" id_b="159961008" id_e="160336672" b_x="776.712" b_y="93.1364" e_x="671.712" e_y="93.1364" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160114344" parent="0" id_b="159938120" id_e="159934584" b_x="776.712" b_y="33.1364" e_x="671.712" e_y="33.1364" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160062360" parent="0" id_b="160011792" id_e="160346344" b_x="197.849" b_y="12.1471" e_x="93.8494" e_y="19.1471" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160363624" parent="0" id_b="159949488" id_e="160390872" b_x="611.712" b_y="-26.8636" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.622407">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160362888" parent="0" id_b="159949488" id_e="160392344" b_x="611.712" b_y="-26.8636" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.248963">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160362152" parent="0" id_b="160190888" id_e="160227800" b_x="328.571" b_y="853.571" e_x="538.05" e_y="852.863" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160361416" parent="0" id_b="159862864" id_e="159844296" b_x="200" b_y="310.59" e_x="98" e_y="310.59" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160360680" parent="0" id_b="159918392" id_e="159859656" b_x="198" b_y="248.59" e_x="94" e_y="255.59" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160359944" parent="0" id_b="160071080" id_e="160388664" b_x="32.8494" b_y="-47.8529" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.282127">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160359144" parent="0" id_b="159847464" id_e="160387928" b_x="20.5" b_y="223.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.357657">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160358456" parent="0" id_b="159832176" id_e="158592088" b_x="763.5" b_y="152.5" e_x="658.5" e_y="152.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160357720" parent="0" id_b="159949488" id_e="160387192" b_x="611.712" b_y="-26.8636" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.513185">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160356984" parent="0" id_b="159816160" id_e="160354976" b_x="1011.04" b_y="351.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.334559">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160353056" parent="0" id_b="159799160" id_e="160386456" b_x="832.464" b_y="405.75" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.376033">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160354976" parent="0" id_b="159813696" id_e="159779664" b_x="952.5" b_y="389.857" e_x="1196.04" e_y="388.838" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160354240" parent="0" id_b="159774728" id_e="159779664" b_x="1317.69" b_y="388.19" e_x="1196.04" e_y="388.838" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160353504" parent="0" id_b="159624752" id_e="159443080" b_x="617" b_y="726" e_x="512" e_y="726" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="160352544" parent="0" id_b="160088080" id_e="160385776" b_x="454.944" b_y="545.056" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.211503">
+            <points/>
+        </arc>
+        <bus type="" idtf="" shapeColor="0" id="160398264" parent="0" owner="160285472" b_x="379.944" b_y="584.556" e_x="379.944" e_y="620.055">
+            <points>
+                <point x="379.944" y="710.055"/>
+                <point x="379.944" y="605.055"/>
+            </points>
+        </bus>
+        <bus type="" idtf="" shapeColor="0" id="160397392" parent="0" owner="160242408" b_x="536.712" b_y="12.6364" e_x="536.712" e_y="48.1364">
+            <points>
+                <point x="536.712" y="138.136"/>
+                <point x="536.712" y="33.1364"/>
+            </points>
+        </bus>
+        <bus type="" idtf="" shapeColor="0" id="160396760" parent="0" owner="160203432" b_x="-42.0194" b_y="-9.35381" e_x="-42.1506" e_y="26.1471">
+            <points>
+                <point x="-37.1506" y="343.147"/>
+                <point x="-42.1506" y="11.1471"/>
+            </points>
+        </bus>
+    </staticSector>
+</GWF>

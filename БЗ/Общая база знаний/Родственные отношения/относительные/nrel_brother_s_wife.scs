@@ -1,0 +1,32 @@
+nrel_brother_s_wife
+=>nrel_idtf:
+	[невестка*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[жена брата*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[sister-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[brother's wife*] (* <-lang_en;; *);
+=>nrel_idtf:
+	[невестка*] (* <-lang_by;; *);
+=>nrel_main_idtf:
+	[жонка брата*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Невестка — замужняя женщина по отношению к братьям и сестрам её мужа.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Нявестка — замужняя жанчына ў адносінах да братоў і сёсцёр яе мужа.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_brother_s_wife.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

@@ -1,0 +1,25 @@
+concept_peasant_proprietors
+=>nrel_main_idtf:
+	[крестьяне-собственники] (* <-lang_ru;; *);
+	[peasant proprietors] (* <-lang_en;; *);
+	[сяляне-ўласнікі] (* <-lang_by;; *);;
+
+Definition_peasant_proprietors
+	=>nrel_main_idtf:
+		[Определение панятия "крестьяне-собственники"] (* <-lang_ru;; *);
+		[Азначэнне паняцця "сяляне-ўласнікі"] (* <-lang_by;; *);;
+
+concept_peasant_proprietors
+	<- rrel_key_sc_element: Definition_peasant_proprietors
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:
+	[Крестьяне-собственники - это крестьяне, которые вышли из крепостной зависимости и приобрели в собственность земельные угодья.] (* <-lang_ru;; *);; *);
+			...
+			(* -> rrel_example:
+	[Сяляне-ўласнікі - гэта сяляне, якія выйшлі з прыгоннай залежнасці і набылі ва ўласнасць зямельныя ўгоддзі.] (* <-lang_by;; *);;
+	*);;
+*);;
+
+

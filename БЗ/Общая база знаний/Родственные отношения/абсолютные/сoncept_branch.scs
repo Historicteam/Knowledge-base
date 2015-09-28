@@ -1,0 +1,23 @@
+concept_branch
+=>nrel_main_idtf:
+	[ветвь] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[branch] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[галіна] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Ветвь — линия родства.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Галіна - лінія сваяцтва.] (* <-lang_by;; *);;
+		*);;
+	*);
+<-sc_const;;

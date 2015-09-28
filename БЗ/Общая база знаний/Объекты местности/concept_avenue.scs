@@ -1,0 +1,40 @@
+concept_avenue
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[проспект]
+	(*
+	<- lang_ru;;
+	*);
+	[avenue]
+	(*
+	<- lang_en;;
+	*);
+	[праспект]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+-> rrel_example:
+			[Проспект — элемент инфраструктуры населённого пункта, прямая, длинная и широкая улица в городе.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Праспект - элемент інфраструктуры населенага пункта, прамая, доўгая і шырокая вуліца ў горадзе.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

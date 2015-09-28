@@ -1,0 +1,14 @@
+concept_cultural_and_elucidative_organization
+=>nrel_main_idtf:
+	[мәдени және білім беру ұйымы] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Мәдени және білім беру ұйымы - адамның рухани, ғылыми және кәсіби қажеттіліктерін қанағаттандыру үшін құрылған ұйым.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

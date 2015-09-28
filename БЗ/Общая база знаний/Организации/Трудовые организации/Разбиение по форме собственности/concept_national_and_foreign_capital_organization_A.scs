@@ -1,0 +1,32 @@
+concept_national_and_foreign_capital_organization
+=>nrel_main_idtf:
+	[совместная с иностранным капиталом организация] (* <-lang_ru;; *);
+	[national and foreign capital organization] (* <-lang_en;; *);
+	[сумесная з замежным капіталам арганізацыя] (* <-lang_by;; *);
+	
+<-rrel_key_sc_element:
+	Definition_of_the_national_and_foreign_capital_organization_concept  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "совместная с иностранным капиталом организация"] (* <-lang_ru;; *);
+		[Definition of the national and foreign capital organization concept] (* <-lang_en;; *);
+		[Вызначэнне паняцця "сумесная з замежным капіталам арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Cовместная с иностранным капиталом организация - это собственность на одно и то же имущество двух или более лиц национального и иностранного гражданства.] (* <-lang_ru;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [National and foreign capital organization is a property of two or more persons with national and foreign citizenship.] (* <-lang_en;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [Сумесная з замежным капіталам арганізацыя - гэта ўласнасць на адну і тую ж маёмасць двух або больш асоб нацыянальнага і замежнага грамадзянства.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;
+<-sc_const;;

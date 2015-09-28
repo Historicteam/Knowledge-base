@@ -1,0 +1,22 @@
+Pole_house
+<- concept_building;
+
+=> nrel_main_idtf:
+	[Дом Поляка] (* <- lang_ru;; *);
+	[Pole house] (* <- lang_en;; *);
+	[Дом Паляка] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Picture_House_Pole (*
+	=> nrel_main_idtf:
+		[Изображение дома Поляка] (* <- lang_ru;; *);
+		[Picture House Pole] (* <- lang_en;; *);
+		[Выява дома Поляка] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation:
+		... (*
+		-> rrel_example: "file://contents//Дом Поляка.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

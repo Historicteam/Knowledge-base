@@ -1,0 +1,21 @@
+nrel_birthday
+=> nrel_main_idtf:
+	[туған кун*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[туған кун - адам мен оның туылған кунін байланыстыратын бинарлы қатынас.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

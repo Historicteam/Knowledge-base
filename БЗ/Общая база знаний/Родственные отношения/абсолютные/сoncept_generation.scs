@@ -1,0 +1,21 @@
+concept_generation
+=>nrel_main_idtf:
+	[колено] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[generation] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[калена] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Колено — разветвление рода, поколение в родословной.] (* <-lang_ru;; *);;
+		-> [Калена - разгалінаванне роду, пакаленне ў радаводзе.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;;

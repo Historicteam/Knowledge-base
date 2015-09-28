@@ -1,0 +1,15 @@
+Vilna_Municipal_Theatre
+=> nrel_main_idtf:
+	[Виленский городской театр]
+	(*
+	<- lang_ru;;
+	*);
+	[Vilna Municipal Theatre]
+	(*
+	<- lang_en;;
+	*);
+	[Віленскі гарадскі тэатр]
+	(*
+	<- lang_by;;
+	*)
+;;

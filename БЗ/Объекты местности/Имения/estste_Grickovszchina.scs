@@ -1,0 +1,15 @@
+estste_Grickovszchina
+=> nrel_main_idtf:
+	[Грыцковшчына]
+	(*
+	<- lang_ru;;
+	*);
+	[Grickovszchina]
+	(*
+	<- lang_en;;
+	*);
+	[Грыцкоўшчына]
+	(*
+	<- lang_by;;
+	*);
+<-concept_estate;;

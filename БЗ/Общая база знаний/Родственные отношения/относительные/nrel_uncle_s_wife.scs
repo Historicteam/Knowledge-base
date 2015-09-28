@@ -1,0 +1,23 @@
+nrel_uncle_s_wife
+=>nrel_main_idtf:
+	[жена дяди*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[uncle's wife*] (* <-lang_en;; *);
+=>nrel_idtf:
+	[тётя*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[aunt*] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Тётя — жена брата отца или матери.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_uncle_s_wife.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

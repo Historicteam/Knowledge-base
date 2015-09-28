@@ -1,0 +1,56 @@
+Female_Basilian_Monastery_Building
+<- concept_terrain_object;
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание женского базилианского монастыря]	
+	(*
+	<- lang_ru;;
+	*);
+	[Female Basilian Monastery Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак жаночага базільянскага манастыра]	
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Детская музыкальная школа имени Глебова]	
+	(*
+	<- lang_ru;;
+	*);
+	[Children's music school named after Glebov]
+	(*
+	<- lang_en;;
+	*);
+	[Дзіцячая музычная школа імя Глебава]	
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/wommon1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/wommon2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*)
+;;
+
+

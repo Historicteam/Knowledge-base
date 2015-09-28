@@ -1,0 +1,24 @@
+concept_family
+=>nrel_main_idtf:
+	[семья] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[family] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[сям'я] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Семья — группа живущих вместе родственников.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Сям'я — група сваякоў, якія жывуць разам.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;;

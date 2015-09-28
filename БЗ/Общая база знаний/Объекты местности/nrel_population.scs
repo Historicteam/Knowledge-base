@@ -1,0 +1,46 @@
+nrel_population
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[численность населения*]
+	(*
+	<- lang_ru;;
+	*);
+	[population*]
+	(*
+	<- lang_en;;
+	*);
+	[колькасць насельніцтва*]
+	(*
+	<- lang_by;;
+	*);
+//=> nrel_first_domain:concept_terrain_object;
+=> nrel_second_domain:concept_quantity;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Численность населения* — абсолютная моментная величина, отражающая количественные размеры общества, проживающего на определённой территории.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Колькасць насельніцтва* - абсалютная Моментная велічыня, якая адлюстроўвае колькасныя памеры грамадства, якое пражывае на пэўнай тэрыторыі.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

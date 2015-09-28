@@ -1,0 +1,36 @@
+concept_cultural_organization
+=>nrel_main_idtf:
+	[культурная организация] (* <-lang_ru;; *);
+	[cultural organization] (* <-lang_en;; *);
+	[культурная арганізацыя] (* <-lang_by;; *);
+	
+<-rrel_key_sc_element:
+	...  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "культурная организация"] (* <-lang_ru;; *);
+		[Definition of the cultural organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "культурная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Культурная организация – это добровольное объединение граждан определенной национальности, как правило, имеющее форму общественного объединения и созданное с целью удовлетворения потребностей в общении с представителями своей национальности, сохранения и популяризации этнической культуры, восстановления ее утраченных элементов, а также сохранения родного языка и этнической самобытности.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Cultural organization is a voluntary association of certain nationality people which usually takes the form of a public association and created to satisfy the needs in communication with representatives of their nationality, to promote their ethnic culture, to restore its lost elements and to preserve their native language and ethnic identity.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Культурная арганізацыя - гэта добраахвотнае аб'яднанне грамадзян пэўнай нацыянальнасці, як правіла, якое мае форму грамадскага аб'яднання і створанае з мэтай задавальнення патрэбаў ў зносінах з прадстаўнікамі сваёй нацыянальнасці, захавання і папулярызацыі этнічнай культуры, аднаўлення яе згубленых элементаў, а таксама захавання роднай мовы і этнічнай самабытнасці.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+-> organization_Minsk_Municipal_Public_Library_named_after_Pushkin;
+
+=>nrel_inclusion: 
+	concept_monastery;
+	concept_catholic_church;
+<-sc_node_not_relation;	
+<-sc_const;;

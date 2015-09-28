@@ -1,0 +1,96 @@
+Vojnilovich_Edvard_Adamavich
+=> nrel_main_idtf:
+	[Войнилович Эдвард Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vojnilovich Edvard Adamavich]
+	(*
+	<- lang_en;;
+	*);
+	[Вайнiловiч Эдвард Адамавiч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+<-concept_statesman;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Vojnilovich_Edvard_Adamavich.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+=>nrel_surname: surname_Vojnilovich;
+=>nrel_first_name: name_Edvard;
+=>nrel_middle_name: name_Antonij;
+=>nrel_middle_name: name_Leonard;
+
+=>nrel_date_of_birth: 19_10_1847
+	(*
+	=> nrel_main_idtf:
+		[19 октября 1847 года]
+		(*
+		<- lang_ru;;
+		*);
+		[October 19, 1847]
+		(*
+		<- lang_en;;
+		*);
+		[19 кастрычнiка 1847 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_birth:the_city_of_Minsk;
+=>nrel_dwelling:estste_Savichi;estste_Slienianka;
+<=nrel_student:organization_Sluck_Gymnasium;
+	organization_Imperial_St_Petersburg_Technological_Institute;
+	organization_Sorbonne;
+	organization_College_de_France;
+	organization_Prushkovskaya_Agricultural_Academy;
+<=nrel_employee:organization_Putilov_factory;
+	organization_doctor_Shtrousbergs_locomotives_factory;
+	organization_The_State_Council_of_the_Russian_Empire;
+	organization_Minsk_Society_of_Agriculture;
+=>nrel_teacher:Mendeleev_Dmitrij_Ivanovich;Mickievich_Adam_Bernard;
+<=nrel_founder:organization_Minsk_Society_of_Agriculture;building_of_Red_Church;
+<=>nrel_friend:Stolypin_Peter_Arkadjevich;
+<=nrel_author:Memories(*
+	=> nrel_main_idtf:
+		["Воспоминания"]
+		(*
+		<- lang_ru;;
+		*);
+		["Memories"]
+		(*
+		<- lang_en;;
+		*);
+		["Успаміны"]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_death:the_city_of_Bydgoszcz;
+=>nrel_date_of_death: 16_06_1928
+	(*
+	=> nrel_main_idtf:
+		[16 июня 1928  года]
+		(*
+		<- lang_ru;;
+		*);
+		[June 16, 1928]
+		(*
+		<- lang_en;;
+		*);
+		[16 чэрвеня 1928 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);;

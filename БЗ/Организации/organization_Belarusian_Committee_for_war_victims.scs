@@ -1,0 +1,32 @@
+organization_Belarus_Committee_for_Aid_to_the_WWI_victims
+=> nrel_main_idtf:
+	[Белорусский комитет помощи жертвам войны]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarus Committee for Aid to the WWI victims]
+	(*
+	<- lang_en;;
+	*);
+	[Беларускі камітэт дапамогі ахвярам вайны]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location:building_Przhelyaskovskiys_House
+	(*
+	<- concept_building;;
+	=> nrel_main_idtf:
+		[дом Пржэлясковского]
+		(*
+		<- lang_ru;;
+		*);
+		[Przhelyaskovskiy's House]
+		(*
+		<- lang_en;;
+		*);
+		[дом Пржэляскаўскага]
+		(*
+		<- lang_by;;
+		*);;
+	*);;
+

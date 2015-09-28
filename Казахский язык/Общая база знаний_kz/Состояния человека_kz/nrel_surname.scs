@@ -1,0 +1,21 @@
+nrel_surname
+=> nrel_main_idtf:
+	[тек*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[тек - ұрпақ бойынша тарайтын аталық аты, сол тұлғаны бір руға тіркейтін және бір жанұяға жатқызатын.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

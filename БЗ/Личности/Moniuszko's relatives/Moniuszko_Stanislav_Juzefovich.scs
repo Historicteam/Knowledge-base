@@ -1,0 +1,20 @@
+Moniuszko_Stanislav_Juzefovich
+=> nrel_main_idtf:
+	[Монюшко Станислав Юзефович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Stanislav Juzefovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Станіслаў Юзэфавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Stanislav;
+<= nrel_parent: Moniuszko_Chieslav_Stanislavovich; Moniuszko_Kazimir_Stanislavovich; Moniuszko_Alieksandr_Stanislavovich; Moniuszko_Ihnatij_Stanislavovich; 
+Moniuszko_Juzef_Stanislavovich; Moniuszko_Dominik_Stanislavovich; Moniuszko_Mikhalina_Stanislavovna;
+<=>nrel_spouse: Vojnilovich_Jeva;;

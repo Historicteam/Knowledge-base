@@ -1,0 +1,83 @@
+scp_program -> proc_show_time_of_belonging(*
+  -> rrel_params: ... (*
+    -> rrel_1: rrel_in: rrel_fixed: rrel_scp_var: _inElement;;
+    -> rrel_2: rrel_in: rrel_fixed: rrel_scp_var: _inSet;;
+    -> rrel_3: rrel_out: rrel_assign: rrel_scp_var: _outTime;;
+  *);;
+  -> rrel_operators: ... (* 
+    -> rrel_init: ..operator1 (*
+      <- genEl;;
+      -> rrel_1: rrel_assign: rrel_scp_var: rrel_node: _outTime;;
+      => nrel_goto: ..operator2;;
+    *);;
+    -> ..operator2 (*
+      <- searchSetStr5;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _inSet;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _tmp1;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _inElement;;
+      -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _tmp2;;
+      -> rrel_5: rrel_assign: rrel_scp_var: _timePoint;;
+      -> rrel_set_5: rrel_assign: rrel_scp_var: _tmpset;;
+      => nrel_goto: ..operator3;;
+    *);;	
+    
+    -> ..operator3 (*
+      <- call;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: proc_search_max;;
+      -> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+        -> rrel_1: rrel_fixed: rrel_scp_var: _tmpset;;
+        -> rrel_2: rrel_assign: rrel_scp_var: _max;;
+      *);;
+      -> rrel_3: rrel_assign: rrel_scp_var: _process;;
+      => nrel_goto: ..operator4;;
+    *);;
+    -> ..operator4 (*
+      <- waitReturn;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _process;;
+      => nrel_goto: ..operator5;;
+    *);;
+    -> ..operator5 (*
+      <- genElStr5;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _outTime;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_arc: rrel_pos_const_perm: _tmp1;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _max;;
+      -> rrel_4: rrel_assign: rrel_scp_var: rrel_arc: rrel_pos_const_perm: _tmp2;;
+      -> rrel_5: rrel_fixed: rrel_scp_const: rrel_end;;
+      => nrel_goto: ..operator6;;
+    *);;
+    -> ..operator6 (*
+      <- call;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: proc_search_min;;
+      -> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+        -> rrel_1: rrel_fixed: rrel_scp_var: _tmpset;;
+        -> rrel_2: rrel_assign: rrel_scp_var: _min;;
+      *);;
+      -> rrel_3: rrel_assign: rrel_scp_var: _process;;
+      => nrel_goto: ..operator7;;
+    *);;
+    -> ..operator7 (*
+      <- waitReturn;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _process;;
+      => nrel_goto: ..operator8;;
+    *);;
+    -> ..operator8 (*
+      <- genElStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _outTime;;
+      -> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _tmp1;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _min;;
+      => nrel_goto: ..operator9;;
+    *);;
+    -> ..operator9 (*
+      <- genElStr5;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _min;;
+      -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _tmp1;;
+      -> rrel_3: rrel_fixed: rrel_scp_var: _max;;
+      -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _tmp2;;
+      -> rrel_5: rrel_fixed: rrel_scp_var: _outTime;;
+      => nrel_goto: ..operator10;;
+    *);;
+    -> ..operator10 (*
+      <- return;;
+    *);;
+  *);;
+*);;

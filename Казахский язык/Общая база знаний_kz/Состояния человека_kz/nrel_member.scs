@@ -1,0 +1,21 @@
+nrel_member
+=> nrel_main_idtf:
+	[мүше*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[мүше - адам мен ұйым арасындағы бинарлы байланыс, сол ұйымның мушесу болып табылатын.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

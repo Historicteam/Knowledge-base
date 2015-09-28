@@ -1,0 +1,17 @@
+organization_Imperial_University_of_Dorpat
+=> nrel_main_idtf:
+	[Императорский Дерптский университет]
+	(*
+	<- lang_ru;;
+	*);
+	[Imperial University of Dorpat]
+	(*
+	<- lang_en;;
+	*);
+	[Імператарскі Дерпцкі універсітэт]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: Imperial_University_of_Dorpat_Building;
+<-concept_university;
+<-concept_educational_institution;;

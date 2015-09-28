@@ -1,0 +1,33 @@
+concept_formal_organization
+=>nrel_main_idtf:
+	[формальная организация] (* <-lang_ru;; *);
+	[formal organization] (* <-lang_en;; *);
+	[фармальная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_formal_organization_concept  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "формальная организация"] (* <-lang_ru;; *);
+		[Definition of the formal organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "фармальная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Формальная организация – это форма отношений внутри официально сформированного коллектива, зафиксированных должностными инструкциями, положениями, приказами и распоряжениями.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Formal organization is a form of relations within any officially formed team which is fixed with job descriptions, regulations, orders and directives.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Фармальная арганізацыя - гэта форма адносін унутры афіцыйна сфармаванага калектыву, зафіксаваных службовымі інструкцыямі, палажэннямі, загадамі і распараджэннямі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+-> organization_Belarus_Committee_for_Aid_to_the_WWI_victims;
+
+<-sc_node_not_relation;	
+<-sc_const;;

@@ -1,0 +1,16 @@
+Ubel_village
+=> nrel_main_idtf:
+	[деревня Убель]
+	(*
+	<- lang_ru;;
+	*);
+	[Ubel village]
+	(*
+	<- lang_en;;
+	*);
+	[вёска Убель]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_photo:
+	"file://Ubel_village.png";;

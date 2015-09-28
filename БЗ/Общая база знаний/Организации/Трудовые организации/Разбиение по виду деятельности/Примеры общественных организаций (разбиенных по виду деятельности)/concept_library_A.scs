@@ -1,0 +1,53 @@
+concept_library
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[библиотека]
+	(*
+	<- lang_ru;;
+	*);
+	[library]
+	(*
+	<- lang_en;;
+	*);
+	[бібліятэка]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_library_concept
+	(*
+	=>nrel_main_idtf:
+		[Определение понятия "библиотека"] (* <-lang_ru;; *);
+		[Definition of the library concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "бібліятэка"] (* <-lang_by;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Библиотека — это учреждение, собирающее и хранящее произведения печати и письменности для общественного пользования, а также осуществляющее справочно-библиографическую работу.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Library is an institution that collects and keeps the product of printing and writing for public use and carries out some bibliographic work.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Бібліятэка - гэта ўстанова, якое збірае і захоўвае творы друку і пісьменства для грамадскага карыстання, а таксама ажыццяўляе даведачна-бібліяграфічную працу.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;
+
+
+

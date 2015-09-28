@@ -1,0 +1,11 @@
+Order_of_St_Anna
+=>nrel_main_idtf:
+	[киелі Аннаның ордені] (* <-lang_kz;; *);;
+	
+Definition_of_the_Order_of_Saint_Anna 
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Киелі Аннаның ордені - мемлекеттік шенеуніктің және әскерінің кең ауқымының өзгелігі үшін ордені.] (* <-lang_kz;; *);; 
+		*);;
+	

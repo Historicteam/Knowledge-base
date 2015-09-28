@@ -1,0 +1,60 @@
+scp_program -> proc_add_connection(*
+  -> rrel_params: ... (*
+    -> rrel_1: rrel_in: rrel_fixed: rrel_scp_var: _answer_main;;
+    -> rrel_2: rrel_in: rrel_fixed: rrel_scp_var: _connection_main;;
+  *);;
+  
+	-> rrel_operators: ... (* 
+    -> rrel_init: ..operator_test1 (*
+      <- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Процедура: добавление узла, по которому произведен запрос, в ответ];;
+      => nrel_goto: ..operator_test2;;
+    *);;
+
+		/// добавление узла, по которому произведен запрос, в ответ
+			-> ..operator_test2
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_main;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _connection_main;;
+
+		  	=> nrel_goto: ..operator_test3;;
+			*);;
+
+		/// поиск concept_male
+		-> ..operator_test3
+			(*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_male;;
+		  -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_t;;
+		  -> rrel_3: rrel_fixed: rrel_scp_var: _connection_main;;
+
+		  => nrel_then: ..operator_test5;;
+      => nrel_else: ..operator_test4;;
+			*);;
+
+		/// поиск concept_women
+		-> ..operator_test4
+			(*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_women;;
+		  -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_t2;;
+		  -> rrel_3: rrel_fixed: rrel_scp_var: _connection_main;;
+
+		  => nrel_then: ..operator_test5;;
+      => nrel_else: ..operator_test_print;;
+			*);;
+
+		-> ..operator_test_print (*
+      <- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [Данный узел не является личностью];;
+      => nrel_goto: ..operator_test5;;
+    *);;
+
+		/// завершение работы процедуры
+    -> ..operator_test5 (*
+      <- return;;
+    *);;
+  *);;
+*);;

@@ -1,0 +1,28 @@
+nrel_stepsister
+=>nrel_main_idtf:
+	[сводная сёстра*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[stepsister*] (* <-lang_en;; *);	
+=>nrel_idtf:
+	[half sister*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[зводныя сёстры*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сводные сёстры — дети, родители которых состоят в браке между собой, но не имеют общих детей.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Зводныя сёстры — дзеці, бацькі якіх знаходзяцца ў шлюбе паміж сабой, але не маюць агульных дзяцей.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_stepsister.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

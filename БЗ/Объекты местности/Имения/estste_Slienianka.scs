@@ -1,0 +1,11 @@
+estste_Slienianka
+=> nrel_main_idtf:
+	[Слепянка]
+	(*
+	<- lang_ru;;
+	*);
+	[Slienianka]
+	(*
+	<- lang_en;;
+	*);
+<-concept_estate;;

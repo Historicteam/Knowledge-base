@@ -1,0 +1,28 @@
+nrel_daughter
+=>nrel_main_idtf:
+	[дочь*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[дочка*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[daughter*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[дачка*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Дочь — женщина, девочка по отношению к родителям.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Дачка — жанчына, дзяўчынка ў адносінах да бацькоў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_daughter.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

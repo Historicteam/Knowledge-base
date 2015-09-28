@@ -1,0 +1,15 @@
+organization_Minsk_Belarusian_teachers_college
+	=> nrel_main_idtf:
+		[Минский Белорусcкий учительский коледж]
+		(*
+			<- lang_ru;;
+		*);
+		[Мінскі Беларускі настаўніцкі каледж]
+		(*
+		<- lang_by;;
+		*);
+		[Minsk Belarusian teacher's college]
+		(*
+		<- lang_en;;
+		*);
+<-concept_educational_institution;;

@@ -1,0 +1,39 @@
+nrel_author
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[автор*]
+	(*
+	<- lang_ru;;
+	*);
+	[author*]
+	(*
+	<- lang_en;;
+	*);
+	[аўтар*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_second_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[автор* - бинарное отношение связывающие вещь и человека который ее изобрел или придумал.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[аўтар* - бінарнае дачыненне,якое злучаець рэч і чалавека які яе вынайшаў ці прыдумаў.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

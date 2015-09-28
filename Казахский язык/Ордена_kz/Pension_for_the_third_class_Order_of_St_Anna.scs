@@ -1,0 +1,15 @@
+Pension_for_the_third_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[3 дәрежелі Қасиетті Анна орденінің зейнетақы] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [3 дәрежелі Қасиетті Анна ордені - бұл 2 дәреже орденіне қарағанда кішірек мойынға арналған крест және омырауына 2,2 см болатын лента.] (* <-lang_kz;; *);; 
+		*);;
+	*);;
+	

@@ -1,0 +1,23 @@
+nrel_wife_s_sister
+=>nrel_idtf:
+	[свояченица*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[sister-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[сестра жены*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[wife's sister*] (* <-lang_en;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Свояченица — женщина по отношению к мужу сестры, сестра жены.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_wife_s_sister.jpg";	
+<-sc_node_norole_relation;;

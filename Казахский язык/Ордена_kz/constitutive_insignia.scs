@@ -1,0 +1,14 @@
+constitutive_insignia
+=>nrel_main_idtf:
+	[айқындаушы инсигния] (* <-lang_kz;; *);;
+	
+Definition_of_a_constitutive_insignia
+=>nrel_main_idtf:
+	[анықтама айқындаушы инсигния] (* <-lang_kz;; *);
+	<- sc_explanation;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Айқындаушы инсигния - бұл билікке енгенде немесе рухани үлестіргенде қолданылатын инсигния. ] (* <-lang_kz;; *);; 
+		*);;
+	

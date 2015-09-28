@@ -1,0 +1,28 @@
+nrel_stepmother
+=>nrel_main_idtf:
+	[мачеха*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[stepmother*] (* <-lang_en;; *);
+=>nrel_idtf:
+	[stepparent*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[мачаха*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Мачеха — не родная мать для детей своего супруга, оставшихся у него от предшествующего брака.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Мачаха — не радная маці для дзяцей свайго мужа, якія засталіся ў яго ад папярэдняга шлюбу.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_stepmother.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

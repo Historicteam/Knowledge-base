@@ -1,0 +1,17 @@
+Moniuszko_Ihnatij_Stanislavovich
+=> nrel_main_idtf:
+	[Монюшко Игнатий Станиславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Ihnatij Stanislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Ігнацій Станіслававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Ihnatij;;

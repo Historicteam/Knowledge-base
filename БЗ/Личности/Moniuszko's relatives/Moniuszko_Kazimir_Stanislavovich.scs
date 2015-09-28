@@ -1,0 +1,18 @@
+Moniuszko_Kazimir_Stanislavovich
+=> nrel_main_idtf:
+	[Монюшко Казимир Станиславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Kazimir Stanislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Казімір Станіслававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Kazimir;;
+

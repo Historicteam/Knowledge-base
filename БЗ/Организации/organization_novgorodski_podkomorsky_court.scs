@@ -1,0 +1,14 @@
+organization_novgorodski_podkomorsky_court
+=> nrel_main_idtf:
+	[новгородский подкоморский суд]
+	(*
+	<- lang_ru;;
+	*);
+	[novgorodski podkomorsky court] 
+	(*
+	<- lang_en;;
+	*);
+	[новагародскi падкаморскі суд]
+	(*
+	<- lang_by;;
+	*);;

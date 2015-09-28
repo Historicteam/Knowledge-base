@@ -1,0 +1,19 @@
+Madzharskaja_Jelizavieta_Lieonovna
+=> nrel_main_idtf:
+	[Маджарская Елизавета Леоновна]
+	(*
+	<- lang_ru;;
+	*);
+	[Madzharskaja Jelizavieta Lieonovna]
+	(*
+	<- lang_en;;
+	*);
+	[Маджарская Лізавета Лявонаўна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_first_name: name_Jelizavieta;
+=>nrel_surname: surname_Madzharskaja;
+=> nrel_parent: Madzharskij_Lieon_Janovich;
+<= nrel_parent: Moniuszko_Stanislav_Chieslavovich;;

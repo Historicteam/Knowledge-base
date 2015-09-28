@@ -1,0 +1,11 @@
+Female_Basilian_Monastery_Building
+=> nrel_main_idtf:
+	[Әйел базилиандық монастыр ғимараты]	
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_idtf:
+	[Глебова атындағы балалар саз мектебі]	
+	(*
+	<- lang_kz;;
+	*);;

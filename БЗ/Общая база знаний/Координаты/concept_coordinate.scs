@@ -1,0 +1,16 @@
+concept_coordinate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[координата]
+	(*
+	<- lang_ru;;
+	*);
+	[coordinate]
+	(*
+	<- lang_en;;
+	*);
+	[каардыната]
+	(*
+	<- lang_by;;
+	*)
+;;

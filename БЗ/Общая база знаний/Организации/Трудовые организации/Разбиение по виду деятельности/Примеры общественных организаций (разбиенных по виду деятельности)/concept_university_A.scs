@@ -1,0 +1,89 @@
+concept_university
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[университет]
+	(*
+	<- lang_ru;;
+	*);
+	[university]
+	(*
+	<- lang_en;;
+	*);
+	[універсітэт]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_university_concept
+	(*
+
+		=> nrel_main_idtf:
+			[Определение понятия "университет"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the university concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "універсітэт"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<=nrel_sc_text_translation:
+			...
+			(*
+			-> rrel_example:
+				[Университет — это высшее учебное заведение, где готовятся специалисты по фундаментальным и прикладным наукам.]
+				(*
+				<- lang_ru;;
+				*);;
+			*);
+
+			...
+			(*
+			-> rrel_example:
+			[University is a higher educational institution which trains specialists in fundamental and applied sciences.]
+				(*
+				<- lang_en;;
+				*);;
+			*);
+
+			...
+			(*
+			-> rrel_example:
+				[Універсітэт - гэта вышэйшая навучальная ўстанова, дзе рыхтуюцца спецыялісты па фундаментальных і прыкладных навуках.]
+				(*
+				<- lang_by;;
+				*);;
+			*);;
+
+		<-sc_definition;;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

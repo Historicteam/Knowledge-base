@@ -1,0 +1,20 @@
+nrel_translation_in_the_Gregorian_calendar_and_Greenwich_Mean_Time
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[translation in the Gregorian calendar and Greenwich Mean Time*]
+	(*
+	<- lang_en;;
+	*);
+	[трансляция в Григорианском календарь и Гринвичское время*]
+	(*
+	<- lang_ru;;
+	*);
+=> nrel_first_domain: 
+	concept_time_point;
+
+=> nrel_second_domain: 
+	concept_time_point_in_format_of_gregorian_calendar
+;;

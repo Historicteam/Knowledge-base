@@ -1,0 +1,63 @@
+// Объявляем sc-агент поисковой операции
+sc_agent_of_search_of_nodes_which_have_no_certain_lang_idtf => nrel_main_idtf:
+					[sc-агент поиска] (* <- lang_ru;; *);
+					[sc-agent of search] (* <- lang_en;; *);
+
+// Указываем, что наш агент принадлежит классу абстрактныхsc-агентов
+<- abstract_sc_agent;
+
+// Указываем начальное условие для нашей операции
+=> nrel_primary_initiation_condition: (sc_event_add_output_arc => question_initiated);
+
+// Указываем начальное условие и результат для нашей операции
+=> nrel_initiation_condition_and_result: 
+		(..sc_agent_of_search_of_nodes_which_have_no_certain_lang_idtf_initiation_condition => ..sc_agent_of_search_of_nodes_which_have_no_certain_lang_idtf_result);
+
+<= nrel_sc_agent_key_sc_elements:
+{
+question_initiated;
+question;
+question_proc_search_of_nodes_which_have_no_certain_lang_idtf
+}; // Описание деятельности sc-агента
+
+<- key_sc_element: ...
+			(*
+				<- sc_description_of_sc_agent_behavior;;
+				<= nrel_sc_text_translation: ...
+								(*-> rrel_example:
+									[Задачей sc-агента поиска является поиск.];;
+								*);;
+			*); // описание первичного условия инициирования sc-агента
+=>nrel_inclusion: ...
+(*
+<- platform_independent_abstract_sc_agent;;
+<= nrel_sc_agent_program:
+			{
+			agent_proc_search_of_nodes_which_have_no_certain_lang_idtf;
+			proc_search_of_nodes_which_have_no_certain_lang_idtf
+			};;
+
+-> sc_agent_of_search_of_nodes_which_have_no_certain_lang_idtf_scp (* <- active_sc_agent;; *);;
+*);;
+
+// условия инициирования агента
+..sc_agent_of_search_of_nodes_which_have_no_certain_lang_idtf_initiation_condition
+= [*
+question_search_of_nodes_which_have_no_certain_lang_idtf _-> .._question;;
+question_initiated _-> .._question;;
+question _-> .._question;;
+.._question _-> .._parameter;;
+*];;
+
+// описание результатов выполнения sc-агента
+..sc_agent_of_search_of_nodes_which_have_no_certain_lang_idtf_result
+= [*
+question_search_of_nodes_which_have_no_certain_lang_idtf _-> .._question;;
+question_finished _-> .._question;;
+question _-> .._question;;
+.._question _=>nrel_answer:: .._answer;;
+.._question _-> .._parameter;;
+*];;
+
+
+

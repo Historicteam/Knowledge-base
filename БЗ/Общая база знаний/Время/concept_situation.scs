@@ -1,0 +1,16 @@
+concept_situation 
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	[ситуация]
+	(*
+	<- lang_ru;;
+	*);
+	[situation]
+	(*
+	<- lang_en;;
+	*);
+	[сітуацыя]
+	(*
+	<- lang_by;;
+	*);;

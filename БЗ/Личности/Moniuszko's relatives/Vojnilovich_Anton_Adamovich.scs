@@ -1,0 +1,20 @@
+Vojnilovich_Anton_Adamovich
+=> nrel_main_idtf:
+	[Войнилович Антон Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vojnilovich Anton Adamovich]
+	(*
+	<- lang_en;;
+	*);
+	[Вайніловіч Антон Адамавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Vojnilovich;
+=>nrel_first_name: name_Anton;
+<=nrel_parent:Vojnilovich_Adam_Antonovich;
+<=>nrel_spouse:Odinec_Teofelija;;

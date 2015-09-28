@@ -1,0 +1,11 @@
+concept_data_in_format_of_the_Gregorian_calendar
+=> nrel_main_idtf: 
+	[data in format of the Gregorian calendar]
+	(*
+	<-lang_en;;
+	*);
+	[дата в формате Грегорианского календаря]
+	(*
+	<-lang_ru;;
+	*)
+;;

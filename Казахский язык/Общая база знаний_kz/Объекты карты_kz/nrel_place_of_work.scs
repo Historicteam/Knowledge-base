@@ -1,0 +1,21 @@
+nrel_place_of_work
+=> nrel_main_idtf:
+	[жұмыс орны*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Жұмыс орны - адам құқықтарын байланыстыратын бинарлық қатынасы мен адам жұмыс істейтін ғимарат.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

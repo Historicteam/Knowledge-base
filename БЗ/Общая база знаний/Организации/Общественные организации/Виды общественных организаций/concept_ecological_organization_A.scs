@@ -1,0 +1,30 @@
+concept_environmental_organization
+=>nrel_main_idtf:
+	[экологическая организация] (* <-lang_ru;; *);
+	[environmental organization] (* <-lang_en;; *);
+	[экалагічная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_environmental_organization_concept
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "экологическая организация"] (* <-lang_ru;; *);
+		[Definition of the environmental organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "экалагічная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Экологическая организация – это объединение людей, целью которых является охрана природы.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Environmental organization is an association of people whose purpose is to protect nature.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Экалагічная арганізацыя - гэта аб'яднанне людзей, мэтай якіх з'яўляецца ахова прыроды.] (* <-lang_by;; *);; 
+		*);;
+	*);	
+<-sc_node_not_relation;
+<-sc_const;;

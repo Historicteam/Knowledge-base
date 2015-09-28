@@ -1,0 +1,35 @@
+nrel_genus
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[род*]
+	(*
+	<- lang_ru;;
+	*);
+	[genus*]
+	(*
+	<- lang_en;;
+	*);
+	[род*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Род - ]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);;
+	*)
+;;

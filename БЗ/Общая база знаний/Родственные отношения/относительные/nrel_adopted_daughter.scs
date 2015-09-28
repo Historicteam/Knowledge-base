@@ -1,0 +1,27 @@
+nrel_adopted_daughter
+=>nrel_main_idtf:
+	[приемная дочь*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[adopted daughter*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[прыёмная дачка*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Приемная дочь — ребенок, который находятся под опекой в приемной семье.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Прыёмная дачка - дзіця, якое знаходзіцца пад апекай ў прыёмнай сям'і.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+=>nrel_using_example:"file://content/nrel_adopted_daughter.jpg";
+	
+<-sc_const;	
+<-sc_node_norole_relation;;

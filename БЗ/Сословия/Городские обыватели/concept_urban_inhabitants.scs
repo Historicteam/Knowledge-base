@@ -1,0 +1,65 @@
+concept_urban_inhabitants
+=>nrel_main_idtf:
+	[городские обыватели] (* <-lang_ru;; *);
+	[urban inhabitants] (* <-lang_en;; *);
+	[гарадскія абывацелі] (* <-lang_by;; *);
+=>nrel_idtf:
+	[Настоящие городские обыватели] (* <-lang_ru;; *);
+	[Сапраўдныя гарадскія абывацелі] (* <-lang_by;; *);
+	[быть городским обывателем] (* <-lang_ru;; *);
+	[быть городским жителем] (* <-lang_ru;; *);
+	[быць гарадскім абывацелем] (* <-lang_by;; *);
+	[быць гарадскім жыхаром] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: The_definition_of_urban_inhabitants
+	(*
+		=>nrel_main_idtf:
+			[Определение понятия "Городские обыватели"] (* <-lang_ru;; *);
+			[The definition of urban inhabitants] (* <-lang_en;; *);
+			[Азначэнне паняцця "Гарадскія абывацелі"] (* <-lang_by;; *);;
+		<-sc_definition;;
+		<= nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: [Городские обыватели – сословие городских жителей.] (* <-lang_ru;; *);;
+			*);
+		...
+			(*
+				-> rrel_example: [Гарадскія абывацелі - саслоўе гарадскіх жыхароў.] (* <-lang_by;; *);;
+			*);;
+	*);
+
+<- rrel_key_sc_element: Definition_of_real_urban_inhabitants
+	(*
+		=>nrel_main_idtf:
+			[Настоящие городские обыватели] (* <-lang_ru;; *);
+			[Real urban inhabitants] (* <-lang_en;; *);
+			[Сапраўдныя гарадскія абывацелі] (* <-lang_by;; *);;
+		<-sc_statement;;
+		<= nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: [Настоящие городские обыватели - люди, которые имеют в этом городе дом или иное строение.] (* <-lang_ru;; *);;
+			*);
+		...
+			(*
+				-> rrel_example: [Сапраўдныя гарадскія абывацелі - людзі, якія маюць у гэтым горадзе дом ці будынак.] (* <-lang_by;; *);;
+			*);;
+	*);;
+
+partition_of_urban_residents_by_occupation
+	=>nrel_main_idtf:
+	[разбиение городских жителей по их профессиям] (* <-lang_ru;; *);
+	[разбіццё гарадскіх жыхароў па іх правесіям] (* <-lang_by;; *);;
+
+concept_urban_inhabitants
+	<= nrel_subdividing: partition_of_urban_residents_by_occupation(*
+		-> 	concept_freemen;
+				concept_guild_merchants;
+				concept_burghers;
+				concept_artisans;
+				concept_working_people;;
+		*);;
+
+
+

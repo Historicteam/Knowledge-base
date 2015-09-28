@@ -1,0 +1,65 @@
+concept_burghers
+=>nrel_main_idtf:
+	[мещане] (* <-lang_ru;; *);
+	[burghers] (* <-lang_en;; *);
+	[мяшчане] (* <-lang_by;; *);
+<-sc_const;;
+
+Definition_burghers
+	=>nrel_main_idtf:
+		[Определение понятия "мещанство"] (* <-lang_ru;; *);
+		[Азначэнне паняцця "мяшчанства"] (* <-lang_by;; *);;
+
+concept_burghers
+	<- rrel_key_sc_element: Definition_burghers
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+			...
+			(* -> rrel_example:
+	[Меща́нство (польск. mieszczanin — горожа́нин) — в Российской империи до 1917 года — сословие, низший разряд городских обывателей.] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Мяшчанства (па-польску. mieszczanin - гараджанін) - у Расійскай імперыі да 1917 году - саслоўе, ніжэйшы разрад гарадскіх абывацеляў.] (* <-lang_by;; *);;
+	*);;
+*);;
+
+Origin_of_the_name
+	=>nrel_main_idtf:
+		[Происхождение названия] (* <-lang_ru;; *);
+		[Паходжанне назвы] (* <-lang_by;; *);;
+
+concept_burghers
+	<- rrel_key_sc_element: Origin_of_the_name
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+			...
+			(* -> rrel_example:
+	[Считается, что название происходит от польского и белорусского названия небольших городов — «местечко».] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Лічыцца, што назва паходзіць ад польскай і беларускай назвы невялікіх гарадоў - «мястэчка».] (* <-lang_by;; *);;
+	*);;
+*);;
+
+Petty_self_government
+	=>nrel_main_idtf:
+		[Мещанское управление] (* <-lang_ru;; *);
+		[Мяшчанскае кіраванне] (* <-lang_by;; *);;
+
+concept_burghers
+	<- rrel_key_sc_element: Petty_self_government
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:
+	[Мещанское управление — сословное самоуправление мещанства в Российской империи.] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Мяшчанскае кіраванне - саслоўнае самакіраванне мяшчанства ў Расійскай імперыі.] (* <-lang_by;; *);;
+	*);;
+*);;

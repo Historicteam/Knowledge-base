@@ -1,0 +1,40 @@
+concept_construction
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[сооружение]
+	(*
+	<- lang_ru;;
+	*);
+	[construction]
+	(*
+	<- lang_en;;
+	*);
+	[збудаванне]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сооружение — это результат строительной деятельности для осуществления определённых потребительских функций.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Збудаванне - гэта вынік будаўнічай дзейнасці для ажыццяўлення пэўных спажывецкіх функцый.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;
+

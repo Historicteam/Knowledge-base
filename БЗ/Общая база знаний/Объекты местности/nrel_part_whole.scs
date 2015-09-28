@@ -1,0 +1,40 @@
+nrel_part_whole
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[часть целого*]
+	(*
+	<- lang_ru;;
+	*);
+	[part of the whole*]
+	(*
+	<- lang_en;;
+	*);
+	[частка цэлага*]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Часть целого - ]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Частка цэлага - ]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;

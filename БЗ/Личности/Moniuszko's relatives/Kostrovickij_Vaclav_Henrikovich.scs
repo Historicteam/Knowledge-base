@@ -1,0 +1,20 @@
+Kostrovickij_Vaclav_Henrikovich
+=> nrel_main_idtf:
+	[Костровицкий Вацлав Генрикович]
+	(*
+	<- lang_ru;;
+	*);
+	[Kostrovickij Vaclav Henrikovich]
+	(*
+	<- lang_en;;
+	*);
+	[Кастравіцкi Вацлаў Генрыкавіч]
+	(*
+	<- lang_by;;
+		*);	
+<-concept_male;
+=>nrel_surname: surname_Kostrovickij;
+=>nrel_first_name: name_Vaclav;
+<=>nrel_spouse:Vojnilovich_Jadwiga_Adamovna;
+
+=>nrel_dwelling:estste_Grickovszchina;;

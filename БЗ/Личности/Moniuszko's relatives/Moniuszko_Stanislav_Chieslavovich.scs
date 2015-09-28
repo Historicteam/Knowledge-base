@@ -1,0 +1,451 @@
+concept_situation
+->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Freyer_August;;*]
+(*
+<=nrel_start_time:concept_time_point_1827;;
+<=nrel_finish_time:concept_time_point_1830;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Rungenhagen_Karl_Friedrich;;*]
+(*
+<=nrel_start_time:concept_time_point_1837;;
+<=nrel_finish_time:concept_time_point_1840;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich <=nrel_professor:nrel_employee: organization_institute_Warsaw_Music_Institute;;*]
+(*
+<=nrel_start_time:concept_time_point_1864;;
+<=nrel_finish_time:concept_time_point_1872;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Liszt_Franz;;*]
+(*
+<=nrel_start_time:concept_time_point_1858;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_school_of_PR_in_Warsaw;;*]
+(*
+<=nrel_start_time:concept_time_point_1827;;
+<=nrel_finish_time:concept_time_point_1830;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_Minsk_Male_Gymnasium;;*]
+(*
+<=nrel_start_time:concept_time_point_1830;;
+<=nrel_finish_time:concept_time_point_1837;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Freemason_House;;*]
+(*
+<=nrel_start_time:concept_time_point_1843;;
+<=nrel_finish_time:concept_time_point_1844;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Muellers_House;;*]
+(*
+<=nrel_start_time:concept_time_point_1840;;
+<=nrel_finish_time:concept_time_point_1858;;
+*);
+->[*Moniuszko_Stanislav_Chieslavovich <=nrel_conductor:nrel_employee: organization_theater_Warsaw_Big_Teatr;;*]
+(*
+<=nrel_start_time:concept_time_point_1858;;
+<=nrel_finish_time:concept_time_point_1872;;
+*)
+;;
+
+
+
+
+
+Moniuszko_Stanislav_Chieslavovich
+=> nrel_main_idtf:
+	[Монюшко Станислав Чеславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Stanislav Chieslavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Станіслаў Чэславіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_composer;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Moniuszko_Stanislav_Chieslavovich.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*); 
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Stanislav;
+<=>nrel_spouse: Miullier_Alieksandra;
+=>nrel_date_of_birth: 05_05_1819
+	(*
+	=> nrel_main_idtf:
+		[5 мая 1819 года]
+		(*
+		<- lang_ru;;
+		*);
+		[May 5, 1819]
+		(*
+		<- lang_en;;
+		*);
+		[5 мая 1819 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 04_06_1872
+	(*
+	=> nrel_main_idtf:
+		[6 июня 1872 года]
+		(*
+		<- lang_ru;;
+		*);
+		[June 6, 1872]
+		(*
+		<- lang_en;;
+		*);
+		[6 чэрвеня 1872 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+<=nrel_teacher: Kiui_Cezar_Antonovich; 
+<=>nrel_friend: Valickij_Alieksandr;Dunin_Marcinkievich_Vincent_Ivanovich;
+=>nrel_dwelling: Moniuszkos_House;
+//=>nrel_workplace: Warsaw_Music_Institute_Building;church_of_st_johns;Vilna_Municipal_Theatre;Warsaw_Grand_Theatre_Building;
+=>nrel_place_of_birth: Ubel_village;
+=>nrel_place_of_death: Warsaw;
+<=nrel_author: ballet_Monte_Christo
+	(*
+	=> nrel_main_idtf:
+		[балет "Монте Кристо"]
+		(*
+			<- lang_ru;;
+		*);
+		[ballet "Monte Cristo"]
+		(*
+			<- lang_en;;
+		*);
+		[балет "Монтэ Крысто"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_ballet;;
+	*);
+<=nrel_author: ballet_Na_kwaterunku
+	(*
+	=> nrel_main_idtf:
+		[балет "На постое"]
+		(*
+			<- lang_ru;;
+		*);
+		[ballet "Billeted"]
+		(*
+			<- lang_en;;
+		*);
+		[балет "На пастое"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_ballet;;
+	*);
+<=nrel_author: ballet_Figle_szatana
+	(*
+	=> nrel_main_idtf:
+		[балет "Шалости сатаны"]
+		(*
+			<- lang_ru;;
+		*);
+		[ballet "Satan's Devilry"]
+		(*
+			<- lang_en;;
+		*);
+		[балет "Свавольствы шатана"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_ballet;;
+	*);
+<=nrel_author: operetta_Nocleg_w_Apeninach
+	(*
+	=> nrel_main_idtf:
+		[оперетта "Ночевка в Апеннинах"]
+		(*
+			<- lang_ru;;
+		*);
+		[operetta "Overnight in the Apennines"]
+		(*
+			<- lang_en;;
+		*);
+		[аперэта "Начоўка ў Апенінах"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_operetta;;
+	*);
+<=nrel_author: operetta_Ideal_czyli_Nowa_Precyzja
+	(*
+	=> nrel_main_idtf:
+		[оперетта "Идеал"]
+		(*
+			<- lang_ru;;
+		*);
+		[operetta "Ideal"]
+		(*
+			<- lang_en;;
+		*);
+		[аперэта "Ідэал"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_operetta;;
+	*);
+<=nrel_author: operetta_Karmaniol_czyli_Francuzi_lubia_zartowac
+	(*
+	=> nrel_main_idtf:
+		[оперетта "Карманьола или французы любят шутить"]
+		(*
+			<- lang_ru;;
+		*);
+		[operetta "Carmagnola or the French like to joke"]
+		(*
+			<- lang_en;;
+		*);
+		[аперэта "Карманьёла ці французы любяць жартаваць"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_operetta;;
+	*);
+<=nrel_author: operetta_Zolta_szlafmyca
+	(*
+	=> nrel_main_idtf:
+		[оперетта "Жёлтый колпак"]
+		(*
+			<- lang_ru;;
+		*);
+		[operetta "Yellow Cap"]
+		(*
+			<- lang_en;;
+		*);
+		[аперэта "Жоўты каўпак"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_operetta;;
+	*);
+<=nrel_author: operetta_Nowy_Don_Kiszot_czyli_Sto_szalenstw
+	(*
+	=> nrel_main_idtf:
+		[оперетта "Новый Дон Кихот или сто глупостей"]
+		(*
+			<- lang_ru;;
+		*);
+		[operetta "The Amazing Don Quixote or One Hundred Fiddlesticks"]
+		(*
+			<- lang_en;;
+		*);
+		[аперэта "Новы Дон Кіхот ці сто глупстваў"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_operetta;;
+	*);
+<=nrel_author: operetta_Loteria
+	(*
+	=> nrel_main_idtf:
+		[оперетта "Лотерея"]
+		(*
+			<- lang_ru;;
+		*);
+		[operetta "Lottery"]
+		(*
+			<- lang_en;;
+		*);
+		[аперэта "Латарэя"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_operetta;;
+	*);
+<=nrel_author: operetta_Cyganie
+	(*
+	=> nrel_main_idtf:
+		[оперетта "Цыгане"]
+		(*
+			<- lang_ru;;
+		*);
+		[operetta "Romany"]
+		(*
+			<- lang_en;;
+		*);
+		[аперэта "Цыгане"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_operetta;;
+	*);
+<=nrel_author: cantata_Milda
+	(*
+	=> nrel_main_idtf:
+		[кантата "Милда"]
+		(*
+			<- lang_ru;;
+		*);
+		[cantata "Milda"]
+		(*
+			<- lang_en;;
+		*);
+		[кантата "Мілда"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_cantata;;
+	*);
+<=nrel_author: cantata_Niola
+	(*
+	=> nrel_main_idtf:
+		[кантата "Ниола"]
+		(*
+			<- lang_ru;;
+		*);
+		[cantata "Niola"]
+		(*
+			<- lang_en;;
+		*);
+		[кантата "Ніёла"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_cantata;;
+	*);
+<=nrel_author: cantata_Krumina
+	(*
+	=> nrel_main_idtf:
+		[кантата "Круминь"]
+		(*
+			<- lang_ru;;
+		*);
+		[cantata "Krumin"]
+		(*
+			<- lang_en;;
+		*);
+		[кантата "Крумінь"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_cantata;;
+	*);
+<=nrel_author: cantata_Ghosts
+	(*
+	=> nrel_main_idtf:
+		[кантата "Призраки"]
+		(*
+			<- lang_ru;;
+		*);
+		[cantata "Ghosts"]
+		(*
+			<- lang_en;;
+		*);
+		[кантата "Прывіды"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_cantata;;
+	*);
+<=nrel_author: cantata_Crimean_Sonnets
+	(*
+	=> nrel_main_idtf:
+		[кантата "Крымские сонеты"]
+		(*
+			<- lang_ru;;
+		*);
+		[cantata "Crimean Sonnets"]
+		(*
+			<- lang_en;;
+		*);
+		[кантата "Крымскія санеты"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_cantata;;
+	*);
+<=nrel_author: opera_Galka
+	(*
+	=> nrel_main_idtf:
+		[опера "Галька"]
+		(*
+			<- lang_ru;;
+		*);
+		[opera "Galka"]
+		(*
+			<- lang_en;;
+		*);
+		[опера "Галька"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_opera;;
+	*)
+;;
+
+opera_Galka
+	<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[«Галька» - это первая опера Монюшко. Впервые была представлена в концертном исполнении в Вильно в 1848 г.
+			Постановка была осуществлена в 1854 г. В 1858 в Варшаве была поставлена в новой редакции в 4 актах.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			["Galka" is the first Moniuszko's opera. It was firstly presented as a concert in Vilnius in 1848.
+			The "Galka" play was performed in 1854. In 1858 the play was put in a new 4 acts edition in Warsaw.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[«Галька» - гэта першая опера Манюшкі. Упершыню была прадстаўлена ў канцэртным выкананні ў Вільні ў 1848 г.
+			Пастаноўка была здейснена ў 1854 г. У 1858 у Варшаве была пастаўлена ў новай рэдакцыі ў 4 актах.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	<=nrel_sc_text_translation:...(*->"file://Galka.mp3";;*)
+	
+;;
+
+/*Moniuszko_conducts_photo
+<- rrel_key_sc_element: Moniuszko_Stanislav_Chieslavovich;
+<- sc_statement;
+<= rrel_sc_text_translation: ...
+				(*
+					-> rrel_example: "file://Moniuszko conducts.png"(*<-image;;*);;
+				*);
+=> nrel_main_idtf:
+	[Изображение дирижирующего Станислава Монюшко]
+	(*
+	<- lang_ru;;
+	*);
+	[Image of conducting Stanislav Moniuszko]
+	(*
+	<- lang_en;;
+	*);;
+*/
+
+

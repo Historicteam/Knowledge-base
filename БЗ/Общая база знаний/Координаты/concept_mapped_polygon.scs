@@ -1,0 +1,17 @@
+concept_mapped_polygon
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[полигональный oбъект карты]
+	(*
+	<- lang_ru;;
+	*);
+	[mapped polygon]
+	(*
+	<- lang_en;;
+	*);
+	[паліганальны аб'ект карты]
+	(*
+	<- lang_by;;
+	*)
+;;

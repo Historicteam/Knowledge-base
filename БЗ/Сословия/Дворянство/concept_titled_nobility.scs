@@ -1,0 +1,25 @@
+concept_titled_nobility
+	=>nrel_main_idtf:
+		[титулованное дворянство] (* <-lang_ru;; *);
+		[titled nobility] (* <-lang_en;; *);
+		[тытулаванае дваранства] (* <-lang_by;; *);;
+
+concept_titled_nobility
+	<- rrel_key_sc_element: Definition_of_titled_nobility
+	(*
+		=>nrel_main_idtf:
+			[Определение понятия "Титулованное дворянство"] (* <-lang_ru;; *);
+			[The definition of titled nobility] (* <-lang_en;; *);
+			[Азначэнне паняцця "Тытулаванае дваранства"] (* <-lang_by;; *);;
+
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+			...
+			(* -> rrel_example:
+	[Титулованное дворянство – дворянство имеющее родовой титул.] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Тытулаванае дваранства – дваранства, якое мае радавы тытул.] (* <-lang_by;; *);;
+	*);;
+*);;

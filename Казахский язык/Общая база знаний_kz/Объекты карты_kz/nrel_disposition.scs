@@ -1,0 +1,21 @@
+nrel_location
+=> nrel_main_idtf:
+	[орналасқан жері*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Орналасқан жері - ұйым орналасқан құрылысты ұйымдастыру мен байланыстыратын бинарлық қатынасы.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

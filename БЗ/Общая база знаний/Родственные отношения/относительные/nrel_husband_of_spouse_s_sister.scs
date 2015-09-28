@@ -1,0 +1,28 @@
+nrel_husband_of_spouse_s_sister
+=>nrel_main_idtf:
+	[свояк*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[brother-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[husband of spouse's sister*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[свояк*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Свояк — мужчина по отношению к сестре супруга, муж золовки или муж жениной сестры.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Сваяк — мужчына ў адносінах да сястры жонкі ці мужа, муж залоўкі або муж сястры жонкі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_husband_of_spouse_s_sister.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

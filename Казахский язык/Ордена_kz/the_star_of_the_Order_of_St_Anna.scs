@@ -1,0 +1,13 @@
+the_star_of_the_Order_of_St_Anna
+=>nrel_main_idtf:
+	[қасиетті Анна орденінің жұлдызы] (* <-lang_kz;; *);;
+	
+Definition_of_the_star_of_the_Order_of_St_Anna
+=>nrel_main_idtf:
+	[анықтама қасиетті Анна орденінің жұлдызы] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Қасиетті Анна орденінің жұлдызы - сегіз сәулелі күміс жұлдыз] (* <-lang_kz;; *);; 
+		*);;
+	

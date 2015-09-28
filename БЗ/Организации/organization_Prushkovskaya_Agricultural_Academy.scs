@@ -1,0 +1,7 @@
+organization_Prushkovskaya_Agricultural_Academy
+
+	=> nrel_main_idtf:
+		[Прушковская сельскохозяйственная академия] (* <- lang_ru;; *);
+		[Prushkovskaya Agricultural Academy] (* <- lang_en;; *);
+		[Прушковская сельскагаспадарчая акадэмія] (* <- lang_by;; *);
+<-concept_educational_institution;;

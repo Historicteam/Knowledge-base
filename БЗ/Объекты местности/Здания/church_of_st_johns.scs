@@ -1,0 +1,50 @@
+church_of_st_johns
+=> nrel_main_idtf:
+	[костёл Святых Иоаннов]
+	(*
+	<- lang_ru;;
+	*);
+	[Church of St. Johns]
+	(*
+	<- lang_en;;
+	*);
+	[касцёл Святых Янаў]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf: 
+	[костёл Святого Иоанна Крестителя и Святого Иоанна Евангелиста]
+	(*
+	<- lang_ru;;
+	*);
+	[касцёл Святога Яна Хрысціцеля і Святога Яна Евангеліста]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: ...
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 54.682600;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 25.288569;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*)
+;;

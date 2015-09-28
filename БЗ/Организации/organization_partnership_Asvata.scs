@@ -1,0 +1,15 @@
+organization_partnership_Asvata
+=> nrel_main_idtf:
+	[обществo «Асвета»]
+	(*
+	<- lang_ru;;
+	*);
+	[partnership "Asvata"] 
+	(*
+	<- lang_en;;
+	*);
+	[таварыства «Асвета»]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location:Kostrovickaja_house;;

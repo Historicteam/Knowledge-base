@@ -1,0 +1,21 @@
+Meyendorff_Egor_Kazimirovich
+=> nrel_main_idtf:
+	[Мейендорф Егор Казимирович]
+	(*
+	<- lang_ru;;
+	*);
+	[Meyendorff Egor Kazimirovich]
+	(*
+	<- lang_en;;
+	*);
+	[Меендорф Ягор Казіміравіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>concept_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Meyendorff;
+=>nrel_first_name: name_Egor;
+=> nrel_parent: Hutten_Czapskaya_Annai;
+<=>nrel_spouse: Fegezak_Anne_Catherine
+;;

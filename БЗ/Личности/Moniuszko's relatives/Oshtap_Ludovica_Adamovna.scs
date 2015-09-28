@@ -1,0 +1,32 @@
+Oshtap_Ludovica_Adamovna
+=> nrel_main_idtf:
+	[Оштарп Людвика Львовна]
+	(*
+	<- lang_ru;;
+	*);
+	[Oshtap Ludovica Adamovna]
+	(*
+	<- lang_en;;
+	*);
+	[Оштарп Людвіка Львоўна]
+	(*
+	<- lang_by;;
+		*);
+=> nrel_idtf:
+	[Горват Людвика Львовна]
+	(*
+	<- lang_ru;;
+	*);
+	[Gorvat Ludovica Adamovna]
+	(*
+	<- lang_en;;
+	*);
+	[Горват Людвіка Львоўна]
+	(*
+	<- lang_by;;
+		*);
+<-concept_woman;
+=>nrel_surname: surname_Oshtap;
+=>nrel_surname: surname_Gorvat;
+=>nrel_first_name: name_Ludovica;;
+

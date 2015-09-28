@@ -1,0 +1,19 @@
+ui_menu_adoptive_father
+	=> ui_nrel_command_template:
+	[*
+		question_search_sister _-> ._question_search_sister_instance
+			(*
+				_-> rrel_1:: ui_arg_1;;
+				_-> rrel_2:: ... (*
+							_-> rrel_1:: adoptive_father;;
+							_-> rrel_2:: adoptive_father_param;;
+							_-> rrel_3:: nrel_adoptive_father;;
+				*);;
+			*);;
+		._question_search_sister_instance _<- question;;
+	*];
+
+	=> ui_nrel_command_lang_template:
+		[Запрос поиска усыновителей: $ui_arg_1] (* <- lang_ru;; *);
+		[Search request for adopters: $ui_arg_1] (* <- lang_en;; *);
+		[Запыт пошуку усынавіцеляў: $ui_arg_1] (* <- lang_by;; *);;

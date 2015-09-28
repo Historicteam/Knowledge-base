@@ -1,0 +1,6 @@
+organization_The_State_Council_of_the_Russian_Empire
+
+	=> nrel_main_idtf:
+		[Государственный совет Российской империи] (* <- lang_ru;; *);
+		[The State Council of the Russian Empire] (* <- lang_en;; *);
+		[Дзяржаўны савет Расійскай імперыі] (* <- lang_by;; *);;

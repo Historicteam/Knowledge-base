@@ -1,0 +1,41 @@
+concept_village
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[деревня]
+	(*
+	<- lang_ru;;
+	*);
+	[village]
+	(*
+	<- lang_en;;
+	*);
+	[вёска]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<=nrel_inclusion: concept_locality;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Деревня — сельский населённый пункт с несколькими десятками домов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Вёска - сельскі населены пункт з некалькімі дзесяткамі дамоў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

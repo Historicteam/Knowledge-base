@@ -1,0 +1,17 @@
+Prusinovo_village
+=> nrel_main_idtf:
+	[деревня Прусиново]
+	(*
+	<- lang_ru;;
+	*);
+	[Prusinovo village]
+	(*
+	<- lang_en;;
+	*);
+	[вёска Прусинава]
+	(*
+	<- lang_by;;
+	*);
+<-concept_terrain_object;
+<-concept_village
+;;

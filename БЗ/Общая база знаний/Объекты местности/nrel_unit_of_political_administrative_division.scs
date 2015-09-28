@@ -1,0 +1,37 @@
+nrel_unit_of_political_administrative_division
+=> nrel_main_idtf:
+	[единица политико-административного деления*] (* <- lang_ru;; *);
+	[unit of political-administrative division*] (* <- lang_en;; *);
+	[адзінка палітыка-адміністрацыйнага дзялення*] (* <- lang_by;; *);
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- oriented_relation;
+=> nrel_first_domain:concept_terrain_object;
+=> nrel_second_domain:concept_terrain_object
+;;
+
+/*<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Столица - главный город государства, местопребывание правительства и других высших органов государственной власти.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Capital - the main city of the state, the seat of government and other institutions of higher public authorities.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;*/

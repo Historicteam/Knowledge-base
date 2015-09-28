@@ -1,0 +1,12 @@
+insignia_set
+=>nrel_main_idtf:
+	[инсигний жинағы] (* <-lang_kz;; *);;
+	
+Definition_of_an_insignia_set
+=>nrel_main_idtf:
+	[анықтама инсигний жинағы] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Инсигний жинағы - бұл әртүрлі объектілердегі инсигний жинағының элементтері болып табылады.] (* <-lang_kz;; *);; 
+		*);;

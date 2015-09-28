@@ -1,0 +1,17 @@
+Stankovo_village
+=> nrel_main_idtf:
+	[деревня Станково]
+	(*
+	<- lang_ru;;
+	*);
+	[Stankovo village]
+	(*
+	<- lang_en;;
+	*);
+	[вёска Станкава]
+	(*
+	<- lang_by;;
+	*);
+<-concept_terrain_object;
+<-concept_village
+;;

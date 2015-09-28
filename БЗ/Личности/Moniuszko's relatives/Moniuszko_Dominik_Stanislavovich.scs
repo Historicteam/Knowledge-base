@@ -1,0 +1,33 @@
+Moniuszko_Dominik_Stanislavovich
+=> nrel_main_idtf:
+	[Монюшко Доминик Станиславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Dominik Stanislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Дамінік Станіслававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Dominik;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+concept_university
+=> nrel_main_idtf:
+	[университет]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Университет - көптеген іргелі және қолданбалы ғылымдар бойынша мамандар дайындайтын жоғары оқу орны.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*)
+;;

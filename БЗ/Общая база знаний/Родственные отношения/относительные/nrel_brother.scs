@@ -1,0 +1,26 @@
+nrel_brother
+=>nrel_main_idtf:
+	[брат*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[brother*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[брат*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Брат — каждый из сыновей в отношении к другим детям от тех же родителей.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Брат - кожны з сыноў у дачыненні да іншых дзяцей ад тых жа бацькоў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_brother.jpg";		
+<-sc_const;
+	
+<-sc_node_norole_relation;;

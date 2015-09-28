@@ -1,0 +1,16 @@
+organization_Minsk_Municipal_Pawnshop
+=> nrel_main_idtf:
+	[Минский городской ломбард]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Municipal Pawnshop]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі гарадскі ламбард]
+	(*
+	<- lang_by;;
+	*);
+<-concept_pawnshop
+;;

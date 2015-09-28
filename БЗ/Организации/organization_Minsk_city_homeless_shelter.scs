@@ -1,0 +1,17 @@
+organization_Minsk_Municipal_Hobo_Shelter
+=> nrel_main_idtf:
+	[Минский городской приют для бездомных]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Municipal Hobo Shelter]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі гарадскі прытулак для бяздомных]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location:Minsk_Municipal_Shelter_Building;
+<-concept_shelter
+;;

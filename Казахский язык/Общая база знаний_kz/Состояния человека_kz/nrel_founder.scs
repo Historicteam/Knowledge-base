@@ -1,0 +1,21 @@
+nrel_founder
+=> nrel_main_idtf:
+	[құрушы*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[құрушы - адам мен ұйымды байланыстыратын бинарлы қатынас.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

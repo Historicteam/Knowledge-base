@@ -1,0 +1,13 @@
+motto_of_an_order
+=>nrel_main_idtf:
+	[oрден ұраны] (* <-lang_kz;; *);;
+	
+Definition_of_a_motto_of_an_order
+=>nrel_main_idtf:
+	[анықтама oрден ұраны] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Орден ұраны - бұл тәртіпті анықтайтын және орденге ұмтылатын сөз немесе қысқаша сөйлем] (* <-lang_kz;; *);; 
+		*);;
+	

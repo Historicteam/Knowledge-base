@@ -1,0 +1,27 @@
+nrel_administrative_center
+=> nrel_main_idtf:
+	[aдминистративный центр*] (* <- lang_ru;; *);
+	[administrative center*] (* <- lang_en;; *);
+	[адміністрацыйны цэнтр*] (* <- lang_by;; *);
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_first_domain:concept_country;
+=> nrel_second_domain:concept_city;
+
+<- rrel_key_sc_element: ...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: ...
+		(*
+		-> rrel_example: 
+			[Административный центр — официальный главный город любого административного образования первого, второго или третьего уровня.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);;
+	*)
+;;

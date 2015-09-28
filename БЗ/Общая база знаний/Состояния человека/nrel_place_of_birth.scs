@@ -1,0 +1,45 @@
+nrel_place_of_birth
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[место рождения*]
+	(*
+	<- lang_ru;;
+	*);
+	[place of birth*]
+	(*
+	<- lang_en;;
+	*);
+	[месца нараджэння*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=> nrel_second_domain:
+	concept_building;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Место рождения - бинарное отношение связывающие человека и здание где этот человек родился.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Месца нараджэння - бінарнае дачыненне, якое злучае чалавека і будынак, дзе гэты чалавек нарадзіўся.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

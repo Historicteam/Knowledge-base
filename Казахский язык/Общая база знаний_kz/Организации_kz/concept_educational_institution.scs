@@ -1,0 +1,22 @@
+concept_educational_institution
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[білім беру мекемесі]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Білім беру мекемесі - білім беру процесін жүзеге асыратын мекеме, яғни студенттер мен мектеп оқушылары техникалық қызмет көрсету және білім беру, бір немесе бірнеше білім беру бағдарламаларын іске асыру.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*);;

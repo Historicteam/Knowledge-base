@@ -1,0 +1,16 @@
+organization_Vilna_Male_Gymnasium
+=> nrel_main_idtf:
+	[Виленская мужская гимназия]
+	(*
+	<- lang_ru;;
+	*);
+	[Vilna Male Gymnasium]
+	(*
+	<- lang_en;;
+	*);
+	[Віленская мужчынская гімназія]
+	(*
+	<- lang_by;;
+	*);
+<-concept_gymnasium;
+<-concept_educational_institution;;

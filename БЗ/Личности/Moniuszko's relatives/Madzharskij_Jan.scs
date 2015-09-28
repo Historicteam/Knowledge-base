@@ -1,0 +1,17 @@
+Madzharskij_Jan
+=> nrel_main_idtf:
+	[Маджарский Ян]
+	(*
+	<- lang_ru;;
+	*);
+	[Madzharskij Jan]
+	(*
+	<- lang_en;;
+	*);
+	[Маджарскі Ян]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Madzharskij;
+<=nrel_parent: Madzharskij_Lieon_Janovich;;

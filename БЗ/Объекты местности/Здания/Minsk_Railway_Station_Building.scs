@@ -1,0 +1,41 @@
+Minsk_Railway_Station_Building
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание Минского железнодорожного вокзала]
+	(*
+	<- lang_ru;;
+	*);
+	[Будынак Мінскага чыгуначнага вакзала]
+	(*
+	<- lang_by;;
+	*);
+	[Minsk Railway Station Building]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: ...
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.890572;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.550837;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*)
+;;

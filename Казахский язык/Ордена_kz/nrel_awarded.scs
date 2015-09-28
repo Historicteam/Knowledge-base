@@ -1,0 +1,13 @@
+nrel_awarded
+=>nrel_main_idtf:
+	[марапатталады] (* <-lang_kz;; *);;
+	
+Definition_of_nrel_awarded
+=>nrel_main_idtf:
+	[анықтама марапатталады] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Марапатталады - бұл иесі мен марапатты байланыстыратын бинарлық қатынас.] (* <-lang_kz;; *);; 
+		*);;
+	

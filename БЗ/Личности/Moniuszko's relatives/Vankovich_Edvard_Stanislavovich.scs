@@ -1,0 +1,31 @@
+Vankovich_Edvard_Stanislavovich
+=> nrel_main_idtf:
+	[Ванькович Эдвард Станиславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Edvard Stanislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Эдвард Станіслававіч]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Vankovich_Edvard_Stanislavovich.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Vankovich;
+=>nrel_first_name: name_Edvard;
+<=nrel_parent:Vankovich_Anna_Edvardovna;;

@@ -1,0 +1,14 @@
+International_Street
+	=> nrel_main_idtf:
+		[Улица Интернациональная](* <- lang_ru;; *);
+		[International Street](* <- lang_en;; *);
+			[Вуліца Інтэрнацыянальная]
+			(*
+			<- lang_by;;
+			*);
+	<= nrel_subdividing: 
+	{
+	house_31_International_street
+	};
+	<- concept_street;;
+

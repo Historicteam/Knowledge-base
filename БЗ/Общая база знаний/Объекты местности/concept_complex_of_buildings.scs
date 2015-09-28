@@ -1,0 +1,40 @@
+concept_complex_of_buildings
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[комплекс зданий]
+	(*
+	<- lang_ru;;
+	*);
+	[complex of buildings]
+	(*
+	<- lang_en;;
+	*);
+	[комплекс будынкаў]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+-> rrel_example:
+			[Комплекс зданий —  множество зданий объединенных общим назначением.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Комплекс будынкаў - мноства будынкаў аб'яднаных агульным прызначэннем.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

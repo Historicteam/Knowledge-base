@@ -1,0 +1,33 @@
+Odinec_Teofelija
+=> nrel_main_idtf:
+	[Одинец Теофелия]
+	(*
+	<- lang_ru;;
+	*);
+	[Odinec Teofelija]
+	(*
+	<- lang_en;;
+	*);
+	[Адынец Тэафілія]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Войнилович Теофелия]
+	(*
+	<- lang_ru;;
+	*);
+	[Vojnilovich Teofelija]
+	(*
+	<- lang_en;;
+	*);
+	[Вайнiловiч Тэафілія]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+<-concept_person;
+=>nrel_surname: surname_Vojnilovich;
+=>nrel_surname: surname_Odinec;
+=>nrel_first_name: name_Teofelija;
+<=nrel_parent:Vojnilovich_Adam_Antonovich;;

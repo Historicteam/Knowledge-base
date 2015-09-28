@@ -1,0 +1,32 @@
+concept_labor_collective_organization
+=>nrel_main_idtf:
+	[организация трудового коллектива] (* <-lang_ru;; *);
+	[labor collective organization] (* <-lang_en;; *);
+	[арганізацыя працоўнага калектыву] (* <-lang_by;; *);
+	
+<-rrel_key_sc_element:
+	Definition_of_the_labor_collective_organization_concept  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "организация трудового коллектива"] (* <-lang_ru;; *);
+		[Definition of the labor collective organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "арганізацыя працоўнага калектыву"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Организация трудового коллектива - это организация, представляющая собой совокупность людей, действующих по единому плану для достижения значимой для всех членов организации цели и для создания определенного общественно необходимого продукта или оказания услуг.] (* <-lang_ru;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [Labor collective organization is an organization which consists of a group of people that acts on a special plan to achieve significant goals for all members of the organization and to create certain socially necessary products and services.] (* <-lang_en;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [Арганізацыя працоўнага калектыву - гэта арганізацыя, якая ўяўляе сабой сукупнасць людзей, якія дзейнічаюць па адзіным плане для дасягнення значнай для ўсіх членаў арганізацыі мэты і для стварэння вызначанага грамадска неабходнага прадукту або аказання паслуг.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;
+<-sc_const;;

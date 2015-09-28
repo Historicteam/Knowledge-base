@@ -1,0 +1,20 @@
+rrel_minute 
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[минута']
+	(*
+	<- lang_ru;;
+	*);
+	[minute']
+	(*
+	<- lang_en;;
+	*);
+=> nrel_first_domain: 
+	concept_time_point;
+
+=> nrel_second_domain: 
+	concept_number
+;;

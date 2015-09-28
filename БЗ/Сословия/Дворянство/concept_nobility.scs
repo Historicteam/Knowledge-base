@@ -1,0 +1,75 @@
+concept_nobility
+	=>nrel_main_idtf:
+		[дворянство] (* <-lang_ru;; *);
+		[nobility] (* <-lang_en;; *);
+		[дваранства] (* <-lang_by;; *);
+	=>nrel_idtf:
+		[принадлежать дворянам] (* <-lang_ru;; *);
+		[дворяне] (* <-lang_ru;; *);
+		[принадлежать дворянству] (* <-lang_ru;; *);
+		[дворянин] (* <-lang_ru;; *);
+		[быть дворянином] (* <-lang_ru;; *);
+		[належаць да дваранаў] (* <-lang_by;; *);
+		[дваране] (* <-lang_by;; *);
+		[належаць дваранству] (* <-lang_by;; *);
+		[дваранін] (* <-lang_by;; *);
+		[быць дваранінам] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: Definition_of_nobility
+	(*
+		=>nrel_main_idtf:
+			[Определение понятия "Дворянство"] (* <-lang_ru;; *);
+			[Definition of nobility] (* <-lang_en;; *);
+			[Азначэнне паняцця "Дваранства"] (* <-lang_by;; *);;
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+		...
+		(*
+			-> rrel_example:
+	[Дворяне – высшее сословие, то есть награжденное большими преимуществами касательно собственности и частной свободы.] (* <-lang_ru;; *);;
+		*);
+		...
+		(*
+			-> rrel_example:
+	[Дваране – вышэйшае саслоўе, гэта значыць узнагароджанае вялікімі перавагамі менавіта уласнасці і прыватнай свабоды.] (* <-lang_by;; *);;
+		*);;
+	*);;
+
+subdividing_of_nobility_according_to_the_way_of_obtaining
+	=>nrel_main_idtf:
+		[разбиение дворянства по способу получения] (* <-lang_ru;; *);
+		[subdividing of nobility according to the way of obtaining] (* <-lang_en;; *);
+		[разбіццё дваранства па спосабу атрымання] (* <-lang_by;; *);;
+
+subdividing_of_nobility_according_to_a_title
+	=>nrel_main_idtf:
+		[разбиение дворянства по наличию титула] (* <-lang_ru;; *);
+		[subdividing of nobility according to a title] (* <-lang_en;; *);
+		[разбіццё дваранства па наяўнасці тытула] (* <-lang_by;; *);;
+
+subdividing_of_nobility_according_to_the_possibility_of_the_estate_transfer_to_heirs
+	=>nrel_main_idtf:
+		[разбиение дворянства по возможности передачи наследникам] (* <-lang_ru;; *);
+		[subdividing of nobility according to the possibility of the estate transfer to heirs] (* <-lang_en;; *);
+		[разбіццё дваранства па магчымасці перадачы нашчадкам] (* <-lang_by;; *);;
+
+concept_nobility
+	<= nrel_subdividing: subdividing_of_nobility_according_to_the_way_of_obtaining
+	(*
+		-> 	concept_ancestral_nobility;
+				concept_complained_nobility;;
+	*);;
+
+concept_nobility
+	<= nrel_subdividing: subdividing_of_nobility_according_to_a_title
+	(*
+		-> 	concept_titled_nobility;
+				concept_gentry;;
+	*);;
+
+concept_nobility
+	<= nrel_subdividing: subdividing_of_nobility_according_to_the_possibility_of_the_estate_transfer_to_heirs
+	(*
+		-> 	concept_hereditary_nobility;
+				concept_personal_nobility;;
+	*);;

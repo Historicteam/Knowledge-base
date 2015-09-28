@@ -1,0 +1,52 @@
+concept_ancestral_nobility
+	=>nrel_main_idtf:
+		[родовое дворянство] (* <-lang_ru;; *);
+		[ancestral nobility] (* <-lang_en;; *);
+		[радавое дваранства] (* <-lang_by;; *);;
+
+Definition_of_the_concept_of_ancestral_nobility
+	=>nrel_main_idtf:
+		[Определение понятия "родовое дворянство"] (* <-lang_ru;; *);
+		[Definition of the concept of ancestral nobility] (* <-lang_en;; *);
+		[Азначэнне паняцця "радавое дваранства"] (* <-lang_by;; *);;
+
+concept_ancestral_nobility
+	<- rrel_key_sc_element: Definition_of_the_concept_of_ancestral_nobility
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+		...
+		(* -> rrel_example:
+	[Родовое дворянство — дворянство, унаследованное от предков вместе с родовым имением.] (* <-lang_ru;; *);;
+	*);
+	...
+		(* -> rrel_example:
+	[Ancestral nobility is a kind of nobility which can be inherited from ancestors with some ancestral estate.] (* <-lang_en;; *);;
+	*);
+		...
+		(* -> rrel_example:
+	[Радавое дваранства - дваранства, успадкаванае ад продкаў разам з радавым маёнткам.] (* <-lang_by;; *);;
+	*);;
+*);;		
+		
+/*		
+Pole_nobles
+	=>nrel_main_idtf:
+		[Столбовые дворяне] (* <-lang_ru;; *);
+		[Слупковыя дваране] (* <-lang_by;; *);;
+
+concept_ancestral_nobility
+	<- rrel_key_sc_element: Pole_nobles
+	(*
+		<-sc_statement;;
+		<= nrel_sc_text_translation: 
+		...
+		(* -> rrel_example:
+	[Столбово́е дворя́нство — в дореволюционной России представители дворянских родов, относившиеся к древним потомственным дворянским родам. Название происходит от так называемых Столбцов — средневековых списков о предоставлении представителям служилого сословия поместий на время их службы.] (* <-lang_ru;; *);;
+	*);
+		...
+		(* -> rrel_example:
+	[Слупковае дваранства - у дарэвалюцыйнай Расіі прадстаўнікі дваранскіх родаў, якія адносяцца да старажытных нашчадкавых дваранскі родаў. Назва паходзіць менавіта ад Стоўбцаў - сярэднявечных спісаў аб  прадастаўленні прадстаўнікам служылага саслоўя маёнткаў на гадзіну іх службы.] (* <-lang_by;; *);;
+	*);;
+*);;
+*/

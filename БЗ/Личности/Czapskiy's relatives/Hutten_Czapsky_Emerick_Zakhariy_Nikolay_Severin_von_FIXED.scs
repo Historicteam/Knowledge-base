@@ -1,0 +1,78 @@
+Hutten_Czapsky_Emerick_Carlovich
+=> nrel_main_idtf:
+	[Гуттен-Чапский Эмерик Карлович]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapsky Emerick Carlovich]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапскі Эмерык Захарый Мікалай Северын фон]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+<-concept_collector;
+<-concept_statesman;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Hutten_Czapsky_Emerick_Zakhariy_Nikolay_Severin_von.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Emerick;
+=>nrel_middle_name: name_Zakhariy;
+=>nrel_middle_name: name_Nikolay;
+=>nrel_middle_name: name_Severin;
+<=nrel_combat_activities_participant:Crimean_War;
+<=nrel_employee:nrel_vice_governor:provincial_board_of_Veliky_Novgorod;
+<=nrel_employee:nrel_vice_governor:provincial_board_of_Saint_Petersburg;
+<=nrel_owner:Priluki_village;
+=>nrel_date_of_birth: 18_11_1828
+	(*
+	=> nrel_main_idtf:
+		[18 ноября 1828 года]
+		(*
+		<- lang_ru;;
+		*);
+		[November 18, 1828]
+		(*
+		<- lang_en;;
+		*);
+		[18 лiстапада 1828 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 04_07_1896
+	(*
+	=> nrel_main_idtf:
+		[4 июля 1896 года]
+		(*
+		<- lang_ru;;
+		*);
+		[July 4, 1896]
+		(*
+		<- lang_en;;
+		*);
+		[4 лiпеня 1896 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_place_of_birth:estste_Stankov;
+<=nrel_student:organization_Vilna_Male_Gymnasium;
+=>nrel_place_of_death:the_city_of_Krakow;
+<=nrel_be_founded_in_the_name_of:organization_Museum_of_Emeric_Hutten_Czapski;
+<=nrel_parent: Hutten_Czapsky_Jerzy_Emerickovich; Hutten_Czapsky_Emerickovich; Hutten_Czapskaya_Sofia_Emerickovna;
+<=>nrel_spouse: Hutten_Czapskaya_Anna_Elizabeth_Carolina;;

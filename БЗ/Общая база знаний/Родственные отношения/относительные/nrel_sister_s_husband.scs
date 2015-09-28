@@ -1,0 +1,31 @@
+nrel_sister_s_husband
+=>nrel_main_idtf:
+	[муж сестры*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[зять*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[brother-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[sister's husband*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[муж сястры*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[зяць*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Зять — женатый мужчина по отношению к братьям и сестрам жены, муж сестры.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Зяць — жанаты мужчына ў дачыненні да братоў і сястёр жонкі, муж сястры.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_sister_s_husband.jpg";	
+<-sc_node_norole_relation;;

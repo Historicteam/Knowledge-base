@@ -1,0 +1,18 @@
+Vankovich_Liev_Lvovich
+=> nrel_main_idtf:
+	[Ванькович Лев Львович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Liev L'vovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Леў Львовіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Vankovich;
+=>nrel_first_name: name_Liev;;

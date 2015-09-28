@@ -1,0 +1,26 @@
+nrel_foster_father
+=>nrel_main_idtf:
+	[приёмный отец*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[foster father*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[прыёмны бацька*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Приёмный отец — мужчина-родитель по отношению к ребёнку, который находится под опекой в его семье.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Прыёмны бацька — мужчына-бацька ў адносінах да дзіцяці, які знаходзіцца пад апекай ў яго сям'і.] (* <-lang_by;; *);;
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_foster_father.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

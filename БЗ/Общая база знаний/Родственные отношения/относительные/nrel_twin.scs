@@ -1,0 +1,26 @@
+nrel_twin
+=>nrel_main_idtf:
+	[близнец*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[twin*] (* <-lang_en;; *);	
+=>nrel_main_idtf:
+	[блізнюк*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Близнецы — дети одной матери, развившиеся в течение одной беременности.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Блізняты — дзеці адной маці, якія развіліся на працягу адной цяжарнасці.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_twin.jpg";	
+<-sc_const;
+<-non_oriented_relation;	
+<-sc_node_norole_relation;;

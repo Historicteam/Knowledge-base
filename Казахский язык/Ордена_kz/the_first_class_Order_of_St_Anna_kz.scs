@@ -1,0 +1,13 @@
+the_first_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[1 дәрежелі қасиетті Анна ордені] (* <-lang_kz;; *);;
+	
+Definition_of_the_first_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[анықтама 1 дәрежелі қасиетті Анна орденіы] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [1 дәрежелі Қасиетті Анна ордені, ол -  сол иық арқылы ені 10 см болатын крест және оң жақ омырауына жұлдыз.] (* <-lang_kz;; *);; 
+		*);;
+	

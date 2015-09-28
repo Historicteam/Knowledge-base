@@ -1,0 +1,45 @@
+nrel_date_of_birth
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[дата рождения*]
+	(*
+	<- lang_ru;;
+	*);
+	[date of birth*]
+	(*
+	<- lang_en;;
+	*);
+	[дата нараджэння*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=> nrel_second_domain:
+	concept_time_point;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[День рождения* - бинарное отношение связывающие чловека и дату в которую он родился.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Дзень нараджэння* - бінарнае дачыненне, якое злучае чловека і дату, калі ён нарадзіўся.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

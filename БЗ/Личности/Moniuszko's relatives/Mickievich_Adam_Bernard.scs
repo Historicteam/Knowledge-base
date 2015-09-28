@@ -1,0 +1,33 @@
+Mickievich_Adam_Bernard
+=> nrel_main_idtf:
+	[Мицкевич Адам Бернард]
+	(*
+	<- lang_ru;;
+	*);
+	[Mickievich Adam Bernard]
+	(*
+	<- lang_en;;
+	*);
+	[Міцкевіч Адам Бернард]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Мицкевич Адам]
+	(*
+	<- lang_ru;;
+	*);
+	[Mickievich Adam]
+	(*
+	<- lang_en;;
+	*);
+	[Міцкевіч Адам]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Mickievich;
+=>nrel_first_name: name_Adam;
+=>nrel_middle_name: name_Bernard;
+<=nrel_employee:organization_Imperial_St_Petersburg_Technological_Institute;;

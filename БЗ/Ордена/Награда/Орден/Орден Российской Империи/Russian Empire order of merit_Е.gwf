@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/group" idtf="Order_of_St_George" shapeColor="0" id="25494128" parent="0" left="0" top="0" right="152.5" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="810" y="669.722" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="26121440" parent="0" x="105" y="105" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Definition of a Russian Empire order of merit]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="26116000" parent="0" x="105" y="150" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Азначэнне паняцця "ордэн Расейскай Iмперыi"]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="26095776" parent="0" x="105" y="60" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Определение понятия "орден Российской Империи"]]></content>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="26091536" parent="0" left="0" top="0" right="111.516" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="135" y="375" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="26061008" parent="0" left="0" top="0" right="61.9219" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="300" y="435" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="26032640" parent="0" left="0" top="0" right="64.3281" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="300" y="495" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="26041824" parent="0" left="0" top="0" right="65.0312" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="300" y="540" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="26036480" parent="0" x="195" y="435" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[разбиение орденов Российской империи по степени значимости ]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25988608" parent="0" x="195" y="540" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[разбіццё ордэнаў Расійскай імперыі па ступені значнасці]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="subdividing_of_Russian_Empire_orders_of_merit_in_order_of_importance" shapeColor="0" id="26010048" parent="0" left="0" top="0" right="534.375" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="60" y="405" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="26004704" parent="0" x="195" y="495" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[subdividing of a Russian Empire order of merit in order of importance]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25999312" parent="0" x="1245" y="195" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Ордэн Расійскай імперыі - знак адрознення, узнагарода за асаблівыя заслугі, якая існавала ў перыяд з 1698 па 1917 года.]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25993040" parent="0" x="1230" y="135" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Орден Российской империи – знак отличия, награда за особые заслуги существовавшая в период с 1698 по 1917 года.]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25985136" parent="0" x="1230" y="60" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Russian Empire order of merit is a decoration, an award for special services which existed from 1698 till 1917.]]></content>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="25954544" parent="0" left="0" top="0" right="64.3281" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="195" y="105" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="25937472" parent="0" left="0" top="0" right="65.0312" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="195" y="150" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="25916816" parent="0" left="0" top="0" right="61.9219" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="195" y="60" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="25915152" parent="0" left="0" top="0" right="111.516" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="45" y="-15" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Definition_of_a_Russian_Empire_order_of_merit" shapeColor="0" id="25898800" parent="0" left="0" top="0" right="350.953" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-30" y="15" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25892096" parent="0" x="-225" y="120" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[Russian Empire order of merit]]></content>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="25873904" parent="0" left="0" top="0" right="111.516" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-285" y="-15" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Russian_Empire_order_of_merit" shapeColor="0" id="25601568" parent="0" left="0" top="0" right="236.375" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-360" y="15" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25850912" parent="0" x="-225" y="60" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[орден Российской Империи]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25838352" parent="0" x="-225" y="165" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="false" file_name=""><![CDATA[ордэн Расійскай Імперыі]]></content>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="25821104" parent="0" left="0" top="0" right="65.0312" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-150" y="165" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="25804128" parent="0" left="0" top="0" right="64.3281" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-150" y="120" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="25767040" parent="0" left="0" top="0" right="61.9219" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-165" y="60" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="25767344" parent="0" left="0" top="0" right="102.625" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1125" y="15" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Definition_of_a_Russian_Empire_order_of_merit" shapeColor="0" id="25741632" parent="0" left="0" top="0" right="350.953" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="915" y="135" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25749408" parent="0" x="1065" y="135" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Russian_Empire_order_of_merit" shapeColor="0" id="25710384" parent="0" left="0" top="0" right="236.375" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="690" y="390" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subdividing_of_Russian_Empire_orders_of_merit_in_order_of_importance" shapeColor="0" id="25708096" parent="0" left="0" top="0" right="534.375" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="690" y="495" haveBus="true" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Russian_Empire_order_of_merit" shapeColor="0" id="25674576" parent="0" left="0" top="0" right="236.375" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="645" y="135" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_key_sc_element" shapeColor="0" id="25655728" parent="0" left="0" top="0" right="154.469" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="735" y="75" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="sc_definition" shapeColor="0" id="25653008" parent="0" left="0" top="0" right="100.203" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="810" y="195" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25655424" parent="0" x="1065" y="60" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_sc_text_translation" shapeColor="0" id="25636656" parent="0" left="0" top="0" right="181.859" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1005" y="90" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_en" shapeColor="0" id="25619648" parent="0" left="0" top="0" right="64.3281" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1395" y="60" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="25476112" parent="0" left="0" top="0" right="61.9219" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1395" y="135" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="25599488" parent="0" x="1050" y="195" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="25583616" parent="0" left="0" top="0" right="102.625" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1125" y="165" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_by" shapeColor="0" id="25567232" parent="0" left="0" top="0" right="65.0312" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1395" y="195" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="rrel_example" shapeColor="0" id="25549712" parent="0" left="0" top="0" right="102.625" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1110" y="225" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_St_Andrew" shapeColor="0" id="25529792" parent="0" left="0" top="0" right="155.406" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="720" y="570" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_Saint_Catherine" shapeColor="0" id="25513600" parent="0" left="0" top="0" right="193.547" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="765" y="615" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_St_Vladimir" shapeColor="0" id="25478336" parent="0" left="0" top="0" right="162" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="854.02" y="695.882" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_St_Alexander_Nevsky" shapeColor="0" id="25457440" parent="0" left="0" top="0" right="234.312" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="900" y="737.941" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_Virtuti_Militari" shapeColor="0" id="25441312" parent="0" left="0" top="0" right="182.938" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1112.06" y="938.824" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_St_Stanislaus" shapeColor="0" id="25423168" parent="0" left="0" top="0" right="175.562" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1051.67" y="885.98" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_St_Anna" shapeColor="0" id="25405472" parent="0" left="0" top="0" right="136.906" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="999.804" y="835.098" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Order_of_the_White_Eagle_russian" shapeColor="0" id="25386448" parent="0" left="0" top="0" right="258.141" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="951.176" y="784.902" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_section_decomposition" shapeColor="0" id="25283776" parent="0" left="0" top="0" right="210.5" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="765" y="450" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26195152" parent="0" id_b="26209504" id_e="26095776" b_x="0" b_y="0" e_x="105" e_y="60" dotBBalance="0.191375" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26194128" parent="0" id_b="26209504" id_e="26116000" b_x="0" b_y="0" e_x="105" e_y="150" dotBBalance="0.67655" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26193104" parent="0" id_b="26205408" id_e="26036480" b_x="0" b_y="0" e_x="195" e_y="435" dotBBalance="0.163346" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26192080" parent="0" id_b="26209504" id_e="26121440" b_x="0" b_y="0" e_x="105" e_y="105" dotBBalance="0.433962" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26191056" parent="0" id_b="26205408" id_e="26004704" b_x="0" b_y="0" e_x="195" e_y="495" dotBBalance="0.641434" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26190032" parent="0" id_b="26208624" id_e="25892096" b_x="0" b_y="0" e_x="-225" e_y="120" dotBBalance="1.58621" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26189008" parent="0" id_b="26205408" id_e="25988608" b_x="0" b_y="0" e_x="195" e_y="540" dotBBalance="0.880478" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26187984" parent="0" id_b="26208624" id_e="25838352" b_x="0" b_y="0" e_x="-225" e_y="165" dotBBalance="0.702303" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26186960" parent="0" id_b="25708096" id_e="25710384" b_x="690" b_y="495" e_x="690" e_y="390" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26185936" parent="0" id_b="26208624" id_e="25850912" b_x="0" b_y="0" e_x="-225" e_y="60" dotBBalance="2" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26184976" parent="0" id_b="25749408" id_e="25741632" b_x="1065" b_y="135" e_x="915" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26183888" parent="0" id_b="25655424" id_e="25741632" b_x="1065" b_y="60" e_x="915" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="915" y="60"/>
+            </points>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="26182864" parent="0" id_b="25599488" id_e="25741632" b_x="1050" b_y="195" e_x="915" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="930" y="195"/>
+            </points>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26176720" parent="0" id_b="26206464" id_e="25405472" b_x="0" b_y="0" e_x="999.804" e_y="835.098" dotBBalance="0.618546" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26175696" parent="0" id_b="26206464" id_e="25423168" b_x="0" b_y="0" e_x="1051.67" e_y="885.98" dotBBalance="0.719311" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26174672" parent="0" id_b="26206464" id_e="25441312" b_x="0" b_y="0" e_x="1112.06" e_y="938.824" dotBBalance="0.835625" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26173648" parent="0" id_b="26206464" id_e="25386448" b_x="0" b_y="0" e_x="951.176" e_y="784.902" dotBBalance="0.514347" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26172624" parent="0" id_b="26206464" id_e="25457440" b_x="0" b_y="0" e_x="900" e_y="737.941" dotBBalance="0.412976" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26171600" parent="0" id_b="26206464" id_e="25478336" b_x="0" b_y="0" e_x="854.02" e_y="695.882" dotBBalance="0.320288" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26167504" parent="0" id_b="26206464" id_e="25494128" b_x="0" b_y="0" e_x="810" e_y="669.722" dotBBalance="0.2276" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26166480" parent="0" id_b="26206464" id_e="25513600" b_x="0" b_y="0" e_x="765" e_y="615" dotBBalance="0.134912" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26165456" parent="0" id_b="25915152" id_e="26194128" b_x="45" b_y="-15" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.717131">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26164432" parent="0" id_b="25873904" id_e="26185936" b_x="-285" b_y="-15" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.236019">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26163408" parent="0" id_b="26091536" id_e="26193104" b_x="135" b_y="375" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.239044">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26162384" parent="0" id_b="25767040" id_e="25850912" b_x="-165" b_y="60" e_x="-225" e_y="60" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26161360" parent="0" id_b="26032640" id_e="26004704" b_x="300" b_y="495" e_x="195" e_y="495" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26160336" parent="0" id_b="25804128" id_e="25892096" b_x="-150" b_y="120" e_x="-225" e_y="120" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26159312" parent="0" id_b="26091536" id_e="26191056" b_x="135" b_y="375" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.717131">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26158288" parent="0" id_b="25873904" id_e="26187984" b_x="-285" b_y="-15" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.821374">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26157264" parent="0" id_b="26061008" id_e="26036480" b_x="300" b_y="435" e_x="195" e_y="435" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26156240" parent="0" id_b="26041824" id_e="25988608" b_x="300" b_y="540" e_x="195" e_y="540" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26155216" parent="0" id_b="25821104" id_e="25838352" b_x="-150" b_y="165" e_x="-225" e_y="165" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26154192" parent="0" id_b="26091536" id_e="26189008" b_x="135" b_y="375" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.354029">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26153168" parent="0" id_b="25915152" id_e="26192080" b_x="45" b_y="-15" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.59761">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26152144" parent="0" id_b="25954544" id_e="26121440" b_x="195" b_y="105" e_x="105" e_y="105" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26151152" parent="0" id_b="25915152" id_e="26195152" b_x="45" b_y="-15" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.239044">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="25857328" parent="0" id_b="25916816" id_e="26095776" b_x="195" b_y="60" e_x="105" e_y="60" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="25856288" parent="0" id_b="25873904" id_e="26190032" b_x="-285" b_y="-15" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.576681">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26145984" parent="0" id_b="25636656" id_e="26183888" b_x="1005" b_y="90" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.466192">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26144960" parent="0" id_b="25619648" id_e="25985136" b_x="1395" b_y="60" e_x="1230" e_y="60" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26143936" parent="0" id_b="25655424" id_e="25985136" b_x="1065" b_y="60" e_x="1230" e_y="60" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26142912" parent="0" id_b="25767344" id_e="26143936" b_x="1125" b_y="15" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.34589">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26141888" parent="0" id_b="25636656" id_e="26184976" b_x="1005" b_y="90" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.270992">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26140864" parent="0" id_b="25476112" id_e="25993040" b_x="1395" b_y="135" e_x="1230" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26139840" parent="0" id_b="25655728" id_e="25837632" b_x="735" b_y="75" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.679283">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26138816" parent="0" id_b="25653008" id_e="25741632" b_x="810" b_y="195" e_x="915" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26137792" parent="0" id_b="25583616" id_e="26136768" b_x="1125" b_y="165" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.34589">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26136768" parent="0" id_b="25749408" id_e="25993040" b_x="1065" b_y="135" e_x="1230" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="25837632" parent="0" id_b="25741632" id_e="25674576" b_x="915" b_y="135" e_x="645" e_y="135" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26134208" parent="0" id_b="25567232" id_e="25999312" b_x="1395" b_y="195" e_x="1245" e_y="195" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26133184" parent="0" id_b="25549712" id_e="26132160" b_x="1110" b_y="225" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.286932">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26132160" parent="0" id_b="25599488" id_e="25999312" b_x="1050" b_y="195" e_x="1245" e_y="195" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26131136" parent="0" id_b="25636656" id_e="26182864" b_x="1005" b_y="90" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.728507">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26130112" parent="0" id_b="26206464" id_e="25529792" b_x="0" b_y="0" e_x="720" e_y="570" dotBBalance="0.0422245" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26129088" parent="0" id_b="25283776" id_e="26186960" b_x="765" b_y="450" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.412791">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="26128096" parent="0" id_b="25937472" id_e="26116000" b_x="195" b_y="150" e_x="105" e_y="150" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <bus type="" idtf="" shapeColor="0" id="26209504" parent="0" owner="25898800" b_x="-30" b_y="24.5" e_x="-30" e_y="60">
+            <points>
+                <point x="-30" y="210"/>
+                <point x="-30" y="45"/>
+            </points>
+        </bus>
+        <bus type="" idtf="" shapeColor="0" id="26208624" parent="0" owner="25601568" b_x="-359.323" b_y="24.4759" e_x="-360" e_y="60">
+            <points>
+                <point x="-345" y="225"/>
+                <point x="-360" y="45"/>
+            </points>
+        </bus>
+        <bus type="" idtf="" shapeColor="0" id="26206464" parent="0" owner="25708096" b_x="699.5" b_y="495" e_x="1185" e_y="495">
+            <points/>
+        </bus>
+        <bus type="" idtf="" shapeColor="0" id="26205408" parent="0" owner="26010048" b_x="60" b_y="414.5" e_x="60" e_y="450">
+            <points>
+                <point x="60" y="540"/>
+                <point x="60" y="435"/>
+            </points>
+        </bus>
+    </staticSector>
+</GWF>

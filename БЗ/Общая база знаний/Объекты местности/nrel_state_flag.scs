@@ -1,0 +1,46 @@
+nrel_state_flag
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[государствееный флаг*]
+	(*
+	<- lang_ru;;
+	*);
+	[state flag*]
+	(*
+	<- lang_en;;
+	*);
+	[дзяржаўны сцяг*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:concept_country;
+=> nrel_second_domain:concept_breadth;;
+
+/*<- rrel_key_sc_element:
+	...
+	(*
+	<- <- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Флаг - ]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Сцяг - ]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;*/

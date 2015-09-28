@@ -1,0 +1,40 @@
+concept_street
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[улица]
+	(*
+	<- lang_ru;;
+	*);
+	[street]
+	(*
+	<- lang_en;;
+	*);
+	[вуліца]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_inclusion: concept_terrain_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Улица — элемент инфраструктуры населённого пункта.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Вуліца - элемент інфраструктуры населенага пункта.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

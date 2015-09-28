@@ -1,0 +1,19 @@
+Vankovich_Liev_Appolinarijevich
+=> nrel_main_idtf:
+	[Ванькович Лев Апполинариевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Liev Appolinarijevich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Леў Апалінар'евіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Vankovich;
+=>nrel_first_name: name_Liev;
+<=nrel_parent: Vankovich_Liev_Lvovich;;

@@ -1,0 +1,30 @@
+nrel_agnate_brother
+=>nrel_main_idtf:
+	[единокровный брат*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[однородный брат*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[agnate brother*] (* <-lang_en;; *);	
+=>nrel_main_idtf:
+	[адзінакроўны брат*] (* <-lang_by;; *);
+
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Единокровный (однородный) брат — сын того же отца, но разных матерей.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Адзінакроўны брат - сын таго ж бацькі, але розных маці.] (* <-lang_by;; *);; 
+		*);;
+	*);
+	
+=>nrel_using_example:"file://content/nrel_agnate_brother.jpg";
+
+<-sc_const;
+	
+<-sc_node_norole_relation;;

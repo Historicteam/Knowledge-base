@@ -1,0 +1,42 @@
+nrel_social_status
+	=> nrel_main_idtf: 
+	[социальная принадлежность*] (* <- lang_ru;; *);
+	[social status*] (* <- lang_en;; *);
+	[сацыяльная прыналежнасць*] (* <- lang_by;; *);
+
+<- sc_const;
+<- sc_node_norole_relation;;
+
+Definition_social_status
+	=> nrel_main_idtf:
+	[Определение отношения "социальная принадлежность*"] (* <- lang_ru;; *);
+//	[Definition of social status] (* <- lang_en;; *);
+	[Азначэнне дачынення "сацыяльная прыналежнасць*"] (* <- lang_by;; *);;
+
+nrel_social_status 
+	=> nrel_first_domain: 
+		concept_estate;
+	=> nrel_second_domain: 
+		concept_male; concept_woman;
+	
+<- rrel_key_sc_element: Definition_social_status
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Социальная принадлежность* - бинарное отношение, первым доменом которого является человек, второй домен - определенное сословие.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Сацыяльная прыналежнасць* - бінарнае дачыненне, першым даменам якога з'яўляецца чалавек, другі дамен - пэўнае саслоўе.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

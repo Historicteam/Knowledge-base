@@ -1,0 +1,17 @@
+Miullier_Alieksandra
+=> nrel_main_idtf:
+	[Мюллер Александра]
+	(*
+	<- lang_ru;;
+	*);
+	[Miullier Alieksandra]
+	(*
+	<- lang_en;;
+	*);
+	[Мюллер Аляксандра]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_surname: surname_Miullier;
+=>nrel_first_name: name_Alieksandra;;

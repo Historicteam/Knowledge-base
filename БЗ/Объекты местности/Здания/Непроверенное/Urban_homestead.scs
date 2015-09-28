@@ -1,0 +1,37 @@
+Urban_homestead
+<- concept_building;
+=> nrel_main_idtf:
+	[Городская усадьба] (* <- lang_ru;; *);
+	[Urban homestead] (* <- lang_en;; *);
+	[Гарадская сядзіба] (* <- lang_by;; *);
+
+=> nrel_idtf:
+	[Усадьба Юрия Кобылинского] (* <- lang_ru;; *);
+	[Manor Yuri Kobylinsky] (* <- lang_en;; *);
+	[Сядзіба Юрыя Кабылінскага] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Image_of_city_estate (*
+	=> nrel_main_idtf:
+		[Изображение городской усадьбы] (* <- lang_ru;; *);
+		[Image of city estate] (* <- lang_en;; *);
+		[Выява гарадской сядзібы] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Городская усадьба.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Image_of_city_estate (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Городская усадьба 2.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

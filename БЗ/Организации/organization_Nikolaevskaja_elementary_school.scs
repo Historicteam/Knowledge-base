@@ -1,0 +1,17 @@
+organization_Nikolaevskaja_elementary_school
+	=> nrel_main_idtf:
+		[Николаевская средняя школа]
+		(*
+			<- lang_ru;;
+		*);
+		[Мікалаеўская сярэдняя школа]
+		(*
+		<- lang_by;;
+		*);
+
+		[Nikolaevskaja elementary school]
+		(*
+		<- lang_en;;
+		*);
+<-concept_educational_institution;;
+	

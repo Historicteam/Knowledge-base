@@ -1,0 +1,32 @@
+concept_leisure_organization
+=>nrel_main_idtf:
+	[досуговая организация] (* <-lang_ru;; *);
+	[leisure organization] (* <-lang_en;; *);
+	[дасугавая арганізацыя] (* <-lang_by;; *);
+
+<- rrel_key_sc_element:
+	Definition_of_the_leisure_organization_concept   
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "досуговая организация"] (* <-lang_ru;; *);
+		[Definition of the leisure organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "дасугавая арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Досуговая организация – это организация, целью которой является осуществление свободной деятельности по интересам.] (* <-lang_ru;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [Leisure organization is an organization which goal is the implementation of free activities that are related to different kinds of interest.] (* <-lang_en;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [Дасугавая арганізацыя - гэта арганізацыя, мэтай якой з'яўляецца ажыццяўленне свабоднай дзейнасці па інтарэсам.] (* <-lang_by;; *);; 
+		*);;
+	*);	
+<-sc_node_not_relation;
+<-sc_const;;

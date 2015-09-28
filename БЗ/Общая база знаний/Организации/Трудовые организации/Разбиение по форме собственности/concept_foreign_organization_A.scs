@@ -1,0 +1,30 @@
+concept_foreign_organization
+=>nrel_main_idtf:
+	[иностранная организация] (* <-lang_ru;; *);
+	[foreign organization] (* <-lang_en;; *);
+	[замежная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_foreign_organization_concept
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "иностранная организация"] (* <-lang_ru;; *);
+		[Definition of the foreign organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "замежная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Иностранная организация - это организация, принадлежащая иностранным юридическим лицам, компаниям либо другим корпоративным образованиям, и обладающая гражданской правоспособностью, созданная в соответствии с законодательством иностранных государств.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Foreign organization is an organization owned by foreign legal persons, companies or other corporate entities, also it has legal capacity and established in accordance with the laws of foreign countries.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Замежная арганізацыя - гэта арганізацыя, якая належыць замежным юрыдычным асобам, кампаніям якім-небудзь іншым карпаратыўным установам, і якая валодае грамадзянскай праваздольнасцю, створаная ў адпаведнасці з заканадаўствам замежных дзяржаў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;
+<-sc_const;;

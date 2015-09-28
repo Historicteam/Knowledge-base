@@ -1,0 +1,15 @@
+organization_Minsk_governance_of_charity
+=> nrel_main_idtf:
+	[Минское общество благотворительности]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk governance of сharity] 
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае таварыства дабрачыннасці]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location:Kostrovickaja_house;;

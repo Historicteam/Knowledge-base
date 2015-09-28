@@ -1,0 +1,22 @@
+concept_bridge
+=> nrel_main_idtf:
+	[көпір]
+	(*
+	<- lang_kz;;
+	*);
+=>nrel_inclusion: concept_terrain_object;
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Көпір - көл, өзен, жыралар  немесе кез келген өзге де физикалық кедергіден өту үшін тұрғызылған жасанды құрылыс.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*);;
+

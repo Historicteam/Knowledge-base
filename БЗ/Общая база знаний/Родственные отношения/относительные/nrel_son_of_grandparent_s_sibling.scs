@@ -1,0 +1,27 @@
+nrel_son_of_grandparent_s_sibling
+=>nrel_main_idtf:
+	[двоюродный дядя*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[parent's cousin*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[son of grandparent's sibling*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[стрыечны дзядзька*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Двоюродный дядя — двоюродный брат отца или матери или муж двоюродной тёти.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Стрыечны дзядзька — стрыечны брат бацькі або маці або муж стрыечнай цёткі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_son_of_grandparent_s_sibling.jpg";	
+<-sc_node_norole_relation;;

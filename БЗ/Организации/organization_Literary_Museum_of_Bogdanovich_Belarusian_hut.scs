@@ -1,0 +1,17 @@
+organization_Literary_Museum_of_Bogdanovich_Belarusian_hut
+=> nrel_main_idtf:
+	[Литературный музей М. Богдановича «Беларуская хатка»]
+	(*
+	<- lang_ru;;
+	*);
+	[Literary Museum of Bogdanovich «Belarusian hut»]
+	(*
+	<- lang_en;;
+	*);
+	[Літаратурны музей М. Багдановіча «Беларуская хатка»]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: Rabkorovskiys_Street_house_19; 
+<-concept_museum
+;;

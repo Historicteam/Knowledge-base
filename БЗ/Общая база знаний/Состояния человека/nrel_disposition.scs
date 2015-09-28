@@ -1,0 +1,45 @@
+nrel_location
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[расположение*]
+	(*
+	<- lang_ru;;
+	*);
+	[location*]
+	(*
+	<- lang_en;;
+	*);
+	[размяшчэнне*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_organization;
+=> nrel_second_domain:
+	concept_building;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Расположение - бинарное отношение связывающие организацию и здание где эта организация располагается.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Размяшчэнне - бінарнае дачыненне, якое злучае арганізацыю і будынак, дзе гэтая арганізацыя размяшчаецца.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

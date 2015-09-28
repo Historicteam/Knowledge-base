@@ -1,0 +1,13 @@
+ribbon_of_an_order
+=>nrel_main_idtf:
+	[oрден лентас] (* <-lang_kz;; *);;
+	
+Definition_of_a_ribbon_of_an_order
+=>nrel_main_idtf:
+	[анықтама oрден лентас] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Орден лентасы - бұл тек ордендегі лауазымы жоғарғыларға қатысы бар, кейбір орденнің инсигний компоненті.] (* <-lang_kz;; *);; 
+		*);;
+	

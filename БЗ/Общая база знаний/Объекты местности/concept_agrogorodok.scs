@@ -1,0 +1,41 @@
+concept_agrogorodok
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[агрогородок]
+	(*
+	<- lang_ru;;
+	*);
+	[agrogorodok]
+	(*
+	<- lang_en;;
+	*);
+	[аграгарадок]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<=nrel_inclusion: concept_locality;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Агрогородок — тип сельских населённых пунктов в Белоруссии.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Аграгарадок - тып сельскіх населеных пунктаў у Беларусі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

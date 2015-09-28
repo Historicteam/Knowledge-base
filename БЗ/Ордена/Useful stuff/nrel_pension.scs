@@ -1,0 +1,31 @@
+nrel_pension
+=> nrel_main_idtf:
+	[пенсия*] (* <- lang_ru;; *);
+	[pension*] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	Definition_of_nrel_pension
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Пенсия - это квазибинарное отношение, которое связывает человека с размером пенсии и периодом времени.] (* <-lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: [Pension* is a quasibinary relation which connects a person with an amount of pension and a time period.] (* <-lang_en;; *);; 
+		*);;
+	*);
+=> nrel_second_domain: concept_person;
+=> nrel_first_domain: ...
+			(* 
+				-> rrel_time_period: ... ;;
+				-> rrel_awarded: ...;;
+			*);
+<- quasybinary_relation;;
+
+Definition_of_nrel_pension
+=> nrel_main_idtf:
+	[Определение отношения "пенсия*"] (* <- lang_ru;; *);
+	[Definition of the pension*] (* <- lang_en;; *);;

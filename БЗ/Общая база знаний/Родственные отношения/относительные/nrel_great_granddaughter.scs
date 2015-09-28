@@ -1,0 +1,26 @@
+nrel_great_granddaughter
+=>nrel_main_idtf:
+	[правнучка*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[great-granddaughter*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[праўнучка*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Правнучка — дочь внука или внучки.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Праўнучка — дачка ўнука ці ўнучкі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_great_granddaughter.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

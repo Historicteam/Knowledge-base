@@ -1,0 +1,7 @@
+organization_Sorbonne
+
+	=> nrel_main_idtf:
+		[Сорбонна] (* <- lang_ru;; *);
+		[Sorbonne] (* <- lang_en;; *);
+		[Сарбона] (* <- lang_by;; *);
+<-concept_educational_institution;;

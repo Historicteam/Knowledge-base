@@ -1,0 +1,17 @@
+Negoreloye_village
+=> nrel_main_idtf:
+	[деревня Негорелое]
+	(*
+	<- lang_ru;;
+	*);
+	[Negoreloye village]
+	(*
+	<- lang_en;;
+	*);
+	[вёска Негарэлае]
+	(*
+	<- lang_by;;
+	*);
+<-concept_terrain_object;
+<-concept_village
+;;

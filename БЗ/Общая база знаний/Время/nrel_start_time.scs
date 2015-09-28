@@ -1,0 +1,20 @@
+nrel_start_time 
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[время начала*]
+	(*
+	<- lang_ru;;
+	*);
+	[start_time*]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_first_domain: 
+	concept_situation;
+
+=> nrel_second_domain: 
+	concept_time_point
+;;

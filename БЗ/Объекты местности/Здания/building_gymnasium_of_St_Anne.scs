@@ -1,0 +1,16 @@
+building_Gymnasium_of_St_Anne
+=> nrel_main_idtf:
+	[Здание гимназии Святой Анны]
+	(*
+	<- lang_ru;;
+	*);
+	[Building of Gymnasium of St. Anne]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак гімназіі Святой Ганны]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building
+;;

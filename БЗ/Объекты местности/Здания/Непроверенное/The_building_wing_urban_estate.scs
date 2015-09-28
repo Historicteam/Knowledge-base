@@ -1,0 +1,22 @@
+The_building_wing_urban_estate
+<- concept_building;
+
+=> nrel_main_idtf:
+	[Здание флигеля городской усадьбы] (* <- lang_ru;; *);
+	[The building wing urban estate] (* <- lang_en;; *);
+	[Будынак флігеля гарадской сядзібы] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Image_building_wing_urban_estate (*
+	=> nrel_main_idtf:
+		[Изображение здания флигеля городской усадьбы] (* <- lang_ru;; *);
+		[Image building wing urban estate] (* <- lang_en;; *);
+		[Выява будынка флігеля гарадской сядзібы] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Здание флигеля городской усадьбы.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

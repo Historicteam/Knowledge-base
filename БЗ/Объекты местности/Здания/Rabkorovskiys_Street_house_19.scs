@@ -1,0 +1,5 @@
+Rabkorovskiys_Street_house_19
+	=> nrel_main_idtf:	[ул. Рабкоровского 19](* <- lang_ru;; *);
+				[вул. Рабкароўскага 19] (* <- lang_by;; *);
+				[Rabkorovskiy's Street, 19](* <- lang_en;; *);
+<-concept_building;;

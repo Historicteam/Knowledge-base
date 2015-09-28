@@ -1,0 +1,35 @@
+concept_administrative_organization
+=>nrel_main_idtf:
+	[административная организация] (* <-lang_ru;; *);
+	[administrative organization] (* <-lang_en;; *);
+	[адміністрацыйная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_administrative_organization_concept  
+	(* 
+	=> nrel_main_idtf:
+		[Определение понятия "административная организация"] (* <-lang_ru;; *);
+		[Definition of the administrative organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "адміністрацыйная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Административная организация – это организация, отличающаяся от других наличием четко определенных и достаточно устойчивых институциональных целей, зафиксированной в нормативных документах формальной жесткой структурой, системой узаконенных правил и стандартов, которые регулируют деятельность и деловые отношения сотрудников, а также четким распределением сфер компетенции и властных полномочий.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Administrative organization is an organization that is characterized by clear allocation of competencies and powers, by well-defined and fairly stable institutional objectives which are enshrined in some formal structured regulations, and by institutionalized system of rules and standards that regulate activities of employees and their business relations.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Адміністрацыйная арганізацыя – найменне муніцыпальных арганізацый, якія адрозніваюцца ад іншых наяўнасцю выразна вызначаных і дастаткова ўстойлівых інстытуцыйных мэтаў, жорсткай, зафіксаванай у нарматыўных дакументах фармальнай структурай, сістэмай ўзаконеных правілаў і стандартаў, якія рэгулююць дзейнасць і дзелавыя адносіны супрацоўнікаў, а таксама дакладным размеркаваннем сфер кампетэнцыі і ўладных паўнамоцтваў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+-> The_Supreme_Soviet_of_the_USSR;
+-> CC_CP_Belarus;
+-> organization_Ministry_of_Finance_of_the_Russian_Empire;
+-> organization_Minsk_Municipal_Public_Administration;
+
+<-sc_node_not_relation;
+<-sc_const;;

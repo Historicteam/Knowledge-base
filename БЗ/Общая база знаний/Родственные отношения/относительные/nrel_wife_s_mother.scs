@@ -1,0 +1,27 @@
+nrel_wife_s_mother
+=>nrel_main_idtf:
+	[тёща*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[mother-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[wife's mother*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[цешча*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Тёща — женщина по отношению к мужу дочери, мать жены.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Цешча — жанчына ў дачыненні да мужа дачкі, маці жонкі.] (* <-lang_by;; *);;  
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_wife_s_mother.jpg";	
+<-sc_node_norole_relation;;

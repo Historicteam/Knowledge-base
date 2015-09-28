@@ -1,0 +1,21 @@
+concept_complex_of_buildings
+=> nrel_main_idtf:
+	[ғимарат комплексі]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Ғимарат комплексі - бір мақсатта біріктірілген көптеген ғимараттар.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*)
+;;

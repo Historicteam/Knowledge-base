@@ -1,0 +1,28 @@
+nrel_parent
+=>nrel_main_idtf:
+	[родитель*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[parent*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[адзін з бацькоў*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Родитель —  ближайшие родственники человека, составляющие основу его семьи.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Адзін з бацькоў — бліжэйшыя сваякі чалавека, якія складаюць аснову яго сям'і.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_mother;
+	nrel_father;
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_parent.jpg";	
+<-sc_node_norole_relation;;

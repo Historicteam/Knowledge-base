@@ -1,0 +1,64 @@
+concept_organization
+=>nrel_main_idtf:
+	[организация] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[социальная организация] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[social organization] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[organization] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[арганізацыя] (* <-lang_by;; *);
+=>nrel_idtf:
+	[сацыяльная арганізацыя] (* <-lang_by;; *);
+	
+<-rrel_key_sc_element:
+	Definition_of_the_organization_concept 
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "организация"] (* <-lang_ru;; *);
+		[Definition of the organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "арганізацыя"] (* <-lang_by;; *);;
+
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Социальная организация — это группа, возникающая из социальной потребности и представляющая собой упорядоченный, регулируемый и скоординированный способ совместной деятельности, применяющий определенный алгоритм к действиям людей, группирующихся вокруг набора целевых установок: социальных предписаний и ожиданий.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Social organization is an audience that arises owing to social needs and represents the ordered, controlled and coordinated way of a cooperative activity which applies a certain algorithm to the actions of people which are grouped around a set of targets such as social requirements and expectations.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Сацыяльная арганізацыя - гэта група, якая ўзнікае з сацыяльнай патрэбы і якая ўяўляе сабой упарадкаваны, рэгуляваны і скаардынаваны спосаб сумеснай дзейнасці, якая, у сваю чаргу, выкарыстоўвае пэўны алгарытм да дзеянняў людзей, якія групуюцца вакол набору мэтавых установак: сацыяльных прадпісанняў і чаканняў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;	
+<-sc_const;;
+
+subdividing_into_formal_and_informal_organizations
+	=>nrel_main_idtf:
+			[разбиение на формальные и неформальные организации] (* <-lang_ru;; *);
+			[subdividing into formal and informal organizations] (* <-lang_en;; *);
+			[разбіццё на фармальныя і нефармальныя арганізацыі] (* <-lang_by;; *);;
+
+subdividing_into_labour_and_public_organizations
+	=>nrel_main_idtf:
+		[разбиение на трудовые и общественные организации] (* <-lang_ru;; *);
+		[subdividing into labour and public organizations] (* <-lang_en;; *);
+		[разбіццё на працоўныя і грамадскія арганізацыі] (* <-lang_by;; *);;
+
+concept_organization
+	<=nrel_subdividing: subdividing_into_formal_and_informal_organizations
+				(*
+						->	concept_formal_organization;
+								concept_informal_organization;;
+				*);
+
+	<=nrel_subdividing: subdividing_into_labour_and_public_organizations
+				(*
+						->	concept_labour_organization;
+								concept_non_governmental_organization;;
+				*);;

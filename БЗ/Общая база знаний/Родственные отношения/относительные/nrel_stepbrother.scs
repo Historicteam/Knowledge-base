@@ -1,0 +1,28 @@
+nrel_stepbrother
+=>nrel_main_idtf:
+	[сводный брат*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[stepbrother*] (* <-lang_en;; *);	
+=>nrel_idtf:
+	[half brother*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[зводны брат*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сводные братья — дети, родители которых состоят в браке между собой, но не имеют общих детей.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Зводныя браты — дзеці, бацькі якіх знаходзяцца ў шлюбе паміж сабой, але не маюць агульных дзяцей.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_stepbrother.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

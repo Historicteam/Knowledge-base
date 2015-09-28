@@ -1,0 +1,25 @@
+nrel_have_a_number
+=>nrel_main_idtf:
+	[имеет номер*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[have a number*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[мае нумар*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Имеет номер* — бинарное отношение, первый домен которого здание, второй — номер этого здания.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Мае нумар* - бінарнае дачыненне, першы дамен якога будынак, другі - нумар гэтага будынка.] (* <-lang_by;; *);;  
+		*);;
+	*);
+
+<-sc_const;
+<-sc_node_norole_relation;;

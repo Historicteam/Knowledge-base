@@ -1,0 +1,26 @@
+nrel_uncle
+=>nrel_main_idtf:
+	[дядя*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[uncle*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[дзядзька*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Дядя — брат отца или матери.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Дзядзька — брат бацькі або маці.] (* <-lang_by;; *);;  
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_uncle.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

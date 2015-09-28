@@ -1,0 +1,53 @@
+nrel_coat_of_arms
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[герб*]
+	(*
+	<- lang_ru;;
+	*);
+	[coat of arms*]
+	(*
+	<- lang_en;;
+	*);
+	[герб*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:...
+	(*
+	<=nrel_combination:...
+		(*
+		->concept_locality;;
+		->concept_country;;
+		*);;
+	*);
+=> nrel_second_domain:concept_emblem;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Герб — эмблема, отличительный знак, передаваемый по наследству, на котором изображаются предметы, символизирующие владельца герба (человека, сословие, род, город, страну и т. п.).]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Герб - эмблема, адметны знак, перадаваемы ў спадчыну, на якім адлюстроўваюцца прадметы, якія сімвалізуюць ўладальніка герба (чалавека, саслоўе, род, горад, краіну і т. п.).]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

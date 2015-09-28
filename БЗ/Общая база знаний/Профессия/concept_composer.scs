@@ -1,0 +1,25 @@
+concept_composer
+<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[композитор] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[composer] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[кампазітар] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Композитор - автор музыкальных произведений; человек, пишущий музыку и имеющий соответствующую квалификацию.] (* <-lang_ru;; *);;
+		*); 
+		...
+		(* 
+		-> rrel_example: [Кампазітар - аўтар музычных твораў; чалавек, які піша музыку і які мае адпаведную кваліфікацыю.] (* <-lang_by;; *);; 
+		*);;
+	*);
+	
+<-sc_const;;

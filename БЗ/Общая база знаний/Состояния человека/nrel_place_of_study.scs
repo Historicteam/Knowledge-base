@@ -1,0 +1,45 @@
+nrel_place_of_study
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[место учёбы*]
+	(*
+	<- lang_ru;;
+	*);
+	[place of study*]
+	(*
+	<- lang_en;;
+	*);
+	[месца вучобы*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=> nrel_second_domain:
+	concept_building;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Место учебы - бинарное отношение связывающие человека и здание где этот человек учится.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Месца вучобы - бінарнае дачыненне, якое злучае чалавека і будынак, дзе гэты чалавек вучыцца.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

@@ -1,0 +1,21 @@
+nrel_friend
+=> nrel_main_idtf:
+	[достар*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[достар - дос екі адамды байланыстыратын бинарлы қатынас.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

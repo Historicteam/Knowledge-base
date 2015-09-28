@@ -1,0 +1,27 @@
+Konopatskaja_Tieofilin
+=> nrel_main_idtf:
+	[Конопатская Теофилин]
+	(*
+	<- lang_ru;;
+	*);
+	[Konopatskaja Tieofilin]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_idtf:
+	[Гуттен-Чапская Теофилин]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapskaya Tieofilin]
+	(*
+	<- lang_en;;
+	*);
+<-concept_woman;
+<-concept_person;
+
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Konopatskaja;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Tieofilin;
+<=>nrel_spouse:Hutten_Czapsky_Ignatij_von;;

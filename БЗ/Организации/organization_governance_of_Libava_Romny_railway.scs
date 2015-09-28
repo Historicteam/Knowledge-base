@@ -1,0 +1,15 @@
+organization_governance_of_Libava_Romny_railway
+=> nrel_main_idtf:
+	[управление Либаво-Роменской железной дороги]
+	(*
+	<- lang_ru;;
+	*);
+	[governance of Libava Romny railway] 
+	(*
+	<- lang_en;;
+	*);
+	[ўпраўленне Лібава-Роменскай чыгункі]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location:Kostrovickaja_house;;

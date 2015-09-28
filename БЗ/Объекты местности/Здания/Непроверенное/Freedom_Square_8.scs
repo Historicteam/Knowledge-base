@@ -1,0 +1,6 @@
+Freedom_Square_8
+<- concept_building;
+=> nrel_main_idtf:
+	[Площадь Свободы, 8] (* <- lang_ru;; *);
+	[Freedom Square, 8] (* <- lang_en;; *);
+	[Плошча Свабоды, 8] (* <- lang_by;; *);;

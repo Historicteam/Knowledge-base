@@ -1,0 +1,30 @@
+nrel_stepson
+=>nrel_main_idtf:
+	[пасынок*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[stepson*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[пасерб*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[пасынак*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+			[Пасынок — неродной сын для одного из супругов, родившийся от предшествующего брака второго супруга.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: 
+			[Пасерб — няродны сын для мужа або жонкі, адзін (адна) з якіх нарадзіўся (нарадзілася) ад папярэдняга шлюбу іншых людзей.] (* <-lang_by;; *);;
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_stepson.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

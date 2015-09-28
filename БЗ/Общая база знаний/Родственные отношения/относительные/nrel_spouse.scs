@@ -1,0 +1,29 @@
+nrel_spouse
+=>nrel_main_idtf:
+	[супруг*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[spouse*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[жанатыя*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Супруги — это женщина и мужчина, состоящие в браке.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Муж і жонка — гэта жанчына і мужчына, знаходзяцца ў шлюбе.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_spouse.jpg";
+=>nrel_inclusion:
+	nrel_wife;
+	nrel_husband;
+<-sc_const;
+<-non_oriented_relation;
+<-sc_node_norole_relation;;

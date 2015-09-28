@@ -1,0 +1,21 @@
+nrel_owner
+=> nrel_main_idtf:
+	[иесі*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Иесі * - барлық  объектілер адамға тиесілі  байланыстыратын бинарлық қатынасы.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

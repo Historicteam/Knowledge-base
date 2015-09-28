@@ -1,0 +1,17 @@
+organization_Nesvizh_teacher_seminary
+	
+	=> nrel_main_idtf:
+		[Несвижская учительская семинария]
+		(*
+			<- lang_ru;;
+		*);
+		[Нясвіжская настаўніцкая семінарыя]
+		(*
+		<- lang_by;;
+		*);
+		[Nesvizh teacher seminary]
+		(*
+		<- lang_en;;
+		*);
+<-concept_educational_institution;;
+	

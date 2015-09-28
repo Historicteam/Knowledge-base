@@ -1,0 +1,21 @@
+concept_shelter
+=> nrel_main_idtf:
+	[баспана]
+	(*
+	<- lang_kz;;
+	*);;
+Definition_of_the_shelter_concept
+=> nrel_main_idtf:
+	[анықтама баспана]
+	(*
+	<- lang_kz;;
+	*);
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Баспана - сіз қорғанатын, қауіпсіз болатын орын.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;

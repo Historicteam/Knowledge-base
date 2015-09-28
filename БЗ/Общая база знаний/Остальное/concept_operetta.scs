@@ -1,0 +1,24 @@
+concept_operetta
+=>nrel_main_idtf:
+	[оперетта] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[operetta] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[аперэта] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Оперетта - театральное представление, в котором отдельные музыкальные номера чередуются с диалогами без музыки.] (* <-lang_ru;;*);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Аперэта - тэатральнае прадстаўленне, у якім асобныя музычныя нумары чаргуюцца з дыялогамі без музыкі.] (* <-lang_by;;*);; 
+		*);;
+	*);
+	
+<-sc_const;;

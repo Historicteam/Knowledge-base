@@ -1,0 +1,28 @@
+nrel_daughter_of_grandparent_s_sibling
+=>nrel_main_idtf:
+	[двоюродная тётя*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[parent's cousin*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[daughter of grandparent's sibling*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[стрыечная цётка*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Двоюродная тётя — двоюродная сестра отца или матери.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Стрыечная цётка - стрыечная сястра бацькі або маці.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_daughter_of_grandparent_s_sibling.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

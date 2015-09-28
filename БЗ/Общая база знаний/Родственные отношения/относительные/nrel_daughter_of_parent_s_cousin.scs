@@ -1,0 +1,28 @@
+nrel_daughter_of_parent_s_cousin
+=>nrel_main_idtf:
+	[троюродная сестра*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[second cousin*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[daughter of parent's cousin*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[траюрадная сястра*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Троюродная сестра — дочь двоюродного дяди или тёти.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Траюрадная сястра — дачка стрыечнага дзядзькі або цёткі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_daughter_of_parent_s_cousin.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

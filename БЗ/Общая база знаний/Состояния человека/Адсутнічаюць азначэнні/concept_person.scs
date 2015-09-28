@@ -1,0 +1,25 @@
+concept_person
+=>nrel_main_idtf:
+	[персона] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[person] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[персона] (* <-lang_by;; *);
+=>nrel_idtf:
+	[человек] (* <-lang_ru;; *);
+<=nrel_subdividing:...
+	(*
+	->concept_male;;
+	->concept_woman;;
+	*);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Человек — вид рода Люди из семейства гоминид в отряде приматов, единственный живущий в настоящее время.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+<-sc_const;;

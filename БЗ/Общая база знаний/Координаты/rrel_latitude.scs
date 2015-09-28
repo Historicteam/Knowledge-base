@@ -1,0 +1,25 @@
+rrel_latitude
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[широта']
+	(*
+	<- lang_ru;;
+	*);
+	[latitude']
+	(*
+	<- lang_en;;
+	*);
+	[шырата']
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain: 
+	concept_coordinate;
+
+=> nrel_second_domain: 
+	concept_number
+;;

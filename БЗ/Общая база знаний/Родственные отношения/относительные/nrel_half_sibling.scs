@@ -1,0 +1,31 @@
+nrel_half_sibling
+=>nrel_main_idtf:
+	[полусиблинг*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[half-sibling*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[полусиблинг*] (* <-lang_by;; *);	
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Полусиблинг — общий термин для обозначения братьев и сестёр (по отношению друг к другу), происходящих от одного общего родителя.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Паўсіблінг — агульны тэрмін для абазначэння братоў і сясцёр (у дачыненні адзін да аднаго), якія паходзяць ад аднаго агульнага бацькі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_agnate_sister;
+	nrel_agnate_brother;
+	nrel_uterine_sister;
+	nrel_uterine_brother;
+=>nrel_using_example:"file://content/nrel_half_sibling.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

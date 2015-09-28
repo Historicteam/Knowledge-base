@@ -1,0 +1,49 @@
+concept_political_organization
+=>nrel_main_idtf:
+	[политическая организация] (* <-lang_ru;; *);
+	[political organization] (* <-lang_en;; *);
+	[палітычная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	 Definition_of_the_political_organization_concept 
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "политическая организация"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the political organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "палітычная арганізацыя"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Политическая организация – это общественное объединение, ставящее своей целью влияние на общественные и государственные процессы, участие в выборах депутатов представительных органов и выборных должностных лиц.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Political organization is a public association which aim is to influence on public and government processes, participation in elections of representative authority deputies and officials.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Палітычная арганізацыя - гэта грамадскае аб'яднанне, якое ставіць сваёй мэтай ўплыў на грамадскія і дзяржаўныя працэсы, удзел у выбарах дэпутатаў прадстаўнічых органаў і выбарных службовых асоб.] (* <-lang_by;; *);; 
+			*);;
+
+	*);	
+-> Communist_Youth_of_Belarus;
+-> Regional_Committee_of_Komsomol_Molodechnensky;
+-> Minsk_Regional_Committee_of_Komsomol;
+-> Minsk_Regional_Party_Committee;
+-> Brest_Regional_Committee_of_the_Communist_Party_of_Belarus;
+
+<-sc_node_not_relation;
+<-sc_const;;

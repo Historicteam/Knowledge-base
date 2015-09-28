@@ -1,0 +1,39 @@
+concept_region
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[область]
+	(*
+	<- lang_ru;;
+	*);
+	[region]
+	(*
+	<- lang_en;;
+	*);
+	[вобласць]
+	(*
+	<- lang_by;;
+	*);;
+/*<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Агрогородок — тип сельских населённых пунктов в Белоруссии.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Аграгарадок - тып сельскіх населеных пунктаў у Беларусі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;*/

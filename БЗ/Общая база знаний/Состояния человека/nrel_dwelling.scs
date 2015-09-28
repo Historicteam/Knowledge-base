@@ -1,0 +1,45 @@
+nrel_dwelling
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[местожительство*]
+	(*
+	<- lang_ru;;
+	*);
+	[dwelling*]
+	(*
+	<- lang_en;;
+	*);
+	[месца жыхарства*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_building;
+=> nrel_second_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Местожительство — место, где человек (гражданин) постоянно или преимущественно проживает.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Месца жыхарства - месца, дзе чалавек (грамадзянін) пастаянна або пераважна пражывае.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

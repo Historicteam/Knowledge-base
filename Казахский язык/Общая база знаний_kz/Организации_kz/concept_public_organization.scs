@@ -1,0 +1,13 @@
+concept_public_organization
+=>nrel_main_idtf:
+	[қоғамдық  ұйым] (* <-lang_kz;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Қоғамдық ұйым - ортақ мүдделер мен мақсаттар негізінде] (* <-lang_kz;; *);; 
+		*);;
+	*);;

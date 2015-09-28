@@ -1,0 +1,40 @@
+concept_sports_organization
+=>nrel_main_idtf:
+	[спортивная организация] (* <-lang_ru;; *);
+	[sports organization] (* <-lang_en;; *);
+	[спартыўная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_sports_organization_concept  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия спортивной организации] (* <-lang_ru;; *);;
+	=>nrel_main_idtf:
+		[Definition of the sports organization concept] (* <-lang_en;; *);;
+	=>nrel_main_idtf:
+		[Азначэнне паняцця спартыўнай арганізацыі] (* <-lang_by;; *);;
+
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:
+			[Cпортивная организация –  это организация, осуществляющая деятельность в области спорта, целью которой является тренировка спортсменов, проведение спортивных мероприятий, образование или другой вид деятельности, связанной со спортом.] 				(* <-lang_ru;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example:
+			[Sports organization is an organization which works in the field of sports and its purpose is to train athletes, to 				arrange sports events, to educate and to do anything else that is related to the sports field.] (* <-lang_en;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example:
+			[Спартыўная арганізацыя - гэта арганізацыя, якая ажыццяўляе дзейнасць у галіне спорту, мэтай якой з'яўляецца навучанне спартсменаў, правядзенне спартыўных мерапрыемстваў, адукацыі або іншых відаў дзейнасці, звязаных са спортам.] (* <-lang_by;; *);; 
+		*);;
+
+	*);	
+
+<-sc_node_not_relation;
+<-sc_const;;

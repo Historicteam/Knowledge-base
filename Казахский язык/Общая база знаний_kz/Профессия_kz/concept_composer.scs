@@ -1,0 +1,15 @@
+concept_composer
+<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[композитор] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Композитор - музыкалық шығармалардың авторы; музыка жазатын және тиісті біліктілігі бар адам.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

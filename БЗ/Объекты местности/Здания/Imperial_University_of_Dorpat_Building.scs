@@ -1,0 +1,17 @@
+Imperial_University_of_Dorpat_Building
+=> nrel_main_idtf:
+	[Здание Императорского Дерптского университета]
+	(*
+	<- lang_ru;;
+	*);
+	[Imperial University of Dorpat Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Імператарскага Дерпцкага універсітэта]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building
+;;
+

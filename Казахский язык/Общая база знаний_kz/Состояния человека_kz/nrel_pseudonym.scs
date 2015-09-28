@@ -1,0 +1,21 @@
+nrel_pseudonym
+=> nrel_main_idtf:
+	[жалған ат*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Жалған ат - кісі аты әрбір ұйымдарда өзінің шын атына қолданылатын ]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

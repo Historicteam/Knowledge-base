@@ -1,0 +1,16 @@
+organization_school_of_PR_in_Warsaw
+=> nrel_main_idtf:
+	[Школа пиаров в Варшаве]
+	(*
+	<- lang_ru;;
+	*);
+	[School of PR in Warsaw]
+	(*
+	<- lang_en;;
+	*);
+	[Школа піяраў у Варшаве]
+	(*
+	<- lang_by;;
+	*);
+<-concept_school;
+<-concept_educational_institution;;

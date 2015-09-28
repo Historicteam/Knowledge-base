@@ -1,0 +1,14 @@
+concept_ballet
+=>nrel_main_idtf:
+	[балет] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [ Балет - орындаушылық өнер түрі; музыкалық және.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

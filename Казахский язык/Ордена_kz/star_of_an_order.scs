@@ -1,0 +1,13 @@
+star_of_an_order
+=>nrel_main_idtf:
+	[oрден жұлдызы] (* <-lang_kz;; *);;
+	
+Definition_of_a_star_of_an_order
+=>nrel_main_idtf:
+	[анықтама oрден жұлдызыі] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Орден жұлдызы - бұл ордендегі лауазымы жоғарғыларға арналған, кейбір орденнің бөлігі] (* <-lang_kz;; *);; 
+		*);;
+	

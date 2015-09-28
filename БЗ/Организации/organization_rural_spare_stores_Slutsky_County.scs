@@ -1,0 +1,14 @@
+organization_rural_spare_stores_Slutsky_County
+=> nrel_main_idtf:
+	[сельские запасные магазины Слуцкого уезда]
+	(*
+	<- lang_ru;;
+	*);
+	[rural spare stores Slutsky County] 
+	(*
+	<- lang_en;;
+	*);
+	[сельскія запасныя магазіны Слуцкага павета]
+	(*
+	<- lang_by;;
+	*);;

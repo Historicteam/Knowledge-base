@@ -1,0 +1,15 @@
+Freyer_August
+=> nrel_main_idtf:
+	[Фрейер Август]
+	(*
+	<- lang_ru;;
+	*);
+	[Freyer August]
+	(*
+	<- lang_en;;
+	*);
+	[Фрэер Аўгуст]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

@@ -1,0 +1,12 @@
+provincial_board_of_Saint_Petersburg
+=> nrel_main_idtf:
+	[губернское правление Санкт-Петербурга]
+	(*
+	<- lang_ru;;
+	*);
+	[provincial board of Saint-Petersburg]
+	(*
+	<- lang_en;;
+	*);
+<-concept_provincial_board;
+<-concept_organization;;

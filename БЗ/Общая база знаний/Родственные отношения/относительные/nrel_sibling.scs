@@ -1,0 +1,33 @@
+nrel_sibling
+=>nrel_main_idtf:
+	[сиблинг*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[сибс*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[sibling*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[сіблінг*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[сібс*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сіблінг (сибс) — общий термин для обозначения братьев и сестёр (по отношению друг к другу), происходящих от одного или двоих общих родителей, но не являющихся близнецами.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Сиблинг (сібс) — агульны тэрмін для абазначэння братоў і сясцёр (у дачыненні адзін да аднаго), якія паходзяць ад аднаго ці дваіх агульных бацькоў, але якія не з'яўляюцца двайнятамі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_full_sibling;
+	nrel_half_sibling;
+=>nrel_using_example:"file://content/nrel_sibling.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

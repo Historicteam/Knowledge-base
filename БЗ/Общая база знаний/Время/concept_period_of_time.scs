@@ -1,0 +1,14 @@
+concept_period_of_time <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[период времени]
+	(*
+	<- lang_ru;;
+	*);
+	[time_point]
+	(*
+	<- lang_en;;
+	*);
+	[перыяд часу]
+	(*
+	<- lang_by;;
+	*);;

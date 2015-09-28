@@ -1,0 +1,26 @@
+nrel_husband
+=>nrel_main_idtf:
+	[муж*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[husband*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[муж*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Муж — мужчина по отношению к женщине, с которой он состоит в браке.] (* <-lang_ru;; *);;
+		*);	
+		...
+		(* 
+		-> rrel_example: [Муж — мужчына ў адносінах да жанчыны, з якой ён утварае шлюб.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_husband.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

@@ -1,0 +1,14 @@
+concept_man
+=>nrel_main_idtf:
+	[еркек] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [еркек - жынысы еркек адам.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

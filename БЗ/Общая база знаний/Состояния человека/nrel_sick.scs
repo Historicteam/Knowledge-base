@@ -1,0 +1,41 @@
+nrel_sick
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[болен*]
+	(*
+	<- lang_ru;;
+	*);
+	[dwelling*]
+	(*
+	<- lang_en;;
+	*);
+	[хворы*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=> nrel_second_domain:
+	concept_sick;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Болен — бинарное отношение, связывающие человека и болезнь которой он болен.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[Хворы - бінарнае дачыненне, якое злучае чалавека і хваробу на якую ён хварэе.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

@@ -1,0 +1,13 @@
+organization_Museum_of_Emeric_Hutten_Czapski
+=> nrel_main_idtf:
+	[Музей имени Эмерика Гуттен-Чапского]
+	(*
+	<- lang_ru;;
+	*);
+	[Museum of Emeric Hutten-Czapski]
+	(*
+	<- lang_en;;
+	*);
+<- the_city_of_Krakow; 
+<-concept_museum
+;;

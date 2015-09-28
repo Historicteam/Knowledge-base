@@ -1,0 +1,24 @@
+rrel_time_period
+=> nrel_main_idtf:
+	[период времени'] (* <- lang_ru;; *);
+	[time period'] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	Definition_of_rrel_time_period
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Период времени' - это ролевое отношение, связывающее множество с определённым периодом времени.] (* <-lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: [Time period' is a role relation which connects a set with a certain period of time.] (* <-lang_en;; *);; 
+		*);;
+	*);;
+
+Definition_of_rrel_time_period
+=> nrel_main_idtf:
+	[Определение ролевого отношения "период времени'"] (* <- lang_ru;; *);
+	[Definition of the "time period'" role relation] (* <- lang_en;; *);;

@@ -1,0 +1,18 @@
+Mogilnickij_Jezhi_Petrovich
+=> nrel_main_idtf:
+	[Могильницкий Ежи Петрович]
+	(*
+	<- lang_ru;;
+	*);
+	[Mogilnickij Jezhi Petrovich]
+	(*
+	<- lang_en;;
+	*);
+	[Магільніцкі Ежы Пятровіч]
+	(*
+	<- lang_by;;
+		*);
+<-concept_male;
+=>nrel_surname: surname_Mogilnickij;
+=>nrel_first_name: name_Jezhi;
+<=>nrel_spouse:Vojnilovich_Gabriela_Adamovna;;

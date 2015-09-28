@@ -1,0 +1,1444 @@
+name_Anna
+=> nrel_main_idtf:
+	[Анна]
+	(*
+	<- lang_ru;;
+	*);
+	[Anna]
+	(*
+	<- lang_en;;
+	*);
+	[Ганна]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Анэля]
+	(*
+	<- lang_ru;;
+	*);
+	[Анэля]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Carolina
+=> nrel_main_idtf:
+	[Каролина]
+	(*
+	<- lang_ru;;
+	*);
+	[Carolina]
+	(*
+	<- lang_en;;
+	*);
+	[Караліна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name;;
+
+name_Mikhalina
+=> nrel_main_idtf:
+	[Михалина]
+	(*
+	<- lang_ru;;
+	*);
+	[Mikhalina]
+	(*
+	<- lang_en;;
+	*);
+	[Мiхалiна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name;;
+
+name_Edvard
+=> nrel_main_idtf:
+	[Эдвард]
+	(*
+	<- lang_ru;;
+	*);
+	[Edvard]
+ 	(*
+	<- lang_en;;
+ 	*);
+	[Эдвард]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name;;
+
+
+
+name_Lieon
+=> nrel_main_idtf:
+	[Леон]
+	(*
+	<- lang_ru;;
+	*);
+	[Lieon]
+	(*
+	<- lang_en;;
+	*);
+	[Лявон]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Carol
+=> nrel_main_idtf:
+	[Кароль]
+	(*
+	<- lang_ru;;
+	*);
+	[Carol]
+	(*
+	<- lang_en;;
+	*);
+	[Кароль]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_FabJana
+=> nrel_main_idtf:
+	[Фабиана]
+	(*
+	<- lang_ru;;
+	*);
+	[FabJana]
+	(*
+	<- lang_en;;
+	*);
+	[Фабіяна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Franciszek
+=> nrel_main_idtf:
+	[Францишек]
+	(*
+	<- lang_ru;;
+	*);
+	[Franciszek]
+	(*
+	<- lang_en;;
+	*);
+	[Францішак]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Veronica
+=> nrel_main_idtf:
+	[Вероника]
+	(*
+	<- lang_ru;;
+	*);
+	[Veronica]
+	(*
+	<- lang_en;;
+	*);
+	[Вераніка]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_John
+=> nrel_main_idtf:
+	[Иона]
+	(*
+	<- lang_ru;;
+	*);
+	[John]
+	(*
+	<- lang_en;;
+	*);
+	[Іона]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+
+name_Egor
+=> nrel_main_idtf:
+	[Егор]
+	(*
+	<- lang_ru;;
+	*);
+	[Egor]
+	(*
+	<- lang_en;;
+	*);
+	[Ягор]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Jan
+=> nrel_main_idtf:
+	[Ян]
+	(*
+	<- lang_ru;;
+	*);
+	[Jan]
+	(*
+	<- lang_en;;
+	*);
+	[Ян]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+name_Stanislav
+=> nrel_main_idtf:
+	[Станислав]
+	(*
+	<- lang_ru;;
+	*);
+	[Stanislav]
+	(*
+	<- lang_en;;
+	*);
+	[Станіслаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Alieksandra
+=> nrel_main_idtf:
+	[Александра]
+	(*
+	<- lang_ru;;
+	*);
+	[Alieksandra]
+	(*
+	<- lang_en;;
+	*);
+	[Аляксандра]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Jelizavieta
+=> nrel_main_idtf:
+	[Jelizavieta]
+	(*
+	<- lang_en;;
+	*);
+	[Елизавета]
+	(*
+	<- lang_ru;;
+	*);
+	[Лізавета]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Chieslav
+=> nrel_main_idtf:
+	[Chieslav]
+	(*
+	<- lang_en;;
+	*);
+	[Чеслав]
+	(*
+	<- lang_ru;;
+	*);
+	[Чэслаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Kazimir
+=> nrel_main_idtf:
+	[Kazimir]
+	(*
+	<- lang_en;;
+	*);
+	[Казимир]
+	(*
+	<- lang_ru;;
+	*);
+	[Казімір]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Alieksandr
+=> nrel_main_idtf:
+	[Alieksandr]
+	(*
+	<- lang_en;;
+	*);
+	[Александр]
+	(*
+	<- lang_ru;;
+	*);
+	[Аляксандр]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Emerick
+=> nrel_main_idtf:
+	[Emerick]
+	(*
+	<- lang_en;;
+	*);
+	[Эмерик]
+	(*
+	<- lang_ru;;
+	*);
+	[Эмерык]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Zakhariy
+=> nrel_main_idtf:
+	[Захарий]
+	(*
+	<- lang_ru;;
+	*);
+	[Zakhariy]
+	(*
+	<- lang_en;;
+	*);
+	[Захарый]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Nicholas
+=> nrel_main_idtf:
+	[Николас]
+	(*
+	<- lang_ru;;
+	*);
+	[Nicholas]
+	(*
+	<- lang_en;;
+	*);
+	[Нікалас]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Severin
+=> nrel_main_idtf:
+	[Северин]
+	(*
+	<- lang_ru;;
+	*);
+	[Severin]
+	(*
+	<- lang_en;;
+	*);
+	[Северын]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Eve
+=> nrel_main_idtf:
+	[Ева]
+	(*
+	<- lang_ru;;
+	*);
+	[Eva]
+	(*
+	<- lang_en;;
+	*);
+	[Ева]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Juzef
+=> nrel_main_idtf:
+	[Юзеф]
+	(*
+	<- lang_ru;;
+	*);
+	[Juzef]
+	(*
+	<- lang_en;;
+	*);
+	[Юзэф]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Marija
+=> nrel_main_idtf:
+	[Marija]
+	(*
+	<- lang_en;;
+	*);
+	[Мария]
+	(*
+	<- lang_ru;;
+	*);
+	[Марыя]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Pavlina
+=> nrel_main_idtf:
+	[Pavlina]
+	(*
+	<- lang_en;;
+	*);
+	[Паулина]
+ 	(*
+	<- lang_ru;;
+ 	*);
+	[Паўлiна]
+ 	(*
+	<- lang_by;;
+ 	*);
+<-concept_name;;
+
+name_Dominik
+=> nrel_main_idtf:
+	[Dominik]
+	(*
+	<- lang_en;;
+	*);
+	[Доминик]
+ 	(*
+	<- lang_ru;;
+	*);
+	[Домiнiк]
+ 	(*
+	<- lang_by;;
+	*);
+<-concept_name;;
+
+
+name_Ihnatij
+=> nrel_main_idtf:
+	[Ihnatij]
+	(*
+	<- lang_en;;
+	*);
+	[Игнатий]
+	(*
+	<- lang_ru;;
+ 	*);
+	[Iгнацiй]
+	(*
+	<- lang_by;;
+ 	*);
+<-concept_name;;
+
+
+
+name_Stepan
+=> nrel_main_idtf:
+	[Stepan]
+	(*
+	<- lang_en;;
+	*);
+	[Степан]
+	(*
+	<- lang_ru;;
+	*);
+	[Сцяпан]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+name_Lukyan
+=> nrel_main_idtf:
+	[Lukyan]
+	(*
+	<- lang_en;;
+	*);
+	[Лукьян]
+	(*
+	<- lang_ru;;
+	*);
+	[Лукьян]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+name_Arina
+=> nrel_main_idtf:
+	[Arina]
+	(*
+	<- lang_en;;
+	*);
+	[Арина]
+	(*
+	<- lang_ru;;
+	*);
+	[Арына]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+name_Yuri
+=> nrel_main_idtf:
+	[Yuri]
+	(*
+	<- lang_en;;
+	*);
+	[Юрий]
+	(*
+	<- lang_ru;;
+	*);
+	[Юрый]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Egor]
+	(*
+	<- lang_en;;
+	*);
+	[Егор]
+	(*
+	<- lang_ru;;
+	*);
+	[Ягор]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+name_Fedor
+=> nrel_main_idtf:
+	[Fedor]
+	(*
+	<- lang_en;;
+	*);
+	[Фёдор]
+	(*
+	<- lang_ru;;
+	*);
+	[Фёдар]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Franz]
+	(*
+	<- lang_en;;
+	*);
+	[Франц]
+	(*
+	<- lang_ru;;
+	*);
+	[Франц]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Semen
+=> nrel_main_idtf:
+	[Semen]
+	(*
+	<- lang_en;;
+	*);
+	[Семен]
+	(*
+	<- lang_ru;;
+	*);
+	[Сямён]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+name_Foma
+=> nrel_main_idtf:
+	[Foma]
+	(*
+	<- lang_en;;
+	*);
+	[Фома]
+	(*
+	<- lang_ru;;
+	*);
+	[Фама]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Tomash]
+	(*
+	<- lang_en;;
+	*);
+	[Томаш]
+	(*
+	<- lang_ru;;
+	*);
+	[Тамаш]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Anufriy
+=> nrel_main_idtf:
+	[Anufriy]
+	(*
+	<- lang_en;;
+	*);
+	[Ануфрий]
+	(*
+	<- lang_ru;;
+	*);
+	[Ануфрый]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Adam
+=> nrel_main_idtf:
+	[Adam]
+	(*
+	<- lang_en;;
+	*);
+	[Адам]
+	(*
+	<- lang_ru;;
+	*);
+	[Адам]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Yekaterina
+=> nrel_main_idtf:
+	[Yekaterina]
+	(*
+	<- lang_en;;
+	*);
+	[Екатерина]
+	(*
+	<- lang_ru;;
+	*);
+	[Кацярына]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Alexey
+=> nrel_main_idtf:
+	[Alexey]
+	(*
+	<- lang_en;;
+	*);
+	[Алексей]
+	(*
+	<- lang_ru;;
+	*);
+	[Аляксей]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Afanasiy
+=> nrel_main_idtf:
+	[Afanasiy]
+	(*
+	<- lang_en;;
+	*);
+	[Афанасий]
+	(*
+	<- lang_ru;;
+	*);
+	[Афанасій]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_TatJana
+=> nrel_main_idtf:
+	[TatJana]
+	(*
+	<- lang_en;;
+	*);
+	[Татьяна]
+	(*
+	<- lang_ru;;
+	*);
+	[Таццяна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Maksim
+=> nrel_main_idtf:
+	[Maksim]
+	(*
+	<- lang_en;;
+	*);
+	[Максим]
+	(*
+	<- lang_ru;;
+	*);
+	[Максім]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Vadim
+=> nrel_main_idtf:
+	[Vadim]
+	(*
+	<- lang_en;;
+	*);
+	[Вадим]
+	(*
+	<- lang_ru;;
+	*);
+	[Вадзім]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Liev
+=> nrel_main_idtf:
+	[Liev]
+	(*
+	<- lang_en;;
+	*);
+	[Лев]
+	(*
+	<- lang_ru;;
+	*);
+	[Леў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Nina
+=> nrel_main_idtf:
+	[Nina]
+	(*
+	<- lang_en;;
+	*);
+	[Нина]
+	(*
+	<- lang_ru;;
+	*);
+	[Ніна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Roman
+=> nrel_main_idtf:
+	[Roman]
+	(*
+	<- lang_en;;
+	*);
+	[Роман]
+	(*
+	<- lang_ru;;
+	*);
+	[Раман]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Paviel
+=> nrel_main_idtf:
+	[Paviel]
+	(*
+	<- lang_en;;
+	*);
+	[Павел]
+	(*
+	<- lang_ru;;
+	*);
+	[Павел]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Vyacheslav
+=> nrel_main_idtf:
+	[Vyacheslav]
+	(*
+	<- lang_en;;
+	*);
+	[Вячеслав]
+	(*
+	<- lang_ru;;
+	*);
+	[Вячаслаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Nikolay
+=> nrel_main_idtf:
+	[Nikolay]
+	(*
+	<- lang_en;;
+	*);
+	[Николай]
+	(*
+	<- lang_ru;;
+	*);
+	[Мікалай]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Jevhienij
+=> nrel_main_idtf:
+	[Jevhienij]
+	(*
+	<- lang_en;;
+	*);
+	[Евгений]
+	(*
+	<- lang_ru;;
+	*);
+	[Яўген]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Domna
+=> nrel_main_idtf:
+	[Domna]
+	(*
+	<- lang_en;;
+	*);
+	[Домна]
+	(*
+	<- lang_ru;;
+	*);
+	[Домна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+name_Ivan
+=> nrel_main_idtf:
+	[Ivan]
+	(*
+	<- lang_en;;
+	*);
+	[Иван]
+	(*
+	<- lang_ru;;
+	*);
+	[Іван]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+name_Liubov
+=> nrel_main_idtf:
+	[Liubov]
+	(*
+	<- lang_en;;
+	*);
+	[Любовь]
+	(*
+	<- lang_ru;;
+	*);
+	[Любоў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+name_Irina
+=> nrel_main_idtf:
+	[Irina]
+	(*
+	<- lang_en;;
+	*);
+	[Ирина]
+	(*
+	<- lang_ru;;
+	*);
+	[Ірына]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+name_Vera
+=> nrel_main_idtf:
+	[Vera]
+	(*
+	<- lang_en;;
+	*);
+	[Вера]
+	(*
+	<- lang_ru;;
+	*);
+	[Вера]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+name_Konstantin
+=> nrel_main_idtf:
+	[Konstantin]
+	(*
+	<- lang_en;;
+	*);
+	[Константин]
+	(*
+	<- lang_ru;;
+	*);
+	[Канстанцін]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+name_Daniel
+=> nrel_main_idtf:
+	[Daniel]
+	(*
+	<- lang_en;;
+	*);
+	[Даниил]
+	(*
+	<- lang_ru;;
+	*);
+	[Данііл]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+
+name_Alies
+=> nrel_main_idtf:
+	[Алесь]
+	(*
+	<- lang_ru;;
+	*);
+	[Alies]
+	(*
+	<- lang_en;;
+	*);
+	[Алесь]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Peter
+=> nrel_main_idtf:
+	[Пётр]
+	(*
+	<- lang_ru;;
+	*);
+	[Peter]
+	(*
+	<- lang_en;;
+	*);
+	[Пётр]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Matriona
+=> nrel_main_idtf:
+	[Матрена]
+	(*
+	<- lang_ru;;
+	*);
+	[Matriona]
+	(*
+	<- lang_en;;
+	*);
+	[Матрона]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Olga
+=> nrel_main_idtf:
+	[Ольга]
+	(*
+	<- lang_ru;;
+	*);
+	[Olga]
+	(*
+	<- lang_en;;
+	*);
+	[Вольга]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Nadiezhda
+=> nrel_main_idtf:
+	[Надежда]
+	(*
+	<- lang_ru;;
+	*);
+	[Nadiezhda]
+	(*
+	<- lang_en;;
+	*);
+	[Надзея]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Polina
+=> nrel_main_idtf:
+	[Полина]
+	(*
+	<- lang_ru;;
+	*);
+	[Polina]
+	(*
+	<- lang_en;;
+	*);
+	[Паліна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Franc
+=> nrel_main_idtf:	
+	[Franс]
+	(*
+	<- lang_en;;
+	*);
+	[Франц]
+	(*
+	<- lang_ru;;
+	*);
+	[Франц]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Khrysastom
+=> nrel_main_idtf:	
+	[Khrysastom]
+	(*
+	<- lang_en;;
+	*);
+	[Хризостом]
+	(*
+	<- lang_ru;;
+	*);
+	[Хрызастом]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Ignatij
+=> nrel_main_idtf:	
+	[Ignatij]
+	(*
+	<- lang_en;;
+	*);
+	[Игнатий]
+	(*
+	<- lang_ru;;
+	*);
+<-concept_name
+;;
+
+name_Tieofilin
+=> nrel_main_idtf:	
+	[Tieofilin]
+	(*
+	<- lang_en;;
+	*);
+	[Теофилин]
+	(*
+	<- lang_ru;;
+	*);
+<-concept_name
+;;
+
+name_Kostka
+=> nrel_main_idtf:	
+	[Kostka]
+	(*
+	<- lang_en;;
+	*);
+	[Костка]
+	(*
+	<- lang_ru;;
+	*);
+<-concept_name
+;;
+
+name_Fabiana
+=> nrel_main_idtf:	
+	[Fabiana]
+	(*
+	<- lang_en;;
+	*);
+	[Фабиана]
+	(*
+	<- lang_ru;;
+	*);
+<-concept_name
+;;
+
+name_Antonij
+=> nrel_main_idtf:	
+	[Antonij]
+	(*
+	<- lang_en;;
+	*);
+	[Антоний]
+	(*
+	<- lang_ru;;
+	*);
+	[Антоний]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Anton
+=> nrel_main_idtf:	
+	[Anton]
+	(*
+	<- lang_en;;
+	*);
+	[Антон]
+	(*
+	<- lang_ru;;
+	*);
+	[Антон]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Leonard
+=> nrel_main_idtf:	
+	[Leonard]
+	(*
+	<- lang_en;;
+	*);
+	[Леонард]
+	(*
+	<- lang_ru;;
+	*);
+	[Леанард]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Dmitrij
+=> nrel_main_idtf:	
+	[Dmitrij]
+	(*
+	<- lang_en;;
+	*);
+	[Дмитрий]
+	(*
+	<- lang_ru;;
+	*);
+	[Дзмітрый]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Bernard
+=> nrel_main_idtf:	
+	[Bernard]
+	(*
+	<- lang_en;;
+	*);
+	[Бернард]
+	(*
+	<- lang_ru;;
+	*);
+	[Бернард]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Olimpija
+=> nrel_main_idtf:	
+	[Olimpija]
+	(*
+	<- lang_en;;
+	*);
+	[Олимпия]
+	(*
+	<- lang_ru;;
+	*);
+	[Алiмпiя]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Teofelija
+=> nrel_main_idtf:	
+	[Teofelija]
+	(*
+	<- lang_en;;
+	*);
+	[Теофелия]
+	(*
+	<- lang_ru;;
+	*);
+	[Тэафілія]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Gabriela
+=> nrel_main_idtf:	
+	[Gabriela]
+	(*
+	<- lang_en;;
+	*);
+	[Габриэла]
+	(*
+	<- lang_ru;;
+	*);
+	[Габрыэла]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Jadwiga
+=> nrel_main_idtf:	
+	[Jadwiga]
+	(*
+	<- lang_en;;
+	*);
+	[Ядвига]
+	(*
+	<- lang_ru;;
+	*);
+	[Ядвіга]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Otto
+=> nrel_main_idtf:	
+	[Otto]
+	(*
+	<- lang_en;;
+	*);
+	[Оттон]
+	(*
+	<- lang_ru;;
+	*);
+	[Атон]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Ludovica
+=> nrel_main_idtf:	
+	[Otto]
+	(*
+	<- lang_en;;
+	*);
+	[Людвика]
+	(*
+	<- lang_ru;;
+	*);
+	[Людвіка]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Ksaverij
+=> nrel_main_idtf:	
+	[Ksaverij]
+	(*
+	<- lang_en;;
+	*);
+	[Ксаверий]
+	(*
+	<- lang_ru;;
+	*);
+	[Ксаверый]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Jezhi
+=> nrel_main_idtf:	
+	[Jezhi]
+	(*
+	<- lang_en;;
+	*);
+	[Ежи]
+	(*
+	<- lang_ru;;
+	*);
+	[Ежы]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Vaclav
+=> nrel_main_idtf:	
+	[Vaclav]
+	(*
+	<- lang_en;;
+	*);
+	[Вацлав]
+	(*
+	<- lang_ru;;
+	*);
+	[Вацлаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;

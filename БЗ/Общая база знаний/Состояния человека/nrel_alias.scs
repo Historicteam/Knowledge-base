@@ -1,0 +1,43 @@
+nrel_alias
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[псевдоним*]
+	(*
+	<- lang_ru;;
+	*);
+	[alias*]
+	(*
+	<- lang_en;;
+	*);
+	[псеўданім*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Псевдоним* - бинарное отношение, антропоним используемое человеком в той или иной публичной деятельности вместо настоящего имени.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Псеўданім* - бінарнае дачыненне, антрапонім, які выкарыстоўваецца чалавекам у той ці іншай публічнай дзейнасці замест сапраўднага імені.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

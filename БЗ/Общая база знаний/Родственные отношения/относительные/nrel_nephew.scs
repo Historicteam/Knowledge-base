@@ -1,0 +1,26 @@
+nrel_nephew
+=>nrel_main_idtf:
+	[племянник*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[nephew*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[пляменнік*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Племянник — сын брата или сестры.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Пляменнік — сын брата ці сястры.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_nephew.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

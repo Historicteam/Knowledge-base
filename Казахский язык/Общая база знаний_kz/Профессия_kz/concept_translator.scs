@@ -1,0 +1,20 @@
+concept_translator
+=> nrel_main_idtf:
+	[аудармашы]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Аудармашы - бір тілден екінші тілге аудару маманы.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*);;

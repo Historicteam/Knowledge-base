@@ -1,0 +1,14 @@
+concept_ecological_organization
+=>nrel_main_idtf:
+	[экологиялық  ұйым] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Экологиялық ұйым - табиғатты қорғау мақсатында адамдарды бірлестіру.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

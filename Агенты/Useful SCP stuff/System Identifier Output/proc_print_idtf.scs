@@ -1,0 +1,39 @@
+scp_program -> proc_print_idtf (*
+	
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _element;;
+	*);;
+
+	-> rrel_operators: ... (*
+
+		-> rrel_init: ..proc_print_idtf_operator1 (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _element;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc2;;
+			-> rrel_3: rrel_assign: rrel_scp_var:_element_idtf;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_system_identifier;;
+
+			=> nrel_then: ..proc_print_idtf_operator2;;		
+			=> nrel_else: ..proc_print_idtf_operator_return;;		
+		*);;
+
+		-> ..proc_print_idtf_operator2 (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _element_idtf;;
+
+			=> nrel_goto: ..proc_print_idtf_operator_return;;
+		*);;
+
+		-> ..proc_print_idtf_operator3 (*
+			<- eraseEl;;
+			-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _element_idtf;;
+
+			=> nrel_goto: ..proc_print_idtf_operator_return;;	
+		*);;
+
+		-> ..proc_print_idtf_operator_return (*
+			<- return;;
+		*);;	
+	*);;
+*);;

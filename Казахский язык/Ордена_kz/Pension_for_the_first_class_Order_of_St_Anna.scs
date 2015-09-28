@@ -1,0 +1,15 @@
+Pension_for_the_first_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[1 дәрежелі Қасиетті Анна орденінің зейнетақы] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [1 дәрежелі Қасиетті Анна орденінің зейнетақысы, ол - жылдық зейнетақысына 350 немесе 200 рубль алуы.] (* <-lang_kz;; *);; 
+		*);;
+	*);;
+	

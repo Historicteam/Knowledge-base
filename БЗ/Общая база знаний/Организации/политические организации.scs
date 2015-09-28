@@ -1,0 +1,40 @@
+The_Supreme_Soviet_of_the_USSR
+			=> nrel_main_idtf:
+				[Верховный Совет СССР]  (* <- lang_ru;; *);
+				[The Supreme Soviet of the USSR] (* <- lang_en;; *);
+				[Вярхоўны Савет СССР] (* <- lang_by;; *);;
+CC_CP_Belarus
+			=> nrel_main_idtf:
+				[ЦК КП Белоруссии] (* <- lang_ru;; *);
+				[CC of Belarussian CP] 	 (* <- lang_en;; *);
+				[ЦК КП Беларусі] (* <- lang_by;; *);;
+
+Communist_Youth_of_Belarus
+			=> nrel_main_idtf:
+				[ЦК ЛКСМ Белоруссии] 		(* <- lang_ru;; *);
+				[Communist Youth of Belarus]	(* <- lang_en;; *);
+				[ЦК ЛКСМ Беларусі] (* <- lang_by;; *);;
+
+Regional_Committee_of_Komsomol_Molodechnensky
+			=> nrel_main_idtf:
+				[Молодечненский обком ЛКСМБ] (* <-lang_ru;; *);
+				[Regional Committee of Molodechnensky Komsomol]	(* <- lang_en;; *);
+				[Маладзечанскі абкам ЛКСМБ] (* <- lang_by;; *);;
+	
+Minsk_Regional_Committee_of_Komsomol
+			=> nrel_main_idtf:
+				[Минский обком ЛКСМБ] (* <- lang_ru;; *);
+				[Minsk Regional Committee of Komsomol]	(* <- lang_en;; *);
+				[Мінскі абкам ЛКСМБ] (* <- lang_by;; *);;
+
+Minsk_Regional_Party_Committee
+			=> nrel_main_idtf:
+				[Минский обком партии] 					 (* <- lang_ru;; *);
+				[Minsk Regional Party Committee] (* <- lang_en;; *);
+				[Мінскі абкам партыі] (* <- lang_by;; *);;
+
+Brest_Regional_Committee_of_the_Communist_Party_of_Belarus
+			=> nrel_main_idtf:
+				[Брестский обком Компартии Белоруссии] 											 (* <- lang_ru;; *);
+				[Brest Regional Committee of the Communist Party of Belarus] (* <- lang_en;; *);
+				[Брэсцкі абкам Кампартыі Беларусі] (* <- lang_by;; *);;

@@ -1,0 +1,22 @@
+the_third_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[3 дәрежелі қасиетті Анна ордені] (* <-lang_kz;; *);;
+Pension_for_the_third_class_Order_of_St_Anna 
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [3 дәрежелі қасиетті Анна орденінің зейнетақысы, ол - жылдық зейнетақысына 100 немесе 90 рубль алуы.] (* <-lang_kz;; *);; 
+		*);;
+
+Definition_of_the_third_class_Order_of_St_Anna
+	=>nrel_main_idtf:
+	[айқындау 3 дәрежелі қасиетті Анна ордені]  (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+	-> rrel_example: [3 дәрежелі қасиетті Анна ордені - бұл 2 дәреже орденіне қарағанда кішірек мойынға арналған крест және омырауына 2,2 см болатын лента.] (* <-lang_kz;; *);;*);;
+
+sc_definition
+		=>nrel_main_idtf:
+	[айқындау]  (* <-lang_kz;; *);;
+

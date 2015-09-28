@@ -1,0 +1,19 @@
+ui_menu_husband_of_spouse_s_sister
+	=> ui_nrel_command_template:
+	[*
+		question_search_sister _-> ._question_search_sister_instance
+			(*
+				_-> rrel_1:: ui_arg_1;;
+				_-> rrel_2:: ... (*
+							_-> rrel_1:: husband_of_spouse_s_sister;;
+							_-> rrel_2:: husband_of_spouse_s_sister_param;;
+							_-> rrel_3:: nrel_husband_of_spouse_s_sister;;
+				*);;
+			*);;
+		._question_search_sister_instance _<- question;;
+	*];
+
+	=> ui_nrel_command_lang_template:
+		[Запрос поиска свояка: $ui_arg_1] (* <- lang_ru;; *);
+		[Request private domains: $ui_arg_1] (* <- lang_en;; *);
+		[Каманда пошуку сваяка: $ui_arg_1] (* <- lang_by;; *);;

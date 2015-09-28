@@ -1,0 +1,37 @@
+concept_medical_organization
+=>nrel_main_idtf:
+	[медицинская организация] (* <-lang_ru;; *);
+	[medical organization] (* <-lang_en;; *);
+	[медыцынская арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_medical_organization_concept  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "медицинская организация"] (* <-lang_ru;; *);
+		[Definition of the medical organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "медыцынская арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Медицинская организация – это организация, осуществляющая деятельность в области здравоохранения или оказания медицинских услуг, поддерживающая развитие медицины как науки, занимающаяся мероприятиями по поддержанию здоровья и оказания медицинской помощи людям посредством изучения возможной профилактики болезней и травм.] (* <-lang_ru;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [Medical organization is an organization that works in the field of health and medical services, supports the development of medical science and engages in health maintenance activities through the researching of possible preventions of diseases and injuries.] (* <-lang_en;; *);; 
+		*);
+
+		...
+		(* 
+		-> rrel_example: [Медыцынская арганізацыя - гэта арганізацыя, якая ажыццяўляе дзейнасць у галіне аховы здароўя або аказання медыцынскіх паслуг, якая падтрымлівае развіццё медыцыны як навукі, якая займаецца мерапрыемствамі па падтрыманню здароўя і аказання медыцынскай дапамогі людзям з дапамогай вывучэння магчымай прафілактыкі хвароб і траўмаў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+-> organization_Minsk_Hospital_for_Prostitutes;
+=>nrel_inclusion:
+	concept_hospital;
+	concept_maternity_hospital;
+<-sc_node_not_relation;
+<-sc_const;;

@@ -1,0 +1,29 @@
+organization_Sluck_Gymnasium
+=> nrel_main_idtf:
+	[Слуцкая гимназия]
+	(*
+	<- lang_ru;;
+	*);
+	[Sluck Gymnasium]
+	(*
+	<- lang_en;;
+	*);
+	[Слуцкая гімназія]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Слуцкая кальвинская гимназия]
+	(*
+	<- lang_ru;;
+	*);
+	[Sluck Calvinist Gymnasium]
+	(*
+	<- lang_en;;
+	*);
+	[Слуцкая кальвiнская гімназія]
+	(*
+	<- lang_by;;
+	*);
+<-concept_gymnasium;
+<-concept_educational_institution;;

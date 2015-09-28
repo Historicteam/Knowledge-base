@@ -1,0 +1,64 @@
+concept_state_organization
+=>nrel_main_idtf:
+	[государственная организация] (* <-lang_ru;; *);
+	[state organization] (* <-lang_en;; *);
+	[дзяржаўная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_state_organization_concept  
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "государственная организация"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the state organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "дзяржаўная арганізацыя"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+
+		<= nrel_sc_text_translation:
+		...
+			(* 
+			-> rrel_example:
+				[Государственная организация - это организация, созданная для осуществления государством своих функций.] 
+				(* <-lang_ru;; *);; 
+			*);
+		...
+			(* 
+			-> rrel_example:
+				[State organization is an organization established for the implementation of state functions.] 					(* <-lang_en;; *);; 
+			*);
+		...
+			(* 
+			-> rrel_example:
+				[Дзяржаўная арганізацыя - гэта арганізацыя, створаная для ажыццяўлення дзяржавай сваіх функцый.] 
+				(* <-lang_by;; *);; 
+			*);;
+	*);
+
+-> organization_gymnasium_of_St_Anne;
+-> organization_Minsk_Male_Gymnasium;
+-> The_Supreme_Soviet_of_the_USSR;
+-> CC_CP_Belarus;
+-> organization_Minsk_Municipal_Hobo_Shelter;
+-> organization_theater_Warsaw_Big_Teatr;
+-> organization_Imperial_University_of_Dorpat;
+-> organization_Literary_Museum_of_Bogdanovich;
+-> organization_Literary_Museum_of_Bogdanovich_Belarusian_hut;
+-> organization_Ministry_of_Finance_of_the_Russian_Empire;
+-> organization_Brewery_Hutten_Czapsky_Count;
+-> organization_institute_Warsaw_Music_Institute;
+-> organization_Minsk_Municipal_Public_Administration;
+-> organization_Nizhny_Novgorod_Male_Gymnasium;
+-> organization_redaction_of_magazine_Vozhyk;
+-> organization_redaction_of_magazine_Polymia;
+
+<-sc_node_not_relation;
+<-sc_const;;

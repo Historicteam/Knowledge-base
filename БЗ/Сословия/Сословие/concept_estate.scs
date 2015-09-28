@@ -1,0 +1,36 @@
+concept_estate_01
+	=> nrel_main_idtf: [сословие] (* <- lang_ru;; *);
+											[estate] (* <- lang_en;; *);
+										 [саслоўе] (* <- lang_by;; *);
+
+	=> nrel_idtf:	[принадлежать сословию] (* <- lang_ru;; *);
+								[належать да саслоўя] (* <- lang_by;; *);
+
+	<- rrel_key_sc_element: The_definition_of_estate
+	(*
+		=> nrel_main_idtf:
+			[Определение понятия "сословие"] (* <- lang_ru;; *);
+			[The definition of "estate"] (* <- lang_en;; *);
+			[Азначэнне паняцця "саслоўе"] (* <- lang_by;; *);;
+
+		<-sc_definition;;
+		<=nrel_sc_text_translation: 
+		...
+		(*
+			-> rrel_example:
+			[Сословие – это множество персон, обладающаих закрепленными в обычае или законе и иногда передаваемыми по наследству правами и обязанностями.]
+			(* <- lang_ru;; *);;
+		*);
+		...
+		(*
+			-> rrel_example:
+			[Саслоўе – гэта мноства персон, якая валодае замацаванымі ў звычаі або законе і часам перадаваемымі па спадчыне правамі і абавязкамі.]
+			(* <- lang_by;; *);;
+		*);;
+	*);
+
+=> nrel_inclusion: 
+	concept_class_French_kingdom;
+	concept_class_of_ancient_Rome;
+	concept_class_of_the_British_Empire;
+	concept_class_of_the_Russian_Empire;;

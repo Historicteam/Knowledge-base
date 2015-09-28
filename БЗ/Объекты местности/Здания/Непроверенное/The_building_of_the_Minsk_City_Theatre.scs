@@ -1,0 +1,32 @@
+The_building_of_the_Minsk_City_Theatre
+<- concept_building;
+
+=> nrel_main_idtf:
+	[Здание минского городского театра] (* <- lang_ru;; *);
+	[The building of the Minsk City Theatre] (* <- lang_en;; *);
+	[Будынак мінскага гарадскога тэатра] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Image_building_of_Minsk_City_Theatre (*
+	=> nrel_main_idtf:
+		[Изображение здания минского городского театра] (* <- lang_ru;; *);
+		[Image building of Minsk City Theatre] (* <- lang_en;; *);
+		[Выява будынка мінскага гарадскога тэатра] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Здание минского городского театра.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Image_building_of_Minsk_City_Theatre (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Здание минского городского театра 2.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

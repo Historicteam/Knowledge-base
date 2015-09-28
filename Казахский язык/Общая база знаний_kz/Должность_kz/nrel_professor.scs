@@ -1,0 +1,13 @@
+nrel_professor
+=>nrel_main_idtf:
+	[профессор*] (* <-lang_kz;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Профессор - ғылым атағы мен университет оқытушысы немесе зерттеуші зерттеу орнының атауы.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

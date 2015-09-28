@@ -1,0 +1,21 @@
+nrel_student
+=> nrel_main_idtf:
+	[білім алушы*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Білім алушы - бинарлық қатынасы, адамды білім беру мекемелері мен зерттеу арқылы байланыстыратын.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

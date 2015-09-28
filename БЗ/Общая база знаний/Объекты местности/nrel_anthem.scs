@@ -1,0 +1,53 @@
+nrel_anthem
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[гимн*]
+	(*
+	<- lang_ru;;
+	*);
+	[anthem*]
+	(*
+	<- lang_en;;
+	*);
+	[гімн*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:...
+	(*
+	<=nrel_combination:...
+		(*
+		->concept_locality;;
+		->concept_country;;
+		*);;
+	*);
+=> nrel_second_domain:concept_song;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Гимн - торжественная песня, восхваляющая и прославляющая кого-либо или что-либо (первоначально божество).]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Гімн - ўрачыстая песня, усхваляць і праслаўляем каго-небудзь ці што-небудзь (першапачаткова боства)]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

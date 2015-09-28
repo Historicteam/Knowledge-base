@@ -1,0 +1,15 @@
+Privokzalnaya_square
+<-concept_square;
+=> nrel_main_idtf:
+	[Привокзальная площадь]
+	(*
+	<- lang_ru;;
+	*);
+	[Прывакзальная плошча]
+	(*
+	<- lang_by;;
+	*);
+	[Privokzalnaya Square]
+	(*
+	<- lang_en;;
+	*);;

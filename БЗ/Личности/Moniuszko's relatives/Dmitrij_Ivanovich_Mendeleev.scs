@@ -1,0 +1,19 @@
+Mendeleev_Dmitrij_Ivanovich
+=> nrel_main_idtf:
+	[Менделеев Дмитрий Иванович]
+	(*
+	<- lang_ru;;
+	*);
+	[Mendeleev Dmitrij Ivanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Мендзялееў Дзмітрый Іванавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Mendeleev;
+=>nrel_first_name: name_Dmitrij;
+<=nrel_employee:organization_Imperial_St_Petersburg_Technological_Institute;;

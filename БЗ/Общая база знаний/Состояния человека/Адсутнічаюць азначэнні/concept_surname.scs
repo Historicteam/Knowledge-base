@@ -1,0 +1,20 @@
+concept_surname
+=>nrel_main_idtf:
+	[фамилия] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[surname] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[прозвішча] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Фамилия — ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;;

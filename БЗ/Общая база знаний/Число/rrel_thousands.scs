@@ -1,0 +1,15 @@
+rrel_thousands
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[тысячи']
+	(*
+	<- lang_ru;;
+	*);
+
+=> nrel_second_domain: 
+	concept_number
+;;

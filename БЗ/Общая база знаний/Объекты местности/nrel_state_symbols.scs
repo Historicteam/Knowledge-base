@@ -1,0 +1,45 @@
+nrel_state_symbols
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[государственная символика*]
+	(*
+	<- lang_ru;;
+	*);
+	[state symbols*]
+	(*
+	<- lang_en;;
+	*);
+	[дзяржаўная сімволіка*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:concept_country;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Государственные символы — установленные конституцией или специальным законом отличительные знаки конкретного государства.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[State symbols - set by the constitution or by a special law decals particular state.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

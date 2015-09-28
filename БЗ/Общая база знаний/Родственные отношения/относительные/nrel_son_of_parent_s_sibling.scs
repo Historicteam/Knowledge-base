@@ -1,0 +1,29 @@
+nrel_son_of_parent_s_sibling
+=>nrel_main_idtf:
+	[двоюродный брат*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[csousin*] (* <-lang_en;; *);
+=>nrel_idtf:
+	[first cousin*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[son of parent's sibling*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[стрыечны брат*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Двоюродный брат — сын дяди или тётки.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Стрыечны брат — сын дзядзькі ці цёткі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_son_of_parent_s_sibling.jpg";	
+<-sc_node_norole_relation;;

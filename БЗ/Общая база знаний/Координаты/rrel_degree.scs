@@ -1,0 +1,24 @@
+rrel_degree
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[градус']
+	(*
+	<- lang_ru;;
+	*);
+	[degree']
+	(*
+	<- lang_en;;
+	*);
+	[градус']
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain: 
+	concept_number
+;;
+
+

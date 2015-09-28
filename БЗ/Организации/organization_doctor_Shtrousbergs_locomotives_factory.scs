@@ -1,0 +1,7 @@
+organization_doctor_Shtrousbergs_locomotives_factory
+
+	=> nrel_main_idtf:
+		[завод паровозов доктора Штроусберга] (* <- lang_ru;; *);
+		[doctor Shtrousberg's locomotives factory] (* <- lang_en;; *);
+		[завод паравозаў доктара Штроусберга] (* <- lang_by;; *);
+<-concept_factory;;

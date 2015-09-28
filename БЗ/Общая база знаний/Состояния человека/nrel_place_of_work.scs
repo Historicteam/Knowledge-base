@@ -1,0 +1,45 @@
+nrel_workplace
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[место работы*]
+	(*
+	<- lang_ru;;
+	*);
+	[workplace*]
+	(*
+	<- lang_en;;
+	*);
+	[месца працы*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=> nrel_second_domain:
+	concept_building;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Место работы - бинарное отношение связывающие человека и здание где этот человек работает.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Месца працы - бінарнае дачыненне, якое злучае чалавека і будынак, дзе чалавек працуе.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

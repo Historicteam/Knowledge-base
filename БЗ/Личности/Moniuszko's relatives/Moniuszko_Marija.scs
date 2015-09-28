@@ -1,0 +1,19 @@
+Moniuszko_Marija
+=> nrel_main_idtf:
+	[Монюшко Мария]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Marija]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Марыя]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Marija;
+<=> nrel_spouse: Moniuszko_Juzef;
+<= nrel_parent: Moniuszko_Stanislav_Juzefovich;;

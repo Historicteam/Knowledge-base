@@ -1,0 +1,14 @@
+organization_temporary_police_department_of_Slutsk_district
+=> nrel_main_idtf:
+	[временное полицейское управление Слуцкого уезда]
+	(*
+	<- lang_ru;;
+	*);
+	[temporary police department of Slutsk district] 
+	(*
+	<- lang_en;;
+	*);
+	[часовае паліцэйскае ўпраўленне Слуцкага павета]
+	(*
+	<- lang_by;;
+	*);;

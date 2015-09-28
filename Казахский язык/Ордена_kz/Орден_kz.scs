@@ -1,0 +1,17 @@
+order_of_merit
+=>nrel_main_idtf:
+	[орден] (* <-lang_kz;; *);
+=>nrel_idtf:
+	[кавалерлік орден] (* <-lang_kz;; *);;
+
+Definition_of_an_order_of_merit
+	=>nrel_main_idtf:
+	[анықтама орден] (* <-lang_kz;; *);	
+	<- sc_explanation;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Орден - ерекшелік белгі, айрықша еңбектер үшін наградалар.] (* <-lang_kz;; *);; 
+		*);;
+	
+	

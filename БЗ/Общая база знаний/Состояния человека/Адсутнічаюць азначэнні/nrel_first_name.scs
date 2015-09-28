@@ -1,0 +1,37 @@
+nrel_first_name
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[имя*]
+	(*
+	<- lang_ru;;
+	*);
+	[first name*]
+	(*
+	<- lang_en;;
+	*);
+	[імя*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=> nrel_second_domain:
+	concept_name;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Имя - ]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);;
+	*)
+;;

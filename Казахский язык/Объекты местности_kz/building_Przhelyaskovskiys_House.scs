@@ -1,0 +1,19 @@
+building_Przhelyaskovskiys_House	
+	=> nrel_main_idtf:
+		[Пржецлав үйі]
+		(*
+		<- lang_kz;;
+		*);
+	
+	=> nrel_idtf:
+		[Кеңес көшесі 12 үй]
+		(*
+		<- lang_kz;;
+		*);;
+
+Sovetskaya_Street
+			=> nrel_main_idtf:
+				[Кеңес көшесі]
+				(*
+				<- lang_kz;;
+				*);;

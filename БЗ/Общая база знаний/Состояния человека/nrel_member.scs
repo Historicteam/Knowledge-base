@@ -1,0 +1,41 @@
+nrel_member
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[член*]
+	(*
+	<- lang_ru;;
+	*);
+	[member*]
+	(*
+	<- lang_en;;
+	*);
+	[член*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_organization;
+=> nrel_second_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Член* - бинарное отношение связывающие организацию и человека который является её членом.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[Член* - бінарнае дачыненне, якое злучае арганізацыю і чалавека які з'яўляецца яе членам.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

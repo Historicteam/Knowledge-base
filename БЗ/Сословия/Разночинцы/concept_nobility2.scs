@@ -1,0 +1,18 @@
+concept_nobility2
+=>nrel_main_idtf:
+	[разночинцы] (* <-lang_ru;; *);
+	[nobility] (* <-lang_en;; *);
+	[разначынцы] (* <-lang_by;; *);;
+
+concept_nobility2
+	<- rrel_key_sc_element: ...
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Разночинцы – категория населения не принадлежавшая ни одному из сословий.] (* <-lang_ru;; *);;
+	*);
+	... (* -> rrel_example:
+	[Разначынцы – катэгорыя насельніцтва, якая не належала ні да аднаго з саслоўяў.] (* <-lang_by;; *);;
+	*);;
+*);;

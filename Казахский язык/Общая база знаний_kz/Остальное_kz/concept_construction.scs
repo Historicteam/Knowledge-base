@@ -1,0 +1,21 @@
+concept_constkzction
+=> nrel_main_idtf:
+	[құрылыс]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Құрылыс - белгілі бір тұтыну функцияларды іске асыру жөніндегі құрылыс қызметі нәтижесі.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*);;
+

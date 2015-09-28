@@ -1,0 +1,26 @@
+nrel_professor
+=>nrel_main_idtf:
+	[профессор*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[professor*] (* <-lang_en;; *);	
+=>nrel_main_idtf:
+	[прафесар*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+		[Профе́ссор — учёное звание и должность преподавателя вуза или научного сотрудника научно-исследовательского учреждения.] (* <-lang_ru;;
+*);;
+ 		*);
+		...
+		(* -> rrel_example:
+		[Прафе́сар — вучонае званне і пасада выкладчыка ВНУ або навуковага супрацоўніка навукова-даследчай ўстановы.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

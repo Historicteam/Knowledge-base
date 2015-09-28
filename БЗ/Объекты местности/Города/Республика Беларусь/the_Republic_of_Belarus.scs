@@ -1,0 +1,115 @@
+the_Republic_of_Belarus
+	<- sc_const;
+	=> nrel_main_idtf:[Республика Беларусь]	
+		(*	
+		<- lang_ru;;	
+		*);
+	[The Republic of Belarus]	
+		(*
+		<- lang_en;;
+		*);
+	[Рэспубліка Беларусь]		
+		(*	
+		<- lang_by;;	
+		*);
+
+
+
+<= nrel_politico_administrative_division:
+	{
+	brest_region;
+	vitebsk_region;
+	gomel_region;
+	grodno_region;
+	minsk_region;
+	mogilev_region
+	};
+=>nrel_coat_of_arms:emblem_of_the_Republic_of_Belarus;
+=>nrel_state_flag: flag_of_the_Republic_of_Belarus;
+=>nrel_anthem: anthem_of_the_Republic_of_Belarus
+;;
+
+
+emblem_of_the_Republic_of_Belarus
+	=> nrel_main_idtf:[герб Республики Беларусь]	
+		(*	
+		<- lang_ru;;	
+		*);
+	[emblem of the_Republic of Belarus]	
+		(*
+		<- lang_en;;
+		*);
+	[герб Рэспублікі Беларусь]		
+		(*	
+		<- lang_by;;	
+		*);
+<-concept_emblem;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/89336_html_554527a3.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*)
+;;
+
+flag_of_the_Republic_of_Belarus
+	=> nrel_main_idtf:[флаг Республики Беларусь]	
+		(*	
+		<- lang_ru;;	
+		*);
+	[flag_of_the_Republic_of_Belarus]	
+		(*
+		<- lang_en;;
+		*);
+	[сцяг Рэспублікі Беларусь]		
+		(*	
+		<- lang_by;;	
+		*);
+<-concept_breadth;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/flag.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*)
+;;
+
+anthem_of_the_Republic_of_Belarus
+	=> nrel_main_idtf:[гимн Республики Беларусь]	
+		(*	
+		<- lang_ru;;	
+		*);
+	[anthem of the Republic of Belarus]	
+		(*
+		<- lang_en;;
+		*);
+	[гімн Рэспублікі Беларусь]		
+		(*	
+		<- lang_by;;	
+		*);
+<-concept_song;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/gimn.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*)
+;;

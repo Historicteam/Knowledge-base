@@ -1,0 +1,21 @@
+Hutten_Czapskaya_Anna
+=> nrel_main_idtf:
+	[Гуттен-Чапская Анна Юрьевна]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapskaya Anna Ur'evna]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапская Ганна Юр'еўна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Anna;
+=>nrel_middle_name: name_Jelizavieta;
+=>nrel_middle_name: name_Carolina;
+<= nrel_parent: Hutten_Czapsky_Jerzy_Emerickovich; Hutten_Czapsky_Emerickovich; Hutten_Czapskaya_Sofia_Emerickovna;;

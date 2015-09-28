@@ -1,0 +1,22 @@
+lineal_consanguinity
+=>nrel_main_idtf:
+	[прямое родство] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[lineal consanguinity] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[прамое радство] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Прямое родство - связь между людьми, основанная на происхождении одного лица от другого. ] (* <-lang_ru;; *);;
+		-> [Прамое радство - сувязь паміж людзьмі, заснаваная на паходжанні адной асобы ад іншай. ] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;;
+	

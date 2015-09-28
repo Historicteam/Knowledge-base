@@ -1,0 +1,45 @@
+concept_complained_nobility
+	=>nrel_main_idtf:
+		[жалованное дворянство] (* <-lang_ru;; *);
+		[nobility] (* <-lang_en;; *);
+		[дараванае дваранства] (* <-lang_by;; *);;
+
+Definition_complained_nobility
+	=>nrel_main_idtf:
+		[Определение понятия "жалованное дворянство"] (* <-lang_ru;; *);
+		[Азначэнне паняцця "дараванае дваранства"] (* <-lang_by;; *);;
+
+Types_complain_nobility
+	=>nrel_main_idtf:
+		[Типы жалованного дворянства] (* <-lang_ru;; *);
+		[Тыпы дараванага дваранства] (* <-lang_by;; *);;
+
+concept_complained_nobility
+	<- rrel_key_sc_element: Definition_complained_nobility
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+			...
+			(* -> rrel_example:
+	[Жалованное дворянство — дворянство, присвоенное указом за выдающиеся заслуги или по итогам длительной беспорочной службы.] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Дараванае дваранства — дваранства, прысвоенае указам за выдатныя заслугі або па выніках працяглай беспахібніцкай службы.] (* <-lang_by;; *);;
+	*);;
+*);;
+
+concept_complained_nobility
+	<- rrel_key_sc_element: Types_complain_nobility
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+			...
+			(* -> rrel_example:
+	[Жалованное дворянство может быть наследственное или пожизненное.] (* <-lang_ru;; *);;
+	*);
+			...
+			(* -> rrel_example:
+	[Дараванае дваранства можа быць спадчыннае або пажыццёвае.] (* <-lang_by;; *);;
+	*);;
+*);;

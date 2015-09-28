@@ -1,0 +1,41 @@
+concept_clergy
+=>nrel_main_idtf:
+	[духовенство] (* <-lang_ru;; *);
+	[nobility] (* <-lang_en;; *);
+	[духавенства] (* <-lang_by;; *);;
+
+partition_of_the_clergy_as_belonging_to_the_Church
+=>nrel_main_idtf:
+	[разбиение духовенства по принадлежности к церкви] (* <-lang_ru;; *);
+	[разбіццё духавенства па прыналежнасці да царквы] (* <-lang_by;; *);;
+
+Definition_clergy
+=>nrel_main_idtf:
+	[Определение понятия "духовенство"] (* <-lang_ru;; *);
+	[Азначэнне паняцця "духавенства"] (* <-lang_by;; *);;
+
+
+concept_clergy
+	<- rrel_key_sc_element: Definition_clergy
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Духовенство – термин для обозначения общественного сословия, лиц или социальной группы, состоящей из профессиональных служителей культа той или иной религии.] (* <-lang_ru;; *);;
+			*);
+	 ...(* -> rrel_example:
+	[Духавенства – тэрмін для абазначэння грамадскага саслоўя, асоб або сацыяльнай групы, якая складаецца з прафесійных служыцеляў культу той ці іншай рэлігіі.] (* <-lang_by;; *);;
+			*);;
+	*);;
+
+concept_clergy
+	<= nrel_subdividing: partition_of_the_clergy_as_belonging_to_the_Church
+	(*
+		-> 	concept_Russian_Orthodox_clergy;
+				concept_Roman_Catholic_clergy;
+				concept_Evangelical_Lutheran_clergy;
+				concept_Evangelical_Reformed_clergy;
+				concept_Armenian_Gregorian_clergy;;
+	*);;
+
+

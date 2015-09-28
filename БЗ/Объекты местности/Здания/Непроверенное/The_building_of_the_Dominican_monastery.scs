@@ -1,0 +1,27 @@
+The_building_of_the_Dominican_monastery
+<- concept_building;
+
+=> nrel_main_idtf:
+	[Здание доминиканского костёла Фомы Аквинского] (* <- lang_ru;; *);
+	[The building of the church of the Dominican Thomas Aquinas] (* <- lang_en;; *);
+	[Будынак дамініканскага касцёла Фамы Аквінскага] (* <- lang_by;; *);
+
+=> nrel_idtf:
+	[Здание доминиканского монастыря] (* <- lang_ru;; *);
+	[The building of the Dominican monastery] (* <- lang_en;; *);
+	[Будынак дамініканскага кляштара] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Picture_of_Dominican_Church (*	
+	=> nrel_main_idtf:
+		[Изображение доминиканского костёла] (* <- lang_ru;; *);
+		[Picture of Dominican Church] (* <- lang_en;; *);
+		[Выява дамініканскага касцёла] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Доминиканский костел.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

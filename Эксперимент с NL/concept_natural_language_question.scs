@@ -1,0 +1,9 @@
+concept_natural_language_question
+=> nrel_main_idtf: [проклятый вопрос](* <- lang_ru;; *);
+			[natural language question](* <- lang_en;; *);;
+
+nrel_request_to_the_semantic_neibourhood_search_agent
+=> nrel_main_idtf: [запрос к агенту поиска семантической окрестности*](* <- lang_ru;; *);
+			[request to the semantic neibourhood search agent*](* <- lang_en;; *);
+<-sc_const;	
+<-sc_node_norole_relation;;

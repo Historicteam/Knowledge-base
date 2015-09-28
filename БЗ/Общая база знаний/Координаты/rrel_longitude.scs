@@ -1,0 +1,26 @@
+rrel_longitude
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[долгота']
+	(*
+	<- lang_ru;;
+	*);
+	[longitude']
+	(*
+	<- lang_en;;
+	*);
+	=> nrel_main_idtf:
+	[даўгата']
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain: 
+	concept_coordinate;
+
+=> nrel_second_domain: 
+	concept_number
+;;

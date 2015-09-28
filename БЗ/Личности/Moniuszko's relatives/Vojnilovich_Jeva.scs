@@ -1,0 +1,19 @@
+Vojnilovich_Jeva
+=> nrel_main_idtf:
+	[Войнилович Ева]
+	(*
+	<- lang_ru;;
+	*);
+	[Vojnilovich Jeva]
+	(*
+	<- lang_en;;
+	*);
+	[Вайніловіч Ева]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+<-concept_person;
+nrel_first_name: name_Jeva;
+=>nrel_surname: surname_Vojnilovich;
+<= nrel_parent: Moniuszko_Chieslav_Stanislavovich; Moniuszko_Kazimir_Stanislavovich; Moniuszko_Alieksandr_Stanislavovich; Moniuszko_Ihnatij_Stanislavovich; Moniuszko_Juzef_Stanislavovich; Moniuszko_Dominik_Stanislavovich; Moniuszko_Mikhalina_Stanislavovna;;

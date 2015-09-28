@@ -1,0 +1,20 @@
+concept_theatrical_performance
+=> nrel_main_idtf:
+	[театрландырылған қойылым]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Театрландырылған қойылым - сахнада жеткізілетін.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*);;

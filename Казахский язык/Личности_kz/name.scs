@@ -1,0 +1,442 @@
+name_Anna
+=> nrel_main_idtf:
+	[Анна]
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_idtf:
+	[Анэля]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Carolina
+=> nrel_main_idtf:
+	[Каролина]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Mikhalina
+=> nrel_main_idtf:
+	[Михалина]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Edvard
+=> nrel_main_idtf:
+	[Эдвард]
+	(*
+	<- lang_kz;;
+	*);;
+
+
+
+name_Lieon
+=> nrel_main_idtf:
+	[Леон]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Carol
+=> nrel_main_idtf:
+	[Карол]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Fabiana
+=> nrel_main_idtf:
+	[Фабиана]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Franciszek
+=> nrel_main_idtf:
+	[Францишек]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Veronica
+=> nrel_main_idtf:
+	[Вероника]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_John
+=> nrel_main_idtf:
+	[Иона]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+
+name_Egor
+=> nrel_main_idtf:
+	[Егор]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Ian
+=> nrel_main_idtf:
+	[Ян]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+name_Stanislav
+=> nrel_main_idtf:
+	[Станислав]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Alieksandra
+=> nrel_main_idtf:
+	[Александра]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Jelizavieta
+=> nrel_main_idtf:
+	[Елизавета]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Chieslav
+=> nrel_main_idtf:
+	[Чеслав]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Kazimir
+=> nrel_main_idtf:
+	[Казимир]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Alieksandr
+=> nrel_main_idtf:
+	[Александр]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Emerick
+=> nrel_main_idtf:
+	[Emerick]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+name_Zakhariy
+=> nrel_main_idtf:
+	[Захарий]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Nicholas
+=> nrel_main_idtf:
+	[Николас]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Severin
+=> nrel_main_idtf:
+	[Северин]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Eve
+=> nrel_main_idtf:
+	[Ева]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Juzef
+=> nrel_main_idtf:
+	[Юзеф]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Marija
+=> nrel_main_idtf:
+	[Мария]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Pavlina
+=> nrel_main_idtf:
+	[Паулина]
+ 	(*
+	<- lang_kz;;
+ 	*);;
+
+name_Dominik
+=> nrel_main_idtf:
+	[Доминик]
+ 	(*
+	<- lang_kz;;
+	*);;
+
+
+name_Ihnatij
+=> nrel_main_idtf:
+	[Игнатий]
+	(*
+	<- lang_kz;;
+ 	*);;
+
+
+
+name_Stepan
+=> nrel_main_idtf:
+	[Степан]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+name_Lukyan
+=> nrel_main_idtf:
+	[Лукьян]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+name_Arina
+=> nrel_main_idtf:
+	[Арина]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+name_Yuri
+=> nrel_main_idtf:
+	[Юрий]
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_idtf:
+	[Егор]
+	(*
+	<- lang_kz;;
+	*);;
+
+
+name_Fedor
+=> nrel_main_idtf:
+	[Федор]
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_idtf:
+	[Франц]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+name_Semen
+=> nrel_main_idtf:
+	[Семен]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+name_Foma
+=> nrel_main_idtf:
+	[Фома]
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_idtf:
+	[Томаш]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Anufriy
+=> nrel_main_idtf:
+	[Ануфрий]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Adam
+=> nrel_main_idtf:
+	[Адам]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Yekaterina
+=> nrel_main_idtf:
+	[Екатерина]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Alexey
+=> nrel_main_idtf:
+	[Алексей]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Afanasiy
+=> nrel_main_idtf:
+	[Афанасий]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Tatiana
+=> nrel_main_idtf:
+	[Татьяна]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Maksim
+=> nrel_main_idtf:
+	[Максим]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Vadim
+=> nrel_main_idtf:
+	[Вадим]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Liev
+=> nrel_main_idtf:
+	[Лев]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Nina
+=> nrel_main_idtf:
+	[Нина]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Roman
+=> nrel_main_idtf:
+	[Роман]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Pavel
+=> nrel_main_idtf:
+	[Павел]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Vyacheslav
+=> nrel_main_idtf:
+	[Вячеслав]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Nikolay
+=> nrel_main_idtf:
+	[Николай]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Evgeny
+=> nrel_main_idtf:
+	[Евгений]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Domna
+=> nrel_main_idtf:
+	[Домна]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Ivan
+=> nrel_main_idtf:
+	[Иван]
+	(*
+	<- lang_kz;;
+	*);;
+
+name_Lubov
+=> nrel_main_idtf:
+	[Любовь]
+	(*
+	<- lang_kz;;
+	*);;
+name_Irina
+=> nrel_main_idtf:
+	[Ирина]
+	(*
+	<- lang_kz;;
+	*);;
+name_Vera
+=> nrel_main_idtf:
+	[Вера]
+	(*
+	<- lang_kz;;
+	*);;

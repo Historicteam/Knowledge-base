@@ -1,0 +1,12 @@
+Rabkorovskiys_Street_house_19
+=> nrel_main_idtf:
+		[Рабкоровский көшесі 19 үй]
+		(*
+		<- lang_kz;;
+		*);;
+
+Rabkorovskiys_Street=> nrel_main_idtf:
+			[Рабкоровский көшесі]
+			(*
+			<- lang_kz;;
+			*);;

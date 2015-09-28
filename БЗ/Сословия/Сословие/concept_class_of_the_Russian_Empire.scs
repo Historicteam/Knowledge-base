@@ -1,0 +1,38 @@
+concept_class_of_the_Russian_Empire
+=>nrel_main_idtf:
+	[сословие Российской империи] (* <-lang_ru;; *);
+	[class of the Russian Empire] (* <-lang_en;; *);
+	[саслоўе Расійскай імперыі] (* <-lang_by;; *);;
+
+concept_class_of_the_Russian_Empire
+=>nrel_idtf:
+	[принадлежать сословию Российской империи] (* <-lang_ru;; *);
+	[належаць да саслоўя Расійскай імперыі] (* <-lang_by;; *);;
+
+concept_class_of_the_Russian_Empire
+	<- rrel_key_sc_element: The_definition_of_class_of_the_Russian_Empire
+	(*
+		=>nrel_main_idtf:
+			[Определение понятия "Сословие Российской империи"] (* <-lang_ru;; *);
+			[The definition of class of the Russian Empire] (* <-lang_en;; *);
+			[Азначэнне паняцця "Саслоўе Расійскай імперыі"] (* <-lang_by;; *);;
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+		...
+		(* -> rrel_example:
+	[Сословие Российской империи – это термин Свода законов Российской империи, описывающий несколько «разрядов» подданных, пользующихся особыми правами.] (* <-lang_ru;; *);;
+	*);
+		...
+		(* -> rrel_example:
+	[Саслоўе Расійскай імперыі – гэта тэрмін Зводу законаў Расійскай імперыі, яны апісваюць некалькі «разрадаў» падданых, якія карыстаюцца адмысловымі правамі.] (* <-lang_by;; *);;
+	*);;
+*);;
+
+concept_class_of_the_Russian_Empire
+	<= nrel_subdividing:
+	{
+		concept_nobility;
+		concept_clergy;
+		concept_urban_inhabitants;
+		concept_rural_inhabitants
+	};;

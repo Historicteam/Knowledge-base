@@ -1,0 +1,27 @@
+Radziwill_Veronica
+=> nrel_main_idtf:
+	[Радзивилл Вероника]
+	(*
+	<- lang_ru;;
+	*);
+	[Radziwill Veronica]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_idtf:
+	[Гуттен-Чапская Вероника]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapskaya Veronica]
+	(*
+	<- lang_en;;
+	*);
+<-concept_woman;
+<-concept_person;
+
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Radziwill;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Veronica;
+<=>nrel_spouse:Czapsky_Franciszek_Stanislav_Kostka;;

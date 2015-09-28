@@ -1,0 +1,62 @@
+concept_shelter
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[приют]
+	(*
+	<- lang_ru;;
+	*);
+	[shelter]
+	(*
+	<- lang_en;;
+	*);
+	[прытулак]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_shelter_concept
+	(*
+	=> nrel_main_idtf:
+		[Определение понятия "приют"]
+		(*
+		<- lang_ru;;
+		*);
+		[Definition of the shelter concept]
+		(*
+		<- lang_en;;
+		*);
+		[Вызначэнне паняцця "прытулак"]
+		(*
+		<- lang_by;;
+		*);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Приют — это место, где можно укрыться, спастись и обезопаситься.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+
+		...
+		(*
+		->rrel_example:
+			[Shelter is a place where you can hide yourself, escape from danger and be safe.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+
+		...
+		(*
+		->rrel_example:
+			[Прытулак - гэта месца, дзе можна схавацца, выратавацца і засцерагчыся.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

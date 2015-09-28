@@ -1,0 +1,13 @@
+the_ribbon_of_the_Order_of_St_Anna
+=>nrel_main_idtf:
+	[қасиетті Анна орденінің лентасы] (* <-lang_kz;; *);;
+	
+Definition_of_the_ribbon_of_the_Order_of_St_Anna 
+=>nrel_main_idtf:
+	[анықтама қасиетті Анна орденінің лентасы] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Қасиетті Анна орденінің лентасы - сарымен көмкерілген қызыл лента.] (* <-lang_kz;; *);; 
+		*);;
+	

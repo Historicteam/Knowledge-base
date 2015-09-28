@@ -1,0 +1,18 @@
+Czapsky_Leon_Bogdan
+=> nrel_main_idtf:
+	[Чапский Леон Богдан]
+	(*
+	<- lang_ru;;
+	*);
+	[Czapsky Leon Bogdan]
+	(*
+	<- lang_en;;
+	*);
+	[Чапскі Леон Богдан]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky
+;;

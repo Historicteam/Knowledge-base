@@ -1,0 +1,15 @@
+Valickij_Alieksandr
+=> nrel_main_idtf:
+	[Валицкий Александр]
+	(*
+	<- lang_ru;;
+	*);
+	[Valiсkij Alieksandr]
+	(*
+	<- lang_en;;
+	*);
+	[Валіцкі Аляксандр]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

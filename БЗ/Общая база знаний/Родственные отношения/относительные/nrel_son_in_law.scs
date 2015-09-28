@@ -1,0 +1,29 @@
+nrel_son_in_law
+=>nrel_main_idtf:
+	[зять*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[муж дочери*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[son-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[зяць*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[муж дачкі*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Зять — женатый мужчина по отношению к родителям жены.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Зяць — жанаты мужчына ў дачыненні да бацькоў жонкі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_son_in_law.jpg";	
+<-sc_node_norole_relation;;

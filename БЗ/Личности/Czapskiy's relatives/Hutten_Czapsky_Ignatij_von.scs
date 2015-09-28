@@ -1,0 +1,17 @@
+Hutten_Czapsky_Ignatij_von
+=> nrel_main_idtf:
+	[Гуттен-Чапский Игнатий Янович]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapsky Ignatij Janovich]
+	(*
+	<- lang_en;;
+	*);
+<-concept_male;
+<-concept_person;
+
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Ignatij;
+=>nrel_parent:Hutten_Czapsky_Jan_Khrysastom_von;;

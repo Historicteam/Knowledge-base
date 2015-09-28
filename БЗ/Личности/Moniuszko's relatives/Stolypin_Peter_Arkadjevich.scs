@@ -1,0 +1,14 @@
+Stolypin_Peter_Arkadjevich
+=> nrel_main_idtf:
+	[Столыпин Пётр Аркадьевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Stolypin Peter Arkadjevich]
+	(*
+	<- lang_en;;
+	*);
+<-concept_male;
+<-concept_person;
+=>nrel_surname: surname_Stolypin;
+=>nrel_first_name: name_Peter;;

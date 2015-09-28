@@ -1,0 +1,15 @@
+house_15_Kullmans_Street
+=> nrel_main_idtf:
+		[улица Кульман дом 15]
+		(*
+		<- lang_ru;;
+		*);
+		[house 15 Kullman street]
+		(*
+		<- lang_en;;
+		*);
+		[вуліца Кульман дом 15]
+		(*
+		<- lang_by;;
+		*);
+<-concept_building;;

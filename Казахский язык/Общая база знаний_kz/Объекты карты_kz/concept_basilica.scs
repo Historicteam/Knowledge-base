@@ -1,0 +1,22 @@
+concept_basilica
+=> nrel_main_idtf:
+	[базилика]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Базилика - биіктігі бойынша тақ сандардан тұратын, төртбұрышты формалы ғимарат типі.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*)
+;;
+

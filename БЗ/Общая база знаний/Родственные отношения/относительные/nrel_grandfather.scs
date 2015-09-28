@@ -1,0 +1,30 @@
+nrel_grandfather
+=>nrel_main_idtf:
+	[дед*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[дедушка*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[grandfather*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[дзед*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[дзядуля*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Дед — отец отца или матери.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Дзед — бацька бацькі ці маці.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_grandfather.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

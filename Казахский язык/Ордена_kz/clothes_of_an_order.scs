@@ -1,0 +1,13 @@
+clothes_of_an_order
+=>nrel_main_idtf:
+	[орден киімі] (* <-lang_kz;; *);;
+	
+Definition_of_clothes_of_an_order
+=>nrel_main_idtf:
+	[анықтама орден киімі] (* <-lang_kz;; *);
+	<- sc_explanation;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Орден киімі - бұл орден ережесі бойынша, белгі, лента және орден жұлдызын киюге рұқсат етілген киім] (* <-lang_kz;; *);; 
+		*);;

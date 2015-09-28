@@ -1,0 +1,62 @@
+concept_rural_inhabitants
+=>nrel_main_idtf:
+	[сельские обыватели] (* <-lang_ru;; *);
+	[rural inhabitants] (* <-lang_en;; *);
+	[сельскія абывацелі] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: The_definition_of_rural_inhabitants
+	(*
+		=>nrel_main_idtf:
+			[Определение понятия "Сельские обыватели"] (* <-lang_ru;; *);
+			[The definition of rural inhabitants] (* <-lang_en;; *);
+			[Азначэнне паняцця "Сельскія абывацелі"] (* <-lang_by;; *);;
+
+		<-sc_definition;;
+		<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Сельские обыватели – сословие крестьян, к которым кроем самих крестьян принадлежали однодворцы, военные поселяне, башкиры и казаки.] (* <-lang_ru;; *);; *);
+		...
+		(* -> rrel_example:
+	[Сельскія абывацелі - саслоўе сялян, да якіх кроем саміх сялян належалі аднадворцы, ваенныя сяляне, башкіры і казакі.] (* <-lang_by;; *);;
+	*);;
+*);;
+
+Partition_of_rural_inhabitants_to_the_proper
+=>nrel_main_idtf:
+	[разбиение сельских обывателей по принадлежности] (* <-lang_ru;; *);
+	[разбіццё сельскіх абывацеляў па прыналежнасці] (* <-lang_by;; *);;
+
+Partition_of_rural_inhabitants_rightly_state
+=>nrel_main_idtf:
+	[разбиение сельских обывателей по праву состояния] (* <-lang_ru;; *);
+	[разбіццё сельскіх абывацеляў па праве стану] (* <-lang_by;; *);;
+
+Partition_of_rural_inhabitants_on_land_ownership
+=>nrel_main_idtf:
+	[разбиение сельских обывателей по праву владения землей] (* <-lang_ru;; *);
+	[разбіццё сельскіх абывацеляў па праве валодання зямлёй] (* <-lang_by;; *);;
+
+concept_rural_inhabitants
+	<= nrel_subdividing: Partition_of_rural_inhabitants_to_the_proper
+	(*
+		->	concept_state_peasants;
+				concept_monastery_peasants;
+				concept_landlords_peasants;
+				concept_specific_peasants;;
+	*);;
+
+concept_rural_inhabitants
+	<= nrel_subdividing: Partition_of_rural_inhabitants_rightly_state
+	(*
+		-> 	concept_free_rural_inhabitants;
+				concept_serfs;
+				concept_serfs_2;;
+	*);;
+
+
+concept_rural_inhabitants
+	<= nrel_subdividing: Partition_of_rural_inhabitants_on_land_ownership
+	(*
+		-> 	concept_peasant_proprietors;
+				concept_the_temporarily_peasants;;
+	*);;

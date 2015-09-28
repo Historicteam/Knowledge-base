@@ -1,0 +1,50 @@
+concept_factory
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[завод]
+	(*
+	<- lang_ru;;
+	*);
+	[factory]
+	(*
+	<- lang_en;;
+	*);
+	[завод]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_factory_concept
+	(*
+	=>nrel_main_idtf:
+		[Определение завода] (* <-lang_ru;; *);
+		[Definition of the factory concept] (* <-lang_en;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Завод — это промышленное предприятие, обычно с механизированными производственными процессами.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Factory is a manufacturing enterprise which usually goes with mechanized production processes.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Завод - гэта прамысловае прадпрыемства, звычайна з механізаванымі вытворчымі працэсамі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

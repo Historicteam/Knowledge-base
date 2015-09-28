@@ -1,0 +1,19 @@
+ui_menu_aunt
+	=> ui_nrel_command_template:
+	[*
+		question_search_sister _-> ._question_search_sister_instance
+			(*
+				_-> rrel_1:: ui_arg_1;;
+				_-> rrel_2:: ... (*
+						_-> rrel_1:: aunt;;
+						_-> rrel_2:: aunt_param;;
+						_-> rrel_3:: nrel_aunt;;
+				*);;
+			*);;
+		._question_search_sister_instance _<- question;;
+	*];
+
+	=> ui_nrel_command_lang_template:
+		[Запрос поиска всех теть: $ui_arg_1] (* <- lang_ru;; *);
+		[Search request for aunts: $ui_arg_1] (* <- lang_en;; *);
+		[Каманда пошуку усіх цётак.: $ui_arg_1] (* <- lang_by;; *);;

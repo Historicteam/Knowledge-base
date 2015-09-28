@@ -1,0 +1,113 @@
+agent_of_finding_persons
+=> nrel_main_idtf:
+	[агентная scp-программа поиска зданий] 
+	(* <- lang_ru;; *);
+
+	[agent scp-program of finding persons] 
+	(* <- lang_en;; *);
+
+<- agent_scp_program;;
+
+scp_program -> agent_of_finding_persons 
+	(*
+	-> rrel_params: .agent_of_finding_persons_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	->rrel_operators: .agent_of_finding_persons_operator_set (*
+
+		->rrel_init: .agent_of_finding_persons_operator1 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+			=>nrel_goto: .agent_of_finding_persons_operator2;;
+		*);;
+
+		-> .agent_of_finding_persons_operator2 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_persons;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+			=>nrel_then: .agent_of_finding_persons_operator3;;
+			=>nrel_else: .agent_of_finding_persons_operator_return;;
+		*);;
+		// Найдём параметры операции – их подал на вход сам пользователь
+		-> .agent_of_finding_persons_operator3 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+			=>nrel_then: .agent_of_finding_persons_operator4;;
+			=>nrel_else: .agent_of_finding_persons_operator_return;;
+		*);;
+		// Сгенерировать узел, в который мы поместим конструкцию ответа
+		-> .agent_of_finding_persons_operator4 (*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
+			=>nrel_goto: .agent_of_finding_persons_operator5;;
+		*);;
+		-> .agent_of_finding_persons_operator5 (*
+			<- call;; // В первом параметре содержится название вызванной процедуры
+			-> rrel_1: rrel_fixed: rrel_scp_const:  proc_of_finding_persons ;;
+			->rrel_2:rrel_fixed:rrel_scp_const: // здесь описаны параметры, подаваемые на
+			// вход процедуре
+			.agent_of_finding_persons_operator5_params (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _answer;;
+			*);;
+			// Знак scp-процесса, который может быть использован для того, чтобы
+			// дождаться завершения созданного scp-процесса
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+			=>nrel_goto: .agent_of_finding_persons_operator6;;
+		*);;
+		// scp-оператор ожидания завершения выполнения программы
+		-> .agent_of_finding_persons_operator6 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+			=>nrel_goto: .agent_of_finding_persons_operator_gen_answer;;
+		*);;
+		// Добавляем узел с конструкцией ответа
+		-> .agent_of_finding_persons_operator_gen_answer (*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+			=>nrel_goto: .agent_of_finding_persons_operator_return;;
+		*);;
+		// Оператор завершения агентной операции
+		-> .agent_of_finding_persons_operator_return (*
+			<- return;;
+		*);;
+	*);;
+*);;ui_menu_file_for_finding_persons <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_persons => nrel_main_idtf: 
+	[Запрос поиска всех личностей, связанных с конкретным зданием]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_persons => nrel_main_idtf: 
+	[Request of persons search]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_persons => ui_nrel_command_template:
+	[*
+		question_finding_persons _-> ._question_finding_persons_instance
+			(*
+			_-> ui_arg_1;;
+			*);;
+		._question_finding_persons_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_persons => ui_nrel_command_lang_template: 
+	[Запрос поиска всех личностей, связанных с конкретным зданием: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_persons => ui_nrel_command_lang_template: 
+	[Request of persons search: $ui_arg_1] 
+	(* <- lang_en;; *);;
+

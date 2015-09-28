@@ -1,0 +1,21 @@
+nrel_sick
+=> nrel_main_idtf:
+	[ауру*]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Ауру - адам мен ауруды байланыстыратын бинарлы қатынас.]
+			(* 
+			<- lang_kz;; 
+			*);;
+		*);;
+	*)
+;;

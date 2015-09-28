@@ -1,0 +1,14 @@
+nrel_teacher
+=>nrel_main_idtf:
+	[мұғалім*] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Мұғалім -  мұғалімдермен бинарлық қатынасты] (* <-lang_kz;; *);; 
+		*);;
+	*);;

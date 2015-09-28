@@ -1,0 +1,18 @@
+Moniuszko_Alieksandr_Stanislavovich
+=> nrel_main_idtf:
+	[Монюшко Александр Станиславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Alieksandr Stanislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Аляксандр Станіслававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Alieksandr;
+<= nrel_parent: Lieon_Pavlina;;

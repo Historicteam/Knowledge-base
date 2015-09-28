@@ -1,0 +1,24 @@
+material_value
+=> nrel_main_idtf:
+	[материальная ценность] (* <- lang_ru;; *);
+	[material value] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	Definition_of_a_material_value
+	(* 
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Материальная ценность - это ценности в вещественной форме, в виде имущества, товаров, предметов.] (* <-lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: [A material value is a value in a substantial form such as property, goods or any other material objects.] (* <-lang_en;; *);; 
+		*);;
+	*);;
+
+Definition_of_a_material_value
+=> nrel_main_idtf:
+	[Определение понятия "материальная ценность"] (* <- lang_ru;; *);
+	[Definition of a material value] (* <- lang_en;; *);;

@@ -1,0 +1,26 @@
+nrel_mother_of_child_s_spouse
+=>nrel_main_idtf:
+	[сватья*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[mother of child's spouse*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[свацця*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сватья — женщина по отношению к родителям супруга ребенка, мать невестки, мать зятя.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Свацця — жанчына ў адносінах да бацькоў мужа дзіцяці, маці нявесткі, маці зяця.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_mother_of_child_s_spouse.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

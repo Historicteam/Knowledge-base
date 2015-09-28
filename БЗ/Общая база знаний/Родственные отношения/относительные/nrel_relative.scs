@@ -1,0 +1,30 @@
+nrel_relative
+=>nrel_main_idtf:
+	[родственник*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[relative*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[родзіч*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Родственник — тот, кто находится в родстве с кем-нибудь.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Родзіч — той, хто знаходзіцца ў сваяцтве з кім-небудзь.] (* <-lang_by;; *);;  
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_kinsman;
+	nrel_connexion;
+
+=>nrel_using_example:"file://content/nrel_relative.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

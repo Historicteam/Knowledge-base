@@ -1,0 +1,51 @@
+concept_industrial_organization
+=>nrel_main_idtf:
+	[производственная  организация] (* <-lang_ru;; *);
+	[industrial organization] (* <-lang_en;; *);
+	[вытворчая арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	 Definition_of_the_industrial_organization_concept
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "производственная организация"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the industrial organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "вытворчая арганізацыя"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Производственная организация – это совокупность людей, механизмов, материалов и других ресурсов, интегрированных в единую социальную систему, имеющую целью своей деятельности производство материальных благ.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Industrial organization is a set of people, machines, materials and other resources that are integrated into a single social system which purpose is to produce goods.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Вытворчая арганізацыя - гэта сукупнасць людзей, механізмаў, матэрыялаў і іншых рэсурсаў, інтэграваных у адзіную сацыяльную сістэму, якая мае мэтай сваёй дзейнасці вытворчасць матэрыяльных выгод.] (* <-lang_by;; *);; 
+			*);;
+
+
+	*);
+
+-> organization_Brewery_Hutten_Czapsky_Count;
+
+=> nrel_inclusion: concept_factory;
+<- sc_node_not_relation;
+<- sc_const;;

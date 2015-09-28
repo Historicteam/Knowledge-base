@@ -1,0 +1,7 @@
+organization_Putilov_factory
+
+	=> nrel_main_idtf:
+		[Путиловский завод] (* <- lang_ru;; *);
+		[Putilov factory] (* <- lang_en;; *);
+		[Пуцiлаўскі завод] (* <- lang_by;; *);
+<-concept_factory;;

@@ -1,0 +1,25 @@
+concept_landlords_peasants
+=>nrel_main_idtf:
+	[помещичьи крестьяне] (* <-lang_ru;; *);
+	[landlords peasants] (* <-lang_en;; *);
+	[памешчыцкія сяляне] (* <-lang_by;; *);;
+
+Definition_landlords_peasants
+=>nrel_main_idtf:
+	[Определение понятия "помещичьи крестьяне"] (* <-lang_ru;; *);
+	[Азначэнне паняцця "памешчыцкія сяляне"] (* <-lang_by;; *);;
+
+concept_landlords_peasants
+	<- rrel_key_sc_element: Definition_landlords_peasants
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: 
+		...
+		(* -> rrel_example:
+	[Помещичьи крестьяне — крепостные крестьяне, принадлежащие на правах собственности дворянам-помещикам.] (* <-lang_ru;; *);;
+	*);
+		...
+		(* -> rrel_example:
+	[Памешчыцкія сяляне — прыгонныя сяляне, якія належаць на правах уласнасці дваранам-памешчыкам.] (* <-lang_by;; *);;
+	*);;
+*);;

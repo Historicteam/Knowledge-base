@@ -1,0 +1,32 @@
+nrel_grandmother
+=>nrel_idtf:
+	[бабка*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[бабушка*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[grandmother*] (* <-lang_en;; *);
+=>nrel_idtf:
+	[бабка*] (* <-lang_by;; *);
+=>nrel_main_idtf:
+	[бабуля*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[бабулька*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Бабка — мать отца или матери.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Бабка — маці бацькі або маці.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_grandmother.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

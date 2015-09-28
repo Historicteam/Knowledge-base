@@ -1,0 +1,30 @@
+nrel_child
+=>nrel_main_idtf:
+	[ребенок*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[child*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[дзіця*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Ребенок — человек по отношению к своим родителям.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Дзіця — чалавек па адносінах да сваіх бацькоў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_daughter;
+	nrel_son;
+
+=>nrel_using_example:"file://content/nrel_child.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

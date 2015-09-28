@@ -1,0 +1,123 @@
+Bohdanovich_Adam_Yurevich => nrel_social_status: concept_burghers;;
+Myakota_Afanasiy	=> nrel_social_status: concept_rural_inhabitants;;
+Myakota_Alexandra_Afanasevna	=> nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Alexandra_Pavlovna => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Alexey_Adamovich => nrel_social_status: concept_rural_inhabitants;;
+Peshkova_Alexey_Maksimovich => nrel_social_status: concept_burghers;;
+Bohdanovich_Anna_Lukyanovna => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Arina_Ivanovna => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Fedor_Lukyanovich => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Lev_Adamovich => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Lukyan_Stepanovich => nrel_social_status: concept_rural_inhabitants;;
+Myakota_Maria_Afanasevna => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Maria_Yurevna => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Nikolay_Adamovich => nrel_social_status: concept_rural_inhabitants;;
+Nina_Adamovna_Bohdanovich => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Pavel_Adamovich => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Maksim_Adamovich => nrel_social_status: concept_nobility2;;
+Bohdanovich_Roman_Adamovich => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Semen_Lukyanovich => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Stepan => nrel_social_status: concept_rural_inhabitants;;
+Malevich_Tatiana_Osipovna	=> nrel_social_status: concept_Russian_Orthodox_clergy;;
+Bohdanovich_Vadim_Adamovich => nrel_social_status: concept_rural_inhabitants;;
+Bohdanovich_Vyacheslav_Adamovich => nrel_social_status: concept_rural_inhabitants;;
+Peshkova_Yekaterina_Pavlovna => nrel_social_status: concept_burghers;;
+Bohdanovich_Yuri_Lukyanovich => nrel_social_status: concept_rural_inhabitants;;
+
+///==============================
+/*
+	*
+	* неизвестно
+	*
+	*/
+///
+///	добавить (не добавлен)
+///
+/*Hutten_Czapsky_Ian_Carol_Alexander 
+	=> nrel_social_status: concept_ancestral_nobility; 
+		concept_titled_nobility;;*/
+
+Puslovskaya_Mary_Leontine
+	=> nrel_social_status:	
+			concept_gentry;
+			concept_ancestral_nobility;;
+Czapsky_Leon_Bogdan
+	=> nrel_social_status: 	
+			concept_ancestral_nobility;
+			concept_titled_nobility;;
+Czapsky_Emerick_August_Vojtech
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Czapskaya_Elizabeth_Karlovna
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Hutten_Czapsky_Emerick_Carlovich
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Hutten_Czapskaya_Sofia_Emerickovna
+	=> nrel_social_status:	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Hutten_Czapsky_Jerzy_Emerickovich
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Hutten_Czapskaya_Anna
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Meyendorff_Egor_Kazimirovich
+	=> nrel_social_status:	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Hutten_Czapsky_Carol_Frantsevich
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Obukhovich_Fabiana
+	=> nrel_social_status: 	concept_gentry;
+			concept_ancestral_nobility;;
+Hutten_Czapsky_Franciszek_Stanislav
+	=> nrel_social_status: 	concept_gentry;
+			concept_ancestral_nobility;;
+Radziwill_Veronica_Johanna
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Hutten_Czapsky_Stanislav
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_titled_nobility;;
+Hutten_Czapsky_Adam_Jozef
+	=> nrel_social_status: 	concept_gentry;
+			concept_ancestral_nobility;;
+
+///=======================================
+
+///Freyer_August
+Madzharskij_Jan
+	=> nrel_social_status:	concept_artisans;
+			concept_urban_inhabitants;;
+Kiui_Cezar_Antonovich
+	=> nrel_social_status:	concept_personal_nobility;
+			concept_gentry;;
+Moniuszko_Stanislav_Chieslavovich 
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_gentry;;
+Miullier_Alieksandra
+	=> nrel_social_status:	concept_gentry;
+			concept_complained_nobility;;
+Moniuszko_Chieslav_Stanislavovich
+	=> nrel_social_status:	concept_ancestral_nobility;
+			concept_gentry;;
+Madzharskaja_Jelizavieta_Lieonovna
+	=> nrel_social_status:	concept_gentry;
+			concept_ancestral_nobility;;
+Moniuszko_Kazimir_Stanislavovich
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_gentry;;
+Moniuszko_Alieksandr_Stanislavovich
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_gentry;;
+Moniuszko_Stanislav_Juzefovich
+	=> nrel_social_status: 	concept_complained_nobility;
+			concept_gentry;;
+Moniuszko_Juzef
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_gentry;;
+Moniuszko_Marija
+	=> nrel_social_status: 	concept_ancestral_nobility;
+			concept_gentry;;

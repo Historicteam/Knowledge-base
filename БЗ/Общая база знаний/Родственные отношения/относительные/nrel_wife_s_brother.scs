@@ -1,0 +1,28 @@
+nrel_wife_s_brother
+=>nrel_main_idtf:
+	[шурин*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[brother-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[wife's brother*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[швагер*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Шурин — мужчина по отношению к мужу сестры, брат жены.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Швагер — мужчына ў дачыненні да мужа сястры, брат жонкі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_wife_s_brother.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

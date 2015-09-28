@@ -1,0 +1,9 @@
+concept_rural_inhabitants
+=>nrel_main_idtf:
+	[Ауыл тұрғындары ] (* <-lang_kz;; *);;
+
+The_definition_of_rural_inhabitants
+		<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Ауыл тұрғындары - ауыл адамдарына сонымен қатар башқұр, казак және сол ауылда болған тұрғындар.] (* <-lang_kz;; *);;
+	*);;

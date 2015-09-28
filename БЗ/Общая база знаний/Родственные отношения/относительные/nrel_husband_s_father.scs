@@ -1,0 +1,28 @@
+nrel_husband_s_father
+=>nrel_main_idtf:
+	[свёкор*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[father-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[husband's father*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[свёкар*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Свёкор — мужчина по отношению к жене сына, отец мужа.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Свёкар — мужчына ў адносінах да жонкі сына, бацька мужа.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_husband_s_father.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

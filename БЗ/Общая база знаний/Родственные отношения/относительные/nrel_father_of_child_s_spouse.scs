@@ -1,0 +1,26 @@
+nrel_father_of_child_s_spouse
+=>nrel_main_idtf:
+	[сват*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[father of child's spouse*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[сват*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сват — мужчина по отношению к родителям супруга ребенка, отец невестки, отец зятя.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Сват — мужчына ў адносінах да бацькоў мужа дзіцяці, бацька нявесткі, бацька зяця.] (* <-lang_by;; *);;
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_father_of_child_s_spouse.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

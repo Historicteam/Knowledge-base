@@ -1,0 +1,41 @@
+concept_mapped_object
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[oбъект карты]
+	(*
+	<- lang_ru;;
+	*);
+	[mapped object]
+	(*
+	<- lang_en;;
+	*);
+	[аб'ект карты]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_inclusion: concept_mapped_polygon;
+=> nrel_inclusion: concept_mapped_point;
+=> nrel_inclusion: concept_mapped_line;
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Объект карты - объект местности, свойства(признаки), характеризующие его, изображаемые на карте условным знаком в виде графических или буквенно-цифровых символов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Аб'ект карты - аб'ект мясцовасці, ўласцівасці (прыкметы), якія характарызуюць яго, паказанныя на карце ўмоўным знакам у выглядзе графічных або літарна-лічбавых знакаў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

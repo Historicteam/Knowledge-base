@@ -1,0 +1,11 @@
+organization_redaction_of_newspaper_Nasha_Niva
+	=> nrel_main_idtf:
+		[Редакция газеты "Наша нива"]
+		(*
+			<- lang_ru;;
+		*);
+		[Рэдакцыя газеты "Наша ніва"]
+		(*
+		<- lang_by;;
+		*);
+	[redaction of newspaper "Nasha Niva"]	(* <- lang_en;; *);;

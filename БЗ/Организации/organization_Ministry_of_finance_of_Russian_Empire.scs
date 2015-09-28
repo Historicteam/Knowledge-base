@@ -1,0 +1,17 @@
+organization_Ministry_of_Finance_of_the_Russian_Empire
+=> nrel_main_idtf:
+	[Министерство финансов Российской империи]
+	(*
+	<- lang_ru;;
+	*);
+	[Ministry of Finance of the Russian Empire]
+	(*
+	<- lang_en;;
+	*);
+	[Міністэрства фінансаў Расійскай імперыі]
+	(*
+	<- lang_by;;
+	*);
+<-concept_ministry
+;;
+

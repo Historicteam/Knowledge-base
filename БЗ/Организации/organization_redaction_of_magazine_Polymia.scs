@@ -1,0 +1,15 @@
+organization_redaction_of_magazine_Polymia
+=> nrel_main_idtf:
+	[редакция журнала «Полымя»]
+	(*
+	<- lang_ru;;
+	*);
+	[redaction magazine of "Polymia"]
+	(*
+	<- lang_en;;
+	*);
+	[редакция журнала «Полымя»]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: house_7a_Bogdanovich_street;;

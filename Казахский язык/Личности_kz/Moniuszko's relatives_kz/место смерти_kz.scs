@@ -1,0 +1,15 @@
+nrel_place_of_death
+=>nrel_main_idtf:
+	[Ажалдың жері*] (* <-lang_kz;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+		[Ажал жері*- адамды ажалдың жерімен байланыстыратын бинарлы қатынас.] (* <-lang_kz;; *);;
+		*);;
+	*);;

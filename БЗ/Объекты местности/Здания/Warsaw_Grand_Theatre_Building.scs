@@ -1,0 +1,16 @@
+Warsaw_Grand_Theatre_Building
+=> nrel_main_idtf:
+	[Здание Варшавского большого театра]
+	(*
+	<- lang_ru;;
+	*);
+	[Warsaw Grand Theatre Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Варшаўскага вялікага тэатра]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building
+;;

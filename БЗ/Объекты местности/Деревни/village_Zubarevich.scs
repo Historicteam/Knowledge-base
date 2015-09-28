@@ -1,0 +1,17 @@
+Zubarevichy_village
+=> nrel_main_idtf:
+	[деревня Зубаревичи]
+	(*
+	<- lang_ru;;
+	*);
+	[Zubarevichy village]
+	(*
+	<- lang_en;;
+	*);
+	[вёска Зубарэвічы]
+	(*
+	<- lang_by;;
+	*);
+<-concept_terrain_object;
+<-concept_village
+;;

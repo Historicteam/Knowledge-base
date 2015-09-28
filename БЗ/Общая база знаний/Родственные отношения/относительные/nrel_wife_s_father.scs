@@ -1,0 +1,27 @@
+nrel_wife_s_father
+=>nrel_main_idtf:
+	[тесть*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[father-in-law*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[wife's father*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[цесць*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Тесть — мужчина по отношению к мужу дочери, отец жены.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Цесць — мужчына ў адносінах да мужа дачкі, бацька жонкі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_wife_s_father.jpg";	
+<-sc_node_norole_relation;;

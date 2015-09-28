@@ -1,0 +1,17 @@
+concept_mapped_line
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[линейный oбъект карты]
+	(*
+	<- lang_ru;;
+	*);
+	[mapped line]
+	(*
+	<- lang_en;;
+	*);
+	[лінейны аб'ект карты]
+	(*
+	<- lang_by;;
+	*)
+;;

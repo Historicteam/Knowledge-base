@@ -1,0 +1,26 @@
+nrel_great_nephew
+=>nrel_main_idtf:
+	[двоюродный племянник*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[great-nephew*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[стрыечны пляменнік*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Двоюродный племянник — сын двоюродного брата или сестры.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Стрыечны пляменнік — сын стрыечнага брата або сястры.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_great_nephew.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

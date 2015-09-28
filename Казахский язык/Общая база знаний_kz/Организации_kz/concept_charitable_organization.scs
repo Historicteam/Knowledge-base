@@ -1,0 +1,14 @@
+concept_charitable_organization
+=>nrel_main_idtf:
+	[қайырымдылық  ұйымы] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Қайырымдылық ұйымы - қайырымдылық қызметі үшін құрылған ұйым.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

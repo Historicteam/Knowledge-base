@@ -1,0 +1,59 @@
+nrel_flag
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[флаг*]
+	(*
+	<- lang_ru;;
+	*);
+	[flag*]
+	(*
+	<- lang_en;;
+	*);
+	[сцяг*]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_subdividing: ... 
+	(*
+	->nrel_state_flag;;
+	->nrel_naval_flag;;
+	->nrel_trading_flag;;
+	*);
+=> nrel_first_domain:...
+	(*
+	<=nrel_combination:...
+		(*
+		->concept_locality;;
+		->concept_country;;
+		*);;
+	*);
+=> nrel_second_domain:concept_breadth;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Флаг - полотнище правильной геометрической (чаще всего, прямоугольной) формы, имеющее какую-либо специальную расцветку.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Сцяг - палотнішча правільнай геаметрычнай (часцей за ўсё, прамавугольнай) формы, маюць якую-небудзь спецыяльную расфарбоўку.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

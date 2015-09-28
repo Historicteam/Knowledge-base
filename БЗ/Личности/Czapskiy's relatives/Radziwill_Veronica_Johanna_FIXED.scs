@@ -1,0 +1,23 @@
+Radziwill_Veronica_Johanna
+=> nrel_main_idtf:
+	[Радзивилл Вероника Иоанна]
+	(*
+	<- lang_ru;;
+	*);
+	[Radziwill Veronica Johanna]
+	(*
+	<- lang_en;;
+	*);
+	[Радзівіл Вераніка Іаана]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_surname: surname_Radziwill;
+=>nrel_first_name: name_Veronica;
+=>nrel_middle_name: name_Johanna;
+=>nrel_parent: Hutten_Czapsky_Carol_Frantsevich;
+=>nrel_wife: Hutten_Czapsky_Franciszek_Stanislav
+;;

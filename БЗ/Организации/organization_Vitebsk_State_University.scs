@@ -1,0 +1,9 @@
+organization_Vitebsk_State_University
+
+	=> nrel_main_idtf:
+		[Витебский государственный университет имени П. М. Машерова] (* <- lang_ru;; *);
+		[Vitebsk State University] (* <- lang_en;; *);
+		[Віцебскі дзяржаўны універсітэт імя П. М. Машэрава] (* <- lang_by;; *);
+	=> nrel_photo:
+	"file://content/Vitebsky_instituts_petra_Macherova.jpg" (* <- image;;*);
+<-concept_educational_institution;;

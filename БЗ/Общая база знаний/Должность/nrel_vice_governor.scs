@@ -1,0 +1,19 @@
+nrel_vice_governor
+=>nrel_main_idtf:
+	[вице-губернатор*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[vice-governor*] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Вице-губернатор* — это бинарное отношение, связывающее губернию и человека, который являлся помощником губернатора этой губернии.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

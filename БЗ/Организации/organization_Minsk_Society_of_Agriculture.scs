@@ -1,0 +1,6 @@
+organization_Minsk_Society_of_Agriculture
+
+	=> nrel_main_idtf:
+		[Минское общество сельского хозяйства] (* <- lang_ru;; *);
+		[Minsk Society of Agriculture] (* <- lang_en;; *);
+		[Мінскае таварыства сельскай гаспадаркі] (* <- lang_by;; *);;

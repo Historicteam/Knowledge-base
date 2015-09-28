@@ -1,0 +1,14 @@
+concept_cantata
+=>nrel_main_idtf:
+	[кантата] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Кантата - солистері хорына арналған  вокалдық - аспаптық жазба.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

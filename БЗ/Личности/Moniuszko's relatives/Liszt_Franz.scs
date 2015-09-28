@@ -1,0 +1,15 @@
+Liszt_Franz
+=> nrel_main_idtf:
+	[Лист Ференц]
+	(*
+	<- lang_ru;;
+	*);
+	[Liszt Franz]
+	(*
+	<- lang_en;;
+	*);
+	[Ліст Ферэнц]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

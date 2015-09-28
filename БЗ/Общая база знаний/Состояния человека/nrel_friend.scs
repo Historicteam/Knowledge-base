@@ -1,0 +1,45 @@
+nrel_friend
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[друзья*]
+	(*
+	<- lang_ru;;
+	*);
+	[friend*]
+	(*
+	<- lang_en;;
+	*);
+	[сябры*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_person;
+=>nrel_second_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Друзья* - бинарное отношение связывающие двух друзей.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Сябры* - бінарнае дачыненне, якое злучае двух сяброў.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

@@ -1,0 +1,12 @@
+estste_Savichi
+=> nrel_main_idtf:
+	[Савичи]
+	(*
+	<- lang_ru;;
+	*);
+	[Savichi]
+	(*
+	<- lang_en;;
+	*);
+	=>nrel_location:Savichi_village;
+<-concept_estate;;

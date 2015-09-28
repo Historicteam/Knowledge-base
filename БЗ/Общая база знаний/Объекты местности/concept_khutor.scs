@@ -1,0 +1,41 @@
+concept_khutor
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[хутор]
+	(*
+	<- lang_ru;;
+	*);
+	[khutor]
+	(*
+	<- lang_en;;
+	*);
+	[хутор]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<=nrel_inclusion: concept_locality;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хутор — малый населённый пункт, состоящий из одного, иногда нескольких домохозяйств; отдельная крестьянская усадьба с обособленным хозяйством.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Хутар - малы населены пункт, які складаецца з аднаго, часам некалькіх хатніх гаспадарак; асобная сялянская сядзіба з адасобленым гаспадаркай.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

@@ -1,0 +1,9 @@
+rrel_citie_of_regional_subordination
+=> nrel_main_idtf:
+	[город областного подчинения'] (* <- lang_ru;; *);
+	[citie of regional subordination'] (* <- lang_en;; *);
+	[горад абласнога падпарадкавання'] (* <- lang_by;; *);
+<- sc_node_role_relation;
+=> nrel_first_domain:concept_regional;
+=> nrel_second_domain:concept_city
+;;

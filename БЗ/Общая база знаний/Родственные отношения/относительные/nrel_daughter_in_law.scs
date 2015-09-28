@@ -1,0 +1,26 @@
+nrel_daughter_in_law
+=>nrel_main_idtf:
+	[невестка*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[жена сына*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[daughter-in-law*] (* <-lang_en;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Невестка — замужняя женщина по отношению к родителям её мужа.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Нявестка — замужняя жанчына ў адносінах да бацькоў яе мужа.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_daughter_in_law.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

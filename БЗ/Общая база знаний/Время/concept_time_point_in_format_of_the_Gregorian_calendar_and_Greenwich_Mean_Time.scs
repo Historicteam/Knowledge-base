@@ -1,0 +1,11 @@
+concept_time_point_in_format_of_the_Gregorian_calendar_and_Greenwich_Mean_Time
+=> nrel_main_idtf: 
+	[time point in format of the Gregorian calendar and Greenwich Mean Time]
+	(*
+	<-lang_en;;
+	*);
+	[временная точка в формате Грегорианского календаря и Гринвичского времени]
+	(*
+	<-lang_ru;;
+	*)
+;;

@@ -1,0 +1,33 @@
+Obukhovich_Fabiana
+=> nrel_main_idtf:
+	[Обухович Фабиана]
+	(*
+	<- lang_ru;;
+	*);
+	[Obukhovich Fabiana]
+	(*
+	<- lang_en;;
+	*);
+	[Абуховіч Фабіяна]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Гуттен-Чапская Фабиана]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapskaya Fabiana]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапская Фабіяна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_surname: surname_Obukhovich;
+=>nrel_first_name: name_Fabiana;
+<=nrel_parent: Hutten_Czapsky_Emerick_Carlovich;;

@@ -1,0 +1,30 @@
+concept_joint_stock_company
+=>nrel_main_idtf:
+	[акционерная организация] (* <-lang_ru;; *);
+	[joint-stock company] (* <-lang_en;; *);
+	[акцыянерная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_joint_stock_company_concept  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "акционерная организация"] (* <-lang_ru;; *);
+		[Definition of the joint-stock company concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "акцыянерная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Акционерная организация - это организация, уставный фонд которой разделен на определенное число акций, приобретенных акционерами, а акционеры несут материальную ответственность лишь в пределах стоимости принадлежащих им акций.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Joint-stock company is an organization which charter capital is divided into a certain number of shares that are purchased by shareholders, and the shareholders are liable up to the value of their shares only.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Акцыянерная арганізацыя - гэта арганізацыя, статутны фонд якой падзелены на вызначаны лік акцый, набытых акцыянерамі, а акцыянеры нясуць матэрыяльную адказнасць толькі ў межах кошту прыналежных ім акцый.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;
+<-sc_const;;

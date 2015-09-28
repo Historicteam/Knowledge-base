@@ -1,0 +1,7 @@
+sc_node_not_relation -> concept_quantity;;																	
+concept_quantity => nrel_main_idtf :
+[величина] (* <- lang_ru;; *);
+[quantity](*<-lang_en;;*);
+[велічыня](*<-lang_by;;*);;
+
+

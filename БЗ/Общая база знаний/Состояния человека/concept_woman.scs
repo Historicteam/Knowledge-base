@@ -1,0 +1,24 @@
+concept_woman
+=>nrel_main_idtf:
+	[женщина] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[concept_woman] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[жанчына] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Женщина — взрослый человек женского пола.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Жанчына — дарослы чалавек жаночага полу.] (* <-lang_by;; *);; 
+		*);;
+	*);
+	
+<-sc_const;;

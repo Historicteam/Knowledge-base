@@ -1,0 +1,41 @@
+nrel_founder
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[основатель*]
+	(*
+	<- lang_ru;;
+	*);
+	[founder*]
+	(*
+	<- lang_en;;
+	*);
+	[заснавальнік*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_terrain_object;
+=> nrel_second_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Основатель* - бинарное отношение связывающие организацию и человека который ее организовал.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[Заснавальнік* - бінарнае дачыненне, якое злучае арганізацыю і чалавека які яе арганізаваў.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

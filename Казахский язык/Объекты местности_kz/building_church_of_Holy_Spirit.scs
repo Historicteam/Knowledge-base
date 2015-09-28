@@ -1,0 +1,17 @@
+Peter_and_Paul_Cathedral_Building
+=> nrel_idtf:
+	[Ақ аруақ шіркеу ғимараты]
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_main_idtf:
+	[Петропавл шіркеу ғимараты]
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_idtf:
+	["Верхний Город" концерттік зал ғимараты]
+	(*
+	<- lang_kz;;
+	*)
+;;

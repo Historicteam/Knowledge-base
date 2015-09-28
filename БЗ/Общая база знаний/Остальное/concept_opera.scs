@@ -1,0 +1,24 @@
+concept_opera
+=>nrel_main_idtf:
+	[опера] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[opera] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[опера] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Опера - род музыкально-драматического произведения, основанный на синтезе слова, сценического действия и музыки.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Опера - род музычна-драматычнага твора, заснаванага на сінтэзе слова, сцэнічнага дзеяння і музыкі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+	
+<-sc_const;;

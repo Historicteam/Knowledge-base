@@ -1,0 +1,15 @@
+Pension_for_the_fourth_class_Order_of_St_Anna
+=>nrel_main_idtf:
+	[4 дәрежелі Қасиетті Анна орденінің зейнетақы] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [4 дәрежелі Қасиетті Анна орденінің зейнетақысы, ол - жылдық зейнетақысына 50 немесе 40 рубль алуы.] (* <-lang_kz;; *);; 
+		*);;
+	*);;
+	

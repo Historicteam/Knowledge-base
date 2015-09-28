@@ -1,0 +1,14 @@
+concept_private_organization
+=>nrel_main_idtf:
+	[жеке ұйым] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Жеке ұйым - кез келген әлеуметтік қажеттіліктерін.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

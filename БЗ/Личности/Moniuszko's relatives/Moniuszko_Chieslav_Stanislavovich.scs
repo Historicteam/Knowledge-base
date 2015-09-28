@@ -1,0 +1,20 @@
+Moniuszko_Chieslav_Stanislavovich
+=> nrel_main_idtf:
+	[Монюшко Чеслав Станиславович]
+	(*
+	<- lang_ru;;
+	*);
+	[Moniuszko Chieslav Stanislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Манюшка Чэслаў Станіслававіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname: surname_Moniuszko;
+=>nrel_first_name: name_Chieslav;
+<= nrel_parent: Moniuszko_Stanislav_Chieslavovich;
+<=>nrel_spouse: Madzharskaja_Jelizavieta_Lieonovna;;
+

@@ -1,0 +1,29 @@
+organization_Slutsk_gymnasium_1
+=> nrel_main_idtf:
+	[гимназия № 1 города Слуцка]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk gymnasium № 1] 
+	(*
+	<- lang_en;;
+	*);
+	[Гімназія № 1 города Слуцка]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Слуцкая кальвинистская школа]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk kalvіnіstskaya school] 
+	(*
+	<- lang_en;;
+	*);
+	[Слуцкая кальвінісцкая школа]
+	(*
+	<- lang_by;;
+	*);
+<-concept_gymnasium;
+<-concept_educational_institution;;

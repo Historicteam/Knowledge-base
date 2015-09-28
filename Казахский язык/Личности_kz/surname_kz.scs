@@ -1,0 +1,138 @@
+surname_Bohdanovich
+=> nrel_main_idtf:
+	[Богданович]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Vankovich
+=> nrel_main_idtf:
+	[Ванькович]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Lieon
+=> nrel_main_idtf:
+	[Леон]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Madzharskij
+=> nrel_main_idtf:
+	[Маджарский]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Madzharskaja
+=> nrel_main_idtf:
+	[Маджарская]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Vojnilovich
+=> nrel_main_idtf:
+	[Войнилович]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Moniuszko
+=> nrel_main_idtf:
+	[Монюшко]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Miullier
+=> nrel_main_idtf:
+	[Мюллер]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Meyendorff
+=> nrel_main_idtf:
+	[Мейендорф]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Hutten_Czapsky
+=> nrel_main_idtf:
+	[Гуттен-Чапский]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Radziwill
+=> nrel_main_idtf:
+	[Радивилл]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+
+
+surname_Osmak
+=> nrel_main_idtf:
+	[Осьмак]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+surname_Peshkov
+=> nrel_main_idtf:
+	[Пешков]
+	(*
+	<- lang_kz;;
+	*);
+=> nrel_idtf:
+	[Пешкова]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+surname_Myakota
+=> nrel_main_idtf:
+	[Мякота]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+surname_Malevich
+=> nrel_main_idtf:
+	[Малевич]
+	(*
+	<- lang_kz;;
+	*)
+;;
+
+
+surname_Skurko
+=> nrel_main_idtf:
+	[Скурко]
+	(*
+	<- lang_kz;;
+	*)
+;;

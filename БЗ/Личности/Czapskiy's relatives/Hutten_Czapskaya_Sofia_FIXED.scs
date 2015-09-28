@@ -1,0 +1,18 @@
+Hutten_Czapskaya_Sofia_Emerickovna
+=> nrel_main_idtf:
+	[Гуттен-Чапская София Эмериковна]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapskaya Sofia Emerickovna]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапская Сафія Эмерыкаўна]
+	(*
+	<- lang_by;;
+	*);
+<-concept_woman;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Sofia;;

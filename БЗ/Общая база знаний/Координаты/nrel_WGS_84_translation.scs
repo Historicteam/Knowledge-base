@@ -1,0 +1,19 @@
+nrel_WGS_84_translation
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[трансляция в WGS 84*]
+	(*
+	<- lang_ru;;
+	*);
+	[WGS 84 translation*]
+	(*
+	<- lang_en;;
+	*);
+	[трансляцыя ў WGS 84*]
+	(*
+	<- lang_by;;
+	*)
+;;

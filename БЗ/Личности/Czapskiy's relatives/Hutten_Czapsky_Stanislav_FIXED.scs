@@ -1,0 +1,19 @@
+Hutten_Czapsky_Stanislav
+=> nrel_main_idtf:
+	[Гуттен-Чапский Станислав]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapsky Stanislav]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапскі Станіслаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+<=nrel_parent: Hutten_Czapsky_Adam_Jozef;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Stanislav;;

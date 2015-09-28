@@ -1,0 +1,32 @@
+concept_creature
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[живое существо]
+	(*
+	<- lang_ru;;
+	*);
+	[creature]
+	(*
+	<- lang_en;;
+	*);
+	[жывая істота]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Живое существо -]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*)
+;;
+

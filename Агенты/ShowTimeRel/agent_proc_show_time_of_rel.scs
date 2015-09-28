@@ -1,0 +1,133 @@
+agent_proc_show_time_of_rel
+// Множество идентификаторов
+=> nrel_main_idtf:
+	[агентная scp-программа поиска временного периода, которому принадлежит некоторая дуга] 
+	(*
+	<- lang_ru;;
+	*);
+	[agentscp-program of search of time period] 
+	(*
+	<- lang_en;; 
+	*);
+<- agent_scp_program;;
+// Указываем, что операция поиска агента является scp-программой
+scp_program -> agent_proc_show_time_of_rel (*
+// Множество параметров агентной операции
+	->rrel_params: 
+		.agent_proc_show_time_of_rel_params (*
+			-> rrel_1: rrel_in: _event;;
+			-> rrel_2: rrel_in: _input_arc;;
+		*);;
+// Множество операторов агентной операции
+	->rrel_operators: 
+		.agent_proc_show_time_of_rel (*
+// Первый исполняемый оператор операции
+			-> .agent_proc_show_time_of_rel_debug1 (*
+				<-printEl;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;	
+				=>nrel_goto: .agent_proc_show_time_of_rel_operator4;;
+			*);;
+			-> rrel_init: .agent_proc_show_time_of_rel_operator1 (*	
+				<- searchElStr3;;
+				-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+				=>nrel_goto: .agent_proc_show_time_of_rel_operator2;;
+			*);;
+// В rrel_1 устанавливаем имя придуманного нами вопроса (см. пункт 2.1).
+// Агент будет просыпаться, когда обнаружит наш вопрос.
+			-> .agent_proc_show_time_of_rel_operator2 (*
+				<- searchElStr3;;
+				-> rrel_1: rrel_fixed: rrel_scp_const: question_show_time_rel;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+				=>nrel_then: .agent_proc_show_time_of_rel_operator3;;
+				=>nrel_else: .agent_proc_show_time_of_rel_operator_return;;
+			*);;
+// Найдём параметры операции – их подал на вход сам пользователь
+			-> .agent_proc_show_time_of_rel_operator3 (*
+				<- searchElStr5;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _param_element1;;
+				-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+				=>nrel_then: .agent_proc_show_time_of_rel_operator3_1;;
+//				=>nrel_else: .agent_proc_show_time_of_rel_operator_return;;
+			*);;
+			-> .agent_proc_show_time_of_rel_operator3_1 (*
+				<- searchElStr5;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _param_relation;;
+				-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+				=>nrel_then: .agent_proc_show_time_of_rel_operator3_2;;
+				=>nrel_else: .agent_proc_show_time_of_rel_operator_return;;
+			*);;
+			-> .agent_proc_show_time_of_rel_operator3_2 (*
+				<- searchElStr5;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _param_element2;;
+				-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_5: rrel_fixed: rrel_scp_const: rrel_3;;
+				=>nrel_then: .agent_proc_show_time_of_rel_operator4;;
+				=>nrel_else: .agent_proc_show_time_of_rel_operator_return;;
+			*);;
+// Сгенерировать узел, в который мы поместим конструкцию ответа
+			-> .agent_proc_show_time_of_rel_operator4 (*
+				<- genEl;;
+				-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
+				=>nrel_goto: .agent_proc_show_time_of_rel_operator5;;
+			*);;
+			-> .agent_proc_show_time_of_rel_operator5 (*
+				<- call;; // В первом параметре содержится название вызванной процедуры		
+				-> rrel_1: rrel_fixed: rrel_scp_const: proc_show_time_of_rel;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: // здесь описаны параметры, подаваемые на вход процедуре
+					.agent_proc_show_time_of_rel_operator5_params (*
+						-> rrel_1: rrel_fixed: rrel_scp_var: _param_element1;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _param_relation;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _param_element2;;
+						-> rrel_4: rrel_assign: rrel_scp_var: _answer;;
+					*);;
+					// Знак scp-процесса, который может быть использован для того, чтобы дождаться завершения созданного scp-процесса
+				-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+				=>nrel_goto: .agent_proc_show_time_of_rel_operator6;;
+			*);;
+// scp-оператор ожидания завершения выполнения программы
+			-> .agent_proc_show_time_of_rel_operator6 (*
+				<- waitReturn;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+				=>nrel_goto: .agent_proc_show_time_of_rel_operator_gen_answer;;
+			*);;
+// Добавляем узел с конструкцией ответа
+			-> .agent_proc_show_time_of_rel_operator_gen_answer (*
+				<- genElStr5;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+				-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+				-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+				=> nrel_goto: .agent_proc_show_time_of_rel_operator_gen_answer_1;;
+			*);;
+			-> .agent_proc_show_time_of_rel_operator_gen_answer_1 (*
+				<- genElStr5;;
+				-> rrel_1: rrel_fixed: rrel_scp_const: all_answers;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+				-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_5: rrel_fixed: rrel_scp_const: rrel_answer;;
+				=> nrel_goto: .debug;;
+			*);;
+			-> .debug (*
+				<- printEl;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+				=> nrel_goto: .agent_proc_show_time_of_rel_operator_return;;
+			*);;
+// Оператор завершения агентной операции
+			-> .agent_proc_show_time_of_rel_operator_return (*
+				<- return;;
+			*);;
+		*);;
+	*);;

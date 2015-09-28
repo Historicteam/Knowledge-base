@@ -1,0 +1,32 @@
+nrel_adopted_child
+=>nrel_main_idtf:
+	[приемный ребенок*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[adopted child*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[прыёмнае дзіця*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Приемный ребенок — ребенок, который находятся под опекой в приемной семье.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Прыёмнае дзіця - дзіця, якое знаходзіцца пад апекай ў прыёмнай сям'і.] (* <-lang_by;; *);; 	
+		*);;
+		
+	*);
+=>nrel_inclusion:
+	nrel_adopted_son;
+	nrel_adopted_daughter;
+
+=>nrel_using_example:"file://content/nrel_adopted_child.jpg";
+
+<-sc_const;	
+<-sc_node_norole_relation;;
+

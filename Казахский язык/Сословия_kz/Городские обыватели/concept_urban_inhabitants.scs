@@ -1,0 +1,10 @@
+concept_urban_inhabitants
+=>nrel_main_idtf:
+	[жергілікті тұрғындар] (* <-lang_kz;; *);;
+
+The_definition_of_urban_inhabitants
+		<= nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: [Жергілікті тұрғындар - жергілікті тұрғындар қауымы.] (* <-lang_kz;; *);;
+			*);;

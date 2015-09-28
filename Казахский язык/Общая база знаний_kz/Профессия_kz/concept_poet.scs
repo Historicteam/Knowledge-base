@@ -1,0 +1,20 @@
+concept_poet
+=> nrel_main_idtf:
+	[ақын]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Ақын - поэзиялық, ақындық шығармалар авторы.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*);;

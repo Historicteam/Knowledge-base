@@ -1,0 +1,30 @@
+concept_informal_organization
+=>nrel_main_idtf:
+	[неформальная организация] (* <-lang_ru;; *);
+	[informal organization] (* <-lang_en;; *);
+	[нефармальная арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_informal_organization_concept  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "неформальная организация"] (* <-lang_ru;; *);
+		[Definition of the informal organization concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "нефармальная арганізацыя"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Неформальная организация – это система межличностных связей, возникающая на основе взаимного интереса индивидов друг к другу вне связи с функ­циональными нуждами.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Informal organization is a system of interpersonal relations which arise on a mutual interest basis of individuals to each other and the basis doesn't depend on any functional needs.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Нефармальная арганізацыя - гэта сістэма міжасобых сувязяў, якая ўзнікае на аснове ўзаемнай цікавасці індывідаў адзін да аднаго па-за сувязі з функцыянальнымі патрэбамі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_node_not_relation;	
+<-sc_const;;

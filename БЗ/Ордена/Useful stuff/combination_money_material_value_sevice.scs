@@ -1,0 +1,9 @@
+combination_money_material_value_sevice
+=> nrel_main_idtf: 
+[money ∪ material value ∪ service] (* <- lang_en;; *);
+[деньги ∪ материальная ценность ∪ услуги] (* <- lang_ru;; *);
+
+<= nrel_combination: ...
+			(*
+				-> money; material_value; service;;
+			*);;

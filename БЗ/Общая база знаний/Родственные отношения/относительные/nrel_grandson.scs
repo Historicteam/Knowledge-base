@@ -1,0 +1,28 @@
+nrel_grandson
+=>nrel_main_idtf:
+	[внук*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[grandchild*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[grandson*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[унук*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Внук — сын дочери или сына.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Унук — сын дачкі або сына.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_grandson.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

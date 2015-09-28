@@ -1,0 +1,31 @@
+nrel_wife_of_parent_s_cousin
+=>nrel_idtf:
+	[двоюродная тётя*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[жена двоюродного дяди*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[wife of parent's cousin*] (* <-lang_en;; *);
+=>nrel_idtf:
+	[стрыечная цётка*] (* <-lang_by;; *);
+=>nrel_main_idtf:
+	[жонка стрыечнага дзядзькі*] (* <-lang_by;; *);
+
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Двоюродная тётя — жена двоюродного брата отца или матери или жена двоюродного дяди.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Стрыечная цётка — жонка стрыечнага брата бацькі або маці або жонка стрыечнага дзядзькі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_wife_of_parent_s_cousin.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

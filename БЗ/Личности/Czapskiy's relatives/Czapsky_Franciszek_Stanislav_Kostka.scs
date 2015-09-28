@@ -1,0 +1,20 @@
+Czapsky_Franciszek_Stanislav_Kostka_Ignatjevich
+=> nrel_main_idtf:
+	[Чапский Франтишек Станислав Костка Игнатьевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Czapsky Franciszek Stanislav Kostka Ignatjevich]
+	(*
+	<- lang_en;;
+	*);
+<-concept_male;
+<-concept_person;
+
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Franciszek;
+=>nrel_middle_name: name_Stanislav;
+=>nrel_middle_name: name_Kostka;
+=>nrel_parent:Hutten_Czapsky_Ignatij_von;
+=>nrel_parent:Konopatskaja_Tieofilin;;

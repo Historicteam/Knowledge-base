@@ -1,0 +1,13 @@
+Rabkorovskiys_Street
+	=> nrel_main_idtf:
+		[Улица Рабкоровского](* <- lang_ru;; *);
+		[Rabkorovskiy's Street](* <- lang_en;; *);
+			[Вуліца Рабкароўскага]
+			(*
+			<- lang_by;;
+			*);
+		<= nrel_subdividing: 
+		{
+		Rabkorovskiys_Street_house_19
+		};
+		<-concept_street;;

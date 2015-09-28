@@ -1,0 +1,18 @@
+Belski_Ksaverij
+=> nrel_main_idtf:
+	[Бельский Ксаверий]
+	(*
+	<- lang_ru;;
+	*);
+	[Belski Ksaverij]
+	(*
+	<- lang_en;;
+	*);
+	[Бельскi Ксаверый]
+	(*
+	<- lang_by;;
+		*);
+<-concept_male;
+=>nrel_surname: surname_Belski;
+=>nrel_first_name: name_Otto;
+<=>nrel_spouse:Vojnilovich_Marija_Adamovna;;

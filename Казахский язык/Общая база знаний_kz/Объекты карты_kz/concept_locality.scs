@@ -1,0 +1,21 @@
+concept_locality
+=> nrel_main_idtf:
+	[елді - мекен]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Елді - мекен - адамдар бар жер, бір құрылған жергілікті аумақта адамдардың орналасуының бастапқы бірлігі.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*)
+;;

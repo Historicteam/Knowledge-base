@@ -1,0 +1,26 @@
+nrel_niece
+=>nrel_main_idtf:
+	[племянница*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[niece*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[пляменніца*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Племянница — дочь брата или сестры.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Пляменніца — дачка брата ці сястры.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_niece.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

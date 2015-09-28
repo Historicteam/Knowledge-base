@@ -1,0 +1,30 @@
+nrel_place_of_death
+=>nrel_main_idtf:
+	[место смерти*] (* <-lang_ru;; *);
+	[place of death*] (* <-lang_en;; *);
+	[месца смерці*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+		[Место смерти* — это бинарное отношение, связывающее человека с местом его смерти.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: 
+		[Place of death* — is a binary relation which connects a person with its place of death.] (* <-lang_en;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example:
+		[Месца смерці — гэта бінарнае дачыненне, якое злучае чалавека з местам яго смерці.] (* <-lang_by;; *);;
+		*);;
+	*);
+<-sc_const;
+<-binary_relation;	
+<-sc_node_norole_relation;;

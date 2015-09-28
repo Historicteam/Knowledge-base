@@ -1,0 +1,22 @@
+concept_kinship
+=>nrel_main_idtf:
+	[родство] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[kinship] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[радство] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Родство - отношение между людьми, создаваемое наличием общих ближайших родственников.] (* <-lang_ru;; *);;
+		-> [Радство - адносіны паміж людзьмі, якія ствараюцца пры наяўнасці агульных бліжэйшых родственнікаў.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;;
+	

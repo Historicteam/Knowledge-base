@@ -1,0 +1,15 @@
+Alexandrovskaya_Street
+	=> nrel_main_idtf:
+			[Улица Александровская]
+			(*
+			<- lang_ru;;
+			*);
+			[Alexandrovskaya Street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Аляксандраўская]
+			(*
+			<- lang_by;;
+			*);
+			<-concept_street;;

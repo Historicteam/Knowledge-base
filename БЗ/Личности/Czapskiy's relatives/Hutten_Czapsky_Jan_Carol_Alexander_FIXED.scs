@@ -1,0 +1,82 @@
+Hutten_Czapsky_Emerickovich
+=> nrel_main_idtf:
+	[Гуттен-Чапский Кароль Эмерикович]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapsky Karol' Emierykovich]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапскі Кароль Эмерыкавіч]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: Image_of_Hutten_Czapsky_Emerickovich
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Jan_Karol_Alexander_Hutten_Czapsky1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<-concept_male;
+<=nrel_member: concept_catholic_church;
+//=>nrel_place_of_study: building_Gymnasium_of_St_Anne;
+<=nrel_student:organization_Imperial_University_of_Dorpat; organization_gymnasium_of_St_Anne;
+//=>nrel_place_of_study: Imperial_University_of_Dorpat_Building;
+<=nrel_employee: organization_Ministry_of_Finance_of_the_Russian_Empire;
+<=nrel_mayor:nrel_employee: organization_Minsk_Municipal_Public_Administration;
+<=nrel_founder: organization_Minsk_Municipal_Pawnshop; organization_Minsk_Municipal_Hobo_Shelter; organization_Minsk_Hospital_for_Prostitutes;
+<=nrel_owner: building_of_The_1st_Minsk_Brewery_Olivariya;
+<=nrel_owner: Stankovo_village;
+<=nrel_owner: Negoreloye_village;
+<=nrel_owner: Prusinovo_village;
+<=nrel_owner: Zubarevichy_village;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_date_of_death: 17_01_1904
+	(*
+	=> nrel_main_idtf:
+		[17 января 1904 года]
+		(*
+		<- lang_ru;;
+		*);
+		[January 17, 1904]
+		(*
+		<- lang_en;;
+		*);
+		[17 студзеня 1904 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_birth: 15_05_1860
+	(*
+	=> nrel_main_idtf:
+		[15 мая 1860 года]
+		(*
+		<- lang_ru;;
+		*);
+		[May 15, 1860]
+		(*
+		<- lang_en;;
+		*);
+		[15 мая 1860 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Jan;
+=>nrel_middle_name: name_Carol;
+=>nrel_middle_name: name_Alieksandr;
+<= nrel_parent: Czapsky_Leon_Bogdan; Czapsky_Emerick_August_Vojtech; Czapskaya_Elizabeth_Karlovna;
+<=>nrel_spouse: Puslovskaya_Mary_Leontine;;
+
+Image_of_Hutten_Czapsky_Emerickovich
+=> nrel_main_idtf: [Изображение Гуттен-Чапского Кароля Эмериковича](*<- lang_ru;;*);
+[Image of Hutten-Czapsky Karol' Emerickovich](*<- lang_en;;*);;

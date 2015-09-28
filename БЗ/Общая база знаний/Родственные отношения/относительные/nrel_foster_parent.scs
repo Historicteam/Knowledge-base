@@ -1,0 +1,31 @@
+nrel_foster_parent
+=>nrel_main_idtf:
+	[приёмный родитель*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[foster parent*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[прыёмны бацька*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: 
+			[Приёмный родитель — родитель по отношению к ребёнку, который находится под опекой в его семье.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: 
+			 [Прыёмны бацька — бацька ў адносінах да дзіцяці, які знаходзіцца пад апекай ў яго сям'і.] (* <-lang_by;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:
+	nrel_foster_mother;
+	nrel_foster_father;
+=>nrel_using_example:"file://content/nrel_foster_parent.jpg";
+<-sc_const;
+	
+<-sc_node_norole_relation;;

@@ -1,0 +1,14 @@
+concept_opera
+=>nrel_main_idtf:
+	[опера] (* <-lang_kz;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Опера - музыка және сахналық іс-синтезінің негізінде.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

@@ -1,0 +1,9 @@
+concept_creature
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[тірі ағза]
+	(*
+	<- lang_kz;;
+	*);;
+

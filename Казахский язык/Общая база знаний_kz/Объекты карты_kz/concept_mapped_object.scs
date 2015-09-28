@@ -1,0 +1,21 @@
+concept_mapped_object
+=> nrel_main_idtf:
+	[карта объектісі]
+	(*
+	<- lang_kz;;
+	*);
+<- rrel_sc_key_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Карта объектісі - қасиеттер бар, картада шартты белгімен белгіленген жер объектісі.]
+			(*
+			<- lang_kz;;
+			*);;
+		*);;
+	*)
+;;

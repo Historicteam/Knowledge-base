@@ -1,0 +1,30 @@
+nrel_great_grandfather
+=>nrel_main_idtf:
+	[прадед*] (* <-lang_ru;; *);
+=>nrel_idtf:
+	[прадедушка*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[great-grandfather*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[прадзед*] (* <-lang_by;; *);
+=>nrel_idtf:
+	[прадзядуля*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Прадед — дед отца или матери.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Прадзед — дзед бацькі або маці.] (* <-lang_by;; *);;
+		*);;
+	*);
+=>nrel_using_example:"file://content/nrel_great_grandfather.jpg";	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

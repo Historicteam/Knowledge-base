@@ -1,0 +1,54 @@
+concept_museum
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[музей] (* <- lang_ru;; *);
+	[museum] (* <- lang_en;; *);
+	[музей] (* <- lang_by;; *);
+<- rrel_key_sc_element:
+	Definition_of_the_museum_concept
+	(*
+	=> nrel_main_idtf:
+		[Определение понятия "музей"] (* <- lang_ru;; *);
+		[Definition of the museum concept] (* <- lang_en;; *);
+		[Азначэнне паняцця "музей"] (* <- lang_by;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Музей - это учреждение, занимающееся собиранием, хранением и выставкой для обозрения памятников искусства, предметов техники, научных коллекций, предметов, представляющих исторический интерес, и т. п.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+
+		...
+		(*
+		->rrel_example:
+			[Museum is an institution that is engaged in collecting, storing and exhibiting of objects of art, scientific collections, objects of historical interests and so on.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+
+		...
+		(*
+		->rrel_example:
+			[Музей - гэта ўстанова, якое займаецца збіраннем, захоўваннем і выставай для агляду помнікаў мастацтва, прадметаў тэхнікі, навуковых калекцый, прадметаў, якія прадстаўляюць гістарычны інтарэс, і т. п.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+
+

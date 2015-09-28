@@ -1,0 +1,25 @@
+nrel_son
+=>nrel_main_idtf:
+	[сын*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[son*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[сын*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сын — мужчина, мальчик по отношению к родителям.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Сын — мужчына, хлопчык ў дачыненні да бацькоў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+<-sc_const;
+=>nrel_using_example:"file://content/nrel_son.jpg";	
+<-sc_node_norole_relation;;

@@ -1,0 +1,43 @@
+concept_web_link
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[интернет ссылка]
+	(*
+	<- lang_ru;;
+	*);
+	[web link]
+	(*
+	<- lang_en;;
+	*);
+	[інтэрнэт спасылка]
+	(*
+	<- lang_by;;
+	*)
+;;
+/*
+<=nrel_inclusion: concept_image;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Эмблема — условное изображение идеи в рисунке и пластике, которому присвоен тот или другой смысл.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Эмблема - ўмоўнае малюнак ідэі ў малюнку і пластыцы, якому прысвоены той ці іншы сэнс.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;
+*/

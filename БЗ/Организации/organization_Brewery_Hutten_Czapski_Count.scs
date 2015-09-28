@@ -1,0 +1,30 @@
+organization_Brewery_Hutten_Czapsky_Count
+=> nrel_idtf:
+	[Пивзавод графа Гуттен-Чапского]
+	(*
+	<- lang_ru;;
+	*);
+	[Brewery Hutten-Czapsky Count]
+	(*
+	<- lang_en;;
+	*);
+	[Піўзавод графа Гутэн-Чапскага]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_main_idtf:
+	[1-й Минский пивзавод «Оливария»]
+	(*
+	<- lang_ru;;
+	*);
+	[1-ы Мінскі піўзавод «Аліварыя»]
+	(*
+	<- lang_by;;
+	*);
+	[The 1-st Minsk Brewery «Olivariya»]
+	(*
+	<- lang_en;;
+	*);
+=>nrel_location: building_of_The_1st_Minsk_Brewery_Olivariya;
+<-concept_factory
+;;

@@ -1,0 +1,6 @@
+Building_Street_International_28
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание. Улица Интернациональная, 28] (* <- lang_ru;; *);
+	[Building. Street International, 28] (* <- lang_en;; *);
+	[Будынак. Вуліца Інтэрнацыянальная, 28] (* <- lang_by;; *);;

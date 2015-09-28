@@ -1,0 +1,8 @@
+number_1
+	=> nrel_main_idtf: [один];
+	<-concept_number;
+	<=nrel_identification: ...
+		(*
+		->rrel_binary_system: [1];;
+		*)
+;;

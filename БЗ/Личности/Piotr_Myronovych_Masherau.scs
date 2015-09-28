@@ -1,0 +1,186 @@
+Masherov_Piotr_Myronovych
+=> nrel_main_idtf:
+	[Машеров Пётр Миронович] 		(* <- lang_ru;; *);
+	[Masherov Piotr Myronovych]	(* <- lang_en;; *);
+	[Машэраў Пётр Міронавіч] (* <- lang_by;; *);
+=> nrel_idtf:
+	[Машеро Пётр Миронович] 		(* <- lang_ru;; *);
+	[Машэро Пётр Міронавіч] (* <- lang_by;; *);
+
+<- concept_male;
+<- concept_person;
+
+<- rrel_key_sc_element: Image_Peter_Mironavich_Masherova
+	(*
+		=> nrel_main_idtf: 	[Изображение Машерова Петра Мироновича] (* <- lang_ru;; *);
+												[Выява Машэрава Пятра Міронавіча] (* <- lang_by;; *);;
+		=> nrel_idtf: [Изображение Машеро Петра Мироновича] (* <- lang_ru;; *);
+												[Выява Машэро Пятра Міронавіча] (* <- lang_by;; *);;
+
+		<-sc_statement;;
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:
+	"file://content/Piotr_Masherov.jpg" (* <-image;; *);;
+			*);;
+	*);
+
+=>nrel_surname: surname_Masherov;
+=>nrel_first_name: name_Piotr;
+<=>nrel_spouse: Polina_Pietrovna_Masherova;
+
+=>nrel_date_of_birth: 13_february_1918
+	(*
+	=> nrel_main_idtf:
+		[13 февраля 1918 года]
+		(*
+		<- lang_ru;;
+		*);
+		[13 лютага 1918 года] (* <- lang_by;; *);;
+	*);
+=>nrel_date_of_death: 04_october_1980
+	(*
+	=> nrel_main_idtf:
+		[4 октября 1980 года]
+		(*
+		<- lang_ru;;
+		*);
+	  [4 кастрычніка 1980 года] (* <- lang_by;; *);;
+	*);
+
+<=nrel_student: organization_Vitebsk_State_University;
+
+<- rrel_key_sc_element: family_tree_Masherov
+	(*
+		=> nrel_main_idtf: 	[Генеалогическое древо Машерова] (* <- lang_ru;; *);
+												[Генеалагічнае дрэва Машэрава] (* <- lang_by;; *);;
+
+		<-sc_statement;;
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:
+	"file://content/family_tree_Masherova.jpg" (* <-image;; *);;
+			*);;
+	*);
+
+=> nrel_dwelling:house_13_Red_Army_Street;
+
+=> nrel_employee:
+	Regional_Committee_of_Komsomol_Molodechnensky;
+	Minsk_Regional_Committee_of_Komsomol;
+	Communist_Youth_of_Belarus;
+	Minsk_Regional_Party_Committee;
+	Brest_Regional_Committee_of_the_Communist_Party_of_Belarus;
+	The_Supreme_Soviet_of_the_USSR;
+	CC_CP_Belarus;
+
+<- rrel_key_sc_element: Rank_Mosherova
+	(*
+		=> nrel_main_idtf: 
+	[Звания Машерова] (* <- lang_ru;; *);
+	[Званні Машэрава] (* <- lang_by;; *);;
+
+		<-sc_statement;;
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:	
+	[Герой Советского Союза] (* <- lang_ru;; *);
+	[Герой Савецкага Саюза] (* <- lang_by;; *);
+	[Герой Социалистического труда] (* <- lang_ru;; *);
+	[Герой Сацыялістычнай працы] (* <- lang_by;; *);
+	[7 орденов Ленина] (* <- lang_ru;; *);
+	[7 ордэнаў Леніна] (* <- lang_by;; *);
+	[Советские медали]	(* <- lang_ru;; *);
+	[Савецкія медалі] (* <- lang_by;; *);
+	[Иностранные медали]	(* <- lang_ru;; *);
+	[Замежныя медалі] (* <- lang_by;; *);;
+			*);;
+	*);
+
+<- rrel_key_sc_element: Death_Mosherova
+	(*
+		=> nrel_main_idtf:
+	[Гибель Мошерова] (* <- lang_ru;; *);
+	[Гібель Машэрава] (* <- lang_by;; *);;
+
+		<-sc_statement;;
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:
+	[Пётр Машеров погиб в автомобильной катастрофе на трассе Москва — Минск у поворота на птицефабрику города Смолевичи: на путь его кортежа, сопровождаемого ГАИ, неожиданно выехал гружённый картофелем самосвал (ГАЗ-САЗ-53Б экспериментальной базы Жодино).] (* <- lang_ru;; *);;
+			*);
+			...
+		(* -> rrel_example:
+	[Пётр Машэраў загінуў у аўтамабільнай катастрофе на трасе Масква - Мінск ля павароту на птушкафабрыку горада Смалявічы: на шлях яго картэжа, які суправаджаў ДАІ, нечакана выехаў гружаны бульбай самазвал (ГАЗ -САЗ - 53Б эксперыментальнай базы Жодзіна).] (* <- lang_by;; *);;
+			*);;
+	*);;
+
+
+Masherov_Paviel_Pietrovich
+	=> nrel_main_idtf:
+	[Машеров Павел Петрович] 		(* <- lang_ru;; *);
+	[Masherov Paviel Pietrovich]	(* <- lang_en;; *);
+	[Машэраў Павел Пятровіч] (* <- lang_by;; *);
+	<- concept_male;
+	<- concept_person;
+	=>nrel_surname: surname_Masherov;
+	=>nrel_first_name: name_Paviel;
+	=>nrel_parent:Masherov_Piotr_Myronovych;
+	=>nrel_parent:Masherova_Polina_Pietrovna;;
+
+
+Masherov_Piotr_Pietrovich
+	=> nrel_main_idtf:
+	[Машеров Петр Петрович] 		(* <- lang_ru;; *);
+	[Masherov Piotr Pietrovich]	(* <- lang_en;; *);
+	[Машэраў Пётр Пятровіч] (* <- lang_by;; *);
+		<- concept_male;
+	<- concept_person;
+	=>nrel_surname: surname_Masherov;
+	=>nrel_first_name: name_Piotr;
+	=>nrel_parent:Masherov_Piotr_Myronovych;
+	=>nrel_parent:Masherova_Polina_Pietrovna;;
+
+Masherova_Matriona_Pietrovna
+	=> nrel_main_idtf:
+	[Машерова Матрена Петровна] (* <- lang_ru;; *);
+	[Masherova Matriona Pietrovna]	(* <- lang_en;; *);
+	[Машэрава Матрона Пятроўна] (* <- lang_by;; *);
+	<- concept_woman;
+	<- concept_person;
+	=>nrel_surname: surname_Masherova;
+	=>nrel_first_name: name_Matriona;
+	=>nrel_parent:Masherov_Piotr_Myronovych;
+	=>nrel_parent:Masherova_Polina_Pietrovna;;
+
+Masherova_Olga_Pietrovna
+	=> nrel_main_idtf:
+	[Машерова Ольга Петровна] (* <- lang_ru;; *);
+	[Masherova Olga Pietrovna]	(* <- lang_en;; *);
+	[Машэрава Вольга Пятроўна] (* <- lang_by;; *);
+	<- concept_woman;
+	<- concept_person;
+	=>nrel_surname: surname_Masherova;
+	=>nrel_first_name: name_Olga;
+	=>nrel_parent:Masherov_Piotr_Myronovych;
+	=>nrel_parent:Masherova_Polina_Pietrovna;;
+
+Masherova_Nadiezhda_Pietrovna
+	=> nrel_main_idtf:
+	[Машерова Надежда Петровна] (* <- lang_ru;; *);
+	[Masherova Nadiezhda Pietrovna]	(* <- lang_en;; *);
+	[Машэрава Надзея Пятроўна] (* <- lang_by;; *);
+	<- concept_woman;
+	<- concept_person;
+	=>nrel_surname: surname_Masherova;
+	=>nrel_first_name: name_Nadiezhda;
+	=>nrel_parent:Masherov_Piotr_Myronovych;
+	=>nrel_parent:Masherova_Polina_Pietrovna;;
+
+Masherova_Polina_Pietrovna
+
+	=> nrel_main_idtf:
+	[Машерова Полина Петровна] (* <- lang_ru;; *);
+	[Masherova Polina Pietrovna]	(* <- lang_en;; *);
+	[Машэрава Паліна Пятроўна] (* <- lang_by;; *);
+	<- concept_woman;
+	<- concept_person;
+	=>nrel_surname: surname_Masherova;
+	=>nrel_first_name: name_Nadiezhda;;
+

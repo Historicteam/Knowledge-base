@@ -1,0 +1,18 @@
+nrel_police_inspector
+=> nrel_main_idtf:
+	[участковый инспектор*]
+	(*
+	<- lang_ru;;
+	*);
+	[police inspector*] 
+	(*
+	<- lang_en;;
+	*);
+	[ўчастковы інспектар*]
+	(*
+	<- lang_by;;
+	*);
+
+<-sc_const;
+	
+<-sc_node_norole_relation;;

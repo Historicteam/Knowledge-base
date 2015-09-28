@@ -1,0 +1,45 @@
+nrel_sourse
+<- sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[источник*]
+	(*
+	<- lang_ru;;
+	*);
+	[sourse*]
+	(*
+	<- lang_en;;
+	*);
+	[крыніца*]
+	(*
+	<- lang_by;;
+	*)
+;;
+
+/*<- rrel_key_sc_element:
+	...
+	(*
+	<- <- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Флаг - ]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Сцяг - ]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;*/

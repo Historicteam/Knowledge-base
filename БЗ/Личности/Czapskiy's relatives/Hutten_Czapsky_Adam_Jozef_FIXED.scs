@@ -1,0 +1,19 @@
+Hutten_Czapsky_Adam_Jozef
+=> nrel_main_idtf:
+	[Гуттен-Чапский Адам Юзеф]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapsky Adam Jozef]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапскі Адам Юзэф]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Adam;
+=>nrel_middle_name: name_Juzef;;

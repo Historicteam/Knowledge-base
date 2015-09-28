@@ -1,0 +1,75 @@
+concept_non_governmental_organization
+=>nrel_main_idtf:
+	[общественная организация] (* <-lang_ru;; *);
+	[non-governmental organization] (* <-lang_en;; *);
+	[грамадская арганізацыя] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	Definition_of_the_non_governmental_organization_concept 
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия общественной организации]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the non-governmental organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця грамадскай арганізацыі]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+
+			...
+			(* 
+			-> rrel_example: [Общественная организация – это негосударственные добровольные объединения граждан, основанные на совместных интересах и целях.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Non-governmental organization is a non-governmental voluntary association of citizens that is based on common interests and goals.] (* <-lang_en;; *);; 
+			*);
+	
+			...
+			(* 
+			-> rrel_example: [Грамадская арганізацыя - гэта недзяржаўныя добраахвотныя аб'яднанні грамадзян, заснаваныя на сумесных інтарэсах і мэтах.] (* <-lang_by;; *);; 
+			*);;
+
+	*);
+
+-> Regional_Committee_of_Komsomol_Molodechnensky;
+-> Minsk_Regional_Committee_of_Komsomol;
+-> Minsk_Regional_Party_Committee;
+-> Brest_Regional_Committee_of_the_Communist_Party_of_Belarus;
+-> organization_Minsk_Municipal_Hobo_Shelter;
+
+
+<=nrel_subdividing:
+	subdividing_of_non_governmental_organizations
+	(*
+		=> nrel_main_idtf:
+			[разбиение общественных организаций]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of non-governmental organizations]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё грамадскіх арганізацый]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_environmental_organization;;
+	->concept_sports_organization;;
+	->concept_political_organization;;
+	->concept_leisure_organization;;
+	->concept_charitable_organization;;
+	->concept_cultural_organization;;
+	*);
+<-sc_node_not_relation;	
+<-sc_const;;

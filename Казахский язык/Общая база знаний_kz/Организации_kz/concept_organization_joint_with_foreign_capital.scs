@@ -1,0 +1,13 @@
+concept_organization_joint_with_foreign_capital
+=>nrel_main_idtf:
+	[бірге шетелдік капиталдың ұйымы] (* <-lang_kz;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Бірге шетелдік капиталдың ұйымы - ұлттық және шетел азаматтығынан екі немесе одан да көп адамның бір мүлікті мүліктік болып табылуы.] (* <-lang_kz;; *);; 
+		*);;
+	*);;

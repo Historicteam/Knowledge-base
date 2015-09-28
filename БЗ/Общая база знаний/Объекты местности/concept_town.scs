@@ -1,0 +1,41 @@
+concept_town
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[город]
+	(*
+	<- lang_ru;;
+	*);
+	[towm]
+	(*
+	<- lang_en;;
+	*);
+	[горад]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<=nrel_inclusion: concept_locality;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+-> rrel_example:
+			[Город — крупный населённый пункт, жители которого заняты, как правило, не сельским хозяйством.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Горад - вялікі па памерах населены пункт, жыхары якога занятыя, як правіла, не сельскай гаспадаркай.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

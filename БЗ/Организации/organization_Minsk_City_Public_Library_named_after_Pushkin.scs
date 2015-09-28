@@ -1,0 +1,30 @@
+organization_Minsk_Municipal_Public_Library_named_after_Pushkin
+=> nrel_main_idtf:
+	[Минская городская публичная библиотека имени А.С.Пушкина]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Municipal Public Library named after A.S. Pushkin]
+	(*
+	<- lang_en;;
+	*);
+	[Мінская гарадская публічная бібліятэка імя А.С.Пушкіна]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_location: house_31_International_street(*=> nrel_main_idtf:
+		[Интернациональная улица дом 31]
+		(*
+		<- lang_ru;;
+		*);
+		[house 31 International street]
+		(*
+		<- lang_en;;
+		*);
+		[Інтэрнацыянальная вуліца дом 31]
+		(*
+		<- lang_by;;
+		*);;
+	*); 
+<-concept_library
+;;

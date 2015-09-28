@@ -1,0 +1,18 @@
+the_Hutten_Czapsky_clan
+=> nrel_main_idtf:
+	[Гуттен-Чапские]
+	(*
+	<- lang_ru;;
+	*);
+	[the Hutten-Czapsky clan]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапскія]
+	(*
+	<- lang_by;;
+	*);
+	=> nrel_photo:
+	"file://content/POL_COA_Hutten_Czapsky.png";
+<-concept_clan
+;;

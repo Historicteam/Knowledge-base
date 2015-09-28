@@ -1,0 +1,25 @@
+concept_Evangelical_Lutheran_clergy
+=>nrel_main_idtf:
+	[евангелическо-лютеранское духовенство] (* <-lang_ru;; *);
+	[Evangelical Lutheran clergy] (* <-lang_en;; *);
+	[евангелічна-лютэранскае духавенства] (* <-lang_by;; *);
+
+<- sc_const;;
+
+Definition_Evangelical_Lutheran_clergy
+	=>nrel_main_idtf:
+		[Определение понятия "евангелическо-лютеранское духовенство"] (* <-lang_ru;; *);
+		[Азначэнне паняцця "евангелічна-лютэранскае духавенства"] (* <-lang_by;; *);;
+
+concept_Evangelical_Lutheran_clergy
+	<- rrel_key_sc_element: Definition_Evangelical_Lutheran_clergy
+	(*
+		<-sc_definition;;
+		<= nrel_sc_text_translation: ...
+			(* -> rrel_example:
+	[Евангелическо-лютеранское духовенство - это духовенство, которое состояло из проповедников и высших духовных сановников, занимавших должности в церковной администрации.] (* <-lang_ru;; *);; *);
+		...(* -> rrel_example:
+	[Евангелічна-лютэранскае духавенства - гэта духавенства, якое складалася з прапаведнікаў і вышэйшых духоўных саноўнікаў, якія займалі пасады ў царкоўнай адміністрацыі.] (* <-lang_by;; *);;
+	*);;
+*);;
+ 

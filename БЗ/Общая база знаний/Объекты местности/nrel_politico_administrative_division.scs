@@ -1,0 +1,39 @@
+nrel_politico_administrative_division
+=> nrel_main_idtf:
+	[политико административное деление*] (* <- lang_ru;; *);
+	[political administrative division*] (* <- lang_en;; *);
+	[палітыка адміністрацыйнае дзяленне*] (* <- lang_by;; *);
+<- sc_node_norole_relation;
+<- relation;
+<- antisymmetric_relation;
+<- antireflexive_relation;
+<- decomposition_relation;
+<- oriented_relation;
+<- quasybinary_relation;
+=> nrel_first_domain:concept_terrain_object;
+=> nrel_second_domain:concept_terrain_object
+;;
+
+/*<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;*/

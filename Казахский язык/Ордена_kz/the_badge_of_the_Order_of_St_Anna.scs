@@ -1,0 +1,12 @@
+the_badge_of_the_Order_of_St_Anna
+=>nrel_main_idtf:
+	[қасиетті Анна орденінің белгісі] (* <-lang_kz;; *);;
+	
+Definition_of_the_badge_of_the_Order_of_St_Anna
+=>nrel_main_idtf:
+	[анықтама қасиетті Анна орденінің белгісі] (* <-lang_kz;; *);
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Қасиетті Анна орденінің белгісі - қызыл финифть-пен қымтылған, соңында алтынмен әшекейленген алтын крест.] (* <-lang_kz;; *);; 
+		*);;

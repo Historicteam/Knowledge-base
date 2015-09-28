@@ -1,0 +1,73 @@
+sc_node_not_relation -> concept_number;;																	
+concept_number => nrel_main_idtf :
+[число] (* <- lang_ru;; *);
+[number](*<-lang_en;;*);;
+
+// синонимы
+concept_number => nrel_idtf:[класс чисел](*<-lang_ru;;*);;
+concept_number => nrel_idtf:[множество чисел](*<-lang_ru;;*);;
+concept_number => nrel_idtf:[понятие числа](*<-lang_ru;;*);;
+
+//определение
+concept_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(число)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Число — основное понятие математики, используемое для количественной характеристики, сравнения, нумерации объектов и их частей.](* <- lang_ru;; 	*);;
+		*);;
+	*);;
+
+
+// утверждения
+concept_number <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Утв.(равенство*; 0-нуль; обратное число)] (* <- lang_ru;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Для любого числа, не равного нулю, существует обратное число.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+//используемые константы
+concept_number <= nrel_using_constants: nrel_addition; nrel_multiplication; nrel_comparison; nrel_division; nrel_difference;nrel_opposite_number;;
+
+concept_number <= nrel_subdividing:
+...
+(*
+	-> concept_natural_number; concept_complex_number;  concept_perfect_number; concept_algebraic_number; concept_real_number ;;
+*);;
+
+concept_number <= nrel_subdividing:
+...
+(* 	
+=>nrel_main_idtf:[По признаку положения на числовой оси](*<-lang_ru;;*);;
+-> concept_negative_number;;
+-> concept_positive_number;;
+-> null;;
+*);;
+
+
+concept_number <= nrel_subdividing:
+    ... 
+	(*
+	=>nrel_main_idtf:[По признаку четности и нечетности](*<-lang_ru;;*);;
+	-> concept_even_number;;
+	-> concept_odd_number;;
+	*);;
+
+concept_number <= nrel_subdividing:
+	...
+	(* 
+	-> concept_prime_number;;
+	-> concept_composite_number;;
+	*);;

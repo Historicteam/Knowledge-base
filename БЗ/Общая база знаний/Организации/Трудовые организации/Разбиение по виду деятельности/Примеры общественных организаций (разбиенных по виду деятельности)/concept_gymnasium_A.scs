@@ -1,0 +1,50 @@
+concept_gymnasium
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[гимназия]
+	(*
+	<- lang_ru;;
+	*);
+	[gymnasium]
+	(*
+	<- lang_en;;
+	*);
+	[гімназія]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	Definition_of_the_gymnasium_concept
+	(*
+	=>nrel_main_idtf:
+		[Определение понятия "гимназия"] (* <-lang_ru;; *);
+		[Definition of the gymnasium concept] (* <-lang_en;; *);
+		[Азначэнне паняцця "гімназія"] (* <-lang_by;; *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Гимназия – это общеобразовательное учреждение, дающее общие знания по основным направлениям наук.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Gymnasium is a general educational institution that gives an overall knowledge in the field of science basics.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Гімназія - гэта агульнаадукацыйная ўстанова, якая дае агульныя веды па асноўных напрамках навук.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

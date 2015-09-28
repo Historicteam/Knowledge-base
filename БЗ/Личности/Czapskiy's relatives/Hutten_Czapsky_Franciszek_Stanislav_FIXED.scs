@@ -1,0 +1,21 @@
+Hutten_Czapsky_Franciszek_Stanislav
+=> nrel_main_idtf:
+	[Гуттен-Чапский Францишек Станислав]
+	(*
+	<- lang_ru;;
+	*);
+	[Hutten-Czapsky Franciszek Stanislav]
+	(*
+	<- lang_en;;
+	*);
+	[Гутэн-Чапскі Францішак Станіслаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;
+=>nrel_genus: the_Hutten_Czapsky_clan;
+=>nrel_surname: surname_Hutten_Czapsky;
+=>nrel_first_name: name_Stanislav;
+=>nrel_middle_name: name_Franciszek;
+=>nrel_parent: Hutten_Czapsky_Carol_Frantsevich;
+<=>nrel_spouse: Radziwill_Veronica_Johanna;;
