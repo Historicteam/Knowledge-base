@@ -1,0 +1,340 @@
+concept_the_history_of_Minsk
+=> nrel_main_idtf:
+	[История города Минска]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_the_history_of_Minsk_in_XI_XIII_centuries;;
+	-> concept_the_history_of_Minsk_in_XIV_XV_centuries;;
+	-> concept_the_history_of_Minsk_in_XVI_XVIII_centuries;;
+	*)
+;;
+
+concept_the_history_of_Minsk_in_XI_XIII_centuries
+=> nrel_main_idtf:
+	[История города Минска в XI-XIII вв.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XI-XIII centuries]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_foundation_of_the_town;;
+	-> concept_battle_on_the_nemiga_river;;
+	-> concept_the_new_down_town_building;;
+	*)
+;;
+
+
+concept_foundation_of_the_town
+=> nrel_main_idtf:
+	[Основание города]
+	(*
+	<- lang_ru;;
+	*);
+	[Foundation of the town]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_battle_on_the_nemiga_river
+=> nrel_main_idtf:
+	[Битва на реке Немига]
+	(*
+	<- lang_ru;;
+	*);
+	[Battle on the Nemiga River]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_new_down_town_building
+=> nrel_main_idtf:
+	[Постройка нового минского замчища]
+	(*
+	<- lang_ru;;
+	*);
+	[The new down-town building]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_Minsk_in_XIV_XV_centuries
+=> nrel_main_idtf:
+	[История города Минска в XIV-XV вв.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XIV-XV centuries]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_getting_Minsk_rights_to_self_government;;
+	-> concept_the_Trinity_Banlieu_appearance;;
+	-> concept_the_Rakovskoje_Banlieu_appearance;;
+	*)
+;;
+
+concept_getting_Minsk_rights_to_self_government
+=> nrel_main_idtf:
+	[Получение Минском права на самоуправление]
+	(*
+	<- lang_ru;;
+	*);
+	[Getting Minsk rights to self-government]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_Trinity_Banlieu_appearance
+=> nrel_main_idtf:
+	[Появление Троицкого предместья]
+	(*
+	<- lang_ru;;
+	*);
+	[The Trinity Banlieu appearance]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+
+concept_the_Rakovskoje_Banlieu_appearance
+=> nrel_main_idtf:
+	[Появление Раковского предместь]
+	(*
+	<- lang_ru;;
+	*);
+	[The Rakovskoje Banlieu appearance]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_Minsk_in_XVI_XVIII_centuries
+=> nrel_main_idtf:
+	[История города Минска в XVI-XVIII вв.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XVI-XVIII centuries]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_subdividing: ... 
+	(*
+	-> concept_the_administration_center_of_the_sity_removing;;
+	-> concept_Minsk_during_the_Russo_Polish_War_1654_1667;;
+	-> concept_Minsk_during_the_Great_Northern_War;;
+	-> concept_accession_of_Minsk_to_the_Russian_Empire;;
+	*)
+;;
+
+
+concept_the_administration_center_of_the_sity_removing
+=> nrel_main_idtf:
+	[Перенесение административного центра города]
+	(*
+	<- lang_ru;;
+	*);
+	[The administration center of the sity removing]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Minsk_during_the_Russo_Polish_War_1654_1667
+=> nrel_main_idtf:
+	[Минск во время русско-польской войны 1654-1667гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk during the Russo-Polish War 1654-1667]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Minsk_during_the_Great_Northern_War
+=> nrel_main_idtf:
+	[Минск во время Северной войны]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk during the Great Northern War]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_accession_of_Minsk_to_the_Russian_Empire
+=> nrel_main_idtf:
+	[Присоединения Минска к Российской империи]
+	(*
+	<- lang_ru;;
+	*);
+	[Accession of   Minsk to the Russian Empire]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_Minsk_in_XIX_century
+=> nrel_main_idtf:
+	[История города Минска в XIX в.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XIX century]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_Minsk_in_XIX_century
+=> nrel_main_idtf:
+	[История города Минска в XIX в.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XIX century]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_the_city_of_Minsk_1900_1917
+=> nrel_main_idtf:
+	[История города Минска 1900-1917гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1900-1917]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_history_of_the_city_of_Minsk_1917_1939
+=> nrel_main_idtf:
+	[История города Минска 1917-1939гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1917-1939]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_the_city_of_Minsk_1940_1945
+=> nrel_main_idtf:
+	[История города Минска 1940-1945гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1940-1945]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_history_of_the_city_of_Minsk_1945_1955
+=> nrel_main_idtf:
+	[История города Минска 1945-1955гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1945-1955]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_history_of_the_city_of_Minsk_1955_1970
+=> nrel_main_idtf:
+	[История города Минска 1955-1970гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1955-19570]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_the_city_of_Minsk_1970_1980
+=> nrel_main_idtf:
+	[История города Минска 1970-1980гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1970-19580]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_history_of_the_city_of_Minsk_1980_1990
+=> nrel_main_idtf:
+	[История города Минска 1980-1990гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1980-1990]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_the_city_of_Minsk_1990_2000
+=> nrel_main_idtf:
+	[История города Минска 1990-2000гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1990-2000]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_modern_history_of_the_city_of_Minsk
+=> nrel_main_idtf:
+	[Современная история города Минска]
+	(*
+	<- lang_ru;;
+	*);
+	[The modern history of the city of Minsk]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
