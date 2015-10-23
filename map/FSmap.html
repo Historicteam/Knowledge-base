@@ -1,0 +1,150 @@
+﻿<html>
+<head>
+<meta charset=utf-8 />
+ <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+ <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+ <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ <script src="/static/components/js/openstreetmap/openstreetmap.js" type="text/javascript"></script>
+ <style>
+  body { margin:0; padding:0; }
+ #map {position: relative; width:600px; height:450px }
+ .leaflet-popup-content-wrapper {
+  background-color: #FFE4E1
+}
+
+   .butt {
+    background: navy; /* Синий цвет фона */ 
+    color: white; /* Белые буквы */ 
+    font-size: 9pt; /* Размер шрифта в пунктах */
+	font-size: 16px;
+   }
+</style>
+</head>
+
+
+
+
+<script>
+      function init() {
+         var map = new L.Map('map');                       
+                
+      	 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+            maxZoom: 18
+         }).addTo(map);
+         map.attributionControl.setPrefix(''); // Don't show the 'Powered by Leaflet' text.
+
+         var london = new L.LatLng(53.896486, 27.547495); 
+         map.setView(london, 15);
+         
+        /* var Icon = L.icon({
+        iconUrl: 'church.jpg',
+        iconSize: [60, 45], // size of the icon
+        popupAnchor: [0,-15]
+        });
+		*/
+         
+         
+
+var content = [];
+
+ var description = "Подробнее";
+ content[0]="";
+ content[0]+="<div id='h0' >";
+ content[0]+="<p align='center'>  <b> <big> Костёл Святого Симеона и Святой Елены </big> </b> <br> </a> <img src='img/kostel.jpg' width='250px'/> </p> ";
+ content[0]+="<a href='#' onClick=\"document.getElementById('h0').style.display='none';document.getElementById('h1').style.display='';return false;\">" + description + "</a>";
+ content[0]+="</div>";
+ content[0]+="<div id='h1' style='display:none'>";
+ content[0]+="<p>Дом Монюшко в Минске был возведен в 1797 году. Первоначально здание было двухэтажным. Третий этаж был достроен в начале 20 века.";
+ content[0]+="<a href='#' onClick=\"document.getElementById('h1').style.display='none';document.getElementById('h0').style.display='';return false;\">Назад</a>";
+ content[0]+="</div>";
+
+		  
+ content[1]="";
+ content[1]+="<div id='h0' >";
+ content[1]+="<p align='center'>  <b> <big> Здание женского базилианского монастыря </big> </b> <br>  <img src='img/filarm.jpg' width='250px'/> </p> ";
+ content[1]+="<a href='#' onClick=\"document.getElementById('h0').style.display='none';document.getElementById('h1').style.display='';return false;\">" + description + "</a>";
+ content[1]+="</div>";
+ content[1]+="<div id='h1' style='display:none'>";
+ content[1]+="<p>Дом Монюшко в Минске был возведен в 1797 году. Первоначально здание было двухэтажным. Третий этаж был достроен в начале 20 века.";
+ content[1]+="<a href='#' onClick=\"document.getElementById('h1').style.display='none';document.getElementById('h0').style.display='';return false;\">Назад</a>";
+ content[1]+="</div>";
+//var customPopup = content;
+		  
+ content[2]="";
+ content[2]+="<div id='h0' >";
+ content[2]+="<p align='center'>  <b> <big> Здание женского бернардинского костёла </big> </b> <br>  <img src='img/bernard.jpg' width='250px'/> </p> ";
+ content[2]+="<a href='#' onClick=\"document.getElementById('h0').style.display='none';document.getElementById('h1').style.display='';return false;\">" + description + "</a>";
+ content[2]+="</div>";
+ content[2]+="<div id='h1' style='display:none'>";
+ content[2]+="<p>Дом Монюшко в Минске был возведен в 1797 году. Первоначально здание было двухэтажным. Третий этаж был достроен в начале 20 века.";
+ content[2]+="<a href='#' onClick=\"document.getElementById('h1').style.display='none';document.getElementById('h0').style.display='';return false;\">Назад</a>";
+ content[2]+="</div>";
+		  
+		  
+ content[3]="";
+ content[3]+="<div id='h0' >";
+ content[3]+="<p align='center'>  <b> <big> Свято-духовская церковь </big> </b> <br> <img src='img/cathedral.jpg' width='250px'/> </p> ";
+ content[3]+="<a href='#' onClick=\"document.getElementById('h0').style.display='none';document.getElementById('h1').style.display='';return false;\">" + description + "</a>";
+ content[3]+="</div>";
+ content[3]+="<div id='h1' style='display:none'>";
+ content[3]+="<p>Дом Монюшко в Минске был возведен в 1797 году. Первоначально здание было двухэтажным. Третий этаж был достроен в начале 20 века.";
+ content[3]+="<a href='#' onClick=\"document.getElementById('h1').style.display='none';document.getElementById('h0').style.display='';return false;\">Назад</a>";
+ content[3]+="</div>";
+ 
+		  
+	var customOptions =
+        {
+        'maxWidth': '400',
+		'sprawling' : 'true',
+        'className' : 'custom',
+		'autoPan' : 'true'
+        }
+   
+  var mapObg = [];     
+   // create marker object, pass custom icon as option, pass content and options to popup, add to map
+   mapObg[0] = L.marker([53.896486, 27.547495]).bindPopup(content[0],customOptions).addTo(map);
+   mapObg[1] = L.marker([53.903624, 27.557363]).bindPopup(content[1],customOptions).addTo(map);
+   mapObg[2] = L.marker([53.9048, 27.556833]).bindPopup(content[2],customOptions).addTo(map);
+   mapObg[3] = L.marker([53.905, 27.556111]).bindPopup(content[3],customOptions).addTo(map);
+	
+	
+ 
+  b0.onclick = function() {
+     mapObg[0].openPopup();
+  };
+
+ b1.onclick = function() {
+     mapObg[1].openPopup();
+  };
+ b2.onclick = function() {
+     mapObg[2].openPopup();
+  };
+
+ b3.onclick = function() {
+     mapObg[3].openPopup();
+  };
+ }
+ 
+   </script>
+   
+</head>
+<body onLoad="javascript:init();">
+
+<div style="width: 1000; height: 520px;">
+                <table>
+				 <tr>
+				   <td><div style= "position: absolute;" id="map"> </div></td>
+				   <td><p style= "position: absolute; left: 630px; "> 
+				   <input class="butt" id="b0" type="button" value="Костёл Святого Симеона и Елены" /> <br>
+                   <input class="butt" id="b1" type="button" value="Женский базилианский монастырь" /> <br>
+				   <input class="butt" id="b2" type="button" value="Женский бернардинский костёл" /> <br>
+				   <input class="butt" id="b3" type="button" value="Свято-духовская церковь" /> </p> </td>
+				 </tr>
+			     </table>
+</div>
+
+   
+</body>                                                                                                                          
+</html>
+    
