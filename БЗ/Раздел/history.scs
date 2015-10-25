@@ -13,6 +13,16 @@ concept_the_history_of_Minsk
 	-> concept_the_history_of_Minsk_in_XI_XIII_centuries;;
 	-> concept_the_history_of_Minsk_in_XIV_XV_centuries;;
 	-> concept_the_history_of_Minsk_in_XVI_XVIII_centuries;;
+	-> concept_the_history_of_Minsk_in_XIX_century;;
+	-> concept_the_history_of_the_city_of_Minsk_1900_1917;;
+	-> concept_the_history_of_the_city_of_Minsk_1917_1939;;
+	-> concept_the_history_of_the_city_of_Minsk_1940_1945;;
+	-> concept_the_history_of_the_city_of_Minsk_1945_1955;;
+	-> concept_the_history_of_the_city_of_Minsk_1955_1970;;
+	-> concept_the_history_of_the_city_of_Minsk_1970_1980;;
+	-> concept_the_history_of_the_city_of_Minsk_1980_1990;;
+	-> concept_the_history_of_the_city_of_Minsk_1990_2000;;
+	-> concept_the_modern_history_of_the_city_of_Minsk;;
 	*)
 ;;
 
@@ -199,6 +209,8 @@ concept_accession_of_Minsk_to_the_Russian_Empire
 ;;
 
 
+
+
 concept_the_history_of_Minsk_in_XIX_century
 => nrel_main_idtf:
 	[История города Минска в XIX в.]
@@ -208,17 +220,99 @@ concept_the_history_of_Minsk_in_XIX_century
 	[The history of Minsk in XIX century]
 	(*
 	<- lang_en;;
+	*);
+<= nrel_subdividing: ... 
+	(*
+	-> concept_the_Freedom_Square_in_XIX_century;;
+	-> concept_Podgornaja_street;; 
+	-> concept_Zaharjevskaja_street;;
+	-> concept_Redevelopment_of_the_town;;
+	-> concept_Minsk_during_the_The_January_Uprising;; 	
+	-> concept_Industrial_development_in_Minsk;;
+	-> concept_Cultural_life_in_Minsk_in_XIX_century;;
+	*)
+;;
+
+concept_the_Freedom_Square_in_XIX_century
+=> nrel_main_idtf:
+	[Площадь Свободы в XIX веке]
+	(*
+	<- lang_ru;;
+	*);
+	[The Freedom Square in XIX century]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Podgornaja_street
+=> nrel_main_idtf:
+	[Улица Подгорная]
+	(*
+	<- lang_ru;;
+	*);
+	[Podgornaja street]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Zaharjevskaja_street
+=> nrel_main_idtf:
+	[Улица Захарьевская]
+	(*
+	<- lang_ru;;
+	*);
+	[Zaharjevskaja street]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Redevelopment_of_the_town
+=> nrel_main_idtf:
+	[Перепланировка города]
+	(*
+	<- lang_ru;;
+	*);
+	[Redevelopment of the town ]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Minsk_during_the_The_January_Uprising
+=> nrel_main_idtf:
+	[Минск в период восстания Кастуся Калиновского]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk during the The January Uprising]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Industrial_development_in_Minsk
+=> nrel_main_idtf:
+	[Промышленное развитие Минска]
+	(*
+	<- lang_ru;;
+	*);
+	[Industrial development in Minsk]
+	(*
+	<- lang_en;;
 	*)
 ;;
 
 
-concept_the_history_of_Minsk_in_XIX_century
+concept_Cultural_life_in_Minsk_in_XIX_century
 => nrel_main_idtf:
-	[История города Минска в XIX в.]
+	[Культурная жизнь Минска в XIX веке]
 	(*
 	<- lang_ru;;
 	*);
-	[The history of Minsk in XIX century]
+	[Cultural life in Minsk in XIX century]
 	(*
 	<- lang_en;;
 	*)
@@ -336,5 +430,7 @@ concept_the_modern_history_of_the_city_of_Minsk
 	<- lang_en;;
 	*)
 ;;
+
+
 
 
