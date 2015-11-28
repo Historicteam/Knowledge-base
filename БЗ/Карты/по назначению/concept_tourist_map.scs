@@ -1,0 +1,29 @@
+concept_tourist_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[туристическая карта](*<- lang_ru;;*);
+	[touristic map](*<- lang_en;;*);
+    	[турыстычная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Tourist maps - may include: settlements, landmarks, attractions, travel routes, destinations, overnight stays and other services, depending on the type of destination for tourism]
+    (*
+    <- lang_en;;
+    *);
+  [Туристические карты - могут содержать: населённые пункты, ориентиры, достопримечательности, маршруты передвижения, места отдыха, ночёвок и других услуг, в зависимости от предназначения по видам туризма]
+    (*
+     <-lang_ru;;
+    *);
+  [Турыстычныя мапы - могуць утрымваць: населеныя пункты, арыенціры, выбітнасці, маршруты перасоўвання, месца адпачынку, начлегаў і іншых паслуг, у залежнасці ад прызначэння па выглядах турызму]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

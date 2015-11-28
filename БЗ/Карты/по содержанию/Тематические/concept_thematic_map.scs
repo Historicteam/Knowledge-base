@@ -1,0 +1,36 @@
+concept_thematic_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[тематическая карта](*<- lang_ru;;*);
+	[thematic map](*<- lang_en;;*);
+    	[тэматычная мапа](*<- lang_by;;*);
+
+<=nrel_subdividing:
+{
+concept_climatic_map;
+concept_economic_map;
+concept_political_map
+};
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Thematic maps - the main content is determined by the particular theme]
+    (*
+    <- lang_en;;
+    *);
+  [Тематические карты - основное содержание определяется отображаемой конкретной темой]
+    (*
+     <-lang_ru;;
+    *);
+  [Тэматычныя мапы - асноўнае ўтрыманне вызначаецца адлюстроўванай пэўнай тэмай]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

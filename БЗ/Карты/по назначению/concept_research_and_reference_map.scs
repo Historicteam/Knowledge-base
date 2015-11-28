@@ -1,0 +1,29 @@
+concept_research_and_reference_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[научно-справочная карта](*<- lang_ru;;*);
+	[research and reference_map](*<- lang_en;;*);
+    	[навукова-даведкавая мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Research and reference map - designed to performing research and obtaining the fullest possible information]
+    (*
+    <- lang_en;;
+    *);
+  [Научно-справочные карты - предназначены для выполнения научных исследований и получения максимально полной информации]
+    (*
+     <-lang_ru;;
+    *);
+  [Навукова-даведкавыя мапы- прызначаны для выканання навуковых даследаванняў і атрымання максімальна поўнай інфармацыі]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

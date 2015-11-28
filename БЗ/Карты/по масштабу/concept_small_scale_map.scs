@@ -1,0 +1,30 @@
+concept_small_scale_map
+<-sc_const;
+<-sc_node_not_relation;
+         
+         => nrel_main_idtf:
+         [мелкомасштабная карта] (* <- lang_ru;; *);
+         [small-scale map] (* <- lang_en;; *);
+         [дробнамаштабная мапа] (* <- lang_by;; *);
+
+         <- rrel_key_sc_element: ...
+        (*
+        <-sc_definition;;
+        <=nrel_sc_text_translation: ...
+        (*
+        -> sc_example:
+        [small-scale map - map with a scale of 1:1000000 and less]
+        (*
+        <- lang_en;;
+        *);
+        [Мелкомасштабная карта - карта с масштабом 1:1000000 и мельче]
+        (*
+         <-lang_ru;;
+        *);
+        [Дробнамаштабная мапа - мапа з маштабам 1:1000000 и менш]
+        (*
+        <-lang_by;;
+        *);;
+        *);;
+        *);;
+ 
