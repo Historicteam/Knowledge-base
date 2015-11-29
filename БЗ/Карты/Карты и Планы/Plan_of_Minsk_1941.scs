@@ -1,0 +1,59 @@
+Plan_of_Minsk_1941
+<-concept_plan;
+
+=> nrel_main_idtf:
+	
+	[План Минска 1941](*<- lang_ru;;*);
+	[Plan of Minsk 1941](*<- lang_en;;*);
+        [План Мiнска 1941](*<- lang_by;;*);
+
+=> nrel_author: Commander_of_the_construction
+	(* 
+	=> nrel_main_idtf:
+	[Командир строительства N9](*<- lang_ru;;*);
+	[Commander of the construction N9](*<- lang_en;;*);
+        [мапа](*<- lang_by;;*);;
+	*);
+
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/minsk1941.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	Legend_of_paln_of_Minsk_1941
+	(*
+	<-concept_map_legend;;
+	=> nrel_main_idtf:
+		[Легенда плана Минска 1941]
+		(*
+		<- lang_ru;;
+		*);
+		[Legend of plan of Minsk 1941]
+		(*
+		<- lang_en;;
+		*);
+		[Лягенда плана Минска 1941]
+		(*
+		<- lang_by;;
+		*);;
+		
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://content/legend_of_map.pdf"
+			(*
+			=> nrel_format: format_pdf;;
+			*);;
+		*);;
+*);;
