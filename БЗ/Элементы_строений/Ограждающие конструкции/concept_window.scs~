@@ -1,0 +1,38 @@
+﻿concept_window
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[Окно]
+(*
+<- lang_ru;;
+*);
+[Window]
+(*
+<- lang_en;;
+*);
+[Акно]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Окно - отверстие в стене для света и воздуха, а также рама со стеклом, закрывающая это отверстие.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Акно - адтуліна ў сцяне для святла і паветра, а таксама рама са шклом, якая зачыняе гэта адтуліну.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);;
