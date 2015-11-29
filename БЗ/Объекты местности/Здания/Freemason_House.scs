@@ -12,10 +12,18 @@ Freemason_House
   (*
     <- lang_by;;
   *);
+
+=> nrel_openstreetmap:
+	[Freemason_House] 
+	(*
+	=> nrel_format:
+		format_openstreetmap;;
+	*);
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: ...
+	=> nrel_WGS_84_translation: [53.905236, 27.559419]
 		(*
 		-> ...
 			(*
