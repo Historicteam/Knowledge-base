@@ -1,0 +1,52 @@
+picture_window
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[Венецианское окно]
+(*
+<- lang_ru;;
+*);
+[picture window]
+(*
+<- lang_en;;
+*);
+[Венецыянскае акно]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Венецианское окно - форма трехчастного окна, типичного для палладианской архитектурной традиции.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Венецыянскае акно - форма трохчастковага акна, тыповага для палладианской архітэктурнай традыцыі.]
+(*
+<- lang_by;;
+*);;
+*);;
+<- rrel_key_sc_element:
+...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/picture_window.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*);;
+
