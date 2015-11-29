@@ -1,0 +1,99 @@
+concept_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[карта](*<- lang_ru;;*);
+	[map](*<- lang_en;;*);
+        [мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [A map is a symbolic representation of selected characteristics of a place drawn on a flat surface in a certain system of symbols]
+    (*
+    <- lang_en;;
+    *);
+  [Карта -  обобщенное изображение, отображающее определённые характеристики местности в определенной системе условных знаков]
+    (*
+     <-lang_ru;;
+    *);
+  [Мапа - абагульненая выява, якая адлюстроўвае пэўныя характарыстыкі мясцовасці ў пэўнай сістэме умоўных знакаў ]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<= nrel_subdividing:
+subdividing_of_the_map_scale
+	(*
+		=> nrel_main_idtf:
+			[разбиение карты по масштабу]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of map by scale]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё мапы па маштабе]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_small_scale_map;;
+        ->concept_mesoscale_map;;
+        ->concept_large_scale_map;;
+	*);
+   
+
+<= nrel_subdividing:
+subdividing_of_the_map_type
+	(*
+		=> nrel_main_idtf:
+			[разбиение карты по содержанию]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of map by type]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё мапы па змесце]
+			(*
+			<- lang_by;;
+			*);;
+	   	->concept_physical_map;;
+		->concept_thematic_map;;
+		->concept_special_map;;
+	*);
+
+
+<= nrel_subdividing:
+subdividing_of_the_map_functions
+	(*
+		=> nrel_main_idtf:
+			[разбиение карты по назначению]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of map by function]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё мапы па прызначэнню]
+			(*
+			<- lang_by;;
+			*);;
+	   	->concept_educational_map;;
+   	   	->concept_research_and_reference_map;;
+   		->concept_technical_map;;
+   		->concept_tourist_map;;
+*);;
+
+
+
+

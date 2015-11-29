@@ -1,0 +1,61 @@
+column
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[Колонна]
+(*
+<- lang_ru;;
+*);
+[Column]
+(*
+<- lang_en;;
+*);
+[Калона]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Колонна -  вертикальная опора, которая имеет вид цилиндрического или многогранного столба и состоит из базы, ствола и капители, а также всякая подобная колонне опора из любого материала.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Калона - вертыкальная апора, якая мае выгляд цыліндрычнага або шматграннага слупа і складаецца з базы, ствала і капітэлі, а таксама ўсякая падобная калоне апора з любога матэрыялу.]
+(*
+<- lang_by;;
+*);;
+*);;
+<=nrel_subdividing:
+ ...
+(*
+
+<-concept_bound_column;;
+<-concept_doric_column;;
+<-concept_composite_order;;
+<-concept_order_column;;
+<-concept_rostral_column;;
+<-concept_triumphal_column;;
+<-concept_utility_column;; 
+<-concept_chandelier_column;;
+<-concept_corinthian_column;;
+<-concept_ionic_column;;
+<-concept_pilaster_column;;
+<-concept_three_quarter_column;;
+<-concept_tuscan_order;;
+<-concept_votivus_column;;
+
+*)
+;;
+
+*);;

@@ -1,4 +1,5 @@
 Freedom_Square
+
 <- concept_square;
 => nrel_main_idtf:
 	[Площадь Свободы]
@@ -166,6 +167,12 @@ Freedom_Square
 			<- lang_ru;;
 			*);;
 		*);
+                ...
+		(*
+		-> rrel_example:
+			"file://content/FreedomSquareWebPage.html"
+			(* <- lang_ru;; *);;
+		*);
 		...
 		(*
 		-> rrel_example:
@@ -173,12 +180,6 @@ Freedom_Square
 			(*
 			<- lang_en;;
 			*);;
-		*);
-		...
-		(*
-		-> rrel_example:
-			"file://content/FreedomSquareWebPage_ru.html"
-			(* <- lang_ru;; *);;
 		*);
 		...
 		(*

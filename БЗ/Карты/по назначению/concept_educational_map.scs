@@ -1,0 +1,30 @@
+concept_educational_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[учебная карта](*<- lang_ru;;*);
+	[educational map](*<- lang_en;;*);
+    	[навучальная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+-> sc_example:
+  [Educational maps - used as teaching aids for the study of geography, history, geology and other disciplines]
+    (*
+    <- lang_en;;
+    *);
+  [Учебные карты - используются в качестве наглядных пособий для изучения географии, истории, геологии и других дисциплин]
+    (*
+     <-lang_ru;;
+    *);
+  [Навучальныя мапы - выкарыстоўваюцца ў якасці навочных дапаможнікаў для вывучэння геаграфіі, гісторыі, геалогіі і іншых дысцыплін]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

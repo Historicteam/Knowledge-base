@@ -1,0 +1,351 @@
+concept_the_history_of_Minsk
+=> nrel_main_idtf:
+	[История города Минска]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_section_decomposition: ...
+	(*
+	-> concept_the_history_of_Minsk_in_XI_XIII_centuries;;
+	-> concept_the_history_of_Minsk_in_XIV_XVIII_centuries;;
+	-> concept_the_history_of_Minsk_in_XIX_century;;
+	-> concept_the_history_of_the_city_of_Minsk_1900_1917;;
+	-> concept_the_history_of_the_city_of_Minsk_1917_1941;;
+	-> concept_the_history_of_the_city_of_Minsk_1941_1945;;
+	-> concept_the_history_of_the_city_of_Minsk_1946_1960;;
+	-> concept_the_history_of_the_city_of_Minsk_1970_1980;;
+	-> concept_the_history_of_the_city_of_Minsk_1990_2000;;
+	-> concept_the_modern_history_of_the_city_of_Minsk;;
+	*)
+;;
+
+concept_the_history_of_Minsk_in_XI_XIII_centuries
+=> nrel_main_idtf:
+	[История города Минска в XI-XIII вв.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XI-XIII centuries]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_section_decomposition: ... 
+	(*
+	-> concept_Zamchishche;;
+	-> concept_Troickoe_vorstadt;;
+	*)
+;;
+
+concept_Zamchishche
+=> nrel_main_idtf:
+	[Замчище]
+	(*
+	<- lang_ru;;
+	*);
+	[Zamchishche]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Troickoe_vorstadt
+=> nrel_main_idtf:
+	[Троицкое предместье]
+	(*
+	<- lang_ru;;
+	*);
+	[Troickoe vorstadt]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+
+concept_the_history_of_Minsk_in_XIV_XVIII_centuries
+=> nrel_main_idtf:
+	[История города Минска в XIV-XVIII вв.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XIV-XVIII centuries]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_section_decomposition: ...
+	(*
+	-> concept_Zamchishche;;
+	-> concept_Troickoe_vorstadt;;
+	-> concept_Tatarskaya_sloboda;;
+	-> concept_Rakovskoe_vorstadt;;
+	-> concept_Vysokij_market;;
+	-> concept_Volockaya_street;;
+	-> concept_Kojdanovskaya_street;;
+	-> concept_Bogadelnaya_street;;
+	-> concept_Francyskanskaya_street;;
+	*)
+;;
+
+concept_Tatarskaya_sloboda
+=> nrel_main_idtf:
+	[Татарская слобода]
+	(*
+	<- lang_ru;;
+	*);
+	[Tatarskaya sloboda]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Rakovskoe_vorstadt
+=> nrel_main_idtf:
+	[Раковское предместье]
+	(*
+	<- lang_ru;;
+	*);
+	[Rakovskoe vorstadt]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Vysokij_market
+=> nrel_main_idtf:
+	[Высокий рынок]
+	(*
+	<- lang_ru;;
+	*);
+	[Vysokij market]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Volockaya_street
+=> nrel_main_idtf:
+	[Волоцкая улица]
+	(*
+	<- lang_ru;;
+	*);
+	[Volockaya street]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Kojdanovskaya_street
+=> nrel_main_idtf:
+	[Койдановская улица]
+	(*
+	<- lang_ru;;
+	*);
+	[Kojdanovskaya street]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Bogadelnaya_street
+=> nrel_main_idtf:
+	[Богоявленская улица]
+	(*
+	<- lang_ru;;
+	*);
+	[Bogadelnaya street]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_Minsk_in_XIX_century
+=> nrel_main_idtf:
+	[История города Минска в XIX в.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of Minsk in XIX century]
+	(*
+	<- lang_en;;
+	*);
+<= nrel_section_decomposition: ... 
+	(*	
+	-> concept_Nizhnij_market;;
+	-> concept_Troickoe_vorstadt;;
+	-> concept_Tatarskaya_sloboda;;
+	-> concept_Rakovskoe_vorstadt;;
+	-> concept_Arhierejskoe_metmochion;;
+	-> concept_Sobornaya_square;;
+	-> concept_Kreshchenskaya_street;;
+	-> concept_Kojdanovskaya_street;;
+	-> concept_Bogadelnaya_street;;
+	-> concept_Gubernatorskaya_street;;
+	-> concept_Zaharevskaya_street;;
+	*)
+;;
+
+concept_Nizhnij_market
+=> nrel_main_idtf:
+	[Нижний рынок]
+	(*
+	<- lang_ru;;
+	*);
+	[Nizhnij market]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Arhierejskoe_metmochion
+=> nrel_main_idtf:
+	[Архиерейское подворье]
+	(*
+	<- lang_ru;;
+	*);
+	[Arhierejskoe metmochion]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Sobornaya_square
+=> nrel_main_idtf:
+	[Соборная площадь]
+	(*
+	<- lang_ru;;
+	*);
+	[Sobornaya square]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Kreshchenskaya_street
+=> nrel_main_idtf:
+	[Крещенская улица]
+	(*
+	<- lang_ru;;
+	*);
+	[Kreshchenskaya street]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_Gubernatorskaya_street;;
+=> nrel_main_idtf:
+	[Губернаторская улица]
+	(*
+	<- lang_ru;;
+	*);
+	[Gubernatorskaya street]
+	(*
+	<- lang_en;;
+	*)
+;;
+ 
+concept_Zaharevskaya_street;;
+=> nrel_main_idtf:
+	[Захарьевская улица]
+	(*
+	<- lang_ru;;
+	*);
+	[Zaharevskaya street]
+	(*
+	<- lang_en;;
+	*)
+;;
+concept_the_history_of_the_city_of_Minsk_1900_1917
+=> nrel_main_idtf:
+	[История города Минска 1900-1917гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1900-1917]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_history_of_the_city_of_Minsk_1917_1941
+=> nrel_main_idtf:
+	[История города Минска 1917-1941гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1917-1941]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_the_city_of_Minsk_1941_1945
+=> nrel_main_idtf:
+	[История города Минска 1941-1945гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1941-1945]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_history_of_the_city_of_Minsk_1946_1960
+=> nrel_main_idtf:
+	[История города Минска 1946-1960гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1946-1960]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_history_of_the_city_of_Minsk_1970_1980
+=> nrel_main_idtf:
+	[История города Минска 1955-1970гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1955-1970]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+concept_the_history_of_the_city_of_Minsk_1990_2000
+=> nrel_main_idtf:
+	[История города Минска 1990-2000гг.]
+	(*
+	<- lang_ru;;
+	*);
+	[The history of the city of Minsk 1990-2000]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+concept_the_modern_history_of_the_city_of_Minsk
+=> nrel_main_idtf:
+	[Современная история города Минска]
+	(*
+	<- lang_ru;;
+	*);
+	[The modern history of the city of Minsk]
+	(*
+	<- lang_en;;
+	*)
+;;
+
+
+
+
