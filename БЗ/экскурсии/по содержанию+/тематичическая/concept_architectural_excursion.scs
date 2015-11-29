@@ -1,0 +1,49 @@
+concept_architectural_excursion
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[архитектурная экскурсия]
+(*
+<- lang_ru;;
+*);
+[architectural excursion]
+(*
+<- lang_en;;
+*);
+[архітэктурная экскурсія]
+(*
+<- lang_by;;
+*);
+//
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Архитектурная экскурсия-экскурсия ,которая демонстрирует особенности определенного архитектурного обьекта ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Архітэктурная экскурсія-экскурсія, якая дэманструе асаблівасці пэўнага архітэктурнага аб'екта]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Architectural tour-excursion that demonstrates specific features of an architectural object]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

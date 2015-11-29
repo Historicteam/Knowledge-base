@@ -1,0 +1,28 @@
+concept_excursions_to_content
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+	[экскурсии по содержанию]
+	(*
+	<- lang_ru;;
+	*);
+	[экскурсіі па змесце]
+	(*
+	<- lang_en;;
+	*);
+	[excursions to content]
+	(*
+	<- lang_by;;
+	*);
+
+<= nrel_subdividing: ...
+	(*
+	-> concept_sightseeing_excursion;;
+	-> concept_thematic_excursion;;
+	*)
+;;
+
+

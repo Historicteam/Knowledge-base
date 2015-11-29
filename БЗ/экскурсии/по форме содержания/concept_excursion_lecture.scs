@@ -1,0 +1,53 @@
+concept_excursion_lecture
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия-лекция]
+(*
+<- lang_ru;;
+*);
+[excursion-lecture]
+(*
+<- lang_en;;
+*);
+[экскурсія-лекцыя]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ экскурсия-лекция-экскурсия,в которой рассказ преобладает над показом ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[экскурсія-лекцыя-экскурсія, у якой аповяд пераважае над паказам]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[excursion-lecture-excursion in which narrative prevails over display]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+
