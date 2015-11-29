@@ -1,0 +1,39 @@
+foundation
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[‘ундамент]
+(*
+<- lang_ru;;
+*);
+[Foundation]
+(*
+<- lang_en;;
+*);
+[‘ундамент]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[‘ундамент -  нижний конструктивный элемент здани€ или сооружени€, передающий нагрузки от него на основание.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[‘ундамет - н≥жн≥ канструктыҐны элемент будынка, €к≥  перадае нагрузк≥ ад €го на падставу.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);;

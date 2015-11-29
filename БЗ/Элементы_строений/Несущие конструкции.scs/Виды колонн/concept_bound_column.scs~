@@ -1,0 +1,39 @@
+﻿concept_bound_column
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[Связанная колонна]
+(*
+<- lang_ru;;
+*);
+[bound column]
+(*
+<- lang_en;;
+*);
+[Звязанная калона]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Связанная колонна - колонна, выступающая из плоскости стены только на часть своего диаметра.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Звязанная калона – калона, якая выступае з плоскасці сцяны толькі на частку свайго дыяметра.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);;

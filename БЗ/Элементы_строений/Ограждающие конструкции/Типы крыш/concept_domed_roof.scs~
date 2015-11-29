@@ -1,0 +1,55 @@
+domed_roof
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Куполообразная крыша]
+	(*
+	<- lang_ru;;
+	*);
+	[domed roof]
+	(*
+	<- lang_en;;
+	*);
+	[Купалападобны дах]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	
+        <-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Куполообразная крыша - это тип крышы, который по очертанию представляет собой половину шара со сплошным опиранием на цилиндрическую стену.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		
+		
+		...
+		(*
+		-> rrel_example:
+			[Купалападобны дах - гэта тып даху, які уяўляе сабой палову шара з суцэльнай апорай на цыліндрычную сцяну.]
+(*
+			<- lang_by;;
+			*);;
+		*);;
+<- rrel_key_sc_element:
+...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/односкатная.gif"
+			(*
+			=> nrel_format: format_gif;;
+			*);;
+		*);;
+	*);;
+
+*);;
