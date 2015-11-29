@@ -1,0 +1,29 @@
+concept_political_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[политическая карта](*<- lang_ru;;*);
+	[political map](*<- lang_en;;*);
+    	[палітычная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Political maps indicate state and national boundaries and capital and major cities]
+    (*
+    <- lang_en;;
+    *);
+  [Политические карты показывают государственные и национальные границы, столицы и крупные города]
+    (*
+     <-lang_ru;;
+    *);
+  [Палітычныя мапы паказваюць дзяржаўныя і нацыянальныя межы, сталіцы і буйныя гарады]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

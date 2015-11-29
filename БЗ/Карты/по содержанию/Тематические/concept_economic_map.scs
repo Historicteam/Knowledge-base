@@ -1,0 +1,29 @@
+concept_economic_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[экономическая карта](*<- lang_ru;;*);
+	[economic map](*<- lang_en;;*);
+    	[эканамічная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Economic maps feature the type of natural resources or economic activity that dominates an area]
+    (*
+    <- lang_en;;
+    *);
+  [Экономические карты характеризуют тип природных ресурсов или экономическую деятельность, доминирующую на площади]
+    (*
+     <-lang_ru;;
+    *);
+  [Эканамічныя мапы характарызуюць тып прыродных рэсурсаў ці эканамічную дзейнасць, якая дамінуе на плошчы]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
