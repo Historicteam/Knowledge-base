@@ -1,0 +1,38 @@
+{
+    "sources": [
+        "src/drawings-common.js",
+        "src/drawings-utils.js",
+
+        "src/model/drawings-shape.js",
+        "src/model/drawings-point.js",
+        "src/model/drawings-line.js",
+        "src/model/drawings-segment.js",
+        "src/model/drawings-triangle.js",
+        "src/model/drawings-circle.js",
+        "src/model/drawings-model.js",
+
+        "src/translator/drawings-jsonTranslator.js",
+        "src/translator/drawings-scTranslator.js",
+
+        "src/editor/component/drawings-contextMenu.js",
+
+        "src/editor/drawings-controller.js",
+        "src/editor/drawings-paintPanel.js",
+
+        "src/editor/renderer/drawings-pointRenderer.js",
+        "src/editor/renderer/drawings-lineRenderer.js",
+        "src/editor/renderer/drawings-segmentRenderer.js",
+        "src/editor/renderer/drawings-triangleRenderer.js",
+        "src/editor/renderer/drawings-circleRenderer.js",
+
+        "src/editor/controller/drawings-pointController.js",
+        "src/editor/controller/drawings-segmentController.js",
+        "src/editor/controller/drawings-triangleController.js",
+        "src/editor/controller/drawings-circleController.js",
+        "src/editor/controller/drawings-lineController.js"
+    ],
+
+    "component": "src/drawings-component.js",
+
+    "target": "static/components/js/drawings/drawings.js"
+}
