@@ -1,0 +1,1 @@
+var Openstreetmap = Openstreetmap || { version: "0.1.0" };
