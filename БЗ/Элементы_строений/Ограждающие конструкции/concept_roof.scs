@@ -1,0 +1,55 @@
+roof
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[крыша]
+	(*
+	<- lang_ru;;
+	*);
+	[roof]
+	(*
+	<- lang_en;;
+	*);
+	[дах]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	
+        <-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ рыша - это верхн€€ конструкци€ здани€, котора€ служит дл€ защиты от атмосферных осадков, дождевой и талой воды. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		
+		
+		...
+		(*
+		-> rrel_example:
+			[ƒах - гэта верхн€€ канструкцы€ будынка, €ка€ служыць дл€ абароны ад атмасферных ападкаҐ, дажджавой ≥ адталай вады.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+<=nrel_subdividing:
+ ...
+(*
+<-concept_gable_roof;;
+<-concept_abat_vent;;
+<-concept_folded_plate_roof;;
+<-concept_steeple_roof;;
+<-concept_domed_roof;;
+<-concept_rooftop;;
+<-concept_vaulted_roof;;       
+       
+       
+       
+	*);;
+*);;
