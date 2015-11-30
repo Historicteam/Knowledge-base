@@ -1,0 +1,31 @@
+concept_excursions_to_the_venue
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+	[экскурсии по месту проведения]
+	(*
+	<- lang_ru;;
+	*);
+	[excursions_to_the_venue]
+	(*
+	<- lang_en;;
+	*);
+	[экскурсіі па месцы правядзення]
+	(*
+	<- lang_by;;
+	*);
+
+
+<= nrel_subdividing: ...
+	(*
+	-> concept_country_excursion;;
+	-> concept_town_excursion;;
+     -> concept_town_and_country_excursion;;
+
+	*)
+;;
+
+   

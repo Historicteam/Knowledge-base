@@ -1,0 +1,54 @@
+concept_excursion_concert
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия-концерт]
+(*
+<- lang_ru;;
+*);
+[excursion concert]
+(*
+<- lang_en;;
+*);
+[экскурсія-канцэрт]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ экскурсия-концерт-экскурсия,которая посвящается музыкальной теме с прослушиванием музыкальных произведений]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[экскурсія-канцэрт-экскурсія,якая прысвячаецца музычнай тэме з праслухоўваннем музычных твораў]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[excursion-concert-excursion, which is dedicated to the musical theme of listening to music]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+
+

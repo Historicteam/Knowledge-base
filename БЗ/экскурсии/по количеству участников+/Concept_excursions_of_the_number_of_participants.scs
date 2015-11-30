@@ -1,0 +1,28 @@
+concept_excursions_of_the_number_of_participants
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+	[экскурсии по количеству участников]
+	(*
+	<- lang_ru;;
+	*);
+	[excursions_of_the_number_of_participants]
+	(*
+	<- lang_en;;
+	*);
+	[экскурсіі па колькасці ўдзельнікаў]
+	(*
+	<- lang_by;;
+	*);
+
+
+<= nrel_subdividing: ...
+	(*
+	-> concept_individual_excursion;;
+	-> concept_mass_excursion;;
+	*)
+;;
+
+   

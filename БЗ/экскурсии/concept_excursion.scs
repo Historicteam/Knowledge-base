@@ -1,0 +1,65 @@
+concept_excursion
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурси¤]
+(*
+<- lang_ru;;
+*);
+[excursion]
+(*
+<- lang_en;;
+*);
+[экскурс≥¤]
+(*
+<- lang_by;;
+*);
+
+
+<= nrel_subdividing: ...
+	(*
+	-> concept_excursions_to_content;;
+	-> concept_excursions_of_the_number_of_participants;;
+     -> concept_excursions_to_the_venue;;
+     -> concept_excursions_the_method_of_movement;;
+    -> concept_excursions_of_the_time;;
+    -> concept_excursion_in_the_form_of;;
+	*)
+;
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ Ёкскурси¤-коллективное или индивидуальное посещение музе¤, достопримечательного места, выставки, предпри¤ти¤;поездка, прогулка с образовательной, научной, спортивной или увеселительной целью]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Ёкскурс≥¤-калекты¢нае або ≥ндыв≥дуальнае наведванне музе¤, славутых месца¢, выставы, прадпрыемствы, паездка, прагулка з адукацыйнай, навуковай, спарты¢най або м¤не пасл¤ мэтай]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Excursion-collectively or individually visit the museum, attractions, exhibitions, enterprises and the trip, walk with educational, scientific, sports or entertainment purpose]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+

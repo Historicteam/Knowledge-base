@@ -1,0 +1,54 @@
+concept_excursion_performance
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия-спектакль]
+(*
+<- lang_ru;;
+*);
+[excursion-performance]
+(*
+<- lang_en;;
+*);
+[экскурсія-спектакль]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ экскурсия-спектакль-экскурсия,подготовленная на основе конкретных произведений художественной литературы ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[экскурсія-спектакль-экскурсія, падрыхтаваная на аснове канкрэтных твораў мастацкай літаратуры]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[excursion-performance -excursion, prepared on the basis of specific works of fiction]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+
+
