@@ -1,38 +1,38 @@
-subject_area_of_historical_subjects
+subject_area_of_history_subjects
 =>nrel_main_idtf:
-	[Предметная область исторических субъектов] (* <-lang_ru;; *);
+	[РџСЂРµРґРјРµС‚РЅР°СЏ РѕР±Р»Р°СЃС‚СЊ РёСЃС‚РѕСЂРёС‡РµСЃРєРёС… СЃСѓР±СЉРµРєС‚РѕРІ] (* <-lang_ru;; *);
 	[subject area of history objects] (* <-lang_en;; *);
-	[Прадметная вобласць гістарычных суб'ектаў] (* <-lang_by;; *);
+	[РџСЂР°РґРјРµС‚РЅР°СЏ РІРѕР±Р»Р°СЃС†СЊ РіС–СЃС‚Р°СЂС‹С‡РЅС‹С… СЃСѓР±'РµРєС‚Р°Сћ] (* <-lang_by;; *);
 	
 <- rrel_key_sc_element:
-		Definition_of_history_objects  
+		Definition_of_history_object  
 	(* 
 	=>nrel_main_idtf:
-		[Определение понятия " исторический субъект"] (* <-lang_ru;; *);
-		[Definition of history objects] (* <-lang_en;; *);
-		[Азначэнне паняцця " гістарычны суб'ект"] (* <-lang_by;; *);;
+		[РћРїСЂРµРґРµР»РµРЅРёРµ РїРѕРЅСЏС‚РёСЏ " РёСЃС‚РѕСЂРёС‡РµСЃРєРёР№ СЃСѓР±СЉРµРєС‚"] (* <-lang_ru;; *);
+		[Definition of history object] (* <-lang_en;; *);
+		[РђР·РЅР°С‡СЌРЅРЅРµ РїР°РЅСЏС†С†СЏ " РіС–СЃС‚Р°СЂС‹С‡РЅС‹ СЃСѓР±'РµРєС‚"] (* <-lang_by;; *);;
 	<- sc_definition;;
 	<= nrel_sc_text_translation:
 		...
 		(* 
-		-> rrel_example: [ Исторический субъект - понятие, обозначающее ту или иную коллективную общность (группу, класс, народ), в деятельности которой воплощается и вектор исторической эволюции, и энергия, ее питающая. ] (* <-lang_ru;; *);; 
+		-> rrel_example: [ РСЃС‚РѕСЂРёС‡РµСЃРєРёР№ СЃСѓР±СЉРµРєС‚ - РїРѕРЅСЏС‚РёРµ, РѕР±РѕР·РЅР°С‡Р°СЋС‰РµРµ С‚Сѓ РёР»Рё РёРЅСѓСЋ РєРѕР»Р»РµРєС‚РёРІРЅСѓСЋ РѕР±С‰РЅРѕСЃС‚СЊ (РіСЂСѓРїРїСѓ, РєР»Р°СЃСЃ, РЅР°СЂРѕРґ), РІ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕС‚РѕСЂРѕР№ РІРѕРїР»РѕС‰Р°РµС‚СЃСЏ Рё РІРµРєС‚РѕСЂ РёСЃС‚РѕСЂРёС‡РµСЃРєРѕР№ СЌРІРѕР»СЋС†РёРё, Рё СЌРЅРµСЂРіРёСЏ, РµРµ РїРёС‚Р°СЋС‰Р°СЏ. ] (* <-lang_ru;; *);; 
 		*);
 		...
 		(* 
-		-> rrel_example: [The historical subject - the concept that refers to a particular community of collective (group, class, nation), which is embodied in the activities, and the vector of historical evolution, and the energy of its feeding.] (* <-lang_en;; *);; 
+		-> rrel_example: [The history object - the concept that refers to a particular community of collective (group, class, nation), which is embodied in the activities, and the vector of historical evolution, and the energy of its feeding.] (* <-lang_en;; *);; 
 		*);
 		...
 		(* 
-		-> rrel_example: [Гістарычны суб'ект - паняцце, якое пазначае тую ці іншую калектыўную агульнасць (групу, клас, народ), у дзейнасці якой ўвасабляецца і вектар гістарычнай эвалюцыі, і энергія, яе сілкавальная.] (* <-lang_by;; *);; 
+		-> rrel_example: [Р“С–СЃС‚Р°СЂС‹С‡РЅС‹ СЃСѓР±'РµРєС‚ - РїР°РЅСЏС†С†Рµ, СЏРєРѕРµ РїР°Р·РЅР°С‡Р°Рµ С‚СѓСЋ С†С– С–РЅС€СѓСЋ РєР°Р»РµРєС‚С‹СћРЅСѓСЋ Р°РіСѓР»СЊРЅР°СЃС†СЊ (РіСЂСѓРїСѓ, РєР»Р°СЃ, РЅР°СЂРѕРґ), Сѓ РґР·РµР№РЅР°СЃС†С– СЏРєРѕР№ СћРІР°СЃР°Р±Р»СЏРµС†С†Р° С– РІРµРєС‚Р°СЂ РіС–СЃС‚Р°СЂС‹С‡РЅР°Р№ СЌРІР°Р»СЋС†С‹С–, С– СЌРЅРµСЂРіС–СЏ, СЏРµ СЃС–Р»РєР°РІР°Р»СЊРЅР°СЏ.] (* <-lang_by;; *);; 
 		*);;
 	*);
 
 
 subdividing_into_the_following_subjects_areas
   =>nrel_main_idtf:
-	[подразделения на следующие субъкутные области] (* <-lang_ru;; *);
-	[subdivision into the following subjects areas] (* <- lang_en;; *);
-	[разбіццё на наступныя суб'ектныя вобласці ] (* <- lang_by;; *);
+	[РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ РЅР° СЃР»РµРґСѓСЋС‰РёРµ СЃСѓР±СЉРєСѓС‚РЅС‹Рµ РѕР±Р»Р°СЃС‚Рё] (* <-lang_ru;; *);
+	[subdivision into the following subjects areas] (* <-lang_en;; *);
+	[СЂР°Р·Р±С–С†С†С‘ РЅР° РЅР°СЃС‚СѓРїРЅС‹СЏ СЃСѓР±'РµРєС‚РЅС‹СЏ РІРѕР±Р»Р°СЃС†С– ] (* <-lang_by;; *);;
 
 
 
