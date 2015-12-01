@@ -1,0 +1,32 @@
+subject_area_of_archaeological_monuments
+=>nrel_main_idtf:
+	[ѕредметна€ область пам€тников археологии] (* <-lang_ru;; *);
+	[subject area of archaeological monuments] (* <-lang_en;; *);
+	[ѕрадметна€ вобласць помн≥каҐ археалог≥≥] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_archaeological_monument
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ " пам€тник археологии "] (* <-lang_ru;; *);
+		[Definition of archaeological monument] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ " помн≥к археалог≥≥"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [јрхеологический пам€тник - объект материальной культуры, вещественные исторические источники; предметы, сооружени€, погребени€ €вл€ющиес€ объектом археологических исследований.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Archaeological site - objects of material culture, the real historical sources; objects, buildings, burial, are the subject of archaeological investigations.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [јрхеалаг≥чны помн≥к - аб'ект матэры€льнай культуры, рэчавы€ г≥старычны€ крын≥цы; прадметы, збудаванн≥, пахаванн€ €к≥€ з'€Ґл€юцца аб'ектам археалаг≥чных даследаванн€Ґ.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

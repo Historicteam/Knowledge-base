@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="subject_domain_of _monuments_of_fine_and_applied_art" shapeColor="0" id="59092648" parent="0" left="0" top="0" right="428" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="691.284" y="487.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _landscape_gardening_art" shapeColor="0" id="59098408" parent="0" left="0" top="0" right="344" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="693.284" y="526.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_ethnographic_monuments" shapeColor="0" id="59095816" parent="0" left="0" top="0" right="338" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="692.284" y="397.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_documentary_monuments" shapeColor="0" id="59091928" parent="0" left="0" top="0" right="335" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="692.284" y="315.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _objects_of_town_planning" shapeColor="0" id="59096536" parent="0" left="0" top="0" right="345" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="693.284" y="442.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_archaeological_monuments" shapeColor="0" id="59097400" parent="0" left="0" top="0" right="350" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="693.284" y="358.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of_historical_objects " shapeColor="0" id="59094952" parent="0" left="0" top="0" right="284" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="467.284" y="496.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _attractions_the_landscape" shapeColor="0" id="59095672" parent="0" left="0" top="0" right="347" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="696.284" y="571.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _memorial_monuments" shapeColor="0" id="59095528" parent="0" left="0" top="0" right="315" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="690.284" y="222.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _phaleristics" shapeColor="0" id="59098264" parent="0" left="0" top="0" right="241" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="689.284" y="268.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_historical_subjects" shapeColor="0" id="59095384" parent="0" left="0" top="0" right="288" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="497.433" y="619.604" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_buildings" shapeColor="0" id="59096392" parent="0" left="0" top="0" right="220" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="325.538" y="250.619" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="ubject_domain_of_historical_objects" shapeColor="0" id="59097256" parent="0" left="0" top="0" right="273" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="386.881" y="265.933" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of_Minsk_city_history" shapeColor="0" id="59091784" parent="0" left="0" top="0" right="290" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="276.672" y="533.336" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_structures" shapeColor="0" id="59093080" parent="0" left="0" top="0" right="225" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="480.777" y="686.664" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of_of_historical_subjects" shapeColor="0" id="59096968" parent="0" left="0" top="0" right="311" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="170.299" y="599.634" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_individual_subjects" shapeColor="0" id="59099128" parent="0" left="0" top="0" right="292" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="474.627" y="740.843" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_collective_subjects" shapeColor="0" id="59092072" parent="0" left="0" top="0" right="287" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="0.5" y="734.633" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of _objects_of_urban_development" shapeColor="0" id="59092792" parent="0" left="0" top="0" right="381" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="186.06" y="555.843" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57946016" parent="0" id_b="59091784" id_e="59097256" b_x="276.672" b_y="533.336" e_x="386.881" e_y="265.933" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57945008" parent="0" id_b="59094952" id_e="59096536" b_x="467.284" b_y="496.5" e_x="693.284" e_y="442.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57949208" parent="0" id_b="59092792" id_e="59096392" b_x="186.06" b_y="555.843" e_x="325.538" e_y="250.619" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57944840" parent="0" id_b="59096968" id_e="59099128" b_x="170.299" b_y="599.634" e_x="474.627" e_y="740.843" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57948032" parent="0" id_b="59091784" id_e="59095384" b_x="276.672" b_y="533.336" e_x="497.433" e_y="619.604" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57945176" parent="0" id_b="59094952" id_e="59098264" b_x="467.284" b_y="496.5" e_x="689.284" e_y="268.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57947024" parent="0" id_b="59094952" id_e="59091928" b_x="467.284" b_y="496.5" e_x="692.284" e_y="315.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57949040" parent="0" id_b="59094952" id_e="59098408" b_x="467.284" b_y="496.5" e_x="693.284" e_y="526.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57947360" parent="0" id_b="59094952" id_e="59097400" b_x="467.284" b_y="496.5" e_x="693.284" e_y="358.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57946856" parent="0" id_b="59094952" id_e="59092648" b_x="467.284" b_y="496.5" e_x="691.284" e_y="487.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57944672" parent="0" id_b="59094952" id_e="59095672" b_x="467.284" b_y="496.5" e_x="696.284" e_y="571.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57944168" parent="0" id_b="59092792" id_e="59093080" b_x="186.06" b_y="555.843" e_x="480.777" e_y="686.664" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57947696" parent="0" id_b="59096968" id_e="59092072" b_x="170.299" b_y="599.634" e_x="0.5" e_y="734.633" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57949376" parent="0" id_b="59094952" id_e="59095816" b_x="467.284" b_y="496.5" e_x="692.284" e_y="397.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="57944336" parent="0" id_b="59094952" id_e="59095528" b_x="467.284" b_y="496.5" e_x="690.284" e_y="222.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>

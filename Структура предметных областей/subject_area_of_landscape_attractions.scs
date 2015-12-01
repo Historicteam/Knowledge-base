@@ -1,0 +1,32 @@
+subject_area_of_landscape_attractions
+=>nrel_main_idtf:
+	[ѕредметна€ область достопримечательностей ландшафта] (* <-lang_ru;; *);
+	[subject area of landscape attractions] (* <-lang_en;; *);
+	[ѕрадметна€ вобласць славутасц€Ґ ландшафту] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_landscape_attraction
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ " достопримечательность ландшафта "] (* <-lang_ru;; *);
+		[Definition of landscape attraction] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "славутасць ландшафту "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ƒостопримечательность ландшафта - это место или объект, заслуживающие особого внимани€, знаменитые или замечательные чем-либо, например, €вл€ющиес€ историческим наследием, художественной ценностью.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Attraction landscape - a place or object that deserve special attention, famous or remarkable than ever, for example, are the historical heritage, artistic value.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [—лавутасць ландшафту - гэта месца або аб'ект, варты€ асабл≥вай уваг≥, знакам≥ты€ або выдатны€ чым-небудзь, напрыклад, €к≥€ з'€Ґл€юцца г≥старычнай спадчынай, мастацкай каштоҐнасцю.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;
