@@ -1,0 +1,46 @@
+subject_area_of_history_subjects
+=>nrel_main_idtf:
+	[Предметная область исторических субъектов] (* <-lang_ru;; *);
+	[subject area of history objects] (* <-lang_en;; *);
+	[Прадметная вобласць гістарычных суб'ектаў] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+		Definition_of_history_object  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " исторический субъект"] (* <-lang_ru;; *);
+		[Definition of history object] (* <-lang_en;; *);
+		[Азначэнне паняцця " гістарычны суб'ект"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Исторический субъект - понятие, обозначающее ту или иную коллективную общность (группу, класс, народ), в деятельности которой воплощается и вектор исторической эволюции, и энергия, ее питающая. ] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [The history object - the concept that refers to a particular community of collective (group, class, nation), which is embodied in the activities, and the vector of historical evolution, and the energy of its feeding.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Гістарычны суб'ект - паняцце, якое пазначае тую ці іншую калектыўную агульнасць (групу, клас, народ), у дзейнасці якой ўвасабляецца і вектар гістарычнай эвалюцыі, і энергія, яе сілкавальная.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+
+subdividing_into_the_following_subjects_areas
+  =>nrel_main_idtf:
+	[подразделения на следующие субъкутные области] (* <-lang_ru;; *);
+	[subdivision into the following subjects areas] (* <-lang_en;; *);
+	[разбіццё на наступныя суб'ектныя вобласці ] (* <-lang_by;; *);;
+
+
+
+
+subject_historical_areas
+	<=nrel_subdividing: subdividing_into_the_following_subjects_areas
+				(*
+							->	subject_area_of_individual_subjects;
+								subject_area_of_collective_subjects;;
+								
+				*);;

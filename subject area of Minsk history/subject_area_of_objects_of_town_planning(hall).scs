@@ -1,0 +1,51 @@
+subject_area_of_objects_of_town_planning
+=>nrel_main_idtf:
+[Предметная область объектов градостроения ] (* <-lang_ru;; *);
+	[subject area of objects of town planning ] (* <-lang_en;; *);
+	[Прадметная вобласць аб'ектаў горадабудаўніцтва ] (* <-lang_by;; *);
+	
+	
+<- rrel_key_sc_element:
+		Definition_of_objects_of_town_planning
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "объект градостроения "] (* <-lang_ru;; *);
+		[Definition of object of town planning ] (* <-lang_en;; *);
+		[Азначэнне паняцця " аб'ект горадабудаўніцтва"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+subdividing_into_the_following_objects_of_town_planning
+  =>nrel_main_idtf:
+	[подразделения на следующие объекты градостроения] (* <-lang_ru;; *);
+	[subdivision into the following objects of town planning] (* <- lang_en;; *);
+	[разбіццё на наступныя гістарычныя вобласці аб'екты горадабудаўніцтва] (* <- lang_by;; *);;
+
+
+
+
+subject_historical_areas
+	<=nrel_subdividing: subdividing_into_the_following_historical_areas
+				(*
+							->		subject_area_of_buildings;
+									subject_area_of_structures;;
+								
+				*);;
+
+
+
+
+
