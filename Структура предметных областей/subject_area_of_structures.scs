@@ -1,0 +1,32 @@
+subject_area_of_structures
+=>nrel_main_idtf:
+	[ѕредметна€ область сооружений] (* <-lang_ru;; *);
+	[subject area of structures] (* <-lang_en;; *);
+	[ѕрадметна€ вобласць збудаванн€Ґ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_structure
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ " сооружение "] (* <-lang_ru;; *);
+		[Definition of structure] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "збудаванне "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [—ооружение Ч это результат строительной де€тельности дл€ осуществлени€ определЄнных потребительских функций.¬ научно-технической литературе по строительству термин Ђсооружениеї используетс€ также в узком смысле, в значении Ђстроительное сооружение, которое не €вл€етс€ зданиемї. Ќапример, инженерно-технические сооружени€: мосты, плотины, мачты, радио- и телебашни, тоннели, сооружени€ метрополитена, фортификационные сооружени€, мемориальные сооружени€ (пам€тники, мемориальные пирамиды и обелиски), архитектурные сооружени€ (аркады, колоннады, обелиски) и многие другие.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Construction - this is the result of construction activities for the implementation of certain consumer funktsiy.V scientific and technical literature on the construction of the term "structure" is used in a narrow sense, the meaning of "building construction which is not a building." For example, engineering constructions: bridges, dams, towers, radio and television towers, tunnels, underground structures, fortifications, memorial structures (monuments, memorial obelisks and pyramids), architectural buildings (arcades, colonnades, obelisks) and many others.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [«будаванне - гэта вын≥к будаҐн≥чай дзейнасц≥ дл€ ажыцц€Ґленн€ пэҐных спажывецк≥х функций.¬ навукова-тэхн≥чнай л≥таратуры па будаҐн≥цтве тэрм≥н Ђзбудаваннеї выкарыстоҐваецца таксама Ґ вузк≥м сэнсе, у значэнн≥ ЂбудаҐн≥чае збудаванне, €кое не з'€Ґл€ецца будынкамї. Ќапрыклад, ≥нжынерна-тэхн≥чны€ збудаванн≥: масты, плац≥ны, мачты, радыЄ- ≥ тэлевежы, тунэл≥, збудаванн≥ метрапал≥тэна, фартыф≥кацыйны€ збудаванн≥, мемары€льны€ збудаванн≥ (помн≥к≥, мемары€льны€ п≥рам≥ды ≥ абел≥ск≥), арх≥тэктурны€ збудаванн≥ (аркады, каланады, абел≥ск≥) ≥ мног≥€ ≥ншы€.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

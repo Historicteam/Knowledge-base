@@ -1,0 +1,227 @@
+Предметная область истории города Минска => частная предметная область*: 
+								Предметная область исторических объектов; 
+								Предметная область исторических субъектов;;
+			Предметная область исторических объектов => частная предметная область*:
+								Предметная область документальных памятников;
+								Предметная область памятников археологии;
+								Предметная область этнографических памятников;
+								Предметная область объектов градостроения;
+								Предметная область памятников изобразительного и прикладного искусства;
+								Предметная область объектов садово-паркового искусства;
+								Предметная область достопримечательностей ландшафта;
+								Предметная область мемориальных памятников;
+								Предметная область фалеристики;;
+						Предметная область объектов градостроения => частная предметная область*:
+															Предметная область зданий;
+															Предметная область сооружений;;
+												Предметная область исторических субъектов => частная предметная область*:
+															Предметная область индивидуальных субъектов;
+															Предметная область коллективных субъектов;;
+
+
+
+
+subject_domain_of_Minsk_city_history => nrel_particular_subject_domain: 
+ 	subject_domain_of_historical_objects;
+	subject_domain_of_historical_subjects;
+	subject_domain_of_historical_objects => nrel_particular_subject_domain: 
+	subject_domain_of_documentary_monuments;
+	subject_domain_of_archaeological_monuments;
+	subject_domain_of_ethnographic_monuments;
+	subject_domain_of _objects_of_town_planning;
+	subject_domain_of _monuments_of_fine_and_applied_art;
+subject_domain_of _landscape_gardening_art;
+subject_domain_of _attractions_the_landscape;
+subject_domain_of _memorial_monuments;
+subject_domain_of _phaleristics;
+subject_domain_of _objects_of_urban_development => nrel_particular_subject_domain: 
+	subject_domain_of_buildings;
+	subject_domain_of_structures;
+	subject_domain_of_of_historical_subjects => nrel_particular_subject_domain: 
+	subject_domain_of_individual_subjects;
+	subject_domain_of_collective_subjects;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+дать ко всему пояснение , типо Исторический объект это любой материальный бла бла бла.....
+
+		я не делаю единичные понятия, я делаю общие понятия, мол как оно связанно с архитектурным стилем
+
+
+
+
+
+
+
+/*
+subject_domain_of_Minsk_city_history => nrel_particular_subject_domain: 
+	subject_domain_of_historical_objects;
+
+structural_specification_of_subject_domain_of_historical_objects  
+<- structural_specification;
+=> nrel_main_idtf:
+
+	[Структурная спецификация Предметной области исторических объектов]
+	(* <- lang_ru;; *);
+	[Structural specification of subject domain of historical objects]
+	(* <- lang_en;; *);;
+
+
+structural_specification_of_subject_domain_of_historical_objects = [*
+	subject_domain_of_historical_objects -> rrel_maximum_studied_object_class:  concept_historical_object;; // Объект, в честь которого названа предметная область
+	subject_domain_of_historical_objects -> rrel_studied_object_class:  ...;; // Абсолютные понятия, которые относятся к этой предметной области
+	subject_domain_of_historical_objects -> rrel_relation:  ...;; // Относительные понятия, которые относятся к данной предметной области
+
+	subject_domain_of_historical_subjects; // ??????
+
+structural_specification_of_subject_domain_of_historical_subjects  
+<- structural_specification;
+=> nrel_main_idtf:
+
+	[Структурная спецификация Предметной области исторических субъектов]
+	(* <- lang_ru;; *);
+	[Structural specification of subject domain of historical subjects]
+	(* <- lang_en;; *);;
+
+structural_specification_of_subject_domain_of_historical_subjects = [*
+	subject_domain_of_historical_objects -> rrel_maximum_studied_object_class:  concept_historical_object;; 
+	subject_domain_of_historical_objects -> rrel_studied_object_class:  ...;;
+	subject_domain_of_historical_objects -> rrel_relation:  ...;;
+*];;
+	
+
+subject_domain_of_historical_objects => nrel_particular_subject_domain: 
+	subject_domain_of_documentary_monuments;
+	.....
+structural_specification_of_subject_domain_of_documentary_monuments  
+<- structural_specification;
+=> nrel_main_idtf:
+	[Структурная спецификация Предметной  документальных памятников]
+	(* <- lang_ru;; *);
+	[Structural specification of subject of documentary monuments]
+	(* <- lang_en;; *);;
+
+structural_specification_of_subject_domain_of_documentary_monuments = [*
+	subject_domain_of_historical_objects -> rrel_maximum_studied_object_class:  concept_historical_object;; 
+	subject_domain_of_historical_objects -> rrel_studied_object_class:  ...;;
+	subject_domain_of_historical_objects -> rrel_relation:  ...;; 
+
+
+
+	subject_domain_of_archaeological_monuments;
+structural_specification_of_subject_domain_of_archaeological_monuments
+<- structural_specification;
+=> nrel_main_idtf:
+	[Структурная спецификация Предметной области памятников археологии]
+	(* <- lang_ru;; *);
+	[Structural specification of subject domain of archaeological monuments]
+	(* <- lang_en;; *);;
+structural_specification_of_subject_domain_of_archaeological_monuments = [*
+	subject_domain_of_historical_objects -> rrel_maximum_studied_object_class:  concept_historical_object;; 
+	subject_domain_of_historical_objects -> rrel_studied_object_class:  ...;;
+	subject_domain_of_historical_objects -> rrel_relation:  ...;; 
+
+
+
+	subject_domain_of_ethnographic_monuments;
+<- structural_specification_of_subject_domain_of_ethnographic_monuments;
+=> nrel_main_idtf:
+	[Структурная спецификация Предметной области этнографических памятников]
+	(* <- lang_ru;; *);
+	[Structural specification of subject domain of ethnographic monuments]
+	(* <- lang_en;; *);;
+
+structural_specification_of_subject_domain_ethnographic_monuments = [*
+	subject_domain_of_historical_objects -> rrel_maximum_studied_object_class:  concept_historical_object;; 
+	subject_domain_of_historical_objects -> rrel_studied_object_class:  ...;;
+	subject_domain_of_historical_objects -> rrel_relation:  ...;; 
+*];;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+subject_domain_of _objects_of_urban_development
+structural_specification_of_subject_domain_of _objects_of_urban_development
+<- structural_specification_of_subject_domain_of_;
+=> nrel_main_idtf:
+	[Структурная спецификация Предметной области объектов градостроения]
+	(* <- lang_ru;; *);
+	[Structural specification of subject domain of objects of Urban Development ]
+	(* <- lang_en;; *);;
+
+structural_specification_of_subject_domain_objects_of_urban_development = [*
+	subject_domain_of_historical_objects -> rrel_maximum_studied_object_class:  concept_historical_object;; 
+	subject_domain_of_historical_objects -> rrel_studied_object_class:  ...;;
+	subject_domain_of_historical_objects -> rrel_relation:  ...;; 
+*];;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+subject_domain_of_ => nrel_particular_subject_domain: 
+	subject_domain_of_;
+	.....
+
+structural_specification_of_subject_domain_of _
+<- structural_specification_of_subject_domain_of_;
+=> nrel_main_idtf:
+	[Структурная спецификация Предметной области ]
+	(* <- lang_ru;; *);
+	[Structural specification of subject domain of ]
+	(* <- lang_en;; *);;
+
+structural_specification_of_subject_domain_ = [*
+	subject_domain_of_historical_objects -> rrel_maximum_studied_object_class:  concept_historical_object;; 
+	subject_domain_of_historical_objects -> rrel_studied_object_class:  ...;;
+	subject_domain_of_historical_objects -> rrel_relation:  ...;; 
+*];;
+
+
+
+*/

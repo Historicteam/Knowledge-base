@@ -1,0 +1,32 @@
+subject_area_of_buildings
+=>nrel_main_idtf:
+	[ѕредметна€ область зданий] (* <-lang_ru;; *);
+	[subject area of buildings] (* <-lang_en;; *);
+	[ѕрадметна€ вобласць будынкаҐ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_building
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ " здание "] (* <-lang_ru;; *);
+		[Definition of ] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ " будынак "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [«дание Ч разновидность наземного строительного сооружени€ с помещени€ми, созданного в результате строительной де€тельности в цел€х осуществлени€ определенных потребительских функций, таких как проживание (жилище), хоз€йственна€, или ина€ де€тельности людей, размещение производства, хранение продукции или содержание животных.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [The building - a kind of building structures with ground facilities created as a result of construction activities for the implementation of certain consumer features, such as living (housing), economic, or other human activities, the location of production, storage, production or maintenance of animals.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Ѕудынак - разнав≥днасць наземнага будаҐн≥чага збудаванн≥ з пам€шканн€м≥, створанага Ґ вын≥ку будаҐн≥чай дзейнасц≥ Ґ мэтах ажыцц€Ґленн€ пэҐных спажывецк≥х функцый, так≥х €к пражыванне (жыллЄ), гаспадарча€, ц≥ ≥нша€ дзейнасц≥ людзей, разм€шчэнне вытворчасц≥, захоҐванне прадукцы≥ або Ґтрыманне жывЄл.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

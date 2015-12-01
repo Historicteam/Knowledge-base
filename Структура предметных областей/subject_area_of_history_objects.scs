@@ -1,0 +1,53 @@
+	subject_area_of_history_objects
+=>nrel_main_idtf:
+	[ѕредметна€ область исторических абъектов] (* <-lang_ru;; *);
+	[subject area of history objects] (* <-lang_en;; *);
+	[ѕрадметна€ вобласць г≥старычных аб'ектаҐ] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+		Definition_of_history_object  
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ " исторический абъект"] (* <-lang_ru;; *);
+		[Definition of history object] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ " г≥старычны аб'ект"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [»сторический объект - это объект недвижимого имущества со св€занными с ними произведени€ми живописи, скульптуры, декоративно-прикладного искусства, объектами науки и техники и иными предметами материальной культуры, возникшие в результате исторических событий, представл€ющие собой ценность с точки зрени€ истории, археологии, архитектуры, градостроительства, искусства, науки и техники, эстетики, этнологии или антропологии, социальной культуры и €вл€ющиес€ свидетельством эпох и цивилизаций, подлинными источниками информации о зарождении и развитии культуры. ] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Historical property - a real estate object with related works of painting, sculpture, arts and crafts, objects of science and technology and other artefacts resulting from historical events, which are valuable from the point of view of history, archeology, architecture, urban planning , art, science and technology, aesthetic, ethnological or anthropological, social and culture are evidence of epochs and civilizations, the true source of information about the origin and development of culture.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [√≥старычны аб'ект - гэта аб'ект нерухомай маЄмасц≥ са зв€заным≥ з ≥м≥ творам≥ жывап≥су, скульптуры, дэкаратыҐна-прыкладнога мастацтва, аб'ектам≥ навук≥ ≥ тэхн≥к≥ ≥ ≥ншым≥ прадметам≥ матэры€льнай культуры, €к≥€ Ґзн≥кл≥ Ґ вын≥ку г≥старычных падзей, €к≥€ Ґ€Ґл€юць сабой каштоҐнасць з пункту гледжанн€ г≥сторы≥, археалог≥≥, арх≥тэктуры, горадабудаҐн≥цтва , мастацтва, навук≥ ≥ тэхн≥к≥, эстэтык≥, этналог≥≥ ц≥ антрапалог≥≥, сацы€льнай культуры ≥ з'€Ґл€юцца сведчаннем эпох ≥ цыв≥л≥зацый, сапраҐдным≥ крын≥цам≥ ≥нфармацы≥ пра зараджэнне ≥ разв≥цц≥ культуры.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+
+subdividing_into_the_following_historical_areas
+  =>nrel_main_idtf:
+	[подразделени€ на следующие исторические области] (* <-lang_ru;; *);
+	[subdivision into the following historical areas] (* <-lang_en;; *);
+	[разб≥ццЄ на наступны€ г≥старычны€ вобласц≥ ] (* <-lang_by;; *);;
+
+
+
+
+subject_historical_areas
+	<=nrel_subdividing: subdividing_into_the_following_historical_areas
+				(*
+							->	subject_area_of_documentary_monuments;
+								subject_area_of_archaeological_monuments;								
+								subject_area_of_ethnographic_monuments;
+								subject_area_of_objects_of_town_planning;
+								subject_area_of_monuments_of_fine_and_applied_art;
+								subject_area_of_landscape_gardening_art;	
+								subject_area_of_attractions_the_landscape;
+								subject_area_of_memorial_monuments;
+								subject_area_of_phaleristics;;
+								
+				*);;
