@@ -1,0 +1,33 @@
+concept_public_building
+
+=> nrel_main_idtf:
+	[общественное здание] (* <-lang_ru;; *);
+	[public building] (* <-lang_en;; *);
+	[√рамадск≥ будынак] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_public_building
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "общественное здание"] (* <-lang_ru;; *);
+		[Definition of public building] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "√рамадск≥ будынак "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ќбщественное здание - это здание , предназначенное дл€ общественного пользовани€.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Public building - a building intended for public use.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [√рамадскае будынак - гэта будынак, прызначанае дл€ грамадскага карыстанн€.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

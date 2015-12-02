@@ -1,0 +1,32 @@
+concept_II_degree
+=>nrel_main_idtf:
+	[II степень ] (* <-lang_ru;; *);
+	[II degree ] (* <-lang_en;; *);
+	[II  ступень ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_II_degree
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "II степень"] (* <-lang_ru;; *);
+		[Definition of II degree] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "II  ступень"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [II degree Ч каменные конструкции.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [II degree - stone structures.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [II ступень - каменные канструкцы≥.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

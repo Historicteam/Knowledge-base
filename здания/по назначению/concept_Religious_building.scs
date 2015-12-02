@@ -1,0 +1,35 @@
+concept_Religious_building
+
+=> nrel_main_idtf:
+	[Культовое сооружение] (* <-lang_ru;; *);
+	[religious building] (* <-lang_en;; *);
+	[Культавае збудаванне] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "Культовое сооружние "] (* <-lang_ru;; *);
+		[Definition of religious building] (* <-lang_en;; *);
+		[Азначэнне паняцця "Культавае збудаванне"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Культовое сооружние - сооружение или комплекс сооружений для культовых, религиозных нужд (отправления служб, чтения молитв и обращений к Богу), служения Богу.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Religious buildings - building or complex of buildings for religious, religious needs (administration services, prayers and references to God), the service of God.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Культавае збудаванне - будынак ці комплекс збудаванняў для культавых, рэлігійных патрэб (адпраўлення службаў, чытання малітваў і зваротаў да Бога), служэння Богу. ] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+-> Minsk_Diocesan_Office_of_the_Belarusian_Orthodox_Church
+
+<-sc_node_not_relation;	
+<-sc_const;;

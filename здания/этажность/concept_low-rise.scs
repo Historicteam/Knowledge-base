@@ -1,0 +1,34 @@
+concept_low-rise_
+=>nrel_main_idtf:
+	[ малоэтажные] (* <-lang_ru;; *);
+	[low-rise] (* <-lang_en;; *);
+	[малоэтажные] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_low-rise
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "малоэтажное здание"] (* <-lang_ru;; *);
+		[Definition of low-rise building] (* <-lang_en;; *);
+		[Азначэнне паняцця "малоэтажные"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Малоэтажные - здания до 5 этажей.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Low-rise - the building up to 5 floors.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Малоэтажные - будынка да 5 паверхаў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+-> Minsk_Diocesan_Office_of_the_Belarusian_Orthodox_Church
+
+<-sc_node_not_relation;	
+<-sc_const;;

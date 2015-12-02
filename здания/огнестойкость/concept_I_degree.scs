@@ -1,0 +1,32 @@
+concept_I_degree
+=>nrel_main_idtf:
+	[I степень] (* <-lang_ru;; *);
+	[I degree ] (* <-lang_en;; *);
+	[I  ступень ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_I_degree
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "I степень"] (* <-lang_ru;; *);
+		[Definition of I degree] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "I  ступень  "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [I degree Ч каменные конструкции.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [I degree - stone structures.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [I ступень -каменные канструкцы≥.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

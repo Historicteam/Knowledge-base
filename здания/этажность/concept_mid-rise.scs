@@ -1,0 +1,32 @@
+concept_mid-rise
+=>nrel_main_idtf:
+	[средней этажности] (* <-lang_ru;; *);
+	[mid-rise] (* <-lang_en;; *);
+	[сярэдняй паверхавасці ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_mid-rise
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "средней этажности "] (* <-lang_ru;; *);
+		[Definition of mid-rise] (* <-lang_en;; *);
+		[Азначэнне паняцця "сярэдняй паверхавасці"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Средней этажности - здания 5 - 12 этажей.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Mid-rise - 5-12 floors of the building] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Сярэдняй паверхавасці - будынкі 5 - 12 паверхаў.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

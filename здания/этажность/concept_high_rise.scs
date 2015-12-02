@@ -1,0 +1,32 @@
+concept_high-rise 
+=>nrel_main_idtf:
+	[высотные ] (* <-lang_ru;; *);
+	[high-rise ] (* <-lang_en;; *);
+	[ вышынны€] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_high-rise 
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "высотные"] (* <-lang_ru;; *);
+		[Definition of high-rise ] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ " вышынны€ "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [¬ысотные - здани€ свыше 12 этажей.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [High-rise  - buildings over 12 floors.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [¬ышынны€ - будынка звыш 12 паверхаҐ.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

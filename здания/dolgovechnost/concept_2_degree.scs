@@ -1,0 +1,32 @@
+concept_2_degree
+=>nrel_main_idtf:
+	[2 степень ] (* <-lang_ru;; *);
+	[2 degree] (* <-lang_en;; *);
+	[2 ступень ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_2_degree
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "2 степень  "] (* <-lang_ru;; *);
+		[Definition of 2 degree] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "2 ступень "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ 2 степень Ч не менее 50 лет.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [ 2nd stage - at least 50 years.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [2 ступень - не менш за 50 гадоҐ.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

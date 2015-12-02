@@ -1,0 +1,32 @@
+concept_III_degree
+=>nrel_main_idtf:
+	[III степень ] (* <-lang_ru;; *);
+	[III degree] (* <-lang_en;; *);
+	[III  ступень  ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_III_degree
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "III степень "] (* <-lang_ru;; *);
+		[Definition of III degree] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "III  ступень "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [III Ч каменные конструкции.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [III degree - stone structures] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [≤≤≤ ступень - каменные канструкцы≥.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

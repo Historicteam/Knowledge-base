@@ -1,0 +1,33 @@
+concept_agricultural_building
+
+=> nrel_main_idtf:
+	[Сельскохозяйственное сооружение] (* <-lang_ru;; *);
+	[agricultural building] (* <-lang_en;; *);
+	[Сельскагаспадарчы будынак] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_agricultural_building
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "Сельскохозяйственное сооружение"] (* <-lang_ru;; *);
+		[Definition of agricultural building] (* <-lang_en;; *);
+		[Азначэнне паняцця "Сельскагаспадарчы будынак"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сельскохозяйственное здание - предназначаются для использования в различных отраслях сельскохозяйственного производства.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Agricultural Building - designed for use in various sectors of agricultural production.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Сельскагаспадарчы будынак - прызначаюцца для выкарыстання ў розных галінах сельскагаспадарчай вытворчасці.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

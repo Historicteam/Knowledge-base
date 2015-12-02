@@ -1,0 +1,138 @@
+concept_building
+
+=> nrel_main_idtf:
+	[здание]
+	(*
+	<- lang_ru;;
+	*);
+	[building]
+	(*
+	<- lang_en;;
+	*);
+	[будынак]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+-> rrel_example: 
+[Здание - разновидность наземного строительного сооружения с помещениями, созданного в результате строительной деятельности в целях осуществления определенных потребительских функций, таких как проживание (жилище), хозяйственная, или иная деятельности людей, размещения производства, хранения продукции или содержания животных.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будынак - разнавіднасць наземнага будаўнічага збудавання з памяшканнямі, створанага ў выніку будаўнічай дзейнасці ў мэтах ажыццяўлення пэўных спажывецкіх функцый, такіх як пражыванне (жыллё), гаспадарчая, ці іншая дзейнасці людзей, размяшчэння вытворчасці, захоўвання прадукцыі або ўтрымання жывёл.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;
+
+subdividing_by_appointment
+    =>nrel_main_idtf:
+	[подразделения по назначению] (* <-lang_ru;; *);
+	[subdividing by appointment] (* <- lang_en;; *);
+	[падраздзялення па прызначэнні] (* <- lang_by;; *);;
+
+
+concept_of_appointment
+	<=nrel_subdividing: subdividing_into_buildings
+				(*
+							->	concept_residential_building;
+								concept_public_building;
+								concept_industrial_building;
+								concept_agricultural_building;
+								concept_Religious_building;
+								concept_defense-castle_building;;
+				*);
+
+
+subdividing_by_the_number_of_floors
+    =>nrel_main_idtf:
+	[подразделения по количеству этажей] (* <-lang_ru;; *);
+	[subdividing by number of floors ] (* <- lang_en;; *);
+	[падраздзялення па колькасці паверхаў] (* <- lang_by;; *);;
+
+
+concept_building_rize
+	<=nrel_subdividing: subdividing_in_height
+				(*
+							->	concept_low-rise;
+								concept_mid-rise;
+								concept_high-rise ;;
+				*);
+
+
+
+
+
+
+
+subdividing_by_architectural_style
+    =>nrel_main_idtf:
+	[подразделенияпо архитектурному стилю] (* <-lang_ru;; *);
+	[subdividing	by architectural style] (* <- lang_en;; *);
+	[падраздзялення па па архітэктурнаму стылю] (* <- lang_by;; *);;
+
+
+concept_architectural_style
+	<=nrel_subdividing: subdividing_in_styles
+				(*
+							->	concept_classicism;
+								concept_pseudo-Byzantine;
+								concept_modern;
+								concept_baroque ;;
+				*);
+
+
+
+
+subdividing_by_durability
+    =>nrel_main_idtf:
+	[подразделения по долговечности] (* <-lang_ru;; *);
+	[subdividing by durability ] (* <- lang_en;; *);
+	[падраздзялення па даўгавечнасці] (* <- lang_by;; *);;
+
+
+concepy_durability
+	<=nrel_subdividing: subdividing_by_degrees
+				(*
+							->	concept_1_degree;
+								concept_2_degree;
+								concept_3_degree;;
+				*);
+
+
+subdividing_by_fire_resistance
+    =>nrel_main_idtf:
+	[подразделения по ] (* <-lang_ru;; *);
+	[subdividing by ] (* <- lang_en;; *);
+	[падраздзялення па ] (* <- lang_by;; *);;
+
+
+concepy_durability
+	<=nrel_subdividing: subdividing_by_degrees
+				(*
+							->	concept_I_degree;
+								concept_II_degree;
+								concept_III_degree;
+								concept_IV_degree;
+								concept_V_degree;;
+				*);
+
+
+
+
+
+
+

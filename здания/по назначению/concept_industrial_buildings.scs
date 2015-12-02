@@ -1,0 +1,33 @@
+concept_industrial_building
+
+=> nrel_main_idtf:
+	[производственное здание] (* <-lang_ru;; *);
+	[industrial building] (* <-lang_en;; *);
+	[вытворчы будынак] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_industrial_building
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "производственное здание "] (* <-lang_ru;; *);
+		[Definition of industrial building] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "вытворчы будынак"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ѕроизводственное здание - здание дл€ размещени€ промышленного или сельскохоз€йственного предпри€ти€, в котором создаютс€ необходимые услови€ дл€ нормальной де€тельности людей, зан€тых в производственном процессе.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Industrial building -  building for industrial and agricultural enterprises, which are the necessary conditions for the normal functioning of people employed in the manufacturing process.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [¬ытворчае будынак - будынак дл€ разм€шчэнн€ прамысловага ≥л≥ сельскагаспадарчага прадпрыемства, у €к≥м ствараюцца неабходны€ Ґмовы дл€ нармальнай дзейнасц≥ людзей, зан€тых у вытворчым працэсе.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;
