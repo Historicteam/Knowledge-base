@@ -1,0 +1,28 @@
+	Image_of_plan_of_Minsk_1941
+	=> nrel_main_idtf:
+		[Изображение плана Минска 1941]
+		(*
+		<- lang_ru;;
+		*);
+		[Image of plan of Minsk 1941]
+		(*
+		<- lang_en;;
+		*);
+		[Выява плана Мiнска 1941]
+		(*
+		<- lang_by;;
+		*);
+		
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/minsk1941.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

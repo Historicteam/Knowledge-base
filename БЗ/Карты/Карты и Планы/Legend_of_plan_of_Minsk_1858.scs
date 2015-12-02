@@ -1,0 +1,28 @@
+	Legend_of_plan_of_Minsk_1858
+
+	<-concept_map_legend;
+	=> nrel_main_idtf:
+		[Легенда плана Минска 1858]
+		(*
+		<- lang_ru;;
+		*);
+		[Legend of plan of Minsk 1858]
+		(*
+		<- lang_en;;
+		*);
+		[Лягенда плана Мiнска 1858]
+		(*
+		<- lang_by;;
+		*);
+		
+<- rrel_key_sc_element: ...
+	(*
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://content/Minsk1858.html"
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+		

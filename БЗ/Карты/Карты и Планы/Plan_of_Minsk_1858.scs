@@ -10,56 +10,21 @@ Plan_of_Minsk_1858
 
 
 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/left_m.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
+=> nrel_sourse: [Т.А.Карповiч. Культурнае жыццё Мiнска I падовы XIX стагоддзя. -- Мiнск, "Рыфтур", 2007. -- Ст.4-5](*<-lang_by;;*);
+	
 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/right_m.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
+<= decomposition_relation: 
+{
+Legend_of_plan_of_Minsk_1858;
+Image_of_plan_of_Minsk_1858
+};
 
-<- rrel_key_sc_element: 
-	Legend_of_plan_of_Minsk_1858
-	(*
-	<-concept_map_legend;;
-	=> nrel_main_idtf:
-		[Легенда плана Минска 1858]
-		(*
-		<- lang_ru;;
-		*);
-		[Legend of plan of Minsk 1858]
-		(*
-		<- lang_en;;
-		*);
-		[Лягенда плана Минска 1858]
-		(*
-		<- lang_by;;
-		*);;
-		<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			"file://content/map_legend_2.pdf"
-			(*
-			=> nrel_format: format_pdf;;
-			*);;
-		*);;
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_day: rrel_decimal: [25];;
+-> rrel_month: rrel_decimal: [9];;
+-> rrel_year: rrel_decimal: [1858];;
+*);;
 *);;
