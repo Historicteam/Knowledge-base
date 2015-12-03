@@ -13,10 +13,18 @@ Muellers_House
 	<- lang_by;;
 	*);
 <-concept_building;
+
+=> nrel_openstreetmap:
+	[Muellers_House] 
+	(*
+	=> nrel_format:
+		format_openstreetmap;;
+	*);
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: ...
+	=> nrel_WGS_84_translation: [54.680365, 25.282745]
 		(*
 		-> ...
 			(*

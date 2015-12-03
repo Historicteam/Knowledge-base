@@ -1,0 +1,29 @@
+concept_map_legend
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[легенда карты](*<- lang_ru;;*);
+	[map legend](*<- lang_en;;*);
+        [лягенда мапы](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Легенда карты — список или таблица условных обозначений на карте с разъяснением их значения]
+    (*
+    <- lang_ru;;
+    *);
+  [Map legend - a list or a table of symbols on the map with an explanation of their meaning]
+    (*
+     <-lang_en;;
+    *);
+  [Легенда мапы - спіс або табліца ўмоўных пазначэнняў на мапе з тлумачэннем іх значэння]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
