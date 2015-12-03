@@ -1,0 +1,44 @@
+concept_rococo_architecture
+=>nrel_main_idtf:
+	[архитектура рококо] (* <-lang_ru;; *);
+	[rococo architecture] (* <-lang_en;; *);
+	[архітэктура рококо] (* <-lang_by;; *);
+<-sc_const;;
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Архитектура рококо.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+		...
+		(*
+		-> rrel_example:
+		[Rococo architecture.]
+			(*
+			<- lang_en;;
+			*);;
+
+		*);;
+
+		...
+		(*
+		-> rrel_example:
+		[Архітэктура рококо.]
+			(*
+			<- lang_by;;
+			*);;
+
+		*);;
+	);

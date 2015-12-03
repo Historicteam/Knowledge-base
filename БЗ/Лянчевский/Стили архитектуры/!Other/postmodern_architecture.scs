@@ -1,0 +1,25 @@
+concept_postmodern_architecture
+=>nrel_main_idtf:
+	[постмодернизм] (* <-lang_ru;; *);
+	[postmodern architecture] (* <-lang_en;; *);
+	[постмадэрнізм] (* <-lang_by;; *);
+
+<-concept_architectural_style;
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Постмодернизм - совокупность течений, зародившихся в 1960-х гг., пришедших на смену господствовавшему модернизму.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);;

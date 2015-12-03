@@ -1,0 +1,63 @@
+concept_gothic_architecture
+=>nrel_main_idtf:
+	[готическая архитектура] (* <-lang_ru;; *);
+	[gothic architecture] (* <-lang_en;; *);
+	[гатычная архітэктура] (* <-lang_by;; *);
+<-concept_architectural_style;
+
+
+->concept_pointed_arch;
+->concept_flying_buttresses;
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Готическая архитектура сочетает три ключевых элемента: ланцетовидная (стрельчатая) арка, способная выдерживать большие нагрузки по сравнению с круглой; нервюрный свод — система выступающих ребер, благодаря которой
+высота свода увеличивается и, соответственно, в здание проникает больше света; и, наконец, аркбутан — наружная горизонтальная полуарка,
+передающая нагрузку на вертикальные каменные опоры (контрфорсы).]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+	*);
+		<- rrel_key_sc_element: 
+		...
+		(*
+		<-sc_explanation;;
+		<=nrel_sc_text_translation: 
+		...
+			(*
+		-> rrel_example:
+		[Gothic architecture combines three key elements: the pointed Arch, capable of withstanding heavy loads than round; rib vault - a system of protruding ribs, whereby vault height increases and, consequently, the building gets more light; and finally, the flying buttresses - external horizontal semi-arch, transferring the load on the vertical stone supports (buttresses).]
+			(*
+			<- lang_en;;
+			*);;
+
+		*);;
+		*);
+
+		<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Гатычная архітэктура спалучае тры ключавых элемента: стральчатая
+арка, здольная вытрымліваць вялікія нагрузкі ў параўнанні з круглай; нярвюрны звод - сістэма выступоўваючых рэбраў, дзякуючы якой
+вышыня зводу павялічваецца і, адпаведна, у будынак пранікае больш святла; і, нарэшце, аркбутан - вонкавая гарызантальная полуарка,
+якая перадае нагрузку на вертыкальныя каменныя апоры (контрфорсы).]
+			(*
+			<- lang_by;;
+			*);;
+
+		*);;
+	*);;

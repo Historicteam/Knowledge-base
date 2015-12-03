@@ -1,0 +1,39 @@
+concept_semicircural_arch
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[полуциркул€рна€ арка]
+(*
+<- lang_ru;;
+*);
+[semicircural arch]
+(*
+<- lang_en;;
+*);
+[паҐцыркульны€ арка]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[ѕолуциркульна€ арка Ч арка, дуга которой описана полуокружностью.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[ѕаҐцыркульны€ арка - арка, дуга €кой ап≥сана паҐакружнасцю.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);;

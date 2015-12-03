@@ -1,0 +1,25 @@
+concept_hi_tech
+=>nrel_main_idtf:
+	[био-тек] (* <-lang_ru;; *);
+	[bio-tech] (* <-lang_en;; *);
+	[бія-тэк] (* <-lang_by;; *);
+
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Био-тек или бионика — стиль архитектуры, где выразительность конструкций достигается заимствованием природных форм.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	);

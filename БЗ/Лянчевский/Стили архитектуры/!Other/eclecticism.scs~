@@ -1,0 +1,25 @@
+concept_eclecticism
+=>nrel_main_idtf:
+	[эклектика] (* <-lang_ru;; *);
+	[eclecticism] (* <-lang_en;; *);
+	[эклектыка] (* <-lang_by;; *);
+
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Эклектыка — архітэктурны стыль, які быў папулярны ў XIX—пач. XX ст., у якім адна праца ўключае элементы з гістарычна папярэдніх стыляў.]
+			(*
+			<- lang_be;;
+			*);;
+
+		*);;
+
+	);

@@ -1,0 +1,57 @@
+concept_romanesque_architecture
+=>nrel_main_idtf:
+	[романская архитектура] (* <-lang_ru;; *);
+	[romanesque architecture] (* <-lang_en;; *);
+	[аманская архітэктура] (* <-lang_by;; *);
+<-concept_architectural_style;
+
+->concept_semi_circural_arch;
+->concept_semi_circural_window;
+->concept_bound_column;
+->concept_doric_column;
+
+<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Романская архитектура - архитектура, для которой характерны узкие полукруглые окна, полукруглые арки, дорические колонны и массивные контрфорсы.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+			<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Romanesque architecture - architecture, characterized by narrow semicircular windows, semicircular arches, doric columns and massive buttresses.]
+			(*
+			<- lang_en;;
+			*);;
+
+		*);;
+*);
+			<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+		[Раманская архітэктура - архітэктура, для якой характэрныя вузкія паўкруглыя вокны, паўкруглыя аркі, дарыйскія калоны і масіўныя контрфорсы.]
+			(*
+			<- lang_by;;
+			*);;
+
+		*);;
+	*);;

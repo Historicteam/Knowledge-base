@@ -1,0 +1,44 @@
+concept_empire_style
+=>nrel_main_idtf:
+	[ампир] (* <-lang_ru;; *);
+	[empire style] (* <-lang_en;; *);
+	[ампір] (* <-lang_by;; *);
+
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Ампир - стиль позднего классицизма в архитектуре.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+		...
+		(*
+		-> rrel_example:
+		[Pseudo-gothic - an architectural movement based on the free combination of elements of European Gothic and Moscow baroque]
+			(*
+			<- lang_en;;
+			*);;
+
+		*);;
+
+		...
+		(*
+		-> rrel_example:
+		[Ампір - стыль позняга класіцызма ў архітэктуры.]
+			(*
+			<- lang_by;;
+			*);;
+
+		*);;
+	);
