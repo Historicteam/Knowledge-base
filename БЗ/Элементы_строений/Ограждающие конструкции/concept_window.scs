@@ -1,16 +1,16 @@
-window
+concept_window
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-[Окно]
+[окно]
 (*
 <- lang_ru;;
 *);
-[Window]
+[window]
 (*
 <- lang_en;;
 *);
-[Акно]
+[акно]
 (*
 <- lang_by;;
 *);
@@ -35,4 +35,24 @@ window
 <- lang_by;;
 *);;
 *);;
-*);;
+*);
+<=nrel_subdividing:
+ ...
+(*
+-> concept_biforis;;
+-> concept_diocletian_window;;
+-> concept_lancent_window;;
+-> concept_picture_window;;
+-> concept_trifora;;
+-> concept_bay_window;;
+-> concept_colonial_window;;   
+-> concept_flanking_window;;
+-> concept_gregorian_window;;
+-> concept_oblique_port;;       
+       
+       
+    
+       
+       
+       
+	*);;

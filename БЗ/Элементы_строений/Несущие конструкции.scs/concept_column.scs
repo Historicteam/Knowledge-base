@@ -1,16 +1,16 @@
-column
+concept_column
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-[Колонна]
+[колонна]
 (*
 <- lang_ru;;
 *);
-[Column]
+[сolumn]
 (*
 <- lang_en;;
 *);
-[Калона]
+[калона]
 (*
 <- lang_by;;
 *);
@@ -36,15 +36,16 @@ column
 <- lang_by;;
 *);;
 *);;
+*);
 <=nrel_subdividing:
  ...
 (*
 
-<-concept_faked_pillar;;
-<-concept_supporting_column;;
+-> concept_faked_pillar;;
+-> concept_supporting_column;;
 
 
 *)
 ;;
 
-*);;
+

@@ -1,8 +1,8 @@
-﻿concept_door
+concept_door
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-	[Дверь]
+	[дверь]
 	(*
 	<- lang_ru;;
 	*);
@@ -10,7 +10,7 @@
 	(*
 	<- lang_en;;
 	*);
-	[Дзверы]
+	[дзверы]
 	(*
 	<- lang_by;;
 	*);

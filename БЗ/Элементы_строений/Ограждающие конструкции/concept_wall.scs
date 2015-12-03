@@ -1,16 +1,16 @@
-wall
+concept_wall
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-[Стена]
+[cтена]
 (*
 <- lang_ru;;
 *);
-[Wall]
+[wall]
 (*
 <- lang_en;;
 *);
-[Сцяна]
+[cцяна]
 (*
 <- lang_by;;
 *);

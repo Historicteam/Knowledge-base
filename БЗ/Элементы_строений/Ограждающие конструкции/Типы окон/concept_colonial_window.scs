@@ -1,0 +1,38 @@
+﻿colonial_window
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[Колониальное окно]
+(*
+<- lang_ru;;
+*);
+[colonial window]
+(*
+<- lang_en;;
+*);
+[каланіяльнае акно]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Колониальное окно - окно, состоящее из небольших прямоугольных панелей.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[каланіяльнае акно –  акно, якое складаецца з невялікіх прастакутных панэляў.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);;

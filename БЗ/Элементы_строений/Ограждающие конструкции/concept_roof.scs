@@ -1,4 +1,4 @@
-﻿concept_roof
+concept_roof
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
@@ -38,18 +38,18 @@
 			<- lang_by;;
 			*);;
 		*);;
+*);
 <=nrel_subdividing:
  ...
 (*
-<-concept_gable_roof;;
-<-concept_abat-vent;;
-<-concept_folded-plate_roof;;
-<-concept_ steeple_roof;;
-<-concept_ domed_roof;;
-<-concept_ rooftop;;
-<-concept_ vaulted_roof;;       
+-> concept_gable_roof;;
+-> concept_abat-vent;;
+-> concept_folded-plate_roof;;
+-> concept_steeple_roof;;
+-> concept_domed_roof;;
+-> concept_rooftop;;
+-> concept_vaulted_roof;;       
        
        
        
 	*);;
-*);;

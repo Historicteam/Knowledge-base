@@ -1,16 +1,16 @@
-ground
+concept_ground
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-[Основание]
+[основание]
 (*
 <- lang_ru;;
 *);
-[Ground]
+[ground]
 (*
 <- lang_en;;
 *);
-[Падмурак]
+[падмурак]
 (*
 <- lang_by;;
 *);
