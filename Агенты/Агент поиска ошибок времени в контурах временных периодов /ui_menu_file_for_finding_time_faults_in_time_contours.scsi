@@ -1,0 +1,28 @@
+ui_menu_file_for_finding_time_faults_in_time_contours <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_time_faults_in_time_contours => nrel_main_idtf: 
+	[Агент поиска всех ошибок времени во временных контурах]
+	//[Запрос поиска всех зданий, связанных с конкретной личностью]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_time_faults_in_time_contours => nrel_main_idtf: 
+	[Request of finding time faults in time contours]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_time_faults_in_time_contours => ui_nrel_command_template:
+	[*
+		question_finding_time_faults_in_time_contours _-> ._question_finding_time_faults_in_time_contours_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_finding_time_faults_in_time_contours_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_time_faults_in_time_contours => ui_nrel_command_lang_template: 
+	[Запрос поиска всех ошибок времени во временных контурах] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_time_faults_in_time_contours => ui_nrel_command_lang_template: 
+	[Request of finding time faults in time contours] 
+	(* <- lang_en;; *);;
+

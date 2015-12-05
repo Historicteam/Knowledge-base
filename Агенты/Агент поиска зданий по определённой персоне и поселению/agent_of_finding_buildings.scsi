@@ -34,37 +34,69 @@ scp_program -> agent_of_finding_buildings
 			=>nrel_then: .agent_of_finding_buildings_operator3;;
 			=>nrel_else: .agent_of_finding_buildings_operator_return;;
 		*);;
-		// Найдём параметры операции – их подал на вход сам пользователь
+
+		// Search for a person
 		-> .agent_of_finding_buildings_operator3 (*
-			<- searchElStr3;;
+			<- searchElStr5;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
-			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
-			-> rrel_3: rrel_assign: rrel_scp_var: _param;;
-			=>nrel_then: .agent_of_finding_buildings_operator4;;
-			=>nrel_else: .agent_of_finding_buildings_operator_return;;
-		*);;
-		// Сгенерировать узел, в который мы поместим конструкцию ответа
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc5;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _person;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+
+			=> nrel_then: .agent_of_finding_buildings_operator4;;
+			=> nrel_else: .agent_of_finding_buildings_operator_return;;
+			*);;
+
+		// Search for a settlement
 		-> .agent_of_finding_buildings_operator4 (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc5;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _node_temp;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+
+			=> nrel_then: .agent_of_finding_buildings_operator5;;
+			=> nrel_else: .agent_of_finding_buildings_operator_return;;
+			*);;
+
+		-> .agent_of_finding_buildings_operator5 (*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _node_temp;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc5;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _settlement;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+
+			=> nrel_then: .agent_of_finding_buildings_operator8;;
+			=> nrel_else: .agent_of_finding_buildings_operator_return;;
+			*);;	
+
+		// Сгенерировать узел, в который мы поместим конструкцию ответа
+		-> .agent_of_finding_buildings_operator8 (*
 			<- genEl;;
 			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
-			=>nrel_goto: .agent_of_finding_buildings_operator5;;
+			=>nrel_goto: .agent_of_finding_buildings_operator9;;
 		*);;
-		-> .agent_of_finding_buildings_operator5 (*
+
+		-> .agent_of_finding_buildings_operator9 (*
 			<- call;; // В первом параметре содержится название вызванной процедуры
 			-> rrel_1: rrel_fixed: rrel_scp_const:  proc_of_finding_buildings ;;
 			->rrel_2:rrel_fixed:rrel_scp_const: // здесь описаны параметры, подаваемые на
 			// вход процедуре
-			.agent_of_finding_buildings_operator5_params (*
-				-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
-				-> rrel_2: rrel_fixed: rrel_scp_var: _answer;;
+			.agent_of_finding_buildings_operator9_params (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _settlement;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
 			*);;
 			// Знак scp-процесса, который может быть использован для того, чтобы
 			// дождаться завершения созданного scp-процесса
 			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
-			=>nrel_goto: .agent_of_finding_buildings_operator6;;
+			=>nrel_goto: .agent_of_finding_buildings_operator10;;
 		*);;
 		// scp-оператор ожидания завершения выполнения программы
-		-> .agent_of_finding_buildings_operator6 (*
+		-> .agent_of_finding_buildings_operator10 (*
 			<- waitReturn;;
 			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
 			=>nrel_goto: .agent_of_finding_buildings_operator_gen_answer;;

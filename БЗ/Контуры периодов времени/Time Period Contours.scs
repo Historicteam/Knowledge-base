@@ -1,0 +1,52 @@
+// Time period contours================================================================================================
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Moniuszkos_House;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания С.Ч. Монюшко в доме Монюшко](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1831];;
+																			*);;
+						*);;
+	=> nrel_end_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1834];;
+																			*);;
+						*);;					
+*);;
+concept_situation->[*Bohdanovich_Maksim_Adamovich => nrel_dwelling: Korkozovichs_House;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания М.А. Богдановича в доме Коркозовича](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1891];;
+																			*);;
+						*);;
+	=> nrel_end_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1893];;
+																			*);;
+						*);;					
+*);;
+concept_situation->[*organization_Literary_Museum_of_Bogdanovich => nrel_location: house_7a_Bogdanovich_street;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения литературного музея им. Богдановича по ул. Богдановича 7А](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_day: rrel_decimal: [19];;
+																				-> rrel_month: rrel_decimal: [9];;
+																				-> rrel_year: rrel_decimal: [1980];;
+																			*);;
+						*);;
+*);;
+
+
