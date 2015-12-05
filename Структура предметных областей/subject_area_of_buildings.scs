@@ -1,0 +1,32 @@
+subject_area_of_buildings
+=>nrel_main_idtf:
+	[Предметная область зданий] (* <-lang_ru;; *);
+	[subject area of buildings] (* <-lang_en;; *);
+	[Прадметная вобласць будынкаў] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_building
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " здание "] (* <-lang_ru;; *);
+		[Definition of ] (* <-lang_en;; *);
+		[Азначэнне паняцця " будынак "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Здание — разновидность наземного строительного сооружения с помещениями, созданного в результате строительной деятельности в целях осуществления определенных потребительских функций, таких как проживание (жилище), хозяйственная, или иная деятельности людей, размещение производства, хранение продукции или содержание животных.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [The building - a kind of building structures with ground facilities created as a result of construction activities for the implementation of certain consumer features, such as living (housing), economic, or other human activities, the location of production, storage, production or maintenance of animals.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Будынак - разнавіднасць наземнага будаўнічага збудаванні з памяшканнямі, створанага ў выніку будаўнічай дзейнасці ў мэтах ажыццяўлення пэўных спажывецкіх функцый, такіх як пражыванне (жыллё), гаспадарчая, ці іншая дзейнасці людзей, размяшчэнне вытворчасці, захоўванне прадукцыі або ўтрыманне жывёл.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

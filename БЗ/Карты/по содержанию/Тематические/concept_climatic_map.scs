@@ -1,0 +1,29 @@
+concept_climatic_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[климатическая карта](*<- lang_ru;;*);
+	[climatic map](*<- lang_en;;*);
+    	[кліматычная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Climatic maps give general information about the climate and precipitation (rain and snow) of a region]
+    (*
+    <- lang_en;;
+    *);
+  [Климатические карты дают общую информацию о климате и осадках региона]
+    (*
+     <-lang_ru;;
+    *);
+  [Кліматычныя мапы даюць агульную інфармацыю пра клімат і асадкі рэгіёна]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

@@ -1,0 +1,31 @@
+concept_special_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[специальная карта](*<- lang_ru;;*);
+	[special map](*<- lang_en;;*);
+    	[адмысловая мапа](*<- lang_by;;*);
+
+<=nrel_inclusion:concept_road_map;
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Special maps are designed to address a specific range of tasks, or intended for certain groups of users. Most often, this map is technical purpose]
+    (*
+    <- lang_en;;
+    *);
+  [Специальные карты предназначены для решения определенного круга задач или рассчитаны на определенные круги пользователей. Чаще всего это карты технического назначения]
+    (*
+     <-lang_ru;;
+    *);
+  [Адмысловыя мапы прызначаны для вырашэння вызначанага кола заданняў ці вылічаны на вызначаныя колы карыстачоў. Найчасцей гэта карты тэхнічнага прызначэння]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

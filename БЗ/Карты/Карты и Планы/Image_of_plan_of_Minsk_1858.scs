@@ -1,0 +1,40 @@
+	Image_of_plan_of_Minsk_1858
+	=> nrel_main_idtf:
+		[Изображение плана Минска 1858]
+		(*
+		<- lang_ru;;
+		*);
+		[Image of plan of Minsk 1858]
+		(*
+		<- lang_en;;
+		*);
+		[Выява плана Мiнска 1858]
+		(*
+		<- lang_by;;
+		*);
+		
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/left_m.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/right_m.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

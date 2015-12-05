@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="ubject_domain_of_historical_objects" shapeColor="0" id="61181680" parent="0" left="0" top="0" right="273" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="51.5" y="222.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _objects_of_town_planning" shapeColor="0" id="61177648" parent="0" left="0" top="0" right="345" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="51.5" y="530.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _landscape_gardening_art" shapeColor="0" id="61178800" parent="0" left="0" top="0" right="344" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="51.5" y="614.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59391752" parent="0" x="560.5" y="281.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область объектов градостроения]]></content>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of_Minsk_city_history" shapeColor="0" id="59391176" parent="0" left="0" top="0" right="290" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="52.5" y="176.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59390600" parent="0" x="267.5" y="226.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область исторических объектов]]></content>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of_historical_objects " shapeColor="0" id="59388584" parent="0" left="0" top="0" right="284" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-4.5" y="354.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59388440" parent="0" x="265.5" y="357.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область исторических объектов]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59388296" parent="0" x="560.5" y="476.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область индивидуальных субъектов]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61180240" parent="0" x="558.5" y="231.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область фалеристики]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61181104" parent="0" x="559.5" y="329.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область зданий
+]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_historical_subjects" shapeColor="0" id="61178944" parent="0" left="0" top="0" right="288" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-57.5" y="283.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61179376" parent="0" x="268.5" y="284.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область исторических субъектов]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _monuments_of_fine_and_applied_art" shapeColor="0" id="59392040" parent="0" left="0" top="0" right="428" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="49.5" y="575.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59391320" parent="0" x="562.5" y="374.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область сооружений]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59389016" parent="0" x="267.5" y="178.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область истории города Минска]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59388872" parent="0" x="264.5" y="405.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область документальных памятников]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_documentary_monuments" shapeColor="0" id="59390888" parent="0" left="0" top="0" right="335" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="50.5" y="403.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_archaeological_monuments" shapeColor="0" id="59389592" parent="0" left="0" top="0" right="350" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="51.5" y="446.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61180816" parent="0" x="560" y="522.943" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область коллективных субъектов]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_ethnographic_monuments" shapeColor="0" id="61180672" parent="0" left="0" top="0" right="338" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="50.5" y="485.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61181536" parent="0" x="264.5" y="533.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область объектов градостроения]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61180096" parent="0" x="558.5" y="418.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область исторических субъектов
+
+]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61178224" parent="0" x="265.5" y="486.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область этнографических памятников]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59390456" parent="0" x="264.5" y="578.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область памятников изобразительного и прикладного искусства]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61181968" parent="0" x="263.5" y="617.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область объектов садово-паркового искусства]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61180960" parent="0" x="265.5" y="447.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область памятников археологии]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _phaleristics" shapeColor="0" id="59389736" parent="0" left="0" top="0" right="241" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="729.5" y="234.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_structures" shapeColor="0" id="61181824" parent="0" left="0" top="0" right="225" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="729.5" y="375.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _memorial_monuments" shapeColor="0" id="61179808" parent="0" left="0" top="0" right="315" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="730.5" y="188.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="61180528" parent="0" x="559.5" y="183.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область мемориальных памятников]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_buildings" shapeColor="0" id="59391464" parent="0" left="0" top="0" right="220" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="726.5" y="330.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_individual_subjects" shapeColor="0" id="59389160" parent="0" left="0" top="0" right="292" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="741.5" y="482.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of _objects_of_urban_development" shapeColor="0" id="59390312" parent="0" left="0" top="0" right="381" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="729.5" y="282.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="subject_domain_of_of_historical_subjects" shapeColor="0" id="61179520" parent="0" left="0" top="0" right="311" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="728.5" y="419.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of_collective_subjects" shapeColor="0" id="61178368" parent="0" left="0" top="0" right="287" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="742" y="526.943" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="subject_domain_of _attractions_the_landscape" shapeColor="0" id="61180384" parent="0" left="0" top="0" right="347" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="-27.5" y="665.407" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="59391608" parent="0" x="262.5" y="670.407" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Предметная область достопримечательностей ландшафта]]></content>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="59391032" parent="0" left="0" top="0" right="65" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="403.167" y="675.463" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="nrel_main_idtf" shapeColor="0" id="61177504" parent="0" left="0" top="0" right="119" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="387.444" y="179.018" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61372368" parent="0" id_b="61179808" id_e="61180528" b_x="730.5" b_y="188.407" e_x="559.5" e_y="183.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61413832" parent="0" id_b="59389736" id_e="61180240" b_x="729.5" b_y="234.407" e_x="558.5" e_y="231.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61371360" parent="0" id_b="61181824" id_e="59391320" b_x="729.5" b_y="375.407" e_x="562.5" e_y="374.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61374720" parent="0" id_b="59390312" id_e="59391752" b_x="729.5" b_y="282.407" e_x="560.5" e_y="281.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61373208" parent="0" id_b="59391464" id_e="61181104" b_x="726.5" b_y="330.407" e_x="559.5" e_y="329.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61416184" parent="0" id_b="61179520" id_e="61180096" b_x="728.5" b_y="419.407" e_x="558.5" e_y="418.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61413664" parent="0" id_b="61180384" id_e="59391608" b_x="-27.5" b_y="665.407" e_x="262.5" e_y="670.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61374888" parent="0" id_b="61178800" id_e="61181968" b_x="51.5" b_y="614.407" e_x="263.5" e_y="617.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61375224" parent="0" id_b="59392040" id_e="59390456" b_x="49.5" b_y="575.407" e_x="264.5" e_y="578.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61411144" parent="0" id_b="59389160" id_e="59388296" b_x="741.5" b_y="482.407" e_x="560.5" e_y="476.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61377240" parent="0" id_b="59391032" id_e="59388296" b_x="403.167" b_y="675.463" e_x="560.5" e_y="476.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="59664728" parent="0" id_b="61177504" id_e="61416184" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.370538">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61370352" parent="0" id_b="61177504" id_e="61411144" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.346421">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61375056" parent="0" id_b="59389592" id_e="61180960" b_x="51.5" b_y="446.407" e_x="265.5" e_y="447.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61375728" parent="0" id_b="61177504" id_e="61372368" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.375847">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61371024" parent="0" id_b="59391032" id_e="61181968" b_x="403.167" b_y="675.463" e_x="263.5" e_y="617.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61414168" parent="0" id_b="61181680" id_e="59390600" b_x="51.5" b_y="222.407" e_x="267.5" e_y="226.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61373544" parent="0" id_b="61177648" id_e="61181536" b_x="51.5" b_y="530.407" e_x="264.5" e_y="533.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61377576" parent="0" id_b="61177504" id_e="61413664" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.582016">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61412656" parent="0" id_b="61180672" id_e="61178224" b_x="50.5" b_y="485.407" e_x="265.5" e_y="486.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61370184" parent="0" id_b="61178368" id_e="61180816" b_x="742" b_y="526.943" e_x="560" e_y="522.943" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61373376" parent="0" id_b="59391176" id_e="59389016" b_x="52.5" b_y="176.407" e_x="267.5" e_y="178.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61410976" parent="0" id_b="59388584" id_e="59388440" b_x="-4.5" b_y="354.407" e_x="265.5" e_y="357.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61415344" parent="0" id_b="61178944" id_e="61179376" b_x="-57.5" b_y="283.407" e_x="268.5" e_y="284.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="61374216" parent="0" id_b="59390888" id_e="59388872" b_x="50.5" b_y="403.407" e_x="264.5" e_y="405.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61376400" parent="0" id_b="59391032" id_e="59391608" b_x="403.167" b_y="675.463" e_x="262.5" e_y="670.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61374552" parent="0" id_b="61177504" id_e="61373544" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.502984">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61370856" parent="0" id_b="59391032" id_e="59391752" b_x="403.167" b_y="675.463" e_x="560.5" e_y="281.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61375896" parent="0" id_b="61177504" id_e="61371360" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.313506">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61374048" parent="0" id_b="59391032" id_e="59391320" b_x="403.167" b_y="675.463" e_x="562.5" e_y="374.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61372872" parent="0" id_b="61177504" id_e="61413832" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.303784">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61376904" parent="0" id_b="59391032" id_e="59390456" b_x="403.167" b_y="675.463" e_x="264.5" e_y="578.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61375392" parent="0" id_b="59391032" id_e="61180528" b_x="403.167" b_y="675.463" e_x="559.5" e_y="183.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61370688" parent="0" id_b="59391032" id_e="61181968" b_x="403.167" b_y="675.463" e_x="263.5" e_y="617.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61373040" parent="0" id_b="61177504" id_e="61375224" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.476764">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61376736" parent="0" id_b="59391032" id_e="59389016" b_x="403.167" b_y="675.463" e_x="267.5" e_y="178.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61372200" parent="0" id_b="61177504" id_e="61373376" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.471911">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61372032" parent="0" id_b="59391032" id_e="61180096" b_x="403.167" b_y="675.463" e_x="558.5" e_y="418.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61377744" parent="0" id_b="59391032" id_e="61181536" b_x="403.167" b_y="675.463" e_x="264.5" e_y="533.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61376568" parent="0" id_b="61177504" id_e="61373208" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.390046">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61371864" parent="0" id_b="61177504" id_e="61414168" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.596546">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61374384" parent="0" id_b="59391032" id_e="59388872" b_x="403.167" b_y="675.463" e_x="264.5" e_y="405.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61377072" parent="0" id_b="61177504" id_e="61374216" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.517645">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="59664560" parent="0" id_b="61177504" id_e="61374720" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.401879">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61372704" parent="0" id_b="59391032" id_e="61178224" b_x="403.167" b_y="675.463" e_x="265.5" e_y="486.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61370016" parent="0" id_b="59391032" id_e="61178224" b_x="403.167" b_y="675.463" e_x="265.5" e_y="486.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61376232" parent="0" id_b="61177504" id_e="61410976" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.514549">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61371192" parent="0" id_b="61177504" id_e="61374888" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.452417">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61372536" parent="0" id_b="59391032" id_e="61178224" b_x="403.167" b_y="675.463" e_x="265.5" e_y="486.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61376064" parent="0" id_b="61177504" id_e="61370184" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.340707">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="59664896" parent="0" id_b="59391032" id_e="61180960" b_x="403.167" b_y="675.463" e_x="265.5" e_y="447.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61371696" parent="0" id_b="59391032" id_e="59388440" b_x="403.167" b_y="675.463" e_x="265.5" e_y="357.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61373712" parent="0" id_b="61177504" id_e="61412656" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.509299">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61377912" parent="0" id_b="59391032" id_e="61180816" b_x="403.167" b_y="675.463" e_x="560" e_y="522.943" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61370520" parent="0" id_b="59391032" id_e="59390600" b_x="403.167" b_y="675.463" e_x="267.5" e_y="226.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61371528" parent="0" id_b="59391032" id_e="61180240" b_x="403.167" b_y="675.463" e_x="558.5" e_y="231.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61377408" parent="0" id_b="61177504" id_e="61375056" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.494063">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="59662544" parent="0" id_b="59391032" id_e="61181104" b_x="403.167" b_y="675.463" e_x="559.5" e_y="329.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61375560" parent="0" id_b="61177504" id_e="61415344" b_x="387.444" b_y="179.018" e_x="-53" e_y="-63.0572" dotBBalance="0" dotEBalance="0.505903">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="61373880" parent="0" id_b="59391032" id_e="61179376" b_x="403.167" b_y="675.463" e_x="268.5" e_y="284.407" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>

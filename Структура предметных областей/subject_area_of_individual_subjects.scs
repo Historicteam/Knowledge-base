@@ -1,0 +1,33 @@
+subject_area_of_individual_subjects
+=>nrel_main_idtf:
+	[Предметная область индивидуальных субъектов] (* <-lang_ru;; *);
+	[subject area of individual subjects] (* <-lang_en;; *);
+	[Прадметная вобласць індывідуальных суб'ектаў] (* <-lang_by;; *);
+	
+/*
+<- rrel_key_sc_element:
+		Definition_of_individual_subject
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " индивидуальный субъект "] (* <-lang_ru;; *);
+		[Definition of individual subject] (* <-lang_en;; *);
+		[Азначэнне паняцця "індывідуальны суб'ект "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_by;; *);; 
+		*);;
+	*);
+*/
+
+<-sc_node_not_relation;	
+<-sc_const;;

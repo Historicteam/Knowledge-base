@@ -1,0 +1,9 @@
+{
+    "sources": [
+        "src/openstreetmap.js"
+    ],
+
+    "component": "src/openstreetmap-component.js",
+
+    "target": "static/components/js/openstreetmap/openstreetmap.js"
+}

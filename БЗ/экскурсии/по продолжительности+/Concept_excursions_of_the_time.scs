@@ -1,0 +1,27 @@
+concept_excursions_of_the_time
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+	[экскурсии по времени]
+	(*
+	<- lang_ru;;
+	*);
+	[excursions of the time]
+	(*
+	<- lang_en;;
+	*);
+	[экскурсіі па часе]
+	(*
+	<- lang_by;;
+	*);
+
+
+<= nrel_subdividing: ...
+	(*
+	-> concept_1_day_4_days_excursion;;
+	-> concept_45_minutes_1_day_excursion;;
+     *)
+;;

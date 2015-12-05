@@ -1,0 +1,54 @@
+concept_demonstration_excursion
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия-демонстрация]
+(*
+<- lang_ru;;
+*);
+[demonstration excursion]
+(*
+<- lang_en;;
+*);
+[экскурсія-дэманстрацыя]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ экскурсия-демонстрация - это экскурсия,которая ознакомленимает группы с природными явлениями, производственными процессами и т. д ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[экскурсія-дэманстрацыя - гэта экскурсія, якая ознакомленимает групы з прыроднымі з'явамі, вытворчымі працэсамі і т. д]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[demonstration excursion - an excursion that familiarize group of natural phenomena, processes, and so on. etc.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+
+
