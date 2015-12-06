@@ -1,0 +1,27 @@
+	Image_of_map_of_Minsk_1903
+	=> nrel_main_idtf:
+		[Изображение карты Минска 1903]
+		(*
+		<- lang_ru;;
+		*);
+		[Image of map of Minsk 1903]
+		(*
+		<- lang_en;;
+		*);
+		[Выява мапы Мiнска 1903]
+		(*
+		<- lang_by;;
+		*);
+		
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/minsk1903.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

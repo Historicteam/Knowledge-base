@@ -13,11 +13,12 @@ Plan_of_Minsk_1858
 => nrel_sourse: [Т.А.Карповiч. Культурнае жыццё Мiнска I падовы XIX стагоддзя. -- Мiнск, "Рыфтур", 2007. -- Ст.4-5](*<-lang_by;;*);
 	
 
-<= decomposition_relation: 
+<= nrel_section_decomposition: 
 {
 Legend_of_plan_of_Minsk_1858;
 Image_of_plan_of_Minsk_1858
 };
+
 
 => nrel_start_time: ...
 (*

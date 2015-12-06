@@ -1,0 +1,30 @@
+concept_small_scale_plan
+<-sc_const;
+<-sc_node_not_relation;
+         
+         => nrel_main_idtf:
+         [мелкомасштабный план] (* <- lang_ru;; *);
+         [small-scale plan] (* <- lang_en;; *);
+         [дробнамаштабны план] (* <- lang_by;; *);
+
+         <- rrel_key_sc_element: ...
+        (*
+        <-sc_definition;;
+        <=nrel_sc_text_translation: ...
+        (*
+        -> sc_example:
+        [small-scale plan - plan with a scale of 1:10000 and less]
+        (*
+        <- lang_en;;
+        *);
+        [Мелкомасштабный план - план с масштабом 1:10000 и мельче]
+        (*
+         <-lang_ru;;
+        *);
+        [Дробнамаштабны план - план з маштабам 1:10000 и менш]
+        (*
+        <-lang_by;;
+        *);;
+        *);;
+        *);;
+ 

@@ -1,0 +1,29 @@
+concept_mesoscale_plan
+<-sc_const;
+<-sc_node_not_relation;
+         
+         => nrel_main_idtf:
+         [среднемасштабный план] (* <- lang_ru;; *);
+         [mesoscale plan] (* <- lang_en;; *);
+         [сярэднемаштабны план] (* <- lang_by;; *);
+
+          <- rrel_key_sc_element: ...
+        (*
+        <-sc_definition;;
+        <=nrel_sc_text_translation: ...
+        (*
+        -> sc_example:
+        [mesocale plan - plan with a scale of 1:1000-1:5000]
+        (*
+        <- lang_en;;
+            *);
+        [среднемасштабный план - план с масштабом 1:1000-1:5000]
+        (*
+         <-lang_ru;;
+        *);
+        [сярэднемаштабны план - план з маштабам 1:1000-1:5000]
+        (*
+        <-lang_by;;
+        *);;
+        *);;
+        *);;

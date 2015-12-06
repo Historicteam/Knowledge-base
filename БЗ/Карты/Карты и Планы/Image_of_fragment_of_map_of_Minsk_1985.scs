@@ -1,0 +1,27 @@
+	Image_of_fragment_of_map_of_Minsk_1985
+	=> nrel_main_idtf:
+		[Изображение фрагмента карты Минска 1985]
+		(*
+		<- lang_ru;;
+		*);
+		[Image of fragment of map of Minsk 1985]
+		(*
+		<- lang_en;;
+		*);
+		[Выява фрагмента мапы Мiнска 1985]
+		(*
+		<- lang_by;;
+		*);
+		
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/minsk1985.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

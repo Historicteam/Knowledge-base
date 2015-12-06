@@ -1,0 +1,32 @@
+
+
+concept_special_plan
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[специальный план](*<- lang_ru;;*);
+	[special plan](*<- lang_en;;*);
+    	[спецыяльны план](*<- lang_by;;*);
+
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Special plans are designed to address a specific range of tasks, or intended for certain groups of users]
+    (*
+    <- lang_en;;
+    *);
+  [Специальные планы предназначены для решения определенного круга задач или рассчитаны на определенные круги пользователей]
+    (*
+     <-lang_ru;;
+    *);
+  [Адмысловыя планы прызначаны для развязка вызначанага кола заданняў ці вылічаны на вызначаныя колы карыстачоў]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

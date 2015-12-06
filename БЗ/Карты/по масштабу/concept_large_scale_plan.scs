@@ -1,0 +1,30 @@
+concept_large_scale_plan
+<-sc_const;
+<-sc_node_not_relation;
+         
+         => nrel_main_idtf:
+         [крупномасштабный план] (* <- lang_ru;; *);
+         [large-scale plan] (* <- lang_en;; *);
+         [буйнамаштабны план] (* <- lang_by;; *);
+
+
+<- rrel_key_sc_element: ...
+        (*
+        <-sc_definition;;
+        <=nrel_sc_text_translation: ...
+        (*
+        -> sc_example:
+        [large-scale paln - plan with a scale of 1:5000 and more]
+        (*
+        <- lang_en;;
+            *);
+        [Крупномасштабный план - план с масштабом 1:5000 и больше]
+        (*
+         <-lang_ru;;
+        *);
+        [Буйнамаштабны план - план з маштабам 1:5000 и больш]
+        (*
+        <-lang_by;;
+        *);;
+        *);;
+        *);;
