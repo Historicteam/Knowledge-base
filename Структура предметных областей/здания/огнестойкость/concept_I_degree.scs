@@ -1,22 +1,22 @@
 concept_I_degree
 =>nrel_main_idtf:
-	[I степень] (* <-lang_ru;; *);
+	[I СЃС‚РµРїРµРЅСЊ] (* <-lang_ru;; *);
 	[I degree ] (* <-lang_en;; *);
-	[I  ступень ] (* <-lang_by;; *);
+	[I  СЃС‚СѓРїРµРЅСЊ ] (* <-lang_by;; *);
 	
 
 <- rrel_key_sc_element:
-		Definition_of_I_degree
+		Explanation_of_I_degree
 	(* 
 	=>nrel_main_idtf:
-		[Определение понятия "I степень"] (* <-lang_ru;; *);
+		[РћРїСЂРµРґРµР»РµРЅРёРµ РїРѕРЅСЏС‚РёСЏ "I СЃС‚РµРїРµРЅСЊ"] (* <-lang_ru;; *);
 		[Definition of I degree] (* <-lang_en;; *);
-		[Азначэнне паняцця "I  ступень  "] (* <-lang_by;; *);;
-	<- sc_definition;;
+		[РђР·РЅР°С‡СЌРЅРЅРµ РїР°РЅСЏС†С†СЏ "I  СЃС‚СѓРїРµРЅСЊ  "] (* <-lang_by;; *);;
+	<- sc_explanation
 	<= nrel_sc_text_translation:
 		...
 		(* 
-		-> rrel_example: [I degree — каменные конструкции.] (* <-lang_ru;; *);; 
+		-> rrel_example: [I degree вЂ” РєР°РјРµРЅРЅС‹Рµ РєРѕРЅСЃС‚СЂСѓРєС†РёРё.] (* <-lang_ru;; *);; 
 		*);
 		...
 		(* 
@@ -24,7 +24,7 @@ concept_I_degree
 		*);
 		...
 		(* 
-		-> rrel_example: [I ступень -каменные канструкцыі.] (* <-lang_by;; *);; 
+		-> rrel_example: [I СЃС‚СѓРїРµРЅСЊ -РєР°РјРµРЅРЅС‹Рµ РєР°РЅСЃС‚СЂСѓРєС†С‹С–.] (* <-lang_by;; *);; 
 		*);;
 	*);
 
