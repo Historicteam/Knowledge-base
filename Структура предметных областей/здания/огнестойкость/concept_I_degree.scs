@@ -12,7 +12,7 @@ concept_I_degree
 		[Определение понятия "I степень"] (* <-lang_ru;; *);
 		[Definition of I degree] (* <-lang_en;; *);
 		[Азначэнне паняцця "I  ступень  "] (* <-lang_by;; *);;
-	<- sc_explanation
+	<- sc_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(* 
