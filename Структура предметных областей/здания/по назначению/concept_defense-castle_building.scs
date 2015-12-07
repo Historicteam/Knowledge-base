@@ -1,0 +1,33 @@
+concept_defense-castle_building
+
+=> nrel_main_idtf:
+	[оборонно-крепостное здание] (* <-lang_ru;; *);
+	[defense-castle building] (* <-lang_en;; *);
+	[абаронна-прыгоннае будынак] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_defense-castle_building
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "ќборонно-крепостное здание"] (* <-lang_ru;; *);
+		[Definition of defense-castle building] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "јбаронна-прыгонны будынак"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ќборонно-крепостное здание - укреплЄнна€ крепость или здание,основна€ функци€ которого оборона/защита.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Defense-castle building - a fortified castle or building, the main function of which defense / protection.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [јбаронна-прыгоннае будынак - Ґмацавана€ крэпасць або будынак, асноҐна€ функцы€ €кога абарона / абарона.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

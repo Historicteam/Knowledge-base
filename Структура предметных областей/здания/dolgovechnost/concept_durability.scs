@@ -1,0 +1,32 @@
+concept_durability
+=>nrel_main_idtf:
+	[долговечность ] (* <-lang_ru;; *);
+	[durability] (* <-lang_en;; *);
+	[даўгавечнасць ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_durability
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " долговечность "] (* <-lang_ru;; *);
+		[Definition of durability] (* <-lang_en;; *);
+		[Азначэнне паняцця "даўгавечнасць "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Долговечность — свойство элемента или системы длительно сохранять работоспособность до наступления предельного состояния при определенных условиях эксплуатации.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Durability - property of the system or for a long time continue to operate until the limit state under certain conditions.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Даўгавечнасць - ўласцівасць элемента або сістэмы доўга захоўваць працаздольнасць да наступу гранічнага стану пры пэўных умовах эксплуатацыі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

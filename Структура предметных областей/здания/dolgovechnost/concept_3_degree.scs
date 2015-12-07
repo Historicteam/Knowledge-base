@@ -1,0 +1,32 @@
+concept_3_degree
+=>nrel_main_idtf:
+	[3 степень] (* <-lang_ru;; *);
+	[3 degree] (* <-lang_en;; *);
+	[3 ступень ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_3_degree
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "3 степень "] (* <-lang_ru;; *);
+		[Definition of 3 degree] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "3 ступень"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [3 степень Ч не менее 20 лет.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [3 degree - at least 20 years.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [3 ступень - не менш за 20 гадоҐ.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

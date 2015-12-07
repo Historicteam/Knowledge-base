@@ -1,0 +1,32 @@
+concept_group_II
+=>nrel_main_idtf:
+	[√руппа II ] (* <-lang_ru;; *);
+	[Group II] (* <-lang_en;; *);
+	[√рупа II] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Explanation_of_group_II
+	(* 
+	=>nrel_main_idtf:
+		[ѕо€снение пон€ти€ "√руппа II "] (* <-lang_ru;; *);
+		[Explanation of group II] (* <-lang_en;; *);
+		[“лумачэнне пан€цц€ "√рупа II"] (* <-lang_by;; *);;
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [√руппа II Ч коммуникации: тоннели, каналы, опоры дл€ линий электропередач и стойки дл€ светильников, отдельно сто€щие опоры дл€ трубопроводов, эстакады дл€ трубопроводов, дымовые трубы.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Group II - communications: tunnels, channels, support for power lines and racks, lighting, freestanding support for piping, racks for pipes, chimneys.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [√рупа II - камун≥кацы≥: тунэл≥, каналы, апоры дл€ л≥н≥й электраперадач ≥ стойк≥ дл€ св€ц≥лень, асобна ста€ць апоры дл€ трубаправодаҐ, эстакады дл€ трубаправодаҐ, дымавы€ трубы.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

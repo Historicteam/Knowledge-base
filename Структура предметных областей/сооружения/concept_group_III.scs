@@ -1,0 +1,32 @@
+concept_group_III
+=>nrel_main_idtf:
+	[√руппа III] (* <-lang_ru;; *);
+	[Group III ] (* <-lang_en;; *);
+	[√рупа III] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Explanation_of_group_III
+	(* 
+	=>nrel_main_idtf:
+		[ѕо€снение пон€ти€ "√руппа III "] (* <-lang_ru;; *);
+		[Explanation of group III] (* <-lang_en;; *);
+		[“лумачэнне пан€цц€ "√рупа III"] (* <-lang_by;; *);;
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [√руппа III Ч сооружени€ транспорта: разгрузочные эстакады, открытые крановые эстакады, конвейерные галереи, подпорные стенки.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Group III - construction of transport: unloading rack, open crane trestles, conveyor galleries, retaining walls.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [√рупа III - збудаванн≥ транспарту: разгрузны€ эстакады, адкрыты€ крановые эстакады, канвеерны€ галерэ≥, подпорные сценк≥.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

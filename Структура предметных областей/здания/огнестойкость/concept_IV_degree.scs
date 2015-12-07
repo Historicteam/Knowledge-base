@@ -1,0 +1,32 @@
+concept_IV_degree
+=>nrel_main_idtf:
+	[IV степень ] (* <-lang_ru;; *);
+	[IV dergree ] (* <-lang_en;; *);
+	[IV  ступень ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_IV_degree
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ " IV степень "] (* <-lang_ru;; *);
+		[Definition of IV degree] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "IV  ступень  "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [IV степень Ч дерев€нные оштукатуренные.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [IV degree - wooden plastered.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [IV ступень - драҐл€ны€ абтынкаваны€.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

@@ -1,0 +1,32 @@
+concept_V_degree
+=>nrel_main_idtf:
+	[V степень ] (* <-lang_ru;; *);
+	[ V degree] (* <-lang_en;; *);
+	[V  ступень ] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_V_degree
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ "V степень"] (* <-lang_ru;; *);
+		[Definition of V degree] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "V ступень "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [V степень Ч дерев€нные неоштукатуренные.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [V degree - wooden plastered.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [ V ступень - драҐл€ны€ неатынкаваных.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

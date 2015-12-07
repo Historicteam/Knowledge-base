@@ -1,0 +1,33 @@
+concept_residential_building
+
+=> nrel_main_idtf:
+	[жилое здание] (* <-lang_ru;; *);
+	[residential building] (* <-lang_en;; *);
+	[жылы будынак] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_residential_building
+	(* 
+	=>nrel_main_idtf:
+		[ќпределение пон€ти€ " жилое здание"] (* <-lang_ru;; *);
+		[Definition of residential building] (* <-lang_en;; *);
+		[јзначэнне пан€цц€ "жылы будынак"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [«дание, предназначенное дл€ посто€нного или временного проживани€ людей ] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [The building - a building designed for permanent or temporary residence of people.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [∆ылы будынак - будынак, прызначанае дл€ паста€ннага або часовага пражыванн€ людзей.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

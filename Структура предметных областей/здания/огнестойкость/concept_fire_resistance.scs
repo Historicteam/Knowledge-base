@@ -1,0 +1,32 @@
+concept_fire_resistance
+=>nrel_main_idtf:
+	[Огнестойкость ] (* <-lang_ru;; *);
+	[fire resistance ] (* <-lang_en;; *);
+	[Вогнеўстойлівасць] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_fire_resistance
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "Огнестойкость"] (* <-lang_ru;; *);
+		[Definition of fire  resistance] (* <-lang_en;; *);
+		[Азначэнне паняцця "Вогнеўстойлівасць"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Огнестойкость — способность строительных конструкций ограничивать распространение огня, а также сохранять необходимые эксплуатационные качества при высоких температурах в условиях пожара. Характеризуется пределами огнестойкости и распространения огня.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Fire resistance - the ability of building structures to limit the spread of fire, as well as the continued need for performance at high temperatures in a fire. It is characterized by fire resistance and fire spread.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Вогнеўстойлівасць - здольнасць будаўнічых канструкцый абмяжоўваць распаўсюджванне агню, а таксама захоўваць неабходныя эксплуатацыйныя якасці пры высокіх тэмпературах ва ўмовах пажару. Характарызуецца межамі вогнеўстойлівасці і распаўсюджвання агню.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;
