@@ -115,9 +115,9 @@ concepy_durability
 
 subdividing_by_fire_resistance
     =>nrel_main_idtf:
-	[подразделения по ] (* <-lang_ru;; *);
-	[subdividing by ] (* <- lang_en;; *);
-	[падраздзялення па ] (* <- lang_by;; *);;
+	[подразделения по огнестойкости] (* <-lang_ru;; *);
+	[subdividing by fire resistance] (* <- lang_en;; *);
+	[падраздзялення па вогнеустойлiвасцi] (* <- lang_by;; *);;
 
 
 concepy_durability
