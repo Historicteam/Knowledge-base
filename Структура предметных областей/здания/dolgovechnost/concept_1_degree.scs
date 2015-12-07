@@ -6,13 +6,13 @@ concept_1_degree
 	
 
 <- rrel_key_sc_element:
-		Definition_of_1_degree
+		Explanation_of_1_degree
 	(* 
 	=>nrel_main_idtf:
 		[Определение понятия "1 степень "] (* <-lang_ru;; *);
 		[Definition of 1 degree] (* <-lang_en;; *);
 		[Азначэнне паняцця "1 ступень "] (* <-lang_by;; *);;
-	<- sc_definition;;
+	<- sc_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(* 
