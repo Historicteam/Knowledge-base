@@ -1,0 +1,11 @@
+ui_menu_na_keynodes
+<- ui_user_command_class_noatom;
+<= nrel_ui_commands_decomposition:...
+	(*
+		->ui_menu_finding_links;;
+		->ui_menu_file_for_finding_time_faults_in_time_contours;;
+        	->ui_menu_file_for_finding_time_situations_which_last_till_now;;
+	*);
+=> nrel_main_idtf:
+	[Ключевые узлы навигации] (* <- lang_ru;; *);
+	[Keynodes for navigation] (* <- lang_en;; *);;
