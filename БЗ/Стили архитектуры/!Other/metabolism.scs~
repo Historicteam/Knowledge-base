@@ -1,4 +1,4 @@
-concept_metabolism
+concept_arch_metabolism
 =>nrel_main_idtf:
 	[метаболизм] (* <-lang_ru;; *);
 	[metabolism] (* <-lang_en;; *);

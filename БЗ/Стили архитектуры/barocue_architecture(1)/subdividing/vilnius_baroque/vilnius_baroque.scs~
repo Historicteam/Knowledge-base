@@ -1,8 +1,8 @@
-concept_arch_classical_baroque
+concept_arch_vilnius_baroque
 =>nrel_main_idtf:
-	[классическое барокко] (* <-lang_ru;; *);
-	[classical baroque] (* <-lang_en;; *);
-	[класічнае барока] (* <-lang_by;; *);
+	[виленское барокко] (* <-lang_ru;; *);
+	[vilnius baroque] (* <-lang_en;; *);
+	[віленскае барока] (* <-lang_by;; *);
 <-concept_architectural_style;
 
 
@@ -15,7 +15,7 @@ concept_arch_classical_baroque
 		...
 		(*
 		-> rrel_example:
-		[Классическое барокко.]
+		[Виленское барокко.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -30,7 +30,7 @@ concept_arch_classical_baroque
 		...
 		(*
 		-> rrel_example:
-		[Classical baroque.]
+		[Vilnius baroque.]
 			(*
 			<- lang_en;;
 			*);;
@@ -45,14 +45,13 @@ concept_arch_classical_baroque
 		...
 		(*
 		-> rrel_example:
-		[Класічнае барока.]
+		[Віленскае барока.]
 			(*
 			<- lang_by;;
 			*);;
 
 		*);;
 	*);
-
-->Female_Basilian_Monastery_Building;
-->The_building_of_the_Dominican_monastery;
-->Complex_Holy_Church_Dukhovskoi;;
+->The_building_of_the_Mariinsky_Cathedral;
+->Building_archive;
+->Female_Basilian_Monastery_Building;;

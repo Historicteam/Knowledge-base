@@ -1,9 +1,9 @@
-concept_neo-romanticism
+concept_neo_romanticism
 =>nrel_main_idtf:
 	[неоромантизм] (* <-lang_ru;; *);
 	[neoromanticism] (* <-lang_en;; *);
 	[неараматызм] (* <-lang_by;; *);
-
+<-concept_architectural_style;
 
 
 
@@ -21,7 +21,12 @@ concept_neo-romanticism
 			*);;
 
 		*);;
-
+*);
+			<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
 		...
 		(*
 		-> rrel_example:
@@ -31,7 +36,12 @@ concept_neo-romanticism
 			*);;
 
 		*);;
-
+*);
+			<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
 		...
 		(*
 		-> rrel_example:
@@ -41,4 +51,4 @@ concept_neo-romanticism
 			*);;
 
 		*);;
-	);
+	*);;

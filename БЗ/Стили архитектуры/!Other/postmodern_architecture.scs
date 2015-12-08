@@ -4,7 +4,7 @@ concept_arch_postmodern_architecture
 	[postmodernism] (* <-lang_en;; *);
 	[постмадэрнізм] (* <-lang_by;; *);
 
-<-concept_architectural_style;
+
 
 
 <- rrel_key_sc_element: 

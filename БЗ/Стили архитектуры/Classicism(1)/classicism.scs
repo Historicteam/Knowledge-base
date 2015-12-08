@@ -5,11 +5,11 @@ concept_arch_classicism
 	[класіцызму] (* <-lang_by;; *);
 
 
-->concept_order;
-->concept_doric_column;
-->concept_ionic_column;
-->concept_tuscan_order;
-->concept_composite_order;
+
+->doric_column;
+->ionic_column;
+->tuscan_order;
+->Composite_order;
 
 
 <- rrel_key_sc_element: 
@@ -20,7 +20,7 @@ concept_arch_classicism
 		...
 		(*
 		-> rrel_example:
-		[Классицизм - стиль архитектуры, главной чертой которого было обращение к формам античного зодчества как к эталону гармонии, простоты, строгости, логической ясности и монументальности.]
+		[Классицизм - стиль архитектуры, главной чертой которого было обращение к формам античного зодчества как к эталону гармонии, простоты, строгости, логической ясности и монументальности. Для классицизма свойственны симметрично-осевые композиции, сдержанность декоративного убранства, строгие, повторяющиеся линии, колонны.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -57,8 +57,21 @@ concept_arch_classicism
 
 		*);;
 	*);
-->Female_Basilian_Monastery_Building;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+->Male_Basilian_Monastery_Building;
 ->The_building_of_the_Minsk_Academy_of_Music;
 ->Building_trade_rows;
-->Male_Basilian_Monastery_Building;
 ->Building_courtyard_seating;;

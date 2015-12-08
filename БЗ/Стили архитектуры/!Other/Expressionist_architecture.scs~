@@ -1,7 +1,7 @@
 concept_arch_expressionism
 =>nrel_main_idtf:
 	[экспрессионизм] (* <-lang_ru;; *);
-	[expressionist architecture] (* <-lang_en;; *);
+	[expressionism] (* <-lang_en;; *);
 	[экспрэсіянізм] (* <-lang_by;; *);
 
 <-concept_architectural_style;

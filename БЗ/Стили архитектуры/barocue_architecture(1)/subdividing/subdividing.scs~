@@ -4,5 +4,5 @@ concept_arch_barocue
 	{
 		concept_arch_rococo_architecture;
 		concept_arch_vilnius_baroque;
-		concept_classical_baroque;
+		concept_arch_classical_baroque;
 	};;

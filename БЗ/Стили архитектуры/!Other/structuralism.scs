@@ -4,7 +4,6 @@ concept_arch_structuralism
 	[structuralism] (* <-lang_en;; *);
 	[структуралізм] (* <-lang_by;; *);
 
-<-concept_architectural_style;
 
 
 <- rrel_key_sc_element: 
