@@ -1,0 +1,25 @@
+concept_arch_art_deco
+=>nrel_main_idtf:
+	[Ар-деко] (* <-lang_ru;; *);
+	[Art Deco] (* <-lang_en;; *);
+	[Ар-дэко] (* <-lang_by;; *);
+
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Ар-деко — стиль, для которого характерно использование геометрических форм, симметрии и стилизованных природных мотивов;]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);;
