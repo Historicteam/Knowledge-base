@@ -32,7 +32,7 @@ concept_45_minutes_1_day_excursion
 -> rrel_example:
 [Excursion from 45 minutes to 1 day excursion, which involves carrying out no more than a certain length of tour]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
 *);
 ...

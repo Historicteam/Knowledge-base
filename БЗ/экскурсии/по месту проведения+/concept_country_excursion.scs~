@@ -28,17 +28,21 @@ concept_country_excursion
 <- lang_ru;;
       *);;
   *);
+...
+(*
 -> rrel_example:
 [Загарадная экскурсія-масавае і індывідуальнае наведванне розных мерапрыемстваў і месцаў у пэўным населеным пункце загараднага тыпу]
       (*
 <- lang_by;;
       *);;
+*);
+...
+(*
 -> rrel_example:
 [Country excursion-mass and individual visits to various events and places in a certain village of suburban type]
       (*
 <- lang_eng;;
       *);;
-  *);
-*);
-
+  *);;
+*)
 ;;

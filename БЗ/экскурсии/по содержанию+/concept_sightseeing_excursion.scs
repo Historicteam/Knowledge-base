@@ -35,7 +35,7 @@ concept_sightseeing_excursion
 -> rrel_example:
 [ Sightseeing tour, multifaceted excursion with historical and contemporary material, based on a wide variety of display objects ]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
   *);;
 *)

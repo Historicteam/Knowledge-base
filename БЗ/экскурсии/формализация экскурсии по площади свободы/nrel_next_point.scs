@@ -1,0 +1,40 @@
+nrel_next_point
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[следующий*]
+	(*
+	<- lang_ru;;
+	*);
+	[next*]
+	(*
+	<- lang_en;;
+	*);
+	[наступны*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_domain:
+	concept_building;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[*Следующий-бинарное отношение связывающие два определенных места.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[*Наступны-бінарнае адносіна якое звязвае два месца.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

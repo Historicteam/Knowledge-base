@@ -41,7 +41,7 @@ concept_country_and_town_excursion
 -> rrel_example:
 [Сountry-town excursion-tour, containing the elements of urban and suburban elements tours]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
   *);;
 *)
