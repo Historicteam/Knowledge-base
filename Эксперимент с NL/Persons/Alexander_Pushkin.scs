@@ -1,0 +1,77 @@
+Alexander_Pushkin => nrel_main_idtf:
+   [Alexander Pushkin](* <- lang_en;; *);;
+Alexander_Pushkin => nrel_main_idtf:
+   [Пушкин Александр Сергеевич](* <- lang_ru;; *);;
+Alexander_Pushkin => nrel_first_name:
+    name_Alexander(*
+         => nrel_main_idtf: [Alexander](* <- lang_en;; *);;
+         => nrel_main_idtf: [Александр Сергеевич](* <- lang_ru;; *);;
+        *);;
+Alexander_Pushkin => nrel_surname:
+    surname_Pushkin(*
+         => nrel_main_idtf: [Pushkin](* <- lang_en;; *);;
+         => nrel_main_idtf: [Пушкин](* <- lang_ru;; *);;
+        *);;
+Alexander_Pushkin <- concept_male;;
+Alexander_Pushkin <- rrel_key_sc_element:
+    Alexander_Pushkin_Image (*
+    => nrel_main_idtf:
+     [Image of Alexander Pushkin](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Пушкин Александр Сергеевич - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Alexander_Pushkin.jpg"(* <-image;; *);;
+        *);;
+*);;
+Alexander_Pushkin => nrel_date_of_birth: 1799_06_06
+    (*
+    => nrel_main_idtf:
+    [June 06, 1799](* <- lang_en;; *);
+    [06 июня, 1799](* <- lang_ru;; *);;
+    *);;
+Alexander_Pushkin => nrel_date_of_death: 1837_02_10
+    (*
+    => nrel_main_idtf:
+    [February 10, 1837](* <- lang_en;; *);
+    [10 февраля, 1837](* <- lang_ru;; *);;
+    *);;
+Alexander_Pushkin <= nrel_student: 
+    Tsarskoye_Selo_Lyceum
+        (*
+        => nrel_main_idtf:
+            [Tsarskoye Selo Lyceum](* <- lang_en;; *);
+            [Императорский Царскосельский лицей](* <- lang_ru;; *);;
+        *);;
+Alexander_Pushkin <- 
+    poet
+        (*
+        => nrel_main_idtf:
+            [poet](* <- lang_en;; *);
+            [поэт](* <- lang_ru;; *);;
+        *);
+    novelist
+        (*
+        => nrel_main_idtf:
+            [novelist](* <- lang_en;; *);
+            [романист](* <- lang_ru;; *);;
+        *);
+    playwright
+        (*
+        => nrel_main_idtf:
+            [playwright](* <- lang_en;; *);
+            [драматург](* <- lang_ru;; *);;
+        *);;
+Alexander_Pushkin <- rrel_key_sc_element:
+    Alexander_Pushkin_Main_Information (*
+    => nrel_main_idtf:
+     [Alexander Pushkin - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Пушкин Александр Сергеевич - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Александр Сергеевич Пушкин — русский поэт, драматург и прозаик.](* <-lang_ru;; *);;
+        *);;
+*);;

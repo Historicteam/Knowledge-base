@@ -1,0 +1,51 @@
+Ryhor_Baradulin => nrel_main_idtf:
+   [Ryhor Baradulin](* <- lang_en;; *);;
+Ryhor_Baradulin => nrel_main_idtf:
+   [Бородулин Рыгор Иванович](* <- lang_ru;; *);;
+Ryhor_Baradulin => nrel_first_name:
+    name_Ryhor(*
+         => nrel_main_idtf: [Ryhor](* <- lang_en;; *);;
+         => nrel_main_idtf: [Рыгор Иванович](* <- lang_ru;; *);;
+        *);;
+Ryhor_Baradulin => nrel_surname:
+    surname_Baradulin(*
+         => nrel_main_idtf: [Baradulin](* <- lang_en;; *);;
+         => nrel_main_idtf: [Бородулин](* <- lang_ru;; *);;
+        *);;
+Ryhor_Baradulin <- concept_male;;
+Ryhor_Baradulin <- rrel_key_sc_element:
+    Ryhor_Baradulin_Image (*
+    => nrel_main_idtf:
+     [Image of Ryhor Baradulin](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Бородулин Рыгор Иванович - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Ryhor_Baradulin.jpg"(* <-image;; *);;
+        *);;
+*);;
+Ryhor_Baradulin => nrel_date_of_birth: 1935_02_24
+    (*
+    => nrel_main_idtf:
+    [February 24, 1935](* <- lang_en;; *);
+    [24 февраля, 1935](* <- lang_ru;; *);;
+    *);;
+Ryhor_Baradulin => nrel_date_of_death: 2014_03_02
+    (*
+    => nrel_main_idtf:
+    [March 02, 2014](* <- lang_en;; *);
+    [02 марта, 2014](* <- lang_ru;; *);;
+    *);;
+Ryhor_Baradulin <- rrel_key_sc_element:
+    Ryhor_Baradulin_Main_Information (*
+    => nrel_main_idtf:
+     [Ryhor Baradulin - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Бородулин Рыгор Иванович - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Рыгор  Иванович Бородулин — белорусский поэт, эссеист, переводчик. Народный поэт Беларуси .](* <-lang_ru;; *);;
+        *);;
+*);;

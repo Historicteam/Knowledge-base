@@ -1,0 +1,45 @@
+Leonid_Mandelstam => nrel_main_idtf:
+   [Leonid Mandelstam](* <- lang_en;; *);;
+Leonid_Mandelstam => nrel_main_idtf:
+   [Мандельштам Леонид Исаакович](* <- lang_ru;; *);;
+Leonid_Mandelstam => nrel_first_name:
+    name_Leonid(*
+         => nrel_main_idtf: [Leonid](* <- lang_en;; *);;
+         => nrel_main_idtf: [Леонид Исаакович](* <- lang_ru;; *);;
+        *);;
+Leonid_Mandelstam => nrel_surname:
+    surname_Mandelstam(*
+         => nrel_main_idtf: [Mandelstam](* <- lang_en;; *);;
+         => nrel_main_idtf: [Мандельштам](* <- lang_ru;; *);;
+        *);;
+Leonid_Mandelstam <- concept_male;;
+Leonid_Mandelstam <- rrel_key_sc_element:
+    Leonid_Mandelstam_Image (*
+    => nrel_main_idtf:
+     [Image of Leonid Mandelstam](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Мандельштам Леонид Исаакович - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Leonid_Mandelstam.jpg"(* <-image;; *);;
+        *);;
+*);;
+Leonid_Mandelstam => nrel_date_of_death: 1944_11_27
+    (*
+    => nrel_main_idtf:
+    [November 27, 1944](* <- lang_en;; *);
+    [27 ноября, 1944](* <- lang_ru;; *);;
+    *);;
+Leonid_Mandelstam <- rrel_key_sc_element:
+    Leonid_Mandelstam_Main_Information (*
+    => nrel_main_idtf:
+     [Leonid Mandelstam - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Мандельштам Леонид Исаакович - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Леонид Исаакович Мандельштам — советский физик, академик Академии наук СССР .](* <-lang_ru;; *);;
+        *);;
+*);;

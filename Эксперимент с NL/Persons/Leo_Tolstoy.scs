@@ -1,0 +1,76 @@
+Leo_Tolstoy => nrel_main_idtf:
+   [Leo Tolstoy](* <- lang_en;; *);;
+Leo_Tolstoy => nrel_main_idtf:
+   [Толстой Лев Николаевич](* <- lang_ru;; *);;
+Leo_Tolstoy => nrel_first_name:
+    name_Leo(*
+         => nrel_main_idtf: [Leo](* <- lang_en;; *);;
+         => nrel_main_idtf: [Лев Николаевич](* <- lang_ru;; *);;
+        *);;
+Leo_Tolstoy => nrel_surname:
+    surname_Tolstoy(*
+         => nrel_main_idtf: [Tolstoy](* <- lang_en;; *);;
+         => nrel_main_idtf: [Толстой](* <- lang_ru;; *);;
+        *);;
+Leo_Tolstoy <- concept_male;;
+Leo_Tolstoy <- rrel_key_sc_element:
+    Leo_Tolstoy_Image (*
+    => nrel_main_idtf:
+     [Image of Leo Tolstoy](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Толстой Лев Николаевич - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Leo_Tolstoy.jpg"(* <-image;; *);;
+        *);;
+*);;
+Leo_Tolstoy => nrel_date_of_birth: 1828_09_09
+    (*
+    => nrel_main_idtf:
+    [September 09, 1828](* <- lang_en;; *);
+    [09 сентября, 1828](* <- lang_ru;; *);;
+    *);;
+Leo_Tolstoy => nrel_date_of_death: 1910_11_20
+    (*
+    => nrel_main_idtf:
+    [November 20, 1910](* <- lang_en;; *);
+    [20 ноября, 1910](* <- lang_ru;; *);;
+    *);;
+Leo_Tolstoy <- 
+    novelist
+        (*
+        => nrel_main_idtf:
+            [novelist](* <- lang_en;; *);
+            [романист](* <- lang_ru;; *);;
+        *);
+    short_story_writer
+        (*
+        => nrel_main_idtf:
+            [short story writer](* <- lang_en;; *);
+            [новеллист](* <- lang_ru;; *);;
+        *);
+    playwright
+        (*
+        => nrel_main_idtf:
+            [playwright](* <- lang_en;; *);
+            [драматург](* <- lang_ru;; *);;
+        *);
+    essayist
+        (*
+        => nrel_main_idtf:
+            [essayist](* <- lang_en;; *);
+            [эссеист](* <- lang_ru;; *);;
+        *);;
+Leo_Tolstoy <- rrel_key_sc_element:
+    Leo_Tolstoy_Main_Information (*
+    => nrel_main_idtf:
+     [Leo Tolstoy - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Толстой Лев Николаевич - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Граф Лев Николаевич Толстой — один из наиболее широко известных русских писателей и мыслителей, почитаемый как один из величайших писателей мира. Участник обороны Севастополя. Просветитель, публицист, религиозный мыслитель, его авторитетное мнение послужило причиной возникновения нового религиозно-нравственного течения— толстовства. Член-корреспондент Императорской Академии наук , почётный академик по разряду изящной словесности .](* <-lang_ru;; *);;
+        *);;
+*);;

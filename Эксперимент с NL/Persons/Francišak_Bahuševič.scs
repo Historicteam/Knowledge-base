@@ -1,0 +1,64 @@
+Francishak_Bahushevich => nrel_main_idtf:
+   [Francishak Bahushevich](* <- lang_en;; *);;
+Francishak_Bahushevich => nrel_main_idtf:
+   [Богушевич Франциск Бенедикт](* <- lang_ru;; *);;
+Francishak_Bahushevich => nrel_first_name:
+    name_Francishak(*
+         => nrel_main_idtf: [Francishak](* <- lang_en;; *);;
+         => nrel_main_idtf: [Бенедикт](* <- lang_ru;; *);;
+        *);;
+Francishak_Bahushevich => nrel_surname:
+    surname_Bahushevich(*
+         => nrel_main_idtf: [Bahushevich](* <- lang_en;; *);;
+         => nrel_main_idtf: [Богушевич](* <- lang_ru;; *);;
+        *);;
+Francishak_Bahushevich <- concept_andy;;
+Francishak_Bahushevich <- rrel_key_sc_element:
+    Francishak_Bahushevich_Image (*
+    => nrel_main_idtf:
+     [Image of Francishak Bahushevich](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Богушевич Франциск Бенедикт - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Francishak_Bahushevich.jpg"(* <-image;; *);;
+        *);;
+*);;
+Francishak_Bahushevich => nrel_date_of_birth: 1840_03_21
+    (*
+    => nrel_main_idtf:
+    [March 21, 1840](* <- lang_en;; *);
+    [21 марта, 1840](* <- lang_ru;; *);;
+    *);;
+Francishak_Bahushevich => nrel_date_of_death: 1900_04_28
+    (*
+    => nrel_main_idtf:
+    [April 28, 1900](* <- lang_en;; *);
+    [28 апреля, 1900](* <- lang_ru;; *);;
+    *);;
+Francishak_Bahushevich <- 
+    poet
+        (*
+        => nrel_main_idtf:
+            [poet](* <- lang_en;; *);
+            [поэт](* <- lang_ru;; *);;
+        *);
+    essayist
+        (*
+        => nrel_main_idtf:
+            [essayist](* <- lang_en;; *);
+            [эссеист](* <- lang_ru;; *);;
+        *);;
+Francishak_Bahushevich <- rrel_key_sc_element:
+    Francishak_Bahushevich_Main_Information (*
+    => nrel_main_idtf:
+     [Francishak Bahushevich - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Богушевич Франциск Бенедикт - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Богушевич, Франциск Бенедикт — белорусский и польский поэт, один из основоположников новой белорусской литературы.](* <-lang_ru;; *);;
+        *);;
+*);;

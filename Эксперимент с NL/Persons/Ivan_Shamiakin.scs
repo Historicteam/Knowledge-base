@@ -1,0 +1,58 @@
+Ivan_Shamiakin => nrel_main_idtf:
+   [Ivan Shamiakin](* <- lang_en;; *);;
+Ivan_Shamiakin => nrel_main_idtf:
+   [Шамякин Иван Петрович](* <- lang_ru;; *);;
+Ivan_Shamiakin => nrel_first_name:
+    name_Ivan(*
+         => nrel_main_idtf: [Ivan](* <- lang_en;; *);;
+         => nrel_main_idtf: [Иван Петрович](* <- lang_ru;; *);;
+        *);;
+Ivan_Shamiakin => nrel_surname:
+    surname_Shamiakin(*
+         => nrel_main_idtf: [Shamiakin](* <- lang_en;; *);;
+         => nrel_main_idtf: [Шамякин](* <- lang_ru;; *);;
+        *);;
+Ivan_Shamiakin <- concept_male;;
+Ivan_Shamiakin <- rrel_key_sc_element:
+    Ivan_Shamiakin_Image (*
+    => nrel_main_idtf:
+     [Image of Ivan Shamiakin](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Шамякин Иван Петрович - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Ivan_Shamiakin.jpg"(* <-image;; *);;
+        *);;
+*);;
+Ivan_Shamiakin => nrel_date_of_birth: 1921_01_30
+    (*
+    => nrel_main_idtf:
+    [January 30, 1921](* <- lang_en;; *);
+    [30 января, 1921](* <- lang_ru;; *);;
+    *);;
+Ivan_Shamiakin => nrel_date_of_death: 2004_10_15
+    (*
+    => nrel_main_idtf:
+    [October 15, 2004](* <- lang_en;; *);
+    [15 октября, 2004](* <- lang_ru;; *);;
+    *);;
+Ivan_Shamiakin <- 
+    writer
+        (*
+        => nrel_main_idtf:
+            [writer](* <- lang_en;; *);
+            [писатель](* <- lang_ru;; *);;
+        *);;
+Ivan_Shamiakin <- rrel_key_sc_element:
+    Ivan_Shamiakin_Main_Information (*
+    => nrel_main_idtf:
+     [Ivan Shamiakin - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Шамякин Иван Петрович - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Иван Петрович Шамякин — белорусский советский писатель, общественный деятель.](* <-lang_ru;; *);;
+        *);;
+*);;

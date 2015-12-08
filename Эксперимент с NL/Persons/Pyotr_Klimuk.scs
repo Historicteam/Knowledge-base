@@ -1,0 +1,45 @@
+Pyotr_Klimuk => nrel_main_idtf:
+   [Pyotr Klimuk](* <- lang_en;; *);;
+Pyotr_Klimuk => nrel_main_idtf:
+   [Климук Пётр Ильич](* <- lang_ru;; *);;
+Pyotr_Klimuk => nrel_first_name:
+    name_Pyotr(*
+         => nrel_main_idtf: [Pyotr](* <- lang_en;; *);;
+         => nrel_main_idtf: [Ильич](* <- lang_ru;; *);;
+        *);;
+Pyotr_Klimuk => nrel_surname:
+    surname_Klimuk(*
+         => nrel_main_idtf: [Klimuk](* <- lang_en;; *);;
+         => nrel_main_idtf: [Климук](* <- lang_ru;; *);;
+        *);;
+Pyotr_Klimuk <- concept_male;;
+Pyotr_Klimuk <- rrel_key_sc_element:
+    Pyotr_Klimuk_Image (*
+    => nrel_main_idtf:
+     [Image of Pyotr Klimuk](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Климук Пётр Ильич - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Pyotr_Klimuk.jpg"(* <-image;; *);;
+        *);;
+*);;
+Pyotr_Klimuk => nrel_date_of_birth: 1942_07_10
+    (*
+    => nrel_main_idtf:
+    [July 10, 1942](* <- lang_en;; *);
+    [10 июля, 1942](* <- lang_ru;; *);;
+    *);;
+Pyotr_Klimuk <- rrel_key_sc_element:
+    Pyotr_Klimuk_Main_Information (*
+    => nrel_main_idtf:
+     [Pyotr Klimuk - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Климук Пётр Ильич - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Пётр Ильич Климук — космонавт, генерал-полковник, дважды Герой Советского Союза . Кандидат технических наук . Член КПСС с 1963 года.](* <-lang_ru;; *);;
+        *);;
+*);;

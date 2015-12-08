@@ -1,0 +1,45 @@
+Vladimir_Kovalyonok => nrel_main_idtf:
+   [Vladimir Kovalyonok](* <- lang_en;; *);;
+Vladimir_Kovalyonok => nrel_main_idtf:
+   [Ковалёнок Владимир Васильевич](* <- lang_ru;; *);;
+Vladimir_Kovalyonok => nrel_first_name:
+    name_Vladimir(*
+         => nrel_main_idtf: [Vladimir](* <- lang_en;; *);;
+         => nrel_main_idtf: [Владимир Васильевич](* <- lang_ru;; *);;
+        *);;
+Vladimir_Kovalyonok => nrel_surname:
+    surname_Kovalyonok(*
+         => nrel_main_idtf: [Kovalyonok](* <- lang_en;; *);;
+         => nrel_main_idtf: [Ковалёнок](* <- lang_ru;; *);;
+        *);;
+Vladimir_Kovalyonok <- concept_male;;
+Vladimir_Kovalyonok <- rrel_key_sc_element:
+    Vladimir_Kovalyonok_Image (*
+    => nrel_main_idtf:
+     [Image of Vladimir Kovalyonok](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Ковалёнок Владимир Васильевич - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Vladimir_Kovalyonok.jpg"(* <-image;; *);;
+        *);;
+*);;
+Vladimir_Kovalyonok => nrel_date_of_birth: 1942_03_03
+    (*
+    => nrel_main_idtf:
+    [March 03, 1942](* <- lang_en;; *);
+    [03 марта, 1942](* <- lang_ru;; *);;
+    *);;
+Vladimir_Kovalyonok <- rrel_key_sc_element:
+    Vladimir_Kovalyonok_Main_Information (*
+    => nrel_main_idtf:
+     [Vladimir Kovalyonok - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Ковалёнок Владимир Васильевич - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Владимир Васильевич Ковалёнок — советский космонавт, дважды Герой Советского Союза. В настоящее время является президентом Федерации космонавтики России.](* <-lang_ru;; *);;
+        *);;
+*);;

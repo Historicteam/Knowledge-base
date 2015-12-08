@@ -1,0 +1,45 @@
+Tadeusz_Kosciuszko => nrel_main_idtf:
+   [Tadeusz Kosciuszko](* <- lang_en;; *);;
+Tadeusz_Kosciuszko => nrel_main_idtf:
+   [Костюшко Тадеуш](* <- lang_ru;; *);;
+Tadeusz_Kosciuszko => nrel_first_name:
+    name_Tadeusz(*
+         => nrel_main_idtf: [Tadeusz](* <- lang_en;; *);;
+         => nrel_main_idtf: [Тадеуш](* <- lang_ru;; *);;
+        *);;
+Tadeusz_Kosciuszko => nrel_surname:
+    surname_Kosciuszko(*
+         => nrel_main_idtf: [Kosciuszko](* <- lang_en;; *);;
+         => nrel_main_idtf: [Костюшко](* <- lang_ru;; *);;
+        *);;
+Tadeusz_Kosciuszko <- concept_male;;
+Tadeusz_Kosciuszko <- rrel_key_sc_element:
+    Tadeusz_Kosciuszko_Image (*
+    => nrel_main_idtf:
+     [Image of Tadeusz Kosciuszko](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Костюшко Тадеуш - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Tadeusz_Kosciuszko.jpg"(* <-image;; *);;
+        *);;
+*);;
+Tadeusz_Kosciuszko => nrel_date_of_death: 1817_10_15
+    (*
+    => nrel_main_idtf:
+    [October 15, 1817](* <- lang_en;; *);
+    [15 октября, 1817](* <- lang_ru;; *);;
+    *);;
+Tadeusz_Kosciuszko <- rrel_key_sc_element:
+    Tadeusz_Kosciuszko_Main_Information (*
+    => nrel_main_idtf:
+     [Tadeusz Kosciuszko - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Костюшко Тадеуш - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Анджей Тадеуш Бонавентура Костюшко или Косцюшко — военный и политический деятель Речи Посполитой и США, участник Войны за независимость США, руководитель польского восстания 1794 года, национальный герой Польши, США, Литвы и Белоруссии, почётный гражданин Франции.](* <-lang_ru;; *);;
+        *);;
+*);;
