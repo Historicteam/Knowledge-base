@@ -1,0 +1,51 @@
+concept_baroque_window
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[барочное окно]
+(*
+<- lang_ru;;
+*);
+[baroque window]
+(*
+<- lang_en;;
+*);
+[барочнае окно]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Барочнае окно - окно, характерное для барочного стиля.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Барочнае акно - акно, якое характэрна для барочнага стылю.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);
+<=nrel_subdividing:
+ ...
+(*
+-> concept_baroque_window_with_classic_top;;
+-> concept_baroque_elongated_window;;
+-> concept_baroque_window_with_rounded_top;;
+-> concept_picture_window;;
+      
+       
+       
+       
+	*);;
+

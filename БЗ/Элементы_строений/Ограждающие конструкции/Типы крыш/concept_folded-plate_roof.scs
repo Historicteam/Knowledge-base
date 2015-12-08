@@ -1,55 +1,1 @@
-folded_plate_roof 
-<-sc_const;
-<-sc_node_not_relation;
-=> nrel_main_idtf:
-	[Складчатая крыша]
-	(*
-	<- lang_ru;;
-	*);
-	[Folded-plate roof]
-	(*
-	<- lang_en;;
-	*);
-	[Складкаваты дах]
-	(*
-	<- lang_by;;
-	*);
-<- rrel_key_sc_element:
-	...
-	(*
-	
-        <-sc_explanation;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example:
-			[Складчатая крыша - это тип крышы, который образуется от соединения отдельных трапецеидальных элементов и складок.]
-			(*
-			<- lang_ru;;
-			*);;
-		*);
-		
-		
-		...
-		(*
-		-> rrel_example:
-			[Складкаваты дах - гэта тып даху, які утвараецца ад злучэння асобных трапецаідальных элементаў - зморшчын.]
-			(*
-			<- lang_by;;
-			*);;
-		*);;
-<- rrel_key_sc_element:
-...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/складчатая.gif"
-			(*
-			=> nrel_format: format_gif;;
-			*);;
-		*);;
-	*);;
-
-*);;
+concept_folded_plate_roof <-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:	[cкладчатая крыша]	(*	<- lang_ru;;	*);	[folded-plate roof]	(*	<- lang_en;;	*);	[cкладкаваты дах]	(*	<- lang_by;;	*);<- rrel_key_sc_element:	...	(*	        <-sc_explanation;;	<=nrel_sc_text_translation:		...		(*		-> rrel_example:			[Складчатая крыша - это тип крышы, который образуется от соединения отдельных трапецеидальных элементов и складок.]			(*			<- lang_ru;;			*);;		*);						...		(*		-> rrel_example:			[Складкаваты дах - гэта тып даху, які утвараецца ад злучэння асобных трапецаідальных элементаў - зморшчын.]			(*			<- lang_by;;			*);;		*);;*);<- rrel_key_sc_element:...	(*	<-sc_illustration;;	<=nrel_sc_text_translation:		...		(*		->rrel_example: "file://content/складчатая.jpg"			(*			=> nrel_format: format_jpg;;			*);;		*);;	*);;

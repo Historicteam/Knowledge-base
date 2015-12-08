@@ -1,0 +1,52 @@
+concept_baroque_window_with_classic_top
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[барочное окно с классическим верхом]
+(*
+<- lang_ru;;
+*);
+[baroque window with classic top]
+(*
+<- lang_en;;
+*);
+[барочнае акно з класічным верхам]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Барочное окно с классическим верхом - окно, c классическим верхом.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Барочнае акно з класічным верхам - акно, с класічным верхом.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);
+<- rrel_key_sc_element:
+...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/classic.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+
