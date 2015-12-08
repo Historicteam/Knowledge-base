@@ -1,0 +1,38 @@
+Rogvolod => nrel_main_idtf:
+   [Rogvolod](* <- lang_en;; *);;
+Rogvolod => nrel_main_idtf:
+   [Рогволод](* <- lang_ru;; *);;
+Rogvolod => nrel_first_name:
+    name_Rogvolod(*
+         => nrel_main_idtf: [Rogvolod](* <- lang_en;; *);;
+        *);;
+Rogvolod => nrel_surname:
+    surname_Rogvolod(*
+         => nrel_main_idtf: [Rogvolod](* <- lang_en;; *);;
+         => nrel_main_idtf: [Рогволод](* <- lang_ru;; *);;
+        *);;
+Rogvolod <- concept_andy;;
+Rogvolod <- rrel_key_sc_element:
+    Rogvolod_Image (*
+    => nrel_main_idtf:
+     [Image of Rogvolod](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Рогволод - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Rogvolod.jpg"(* <-image;; *);;
+        *);;
+*);;
+Rogvolod <- rrel_key_sc_element:
+    Rogvolod_Main_Information (*
+    => nrel_main_idtf:
+     [Rogvolod - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Рогволод - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Рогволод — князь Полоцкий, отец Рогнеды, участник событий междоусобной борьбы в 975—980 гг.](* <-lang_ru;; *);;
+        *);;
+*);;

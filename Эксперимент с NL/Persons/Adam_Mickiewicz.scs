@@ -1,0 +1,76 @@
+Adam_Mickiewicz => nrel_main_idtf:
+   [Adam Mickiewicz](* <- lang_en;; *);;
+Adam_Mickiewicz => nrel_main_idtf:
+   [Мицкевич Адам](* <- lang_ru;; *);;
+Adam_Mickiewicz => nrel_first_name:
+    name_Adam(*
+         => nrel_main_idtf: [Adam](* <- lang_en;; *);;
+         => nrel_main_idtf: [Адам](* <- lang_ru;; *);;
+        *);;
+Adam_Mickiewicz => nrel_surname:
+    surname_Mickiewicz(*
+         => nrel_main_idtf: [Mickiewicz](* <- lang_en;; *);;
+         => nrel_main_idtf: [Мицкевич](* <- lang_ru;; *);;
+        *);;
+Adam_Mickiewicz <- concept_male;;
+Adam_Mickiewicz <- rrel_key_sc_element:
+    Adam_Mickiewicz_Image (*
+    => nrel_main_idtf:
+     [Image of Adam Mickiewicz](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Мицкевич Адам - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Adam_Mickiewicz.jpg"(* <-image;; *);;
+        *);;
+*);;
+Adam_Mickiewicz => nrel_date_of_birth: 1798_12_24
+    (*
+    => nrel_main_idtf:
+    [December 24, 1798](* <- lang_en;; *);
+    [24 декабря, 1798](* <- lang_ru;; *);;
+    *);;
+Adam_Mickiewicz => nrel_date_of_death: 1855_11_26
+    (*
+    => nrel_main_idtf:
+    [November 26, 1855](* <- lang_en;; *);
+    [26 ноября, 1855](* <- lang_ru;; *);;
+    *);;
+Adam_Mickiewicz <- 
+    poet
+        (*
+        => nrel_main_idtf:
+            [poet](* <- lang_en;; *);
+            [поэт](* <- lang_ru;; *);;
+        *);
+    dramatist
+        (*
+        => nrel_main_idtf:
+            [dramatist](* <- lang_en;; *);
+            [драматург](* <- lang_ru;; *);;
+        *);
+    essayist
+        (*
+        => nrel_main_idtf:
+            [essayist](* <- lang_en;; *);
+            [эссеист](* <- lang_ru;; *);;
+        *);
+    professor_of_literature
+        (*
+        => nrel_main_idtf:
+            [professor of literature](* <- lang_en;; *);
+            [профессор литературы](* <- lang_ru;; *);;
+        *);;
+Adam_Mickiewicz <- rrel_key_sc_element:
+    Adam_Mickiewicz_Main_Information (*
+    => nrel_main_idtf:
+     [Adam Mickiewicz - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Мицкевич Адам - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Адам Бернард Мицкевич — белорусский и польский польскоязычный поэт, политический публицист, деятель национально-освободительного движения. Оказал большое влияние на становление белорусской и польской литературы в XIXв.. В Польше также считается одним из трёх величайших польских поэтов эпохи романтизма ](* <-lang_ru;; *);;
+        *);;
+*);;

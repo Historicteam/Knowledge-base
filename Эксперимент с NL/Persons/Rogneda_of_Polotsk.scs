@@ -1,0 +1,34 @@
+Rogneda_of_Polotsk => nrel_main_idtf:
+   [Rogneda of Polotsk](* <- lang_en;; *);;
+Rogneda_of_Polotsk => nrel_main_idtf:
+   [Рогнеда Рогволодовна](* <- lang_ru;; *);;
+Rogneda_of_Polotsk => nrel_first_name:
+    name_Rogneda(*
+         => nrel_main_idtf: [Rogneda](* <- lang_en;; *);;
+         => nrel_main_idtf: [Рогнеда](* <- lang_ru;; *);;
+        *);;
+Rogneda_of_Polotsk <- concept_female;;
+Rogneda_of_Polotsk <- rrel_key_sc_element:
+    Rogneda_of_Polotsk_Image (*
+    => nrel_main_idtf:
+     [Image of Rogneda of Polotsk](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Рогнеда Рогволодовна - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Rogneda_of_Polotsk.jpg"(* <-image;; *);;
+        *);;
+*);;
+Rogneda_of_Polotsk <- rrel_key_sc_element:
+    Rogneda_of_Polotsk_Main_Information (*
+    => nrel_main_idtf:
+     [Rogneda of Polotsk - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Рогнеда Рогволодовна - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Рогнеда Рогволодовна — княжна полоцкая, дочь князя полоцкого Рогволода, одна из жён великого князя киевского Владимира Святославича, мать князя полоцкого Изяслава Владимировича— родоначальника династии Изяславичей Полоцких, великого князя киевского Ярослава Владимировича и первого князя волынского Всеволода Владимировича .](* <-lang_ru;; *);;
+        *);;
+*);;

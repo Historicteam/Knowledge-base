@@ -1,0 +1,33 @@
+Vseslav_of_Polotsk => nrel_main_idtf:
+   [Vseslav of Polotsk](* <- lang_en;; *);;
+Vseslav_of_Polotsk => nrel_main_idtf:
+   [Всеслав Брячиславич](* <- lang_ru;; *);;
+Vseslav_of_Polotsk => nrel_first_name:
+    name_Vseslav(*
+         => nrel_main_idtf: [Vseslav](* <- lang_en;; *);;
+        *);;
+Vseslav_of_Polotsk <- concept_male;;
+Vseslav_of_Polotsk <- rrel_key_sc_element:
+    Vseslav_of_Polotsk_Image (*
+    => nrel_main_idtf:
+     [Image of Vseslav of Polotsk](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Всеслав Брячиславич - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Vseslav_of_Polotsk.gif"(* <-image;; *);;
+        *);;
+*);;
+Vseslav_of_Polotsk <- rrel_key_sc_element:
+    Vseslav_of_Polotsk_Main_Information (*
+    => nrel_main_idtf:
+     [Vseslav of Polotsk - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Всеслав Брячиславич - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Всеслав Брячиславич — князь полоцкий с 1044 года, единственный представитель полоцкой ветви Рюриковичей на киевском великокняжеском престоле . Примечателен также как герой «Слова о полку Игореве» и восточнославянского фольклора, где он предстаёт как богатырь и чародей, способный оборачиваться зверем; а также необычайно длительным княжением в Полоцке .](* <-lang_ru;; *);;
+        *);;
+*);;
