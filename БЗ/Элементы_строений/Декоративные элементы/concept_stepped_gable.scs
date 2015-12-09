@@ -1,0 +1,39 @@
+concept_stepped_gable
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[ступенчатый фронтон]
+(*
+<- lang_ru;;
+*);
+[stepped gable]
+(*
+<- lang_en;;
+*);
+[ступенясты франтон]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Ступенчатый фронтон - фронтон в виде ступеней, уменьшающихся в своих размерах к верху.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Франтон - торцевая сторона крыши, образованная скатами.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);;

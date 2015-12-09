@@ -1,0 +1,39 @@
+concept_stepped_parapet
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[ступенчатый парапет]
+(*
+<- lang_ru;;
+*);
+[stepped parapet]
+(*
+<- lang_en;;
+*);
+[ступенясты парапет]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Ступенчатый парапет - парапет в виде ступеней, уменьшающихся в своих размерах кверху.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Франтон - торцевая сторона крыши, образованная скатами.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);;
