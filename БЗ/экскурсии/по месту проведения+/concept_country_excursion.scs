@@ -41,7 +41,7 @@ concept_country_excursion
 -> rrel_example:
 [Country excursion-mass and individual visits to various events and places in a certain village of suburban type]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
   *);;
 *)

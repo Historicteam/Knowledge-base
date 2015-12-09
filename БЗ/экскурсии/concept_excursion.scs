@@ -6,7 +6,7 @@ concept_excursion
 
 
 => nrel_main_idtf:
-[экскурси¤]
+[экскурсия]
 (*
 <- lang_ru;;
 *);
@@ -14,23 +14,152 @@ concept_excursion
 (*
 <- lang_en;;
 *);
-[экскурс≥¤]
+[экскурсія]
 (*
 <- lang_by;;
 *);
 
 
-<= nrel_subdividing: ...
+<= nrel_subdividing: 
+subdiving_of_content
 	(*
-	-> concept_excursions_to_content;;
-	-> concept_excursions_of_the_number_of_participants;;
-     -> concept_excursions_to_the_venue;;
-     -> concept_excursions_the_method_of_movement;;
-    -> concept_excursions_of_the_time;;
-    -> concept_excursion_in_the_form_of;;
-	*)
-;
+         => nrel_main_idtf:
+         [разбиение экскурсии по содержанию]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё экскурсіі па змесце]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving of content]
+         (*
+         <- lang_en;;
+         *);;
 
+	-> concept_sightseeing_excursion;;
+	-> concept_thematic_excursion;;
+	
+	*);
+
+<= nrel_subdividing: 
+subdiving_of_the_number_of_participants
+	(*
+         => nrel_main_idtf:
+         [разбиение экскурсии по количеству участников]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё экскурсіі па колькасці ўдзельнікаў]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving of the number of participants]
+         (*
+         <- lang_en;;
+         *);;
+
+	-> concept_individual_excursion;;
+	-> concept_mass_excursion;;
+	
+	*);
+
+<= nrel_subdividing: 
+subdiving_to_the_venue
+	(*
+         => nrel_main_idtf:
+         [разбиение экскурсии по месту проведения ]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё экскурсіі па месцы правядзення]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving to the venue]
+       (*
+         <- lang_en;;
+         *);;
+
+	-> concept_town_excursion;;
+	-> concept_country_excursion;;
+	-> concept_country_and_town_excursion;;
+	
+	*);
+
+
+<= nrel_subdividing: 
+subdiving_the_method_of_movement
+	(*
+         => nrel_main_idtf:
+         [разбиение экскурсии по методу передвижения]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё экскурсіі па метадзе перамяшчэння]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving the_method_of_movement]
+(*
+         <- lang_en;;
+         *);;
+
+	-> concept_walking_excursion;;
+	-> concept_transport_excursion;;
+	*);
+
+<= nrel_subdividing: 
+subdiving_of_the_time
+	(*
+         => nrel_main_idtf:
+         [разбиение экскурсии по времени]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё экскурсіі па часе]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving of the time]
+(*
+         <- lang_en;;
+         *);;
+
+	-> concept_1_day_4_days_excursion;;
+	-> concept_45_minutes_1_day_excursion;;
+	*);
+
+     
+     <= nrel_subdividing: 
+subdiving_in_the_form_of
+	(*
+         => nrel_main_idtf:
+         [разбиение экскурсии по форме содержания]
+         (*
+         <- lang_ru;;
+         *);
+		  [разбіццё экскурсіі па форме ўтрымання]
+         (*
+         <- lang_by;;
+         *);
+        [subdiving in the form of]
+(*
+         <- lang_en;;
+         *);;
+
+	-> concept_consultation_excursion;;
+	->concept_demonstration_excursion;;
+	->concept_excursion_concert;;
+	-> concept_excursion_extras;;
+	
+	-> concept_excursion_lecture;;
+	-> concept_excursion_performance;;
+	-> concept_stroll_excursion;;
+	
+	*);
+    
+    
 <- rrel_key_sc_element: ...
 (*
 <-sc_definition;;
@@ -38,7 +167,7 @@ concept_excursion
 ...
   (*
 -> rrel_example:
-[ Ёкскурси¤-коллективное или индивидуальное посещение музе¤, достопримечательного места, выставки, предпри¤ти¤;поездка, прогулка с образовательной, научной, спортивной или увеселительной целью]
+[ Экскурсия-коллективное или индивидуальное посещение музея, достопримечательного места, выставки, предприятий;поездка, прогулка с образовательной, научной, спортивной или увеселительной целью]
       (*
 <- lang_ru;;
       *);;
@@ -46,7 +175,7 @@ concept_excursion
 ...
 (*
 -> rrel_example:
-[ Ёкскурс≥¤-калекты¢нае або ≥ндыв≥дуальнае наведванне музе¤, славутых месца¢, выставы, прадпрыемствы, паездка, прагулка з адукацыйнай, навуковай, спарты¢най або м¤не пасл¤ мэтай]
+[ Экскурсія-калектыўнае або індывідуальнае наведванне музея, славутых месцаў, выставы, прадпрыемстваў; паездка, прагулка з адукацыйнай, навуковай, спартыўнай або мяне пасля мэтай]
       (*
 <- lang_by;;
       *);;

@@ -1,0 +1,44 @@
+nrel_route_point
+
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[маршрут*]
+	(*
+	<- lang_ru;;
+	*);
+	[route*]
+	(*
+	<- lang_en;;
+	*);
+	[маршрут*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_excursion;
+=> nrel_second_domain:
+	concept_contour;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[*Маршрут-бинарное отношение связывающие экскурсию и маршрут.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[*Маршрут-бінарнае адносіна якае звязвае экскурсію і маршрут.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

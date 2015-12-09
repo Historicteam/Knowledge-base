@@ -23,21 +23,26 @@ concept_literary_excursion
 <=nrel_sc_text_translation: ...
   (*
 -> rrel_example:
-[ Ћитературна¤ экскурси¤-экскурси¤ ,котора¤ раскрывает определенные периоды развити¤ литературы и проводитс¤ в местах,св¤занных с литературным прошлым]
+[ Литературна¤ экскурси¤-экскурси¤ ,котора¤ раскрывает определенные периоды развити¤ литературы и проводитс¤ в местах,св¤занных с литературным прошлым]
       (*
 <- lang_ru;;
       *);;
   *);
+...
+(*
 -> rrel_example:
 [Ћ≥таратурна¤ экскурс≥¤-экскурс≥¤, ¤ка¤ раскрывае пэ¢ны¤ перы¤ды разв≥цц¤ л≥таратуры ≥ праводз≥цца ¢ месцах, зв¤заных з л≥таратурнай м≥нулым]
       (*
 <- lang_by;;
       *);;
+*);
+...
+(*
 -> rrel_example:
 [Literary tour-excursion that reveals certain periods of the development of literature and conducted in areas associated with the literary past]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
-  *);
-*);
+  *);;
+*)
 ;;

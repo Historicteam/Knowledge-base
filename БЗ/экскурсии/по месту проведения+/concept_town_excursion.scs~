@@ -37,7 +37,7 @@ concept_town_excursion
       (*
 <- lang_by;;
       *);;
-);
+*);
 ...
 (*
 -> rrel_example:

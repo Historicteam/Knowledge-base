@@ -13,7 +13,7 @@ concept_thematic_excursion
 <- lang_en;;
 *);
 
-<=nrel_inclusion: concept_excursion;
+
 <- rrel_key_sc_element: ...
 (*
 <-sc_definition;;
@@ -41,5 +41,12 @@ concept_thematic_excursion
 <- lang_en;;
       *);;
   *);;
-*)
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_literary_excursion;;
+	-> concept_historical_excursion;;
+	-> concept_biographical_excursion;;
+	-> concept_architectural_excursion;;
+	*)
 ;;

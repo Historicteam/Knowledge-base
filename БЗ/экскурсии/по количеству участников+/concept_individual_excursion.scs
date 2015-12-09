@@ -38,7 +38,7 @@ concept_individual_excursion
 -> rrel_example:
 [Individual excursion - excursion that is specifically carried out for the individual]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
   *);;
 *)
