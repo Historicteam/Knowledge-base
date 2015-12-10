@@ -43,7 +43,7 @@ concept_walking_excursion
 -> rrel_example:
 [ Walking tour-foot visiting various places and activities]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
   *);;
 *)

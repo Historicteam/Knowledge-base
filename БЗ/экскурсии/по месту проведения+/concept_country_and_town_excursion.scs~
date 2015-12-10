@@ -28,17 +28,21 @@ concept_country_and_town_excursion
 <- lang_ru;;
       *);;
   *);
+...
+(*
 -> rrel_example:
 [Загарадна-гарадская  экскурсія-экскурсія, якая змяшчае як элементы гарадской, так і элементы загараднай экскурсіі]
       (*
 <- lang_by;;
       *);;
+*);
+...
+(*
 -> rrel_example:
 [Сountry-town excursion-tour, containing the elements of urban and suburban elements tours]
       (*
 <- lang_eng;;
       *);;
-  *);
-*);
-
+  *);;
+*)
 ;;

@@ -34,7 +34,7 @@ concept_45_minutes_1_day_excursion
       (*
 <- lang_eng;;
       *);;
-*)
+*);
 ...
 (*
 -> rrel_example:

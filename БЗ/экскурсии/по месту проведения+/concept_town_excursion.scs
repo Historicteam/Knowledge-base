@@ -43,7 +43,7 @@ concept_town_excursion
 -> rrel_example:
 [ City excursion-mass and individual visits to various events and places within a defined urban settlements]
       (*
-<- lang_eng;;
+<- lang_en;;
       *);;
   *);;
 *)
