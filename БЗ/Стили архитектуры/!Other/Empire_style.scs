@@ -3,7 +3,7 @@ concept_arch_empire_style
 	[ампир] (* <-lang_ru;; *);
 	[empire style] (* <-lang_en;; *);
 	[ампір] (* <-lang_by;; *);
-<-concept_architectural_style;
+
 
 	<-sc_explanation;;
 	<=nrel_sc_text_translation: 

@@ -3,7 +3,7 @@ concept_arch_rococo_architecture
 	[архитектура рококо] (* <-lang_ru;; *);
 	[rococo architecture] (* <-lang_en;; *);
 	[архітэктура рококо] (* <-lang_by;; *);
-<-concept_architectural_style;
+
 
 
 

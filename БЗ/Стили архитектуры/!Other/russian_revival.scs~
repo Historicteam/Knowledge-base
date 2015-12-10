@@ -1,8 +1,8 @@
-concept_arch_neo_renaissance
+concept_russian_revival
 =>nrel_main_idtf:
-	[нео-ренессанс] (* <-lang_ru;; *);
-	[neo_renaissance] (* <-lang_en;; *);
-	[неа-рэнесанс] (* <-lang_by;; *);
+	[псевдорусский силь] (* <-lang_ru;; *);
+	[russian revival] (* <-lang_en;; *);
+	[псеўдарускі стыль] (* <-lang_by;; *);
 
 <-concept_architectural_style;
 
@@ -15,11 +15,12 @@ concept_arch_neo_renaissance
 		...
 		(*
 		-> rrel_example:
-		[Неоренессанс — одна из наиболее распространённых форм архитектурной эклектики XIX века, воспроизводившая архитектурные решения времён Возрождения.]
+		[Псевдорусский стиль.]
 			(*
 			<- lang_ru;;
 			*);;
 
 		*);;
 
-	*);;
+	*);
+->Complex_Holy_Church_Dukhovskoi;;

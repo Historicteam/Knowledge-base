@@ -4,7 +4,6 @@ concept_arch_neo_gothic
 	[neo-gothic] (* <-lang_en;; *);
 	[неаготыка] (* <-lang_by;; *);
 
-<-concept_architectural_style;
 
 
 <- rrel_key_sc_element: 

@@ -3,7 +3,7 @@ concept_arch_modern
 	[модерн] (* <-lang_ru;; *);
 	[modern] (* <-lang_en;; *);
 	[мадэрн] (* <-lang_by;; *);
-<-concept_architectural_style;
+
 
 
 

@@ -3,7 +3,7 @@ concept_arch_bio_tech
 	[био-тек] (* <-lang_ru;; *);
 	[bio-tech] (* <-lang_en;; *);
 	[бія-тэк] (* <-lang_by;; *);
-<-concept_architectural_style;
+
 
 
 

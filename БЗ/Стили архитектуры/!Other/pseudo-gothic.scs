@@ -4,7 +4,7 @@ concept_arch_pseudo_gothic
 	[pseudo-gothic] (* <-lang_en;; *);
 	[псеўдаготыка] (* <-lang_by;; *);
 
-<-concept_architectural_style;
+
 
 
 <- rrel_key_sc_element: 
