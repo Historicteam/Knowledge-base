@@ -1,0 +1,51 @@
+Alaiza_Pashkievich => nrel_main_idtf:
+   [Alaiza Pashkievich](* <- lang_en;; *);;
+Alaiza_Pashkievich => nrel_main_idtf:
+   [Пашкевич Алоиза Степановна](* <- lang_ru;; *);;
+Alaiza_Pashkievich => nrel_first_name:
+    name_Alaiza(*
+         => nrel_main_idtf: [Alaiza](* <- lang_en;; *);;
+         => nrel_main_idtf: [Алоиза Степановна](* <- lang_ru;; *);;
+        *);;
+Alaiza_Pashkievich => nrel_surname:
+    surname_Pashkievich(*
+         => nrel_main_idtf: [Pashkievich](* <- lang_en;; *);;
+         => nrel_main_idtf: [Пашкевич](* <- lang_ru;; *);;
+        *);;
+Alaiza_Pashkievich <- concept_andy;;
+Alaiza_Pashkievich <- rrel_key_sc_element:
+    Alaiza_Pashkievich_Image (*
+    => nrel_main_idtf:
+     [Image of Alaiza Pashkievich](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Пашкевич Алоиза Степановна - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Alaiza_Pashkievich.jpg"(* <-image;; *);;
+        *);;
+*);;
+Alaiza_Pashkievich => nrel_date_of_birth: 1876_07_15
+    (*
+    => nrel_main_idtf:
+    [July 15, 1876](* <- lang_en;; *);
+    [15 июля, 1876](* <- lang_ru;; *);;
+    *);;
+Alaiza_Pashkievich => nrel_date_of_death: 1916_11_05
+    (*
+    => nrel_main_idtf:
+    [November 05, 1916](* <- lang_en;; *);
+    [05 ноября, 1916](* <- lang_ru;; *);;
+    *);;
+Alaiza_Pashkievich <- rrel_key_sc_element:
+    Alaiza_Pashkievich_Main_Information (*
+    => nrel_main_idtf:
+     [Alaiza Pashkievich - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Пашкевич Алоиза Степановна - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Алоиза Степановна Пашкевич — белорусская поэтесса, прозаик, общественно-политический деятель, актриса, педагог.](* <-lang_ru;; *);;
+        *);;
+*);;

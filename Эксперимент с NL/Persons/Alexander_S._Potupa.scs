@@ -1,0 +1,51 @@
+Alexander_S_Potupa => nrel_main_idtf:
+   [Alexander S. Potupa](* <- lang_en;; *);;
+Alexander_S_Potupa => nrel_main_idtf:
+   [Потупа Александр Сергеевич](* <- lang_ru;; *);;
+Alexander_S_Potupa => nrel_first_name:
+    name_Alexander(*
+         => nrel_main_idtf: [Alexander](* <- lang_en;; *);;
+         => nrel_main_idtf: [Александр Сергеевич](* <- lang_ru;; *);;
+        *);;
+Alexander_S_Potupa => nrel_surname:
+    surname_Potupa(*
+         => nrel_main_idtf: [Potupa](* <- lang_en;; *);;
+         => nrel_main_idtf: [Потупа](* <- lang_ru;; *);;
+        *);;
+Alexander_S_Potupa <- concept_male;;
+Alexander_S_Potupa <- rrel_key_sc_element:
+    Alexander_S_Potupa_Image (*
+    => nrel_main_idtf:
+     [Image of Alexander S. Potupa](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Потупа Александр Сергеевич - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Alexander_S_Potupa.jpg"(* <-image;; *);;
+        *);;
+*);;
+Alexander_S_Potupa => nrel_date_of_birth: 1945_03_21
+    (*
+    => nrel_main_idtf:
+    [March 21, 1945](* <- lang_en;; *);
+    [21 марта, 1945](* <- lang_ru;; *);;
+    *);;
+Alexander_S_Potupa => nrel_date_of_death: 2009_06_01
+    (*
+    => nrel_main_idtf:
+    [June 01, 2009](* <- lang_en;; *);
+    [01 июня, 2009](* <- lang_ru;; *);;
+    *);;
+Alexander_S_Potupa <- rrel_key_sc_element:
+    Alexander_S_Potupa_Main_Information (*
+    => nrel_main_idtf:
+     [Alexander S. Potupa - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Потупа Александр Сергеевич - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Александр Сергеевич Потупа — физик, философ, писатель, популяризатор науки.](* <-lang_ru;; *);;
+        *);;
+*);;

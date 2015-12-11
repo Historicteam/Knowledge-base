@@ -13,10 +13,18 @@ Minsk_Railway_Station_Building
 	(*
 	<- lang_en;;
 	*);
+
+=> nrel_openstreetmap:
+	[Minsk_Railway_Station_Building] 
+	(*
+	=> nrel_format:
+		format_openstreetmap;;
+	*);
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: ...
+	=> nrel_WGS_84_translation: [53.890572, 27.550837]
 		(*
 		-> ...
 			(*

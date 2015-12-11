@@ -1,0 +1,48 @@
+concept_1_day_4_days_excursion
+//
+<-sc_const;
+<-sc_node_not_relation;
+//
+=> nrel_main_idtf:
+[экскурсия от 1 до 4 дней]
+(*
+<- lang_ru;;
+*);
+[excursion from 1 to 4 days]
+(*
+<- lang_en;;
+*);
+[экскурсія ад 1 да 4 дзён]
+(*
+<- lang_by;;
+*);
+//
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Экскурсия от 1 до 4 дней-экскурсия ,которая предполагает проведение нескольких экскурсий различной продолжительности]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[The excursion from 1 to 4 days-tour, which involves a number of tours of varying duration]
+      (*
+<- lang_en;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Экскурсія ад 1 да 4 дзён-экскурсія, якая прадугледжвае правядзенне некалькіх экскурсій рознай працягласці]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*)
+;;

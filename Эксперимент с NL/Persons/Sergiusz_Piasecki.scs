@@ -1,0 +1,64 @@
+Sergiusz_Piasecki => nrel_main_idtf:
+   [Sergiusz Piasecki](* <- lang_en;; *);;
+Sergiusz_Piasecki => nrel_main_idtf:
+   [Пясецкий Сергей](* <- lang_ru;; *);;
+Sergiusz_Piasecki => nrel_first_name:
+    name_Sergiusz(*
+         => nrel_main_idtf: [Sergiusz](* <- lang_en;; *);;
+         => nrel_main_idtf: [Сергей](* <- lang_ru;; *);;
+        *);;
+Sergiusz_Piasecki => nrel_surname:
+    surname_Piasecki(*
+         => nrel_main_idtf: [Piasecki](* <- lang_en;; *);;
+         => nrel_main_idtf: [Пясецкий](* <- lang_ru;; *);;
+        *);;
+Sergiusz_Piasecki <- concept_male;;
+Sergiusz_Piasecki <- rrel_key_sc_element:
+    Sergiusz_Piasecki_Image (*
+    => nrel_main_idtf:
+     [Image of Sergiusz Piasecki](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Пясецкий Сергей - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Sergiusz_Piasecki.jpg"(* <-image;; *);;
+        *);;
+*);;
+Sergiusz_Piasecki => nrel_date_of_birth: 1901_04_01
+    (*
+    => nrel_main_idtf:
+    [April 01, 1901](* <- lang_en;; *);
+    [01 апреля, 1901](* <- lang_ru;; *);;
+    *);;
+Sergiusz_Piasecki => nrel_date_of_death: 1964_09_12
+    (*
+    => nrel_main_idtf:
+    [September 12, 1964](* <- lang_en;; *);
+    [12 сентября, 1964](* <- lang_ru;; *);;
+    *);;
+Sergiusz_Piasecki <- 
+    writer
+        (*
+        => nrel_main_idtf:
+            [writer](* <- lang_en;; *);
+            [писатель](* <- lang_ru;; *);;
+        *);
+    spy
+        (*
+        => nrel_main_idtf:
+            [spy](* <- lang_en;; *);
+            [шпион](* <- lang_ru;; *);;
+        *);;
+Sergiusz_Piasecki <- rrel_key_sc_element:
+    Sergiusz_Piasecki_Main_Information (*
+    => nrel_main_idtf:
+     [Sergiusz Piasecki - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Пясецкий Сергей - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Сергей Пясецкий — один из наиболее ярких польских писателей белорусского происхождения, политический публицист, офицер разведки, солдат Армии Крайовой.](* <-lang_ru;; *);;
+        *);;
+*);;

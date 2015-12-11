@@ -1,0 +1,48 @@
+concept_literary_excursion
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[литературная экскурсия]
+(*
+<- lang_ru;;
+*);
+[literary excursion]
+(*
+<- lang_en;;
+*);
+[літаратурная экскурсія]
+(*
+<- lang_by;;
+*);
+//
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Литературная экскурсия-экскурсия ,котора¤ раскрывает определенные периоды развития литературы и проводитс¤ в местах,связанных с литературным прошлым]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Ћ≥таратурная экскурсія-экскурсія, якая раскрывае пэуныя перыяды развіцця л≥таратуры і праводзіцца у месцах, звязаных з літаратурным мінулым]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Literary tour-excursion that reveals certain periods of the development of literature and conducted in areas associated with the literary past]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

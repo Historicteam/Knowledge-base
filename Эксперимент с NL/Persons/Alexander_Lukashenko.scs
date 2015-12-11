@@ -1,0 +1,30 @@
+Alexander_Lukashenko => nrel_main_idtf:
+   [Alexander Lukashenko](* <- lang_en;; *);
+   [Лукашенко Александр Григорьевич](* <- lang_ru;; *);;
+Alexander_Lukashenko => nrel_first_name:
+    name_Alexander(*
+         => nrel_main_idtf: [Alexander](* <- lang_en;; *);;
+         => nrel_main_idtf: [Александр](* <- lang_ru;; *);;
+        *);;
+Alexander_Lukashenko => nrel_surname:
+    surname_Lukashenko(*
+         => nrel_main_idtf: [Lukashenko](* <- lang_en;; *);;
+         => nrel_main_idtf: [Лукашенко](* <- lang_ru;; *);;
+        *);;
+Alexander_Lukashenko <- concept_male;;
+Alexander_Lukashenko <- rrel_key_sc_element:
+    Alexander_Lukashenko_Image (*
+    => nrel_main_idtf: [Image of Alexander Lukashenko](* <- lang_en;; *);
+     [Лукашенко Александр Григорьевич - Изображение](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Alexander_Lukashenko.jpeg"(* <-image;; *);;
+        *);;
+*);;
+Alexander_Lukashenko => nrel_date_of_birth: 1954_08_30
+    (*
+    => nrel_main_idtf:
+    [August 30, 1954](* <- lang_en;; *);
+    [30 августа, 1954](* <- lang_ru;; *);;
+    *);;

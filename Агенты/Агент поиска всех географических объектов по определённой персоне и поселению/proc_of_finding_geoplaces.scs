@@ -1,0 +1,283 @@
+scp_program -> proc_of_finding_geoplaces 
+	(*	
+	-> rrel_params: .proc_of_finding_geoplaces_params 
+		(*
+		-> rrel_1: rrel_in: _person;;
+		-> rrel_2: rrel_in: _settlement;;
+		-> rrel_3: rrel_in: _answer;;
+		*);;
+
+	-> rrel_operators: .proc_of_finding_geoplaces_operator_set 
+		(*
+		-> rrel_init: .proc_of_finding_geoplaces_operator1
+			(*
+			<- genEl;;
+		 	-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _not_checked;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator7;;
+			*);; 		         	
+
+		// Looking for all output arcs from the person
+		->.proc_of_finding_geoplaces_operator2 
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _elem;;
+	         
+                 	-> rrel_set_3: rrel_fixed: rrel_scp_var: _not_checked;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator3;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator13;;
+			*);;
+
+		->.proc_of_finding_geoplaces_operator3 
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _not_checked;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc_for_del;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _elem;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator4;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator13;;
+                 	*);;
+
+		-> .proc_of_finding_geoplaces_operator4
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _elem;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator5;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator6;;
+                 	*);;
+
+		-> .proc_of_finding_geoplaces_operator5 
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _elem;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator5.1;;
+			*);;
+
+		->.proc_of_finding_geoplaces_operator5.1 
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _elem;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
+	         
+            -> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+		 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator6;;
+			*);;
+
+		-> .proc_of_finding_geoplaces_operator6 
+			(*
+			<- eraseEl;;
+		 	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc_for_del;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator3;;
+		 	*);;
+
+		// Looking for all input common arcs to the person
+		->.proc_of_finding_geoplaces_operator7 
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _elem;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+	         
+	         
+                 	-> rrel_set_1: rrel_fixed: rrel_scp_var: _not_checked;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator8;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator2;;
+			*);;	
+
+		->.proc_of_finding_geoplaces_operator8 
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _not_checked;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc_for_del;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _abstract_place;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator8_1;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator2;;
+                 	*);;       	
+
+        // Verifying if the element has location (it's possible to have the only one location!)
+        ->.proc_of_finding_geoplaces_operator8_1 
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _physical_place;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_location;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator8_2;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator12;;
+			*);;
+
+		
+		// Start calling recursive
+		-> .proc_of_finding_geoplaces_operator8_2 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_recursive_to_verify_a_given_settlement;;
+			->rrel_2:rrel_fixed:rrel_scp_const:
+			.proc_of_finding_geoplaces_operator8_2_params (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _physical_place;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _settlement;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+				-> rrel_4: rrel_fixed: rrel_scp_var: _answer;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+			=>nrel_goto: .proc_of_finding_geoplaces_operator8_3;;
+		*);;
+
+		// scp-оператор ожидания завершения выполнения программы
+		-> .proc_of_finding_geoplaces_operator8_3 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+			=>nrel_goto: .proc_of_finding_geoplaces_operator8_4;;
+		*);;
+
+		// Check whether the physical place is in the answer
+		->.proc_of_finding_geoplaces_operator8_4 
+		(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator9;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator12;;
+		*);;
+
+        // Creation of the answer
+		->.proc_of_finding_geoplaces_operator9 
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _el;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_location;;
+	         
+            -> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		 	-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+		 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator10;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator12;;
+			*);;
+
+		-> .proc_of_finding_geoplaces_operator10 
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator10_1;;
+			*);;
+
+		-> .proc_of_finding_geoplaces_operator10_1
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_location;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator11;;
+			*);;
+
+		->.proc_of_finding_geoplaces_operator11 
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
+	         
+            -> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+		 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator12;;
+			*);;
+
+		-> .proc_of_finding_geoplaces_operator12 
+			(*
+			<- eraseEl;;
+		 	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc_for_del;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator8;;
+		 	*);; 	 	
+
+		->.proc_of_finding_geoplaces_operator13 
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _el;;
+
+                 	=> nrel_then: .proc_of_finding_geoplaces_operator0;;
+                 	=> nrel_else: .proc_of_finding_geoplaces_operator14;;
+			*);;
+
+		->.proc_of_finding_geoplaces_operator0 
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+
+                 	=> nrel_goto: .proc_of_finding_geoplaces_operator_return;;
+			*);;
+
+		-> .proc_of_finding_geoplaces_operator14
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: [По данному запросу ничего не найдено];;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	=> nrel_goto: .proc_of_finding_geoplaces_operator15;;
+			*);;
+			
+		-> .proc_of_finding_geoplaces_operator15
+			(*
+			<- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _smth;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+			
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+
+			=> nrel_goto: .proc_of_finding_geoplaces_operator0 ;;
+			*);;
+
+
+		-> .proc_of_finding_geoplaces_operator_return 
+			(*
+			<- return;;
+			*);;
+		*);;
+	*);;

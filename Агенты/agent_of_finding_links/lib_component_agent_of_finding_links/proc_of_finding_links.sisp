@@ -1,0 +1,7 @@
+function proc_of_finding_links(_start, _end) {
+  return _answer;
+  generate([assign, node, constant, _answer]);
+  generate([assign, node, constant, _temp_set]);
+  cont_assign([assign, _counter], 0);
+  proc_of_recursive_finding_links(_start, _end, _answer, _temp_set, _counter);
+}

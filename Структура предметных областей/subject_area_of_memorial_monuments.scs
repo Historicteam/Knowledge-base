@@ -1,0 +1,32 @@
+subject_area_of_memorial_monuments
+=>nrel_main_idtf:
+	[Предметная область мемориальных памятников] (* <-lang_ru;; *);
+	[subject area of memorial monuments] (* <-lang_en;; *);
+	[Прадметная вобласць мемарыяльных помнікаў] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_memorial_monument
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " мемориальный памятник "] (* <-lang_ru;; *);
+		[Definition of memorial monument] (* <-lang_en;; *);
+		[Азначэнне паняцця "мемарыяльны помнік "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Мемориальный памятник  — памятное место, памятник или мероприятие в память о ком-либо или о чем-либо.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Memorial monument - a memorable place, a monument or an event in memory of someone or about something.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Мемарыяльны помнік - памятнае месца, помнік або мерапрыемства ў памяць пра каго-небудзь або пра што-небудзь.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

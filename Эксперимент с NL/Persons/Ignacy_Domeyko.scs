@@ -1,0 +1,39 @@
+Ignacy_Domeyko => nrel_main_idtf:
+   [Ignacy Domeyko](* <- lang_en;; *);;
+Ignacy_Domeyko => nrel_main_idtf:
+   [Домейко Игнацы](* <- lang_ru;; *);;
+Ignacy_Domeyko => nrel_first_name:
+    name_Ignacy(*
+         => nrel_main_idtf: [Ignacy](* <- lang_en;; *);;
+         => nrel_main_idtf: [Игнацы](* <- lang_ru;; *);;
+        *);;
+Ignacy_Domeyko => nrel_surname:
+    surname_Domeyko(*
+         => nrel_main_idtf: [Domeyko](* <- lang_en;; *);;
+         => nrel_main_idtf: [Домейко](* <- lang_ru;; *);;
+        *);;
+Ignacy_Domeyko <- concept_male;;
+Ignacy_Domeyko <- rrel_key_sc_element:
+    Ignacy_Domeyko_Image (*
+    => nrel_main_idtf:
+     [Image of Ignacy Domeyko](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Домейко Игнацы - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Ignacy_Domeyko.jpg"(* <-image;; *);;
+        *);;
+*);;
+Ignacy_Domeyko <- rrel_key_sc_element:
+    Ignacy_Domeyko_Main_Information (*
+    => nrel_main_idtf:
+     [Ignacy Domeyko - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Домейко Игнацы - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Игнацы Домейко — выдающийся геолог, минералог, географ и этнолог, долголетний ректор Чилийского университета и член многих научных обществ, один из самых известных воспитанников Виленского университета и национальный герой Чили. Родился на той части территории современной Белоруссии, которая за 7 лет до его рождения при третьем разделе Речи Посполитой вошла в состав Российской империи. Он усвоил культурные и политические традиции бывшего Великого княжества Литовского, и занимает важное место в истории науки и культуры Польши, Белоруссии, Литвы и Чили.](* <-lang_ru;; *);;
+        *);;
+*);;

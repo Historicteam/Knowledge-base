@@ -1,0 +1,32 @@
+subject_area_of_phaleristics
+=>nrel_main_idtf:
+	[Предметная область фалеристики] (* <-lang_ru;; *);
+	[subject area of phaleristics] (* <-lang_en;; *);
+	[Прадметная вобласць фалерыстыкі] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_phaleristics
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "фалеристика"] (* <-lang_ru;; *);
+		[Definition of phaleristics] (* <-lang_en;; *);
+		[Азначэнне паняцця "фалерыстыка"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Фалери?стика — коллекционирование орденов, медалей, значков, любых нагрудных знаков (в том числе почётных, юбилейных, ведомственных, об окончании учебных заведений и т. д.), а также наука, вспомогательная историческая дисциплина, занимающаяся изучением истории этих предметов, их систем и их атрибуцией.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Phaleristics - collection orders, medals, badges, any badges (including honor, anniversary, departmental, on graduation, and so on. D.), as well as science, auxiliary historical discipline dealing with the study of the history of these objects and their systems their attribution.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Фалерыстыка - калекцыянаванне ордэнаў, медалёў, значкоў, любых нагрудных знакаў (у тым ліку ганаровых, юбілейных, ведамасных, аб заканчэнні навучальных устаноў і т. Д.), А таксама навука, дапаможная гістарычная дысцыпліна, якая займаецца вывучэннем гісторыі гэтых прадметаў, іх сістэм і іх атрыбуцыі.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

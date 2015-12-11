@@ -1,0 +1,51 @@
+Marc_Chagall => nrel_main_idtf:
+   [Marc Chagall](* <- lang_en;; *);;
+Marc_Chagall => nrel_main_idtf:
+   [Шагал Марк Захарович](* <- lang_ru;; *);;
+Marc_Chagall => nrel_first_name:
+    name_Marc(*
+         => nrel_main_idtf: [Marc](* <- lang_en;; *);;
+         => nrel_main_idtf: [Марк Захарович](* <- lang_ru;; *);;
+        *);;
+Marc_Chagall => nrel_surname:
+    surname_Chagall(*
+         => nrel_main_idtf: [Chagall](* <- lang_en;; *);;
+         => nrel_main_idtf: [Шагал](* <- lang_ru;; *);;
+        *);;
+Marc_Chagall <- concept_male;;
+Marc_Chagall <- rrel_key_sc_element:
+    Marc_Chagall_Image (*
+    => nrel_main_idtf:
+     [Image of Marc Chagall](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Шагал Марк Захарович - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Marc_Chagall.jpg"(* <-image;; *);;
+        *);;
+*);;
+Marc_Chagall => nrel_date_of_birth: 1887_07_07
+    (*
+    => nrel_main_idtf:
+    [July 07, 1887](* <- lang_en;; *);
+    [07 июля, 1887](* <- lang_ru;; *);;
+    *);;
+Marc_Chagall => nrel_date_of_death: 1985_03_28
+    (*
+    => nrel_main_idtf:
+    [March 28, 1985](* <- lang_en;; *);
+    [28 марта, 1985](* <- lang_ru;; *);;
+    *);;
+Marc_Chagall <- rrel_key_sc_element:
+    Marc_Chagall_Main_Information (*
+    => nrel_main_idtf:
+     [Marc Chagall - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Шагал Марк Захарович - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Марк Захарович  Шагал — российский, белорусский и французский художник еврейского происхождения. Помимо графики и живописи занимался также сценографией, писал стихи на идише. Один из самых известных представителей художественного авангарда XX века.](* <-lang_ru;; *);;
+        *);;
+*);;

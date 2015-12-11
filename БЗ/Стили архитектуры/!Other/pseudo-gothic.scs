@@ -1,0 +1,56 @@
+concept_arch_pseudo_gothic
+=>nrel_main_idtf:
+	[псевдоготика] (* <-lang_ru;; *);
+	[pseudo-gothic] (* <-lang_en;; *);
+	[псеўдаготыка] (* <-lang_by;; *);
+
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Псевдоготика - направление в русской архитектуре екатерининской эпохи, основанное на вольном сочетании элементов европейской готики и московского барокко.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+		<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Pseudo-gothic - an architectural movement based on the free combination of elements of European Gothic and Moscow baroque]
+			(*
+			<- lang_en;;
+			*);;
+
+		*);;
+*);
+
+		<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Псеўдаготыка - кірунак у рускай архітэктуры екацярынінскай эпохі, заснаваны на вольным спалучэнні элементаў еўрапейскай готыкі і маскоўскага барока.]
+			(*
+			<- lang_by;;
+			*);;
+
+		*);;
+	*);;

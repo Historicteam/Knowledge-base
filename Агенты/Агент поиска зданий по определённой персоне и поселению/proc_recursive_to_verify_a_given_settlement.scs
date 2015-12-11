@@ -1,0 +1,132 @@
+scp_program -> proc_recursive_to_verify_a_given_settlement 
+    (*  
+    -> rrel_params: .proc_recursive_to_verify_a_given_settlement_params 
+        (*
+        -> rrel_1: rrel_in: _place;;
+        -> rrel_2: rrel_in: _settlement;;
+        -> rrel_3: rrel_in: _physical_place;;
+        -> rrel_4: rrel_in: _answer;;
+        *);;
+
+    -> rrel_operators: .proc_recursive_to_verify_a_given_settlement_operator_set 
+        (*
+        // Getting POSSIBLE subdividing elements
+        -> rrel_init: .proc_recursive_to_verify_a_given_settlement_operator1
+            (*
+            <- searchSetStr3;;
+            -> rrel_1: rrel_assign: rrel_scp_var: _subdivision_element;;
+            -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _place;;
+
+            -> rrel_set_1: rrel_assign: rrel_scp_var: _temp_set_for_subdiv_elements;;
+
+                    => nrel_then: .proc_recursive_to_verify_a_given_settlement_operator2;;
+                    => nrel_else: .proc_recursive_to_verify_a_given_settlement_return;;
+            *);;            
+
+        //======<Loop starts here, bitches!>=======
+        // Iterating the subdiv elements in the temp set
+        -> .proc_recursive_to_verify_a_given_settlement_operator2 
+            (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temp_set_for_subdiv_elements;;
+            -> rrel_2: rrel_assign: rrel_scp_var: _arc_for_del;;
+            -> rrel_3: rrel_assign: rrel_scp_var: _subdiv_element;;
+
+                    => nrel_then: .proc_recursive_to_verify_a_given_settlement_operator3;;
+                    => nrel_else: .proc_recursive_to_verify_a_given_settlement_return;;
+                    *);;
+
+        -> .proc_recursive_to_verify_a_given_settlement_operator3
+            (*
+            <- eraseEl;;
+            -> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc_for_del;;
+
+                    => nrel_goto: .proc_recursive_to_verify_a_given_settlement_operator4;;
+            *);;
+
+        // Looking for the PLACE the place subdivides 
+        -> .proc_recursive_to_verify_a_given_settlement_operator4 
+            (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _subdiv_element;;
+            -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+            -> rrel_3: rrel_assign: rrel_scp_var: _new_place;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: nrel_subdividing;;
+             
+
+                    => nrel_then: .proc_recursive_to_verify_a_given_settlement_operator5;;
+                    => nrel_else: .proc_recursive_to_verify_a_given_settlement_operator2;;
+            *);;
+
+        // Verify if the PLACE is given parameter settlement
+        -> .proc_recursive_to_verify_a_given_settlement_operator5 (*
+            <- ifCoin;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _settlement;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _new_place;;
+
+                => nrel_then: .proc_recursive_to_verify_a_given_settlement_operator5_1;;
+                => nrel_else: .proc_recursive_to_verify_a_given_settlement_operator6;;
+        *);;
+
+        // Put the INITIAL PHYSICAL PLACE to an answer
+        -> .proc_recursive_to_verify_a_given_settlement_operator5_1 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+            -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _answer_arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+
+                    => nrel_goto: .proc_recursive_to_verify_a_given_settlement_operator5_2;;
+        *);;
+
+        -> .proc_recursive_to_verify_a_given_settlement_operator5_2 (*
+            <- printEl;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _new_place;;
+
+                => nrel_goto: .proc_recursive_to_verify_a_given_settlement_return;;
+        *);; 
+        //=========================THE INITIAL PHYSICAL PLACE IS VERIFIED. EXECUTE RETURN ------------>
+
+
+        // Verify whether the PLACE is a frackin' settlement
+        -> .proc_recursive_to_verify_a_given_settlement_operator6
+            (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: concept_city;;
+            -> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _new_place;;
+
+                    // If it's a settlement but not a given settlement
+                    => nrel_then: .proc_recursive_to_verify_a_given_settlement_return;;
+                    // Continue searching
+                    => nrel_else: .proc_recursive_to_verify_a_given_settlement_call_again;;
+        *);;
+
+        // Start calling recursive
+        -> .proc_recursive_to_verify_a_given_settlement_call_again (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_recursive_to_verify_a_given_settlement;;
+            ->rrel_2:rrel_fixed:rrel_scp_const:
+            .proc_recursive_to_verify_a_given_settlement_call_again_params (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _new_place;;
+                -> rrel_2: rrel_fixed: rrel_scp_var: _settlement;;
+                -> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+                -> rrel_4: rrel_fixed: rrel_scp_var: _answer;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+            =>nrel_goto: .proc_recursive_to_verify_a_given_settlement_operator7;;
+        *);;
+
+        -> .proc_recursive_to_verify_a_given_settlement_operator7 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+            =>nrel_goto: .proc_recursive_to_verify_a_given_settlement_return;;
+        *);;    
+
+        -> .proc_recursive_to_verify_a_given_settlement_return 
+            (*
+            <- return;;
+            *);;     
+        *);;
+    *);;        

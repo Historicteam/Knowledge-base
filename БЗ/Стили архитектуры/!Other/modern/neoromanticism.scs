@@ -1,0 +1,54 @@
+concept_neo_romanticism
+=>nrel_main_idtf:
+	[неоромантизм] (* <-lang_ru;; *);
+	[neoromanticism] (* <-lang_en;; *);
+	[неараматызм] (* <-lang_by;; *);
+
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Неоромантизм - направление модерна, где используются элементы романского стиля, готики, ренессанса.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+			<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Neo-romanticism - the direction of modern, which uses elements of Romanesque, Gothic, Renaissance.]
+			(*
+			<- lang_en;;
+			*);;
+
+		*);;
+*);
+			<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Неарамантызм - напрамак мадэрна, дзе выкарыстоўваюцца элементы раманскага стылю, готыкі, рэнесансу.]
+			(*
+			<- lang_by;;
+			*);;
+
+		*);;
+	*);;

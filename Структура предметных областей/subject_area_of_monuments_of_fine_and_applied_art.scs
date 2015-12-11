@@ -1,0 +1,83 @@
+subject_area_of_monuments_of_fine_art 					
+=>nrel_main_idtf:
+	[Предметная область памятников изобразительного искусства] (* <-lang_ru;; *);
+	[subject area of monuments of fine art] (* <-lang_en;; *);
+	[Прадметная вобласць помнікаў выяўленчага мастацтва] (* <-lang_by;; *);
+	
+/*
+<- rrel_key_sc_element:
+		Definition_of_monuments_of_fine_art 	
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "памятник изобразительного искусства"] (* <-lang_ru;; *);
+		[Definition of monument of fine art ] (* <-lang_en;; *);
+		[Азначэнне паняцця "помнік выяўленчага мастацтва "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_by;; *);; 
+		*);;
+	*);
+*/
+
+<-sc_node_not_relation;	
+<-sc_const;;
+
+
+
+
+
+
+
+subject_area_of_monuments_of_applied_art
+=>nrel_main_idtf:
+	[Предметная область памятников прикладного искусства] (* <-lang_ru;; *);
+	[subject area of monuments of applied art] (* <-lang_en;; *);
+	[Прадметная вобласць помнікаў прыкладнога мастацтва] (* <-lang_by;; *);
+
+
+/*
+<- rrel_key_sc_element:
+		Definition_of_monuments_of_applied_art
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "памятник прикладного искусства"] (* <-lang_ru;; *);
+		[Definition of monument of applied art] (* <-lang_en;; *);
+		[Азначэнне паняцця "помнік прыкладнога мастацтва "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [] (* <-lang_by;; *);; 
+		*);;
+	*);
+*/
+
+<-sc_node_not_relation;	
+<-sc_const;;
+
+	
+
+
+
+
+
+
+

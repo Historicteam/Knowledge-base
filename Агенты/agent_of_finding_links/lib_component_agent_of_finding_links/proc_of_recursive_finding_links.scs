@@ -1,0 +1,133 @@
+scp_program -> proc_of_recursive_finding_links (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _start;;
+        -> rrel_2: rrel_in: _end;;
+        -> rrel_3: rrel_in: _answer;;
+        -> rrel_4: rrel_in: _temp_set;;
+        -> rrel_5: rrel_in: _counter;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator44916 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temp_set;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _start;;
+            => nrel_goto: ..operator35149;;
+        *);;
+        ->..operator35149 (*
+            <- ifCoin;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _start;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _end;;
+            => nrel_then: ..operator34682;;
+            => nrel_else: ..operator25655;;
+        *);;
+        ->..operator34682 (*
+            <- searchSetStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temp_set;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _element;;
+            -> rrel_set_3: rrel_scp_var: rrel_assign: _copy;;
+            => nrel_goto: ..operator60431;;
+        *);;
+        ->..operator60431 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _copy;;
+            => nrel_goto: ..operator51964;;
+        *);;
+        ->..operator25655 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _counter;;
+            => nrel_goto: ..operator55627;;
+        *);;
+        ->..operator55627 (*
+            <- ifEq;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _counter;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: [3];;
+            => nrel_else: ..operator26562;;
+            => nrel_then: ..operator51964;;
+        *);;
+        ->..operator26562 (*
+            <- searchSetStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _start;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _element;;
+            -> rrel_set_3: rrel_scp_var: rrel_assign: _copy;;
+            => nrel_goto: ..operator22093;;
+        *);;
+        ->..operator22093 (*
+            <- contAdd;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _counter;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _counter;;
+            -> rrel_3: rrel_fixed: rrel_scp_const: [1];;
+            => nrel_goto: ..operator18946;;
+        *);;
+        ->..operator18946 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _copy;;
+            => nrel_then: ..operator312;;
+            => nrel_else: ..operator9288;;
+        *);;
+        ->..operator312 (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _copy;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _element;;
+            => nrel_then: ..operator56861;;
+            => nrel_else: ..operator9288;;
+        *);;
+        ->..operator56861 (*
+            <- eraseEl;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc;;
+            => nrel_goto: ..operator7358;;
+        *);;
+        ->..operator7358 (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _start;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _part_of_construction;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _element;;
+            => nrel_goto: ..operator51981;;
+        *);;
+        ->..operator51981 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temp_set;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _tmp_arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _part_of_construction;;
+            => nrel_goto: ..operator25424;;
+        *);;
+        ->..operator25424 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_recursive_finding_links;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _element;;
+                -> rrel_2: rrel_fixed: rrel_scp_var: _end;;
+                -> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+                -> rrel_4: rrel_fixed: rrel_scp_var: _temp_set;;
+                -> rrel_5: rrel_fixed: rrel_scp_var: _counter;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument62957;;
+            => nrel_goto: ..operator37683;;
+        *);;
+        ->..operator37683 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument62957;;
+            => nrel_goto: ..operator24551;;
+        *);;
+        ->..operator24551 (*
+            <- eraseEl;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _tmp_arc;;
+            => nrel_goto: ..operator312;;
+        *);;
+        ->..operator9288 (*
+            <- contSub;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _counter;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _counter;;
+            -> rrel_3: rrel_fixed: rrel_scp_const: [1];;
+            => nrel_goto: ..operator51964;;
+        *);;
+        ->..operator51964 (*
+            <- return;;
+        *);;
+    *);;
+*);;

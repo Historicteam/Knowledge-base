@@ -1,0 +1,28 @@
+	Legend_of_plan_of_Minsk_1941
+
+	<-concept_map_legend;
+	=> nrel_main_idtf:
+		[Легенда плана Минска 1941]
+		(*
+		<- lang_ru;;
+		*);
+		[Legend of plan of Minsk 1941]
+		(*
+		<- lang_en;;
+		*);
+		[Лягенда плана Мiнска 1941]
+		(*
+		<- lang_by;;
+		*);
+		
+<- rrel_key_sc_element: ...
+	(*
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://content/Minsk1941.html"
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
+		

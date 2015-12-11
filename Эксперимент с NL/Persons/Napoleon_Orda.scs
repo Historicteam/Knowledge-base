@@ -1,0 +1,51 @@
+Napoleon_Orda => nrel_main_idtf:
+   [Napoleon Orda](* <- lang_en;; *);;
+Napoleon_Orda => nrel_main_idtf:
+   [Орда Наполеон](* <- lang_ru;; *);;
+Napoleon_Orda => nrel_first_name:
+    name_Napoleon(*
+         => nrel_main_idtf: [Napoleon](* <- lang_en;; *);;
+         => nrel_main_idtf: [Наполеон](* <- lang_ru;; *);;
+        *);;
+Napoleon_Orda => nrel_surname:
+    surname_Orda(*
+         => nrel_main_idtf: [Orda](* <- lang_en;; *);;
+         => nrel_main_idtf: [Орда](* <- lang_ru;; *);;
+        *);;
+Napoleon_Orda <- concept_male;;
+Napoleon_Orda <- rrel_key_sc_element:
+    Napoleon_Orda_Image (*
+    => nrel_main_idtf:
+     [Image of Napoleon Orda](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Орда Наполеон - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Napoleon_Orda.jpg"(* <-image;; *);;
+        *);;
+*);;
+Napoleon_Orda => nrel_date_of_birth: 1807_02_11
+    (*
+    => nrel_main_idtf:
+    [February 11, 1807](* <- lang_en;; *);
+    [11 февраля, 1807](* <- lang_ru;; *);;
+    *);;
+Napoleon_Orda => nrel_date_of_death: 1883_04_26
+    (*
+    => nrel_main_idtf:
+    [April 26, 1883](* <- lang_en;; *);
+    [26 апреля, 1883](* <- lang_ru;; *);;
+    *);;
+Napoleon_Orda <- rrel_key_sc_element:
+    Napoleon_Orda_Main_Information (*
+    => nrel_main_idtf:
+     [Napoleon Orda - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Орда Наполеон - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Наполеон Матеуш Тадеуш Орда — белорусский и польский литератор и композитор, музыкант, художник, скульптор, педагог.](* <-lang_ru;; *);;
+        *);;
+*);;

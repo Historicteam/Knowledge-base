@@ -1,0 +1,26 @@
+concept_russian_revival
+=>nrel_main_idtf:
+	[псевдорусский силь] (* <-lang_ru;; *);
+	[russian revival] (* <-lang_en;; *);
+	[псеўдарускі стыль] (* <-lang_by;; *);
+
+
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Псевдорусский стиль.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+->Complex_Holy_Church_Dukhovskoi;;

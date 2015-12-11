@@ -1,0 +1,42 @@
+concept_sightseeing_excursion
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[обзорная экскурсия]
+(*
+<- lang_ru;;
+*);
+[sightseeing excursion]
+(*
+<- lang_en;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ Обзорная экскурсия-многоплановая экскурсия с использованием истрорического и современного материала,основанная на показе самых различных объектов ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Аглядная экскурсія-шматпланавая экскурсія з выкарыстаннем гістарычнага і сучаснага матэрыялу, заснаваная на паказе самых розных аб'ектаў]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Sightseeing tour, multifaceted excursion with historical and contemporary material, based on a wide variety of display objects ]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

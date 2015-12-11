@@ -1,0 +1,64 @@
+Andrei_Gromyko => nrel_main_idtf:
+   [Andrei Gromyko](* <- lang_en;; *);;
+Andrei_Gromyko => nrel_main_idtf:
+   [Громыко Андрей Андреевич](* <- lang_ru;; *);;
+Andrei_Gromyko => nrel_first_name:
+    name_Andrei(*
+         => nrel_main_idtf: [Andrei](* <- lang_en;; *);;
+         => nrel_main_idtf: [Андрей Андреевич](* <- lang_ru;; *);;
+        *);;
+Andrei_Gromyko => nrel_surname:
+    surname_Gromyko(*
+         => nrel_main_idtf: [Gromyko](* <- lang_en;; *);;
+         => nrel_main_idtf: [Громыко](* <- lang_ru;; *);;
+        *);;
+Andrei_Gromyko <- concept_male;;
+Andrei_Gromyko <- rrel_key_sc_element:
+    Andrei_Gromyko_Image (*
+    => nrel_main_idtf:
+     [Image of Andrei Gromyko](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Громыко Андрей Андреевич - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Andrei_Gromyko.jpg"(* <-image;; *);;
+        *);;
+*);;
+Andrei_Gromyko => nrel_date_of_death: 1989_07_02
+    (*
+    => nrel_main_idtf:
+    [July 02, 1989](* <- lang_en;; *);
+    [02 июля, 1989](* <- lang_ru;; *);;
+    *);;
+Andrei_Gromyko <- 
+    economist
+        (*
+        => nrel_main_idtf:
+            [economist](* <- lang_en;; *);
+            [экономист](* <- lang_ru;; *);;
+        *);
+    diplomat
+        (*
+        => nrel_main_idtf:
+            [diplomat](* <- lang_en;; *);
+            [дипломат](* <- lang_ru;; *);;
+        *);
+    civil_servant
+        (*
+        => nrel_main_idtf:
+            [civil servant](* <- lang_en;; *);
+            [госслужащий](* <- lang_ru;; *);;
+        *);;
+Andrei_Gromyko <- rrel_key_sc_element:
+    Andrei_Gromyko_Main_Information (*
+    => nrel_main_idtf:
+     [Andrei Gromyko - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Громыко Андрей Андреевич - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Андрей Андреевич Громыко — советский дипломат и государственный деятель, в 1957—1985 годах— министр иностранных дел СССР, в 1985—1988 годах— председатель Президиума Верховного Совета СССР.](* <-lang_ru;; *);;
+        *);;
+*);;

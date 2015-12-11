@@ -1,0 +1,32 @@
+subject_area_of_structures
+=>nrel_main_idtf:
+	[Предметная область сооружений] (* <-lang_ru;; *);
+	[subject area of structures] (* <-lang_en;; *);
+	[Прадметная вобласць збудаванняў] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_structure
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " сооружение "] (* <-lang_ru;; *);
+		[Definition of structure] (* <-lang_en;; *);
+		[Азначэнне паняцця "збудаванне "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сооружение — это результат строительной деятельности для осуществления определённых потребительских функций.В научно-технической литературе по строительству термин «сооружение» используется также в узком смысле, в значении «строительное сооружение, которое не является зданием». Например, инженерно-технические сооружения: мосты, плотины, мачты, радио- и телебашни, тоннели, сооружения метрополитена, фортификационные сооружения, мемориальные сооружения (памятники, мемориальные пирамиды и обелиски), архитектурные сооружения (аркады, колоннады, обелиски) и многие другие.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Construction - this is the result of construction activities for the implementation of certain consumer funktsiy.V scientific and technical literature on the construction of the term "structure" is used in a narrow sense, the meaning of "building construction which is not a building." For example, engineering constructions: bridges, dams, towers, radio and television towers, tunnels, underground structures, fortifications, memorial structures (monuments, memorial obelisks and pyramids), architectural buildings (arcades, colonnades, obelisks) and many others.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Збудаванне - гэта вынік будаўнічай дзейнасці для ажыццяўлення пэўных спажывецкіх функций.В навукова-тэхнічнай літаратуры па будаўніцтве тэрмін «збудаванне» выкарыстоўваецца таксама ў вузкім сэнсе, у значэнні «будаўнічае збудаванне, якое не з'яўляецца будынкам». Напрыклад, інжынерна-тэхнічныя збудаванні: масты, плаціны, мачты, радыё- і тэлевежы, тунэлі, збудаванні метрапалітэна, фартыфікацыйныя збудаванні, мемарыяльныя збудаванні (помнікі, мемарыяльныя піраміды і абеліскі), архітэктурныя збудаванні (аркады, каланады, абеліскі) і многія іншыя.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

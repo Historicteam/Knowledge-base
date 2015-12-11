@@ -1,0 +1,53 @@
+	subject_area_of_history_objects
+=>nrel_main_idtf:
+	[Предметная область исторических абъектов] (* <-lang_ru;; *);
+	[subject area of history objects] (* <-lang_en;; *);
+	[Прадметная вобласць гістарычных аб'ектаў] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+		Definition_of_history_object  
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " исторический абъект"] (* <-lang_ru;; *);
+		[Definition of history object] (* <-lang_en;; *);
+		[Азначэнне паняцця " гістарычны аб'ект"] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Исторический объект - это объект недвижимого имущества со связанными с ними произведениями живописи, скульптуры, декоративно-прикладного искусства, объектами науки и техники и иными предметами материальной культуры, возникшие в результате исторических событий, представляющие собой ценность с точки зрения истории, археологии, архитектуры, градостроительства, искусства, науки и техники, эстетики, этнологии или антропологии, социальной культуры и являющиеся свидетельством эпох и цивилизаций, подлинными источниками информации о зарождении и развитии культуры. ] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Historical property - a real estate object with related works of painting, sculpture, arts and crafts, objects of science and technology and other artefacts resulting from historical events, which are valuable from the point of view of history, archeology, architecture, urban planning , art, science and technology, aesthetic, ethnological or anthropological, social and culture are evidence of epochs and civilizations, the true source of information about the origin and development of culture.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Гістарычны аб'ект - гэта аб'ект нерухомай маёмасці са звязанымі з імі творамі жывапісу, скульптуры, дэкаратыўна-прыкладнога мастацтва, аб'ектамі навукі і тэхнікі і іншымі прадметамі матэрыяльнай культуры, якія ўзніклі ў выніку гістарычных падзей, якія ўяўляюць сабой каштоўнасць з пункту гледжання гісторыі, археалогіі, архітэктуры, горадабудаўніцтва , мастацтва, навукі і тэхнікі, эстэтыкі, этналогіі ці антрапалогіі, сацыяльнай культуры і з'яўляюцца сведчаннем эпох і цывілізацый, сапраўднымі крыніцамі інфармацыі пра зараджэнне і развіцці культуры.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+
+subdividing_into_the_following_historical_areas
+  =>nrel_main_idtf:
+	[подразделения на следующие исторические области] (* <-lang_ru;; *);
+	[subdivision into the following historical areas] (* <-lang_en;; *);
+	[разбіццё на наступныя гістарычныя вобласці ] (* <-lang_by;; *);;
+
+
+
+
+subject_historical_areas
+	<=nrel_subdividing: subdividing_into_the_following_historical_areas
+				(*
+							->	subject_area_of_documentary_monuments;
+								subject_area_of_archaeological_monuments;								
+								subject_area_of_ethnographic_monuments;
+								subject_area_of_objects_of_town_planning;
+								subject_area_of_monuments_of_fine_and_applied_art;
+								subject_area_of_landscape_gardening_art;	
+								subject_area_of_attractions_the_landscape;
+								subject_area_of_memorial_monuments;
+								subject_area_of_phaleristics;;
+								
+				*);;

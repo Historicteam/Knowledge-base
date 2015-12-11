@@ -1,0 +1,32 @@
+subject_area_of_ethnographic_monuments
+=>nrel_main_idtf:
+	[Предметная область этнографических памятников ] (* <-lang_ru;; *);
+	[subject area of ethnographic monuments ] (* <-lang_en;; *);
+	[Прадметная вобласць этнаграфічных помнікаў] (* <-lang_by;; *);
+	
+
+<- rrel_key_sc_element:
+		Definition_of_ethnographic_monument
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия " этнографический памятник "] (* <-lang_ru;; *);
+		[Definition of ethnographic monument] (* <-lang_en;; *);
+		[Азначэнне паняцця "этнаграфічны помнік "] (* <-lang_by;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Этнографический памятник - главным образом это предметами материальной культуры и религиозного культа, а также богатейшим фольклором, обрядами и прочее, так же к ним относятся природные объекты, имеющие мировоззренческое значение.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Ethnographic Monument - mostly artefacts and religious, as well as the rich folklore, rituals, etc., as they include the natural objects with philosophical significance.] (* <-lang_en;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Этнаграфічны помнік - галоўным чынам гэта прадметамі матэрыяльнай культуры і рэлігійнага культу, а таксама найбагацейшым фальклорам, абрадамі і іншае, гэтак жа да іх ставяцца прыродныя аб'екты, якія маюць светапогляднае значэнне.] (* <-lang_by;; *);; 
+		*);;
+	*);
+
+<-sc_node_not_relation;	
+<-sc_const;;

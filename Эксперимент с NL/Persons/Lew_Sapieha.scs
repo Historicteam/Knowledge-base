@@ -1,0 +1,51 @@
+Lew_Sapieha => nrel_main_idtf:
+   [Lew Sapieha](* <- lang_en;; *);;
+Lew_Sapieha => nrel_main_idtf:
+   [Сапега Лев Иванович](* <- lang_ru;; *);;
+Lew_Sapieha => nrel_first_name:
+    name_Lew(*
+         => nrel_main_idtf: [Lew](* <- lang_en;; *);;
+         => nrel_main_idtf: [Лев Иванович](* <- lang_ru;; *);;
+        *);;
+Lew_Sapieha => nrel_surname:
+    surname_Sapieha(*
+         => nrel_main_idtf: [Sapieha](* <- lang_en;; *);;
+         => nrel_main_idtf: [Сапега](* <- lang_ru;; *);;
+        *);;
+Lew_Sapieha <- concept_male;;
+Lew_Sapieha <- rrel_key_sc_element:
+    Lew_Sapieha_Image (*
+    => nrel_main_idtf:
+     [Image of Lew Sapieha](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Сапега Лев Иванович - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Lew_Sapieha.PNG"(* <-image;; *);;
+        *);;
+*);;
+Lew_Sapieha => nrel_date_of_birth: 1557_04_04
+    (*
+    => nrel_main_idtf:
+    [April 04, 1557](* <- lang_en;; *);
+    [04 апреля, 1557](* <- lang_ru;; *);;
+    *);;
+Lew_Sapieha => nrel_date_of_death: 1633_07_07
+    (*
+    => nrel_main_idtf:
+    [July 07, 1633](* <- lang_en;; *);
+    [07 июля, 1633](* <- lang_ru;; *);;
+    *);;
+Lew_Sapieha <- rrel_key_sc_element:
+    Lew_Sapieha_Main_Information (*
+    => nrel_main_idtf:
+     [Lew Sapieha - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Сапега Лев Иванович - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Лев Иванович Сапега — государственный и военный деятель Великого княжества Литовского, дипломат и политический мыслитель.](* <-lang_ru;; *);;
+        *);;
+*);;

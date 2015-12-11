@@ -1,0 +1,65 @@
+Svetlana_Alexievich => nrel_main_idtf:
+   [Svetlana Alexievich](* <- lang_en;; *);;
+Svetlana_Alexievich => nrel_main_idtf:
+   [Алексиевич Светлана Александровна](* <- lang_ru;; *);;
+Svetlana_Alexievich => nrel_first_name:
+    name_Svetlana(*
+         => nrel_main_idtf: [Svetlana](* <- lang_en;; *);;
+         => nrel_main_idtf: [Светлана Александровна](* <- lang_ru;; *);;
+        *);;
+Svetlana_Alexievich => nrel_surname:
+    surname_Alexievich(*
+         => nrel_main_idtf: [Alexievich](* <- lang_en;; *);;
+         => nrel_main_idtf: [Алексиевич](* <- lang_ru;; *);;
+        *);;
+Svetlana_Alexievich <- concept_female;;
+Svetlana_Alexievich <- rrel_key_sc_element:
+    Svetlana_Alexievich_Image (*
+    => nrel_main_idtf:
+     [Image of Svetlana Alexievich](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Алексиевич Светлана Александровна - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://content/Svetlana_Alexievich.jpg"(* <-image;; *);;
+        *);;
+*);;
+Svetlana_Alexievich => nrel_date_of_birth: 1948_05_31
+    (*
+    => nrel_main_idtf:
+    [May 31, 1948](* <- lang_en;; *);
+    [31 мая, 1948](* <- lang_ru;; *);;
+    *);;
+Svetlana_Alexievich <= nrel_student: 
+    Belarusian_State_University
+        (*
+        => nrel_main_idtf:
+            [Belarusian State University](* <- lang_en;; *);
+            [Белорусский государственный университет](* <- lang_ru;; *);;
+        *);;
+Svetlana_Alexievich <- 
+    journalist
+        (*
+        => nrel_main_idtf:
+            [journalist](* <- lang_en;; *);
+            [журналист](* <- lang_ru;; *);;
+        *);
+    author
+        (*
+        => nrel_main_idtf:
+            [author](* <- lang_en;; *);
+            [автор](* <- lang_ru;; *);;
+        *);;
+Svetlana_Alexievich <- rrel_key_sc_element:
+    Svetlana_Alexievich_Main_Information (*
+    => nrel_main_idtf:
+     [Svetlana Alexievich - Main Information](* <- lang_en;; *);;
+    => nrel_main_idtf:
+     [Алексиевич Светлана Александровна - Основная информация](* <- lang_ru;; *);;
+    <-sc_statement;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example: [Светлана Александровна Алексиевич  — советская и белорусская писательница, журналистка, сценарист документальных фильмов. Пишет на русском языке. Лауреат Нобелевской премии по литературе 2015 года.](* <-lang_ru;; *);;
+        *);;
+*);;

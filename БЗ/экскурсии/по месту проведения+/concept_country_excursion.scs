@@ -1,0 +1,48 @@
+concept_country_excursion
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[загородная экскурсия]
+(*
+<- lang_ru;;
+*);
+[country excursion]
+(*
+<- lang_en;;
+*);
+[загарадная экскурсія]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Загородная экскурсия-массовое или индивидуальное посещение различных мероприятий и мест в определенном населенном пункте загородного типа]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Загарадная экскурсія-масавае і індывідуальнае наведванне розных мерапрыемстваў і месцаў у пэўным населеным пункце загараднага тыпу]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Country excursion-mass and individual visits to various events and places in a certain village of suburban type]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

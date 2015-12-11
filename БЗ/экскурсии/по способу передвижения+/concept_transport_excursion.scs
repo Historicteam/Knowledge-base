@@ -1,0 +1,53 @@
+concept_transport_excursion
+//
+<-sc_const;
+<-sc_node_not_relation;
+//
+=> nrel_main_idtf:
+[транспортная экскурсия]
+(*
+<- lang_ru;;
+*);
+[transport excursion]
+(*
+<- lang_en;;
+*);
+[транспартная экскурсія]
+(*
+<- lang_by;;
+*);
+//
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Транспортная экскурсия-коллективное или индивидуальное  посещение различных мест и мероприятий с использование различных видов автотранспорта  ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Транспартная экскурсія-калектыўнае або індывідуальнае наведванне розных месцаў і мерапрыемстваў з выкарыстаннем розных відаў аўтатранспарту]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ Truck tour-collective or individual visits to various places and events with the use of various types of vehicles]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_individual_transport;;
+	-> concept_mass_transport;;
+	*)
+;;

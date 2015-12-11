@@ -1,0 +1,48 @@
+concept_arch
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[арка]
+(*
+<- lang_ru;;
+*);
+[arch]
+(*
+<- lang_en;;
+*);
+[арка]
+(*
+<- lang_by;;
+*);
+<-bearing_structures;
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Арка - криволинейная несущая конструкция, которая перекрывает проем;]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Arch - the curved support structure, that cover openings;]
+(*
+<- lang_by;;
+*);;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Арка - крывалінейная апорная канструкцыя, якая перакрывае праём;]
+(*
+<- lang_by;;
+*);;
+*);;
+

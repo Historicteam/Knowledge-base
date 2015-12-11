@@ -1,0 +1,50 @@
+concept_walking_excursion
+//
+<-sc_const;
+<-sc_node_not_relation;
+//
+=> nrel_main_idtf:
+[пешеходная экскурсия]
+(*
+<- lang_ru;;
+*);
+[walking excursion]
+(*
+<- lang_eng;;
+*);
+[пешаходная экскурсія]
+(*
+<- lang_by;;
+*);
+//
+//<=nrel_inclusion: concept_excursion
+<- rrel_key_sc_element: 
+...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Пешеходная экскурсия- пешее  посещение различных мест и мероприятий  ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Пешаходная экскурсія- пешае наведванне розных месцаў і мерапрыемстваў]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Walking tour-foot visiting various places and activities]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
