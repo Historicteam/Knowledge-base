@@ -1,5 +1,11 @@
 concept_excursion->concept_excursion_of_the_Liberty_Square
 (*
+        => nrel_main_idtf:
+	[Экскурсия по Площади Свободы]
+	(*
+	<- lang_ru;;
+	*);;
+       
 	=> nrel_route_point: 
 	[*
 	Male_Basilian_Monastery_Building => nrel_next_point:Complex_Holy_Church_Dukhovskoi

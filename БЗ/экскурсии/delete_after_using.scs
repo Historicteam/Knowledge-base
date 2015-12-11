@@ -1,0 +1,7 @@
+nrel_route_point
+
+=> nrel_main_idtf:
+	[точка маршрута]
+	(*
+	<- lang_ru;;
+	*);;
