@@ -7,8 +7,8 @@ concept_arch_romanesque_style
 
 ->concept_semi_circural_arch;
 
-->concept_bound_column;
-->concept_doric_column;
+->bound_column;
+->doric_column;
 
 <-rrel_key_sc_element: 
 	...

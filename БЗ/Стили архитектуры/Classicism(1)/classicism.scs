@@ -9,7 +9,7 @@ concept_arch_classicism
 ->doric_column;
 ->ionic_column;
 ->tuscan_order;
-->Composite_order;
+->composite_order;
 
 
 <- rrel_key_sc_element: 

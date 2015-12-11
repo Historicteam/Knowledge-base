@@ -5,7 +5,7 @@ concept_arch_renaissanse
 	[рэнесанс] (* <-lang_by;; *);
 
 
-->concept_semi_circural_arch;
+
 
 <- rrel_key_sc_element: 
 	...

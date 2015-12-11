@@ -3,7 +3,6 @@ concept_arch_gothic
 	[готический стиль] (* <-lang_ru;; *);
 	[gothic] (* <-lang_en;; *);
 	[гатычны стыль] (* <-lang_by;; *);
-<-concept_architectural_style;
 
 
 ->concept_pointed_arch;

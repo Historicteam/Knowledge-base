@@ -7,8 +7,8 @@ concept_arch_romanesque_style
 
 ->concept_semi_circural_arch;
 
-->concept_bound_column;
-->concept_doric_column;
+->bound_column;
+->doric_column;
 
 <-rrel_key_sc_element: 
 	...
@@ -33,7 +33,7 @@ concept_arch_romanesque_style
 		...
 		(*
 		-> rrel_example:
-		[romanesque architectural style - architectural style, characterized by narrow semicircular windows, semicircular arches, doric columns and massive buttresses.]
+		[Romanesque architectural style - architectural style, characterized by narrow semicircular windows, semicircular arches, doric columns and massive buttresses.]
 			(*
 			<- lang_en;;
 			*);;

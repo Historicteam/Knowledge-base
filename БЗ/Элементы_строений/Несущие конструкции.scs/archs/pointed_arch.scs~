@@ -1,6 +1,6 @@
 concept_semicircural_arch
 <-sc_const;
-
+<-concept_arch;
 <-sc_node_not_relation;
 => nrel_main_idtf:
 [стрельчатая арка]
@@ -32,7 +32,7 @@ concept_semicircural_arch
 ...
 (*
 -> rrel_example:
-[Стральчатая, арка - арка, утвораная дзьвумя выпуклымі паліцамі, што перасякаюцца пад кутом.]
+[Стральчатая, арка - арка, утвораная дзьвумя выпуклымі паўаркамі, што перасякаюцца пад кутом.]
 (*
 <- lang_by;;
 *);;

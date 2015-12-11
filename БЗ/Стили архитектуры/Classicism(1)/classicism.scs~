@@ -57,6 +57,20 @@ concept_arch_classicism
 
 		*);;
 	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
 ->Male_Basilian_Monastery_Building;
 ->The_building_of_the_Minsk_Academy_of_Music;
 ->Building_trade_rows;

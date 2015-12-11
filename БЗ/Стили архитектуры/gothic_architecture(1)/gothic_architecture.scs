@@ -6,7 +6,6 @@ concept_arch_gothic
 
 
 ->concept_pointed_arch;
-->concept_flying_buttresses;
 
 
 <- rrel_key_sc_element: 
