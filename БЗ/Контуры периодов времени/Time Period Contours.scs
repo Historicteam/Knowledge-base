@@ -251,7 +251,7 @@ concept_situation->[*minsk_doctors_society => nrel_location: Male_Basilian_Monas
 *);;
 
 
-concept_situation->[*organisation_redaction_of_Minskie_Gubernskie_Vedomosti_newspaper" => nrel_location: Male_Basilian_Monastery_Building;;*]
+concept_situation->[*organisation_redaction_of_Minskie_Gubernskie_Vedomosti_newspaper => nrel_location: Male_Basilian_Monastery_Building;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения редакции газеты "Минские губернские ведомости" в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -271,7 +271,7 @@ concept_situation->[*organisation_redaction_of_Minskie_Gubernskie_Vedomosti_news
 *);;
 
 
-concept_situation->[*organisation_Minsk_regional_court" => nrel_location: Male_Basilian_Monastery_Building;;*]
+concept_situation->[*organisation_Minsk_regional_court => nrel_location: Male_Basilian_Monastery_Building;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения минского округового суда в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -291,7 +291,7 @@ concept_situation->[*organisation_Minsk_regional_court" => nrel_location: Male_B
 *);;
 
 
-concept_situation->[*organisation_peoples_comissariat_of_labour" => nrel_location: Male_Basilian_Monastery_Building;;*]
+concept_situation->[*organisation_peoples_comissariat_of_labour => nrel_location: Male_Basilian_Monastery_Building;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения народного комиссариата труда в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -310,7 +310,7 @@ concept_situation->[*organisation_peoples_comissariat_of_labour" => nrel_locatio
 						*);;
 *);;
 
-concept_situation->[*organisation_central_labour_club_red_profintern" => nrel_location: Male_Basilian_Monastery_Building;;*]
+concept_situation->[*organisation_central_labour_club_red_profintern => nrel_location: Male_Basilian_Monastery_Building;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения центрального рабочего клуба "Красный профинтерн" в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
