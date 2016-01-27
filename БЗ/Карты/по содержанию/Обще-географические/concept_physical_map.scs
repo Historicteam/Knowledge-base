@@ -15,7 +15,7 @@ concept_physical_map
   <=nrel_sc_text_translation: ...
   (*
   -> sc_example:
-  [Physical maps - detailed maps of the area, which shows the main elements of the terrain. The main elements of the area are physiographic (hydrography, vegetation and soils, topography) and socio-economic (settlements, roads and boundaries)]
+  [Physical maps - detailed maps of the area, which display the main elements of the terrain. The main elements of the area are physiographic (hydrography, vegetation and soils, topography) and socio-economic (settlements, roads and boundaries)]
     (*
     <- lang_en;;
     *);

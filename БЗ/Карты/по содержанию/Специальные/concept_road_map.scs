@@ -13,7 +13,7 @@ concept_road_map
   <=nrel_sc_text_translation: ...
   (*
   -> sc_example:
-  [Road maps show major—some minor highways—and roads, airports, railroad tracks, cities and other points of interest in an area. People use road maps to plan trips and for driving directions]
+  [Road maps display major—some minor highways—and roads, airports, railroad tracks, cities and other points of interest in an area. People use road maps to plan trips and for driving directions]
     (*
     <- lang_en;;
     *);

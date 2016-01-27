@@ -1,0 +1,8 @@
+concept_settlements_plan
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[план населённых пунктов](*<- lang_ru;;*);
+	[settlements_plan](*<- lang_en;;*);
+    	[план населеных пунктаў](*<- lang_by;;*);;

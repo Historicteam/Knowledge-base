@@ -1,0 +1,30 @@
+concept_topographical_plan
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[топографический план](*<- lang_ru;;*);
+	[topographical plan](*<- lang_en;;*);
+    	[тапаграфiчны план](*<- lang_by;;*);
+
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Topographical plans display contours and surface irregularities]
+    (*
+    <- lang_en;;
+    *);
+  [Топографические планы отображают контуры и неровности поверхности участков]
+    (*
+     <-lang_ru;;
+    *);
+  [Тапаграфічныя планы адлюстроўваюць контуры і няроўнасці паверхні пляцовак]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

@@ -13,7 +13,7 @@ concept_topographical_map
   <=nrel_sc_text_translation: ...
   (*
   -> sc_example:
-  [Topographic maps include contour lines to show the shape and elevation of an area. Lines that are close together indicate steep terrain, and lines that are far apart indicate flat terrain]
+  [Topographic maps include contour lines to display the shape and elevation of an area. Lines that are close together indicate steep terrain, and lines that are far apart indicate flat terrain]
     (*
     <- lang_en;;
     *);

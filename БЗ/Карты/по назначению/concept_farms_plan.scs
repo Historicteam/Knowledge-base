@@ -1,0 +1,8 @@
+concept_farms_plan
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[план хозяйства](*<- lang_ru;;*);
+	[farms plan](*<- lang_en;;*);
+    	[план гаспадаркі](*<- lang_by;;*);;

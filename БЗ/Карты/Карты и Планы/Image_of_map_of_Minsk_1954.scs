@@ -1,0 +1,27 @@
+	Image_of_map_of_Minsk_1954
+	=> nrel_main_idtf:
+		[Изображение карты Минска 1954]
+		(*
+		<- lang_ru;;
+		*);
+		[Image of map of Minsk 1954]
+		(*
+		<- lang_en;;
+		*);
+		[Выява мапы Мiнска 1954]
+		(*
+		<- lang_by;;
+		*);
+		
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/minsk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
