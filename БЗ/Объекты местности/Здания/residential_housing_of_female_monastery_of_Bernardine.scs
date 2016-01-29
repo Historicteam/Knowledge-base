@@ -1,0 +1,29 @@
+residential_housing_of_female_monastery_of_Bernardine
+
+=> nrel_main_idtf:
+	[Жилой корпус женского монастыря бернардинцев]
+	(*
+	<- lang_ru;;
+	*);
+	[residential housing of female monastery of Bernardine]
+	(*
+	<- lang_en;;
+	*);
+	[Жылы корпус жаночага манастыра бернардынаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/bernki_corpus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

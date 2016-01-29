@@ -1,0 +1,45 @@
+building_of_the_Cathedral_of_the_Holy_Spirit
+=> nrel_main_idtf:
+	[Здание кафедрального собора Святого Духа]
+	(*
+	<- lang_ru;;
+	*);
+	[building of the Cathedral of the Holy Spirit]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак кафедральнага Свята-Духаўскога сабора]
+	(*
+	<- lang_by;;
+	*);
+	
+=> nrel_idtf:
+	[Здание костёла бернардинок]
+	(*
+	<- lang_ru;;
+	*);
+        [building of Bernardine Church]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак касцёла бернардынак]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_building;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/caphedralsobor.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+

@@ -102,7 +102,7 @@ var OpenStreetMapViewer = function(sandbox){
 		
 
     $(this.container).empty();
-	$(this.container).append('<iframe width="1000" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=/static/components/html/map.html> </iframe>');
+	$(this.container).append('<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=/static/components/html/map.html> </iframe>');
 	dfd.resolve();
     return dfd.promise();
     }

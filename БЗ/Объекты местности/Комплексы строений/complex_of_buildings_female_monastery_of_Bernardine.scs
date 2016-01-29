@@ -1,0 +1,74 @@
+complex_of_constructions_female_monastery_of_Bernardine
+<-concept_complex_of_buildings;
+=> nrel_main_idtf:
+	[Комплекс строений женского монастыря бернардинцев]
+	(*
+	<- lang_ru;;
+	*);
+	[complex of constructions female monastery of Bernardine]
+	(*
+	<- lang_en;;
+	*);
+	[Комплекс будынкаў жаночага манастыра бернардынаў]
+	(*
+	<- lang_by;;
+	*);
+	
+<= nrel_section_decomposition: 
+    decomposition_of_the_complex_of_constructions_female_monastery_of_Bernardine
+        (*
+		=> nrel_main_idtf:
+			[декомпозиция комплекса строений женского монастыря бернардинцев]
+			(*
+			<- lang_ru;;
+			*);
+			[decomposition of the complex of constructions female monastery of Bernardine]
+			(*
+			<- lang_en;;
+			*);
+			[дэкампазіцыя комплексу будынкаў жаночага манастыра бернардынаў]
+			(*
+			<- lang_by;;
+			*);;
+			
+        ->building_of_the_Cathedral_of_the_Holy_Spirit;;
+        ->residential_housing_of_female_monastery_of_Bernardine;;
+        *);
+
+    
+    
+<-concept_terrain_object;
+
+=> nrel_openstreetmap:
+	[complex_of_constructions_female_monastery_of_Bernardine] 
+	(*
+	=> nrel_format:
+		format_openstreetmap;;
+	*);
+    
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.904994, 27.556231]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.904994;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.556231;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
+   

@@ -1,0 +1,30 @@
+residential_housing_of_male_monastery_of_Bernardine
+
+=> nrel_main_idtf:
+	[Жилой корпус мужского монастыря бернардинцев]
+	(*
+	<- lang_ru;;
+	*);
+	[residential housing of male monastery of Bernardine]
+	(*
+	<- lang_en;;
+	*);
+	[Жылы корпус мужчынскага манастыра бернардынаў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/berncy_corpus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
