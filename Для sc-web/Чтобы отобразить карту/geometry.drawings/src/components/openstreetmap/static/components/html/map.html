@@ -12,37 +12,35 @@
 	<p> data </p>
 <body>
 <div id='map'></div>
+
+
 <script class="mark">
 
-
-
-   
-	
-   var map = L.map('map');
+var map = L.map('map');
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-  function second_passed() {
-  var lat = localStorage.getItem('GeoObj');   //Take lat from node;
-   var lon = localStorage.getItem('GeoObj2');  //Take long from node;
-   var name = localStorage.getItem('NameObj'); //Take name from kb;
-	map.setView([lat, lon], 18); 
-    addMarker(lat, lon, name); //Add Marker to map
-	}
-	setTimeout(second_passed, 2500);
+var def = localStorage.getItem('def');  //Берём объект Deferred из openstreetmap.js
  
-	
-function addMarker(lat, lon, name)
-{
-L.marker([lat, lon]).addTo(map)
+def.done(function () {
+    var lat = localStorage.getItem('GeoObj');   
+    var lon = localStorage.getItem('GeoObj2');  
+    var name = localStorage.getItem('NameObj'); 
+    map.setView([lat, lon], 18); 
+    addMarker(lat, lon, name); 
+  });
+
+
+function addMarker(lat, lon, name) {
+    L.marker([lat, lon]).addTo(map)
     .bindPopup(name)
     .openPopup();
-}
-</script>
-</body>
+  }
 
-	
+</script>
+
+</body>
 </html>
 
