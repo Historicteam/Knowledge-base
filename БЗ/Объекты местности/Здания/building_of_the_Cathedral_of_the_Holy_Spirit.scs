@@ -28,6 +28,9 @@ building_of_the_Cathedral_of_the_Holy_Spirit
 	*);
 
 <-concept_building;
+<-concept_terrain_object;
+
+//Координаты
 
 <- rrel_key_sc_element: ...
 	(*
@@ -40,6 +43,217 @@ building_of_the_Cathedral_of_the_Holy_Spirit
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
+	*);
+	
+<= nrel_temporal_decomposition: 
+    {
+        Female_Bernardine_Church
+        (* 
+        => nrel_main_idtf:
+            [Костёл бернардинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Female Bernardine Church]
+            (*
+            <- lang_en;;
+            *);
+            [Касцёл бернардынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1642];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1652];;
+                *);;
+            *);;
+        *);
+        
+        
+        Church_of_Saints_Kirill_and_Miefodij
+        (*
+        => nrel_main_idtf:
+            [Церковь святого Кирилла и Мефодия]
+            (*
+            <- lang_ru;;
+            *);
+            [Church of Saints Cyril and Methodius]
+            (*
+            <- lang_en;;
+            *);
+            [Царква святога Кірыла і Мяфодзія]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1860];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1870];;
+                *);;
+            *);;
+        *);
+        
+        
+        Church_of_the_Holy_Spirit
+        (*
+        => nrel_main_idtf:
+            [Свято-Духовская церковь]
+            (*
+            <- lang_ru;;
+            *);
+            [Church of the Holy Spirit]
+            (*
+            <- lang_en;;
+            *);
+            [Свята-Духаўская царква]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1860];;
+                -> rrel_day: rrel_decimal: [22];;
+                -> rrel_monthr: rrel_decimal: [10];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1918];;
+                *);;
+            *);;
+        *);
+        
+        Cathedral_of_the_Holy_Spirit
+        (*
+        => nrel_main_idtf:
+            [Кафедральный собор Святого Духа]
+            (*
+            <- lang_ru;;
+            *);
+            [Cathedral of the Holy Spirit]
+            (*
+            <- lang_en;;
+            *);
+            [Кафедральны Свята-Духаўскогi сабор]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1943];;
+                *);;
+            *);;
+        *)
+    
+    };;
+	
+
+concept_situation->[*fire_brigade_hall => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
+(*
+    => nrel_main_idtf: [Контур периода времени расположения спортивного зала пожарной команды в здании кафедрального собора Святого Духа](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+*);;
+
+
+concept_situation->[*transit_prison => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
+(*
+        => nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1925];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1930];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1940];;
+                *);;
+            *);;
+ *);
+ 
+ => nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9050399;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5561731;;
+					*);;
+				*);;
+			*);;
+		*);;
 	*);;
  
-
+ 

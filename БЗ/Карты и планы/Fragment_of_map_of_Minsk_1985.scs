@@ -8,7 +8,7 @@ Fragment_of_map_of_Minsk_1985
         [Фрагмент мапы Мiнска 1985](*<- lang_by;;*);
 	
 
-<= nrel_section_decomposition: 
+<= nrel_map_decomposition: 
 {
 Image_of_fragment_of_map_of_Minsk_1985
 };
@@ -21,3 +21,4 @@ Image_of_fragment_of_map_of_Minsk_1985
 -> rrel_year: rrel_decimal: [1985];;
 *);;
 *);;
+

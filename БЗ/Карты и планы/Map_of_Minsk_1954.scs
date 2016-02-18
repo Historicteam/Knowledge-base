@@ -13,7 +13,7 @@ Map_of_Minsk_1954
 => nrel_sourse: [Army map service, corps of engineers, 5-58](*<-lang_en;;*);
 	
 
-<= nrel_section_decomposition: 
+<= nrel_map_decomposition:
 {
 Image_of_map_of_Minsk_1954
 };

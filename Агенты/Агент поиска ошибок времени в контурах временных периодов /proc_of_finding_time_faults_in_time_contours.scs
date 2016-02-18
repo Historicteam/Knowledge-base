@@ -115,7 +115,7 @@ scp_program -> proc_of_finding_time_faults_in_time_contours
 			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_assign: rrel_scp_var: _end_time;;
             -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
-		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_end_time;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_finish_time;;
 	         
 
                  	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator8;;

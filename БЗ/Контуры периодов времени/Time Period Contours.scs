@@ -9,7 +9,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Moniusz
 																				-> rrel_year: rrel_decimal: [1831];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -27,7 +27,7 @@ concept_situation->[*Bohdanovich_Maksim_Adamovich => nrel_dwelling: Korkozovichs
 																				-> rrel_year: rrel_decimal: [1891];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -47,7 +47,7 @@ concept_situation->[*organization_Literary_Museum_of_Bogdanovich => nrel_locatio
 																				-> rrel_year: rrel_decimal: [1980];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -67,7 +67,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Freyer_Au
 																				-> rrel_year: rrel_decimal: [1827];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -85,7 +85,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Rungenhag
 																				-> rrel_year: rrel_decimal: [1837];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -103,7 +103,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_professor:nrel_emp
 																				-> rrel_year: rrel_decimal: [1864];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -134,7 +134,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organizat
 																				-> rrel_year: rrel_decimal: [1827];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -152,7 +152,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organizat
 																				-> rrel_year: rrel_decimal: [1830];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -170,7 +170,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Freemaso
 																				-> rrel_year: rrel_decimal: [1843];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -188,7 +188,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Muellers
 																				-> rrel_year: rrel_decimal: [1840];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -206,7 +206,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_conductor:nrel_emp
 																				-> rrel_year: rrel_decimal: [1858];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -228,7 +228,7 @@ concept_situation->[*private_municipal_theatre => nrel_location: Male_Basilian_M
 																				-> rrel_year: rrel_decimal: [1803];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -247,7 +247,7 @@ concept_situation->[*minsk_doctors_society => nrel_location: Male_Basilian_Monas
 																				-> rrel_year: rrel_decimal: [1835];;
 																			*);;
 						*);;
-	=> nrel_end_time: ... ;;
+	=> nrel_finish_time: ... ;;
 *);;
 
 
@@ -261,7 +261,7 @@ concept_situation->[*organisation_redaction_of_Minskie_Gubernskie_Vedomosti_news
 																				-> rrel_year: rrel_decimal: [1838];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -281,7 +281,7 @@ concept_situation->[*organisation_Minsk_regional_court => nrel_location: Male_Ba
 																				-> rrel_year: rrel_decimal: [1852];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -301,7 +301,7 @@ concept_situation->[*organisation_peoples_comissariat_of_labour => nrel_location
 																				-> rrel_year: rrel_decimal: [1920];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -320,5 +320,5 @@ concept_situation->[*organisation_central_labour_club_red_profintern => nrel_loc
 																				-> rrel_year: rrel_decimal: [1923];;
 																			*);;
 						*);;
-	=> nrel_end_time: ... ;;
+	=> nrel_finish_time: ... ;;
 *);;
