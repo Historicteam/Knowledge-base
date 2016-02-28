@@ -1,0 +1,29 @@
+concept_road_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[дорожная карта](*<- lang_ru;;*);
+	[road map](*<- lang_en;;*);
+    	[дарожная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Road maps display major—some minor highways—and roads, airports, railroad tracks, cities and other points of interest in an area. People use road maps to plan trips and for driving directions]
+    (*
+    <- lang_en;;
+    *);
+  [temp]
+    (*
+     <-lang_ru;;
+    *);
+  [temp]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

@@ -1,0 +1,48 @@
+ concept_biographical_excursion
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[биографическая экскурсия]
+(*
+<- lang_ru;;
+*);
+[biographical excursion]
+(*
+<- lang_en;;
+*);
+[біяграфічная экскурсія]
+(*
+<- lang_by;;
+*);
+//
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Биографическая экскурсия-экскурсия ,которая проводится в местах,связанных с известными личностями]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Біяграфічная экскурсія-экскурсія, якая праводзіцца ў месцах, звязаных з вядомымі асобамі]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Biographical tour excursion, which is held in the places associated with famous personalities]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

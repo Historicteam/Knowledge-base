@@ -9,7 +9,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Moniusz
 																				-> rrel_year: rrel_decimal: [1831];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -27,7 +27,7 @@ concept_situation->[*Bohdanovich_Maksim_Adamovich => nrel_dwelling: Korkozovichs
 																				-> rrel_year: rrel_decimal: [1891];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -47,7 +47,7 @@ concept_situation->[*organization_Literary_Museum_of_Bogdanovich => nrel_locatio
 																				-> rrel_year: rrel_decimal: [1980];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -67,7 +67,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Freyer_Au
 																				-> rrel_year: rrel_decimal: [1827];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -85,7 +85,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Rungenhag
 																				-> rrel_year: rrel_decimal: [1837];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -103,7 +103,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_professor:nrel_emp
 																				-> rrel_year: rrel_decimal: [1864];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -134,7 +134,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organizat
 																				-> rrel_year: rrel_decimal: [1827];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -152,7 +152,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organizat
 																				-> rrel_year: rrel_decimal: [1830];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -170,7 +170,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Freemaso
 																				-> rrel_year: rrel_decimal: [1843];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -188,7 +188,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Muellers
 																				-> rrel_year: rrel_decimal: [1840];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
@@ -206,11 +206,119 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_conductor:nrel_emp
 																				-> rrel_year: rrel_decimal: [1858];;
 																			*);;
 						*);;
-	=> nrel_end_time: ...
+	=> nrel_finish_time: ...
 						(*
 							=> nrel_translation_in_the_Gregorian_calendar: ...
 																			(*
 																				-> rrel_year: rrel_decimal: [1872];;
 																			*);;
 						*);;			
+*);;
+
+
+
+
+concept_situation->[*private_municipal_theatre => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения частного городского театра в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1803];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1817];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*minsk_doctors_society => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения минского общества врачей в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1835];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ... ;;
+*);;
+
+
+concept_situation->[*organisation_redaction_of_Minskie_Gubernskie_Vedomosti_newspaper => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения редакции газеты "Минские губернские ведомости" в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1838];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+*);;
+
+
+concept_situation->[*organisation_Minsk_regional_court => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения минского округового суда в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1852];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1910];;
+																			*);;
+						*);;
+*);;
+
+
+concept_situation->[*organisation_peoples_comissariat_of_labour => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения народного комиссариата труда в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1920];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1933];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*organisation_central_labour_club_red_profintern => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения центрального рабочего клуба "Красный профинтерн" в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1923];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ... ;;
 *);;

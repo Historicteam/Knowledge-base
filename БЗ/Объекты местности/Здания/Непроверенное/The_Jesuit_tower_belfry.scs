@@ -1,0 +1,8 @@
+The_Jesuit_tower_belfry
+<- concept_building;
+=> nrel_main_idtf:
+	[Башня-звонница] (* <- lang_ru;; *);
+	[Tower-belfry] (* <- lang_en;; *);
+	[Вежа-званіца] (* <- lang_by;; *);;
+
+

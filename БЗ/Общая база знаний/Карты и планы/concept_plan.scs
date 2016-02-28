@@ -1,0 +1,94 @@
+concept_plan
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[план](*<- lang_ru;;*);
+	[plan](*<- lang_en;;*);
+        [план](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Plan - a drawing of the area which made in the conventional signs and on a large scale]
+    (*
+    <- lang_en;;
+    *);
+  [План - это чертеж местности, выполненный в условных знаках и в крупном масштабе]
+    (*
+     <-lang_ru;;
+    *);
+  [План - гэта чарцёж мясцовасці, выкананы ў умоўных знаках і ў буйным маштабе]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<= nrel_subdividing:
+subdividing_of_the_plan_scale
+	(*
+		=> nrel_main_idtf:
+			[разбиение плана по масштабу]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of plan by scale]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё плана па маштабе]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_small_scale_plan;;
+        ->concept_mesoscale_plan;;
+        ->concept_large_scale_plan;;
+	*);
+   
+
+<= nrel_subdividing:
+subdividing_of_the_plan_type
+	(*
+		=> nrel_main_idtf:
+			[разбиение плана по содержанию]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of plan by type]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё плана па змесце]
+			(*
+			<- lang_by;;
+			*);;
+	   	->concept_contour_plan;;
+		->concept_topographical_plan;;
+		->concept_special_plan;;
+	*);
+
+
+<= nrel_subdividing:
+subdividing_of_the_plan_functions
+	(*
+		=> nrel_main_idtf:
+			[разбиение плана по назначению]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of plan by function]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё плана па прызначэнню]
+			(*
+			<- lang_by;;
+			*);;
+	   	->concept_farms_plan;;
+		->concept_settlements_plan;;
+
+*);;

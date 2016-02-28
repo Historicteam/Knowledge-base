@@ -1,0 +1,26 @@
+Plan_of_Minsk_1793
+<-concept_plan;
+
+=> nrel_main_idtf:
+	
+	[План Минска 1793](*<- lang_ru;;*);
+	[Plan of Minsk 1793](*<- lang_en;;*);
+        [План Мiнска 1793](*<- lang_by;;*);
+
+=> nrel_author: [Кнороза Ю.Н.](*<- lang_ru;;*);
+
+
+<= nrel_map_decomposition:
+{
+Image_of_plan_of_Minsk_1793
+};
+
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_day: rrel_decimal: [15];;
+-> rrel_month: rrel_decimal: [12];;
+-> rrel_year: rrel_decimal: [1982];;
+*);;
+*);;

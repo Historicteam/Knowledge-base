@@ -1,0 +1,53 @@
+concept_stroll_excursion
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия-прогулка]
+(*
+<- lang_ru;;
+*);
+[stroll excursion]
+(*
+<- lang_en;;
+*);
+[экскурсія-прагулка]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ экскурсия-прогулка-экскурсия,совмещающая в себе элементы познания с элементами отдыха и которая проводится в лесу, в парке, по морю, реке и пр]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[экскурсія-прагулка-экскурсія,якая сумяшчае ў сабе элементы пазнання з элементамі адпачынку і якая праводзіцца ў лесе, у парку, па моры, рацэ і інш]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[stroll excursion-excursion, which combines the elements of knowledge with elements of recreation and which is held in a forest in the park, the sea, river, etc.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+

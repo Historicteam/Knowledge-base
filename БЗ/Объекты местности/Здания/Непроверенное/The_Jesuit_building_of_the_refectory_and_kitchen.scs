@@ -1,0 +1,8 @@
+The_Jesuit_building_of_the_refectory_and_kitchen
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание трапезной и кухни] (* <- lang_ru;; *);
+	[The building of the refectory and kitchen] (* <- lang_en;; *);
+	[Будынак трапезнай і кухні] (* <- lang_by;; *);;
+
+

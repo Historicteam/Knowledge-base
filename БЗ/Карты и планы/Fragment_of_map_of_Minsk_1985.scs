@@ -1,0 +1,24 @@
+Fragment_of_map_of_Minsk_1985
+<-concept_topographical_map;
+
+=> nrel_main_idtf:
+	
+	[Фрагмент карты Минска 1985](*<- lang_ru;;*);
+	[Fragment of map of Minsk 1985](*<- lang_en;;*);
+        [Фрагмент мапы Мiнска 1985](*<- lang_by;;*);
+	
+
+<= nrel_map_decomposition: 
+{
+Image_of_fragment_of_map_of_Minsk_1985
+};
+
+
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [1985];;
+*);;
+*);;
+

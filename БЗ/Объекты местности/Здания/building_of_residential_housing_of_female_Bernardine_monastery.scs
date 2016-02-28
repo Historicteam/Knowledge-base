@@ -1,0 +1,172 @@
+building_of_residential_housing_of_female_Bernardine_monastery
+
+=> nrel_main_idtf:
+	[Здание жилого корпуса бернардинок]
+	(*
+	<- lang_ru;;
+	*);
+	[building of residential housing of female monastery of Bernardine]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак жылога корпуса манастыра бернардынак]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building;
+
+<= nrel_temporal_decomposition: 
+    {
+        Female_Bernardine_monastery
+        (* 
+        => nrel_main_idtf:
+            [Монастырь бернардинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Female Bernardine monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Манастыр бернардынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1642];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1852];;
+                *);;
+            *);;
+        *);
+        
+        Holy_Trinity_male_monastery
+        (*
+        => nrel_main_idtf:
+            [Свято-Троицкий мужской монастырь]
+            (*
+            <- lang_ru;;
+            *);
+            [Holy Trinity male monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Свята-Траецкi мужчынскi манастыр]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1862];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1870];;
+                *);;
+            *);;
+        *);
+        
+        Holy_Spirit_male_monastery
+        (*
+        => nrel_main_idtf:
+            [Свято-Духов мужской монастырь]
+            (*
+            <- lang_ru;;
+            *);
+            [Holy Spirit male monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Свята-Духаў мужчынскi манастыр]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1870];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1918];;
+                *);;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1943];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1945];;
+                *);;
+            *);;
+        *)
+        
+    };
+    
+    => nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.905184, 27.55594]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.905184;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.55594;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+    
+    
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/bernki_corpus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

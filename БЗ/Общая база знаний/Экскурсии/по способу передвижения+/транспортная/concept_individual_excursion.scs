@@ -1,0 +1,50 @@
+concept_individual_and_transport_excursion
+//
+<-sc_const;
+<-sc_node_not_relation;
+//
+=> nrel_main_idtf:
+[индивидуально-транспортная экскурсия]
+(*
+<- lang_ru;;
+*);
+[individual and transport excursion]
+(*
+<- lang_en;;
+*);
+[індывідуальна-транспартная экскурсія]
+(*
+<- lang_by;;
+*);
+//
+//<=nrel_inclusion: concept_transport_excursion
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Индивидуально-транспортная экскурсия- экскурсия,проводимая на личном автотранспорте  ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[iндывідуальна-транспартная экскурсія- экскурсія, якая праводзіцца на асабістым аўтатранспарце]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ Individual and transport excursion-excursion, conducted on private vehicles]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

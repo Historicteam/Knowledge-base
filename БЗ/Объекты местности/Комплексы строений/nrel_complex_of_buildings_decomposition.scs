@@ -1,0 +1,11 @@
+nrel_complex_of_buildings_decomposition
+=> nrel_main_idtf:
+		[декомпозиция комплекса строений*]
+		(*<- lang_ru;;*);
+		[complex of buildings_decomposition*]
+		(*<- lang_en;;*);
+		[дэкампазiцыя комплекса будынкаў*]
+		(*<- lang_by;;*);
+<- quasybinary_relation;		
+<- decomposition_relation;
+<- sc_node_norole_relation;; 

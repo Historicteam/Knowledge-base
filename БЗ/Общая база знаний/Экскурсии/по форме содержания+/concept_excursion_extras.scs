@@ -1,0 +1,54 @@
+concept_excursion_extras
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия-массовка]
+(*
+<- lang_ru;;
+*);
+[excursion-extras]
+(*
+<- lang_en;;
+*);
+[экскурсія-масоўка]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ Экскурсия-массовка- экскурсия,в которой ее участники передвигаются по маршруту одновременно на 10-20 автобусах, в каждом из которых работает экскурсовод]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ экскурсія-масоўка- экскурсія, у якой яе ўдзельнікі перасоўваюцца па маршруце адначасова на 10-20 аўтобусах, у кожным з якіх працуе экскурсавод]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Excursion-extras-tour in which participants move along the route at the same time by 10-20 buses, each of which runs a guide]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+

@@ -1,0 +1,28 @@
+Map_of_Minsk_1903
+<-concept_map;
+
+=> nrel_main_idtf:
+	
+	[Карта Минска 1903](*<- lang_ru;;*);
+	[Map of Minsk 1903](*<- lang_en;;*);
+        [Мапа Мiнска 1903](*<- lang_by;;*);
+
+
+
+
+=> nrel_sourse: [Гiсторыя Мiнска. -- Мiнск, "Беларуская Энцыклапедыя", 2006. -- С. 196-197.](*<-lang_by;;*);
+	
+
+<= nrel_map_decomposition:
+{
+Image_of_map_of_Minsk_1903
+};
+
+
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [1903];;
+*);;
+*);;

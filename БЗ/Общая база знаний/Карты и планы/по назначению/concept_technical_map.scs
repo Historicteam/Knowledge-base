@@ -1,0 +1,29 @@
+concept_technical_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[техническая карта](*<- lang_ru;;*);
+	[technical map](*<- lang_en;;*);
+    	[тэхнічная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Technical maps - display objects and the necessary conditions for the solution of any technical jobs]
+    (*
+    <- lang_en;;
+    *);
+  [Технические карты - отображают объекты и условия, необходимые для решения каких-либо технических заданий]
+    (*
+     <-lang_ru;;
+    *);
+  [Тэхнічныя мапы - адлюстроўваюць аб'екты і ўмовы, патрэбныя для вырашэння якіх-небудзь тэхнічных заданняў]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

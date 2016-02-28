@@ -1,0 +1,51 @@
+concept_excursion->concept_excursion_of_the_Liberty_Square
+(*
+	=> nrel_route_point: 
+	[*
+	Male_Basilian_Monastery_Building => nrel_next_point:Complex_Holy_Church_Dukhovskoi
+	(*
+		=> nrel_next_point:Female_Basilian_Monastery_Building
+		(*
+		=> nrel_next_point:Building_trade_rows
+		  (*
+		  => nrel_next_point:Building_archive
+		     (*
+			 		  => nrel_next_point:building_of_the_Cathedral_of_the_Holy_Spirit
+					  (*
+					  => nrel_next_point:Building_courtyard_seating
+					      (*
+						  => nrel_next_point:Urban_homestead
+						  
+						  
+						     (*
+						      => nrel_next_point:The_building_of_the_Jesuit_school
+							        (*
+									=> nrel_next_point:The_building_of_the_Mariinsky_Cathedral
+									    (*
+										=> nrel_next_point:The_hotel_Europe
+										   (*
+										   => nrel_next_point:The_building_of_the_Minsk_City_Theatre;;
+										   *);;
+										*);;
+									*);;
+						      *);;
+						  *);;
+					  *);;
+			 *);;
+		  *);;
+		*);;
+		
+	*);;
+	*];;
+*);;
+
+
+	
+
+
+
+	
+
+
+
+

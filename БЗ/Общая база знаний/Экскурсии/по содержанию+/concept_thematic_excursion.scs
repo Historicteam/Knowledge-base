@@ -1,0 +1,52 @@
+concept_thematic_excursion
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[тематическая экскурсия]
+(*
+<- lang_ru;;
+*);
+[thematic excursion]
+(*
+<- lang_en;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Тематическая экскурсия- экскурсия,появященная раскрытию одной темы]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Тэматычная экскурсия- экскурсія, прысвечаная раскрыцці адной тэмы]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Thematic excursion-excursion dedicated to one subject to disclosure]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_literary_excursion;;
+	-> concept_historical_excursion;;
+	-> concept_biographical_excursion;;
+	-> concept_architectural_excursion;;
+	*)
+;;

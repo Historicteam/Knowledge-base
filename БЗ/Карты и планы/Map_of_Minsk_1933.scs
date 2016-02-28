@@ -1,0 +1,28 @@
+Map_of_Minsk_1933
+<-concept_topographical_map;
+
+=> nrel_main_idtf:
+	
+	[Карта Минска 1933](*<- lang_ru;;*);
+	[Map of Minsk 1933](*<- lang_en;;*);
+        [Мапа Мiнска 1933](*<- lang_by;;*);
+
+
+
+
+=> nrel_author: [Автор-составитель - Душка, Редактор - Самотей](*<-lang_ru;;*);
+	
+
+<= nrel_map_decomposition:
+{
+Image_of_map_of_Minsk_1933
+};
+
+
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [1933];;
+*);;
+*);;

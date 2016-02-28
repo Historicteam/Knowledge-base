@@ -1,0 +1,35 @@
+concept_excursion_in_the_form_of
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия по форме проведения]
+(*
+<- lang_ru;;
+*);
+[excursion in the form of]
+(*
+<- lang_en;;
+*);
+[экскурсія па форме правядзення]
+(*
+<- lang_by;;
+*);
+
+
+<= nrel_subdividing: ...
+	(*
+	-> concept_consultation_excursion;;
+	-> concept_demonstration_excursion;;
+     -> concept_excursion_concert;;
+     -> concept_excursion_extras;;
+    -> concept_excursion_lecture;;
+    -> concept_excursion_performance;;
+	-> concept_stroll_excursion;;
+	*)
+;;
+
+

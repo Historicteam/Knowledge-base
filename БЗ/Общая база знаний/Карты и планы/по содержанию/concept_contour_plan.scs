@@ -1,0 +1,30 @@
+concept_contour_plan
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[контурный план](*<- lang_ru;;*);
+	[contour plan](*<- lang_en;;*);
+    	[контурны план](*<- lang_by;;*);
+
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Contour plan - display only the countur of the local objects]
+    (*
+    <- lang_en;;
+    *);
+  [Контурные план - изображают только очертания местных предметов ]
+    (*
+     <-lang_ru;;
+    *);
+  [Контурныя планы - паказваюць толькі абрысы мясцовых прадметаў]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

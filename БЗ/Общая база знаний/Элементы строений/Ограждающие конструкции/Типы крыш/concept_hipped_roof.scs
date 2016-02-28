@@ -1,0 +1,56 @@
+concept_hipped_roof
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[четырехскатная крыша]
+	(*
+	<- lang_ru;;
+	*);
+	[hipped roof]
+	(*
+	<- lang_en;;
+	*);
+	[чатырохсхільны дах]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	
+        <-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Четырехскатная крыша - это тип крышы, который состоит из четырех плоскостей-скатов, опирающихся на несущие стены одинаковой высоты.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		
+		
+		...
+		(*
+		-> rrel_example:
+			[Чатырохсхільны дах - гэта тып даху, які складаецца з чатырох плоскасцяў-пахілаў, якія абапіраюцца на апорныя сцены аднолькавай вышыні.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+*);
+<- rrel_key_sc_element:
+...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/двухскатная.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
+

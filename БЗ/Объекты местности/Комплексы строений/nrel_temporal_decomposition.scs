@@ -1,0 +1,11 @@
+nrel_temporal_decomposition
+=> nrel_main_idtf:
+		[темпоральная декомпозиция*]
+		(*<- lang_ru;;*);
+		[temporal decomposition*]
+		(*<- lang_en;;*);
+		[тэмпаральная дэкампазiцыя*]
+		(*<- lang_by;;*);
+<- quasybinary_relation;		
+<- decomposition_relation;
+<- sc_node_norole_relation;; 

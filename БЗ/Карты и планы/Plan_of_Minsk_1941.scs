@@ -1,0 +1,31 @@
+Plan_of_Minsk_1941
+<-concept_plan;
+
+=> nrel_main_idtf:
+	
+	[План Минска 1941](*<- lang_ru;;*);
+	[Plan of Minsk 1941](*<- lang_en;;*);
+        [План Мiнска 1941](*<- lang_by;;*);
+
+=> nrel_author: Commander_of_the_construction_N9
+	(* 
+	=> nrel_main_idtf:
+	[Командир строительства N9](*<- lang_ru;;*);
+	[Commander of the construction N9](*<- lang_en;;*);
+    [Камандзір будавання N9](*<- lang_by;;*);;
+	*);
+
+<= nrel_map_decomposition:
+{
+Legend_of_plan_of_Minsk_1941;
+Image_of_plan_of_Minsk_1941
+};
+
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_month: rrel_decimal: [7];;
+-> rrel_year: rrel_decimal: [1941];;
+*);;
+*);;

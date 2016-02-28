@@ -1,0 +1,50 @@
+concept_town_excursion
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[городская экскурсия]
+(*
+<- lang_ru;;
+*);
+[town excursion]
+(*
+<- lang_en;;
+*);
+[гарадская экскурсія]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ Городская экскурсия-массовое или индивидуальное посещение различных мероприятий и мест в пределах определенного населенного пункта городского типа]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+
+(*
+-> rrel_example:
+[ Гарадская экскурсія-масавае і індывідуальнае наведванне розных мерапрыемстваў і месцаў у у межах пэўнага населенага пункта гарадскога тыпу]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ City excursion-mass and individual visits to various events and places within a defined urban settlements]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

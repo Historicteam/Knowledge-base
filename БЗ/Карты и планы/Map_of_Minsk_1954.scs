@@ -1,0 +1,28 @@
+Map_of_Minsk_1954
+<-concept_topographical_map;
+
+=> nrel_main_idtf:
+	
+	[Карта Минска 1954](*<- lang_ru;;*);
+	[Map of Minsk 1954](*<- lang_en;;*);
+        [Мапа Мiнска 1954](*<- lang_by;;*);
+
+
+
+
+=> nrel_sourse: [Army map service, corps of engineers, 5-58](*<-lang_en;;*);
+	
+
+<= nrel_map_decomposition:
+{
+Image_of_map_of_Minsk_1954
+};
+
+
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_year: rrel_decimal: [1954];;
+*);;
+*);;

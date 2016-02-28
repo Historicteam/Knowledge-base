@@ -1,0 +1,48 @@
+concept_country_and_town_excursion
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[загородно-городская экскурсия]
+(*
+<- lang_ru;;
+*);
+[country-town excursion]
+(*
+<- lang_en;;
+*);
+[загарадна-гарадская экскурсія]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Загородно-городская экскурсия - экскурсия ,содержащяя как элементы городской,так и элементы загородной экскурсии]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Загарадна-гарадская  экскурсія-экскурсія, якая змяшчае як элементы гарадской, так і элементы загараднай экскурсіі]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Сountry-town excursion-tour, containing the elements of urban and suburban elements tours]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

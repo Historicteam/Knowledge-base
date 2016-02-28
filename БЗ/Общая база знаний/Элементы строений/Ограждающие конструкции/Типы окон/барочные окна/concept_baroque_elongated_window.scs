@@ -1,0 +1,52 @@
+concept_baroque_elongated_window
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[барочное удлиненное окно]
+(*
+<- lang_ru;;
+*);
+[baroque elongated window]
+(*
+<- lang_en;;
+*);
+[барочнае падоўжанае акно]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Барочное удлиненное окно - окно, большой длины с толстыми горбыльками оконного переплета.]
+(*
+<- lang_ru;;
+*);;
+*);
+...
+(*
+-> rrel_example:
+[Барочнае падоўжанае акно - акно, вялікай даўжыні з тоўстымі горбылькамі аконнай вокладкі.]
+(*
+<- lang_by;;
+*);;
+*);;
+*);
+<- rrel_key_sc_element:
+...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/elongated.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+

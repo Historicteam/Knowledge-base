@@ -1,0 +1,45 @@
+concept_individual_excursion
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[индивидуальная экскурсия]
+(*
+<- lang_ru;;
+*);
+[individual excursion]
+(*
+<- lang_en;;
+*);
+[Індывідуальная экскурсія]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Индивидуальная экскурсия-экскурсия ,которая специально проводится для отдельного человека]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Індывідуальная экскурсія-экскурсія, якая спецыяльна праводзіцца для асобнага чалавека]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Individual excursion - excursion that is specifically carried out for the individual]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

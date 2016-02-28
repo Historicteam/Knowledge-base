@@ -1,0 +1,29 @@
+concept_topographical_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[топографическая карта](*<- lang_ru;;*);
+	[topographical map](*<- lang_en;;*);
+    	[тапаграфічная мапа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Topographic maps include contour lines to display the shape and elevation of an area. Lines that are close together indicate steep terrain, and lines that are far apart indicate flat terrain]
+    (*
+    <- lang_en;;
+    *);
+  [Топографические карты - подробные карты местности, позволяющие определять плановое и высотное положение точек]
+    (*
+     <-lang_ru;;
+    *);
+  [Тапаграфічныя мапы - падрабязныя мапы мясцовасці, што дазваляюць вызначаць планавае і вышыннае становішча кропак]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

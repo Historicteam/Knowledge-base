@@ -1,0 +1,45 @@
+concept_mass_excursion
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[массовая экскурсия]
+(*
+<- lang_ru;;
+*);
+[mass excursion]
+(*
+<- lang_en;;
+*);
+[масавая  экскурсія ]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Массовая экскурсия-экскурсия ,которая проводится для определенной групп лиц ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Масавая экскурсія-экскурсія, якая праводзіцца для пэўнай груп асобаў]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Mass excursion-excursion, which is held for a certain group of individuals]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

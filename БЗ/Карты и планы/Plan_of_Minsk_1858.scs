@@ -1,0 +1,31 @@
+Plan_of_Minsk_1858
+<-concept_plan;
+
+=> nrel_main_idtf:
+	
+	[План Минска 1858](*<- lang_ru;;*);
+	[Plan of Minsk 1858](*<- lang_en;;*);
+        [План Мiнска 1858](*<- lang_by;;*);
+
+
+
+
+=> nrel_sourse: [Т.А.Карповiч. Культурнае жыццё Мiнска I падовы XIX стагоддзя. -- Мiнск, "Рыфтур", 2007. -- Ст.4-5](*<-lang_by;;*);
+	
+
+<= nrel_map_decomposition:
+{
+Legend_of_plan_of_Minsk_1858;
+Image_of_plan_of_Minsk_1858
+};
+
+
+=> nrel_start_time: ...
+(*
+=> nrel_translation_in_the_Gregorian_calendar: ...
+(*
+-> rrel_day: rrel_decimal: [25];;
+-> rrel_month: rrel_decimal: [9];;
+-> rrel_year: rrel_decimal: [1858];;
+*);;
+*);;

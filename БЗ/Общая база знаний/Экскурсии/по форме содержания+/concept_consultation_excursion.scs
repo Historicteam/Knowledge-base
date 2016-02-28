@@ -1,0 +1,54 @@
+concept_consultation_excursion
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[экскурсия-консультация]
+(*
+<- lang_ru;;
+*);
+[consultation excursion]
+(*
+<- lang_en;;
+*);
+[экскурсія-кансультацыя]
+(*
+<- lang_by;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[ экскурсия-консультация-экскурсия,которая дает наглядные ответы на вопросы экскурсантов, служит одним из видов повышения квалификации ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[экскурсія-кансультацыя-экскурсія, якая дае наглядныя адказы на пытанні экскурсантаў, служыць адным з відаў павышэння кваліфікацыі]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Consultation excursion-excursion, which gives a clear answer to the questions of tourists, is a type of training]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
+
+
+

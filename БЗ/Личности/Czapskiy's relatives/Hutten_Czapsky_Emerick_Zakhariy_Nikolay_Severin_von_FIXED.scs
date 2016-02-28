@@ -35,8 +35,8 @@ Hutten_Czapsky_Emerick_Carlovich
 =>nrel_middle_name: name_Nikolay;
 =>nrel_middle_name: name_Severin;
 <=nrel_combat_activities_participant:Crimean_War;
-<=nrel_employee:nrel_vice_governor:provincial_board_of_Veliky_Novgorod;
-<=nrel_employee:nrel_vice_governor:provincial_board_of_Saint_Petersburg;
+<=nrel_employee:nrel_vice_governor:organization_provincial_board_of_Veliky_Novgorod;
+<=nrel_employee:nrel_vice_governor:organization_provincial_board_of_Saint_Petersburg;
 <=nrel_owner:Priluki_village;
 =>nrel_date_of_birth: 18_11_1828
 	(*

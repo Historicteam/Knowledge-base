@@ -1,0 +1,31 @@
+concept_physical_map
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[физическая карта](*<- lang_ru;;*);
+	[physical map](*<- lang_en;;*);
+    	[фізічная мапа](*<- lang_by;;*);
+
+<= nrel_inclusions: concept_topographical_map;
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Physical maps - detailed maps of the area, which display the main elements of the terrain. The main elements of the area are physiographic (hydrography, vegetation and soils, topography) and socio-economic (settlements, roads and boundaries)]
+    (*
+    <- lang_en;;
+    *);
+  [Физические карты - подробные карты местности, на которых показываются основные элементы местности. К основным элементам местности относятся физико-географические (гидрография, растительный покров и грунты, рельеф) и социально-экономические (населенные пункты, дороги и границы)]
+    (*
+     <-lang_ru;;
+    *);
+  [Фiзiчныя мапы - падрабязныя мапы мясцовасці, на якіх паказваюцца асноўныя элементы мясцовасці. Да асноўных элементаў мясцовасці ставяцца фізіка-геаграфічныя (гідраграфія, расліннае покрыва і грунты, рэльеф) і сацыяльна-эканамічныя (населеныя пункты, дарогі і межы)]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

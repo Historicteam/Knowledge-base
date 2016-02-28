@@ -1,0 +1,11 @@
+nrel_map_decomposition
+=> nrel_main_idtf:
+		[декомпозиция карты*]
+		(*<- lang_ru;;*);
+		[map decomposition*]
+		(*<- lang_en;;*);
+		[дэкампазiцыя мапы*]
+		(*<- lang_by;;*);
+<- quasybinary_relation;		
+<- decomposition_relation;
+<- sc_node_norole_relation;; 

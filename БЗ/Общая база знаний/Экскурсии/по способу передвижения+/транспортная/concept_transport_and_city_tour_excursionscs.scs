@@ -1,0 +1,51 @@
+concept_transport_and_city_tour_excursion
+//
+<-sc_const;
+<-sc_node_not_relation;
+//
+=> nrel_main_idtf:
+[ транспортно-городская экскурсия ]
+(*
+<- lang_ru;;
+*);
+[transport and city tour]
+(*
+<- lang_en;;
+*);
+[транспартна-гарадская экскурсія]
+(*
+<- lang_by;;
+*);
+//
+//<=nrel_inclusion: concept_transport_excursion
+//
+<- rrel_key_sc_element:
+ ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Транспортно-городская экскурсия - экскурсия,проводимая на общественном автотранспорте  ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Транспартна-гарадская экскурсія - экскурсія, якая праводзіцца на грамадскім аўтатранспарце]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Transport and city tour - a tour conducted by public road transport]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
