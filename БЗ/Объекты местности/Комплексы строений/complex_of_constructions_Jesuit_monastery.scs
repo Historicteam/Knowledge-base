@@ -1,245 +1,1 @@
-complex_of_constructions_Jesuit_monastery
-<-concept_complex_of_buildings;
-=> nrel_main_idtf:
-	[Комплекс строений Иезуитского монастыря]
-	(*
-	<- lang_ru;;
-	*);
-	[complex of constructions of Jesuit monastery]
-	(*
-	<- lang_en;;
-	*);
-	[Комплекс будынкаў Езуіцкі манастыра]
-	(*
-	<- lang_by;;
-	*);
-	
-<= nrel_section_decomposition: 
-    decomposition_of_the_complex_of_constructions_Jesuit_monastery
-        (*
-		=> nrel_main_idtf:
-			[декомпозиция комплекса строений Иезуитского монастыря]
-			(*
-			<- lang_ru;;
-			*);
-			[decomposition of the complex of constructions of Jesuit monastery]
-			(*
-			<- lang_en;;
-			*);
-			[дэкампазіцыя комплексу будынкаў Іезуіцкага манастыра]
-			(*
-			<- lang_by;;
-			*);;
-			
-        ->building_Embassy_of_France_Embassy_of_Bulgaria;;
-        ->The_building_of_the_Jesuit_school;;
-	->The_building_of_the_Mariinsky_Cathedral;;
-        *);
-
-<= nrel_temporal_decomposition:
-    {
-    complex_of_constructions_Jesuit_monastery_since_1678_to_1699
-       (*
-       => nrel_start_time: ...
-            (*
-            <= nrel_time_period: ...
-                (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1678];;
-                        *);;
-                    *);;
-              
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1678];;
-                        *);;
-                    *);;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1699];;
-                *);;
-            *);;
-            
-        <= nrel_complex_of_buildings_decomposition:
-        {
-		The_manor_house_Geiger;
-		The_sacristy_of_Jesuit_monastery
-        };;
-                
-        *);
-
-
-    	complex_of_constructions_Jesuit_monastery_since_1699_to_1708
-        (*
-                
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1699];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1708];;
-                *);;
-            *);;
-            
-        <= nrel_complex_of_buildings_decomposition:
-        {
-        The_manor_house_Geiger;
-	The_sacristy_of_Jesuit_monastery;
-	The_building_of_the_Jesuit_school
-        };;
-            
-        *);
-
-	complex_of_constructions_Jesuit_monastery_since_1708_to_1722
-        (*
-                
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1708];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1722];;
-                *);;
-            *);;
-            
-        <= nrel_complex_of_buildings_decomposition:
-        {
-        The_manor_house_Geiger;
-	The_sacristy_of_Jesuit_monastery;
-	The_building_of_the_Jesuit_school;
-	The_building_of_the_Mariinsky_Cathedral
-
-        };;
-            
-        *);
-
-	complex_of_constructions_Jesuit_monastery_since_1722_to_1732
-        (*
-                
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1722];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1732];;
-                *);;
-            *);;
-            
-        <= nrel_complex_of_buildings_decomposition:
-        {
-        The_manor_house_Geiger;
-	The_sacristy_of_Jesuit_monastery;
-	The_building_of_the_Jesuit_school;
-	The_building_of_the_Mariinsky_Cathedral;
-	The_building_of_the_chapel_of_Felician
-        };;
-            
-        *);
-
-	complex_of_constructions_Jesuit_monastery_since_1732_to_1738
-        (*
-                
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1732];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1738];;
-                *);;
-            *);;
-            
-        <= nrel_complex_of_buildings_decomposition:
-        {
-        The_manor_house_Geiger;
-	The_sacristy_of_Jesuit_monastery;
-	The_building_of_the_Jesuit_school;
-	The_building_of_the_Mariinsky_Cathedral;
-	The_building_of_the_chapel_of_Felician;
-	building_Embassy_of_France_Embassy_of_Bulgaria
-        };;
-            
-        *)
-
-	};
-
-    
-    
-<-concept_terrain_object;
-
-=> nrel_openstreetmap:
-	[complex_of_constructions_Jesuit_monastery] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-    
-=> nrel_geographical_location: ...
-	(*
-	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.9031514, 27.5546604]
-		(*
-		-> ...
-			(*
-			<- concept_coordinate;;
-			->rrel_latitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 53.9031514;;
-					*);;
-				*);;
-			->rrel_longitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 27.5546604;;
-					*);;
-				*);;
-			*);;
-		*);;
-	*);;
-    
+complex_of_constructions_Jesuit_monastery<-concept_complex_of_buildings;=> nrel_main_idtf:	[Комплекс строений Иезуитского монастыря]	(*	<- lang_ru;;	*);	[complex of constructions of Jesuit monastery]	(*	<- lang_en;;	*);	[Комплекс будынкаў Езуіцкага манастыра]	(*	<- lang_by;;	*);	<= nrel_temporal_decomposition:    {    complex_of_constructions_Jesuit_monastery_since_1678_to_1699       (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1678-1699)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1678-1699)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1678-1699)]            (*            <- lang_by;;            *);;       => nrel_start_time: ...            (*            <= nrel_time_period: ...                (*                    => nrel_start_time: ...                    (*                    <-concept_time_point;;                    => nrel_translation_in_the_Gregorian_calendar: ...                        (*                        -> rrel_year: rrel_decimal: [1678];;                        *);;                    *);;                                  => nrel_finish_time: ...                    (*                    <-concept_time_point;;                    => nrel_translation_in_the_Gregorian_calendar: ...                        (*                        -> rrel_year: rrel_decimal: [1678];;                        *);;                    *);;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1699];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {		The_manor_house_Geiger;		The_sacristy_of_Jesuit_monastery        };;                        *);    	complex_of_constructions_Jesuit_monastery_since_1699_to_1708        (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1699-1708)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1699-1708)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1699-1708)]            (*            <- lang_by;;            *);;                        => nrel_start_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1699];;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1708];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {        The_manor_house_Geiger;	The_sacristy_of_Jesuit_monastery;	The_building_of_the_Jesuit_school        };;                    *);	complex_of_constructions_Jesuit_monastery_since_1708_to_1722        (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1708-1722)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1708-1722)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1708-1722)]            (*            <- lang_by;;            *);;                        => nrel_start_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1708];;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1722];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {        The_manor_house_Geiger;	The_sacristy_of_Jesuit_monastery;	The_building_of_the_Jesuit_school;	The_building_of_the_Mariinsky_Cathedral        };;                    *);	complex_of_constructions_Jesuit_monastery_since_1722_to_1732        (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1722-1732)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1722-1732)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1722-1732)]            (*            <- lang_by;;            *);;                        => nrel_start_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1722];;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1732];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {        The_manor_house_Geiger;	The_sacristy_of_Jesuit_monastery;	The_building_of_the_Jesuit_school;	The_building_of_the_Mariinsky_Cathedral;	The_building_of_the_chapel_of_Felician        };;                    *);	complex_of_constructions_Jesuit_monastery_since_1732_to_1738        (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1732-1738)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1732-1738)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1732-1738)]            (*            <- lang_by;;            *);;                        => nrel_start_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1732];;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1738];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {        The_manor_house_Geiger;	The_sacristy_of_Jesuit_monastery;	The_building_of_the_Jesuit_school;	The_building_of_the_Mariinsky_Cathedral;	The_building_of_the_chapel_of_Felician;	building_Jesuit_College        };;                    *);	complex_of_constructions_Jesuit_monastery_since_1738_to_1745        (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1738-1745)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1738-1745)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1738-1745)]            (*            <- lang_by;;            *);;                        => nrel_start_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1738];;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1745];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {        The_manor_house_Geiger;	The_sacristy_of_Jesuit_monastery;	The_building_of_the_Jesuit_school;	The_building_of_the_Mariinsky_Cathedral;	The_building_of_the_chapel_of_Felician;	building_Jesuit_College;	The_Jesuit_tower_belfry        };;                    *);	complex_of_constructions_Jesuit_monastery_since_1745_to_1747        (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1745-1747)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1745-1747)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1745-1747)]            (*            <- lang_by;;            *);;                        => nrel_start_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1745];;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1747];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {        The_manor_house_Geiger;	The_sacristy_of_Jesuit_monastery;	The_building_of_the_Jesuit_school;	The_building_of_the_Mariinsky_Cathedral;	The_building_of_the_chapel_of_Felician;	building_Jesuit_College;	The_Jesuit_tower_belfry;	The_Jesuit_building_of_the_refectory_and_kitchen        };;                    *);	complex_of_constructions_Jesuit_monastery_since_1747_to_1773        (*         => nrel_main_idtf:            [Комплекс строений Иезуитского монастыря (1747-1773)]            (*            <- lang_ru;;            *);            [Complex of constructions of Jesuit monastery (1747-1773)]            (*            <- lang_en;;            *);            [Комплекс будынкаў Езуіцкага манастыра (1747-1773)]            (*            <- lang_by;;            *);;                        => nrel_start_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1747];;                *);;            *);;        => nrel_finish_time: ...            (*            <-concept_time_point;;            => nrel_translation_in_the_Gregorian_calendar: ...                (*                -> rrel_year: rrel_decimal: [1773];;                *);;            *);;                    <= nrel_complex_of_buildings_decomposition:        {        The_manor_house_Geiger;	The_sacristy_of_Jesuit_monastery;	The_building_of_the_Jesuit_school;	The_building_of_the_Mariinsky_Cathedral;	The_building_of_the_chapel_of_Felician;	building_Jesuit_College;	The_Jesuit_tower_belfry;	The_Jesuit_building_of_the_refectory_and_kitchen;	The_Jesuit_building_pharmacy_and_laboratory        };;                    *)	};;            
