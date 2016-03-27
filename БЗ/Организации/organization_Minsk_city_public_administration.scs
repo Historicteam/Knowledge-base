@@ -11,5 +11,6 @@ organization_Minsk_Municipal_Public_Administration
 	[Мінскае гарадское грамадскае кіраванне]
 	(*
 	<- lang_by;;
-	*)
-;;
+	*);
+	
+<-concept_administrative_organization;;

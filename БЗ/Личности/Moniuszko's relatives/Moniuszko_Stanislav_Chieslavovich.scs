@@ -64,7 +64,7 @@ Moniuszko_Stanislav_Chieslavovich
 	*);
 <=nrel_teacher: Kiui_Cezar_Antonovich; 
 <=>nrel_friend: Valickij_Alieksandr;Dunin_Marcinkievich_Vincent_Ivanovich;
-=>nrel_dwelling: Moniuszkos_House;
+
 //=>nrel_workplace: Warsaw_Music_Institute_Building;church_of_st_johns;Vilna_Municipal_Theatre;Warsaw_Grand_Theatre_Building;
 =>nrel_place_of_birth: Ubel_village;
 =>nrel_place_of_death: Warsaw;

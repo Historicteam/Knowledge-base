@@ -1,7 +1,7 @@
 building_of_residential_housing_of_female_Bernardine_monastery
 
 => nrel_main_idtf:
-	[Здание жилого корпуса бернардинок]
+	[Здание жилого корпуса монастыря бернардинок]
 	(*
 	<- lang_ru;;
 	*);
@@ -14,26 +14,62 @@ building_of_residential_housing_of_female_Bernardine_monastery
 	<- lang_by;;
 	*);
 <-concept_building;
+<-concept_terrain_object;
 
-<= nrel_temporal_decomposition: 
-    {
-        Female_Bernardine_monastery
-        (* 
-        => nrel_main_idtf:
-            [Монастырь бернардинок]
+=> nrel_openstreetmap:
+    [building_of_residential_housing_of_female_Bernardine_monastery] 
+    (*
+    => nrel_format:
+            format_openstreetmap;;
+    *);
+	
+=> nrel_geographical_location: ...
+    (*
+    <-concept_mapped_point;;
+    => nrel_WGS_84_translation: [53.905184, 27.55594]
             (*
-            <- lang_ru;;
-            *);
-            [Female Bernardine monastery]
-            (*
-            <- lang_en;;
-            *);
-            [Манастыр бернардынак]
-            (*
-            <- lang_by;;
+            -> ...
+                    (*
+                    <- concept_coordinate;;
+                    ->rrel_latitude: ...
+                            (*
+                            <=nrel_value: ...
+                                    (*
+                                    -> rrel_degree: 53.905184;;
+                                    *);;
+                            *);;
+                    ->rrel_longitude: ...
+                            (*
+                            <=nrel_value: ...
+                                    (*
+                                    -> rrel_degree: 27.55594;;
+                                    *);;
+                            *);;
+                    *);;
             *);;
-            
-        => nrel_start_time: ...
+    *);
+    
+<- rrel_key_sc_element: ...
+    (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+            ...
+            (*
+            ->rrel_example: "file://content/bernki_corpus.jpg"
+                    (*
+                    => nrel_format: format_jpg;;
+                    *);;
+            *);;
+    *);;
+    
+
+concept_situation->[*organization_Female_Bernardine_monastery => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения монастыря бернардинок в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання манастыр бернардынак у будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    => nrel_start_time: ...
             (*
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
@@ -47,26 +83,17 @@ building_of_residential_housing_of_female_Bernardine_monastery
                 -> rrel_year: rrel_decimal: [1852];;
                 *);;
             *);;
-        *);
-        
-        Holy_Trinity_male_monastery
-        (*
-        => nrel_main_idtf:
-            [Свято-Троицкий мужской монастырь]
+*);;
+
+concept_situation->[*organization_Holy_Trinity_male_monastery => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения Свято-Троецкого мужского монастыря в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Свята-Траецкага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    => nrel_start_time: ...
             (*
-            <- lang_ru;;
-            *);
-            [Holy Trinity male monastery]
-            (*
-            <- lang_en;;
-            *);
-            [Свята-Траецкi мужчынскi манастыр]
-            (*
-            <- lang_by;;
-            *);;
-            
-        => nrel_start_time: ...
-            (*
+            <-concept_time_point;;
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
                 -> rrel_year: rrel_decimal: [1862];;
@@ -74,31 +101,25 @@ building_of_residential_housing_of_female_Bernardine_monastery
             *);;
         => nrel_finish_time: ...
             (*
+            <-concept_time_point;;
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
                 -> rrel_year: rrel_decimal: [1870];;
                 *);;
             *);;
-        *);
-        
-        Holy_Spirit_male_monastery
-        (*
-        => nrel_main_idtf:
-            [Свято-Духов мужской монастырь]
+*);;
+
+concept_situation->[*organization_Holy_Spirit_male_monastery => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1870-1918)]
+    (*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1870-1918)]
+    (*<-lang_by;;*);;
+    => nrel_start_time: ...
             (*
-            <- lang_ru;;
-            *);
-            [Holy Spirit male monastery]
-            (*
-            <- lang_en;;
-            *);
-            [Свята-Духаў мужчынскi манастыр]
-            (*
-            <- lang_by;;
-            *);;
-            
-        => nrel_start_time: ...
-            (*
+            <-concept_time_point;;
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
                 -> rrel_year: rrel_decimal: [1870];;
@@ -106,14 +127,25 @@ building_of_residential_housing_of_female_Bernardine_monastery
             *);;
         => nrel_finish_time: ...
             (*
+            <-concept_time_point;;
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
                 -> rrel_year: rrel_decimal: [1918];;
                 *);;
             *);;
-            
-        => nrel_start_time: ...
+*);;
+
+concept_situation->[*organization_Holy_Spirit_male_monastery => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1943-1945)]
+    (*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1943-1945)]
+    (*<-lang_by;;*);;
+     => nrel_start_time: ...
             (*
+            <-concept_time_point;;
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
                 -> rrel_year: rrel_decimal: [1943];;
@@ -121,52 +153,53 @@ building_of_residential_housing_of_female_Bernardine_monastery
             *);;
         => nrel_finish_time: ...
             (*
+            <-concept_time_point;;
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
                 -> rrel_year: rrel_decimal: [1945];;
                 *);;
             *);;
-        *)
-        
-    };
-    
-    => nrel_geographical_location: ...
-	(*
-	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.905184, 27.55594]
-		(*
-		-> ...
-			(*
-			<- concept_coordinate;;
-			->rrel_latitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 53.905184;;
-					*);;
-				*);;
-			->rrel_longitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 27.55594;;
-					*);;
-				*);;
-			*);;
-		*);;
-	*);
-    
-    
+*);;
+	
+concept_situation->[*organization_state_commission_of_inquiry => nrel_location:
+building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения государственной следственной комиссии в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання дзяржаўнай следчай камісіі ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1863];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1864];;
+            *);;
+        *);;
+*);;
 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/bernki_corpus.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);;
+concept_situation->[*concept_residential_building -> building_of_residential_housing_of_female_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда здание жилого корпуса монастыря бернардинок было жилым](*<-lang_ru;;*);
+    [Контур перыяду часу калі будынак жылога корпуса манастыра бернардынак быў жылым](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1951];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1980];;
+            *);;
+        *);;
+*);;

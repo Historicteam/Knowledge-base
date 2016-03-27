@@ -1,10 +1,11 @@
 Building_trade_rows
-<- concept_building;
-
 => nrel_main_idtf:
 	[Здание торговых рядов] (* <- lang_ru;; *);
 	[Building trade rows] (* <- lang_en;; *);
 	[Будынак гандлёвых шэрагаў] (* <- lang_by;; *);
+
+<- concept_building;
+<- concept_arch_classicism;
 
 <- rrel_key_sc_element: Image_building_shopping_malls (*
 	=> nrel_main_idtf:
@@ -19,4 +20,85 @@ Building_trade_rows
 				=> nrel_format: format_jpg;;
 			*);;
 		*);;
-	*);;
+	*);
+
+=> nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1810];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1817];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+
+concept_situation->[*organization_city_fumatorium => nrel_location: Building_trade_rows;;
+		     organization_analitical_station =>  nrel_location: Building_trade_rows;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения городской дизенфекционной камеры и городской тюрьмы в здании торговых рядов](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання гарадской дизенфекцыйнай камеры і гарадской турмы у будынку гандлёвых шэрагаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1892];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1914];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*concept_residential_building -> Building_trade_rows;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда здание торговых рядов было жилым](*<-lang_ru;;*);
+    [Контур перыяду часу калі будынак гандлёвых шэрагаў быў жылым](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1950];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1960];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*organization_restaurant_At_the_town_hall => nrel_location: Building_trade_rows;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения ресторана "У Ратуши" в здании торговых рядов](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання рэстарана "Ля Ратушы" у будынку гандлёвых шэрагаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [2003];;
+                *);;
+            *);;
+*);;

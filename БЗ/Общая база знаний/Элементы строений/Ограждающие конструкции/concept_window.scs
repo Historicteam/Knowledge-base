@@ -1,1 +1,151 @@
-concept_window<-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:[окно](*<- lang_ru;;*);[window](*<- lang_en;;*);[акно](*<- lang_by;;*);<- rrel_key_sc_element:...(*<-sc_explanation;;<=nrel_sc_text_translation:...(*-> rrel_example:[Окно - отверстие в стене для света и воздуха, а также рама со стеклом, закрывающая это отверстие.](*<- lang_ru;;*);;*);...(*-> rrel_example:[Акно - адтуліна ў сцяне для святла і паветра, а таксама рама са шклом, якая зачыняе гэта адтуліну.](*<- lang_by;;*);;*);;*);<=nrel_subdividing: ...(*=> nrel_main_idtf:			[разбиение по декоративному типу]			(*			<- lang_ru;;			*);			[subdividing by decorative type]			(*			<- lang_en;;			*);			[разбіццё па дэкаратыўным тыпу]			(*			<- lang_by;;			*);;-> concept_biforis;;-> concept_diocletian_window;;-> concept_lancent_window;;-> concept_picture_window;;-> trifora;;-> colonial_window;;  -> concept_baroque_window;; 	*);<=nrel_subdividing: ...(*=> nrel_main_idtf:			[разбиение по функциональному типу]			(*			<- lang_ru;;			*);			[subdividing by functional type]			(*			<- lang_en;;			*);			[разбіццё па функцыянальнаму тыпу]			(*			<- lang_by;;			*);;-> bay_window;;-> flanking_window;;-> gregorian_window;;-> oblique_port;;       	*);;
+concept_window
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[окно]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[window]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[акно]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Окно - отверстие в стене для света и воздуха, а также рама со стеклом, закрывающая это отверстие.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Акно - адтуліна ў сцяне для святла і паветра, а таксама рама са шклом, якая зачыняе гэта адтуліну.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);
+
+<=nrel_subdividing: subdividing_by_decorative_type
+(*
+
+=> nrel_main_idtf:
+
+			[разбиение по декоративному типу]
+
+			(*
+
+			<- lang_ru;;
+
+			*);
+
+			[subdividing by decorative type]
+
+			(*
+
+			<- lang_en;;
+
+			*);
+
+			[разбіццё па дэкаратыўным тыпу]
+
+			(*
+
+			<- lang_by;;
+
+			*);;
+
+->concept_biforis;;
+->concept_diocletian_window;;
+->concept_lancent_window;;
+->concept_picture_window;;
+->concept_trifora;;
+->colonial_window;; 
+->concept_baroque_window;;
+*);
+
+<=nrel_subdividing: subdividing_by_functional_type
+(*
+=> nrel_main_idtf:
+
+			[разбиение по функциональному типу]
+
+			(*
+
+			<- lang_ru;;
+
+			*);
+
+			[subdividing by functional type]
+
+			(*
+
+			<- lang_en;;
+
+			*);
+
+			[разбіццё па функцыянальнаму тыпу]
+
+			(*
+
+			<- lang_by;;
+
+			*);;
+
+->concept_bay_window;;
+->concept_flanking_window;;
+->concept_gregorian_window;;
+->concept_oblique_port;;    
+
+	*);;
+
+
+

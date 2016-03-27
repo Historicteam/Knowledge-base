@@ -1,0 +1,14 @@
+fire_brigade_hall
+=> nrel_main_idtf:
+        [Спортивный зал пожарной команды]
+        (*
+        <- lang_ru;;
+        *);
+        [Sports hall fire brigade]
+        (*
+        <- lang_en;;
+        *);
+        [Спартовая зала пажарнай каманды]
+        (*
+        <- lang_by;;
+        *);;

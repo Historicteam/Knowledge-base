@@ -5,10 +5,9 @@ concept_arch_romanesque_style
 	[раманскі архітэктурны стыль] (* <-lang_by;; *);
 
 
-->concept_semi_circural_arch;
-
-->concept_bound_column;
-->concept_doric_column;
+=>nrel_inclusion: concept_semi_circural_arch;
+=>nrel_inclusion: concept_bound_column;
+=>nrel_inclusion: concept_doric_column;
 
 <-rrel_key_sc_element: 
 	...

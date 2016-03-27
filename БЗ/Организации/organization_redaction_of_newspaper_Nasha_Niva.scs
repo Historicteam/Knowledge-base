@@ -8,4 +8,7 @@ organization_redaction_of_newspaper_Nasha_Niva
 		(*
 		<- lang_by;;
 		*);
-	[redaction of newspaper "Nasha Niva"]	(* <- lang_en;; *);;
+	[redaction of newspaper "Nasha Niva"]	(* <- lang_en;; *);
+	
+<-concept_cultural_educational_organization;
+<-concept_state_organization;;

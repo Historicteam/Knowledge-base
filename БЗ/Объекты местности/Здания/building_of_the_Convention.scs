@@ -1,0 +1,14 @@
+building_of_the_Convention
+=> nrel_main_idtf:
+	[Здание Конвента]
+	(*
+	<- lang_ru;;
+	*);
+	[building of Convent]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Канвента]
+	(*
+	<- lang_by;;
+	*);;

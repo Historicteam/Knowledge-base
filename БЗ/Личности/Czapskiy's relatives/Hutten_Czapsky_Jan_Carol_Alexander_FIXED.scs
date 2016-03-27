@@ -75,7 +75,10 @@ Hutten_Czapsky_Emerickovich
 =>nrel_middle_name: name_Carol;
 =>nrel_middle_name: name_Alieksandr;
 <= nrel_parent: Czapsky_Leon_Bogdan; Czapsky_Emerick_August_Vojtech; Czapskaya_Elizabeth_Karlovna;
-<=>nrel_spouse: Puslovskaya_Mary_Leontine;;
+<=>nrel_spouse: Puslovskaya_Mary_Leontine;
+
+=> nrel_social_status: concept_ancestral_nobility;
+=> nrel_social_status: concept_titled_nobility;;
 
 Image_of_Hutten_Czapsky_Emerickovich
 => nrel_main_idtf: [Изображение Гуттен-Чапского Кароля Эмериковича](*<- lang_ru;;*);

@@ -1,10 +1,11 @@
 The_building_of_the_Minsk_Academy_of_Music 
-<- concept_building;
-
 => nrel_main_idtf:
 	[Здание минской академии музыки] (* <- lang_ru;; *);
 	[The building of the Minsk Academy of Music] (* <- lang_en;; *);
 	[Будынак мінскай акадэміі музыкі] (* <- lang_by;; *);
+
+<- concept_building;
+<- concept_arch_classicism;
 
 <- rrel_key_sc_element: Image_building_Minsk_Academy_of_Music (*
 	=> nrel_main_idtf:

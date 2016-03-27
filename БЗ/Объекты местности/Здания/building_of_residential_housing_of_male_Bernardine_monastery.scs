@@ -14,7 +14,42 @@ building_of_residential_housing_of_male_Bernardine_monastery
 	<- lang_by;;
 	*);
 <-concept_building;
+<-concept_terrain_object;
 
+=> nrel_openstreetmap:
+    [building_of_residential_housing_of_male_Bernardine_monastery] 
+    (*
+    => nrel_format:
+            format_openstreetmap;;
+    *);
+    
+=> nrel_geographical_location: ...
+    (*
+    <-concept_mapped_point;;
+    => nrel_WGS_84_translation: [53.9048, 27.556833]
+            (*
+            -> ...
+                    (*
+                    <- concept_coordinate;;
+                    ->rrel_latitude: ...
+                            (*
+                            <=nrel_value: ...
+                                    (*
+                                    -> rrel_degree: 53.9048;;
+                                    *);;
+                            *);;
+                    ->rrel_longitude: ...
+                            (*
+                            <=nrel_value: ...
+                                    (*
+                                    -> rrel_degree: 27.556833;;
+                                    *);;
+                            *);;
+                    *);;
+            *);;
+    *);
+    
+    
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
@@ -26,5 +61,109 @@ building_of_residential_housing_of_male_Bernardine_monastery
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
-	*);;
+	*);
+
+=> nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1644];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1652];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+	
+
+concept_situation->[*organization_prison => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения тюрьмы в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання турмы у будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1864];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1867];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*organization_barracks => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;
+                     organization_police_headquarters => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени казарм и полицейского управления в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання жаўнерняў і паліцэйскага кіравання у будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1867];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1918];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*organization_military_commander => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;
+                     organization_military_prosecutor => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения военной коммендатуры и военной прокуратуры в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання вайсковай камендатуры і вайсковай пракуратуры у будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1918];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1990];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*organization_Monastic_hotel => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения отеля "Монастырский" в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання гателя "Манастырски у будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [2014];;
+                *);;
+            *);;
+*);;
  

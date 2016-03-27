@@ -1,5 +1,5 @@
 complex_of_constructions_of_the_female_monastery_of_Bernardine
-<-concept_complex_of_buildings;
+
 => nrel_main_idtf:
     [Комплекс строений монастыря бернардинок]
     (*
@@ -66,10 +66,12 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
             
         <= nrel_complex_of_buildings_decomposition:
         {
-            Female_Bernardine_Church;
-            Female_Bernardine_monastery
+            building_of_residential_housing_of_female_Bernardine_monastery;
+            building_of_the_Cathedral_of_the_Holy_Spirit
         };;
-                
+          
+        => nrel_section_base_order:
+            complex_of_constructions_of_the_Holy_Trinity_male_monastery_since_1862_to_1870;;
         *);
             
     complex_of_constructions_of_the_Holy_Trinity_male_monastery_since_1862_to_1870
@@ -107,10 +109,12 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
             
         <= nrel_complex_of_buildings_decomposition:
         {
-        Church_of_Saints_Kirill_and_Miefodij;
-        Holy_Trinity_male_monastery
+        building_of_residential_housing_of_female_Bernardine_monastery;
+        building_of_the_Cathedral_of_the_Holy_Spirit
         };;
-            
+        
+        => nrel_section_base_order:
+            complex_of_constructions_of_the_Holy_Spirit_male_monastery_scince_1870_to_1918;;
         *);
     
     complex_of_constructions_of_the_Holy_Spirit_male_monastery_scince_1870_to_1918
@@ -146,12 +150,14 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
             
         <= nrel_complex_of_buildings_decomposition:
         {
-        Church_of_the_Holy_Spirit;
-        Holy_Spirit_male_monastery
+        building_of_residential_housing_of_female_Bernardine_monastery;
+        building_of_the_Cathedral_of_the_Holy_Spirit
         };;
             
         *)
-    };;
+    };
+    
+<-concept_complex_of_buildings;;
 
 
     

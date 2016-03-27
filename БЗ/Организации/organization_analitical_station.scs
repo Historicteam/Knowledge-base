@@ -1,0 +1,14 @@
+organization_analitical_station
+=> nrel_main_idtf:
+        [Аналитическая станция]
+        (*
+        <- lang_ru;;
+        *);
+        [The analitical station]
+        (*
+        <- lang_en;;
+        *);
+        [Аналітычная станцыя]
+        (*
+        <- lang_by;;
+        *);;

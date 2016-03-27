@@ -1,1 +1,75 @@
-flanking_window<-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:[боковое окно](*<- lang_ru;;*);[flanking window](*<- lang_en;;*);[бакавое акно](*<- lang_by;;*);<- rrel_key_sc_element:...(*<-sc_explanation;;<=nrel_sc_text_translation:...(*-> rrel_example:[Боковое окно - неоткрывающееся, часто узкое, окно рядом с дверным или оконным проемом.](*<- lang_ru;;*);;*);...(*-> rrel_example:[Бакавое акно – якое не адчыняецца, часта вузкае, побач з дзвярным або аконным праёмам.](*<- lang_by;;*);;*);;*);;
+concept_flanking_window
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[боковое окно]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[flanking window]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[бакавое акно]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Боковое окно - неоткрывающееся, часто узкое, окно рядом с дверным или оконным проемом.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Бакавое акно – якое не адчыняецца, часта вузкае, побач з дзвярным або аконным праёмам.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);;

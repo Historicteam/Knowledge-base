@@ -1,1 +1,104 @@
-trifora<-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:[трифора](*<- lang_ru;;*);[trifora](*<- lang_en;;*);[трыфора](*<- lang_by;;*);<- rrel_key_sc_element:...(*<-sc_explanation;;<=nrel_sc_text_translation:...(*-> rrel_example:[Трифора - тип окна, вертикально разделённого на три отверстия, разделенные двумя колоннами или пилястрами, на которые опираются три арки, закругленные или острые.](*<- lang_ru;;*);;*);...(*-> rrel_example:[Трыфора - тып акна, вертыкальна падзеленага на тры адтуліны, падзеленыя двума калонамі або пілястрамі, на якія абапіраюцца тры аркі, закругленыя або вострыя.](*<- lang_by;;*);;*);;*);<- rrel_key_sc_element:...	(*	<-sc_illustration;;	<=nrel_sc_text_translation:		...		(*		->rrel_example: "file://content/trifora.jpg"			(*			=> nrel_format: format_jpg;;			*);;		*);;	*);;
+concept_trifora
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[трифора]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[trifora]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[трыфора]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Трифора - тип окна, вертикально разделённого на три отверстия, разделенные двумя колоннами или пилястрами, на которые опираются три арки, закругленные или острые.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Трыфора - тып акна, вертыкальна падзеленага на тры адтуліны, падзеленыя двума калонамі або пілястрамі, на якія абапіраюцца тры аркі, закругленыя або вострыя.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/trifora.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;
+
+
+

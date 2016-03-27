@@ -1,0 +1,14 @@
+organization_military_commander
+=> nrel_main_idtf:
+        [Военная комендатура]
+        (*
+        <- lang_ru;;
+        *);
+        [The military commander]
+        (*
+        <- lang_en;;
+        *);
+        [Вайсковая камендатура]
+        (*
+        <- lang_by;;
+        *);;

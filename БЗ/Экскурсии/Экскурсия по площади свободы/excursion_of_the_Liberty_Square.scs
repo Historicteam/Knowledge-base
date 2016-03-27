@@ -1,0 +1,16 @@
+excursion_of_the_Freedom_Square
+
+=> nrel_main_idtf:
+	[Экскурсия по Площади Свободы]
+	(*
+	<- lang_ru;;
+	*);
+	[Excursion of the Freedom Square]
+	(*
+	<- lang_en;;
+	*);
+	[Экскурсія па Плошчы Свабоды]
+	(*
+	<- lang_by;;
+	*);;
+

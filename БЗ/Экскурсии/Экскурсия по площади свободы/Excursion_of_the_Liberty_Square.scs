@@ -1,4 +1,4 @@
-concept_excursion->concept_excursion_of_the_Liberty_Square
+concept_excursion->excursion_of_the_Freedom_Square
 (*
 	=> nrel_route_point: 
 	[*
@@ -8,7 +8,7 @@ concept_excursion->concept_excursion_of_the_Liberty_Square
 		(*
 		=> nrel_next_point:Building_trade_rows
 		  (*
-		  => nrel_next_point:Building_archive
+		  => nrel_next_point:building_of_the_church_of_St_Joseph
 		     (*
 			 		  => nrel_next_point:building_of_the_Cathedral_of_the_Holy_Spirit
 					  (*

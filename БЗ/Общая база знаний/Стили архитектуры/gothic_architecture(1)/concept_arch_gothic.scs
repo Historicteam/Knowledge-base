@@ -5,8 +5,8 @@ concept_arch_gothic
 	[гатычны стыль] (* <-lang_by;; *);
 
 
-->concept_pointed_arch;
-->concept_flying_buttresses;
+=>nrel_inclusion: concept_pointed_arch;
+=>nrel_inclusion: concept_flying_buttresses;
 
 
 <- rrel_key_sc_element: 

@@ -1,0 +1,14 @@
+organization_Monastic_hotel 
+=> nrel_main_idtf:
+        [Отель "Монастырский"]
+        (*
+        <- lang_ru;;
+        *);
+        [The "Monastic" hotel]
+        (*
+        <- lang_en;;
+        *);
+        [Гатель "Манастырскi"]
+        (*
+        <- lang_by;;
+        *);;
