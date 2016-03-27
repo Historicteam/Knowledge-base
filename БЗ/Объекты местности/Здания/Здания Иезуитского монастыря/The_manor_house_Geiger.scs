@@ -1,0 +1,8 @@
+The_manor_house_Geiger
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание усадьбы Гегера] (* <- lang_ru;; *);
+	[The manor house Geiger] (* <- lang_en;; *);
+	[Будынак сядзіба Гегера] (* <- lang_by;; *);;
+
+
