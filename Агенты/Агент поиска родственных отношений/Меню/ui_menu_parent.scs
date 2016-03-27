@@ -1,0 +1,18 @@
+ui_menu_parent
+	=> ui_nrel_command_template:
+	[*
+		question_search_sister _-> ._question_search_sister_instance
+			(*
+				_-> rrel_1:: ui_arg_1;;
+				_-> rrel_2:: ... (*
+						_-> rrel_1:: parent_test;;
+						_-> rrel_2:: parent_param;;
+						_-> rrel_3:: nrel_parent;;
+				*);;
+			*);;
+		._question_search_sister_instance _<- question;;
+	*];
+
+	=> ui_nrel_command_lang_template:
+		[Запрос поиска всех родителей: $ui_arg_1] (* <- lang_ru;; *);
+		[Запыт пошуку ўсіх бацькоў: $ui_arg_1] (* <- lang_by;; *);;

@@ -1,0 +1,43 @@
+ui_menu_show_time_of_rel_operation
+	<- ui_user_command_class_atom; 
+	ui_user_command_class_view_kb;;
+// Указываем русский идентификатор нашей операции в меню
+ui_menu_show_time_of_rel_operation
+	=> nrel_main_idtf: 
+		[Запрос показа временного периода актуальности некоторого отношения]
+		(*
+		<- lang_ru;; 
+		*);;
+// Указываем английский идентификатор нашей операции в меню
+ui_menu_show_time_of_rel_operation
+	=> nrel_main_idtf:
+		[Request of time period representation of a certain relation relevance]
+		(*
+			<- lang_en;; 
+		*);;
+// Указываем шаблон нашей команды
+ui_menu_show_time_of_rel_operation
+	=> ui_nrel_command_template:
+	[*
+		question_show_time_rel _-> ._question_show_time_rel_instance
+		(*
+		_-> rrel_1:: ui_arg_1;;
+		_-> rrel_2:: ui_arg_2;;
+		_-> rrel_3:: ui_arg_3;;
+		*);;
+		._question_show_time_rel_instance _<- question;;
+	*];;
+// Указываем текстовый шаблон команды на русском языке
+ui_menu_show_time_of_rel_operation
+	=> ui_nrel_command_lang_template: 
+		[Запрос показа временного периода актуальности некоторого отношения: $ui_arg_1 является $ui_arg_2 для $ui_arg_3] 
+		(*
+		<- lang_ru;; 
+		*);;
+// Указываем текстовый шаблон команды на английском языке
+ui_menu_show_time_of_rel_operation
+	=> ui_nrel_command_lang_template: 
+		[Request of time period representation of a certain relation relevance: $ui_arg_1 is a $ui_arg_2 of $ui_arg_3]
+		(*
+		<- lang_en;; 
+		*);;

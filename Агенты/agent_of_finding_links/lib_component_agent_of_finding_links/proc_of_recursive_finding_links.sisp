@@ -1,0 +1,23 @@
+function proc_of_recursive_finding_links(_start, _end, _answer, _temp_set, _counter) {
+	generate(_temp_set, [assign, pos_const_perm, _arc], _start);
+	if(is(_start, _end)) {
+		search(_temp_set, [assign, _arc], [assign, _element], [], [], [assign, _copy]);
+		generate(_answer, [assign, _arc], _copy);
+	}
+	else {
+		print(_counter);
+		if(equals(_counter, 3)); else {
+			search(_start, [assign, _arc], [assign, _element], [], [], [assign, _copy]);
+			add(_counter, _counter, 1);
+			if(_copy) 
+				while(search(_copy, [assign, _arc], [assign, _element])) {
+					erase([erase, _arc]);
+					search(_start, [assign, _part_of_construction], _element);
+					generate(_temp_set, [assign, pos_const_perm, _tmp_arc], _part_of_construction);
+					proc_of_recursive_finding_links(_element, _end, _answer, _temp_set, _counter);
+					erase([erase, _tmp_arc]);
+				}
+			subtract(_counter, _counter, 1);
+		}
+	}
+}

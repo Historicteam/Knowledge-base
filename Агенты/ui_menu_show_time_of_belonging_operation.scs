@@ -1,0 +1,42 @@
+ui_menu_show_time_of_belonging_operation
+	<- ui_user_command_class_atom; 
+	ui_user_command_class_view_kb;;
+// Указываем русский идентификатор нашей операции в меню
+ui_menu_show_time_of_belonging_operation
+	=> nrel_main_idtf: 
+		[Запрос показа временного периода актуальности некоторой дуги]
+		(*
+		<- lang_ru;; 
+		*);;
+// Указываем английский идентификатор нашей операции в меню
+ui_menu_show_time_of_belonging_operation
+	=> nrel_main_idtf:
+		[Request of time period representation of a certain arc relevance]
+		(*
+			<- lang_en;; 
+		*);;
+// Указываем шаблон нашей команды
+ui_menu_show_time_of_belonging_operation
+	=> ui_nrel_command_template:
+	[*
+		question_show_time _-> ._question_show_time_instance
+		(*
+		_-> rrel_1:: ui_arg_1;;
+		_-> rrel_2:: ui_arg_2;;
+		*);;
+		._question_show_time_instance _<- question;;
+	*];;
+// Указываем текстовый шаблон команды на русском языке
+ui_menu_show_time_of_belonging_operation
+	=> ui_nrel_command_lang_template: 
+		[Запрос показа временного периода актуальности некоторой дуги: $ui_arg_1 принадлежит $ui_arg_2] 
+		(*
+		<- lang_ru;; 
+		*);;
+// Указываем текстовый шаблон команды на английском языке
+ui_menu_show_time_of_belonging_operation
+	=> ui_nrel_command_lang_template: 
+		[Request of time period representation of a certain arc relevance: $ui_arg_1 belongs to $ui_arg_2]
+		(*
+		<- lang_en;; 
+		*);;

@@ -1,0 +1,358 @@
+scp_program -> proc_of_finding_time_faults_in_time_contours 
+	(*	
+	-> rrel_params: .proc_of_finding_time_faults_in_time_contours_params 
+		(*
+		-> rrel_1: rrel_in: _situation;;
+		-> rrel_2: rrel_in: _answer;;
+		*);;
+
+	-> rrel_operators: .proc_of_finding_time_faults_in_time_contours_operator_set 
+		(*		         	
+		-> rrel_init: .proc_of_finding_time_faults_in_time_contours_operator1
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+	         
+                 	-> rrel_set_3: rrel_assign: rrel_scp_var: _not_checked_contours;;
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator2;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_build_answer;;
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator2 
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _not_checked_contours;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc_for_del;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator3;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_build_answer;;
+                 	*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator3
+			(*
+			<- eraseEl;;
+		 	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc_for_del;;
+
+                 	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator4;;
+		 	*);;
+
+		// START TIME PROCESSING
+		->.proc_of_finding_time_faults_in_time_contours_operator4 
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _contour;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _start_time;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_start_time;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator5;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator7;;
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator5 
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _start_time;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _gregorian_start_time;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_translation_in_the_Gregorian_calendar;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator6_1;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;//=================
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator6_1
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _gregorian_start_time;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _start_year;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator6_2;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;//Year is necessary!
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator6_2
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _gregorian_start_time;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _start_month;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_month;;
+	         
+                 	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator6_3;;
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator6_3
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _gregorian_start_time;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _start_day;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_day;;
+	        
+                 	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator7;;
+			*);;
+
+		// END TIME PROCESSING
+		->.proc_of_finding_time_faults_in_time_contours_operator7
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _contour;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _end_time;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_finish_time;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator8;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator2;;
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator8
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _end_time;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _gregorian_end_time;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_translation_in_the_Gregorian_calendar;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator9_1;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;//=================
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator9_1
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _gregorian_end_time;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _end_year;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator9_2;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;//Year is necessary!
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator9_2
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _gregorian_end_time;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _end_month;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_month;;
+	         
+                 	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator9_3;;
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator9_3
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _gregorian_start_time;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _end_day;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_day;;
+	        
+                 	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator10_1;;
+			*);;
+
+		// Now checking the dates============================================
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator10_1
+		(*
+		<- print;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [HERE I AM];;
+
+			=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator10;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator10  (*
+		<- ifGr;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _end_year;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _start_year;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator2;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator11;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator11  (*
+		<- ifEq;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _end_year;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _start_year;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator12;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator12
+		(*
+		<- ifVarAssign;;
+			-> rrel_1: _start_month;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator13;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator2;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator13
+		(*
+		<- ifVarAssign;;
+			-> rrel_1: _end_month;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator14;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator2;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator14  (*
+		<- ifGr;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _end_month;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _start_month;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator2;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator15;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator15  (*
+		<- ifEq;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _end_month;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _start_month;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator16;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator16
+		(*
+		<- ifVarAssign;;
+			-> rrel_1: _start_day;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator17;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator2;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator17
+		(*
+		<- ifVarAssign;;
+			-> rrel_1: _end_day;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator18;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator2;;
+		*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator18  (*
+		<- ifGr;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _end_day;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _start_day;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator2;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;
+		*);;
+
+		/*
+		-> .proc_of_finding_time_faults_in_time_contours_operator19  (*
+		<- ifEq;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _end_month;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _start_month;;
+
+			=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator2;;
+			=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_fault_found;;
+		*);;
+		*/
+
+		// cycle ends here===========================================================================================
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator_fault_found
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _contour;;
+
+                 	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator2;;
+			*);;
+
+		// ANSWER BUILDING:
+		->.proc_of_finding_time_faults_in_time_contours_operator_build_answer
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+
+                 	=> nrel_then: .proc_of_finding_time_faults_in_time_contours_operator_faults_exist;;
+                 	=> nrel_else: .proc_of_finding_time_faults_in_time_contours_operator_faults_doesnt_exist;;
+			*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator_faults_doesnt_exist
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: [<h1>Ошибок не обнаружено</h1>];;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator_show_doesnt_exist_message;;
+			*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator_show_doesnt_exist_message
+			(*
+			<- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _smth;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+			
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+
+			=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator_build_answer_final_step ;;
+			*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator_faults_exist
+			(*
+			<- searchSetStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+			
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+
+			=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator_build_answer_final_step ;;
+			*);;
+
+		->.proc_of_finding_time_faults_in_time_contours_operator_build_answer_final_step 
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _situation;;
+
+                 	=> nrel_goto: .proc_of_finding_time_faults_in_time_contours_operator_return;;
+			*);;
+
+		-> .proc_of_finding_time_faults_in_time_contours_operator_return 
+			(*
+			<- return;;
+			*);;
+		*);;
+	*);;

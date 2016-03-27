@@ -1,0 +1,8 @@
+ui_menu_file_for_finding_buildings => nrel_main_idtf: 
+	[Запыт пошуку будынкаў]
+	(* <- lang_by;; *);;
+
+ui_menu_file_for_finding_buildings => ui_nrel_command_lang_template: 
+	[Запыт пошуку будынкаў: $ui_arg_1] 
+	(* <- lang_by;; *);;
+

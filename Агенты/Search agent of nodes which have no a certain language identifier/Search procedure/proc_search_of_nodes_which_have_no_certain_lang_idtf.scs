@@ -1,0 +1,182 @@
+// Объявляем нашу процедуру как scp-программу
+scp_program ->proc_search_of_nodes_which_have_no_certain_lang_idtf
+(*
+// Устанавливаем связь между процедурой и множеством её параметров
+	->rrel_params: .proc_search_of_nodes_which_have_no_certain_lang_idtf_params 
+		(*
+			-> rrel_1: rrel_in: _parameter;;
+			-> rrel_2: rrel_in: _answer;;//Множество, содержащее конструкцию ответа
+		*);;
+
+// Устанавливаем связь между процедурой и множеством её операторов
+	->rrel_operators: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_set 
+		(*
+	
+			//1. Генерируем Множество №1
+				->rrel_init: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator1 
+				(*
+					<- genEl;;
+					-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _set_of_nodes;;
+
+					=>nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_cout;;
+				*);;
+		
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_cout 
+				(*
+					<- print;;
+					-> rrel_1: rrel_fixed: rrel_scp_const: [---------------Test];; 		
+		
+					=> nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator2;;	
+				*);;
+			//2. Во Множество №1 записываем все узлы, имеющие системные идентификаторы
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator2 
+				(*
+					<- searchSetStr5;;
+					-> rrel_1: rrel_assign: rrel_scp_var: _nodes;;
+					-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc_main_idtf;;
+					-> rrel_3: rrel_assign: rrel_scp_var: _text;;
+					-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+					-> rrel_5: rrel_fixed: rrel_scp_const: nrel_main_idtf;;
+
+					-> rrel_set_1: rrel_fixed: rrel_scp_var: _set_of_nodes;;
+
+					=>nrel_then: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator3;;
+					=>nrel_else: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_erase1;; //Удаляем Множество №1
+				*);;
+
+			//<Начало ЦИКЛА 1>
+			//3. Ищем элементы, которые мы засунули в _set_of_nodes
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator3 
+				(*
+					<- searchElStr3;;
+					-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_nodes;;
+					-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _temporary_arc;;
+					-> rrel_3: rrel_assign: rrel_scp_var: _current_element;;
+
+					=>nrel_then: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator4;;
+					=>nrel_else: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_erase1;;// Если заданная конструкция не найдена, то выйти из цикла
+				*);;
+
+			//4. Удаляется ребро, связывающее _set_of_nodes с его элементом _current_element
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator4 
+				(*
+					<- eraseEl;;
+					-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _temporary_arc;;
+
+					=> nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator5;;
+				*);;
+
+			//5. Генерируем Множество №2
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator5 
+				(*
+					<- genEl;;
+					-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _set_of_text_nodes;;
+
+					=>nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator6;;
+				*);;
+
+			//6. Во Множество №2 записываем все текстовые узлы (относящиеся к _current_element)
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator6 
+				(*
+					<- searchSetStr5;;
+					-> rrel_1: rrel_fixed: rrel_scp_var: _current_element;;
+					-> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_common: _arc_main_idtf;;
+					-> rrel_3: rrel_assign: rrel_scp_var: _text;;
+					-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+					-> rrel_5: rrel_fixed: rrel_scp_const: nrel_main_idtf;;
+
+					-> rrel_set_3: rrel_fixed: rrel_scp_var: _set_of_text_nodes;;
+
+					=>nrel_then: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator7;;
+					=>nrel_else: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_erase2;;//Удаление Множества №2
+				*);;
+
+			//<Начало ЦИКЛА 2>
+			//7. Ищем текстовые элементы, которые мы засунули во Множество №2
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator7 
+				(*
+					<- searchElStr3;;
+					-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_text_nodes;;
+					-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _text_temporary_arc;;
+					-> rrel_3: rrel_assign: rrel_scp_var: _current_text_element;;
+
+					=>nrel_then: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator8;;
+					=>nrel_else: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator10;;//Т.к. заданного языка не найдено, то заносим текущий элемент в ответ
+				*);;
+
+			//8. Удаляется ребро, связывающее _set_elem с элементом параметра
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator8 
+				(*
+					<- eraseEl;;
+					-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _text_temporary_arc;;
+
+					=> nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator9;;
+				*);;
+
+			//9. Проверяем найденный текстовый элемент на принадлежность к заданному языку
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator9 
+				(*
+					<- searchElStr3;;
+					-> rrel_1: rrel_fixed: rrel_scp_var: _parameter;;
+					-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+					-> rrel_3: rrel_fixed: rrel_scp_var: _current_text_element;;
+
+					=>nrel_then: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_erase2;;//Если есть, то завершается цикл и удаляется Множество №2
+					=>nrel_else: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator7;;// Если заданная конструкция не найдена, продолжается цикл
+				*);;
+
+			//10. Записываем в ответ элемент из Множества №1
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator10 
+				(*
+					<- genElStr3;;
+					-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+					-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+					-> rrel_3: rrel_fixed: rrel_scp_var: _current_element;;
+
+					=> nrel_goto: ..proc_print_system_idtf;;
+				*);;
+
+			//КОНСОЛЬНЫЙ ВЫВОД
+				-> ..proc_print_system_idtf (*
+					<- call;;
+					-> rrel_1: rrel_fixed: rrel_scp_const: proc_print_idtf;;
+					-> rrel_2: rrel_fixed: rrel_scp_const: ... (*
+						-> rrel_1: rrel_fixed: rrel_scp_var: _current_element;;
+					*);;
+					-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+
+					=> nrel_goto: ..proc_waiting_of_print_system_idtf;;
+				*);;
+
+				-> ..proc_waiting_of_print_system_idtf (*
+					<- waitReturn;;
+					-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+
+					=> nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_erase2;;
+				*);;
+
+			// Удаляется ребро, связывающее _set_elem с элементом параметра
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_erase1 
+				(*
+					<- eraseEl;;
+					-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _set_of_nodes;;
+
+					=> nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_RETURN;;
+				*);;
+
+			// Удаляется ребро, связывающее _set_elem с элементом параметра
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_erase2 
+				(*
+					<- eraseEl;;
+					-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _set_of_text_nodes;;
+
+					=> nrel_goto: .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator3;;
+				*);;
+
+			// Оператор завершения операции РЕТУРН!!!
+				-> .proc_search_of_nodes_which_have_no_certain_lang_idtf_operator_RETURN 
+				(*
+					<- return;;
+				*);;
+			*);;
+	*);;

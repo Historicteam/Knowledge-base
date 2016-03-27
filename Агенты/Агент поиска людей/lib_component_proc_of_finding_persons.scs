@@ -1,0 +1,14 @@
+lib_component_proc_of_finding_persons
+=> nrel_main_idtf:
+	[Компонент библиотеки. scp-программа поиска всех личностей, связанных с конкретным зданием]
+	(* <- lang_ru;; *);
+	[Library component. scp-program of persons search]
+	(* <- lang_en;; *);
+
+<- platform_independent_reusable_component_OSTIS;
+<- reusable_scp_program;
+
+-> rrel_key_sc_element: 
+	proc_of_finding_persons;;
+
+lib_component_proc_of_finding_persons = [*^"file://proc_of_finding_persons.scs"*];;

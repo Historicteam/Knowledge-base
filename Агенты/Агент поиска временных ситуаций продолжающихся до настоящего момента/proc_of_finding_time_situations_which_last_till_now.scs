@@ -1,0 +1,151 @@
+scp_program -> proc_of_finding_time_situations_which_last_till_now 
+	(*	
+	-> rrel_params: .proc_of_finding_time_situations_which_last_till_now_params 
+		(*
+		-> rrel_1: rrel_in: _situation;;
+		-> rrel_2: rrel_in: _answer;;
+		*);;
+
+	-> rrel_operators: .proc_of_finding_time_situations_which_last_till_now_operator_set 
+		(*		         	
+		-> rrel_init: .proc_of_finding_time_situations_which_last_till_now_operator1
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+	         
+                 	-> rrel_set_3: rrel_assign: rrel_scp_var: _not_checked_contours;;
+
+                 	=> nrel_then: .proc_of_finding_time_situations_which_last_till_now_operator2;;
+                 	=> nrel_else: .proc_of_finding_time_situations_which_last_till_now_operator_build_answer;;
+			*);;
+
+		->.proc_of_finding_time_situations_which_last_till_now_operator2 
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _not_checked_contours;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc_for_del;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+
+                 	=> nrel_then: .proc_of_finding_time_situations_which_last_till_now_operator3;;
+                 	=> nrel_else: .proc_of_finding_time_situations_which_last_till_now_operator_build_answer;;
+                 	*);;
+
+		-> .proc_of_finding_time_situations_which_last_till_now_operator3
+			(*
+			<- eraseEl;;
+		 	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc_for_del;;
+
+                 	=> nrel_goto: .proc_of_finding_time_situations_which_last_till_now_operator4;;
+		 	*);;
+
+		// START TIME PROCESSING
+		->.proc_of_finding_time_situations_which_last_till_now_operator4 
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _contour;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _start_time;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_start_time;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_situations_which_last_till_now_operator5;;
+                 	=> nrel_else: .proc_of_finding_time_situations_which_last_till_now_operator2;;
+			*);;
+
+
+		// END TIME PROCESSING
+		->.proc_of_finding_time_situations_which_last_till_now_operator5
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _contour;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _end_time;;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_finish_time;;
+	         
+
+                 	=> nrel_then: .proc_of_finding_time_situations_which_last_till_now_operator2;;
+                 	=> nrel_else: .proc_of_finding_time_situations_which_last_till_now_operator_fault_found;;
+			*);;
+
+		-> .proc_of_finding_time_situations_which_last_till_now_operator_fault_found
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _contour;;
+
+                 	=> nrel_goto: .proc_of_finding_time_situations_which_last_till_now_operator2;;
+			*);;
+
+		// ANSWER BUILDING:
+		->.proc_of_finding_time_situations_which_last_till_now_operator_build_answer
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+
+                 	=> nrel_then: .proc_of_finding_time_situations_which_last_till_now_operator_faults_exist;;
+                 	=> nrel_else: .proc_of_finding_time_situations_which_last_till_now_operator_faults_doesnt_exist;;
+			*);;
+
+		-> .proc_of_finding_time_situations_which_last_till_now_operator_faults_doesnt_exist
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: [Все события закончены];;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	=> nrel_goto: .proc_of_finding_time_situations_which_last_till_now_operator_show_doesnt_exist_message;;
+			*);;
+
+		-> .proc_of_finding_time_situations_which_last_till_now_operator_show_doesnt_exist_message
+			(*
+			<- searchSetStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _smth;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+			
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+
+			=> nrel_goto: .proc_of_finding_time_situations_which_last_till_now_operator_build_answer_final_step ;;
+			*);;
+
+		-> .proc_of_finding_time_situations_which_last_till_now_operator_faults_exist
+			(*
+			<- searchSetStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _contour;;
+			
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+
+			=> nrel_goto: .proc_of_finding_time_situations_which_last_till_now_operator_build_answer_final_step ;;
+			*);;
+
+		->.proc_of_finding_time_situations_which_last_till_now_operator_build_answer_final_step 
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _situation;;
+
+                 	=> nrel_goto: .proc_of_finding_time_situations_which_last_till_now_operator_return;;
+			*);;
+
+		-> .proc_of_finding_time_situations_which_last_till_now_operator_return 
+			(*
+			<- return;;
+			*);;
+		*);;
+	*);;

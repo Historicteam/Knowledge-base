@@ -1,0 +1,19 @@
+ui_menu_wife_s_father
+	=> ui_nrel_command_template:
+	[*
+		question_search_sister _-> ._question_search_sister_instance
+			(*
+				_-> rrel_1:: ui_arg_1;;
+				_-> rrel_2:: ... (*
+						_-> rrel_1:: wife_s_father;;
+						_-> rrel_2:: wife_s_father_param;;
+						_-> rrel_3:: nrel_wife_s_father;;
+				*);;
+			*);;
+		._question_search_sister_instance _<- question;;
+	*];
+
+	=> ui_nrel_command_lang_template:
+		[Запрос поиска тестя: $ui_arg_1] (* <- lang_ru;; *);
+		[Request private domains: $ui_arg_1] (* <- lang_en;; *);
+		[Запыт пошуку цесця: $ui_arg_1] (* <- lang_by;; *);;

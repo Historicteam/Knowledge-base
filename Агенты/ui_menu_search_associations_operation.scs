@@ -1,0 +1,41 @@
+ui_menu_search_associations_operation
+	<- ui_user_command_class_atom; 
+	ui_user_command_class_view_kb;;
+// Указываем русский идентификатор нашей операции в меню
+ui_menu_search_associations_operation
+	=> nrel_main_idtf: 
+		[Запрос поиска объектов для составления тематического маршрута экскурсии]
+		(*
+		<- lang_ru;; 
+		*);;
+// Указываем английский идентификатор нашей операции в меню
+ui_menu_search_associations_operation
+	=> nrel_main_idtf:
+		[ Search request for objects which are necessary to create a thematic sightseeing route]
+		(*
+			<- lang_en;; 
+		*);;
+// Указываем шаблон нашей команды
+ui_menu_search_associations_operation
+	=> ui_nrel_command_template:
+	[*
+		question_search_associations_operation _-> ._question_search_associations_operation_instance
+		(*
+		_-> ui_arg_1;;
+		*);;
+		._question_search_associations_operation_instance _<- question;;
+	*];;
+// Указываем текстовый шаблон команды на русском языке
+ui_menu_search_associations_operation
+	=> ui_nrel_command_lang_template: 
+		[Запрос поиска объектов для составления тематического маршрута экскурсии: $ui_arg_1] 
+		(*
+		<- lang_ru;; 
+		*);;
+// Указываем текстовый шаблон команды на английском языке
+ui_menu_search_associations_operation
+	=> ui_nrel_command_lang_template: 
+		[Search request for objects which are necessary to create a thematic sightseeing route: $ui_arg_1]
+		(*
+		<- lang_en;; 
+		*);;

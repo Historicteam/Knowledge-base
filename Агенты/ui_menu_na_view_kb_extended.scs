@@ -1,0 +1,7 @@
+ui_menu_na_view_kb_extended
+=> nrel_main_idtf: [Каманды прагляду базы ведаў] (* <- lang_by;; *);;
+
+ui_menu_na_view_kb_pattern
+=> nrel_main_idtf: [Каманды прагляду патэрнаў] (* <- lang_by;; *);;
+
+
