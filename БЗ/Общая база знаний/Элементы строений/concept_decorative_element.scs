@@ -36,14 +36,11 @@ concept_decorative_element
 *);;
 *);;
 *);
-<=nrel_subdividing:
- ...
-(*
-
-
--> concept_gable;;
--> concept_pediment;;
--> concept_facade;;
-*)
+<= nrel_subdividing:
+	{
+		concept_stepped_gable;
+		concept_pediment;
+		concept_facade
+	}
 ;;
 

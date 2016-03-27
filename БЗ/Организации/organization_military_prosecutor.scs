@@ -1,0 +1,15 @@
+organization_military_prosecutor
+=> nrel_main_idtf:
+        [Военная прокуратура]
+        (*
+        <- lang_ru;;
+        *);
+        [The military prosecutor]
+        (*
+        <- lang_en;;
+        *);
+        [Вайсковая пракуратура]
+        (*
+        <- lang_by;;
+        *);;
+

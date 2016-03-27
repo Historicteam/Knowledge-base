@@ -1,0 +1,15 @@
+organization_city_fumatorium
+=> nrel_main_idtf:
+        [Городская дезинфекционная камера]
+        (*
+        <- lang_ru;;
+        *);
+        [The city fumatorium]
+        (*
+        <- lang_en;;
+        *);
+        [Гарадская дэзынфекцыйная камера]
+        (*
+        <- lang_by;;
+        *);;
+

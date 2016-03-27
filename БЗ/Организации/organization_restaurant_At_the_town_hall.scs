@@ -1,0 +1,14 @@
+organization_restaurant_At_the_town_hall
+=> nrel_main_idtf:
+        [Ресторан "У Ратуши"]
+        (*
+        <- lang_ru;;
+        *);
+        [The restaurant "At the town hall"]
+        (*
+        <- lang_en;;
+        *);
+        [Рэстаран "Ля Ратушы]
+        (*
+        <- lang_by;;
+        *);;

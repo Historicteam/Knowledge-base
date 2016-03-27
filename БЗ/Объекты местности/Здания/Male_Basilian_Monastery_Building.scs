@@ -1,6 +1,4 @@
 Male_Basilian_Monastery_Building
-<- concept_building;
-<- concept_terrain_object;
 => nrel_main_idtf:
 	[Здание мужского базилианского монастыря]
 	(*
@@ -74,6 +72,10 @@ Male_Basilian_Monastery_Building
 	<- lang_by;;
 	*);
 
+<- concept_building;
+<- concept_terrain_object;
+<- concept_arch_classicism;
+
 => nrel_openstreetmap:
 	[Male_Basilian_Monastery_Building] 
 	(*
@@ -144,6 +146,17 @@ Male_Basilian_Monastery_Building
 			*);;
 		*);;
 	*);
+	
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1617];;
+            *);;
+        *);
+        
+        
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
@@ -155,6 +168,5 @@ Male_Basilian_Monastery_Building
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;
-	*)
-;;
+	*);;
 

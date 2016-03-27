@@ -1,0 +1,40 @@
+concept_residential_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[жилое здание]
+	(*
+	<- lang_ru;;
+	*);
+	[residential building]
+	(*
+	<- lang_en;;
+	*);
+	[жылы будынак]
+	(*
+	<- lang_by;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Жилое здание — изолированное помещение, которое является недвижимым имуществом, пригодное для постоянного проживания людей]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Жылы будынак — ізаляванае памяшканне, якое з'яўляецца нерухомай маёмасцю, прыдатнае для сталага жыцця людзей]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

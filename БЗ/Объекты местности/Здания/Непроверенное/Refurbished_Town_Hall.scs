@@ -1,6 +1,0 @@
-Refurbished_Town_Hall
-<- concept_building;
-=> nrel_main_idtf:
-	[Восстановленное здание ратуши] (* <- lang_ru;; *);
-	[Refurbished Town Hall] (* <- lang_en;; *);
-	[Адноўлены будынак ратушы] (* <- lang_by;; *);;

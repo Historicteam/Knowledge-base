@@ -1,0 +1,83 @@
+building_of_economic_housing_of_male_Bernardine_monastery
+=> nrel_main_idtf:
+	[Здание хозяйственного корпуса мужского монастыря бернардинцев]
+	(*
+	<- lang_ru;;
+	*);
+	[building of economic housing of male monastery of Bernardine]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак гаспадарчага корпуса мужчынскага манастыра бернардынаў]
+	(*
+	<- lang_by;;
+	*);
+	
+<-concept_building;
+
+=> nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1644];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1699];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+
+concept_situation->[*organization_Minsk_Municipal_Public_Administration => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения городского управления в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання гарадскога кiравання у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1860];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1891];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*organization_city_pawnshop => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;
+                     organization_city_fire_brigade => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения городского ломбарда и городской пожарной команды в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання гарадскога ламбарда і гарадской пажарнай каманды у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1891];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1918];;
+                *);;
+            *);;
+*);;

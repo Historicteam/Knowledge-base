@@ -1,6 +1,0 @@
-The_restaurant_Potsdam
-<- concept_building;
-=> nrel_main_idtf:
-	[Здание ресторана «Потсдам»] (* <- lang_ru;; *);
-	[The restaurant Potsdam] (* <- lang_en;; *);
-	[Будынак рэстарацыі "Патсдам"] (* <- lang_by;; *);;

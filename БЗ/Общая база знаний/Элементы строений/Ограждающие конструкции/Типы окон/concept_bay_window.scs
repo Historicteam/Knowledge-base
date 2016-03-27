@@ -1,1 +1,104 @@
-bay_window<-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:[эркер](*<- lang_ru;;*);[bay window](*<- lang_en;;*);[эркер](*<- lang_by;;*);<- rrel_key_sc_element:...(*<-sc_explanation;;<=nrel_sc_text_translation:...(*-> rrel_example:[Эркер -  окно, выступающее из стены и опирающееся на землю.](*<- lang_ru;;*);;*);...(*-> rrel_example:[Эркер - акно, якое выступае з сцяны і якое абапіраецца на зямлю.](*<- lang_by;;*);;*);;*);<- rrel_key_sc_element:...	(*	<-sc_illustration;;	<=nrel_sc_text_translation:		...		(*		->rrel_example: "file://content/bay.jpg"			(*			=> nrel_format: format_jpg;;			*);;		*);;	*);;
+concept_bay_window
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[эркер]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[bay window]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[эркер]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Эркер -  окно, выступающее из стены и опирающееся на землю.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Эркер - акно, якое выступае з сцяны і якое абапіраецца на зямлю.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/bay.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;
+
+
+

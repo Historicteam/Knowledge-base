@@ -1,0 +1,14 @@
+transit_prison
+=> nrel_main_idtf:
+        [Пересыльная тюрьма]
+        (*
+        <- lang_ru;;
+        *);
+        [The transit prison]
+        (*
+        <- lang_en;;
+        *);
+        [Перасыльная турма]
+        (*
+        <- lang_by;;
+        *);;

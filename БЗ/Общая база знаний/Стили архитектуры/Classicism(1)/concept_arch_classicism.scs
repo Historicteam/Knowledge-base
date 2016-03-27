@@ -1,0 +1,71 @@
+concept_arch_classicism
+=>nrel_main_idtf:
+	[классицизм] (* <-lang_ru;; *);
+	[сlassicism] (* <-lang_en;; *);
+	[класіцызму] (* <-lang_by;; *);
+
+
+
+=>nrel_inclusion: concept_doric_column;
+=>nrel_inclusion: concept_ionic_column;
+=>nrel_inclusion: concept_tuscan_order;
+=>nrel_inclusion: concept_composite_order;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Классицизм - стиль архитектуры, главной чертой которого было обращение к формам античного зодчества как к эталону гармонии, простоты, строгости, логической ясности и монументальности. Для классицизма свойственны симметрично-осевые композиции, сдержанность декоративного убранства, строгие, повторяющиеся линии, колонны.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Classicism - a style of architecture, the main feature of which was an appeal to the forms of ancient architecture as the standard of harmony, simplicity, rigor, clarity and logic of monumentality.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);
+
+	<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Класіцызм - стыль архітэктуры, галоўнай рысай якога быў зварот да формаў антычнага дойлідства як да эталону гармоніі, прастаты, строгасці, лагічнай яснасці і манументальнасці.]
+			(*
+			<- lang_by;;
+			*);;
+
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
