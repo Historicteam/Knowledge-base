@@ -1,0 +1,132 @@
+Building_ofitsiny
+=> nrel_main_idtf:
+	[Здание официны]
+	(*
+	<- lang_ru;;
+	*);
+	[Building ofitsiny]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак афіцыны]
+	(*
+	<- lang_by;;
+	*);
+	
+<-concept_building;
+<-concept_terrain_object;
+
+<= nrel_temporal_decomposition: 
+    {
+        Building_ofitsiny_of_the_monastery_of_Benedictine
+        (* 
+        => nrel_main_idtf:
+            [Здание официны монастыря Бенедектинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Building ofitsiny of Benedictine Monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак афіцыны кляштара Бенедыктынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1682];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        *);
+        
+        
+        Building_ofitsiny_of_Spaso_Preobrazhensky_female_monastery
+        (*
+        => nrel_main_idtf:
+            [Здание официны Спасо-Преоброженского женского монастыря]
+            (*
+            <- lang_ru;;
+            *);
+            [Building ofitsiny of Spaso Preobrazhensky female monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак афіцыны Спаса-Праабражэнскага жаночага манастыра]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1944];;
+                *);;
+            *);;
+        *)
+    };
+	
+ => nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9050399;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5561731;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;
+
+concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Building_ofitsiny;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения монастыря бенедектинок в Здание официны ](*<-lang_ru;;*);;
+  
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1647];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1871];;
+            *);;
+        *);;
+*);;
