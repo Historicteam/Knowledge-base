@@ -1,9 +1,12 @@
 Building_courtyard_seating
-<- concept_building;
+
 => nrel_main_idtf:
 	[Здание гостиного двора] (* <- lang_ru;; *);
 	[Building courtyard seating] (* <- lang_en;; *);
 	[Будынак гасцінага двара] (* <- lang_by;; *);
+
+<- concept_building;
+<- concept_arch_classicism;
 
 <- rrel_key_sc_element: Image_building_courtyard_seating (*
 	=> nrel_main_idtf:

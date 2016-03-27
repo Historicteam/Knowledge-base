@@ -1,1 +1,75 @@
-oblique_port<-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:[косое окно](*<- lang_ru;;*);[oblique port](*<- lang_en;;*);[касое акно](*<- lang_by;;*);<- rrel_key_sc_element:...(*<-sc_explanation;;<=nrel_sc_text_translation:...(*-> rrel_example:[Косое окно - окно с рамой, установленной под углом к стене.](*<- lang_ru;;*);;*);...(*-> rrel_example:[Касое акно–  акно з рамай, усталяванай пад вуглом да сцяны.](*<- lang_by;;*);;*);;*);;
+concept_oblique_port
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[косое окно]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[oblique port]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[касое акно]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Косое окно - окно с рамой, установленной под углом к стене.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Касое акно–  акно з рамай, усталяванай пад вуглом да сцяны.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);;

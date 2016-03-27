@@ -1,0 +1,16 @@
+nrel_temporal_entity_base_order
+=> nrel_main_idtf:
+	[базовый порядок временных сущностей*]
+	(*
+	<- lang_ru;;
+	*);
+	[temporal entity base order*]
+	(*
+	<- lang_en;;
+	*);
+	[базавы парадак часовых існасцяў*]
+	(*
+	<- lang_by;;
+	*);
+	
+<-order_relation;;

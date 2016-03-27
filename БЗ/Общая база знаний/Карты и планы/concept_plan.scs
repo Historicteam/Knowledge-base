@@ -5,7 +5,7 @@ concept_plan
 	
 	[план](*<- lang_ru;;*);
 	[plan](*<- lang_en;;*);
-        [план](*<- lang_by;;*);
+        [план ](*<- lang_by;;*);
 
 <- rrel_key_sc_element: ...
 (*

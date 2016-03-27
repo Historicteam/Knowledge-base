@@ -1,0 +1,14 @@
+organization_police_headquarters 
+=> nrel_main_idtf:
+        [Полицейское управление]
+        (*
+        <- lang_ru;;
+        *);
+        [The police headquarters ]
+        (*
+        <- lang_en;;
+        *);
+        [Паліцэйскае кіраванне]
+        (*
+        <- lang_by;;
+        *);;

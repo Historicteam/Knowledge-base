@@ -12,4 +12,5 @@ organization_governance_of_Libava_Romny_railway
 	(*
 	<- lang_by;;
 	*);
-=>nrel_location:Kostrovickaja_house;;
+=>nrel_location:Kostrovickaja_house;
+<-concept_administrative_organization;;

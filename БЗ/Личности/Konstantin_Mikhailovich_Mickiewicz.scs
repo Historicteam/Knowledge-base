@@ -26,7 +26,7 @@ Mickievich_Konstantin_Mikhailovich
 	*);
 <-concept_person;
 <-concept_male;
-=>nrel_surname: surname_Mickievich;
+=> nrel_surname : surname_Mickievich;
 =>nrel_first_name: name_Konstantin;
 => nrel_alias:
 	[Якуб Колас]
@@ -41,8 +41,8 @@ Mickievich_Konstantin_Mikhailovich
 	(*
 	<- lang_by;;
 	*);
-<=nrel_student:organization_Nesvizh_teacher_seminary;
-<=nrel_student:organization_Nikolaevskaja_elementary_school;
+<= nrel_student :organization_Nesvizh_teacher_seminary;
+<= nrel_student :organization_Nikolaevskaja_elementary_school;
 <=nrel_student:organization_Alexandrov_military_school;
 <=nrel_employee:organization_redaction_of_newspaper_Nasha_Niva;
 <=nrel_employee: organization_Minsk_Belarusian_teachers_college;

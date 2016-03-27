@@ -8,4 +8,4 @@ concept_provincial_board
 	(*
 	<- lang_en;;
 	*);
-<-concept_organization;;
+<-concept_administrative_organization;;

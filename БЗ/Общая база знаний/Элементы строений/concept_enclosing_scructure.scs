@@ -1,1 +1,84 @@
-enclosing_structure <-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:[ограждающая конструкция](*<- lang_ru;;*);[enclosing structure](*<- lang_en;;*);[агароджваюшчая канструкція](*<- lang_by;;*);<- rrel_key_sc_element:...(*<-sc_explanation;;<=nrel_sc_text_translation:...(*-> rrel_example:[Ограждающая конструкция - строительная конструкция, составляющия наружную оболочку здания или разделяющия его на отдельные помещения.](*<- lang_ru;;*);;*);...(*-> rrel_example:[Агароджваюшчая канструкція - будаўнічая канструкцыя, якая складае вонкавую абалонку будынка або якія падзяляе яго на асобныя памяшканні.](*<- lang_by;;*);;*);;*);<=nrel_subdividing: ...(*-> concept_roof;;-> concept_door;;-> concept_wall;;-> concept_window;;-> concept_facade;;*);;
+concept_enclosing_structure 
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[ограждающая конструкция]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[enclosing structure]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[агароджваюшчая канструкція]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Ограждающая конструкция - строительная конструкция, составляющия наружную оболочку здания или разделяющия его на отдельные помещения.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Агароджваюшчая канструкція - будаўнічая канструкцыя, якая складае вонкавую абалонку будынка або якія падзяляе яго на асобныя памяшканні.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+*);
+
+<= nrel_subdividing:
+	{
+	concept_roof;
+	concept_door;
+	concept_wall;
+	concept_window;
+	concept_facade
+	};;
+

@@ -1,1 +1,97 @@
-bearing_structures<-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:	[несущая конструкции]	(*	<- lang_ru;;	*);=> nrel_main_idtf:	[bearing structures]	(*	<- lang_en;;	*);=> nrel_main_idtf:	[апорная канструкцыя]	(*	<- lang_by;;	*);<- rrel_key_sc_element:	...	(*	        <-sc_explanation;;	<=nrel_sc_text_translation:		...		(*		-> rrel_example:			[Несущая конструкция - конструкция, воспринимающая основные нагрузки и обеспечивающая прочность, жесткость, и устойчивость зданий и сооружений.]			(*			<- lang_ru;;			*);;		*);						...		(*		-> rrel_example:			[Апорная канструкцыя - канструкцыя, якая ўспрымае асноўныя нагрузкі і забяспечвае трываласць, калянасць, і ўстойлівасць будынкаў і збудаванняў.]			(*			<- lang_by;;			*);;		*);;*);<=nrel_subdividing: ...(*-> concept_foundation;;-> concept_column;;-> concept_ground;;*);;        	
+concept_bearing_structures
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+	[несущая конструкции]
+
+	(*
+
+	<- lang_ru;;
+
+	*);
+
+=> nrel_main_idtf:
+
+	[bearing structures]
+
+	(*
+
+	<- lang_en;;
+
+	*);
+
+=> nrel_main_idtf:
+
+	[апорная канструкцыя]
+
+	(*
+
+	<- lang_by;;
+
+	*);
+
+
+
+<- rrel_key_sc_element:
+
+	...
+
+	(*
+
+	
+
+        <-sc_explanation;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		-> rrel_example:
+
+			[Несущая конструкция - конструкция, воспринимающая основные нагрузки и обеспечивающая прочность, жесткость, и устойчивость зданий и сооружений.]
+
+			(*
+
+			<- lang_ru;;
+
+			*);;
+
+		*);
+
+		
+
+		
+
+		...
+
+		(*
+
+		-> rrel_example:
+
+			[Апорная канструкцыя - канструкцыя, якая ўспрымае асноўныя нагрузкі і забяспечвае трываласць, калянасць, і ўстойлівасць будынкаў і збудаванняў.]
+
+			(*
+
+			<- lang_by;;
+
+			*);;
+
+		*);;
+*);
+
+<= nrel_subdividing:
+	{
+		concept_foundation;
+		concept_column;
+		concept_ground
+	};;
+
+        
+
+	

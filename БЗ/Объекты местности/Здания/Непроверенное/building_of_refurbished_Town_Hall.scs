@@ -1,4 +1,4 @@
-Refurbished_Town_Hall
+building_of_refurbished_Town_Hall
 <- concept_building;
 => nrel_main_idtf:
 	[Восстановленное здание ратуши] (* <- lang_ru;; *);

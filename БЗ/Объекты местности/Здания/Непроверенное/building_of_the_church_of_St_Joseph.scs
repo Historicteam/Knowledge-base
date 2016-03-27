@@ -1,0 +1,44 @@
+building_of_the_church_of_St_Joseph
+<- concept_building;
+
+=> nrel_main_idtf:
+	[Здание костёла святого Иосифа] (* <- lang_ru;; *);
+	[The building_of_the_church_of_St_Joseph] (* <- lang_en;; *);
+	[Будынак касцёла святога Язэпа] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: The_image_of_the_church_of_St_Joseph (*
+	=> nrel_main_idtf:
+		[Изображение костёла святого Иосифа] (* <- lang_ru;; *);
+		[The image of the church of St. Joseph] (* <- lang_en;; *);
+		[Выява касцёла святога Язэпа] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Костел св. Иосифа.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+=> nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1652];;
+                *);;
+            *);;
+
+concept_situation->[*organization_Archive => nrel_location: building_of_the_church_of_St_Joseph;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения архива в здании костёла святого Иосифа](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання архiву у будынку касцёла святога Язэпа](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1872];;
+                *);;
+            *);;
+*);;

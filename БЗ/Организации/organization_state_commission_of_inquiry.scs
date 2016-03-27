@@ -1,0 +1,14 @@
+organization_state_commission_of_inquiry
+=> nrel_main_idtf:
+        [Государственная следственная комиссия]
+        (*
+        <- lang_ru;;
+        *);
+        [The state commission of inquiry]
+        (*
+        <- lang_en;;
+        *);
+        [Дзяржаўная следчая камісія]
+        (*
+        <- lang_by;;
+        *);; 
