@@ -132,21 +132,79 @@ The_building_of_the_Mariinsky_Cathedral
 			*);;
 		*);;
 	*);;
-
 	<- rrel_key_sc_element: Image_Mariinskii_sobor_1918
-	(*
-	=> nrel_main_idtf:
-		[Изображение Мариинского собора. Год создания: 1918, местонахождение: Национальная библиотека Польшы] (* <- lang_ru;; *);
-		[Image Mariinsky sobor. Year established: 1918 Location: National Library of Poland] (* <- lang_en;; *);
-		[Выява Марыінскага собора. Год стварэння: 1918, месцазнаходжанне: Нацыянальная бібліятэка Польшчы] (* <- lang_by;; *);;
-	<- sc_illustration;;
-	<= nrel_sc_text_translation: 
-		... (*
-		-> rrel_example: "file://contents//Мариинский_собор(1918).jpg" (*
-				=> nrel_format: format_jpg;;
+		(*
+		=> nrel_main_idtf:
+			[Изображение Мариинского собора. Год создания: 1918, местонахождение: Национальная библиотека Польшы] (* <- lang_ru;; *);
+			[Image Mariinsky sobor. Year established: 1918 Location: National Library of Poland] (* <- lang_en;; *);
+			[Выява Марыінскага собора. Год стварэння: 1918, месцазнаходжанне: Нацыянальная бібліятэка Польшчы] (* <- lang_by;; *);;
+		<- sc_illustration;;
+		<= nrel_sc_text_translation: 
+			... (*
+			-> rrel_example: "file://contents//Мариинский_собор(1918).jpg" (*
+					=> nrel_format: format_jpg;;
+				*);;
 			*);;
 		*);;
-	*);;
+	
+        *);
+
+
+			House_of_physical_education
+			(*
+			=> nrel_main_idtf:
+			    [Дом физкультуры]
+			    (*
+			    <- lang_ru;;
+			    *);
+			    [House of physical education]
+			    (*
+			    <- lang_en;;
+			    *);
+			    [Дом фізкультуры]
+			    (*
+			    <- lang_by;;
+			    *);;
+			    
+			=> nrel_start_time: ...
+            			(*
+            				=> nrel_translation_in_the_Gregorian_calendar: ...
+              					  (*
+               					 -> rrel_year: rrel_decimal: [1951];;
+						*);;
+					    *);;
+				       			 => nrel_finish_time: ...
+					    (*
+					    => nrel_translation_in_the_Gregorian_calendar: ...
+						(*
+						-> rrel_year: rrel_decimal: [1991];;
+				*);;
+			 *);;
+		*);
+					Archcathedral_Cathedral_of_Saint_Mary
+					(*
+					=> nrel_main_idtf:
+					    [Архикафедральный собор Имени Наисвятейшей Девы Марии]
+					    (*
+					    <- lang_ru;;
+					    *);
+					    [Archcathedral_Cathedral_of_Saint_Mary]
+					    (*
+					    <- lang_en;;
+					    *);
+					    [Архікатэдра Імя Найсвяцейшай Панны Марыі]
+					    (*
+					    <- lang_by;;
+					    *);;
+					    
+					=> nrel_start_time: ...
+			    			(*
+			    				=> nrel_translation_in_the_Gregorian_calendar: ...
+			      					  (*
+			       					 -> rrel_year: rrel_decimal: [1991];;
+								*);;
+							    *);;
+						       	
 
 	<- rrel_key_sc_element: Image_Mariinskii_sobor_2003
 	(*
@@ -162,10 +220,7 @@ The_building_of_the_Mariinsky_Cathedral
 			*);;
 		*);;
 	*);;
-
-
-
-        *)
+		*)
     
     };
 
@@ -207,11 +262,11 @@ The_building_of_the_Mariinsky_Cathedral
 			*);;
 		*);;
 	*);;
-concept_situation->[*organization_of_physical_education => nrel_location: The_building_of_the_Mariinsky_Cathedral;;*]
+concept_situation->[*organization_spartak => nrel_location: The_building_of_the_Mariinsky_Cathedral;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения Дома физкультуры в здании Мариинского кафедрального собора](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Дома фізкультуры ў будынку Марыінскага кафедральнага сабора](*<-lang_by;;*);;
+    [Контур периода времени расположения Добровольного спортивного общества "Спартак" здании Мариинского кафедрального собора](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Добраахвотнага спартыўнага таварыства "Спартак" ў будынку Марыінскага кафедральнага сабора](*<-lang_by;;*);;
     => nrel_start_time: ...
         (*
             => nrel_translation_in_the_Gregorian_calendar: ...

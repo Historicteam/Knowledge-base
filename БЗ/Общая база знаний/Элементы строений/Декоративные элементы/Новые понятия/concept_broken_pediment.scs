@@ -1,0 +1,103 @@
+concept_broken_pediment
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[разорванный фронтон]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[broken pediment]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[разарваны франтон]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Разорванный фронтон –  декоративный фронтон, расположенный над окном, обрамление которого разорвано в одном или нескольких местах.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Разорванный фронтон – декоративный фронтон, расположенный над окном, обрамление которого разорвано в одном или нескольких местах.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/broken.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

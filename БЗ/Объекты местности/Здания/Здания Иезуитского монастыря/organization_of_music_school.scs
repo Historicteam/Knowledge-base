@@ -1,14 +1,14 @@
 organization_of_music_school
 => nrel_main_idtf:
-        [Музыкальная школа]
+        [Республиканская гимназия-колледж при Белорусской государственной академии музыки]
         (*
         <- lang_ru;;
         *);
-        [Music school]
+        [Republic Gymnasium-College of the Belarusian State Academy of Music]
         (*
         <- lang_en;;
         *);
-        [Музычная школа]
+        [Рэспубліканская гімназія-каледж пры Беларускай дзяржаўнай акадэміі музыкі]
         (*
         <- lang_by;;
         *);

@@ -1,0 +1,103 @@
+concept_twisted_column
+
+<-sc_const;
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+
+[витая колонна]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[twisted column]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[кручаная калона]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Витая колонна - колонна в форме спирали.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Кручаная калона - калона ў форме спіралі.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/витая_колонна.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

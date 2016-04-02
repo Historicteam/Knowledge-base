@@ -1,4 +1,5 @@
 building_Jesuit_College
+<-concept_building;
 => nrel_main_idtf:
 	[Здание иезуитского коллегиума]
 	(*
@@ -42,7 +43,105 @@ building_Jesuit_College
 		*);;
 	*);
 
-<-concept_building;;
+<= nrel_temporal_decomposition: 
+    {
+	The_building_of_Jesuit_College
+        (* 
+        => nrel_main_idtf:
+            [Здание иезуитского коллегиума]
+            (*
+            <- lang_ru;;
+            *);
+            [Jesuit College building]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак езуіцкага калегіума]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1732];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1773];;
+                *);;
+            *);;
+
+*);
+			The_building_of_government_offices
+				(* 
+				=> nrel_main_idtf:
+				    [Здание присутственных мест]
+				    (*
+				    <- lang_ru;;
+				    *);
+				    [The building of government offices]
+				    (*
+				    <- lang_en;;
+				    *);
+				    [Будынак прысутных месц]
+				    (*
+				    <- lang_by;;
+				    *);;
+				    
+				=> nrel_start_time: ...
+				    (*
+				    => nrel_translation_in_the_Gregorian_calendar: ...
+					(*
+					-> rrel_year: rrel_decimal: [1799];;
+					*);;
+				    *);;
+				=> nrel_finish_time: ...
+				    (*
+				    => nrel_translation_in_the_Gregorian_calendar: ...
+					(*
+					-> rrel_year: rrel_decimal: [1852];;
+					*);;
+				    *);;
+
+			*);
+				The_building_of_treasury_chamber
+				(* 
+				=> nrel_main_idtf:
+				    [Здание казенной палаты]
+				    (*
+				    <- lang_ru;;
+				    *);
+				    [The building of treasury chamber]
+				    (*
+				    <- lang_en;;
+				    *);
+				    [Будынак казённай палаты]
+				    (*
+				    <- lang_by;;
+				    *);;
+				    
+				=> nrel_start_time: ...
+				    (*
+				    => nrel_translation_in_the_Gregorian_calendar: ...
+					(*
+					-> rrel_year: rrel_decimal: [1852];;
+					*);;
+				    *);;
+				=> nrel_finish_time: ...
+				    (*
+				    => nrel_translation_in_the_Gregorian_calendar: ...
+					(*
+					-> rrel_year: rrel_decimal: [1917];;
+					*);;
+				    *);;
+
+			*)
+};;
 
 concept_situation->[*organization_government_offices => nrel_location: building_Jesuit_College;;*]
 (*
@@ -106,6 +205,28 @@ concept_situation->[*organization_The_Presidium_of_the_Minsk_city_executive_comm
             *);;
         *);;
 *);;
+
+concept_situation->[*organization_Jesuit_monks_community => nrel_location: building_Jesuit_College;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения общины монахов иезуитов в здании иезуитского коллегиума](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання абшчыны манахаў езуітаў у будынку езуіцкага калегіума](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1732];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1773];;
+            *);;
+        *);;
+*);;
+
 
 
 
