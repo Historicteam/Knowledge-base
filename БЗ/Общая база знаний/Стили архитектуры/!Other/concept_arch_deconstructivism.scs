@@ -5,7 +5,29 @@ concept_arch_deconstructivism
 	[дэканструктывізм] (* <-lang_by;; *);
 
 
-
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1980];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1990];;
+                    *);;
+                *);;
+            *);;
+        *);
 
 <- rrel_key_sc_element: 
 	...
@@ -51,4 +73,31 @@ concept_arch_deconstructivism
 			*);;
 
 		*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Royal_Ontario_Museum_deconstructivism.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Dancing_House_deconstructivism.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
 	*);;
+

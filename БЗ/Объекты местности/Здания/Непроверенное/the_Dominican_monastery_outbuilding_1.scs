@@ -1,0 +1,25 @@
+the_Dominican_monastery_outbuilding_1
+
+<- concept_building;
+=> nrel_main_idtf:
+	[флигель доминиканского монастыря 1] (* <- lang_ru;; *);
+	[Dominican monastery outbuilding 1] (* <- lang_en;; *);
+	[флігель дамініканскага манастыра 1] (* <- lang_by;; *);
+
+=> nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1703];;
+                    *);;
+                *);
+          
+=> nrel_finish_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1950];;
+                    *);;
+                *);;
