@@ -11,20 +11,7 @@ building_Jesuit_College
 	[Будынак езуіцкага калегіума]
 	(*
 	<- lang_by;;
-	*);
-	[Площадь Свободы, 11]
-	(*
-	<- lang_ru;;
-	*);
-	[Freedom Square, 11]
-	(*
-	<- lang_en;;
-	*);
-	[Плошча Свабоды, 11]
-	(*
-	<- lang_by;;
-	*);
-	
+	*);	
 
 <- rrel_key_sc_element: Image_building_Jesuit_College 
 (*

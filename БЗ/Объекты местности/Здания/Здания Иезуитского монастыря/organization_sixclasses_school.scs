@@ -13,5 +13,4 @@ organization_sixclasses_school
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_educational_institution;;

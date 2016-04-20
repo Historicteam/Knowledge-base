@@ -1,0 +1,14 @@
+organization_Brasserie_Old_Town_Piwnica
+=> nrel_main_idtf:
+	[Пивной ресторан "Староместная Пивница"]
+	(*
+	<- lang_ru;;
+	*);
+	[Brasserie "Old Town Piwnica"]
+	(*
+	<- lang_en;;
+	*);
+	[Піўны рэстаран "Стара-мясцовая Піўніца"]
+	(*
+	<- lang_by;;
+	*);;

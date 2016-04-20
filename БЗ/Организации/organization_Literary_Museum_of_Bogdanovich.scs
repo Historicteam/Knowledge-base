@@ -12,21 +12,7 @@ organization_Literary_Museum_of_Bogdanovich
 	(*
 	<- lang_by;;
 	*);
-=>nrel_location: house_7a_Bogdanovich_street(*=> nrel_main_idtf:
-		[улица М.Богдановича дом 7a]
-		(*
-		<- lang_ru;;
-		*);
-		[Bogdanovich Street, 7A]
-		(*
-		<- lang_en;;
-		*);
-		[вуліца М.Багдановіча дом 7a]
-		(*
-		<- lang_by;;
-		*);;
-		<-concept_building;;
-	*);
+
 <- rrel_key_sc_element: Definition_Literary_Museum_of_Bogdanovich
 	(*
 		=> nrel_main_idtf:	[Определение литературного музея Максима Богдановича] (* <- lang_ru;; *);
@@ -50,3 +36,45 @@ organization_Literary_Museum_of_Bogdanovich
 	*);
 <-concept_museum
 ;;
+
+
+
+concept_situation->[*organization_Literary_Museum_of_Bogdanovich => nrel_location: house_7a_Bogdanovich_street;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения литературного музея им. Богдановича по ул. Богдановича 7А](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_day: rrel_decimal: [19];;
+																				-> rrel_month: rrel_decimal: [9];;
+																				-> rrel_year: rrel_decimal: [1980];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_day: rrel_decimal: [18];;
+																				-> rrel_month: rrel_decimal: [9];;
+																				-> rrel_year: rrel_decimal: [1980];;
+																			*);;
+						*);;
+*);;
+
+house_7a_Bogdanovich_street
+=> nrel_main_idtf:
+		[улица М.Богдановича дом 7a]
+		(*
+		<- lang_ru;;
+		*);
+		[Bogdanovich Street, 7A]
+		(*
+		<- lang_en;;
+		*);
+		[вуліца М.Багдановіча дом 7a]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;
+	

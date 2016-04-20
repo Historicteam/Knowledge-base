@@ -13,6 +13,6 @@ organization_The_Presidium_of_the_Minsk_city_executive_committee
         <- lang_by;;
         *);
         
-<-concept_organization;
+<-concept_state_organization;
 <-concept_administrative_organization;;
 

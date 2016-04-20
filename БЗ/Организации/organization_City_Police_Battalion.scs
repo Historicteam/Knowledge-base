@@ -1,0 +1,17 @@
+organization_City_Police_Battalion
+=> nrel_main_idtf:
+        [Городской полицейский батальон]
+        (*
+        <- lang_ru;;
+        *);
+        [City Police Battalion]
+        (*
+        <- lang_en;;
+        *);
+        [Гарадскі паліцэйскі батальён]
+        (*
+        <- lang_by;;
+        *);
+<-concept_administrative_organization;
+<-concept_formal_organization;
+<-concept_state_organization;;

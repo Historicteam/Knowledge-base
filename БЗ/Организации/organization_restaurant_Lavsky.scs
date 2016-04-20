@@ -1,0 +1,14 @@
+organization_restaurant_Lavsky
+=> nrel_main_idtf:
+	[Ресторан "Лавский"]
+	(*
+	<- lang_ru;;
+	*);
+	[Restaurant "Lavsky"]
+	(*
+	<- lang_en;;
+	*);
+	[Рэстаран "Лаўскi"]
+	(*
+	<- lang_by;;
+	*);;

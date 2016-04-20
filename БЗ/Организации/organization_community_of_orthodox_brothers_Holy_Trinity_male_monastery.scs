@@ -1,0 +1,14 @@
+organization_community_of_orthodox_brothers_Holy_Trinity_male_monastery
+=> nrel_main_idtf:
+        [Община православных братьев Свято-Троицкого мужского монастыря]
+        (*
+        <- lang_ru;;
+        *);
+        [Сommunity of orthodox brothers Holy Trinity male monastery]
+        (*
+        <- lang_en;;
+        *);
+        [Злучына праваслаўных братоў Свята-Траецкага мужчынскага манастыра]
+        (*
+        <- lang_by;;
+        *);;

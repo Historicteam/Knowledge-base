@@ -55,7 +55,7 @@ concept_state_organization
 -> organization_Ministry_of_Finance_of_the_Russian_Empire;
 -> organization_Brewery_Hutten_Czapsky_Count;
 -> organization_institute_Warsaw_Music_Institute;
--> organization_Minsk_Municipal_Public_Administration;
+-> organization_Minsk_municipal_public_administration;
 -> organization_Nizhny_Novgorod_Male_Gymnasium;
 -> organization_redaction_of_magazine_Vozhyk;
 -> organization_redaction_of_magazine_Polymia;

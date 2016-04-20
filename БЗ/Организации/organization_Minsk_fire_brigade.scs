@@ -1,4 +1,4 @@
-fire_brigade_hall
+organization_Minsk_fire_brigade
 => nrel_main_idtf:
         [Спортивный зал пожарной команды]
         (*
@@ -11,4 +11,7 @@ fire_brigade_hall
         [Спартовая зала пажарнай каманды]
         (*
         <- lang_by;;
-        *);;
+        *);
+<-concept_privately_held_organization;
+<-concept_cooperative_organization;
+<-concept_industrial_organization;;

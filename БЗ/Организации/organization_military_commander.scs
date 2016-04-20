@@ -11,4 +11,7 @@ organization_military_commander
         [Вайсковая камендатура]
         (*
         <- lang_by;;
-        *);;
+        *);
+<-concept_formal_organization;
+<-concept_state_organization;
+<-concept_administrative_organization;;

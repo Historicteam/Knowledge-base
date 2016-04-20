@@ -1,4 +1,4 @@
-transit_prison
+organization_Minsk_transit_prison
 => nrel_main_idtf:
         [Пересыльная тюрьма]
         (*
@@ -11,4 +11,7 @@ transit_prison
         [Перасыльная турма]
         (*
         <- lang_by;;
-        *);;
+        *);
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_formal_organization;;

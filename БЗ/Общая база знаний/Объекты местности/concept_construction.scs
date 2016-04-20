@@ -2,7 +2,7 @@ concept_construction
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-	[сооружение]
+	[строение]
 	(*
 	<- lang_ru;;
 	*);

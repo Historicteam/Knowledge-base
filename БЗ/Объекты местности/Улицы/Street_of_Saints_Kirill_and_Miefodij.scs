@@ -1,0 +1,18 @@
+Street_of_Kirill_and_Miefodij
+	=> nrel_main_idtf:
+		[Улица Кирилла и Мефодия](* <- lang_ru;; *);
+		[Street_of_Kirill_and_Miefodij](* <- lang_en;; *);
+			[Вуліца Кирiла и Мефодия]
+			(*
+			<- lang_by;;
+			*);
+		<= nrel_subdividing: 
+		{
+		building_of_economic_housing_of_male_Bernardine_monastery;
+		building_of_the_Cathedral_of_the_Holy_Spirit;
+		building_of_residential_housing_of_male_Bernardine_monastery;
+		building_of_residential_housing_of_female_Bernardine_monastery;
+		Building_trade_rows;
+		building_of_the_church_of_St_Joseph
+		};
+		<-concept_street;; 

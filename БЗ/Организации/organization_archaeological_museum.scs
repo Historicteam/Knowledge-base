@@ -1,0 +1,14 @@
+organization_archaeological_museum
+=> nrel_main_idtf:
+	[Минский археологический музей]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk archeological museum]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі археалагічны музей]
+	(*
+	<- lang_by;;
+	*);;

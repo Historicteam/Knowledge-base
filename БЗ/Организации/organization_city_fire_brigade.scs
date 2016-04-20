@@ -11,4 +11,8 @@ organization_city_fire_brigade
         [Гарадская пажарная брыгада]
         (*
         <- lang_by;;
-        *);;
+        *);
+        
+<-concept_privately_held_organization;
+<-concept_cooperative_organization;
+<-concept_industrial_organization;;

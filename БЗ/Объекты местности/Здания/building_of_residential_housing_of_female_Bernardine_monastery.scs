@@ -13,6 +13,75 @@ building_of_residential_housing_of_female_Bernardine_monastery
 	(*
 	<- lang_by;;
 	*);
+
+<= nrel_temporal_decomposition: 
+    {
+        Residential_housing_of_female_Bernardine_monastery
+        (* 
+        => nrel_main_idtf:
+            [Жилой корпус монастыря бернардинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Residential housing of female Bernardine monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Жыллы корпус манастыра бернардынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1642];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1852];;
+                *);;
+            *);;
+        => nrel_section_base_order:
+            Residential_housing_of_Holy_Trinity_Monastery;;
+        *);
+
+	Residential_housing_of_Holy_Trinity_Monastery
+        (* 
+        => nrel_main_idtf:
+            [Жилой корпус Свято-Троицкого монастыря]
+            (*
+            <- lang_ru;;
+            *);
+            [Residential housing of Holy Trinity Monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Жылы корпус Свята-Траецкага манастыра]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1862];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1870];;
+                *);;
+            *);;
+        *)
+    };
 <-concept_building;
 <-concept_terrain_object;
 
@@ -63,12 +132,12 @@ building_of_residential_housing_of_female_Bernardine_monastery
     *);;
     
 
-concept_situation->[*organization_Female_Bernardine_monastery => nrel_location:
+concept_situation->[*organization_community_of_nuns_Bernardine => nrel_location:
 building_of_residential_housing_of_female_Bernardine_monastery;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бернардинок в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання манастыр бернардынак у будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    [Контур периода времени расположения общины монахинь в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання лучыны манашак у будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
     => nrel_start_time: ...
             (*
             => nrel_translation_in_the_Gregorian_calendar: ...
@@ -85,12 +154,12 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
             *);;
 *);;
 
-concept_situation->[*organization_Holy_Trinity_male_monastery => nrel_location:
+concept_situation->[*organization_community_of_orthodox_brothers_Holy_Trinity_male_monastery => nrel_location:
 building_of_residential_housing_of_female_Bernardine_monastery;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения Свято-Троецкого мужского монастыря в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Свята-Траецкага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
+    [Контур периода времени расположения общины православных братьев Свято-Троицкого мужского монастыря в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Траецкага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
     => nrel_start_time: ...
             (*
             <-concept_time_point;;
@@ -109,13 +178,13 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
             *);;
 *);;
 
-concept_situation->[*organization_Holy_Spirit_male_monastery => nrel_location:
+concept_situation->[*organization_community_of_orthodox_brothers_Holy_Spirit_male_monastery => nrel_location:
 building_of_residential_housing_of_female_Bernardine_monastery;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1870-1918)]
+    [Контур периода времени расположения общины православных братьев Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1870-1918)]
     (*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1870-1918)]
+    [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1870-1918)]
     (*<-lang_by;;*);;
     => nrel_start_time: ...
             (*
@@ -135,13 +204,13 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
             *);;
 *);;
 
-concept_situation->[*organization_Holy_Spirit_male_monastery => nrel_location:
+concept_situation->[*organization_community_of_orthodox_brothers_Holy_Spirit_male_monastery => nrel_location:
 building_of_residential_housing_of_female_Bernardine_monastery;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1943-1945)]
+    [Контур периода времени расположения общины православных братьев Свято-Духова мужского монастыря в здании жилого корпуса монастыря бернардинок (1943-1945)]
     (*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1943-1945)]
+    [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1943-1945)]
     (*<-lang_by;;*);;
      => nrel_start_time: ...
             (*

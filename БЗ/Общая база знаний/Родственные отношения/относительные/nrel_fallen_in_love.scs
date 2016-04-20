@@ -1,0 +1,30 @@
+nrel_fallen_in_love
+=>nrel_main_idtf:
+	[влюблённость*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[fallen in love*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[закаханасць*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Влюблённость - чувство любовного влечения к кому-либо] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Закаханасць - пачуццё любоўнай цягі да каго-небудзь] (* <-lang_by;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Falling in love - love feeling attracted to someone] (* <-lang_en;; *);; 
+		*);;
+			
+	*);
+<-sc_const;
+<-sc_node_norole_relation;;
+ 

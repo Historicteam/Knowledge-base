@@ -1,0 +1,17 @@
+organization_Minsk_archive  
+=> nrel_main_idtf:
+        [Белорусский государственный архив научно-технической документации]
+        (*
+        <- lang_ru;;
+        *);
+        [Belarusian State Archive of Scientific and Technical Documentation]
+        (*
+        <- lang_en;;
+        *);
+        [Беларускі дзяржаўны архіў навукова-тэхнічнай дакументацыі]
+        (*
+        <- lang_by;;
+        *);
+<-concept_state_organization;
+<-concept_formal_organization;
+<-concept_scientific_organization;;

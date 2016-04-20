@@ -1,0 +1,17 @@
+organization_community_of_nuns_Bernardine
+=> nrel_main_idtf:
+        [Община монахинь бернардинок]
+        (*
+        <- lang_ru;;
+        *);
+        [Community of nuns Bernardine]
+        (*
+        <- lang_en;;
+        *);
+        [Злучына манашак бернардынак]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_non_governmental_organization;;
+/*религиозная*/
