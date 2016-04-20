@@ -4,6 +4,53 @@ concept_arch_expressionism
 	[expressionism] (* <-lang_en;; *);
 	[экспрэсіянізм] (* <-lang_by;; *);
 
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1910];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1920];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+=> nrel_finish_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1920];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1930];;
+                    *);;
+                *);;
+            *);;
+        *);
 
 
 <- rrel_key_sc_element: 
@@ -21,4 +68,31 @@ concept_arch_expressionism
 
 		*);;
 
+	*);
+
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Grundtvig_memorial_church_expressionism.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Taut_Glass_Pavilion_exterior_expressionism.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
 	*);;
+

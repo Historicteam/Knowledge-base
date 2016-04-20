@@ -1,0 +1,127 @@
+building_of_residential_housing_of_the_Dominican_Monastery
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание жилого корпуса монастыря доминиканцев] (* <- lang_ru;; *);
+	[Building of residential housing of the Dominican Monastery] (* <- lang_en;; *);
+	[Будынак жылога корпусу кляштара дамініканаў] (* <- lang_by;; *);
+
+=> nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1703];;
+                *);;
+            *);
+
+=> nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1950];;
+                *);;
+            *);
+
+<= nrel_temporal_decomposition: 
+    {
+        residential_housing_of_the_Dominican_Monastery
+        (* 
+        => nrel_main_idtf:
+            [Жилой корпус монастыря доминиканцев]
+            (*
+            <- lang_ru;;
+            *);
+            [Residential housing of the Dominican Monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Жылы корпус кляштара дамініканаў]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1703];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1809];;
+                *);;
+            *);;
+        *);
+
+        residential_housing_of_the_minsk_catholic_theological_seminary
+        (* 
+        => nrel_main_idtf:
+            [Жилой корпус католической духовной семинарии]
+            (*
+            <- lang_ru;;
+            *);
+            [Residential housing of the Catholic theological seminary]
+            (*
+            <- lang_en;;
+            *);
+            [Жылы корпус каталіцкай духоўнай семінарыі]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1844];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1869];;
+                *);;
+            *);;
+        *)
+    };;
+
+concept_situation->[*organization_dominican_monk_commune => nrel_location: building_of_residential_housing_of_the_Dominican_Monastery;;*]
+(*
+    => nrel_main_idtf: [Контур периода времени расположения общины монахов доминиканцев в здании жилого корпуса монастыря доминиканцев](*<-lang_ru;;*);;
+   => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1703];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1809];;
+            *);;
+        *);;
+ *);;
+
+concept_situation->[*organization_minsk_catholic_theological_archdiocese_seminary => nrel_location: building_of_residential_housing_of_the_Dominican_Monastery;;*]
+(*
+    => nrel_main_idtf: [Контур периода времени расположения Католической духовной семинарии Минской архидиацезии в здании жилого корпуса монастыря доминиканцев](*<-lang_ru;;*);;
+   => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1844];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+ *);;
