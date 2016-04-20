@@ -1,14 +1,14 @@
-organization_city_fire_brigade
+organization_house_of_government
 => nrel_main_idtf:
-        [Городская пожарная команда]
+        [Местожительство губернаторов]
         (*
         <- lang_ru;;
         *);
-        [City fire brigade]
+        [Government house]
         (*
         <- lang_en;;
         *);
-        [Гарадская пажарная каманда]
+        [Месцажыхарства губернатараў]
         (*
         <- lang_by;;
         *);

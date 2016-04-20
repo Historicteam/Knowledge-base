@@ -21,7 +21,134 @@ The_building_of_the_Jesuit_school
 		*);;
 	*);
 
+<= nrel_temporal_decomposition: 
+    {
+	The_building_of_the_Jesuit_school
+        (* 
+        => nrel_main_idtf:
+            [Здание иезуитской школы]
+            (*
+            <- lang_ru;;
+            *);
+            [The building of the Jesuit school]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак езуіцкай школы]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1699];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1773];;
+                *);;
+            *);;
+        *);
+	Sixclasses_school
+        (* 
+        => nrel_main_idtf:
+            [Здание светской шестиклассной школы]
+            (*
+            <- lang_ru;;
+            *);
+            [The building of the sixclasses school]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак свецкай шасцікласнай школы]
+            (*
+            <- lang_by;;
+            *);;
+            
+        		=> nrel_start_time: ...
+            (*
+           		 => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1773];;
+                *);;
+            *);;
+       			 => nrel_finish_time: ...
+            (*
+          		  => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1799];;
+                *);;
+            *);;
+        *);
 
+	Government_house
+        (* 
+        => nrel_main_idtf:
+            [Резиденция губернатора]
+            (*
+            <- lang_ru;;
+            *);
+            [Government house]
+            (*
+            <- lang_en;;
+            *);
+            [Рэзідэнцыя губернатара]
+            (*
+            <- lang_by;;
+            *);;
+            
+       			 => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1799];;
+                *);;
+            *);;
+       			 => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1917];;
+                *);;
+            *);;
+        *);
+	First_House_of_Soviets
+        (* 
+        => nrel_main_idtf:
+            [Первый дом Советов]
+            (*
+            <- lang_ru;;
+            *);
+            [First House of Soviets]
+            (*
+            <- lang_en;;
+            *);
+            [Першы дом Саветаў]
+            (*
+            <- lang_by;;
+            *);;
+            
+       			 => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1917];;
+                *);;
+            *);;
+       			 => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1968];;
+                *);;
+            *);;
+        *)
+};
 
 <- rrel_key_sc_element: Image_building_Jesuit_school (*
 	<- sc_illustration;;
@@ -78,11 +205,11 @@ concept_situation->[*organization_sixclasses_school => nrel_location: The_buildi
         *);;
 *);;
 
-concept_situation->[*organization_government_house => nrel_location: The_building_of_the_Jesuit_school;;*]
+concept_situation->[*organization_house_of_government => nrel_location: The_building_of_the_Jesuit_school;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения резиденции губернатора в здании иезуитской школы](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання рэзідэнцыі губернатара ў будынку езуіцкай школы](*<-lang_by;;*);;
+    [Контур периода времени местожительства губернаторов в здании иезуитской школы](*<-lang_ru;;*);
+    [Контур перыяду часу месцажыхарства губернатараў ў будынку езуіцкай школы](*<-lang_by;;*);;
     => nrel_start_time: ...
         (*
             => nrel_translation_in_the_Gregorian_calendar: ...
@@ -123,8 +250,8 @@ concept_situation->[*organization_presidium_bssr => nrel_location: The_building_
 concept_situation->[*organization_of_music_school => nrel_location: The_building_of_the_Jesuit_school;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения музыкальной школы в здании иезуитской школы](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання музычнай школы ў будынку езуіцкай школы](*<-lang_by;;*);;
+    [Контур периода времени расположения Республиканской гимназии-колледжа при Белорусской государственной академии музыки в здании иезуитской школы](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Рэспубліканскай гімназіі-каледжа пры Беларускай дзяржаўнай акадэміі музыкі ў будынку езуіцкай школы](*<-lang_by;;*);;
     => nrel_start_time: ...
         (*
             => nrel_translation_in_the_Gregorian_calendar: ...
