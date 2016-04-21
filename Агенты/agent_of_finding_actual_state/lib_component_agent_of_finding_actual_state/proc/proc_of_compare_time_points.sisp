@@ -1,15 +1,15 @@
-function proc_of_compare_time_points(_time_point1, _time_point2) {
+function proc_of_compare_time_points(_time_point1, _time_point2, _nrel_in_period) {
   return _time_point;
   proc_of_finding_time_point_translation(
     _time_point1,
     nrel_translation_in_the_Gregorian_calendar,
-    nrel_start_time,
+    _nrel_in_period,
     [assign, _time_point1_translation]
   );
   proc_of_finding_time_point_translation(
     _time_point2,
     nrel_translation_in_the_Gregorian_calendar,
-    nrel_finish_time,
+    _nrel_in_period,
     [assign, _time_point2_translation]
   );
   search(
