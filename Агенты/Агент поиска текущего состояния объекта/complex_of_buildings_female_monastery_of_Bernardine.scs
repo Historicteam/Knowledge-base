@@ -1,0 +1,166 @@
+complex_of_constructions_of_the_female_monastery_of_Bernardine
+
+=> nrel_main_idtf:
+    [Комплекс строений монастыря бернардинок]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of constructions the female monastery of Bernardine]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў манастыра бернардынак]
+    (*
+    <- lang_by;;
+    *);
+	
+<= nrel_temporal_decomposition:
+    {
+    complex_of_constructions_of_the_female_monastery_of_Bernardine_since_1642_to_1852
+        (* 
+        => nrel_main_idtf:
+            [Комплекс строений монастыря бернардинок (1642-1852)]
+            (*
+            <- lang_ru;;
+            *);
+            [Complex of constructions the female monastery of Bernardine (1642-1852)]
+            (*
+            <- lang_en;;
+            *);
+            [Комплекс будынкаў манастыра бернардынак (1642-1852)]
+            (*
+            <- lang_by;;
+            *);;
+                
+        => nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1642];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1672];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1852];;
+                *);;
+            *);;
+            
+        <= nrel_complex_of_buildings_decomposition:
+        {
+            building_of_residential_housing_of_female_Bernardine_monastery;
+            building_of_the_Cathedral_of_the_Holy_Spirit
+        };;
+          
+        => nrel_section_base_order:
+            complex_of_constructions_of_the_Holy_Trinity_male_monastery_since_1862_to_1870;;
+        *);
+            
+    complex_of_constructions_of_the_Holy_Trinity_male_monastery_since_1862_to_1870
+        (*
+        => nrel_main_idtf:
+            [Комплекс строений Свято-Троицкого мужского монастыря (1862-1870)]
+            (*
+            <- lang_ru;;
+            *);
+            [Complex of constructions the Holy Trinity male monastery (1862-1870)]
+            (*
+            <- lang_en;;
+            *);
+            [Комплекс будынкаў Свята-Траецкага мужчынскага манастыра (1862-1870)]
+            (*
+            <- lang_by;;
+            *);;
+                
+        => nrel_start_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1862];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1870];;
+                *);;
+            *);;
+            
+        <= nrel_complex_of_buildings_decomposition:
+        {
+        building_of_residential_housing_of_female_Bernardine_monastery;
+        building_of_the_Cathedral_of_the_Holy_Spirit
+        };;
+        
+        => nrel_section_base_order:
+            complex_of_constructions_of_the_Holy_Spirit_male_monastery_scince_1870_to_1918;;
+        *);
+    
+    complex_of_constructions_of_the_Holy_Spirit_male_monastery_scince_1870_to_1918
+        (*
+        =>nrel_main_idtf:
+            [Комплекс строений Свято-духова мужского монастыря (1870-1918)]
+            (*
+            <- lang_ru;;
+            *);
+            [Complex of constructions the Holy Spirit male monastery (1870-1918)]
+            (*
+            <- lang_en;;
+            *);
+            [Комплекс будынкаў Свята-Духава мужчынскага манастыра (1870-1918)]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1870];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1918];;
+                *);;
+            *);;
+            
+        <= nrel_complex_of_buildings_decomposition:
+        {
+        building_of_residential_housing_of_female_Bernardine_monastery;
+        building_of_the_Cathedral_of_the_Holy_Spirit
+        };;
+            
+        *)
+    };
+    
+<-concept_complex_of_buildings;;
+
+
+    
+    
+    
+   

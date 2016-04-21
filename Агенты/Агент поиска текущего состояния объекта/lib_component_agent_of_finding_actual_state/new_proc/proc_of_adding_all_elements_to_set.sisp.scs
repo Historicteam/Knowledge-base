@@ -1,0 +1,58 @@
+scp_program -> proc_of_adding_all_elements_to_set (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _set;;
+        -> rrel_2: rrel_in: _elements;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator0 (*
+            <- searchSetStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _elements;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _element;;
+            -> rrel_set_3: rrel_scp_var: rrel_assign: _elements_copy;;
+            => nrel_goto: ..operator1;;
+        *);;
+        ->..operator1 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _elements_copy;;
+            => nrel_then: ..operator2;;
+            => nrel_else: ..operator7;;
+        *);;
+        ->..operator2 (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _elements_copy;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _element;;
+            => nrel_then: ..operator3;;
+            => nrel_else: ..operator6;;
+        *);;
+        ->..operator3 (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _set;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _tmp_arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _element;;
+            => nrel_else: ..operator4;;
+            => nrel_then: ..operator5;;
+        *);;
+        ->..operator4 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _set;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _tmp_arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _element;;
+            => nrel_goto: ..operator5;;
+        *);;
+        ->..operator5 (*
+            <- eraseEl;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc;;
+            => nrel_goto: ..operator2;;
+        *);;
+        ->..operator6 (*
+            <- eraseEl;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _elements_copy;;
+            => nrel_goto: ..operator7;;
+        *);;
+        ->..operator7 (*
+            <- return;;
+        *);;
+    *);;
+*);;

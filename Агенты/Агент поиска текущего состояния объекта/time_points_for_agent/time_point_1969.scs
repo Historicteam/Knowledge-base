@@ -1,0 +1,8 @@
+time_point -> time_point_1969
+(*
+  => nrel_translation_in_the_Gregorian_calendar: ...
+  (*
+    -> rrel_year: rrel_decimal: [1969];;
+  *);;
+  => nrel_main_idtf: [1969 год] (* <-lang_ru;;*);;
+*);;

@@ -1,0 +1,8 @@
+time_point -> time_point_402
+(*
+  => nrel_translation_in_the_Gregorian_calendar: ...
+  (*
+    -> rrel_year: rrel_decimal: [402];;
+  *);;
+  => nrel_main_idtf: [402 год] (* <-lang_ru;;*);;
+*);;

@@ -1,0 +1,8 @@
+time_point -> time_point_2006
+(*
+  => nrel_translation_in_the_Gregorian_calendar: ...
+  (*
+    -> rrel_year: rrel_decimal: [2006];;
+  *);;
+  => nrel_main_idtf: [2006 год] (* <-lang_ru;;*);;
+*);;

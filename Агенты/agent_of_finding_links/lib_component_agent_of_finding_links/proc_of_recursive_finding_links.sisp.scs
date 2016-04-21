@@ -1,0 +1,4 @@
+./buffer:2	consoleParse(script));
+./buffer:2	...................^
+./buffer:2	SyntaxError: missing ; before statement
+Execution error in ./buffer.

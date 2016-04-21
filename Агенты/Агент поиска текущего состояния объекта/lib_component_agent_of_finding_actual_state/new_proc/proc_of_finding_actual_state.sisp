@@ -1,0 +1,35 @@
+function proc_of_finding_actual_state(_object, _time_point) {
+  return _answer;
+  generate([assign, node, constant, _answer]);
+  generate(
+    _answer,
+    [assign, pos_const_perm, _arc],
+    _object
+  );
+  proc_of_finding_all_situations(_object, [assign, _situations]);
+  if (_situations)
+    while(search(_situations, [assign, _arc], [assign, _situation])) {
+      proc_of_checking_node_with_start_and_end_time_in_time(
+        _situation, 
+        _time_point, 
+        [assign, _status]
+      );
+      if (_status)
+        search(
+          _situation, [assign, pos_const_perm, _arc1], [assign, _element],
+          [], [], _answer
+        );
+      erase([erase, _arc]);
+    }
+  proc_of_finding_current_state_in_temporal_decomposition(
+    _object, 
+    _time_point, 
+    [assign, _state]
+  );
+  if (_state)
+    generate(
+      _answer,
+      [assign, pos_const_perm, _arc],
+      _state
+    );
+}
