@@ -14,7 +14,7 @@ function proc_of_finding_actual_state(_object, _time_point) {
         _time_point, 
         [assign, _status]
       );
-      if (_status)
+      if (is(_status, true_node))
         search(
           _situation, [assign, pos_const_perm, _arc1], [assign, _element],
           [], [], _answer

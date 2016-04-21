@@ -63,8 +63,9 @@ scp_program -> proc_of_finding_actual_state (*
             => nrel_goto: ..operator8;;
         *);;
         ->..operator8 (*
-            <- ifVarAssign;;
+            <- ifCoin;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _status;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: true_node;;
             => nrel_then: ..operator9;;
             => nrel_else: ..operator10;;
         *);;

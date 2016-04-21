@@ -17,7 +17,7 @@ function proc_of_finding_current_state_in_temporal_decomposition(_object, _time_
   if (_temporal_decomposition_copy)
     while(search(_temporal_decomposition_copy, [assign, _arc], [assign, _element])) {
     proc_of_checking_node_with_start_and_end_time_in_time(_element, _time_point, [assign, _status]);
-      if (_status)
+      if (is(_status, true_node))
         var_assign([assign, _state], _element);
       erase([erase, _arc]);
     }

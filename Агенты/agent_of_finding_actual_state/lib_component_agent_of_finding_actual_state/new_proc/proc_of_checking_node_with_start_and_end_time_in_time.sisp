@@ -1,5 +1,6 @@
 function proc_of_checking_node_with_start_and_end_time_in_time(_situation, _time_point) {
   return _status;
+  var_assign([assign, _status], false_node);
   search(
     _situation,
     [assign, _arc1],
@@ -22,7 +23,5 @@ function proc_of_checking_node_with_start_and_end_time_in_time(_situation, _time
   else var_assign([assign, _time2], empty);
   if (is(_time_point, _time1))
     if (is(_time_point, _time2)); else  
-      var_assign([assign, _status], _time_point);
-  if (_status) 
-    print("Time point is in interval");
+      var_assign([assign, _status], true_node);
 }

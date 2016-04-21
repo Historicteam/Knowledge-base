@@ -59,8 +59,9 @@ scp_program -> proc_of_finding_current_state_in_temporal_decomposition (*
             => nrel_goto: ..operator7;;
         *);;
         ->..operator7 (*
-            <- ifVarAssign;;
+            <- ifCoin;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _status;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: true_node;;
             => nrel_then: ..operator8;;
             => nrel_else: ..operator9;;
         *);;
