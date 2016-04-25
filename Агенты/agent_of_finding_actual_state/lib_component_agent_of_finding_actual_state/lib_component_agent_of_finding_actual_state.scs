@@ -1,0 +1,16 @@
+lib_component_agent_of_finding_actual_state
+=> nrel_main_idtf:
+	[Компонент библиотеки. sc-агент]
+	(* <- lang_ru;; *);
+	[Library component. sc-agent]
+	(* <- lang_en;; *);
+
+<- platform_independent_reusable_component_OSTIS; 
+<- atomic_reusable_component_OSTIS; 
+<- reusable_scp_agent;
+
+=> nrel_attendant_component: 
+	lib_component_ui_menu_file_for_finding_actual_state; 
+
+-> rrel_key_sc_element: 
+	.platform_independent_realization_of_sc_agent_of_finding_actual_state;;

@@ -1,0 +1,27 @@
+function proc_of_checking_node_with_start_and_end_time_in_time(_situation, _time_point) {
+  return _status;
+  var_assign([assign, _status], false_node);
+  search(
+    _situation,
+    [assign, _arc1],
+    [assign, _start_time],
+    [assign, _arc2],
+    nrel_start_time
+  );
+  search(
+    _situation,
+    [assign, _arc1],
+    [assign, _finish_time],
+    [assign, _arc2],
+    nrel_finish_time
+  );
+  if (_start_time)
+    proc_of_compare_time_points(_time_point, _start_time, nrel_start_time, [assign, _time1]);
+  else var_assign([assign, _time1], _time_point);
+  if (_finish_time)
+    proc_of_compare_time_points(_time_point, _finish_time, nrel_finish_time, [assign, _time2]);
+  else var_assign([assign, _time2], empty);
+  if (is(_time_point, _time1))
+    if (is(_time_point, _time2)); else  
+      var_assign([assign, _status], true_node);
+}

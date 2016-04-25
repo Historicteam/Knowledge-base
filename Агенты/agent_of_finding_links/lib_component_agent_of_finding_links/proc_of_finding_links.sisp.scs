@@ -1,0 +1,46 @@
+scp_program -> proc_of_finding_links (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _start;;
+        -> rrel_2: rrel_in: _end;;
+        -> rrel_3: rrel_out: _answer;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator0 (*
+            <- genEl;;
+            -> rrel_1: rrel_scp_var: rrel_assign: rrel_node: rrel_const: _answer;;
+            => nrel_goto: ..operator1;;
+        *);;
+        ->..operator1 (*
+            <- genEl;;
+            -> rrel_1: rrel_scp_var: rrel_assign: rrel_node: rrel_const: _temp_set;;
+            => nrel_goto: ..operator2;;
+        *);;
+        ->..operator2 (*
+            <- contAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _counter;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: [0];;
+            => nrel_goto: ..operator3;;
+        *);;
+        ->..operator3 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_recursive_finding_links;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _start;;
+                -> rrel_2: rrel_fixed: rrel_scp_var: _end;;
+                -> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+                -> rrel_4: rrel_fixed: rrel_scp_var: _temp_set;;
+                -> rrel_5: rrel_fixed: rrel_scp_var: _counter;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator4;;
+        *);;
+        ->..operator4 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator5;;
+        *);;
+        ->..operator5 (*
+            <- return;;
+        *);;
+    *);;
+*);;

@@ -1,0 +1,94 @@
+scp_program -> proc_of_compare_time_points (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _time_point1;;
+        -> rrel_2: rrel_in: _time_point2;;
+        -> rrel_3: rrel_in: _nrel_in_period;;
+        -> rrel_4: rrel_out: _time_point;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator0 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_finding_time_point_translation;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _time_point1;;
+                -> rrel_2: rrel_fixed: rrel_scp_const: nrel_translation_in_the_Gregorian_calendar;;
+                -> rrel_3: rrel_fixed: rrel_scp_var: _nrel_in_period;;
+                -> rrel_4: rrel_scp_var: rrel_assign: _time_point1_translation;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator1;;
+        *);;
+        ->..operator1 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator2;;
+        *);;
+        ->..operator2 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_finding_time_point_translation;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _time_point2;;
+                -> rrel_2: rrel_fixed: rrel_scp_const: nrel_translation_in_the_Gregorian_calendar;;
+                -> rrel_3: rrel_fixed: rrel_scp_var: _nrel_in_period;;
+                -> rrel_4: rrel_scp_var: rrel_assign: _time_point2_translation;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument1;;
+            => nrel_goto: ..operator3;;
+        *);;
+        ->..operator3 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument1;;
+            => nrel_goto: ..operator4;;
+        *);;
+        ->..operator4 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point1_translation;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: rrel_link: _year1;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+            => nrel_goto: ..operator5;;
+        *);;
+        ->..operator5 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point2_translation;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: rrel_link: _year2;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+            => nrel_goto: ..operator6;;
+        *);;
+        ->..operator6 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _year1;;
+            => nrel_goto: ..operator7;;
+        *);;
+        ->..operator7 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _year2;;
+            => nrel_goto: ..operator8;;
+        *);;
+        ->..operator8 (*
+            <- ifGr;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _year1;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _year2;;
+            => nrel_then: ..operator9;;
+            => nrel_else: ..operator10;;
+        *);;
+        ->..operator9 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _time_point;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point1;;
+            => nrel_goto: ..operator11;;
+        *);;
+        ->..operator10 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _time_point;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point2;;
+            => nrel_goto: ..operator11;;
+        *);;
+        ->..operator11 (*
+            <- return;;
+        *);;
+    *);;
+*);;
