@@ -1,0 +1,8 @@
+Erdeli_Jakov_Egorovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Эрдели Яков Егорович] (* <- lang_ru;; *);
+	[Erdeli Jakov Egorovich] (* <- lang_en;; *);
+	[Эрделі Якаў Ягоравіч] (* <- lang_by;; *);;                                                                                                                                                                                                                                                                       

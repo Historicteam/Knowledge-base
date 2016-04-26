@@ -1,0 +1,8 @@
+Charukov_Valerii_Ivanovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Чарыков Валерий Иванович] (* <- lang_ru;; *);
+	[Charukov Valerii Ivanovich] (* <- lang_en;; *);
+	[Чарыкоў Валерый Іванавіч] (* <- lang_by;; *);;

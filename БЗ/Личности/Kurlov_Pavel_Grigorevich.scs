@@ -1,0 +1,8 @@
+Kurlov_Pavel_Grigorevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Курлов Павел Григорьевич] (* <- lang_ru;; *);
+	[Kurlov Pavel Grigorevich] (* <- lang_en;; *);
+	[Курлоў Павел Рыгор'евіч] (* <- lang_by;; *);;

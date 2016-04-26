@@ -13,5 +13,4 @@ organization_government_offices
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_non_governmental_organization;;

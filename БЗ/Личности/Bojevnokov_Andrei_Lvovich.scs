@@ -1,0 +1,8 @@
+Bojevnokov_Andrei_Lvovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Божевников Андрей Львович] (* <- lang_ru;; *);
+	[Bojevnokov Andrei Lvovich] (* <- lang_en;; *);
+	[Бажэўнікаў Андрэй Львовіч] (* <- lang_by;; *);;

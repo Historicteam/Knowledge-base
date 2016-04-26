@@ -13,5 +13,4 @@ organization_Jesuit_monks_community
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_cultural_organization;;

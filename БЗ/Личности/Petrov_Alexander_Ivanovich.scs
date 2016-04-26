@@ -1,0 +1,8 @@
+Petrov_Alexander_Ivanovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Петров Александр Иванович] (* <- lang_ru;; *);
+	[Petrov Alexander Ivanovich] (* <- lang_en;; *);
+	[Пятроў Аляксандр Іванавіч] (* <- lang_by;; *);;

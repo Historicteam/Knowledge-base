@@ -14,4 +14,6 @@ organization_presidium_bssr
         *);
         
 <-concept_state_organization;
-<-concept_administrative_organization;;
+<-concept_administrative_organization;
+<-concept_political_organization;;
+

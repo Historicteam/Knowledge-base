@@ -1,0 +1,8 @@
+Keller_Eduard_Fedorovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Келлер Эдуард Фёдорович] (* <- lang_ru;; *);
+	[Keller Eduard Fedorovich] (* <- lang_en;; *);
+	[Келер Эдуард Фёдаравіч] (* <- lang_by;; *);;

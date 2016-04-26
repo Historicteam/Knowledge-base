@@ -13,5 +13,4 @@ organization_spartak
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_sports_organization;;

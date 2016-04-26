@@ -1,0 +1,8 @@
+Herheulidzev_Serhei_Anreevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Херхеулидзев Сергей Андреевич] (* <- lang_ru;; *);
+	[Herheulidzev Serhei Anreevich] (* <- lang_en;; *);
+	[Херхеўлідзэў Сяргей Андрэевіч] (* <- lang_by;; *);;

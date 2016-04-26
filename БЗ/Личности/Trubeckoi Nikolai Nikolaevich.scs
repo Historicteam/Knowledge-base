@@ -1,0 +1,8 @@
+Trubeckoi_Nikolai_Nikolaevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Трубецкой Николай Николаевич] (* <- lang_ru;; *);
+	[Trubeckoi Nikolai Nikolaevich] (* <- lang_en;; *);
+	[Трубецкой Мікалай Мікалаевіч] (* <- lang_by;; *);;

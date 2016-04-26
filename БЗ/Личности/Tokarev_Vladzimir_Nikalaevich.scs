@@ -1,0 +1,8 @@
+Tokarev_Vladzimir_Nikalaevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Токарев Владимир Николаевич] (* <- lang_ru;; *);
+	[Tokarev Vladzimir Nikalaevich] (* <- lang_en;; *);
+	[Токараў Уладзімір Мікалаевіч] (* <- lang_by;; *);;

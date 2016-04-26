@@ -13,5 +13,4 @@ organization_house_of_government
         <- lang_by;;
         *);
         
-<-concept_organization;
 <-concept_formal_organization;;

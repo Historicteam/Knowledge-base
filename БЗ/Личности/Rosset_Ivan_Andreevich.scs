@@ -1,0 +1,8 @@
+Rosset_Ivan_Andreevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Россет Иван Андреевич] (* <- lang_ru;; *);
+	[Rosset Ivan Andreevich] (* <- lang_en;; *);
+	[Росет Іван Андрэевіч] (* <- lang_by;; *);;

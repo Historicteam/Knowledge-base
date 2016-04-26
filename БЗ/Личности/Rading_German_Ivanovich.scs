@@ -1,0 +1,8 @@
+Rading_German_Ivanovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Радинг Герман Иванович] (* <- lang_ru;; *);
+	[Rading German Ivanovich] (* <- lang_en;; *);
+	[Радзінг Герман Іванавіч] (* <- lang_by;; *);;

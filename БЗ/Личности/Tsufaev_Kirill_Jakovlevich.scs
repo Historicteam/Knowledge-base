@@ -1,0 +1,8 @@
+Tsufaev_Kirill_Jakovlevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Тюфяев Кирилл Яковлевич] (* <- lang_ru;; *);
+	[Tsufaev Kirill Jakovlevich] (* <- lang_en;; *);
+	[Цюфяеў Кірыл Якаўлевіч] (* <- lang_by;; *);;

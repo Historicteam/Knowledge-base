@@ -1,0 +1,8 @@
+Cherniavskii_Andrei_Gavrilovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Чернявский Андрей Гаврилович] (* <- lang_ru;; *);
+	[Cherniavskii Andrei Gavrilovich] (* <- lang_en;; *);
+	[Чэрняўскі Андрэй Гаўрылавіч] (* <- lang_by;; *);;                                                                                                                                                                                                                                                                       
