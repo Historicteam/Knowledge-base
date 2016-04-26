@@ -16,17 +16,17 @@ subject_area_of_objects_of_town_planning
 	<= nrel_sc_text_translation:
 		...
 		(* 
-		-> rrel_example: [] (* <-lang_ru;; *);; 
+		-> rrel_example: [Здесь должно быть определение] (* <-lang_ru;; *);; 
 		*);
 		...
 		(* 
-		-> rrel_example: [] (* <-lang_en;; *);; 
+		-> rrel_example: [Здесь должно быть определение] (* <-lang_en;; *);; 
 		*);
 		...
 		(* 
-		-> rrel_example: [] (* <-lang_by;; *);; 
+		-> rrel_example: [Здесь должно быть определение] (* <-lang_by;; *);; 
 		*);;
-	*);
+	*);;
 
 subdividing_into_the_following_objects_of_town_planning
   =>nrel_main_idtf:

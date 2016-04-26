@@ -1,43 +1,41 @@
 Building_Institute_Belpromproekt
 <- concept_building;
 => nrel_main_idtf:
-	[Здание. Институт "Белпромпроект"] (* <- lang_ru;; *);
-	[Building. Institute "Belpromproekt"] (* <- lang_en;; *);
-	[Будынак. Инстытут "Белпрампраект"] (* <- lang_by;; *);
-
-=> nrel_idtf:
-	[Здание холодной синагоги] (* <- lang_ru;; *);
-	[Cold synagogue building] (* <- lang_en;; *);
-	[Будынак халоднай сінагогі] (* <- lang_by;; *);
-
 	[Площадь Свободы, 17] (* <- lang_ru;; *);
 	[Freedom Square, 17] (* <- lang_en;; *);
 	[Плошча Свабоды, 17] (* <- lang_by;; *);
 
-<- rrel_key_sc_element: Image_building_cold_synagogue (*
-	=> nrel_main_idtf:
-		[Изображение здания холодной синагоги] (* <- lang_ru;; *);
-		[Image building cold synagogue] (* <- lang_en;; *);
-		[Выява будынка халоднай сінагогі] (* <- lang_by;; *);;
-
-	<- sc_illustration;;
-	<= nrel_sc_text_translation: 
-		... (*
-		-> rrel_example: "file://contents//Холодная синагога.jpg" (*
-				=> nrel_format: format_jpg;;
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Здание было построено в 1969 году. Сейчас сдается под офисы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The building was built in 1969. Today is leased for offices.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будынак быў пабудавана ў 1969 годзе. Цяпер здаецца пад офісы.]
+			(*
+			<- lang_by;;
 			*);;
 		*);;
-	*);
-
-<- rrel_key_sc_element: Image_building_cold_synagogue (*
-	<- sc_illustration;;
-	<= nrel_sc_text_translation: 
-		... (*
-		-> rrel_example: "file://contents//Холодная 2.jpg" (*
-				=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
+	*)
+;
 
 => nrel_have_a_number:
 	17;;

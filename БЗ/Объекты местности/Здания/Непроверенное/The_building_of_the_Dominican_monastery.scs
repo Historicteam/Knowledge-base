@@ -12,6 +12,37 @@ the_building_of_the_Dominican_monastery
     [The building of the Dominican monastery] (* <- lang_en;; *);
     [Будынак дамініканскага кляштара] (* <- lang_by;; *);
 
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В 1615 году доминиканцы получили место для строительства каменного здания костела вместо сгоревшего деревянного. Костел был построен в 40-е годы XVII века и освящен в честь Святого Фомы Аквинского. После восстания 1830 года и запрета ордена доминиканцев, костел действовал как приходской храм святой Троицы. В начале XX века зданіе іспользовалось под пожарное депо. В 1926 году здание было взято под охрану государства как исторический памятник. В 1945 году Германия выплатила контрибуцию на восстановление здания БСССР, после чего, в 1950 году здание костела было снесено.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[In 1615 dominicans received the place for  the construction of the stone church building instead of burnt wood. The church was built in 40-ths of XVII century and sanctified in honor of Saint Thomas Aquinas. After the revolt in 1830 year and when the Dominican order was forbidden, the church worked as a parish church of Holy Trinity.  At the beginning of XX century the fire station located there. In 1926 the building got the state protection as a historical monument. In 1945 Germany paid  the contribution to the restoration of the building for the BSSR, and after all the buiding was demolished in 1950.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[У 1615 годзе дамініканцы атрымалі месца пад пабудову каменнага будынка касцёла замест спаленага драўлянага. Касцёл быў пабудаваны ў 40-я гады  XVII стагоддзя і асвечаны ў гонар Святога Томаша Аквінскага. Пасля паўстання 1830 года і забароны ордэна дамініканцаў, касцел дзейнічаў як парафіяльны храм святой Троіцы. На пачатку XX стагоддзя будынак выкарыстоўваўся пад пажаранае дэпо. У 1926 годзе будынак быў узяты пад ахову дзяржавай як гістарычны помнік. У 1945 годзе Германія сплаціла кантрыбуцыю на узнаўленне буынка БССР, пасля чаго, у 1950 годзе, будынак быў знесены.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
 
     => nrel_start_time: ...
         (*

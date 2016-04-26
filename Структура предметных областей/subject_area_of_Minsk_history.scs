@@ -2,18 +2,11 @@ subject_area_of_the_Minsk_history
 => nrel_main_idtf: 
 	[Предметная область истории города Минска] (* <- lang_ru;; *); 
 	[subject area of the Minsk history] (* <- lang_en;; *);
-	[Прадметная вобласць гісторыі горада Мінска] (* <- lang_by;; *); 
-
-subdividing_into_subject_areas_of_historycal_objeñts_and_subjects
-    =>nrel_main_idtf:
-	[разбиение в предметных областях исторических объектов и субъектов] (* <-lang_ru;; *);
-	[subdividing into subject areas of historycal objects and subjects] (* <- lang_en;; *);
-	[разбіццё ў прадметных галінах гістарычных аб'ектаў і суб'ектаў] (* <- lang_by;; *);;
+	[Прадметная вобласць гісторыі горада Мінска] (* <- lang_by;; *);
 
 
-subject_area
-	<=nrel_subdividing: subdividing_into_formal_and_informal_organizations
-				(*
-						->	subject_area_of_history_objects;
-								subject_area_of_history_subjects;;
-				*);;
+<=nrel_subdividing: 
+	{
+		subject_area_of_history_objects;
+		subject_area_of_history_subjects
+	};;

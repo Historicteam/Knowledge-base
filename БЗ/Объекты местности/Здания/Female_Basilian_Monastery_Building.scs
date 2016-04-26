@@ -27,6 +27,39 @@ Female_Basilian_Monastery_Building
 	(*
 	<- lang_by;;
 	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Строительство здания началось в 1641 году по фундации трокской кастелянши Зузаны Гансевской. Во время его строительства были использованы подвалы и стены тех жилых зданий, которые находились на этом месте ранее. В здании располагался монастырь Святого духа базилианок.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The building,sponsored by Trok’s castellan Zuzanna Hansevskaja, beganin 1641. During the building were used basements and walls of previous houses, located on this place. I the building the Holi spirit female basilian’s monastery was located.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будаўніцтва пачалося ў 1641 годзе па фундацыі трокскай касцяляншы Зузаны Гансеўскай. Падчас будаўніцтва былі выкарыстаныя падвалы і сцены тых жылых будынкаў, якія размяшчаліся тут раней. У будынку размяшчался манастыр Святога духа базіліянак.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;

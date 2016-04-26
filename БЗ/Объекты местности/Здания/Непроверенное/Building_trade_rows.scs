@@ -4,6 +4,38 @@ Building_trade_rows
 	[Building of the trade rows] (* <- lang_en;; *);
 	[Будынак гандлёвых шэрагаў] (* <- lang_by;; *);
 
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Здание впервые упоминается в 1817 году в составе имущества монастыря бернардинцев. Первоначально здание было частью ограды монастыря, но в середине XIX века здесь располагались магазины. После войны 1941-1945 годов из 20 помещений сохранились только 7 и использовались под жилье.  Сейчас в здании располагается ресторан.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The building mentioned firstly in 1817 as a property of Bernardine monastery. It was the collegiate fence, but in the middle of XIX century the market places were there. After the WWII only 7 spaces preserved and were used for living. Now the restaurant is located here.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будынак упершыню адзначаецца у 1817 годзе у складзе маемасці манастыра бернардзінцаў. Перашпачаткова будынак быў часткай ппаркана манастыра, але ў сярэдзіне XIX стагоддзя тут размяшчаліся крамы. Пасля вайны 1941-1945 гадоў з 20 памяшканняў  ацалелі толькі 7 і выкарыстоўваліся пад жытло.  Зараз у будынку месціцца рэстарацыя.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+
 <- concept_building;
 <- concept_arch_classicism;
 
@@ -131,60 +163,82 @@ Building_trade_rows
         *)
     };;
 
-Image_building_shopping_malls_1920 
-	=> nrel_main_idtf:
-		[Изображение здания торговых рядов 1920] (* <- lang_ru;; *);
-		[Image building shopping malls 1920] (* <- lang_en;; *);
-		[Выява будынка гандлёвых шэрагаў 1920] (* <- lang_by;; *);
 
-	<- sc_illustration;
-	<= nrel_sc_text_translation: 
-		... (*
-		-> rrel_example: "file://contents//Торговые ряды.jpg" (*
-				=> nrel_format: format_jpg;;
-		    *);;
-		*);;
-	
+Image_building_shopping_malls_1920 
+=> nrel_main_idtf:
+            [Изображение здания торговых рядов 1920] (* <- lang_ru;; *);
+            [Image building shopping malls 1920] (* <- lang_en;; *);
+            [Выява будынка гандлёвых шэрагаў 1920] (* <- lang_by;; *);;
+
+concept_situation-> [*
+    Building_trade_rows 
+    <- rrel_key_sc_element: Image_building_shopping_malls_1920 
+    (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+            (*
+            ->rrel_example: "file://contents//Торговые ряды.jpg"
+                        (*
+                    => nrel_format: format_jpg;;
+                        *);;
+            *);;
+    *);; 
+*]
+(*      
+    => nrel_start_time: ...
+    (*
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1920];;
+        *);;
+    *);;
+    => nrel_finish_time: ...
+    (*
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [2000];;
+        *);;
+    *);;
+*);;
+
+
 
 Image_of_building_trade_rows_1900 
     => nrel_main_idtf:
 	[Изображение здания торговых рядов 1900] (* <- lang_ru;; *);
 	[Image of building of the trade rows 1900] (* <- lang_en;; *);
-	[Выявы будынку гандлёвых шэрагаў 1900] (* <- lang_by;; *);
-    <- sc_illustration;
-    <= nrel_sc_text_translation: ... 
+	[Выявы будынку гандлёвых шэрагаў 1900] (* <- lang_by;; *);;
+
+concept_situation-> [*
+    Building_trade_rows 
+    <- rrel_key_sc_element: Image_of_building_trade_rows_1900 
     (*
-        ->rrel_example: "file://contents/виленчуки 1900.jpg" 
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+            (*
+            ->rrel_example: "file://contents/виленчуки 1900.jpg"
+                        (*
+                    => nrel_format: format_jpg;;
+                        *);;
+            *);;
+    *);; 
+*]
+(*      
+    => nrel_start_time: ...
+    (*
+    => nrel_translation_in_the_Gregorian_calendar: ...
         (*
-                => nrel_format: format_jpg;;
+        -> rrel_year: rrel_decimal: [1900];;
         *);;
     *);;
-
-concept_situation->[*
-        Building_trade_rows 
-        <- rrel_key_sc_element: Image_building_shopping_malls_1920;; *]
-(*      
-            => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1920];;
-                *);;
-            *);;
-*);;
-
-concept_situation->[*
-        Building_trade_rows 
-        <- rrel_key_sc_element: Image_of_building_trade_rows_1900;; *]
-(*      
-            => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1900];;
-                *);;
-            *);;
-*);;
+    => nrel_finish_time: ...
+    (*
+    => nrel_translation_in_the_Gregorian_calendar: ...
+        (*
+        -> rrel_year: rrel_decimal: [1920];;
+        *);;
+    *);;
+*);;   
 
 
 concept_situation->[*organization_city_fumatorium => nrel_location: Building_trade_rows;;

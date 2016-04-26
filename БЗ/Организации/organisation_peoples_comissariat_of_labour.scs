@@ -1,0 +1,14 @@
+organisation_peoples_comissariat_of_labour
+=> nrel_main_idtf:
+	[Народный комиссариат труда]
+	(*
+	<- lang_ru;;
+	*);
+	[Peoples comissariat of labour]
+	(*
+	<- lang_en;;
+	*);
+	[Народны камісарыят працы]
+	(*
+	<- lang_by;;
+	*);;

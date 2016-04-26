@@ -1,0 +1,14 @@
+organization_private_municipal_theatre
+=> nrel_main_idtf:
+	[Частный городской театр]
+	(*
+	<- lang_ru;;
+	*);
+	[Private municipal theatre]
+	(*
+	<- lang_en;;
+	*);
+	[Прыватны гарадскі тэатр]
+	(*
+	<- lang_by;;
+	*);;

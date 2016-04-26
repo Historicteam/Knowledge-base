@@ -1,0 +1,14 @@
+organization_minsk_doctors_society
+=> nrel_main_idtf:
+	[Минское общество врачей]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk doctors society]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае грамадства лекараў]
+	(*
+	<- lang_by;;
+	*);;

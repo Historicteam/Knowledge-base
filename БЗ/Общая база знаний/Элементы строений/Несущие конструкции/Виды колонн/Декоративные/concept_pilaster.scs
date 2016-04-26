@@ -1,1 +1,78 @@
-concept_pilaster<-sc_const;<-sc_node_not_relation;=> nrel_main_idtf:[пилястр](*<- lang_ru;;*);[pilaster](*<- lang_en;;*);[пілястра](*<- lang_by;;*);<- rrel_key_sc_element:...(*<-sc_explanation;;<=nrel_sc_text_translation:...(*-> rrel_example:[Пилястр - плоский вертикальный выступ стены, повторяющий колонну в основных пропорциях и формах.](*<- lang_ru;;*);;*);...(*-> rrel_example:[Пілястра - плоскі вертыкальны выступ сцяны, які паўтарае калону ў асноўных прапорцыях і формах.](*<- lang_by;;*);;*);;*);;
+concept_pilaster
+
+<-sc_const;
+<-sc_node_not_relation;
+
+<= nrel_inclusion: concept_arch_empire_style;
+
+=> nrel_main_idtf:
+
+[пилястр]
+
+(*
+
+<- lang_ru;;
+
+*);
+
+[pilaster]
+
+(*
+
+<- lang_en;;
+
+*);
+
+[пілястра]
+
+(*
+
+<- lang_by;;
+
+*);
+
+<- rrel_key_sc_element:
+
+...
+
+(*
+
+
+
+<-sc_explanation;;
+
+<=nrel_sc_text_translation:
+
+...
+
+(*
+
+-> rrel_example:
+
+[Пилястр - плоский вертикальный выступ стены, повторяющий колонну в основных пропорциях и формах.]
+
+(*
+
+<- lang_ru;;
+
+*);;
+
+*);
+
+...
+
+(*
+
+-> rrel_example:
+
+[Пілястра - плоскі вертыкальны выступ сцяны, які паўтарае калону ў асноўных прапорцыях і формах.]
+
+(*
+
+<- lang_by;;
+
+*);;
+
+*);;
+
+*);;

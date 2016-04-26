@@ -1,4 +1,4 @@
-documentation_of_ref -> "file://Dokumentatsia.pdf";;
+//documentation_of_ref -> "file://Dokumentatsia.pdf";;
 documentation_of_ref => nrel_main_idtf:
 	[Раздел.Документация ИСС история города Минска.]
 	(*

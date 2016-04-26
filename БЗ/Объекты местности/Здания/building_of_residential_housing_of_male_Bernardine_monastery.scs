@@ -18,7 +18,7 @@ building_of_residential_housing_of_male_Bernardine_monastery
 
 <= nrel_temporal_decomposition: 
     {
-        Residential_housing_of_female_Bernardine_monastery
+        Residential_housing_of_male_Bernardine_monastery
         (* 
         => nrel_main_idtf:
             [Жилой корпус монастыря бернардинцев]
@@ -208,7 +208,7 @@ building_of_residential_housing_of_male_Bernardine_monastery
 => nrel_geographical_location: ...
     (*
     <-concept_mapped_point;;
-    => nrel_WGS_84_translation: [53.9048, 27.556833]
+    => nrel_WGS_84_translation: [53.90484, 27.55746]
             (*
             -> ...
                     (*
@@ -217,14 +217,14 @@ building_of_residential_housing_of_male_Bernardine_monastery
                             (*
                             <=nrel_value: ...
                                     (*
-                                    -> rrel_degree: 53.9048;;
+                                    -> rrel_degree: 53.90484;;
                                     *);;
                             *);;
                     ->rrel_longitude: ...
                             (*
                             <=nrel_value: ...
                                     (*
-                                    -> rrel_degree: 27.556833;;
+                                    -> rrel_degree: 27.55746;;
                                     *);;
                             *);;
                     *);;
@@ -234,19 +234,26 @@ building_of_residential_housing_of_male_Bernardine_monastery
 Image_of_residential_housing_of_male_Bernardine_monastery 
     => nrel_main_idtf:
 		[Изображение жилого корпуса мужского монастыря бернардинцев] (* <- lang_ru;; *);
-    <- sc_illustration;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://content/berncy_corpus.jpg" 
-        (*
-                => nrel_format: format_jpg;;
-        *);;
-    *);;
+    => nrel_main_idtf:
+		[Image of building of residential housing of male monastery of Bernardine] (* <- lang_en;; *);
+    => nrel_main_idtf:
+		[Выява будынку жылога корпуса мужчынскага манастыра бернардынаў] (* <- lang_by;; *);;
 
 concept_situation->[*
-        building_of_residential_housing_of_male_Bernardine_monastery 
-        <- rrel_key_sc_element: Image_of_residential_housing_of_male_Bernardine_monastery;; *]
-(*      
+        Building_trade_rows 
+        <- rrel_key_sc_element: Image_of_residential_housing_of_male_Bernardine_monastery 
+	(*
+	<- sc_illustration;;
+    	<= nrel_sc_text_translation: ... 
+    		(*
+     	   	->rrel_example: "file://content/berncy_corpus.jpg" 
+      	 		 (*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
+    		*);;
+	*);; 
+	*]
+	(*      
             => nrel_start_time: ...
             (*
             => nrel_translation_in_the_Gregorian_calendar: ...
@@ -254,7 +261,14 @@ concept_situation->[*
                 -> rrel_year: rrel_decimal: [2007];;
                 *);;
             *);;
-*);;
+            => nrel_end_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [2020];;
+                *);;
+            *);;
+	*);;
 
 concept_situation->[*organization_Minsk_city_prison => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
 (*

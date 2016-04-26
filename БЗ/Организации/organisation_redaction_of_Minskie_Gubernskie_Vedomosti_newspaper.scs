@@ -1,0 +1,14 @@
+organisation_redaction_of_Minskie_Gubernskie_Vedomosti_newspaper
+=> nrel_main_idtf:
+	[Редакция газеты "Минские губернские ведомости"]
+	(*
+	<- lang_ru;;
+	*);
+	[Redaction of Minskie Gubernskie Vedomosti newspaper]
+	(*
+	<- lang_en;;
+	*);
+	[Рэдакцыя газеты "Мінскія губернскія ведамасці"]
+	(*
+	<- lang_by;;
+	*);;

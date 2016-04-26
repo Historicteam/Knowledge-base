@@ -10,7 +10,7 @@ concept_excursion->excursion_of_the_Freedom_Square
 		  (*
 		  => nrel_next_point:building_of_the_church_of_St_Joseph
 		     (*
-			 		  => nrel_next_point:building_of_the_Cathedral_of_the_Holy_Spirit
+			 		  => nrel_next_point:building_of_Bernardine_Church
 					  (*
 					  => nrel_next_point:Building_courtyard_seating
 					      (*

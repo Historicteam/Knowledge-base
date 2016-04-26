@@ -2,9 +2,41 @@ The_building_of_the_Minsk_City_Theatre
 <- concept_building;
 
 => nrel_main_idtf:
-	[Здание минского городского театра] (* <- lang_ru;; *);
+	[Здание Минского городского театра] (* <- lang_ru;; *);
 	[The building of the Minsk City Theatre] (* <- lang_en;; *);
-	[Будынак мінскага гарадскога тэатра] (* <- lang_by;; *);
+	[Будынак Мінскага гарадскога тэатра] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Здание строилось в XVII веке как городская резиденция Радзивилов.В  XVIII веке  его покупает  Ян Байков, который в 1825 году  перестраивает его под театр. Вплоть до 1884 года здесь располагался Минский городской театр. В начале XX века в заднии располагалось отделение Северного банка. В 1984 году здание было снесено.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будынак узводзіўся ў XVII стагоддзі як гарадская рэзидэнцыя Радзівілаў. У XVIII стагоддзі яго выкупае Ян Байкоў, які перабудоўвае яго ў 1825 годзе пад тэатр. Да канца 1884 года Мінскі гарадскі тэатр месціўся тут. На пачатку XX стагоддзя у будынку месцілася аддзяленне Паўночнага банку. У 1984 годзе будынак быў знесены.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The building was constructed in the XVII century as a Radzivil city residence. In XVIII century it was bought by Jan Bajkov, who rebuilt it for the theater. Till the 1884 the Minsk city theater was located there. At the beginning of XX century the department of Northern Bank was located in the building. In 1984 the building was destroyed.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
 
 <- rrel_key_sc_element: Image_building_of_Minsk_City_Theatre (*
 	=> nrel_main_idtf:

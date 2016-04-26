@@ -4,8 +4,6 @@ concept_arch_empire_style
 	[empire style] (* <-lang_en;; *);
 	[ампір] (* <-lang_by;; *);
 
-<-concept_pilaster;
-
 => nrel_start_time: ...
         (*
         <= nrel_time_period: ...
@@ -101,15 +99,13 @@ concept_arch_empire_style
 		*);;
 	*);
 
-<-The_restaurant_Potsdam;
-
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://content/Kazan_Cathedral_St_Petersburg_empire.jpg"
+		->rrel_example: "file://content/winter-kazan-cathedral.jpg"
 			(*
 			=> nrel_format: format_jpg;;
 			*);;

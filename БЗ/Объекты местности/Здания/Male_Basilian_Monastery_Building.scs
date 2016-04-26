@@ -72,6 +72,38 @@ Male_Basilian_Monastery_Building
 	<- lang_by;;
 	*);
 
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Корпус мужского базилианского монастыря начал строиться в 1617 году и принадлежал ордену униатов. В 1795 году униатские монастыри были закрыты, а в здании разместилась Минская мужская гимназия и Присутственные места.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The body of male basilian monastery beginning to be built in 1617 and belonged to the Belarusian Greek Catholics church. In 1795 the Belarusian Greek Catholics church was closed, and the Minsk mail gymnasium and government agencies (Prisutstvennyje mesta)were arranged in this building.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Корпус мужчынскага базіліянскага манастыра пачаў будавацца ў 1617 годзе і належыў ордэну уніятаў. У 1795 годзе уніятскія манастыры былі зачыненыя, а ў будынку размясціліся Мінская мужчынская гімназія і дзяржащныя установы(Прысутныя месцы).]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+
 <- concept_building;
 <- concept_terrain_object;
 <- concept_arch_classicism;
@@ -86,7 +118,7 @@ Male_Basilian_Monastery_Building
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.904138, 27.556875]
+	=> nrel_WGS_84_translation: [53.90373, 27.55768]
 		(*
 		-> ...
 			(*
@@ -95,14 +127,14 @@ Male_Basilian_Monastery_Building
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 53.904138;;
+					-> rrel_degree: 53.90373;;
 					*);;
 				*);;
 			->rrel_longitude: ...
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 27.556875;;
+					-> rrel_degree: 27.55768;;
 					*);;
 				*);;
 			*);;
@@ -172,7 +204,7 @@ Male_Basilian_Monastery_Building
 
 
 
-concept_situation->[*private_municipal_theatre => nrel_location: Male_Basilian_Monastery_Building;;*]
+concept_situation->[*organization_private_municipal_theatre => nrel_location: Male_Basilian_Monastery_Building;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения частного городского театра в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -191,7 +223,7 @@ concept_situation->[*private_municipal_theatre => nrel_location: Male_Basilian_M
 						*);;
 *);;
 
-concept_situation->[*minsk_doctors_society => nrel_location: Male_Basilian_Monastery_Building;;*]
+concept_situation->[*organization_minsk_doctors_society => nrel_location: Male_Basilian_Monastery_Building;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения минского общества врачей в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -201,7 +233,6 @@ concept_situation->[*minsk_doctors_society => nrel_location: Male_Basilian_Monas
 																				-> rrel_year: rrel_decimal: [1835];;
 																			*);;
 						*);;
-	=> nrel_finish_time: ... ;;
 *);;
 
 concept_situation->[*organisation_redaction_of_Minskie_Gubernskie_Vedomosti_newspaper => nrel_location: Male_Basilian_Monastery_Building;;*]
@@ -273,5 +304,4 @@ concept_situation->[*organisation_central_labour_club_red_profintern => nrel_loc
 																				-> rrel_year: rrel_decimal: [1923];;
 																			*);;
 						*);;
-	=> nrel_finish_time: ... ;;
 *);;

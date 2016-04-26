@@ -67,7 +67,7 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
         <= nrel_complex_of_buildings_decomposition:
         {
             building_of_residential_housing_of_female_Bernardine_monastery;
-            building_of_the_Cathedral_of_the_Holy_Spirit
+            building_of_Bernardine_Church
         };;
           
         => nrel_section_base_order:
@@ -110,7 +110,7 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
         <= nrel_complex_of_buildings_decomposition:
         {
         building_of_residential_housing_of_female_Bernardine_monastery;
-        building_of_the_Cathedral_of_the_Holy_Spirit
+        building_of_Bernardine_Church
         };;
         
         => nrel_section_base_order:
@@ -151,7 +151,7 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
         <= nrel_complex_of_buildings_decomposition:
         {
         building_of_residential_housing_of_female_Bernardine_monastery;
-        building_of_the_Cathedral_of_the_Holy_Spirit
+        building_of_Bernardine_Church
         };;
             
         *)

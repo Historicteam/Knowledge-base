@@ -1,0 +1,14 @@
+organisation_Minsk_regional_court
+=> nrel_main_idtf:
+	[Минский окружной суд]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk regional court]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі акруговы суд]
+	(*
+	<- lang_by;;
+	*);;

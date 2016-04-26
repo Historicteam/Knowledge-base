@@ -33,7 +33,7 @@ Freedom_Square
 	(*
 	<- lang_en;;
 	*);
-=> nrel_main_idtf:
+=> nrel_main_idf:
 	[Плошча Свабоды]
 	(*
 	<- lang_by;;
@@ -57,7 +57,6 @@ Freedom_Square
 <= nrel_subdividing:
 	{
 		building_Jesuit_College;
-		building_Embassy_of_France_Embassy_of_Bulgaria;
 		Male_Basilian_Monastery_Building;
 		Peter_and_Paul_Cathedral_Building;
 		Building_Institute_Belpromproekt;
@@ -140,7 +139,7 @@ Freedom_Square
 <- rrel_key_sc_element: 
 	Information_about_the_Freedom_Square
 	(*
-	=> nrel_main_idtf:
+	=> nrel_main_idf:
 		[Информация о Площади Свободы]
 		(*
 		<- lang_ru;;

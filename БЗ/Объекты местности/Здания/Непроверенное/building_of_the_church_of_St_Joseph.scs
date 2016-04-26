@@ -68,38 +68,28 @@ building_of_the_church_of_St_Joseph
         *)
     };;
 
-Image_of_building_of_the_church_of_St_Joseph_1900
-    => nrel_main_idtf:
-	[Изображение здания костёла святого Иосифа 1900] (* <- lang_ru;; *);
-	[Image of the building of the church of St Joseph 1900] (* <- lang_en;; *);
-	[Выява будынку касцёла святога Язэпа 1900] (* <- lang_by;; *);
-    <- sc_illustration;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://contents/костёл святого иосифа 1900.jpg" 
-        (*
-                => nrel_format: format_jpg;;
-        *);;
-    *);;
 
 Image_of_building_of_the_church_of_St_Joseph_1800
     => nrel_main_idtf:
 	[Изображение здания костёла святого Иосифа 1800] (* <- lang_ru;; *);
 	[Image of the building of the church of St Joseph 1800] (* <- lang_en;; *);
-	[Выява будынку касцёла святога Язэпа 1800] (* <- lang_by;; *);
-    <- sc_illustration;
-    <= nrel_sc_text_translation: ... 
-    (*
-        ->rrel_example: "file://contents/костёл святого иосифа 1800.jpg" 
-        (*
-                => nrel_format: format_jpg;;
-        *);;
-    *);;
+	[Выява будынку касцёла святога Язэпа 1800] (* <- lang_by;; *);;
 
 concept_situation->[*
-        building_of_the_church_of_St_Joseph 
-        <- rrel_key_sc_element: Image_of_building_of_the_church_of_St_Joseph_1800;; *]
-(*      
+        Building_trade_rows 
+        <- rrel_key_sc_element: Image_of_building_of_the_church_of_St_Joseph_1800
+	(*
+	<- sc_illustration;;
+    	<= nrel_sc_text_translation: ... 
+    		(*
+     	   	->rrel_example: "file://contents/костёл святого иосифа 1800.jpg" 
+      	 		 (*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
+    		*);;
+	*);; 
+	*]
+	(*      
             => nrel_start_time: ...
             (*
             => nrel_translation_in_the_Gregorian_calendar: ...
@@ -107,12 +97,38 @@ concept_situation->[*
                 -> rrel_year: rrel_decimal: [1800];;
                 *);;
             *);;
-*);;
+            => nrel_end_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1900];;
+                *);;
+            *);;
+	*);;
 
+
+Image_of_building_of_the_church_of_St_Joseph_1900
+    => nrel_main_idtf:
+	[Изображение здания костёла святого Иосифа 1900] (* <- lang_ru;; *);
+	[Image of the building of the church of St Joseph 1900] (* <- lang_en;; *);
+	[Выява будынку касцёла святога Язэпа 1900] (* <- lang_by;; *);;
+
+ 
 concept_situation->[*
-        building_of_the_church_of_St_Joseph 
-        <- rrel_key_sc_element: Image_of_building_of_the_church_of_St_Joseph_1900;; *]
-(*      
+        Building_trade_rows 
+        <- rrel_key_sc_element: Image_of_building_of_the_church_of_St_Joseph_1900
+	(*
+	<- sc_illustration;;
+    	<= nrel_sc_text_translation: ... 
+    		(*
+     	   	->rrel_example: "file://contents/костёл святого иосифа 1900.jpg"
+      	 		 (*
+                 	=> nrel_format: format_jpg;;
+       			 *);;
+    		*);;
+	*);; 
+	*]
+	(*      
             => nrel_start_time: ...
             (*
             => nrel_translation_in_the_Gregorian_calendar: ...
@@ -120,7 +136,14 @@ concept_situation->[*
                 -> rrel_year: rrel_decimal: [1900];;
                 *);;
             *);;
-*);;
+            => nrel_end_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [2000];;
+                *);;
+            *);;
+	*);;
 
 concept_situation->[*organization_Minsk_archive  => nrel_location: building_of_the_church_of_St_Joseph;;*]
 (*

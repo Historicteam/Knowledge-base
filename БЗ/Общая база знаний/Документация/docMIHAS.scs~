@@ -3,7 +3,11 @@ documentation_of_ref => nrel_main_idtf:
 	[Раздел.Документация ИСС история города Минска.]
 	(*
 	<- lang_ru;;
-	*);	
+	*);
+	[Раздзел.Дакументацыя ІСС гісторыі горада Мінска]
+	(*
+	<- lang_by;;
+	*);
 	[Section.Documentation ISS history of the city of Minsk.]
 	(*
 	<- lang_en;;

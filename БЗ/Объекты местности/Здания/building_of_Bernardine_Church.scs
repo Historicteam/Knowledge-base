@@ -1,5 +1,19 @@
-building_of_the_Cathedral_of_the_Holy_Spirit
+building_of_Bernardine_Church
 => nrel_main_idtf:
+	[Здание костёла бернардинок]
+	(*
+	<- lang_ru;;
+	*);
+        [building_of_Bernardine_Church]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак касцёла бернардынак]
+	(*
+	<- lang_by;;
+	*);
+
+=> nrel_idtf:
 	[Здание кафедрального собора Святого Духа]
 	(*
 	<- lang_ru;;
@@ -9,20 +23,6 @@ building_of_the_Cathedral_of_the_Holy_Spirit
 	<- lang_en;;
 	*);
 	[Будынак кафедральнага Свята-Духаўскога сабора]
-	(*
-	<- lang_by;;
-	*);
-	
-=> nrel_idtf:
-	[Здание костёла бернардинок]
-	(*
-	<- lang_ru;;
-	*);
-        [building of Bernardine Church]
-	(*
-	<- lang_en;;
-	*);
-	[Будынак касцёла бернардынак]
 	(*
 	<- lang_by;;
 	*);
@@ -45,7 +45,7 @@ building_of_the_Cathedral_of_the_Holy_Spirit
 	
 	
 => nrel_openstreetmap:
-	[building_of_the_Cathedral_of_the_Holy_Spirit] 
+	[building_of_Bernardine_Church] 
 	(*
 	=> nrel_format:
 		format_openstreetmap;;
@@ -247,7 +247,7 @@ building_of_the_Cathedral_of_the_Holy_Spirit
     
     };;
 	
-concept_situation->[*organization_Minsk_fire_brigade => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
+concept_situation->[*organization_Minsk_fire_brigade => nrel_location: building_of_Bernardine_Church;;*]
 (*
     => nrel_main_idtf: 
     [Контур периода времени расположения Минской пожарной команды в здании кафедрального собора Святого Духа](*<-lang_ru;;*);
@@ -268,7 +268,7 @@ concept_situation->[*organization_Minsk_fire_brigade => nrel_location: building_
         *);;
 *);;
 
-concept_situation->[*organization_Minsk_transit_prison => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
+concept_situation->[*organization_Minsk_transit_prison => nrel_location: building_of_Bernardine_Church;;*]
 (*
 => nrel_main_idtf: 
 [Контур периода времени расположения пересыльной тюрьмы в здании кафедрального собора Святого Духа](*<-lang_ru;;*);

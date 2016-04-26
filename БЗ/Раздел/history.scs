@@ -237,7 +237,7 @@ concept_Kreshchenskaya_street
 	*)
 ;;
 
-concept_Gubernatorskaya_street;;
+concept_Gubernatorskaya_street
 => nrel_main_idtf:
 	[Губернаторская улица]
 	(*
@@ -249,7 +249,7 @@ concept_Gubernatorskaya_street;;
 	*)
 ;;
  
-concept_Zaharevskaya_street;;
+concept_Zaharevskaya_street
 => nrel_main_idtf:
 	[Захарьевская улица]
 	(*

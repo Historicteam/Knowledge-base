@@ -1,0 +1,14 @@
+organisation_central_labour_club_red_profintern
+=> nrel_main_idtf:
+	[Центральный рабочий клуб  "Красный профинтерн"]
+	(*
+	<- lang_ru;;
+	*);
+	[Central labour club red profintern]
+	(*
+	<- lang_en;;
+	*);
+	[Цэнтральны працоўны клуб "Чырвоны прафінтэрн"]
+	(*
+	<- lang_by;;
+	*);;
