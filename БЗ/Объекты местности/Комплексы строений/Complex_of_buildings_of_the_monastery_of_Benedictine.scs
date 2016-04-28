@@ -14,15 +14,12 @@ complex_of_buildings_of_the_monastery_of_Benedictine
     (*
     <- lang_by;;
     *);
-
-
-	
 <= nrel_temporal_decomposition:
     {
     complex_of_buildings_of_the_monastery_of_Benedictine_since_1647_to_1682
         (* 
         => nrel_main_idtf:
-            [Комплекс зданий монастыря бенедиктинок (1647-1682)]
+            [Комплекс строений монастыря бенедиктинок (1647-1682)]
             (*
             <- lang_ru;;
             *);
@@ -82,7 +79,7 @@ complex_of_buildings_of_the_monastery_of_Benedictine
             complex_of_buildings_of_the_monastery_of_Benedictine_since_1682_to_1871
         (* 
         => nrel_main_idtf:
-            [Комплекс зданий монастыря бенедиктинок (1682-1871)]
+            [Комплекс строений монастыря бенедиктинок (1682-1871)]
             (*
             <- lang_ru;;
             *);

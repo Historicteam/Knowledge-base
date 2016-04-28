@@ -1,0 +1,19 @@
+concept_chance_find
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[случайные находки]
+(*
+<- lang_ru;;
+*);
+[chance find]
+(*
+<- lang_en;;
+*);
+[выпадковыя знаходкі]
+(*
+<- lang_by;;
+*);;
+

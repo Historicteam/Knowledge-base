@@ -1,0 +1,74 @@
+concept_treasure
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[клад]
+(*
+<- lang_ru;;
+*);
+[treasure]
+(*
+<- lang_en;;
+*);
+[скарб]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Клад — зарытые в земле или спрятанные иным способом деньги или ценные предметы, владелец которых неизвестен и не может быть найден, или же потерял на них право.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Скарб - закапаныя ў зямлі ці схаваныя іншым спосабам грошы ці каштоўныя прадметы, уладальнік якіх невядомы і не можа быць знойдзены, ці ж страціў на іх права.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Treasure - buried in the ground or hidden in any other way money or valuable items, the owner of which is unknown and can not be found, or lost them right.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/treasure.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

@@ -16,11 +16,22 @@ Church_of_St_Adalbert
 <-concept_building;
 <-concept_terrain_object;
 
+=> nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1647];;
+                *);;
+            *);
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1944];;
+                *);;
+            *);
 
 
-
-
-	
 <= nrel_temporal_decomposition: 
     {
         Church_of_St_Adalbert_of_the_monastery_of_Benedictine
@@ -57,18 +68,6 @@ Church_of_St_Adalbert
                         -> rrel_year: rrel_decimal: [1871];;
                         *);;
                     *);;
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://contents/sadalamber1800.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);;
    *);
                 
         
@@ -102,18 +101,7 @@ Church_of_St_Adalbert
                 -> rrel_year: rrel_decimal: [1944];;
                 *);;
             *);;
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://contents/sadalamber1900.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);;
+
          *)
       };
 
@@ -142,5 +130,45 @@ Church_of_St_Adalbert
 			*);;
 		*);;
 	*);;
+	concept_situation->[Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1647_1871;; *]
+(*
+            => nrel_main_idtf:
+		[Контур периода времени изображения Костела Святого войцеха в 1647-1871] (* <- lang_ru;; *);;
+            
+            => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1647];;
+                *);;
+            *);;
+			=> nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+*);;
+	concept_situation->[Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1871_1944;; *]
+(*
+            => nrel_main_idtf:
+		[Контур периода времени изображения Костела Святого войцеха в 1871-1944 ] (* <- lang_ru;; *);;
+            
+            => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+			=> nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1944];;
+                *);;
+            *);;
+*);;
 
  

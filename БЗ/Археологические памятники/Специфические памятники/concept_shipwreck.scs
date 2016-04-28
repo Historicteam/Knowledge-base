@@ -1,0 +1,43 @@
+concept_swipwreck
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[затонувшие корабли]
+(*
+<- lang_ru;;
+*);
+[shipwreck]
+(*
+<- lang_en;;
+*);
+[патанулыя караблі]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/shipwreck.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

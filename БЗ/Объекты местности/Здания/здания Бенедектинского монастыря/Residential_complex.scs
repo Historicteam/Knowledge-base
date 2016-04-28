@@ -126,7 +126,7 @@ Residential_complex
 concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Residential_complex;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бенедектинок в Здание жилого корпуса ](*<-lang_ru;;*);;
+    [Контур периода времени расположения монастыря бенедектинок в здании жилого корпуса ](*<-lang_ru;;*);;
   
     => nrel_start_time: ...
         (*

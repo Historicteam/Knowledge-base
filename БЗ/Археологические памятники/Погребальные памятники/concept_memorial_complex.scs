@@ -1,0 +1,49 @@
+concept_memorial_complex
+
+<-sc_const;
+<-sc_node_not_relation;
+
+<-concept_funerary_monument;
+
+=> nrel_main_idtf:
+[мемориальный комплекс]
+(*
+<- lang_ru;;
+*);
+[memorial complex]
+(*
+<- lang_en;;
+*);
+[мемарыяльны комплекс]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Мемориа́льный ко́мплекс — территория c размещёнными на ней монументальными архитектурными сооружениями: мавзолеями, пантеонами, скульптурными группами, обелисками славы и памятниками, посвящёнными выдающимся событиям из истории страны и народа, её населяющего.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Мемарыяльны комплекс - тэрыторыя з размешчанымі на ёй манументальнымі архітэктурнымі збудаваннямі: маўзалеяў, пантэон, скульптурнымі групамі, абеліскамі славы і помнікамі, прысвечанымі выбітным падзеям з гісторыі краіны і народа, яе насяляюць.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[The memorial complex - the territory was placed with her monumental architectural constructions: mausoleums, pantheons, sculptural groups, obelisks and monuments of fame, dedicated to the outstanding events of the history of the country and the people inhabiting it.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
