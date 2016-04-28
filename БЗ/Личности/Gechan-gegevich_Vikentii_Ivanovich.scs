@@ -1,0 +1,8 @@
+Gechan_Gegevich_Vikentii_Ivanovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Гечан-Гечевич Викентий Иванович] (* <- lang_ru;; *);
+	[Gechan-gegevich Vikentii Ivanovich] (* <- lang_en;; *);
+	[Гечан-Гечэвіч Вікенцій Іванавіч] (* <- lang_by;; *);;

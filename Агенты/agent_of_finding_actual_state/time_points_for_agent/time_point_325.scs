@@ -1,0 +1,8 @@
+time_point -> time_point_325
+(*
+  => nrel_translation_in_the_Gregorian_calendar: ...
+  (*
+    -> rrel_year: rrel_decimal: [325];;
+  *);;
+  => nrel_main_idtf: [325 год] (* <-lang_ru;;*);;
+*);;

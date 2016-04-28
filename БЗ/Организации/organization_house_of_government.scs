@@ -1,0 +1,16 @@
+organization_house_of_government
+=> nrel_main_idtf:
+        [Местожительство губернаторов]
+        (*
+        <- lang_ru;;
+        *);
+        [Government house]
+        (*
+        <- lang_en;;
+        *);
+        [Месцажыхарства губернатараў]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_formal_organization;;

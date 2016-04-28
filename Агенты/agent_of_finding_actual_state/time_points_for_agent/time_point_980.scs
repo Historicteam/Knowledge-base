@@ -1,0 +1,8 @@
+time_point -> time_point_980
+(*
+  => nrel_translation_in_the_Gregorian_calendar: ...
+  (*
+    -> rrel_year: rrel_decimal: [980];;
+  *);;
+  => nrel_main_idtf: [980 год] (* <-lang_ru;;*);;
+*);;

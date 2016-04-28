@@ -1,6 +1,6 @@
 building_of_economic_housing_of_male_Bernardine_monastery
 => nrel_main_idtf:
-	[Здание хозяйственного корпуса мужского монастыря бернардинцев]
+	[Здание хозяйственного корпуса монастыря бернардинцев]
 	(*
 	<- lang_ru;;
 	*);
@@ -15,7 +15,25 @@ building_of_economic_housing_of_male_Bernardine_monastery
 	
 <-concept_building;
 
-=> nrel_start_time: ...
+<= nrel_temporal_decomposition: 
+    {
+        Residential_housing_of_female_Bernardine_monastery
+        (* 
+        => nrel_main_idtf:
+            [Хозяйственный корпус монастыря бернардинцев]
+            (*
+            <- lang_ru;;
+            *);
+            [The economic housing of male Bernardine monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Гаспадарчы корпус манастыра бернардынаў]
+            (*
+            <- lang_by;;
+            *);;
+        
+        => nrel_start_time: ...
             (*
             <= nrel_time_period: ...
                 (*
@@ -38,8 +56,108 @@ building_of_economic_housing_of_male_Bernardine_monastery
                     *);;
                 *);;
             *);;
+        => nrel_finish_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1860];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1870];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+        *);
+        
+        building_of_Minsk_municipal_public_administration
+        (* 
+        => nrel_main_idtf:
+            [Здание Минского городского управления]
+            (*
+            <- lang_ru;;
+            *);
+            [Building of Minsk municipal public administration]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак Мінскага гарадскога кіравання]
+            (*
+            <- lang_by;;
+            *);;
+        
+        => nrel_start_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    => nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1860];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1870];;
+                        *);;
+                    *);;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            <-concept_time_point;;
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1981];;
+                *);;
+            *);;
+        *)
+    };
 
-concept_situation->[*organization_Minsk_Municipal_Public_Administration => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;*]
+<- rrel_key_sc_element:
+  Image_of_building_of_economic_housing_of_male_Bernardine_monastery (*
+    => nrel_main_idtf:
+	[Изображение здания хозяйственного корпуса монастыря бернардинцев]
+	(*
+	<- lang_ru;;
+	*);
+	[Image of building of economic housing of male monastery of Bernardine]
+	(*
+	<- lang_en;;
+	*);
+	[Выява будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў]
+	(*
+	<- lang_by;;
+	*);;
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/хозяйственный корпус монастыря бернадринцев.jpg" 
+        (*
+                => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
+
+
+concept_situation->[*organization_Minsk_municipal_public_administration => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;*]
 (*
     => nrel_main_idtf: 
     [Контур периода времени расположения городского управления в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
@@ -60,7 +178,7 @@ concept_situation->[*organization_Minsk_Municipal_Public_Administration => nrel_
             *);;
 *);;
 
-concept_situation->[*organization_city_pawnshop => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;
+concept_situation->[*organization_Minsk_Municipal_Pawnshop => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;
                      organization_city_fire_brigade => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;*]
 (*
     => nrel_main_idtf: 
@@ -78,6 +196,21 @@ concept_situation->[*organization_city_pawnshop => nrel_location: building_of_ec
             => nrel_translation_in_the_Gregorian_calendar: ...
                 (*
                 -> rrel_year: rrel_decimal: [1918];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*organization_Brasserie_Old_Town_Piwnica => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;
+                     organization_coaches_museum => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения пивной и музея карет в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання піўнога рэстарана і музея карэт у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [2014];;
                 *);;
             *);;
 *);;

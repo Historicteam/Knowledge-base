@@ -1,0 +1,8 @@
+Girs_Alexei_Fedorovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Гирс Алексей Фёдорович] (* <- lang_ru;; *);
+	[Girs Alexei Fedorovich] (* <- lang_en;; *);
+	[Гірс Аляксей Фёдаравіч] (* <- lang_by;; *);;                                                                                                                                                                                                                                                                       

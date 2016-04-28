@@ -1,0 +1,15 @@
+organization_coaches_museum
+=> nrel_main_idtf:
+	[Минский музей карет]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk coaches museum]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі музей карэт]
+	(*
+	<- lang_by;;
+	*);;
+

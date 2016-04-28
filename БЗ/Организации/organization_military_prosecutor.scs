@@ -11,5 +11,8 @@ organization_military_prosecutor
         [Вайсковая пракуратура]
         (*
         <- lang_by;;
-        *);;
+        *);
+<-concept_formal_organization;
+<-concept_state_organization;
+<-concept_administrative_organization;;
 

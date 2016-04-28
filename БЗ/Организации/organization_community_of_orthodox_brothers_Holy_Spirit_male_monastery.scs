@@ -1,0 +1,14 @@
+organization_community_of_orthodox_brothers_Holy_Spirit_male_monastery
+=> nrel_main_idtf:
+        [Община православных братьев Свято-Духова мужского монастыря]
+        (*
+        <- lang_ru;;
+        *);
+        [Сommunity of orthodox brothers Holy Spirit male monastery]
+        (*
+        <- lang_en;;
+        *);
+        [Злучына праваслаўных братоў Свята-Духаўскага мужчынскага манастыра]
+        (*
+        <- lang_by;;
+        *);;

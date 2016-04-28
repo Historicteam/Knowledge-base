@@ -1,0 +1,33 @@
+function proc_of_compare_time_points(_time_point1, _time_point2, _nrel_in_period) {
+  return _time_point;
+  proc_of_finding_time_point_translation(
+    _time_point1,
+    nrel_translation_in_the_Gregorian_calendar,
+    _nrel_in_period,
+    [assign, _time_point1_translation]
+  );
+  proc_of_finding_time_point_translation(
+    _time_point2,
+    nrel_translation_in_the_Gregorian_calendar,
+    _nrel_in_period,
+    [assign, _time_point2_translation]
+  );
+  search(
+    _time_point1_translation,
+    [assign, _arc],
+    [assign, link, _year1],
+    [assign, _arc2],
+    rrel_year
+  );
+  search(
+    _time_point2_translation,
+    [assign, _arc],
+    [assign, link, _year2],
+    [assign, _arc2],
+    rrel_year
+  );
+  print(_year1);
+  print(_year2);
+  if (greater(_year1, _year2)) var_assign([assign, _time_point], _time_point1);
+  else var_assign([assign, _time_point], _time_point2);
+}

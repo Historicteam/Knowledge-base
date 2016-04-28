@@ -1,0 +1,8 @@
+Jafimov_Nikolai_Matveevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Яфимов Николай Матвеевич] (* <- lang_ru;; *);
+	[Jafimov Nikolai Matveevich] (* <- lang_en;; *);
+	[Яфімаў Мікалай Мацьвеявіч] (* <- lang_by;; *);;

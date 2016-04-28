@@ -1,4 +1,4 @@
-organization_Minsk_Municipal_Public_Administration
+organization_Minsk_municipal_public_administration
 => nrel_main_idtf:
 	[Минское городское общественное управление]
 	(*
@@ -11,6 +11,4 @@ organization_Minsk_Municipal_Public_Administration
 	[Мінскае гарадское грамадскае кіраванне]
 	(*
 	<- lang_by;;
-	*);
-	
-<-concept_administrative_organization;;
+	*);;

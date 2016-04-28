@@ -1,27 +1,312 @@
-The_building_of_the_Dominican_monastery
+the_building_of_the_Dominican_monastery
 <- concept_building;
+<- concept_terrain_object;
 
 => nrel_main_idtf:
-	[Здание доминиканского костёла Фомы Аквинского] (* <- lang_ru;; *);
-	[The building of the church of the Dominican Thomas Aquinas] (* <- lang_en;; *);
-	[Будынак дамініканскага касцёла Фамы Аквінскага] (* <- lang_by;; *);
+    [Здание доминиканского костёла Фомы Аквинского] (* <- lang_ru;; *);
+    [The building of the church of the Dominican Thomas Aquinas] (* <- lang_en;; *);
+    [Будынак дамініканскага касцёла Фамы Аквінскага] (* <- lang_by;; *);
 
 => nrel_idtf:
-	[Здание доминиканского монастыря] (* <- lang_ru;; *);
-	[The building of the Dominican monastery] (* <- lang_en;; *);
-	[Будынак дамініканскага кляштара] (* <- lang_by;; *);
+    [Здание доминиканского монастыря] (* <- lang_ru;; *);
+    [The building of the Dominican monastery] (* <- lang_en;; *);
+    [Будынак дамініканскага кляштара] (* <- lang_by;; *);
 
-<- rrel_key_sc_element: Picture_of_Dominican_Church (*	
-	=> nrel_main_idtf:
-		[Изображение доминиканского костёла] (* <- lang_ru;; *);
-		[Picture of Dominican Church] (* <- lang_en;; *);
-		[Выява дамініканскага касцёла] (* <- lang_by;; *);;
 
-	<- sc_illustration;;
-	<= nrel_sc_text_translation: 
-		... (*
-		-> rrel_example: "file://contents//Доминиканский костел.jpg" (*
-				=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);;
+    => nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1615];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1650];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+
+
+    <= nrel_temporal_decomposition:
+    {
+    st_Thomas_Aquinas_church
+    (*
+        => nrel_main_idtf:
+        [Костел святого Фомы Аквинского] (* <- lang_ru;; *);
+        [St. Thomas Aquinas church] (* <- lang_en;; *);
+        [Касцёл святога Фамы Аквінскага] (* <- lang_by;; *);;
+
+    => nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1615];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1650];;
+                    *);;
+                *);;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1702];;
+            *);;
+        *);;
+        *);
+
+    paraphy_Church_of_the_Holy_Trinity
+    (*
+    => nrel_main_idtf:
+        [Парафиальный костел Пресвятой Троицы] (* <- lang_ru;; *);
+        [Paraphy Church of the Holy Trinity] (* <- lang_en;; *);
+        [Парафіяльны касцёл Найсвяцейшай Тройцы] (* <- lang_by;; *);;
+
+        => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1832];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1840];;
+            *);;
+        *);;
+        *);
+
+    minsk_catholic_theological_archdiocese_seminary_since_1844_to_1869
+    (*
+    => nrel_main_idtf:
+        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
+        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
+        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);;
+
+        => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1844];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+    *);
+
+    officers_club_building
+    (*
+    => nrel_main_idtf:
+        [Здание офицерского клуба] (* <- lang_ru;; *);
+        [Building of the Officers' Club] (* <- lang_en;; *);
+        [Будынак афіцэрскага клуба] (* <- lang_by;; *);;
+
+        => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+        *);
+
+    minsk_catholic_theological_archdiocese_seminary_since_10101918_to_1920
+    (*
+    => nrel_main_idtf:
+        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
+        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
+        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);;
+
+        => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+        *)
+    };
+
+    => nrel_openstreetmap:
+    [The_building_of_the_Dominican_monastery] 
+    (*
+    => nrel_format:
+        format_openstreetmap;;
+    *);
+    
+=> nrel_geographical_location: ...
+    (*
+    <-concept_mapped_point;;
+    => nrel_WGS_84_translation: [53.903567, 27.558754]
+        (*
+        -> ...
+            (*
+            <- concept_coordinate;;
+            ->rrel_latitude: ...
+                (*
+                <=nrel_value: ...
+                    (*
+                    -> rrel_degree: 53.903567;;
+                    *);;
+                *);;
+            ->rrel_longitude: ...
+                (*
+                <=nrel_value: ...
+                    (*
+                    -> rrel_degree: 27.558754;;
+                    *);;
+                *);;
+            *);;
+        *);;
+    *);;
+
+concept_situation->[*organization_minsk_catholic_threological_archdiocese_seminary => nrel_location: the_building_of_the_Dominican_monastery;;*]
+(*
+=> nrel_main_idtf: [Контур периода времени расположения Католической духовной семинарии Минской архидиацезии в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1844];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+ *);;    
+
+concept_situation->[*organization_minsk_catholic_threological_archdiocese_seminary => nrel_location: the_building_of_the_Dominican_monastery;;*]
+(*
+    => nrel_main_idtf: [Контур периода времени расположения Католической духовной семинарии Минской архидиацезии в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+ *);;    
+
+concept_situation->[*organization_oficers_club => nrel_location: the_building_of_the_Dominican_monastery;;*]
+(*
+    => nrel_main_idtf: [Контур периода времени расположения Офицерского клуба в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+ *);;    
+
+concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church
+(*  
+        <- sc_illustration;;
+        <= nrel_sc_text_translation: 
+        ... 
+        (*
+            -> rrel_example: "file://contents//Доминиканский костёл 1.jpg"
+            (*
+                => nrel_format: format_jpg;;
+            *);;
+        *);;
+*);;
+*]
+(*
+=> nrel_start_time: ...
+                (*
+                <= nrel_time_period: ...
+                    (*
+                        => nrel_start_time: ...
+                        (*
+                        <-concept_time_point;;
+                        => nrel_translation_in_the_Gregorian_calendar: ...
+                            (*
+                            -> rrel_year: rrel_decimal: [1800];;
+                            *);;
+                        *);;
+          
+                        => nrel_finish_time: ...
+                        (*
+                        <-concept_time_point;;          
+                        => nrel_translation_in_the_Gregorian_calendar: ...
+                            (*
+                            -> rrel_year: rrel_decimal: [1899];;
+                            *);;
+                        *);;
+                    *);;
+                *);;
+*);;

@@ -1,0 +1,16 @@
+organization_spartak
+=> nrel_main_idtf:
+        [Добровольноe спортивноe общество "Спартак"]
+        (*
+        <- lang_ru;;
+        *);
+        [House of physical education Spartacus]
+        (*
+        <- lang_en;;
+        *);
+        [Добраахвотнае спартыўнае таварыства "Спартак"]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_sports_organization;;

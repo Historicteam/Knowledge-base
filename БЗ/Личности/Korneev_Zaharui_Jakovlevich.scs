@@ -1,0 +1,8 @@
+Korneev_Zaharui_Jakovlevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Корнеев Захарий Яковлевич] (* <- lang_ru;; *);
+	[Korneev Zaharui Jakovlevich] (* <- lang_en;; *);
+	[Карнееў Захарый Якаўлевіч] (* <- lang_by;; *);;

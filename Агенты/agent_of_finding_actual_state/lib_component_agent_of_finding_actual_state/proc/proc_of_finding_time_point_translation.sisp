@@ -1,0 +1,34 @@
+function proc_of_finding_time_point_translation(_time_point, _nrel_translation, _nrel_in_period) {
+  return _translation;
+  search(
+    _time_point,
+    [assign, _arc],
+    [assign, _translation],
+    [assign, _arc2],
+    _nrel_translation
+  );
+  if (_translation); else {
+    search(
+      [assign, _time_period],
+      [assign, _arc],
+      _time_point,
+      [assign, _arc2],
+      nrel_time_period
+    );
+    if (_time_period) {
+      search(
+        _time_period,
+        [assign, _arc],
+        [assign, _new_time_point],
+        [assign, _arc2],
+        _nrel_in_period
+      );
+      proc_of_finding_time_point_translation(
+        _new_time_point, 
+        _nrel_translation,
+        _nrel_in_period,
+        [assign, _translation]
+      )
+    }
+  }
+}

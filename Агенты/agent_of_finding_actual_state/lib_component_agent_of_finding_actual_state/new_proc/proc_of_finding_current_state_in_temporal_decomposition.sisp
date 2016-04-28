@@ -1,0 +1,24 @@
+function proc_of_finding_current_state_in_temporal_decomposition(_object, _time_point) {
+  return _state;
+  search(
+    [assign, _temporal_decomposition],
+    [assign, _arc1],
+    _object,
+    [assign, _arc2],
+    nrel_temporal_decomposition
+  );
+  if (_temporal_decomposition)
+    search(
+      _temporal_decomposition,
+      [assign, pos_const_perm, _arc],
+      [assign, _element],
+      [], [], [assign, _temporal_decomposition_copy]
+    );
+  if (_temporal_decomposition_copy)
+    while(search(_temporal_decomposition_copy, [assign, _arc], [assign, _element])) {
+    proc_of_checking_node_with_start_and_end_time_in_time(_element, _time_point, [assign, _status]);
+      if (is(_status, true_node))
+        var_assign([assign, _state], _element);
+      erase([erase, _arc]);
+    }
+}

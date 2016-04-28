@@ -1,0 +1,97 @@
+The_Jesuit_tower_belfry
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание башни-звонницы] (* <- lang_ru;; *);
+	[The building of tower-belfry] (* <- lang_en;; *);
+	[Будынак вежы-звоніццы] (* <- lang_by;; *);
+
+<= nrel_temporal_decomposition: 
+    {
+	The_building_of_tower_belfry_Jesuit_monastery
+        (* 
+        => nrel_main_idtf:
+            [Строение башни-звонницы иезуитского монастыря]
+            (*
+            <- lang_ru;;
+            *);
+            [The building of the tower-belfry Jesuit monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак вежы-званіцы езуіцкага манастыра]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1738];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1773];;
+                *);;
+            *);;
+
+*);
+	The_building_of_fire_tower
+        (* 
+        => nrel_main_idtf:
+            [Пожарная каланча]
+            (*
+            <- lang_ru;;
+            *);
+            [Fire tower]
+            (*
+            <- lang_en;;
+            *);
+            [Пажарная каланча]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1852];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1917];;
+                *);;
+            *);;
+
+*)
+};;
+
+concept_situation->[*organization_city_fire_brigade => nrel_location: The_Jesuit_tower_belfry;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения городская пожарная команда в здании башни-звонницы](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання гарадской пажарная каманды ў будынку вежы-звоніццы](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1852];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+*);;
+
+

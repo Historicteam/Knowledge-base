@@ -1,0 +1,247 @@
+complex_of_constructions_Dominican_monastery
+<-concept_complex_of_buildings;
+
+=> nrel_main_idtf:
+    [Комплекс строений Доминиканского монастыря]
+    (*
+    <- lang_ru;;
+    *);
+    [Complex of constructions of the Dominican monastery]
+    (*
+    <- lang_en;;
+    *);
+    [Комплекс будынкаў Дамініканскага манастыра]
+    (*
+    <- lang_by;;
+    *);
+
+
+
+<= nrel_temporal_decomposition:
+{
+	complex_of_constructions_Dominican_monastery_since_1615_1650_to_1702
+	(*
+     => nrel_main_idtf:
+        [Комплекс строений Доминиканского монастыря(1615(1650)-1702)]
+        (*
+        <- lang_ru;;
+        *);
+        [Complex of constructions of the Dominican monastery(1615(1650)-1702)]
+        (*
+        <- lang_en;;
+        *);
+        [Комплекс будынкаў Дамініканскага манастыра(1615(1650)-1702)]
+        (*
+         <- lang_by;;
+        *);;
+
+     => nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1615];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1650];;
+                    *);;
+                *);;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1702];;
+            *);;
+        *);;
+     <= nrel_complex_of_buildings_decomposition:
+        {
+            st_Thomas_Aquinas_church
+        };;        
+	*);
+
+    complex_of_constructions_Dominican_monastery_since_1703_to_1823
+    (*
+        => nrel_main_idtf:
+        [Комплекс строений Доминиканского монастыря(1703-1823)]
+        (*
+        <- lang_ru;;
+        *);
+        [Complex of constructions of the Dominican monastery(1703-1823)]
+        (*
+        <- lang_en;;
+        *);
+        [Комплекс будынкаў Дамініканскага манастыра(1703-1823)]
+        (*
+         <- lang_by;;
+        *);;
+    => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1703];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1823];;
+            *);;
+        *);;
+     <= nrel_complex_of_buildings_decomposition:
+        {
+            st_Thomas_Aquinas_church;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates
+        };;
+    *);
+
+    complex_of_constructions_Dominican_monastery_since_1823_to_1825
+    (*
+        => nrel_main_idtf:
+        [Комплекс строений Доминиканского монастыря(1823-1825)]
+        (*
+        <- lang_ru;;
+        *);
+        [Complex of constructions of the Dominican monastery(1823-1825)]
+        (*
+        <- lang_en;;
+        *);
+        [Комплекс будынкаў Дамініканскага манастыра(1823-1825)]
+        (*
+         <- lang_by;;
+        *);;
+    => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1823];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1825];;
+            *);;
+        *);;
+     <= nrel_complex_of_buildings_decomposition:
+        {
+            st_Thomas_Aquinas_church;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates;
+            the_Dominican_monastery_maids_house
+        };;
+    *);
+
+    complex_of_constructions_Dominican_monastery_since_1825_to_1832
+    (*
+        => nrel_main_idtf:
+        [Комплекс строений Доминиканского монастыря(1825-1832)]
+        (*
+        <- lang_ru;;
+        *);
+        [Complex of constructions of the Dominican monastery(1825-1832)]
+        (*
+        <- lang_en;;
+        *);
+        [Комплекс будынкаў Дамініканскага манастыра(1825-1832)]
+        (*
+         <- lang_by;;
+        *);;
+    => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1825];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1832];;
+            *);;
+        *);;
+     <= nrel_complex_of_buildings_decomposition:
+        {
+            st_Thomas_Aquinas_church;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates;
+            the_Dominican_monastery_maids_house;
+            the_Dominican_monastery_barn_with_icehouse
+        };;
+    *);
+
+    complex_of_constructions_Catholic_Seminary_since_1844_to_1869
+    (*
+        => nrel_main_idtf:
+        [Комплекс строений католической духовной семинарии(1844-1869)]
+        (*
+        <- lang_ru;;
+        *);
+        [Complex of constructions of the Catholic Seminary(1844-1869)]
+        (*
+        <- lang_en;;
+        *);
+        [Комплекс будынкаў каталіцкай духоўнай семінарыі(1844-1869)]
+        (*
+         <- lang_by;;
+        *);;
+    => nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1844];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1869];;
+            *);;
+        *);;
+     <= nrel_complex_of_buildings_decomposition:
+        {
+            paraphy_Church_of_the_Holy_Trinity;
+            the_Dominican_monastery_outbuilding_1;
+            the_Dominican_monastery_outbuilding_2;
+            residential_housing_of_the_Dominican_Monastery;
+            the_Dominican_monastery_stable;
+            the_Dominican_monastery_gates;
+            the_Dominican_monastery_maids_house;
+            the_Dominican_monastery_barn_with_icehouse
+        };;
+    *)
+};;

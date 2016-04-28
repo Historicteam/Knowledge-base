@@ -1,0 +1,8 @@
+Sushkov_Nikolai_Vasiljevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Сушков Николай Васильевич] (* <- lang_ru;; *);
+	[Sushkov Nikolai Vasiljevich] (* <- lang_en;; *);
+	[Сушкоў Нікалай Васільевіч] (* <- lang_by;; *);;

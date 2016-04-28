@@ -1,0 +1,83 @@
+scp_program -> proc_of_finding_current_state_in_temporal_decomposition (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _object;;
+        -> rrel_2: rrel_in: _time_point;;
+        -> rrel_3: rrel_out: _state;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator0 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _temporal_decomposition;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc1;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _object;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: nrel_temporal_decomposition;;
+            => nrel_goto: ..operator1;;
+        *);;
+        ->..operator1 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temporal_decomposition;;
+            => nrel_then: ..operator2;;
+            => nrel_else: ..operator3;;
+        *);;
+        ->..operator2 (*
+            <- searchSetStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temporal_decomposition;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _element;;
+            -> rrel_set_3: rrel_scp_var: rrel_assign: _temporal_decomposition_copy;;
+            => nrel_goto: ..operator3;;
+        *);;
+        ->..operator3 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temporal_decomposition_copy;;
+            => nrel_then: ..operator4;;
+            => nrel_else: ..operator10;;
+        *);;
+        ->..operator4 (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _temporal_decomposition_copy;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _element;;
+            => nrel_then: ..operator5;;
+            => nrel_else: ..operator10;;
+        *);;
+        ->..operator5 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_checking_node_with_start_and_end_time_in_time;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _element;;
+                -> rrel_2: rrel_fixed: rrel_scp_var: _time_point;;
+                -> rrel_3: rrel_scp_var: rrel_assign: _status;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator6;;
+        *);;
+        ->..operator6 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator7;;
+        *);;
+        ->..operator7 (*
+            <- ifCoin;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _status;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: true_node;;
+            => nrel_then: ..operator8;;
+            => nrel_else: ..operator9;;
+        *);;
+        ->..operator8 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _state;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _element;;
+            => nrel_goto: ..operator9;;
+        *);;
+        ->..operator9 (*
+            <- eraseEl;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc;;
+            => nrel_goto: ..operator4;;
+        *);;
+        ->..operator10 (*
+            <- return;;
+        *);;
+    *);;
+*);;

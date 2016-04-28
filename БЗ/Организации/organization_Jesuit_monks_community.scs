@@ -1,0 +1,16 @@
+organization_Jesuit_monks_community
+=> nrel_main_idtf:
+        [Oбщина монахов иезуитов]
+        (*
+        <- lang_ru;;
+        *);
+        [Jesuit monks community]
+        (*
+        <- lang_en;;
+        *);
+        [Aбшчына манахаў езуітаў]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_cultural_organization;;

@@ -1,0 +1,8 @@
+Shelgunov_Pavel_Nikonorovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Шелгунов Павел Никонорович] (* <- lang_ru;; *);
+	[Shelgunov Pavel Nikonorovich] (* <- lang_en;; *);
+	[Шэлгуноў Павел Ніканоравіч] (* <- lang_by;; *);;

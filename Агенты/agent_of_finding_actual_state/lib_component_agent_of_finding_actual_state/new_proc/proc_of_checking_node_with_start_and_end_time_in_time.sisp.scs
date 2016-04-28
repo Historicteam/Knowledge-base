@@ -1,0 +1,114 @@
+scp_program -> proc_of_checking_node_with_start_and_end_time_in_time (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _situation;;
+        -> rrel_2: rrel_in: _time_point;;
+        -> rrel_3: rrel_out: _status;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator0 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _status;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: false_node;;
+            => nrel_goto: ..operator1;;
+        *);;
+        ->..operator1 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc1;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _start_time;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: nrel_start_time;;
+            => nrel_goto: ..operator2;;
+        *);;
+        ->..operator2 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _situation;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc1;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _finish_time;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: nrel_finish_time;;
+            => nrel_goto: ..operator3;;
+        *);;
+        ->..operator3 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _start_time;;
+            => nrel_then: ..operator4;;
+            => nrel_else: ..operator6;;
+        *);;
+        ->..operator4 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_compare_time_points;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _time_point;;
+                -> rrel_2: rrel_fixed: rrel_scp_var: _start_time;;
+                -> rrel_3: rrel_fixed: rrel_scp_const: nrel_start_time;;
+                -> rrel_4: rrel_scp_var: rrel_assign: _time1;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator5;;
+        *);;
+        ->..operator5 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator7;;
+        *);;
+        ->..operator6 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _time1;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point;;
+            => nrel_goto: ..operator7;;
+        *);;
+        ->..operator7 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _finish_time;;
+            => nrel_then: ..operator8;;
+            => nrel_else: ..operator10;;
+        *);;
+        ->..operator8 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_compare_time_points;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _time_point;;
+                -> rrel_2: rrel_fixed: rrel_scp_var: _finish_time;;
+                -> rrel_3: rrel_fixed: rrel_scp_const: nrel_finish_time;;
+                -> rrel_4: rrel_scp_var: rrel_assign: _time2;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument1;;
+            => nrel_goto: ..operator9;;
+        *);;
+        ->..operator9 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument1;;
+            => nrel_goto: ..operator11;;
+        *);;
+        ->..operator10 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _time2;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: empty;;
+            => nrel_goto: ..operator11;;
+        *);;
+        ->..operator11 (*
+            <- ifCoin;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time1;;
+            => nrel_then: ..operator12;;
+            => nrel_else: ..operator14;;
+        *);;
+        ->..operator12 (*
+            <- ifCoin;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time2;;
+            => nrel_else: ..operator13;;
+            => nrel_then: ..operator14;;
+        *);;
+        ->..operator13 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _status;;
+            -> rrel_2: rrel_fixed: rrel_scp_const: true_node;;
+            => nrel_goto: ..operator14;;
+        *);;
+        ->..operator14 (*
+            <- return;;
+        *);;
+    *);;
+*);;

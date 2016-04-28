@@ -1,0 +1,83 @@
+scp_program -> proc_of_compare_time_points (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _time_point1;;
+        -> rrel_2: rrel_in: _time_point2;;
+        -> rrel_3: rrel_out: _time_point;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator10510 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point1;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: rrel_link: _year1;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+            => nrel_goto: ..operator47754;;
+        *);;
+        ->..operator47754 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point2;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: rrel_link: _year2;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+            => nrel_goto: ..operator61079;;
+        *);;
+        ->..operator61079 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _year1;;
+            => nrel_goto: ..operator563;;
+        *);;
+        ->..operator563 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _year2;;
+            => nrel_goto: ..operator9614;;
+        *);;
+        ->..operator9614 (*
+            <- ifGr;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _year1;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _year2;;
+            => nrel_then: ..operator63391;;
+            => nrel_else: ..operator60070;;
+        *);;
+        ->..operator63391 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _time_point;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point1;;
+            => nrel_goto: ..operator37510;;
+        *);;
+        ->..operator60070 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _time_point;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point2;;
+            => nrel_goto: ..operator37510;;
+        *);;
+        ->..operator37510 (*
+            <- return;;
+        *);;
+    *);;
+*);;
+//SimpleSCP code
+/*
+function proc_of_compare_time_points(_time_point1, _time_point2) {
+  return _time_point;
+  search(
+    _time_point1,
+    [assign, _arc],
+    [assign, link, _year1],
+    [assign, _arc2],
+    rrel_year
+  );
+  search(
+    _time_point2,
+    [assign, _arc],
+    [assign, link, _year2],
+    [assign, _arc2],
+    rrel_year
+  );
+  print(_year1);
+  print(_year2);
+  if (greater(_year1, _year2)) var_assign([assign, _time_point], _time_point1)
+  else var_assign([assign, _time_point], _time_point2)
+}
+*/

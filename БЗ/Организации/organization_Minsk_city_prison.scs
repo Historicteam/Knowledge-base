@@ -1,0 +1,14 @@
+organization_Minsk_city_prison
+=> nrel_main_idtf:
+        [Минская городская тюрьма]
+        (*
+        <- lang_ru;;
+        *);
+        [The Minsk city prison]
+        (*
+        <- lang_en;;
+        *);
+        [Мiнская гарадская турма]
+        (*
+        <- lang_by;;
+        *);;

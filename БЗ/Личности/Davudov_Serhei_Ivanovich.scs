@@ -1,0 +1,8 @@
+Davudov_Serhei_Ivanovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Давыдов Сергей Иванович] (* <- lang_ru;; *);
+	[Davudov Serhei Ivanovich] (* <- lang_en;; *);
+	[Давыдаў Сяргей Іванавіч] (* <- lang_by;; *);;

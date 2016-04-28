@@ -1,0 +1,8 @@
+Shklarevich_Fedot_Nikolaevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Шкларевич Федот Николаевич] (* <- lang_ru;; *);
+	[Shklarevich Fedot Nikolaevich] (* <- lang_en;; *);
+	[Шкларэвіч Фядот Нікалаявіч] (* <- lang_by;; *);;

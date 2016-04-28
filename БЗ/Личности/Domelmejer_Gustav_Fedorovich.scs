@@ -1,0 +1,8 @@
+Domelmejer_Gustav_Fedorovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Домелмейер Густав Федорович] (* <- lang_ru;; *);
+	[Domelmejer Gustav Fedorovich] (* <- lang_en;; *);
+	[Домелмейер Густаў Фёдаравіч] (* <- lang_by;; *);;

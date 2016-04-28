@@ -1,0 +1,16 @@
+organization_sixclasses_school
+=> nrel_main_idtf:
+        [Светская шестиклассная школа]
+        (*
+        <- lang_ru;;
+        *);
+        [Six-classes school]
+        (*
+        <- lang_en;;
+        *);
+        [Свецкая шастіклассная школа]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_educational_institution;;

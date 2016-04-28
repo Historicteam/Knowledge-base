@@ -1,6 +1,6 @@
 The_building_of_the_chapel_of_Felician
 <- concept_building;
 => nrel_main_idtf:
-	[здание часовни святого Фелициана] (* <- lang_ru;; *);
-	[the building of the chapel of St. Felician] (* <- lang_en;; *);
-	[будынак капліцы святога Феліцыяна] (* <- lang_by;; *);;
+	[Здание часовни святого Фелициана] (* <- lang_ru;; *);
+	[The building of the chapel of St. Felician] (* <- lang_en;; *);
+	[Будынак капліцы святога Феліцыяна] (* <- lang_by;; *);;

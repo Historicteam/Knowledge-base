@@ -56,21 +56,18 @@ Freedom_Square
 
 <= nrel_subdividing:
 	{
+		building_Jesuit_College;
 		building_Embassy_of_France_Embassy_of_Bulgaria;
 		Male_Basilian_Monastery_Building;
-		Female_Basilian_Monastery_Building;
-		building_of_the_Cathedral_of_the_Holy_Spirit;
 		Peter_and_Paul_Cathedral_Building;
 		Building_Institute_Belpromproekt;
 		building_of_refurbished_Town_Hall;
 		Freedom_Square_8;
 		The_building_of_the_Minsk_Academy_of_Music;
-		building_of_the_church_of_St_Joseph;
 		The_building_of_the_Mariinsky_Cathedral;
 		Building_composer_Stanislaw_Moniuszko;
 		Complex_Holy_Church_Dukhovskoi;
 		building_of_the_restaurant_Potsdam;
-		The_building_of_the_Dominican_monastery;
 		The_hotel_Europe;
 		Urban_homestead;
 		The_building_of_the_Minsk_City_Theatre;

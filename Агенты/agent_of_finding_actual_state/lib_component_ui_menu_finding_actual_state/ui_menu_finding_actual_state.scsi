@@ -1,0 +1,27 @@
+ui_menu_finding_actual_state <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_finding_actual_state => nrel_main_idtf: [Найти текущее состояние объекта] (* <- lang_ru;; *);;
+
+ui_menu_finding_actual_state => nrel_main_idtf: [Find current state of object] (* <- lang_en;; *);;
+
+ui_menu_finding_actual_state => ui_nrel_command_template:
+	[*
+		question_finding_actual_state _-> ._question_instance
+			(*
+                        //Place your arguments here.
+			//_-> rrel_1:: ui_arg_1;;
+                         _-> rrel_1:: ui_arg_1;; 
+ _-> rrel_2:: ui_arg_2;; 
+
+			*);;
+		._question_instance _<- question;;
+	*];;
+
+ui_menu_finding_actual_state => ui_nrel_command_lang_template: 
+	[Найти текущее состояние объекта] 
+	(* <- lang_ru;; *);;
+
+ui_menu_finding_actual_state => ui_nrel_command_lang_template: 
+	[Find current state of object] 
+	(* <- lang_en;; *);;
+ui_commands_decomposition_menu -> ui_menu_finding_actual_state;;

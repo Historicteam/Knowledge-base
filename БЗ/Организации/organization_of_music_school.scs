@@ -1,0 +1,16 @@
+organization_of_music_school
+=> nrel_main_idtf:
+        [Республиканская гимназия-колледж при Белорусской государственной академии музыки]
+        (*
+        <- lang_ru;;
+        *);
+        [Republic Gymnasium-College of the Belarusian State Academy of Music]
+        (*
+        <- lang_en;;
+        *);
+        [Рэспубліканская гімназія-каледж пры Беларускай дзяржаўнай акадэміі музыкі]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_cultural_organization;;

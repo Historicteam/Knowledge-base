@@ -1,0 +1,8 @@
+Kushelev_Serhei_Egorovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Кушелев Сергей Егорович] (* <- lang_ru;; *);
+	[Kushelev Serhei Egorovich] (* <- lang_en;; *);
+	[Кушэлеў Сяргей Ягоравіч] (* <- lang_by;; *);;

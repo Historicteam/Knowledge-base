@@ -1,0 +1,17 @@
+organization_city_fire_brigade
+=> nrel_main_idtf:
+        [Городская пожарная команда]
+        (*
+        <- lang_ru;;
+        *);
+        [City fire brigade]
+        (*
+        <- lang_en;;
+        *);
+        [Гарадская пажарная каманда]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_organization;
+<-concept_formal_organization;;

@@ -1,0 +1,7 @@
+the_Dominican_monastery_stable
+
+<- concept_building;
+=> nrel_main_idtf:
+	[конюшня доминиканского монастыря] (* <- lang_ru;; *);
+	[the Dominican monastery stable] (* <- lang_en;; *);
+	[стайня дамініканскага кляштара] (* <- lang_by;; *);;

@@ -4,7 +4,7 @@ building_of_the_Cathedral_of_the_Holy_Spirit
 	(*
 	<- lang_ru;;
 	*);
-	[building of the Cathedral of the Holy Spirit]
+	[The building of the Cathedral of the Holy Spirit]
 	(*
 	<- lang_en;;
 	*);
@@ -183,6 +183,40 @@ building_of_the_Cathedral_of_the_Holy_Spirit
                 *);;
             *);;
         => nrel_section_base_order:
+            building_of_Minsk_fire_brigade;;
+        *);
+
+	building_of_Minsk_fire_brigade
+        (*
+        => nrel_main_idtf:
+            [Здание спортивного зала пожарной команды]
+            (*
+            <- lang_ru;;
+            *);
+            [The building of Minsk fire brigade]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак спартовай залы пажарнай каманды]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1918];;
+		*);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1920];;
+                *);;
+            *);;
+        => nrel_section_base_order:
             Cathedral_of_the_Holy_Spirit;;
         *);
         
@@ -213,11 +247,11 @@ building_of_the_Cathedral_of_the_Holy_Spirit
     
     };;
 	
-concept_situation->[*fire_brigade_hall => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
+concept_situation->[*organization_Minsk_fire_brigade => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения спортивного зала пожарной команды в здании кафедрального собора Святого Духа](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання спартовай залы пажарнай каманды ў будынку кафедральнага сабора Святога Духу](*<-lang_by;;*);;
+    [Контур периода времени расположения Минской пожарной команды в здании кафедрального собора Святого Духа](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Мінскай пажарнай каманды ў будынку кафедральнага сабора Святога Духу](*<-lang_by;;*);;
     => nrel_start_time: ...
         (*
             => nrel_translation_in_the_Gregorian_calendar: ...
@@ -234,7 +268,7 @@ concept_situation->[*fire_brigade_hall => nrel_location: building_of_the_Cathedr
         *);;
 *);;
 
-concept_situation->[*transit_prison => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
+concept_situation->[*organization_Minsk_transit_prison => nrel_location: building_of_the_Cathedral_of_the_Holy_Spirit;;*]
 (*
 => nrel_main_idtf: 
 [Контур периода времени расположения пересыльной тюрьмы в здании кафедрального собора Святого Духа](*<-lang_ru;;*);

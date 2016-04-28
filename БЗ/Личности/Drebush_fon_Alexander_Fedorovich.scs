@@ -1,0 +1,8 @@
+Drebush_fon_Alexander_Fedorovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Дребуш фон Александр Федорович] (* <- lang_ru;; *);
+	[Drebush fon Alexander Fedorovich] (* <- lang_en;; *);
+	[Дрэбуш фон Аляксандр Фёдаравіч] (* <- lang_by;; *);;

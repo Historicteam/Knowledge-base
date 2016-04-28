@@ -1,0 +1,17 @@
+function proc_of_finding_all_situations(_object) {
+  return _situations;
+  generate([assign, node, constant, _situations]);
+  search(
+    [assign, _situation],
+    [assign, _arc],
+    _object,
+    [assign, _situations_copy], [], []
+  );
+  if (_situations_copy)
+    while(search(_situations_copy, [assign, _arc], [assign, _situation])) {
+      if (search(concept_situation, [assign, _tmp_arc], _situation))
+        generate(_situations, [assign, pos_const_perm, _tmp_arc], _situation);
+      erase([erase, _arc]);
+    }
+}
+

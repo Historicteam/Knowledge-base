@@ -1,0 +1,8 @@
+Dobrinski_Pavel_Mihailovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Добринский Павел Михайлович] (* <- lang_ru;; *);
+	[Dobrinski Pavel Mihailovich] (* <- lang_en;; *);
+	[Добрынскі Павел Міхайлавіч] (* <- lang_by;; *);;

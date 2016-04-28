@@ -11,5 +11,8 @@ organization_city_fumatorium
         [Гарадская дэзынфекцыйная камера]
         (*
         <- lang_by;;
-        *);;
+        *);
+/*городская*/
+<-concept_formal_organization;
+<-concept_medical_organization;;
 

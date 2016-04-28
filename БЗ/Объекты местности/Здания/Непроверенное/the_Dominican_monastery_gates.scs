@@ -1,0 +1,7 @@
+the_Dominican_monastery_gates
+
+<- concept_building;
+=> nrel_main_idtf:
+	[ворота доминиканского монастыря] (* <- lang_ru;; *);
+	[the Dominican monastery gates] (* <- lang_en;; *);
+	[вароты дамініканскага кляштара] (* <- lang_by;; *);;

@@ -1,0 +1,16 @@
+organization_government_offices
+=> nrel_main_idtf:
+        [Присутственные места]
+        (*
+        <- lang_ru;;
+        *);
+        [Government offices]
+        (*
+        <- lang_en;;
+        *);
+        [Прысутныя месцы]
+        (*
+        <- lang_by;;
+        *);
+        
+<-concept_non_governmental_organization;;

@@ -1,0 +1,8 @@
+Semenov_Alexei_Vasiljevich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Семенов Алексей Васильевич] (* <- lang_ru;; *);
+	[Semenov Alexei Vasiljevich] (* <- lang_en;; *);
+	[Семёнаў Аляксей Васільевіч] (* <- lang_by;; *);;

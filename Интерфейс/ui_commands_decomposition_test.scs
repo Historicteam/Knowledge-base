@@ -3,7 +3,8 @@ ui_commands_decomposition_test
 	-> ui_menu_search_command_terrain_object;
 	-> ui_menu_na_view_kb_extended;
 	-> ui_menu_search_commands_kinship_main;
-	-> ui_menu_na_keynodes
+	-> ui_menu_na_keynodes;
+  -> ui_menu_finding_actual_state
        // -> ui_menu_finding_way
 
 ;; 

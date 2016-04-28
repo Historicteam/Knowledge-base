@@ -28,3 +28,7 @@ organization_Brewery_Hutten_Czapsky_Count
 =>nrel_location: building_of_The_1st_Minsk_Brewery_Olivariya;
 <-concept_factory
 ;;
+/*
+<-concept_privately_held_organization;
+<-concept_industrial_organization;;
+*/

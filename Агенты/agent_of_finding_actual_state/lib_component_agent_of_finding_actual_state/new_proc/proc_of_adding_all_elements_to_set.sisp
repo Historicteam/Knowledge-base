@@ -1,0 +1,16 @@
+function proc_of_adding_all_elements_to_set(_set, _elements) {
+  search(
+    _elements,
+    [assign, pos_const_perm, _arc],
+    [assign, _element],
+    [],[],[assign, _elements_copy]
+  );
+  if (_elements_copy) {
+    while(search(_elements_copy, [assign, _arc], [assign, _element])) {
+      if (search(_set, [assign, _tmp_arc], _element)); else
+        generate(_set, [assign, pos_const_perm, _tmp_arc], _element);
+      erase([erase, _arc]);
+    }
+    erase([erase, _elements_copy]);
+  }
+}

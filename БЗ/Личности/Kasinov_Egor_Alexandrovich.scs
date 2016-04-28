@@ -1,0 +1,8 @@
+Kasinov_Egor_Alexandrovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Касинов Егор Александрович] (* <- lang_ru;; *);
+	[Kasinov Egor Alexandrovich] (* <- lang_en;; *);
+	[Касінаў Егор Аляксандравіч] (* <- lang_by;; *);;

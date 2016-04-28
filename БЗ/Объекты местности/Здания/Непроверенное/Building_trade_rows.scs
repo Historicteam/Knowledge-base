@@ -1,28 +1,111 @@
 Building_trade_rows
 => nrel_main_idtf:
 	[Здание торговых рядов] (* <- lang_ru;; *);
-	[Building trade rows] (* <- lang_en;; *);
+	[Building of the trade rows] (* <- lang_en;; *);
 	[Будынак гандлёвых шэрагаў] (* <- lang_by;; *);
 
 <- concept_building;
 <- concept_arch_classicism;
 
-<- rrel_key_sc_element: Image_building_shopping_malls (*
-	=> nrel_main_idtf:
-		[Изображение здания торговых рядов] (* <- lang_ru;; *);
-		[Image building shopping malls] (* <- lang_en;; *);
-		[Выява будынка гандлёвых шэрагаў] (* <- lang_by;; *);;
+<= nrel_temporal_decomposition: 
+    {
+        construction_Bernardine_shops
+        (* 
+        => nrel_main_idtf:
+            [Строение "Бернардинские лавки"]
+            (*
+            <- lang_ru;;
+            *);
+            [The construction "Bernardine shops"]
+            (*
+            <- lang_en;;
+            *);
+            [Будова "Бернардынскія крамы"]
+            (*
+            <- lang_by;;
+            *);;
+            
+            <-concept_construction;;
+        
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1800];;
+                *);;
+            *);;
+            
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1850];;
+                *);;
+            *);;
+        *);
 
-	<- sc_illustration;;
-	<= nrel_sc_text_translation: 
-		... (*
-		-> rrel_example: "file://contents//Торговые ряды.jpg" (*
-				=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
-
-=> nrel_start_time: ...
+	construction_Vilenchuki
+        (* 
+        => nrel_main_idtf:
+            [Строение "Виленчуки"]
+            (*
+            <- lang_ru;;
+            *);
+            [The construction "Vilenchuki"]
+            (*
+            <- lang_en;;
+            *);
+            [Будова "Вiленчукi"]
+            (*
+            <- lang_by;;
+            *);;
+            
+            <-concept_construction;;
+        
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1850];;
+                *);;
+            *);;
+            
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1917];;
+                *);;
+            *);;
+        *);
+        
+        construction_trade_rows
+        (* 
+        => nrel_main_idtf:
+            [Торговые ряды]
+            (*
+            <- lang_ru;;
+            *);
+            [The trade rows]
+            (*
+            <- lang_en;;
+            *);
+            [Гандлёвыя шэрагi"]
+            (*
+            <- lang_by;;
+            *);;
+            
+            <-concept_construction;;
+        
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1917];;
+                *);;
+            *);;
+            
+        => nrel_finish_time: ...
             (*
             <= nrel_time_period: ...
                 (*
@@ -31,7 +114,7 @@ Building_trade_rows
                     <-concept_time_point;;
                     => nrel_translation_in_the_Gregorian_calendar: ...
                         (*
-                        -> rrel_year: rrel_decimal: [1810];;
+                        -> rrel_year: rrel_decimal: [1940];;
                         *);;
                     *);;
               
@@ -40,11 +123,69 @@ Building_trade_rows
                     <-concept_time_point;;
                     => nrel_translation_in_the_Gregorian_calendar: ...
                         (*
-                        -> rrel_year: rrel_decimal: [1817];;
+                        -> rrel_year: rrel_decimal: [1950];;
                         *);;
                     *);;
                 *);;
             *);;
+        *)
+    };;
+
+Image_building_shopping_malls_1920 
+	=> nrel_main_idtf:
+		[Изображение здания торговых рядов 1920] (* <- lang_ru;; *);
+		[Image building shopping malls 1920] (* <- lang_en;; *);
+		[Выява будынка гандлёвых шэрагаў 1920] (* <- lang_by;; *);
+
+	<- sc_illustration;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Торговые ряды.jpg" (*
+				=> nrel_format: format_jpg;;
+		    *);;
+		*);;
+	
+
+Image_of_building_trade_rows_1900 
+    => nrel_main_idtf:
+	[Изображение здания торговых рядов 1900] (* <- lang_ru;; *);
+	[Image of building of the trade rows 1900] (* <- lang_en;; *);
+	[Выявы будынку гандлёвых шэрагаў 1900] (* <- lang_by;; *);
+    <- sc_illustration;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://contents/виленчуки 1900.jpg" 
+        (*
+                => nrel_format: format_jpg;;
+        *);;
+    *);;
+
+concept_situation->[*
+        Building_trade_rows 
+        <- rrel_key_sc_element: Image_building_shopping_malls_1920;; *]
+(*      
+            => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1920];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*
+        Building_trade_rows 
+        <- rrel_key_sc_element: Image_of_building_trade_rows_1900;; *]
+(*      
+            => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1900];;
+                *);;
+            *);;
+*);;
+
 
 concept_situation->[*organization_city_fumatorium => nrel_location: Building_trade_rows;;
 		     organization_analitical_station =>  nrel_location: Building_trade_rows;;*]

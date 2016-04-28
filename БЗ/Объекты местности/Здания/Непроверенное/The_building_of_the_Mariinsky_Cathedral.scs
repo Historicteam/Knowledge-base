@@ -1,9 +1,9 @@
 The_building_of_the_Mariinsky_Cathedral
 <- concept_building;
 => nrel_main_idtf:
-	[Иезуитский костёл Святой Варвары, Марии и Иисуса] (* <- lang_ru;; *);
-	[Jesuit church of St. Barbara, Mary and Jesus] (* <- lang_en;; *);
-	[Езуіцкі касцёл Святой Барбары, Марыі і Ісуса] (* <- lang_by;; *);
+	[Здание Иезуитского костёла Святой Варвары, Марии и Иисуса] (* <- lang_ru;; *);
+	[The building of Jesuit church of St. Barbara, Mary and Jesus] (* <- lang_en;; *);
+	[Будынак Езуіцкага касцёла Святой Барбары, Марыі і Ісуса] (* <- lang_by;; *);
 
 => nrel_idtf:
 	[Мариинский кафедральный собор] (* <- lang_ru;; *);
@@ -57,6 +57,10 @@ The_building_of_the_Mariinsky_Cathedral
                 -> rrel_year: rrel_decimal: [1799];;
                 *);;
             *);;
+
+	
+	
+
         *);
 
 	Mariinsky_Cathedral
@@ -82,7 +86,141 @@ The_building_of_the_Mariinsky_Cathedral
                 -> rrel_year: rrel_decimal: [1799];;
                 *);;
             *);;
-        *)
+	<- rrel_key_sc_element: Image_Mariinskii_sobor_1864
+	(*
+	=> nrel_main_idtf:
+		[Изображение Мариинского собора. Год создания: 1864, местонахождение: Библиотека Вильнюсского Университета, автор Дмитрий Cтруков.] (* 			<- lang_ru;; *);
+		[Image Mariinsky sobor. Year established: 1864 Location: Library of Vilnus University, author Dmitrii Strukov.] (* <- lang_en;; *);
+		[Выява Марыінскага собора. Год стварэння: 1864, месцазнаходжанне: Бібліятэка Вільнюскага Універсітэта, аўтар Дмітрый Струкаў.] (* <- 			lang_by;; *);;
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Мариинский_собор(1864).jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
+
+	<- rrel_key_sc_element: Image_Mariinskii_sobor_1840
+	(*
+	=> nrel_main_idtf:
+		[Изображение Мариинского собора. Год создания: 1840, автор Леон Жан Батист Собатье] (* <- lang_ru;; *);
+		[Image Mariinsky sobor. Year established: 1840, author Leon-Jean-Baptiste Sabatier] (* <- lang_en;; *);
+		[Выява Марыінскага собора. Год стварэння: 1840, аўтар Леон Жан Баціст Сабацье] (* <- lang_by;; *);;
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Мариинский_собор(1840).jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+
+
+	<- rrel_key_sc_element: Image_Mariinskii_sobor_1905
+	(*
+	=> nrel_main_idtf:
+		[Изображение Мариинского собора. Год создания: 1906, местонахождение: Национальная библиотека Польшы] (* <- lang_ru;; *);
+		[Image Mariinsky sobor. Year established: 1906 Location: National Library of Poland] (* <- lang_en;; *);
+		[Выява Марыінскага собора. Год стварэння: 1906, месцазнаходжанне: Нацыянальная бібліятэка Польшчы] (* <- lang_by;; *);;
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Мариинский_собор(1905).jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+	<- rrel_key_sc_element: Image_Mariinskii_sobor_1918
+		(*
+		=> nrel_main_idtf:
+			[Изображение Мариинского собора. Год создания: 1918, местонахождение: Национальная библиотека Польшы] (* <- lang_ru;; *);
+			[Image Mariinsky sobor. Year established: 1918 Location: National Library of Poland] (* <- lang_en;; *);
+			[Выява Марыінскага собора. Год стварэння: 1918, месцазнаходжанне: Нацыянальная бібліятэка Польшчы] (* <- lang_by;; *);;
+		<- sc_illustration;;
+		<= nrel_sc_text_translation: 
+			... (*
+			-> rrel_example: "file://contents//Мариинский_собор(1918).jpg" (*
+					=> nrel_format: format_jpg;;
+				*);;
+			*);;
+		*);;
+	
+        *);
+
+
+			House_of_physical_education
+			(*
+			=> nrel_main_idtf:
+			    [Дом физкультуры]
+			    (*
+			    <- lang_ru;;
+			    *);
+			    [House of physical education]
+			    (*
+			    <- lang_en;;
+			    *);
+			    [Дом фізкультуры]
+			    (*
+			    <- lang_by;;
+			    *);;
+			    
+			=> nrel_start_time: ...
+            			(*
+            				=> nrel_translation_in_the_Gregorian_calendar: ...
+              					  (*
+               					 -> rrel_year: rrel_decimal: [1951];;
+						*);;
+					    *);;
+				       			 => nrel_finish_time: ...
+					    (*
+					    => nrel_translation_in_the_Gregorian_calendar: ...
+						(*
+						-> rrel_year: rrel_decimal: [1991];;
+				*);;
+			 *);;
+		*);
+					Archcathedral_Cathedral_of_Saint_Mary
+					(*
+					=> nrel_main_idtf:
+					    [Архикафедральный собор Имени Наисвятейшей Девы Марии]
+					    (*
+					    <- lang_ru;;
+					    *);
+					    [Archcathedral_Cathedral_of_Saint_Mary]
+					    (*
+					    <- lang_en;;
+					    *);
+					    [Архікатэдра Імя Найсвяцейшай Панны Марыі]
+					    (*
+					    <- lang_by;;
+					    *);;
+					    
+					=> nrel_start_time: ...
+			    			(*
+			    				=> nrel_translation_in_the_Gregorian_calendar: ...
+			      					  (*
+			       					 -> rrel_year: rrel_decimal: [1991];;
+								*);;
+							    *);;
+						       	
+
+	<- rrel_key_sc_element: Image_Mariinskii_sobor_2003
+	(*
+	=> nrel_main_idtf:
+		[Изображение Мариинского собора. Год создания: 2003, автор Михаил Воложинский.] (* <- lang_ru;; *);
+		[Image Mariinsky sobor. Year established: 2003, author Mihail Volojinskii.] (* <- lang_en;; *);
+		[Выява Марыінскага собора. Год стварэння: 2003, аўтар Міхаіл Воложынскі.] (* <- lang_by;; *);;
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Мариинский_собор(2003).jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+		*)
     
     };
 
@@ -97,6 +235,7 @@ The_building_of_the_Mariinsky_Cathedral
 			*);;
 		*);;
 	*);
+
 
 => nrel_geographical_location: ...
 	(*
@@ -123,3 +262,24 @@ The_building_of_the_Mariinsky_Cathedral
 			*);;
 		*);;
 	*);;
+concept_situation->[*organization_spartak => nrel_location: The_building_of_the_Mariinsky_Cathedral;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения Добровольного спортивного общества "Спартак" здании Мариинского кафедрального собора](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Добраахвотнага спартыўнага таварыства "Спартак" ў будынку Марыінскага кафедральнага сабора](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1951];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+*);;
+

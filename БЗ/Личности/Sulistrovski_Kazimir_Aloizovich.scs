@@ -1,0 +1,8 @@
+Sulistrovski_Kazimir_Aloizovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Сулистровский Казимир Алоизович] (* <- lang_ru;; *);
+	[Sulistrovski Kazimir Aloizovich] (* <- lang_en;; *);
+	[Сулістроўскі Казімір Алаізавіч] (* <- lang_by;; *);;
