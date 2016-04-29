@@ -1,0 +1,45 @@
+concept_under_burial_mounds
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[подкурганное захоронение]
+(*
+<- lang_ru;;
+*);
+[under burial mounds]
+(*
+<- lang_en;;
+*);
+[падкурганны могільнік]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Подкурганное захоронение-могильник,в котором захоронения произвоились под курганом.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Падкурганны магільнік-пахаванне у якім  вырабляліся пад курганам.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Beneath mound- burial, burial ground, where a burial mound proizvoilis.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

@@ -1,0 +1,66 @@
+concept_archaeological_monument
+
+
+<-sc_const;
+<-sc_node_not_relation;
+
+
+=> nrel_main_idtf:
+[археологический памятник]
+(*
+<- lang_ru;;
+*);
+[archaeological monument]
+(*
+<- lang_en;;
+*);
+[археалагічны помнік]
+(*
+<- lang_by;;
+*);
+
+
+<= nrel_subdividing: ...
+(*
+
+
+	-> concept_funerary_monument;;
+	-> concept_settler_monument;;
+	-> concept_ritual_and_religious_monuments;;
+	-> concept_specific_type_monuments;;
+	
+	
+	*);
+
+    <- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: 
+...
+  (*
+-> rrel_example:
+[Археологический памятник — объект материальной культуры, несущий в себе определённый объём информации о прошлом. Синонимом этого понятия может считаться термин «артефакт» ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Archaeological monument - the object of material culture, carries a certain amount of information about the past. Synonymous with this concept, the term "artifact" can be considered]
+      (*
+<- lang_en;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Археалагічны помнік - аб'ект матэрыяльнай культуры, які нясе ў сабе пэўны аб'ём інфармацыі пра мінулае. Сінонімам гэтага паняцця можа лічыцца тэрмін «артэфакт»]
+      (*
+<- lang_by;;
+      *);;
+  *);;
+*)
+;;
+
+

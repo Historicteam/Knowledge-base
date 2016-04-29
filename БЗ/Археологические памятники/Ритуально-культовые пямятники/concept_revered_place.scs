@@ -1,0 +1,49 @@
+concept_revered_place
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[почитаемое место]
+(*
+<- lang_ru;;
+*);
+[revered_place]
+(*
+<- lang_en;;
+*);
+[ўшанаванае месца]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Почитаемое место — священное место или алтарь, которому почитались группы людей в древности.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Ўшанаванае месца - святое месца або алтар, якому шанаваліся групы людзей у старажытнасці.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Revered place- sacred place or the altar, that group of people worshiped in ancient times.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;
