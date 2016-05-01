@@ -1,0 +1,25 @@
+concept_railway_station 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Железнодорожный вокзал]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Железнодорожного вокзала]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_railway_station 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ здание на железнодорожной станции, предназначенное для обслуживания пассажиров. Как правило, вокзалы встречаются на крупных железнодорожных станциях; в здании вокзала обычно размещают кассы, камеры хранения, зал ожидания, рестораны и т. д.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+	*);;
+
+

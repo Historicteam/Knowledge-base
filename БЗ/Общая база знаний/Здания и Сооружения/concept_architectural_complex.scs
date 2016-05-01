@@ -1,0 +1,24 @@
+concept_architectural_complex
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Архитектурный комплекс]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие архитектурный комплекс]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_architectural_complex
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Архитектурный комплекс  —  гармоническое единство пространственной композиции строений . ] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> 	concept_complex_construction;;
+		*);;
+	*);;
+

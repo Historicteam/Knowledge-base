@@ -1,0 +1,25 @@
+concept_kirxa  
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кирха]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия кирхи]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_orthodox_church  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Здания доя богуслужения людей, исповедующих лютеранство.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building_god;;
+		*);;
+	*);;
+
+
