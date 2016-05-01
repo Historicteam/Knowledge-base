@@ -1,0 +1,31 @@
+concept_agriculture
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сельскохозяйственное здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие сельскохохяйственного здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_agriculture
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сельскохозяйственные здания предназначены для обслуживания различных отраслей сельскохозяйственного производства.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building;;
+		*);;
+	*); 
+=> nrel_subdividing: 
+	...
+	(*
+		->concept_livestock; 
+concept_aviculture ; 
+concept_warehousing; 
+concept_cultivation;;
+	*);;

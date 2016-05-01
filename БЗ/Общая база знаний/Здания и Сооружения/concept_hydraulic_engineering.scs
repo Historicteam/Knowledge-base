@@ -1,0 +1,18 @@
+concept_hydraulic_engineering
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гидротезническое сооружение]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие гидротезнического сооружения]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_Hydraulic_engineering
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [объект для использования водных ресурсов, а также для борьбы с вредным воздействием вод.] (* <-lang_ru;; *);;
+		*);;
+	*);;

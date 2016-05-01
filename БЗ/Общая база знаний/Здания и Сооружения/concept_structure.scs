@@ -1,0 +1,26 @@
+concept_structure
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сооружение]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие сооружения]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_structure
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ это результат строительной деятельности для осуществления определённых потребительских функций.Используется не для жилищно-бытовых функций.](* <-lang_ru;; *);;
+		*);;
+=>nrel_subdividing:
+...
+	(*
+->concept_hydraulic_engineering;
+concept_social;
+concept_fortification;;
+	*);;
+*);;
+

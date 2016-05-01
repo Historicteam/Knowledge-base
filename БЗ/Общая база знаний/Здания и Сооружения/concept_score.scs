@@ -1,0 +1,30 @@
+concept_score 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Магазин]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие Магазина]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_score 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Здание для торговли товарами широкого потребления](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building;;
+		*);;
+	*);
+<= nrel_subdividing: 
+	...
+	(*
+		->concept_hypermarket;
+concept_supermarket;
+concept_zooscore;;
+	*);;

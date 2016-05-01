@@ -1,0 +1,26 @@
+concept_hypermarket 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гипермаркет]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Гипермаркета]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_hypermarket 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Крупный магазин самообслуживания, в котором посетителям предлагаются также услуги общепита и развлечений.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_score;			
+			concept_building;;
+		*);;
+	*);;
+
+

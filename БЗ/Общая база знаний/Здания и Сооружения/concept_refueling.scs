@@ -1,0 +1,32 @@
+concept_refueling
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Заправка]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие Заправки]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_refueling
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [сооружение, где происходит процесс автоматической заправки автомобилей и мотоциклов жидким топливом] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_structure;;
+		*);;
+	*);
+=> nrel_inclusion: 
+	...
+	(*
+->concept_structure;;
+	*);;
+
+
+
+
