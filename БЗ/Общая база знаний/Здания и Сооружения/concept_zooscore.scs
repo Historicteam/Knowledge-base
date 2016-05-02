@@ -1,0 +1,24 @@
+concept_zooscore 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Зоомагазин]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Зоомагазина]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_zooscore 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [магазин для продажи животных. Также в зоомагазинах продаётся питание для животных, клетки, аквариумы, различные аксессуары.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_score;;			
+		*);;
+	*);;
+

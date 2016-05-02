@@ -1,0 +1,42 @@
+concept_buildinghelth 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Здания здравохранения]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия зданий здравохранения]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_buildinghelth 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Здания здравохранения - здания, предназначенные для осмотра, поддержания здоровья людей и животных.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building;;
+		*);;
+	*);
+=> nrel_inclusion: 
+	...
+	(*
+->concept_building;;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

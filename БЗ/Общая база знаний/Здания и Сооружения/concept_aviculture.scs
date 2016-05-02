@@ -1,0 +1,26 @@
+concept_aviculture
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Птицеводческое здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия птицеводческое  здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_aviculture
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [здания предназначены для обслуживания различных видов , типов птиц,для их производства, выращивания и других целей.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_agriculture;			
+concept_building;;
+		*);;
+	*);;
+
+

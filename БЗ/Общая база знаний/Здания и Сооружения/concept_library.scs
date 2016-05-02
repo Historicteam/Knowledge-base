@@ -1,0 +1,28 @@
+concept_library 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Библиотека]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Библиотека]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_library 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Учреждение(здание), собирающее и хранящее книги для общественного пользования.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+	*);
+<=nrel_inclusion:
+...
+		(* 
+		-> concept_social;;
+		*);;

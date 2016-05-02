@@ -1,0 +1,29 @@
+concept_dam
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дамба]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие дамба]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_dam
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Дамба -  гидротехническое сооружение, представляющее собой грунтовую насыпь трапецеидального сечения для регулирования водных потоков, иногда для защиты от снежных лавин и т. п. Верхняя часть дамбы может использоваться для дорог и других коммуникаций. ] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> 	concept_hydraulic_engineering;;
+		*);;
+	*);
+=> nrel_inclusion: 
+	...
+	(*
+->concept_hydraulic_engineering;;
+	*);;
+

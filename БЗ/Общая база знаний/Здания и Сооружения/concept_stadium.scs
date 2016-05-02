@@ -1,0 +1,31 @@
+concept_stadium 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Стадион]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Стадиона]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_stadium 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [сооружение для спортивных целей. Обычно включает большое поле с беговыми дорожками вокруг и места для зрителей, расположенные ступенчато вокруг поля. Также часто содержит дополнительные площадки и вспомогательные помещения для тренировки и переодевания команд](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_structure;;
+		*);;
+	*);
+=> nrel_inclusion: 
+	...
+	(*
+->concept_social;;
+	*);;
+
+
+

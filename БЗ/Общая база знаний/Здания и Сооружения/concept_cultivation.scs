@@ -1,0 +1,24 @@
+concept_cultivation 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Культивационные здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия культивационного  здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_cultivation 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ здания предназначены для выращивания, ухода за плодами,растениями и др.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building;;
+		*);;
+	*);;
+

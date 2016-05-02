@@ -1,0 +1,31 @@
+concept_restaurant 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ресторан]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Ресторана]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_restaurant 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Здание общественного питания с широким ассортиментом блюд сложного приготовления, включая заказные и фирменные.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+
+	*);
+=>nrel_inclusion:
+	...
+		(* 
+		-> concept_social;;
+		*);;
+
+

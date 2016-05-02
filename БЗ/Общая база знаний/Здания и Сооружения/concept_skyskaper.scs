@@ -1,0 +1,29 @@
+concept_skyskaper
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Небоскреб]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие Небоскреба]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_skyskaper
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Небоскреб - очень высокое многоэтажное здание] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building;;
+		*);;
+	*);
+=> nrel_inclusion: 
+	...
+	(*
+->concept_building;;
+	*);;
+

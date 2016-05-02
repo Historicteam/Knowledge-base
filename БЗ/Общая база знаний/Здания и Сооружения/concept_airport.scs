@@ -1,0 +1,27 @@
+concept_airport
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Аэропорт]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие аэропорт]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_airport
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Аэропрт - комплекс строений, предназначенный для приёма, отправки, базирования воздушных судов и обслуживания воздушных перевозок, имеющий для этих целей аэродром, аэровокзал , один или несколько грузовых терминалов и другие наземные сооружения и необходимое оборудовани. ] (* <-lang_ru;; *);;
+		*);;
+*);
+<= nrel_using_constants:
+		...
+		(* 
+		-> 
+concept_structure;
+concept_complex_construction;	
+concept_constructions;;
+	*);;
+

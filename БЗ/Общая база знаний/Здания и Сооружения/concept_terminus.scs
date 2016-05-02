@@ -1,0 +1,33 @@
+concept_terminus 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Вокзал]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Вокзала]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_terminus 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [комплекс зданий и сооружений или одиночное здание, находящихся в пункте пассажирских перевозок путей сообщения (железнодорожных, воздушных, наземных).](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_structure;
+concept_complex_construction;;			
+			concept_building;;
+		*);;
+	*);
+	<= nrel_subdividing: 
+...
+	(*
+		->concept_railway_station;
+concept_car_station;;
+
+	*);;
+

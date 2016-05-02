@@ -1,0 +1,23 @@
+concept_metro
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Метрополитен]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие метрополитена]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_metro
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Метрополитен - инженерхно-техническое сооружение, которое представляет собой городскую железную дорогу с курсирующими по ней маршрутными поездами для перевозки пассажиров, инженерно отделённая от любого другого транспорта и пешеходного движения (внеуличная). ] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_structure;;
+		*);;
+	*);;
