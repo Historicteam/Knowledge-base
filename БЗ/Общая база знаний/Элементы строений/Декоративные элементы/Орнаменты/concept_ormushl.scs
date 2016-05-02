@@ -1,0 +1,49 @@
+concept_ormushl
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[ормушль](*<- lang_ru;;*);
+[ormushl](*<- lang_en;;*);
+[ормушль](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Ормушль — барочный орнамент, сочетающий картуш с ленточным переплетением и гротесками, напоминающий по форме ушную раковину.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Ормушль - барочны арнамент, які спалучае картуш з істужачным перапляценнем і гратэск, які нагадвае па форме вушную ракавіну.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/ormuschl.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

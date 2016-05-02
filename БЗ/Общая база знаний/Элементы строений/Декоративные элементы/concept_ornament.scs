@@ -1,0 +1,43 @@
+concept_ornament
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[орнамент](*<- lang_ru;;*);
+[ornament](*<- lang_en;;*);
+[арнамент](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Орнамент — декоративный узор, украшающий архитектурные сооружения, их отдельные части и детали; служит дополнительным средством художественной выразительности в архитектуре.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Арнамент - дэкаратыўны ўзор, які ўпрыгожвае архітэктурныя збудаванні, іх асобныя часткі і дэталі; служыць дадатковым сродкам мастацкай выразнасці ў архітэктуры.](*<- lang_by;;*);;
+*);;
+*);
+<=nrel_subdividing:
+
+ ...
+
+(*
+
+-> concept_rocaille;;
+-> concept_strapwork;;
+-> concept_ormushl;;
+-> concept_auricular;;
+-> concept_rolverk;;
+-> concept_meander;;
+-> concept_palmette;;
+-> concept_rosette;;
+
+*)
+
+;;
+

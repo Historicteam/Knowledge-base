@@ -1,0 +1,49 @@
+concept_arch_vault
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[лотковый свод](*<- lang_ru;;*);
+[arch vault](*<- lang_en;;*);
+[лотковой звод](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Лотковый свод — свод, образованный пересечением цилиндрического свода с двумя полуцилиндрами.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Лотковой звод - звод, адукаваны перасячэннем цыліндрычнага зводу з двума паўціліндрамі.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/arch_vault.png"
+
+			(*
+
+			=> nrel_format: format_png;;
+
+			*);;
+
+		*);;
+
+	*);;

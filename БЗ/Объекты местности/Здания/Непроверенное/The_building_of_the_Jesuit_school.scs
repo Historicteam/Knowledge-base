@@ -21,20 +21,21 @@ The_building_of_the_Jesuit_school
 		*);;
 	*);
 
+	
 <= nrel_temporal_decomposition: 
     {
-	The_building_of_the_Jesuit_school
+	Jesuit_school
         (* 
         => nrel_main_idtf:
-            [Здание иезуитской школы]
+            [Иезуитская школа]
             (*
             <- lang_ru;;
             *);
-            [The building of the Jesuit school]
+            [Jesuit school]
             (*
             <- lang_en;;
             *);
-            [Будынак езуіцкай школы]
+            [Езуіцкая школа]
             (*
             <- lang_by;;
             *);;
@@ -851,4 +852,3 @@ concept_situation->[*organization_of_music_school => nrel_location: The_building
         *);;
     
 *);;
-

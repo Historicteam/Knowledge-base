@@ -1,6 +1,6 @@
 concept_semicircural_arch
 <-sc_const;
-<-const_arch;
+<-concept_arch;
 <-sc_node_not_relation;
 => nrel_main_idtf:
 [полукруглая арка]

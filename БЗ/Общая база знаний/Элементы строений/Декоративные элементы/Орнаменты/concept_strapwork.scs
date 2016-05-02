@@ -1,0 +1,49 @@
+concept_strapwork
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[страпворк](*<- lang_ru;;*);
+[strapwork](*<- lang_en;;*);
+[страпворк](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Страпворк — барочный орнамент, имитирующий переплетенные ленты из пергамента, металла или кожи.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Страпворк - барочны арнамент, які імітуе пераплеценыя стужкі з пергамента, металу і скуры.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/strapwork.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

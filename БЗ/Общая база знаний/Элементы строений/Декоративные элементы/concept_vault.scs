@@ -1,0 +1,62 @@
+concept_vault
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[свод](*<- lang_ru;;*);
+[vault](*<- lang_en;;*);
+[звод](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Свод — конструкция, которая образуется наклонными поверхностями (прямолинейными или криволинейными).](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Звод - канструкцыя, якая ўтворыцца нахільнымі паверхнямі (прамалінейнымі або крывалінейнымі).](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/svod.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);
+<=nrel_subdividing:
+
+ ...
+
+(*
+
+-> concept_arch_vault;;
+-> concept_tunnel_vault;;
+
+*)
+
+;;
+

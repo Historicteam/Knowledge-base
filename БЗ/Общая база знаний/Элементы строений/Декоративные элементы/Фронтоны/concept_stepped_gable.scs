@@ -1,16 +1,16 @@
-concept_pediment
+concept_stepped_gable
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-[сандрик]
+[ступенчатый фронтон]
 (*
 <- lang_ru;;
 *);
-[pediment]
+[stepped gable]
 (*
 <- lang_en;;
 *);
-[сандрык]
+[ступенясты франтон]
 (*
 <- lang_by;;
 *);
@@ -23,7 +23,7 @@ concept_pediment
 ...
 (*
 -> rrel_example:
-[Сандрик - декоративный выступ над окном.]
+[Ступенчатый фронтон - фронтон в виде ступеней, уменьшающихся в своих размерах к верху.]
 (*
 <- lang_ru;;
 *);;
@@ -36,18 +36,4 @@ concept_pediment
 <- lang_by;;
 *);;
 *);;
-*);
-<=nrel_subdividing:
-
- ...
-
-(*
-
--> concept_broken_pediment;;
--> concept_decorative_gable;;
--> concept_stepped_gable;;
-
-*)
-
-;;
-
+*);;

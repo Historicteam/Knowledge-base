@@ -1,0 +1,49 @@
+concept_meander
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[меандр](*<- lang_ru;;*);
+[meander](*<- lang_en;;*);
+[меандр](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Меандр — распространённый тип ортогонального орнамента.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Меандр - распаўсюджаны тып артаганальнага арнаменту.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/meander.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

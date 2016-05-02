@@ -1,0 +1,49 @@
+concept_palmette
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[пальметта](*<- lang_ru;;*);
+[palmette](*<- lang_en;;*);
+[пальметта](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Пальметта — растительный орнамент в виде веерообразного листа пальмового дерева, цветка аканта или жимолости.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Пальметто - раслінны арнамент у выглядзе веерападобнага ліста пальмавага дрэва, кветкі аканта або бружмелі.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/palmette.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

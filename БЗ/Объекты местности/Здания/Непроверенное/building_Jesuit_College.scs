@@ -12,6 +12,7 @@ building_Jesuit_College
 	[Будынак езуіцкага калегіума]
 	(*
 	<- lang_by;;
+
 	*);	
 
 <- rrel_key_sc_element: Image_building_Jesuit_College 
@@ -29,21 +30,22 @@ building_Jesuit_College
 			*);;
 		*);;
 	*);
-
+	
+	
 <= nrel_temporal_decomposition: 
     {
 	The_building_of_Jesuit_College
         (* 
         => nrel_main_idtf:
-            [Здание иезуитского коллегиума]
+            [Иезуитский коллегиум]
             (*
             <- lang_ru;;
             *);
-            [Jesuit College building]
+            [Jesuit College]
             (*
             <- lang_en;;
             *);
-            [Будынак езуіцкага калегіума]
+            [Езуіцкі калегіум]
             (*
             <- lang_by;;
             *);;
@@ -213,6 +215,7 @@ concept_situation->[*organization_Jesuit_monks_community => nrel_location: build
             *);;
         *);;
 *);;
+
 
 
 

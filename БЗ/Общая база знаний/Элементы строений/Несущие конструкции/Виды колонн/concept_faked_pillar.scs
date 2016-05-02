@@ -82,5 +82,9 @@ concept_faked_pillar
 		concept_rostral_column;
 		concept_three_quarter_column;
 		concept_triumphal_column;
-		concept_votivus_column
+		concept_votivus_column;
+		concept_twisted_column
 	};;
+
+
+

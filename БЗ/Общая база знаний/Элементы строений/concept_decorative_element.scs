@@ -36,11 +36,20 @@ concept_decorative_element
 *);;
 *);;
 *);
-<= nrel_subdividing:
-	{
-		concept_stepped_gable;
-		concept_pediment;
-		concept_facade
-	}
+<=nrel_subdividing:
+ ...
+(*
+
+
+-> concept_gable;;
+-> concept_pediment;;
+-> concept_facade;;
+-> concept_garland;;
+-> concept_ornament;;
+-> concept_vault;;
+-> concept_urn;;
+-> concept_dialling_column;;
+-> concept_voluta;;
+*)
 ;;
 

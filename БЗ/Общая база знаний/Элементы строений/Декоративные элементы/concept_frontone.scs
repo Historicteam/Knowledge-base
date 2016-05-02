@@ -42,7 +42,7 @@ concept_gable
 (*
 -> concept_decorative_gable;;
       
-       
-       
-       
-	*);;
+-> concept_broken_pediment;;
+
+-> concept_stepped_gable;;   
+*);;

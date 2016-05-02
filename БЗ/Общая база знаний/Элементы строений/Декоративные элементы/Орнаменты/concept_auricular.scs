@@ -1,0 +1,49 @@
+concept_auricular
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[кнорпельверк](*<- lang_ru;;*);
+[auricular](*<- lang_en;;*);
+[кнорпельверк](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Кнорпельверк — барочный орнамент, в рисунке которого угадываются очертания маски, морды чудовища или гребень морской волны.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Кнорпельверк - барочны арнамент, у малюнку якога адгадваюцца абрысы маскі, морды пачвары або грэбень марской хвалі.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/knopelverk.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

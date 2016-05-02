@@ -1,0 +1,49 @@
+concept_garland
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[гирлянда](*<- lang_ru;;*);
+[garland](*<- lang_en;;*);
+[гірлянда](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Гирлянда — декоративный мотив в виде сплетенных между собой листьев, цветов, стеблей, плодов, иногда с лентами.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Гірлянда - дэкаратыўны матыў у выглядзе сплеценых паміж сабой лісця, кветак, сцеблаў, пладоў, часам з стужкамі.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/garland.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

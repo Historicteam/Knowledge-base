@@ -1,0 +1,49 @@
+concept_rocaille
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[рокайль](*<- lang_ru;;*);
+[rocaille](*<- lang_en;;*);
+[рокайль](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Рокайль — барочный орнамент в виде раковины.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Рокайль - барочны арнамент у выглядзе ракавіны](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/rocaille.png"
+
+			(*
+
+			=> nrel_format: format_png;;
+
+			*);;
+
+		*);;
+
+	*);;

@@ -1,0 +1,49 @@
+concept_rosette
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[розетта](*<- lang_ru;;*);
+[rosette](*<- lang_en;;*);
+[разетта](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Розетта — мотив орнаментации, представляющий собой заключённые в круге четыре или несколько лепестков цветка или листьев, одинаковых по форме, расположенных симметрично и как бы исходящих из одной центральной пуговки.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Розетта - матыў арнаментацыі, які ўяўляе сабой зняволеныя ў крузе чатыры ці некалькі пялёсткаў кветкі ці лісця.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/rosette.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;
