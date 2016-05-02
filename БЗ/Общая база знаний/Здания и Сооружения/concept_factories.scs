@@ -1,0 +1,23 @@
+concept_factories
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Завод]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие завода]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_factories
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Завод- промышленное предприятие с механической обработкой сырья, а также крупное промысловое предприятие ] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+	*);;
