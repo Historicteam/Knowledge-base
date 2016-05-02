@@ -1,0 +1,24 @@
+concept_residental
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Жилоe здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие жилого здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_residental
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Жилоe здание - это квартирные дома, предназначенные для постоянного проживания людей, а также общежития, гостиницы, в которых проживают временно.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->  concept_building;
+concept_civil;;
+		*);;
+	*);;

@@ -36,6 +36,10 @@ concept_building
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;;
-
+	*);
+=>nrel_subdividing:
+...
+(*
+->concept_civil;
+concept_production_building;;
+*);;
