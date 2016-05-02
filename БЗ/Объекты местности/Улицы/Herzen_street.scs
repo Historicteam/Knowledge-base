@@ -1,0 +1,11 @@
+Herzen_street
+=> nrel_main_idtf:
+	[Улица Герцена](* <- lang_ru;; *);
+	[Herzen street](* <- lang_en;; *);
+	[Вуліца Герцена](* <- lang_by;; *);
+
+<= nrel_subdividing: 
+		{
+		Building_trade_rows
+		};
+<-concept_street;; 

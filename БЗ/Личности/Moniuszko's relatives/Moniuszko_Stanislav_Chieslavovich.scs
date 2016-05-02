@@ -63,7 +63,7 @@ Moniuszko_Stanislav_Chieslavovich
 		*);;
 	*);
 <=nrel_teacher: Kiui_Cezar_Antonovich; 
-<=>nrel_friend: Valickij_Alieksandr;Dunin_Marcinkievich_Vincent_Ivanovich;
+
 
 //=>nrel_workplace: Warsaw_Music_Institute_Building;church_of_st_johns;Vilna_Municipal_Theatre;Warsaw_Grand_Theatre_Building;
 =>nrel_place_of_birth: Ubel_village;
@@ -467,7 +467,6 @@ Moniuszko_Stanislav_Chieslavovich
 		*);;
 	*);
 <=nrel_teacher: Kiui_Cezar_Antonovich; 
-<=>nrel_friend: Valickij_Alieksandr;Dunin_Marcinkievich_Vincent_Ivanovich;
 
 //=>nrel_workplace: Warsaw_Music_Institute_Building;church_of_st_johns;Vilna_Municipal_Theatre;Warsaw_Grand_Theatre_Building;
 =>nrel_place_of_birth: Ubel_village;
@@ -802,6 +801,99 @@ opera_Galka
 	*);;
 */
 
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_author: collections_Home_Songwriters;;*]
+(*
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1844];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1859];;
+                *);;
+            *);;
+*);;
+
+
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Dunin_Marcinkievich_Vincent_Ivanovich;;*]
+(*
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1852];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1872];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_conductor:nrel_employee: Vilna_Municipal_Theatre;;*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1850];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1858];;
+																			*);;
+						*);;			
+*);;
+
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_organist: church_of_st_johns;;*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1840];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1858];;
+																			*);;
+
+*);;
+
+*);;
+
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Valickij_Alieksandr;;*]
+(*
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1840];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1872];;
+                *);;
+            *);;
+*);;
+
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=> nrel_fallen_in_love: Miullier_Alieksandra;;*]
 (*
     => nrel_start_time: ...
@@ -820,7 +912,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=> nrel_fallen_in_love: 
             *);;
 *);;
 
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Moniuszkos_House;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_dwelling: Moniuszkos_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания С.Ч. Монюшко в доме Монюшко](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -840,7 +932,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Moniusz
 *);;
 
 
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Freyer_August;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_teacher: Freyer_August;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко у Августа Фрейера](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -858,7 +950,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Freyer_Au
 																			*);;
 						*);;					
 *);;
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_teacher: Rungenhagen_Karl_Friedrich;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_teacher: Rungenhagen_Karl_Friedrich;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко у Карла Рунгенхагена](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -903,7 +995,14 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Liszt_Fra
 																			(*
 																				-> rrel_year: rrel_decimal: [1858];;
 																			*);;
-						*);;				
+						*);;
+						=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1872];;
+																			*);;
+						*);;	
 *);;
 
 
@@ -943,7 +1042,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organizat
 																			*);;
 						*);;			
 *);;
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Freemason_House;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_dwelling: Freemason_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания С.Ч. Монюшко в доме масонов](*<-lang_ru;;*);;
 	=> nrel_start_time: ...
@@ -961,7 +1060,7 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Freemaso
 																			*);;
 						*);;			
 *);;
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich =>nrel_dwelling: Muellers_House;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_dwelling: Muellers_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания С.Ч. Монюшко в доме Мюллеров](*<-lang_ru;;*);;
 	=> nrel_start_time: ...

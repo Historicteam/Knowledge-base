@@ -1,6 +1,6 @@
 church_of_st_johns
 => nrel_main_idtf:
-	[костёл Святых Иоаннов]
+	[Костёл Святых Иоаннов]
 	(*
 	<- lang_ru;;
 	*);
@@ -8,7 +8,7 @@ church_of_st_johns
 	(*
 	<- lang_en;;
 	*);
-	[касцёл Святых Янаў]
+	[Касцёл Святых Янаў]
 	(*
 	<- lang_by;;
 	*);
@@ -30,10 +30,10 @@ church_of_st_johns
 		format_openstreetmap;;
 	*);
 
-=> nrel_geographical_location: [54.682600, 25.288569]
+=> nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: ...
+	=> nrel_WGS_84_translation: [54.682600, 25.288569]
 		(*
 		-> ...
 			(*
