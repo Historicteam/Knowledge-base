@@ -1,0 +1,25 @@
+concept_civil
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гражданское здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие гражанского здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_civil
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Гражданские здания предназначаются для прожива­ния и обеспечения бытовых, общественных и культурных потребностей людей. ] (* <-lang_ru;; *);;
+		*);;
+	*);
+<= nrel_subdividing: 
+	...
+	(*
+		->concept_residential;
+concept_public;
+concept_administrative;;
+	*);;

@@ -1,0 +1,30 @@
+concept_building_god 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Здание богослужения]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие здания богослужения]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_building_god 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Здание богослужения - здание для верующий различных религий.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building;;
+		*);;
+	*);
+<= nrel_subdividing: 
+	...
+	(*
+		->concept_mosque;
+concept_supermarket;
+concept_zoobuilding_god;;
+	*);;

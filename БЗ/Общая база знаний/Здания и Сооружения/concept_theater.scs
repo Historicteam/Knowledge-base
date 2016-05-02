@@ -1,0 +1,25 @@
+concept_theater
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Театр]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие театра]
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+	Definition_of_theater
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Театр - здание в котором показывает театральные постановки]  (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_social;;
+		*);;
+	*);;
+

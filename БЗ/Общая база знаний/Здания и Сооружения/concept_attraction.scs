@@ -1,0 +1,31 @@
+concept_attraction
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Аттракцион]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие аттракцион]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_attraction
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Сооружение для развлечений в местах общественных гуляний.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_structure;;
+
+		*);;
+	*);
+=>nrel_inclusion:
+	...
+		(* 
+		-> concept_social;;
+		*);;
+
+

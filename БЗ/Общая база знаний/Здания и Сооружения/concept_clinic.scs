@@ -1,0 +1,31 @@
+concept_clinic
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Поликлиника]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие Поликлиники]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_clinic
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Лечебное заведение для приходящих больных, обслуживаемое врачами разных специальностей.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> 	
+concept_building_of_health;;
+		*);;
+	*);
+=> nrel_inclusion: 
+	...
+	(*
+->concept_buildingof_health;;
+	*);;
+
+

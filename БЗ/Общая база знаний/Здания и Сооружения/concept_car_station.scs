@@ -1,0 +1,24 @@
+concept_car_station 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Автовокзал]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Автовокзала]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_car_station 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Большая станция(здание) междугородного или пригородного автобусного сообщения.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+	*);;
+

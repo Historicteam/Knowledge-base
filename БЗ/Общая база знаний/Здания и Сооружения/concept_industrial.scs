@@ -1,0 +1,31 @@
+concept_industrial
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Промышленное здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие промышленного здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_industrial
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Промышленные здания - здания для обеспечения требуемых эксплуатационных режимов и создания опти­мальных условий трудовой деятельности людей. ](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_building;;
+		*);;
+	*);
+=>nrel_subdividing: 
+	...
+	(*
+->concept_factories;
+concept_utility ;
+concept_energy ;
+concept_warehousing;;
+	*);;

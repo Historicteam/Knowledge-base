@@ -1,0 +1,31 @@
+concept_cafe 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кафе]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятия Кафе]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_cafe 
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [заведение общественного питания и отдыха, похожее на небольшой ресторан, но с ограниченным по сравнению с рестораном ассортиментом продукции, также, возможно, — с самообслуживанием.](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->concept_restaurant;			
+		concept_building;;
+		*);;
+	*);
+=>nrel_inclusion:
+	...
+		(* 
+		-> concept_social;;
+		*);;
+
+

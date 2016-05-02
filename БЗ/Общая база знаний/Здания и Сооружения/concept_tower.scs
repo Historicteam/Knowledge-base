@@ -1,0 +1,25 @@
+concept_tower
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Башня]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие башни]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_tower
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Башня - высокое и узкое архитектурное сооружение. ] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> 	concept_structure;;
+
+		*);;
+	*);;
+
