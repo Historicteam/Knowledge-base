@@ -1,0 +1,108 @@
+Building_Brovary
+=> nrel_main_idtf:
+	[Здание бровара]
+	(*
+	<- lang_ru;;
+	*);
+	[Building Brovary]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак бровара]
+	(*
+	<- lang_by;;
+	*);
+	
+<-concept_building;
+<-concept_terrain_object;
+
+
+<= nrel_temporal_decomposition: 
+    {
+        Building_Brovary_of_the_monastery_of_Benedictine
+        (* 
+        => nrel_main_idtf:
+            [Здание бровара монастыря Бенедектинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Building Brovary of Benedictine Monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак бровара кляштара Бенедыктынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1682];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        *);
+        
+        
+        Building_Brovary_of_Spaso_Preobrazhensky_female_monastery
+        (*
+        => nrel_main_idtf:
+            [Здание бровара Спасо-Преоброженского женского монастыря]
+            (*
+            <- lang_ru;;
+            *);
+            [Building Brovary of Spaso Preobrazhensky female monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак бровара Спаса-Праабражэнскага жаночага манастыра]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1944];;
+                *);;
+            *);;
+        *)
+    };;
+	
+concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Building_Brovary;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения монастыря бенедектинок в Здание бровара ](*<-lang_ru;;*);;
+  
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1647];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1871];;
+            *);;
+        *);;
+*);;
+ 

@@ -1,0 +1,71 @@
+concept_necropolis
+
+<-sc_const;
+<-sc_node_not_relation;
+
+<-concept_funerary_monument;
+
+=> nrel_main_idtf:
+[некрополь]
+(*
+<- lang_ru;;
+*);
+[necropolis]
+(*
+<- lang_en;;
+*);
+[некрапаль]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Некрополь - место большого количества захоронений.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Некропаль - месца вялікай колькасці пахаванняў.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Necropolis - place a large number of graves.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+...
+(*
+<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+        ...
+       (*
+
+		->rrel_example: "file://content/necropolis.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

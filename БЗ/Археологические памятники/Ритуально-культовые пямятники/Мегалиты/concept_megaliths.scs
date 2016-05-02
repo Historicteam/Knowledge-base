@@ -1,0 +1,56 @@
+concept_megaliths
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[мегалит]
+(*
+<- lang_ru;;
+*);
+[megalith]
+(*
+<- lang_en;;
+*);
+[мегаліт]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Мегали́ты — сооружения из огромных каменных глыб, характерные в основном для финального неолита и энеолита ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Мегаліты - збудаванні з велізарных каменных груд, характэрныя ў асноўным для фінальнага неаліту і энеаліта]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Megaliths - the construction of huge boulders, characteristic mainly for the Final Neolithic and Chalcolithic]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_menhir;;
+	-> concept_cromlech;;
+	-> concept_dolmen;;
+	-> concept_cairn;;
+	*)
+;;

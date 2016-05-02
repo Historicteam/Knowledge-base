@@ -1,0 +1,56 @@
+concept_specific_type_monuments
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[специфические памятники]
+(*
+<- lang_ru;;
+*);
+[specific monuments]
+(*
+<- lang_en;;
+*);
+[спецыфічныя помнікі]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Специфические памятники- особый вид памятников ,который включает в себя клады ,затонувшие корабли,случайные находки,затопленные города или их части и другое]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Спецыфічныя помнікі- адмысловы выгляд помнікаў, які ўключае ў сябе скарбы, патанулыя караблі, выпадковыя знаходкі, затопленыя горада ці іх часткі і іншае]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Specific monuments- special kind of monuments, which includes treasures, shipwrecks, chance finds, flooded city or parts thereof, and more]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_treasure;;
+	-> concept_shipwreck;;
+	-> concept_chance_find;;
+	-> concept_flooded_city;;
+	*)
+;;

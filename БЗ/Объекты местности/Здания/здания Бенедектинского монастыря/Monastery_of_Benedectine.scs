@@ -1,0 +1,9 @@
+buidling_of_Monastery_of_Benedectine
+
+<-concept_building;
+
+=>nrel_main_idtf:
+[Здание монастыря бенедектинок](* <-lang_ru;; *);
+[buidling of Monastery of Benedectine](* <-lang_en;; *);;
+
+

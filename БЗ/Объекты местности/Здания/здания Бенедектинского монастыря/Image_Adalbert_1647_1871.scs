@@ -1,0 +1,11 @@
+Image_Adalbert_1647_1871
+=> nrel_main_idtf:
+		[Изображение костела Святого Войцеха в 1647-1871] (* <- lang_ru;; *);
+	<- sc_illustration;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents/sadalamber1800.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	
