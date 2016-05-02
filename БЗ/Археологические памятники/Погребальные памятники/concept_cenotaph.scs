@@ -1,0 +1,65 @@
+concept_cenotaph
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[кенотаф]
+(*
+<- lang_ru;;
+*);
+[cenotaph]
+(*
+<- lang_en;;
+*);
+[кенатаф]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Кенота́ф — надгробный памятник в месте, которое не содержит останков покойного, своего рода символическая могила]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Кенатаф - надмагільны помнік ў месцы, якое не ўтрымлівае над нябожчыкам, свайго роду сімвалічная магіла.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Cenotaph - tombstone in a place that does not contain the remains of the deceased, a kind of symbolic grave]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+...
+(*
+<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+        ...
+       (*
+
+		->rrel_example: "file://content/cenotaph.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

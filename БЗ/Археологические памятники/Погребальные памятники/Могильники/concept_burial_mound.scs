@@ -1,0 +1,70 @@
+concept_burial_mound
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[курганный могильник]
+(*
+<- lang_ru;;
+*);
+[burial mound]
+(*
+<- lang_en;;
+*);
+[курганны магільнік]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Курганный могильник-надмогильное сооружение из земли, дерна или камней.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Курганны магільнік-надмагільных збудаванняў з зямлі, дзёрну або камянёў.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Burial mounds-grave structures from the earth, turf or stone.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/burial_mound.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

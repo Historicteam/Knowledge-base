@@ -1,0 +1,113 @@
+Stable
+=> nrel_main_idtf:
+	[Конюшня]
+	(*
+	<- lang_ru;;
+	*);
+	[Stable]
+	(*
+	<- lang_en;;
+	*);
+	[Стайня]
+	(*
+	<- lang_by;;
+	*);
+	
+<-concept_building;
+<-concept_terrain_object;
+
+
+<= nrel_temporal_decomposition: 
+    {
+        Stable_of_the_monastery_of_Benedictine
+        (* 
+        => nrel_main_idtf:
+            [Конюшня монастыря Бенедектинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Stable of Benedictine Monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Стайня кляштара Бенедыктынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1682];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        *);
+        
+        
+        Stable_of_Spaso_Preobrazhensky_female_monastery
+        (*
+        => nrel_main_idtf:
+            [Конюшня Спасо-Преоброженского женского монастыря]
+            (*
+            <- lang_ru;;
+            *);
+            [Stable of Spaso Preobrazhensky female monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Стайня Спаса-Праабражэнскага жаночага манастыра]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1944];;
+                *);;
+            *);;
+        *)
+    };
+	
+ => nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9050399;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5561731;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
+ 

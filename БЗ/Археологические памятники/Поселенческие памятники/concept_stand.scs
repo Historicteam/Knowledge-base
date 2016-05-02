@@ -1,0 +1,76 @@
+concept_stand
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[стоянка]
+(*
+<- lang_ru;;
+*);
+[stand]
+(*
+<- lang_en;;
+*);
+[стаянка]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Стоянка — археологический термин для обозначения поселений эпох палеолита, неолита и бронзового века.
+Термин возник в XIX веке и первоначально обозначал поселения первобытных людей временного характера (стойбища), созданные для сезонной охоты или рыбной ловли. Впоследствии термин стали применять также к поселениям оседлых племён охотников и рыболовов.
+При раскопках стоянок археологи обычно находят очаги, остатки жилищ.....]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Стаянка - археалагічны тэрмін для абазначэння паселішчаў эпохі палеаліту, неаліту і бронзавага веку.
+Тэрмін узнік у XIX стагоддзі і першапачаткова абазначаў паселішчы першабытных людзей часовага характару (стойбішча), створаныя для сезоннай палявання або рыбнай лоўлі. Пасля тэрмін сталі ўжываць таксама да паселішчам аселых плямёнаў паляўнічых і рыбаловаў.
+Пры раскопках стаянак археолагі звычайна знаходзяць агмені, рэшткі жылля .....] 
+(*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Stand - archaeological term for the era settlements Paleolithic, Neolithic and Bronze Age.
+The term originated in the XIX century and originally stood for the settlement of primitive people of a temporary nature (camp), designed for seasonal hunting and fishing. Subsequently, the term began to be used also to settlements of sedentary tribes of hunters and fishermen.
+During excavations, archaeologists usually find parking pockets, remains of dwellings]
+   (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/stand.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

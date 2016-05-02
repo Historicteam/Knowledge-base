@@ -1,0 +1,74 @@
+concept_cairn
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[каирн]
+(*
+<- lang_ru;;
+*);
+[cairn]
+(*
+<- lang_en;;
+*);
+[каірн]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Каирн — искусственное сооружение в виде груды камней, часто конической формы. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Каірн - штучнае збудаванне ў выглядзе груды камянёў, часта канічнай формы.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Cairn - man-made structure in the form of a pile of stones, often conical shape.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/cairn.png"
+
+			(*
+
+			=> nrel_format: format_png;;
+
+			*);;
+
+		*);;
+
+	*);;

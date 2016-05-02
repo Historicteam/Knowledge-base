@@ -1,0 +1,54 @@
+concept_funerary_monument
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[погребальный памятник]
+(*
+<- lang_ru;;
+*);
+[funerary monument]
+(*
+<- lang_en;;
+*);
+[пахавальны помнік]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Погребальный памятник- особый вид памятников ,который включает в себя курганные могильники, некрополи, жертвенники, грунтовые могильники]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Пахавальны памятник- адмысловы выгляд помнікаў, які ўключае ў сябе курганныя могільнікі, некропалі, ахвярнікі, грунтавыя магільнікі]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Funeral monument- special kind of monuments, which includes the burial grounds, cemeteries, altars, burial ground]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_mound;;
+	-> concept_cenotaph;;
+	*)
+;;

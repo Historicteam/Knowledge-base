@@ -1,0 +1,146 @@
+Residential_complex
+=> nrel_main_idtf:
+	[Здание жилого корпуса]
+	(*
+	<- lang_ru;;
+	*);
+	[Residential complex]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак жылога корпуса]
+	(*
+	<- lang_by;;
+	*);
+	
+<-concept_building;
+<-concept_terrain_object;
+
+	
+<= nrel_temporal_decomposition: 
+    {
+        Residential_complex_of_the_monastery_of_Benedictine
+        (* 
+        => nrel_main_idtf:
+            [Здание жилого корпуса монастыря Бенедектинок]
+            (*
+            <- lang_ru;;
+            *);
+            [Residental complex of Benedictine Monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак жылога корпуса кляштара Бенедыктынак]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1647];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        *);
+        
+        
+        Residential_complex_of_Spaso_Preobrazhensky_female_monastery
+        (*
+        => nrel_main_idtf:
+            [Здание жилого корпуса Спасо-Преоброженского женского монастыря]
+            (*
+            <- lang_ru;;
+            *);
+            [Residential complex of Spaso Preobrazhensky female monastery]
+            (*
+            <- lang_en;;
+            *);
+            [Будынак жылога корпуса Спаса-Праабражэнскага жаночага манастыра]
+            (*
+            <- lang_by;;
+            *);;
+            
+        => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1871];;
+                *);;
+            *);;
+        => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1944];;
+                *);;
+            *);;
+        *)
+    };
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:[ file://content/mememens35-05.jpg]
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+	
+ => nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9050399;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5561731;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
+
+concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Residential_complex;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения монастыря бенедектинок в здании жилого корпуса ](*<-lang_ru;;*);;
+  
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1647];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1871];;
+            *);;
+        *);;
+*);;
+ 
