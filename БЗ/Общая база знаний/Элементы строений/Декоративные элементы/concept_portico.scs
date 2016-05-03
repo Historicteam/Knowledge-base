@@ -1,0 +1,50 @@
+concept_portico
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[портик](*<- lang_ru;;*);
+[portico](*<- lang_en;;*);
+[порцік](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Портик — крытая галерея, перекрытие которой опирается на колонны, поддерживающие его или непосредственно, или с помощью лежащего на них архитрава, или посредством перекинутых между ними арок.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Порцік - крытая галерэя, перакрыцце якой абапіраецца на калоны, якія падтрымліваюць яго ці непасрэдна, або з дапамогай які ляжыць на іх архітрава, ці праз перакінуць паміж імі арак.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/portik.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;
+

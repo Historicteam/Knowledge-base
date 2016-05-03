@@ -50,6 +50,8 @@ concept_decorative_element
 -> concept_urn;;
 -> concept_dialling_column;;
 -> concept_voluta;;
+-> concept_capital;;
+-> concept_portico;;
 *)
 ;;
 

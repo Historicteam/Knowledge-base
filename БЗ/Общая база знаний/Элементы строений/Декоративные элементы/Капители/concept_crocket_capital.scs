@@ -1,0 +1,50 @@
+concept_crocket_capital
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[лиственная капитель](*<- lang_ru;;*);
+[crocket capital](*<- lang_en;;*);
+[лісцяная капітэль](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Лиственная капитель — тип капители с лиственным орнаментом.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Лісцяная капітэль - тып капітэлі з лісцяным арнаментам.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/listv_kapitel.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;
+

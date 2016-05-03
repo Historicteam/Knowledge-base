@@ -1,0 +1,37 @@
+concept_capital
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[капитель](*<- lang_ru;;*);
+[capital](*<- lang_en;;*);
+[капітэль](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Капитель — венчающая часть колонны или пилястры.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Капітэль - частка калоны або пілястры.](*<- lang_by;;*);;
+*);;
+*);
+<=nrel_subdividing:
+
+ ...
+
+(*
+
+-> concept_crocket_capital;;
+-> concept_bowl_capital;;
+
+*)
+
+;;
+
