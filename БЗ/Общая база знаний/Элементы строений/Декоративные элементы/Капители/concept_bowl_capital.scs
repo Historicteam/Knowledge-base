@@ -1,0 +1,50 @@
+concept_bowl_capital
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[чашеобразная капитель](*<- lang_ru;;*);
+[bowl capital](*<- lang_en;;*);
+[чашэпадобная капітэль](*<- lang_by;;*);
+<- rrel_key_sc_element:
+...
+(*
+
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Чашеобразная капитель — тип капители в форме чашы.](*<- lang_ru;;*);;
+*);
+...
+(*
+-> rrel_example:
+[Чашэпадобная капітэль - тып капітэлі ў выглядзе чашы.](*<- lang_by;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/bowl.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;
+
