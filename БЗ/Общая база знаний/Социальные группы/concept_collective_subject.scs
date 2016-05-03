@@ -1,0 +1,56 @@
+concept_collective_subject
+
+=>nrel_main_idtf:
+	[Коллективный субъект] (* <-lang_ru;; *);
+
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Коллективный субъект - объективно существующая устойчивая общность, совокупность индивидов, взаимодействующих определенным образом на основе нескольких признаков, в частности разделяемых ожиданий каждого члена группы в отношении других.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<=nrel_subdividing: collective_subject_subdividing_by_size
+	(*
+		=> nrel_main_idtf: [Разбиение коллективных субъектов по размерам](* <-lang_ru;; *);;
+
+		-> concept_small_social_group;;
+		-> concept_big_social_group;;
+	*);
+
+<=nrel_subdividing: collective_subject_subdividing_by_type
+	(*
+		=> nrel_main_idtf: [Разбиение коллективных субъектов по типу](* <-lang_ru;; *);;
+
+		-> concept_demographic_group;;
+		-> concept_stratification_group;;
+		-> concept_territorial_group;;
+		-> concept_professional_group;;
+		-> concept_related_group;;
+		-> concept_purpose_rational_group;;
+	*);
+
+<=nrel_subdividing: collective_subject_subdividing_by_organisation
+	(*
+		=> nrel_main_idtf: [Разбиение коллективных субъектов по организации](* <-lang_ru;; *);;
+		-> concept_formal_group;;
+		-> concept_informal_group;;
+
+	*);
+
+<=nrel_subdividing: collective_subject_subdividing_by_real
+	(*
+		=> nrel_main_idtf: [Разбиение коллективных субъектов по реальности](* <-lang_ru;; *);;
+		-> concept_real_group;;
+		-> concept_nominal_group;;
+
+	*);;

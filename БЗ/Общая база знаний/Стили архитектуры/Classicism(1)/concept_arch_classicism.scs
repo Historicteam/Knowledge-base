@@ -3,21 +3,10 @@ concept_arch_classicism
 	[классицизм] (* <-lang_ru;; *);
 	[сlassicism] (* <-lang_en;; *);
 	[класіцызму] (* <-lang_by;; *);
-
-
-
-<<<<<<< HEAD:БЗ/Общая база знаний/Стили архитектуры/Classicism(1)/classicism.scs
 ->doric_column;
 ->ionic_column;
 ->tuscan_order;
 ->composite_order;
-
-=======
-=>nrel_inclusion: concept_doric_column;
-=>nrel_inclusion: concept_ionic_column;
-=>nrel_inclusion: concept_tuscan_order;
-=>nrel_inclusion: concept_composite_order;
->>>>>>> 6b95115e18433f40923e80364c7a58d49f4b5711:БЗ/Общая база знаний/Стили архитектуры/Classicism(1)/concept_arch_classicism.scs
 
 <- rrel_key_sc_element: 
 	...
