@@ -13,7 +13,11 @@ Warsaw_Grand_Theatre_Building
 	<- lang_by;;
 	*);
 	
-<= nrel_subdividing: Warsaw;
+<- ... (* 
+	=> nrel_subdividing: Warsaw;;
+*);
+
+
 
 <-concept_building
 ;;
