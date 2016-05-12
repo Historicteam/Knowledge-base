@@ -4,6 +4,54 @@ concept_arch_romanesque_style
 	[romanesque architectural style] (* <-lang_en;; *);
 	[раманскі архітэктурны стыль] (* <-lang_by;; *);
 
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1000];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1099];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+=> nrel_finish_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1590];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1600];;
+                    *);;
+                *);;
+            *);;
+        *);
+
 
 =>nrel_inclusion: concept_semi_circural_arch;
 =>nrel_inclusion: concept_bound_column;

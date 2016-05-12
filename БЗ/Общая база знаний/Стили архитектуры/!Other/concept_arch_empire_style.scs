@@ -1,34 +1,12 @@
-concept_arch_pseudo_gothic
+concept_arch_empire_style
 =>nrel_main_idtf:
-	[псевдоготика] (* <-lang_ru;; *);
-	[pseudo-gothic] (* <-lang_en;; *);
-	[псеўдаготыка] (* <-lang_by;; *);
+	[ампир] (* <-lang_ru;; *);
+	[empire style] (* <-lang_en;; *);
+	[ампір] (* <-lang_by;; *);
+
+<-concept_pilaster;
 
 => nrel_start_time: ...
-        (*
-        <= nrel_time_period: ...
-            (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1770];;
-                    *);;
-                *);;
-          
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1780];;
-                    *);;
-                *);;
-            *);;
-        *);
-
-=> nrel_finish_time: ...
         (*
         <= nrel_time_period: ...
             (*
@@ -52,6 +30,29 @@ concept_arch_pseudo_gothic
             *);;
         *);
 
+=> nrel_finish_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1830];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1840];;
+                    *);;
+                *);;
+            *);;
+        *);
 
 <- rrel_key_sc_element: 
 	...
@@ -61,15 +62,14 @@ concept_arch_pseudo_gothic
 		...
 		(*
 		-> rrel_example:
-		[Псевдоготика - направление в русской архитектуре екатерининской эпохи, основанное на вольном сочетании элементов европейской готики и московского барокко.]
+		[Ампир - стиль позднего классицизма в архитектуре, особенность которого заключается в обязательном наличии колонн, пилястров и других классических элементов.]
 			(*
 			<- lang_ru;;
 			*);;
-
 		*);;
 *);
 
-		<- rrel_key_sc_element: 
+<- rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
@@ -77,7 +77,7 @@ concept_arch_pseudo_gothic
 		...
 		(*
 		-> rrel_example:
-		[Pseudo-gothic - an architectural movement based on the free combination of elements of European Gothic and Moscow baroque]
+		[Empire style - the style of late classicism in architecture, a feature of which is the mandatory presence of columns, pilasters and other classical elements.]
 			(*
 			<- lang_en;;
 			*);;
@@ -85,7 +85,7 @@ concept_arch_pseudo_gothic
 		*);;
 *);
 
-		<- rrel_key_sc_element: 
+<- rrel_key_sc_element: 
 	...
 	(*
 	<-sc_explanation;;
@@ -93,10 +93,14 @@ concept_arch_pseudo_gothic
 		...
 		(*
 		-> rrel_example:
-		[Псеўдаготыка - кірунак у рускай архітэктуры екацярынінскай эпохі, заснаваны на вольным спалучэнні элементаў еўрапейскай готыкі і маскоўскага барока.]
+		[Ампір - асаблівасць якога заключаецца ў абавязковым наяўнасці калон, пілястраў і іншых класічных элементаў.]
 			(*
 			<- lang_by;;
 			*);;
 
 		*);;
-	*);;
+	*);
+
+<-The_restaurant_Potsdam;;
+
+

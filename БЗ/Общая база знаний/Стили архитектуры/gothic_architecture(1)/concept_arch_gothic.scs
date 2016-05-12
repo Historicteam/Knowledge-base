@@ -4,6 +4,53 @@ concept_arch_gothic
 	[gothic] (* <-lang_en;; *);
 	[гатычны стыль] (* <-lang_by;; *);
 
+=> nrel_start_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1100];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1110];;
+                    *);;
+                *);;
+            *);;
+        *);
+
+=> nrel_finish_time: ...
+        (*
+        <= nrel_time_period: ...
+            (*
+                => nrel_start_time: ...
+                (*
+                <-concept_time_point;;
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1590];;
+                    *);;
+                *);;
+          
+                => nrel_finish_time: ...
+                (*
+                <-concept_time_point;;          
+                => nrel_translation_in_the_Gregorian_calendar: ...
+                    (*
+                    -> rrel_year: rrel_decimal: [1600];;
+                    *);;
+                *);;
+            *);;
+        *);
 
 =>nrel_inclusion: concept_pointed_arch;
 =>nrel_inclusion: concept_flying_buttresses;

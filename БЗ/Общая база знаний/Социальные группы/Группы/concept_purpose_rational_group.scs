@@ -1,0 +1,20 @@
+concept_purpose_rational_group
+
+=>nrel_main_idtf:
+	[Целерациональная группа] (* <-lang_ru;; *);
+
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Целерациональная группа – это группа людей, объединенных совместным действием по достижению строго очерченной цели.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

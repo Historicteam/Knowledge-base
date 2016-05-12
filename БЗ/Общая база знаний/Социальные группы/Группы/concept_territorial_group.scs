@@ -1,0 +1,20 @@
+concept_territorial_group
+
+=>nrel_main_idtf:
+	[Территориальная группа] (* <-lang_ru;; *);
+
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Территориальная группа – это группа людей, объединенная согласно территориальной локализации.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;
