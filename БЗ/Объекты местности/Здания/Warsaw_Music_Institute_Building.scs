@@ -1,0 +1,27 @@
+Warsaw_Music_Institute_Building
+=> nrel_main_idtf:
+	[Музыкальный университет им. Фредерика Шопена]
+	(*
+	<- lang_ru;;
+	*);
+	[Music University Frederic Chopin]
+	(*
+	<- lang_en;;
+	*);
+	[Музычны ўніверсітэт імя Фрыдэрыка Шапэна]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Музыкальный институт.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
