@@ -39,7 +39,21 @@ building_of_the_church_of_St_Joseph
             <- lang_by;;
             *);;
             
-        
+	=> nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1652];;
+                *);;
+            *);;
+            => nrel_end_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_year: rrel_decimal: [1872];;
+                *);;
+            *);;
+       
         *);
         
         building_of_Minsk_city_archive
