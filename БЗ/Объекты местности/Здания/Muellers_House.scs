@@ -13,6 +13,7 @@ Muellers_House
 	<- lang_by;;
 	*);
 <-concept_building;
+<-concept_terrain_object;
 
 => nrel_openstreetmap:
 	[Muellers_House] 

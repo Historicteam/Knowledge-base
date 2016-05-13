@@ -93,6 +93,6 @@ Freemason_House
 			*);;
 		*);;
 	*);
-->concept_building;
-->concept_terrain_object
+<-concept_building;
+<-concept_terrain_object
 ;;
