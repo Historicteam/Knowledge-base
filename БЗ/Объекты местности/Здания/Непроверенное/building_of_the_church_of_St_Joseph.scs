@@ -76,7 +76,7 @@ Image_of_building_of_the_church_of_St_Joseph_1800
 	[Выява будынку касцёла святога Язэпа 1800] (* <- lang_by;; *);;
 
 concept_situation->[*
-        Building_trade_rows 
+        building_of_the_church_of_St_Joseph 
         <- rrel_key_sc_element: Image_of_building_of_the_church_of_St_Joseph_1800
 	(*
 	<- sc_illustration;;
@@ -115,7 +115,7 @@ Image_of_building_of_the_church_of_St_Joseph_1900
 
  
 concept_situation->[*
-        Building_trade_rows 
+        building_of_the_church_of_St_Joseph
         <- rrel_key_sc_element: Image_of_building_of_the_church_of_St_Joseph_1900
 	(*
 	<- sc_illustration;;

@@ -240,7 +240,7 @@ Image_of_residential_housing_of_male_Bernardine_monastery
 		[Выява будынку жылога корпуса мужчынскага манастыра бернардынаў] (* <- lang_by;; *);;
 
 concept_situation->[*
-        Building_trade_rows 
+        building_of_residential_housing_of_male_Bernardine_monastery 
         <- rrel_key_sc_element: Image_of_residential_housing_of_male_Bernardine_monastery 
 	(*
 	<- sc_illustration;;
