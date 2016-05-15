@@ -19,11 +19,11 @@ concept_terminus
 		...
 		(* 
 		-> concept_structure;
-concept_complex_construction;;			
+concept_complex_construction;		
 			concept_building;;
 		*);;
 	*);
-	<= nrel_subdividing: 
+=> nrel_subdividing: 
 ...
 	(*
 		->concept_railway_station;

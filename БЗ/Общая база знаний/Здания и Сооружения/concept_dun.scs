@@ -1,0 +1,18 @@
+concept_dun
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дун]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие дуна]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_dun
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Дун - две плетёных изгороди, заполненных между собой плотно набитой землёй. Возводились дуны на островах Шотландских и Ирландских болот. Позже — любая каменная стена. ] (* <-lang_ru;; *);;
+		*);;
+	*);;
