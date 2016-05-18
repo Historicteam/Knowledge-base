@@ -13,6 +13,8 @@ Freemason_House
     <- lang_by;;
   *);
 
+<- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
+
 => nrel_openstreetmap:
 	[Freemason_House] 
 	(*
@@ -93,6 +95,6 @@ Freemason_House
 			*);;
 		*);;
 	*);
-->concept_building;
+<-concept_building;
 ->concept_terrain_object
 ;;

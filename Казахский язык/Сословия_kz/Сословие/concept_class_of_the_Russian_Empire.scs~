@@ -1,9 +1,0 @@
-concept_class_of_the_Russian_Empire
-=>nrel_main_idtf:
-	[Ресей империясының қауымы] (* <-lang_kz;; *);;
-
-The_definition_of_class_of_the_Russian_Empire
-	<= nrel_sc_text_translation: ... (* 
-		-> rrel_example:
-		[Бұл термин Ресей империясының заңдылығымен белгіленген, сол елдің ерекше құқығы бар азаматтарды бейнелейді, ] (* <-lang_kz;; *);;
-	*);;

@@ -1,6 +1,0 @@
-ui_start_sc_element 
-	-> the_Republic_of_Belarus;
-
-	=> nrel_main_idtf: 
-    [стартавы sc-элемент] 
-    (* <- lang_by;; *);;
