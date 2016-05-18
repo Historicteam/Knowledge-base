@@ -1,0 +1,123 @@
+is_of_history_of_city_Minsk
+=>nrel_main_idtf:
+[Интеллектуальная справочная система по истории города Минска](*<-lang_ru;;*);
+<-student_project;;
+
+is_of_history_of_city_Minsk_team_autamn_2014
+ <- team;
+ => nrel_main_idtf: [команда интеллектуальной справочной системы по истории города Минска (осень 2014)] (* <- lang_ru;; *);
+ -> rrel_scientific_consultant: Gubarevich_Anastasia_Vkadimirovna;
+ -> Natashkin_Alexandr_Olegovich;
+ -> Belchikov_Anatolii;
+ -> Seluk_Alexandr;;
+
+is_of_history_of_city_Minsk_team_spring_2015
+ <- team;
+ => nrel_main_idtf: [команда интеллектуальной справочной системы по истории города Минска (весна 2015)] (* <- lang_ru;; *);
+ -> rrel_scientific_consultant: Gubarevich_Anastasia_Vkadimirovna;
+ -> Natashkin_Alexandr_Olegovich; 
+ -> Karpach_Vladimir_Nikolaevich; 
+ -> Kovalev_Evgenii_Viktorovich;
+ -> Chernih_Olga;;
+
+is_of_history_of_city_Minsk_team_autamn_2015
+ <- team;
+ => nrel_main_idtf: [команда интеллектуальной справочной системы по истории города Минска (осень 2015)] (* <- lang_ru;; *);
+ -> rrel_scientific_consultant: Gubarevich_Anastasia_Vkadimirovna;
+ -> Natashkin_Alexandr_Olegovich; Kovalev_Evgenii_Viktorovich; Korolkov_Kirill_Petrovich; Pavlovskii_Vladislav_Edyardovich; Yakybenko_Daniil_Andreevich; Semenyaka_Anatolii_Fedorovich; Lyanchevskii_Aleksei_Vitalievich;;
+
+is_of_history_of_city_Minsk_team_spring_2016
+ <- team;
+ => nrel_main_idtf: [команда интеллектуальной справочной системы по истории города Минска (весна 2016)] (* <- lang_ru;; *);
+ -> rrel_scientific_consultant: Gubarevich_Anastasia_Vkadimirovna;
+ -> Natashkin_Alexandr_Olegovich; Kovalev_Evgenii_Viktorovich; Korolkov_Kirill_Petrovich; Pavlovskii_Vladislav_Edyardovich;
+ Semenyaka_Anatolii_Fedorovich; Lyanchevskii_Aleksei_Vitalievich;;
+
+concept_situation->[*is_of_history_of_city_Minsk => nrel_executor: is_of_history_of_city_Minsk_team_autamn_2014;;*]
+ (*
+	=> nrel_start_time: ...
+	(*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [01];;
+		-> rrel_month: rrel_decimal: [09];;
+		-> rrel_year: rrel_decimal: [2014];;
+                *);;
+            *);;
+    	    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [25];;
+		-> rrel_month: rrel_decimal: [12];;
+		-> rrel_year: rrel_decimal: [2014];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*is_of_history_of_city_Minsk => nrel_executor: is_of_history_of_city_Minsk_team_spring_2015;;*]
+ (*
+	=> nrel_start_time: ...
+	(*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [01];;
+		-> rrel_month: rrel_decimal: [02];;
+		-> rrel_year: rrel_decimal: [2015];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [31];;
+		-> rrel_month: rrel_decimal: [05];;
+		-> rrel_year: rrel_decimal: [2015];;
+                *);;
+            *);;
+*);;
+
+concept_situation->[*is_of_history_of_city_Minsk => nrel_executor: is_of_history_of_city_Minsk_team_autamn_2015;;*]
+ (*
+	=> nrel_start_time: ...
+	(*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [01];;
+		-> rrel_month: rrel_decimal: [09];;
+		-> rrel_year: rrel_decimal: [2015];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [25];;
+		-> rrel_month: rrel_decimal: [12];;
+		-> rrel_year: rrel_decimal: [2015];;
+                *);;
+            *);;
+*);;
+
+
+concept_situation->[*is_of_history_of_city_Minsk => nrel_executor: is_of_history_of_city_Minsk_team_spring_2016;;*]
+ (*
+	=> nrel_start_time: ...
+	(*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [01];;
+		-> rrel_month: rrel_decimal: [02];;
+		-> rrel_year: rrel_decimal: [2016];;
+                *);;
+            *);;
+    => nrel_finish_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+                -> rrel_day: rrel_decimal: [31];;
+		-> rrel_month: rrel_decimal: [05];;
+		-> rrel_year: rrel_decimal: [2016];;
+                *);;
+            *);;
+*);;

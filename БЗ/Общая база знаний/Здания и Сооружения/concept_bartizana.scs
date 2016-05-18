@@ -1,0 +1,32 @@
+concept_bartizana
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бартизана]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие бартизаны]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_bartizana
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ Бартизана - сторожевая башня, располагавшейся между двумя башнями на бруствере или парапете куртины — оборонительной стены](* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+
+		->concept_tower;
+concept_fortification;
+concept_constructions;;
+
+		*);;
+	*);;
+
+
+ 
+
+

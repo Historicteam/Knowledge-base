@@ -1,0 +1,31 @@
+concept_production_building
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Производственное здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие производственного здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_production_building
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Производственные здания(промышленные) - предназначены для размещения промышленных и сельскохозяйственных производств. В таких зданиях должны быть созданы необходимые условия для труда людей и эксплуатации технологического оборудования. К ним относятся заводы, фабрики, теплицы, склады кормов и т. п.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+	*);
+=>nrel_subdividing: 
+	...
+	(*
+		->concept_factories;
+concept_utility ;
+    concept_energy ;
+    concept_warehouses ;;
+	*);;

@@ -1,0 +1,25 @@
+concept_administrative
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гражданское здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие гражанского здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_administrative
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Административные здания - здания, объединенные общей архитектурной задачей создания среды для работы управленческого аппарата государственных, хозяйственных, общественных организаций и учреждений.]  (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		->					
+        concept_building;;
+		*);;
+	*);;
+

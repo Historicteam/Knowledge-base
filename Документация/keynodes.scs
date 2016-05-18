@@ -1,0 +1,101 @@
+rrel_scientific_consultant
+=> nrel_main_idtf:
+	[научный консультант']
+	(*
+	<- lang_ru;;
+	*);
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;;
+
+Gubarevich_Anastasia_Vkadimirovna
+=> nrel_main_idtf:
+	[Губаревич Анастасия Владимировна]
+	(*
+	<- lang_ru;;
+	*);;
+
+Natashkin_Alexandr_Olegovich
+=> nrel_main_idtf:
+	[Наташкин Александр Олегович]
+	(*
+	<- lang_ru;;
+	*);;
+
+Kovalev_Evgenii_Viktorovich
+=> nrel_main_idtf:
+	[Ковалёв Евгений Викторович]
+	(*
+	<- lang_ru;;
+	*);;
+
+Korolkov_Kirill_Petrovich
+=> nrel_main_idtf:
+	[Корольков Кирилл Петрович]
+	(*
+	<- lang_ru;;
+	*);;
+
+Pavlovskii_Vladislav_Edyardovich
+=> nrel_main_idtf:
+	[Павловский Владислав Эдуардович]
+	(*
+	<- lang_ru;;
+	*);;
+
+Semenyaka_Anatolii_Fedorovich
+=> nrel_main_idtf:
+	[Семеняка Анатолий Фёдорович]
+	(*
+	<- lang_ru;;
+	*);;
+
+Lyanchevskii_Aleksei_Vitalievich
+=> nrel_main_idtf:
+	[Лянчевский Алексей Витальевич]
+	(*
+	<- lang_ru;;
+	*);;
+
+Natashkin_Alexandr_Olegovich
+=> nrel_main_idtf:
+	[Наташкин Александр Олегович]
+	(*
+	<- lang_ru;;
+	*);;
+
+Belchikov_Anatolii
+=> nrel_main_idtf:
+	[Бельчиков Анатолий Сергеевич]
+	(*
+	<- lang_ru;;
+	*);;
+
+Seluk_Alexandr
+=> nrel_main_idtf:
+	[Селюк Александ Борисович]
+	(*
+	<- lang_ru;;
+	*);;
+
+Karpach_Vladimir_Nikolaevich
+=> nrel_main_idtf:
+	[Карпач Владимир Николаевич]
+	(*
+	<- lang_ru;;
+	*);;
+
+Chernih_Olga
+=> nrel_main_idtf:
+	[Черных Ольги Павловна]
+	(*
+	<- lang_ru;;
+	*);;
+
+Yakybenko_Daniil_Andreevich
+=> nrel_main_idtf:
+	[Якубенко Даниил Андреевич]
+	(*
+	<- lang_ru;;
+	*);;

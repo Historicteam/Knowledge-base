@@ -21,6 +21,9 @@ Minsk_Railway_Station_Building
 		format_openstreetmap;;
 	*);
 
+<-concept_terrain_object;
+<-concept_building;
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

@@ -1,0 +1,23 @@
+concept_utility
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Вспомогательные здания]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие звспомогательного здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_utility
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Вспомогательные здания- здание предназначенное для поддержания основных сооружений или зданий.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+	*);;

@@ -59,5 +59,6 @@ Korkozovichs_House
 			*);;
 		*);;
 	*);
+<-concept_terrain_object;
 <-concept_building
 ;;

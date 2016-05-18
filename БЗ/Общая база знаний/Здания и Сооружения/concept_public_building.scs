@@ -1,0 +1,24 @@
+concept_public_building
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Общественное здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие общественного здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_public_building
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Общественные здания - здания, предназначенные для размещения в них учреждений культурно-бытового обслуживания населения, административные учреждений и т.д.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;
+concept_civil;;
+		*);;
+	*);;

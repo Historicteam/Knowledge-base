@@ -22,6 +22,7 @@ church_of_st_johns
 	<- lang_by;;
 	*);
 <-concept_building;
+<-concept_terrain_object;
 
 => nrel_openstreetmap:
 	[church_of_st_johns] 

@@ -1,0 +1,23 @@
+concept_energy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Энергетическое здание]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие энергетического здания]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	Definition_of_energy
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Энергетические здания- здание предназначенное для поддержания или для создания необходиого энергетического потенциала.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> concept_building;;
+		*);;
+	*);;

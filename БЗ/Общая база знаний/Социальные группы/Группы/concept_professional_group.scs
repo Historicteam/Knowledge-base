@@ -1,0 +1,20 @@
+concept_professional_group
+
+=>nrel_main_idtf:
+	[Профессиональная группа] (* <-lang_ru;; *);
+
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Профессиональная группа – это группа людей, объединенная по роду деятельности.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;
