@@ -1,8 +1,0 @@
-nrel_employee => nrel_main_idtf:[супрацоўнік] (* <- lang_by;; *);;
-nrel_surname => nrel_main_idtf:[прозвішча] (* <- lang_by;; *);;
-nrel_authors => nrel_main_idtf: [аўтары*] (* <- lang_by;; *);;
-nrel_author => nrel_main_idtf: [аўтар*] (* <- lang_by;; *);;
-sc_definition 
-	=> nrel_main_idtf: [sc-текст определения] (* <- lang_ru;; *);
-	=> nrel_main_idtf: [sc-тэкст азначэння] (* <- lang_by;; *);
-	=> nrel_main_idtf: [sc-text definition] (* <- lang_en;; *);;

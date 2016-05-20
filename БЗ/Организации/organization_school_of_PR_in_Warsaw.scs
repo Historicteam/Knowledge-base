@@ -13,4 +13,19 @@ organization_school_of_PR_in_Warsaw
 	<- lang_by;;
 	*);
 <-concept_school;
+=> nrel_location: building_WarsawPR_school (* 
+	=> nrel_main_idtf:
+	[Здание школы пиаров в Варшаве]
+	(*
+	<- lang_ru;;
+	*);
+	[Building of PR School in Warsaw]
+	(*
+	<- lang_en;;
+	*);;
+	<- ...(*
+		=> nrel_subdividing: Warsaw;;	
+	*);;
+	<- concept_building;;
+*);
 <-concept_educational_institution;;

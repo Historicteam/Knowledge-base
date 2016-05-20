@@ -15,7 +15,7 @@ scp_program -> proc_of_finding_buildings
 		 	-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _not_checked;;
 
                  	=> nrel_goto: .proc_of_finding_buildings_operator7;;
-			*);; 		         	
+			*);;
 
 		// Looking for all output arcs from the person
 		->.proc_of_finding_buildings_operator2 
@@ -36,56 +36,337 @@ scp_program -> proc_of_finding_buildings
 			<- searchElStr3;;
 		 	-> rrel_1: rrel_fixed: rrel_scp_var: _not_checked;;
 			-> rrel_2: rrel_assign: rrel_scp_var: _arc_for_del;;
-			-> rrel_3: rrel_assign: rrel_scp_var: _elem;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _abstract_place;; // CAN BE A HOUSE
 
-                 	=> nrel_then: .proc_of_finding_buildings_operator4;;
+                 	=> nrel_then: .proc_of_finding_buildings_operator4_0;;
                  	=> nrel_else: .proc_of_finding_buildings_operator13;;
                  	*);;
-
-		-> .proc_of_finding_buildings_operator4
-			(*
-			<- searchElStr3;;
-		 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
-			-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _elem;;
-
-                 	=> nrel_then: .proc_of_finding_buildings_operator5;;
-                 	=> nrel_else: .proc_of_finding_buildings_operator6;;
-                 	*);;
-
-		-> .proc_of_finding_buildings_operator5 
-			(*
-			<- genElStr3;;
-		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
-			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _elem;;
-
-                 	=> nrel_goto: .proc_of_finding_buildings_operator5.1;;
-			*);;
-
-		->.proc_of_finding_buildings_operator5.1 
-			(*
-			<- searchSetStr5;;
-		 	-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
-			-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _elem;;
-            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
-		 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
-	         
-            -> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
-		 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
-		 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
-
-                 	=> nrel_goto: .proc_of_finding_buildings_operator6;;
-			*);;
-
-		-> .proc_of_finding_buildings_operator6 
+		
+		-> .proc_of_finding_buildings_operator3_1 
 			(*
 			<- eraseEl;;
 		 	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc_for_del;;
 
                  	=> nrel_goto: .proc_of_finding_buildings_operator3;;
-		 	*);;
+		 	*);; 
+
+		
+		// Verify whether the physical place is a building	
+		->.proc_of_finding_buildings_operator4_0
+				(*
+				<- searchElStr3;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc233;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_000;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator4;;
+		    *);;
+
+			// Check whether the abstract place is in the answer. If it is in the answer, skip it
+			->.proc_of_finding_buildings_operator4_000
+			(*
+				<- searchElStr3;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+				-> rrel_2: rrel_assign: rrel_scp_var: _arc1_1;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_000_5;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator4_001;;
+			*);;
+
+			-> .proc_of_finding_buildings_operator4_000_5 (*
+				<- printEl;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+				=>nrel_goto: .proc_of_finding_buildings_operator4_000_6;;
+			*);;
+
+			->.proc_of_finding_buildings_operator4_000_6
+			(*
+				<- searchSetStr5;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var:  _person;;
+				-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1_1_1;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+		    		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1_1_2;;
+			 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
+			 
+		    		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+
+		         	=> nrel_goto: .proc_of_finding_buildings_operator3_1;;
+			*);;
+
+
+
+		
+			// Start calling recursive
+			-> .proc_of_finding_buildings_operator4_001 (*
+				<- call;;
+				-> rrel_1: rrel_fixed: rrel_scp_const: proc_recursive_to_verify_a_given_settlement;;
+				->rrel_2:rrel_fixed:rrel_scp_const: .proc_of_finding_buildings_operator4_001_params (*
+										-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+										-> rrel_2: rrel_fixed: rrel_scp_var: _settlement;;
+										-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+										-> rrel_4: rrel_fixed: rrel_scp_var: _answer;;
+									*);;
+				-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+				=>nrel_goto: .proc_of_finding_buildings_operator4_002;;
+			*);;
+
+			// scp-оператор ожидания завершения выполнения программы
+			-> .proc_of_finding_buildings_operator4_002 (*
+				<- waitReturn;;
+				-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+				=>nrel_goto: .proc_of_finding_buildings_operator4_002_5;;
+			*);;
+
+			-> .proc_of_finding_buildings_operator4_002_5 (*
+				<- printNl;;
+				-> rrel_1: rrel_scp_const: [Hurray!];;
+				=>nrel_goto: .proc_of_finding_buildings_operator4_003;;
+			*);;			
+
+			// Check whether the abstract place is in the answer
+			->.proc_of_finding_buildings_operator4_003
+			(*
+				<- searchElStr3;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+				-> rrel_2: rrel_assign: rrel_scp_var: _arc1_1;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_004;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator3_1;;
+			*);;	
+
+			->.proc_of_finding_buildings_operator4_004
+			(*
+				<- searchSetStr5;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var:  _person;;
+				-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1_1_1;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+		    		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1_1_2;;
+			 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
+			 
+		    		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+
+		         	=> nrel_goto: .proc_of_finding_buildings_operator4_005;;
+			*);;
+
+			->.proc_of_finding_buildings_operator4_005
+			(*
+				<- searchElStr3;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var:  _person;;
+				-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _arc1_1_1;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+			 
+		    		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+
+		         	=> nrel_goto: .proc_of_finding_buildings_operator3_1;;
+			*);;
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+		// Verifying if the element has location (it's possible to have the only one location!)
+		->.proc_of_finding_buildings_operator4 
+				(*
+				<- searchElStr5;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+				-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _physical_place;;
+		    		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_location;;
+			 
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_1;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator4_0_1;;
+				*);;
+
+		// Verifying if the element has subdividing
+		->.proc_of_finding_buildings_operator4_0_1
+				(*
+				<- searchElStr3;;
+			 	-> rrel_1: rrel_assign: rrel_scp_var: _three_dots;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;; // kinda abstract place. IT IS NOT!!!!!
+
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_0_2;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator3_1 ;;
+		    *);;
+
+		->.proc_of_finding_buildings_operator4_0_2
+				(*
+				<- searchElStr5;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var: _three_dots;;
+				-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _physical_place;;
+		    		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_subdividing;;
+			 
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_0_3;; //
+		         	=> nrel_else: .proc_of_finding_buildings_operator3_1 ;;
+				*);;
+
+		// Verify whether the abstract place is a building	
+		->.proc_of_finding_buildings_operator4_0_3
+				(*
+				<- searchElStr3;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_2;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator3_1 ;;
+		     *);;
+
+		// Verify whether the physical place is a building	
+		->.proc_of_finding_buildings_operator4_1
+				(*
+				<- searchElStr3;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+				-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+
+		         	=> nrel_then: .proc_of_finding_buildings_operator4_2;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator3_1 ;;
+		    *);;
+
+
+		// Start calling recursive
+		-> .proc_of_finding_buildings_operator4_2 (*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_recursive_to_verify_a_given_settlement;;
+			->rrel_2:rrel_fixed:rrel_scp_const: .proc_of_finding_buildings_operator4_2_params (*
+									-> rrel_1: rrel_fixed: rrel_scp_var: _physical_place;;
+									-> rrel_2: rrel_fixed: rrel_scp_var: _settlement;;
+									-> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+									-> rrel_4: rrel_fixed: rrel_scp_var: _answer;;
+								*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+			=>nrel_goto: .proc_of_finding_buildings_operator4_3;;
+		*);;
+
+		// scp-оператор ожидания завершения выполнения программы
+		-> .proc_of_finding_buildings_operator4_3 (*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+			=>nrel_goto: .proc_of_finding_buildings_operator4_4;;
+		*);;
+
+		// Check whether the physical place is in the answer
+		->.proc_of_finding_buildings_operator4_4 
+		(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+
+                 	=> nrel_then: .proc_of_finding_buildings_operator5;;
+                 	=> nrel_else: .proc_of_finding_buildings_operator3_1 ;;
+		*);;	
+
+
+		// Creation of the answer
+		->.proc_of_finding_buildings_operator5 
+			(*
+				<- searchSetStr5;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+				-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _el;;
+		    		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_location;;
+			 
+		    		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+
+		         	=> nrel_then: .proc_of_finding_buildings_operator5_1;;
+		         	=> nrel_else: .proc_of_finding_buildings_operator3_1;;
+			*);;
+
+		-> .proc_of_finding_buildings_operator5_1 
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _abstract_place;;
+
+                 	=> nrel_goto: .proc_of_finding_buildings_operator5_2;;
+			*);;
+
+		-> .proc_of_finding_buildings_operator5_2
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc0;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_location;;
+
+                 	=> nrel_goto: .proc_of_finding_buildings_operator5_3;;
+			*);;
+
+		->.proc_of_finding_buildings_operator5_3
+			(*
+				<- searchSetStr5;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+				-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+		    		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
+			 
+		    		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+
+		         	=> nrel_goto: .proc_of_finding_buildings_operator3_1;;
+			*);;	 
+
+
+
 
 		// Looking for all input common arcs to the person
 		->.proc_of_finding_buildings_operator7 
@@ -120,9 +401,8 @@ scp_program -> proc_of_finding_buildings
 		 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
 			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
 			-> rrel_3: rrel_assign: rrel_scp_var: _physical_place;;
-            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		        -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
 		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_location;;
-	         
 
                  	=> nrel_then: .proc_of_finding_buildings_operator8_1_1;;
                  	=> nrel_else: .proc_of_finding_buildings_operator12;;
@@ -144,13 +424,12 @@ scp_program -> proc_of_finding_buildings
 		-> .proc_of_finding_buildings_operator8_2 (*
 			<- call;;
 			-> rrel_1: rrel_fixed: rrel_scp_const: proc_recursive_to_verify_a_given_settlement;;
-			->rrel_2:rrel_fixed:rrel_scp_const:
-			.proc_of_finding_buildings_operator8_2_params (*
-				-> rrel_1: rrel_fixed: rrel_scp_var: _physical_place;;
-				-> rrel_2: rrel_fixed: rrel_scp_var: _settlement;;
-				-> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
-				-> rrel_4: rrel_fixed: rrel_scp_var: _answer;;
-			*);;
+			->rrel_2:rrel_fixed:rrel_scp_const: .proc_of_finding_buildings_operator8_2_params (*
+									-> rrel_1: rrel_fixed: rrel_scp_var: _physical_place;;
+									-> rrel_2: rrel_fixed: rrel_scp_var: _settlement;;
+									-> rrel_3: rrel_fixed: rrel_scp_var: _physical_place;;
+									-> rrel_4: rrel_fixed: rrel_scp_var: _answer;;
+								*);;
 			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
 			=>nrel_goto: .proc_of_finding_buildings_operator8_3;;
 		*);;
@@ -214,18 +493,18 @@ scp_program -> proc_of_finding_buildings
 
 		->.proc_of_finding_buildings_operator11 
 			(*
-			<- searchSetStr5;;
-		 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
-			-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
-			-> rrel_3: rrel_fixed: rrel_scp_var: _person;;
-            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
-		 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
-	         
-            -> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
-		 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
-		 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+				<- searchSetStr5;;
+			 	-> rrel_1: rrel_fixed: rrel_scp_var: _abstract_place;;
+				-> rrel_2: rrel_assign: rrel_scp_var: _arc1;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _person;;
+		    		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			 	-> rrel_5: rrel_assign: rrel_scp_var: _nrel_smth;;
+			 
+		    		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+			 	-> rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
 
-                 	=> nrel_goto: .proc_of_finding_buildings_operator12;;
+		         	=> nrel_goto: .proc_of_finding_buildings_operator12;;
 			*);;
 
 		-> .proc_of_finding_buildings_operator12 
