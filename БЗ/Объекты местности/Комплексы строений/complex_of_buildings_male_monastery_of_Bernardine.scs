@@ -14,25 +14,17 @@ complex_of_constructions_of_the_male_monastery_of_Bernardine
     <- lang_by;;
     *);
 	
-<= nrel_temporal_decomposition:
-    {
-    complex_of_constructions_of_the_male_monastery_of_Bernardine_since_1630_to_1644
-        (* 
-        => nrel_main_idtf:
-            [Комплекс строений монастыря бернардинцев (1630-1644)]
-            (*
-            <- lang_ru;;
-            *);
-            [Complex of constructions the male monastery of Bernardine (1630-1644)]
-            (*
-            <- lang_en;;
-            *);
-            [Комплекс будынкаў манастыра бернардынаў (1630-1644)]
-            (*
-            <- lang_by;;
-            *);;
-                
-        => nrel_start_time: ...
+ <-concept_complex_of_buildings;;               
+       
+    concept_situation->[*
+	complex_of_constructions_of_the_male_monastery_of_Bernardine        
+        <= nrel_complex_of_buildings_decomposition:
+        {
+            building_of_the_wooden_church_of_Bernardine;
+            building_of_the_Convention
+        };;
+	*] (*
+	 => nrel_start_time: ...
             (*
             <-concept_time_point;;
             => nrel_translation_in_the_Gregorian_calendar: ...
@@ -48,32 +40,19 @@ complex_of_constructions_of_the_male_monastery_of_Bernardine
                 -> rrel_year: rrel_decimal: [1644];;
                 *);;
             *);;
+	*);;
             
-        <= nrel_complex_of_buildings_decomposition:
-        {
-            building_of_the_wooden_church_of_Bernardine;
-            building_of_the_Convention
-        };;
-          
-        => nrel_section_base_order:
-            complex_of_constructions_of_the_male_monastery_of_Bernardine_since_1652_to_1860;;
-        *);
-            
-    complex_of_constructions_of_the_male_monastery_of_Bernardine_since_1652_to_1860
-        (* 
-        => nrel_main_idtf:
-            [Комплекс строений монастыря бернардинцев (1652-1860)]
-            (*
-            <- lang_ru;;
-            *);
-            [Complex of constructions the male monastery of Bernardine (1652-1860)]
-            (*
-            <- lang_en;;
-            *);
-            [Комплекс будынкаў манастыра бернардынаў (1652-1860)]
-            (*
-            <- lang_by;;
-            *);;
+   
+	concept_situation->[*
+	complex_of_constructions_of_the_male_monastery_of_Bernardine  
+	 <= nrel_complex_of_buildings_decomposition:
+            {
+            building_of_economic_housing_of_male_Bernardine_monastery;
+            building_of_residential_housing_of_male_Bernardine_monastery;
+            Building_trade_rows;
+            building_of_the_church_of_St_Joseph
+            };;
+	*] (*
                 
         => nrel_start_time: ...
             (*
@@ -91,18 +70,7 @@ complex_of_constructions_of_the_male_monastery_of_Bernardine
                 -> rrel_year: rrel_decimal: [1860];;
                 *);;
             *);;
-            
-        <= nrel_complex_of_buildings_decomposition:
-            {
-            building_of_economic_housing_of_male_Bernardine_monastery;
-            building_of_residential_housing_of_male_Bernardine_monastery;
-            Building_trade_rows;
-            building_of_the_church_of_St_Joseph
-            };;
-        *)
-    };
-    
-<-concept_complex_of_buildings;;
+          *);;  
 
 
     

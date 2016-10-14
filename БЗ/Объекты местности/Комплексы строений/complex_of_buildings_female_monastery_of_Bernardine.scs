@@ -156,8 +156,120 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
             
         *)
     };
-    
+
 <-concept_complex_of_buildings;;
+
+
+concept_situation->[*
+complex_of_constructions_of_the_female_monastery_of_Bernardine
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"Монастырь бернардинок был основан 20 сентября 1633 года трокским воеводой, костеляном минским Алекандром Слушкой. В 1642 году начали возводить каменные строения монастыря. В 1672 году был достроен  костел, который был освещен как костел Рождения пресвятой Девы Марии. В 1741 году после реконструкции монастырь приобрел барочные черты и представлял собой костел с семью алтарями и п-образный жилой корпус. Главной святыней костела была икона «Богоматерь с ребенком», которую прислал Папа римский Урбан VIII Софьи Зенович, жене Александра Слушки."
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+        *);;
+*]
+(*
+	=> nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1642];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nreanslation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1852];;
+                        *);;
+                    *);;
+*);;
+
+concept_situation->[*
+complex_of_constructions_of_the_female_monastery_of_Bernardine
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"В 1866 году монахини были отправлены в Несвиж, а комплекс перешел православной церкви. В монастыре расположились братия Слуцкого Свято-Троицкого монастыря."
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+        *);;
+*]
+(*
+	=> nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1862];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1870];;
+                        *);;
+                    *);;
+*);;
+
+concept_situation->[*
+complex_of_constructions_of_the_female_monastery_of_Bernardine
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"В 1870 году монастырь был освящен в честь Сошествия святого духа. Монастырь просуществовал до 1918 года, когда был закрыт пришедшими к власти большевиками."
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+        *);;
+*]
+(*
+	=> nrel_start_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1870];;
+                        *);;
+                    *);;
+              
+                    => nrel_finish_time: ...
+                    (*
+                    <-concept_time_point;;
+                    => nrel_translation_in_the_Gregorian_calendar: ...
+                        (*
+                        -> rrel_year: rrel_decimal: [1918];;
+                        *);;
+                    *);;
+*);;
 
 
     

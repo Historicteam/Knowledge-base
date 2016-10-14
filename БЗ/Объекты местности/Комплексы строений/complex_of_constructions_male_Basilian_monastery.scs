@@ -13,25 +13,16 @@ complex_of_constructions_male_Basilian_monastery
     [Комплекс будынкаў мужчынскага Базыльянскага манастыра]
     (*
     <- lang_by;;
-    *);
+    *);;
 
-<= nrel_temporal_decomposition:
-{
-	complex_of_constructions_male_Basilian_monastery_1617_to_1634
-	(*
-     => nrel_main_idtf:
-        [Комплекс строений мужского Базилианского монастыря(1617-1634)]
-        (*
-        <- lang_ru;;
-        *);
-        [Complex of constructions of the male Basilian monastery(1617-1634)]
-        (*
-        <- lang_en;;
-        *);
-        [Комплекс будынкаў мужчынскага Базыльянскага манастыра(1617-1634)]
-        (*
-         <- lang_by;;
-        *);;
+
+concept_situation->[*
+	complex_of_constructions_male_Basilian_monastery
+	<= nrel_complex_of_buildings_decomposition:
+        {
+            Male_Basilian_Monastery_Building   
+        };;
+	*] (*
 
     => nrel_start_time: ...
         (*
@@ -49,31 +40,16 @@ complex_of_constructions_male_Basilian_monastery
             -> rrel_year: rrel_decimal: [1634];;
             *);;
         *);;
-        <= nrel_complex_of_buildings_decomposition:
+    *);;
+
+concept_situation->[*       
+        complex_of_constructions_male_Basilian_monastery
+	<= nrel_complex_of_buildings_decomposition:
         {
+            building_of_church_of_the_Holy_Spirit;
             Male_Basilian_Monastery_Building   
         };;
-        
-        => nrel_section_base_order:
-            complex_of_constructions_male_Basilian_monastery_1634_to_1641;;
-        
-        *);
-
-    complex_of_constructions_male_Basilian_monastery_1634_to_1641
-    (*
-     => nrel_main_idtf:
-        [Комплекс строений мужского Базилианского монастыря(1634-1641)]
-        (*
-        <- lang_ru;;
-        *);
-        [Complex of constructions of the male Basilian monastery(1634-1641)]
-        (*
-        <- lang_en;;
-        *);
-        [Комплекс будынкаў мужчынскага Базыльянскага манастыра(1634-1641)]
-        (*
-         <- lang_by;;
-        *);;
+*](*
     => nrel_start_time: ...
         (*
         <-concept_time_point;;
@@ -90,32 +66,17 @@ complex_of_constructions_male_Basilian_monastery
             -> rrel_year: rrel_decimal: [1641];;
             *);;
         *);;
-     <= nrel_complex_of_buildings_decomposition:
-        {
-            building_of_church_of_the_Holy_Spirit;
-            Male_Basilian_Monastery_Building   
-        };;
-        
-    => nrel_section_base_order:
-            complex_of_constructions_male_Basilian_monastery_1641_to_1795;;
-        
-    *);
+*);;
 
-    complex_of_constructions_male_Basilian_monastery_1641_to_1795
-    (*
-     => nrel_main_idtf:
-        [Комплекс строений мужского Базилианского монастыря(1641-1795)]
-        (*
-        <- lang_ru;;
-        *);
-        [Complex of constructions of the male Basilian monastery(1641-1795)]
-        (*
-        <- lang_en;;
-        *);
-        [Комплекс будынкаў мужчынскага Базыльянскага манастыра(1641-1795)]
-        (*
-         <- lang_by;;
-        *);;
+concept_situation->[*
+	complex_of_constructions_male_Basilian_monastery
+   	<= nrel_complex_of_buildings_decomposition:
+        {
+        building_of_church_of_the_Holy_Spirit;
+        Male_Basilian_Monastery_Building;
+        Female_Basilian_Monastery_Building
+        };;
+*](*
     => nrel_start_time: ...
         (*
         <-concept_time_point;;
@@ -132,12 +93,4 @@ complex_of_constructions_male_Basilian_monastery
             -> rrel_year: rrel_decimal: [1795];;
             *);;
         *);;
-    <= nrel_complex_of_buildings_decomposition:
-        {
-        building_of_church_of_the_Holy_Spirit;
-        Male_Basilian_Monastery_Building;
-        Female_Basilian_Monastery_Building
-        };;
-        
-    *)
-};;
+*);;
