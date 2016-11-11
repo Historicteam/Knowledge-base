@@ -1,0 +1,15 @@
+The_building_of_the_Minsk_Male_Gymnasiume
+=> nrel_main_idtf:
+		[ Здание Минской мужской гимназии]
+		(*
+		<- lang_ru;;
+		*);
+		[ The building of the Minsk Male Gymnasiume]
+		(*
+		<- lang_en;;
+		*);
+		[Будынак Мінскай мужчынскай гімназіі]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

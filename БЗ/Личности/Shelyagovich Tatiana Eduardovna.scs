@@ -1,0 +1,8 @@
+Shelyagovich_Tatiana_Eduardovna
+<- concept_female;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Шелягович Татьяна Эдуардовна] (* <- lang_ru;; *);
+	[Shelyagovich Tatiana Eduardovna] (* <- lang_en;; *);
+	[Шэляговіч Таццяна Эдуардаўна] (* <- lang_by;; *);;

@@ -1,0 +1,14 @@
+Komsomolskaya_street
+	=> nrel_main_idtf:
+		[Комсомольская улица](* <- lang_ru;; *);
+		[Komsomolskaya street](* <- lang_en;; *);
+			[Камсамольская вуліца]
+			(*
+			<- lang_by;;
+			*);
+	<= nrel_subdividing: 
+	{
+	House_Frotskoy
+	};
+	<- concept_street;;
+

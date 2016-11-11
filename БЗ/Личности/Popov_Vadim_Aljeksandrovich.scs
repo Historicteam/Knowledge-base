@@ -1,0 +1,8 @@
+Popov_Vadim_Aljeksandrovich
+
+=> nrel_main_idtf:
+	[Попов Вадим Александрович  ] (* <- lang_ru;; *);
+	[ Papou Vadzim Aliaksandravich] (* <- lang_en;; *);
+	[Папоў Вадзім Аляксандравіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

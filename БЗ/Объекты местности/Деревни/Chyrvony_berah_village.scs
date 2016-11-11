@@ -1,0 +1,8 @@
+Chyrvony_berah_village
+=>nrel_main_idtf:
+	[Красный Берег] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Chyrvony berah] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Чырвоны Бераг] (* <-lang_by;; *);	
+<-concept_village;;

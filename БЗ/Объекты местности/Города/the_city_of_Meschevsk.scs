@@ -1,0 +1,9 @@
+the_city_of_Meschevsk
+=>nrel_main_idtf:
+	[Мещевск] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Meschevsk] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Мещеўск] (* <-lang_by;; *);	
+
+<-concept_city;;

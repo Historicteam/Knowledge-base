@@ -1,0 +1,8 @@
+Syamyon_Sharetski
+
+=> nrel_main_idtf:
+	[Шарецкий Семён Георгиевич ] (* <- lang_ru;; *);
+	[Sharecki Siamion Hieorhijevich] (* <- lang_en;; *);
+	[Шарэцкі Сямён Георгіевіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

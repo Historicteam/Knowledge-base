@@ -1,0 +1,7 @@
+nrel_personal_composition
+=>nrel_main_idtf:
+	[персональный состав*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[personal composition*] (* <-lang_en;; *);		
+<-sc_const;	
+<-sc_node_norole_relation;;

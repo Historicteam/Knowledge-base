@@ -1,0 +1,20 @@
+nrel_abbreviation
+=>nrel_main_idtf:
+	[аббревиатура*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[abbreviation*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[абрэвіятура*] (* <-lang_by;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Аббревиату́ра — слово, образованное сокращением слова или словосочетания и читаемое по алфавитному названию начальных букв или по начальным звукам слов, входящих в него.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;	
+<-sc_node_norole_relation;;

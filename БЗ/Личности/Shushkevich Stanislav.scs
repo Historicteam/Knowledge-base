@@ -1,0 +1,8 @@
+Stanislav_Shushkevich
+
+=> nrel_main_idtf:
+	[Шушкевич Станислав Станиславович  ] (* <- lang_ru;; *);
+	[Szuszkievich Stanislau Stanislavavich ] (* <- lang_en;; *);
+	[Шушкевіч Станіслаў Станіслававіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

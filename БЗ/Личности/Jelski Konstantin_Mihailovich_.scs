@@ -1,0 +1,8 @@
+Konstantin_Mihailovich_Jelski
+
+=> nrel_main_idtf:
+	[Ельский Константин Михайлович  ] (* <- lang_ru;; *);
+	[ Jel'ski Kanstantin Mihajlavich] (* <- lang_en;; *);
+	[Ельскі Канстанцін Міхайлавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

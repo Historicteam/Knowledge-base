@@ -1,0 +1,15 @@
+House_of_the_Minsk_School_for_the_Blind
+=> nrel_main_idtf:
+		[Здание Училища для слепых детей]
+		(*
+		<- lang_ru;;
+		*);
+		[House of the Minsk School for the Blind]
+		(*
+		<- lang_en;;
+		*);
+		[Будынак Вучылішча для сляпых дзяцей]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

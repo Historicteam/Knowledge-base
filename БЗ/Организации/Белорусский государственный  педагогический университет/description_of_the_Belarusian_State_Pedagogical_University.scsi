@@ -1,0 +1,22 @@
+organization_Belarusian_State_Higher_Pedagogical_Institute
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[Белорусский государственный педагогический университет — высшее учебное заведение в Минске.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Belarusian State Pedagogical University - a higher educational institution in Minsk.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Беларускі дзяржаўны педагагічны універсітэт - вышэйшая навучальная ўстанова ў Мінску. ] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

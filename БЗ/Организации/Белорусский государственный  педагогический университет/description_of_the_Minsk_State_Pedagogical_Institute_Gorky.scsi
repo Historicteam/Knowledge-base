@@ -1,0 +1,22 @@
+organization_Belarusian_State_Higher_Pedagogical_Institute
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[Минский государственный педагогический институт имени М.Горького — высшее учебное заведение в Минске.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Minsk State Pedagogical Institute named after M. Gorky - a higher educational institution in Minsk.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Мінскі дзяржаўны педагагічны інстытут імя М.Горкага - вышэйшая навучальная ўстанова ў Мінску. ] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

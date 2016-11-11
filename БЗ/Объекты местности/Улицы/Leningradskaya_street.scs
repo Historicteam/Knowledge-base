@@ -1,0 +1,14 @@
+Leningradskaya_street
+	=> nrel_main_idtf:
+		[Ленинградская улица](* <- lang_ru;; *);
+		[Leningradskaya street](* <- lang_en;; *);
+			[Ленінградская вуліца]
+			(*
+			<- lang_by;;
+			*);
+	<= nrel_subdividing: 
+	{
+	House_Revenskogo
+	};
+	<- concept_street;;
+

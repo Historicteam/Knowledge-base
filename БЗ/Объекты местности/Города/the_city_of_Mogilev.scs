@@ -1,0 +1,9 @@
+the_city_of_Mogilev
+=>nrel_main_idtf:
+	[Могилёв] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Mogilev ] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Магілёў] (* <-lang_by;; *);	
+
+<-concept_city;;

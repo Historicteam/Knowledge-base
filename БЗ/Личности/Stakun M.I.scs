@@ -1,0 +1,8 @@
+Stakun_Mikhail_Iosiphovich
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Стакун Михаил Иосифович] (* <- lang_ru;; *);
+	[Stakun Mikhail Iosiphovich] (* <- lang_en;; *);
+	[Стакун Міхаіл Іосіфавіч] (* <- lang_by;; *);;

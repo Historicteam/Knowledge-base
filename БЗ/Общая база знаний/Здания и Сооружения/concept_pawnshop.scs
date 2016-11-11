@@ -1,0 +1,31 @@
+concept_pawnshop
+=>nrel_main_idtf:
+	[ломбард] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[pawnshop] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[ламбард] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:
+		[Ломбард — специализированная коммерческая организация, основными видами деятельности которой являются предоставление краткосрочных займов под залог движимого имущества граждан и хранение вещей.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example:
+		[A pawnbroker is an individual or business (pawnshop or pawn shop) that offers secured loans to people, with items of personal property used as collateral. The items having been pawned to the broker are themselves called pledges or pawns, or simply the collateral. While many items can be pawned, pawnshops typically accept jewelry, musical instruments, home audio equipment, computers, video game systems, televisions, cameras, power tools and other relatively valuable items as collateral.] (* <-lang_en;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example:
+		[Ламбард — гэта камерцыйная арганізацыя, якая выдае кароткачасовыя пазыкі пад заклад рэчаў і рухомай маёмасці грамадзян (ювелірных вырабаў, тэхнікі, твораў мастацтва і інш.).] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;;

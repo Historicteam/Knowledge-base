@@ -1,0 +1,8 @@
+Andriejchenko_Vladimir_Pavlovich
+
+=> nrel_main_idtf:
+	[Андрейченко Владимир Павлович  ] (* <- lang_ru;; *);
+	[Andrejchanka Uladzimir Paulavich] (* <- lang_en;; *);
+	[Андрэйчанка Уладзімір Паўлавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

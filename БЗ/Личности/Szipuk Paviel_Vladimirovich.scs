@@ -1,0 +1,8 @@
+Paviel_Vladimirovich_Szipuk
+
+=> nrel_main_idtf:
+	[Шипук Павел Владимирович ] (* <- lang_ru;; *);
+	[ Szypuk Paviel Uladzimiravich ] (* <- lang_en;; *);
+	[Шыпук Павел Уладзіміравіч  ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

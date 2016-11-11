@@ -1,0 +1,22 @@
+organization_Minsk_School_for_the_Blind
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[ Минское училище для слепых детей Опекунства императрицы Марии Александровны открыто 1 марта 1897 г. В 1907 г. при училище трудами минского врача И.И. Здановича была построена церковь, которую освятили в честь иконы Божией Матери «Всех скорбящих Радость». Находилась на месте левого крыла нынешнего здания Дома правительства. ] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Minsk school for blind children Guardianship of Empress Maria Alexandrovna opened March 1, 1897 In 1907, the school works with the doctor of the Minsk II Zdanovich was built a church, which was consecrated in honor of the Mother of God "Joy of All Who Sorrow." Located on the site of the left wing of the present building of the Government House.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Мінскае вучылішча для сляпых дзяцей апякунствам імператрыцы Марыі Аляксандраўны адчынена 1 сакавіка 1897 г. У 1907 году пры вучылішча працамі мінскага лекара І.І. Здановіча была пабудавана царква, якую асвяцілі ў гонар іконы Божай Маці «Усіх тужлівых Радасць». Знаходзілася на месцы левага крыла цяперашняга будынка Дома ўрада.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

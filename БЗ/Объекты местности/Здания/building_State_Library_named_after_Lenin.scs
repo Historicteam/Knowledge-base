@@ -1,0 +1,15 @@
+building_State_Library_named_after_Lenin
+=> nrel_main_idtf:
+		[Государственная библиотека имени Ленина]
+		(*
+		<- lang_ru;;
+		*);
+		[State Library named after Lenin]
+		(*
+		<- lang_en;;
+		*);
+		[Дзяржаўная бібліятэка імя Леніна]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;
