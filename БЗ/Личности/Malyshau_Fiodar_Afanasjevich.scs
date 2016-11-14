@@ -1,0 +1,6 @@
+Fiodar_Afanasjevich_Malyshau
+=> nrel_main_idtf:
+	[Фёдор Афанасьевич Малышев] (* <- lang_ru;; *);
+	[Fiodar Afanasjevich Malyshau] (* <- lang_en;; *);
+<- concept_male;
+<- concept_person;;

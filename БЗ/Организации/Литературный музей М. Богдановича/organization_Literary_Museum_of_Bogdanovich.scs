@@ -11,7 +11,7 @@ organization_Literary_Museum_of_Bogdanovich
 
 => nrel_personal_composition:professor_and_teaching_staff_organization_Literary_Museum_of_Bogdanovich
 (*
-->rrel_head:Shelyagovich_Tatiana_Eduardovna;;
+->rrel_director:Shelyagovich_Tatiana_Eduardovna;;
 *);;
 professor_and_teaching_staff_organization_Literary_Museum_of_Bogdanovich
 =>nrel_main_idtf:

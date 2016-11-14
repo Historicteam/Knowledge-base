@@ -1,11 +1,11 @@
-rrel_head
+rrel_teacher
 <- sc_node_role_relation;
 <- relation;
 <- binary_relation;
 <- oriented_relation;
 
 => nrel_main_idtf:
-	[заведующий']
+	[учитель']
 	(*
 	<- lang_ru;;
 	*);;
