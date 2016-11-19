@@ -1,8 +1,0 @@
-Kazakievich_Arciemij_Arturavich
-
-=> nrel_main_idtf:
-	[Козакевич Артемий Артурович] (* <- lang_ru;; *);
-	[Kazakievich Arciemij Arturavich] (* <- lang_en;; *);
-	[Казакевіч Арцемій Артуравіч] (* <- lang_by;; *);
-<- concept_male;
-<- concept_person;;

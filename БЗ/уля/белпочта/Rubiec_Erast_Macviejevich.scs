@@ -1,8 +1,0 @@
-Rubiec_Erast_Macviejevich
-
-=> nrel_main_idtf:
-	[Рубец Эраст Матвеевич] (* <- lang_ru;; *);
-	[Rubiec Erast Macviejevich] (* <- lang_en;; *);
-	[Рубец Эраст Мацвеевіч] (* <- lang_by;; *);
-<- concept_male;
-<- concept_person;;
