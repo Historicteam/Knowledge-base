@@ -1,0 +1,8 @@
+Usievalad_Mihajlavich_Sikorski
+
+=> nrel_main_idtf:
+	[Всеволод Михайлович Сикорский] (* <- lang_ru;; *);
+	[Usievalad Mihajlavich Sikorski] (* <- lang_en;; *);
+	[Усевалад Міхайлавіч Сікорскі] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,8 @@
+Barys_Paulavich_Dziemidovich
+
+=> nrel_main_idtf:
+	[Борис Павлович Демидович] (* <- lang_ru;; *);
+	[Barys Paulavich Dziemidovich] (* <- lang_en;; *);
+	[Барыс Паўлавіч Дземідовіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

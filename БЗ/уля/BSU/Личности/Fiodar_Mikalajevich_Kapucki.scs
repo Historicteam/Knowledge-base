@@ -1,0 +1,8 @@
+Fiodar_Mikalajevich_Kapucki
+
+=> nrel_main_idtf:
+	[Фёдор Николаевич Капуцкий] (* <- lang_ru;; *);
+	[Fiodar Mikalajevich Kapucki] (* <- lang_en;; *);
+	[Фёдар Мікалаевіч Капуцкі ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

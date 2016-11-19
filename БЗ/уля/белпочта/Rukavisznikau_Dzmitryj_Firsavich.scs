@@ -1,0 +1,8 @@
+Rukavisznikau_Dzmitryj_Firsavich
+
+=> nrel_main_idtf:
+	[Рукавишников Дмитрий Фирсович] (* <- lang_ru;; *);
+	[Rukavisznikau Dzmitryj Firsavich] (* <- lang_en;; *);
+	[Рукавішнікаў Дзмітрый Фірсавіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

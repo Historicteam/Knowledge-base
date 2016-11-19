@@ -53,6 +53,7 @@ organization_Belarusian_State_Higher_Pedagogical_Institute
 		<-concept_email;;
 		*);
 <-concept_educational_institution;
+<-concept_formal_organization;
 <-concept_university;;
 
 concept_situation->[*^"file://description_of_Belarusian_State_Higher_Pedagogical_Institute.scsi"*]

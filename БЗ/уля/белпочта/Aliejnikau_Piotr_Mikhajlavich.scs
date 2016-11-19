@@ -1,0 +1,8 @@
+Aliejnikau_Piotr_Mikhajlavich
+
+=> nrel_main_idtf:
+	[Алейников Пётр Михайлович] (* <- lang_ru;; *);
+	[Aliejnikau Piotr Mikhajlavich] (* <- lang_en;; *);
+	[Алейнікаў Пётр Міхайлавіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

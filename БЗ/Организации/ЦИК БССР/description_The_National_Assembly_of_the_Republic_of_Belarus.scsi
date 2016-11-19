@@ -1,0 +1,26 @@
+organization_The_Central_Executive_Committee_of_the_BSSR<- rrel_key_sc_element: ...
+	(*
+	
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Национа́льное собра́ние Респу́блики Белару́сь — высший представительный законодательный орган Беларуси.]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[The National Assembly of the Republic of Belarus  is the bicameral parliament that governs Belarus. ]
+			 (* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Нацыяна́льны сход Рэспу́блікі Белару́сь — найвышэйшы заканадаўчы орган Беларусі.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);;

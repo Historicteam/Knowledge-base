@@ -1,0 +1,8 @@
+Jarzhambicki_Ivan_Ilaryjonavich
+
+=> nrel_main_idtf:
+	[Яржембицкий Иван Илларионович] (* <- lang_ru;; *);
+	[Jarzhambicki Ivan Ilaryjonavich] (* <- lang_en;; *);
+	[Яржамбіцкі Іван Іларыёнавіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

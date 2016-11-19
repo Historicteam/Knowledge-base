@@ -1,0 +1,527 @@
+Belarusian_State_University
+=> nrel_main_idtf:
+	[Беларускі дзяржаўны універсітэт]
+	(*
+	<- lang_by;;
+	*);
+
+
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[Белору́сский госуда́рственный университе́т (БГУ) — ведущее высшее учебное заведение Белоруссии, расположенное в Минске. Открыт 30 октября 1921 года.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Belarusian State University (BSU) was founded on October 30, 1921. The BSU is a higher education establishment in the Republic of Belarus.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Беларускі дзяржаўны ўніверсітэт, БДУ — найстарэйшы ўніверсітэт Беларусі, знаходзіцца ў Мінску, афіцыйна пачаў працу 30 кастрычніка 1921.] 	
+			(* <- lang_by;;*);;
+		*);;
+
+*);
+
+=> nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [30];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [1921];;
+            *);;
+        *);
+
+
+=>nrel_motto:
+	[«Университет – твой шаг в будущее!»]
+	 (* <- lang_ru;; *);
+	[University - your step into the future!] 
+	(* <- lang_en;; *);
+	[Універсітэт - твой крок у будучыню!]
+	(* <- lang_by;; *);
+
+=>nrel_abbreviation:
+	[БГУ]
+	 (* <- lang_ru;; *);
+	[BSU] 
+	(* <- lang_en;; *);
+	[БДУ]
+	(* <- lang_by;; *);
+
+=>nrel_phone_number: [375172095044]
+		(*
+		<-concept_phone_number;;
+		*);
+=>nrel_site: [www.bsu.by]
+		(*
+		<-concept_site;;
+		*);
+=>nrel_email: [ bsu@bsu.by]
+		(*
+		<-concept_email;;
+		*);
+
+<-concept_educational_institution;
+<-concept_formal_organization;
+<-concept_university;;
+
+house_4_Independence_Avenue
+=> nrel_main_idtf:
+		[проспект Независимости дом 4]
+		(*
+		<- lang_ru;;
+		*);
+		[Independence avenue house 4 ]
+		(*
+		<- lang_en;;
+		*);
+		[праспект Незалежнасці дом 4]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;
+
+
+/*concept_situation->[* Belarusian_State_University => nrel_location: The_building_of_the_Minsk_Male_Gymnasiume;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1844];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+*);;*/
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Picheta_Uladzimir_Ivanavich;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1921];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1929];;
+            *);;
+        *);;
+*);;
+   
+concept_situation->[* Belarusian_State_University => nrel_provost: Karanieuski_Iosif_Piatrovich;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1929];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1931];;
+            *);;
+        *);;
+*);;
+   
+concept_situation->[* Belarusian_State_University => nrel_provost: Jermakou_Ivan_Fiadotavich;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1931];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1933];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*  Belarusian_State_University => nrel_provost: Ananij_Ivanavich_Dziakau;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1934];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1935];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*  Belarusian_State_University => nrel_provost: Aliaksiej_Sciapanavich_Kuchynski;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1935];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1937];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University => nrel_provost: Anufryj_Niestaravich_Andruszchanka;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1937];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Parfionau_Piatrovich_Savicki;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1946];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*Belarusian_State_University=> nrel_provost: Uladzimir_Antonavich_Tamaszevich;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1946];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University => nrel_provost: Ivan_Savich_Chimburh;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1952];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Kanstancin_Ihnatavich_Lukaszou;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1952];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1957];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Anton_Nichyparavich_Sieuchanka;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1957];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1972];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Usievalad_Mihajlavich_Sikorski;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1972];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1978];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*Belarusian_State_University => nrel_provost: Uladzimir_Aliaksiejevich_Biely;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1978];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1983];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*Belarusian_State_University=> nrel_provost: Lieanid_Ivanavich_Kisialiouski;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1983];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University => nrel_provost: Fiodar_Mikalajevich_Kapucki;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1995];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Aliaksandr_Uladzislavavich_Kazulin;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2003];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Vasil_Ivanavich_Strazhau;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2003];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2008];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_provost: Siarhiej_Uladzimiravich_Ablamiejka;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2008];;
+            *);;
+        *);;
+   
+*);;
+
+
+concept_situation->[* Belarusian_State_University=> nrel_student: Barys_Paulavich_Dziemidovich;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1923];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1927];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University=> nrel_student: Ananich_Liliya_Staniclavauna;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1977];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1982];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Belarusian_State_University => nrel_student: Lidzija_Mikhajlauna_Yarmoszyna;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1970];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1975];;
+            *);;
+        *);;
+*);;

@@ -1,0 +1,8 @@
+Parfionau_Piatrovich_Savicki
+
+=> nrel_main_idtf:
+	[Парфён Петрович Савицкий ] (* <- lang_ru;; *);
+	[Parfionau Piatrovich Savicki] (* <- lang_en;; *);
+	[Парфёнаў Пятровіч Савіцкі ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

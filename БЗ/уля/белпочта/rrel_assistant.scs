@@ -1,0 +1,12 @@
+rrel_assistant
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[помощник']
+	(*
+	<- lang_ru;;
+	*);;
+

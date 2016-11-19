@@ -1,0 +1,8 @@
+Tarnauski_Stiapan_Ignacjevich
+
+=> nrel_main_idtf:
+	[Тарнавский Степан Игнатьевич] (* <- lang_ru;; *);
+	[Tarnauski Stiapan Ignacjevich] (* <- lang_en;; *);
+	[Тарнаўскі Сцяпан Ігнацьевіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

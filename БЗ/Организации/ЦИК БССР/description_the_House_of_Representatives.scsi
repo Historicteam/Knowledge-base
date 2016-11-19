@@ -1,0 +1,25 @@
+organization_The_Central_Executive_Committee_of_the_BSSR<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Палата представителей Национального собрания Республики Беларусь — нижняя палата парламента Республики Беларусь, образованного по результатам всенародного референдума в ноябре 1996.]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[Under the 1996 Constitution, the House of Representatives is the lower house of the parliament of Belarus.]
+			 (* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Палата прадстаўнікоў Нацыянальнага сходу Рэспублікі Беларусь — ніжняя палата парламента Беларусі, утворанага па выніках зменаў і дапаўненняў у Канстытуцыю Беларусі, якія былі прынятыя на рэферэндуме ў лістападзе 1996.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);;

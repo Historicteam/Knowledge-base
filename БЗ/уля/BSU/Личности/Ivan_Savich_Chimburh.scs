@@ -1,0 +1,8 @@
+Ivan_Savich_Chimburh
+
+=> nrel_main_idtf:
+	[Иван Саввич Чимбург] (* <- lang_ru;; *);
+	[Ivan Savich Chimburh] (* <- lang_en;; *);
+	[Іван Савіч Чимбург] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

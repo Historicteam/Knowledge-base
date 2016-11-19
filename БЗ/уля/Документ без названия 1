@@ -1,0 +1,14 @@
+/*=> nrel_working_day: ...
+    (*
+        -> rrel_start_time->( [10.00])
+            (*
+            <-concept_time_point;;
+            *);;
+	-> rrel_finish_time: [17.00]
+	    (*
+            <-concept_time_point;;
+            *);;
+        *);*/
+
+директора director
+
