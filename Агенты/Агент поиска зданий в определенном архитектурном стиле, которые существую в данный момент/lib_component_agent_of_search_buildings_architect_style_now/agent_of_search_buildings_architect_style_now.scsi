@@ -1,0 +1,351 @@
+agent_of_search_buildings_architect_style_now
+=> nrel_main_idtf:
+	[агентная scp-программа поиска всех зданий в определённом архитектурном стиле] 
+	(* <- lang_ru;; *);
+	[agent scp-program of search all buildings architecture style] 
+	(* <- lang_en;; *);
+
+	<- agent_scp_program;;
+
+scp_program -> agent_of_search_buildings_architect_style_now (*
+  -> rrel_params: agent_of_search_buildings_architect_style_now_params (*
+    -> rrel_1: rrel_in: _event;;
+    -> rrel_2: rrel_in: _input_arc;;
+  *);;
+  -> rrel_operators: agent_of_search_buildings_architect_style_now_operator_set (*
+    -> rrel_init: .agent_of_search_buildings_architect_style_now_operator1 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator2;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator2 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_buildings_of_architect_style_now;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator3;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator_return;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator3
+			(*
+			<- searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+
+			=> nrel_then: .agent_of_search_buildings_architect_style_now_operator_genAnswerNode;;
+			=> nrel_else: .agent_of_search_buildings_architect_style_now_operator_return;;
+		*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_genAnswerNode
+			(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer_struct;;
+			=> nrel_goto: .agent_of_search_buildings_architect_style_now_operator4;;
+		*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator4 (*
+		<- searchSetStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _building;;
+		->rrel_set_3: rrel_assign: rrel_scp_var: _temp_buildings;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator5;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator_return;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator5 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _temp_buildings;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _some_building;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator6;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator_gen_answer;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator6(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+		=> nrel_goto: .agent_of_search_buildings_architect_style_now_operator7;;
+	*);;
+	-> .agent_of_search_buildings_architect_style_now_operator7 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _some_building;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator8;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator5;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator8 (*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _sub_building;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _some_building;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_temporal_decomposition;;
+		->rrel_set_1: rrel_assign: rrel_scp_var: _temp_sub_buildings;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator9;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator5;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator9 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _temp_sub_buildings;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _some_sub_building;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator10;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator13;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator10(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+		=> nrel_goto: .agent_of_search_buildings_architect_style_now_operator11;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator11 (*
+		<- searchElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _some_sub_building;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _st_time;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_start_time;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator12;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator9;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator12 (*
+		<- searchElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _some_sub_building;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _fin_time;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_finih_time;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator9;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator_add_to_answer1;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator13 (*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _sub_building;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _some_building;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_location;;
+		->rrel_set_1: rrel_assign: rrel_scp_var: _temp_sub_buildings1;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator14;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator5;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator14 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _temp_sub_buildings1;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _some_sub_building;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator15;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator5;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator15(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+		=> nrel_goto: .agent_of_search_buildings_architect_style_now_operator16;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator16 (*
+		<- searchSetStr3;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _contur;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _some_sub_building;;
+		-> rrel_set_1: rrel_assign: rrel_scp_var: _conturs;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator17;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator14;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator17 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _conturs;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _our_contur;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator18;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator14;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator18(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+		=> nrel_goto: .agent_of_search_buildings_architect_style_now_operator19;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator19 (*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: concept_situation;;
+		-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _our_contur;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator20;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator14;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator20 (*
+		<- searchElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _our_contur;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _st_time;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_start_time;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator21;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator14;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator21 (*
+		<- searchElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _our_contur;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _fin_time;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_finish_time;;
+		=>nrel_then: .agent_of_search_buildings_architect_style_now_operator14;;
+		=>nrel_else: .agent_of_search_buildings_architect_style_now_operator_add_to_answer2;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_add_to_answer1 (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer_struct;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _some_sub_building;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator5;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_add_to_answer2 (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer_struct;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _some_sub_building;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator14;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer (*
+		<- genEl;;
+		-> rrel_1: rrel_assign: rrel_scp_var: rrel_const: rrel_node: _answer;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer01;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer01 (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer1;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer1 (*
+		<- searchSetStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: _quest;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _parik;;
+		->rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		->rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer2;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer2 (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_const: question_finding_buildings_of_architect_style;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer3;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer3 (*
+		<- searchSetStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_buildings_of_architect_style_now;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+		->rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer4;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer4 (*
+		<- genElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _answer_struct;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_result;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer5;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer5 (*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _answer_struct;;
+		-> rrel_4: rrel_assign: rrel_scp_var: _arc1;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_result;;
+		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer6;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer6 (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _answer_struct;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer7;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer7 (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_const: nrel_result;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer8;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer8 (*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_const: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer9;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer9 (*
+		<- searchSetStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+		->rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer10;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer10 (*
+		<- searchSetStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer_struct;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _elements;;
+		->rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_gen_answer11;;
+	*);;
+
+	-> .agent_of_search_buildings_architect_style_now_operator_gen_answer11 (*
+		<- genElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+		=>nrel_goto: .agent_of_search_buildings_architect_style_now_operator_return;;
+	*);;
+    -> .agent_of_search_buildings_architect_style_now_operator_return(*
+      <- return;;
+    *);;
+  *);;
+*);;

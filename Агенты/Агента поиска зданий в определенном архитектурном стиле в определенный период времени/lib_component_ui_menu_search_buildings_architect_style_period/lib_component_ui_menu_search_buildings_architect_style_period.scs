@@ -1,0 +1,11 @@
+lib_component_ui_menu_search_buildings_architect_style_period
+=> nrel_main_idtf:
+	[Компонент библиотеки. Команда пользовательского интерфейса поиска всех зданий в определённом архитектурном стиле в определённый момент времени]
+	(* <- lang_ru;; *);
+	[Library component. User interface command]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+<- library_of_atomic_reusable_components;;
+
+lib_component_ui_menu_search_buildings_architect_style_period = [*^"file://ui_menu_search_buildings_architect_style_period.scsi"*];;

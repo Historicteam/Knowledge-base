@@ -1,0 +1,17 @@
+ui_menu_search_buildings_architect_style_now <- ui_user_command_class_atom;
+
+=> nrel_main_idtf: [Поиск всех оставшихся на данный момент зданий в определённом архитектурном стиле] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Search all buildings in a certain architectural style] (* <- lang_en;; *);;
+
+ui_menu_search_buildings_architect_style_now => ui_nrel_command_template:
+	[*
+		question_finding_buildings_of_architect_style_now _-> ._question_finding_buildings_of_architect_style_now_instance
+			(*
+			_-> ui_arg_1;;
+			*);;
+		._question_finding_buildings_of_architect_style_now_instance _<- question;;
+	*];;
+
+ui_menu_search_buildings_architect_style_now => ui_nrel_command_lang_template: [Поиск всех оставшихся на данный момент зданий в архитектурном стиле: $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_search_buildings_architect_style_now => ui_nrel_command_lang_template: [Seacrh all buildings in: $ui_arg_1 architectural style] (* <- lang_en;; *);;
+
