@@ -1,0 +1,15 @@
+Proshinskogo_House
+=> nrel_main_idtf:
+		[Дом Прошинского]
+		(*
+		<- lang_ru;;
+		*);
+		[House Proshinskogo ]
+		(*
+		<- lang_en;;
+		*);
+		[Дом Прашынскага]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

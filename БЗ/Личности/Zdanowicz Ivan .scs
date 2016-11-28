@@ -1,8 +1,0 @@
-Ivan_Zdanowicz
-
-=> nrel_main_idtf:
-	[Зданович Иван Устинович ] (* <- lang_ru;; *);
-	[Zdanovich Ivan Ustinavich] (* <- lang_en;; *);
-	[Здановіч Іван Усцінавіч ] (* <- lang_by;; *);
-<- concept_male;
-<- concept_person;;

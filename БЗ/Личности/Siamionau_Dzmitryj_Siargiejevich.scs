@@ -1,0 +1,8 @@
+Siamionau_Dzmitryj_Siargiejevich
+
+=> nrel_main_idtf:
+        [Семенов Дмитрий Сергеевич   ] (* <- lang_ru;; *);
+	[Siamionau Dzmitryj Siargiejevich] (* <- lang_en;; *);
+	[Сямёнаў Дзмітрый Сяргеевіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

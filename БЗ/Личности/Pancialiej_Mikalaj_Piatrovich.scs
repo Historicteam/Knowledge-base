@@ -1,0 +1,8 @@
+Pancialiej_Mikalaj_Piatrovich
+
+=> nrel_main_idtf:
+	[Пантелей Николай Петрович] (* <- lang_ru;; *);
+	[Pancialiej Mikalaj Piatrovich] (* <- lang_en;; *);
+	[Панцялей Мікалай Пятровіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

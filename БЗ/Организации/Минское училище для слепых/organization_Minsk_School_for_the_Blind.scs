@@ -12,7 +12,7 @@ organization_Minsk_School_for_the_Blind
 	(*
 	<- lang_by;;
 	*);
-=> nrel_founder:Ivan_Zdanowicz;
+=> nrel_founder:Zdanovich_Ivan_Ustinovich;
 <-concept_educational_institution;;
 
 concept_situation->[*^"file://description_organization_Minsk_School_for_the_Blind.scsi"*]
@@ -134,7 +134,7 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_d
             *);;
         *);;
 *);;
-concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_of_the_Minsk_School_for_the_Blind;;*]
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
   (*
     => nrel_start_time: ...
     (*
@@ -177,7 +177,7 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: 
             *);;
         *);;
 *);;
-concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_of_the_Minsk_School_for_the_Blind;;*]
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
   (*
     => nrel_start_time: ...
     (*
@@ -245,7 +245,7 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: 
 
 concept_situation->[* organization_Minsk_School_for_the_Blind=> pers_comp_organization_Minsk_School_for_the_Blind_1897
 (*
-->rrel_director:Ivan_Zdanowicz;;
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
 *);;*]
   (*
     => nrel_start_time: ...
@@ -275,7 +275,7 @@ pers_comp_organization_Minsk_School_for_the_Blind_1897
 
 concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1905
 (*
-->rrel_director:Ivan_Zdanowicz;;
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
 ->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
 ->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
 ->rrel_teacher:Dickou_Ivan_Jehoravich;;
@@ -308,7 +308,7 @@ pers_comp_organization_Minsk_School_for_the_Blind_1905
 
 concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1909
 (*
-->rrel_director:Ivan_Zdanowicz;;
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
 ->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
 ->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
 ->rrel_teacher:Barysau_Alieksiej_Stiapanavich;;
@@ -340,7 +340,7 @@ pers_comp_organization_Minsk_School_for_the_Blind_1909
 
 concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1910
 (*
-->rrel_director:Ivan_Zdanowicz;;
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
 ->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
 ->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
 ->rrel_teacher:Barysau_Alieksiej_Stiapanavich;;
@@ -372,7 +372,7 @@ pers_comp_organization_Minsk_School_for_the_Blind_1910
 [Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1910-1915 года](*<-lang_ru;;*);;
 
 
-concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1915
+concept_situation->[*organization_Minsk_School_for_the_Blind => nrel_personal_composition :pers_comp_organization_Minsk_School_for_the_Blind_1915
 (*
 ->rrel_director:Ivan_Vasiljevich_Hiaorhijeuski;;
 *);;*]

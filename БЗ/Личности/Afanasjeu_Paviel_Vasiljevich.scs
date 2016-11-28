@@ -1,0 +1,8 @@
+Afanasjeu_Paviel_Vasiljevich
+
+=> nrel_main_idtf:
+	[Афанасьев Павел Васильевич ] (* <- lang_ru;; *);
+	[Afanasjeu Paviel Vasiljevich] (* <- lang_en;; *);
+	[Афанасьеў Павел Васільевіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

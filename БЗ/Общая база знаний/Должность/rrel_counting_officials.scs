@@ -1,0 +1,16 @@
+rrel_counting_officials
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[счетные чиновники ']
+	(*
+	<- lang_ru;;
+	*);
+	[counting officials']
+	(*
+	<- lang_en;;
+	*);;
+

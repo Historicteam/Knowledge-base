@@ -1,0 +1,12 @@
+rrel_official_for_special_assignments
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[чиновник особых поручений']
+	(*
+	<- lang_ru;;
+	*);;
+

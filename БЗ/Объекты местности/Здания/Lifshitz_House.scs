@@ -1,14 +1,14 @@
-House_Proshinskogo
+Lifshitz_House 
 => nrel_main_idtf:
-		[Дом Прошинского]
+		[Дом Лифшица]
 		(*
 		<- lang_ru;;
 		*);
-		[House Proshinskogo ]
+		[House Lifshitz ]
 		(*
 		<- lang_en;;
 		*);
-		[Дом Прашынскага]
+		[дом Ліфшыца]
 		(*
 		<- lang_by;;
 		*);

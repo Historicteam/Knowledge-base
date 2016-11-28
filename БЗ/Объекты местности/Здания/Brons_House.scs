@@ -1,0 +1,15 @@
+Brons_House
+=> nrel_main_idtf:
+		[Дом Броня]
+		(*
+		<- lang_ru;;
+		*);
+		[Bron's House]
+		(*
+		<- lang_en;;
+		*);
+		[Дом Броня]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

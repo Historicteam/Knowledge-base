@@ -1,0 +1,8 @@
+Hancharenka_Uladzimir_Ivanavich
+
+=> nrel_main_idtf:
+	[Гончаренко Владимир Иванович] (* <- lang_ru;; *);
+	[Hancharenka Uladzimir Ivanavich] (* <- lang_en;; *);
+	[Ганчарэнка Уладзімір Іванавіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

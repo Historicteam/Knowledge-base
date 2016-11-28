@@ -1,0 +1,8 @@
+Piatrou_Mitrafan_Jaugrafavich
+
+=> nrel_main_idtf:
+	[Петров Митрофан Евграфович] (* <- lang_ru;; *);
+	[Piatrou Mitrafan Jaugrafavich] (* <- lang_en;; *);
+	[Пятроў Мітрафан Яўграфавіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;
