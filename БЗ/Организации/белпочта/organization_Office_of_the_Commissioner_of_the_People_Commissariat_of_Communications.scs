@@ -307,7 +307,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [11];;
-	    -> rrel_month: rrel_decimal: [02];;
+	    -> rrel_month: rrel_decimal: [2];;
             -> rrel_year: rrel_decimal: [1955];;
             *);;
         *);;
@@ -317,7 +317,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [22];;
-	    -> rrel_month: rrel_decimal: [01];;	
+	    -> rrel_month: rrel_decimal: [1];;	
             -> rrel_year: rrel_decimal: [1980];;
             *);;
         *);;
@@ -337,7 +337,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [22];;
-	    -> rrel_month: rrel_decimal: [01];;
+	    -> rrel_month: rrel_decimal: [1];;
             -> rrel_year: rrel_decimal: [1980];;
             *);;
         *);;
@@ -347,7 +347,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [16];;
-	    -> rrel_month: rrel_decimal: [09];;	
+	    -> rrel_month: rrel_decimal: [9];;	
             -> rrel_year: rrel_decimal: [1994];;
             *);;
         *);;
@@ -397,7 +397,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [26];;
-	    -> rrel_month: rrel_decimal: [02];;
+	    -> rrel_month: rrel_decimal: [2];;
             -> rrel_year: rrel_decimal: [2001];;
             *);;
         *);;
@@ -406,8 +406,8 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         <-concept_time_point;;
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
-	    -> rrel_day: rrel_decimal: [05];;
-	    -> rrel_month: rrel_decimal: [05];;	
+	    -> rrel_day: rrel_decimal: [5];;
+	    -> rrel_month: rrel_decimal: [5];;	
             -> rrel_year: rrel_decimal: [2006];;
             *);;
         *);;
@@ -427,7 +427,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [12];;
-	    -> rrel_month: rrel_decimal: [01];;
+	    -> rrel_month: rrel_decimal: [1];;
             -> rrel_year: rrel_decimal: [2000];;
             *);;
         *);;
@@ -437,7 +437,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [22];;
-	    -> rrel_month: rrel_decimal: [02];;	
+	    -> rrel_month: rrel_decimal: [2];;	
             -> rrel_year: rrel_decimal: [2001];;
             *);;
         *);;
@@ -456,8 +456,8 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
     <-concept_time_point;;
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
-	    -> rrel_day: rrel_decimal: [05];;
-	    -> rrel_month: rrel_decimal: [05];;
+	    -> rrel_day: rrel_decimal: [5];;
+	    -> rrel_month: rrel_decimal: [5];;
             -> rrel_year: rrel_decimal: [2006];;
             *);;
         *);;
@@ -467,7 +467,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [21];;
-	    -> rrel_month: rrel_decimal: [02];;	
+	    -> rrel_month: rrel_decimal: [2];;	
             -> rrel_year: rrel_decimal: [2014];;
             *);;
         *);;
@@ -487,7 +487,7 @@ concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commi
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [21];;
-	    -> rrel_month: rrel_decimal: [02];;
+	    -> rrel_month: rrel_decimal: [2];;
             -> rrel_year: rrel_decimal: [2014];;
             *);;
         *);;

@@ -1,0 +1,7 @@
+Lieanid_Ivanavich_Kisialiouski
+
+=> nrel_main_idtf:
+        [Леонид Иванович Киселевский] (* <- lang_ru;; *);
+	[Kisialiouski Lieanid Ivanavich ] (* <- lang_en;; *);
+<- concept_male;
+<- concept_person;;

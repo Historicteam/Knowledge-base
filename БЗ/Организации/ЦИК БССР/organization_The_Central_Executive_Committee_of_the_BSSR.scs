@@ -17,7 +17,7 @@ organization_The_Central_Executive_Committee_of_the_BSSR
     <-concept_time_point;;
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
-	    -> rrel_day: rrel_decimal: [04];;
+	    -> rrel_day: rrel_decimal: [4];;
 	    -> rrel_month: rrel_decimal: [2];;
             -> rrel_year: rrel_decimal: [1919];;
             *);;
@@ -178,7 +178,7 @@ concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=>n
     <-concept_time_point;;
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
-	    -> rrel_day: rrel_decimal: [04];;
+	    -> rrel_day: rrel_decimal: [4];;
 	    -> rrel_month: rrel_decimal: [2];;
             -> rrel_year: rrel_decimal: [1919];;
             *);;
@@ -226,7 +226,7 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR<=
         => nrel_translation_in_the_Gregorian_calendar: ...
             (*
 	    -> rrel_day: rrel_decimal: [27];;
-	    -> rrel_month: rrel_decimal: [02];;
+	    -> rrel_month: rrel_decimal: [2];;
             -> rrel_year: rrel_decimal: [1919];;
             *);;
         *);;

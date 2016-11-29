@@ -352,7 +352,7 @@ concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_of
         *);;
 *);;
 
-concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_location: building_of_the_Minsk_Post Office;;*]
+concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_location: building_of_the_Minsk_Post_Office;;*]
   (*
     => nrel_start_time: ...
     (*

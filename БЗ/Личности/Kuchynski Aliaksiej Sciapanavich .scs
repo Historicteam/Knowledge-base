@@ -1,0 +1,8 @@
+Aliaksiej_Sciapanavich_Kuchynski
+
+=> nrel_main_idtf:
+        [Алексей Степанович Кучинский ] (* <- lang_ru;; *);
+	[Kuchynski Aliaksiej Sciapanavich ] (* <- lang_en;; *);
+	[Кучынскі Аляксей Сцяпанавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

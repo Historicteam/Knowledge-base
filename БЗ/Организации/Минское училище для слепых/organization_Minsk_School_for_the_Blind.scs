@@ -134,6 +134,57 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_d
             *);;
         *);;
 *);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_Revenskogo;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [9];;	
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_Frotskoy;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [9];;	
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [9];;	
+            -> rrel_year: rrel_decimal: [1900];;
+            *);;
+        *);;
+*);;
+
+
+
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
   (*
     => nrel_start_time: ...
@@ -198,6 +249,8 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: 
             *);;
         *);;
 *);;
+
+
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: Chyrvony_berah_village;;*]
   (*
     => nrel_start_time: ...
