@@ -1,0 +1,14 @@
+organization_City_public_library_of_L_N_Tolstoy
+=> nrel_main_idtf:
+	[Городская публичная библиотека имени Л.Н. Толстого]
+	(*
+	<- lang_ru;;
+	*);
+        [City public library of L. N. Tolstoy]
+	(*
+	<- lang_en;;
+	*);
+        [Гарадская публічная бібліятэка імя Л. М. Таўстога]
+	(*
+	<- lang_by;;
+	*);;

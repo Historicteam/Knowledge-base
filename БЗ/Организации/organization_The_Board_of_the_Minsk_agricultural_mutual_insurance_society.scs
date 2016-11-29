@@ -1,0 +1,14 @@
+organization_The_Board_of_the_Minsk_agricultural_mutual_insurance_society
+=> nrel_main_idtf:
+	[Правление Минского земледельческого товарищества взаимного страхования]
+	(*
+	<- lang_ru;;
+	*);
+        [The Board of the Minsk agricultural mutual insurance society]
+	(*
+	<- lang_en;;
+	*);
+        [Праўленне Мінскага земляробчага таварыста ўзаемнага страхавання]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,155 @@
+Oskar_Janickij_house
+=> nrel_main_idtf:
+	[дом Оскара Яницкoгo]
+	(*
+	<- lang_ru;;
+	*);
+	[Oskar Janickij house]
+	(*
+	<- lang_en;;
+	*);
+	[дом Оскара Яніцкага]
+	(*
+	<- lang_by;;
+		*);
+=> nrel_idtf:
+        [Здание магазина «Хлеб»]
+	(*
+	<- lang_ru;;
+	*);
+	[The building of the store "Khleb"]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак крамы «Хлеб»]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+        [Здание комплекса для образования на базе БГУ Института переподготовки и повышения квалификации судей, работников прокуратуры, судов и учреждений юстиции]
+	(*
+	<- lang_ru;;
+	*);
+	[The building of the complex for education on the basis of the BSU Institute of retraining and advanced training of judges, prosecutors, courts and institutions of justice]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак комплекса для адукацыі на базе БДУ Інстытута перападрыхтоўкі і павышэння кваліфікацыі суддзяў, работнікаў пракуратуры, судоў і ўстаноў юстыцыі]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: Explanation_Oskar_Janickij_house
+	
+	(*
+	=> nrel_main_idtf:
+	[Пояснение Дома Яницкого] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of the Yanitsky house] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне Дома Яніцкага]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Согласно инвентарному описанию кварталов г. Минска за 1910 г. дом вместе с земельным участком принадлежал дворянину Оскару Константиновичу Яницкому. Он имел высокую степень благоустройства (здание было оборудовано водопроводом и канализацией, туалетами, ванными комнатами, печным отоплением) и являлся одним из самых привилегированных в городе.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[According to the inventory description quarters of Minsk in 1910 for a house together with land nobleman Oscar Konstantinovichu Janicki. He had a high degree of improvement (the building was equipped with a water supply and sewerage, toilets, bathrooms, stove heating) and was one of the most privileged in the city.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Згодна з інвентарным апісанні кварталаў г. Мінска за 1910 г. дом разам з зямельным участкам належаў лыцару Оскару Канстанцінавічу Яніцкая. Ён меў высокую ступень добраўпарадкавання (будынак было абсталявана водаправодам і каналізацыяй, туалетамі, ваннымі пакоямі, пячным ацяпленнем) і з'яўляўся адным з самых прывілеяваных ў горадзе.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+<- concept_building;
+<- concept_terrain_object;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8944255, 27.543067]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8944255;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.543067;;
+					*);;
+				*);;
+			*);;
+	*);
+<- rrel_key_sc_element: Illustration_Oskar_Janickij_house
+	(*
+=> nrel_main_idtf:
+	[дом Оскара Яницкoгo в наши дни.] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Oskar Janickij house, our days] 
+		(* 
+		<- lang_en;; 
+		*);
+	[дом Оскара Яніцкага ў нашы дні.]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content//Oskar_Janickij_house.JPG"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+ *);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

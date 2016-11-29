@@ -1,0 +1,14 @@
+organization_Workshop_of_the_National_Commissariat_of_Posts_and_Telegraphs
+=> nrel_main_idtf:
+        [Мастерская Народного Комиссариата Почты и Телеграфа]
+	(*
+	<- lang_ru;;
+	*);
+        [Workshop of the National Commissariat of Posts and Telegraphs]
+	(*
+	<- lang_en;;
+	*);
+        [Майстэрня Народнага камісарыята пошты і тэлеграфа]
+	(*
+	<- lang_by;;
+	*);;

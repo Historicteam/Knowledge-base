@@ -1,0 +1,14 @@
+Shkolnikov_M_N
+=> nrel_main_idtf:
+        [Школьников М. Н.]	
+        (*
+	<- lang_ru;;
+	*);
+	[Shkolnikov M. N.]
+	(*
+	<- lang_en;;
+	*);
+	[Школьнікаў М. Н.]
+	(*
+	<- lang_by;;
+	*);;

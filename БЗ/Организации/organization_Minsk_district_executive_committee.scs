@@ -1,0 +1,14 @@
+organization_Minsk_district_executive_committee
+=> nrel_main_idtf:
+	[Минский уездный исполнительный комитет]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk district executive committee]
+	(*
+	<- lang_en;;
+	*);
+        [Мінскі павятовы выканаўчы камітэт]
+	(*
+	<- lang_by;;
+	*);;

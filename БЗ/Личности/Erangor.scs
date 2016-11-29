@@ -1,0 +1,14 @@
+Erangor
+=> nrel_main_idtf:
+        [Ерангор]	
+        (*
+	<- lang_ru;;
+	*);
+	[Erangor]
+	(*
+	<- lang_en;;
+	*);
+	[Ерангор]
+	(*
+	<- lang_by;;
+	*);;

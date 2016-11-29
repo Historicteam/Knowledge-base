@@ -1,0 +1,150 @@
+Przhelyaskovsky_house 
+=> nrel_main_idtf:
+        [Przhelyaskovsky house]	
+        (*
+	<- lang_en;;
+	*);
+	[Дом Пржелясковского]
+	(*
+	<- lang_ru;;
+	*);
+	[Дом Пржеляскоўскага]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание дирекции народних училищ Минской губернии]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk province public schools management building]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак дырэкцыі народных вучылішч Мінскай губерніі]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Минского производственного пусконаладочного участка]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Minsk commissioning of the production site]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Мінскага вытворчага пусканаладачнага ўчастка]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: Explanation_Przhelyaskovsky_house 
+	
+	(*
+	=> nrel_main_idtf:
+	[Пояснение Дома Пржелясковского] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of the Przhelyaskovsky house] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне Дома Пржеляскоўскага]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Петропавловская, 46, дом Пржелясковского. Дирекция народных училищ Минской губернии. Заведовала открытием и закрытием народных, уездных, реальных, городских училищ, руководила их учебной частью, снабжала пособиями и книгами, назначала и увольняла учителей.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Petropalovskaya street, 46, Przhelyaskovsky house. Minsk province public schools management. He was in charge of opening and closing of the people, county, real, urban schools, supervised their training part, supplying manuals and books, to appoint and dismiss teachers.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Петрапаўлаўская, 46, дом Пржелясковского. Дырэкцыя народных вучылішч Мінскай губерні. Загадвала адкрыццём і закрыццём народных, павятовых, рэальных, гарадскіх вучылішчаў, кіравала іх вучэбнай часткай, забяспечвала дапаможнікамі і кнігамі, прызначае і звальняе настаўнікаў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+
+<- concept_building;
+<- concept_terrain_object;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8919488, 27.5639494]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8919488;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5639494;;
+					*);;
+				*);;
+			*);;
+	*);
+
+<- rrel_key_sc_element: Illustration_Przhelyaskovsky_house_1
+	(*
+=> nrel_main_idtf:
+	[В книге "Минск. Страницы жизни дореволюционного города" (З. Шибеко, С. Шибеко, 1990) указывается, что здание на фото ниже, возможно, сохранившийся Дом Пржелясковского, XIX, ул. Энгельса 28. 2006 г.] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[In the book "Minsk. Pages of pre-revolutionary life of the city" (Z. Shibeko, S. Shibeko, 1990) indicates that the building in the photo below, may keep the house of Przhelyaskovsky, the XIX, Engels street, 28. 2006 year.] 
+		(* 
+		<- lang_en;; 
+		*);
+	[У кнізе "Мінск. Старонкі жыцця дарэвалюцыйнага горада" (З. Шыбека, З. Шыбека, 1990) паказваецца, што будынак на фота ніжэй, магчыма, захаваўся Дом Пржеляскоўскага, XIX, вул. Энгельса 28. 2006 г.]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Przhelyaskovsky_house_image1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+ *);;
+
+
+
+concept_situation->[*
+	Przhelyaskovsky_house        
+        <= nrel_complex_of_buildings_decomposition:
+        {   
+            organization_Minsk_commissioning_of_the_production_site;
+            Przhelyaskovsky_house;
+            organization_Minsk_province_public_schools_management  
+        };;
+*];;
+

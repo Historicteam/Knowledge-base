@@ -1,0 +1,14 @@
+organization_Hotel_Kronstadt
+=> nrel_main_idtf:
+        [Гостиница "Кронштадт"]	
+        (*
+	<- lang_ru;;
+	*);
+	[Hotel "Kronstadt"]
+	(*
+	<- lang_en;;
+	*);
+	[Гасцініца "Кранштат"]
+	(*
+	<- lang_by;;
+	*);;

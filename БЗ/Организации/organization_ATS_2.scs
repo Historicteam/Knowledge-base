@@ -1,0 +1,14 @@
+organization_ATS_2
+=> nrel_main_idtf:
+        [АТС-2]
+	(*
+	<- lang_ru;;
+	*);
+        [APS-2]
+	(*
+	<- lang_en;;
+	*);
+        [АТС-2]
+	(*
+	<- lang_by;;
+	*);;

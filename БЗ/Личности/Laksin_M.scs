@@ -1,0 +1,14 @@
+Laksin_M
+=> nrel_main_idtf:
+        [Лаксин М.]	
+        (*
+	<- lang_ru;;
+	*);
+	[Laksin M.]
+	(*
+	<- lang_en;;
+	*);
+	[Лаксін М.]
+	(*
+	<- lang_by;;
+	*);;

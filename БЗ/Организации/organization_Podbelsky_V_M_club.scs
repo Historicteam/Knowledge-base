@@ -1,0 +1,14 @@
+organization_Podbelsky_V_M_club
+=> nrel_main_idtf:
+	[Клуб имени Подбельского В. М.]
+	(*
+	<- lang_ru;;
+	*);
+        [Podbelsky V. M. club]
+	(*
+	<- lang_en;;
+	*);
+        [клуб імя Падбельскага В. М.]
+	(*
+	<- lang_by;;
+	*);;

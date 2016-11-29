@@ -1,0 +1,313 @@
+Zhdanovich_house_building
+=> nrel_main_idtf:
+        [Дом Ждановича]	
+        (*
+	<- lang_ru;;
+	*);
+	[Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Дом Ждановіча]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Городского жилищного подотдела отдела коммунального хозяйства Минского окружного исполнительного комитета]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the City housing subdivision department of the communal household of the Minsk district executive committee]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Гарадскога жыллёвага пададдзела аддзела камунальнай гаспадаркі Мінскага акруговага выканаучага камітэта]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание отдела коммунального хозяйства Минского окружного исполнительного комитета]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Department of the communal household of the Minsk district executive committee]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак аддзела камунальнай гаспадаркі Мінскага акруговага выканаучага камітэта]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+        [Здание Гостиницы "Кронштадт"]	
+        (*
+	<- lang_ru;;
+	*);
+	[The building of the Hotel "Kronstadt"]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Гасцініцы "Кранштат"]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+        [Здание Молочной лавки в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Dairy shop in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Малочнай лаўкі у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+        [Здание бакалейной лавки в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Grocery in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак бакалейнай лаўкі у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание КГБ]
+	(*
+	<- lang_ru;;
+	*);
+        [SSC building]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак КДБ]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: Explanation_Zhdanovich_house_building
+	
+	(*
+	=> nrel_main_idtf:
+	[Пояснение Дома Ждановича] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of the Zhdanovich house] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне Дома Ждановіча]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В 1880-1910-е - собственник - дворянин Жданович Вильгельм Осипович. Владел также д.6 по ул. Садовой. В 1920-м Ждановичи выехали за границу и имущество было национализировано.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+                        [In 1880-1910's - owner a nobleman Zhdanovich Wilhelm Osipovich. He also owned a house 6 on Sadovaya street. In 1920 Zhdanovich family went abroad and the property was nationalized.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[У 1880-1910-я - уласнік дваранін Ждановіч Вільгельм Восіпавіч. Валодаў таксама д.6 па вул. Садовай. У 1920-м Ждановічы выехалі за мяжу і маёмасць была нацыяналізавана.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+<- concept_building;
+<- concept_terrain_object;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.898356, 27.553799]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.898356;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree:  27.553799;;
+					*);;
+				*);;
+			*);;
+	*);
+<- rrel_key_sc_element: Illustration_Zhdanovich_house_building
+	(*
+=> nrel_main_idtf:
+	[Фото Дома Ждановича в 2014м году] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Zhdanovich house photo in 2014] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Фота Дома Ждановіча ў 2014м годзе]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/KGB.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+ *);;
+
+concept_situation->[*
+	Zhdanovich_house_building        
+        <= nrel_complex_of_buildings_decomposition:
+        {   
+          organization_City_housing_subdivision_department_of_the_communal_household_of_the_Minsk_district_executive_committee;
+          Zhdanovich_house_building;
+          organization_department_of_the_communal_household_of_the_Minsk_district_executive_committee;
+          organization_Hotel_Kronstadt;
+          organization_Dairy_shop_in_the_Zhdanovich_house;
+          organization_grocery_in_the_Zhdanovich_house;
+          organization_Emergency_Commission_of_Belarus 
+        };;
+*];;
+
+concept_situation->[*Zhdanovich_house_building <= nrel_owner: organization_City_housing_subdivision_department_of_the_communal_household_of_the_Minsk_district_executive_committee;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Городского жилищного подотдела отдела коммунального хозяйства Минского окружного исполнительного комитета домом Ждановича](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1922];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1923];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zhdanovich_house_building <= nrel_owner: organization_department_of_the_communal_household_of_the_Minsk_district_executive_committee;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения отдела коммунального хозяйства Минского окружного исполнительного комитета домом Ждановича](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1925];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1926];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Dairy_shop_in_the_Zhdanovich_house;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения молочной лавки в доме Ждановича](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1918];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1918];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Hotel_Kronstadt;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Гостиницы "Кронштадт" в доме Ждановича](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1910];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1910];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_grocery_in_the_Zhdanovich_house;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения бакалейной лавки в доме Ждановича](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1918];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1918];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*Zhdanovich_house_building <= nrel_dwelling: Laksin_M;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Лаксина М. в доме Ждановича](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1925];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1926];;
+																			*);;
+						*);;
+*);;
+
+

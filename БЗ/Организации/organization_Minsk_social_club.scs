@@ -1,0 +1,14 @@
+organization_Minsk_social_club
+=> nrel_main_idtf:
+	[Минский общественный клуб]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk social club]
+	(*
+	<- lang_en;;
+	*);
+        [Мінскі грамадскі клуб]
+	(*
+	<- lang_by;;
+	*);;

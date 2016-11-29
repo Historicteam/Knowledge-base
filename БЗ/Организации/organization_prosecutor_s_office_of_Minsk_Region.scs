@@ -1,0 +1,14 @@
+organization_prosecutor_s_office_of_Minsk_Region
+=> nrel_main_idtf:
+	[Прокуратура Минского Района]
+	(*
+	<- lang_ru;;
+	*);
+        [Prosecutor's office of Minsk Region]
+	(*
+	<- lang_en;;
+	*);
+        [Пракуратура Мінскага Раёна]
+	(*
+	<- lang_by;;
+	*);;

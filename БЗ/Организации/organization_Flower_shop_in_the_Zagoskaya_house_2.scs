@@ -1,0 +1,14 @@
+organization_Flower_shop_in_the_Zagoskaya_house_2
+=> nrel_main_idtf:
+        [Цветочная лавка в Доме Загорской (49)]
+	(*
+	<- lang_ru;;
+	*);
+        [Flower shop in the Zagoskaya house(49)]
+	(*
+	<- lang_en;;
+	*);
+        [Кветкавая лаўка у Доме Загорскай(49)]
+	(*
+	<- lang_by;;
+	*);;

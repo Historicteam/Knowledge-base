@@ -1,0 +1,14 @@
+organization_Minsk_commissioning_of_the_production_site
+=> nrel_main_idtf:
+	[Минский производственный пусконаладочный участок]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk commissioning of the production site]
+	(*
+	<- lang_en;;
+	*);
+        [Мінскі вытворчы пусканаладачны ўчастак]
+	(*
+	<- lang_by;;
+	*);;

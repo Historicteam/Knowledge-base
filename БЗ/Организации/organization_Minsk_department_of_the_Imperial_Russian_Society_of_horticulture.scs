@@ -1,0 +1,14 @@
+organization_Minsk_department_of_the_Imperial_Russian_Society_of_horticulture
+=> nrel_main_idtf:
+	[Минский отдел Императороского российского общества садоводства]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk department of the Imperial Russian Society of Horticulture]
+	(*
+	<- lang_en;;
+	*);
+        [Мінскі аддзел Імператарскага расійскага таварыства садаводства]
+	(*
+	<- lang_by;;
+	*);;

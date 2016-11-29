@@ -1,0 +1,14 @@
+organization_Consumer_society_Sila
+=> nrel_main_idtf:
+	[Потребительское общество "Сила"]
+	(*
+	<- lang_ru;;
+	*);
+        [Consumer society "Sila"]
+	(*
+	<- lang_en;;
+	*);
+        [Спажывецкае таварыства "Сіла"]
+	(*
+	<- lang_by;;
+	*);;

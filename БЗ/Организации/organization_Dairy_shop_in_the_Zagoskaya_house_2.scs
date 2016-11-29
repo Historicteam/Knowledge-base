@@ -1,0 +1,14 @@
+organization_Dairy_shop_in_the_Zagoskaya_house_2
+=> nrel_main_idtf:
+        [Молочная лавка в Доме Загорской (49)]
+	(*
+	<- lang_ru;;
+	*);
+        [Dairy shop in the Zagoskaya house(49)]
+	(*
+	<- lang_en;;
+	*);
+        [Малочная лаўка у Доме Загорскай(49)]
+	(*
+	<- lang_by;;
+	*);;

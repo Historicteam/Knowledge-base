@@ -1,0 +1,14 @@
+organization_commandant_s_office_in_the_Zagoskaya_house_2
+=> nrel_main_idtf:
+        [Комендатура в Доме Загорской (49)]
+	(*
+	<- lang_ru;;
+	*);
+        [Сommandant's office in the Zagoskaya house(49)]
+	(*
+	<- lang_en;;
+	*);
+        [Камендатура у Доме Загорскай(49)]
+	(*
+	<- lang_by;;
+	*);;
