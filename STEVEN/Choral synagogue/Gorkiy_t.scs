@@ -1,0 +1,7 @@
+organization_Gorkiy_theatre
+
+=> nrel_main_idtf:
+	[Русский драматический театр им. Горького]	
+	(*
+	<- lang_ru;;
+	*);;

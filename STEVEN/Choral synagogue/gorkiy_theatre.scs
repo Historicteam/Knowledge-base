@@ -1,0 +1,10 @@
+Gorkiy_theatre_building
+=> nrel_main_idtf:
+	[Здание Русского драматического театра имени М. Горького]	
+	(*
+	<- lang_ru;;
+	*);
+	[Gorkiy russian drama theatre building]
+	(*
+	<- lang_en;;
+	*);;

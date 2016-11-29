@@ -1,0 +1,10 @@
+organization_25_railway_school
+=> nrel_main_idtf:
+	[Средняя образцовая железнодорожная школа 25]	
+	(*
+	<- lang_ru;;
+	*);
+	[Average exemplary railway school number 25]
+	(*
+	<- lang_en;;
+	*);;

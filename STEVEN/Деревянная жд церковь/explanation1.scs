@@ -1,0 +1,58 @@
+organization_LKSMB
+=> nrel_main_idtf:
+	[Октябрьский районный комитет ЛКСМБ]	
+	(*
+	<- lang_ru;;
+	*);;
+
+organization_KPB
+=> nrel_main_idtf:
+	[Октябрьский районный комитет КПБ]	
+	(*
+	<- lang_ru;;
+	*);;
+
+organization_evening_school
+=> nrel_main_idtf:
+	[Вечерняя школа октябрьского районного комитета КПБ]	
+	(*
+	<- lang_ru;;
+	*);;
+
+organization_club_13_october
+=> nrel_main_idtf:
+	[Клуб 13 летия Октябрьской революции]	
+	(*
+	<- lang_ru;;
+	*);;
+
+organization_railway_club
+=> nrel_main_idtf:
+	[Клуб железнодорожников имени 12 годовщины Октябрьской революции]	
+	(*
+	<- lang_ru;;
+	*);;
+
+Grynyavitski_Adam_Iosifovich 
+=>nrel_main_idtf:
+	[Груневицкий Адам Иосифович] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Rusetskiy_Ivan_Fotievich
+=>nrel_main_idtf:
+	[Русецкий Иван Фотиевич] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+pricht_holy_kazan
+=>nrel_main_idtf:
+	[Причт греко-православного прихода Свято-Казанской железнодорожной церкви] 
+	(* <-lang_ru;; *);;
+
+kazan_church
+=>nrel_main_idtf:
+	[Греко-православный приход деревянной Казанской привокзальной железнодорожной церкви] 
+	(* <-lang_ru;; *);;
+
+

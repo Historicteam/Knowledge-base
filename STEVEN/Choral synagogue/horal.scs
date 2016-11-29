@@ -1,0 +1,461 @@
+Choral_synagogue_building
+
+=> nrel_main_idtf:
+	[Здание хоральной синагоги]	
+	(*
+	<- lang_ru;;
+	*);
+	[Choral synagogue building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак харальнай сінагогі]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хоральная синагога была построена в конце XIX века в мавританском стиле.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Choral Synagogue was built in the late XIX century in the Moorish style.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Харальная сінагога была пабудавана ў канцы XIX стагоддзя ў маўрытанскім стылі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.898636, 27.551085]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.898636;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.551085;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);	
+
+	=> nrel_start_time: ...
+        (*
+	       => nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			    (*
+			   	 -> rrel_year: rrel_decimal: [1901];;
+			    *);;
+		*);;
+		
+		=> nrel_finish_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1906];;
+			*);;
+		*);;
+        *);
+
+=>nrel_architectural_style:...
+(*
+	<-concept_arch_mavritan
+	(*
+		=> nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			    (*
+			    -> rrel_year: rrel_decimal: [1901];;
+			    *);;
+		*);;
+		
+		=> nrel_finish_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+			-> rrel_year: rrel_decimal: [1941];;
+			*);;
+		*);;
+	*);;
+	
+	<-concept_arch_classicism
+	(*
+		=> nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			    (*
+			    -> rrel_year: rrel_decimal: [1944];;
+			    *);;
+		*);;
+	*);;
+*);
+<- concept_terrain_object;
+<- concept_building;;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_Choral_synagogue;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+	       => nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			    (*
+			    -> rrel_year: rrel_decimal: [1901];;
+			    *);;
+		*);;
+		
+		=> nrel_finish_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+			-> rrel_year: rrel_decimal: [1906];;
+			*);;
+		*);;
+        *);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1921];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_jewish_theatre;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1921];;
+		*);;
+        *);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1923];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_Work_club;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1923];;
+		*);;
+        *);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1926];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_belgoskino;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1926];;
+		*);;
+        *);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1941];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_location: organization_Gorkiy_theatre;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1947];;
+		*);;
+        *);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1901];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1901];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal1942.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1942];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/horal1926.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1926];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:jewish_theatre_building;; *]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1921];;
+		*);;
+	*);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+		-> rrel_year: rrel_decimal: [1923];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*Choral_synagogue_building<= nrel_temporal_decomposition:Work_club_building;; *]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1923];;
+		*);;
+	*);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+		-> rrel_year: rrel_decimal: [1926];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:belgoskino_building;; *]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1926];;
+		*);;
+	*);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+		-> rrel_year: rrel_decimal: [1941];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:Gorkiy_theatre_building;; *]
+(*
+	=> nrel_start_time: ...
+	(*
+		=> nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1945];;
+			*);;
+		*);;
+
+		=> nrel_finish_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1947];;
+			*);;
+		*);;
+	*);;
+	
+	=>nrel_architector: Baklanov_architector;;
+*);;
+
+concept_situation->[*Choral_synagogue_building
+	<=nrel_architector: Baklanov_architector;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		=> nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1945];;
+			*);;
+		*);;
+
+		=> nrel_finish_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1947];;
+			*);;
+		*);;
+	*);;
+*);;

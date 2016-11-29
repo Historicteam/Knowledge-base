@@ -1,0 +1,14 @@
+BBaklanov_architector
+=> nrel_main_idtf:
+	[Baklanou Mickhail Ivanovich]
+	(*
+	<- lang_ru;;
+	*);
+	[Бакланов Михаил Иванович]
+	(*
+	<- lang_en;;
+	*);
+<-concept_male;
+<-concept_architector; 
+=>nrel_surname: surname_Baklanov;
+=>nrel_first_name: name_Mickhail;;

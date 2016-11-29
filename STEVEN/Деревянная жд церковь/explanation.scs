@@ -1,0 +1,43 @@
+rrel_prior
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[настоятель']
+	(*
+	<- lang_ru;;
+	*);;
+
+rrel_deacon
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[дьякон']
+	(*
+	<- lang_ru;;
+	*);;
+
+rrel_watchman
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[караульный']
+	(*
+	<- lang_ru;;
+	*);;
+
+rrel_priest
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[священник']
+	(*
+	<- lang_ru;;
+	*);;
