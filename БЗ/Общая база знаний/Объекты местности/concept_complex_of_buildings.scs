@@ -2,7 +2,7 @@ concept_complex_of_buildings
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
-	[комплекс зданий]
+	[комплекс строений]
 	(*
 	<- lang_ru;;
 	*);

@@ -1,0 +1,31 @@
+complex_of_constructions_of_the_female_monastery_of_Bernardine
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Монастырь бернардинок был основан 20 сентября 1633 года трокским воеводой, костеляном минским Алекандром Слушкой. В 1642 году начали возводить каменные строения монастыря. В 1672 году был достроен  костел, который был освещен как костел Рождения пресвятой Девы Марии. В 1741 году после реконструкции монастырь приобрел барочные черты и представлял собой костел с семью алтарями и п-образный жилой корпус. Главной святыней костела была икона «Богоматерь с ребенком», которую прислал Папа римский Урбан VIII Софьи Зенович, жене Александра Слушки.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+        ...
+        (*
+		-> rrel_example:
+			[The Bernardine monastery was built in septemper 20 of 1663 by Alexander Slushka. In 1642 started to build stone constructions of the monastery. In 1672 was finished building of church, which was named as church of birth of Saint Mary. After reconstruction in 1741 the monastery become the church with seven altars and residential housing. Main saint place of the church was icon «Godmother with a child» which Papa Urban VIII sent to Alexander Slushka's wife] 
+			(*
+			<- lang_en;;
+			*);;
+		*);
+        ...
+        (*
+		-> rrel_example:
+			[Манастыр бернардынак быў заснаваны 20 верасня 1633 года трокскім ваяводай, кастэлянам мінскім Алекандром Сушкай. У 1642 годзе пачалі ўзводзіць камяніцы манастыра. У 1672 годзе быў дабудаваны касцёл, які быў асветлены як касцёл Народжанні найсвятой Панны Марыі. У 1741 годзе пасля рэканструкцыі манастыр набыў барочныя рысы і ўяўляў сабою касцёл з сямю алтарамі і п-вобразны жылы корпус. Галоўнай святыняй касцёла быў абраз «Богамаці з дзіцём», якую даслаў Тата рымскі Урбан VIII Соф'і Зяновіч, жонцы Аляксандра Cушкi.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+    *);;

@@ -1,0 +1,31 @@
+complex_of_constructions_of_the_female_monastery_of_Bernardine
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В 1870 году монастырь был освящен в честь Сошествия святого духа. Монастырь просуществовал до 1918 года, когда был закрыт пришедшими к власти большевиками.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+        ...
+        (*
+		-> rrel_example:
+			[In 1870 the monastery was consecrated in honor of the Descent of the Holy Spirit. The monastery had existed till 1918 when it was closed by bolsheviks]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+        ...
+        (*
+		-> rrel_example:
+			[У 1870 годзе манастыр быў асвячоны ў гонар Спасланні святога духу. Манастыр праіснаваў да 1918 года, калі быў зачынены прыйшэлымі да ўлады бальшавікамі]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+        *);;

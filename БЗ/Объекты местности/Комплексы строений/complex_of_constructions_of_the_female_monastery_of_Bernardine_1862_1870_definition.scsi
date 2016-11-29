@@ -1,0 +1,32 @@
+complex_of_constructions_of_the_female_monastery_of_Bernardine
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В 1866 году монахини были отправлены в Несвиж, а комплекс перешел православной церкви. В монастыре расположились братия Слуцкого Свято-Троицкого монастыря.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+        ...
+        (*
+		-> rrel_example:
+			[In 1866 nuns was sent to Nesvizh and the complex started to belong Orthodox church. In the monastery settled brethren of Holy Trinity Monastery.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+        ...
+        (*
+		-> rrel_example:
+			[У 1866 годзе манашкі былі адпраўлены ў Нясвіж, а комплекс перайшоў праваслаўнай царквы. У манастыры размясціліся брація Слуцкага Свята-Траецкага манастыра.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+    *);;
+
