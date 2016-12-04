@@ -1,0 +1,8 @@
+Ciarencjeu_Avierkau_Asipovich
+
+=> nrel_main_idtf:
+        [Терентьев Аверкий Осипович] (* <- lang_ru;; *);
+	[Ciarencjeu Avierkau Asipovich] (* <- lang_en;; *);
+	[Цярэнцьеў Аверкаў Асіповіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

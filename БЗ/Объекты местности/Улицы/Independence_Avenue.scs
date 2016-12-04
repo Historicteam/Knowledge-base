@@ -14,6 +14,8 @@ Independence_Avenue
 				*);
 			<= nrel_subdividing: 
 			{
-			house_39_Independence_Avenue
+			house_39_Independence_Avenue;
+			building_government_House;
+			house_4_Independence_Avenue
 			};
 			<-concept_avenue;;

@@ -1,0 +1,11 @@
+rrel_chairman
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[председатель']
+	(*
+	<- lang_ru;;
+	*);;
+

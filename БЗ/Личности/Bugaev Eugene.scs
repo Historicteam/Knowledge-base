@@ -1,0 +1,8 @@
+Eugene_Bugaev
+
+=> nrel_main_idtf:
+	[ Бугаёв Евгений Иосифович ] (* <- lang_ru;; *);
+	[ Bugajou Jaugien Iosifavich] (* <- lang_en;; *);
+	[Бугаёў Яўген Іосіфавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,8 @@
+Hrycuk_Ivan_Mikhajlavich
+
+=> nrel_main_idtf:
+	[Грицук Иван Михайлович] (* <- lang_ru;; *);
+	[Hrycuk Ivan Mikhajlavich] (* <- lang_en;; *);
+	[Грыцук Іван Міхайлавіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

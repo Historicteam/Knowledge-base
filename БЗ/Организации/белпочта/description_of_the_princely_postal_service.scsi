@@ -1,0 +1,22 @@
+princely_postal_service
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[ В летописях конца XIV в. упоминается княжеская почтовая служба. В Минске в 1586 г. существовали подвозная, постойная, дорожная и гонская повинности. Они обязывали некоторую часть населения предоставлять свои помещения для отдыха и временного пребывания проезжающих через город княжеских послов и гонцов, а также подводы для их переезда. На многих торгово-почтовых трактах были построены почтовые станции.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[The chronicle of the end of the XIV century. mentioned princely postal service. In Minsk, in 1586 there were podvoznaya, Postojna, road and gonskaya service. They are obliged to provide a part of the population of their premises for recreation and temporary stay passing through the city of princely ambassadors and messengers, and carts for their move. Many trade and postal roads postal stations were built.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[У летапісах канца XIV ст. згадваецца княжая паштовая служба. У Мінску ў 1586 г. існавалі подвозная, Постойна, дарожная і гонская павіннасці. Яны абавязвалі некаторую частку насельніцтва прадастаўляць свае памяшканні для адпачынку і часовага знаходжання праязджаюць праз горад княжых паслоў і ганцоў, а таксама падводы для іх пераезду. На многіх гандлёва-паштовых гасцінцах былі пабудаваны паштовыя станцыі.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

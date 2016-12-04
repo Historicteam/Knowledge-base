@@ -1,0 +1,8 @@
+Ivan_Naumenko
+
+=> nrel_main_idtf:
+	[Науменко Иван Яковлевич  ] (* <- lang_ru;; *);
+	[Navumienka Ivan Jakaulievich] (* <- lang_en;; *);
+	[Навуменка Іван Якаўлевіч  ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

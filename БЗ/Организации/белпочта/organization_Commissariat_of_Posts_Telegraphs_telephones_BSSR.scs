@@ -1,0 +1,292 @@
+organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR
+=> nrel_main_idtf:
+	[Народный комиссариат почт,телеграфов и телефонов БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[People's Commissariat of Posts, Telegraphs and telephones BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Народны камісарыят пошт, тэлеграфаў і тэлефонаў БССР]
+	(*
+	<- lang_by;;
+	*);
+  => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [6];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [15];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+
+
+concept_situation->[* organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination:organization_of_the_Minsk_provincial_post_and_telegraph_office ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1899];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination:organization_of_the_First_Minsk_postal_telegraph_office ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1891];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination: organization_of_the_Second_Minsk_postal_telegraph_office;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+*);;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination: organization_of_the_Third_Minsk_postal_telegraph_office;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1916];;
+            *);;
+        *);;
+*);;
+
+
+organization_West_Regional_postal_and_telegraph_management
+=> nrel_main_idtf:
+	[Западно-областное почтово-телеграфное управление]
+	(*
+	<- lang_ru;;
+	*);
+	[West Regional postal and telegraph management]
+	(*
+	<- lang_en;;
+	*);
+	[Заходне-абласное паштова-тэлеграфнае кіраванне]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_West_Regional_postal_and_telegraph_management;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [15];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+*);;
+
+organization_department_of_public_communication_Minsk_provincial_Revolutionary_Committee
+=> nrel_main_idtf:
+	[Отдел народной связи Минского губернского революционного комитета]
+	(*
+	<- lang_ru;;
+	*);
+	[The department of public communication Minsk provincial Revolutionary Committee]
+	(*
+	<- lang_en;;
+	*);
+	[Аддзел народнай сувязі Мінскага губернскага рэвалюцыйнага камітэта]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_department_of_public_communication_Minsk_provincial_Revolutionary_Committee;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [11];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [8];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+*);;
+
+organization_Department_of_Public_Communications_of_the_Military_Revolutionary_Committee
+=> nrel_main_idtf:
+	[Отдел народной связи Военного революционного комитета БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[Department of Public Communications of the Military Revolutionary Committee BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Аддзел народнай сувязі Ваеннага рэвалюцыйнага камітэта БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Department_of_Public_Communications_of_the_Military_Revolutionary_Committee;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [8];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+*);;
+
+organization_Peoples_Commissariat_of_Communications_BSSR_Voenrevkoma
+=> nrel_main_idtf:
+	[Комиссариат народной связи Военревкома БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[People's Commissariat of Communications BSSR Voenrevkoma]
+	(*
+	<- lang_en;;
+	*);
+	[Камісарыят народнай сувязі Военревкома БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Peoples_Commissariat_of_Communications_BSSR_Voenrevkoma;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+*);;
+
+organization_Peoples_Commissariat_of_Posts_and_Telegraphs
+=> nrel_main_idtf:
+	[Народный комиссариат почт и телеграфов БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[People's Commissariat of Posts and Telegraphs BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Народны камісарыят пошт і тэлеграфаў БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Peoples_Commissariat_of_Posts_and_Telegraphs;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+		-> rrel_day: rrel_decimal: [7];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1934];;
+            *);;
+        *);;
+*);;
+
+

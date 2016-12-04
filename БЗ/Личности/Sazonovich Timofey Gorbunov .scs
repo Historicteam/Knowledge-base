@@ -1,0 +1,8 @@
+Timofey_Gorbunov_Sazonovich
+
+=> nrel_main_idtf:
+	[Горбунов ТимофейСазонович   ] (* <- lang_ru;; *);
+	[Garbunou  Timafiej Sazanovich  ] (* <- lang_en;; *);
+	[Гарбуноў Цімафей Сазанович] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

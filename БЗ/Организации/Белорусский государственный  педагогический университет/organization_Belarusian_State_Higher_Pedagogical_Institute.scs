@@ -1,0 +1,263 @@
+organization_Belarusian_State_Higher_Pedagogical_Institute
+=> nrel_main_idtf:
+	[Белорусский государственный высший педагогический институт]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian State Higher Pedagogical Institute]
+	(*
+	<- lang_en;;
+	*);
+	[Беларускі дзяржаўны вышэйшы педагагічны інстытут]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1931];;
+            *);;
+      *);
+
+=> nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1936];;
+            *);;
+	*);
+
+=>nrel_abbreviation:
+	[БГПУ]
+	 (* <- lang_ru;; *);
+	[BSPU] 
+	(* <- lang_en;; *);
+	[БДПУ]
+	(* <- lang_by;; *);
+
+=>nrel_phone_number: [375173278209]
+		(*
+		<-concept_phone_number;;
+		*);
+=>nrel_site: [www.bspu.by]
+		(*
+		<-concept_site;;
+		*);
+=>nrel_email: [ juro@bspu.by]
+		(*
+		<-concept_email;;
+		*);
+<-concept_educational_institution;
+<-concept_formal_organization;
+<-concept_university;;
+
+concept_situation->[*^"file://description_of_Belarusian_State_Higher_Pedagogical_Institute.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1931];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1936];;
+            *);;
+        *);;
+*);;
+
+organization_Minsk_State_Pedagogical_Institute_Gorky
+=> nrel_main_idtf:
+	[Минский государственный педагогический институт имени М.Горького]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk State Pedagogical Institute named after M. Gorky]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі дзяржаўны педагагічны інстытут імя М.Горкага]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;
+<-concept_university;;
+
+concept_situation->[*^"file://description_of_the_Minsk_State_Pedagogical_Institute_Gorky.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1936];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+ 	-> rrel_day: rrel_decimal: [8];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1993];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_Belarusian_State_Higher_Pedagogical_Institute=>nrel_location:building_ped;;*]
+(*
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Minsk_State_Pedagogical_Institute_Gorky;; *]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1936];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+ 	-> rrel_day: rrel_decimal: [8];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1993];;
+            *);;
+        *);;
+*);;
+
+
+
+organization_Belarusian_State_Pedagogical_University
+=> nrel_main_idtf:
+	[Белорусский государственный педагогический университет]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian State Pedagogical University]
+	(*
+	<- lang_en;;
+	*);
+	[Беларускі дзяржаўны педагагічны універсітэт]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;
+<-concept_university;;
+
+concept_situation->[*^"file://description_of_the_Belarusian_State_Pedagogical_University.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+ 	-> rrel_day: rrel_decimal: [8];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1993];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+ 	
+            -> rrel_year: rrel_decimal: [1995];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Belarusian_State_Pedagogical_University;; *]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+ 	-> rrel_day: rrel_decimal: [8];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1993];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+ 	
+            -> rrel_year: rrel_decimal: [1995];;
+            *);;
+        *);;
+*);;
+
+
+organization_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank
+=> nrel_main_idtf:
+	[Белорусский государственный педагогический университет имени Максима Танка]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian State Pedagogical University named after Maxim Tank]
+	(*
+	<- lang_en;;
+	*);
+	[Беларускі дзяржаўны педагагічны універсітэт імя Максіма Танка]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;
+<-concept_university;;
+
+concept_situation->[*^"file://description_of_the_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1995];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank;; *]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1995];;
+            *);;
+        *);;
+*);;
+
+

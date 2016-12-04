@@ -1,0 +1,8 @@
+Vasil_Filimonovich_Shauro
+
+=> nrel_main_idtf:
+	[Василий Филимонович Шауро ] (* <- lang_ru;; *);
+	[Vasil' Filimonavich Szaura] (* <- lang_en;; *);
+	[Васіль Філімонавіч Шаура] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

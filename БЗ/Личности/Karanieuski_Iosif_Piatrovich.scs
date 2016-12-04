@@ -1,0 +1,8 @@
+Karanieuski_Iosif_Piatrovich
+
+=> nrel_main_idtf:
+        [Кореневский Иосиф Петрович ] (* <- lang_ru;; *);
+	[Karanieuski Iosif Piatrovich] (* <- lang_en;; *);
+	[Каранеўскі Язэп Пятровіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

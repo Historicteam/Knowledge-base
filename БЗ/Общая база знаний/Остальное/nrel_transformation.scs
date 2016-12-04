@@ -1,0 +1,19 @@
+nrel_transformation
+=>nrel_main_idtf:
+	[преобразование*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[transformation*] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Преобразование — бинарное отношение, связывающее две организации с передачей всех прав и обязанностей.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

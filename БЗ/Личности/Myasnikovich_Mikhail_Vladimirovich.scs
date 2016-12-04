@@ -1,0 +1,8 @@
+Myasnikovich_Mikhail_Vladimirovich
+
+=> nrel_main_idtf:
+	[Мясникович Михаил Владимирович ] (* <- lang_ru;; *);
+	[ Miasnikovich Mikhail Uladzimiravich] (* <- lang_en;; *);
+	[Мясніковіч Міхаіл Уладзіміравіч  ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

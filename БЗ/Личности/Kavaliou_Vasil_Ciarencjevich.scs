@@ -1,0 +1,8 @@
+Kavaliou_Vasil_Ciarencjevich
+
+=> nrel_main_idtf:
+        [Ковалев Василий Терентьевич ] (* <- lang_ru;; *);
+	[Kavaliou Vasil' Ciarencjevich] (* <- lang_en;; *);
+	[Кавалёў Васіль Цярэнцьевіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

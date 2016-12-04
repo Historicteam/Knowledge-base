@@ -12,6 +12,114 @@ organization_Minsk_Male_Gymnasium
 	(*
 	<- lang_by;;
 	*);
-=>nrel_location: Male_Basilian_Monastery_Building;
-<-concept_gymnasium;
-<-concept_educational_institution;;
+
+ => nrel_student: Mikhail_Osipovich_Glushnevich;
+=> nrel_student: Vladimir_Danilovich_Spasovich;
+=> nrel_student:Konstantin_Mihailovich_Jelski;
+=> nrel_student: Tadeusz_Korzon;
+=> nrel_student: Janka_Lucina;
+=> nrel_student:Zdanovich_Ivan_Ustinovich; 
+
+<- rrel_key_sc_element: Explanation_Minsk_Male_Gymnasium
+	(*
+	=> nrel_main_idtf:	
+	[Пояснение Минской мужской гимназии]
+	 (* <- lang_ru;; *);
+	[Explanation of the Minsk Male Gymnasium] 
+	(* <- lang_en;; *);
+	[Тлумачэнне Мінскай мужчынскай гімназіі]
+	(* <- lang_by;; *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[Минская мужская гимназия — среднее учебное заведение Российской империи в Минске.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Minsk male gymnasium - secondary educational institution of the Russian Empire in Minsk.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Мінская мужчынская гімназія - сярэдняя навучальная ўстанова Расійскай імперыі ў Мінску.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);
+<-concept_educational_institution;
+<-concept_gymnasium;;
+
+concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_location: Male_Basilian_Monastery_Building;;*]
+(*
+	=> nrel_main_idtf: 
+	[Контур периода времени расположения Минской мужской гимназии в Здании мужского базилианского монастыря.]	
+		(*
+		<-lang_ru;;
+		*);;
+
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1803];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1844];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_location: The_building_of_the_Minsk_Male_Gymnasiume;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1844];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_student: Tomasz_Zan;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1805];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1812];;
+            *);;
+        *);;
+*);;
+   
+
+
+
+
+

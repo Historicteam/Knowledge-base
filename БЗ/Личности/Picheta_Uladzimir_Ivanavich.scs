@@ -1,0 +1,8 @@
+Picheta_Uladzimir_Ivanavich
+
+=> nrel_main_idtf:
+        [Пичета Владимир Иванович ] (* <- lang_ru;; *);
+	[Picheta Uladzimir Ivanavich] (* <- lang_en;; *);
+	[Пічэта Уладзімір Іванавіч  ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

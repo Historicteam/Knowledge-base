@@ -1,0 +1,65 @@
+organization_of_the_First_Minsk_postal_telegraph_office
+=> nrel_main_idtf:
+	[Первое минское почтово-телеграфное отделение]
+	(*
+	<- lang_ru;;
+	*);
+	[First Minsk postal telegraph office]
+	(*
+	<- lang_en;;
+	*);
+	[Першае мінскае паштова-тэлеграфнае аддзяленне]
+	(*
+	<- lang_by;;
+	*);
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1891];;
+            *);;
+        *);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+
+concept_situation->[* organization_of_the_First_Minsk_postal_telegraph_office => nrel_location: Lifshitz_House ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1901];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+*);;
+concept_situation->[* organization_of_the_First_Minsk_postal_telegraph_office => nrel_location:Brons_House ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+*);;

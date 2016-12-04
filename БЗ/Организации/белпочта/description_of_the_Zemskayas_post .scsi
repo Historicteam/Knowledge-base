@@ -1,0 +1,22 @@
+princely_postal_service
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[ В белорусских губерниях существовали земские почты, однако марок они не выпускали. Не выявлено до сих пор и почтовых штемпелей белорусских земских почт.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[The Belarusian provinces there Zemstvo mail, but the brands they do not let go. Not revealed until now and postmarks Belarusian Zemsky mails.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[У беларускіх губернях існавалі земскія пошты, аднак марак яны не выпускалі. Не выяўлена дагэтуль і паштовых штэмпеляў беларускіх земскіх пошт.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

@@ -1,0 +1,1248 @@
+organization_The_Central_Executive_Committee_of_the_BSSR
+=> nrel_main_idtf:
+	[Центральный Исполнительный Комитет БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[The Central Executive Committee of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Цэнтральны Выканаўчы Камітэт БССР]
+	(*
+	<- lang_by;;
+	*);
+  => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [4];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *); 
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [17];;
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_political_organization;;
+
+
+organization_The_Central_Executive_Committee_of_the_SSR_of_Lithuania_and_Belarus	
+=> nrel_main_idtf:
+	[Центральный Исполнительный Комитет ССР Литвы и Белоруссии ]
+	(*
+	<- lang_ru;;
+	*);
+	[The Central Executive Committee of the SSR of Lithuania and Belarus]
+	(*
+	<- lang_en;;
+	*);
+	[Цэнтральны Выканаўчы Камітэт ССР Літвы і Беларусі ]
+	(*
+	<- lang_by;;
+	*);
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_political_organization;;
+
+organization_The_Supreme_Council_of_the_BSSR
+=> nrel_main_idtf:
+	[Верховный Совет БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[The Supreme Soviet of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Вярхоўны Савет БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_political_organization;;
+
+organization_The_Supreme_Council_of_the_Republic_of_Belarus
+=> nrel_main_idtf:
+	[Верховный Совет Республики Беларусь]
+	(*
+	<- lang_ru;;
+	*);
+	[The Supreme Soviet of the Republic of Belarus]
+	(*
+	<- lang_en;;
+	*);
+	[Вярхоўны Савет Рэспублікі Беларусь]
+	(*
+	<- lang_by;;
+	*);
+<-concept_state_organization;
+<-concept_administrative_organization;
+
+<-concept_political_organization;;
+
+organization_National_Assembly_of_Belarus
+=> nrel_main_idtf:
+	[Национальное собрание Республики Беларусь]
+	(*
+	<- lang_ru;;
+	*);
+	[National Assembly of Belarus]
+	(*
+	<- lang_en;;
+	*);
+	[Нацыянальны сход Рэспублікі Беларусь]
+	(*
+	<- lang_by;;
+	*);
+<= nrel_subdividing: 
+    {
+        organization_Council_of_the_Republic_of_Belarus;
+	organization_House_of_Representatives_of_Belarus
+
+    };
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_political_organization;;
+
+organization_Council_of_the_Republic_of_Belarus
+ => nrel_main_idtf:
+            [Совет Республики Национального собрания Республики Беларусь]
+            (*
+            <- lang_ru;;
+            *);
+            [Council of the Republic of Belarus]
+            (*
+            <- lang_en;;
+            *);
+            [Савет Рэспублікі Нацыянальнага сходу Беларусі]
+            (*
+            <- lang_by;;
+            *);
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_political_organization;;
+
+organization_House_of_Representatives_of_Belarus
+ => nrel_main_idtf:
+            [Палата представителей Национального собрания Республики Беларусь]
+            (*
+            <- lang_ru;;
+            *);
+            [House of Representatives of Belarus]
+            (*
+            <- lang_en;;
+            *);
+            [Палата прадстаўнікоў Нацыянальнага сходу Беларусі]
+            (*
+            <- lang_by;;
+            *);
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_political_organization;;
+
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=>nrel_location:The_building_of_the_Jesuit_school;;*]
+(*
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [4];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*^"file://desсription_organization_The_Central_Executive_Committee_of_the_BSSR.scsi"*]
+(*
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [17];;
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR<= nrel_temporal_decomposition:organization_The_Central_Executive_Committee_of_the_SSR_of_Lithuania_and_Belarus;;*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_month: rrel_decimal: [8];;
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR<= nrel_temporal_decomposition:organization_The_Supreme_Council_of_the_BSSR;; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_The_Supreme_Council_of_the_BSSR=> nrel_location:building_of_house_of_government;; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1945];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+*);;
+
+
+concept_situation->[*^"file://description_The_Supreme_Soviet_of_the_BSSR.scsi"*]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR<= nrel_temporal_decomposition:organization_The_Supreme_Council_of_the_Republic_of_Belarus;; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_location:building_of_house_of_government;;*]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*^"file://description_The_Supreme_Soviet_of_Belarus.scsi"*]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR<= nrel_temporal_decomposition:organization_National_Assembly_of_Belarus;; *]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*^"file://description_The_National_Assembly_of_the_Republic_of_Belarus.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+
+concept_situation->[*^"file://description_The_Council_of_the_Republic.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_location:
+building_State_Library_named_after_Lenin;; *]
+(*
+    => nrel_start_time: ...
+            (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+                (*
+               -> rrel_day: rrel_decimal: [13];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1997];;
+                *);;
+            *);;
+*);;
+
+
+concept_situation->[*^"file://description_the_House_of_Representatives.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_House_of_Representatives_of_Belarus => nrel_location:
+building_of_house_of_government;;*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+
+
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1920_1937
+(*
+ ->rrel_chairman:Alexander_Grigoryevich_Chervyakov;;
+*);;   *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+           (*
+	    -> rrel_day: rrel_decimal: [18];;
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [16];;
+	    -> rrel_month: rrel_decimal: [6];;
+            -> rrel_year: rrel_decimal: [1937];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1920_1937
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1920-1937 года](*<-lang_ru;;*);;
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1937_1937
+(*
+ ->rrel_chairman:Stakun_Mikhail_Iosiphovich;; 
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [7];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1937];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [13];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1937];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1937_1937
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1937 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1947
+(*
+ ->rrel_chairman: Nadezhda_Grigoryevna_Grekova;; 
+*);; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [25];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [12];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1947];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1947
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1938-1947 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1947_1948
+(*
+ ->rrel_chairman:Vasil_Ivanavich_Kazlow;; 
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [12];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1947];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [17];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1948];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1947_1948
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1947-1948 года](*<-lang_ru;;*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1948_1949
+(*
+ ->rrel_chairman: Eugene_Bugaev;; 
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [17];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1948];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [14];;
+	    -> rrel_month: rrel_decimal: [4];;
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1948_1949
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1948-1949 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1949_1955
+(*
+ ->rrel_chairman: Joseph_Belsky;; 
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [14];;
+	    -> rrel_month: rrel_decimal: [4];;
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1955];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1949_1955
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1949-1955 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1955_1963
+(*
+ ->rrel_chairman:  Timofey_Gorbunov_Sazonovich;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1955];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1963];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1955_1963
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1955-1963 года](*<-lang_ru;;*);;
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1963_1965
+(*
+ ->rrel_chairman:  Vasil_Filimonovich_Shauro;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1963];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [22];;
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [1965];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1963_1965
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1963-1965 года](*<-lang_ru;;*);;
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1965_1971
+(*
+ ->rrel_chairman:  Evgeny_Ivanovich_Skurko;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [22];;
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [1965];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [15];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1971];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1965_1971
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1965-1971 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1971_1985
+(*
+ ->rrel_chairman: Ivan_Petrovich_Shamiakin;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [15];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1971];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1985];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1971_1985
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1971-1985 года](*<-lang_ru;;*);;
+
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1985_1990
+(*
+ ->rrel_chairman: Ivan_Naumenko;;
+*);;   *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1985];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [15];;
+	    -> rrel_month: rrel_decimal: [5];;
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1985_1990
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1985-1990 года](*<-lang_ru;;*);;
+
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1990_1991
+(*
+ ->rrel_chairman: Mikalay_Dzyemyantsyey;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [18];;
+	    -> rrel_month: rrel_decimal: [5];;
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [25];;
+	    -> rrel_month: rrel_decimal: [8];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1990_1991
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1990-1991 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1991_1994
+(*
+ ->rrel_chairman:Stanislav_Shushkevich;;
+*);; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [18];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1991];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1994];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1991_1994
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1991-1994 года](*<-lang_ru;;*);;
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1994_1996
+(*
+ ->rrel_chairman: Myechyslaw_Hryb;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [24];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1994];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [9];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1994_1996
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1994-1996 года](*<-lang_ru;;*);;
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_1996
+(*
+ ->rrel_chairman: Syamyon_Sharetski;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [10];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_1996
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1996 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_2000
+(*
+ ->rrel_chairman: Malofiejev_Anatolij_Aleksandrivich;;
+*);;   *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1996];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [21];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [2000];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_2000
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1996-2000 года](*<-lang_ru;;*);;
+
+
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1997_2000
+(*
+ ->rrel_chairman: Paviel_Vladimirovich_Szipuk;;
+*);;   *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [13];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1997];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [2000];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1997_2000
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1997-2000 года](*<-lang_ru;;*);;
+
+
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2003
+(*
+ ->rrel_chairman: Vojtovich_Aleksandr_Pavlovich;;
+*);;   *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [19];;
+	    -> rrel_month: rrel_decimal: [12];;
+            -> rrel_year: rrel_decimal: [2000];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [25];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [2003];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2003
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2000-2003 года](*<-lang_ru;;*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2004
+(*
+ ->rrel_chairman: Popov_Vadim_Aljeksandrovich;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [21];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [2000];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [16];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [2004];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2004
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2000-2004 года](*<-lang_ru;;*);;
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2003_2008
+(*
+ ->rrel_chairman: Novickij_Hennadij_Vasiljevich;; 
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [2003];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [31];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [2008];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2003_2008
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2003-2008 года](*<-lang_ru;;*);;
+
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008
+(*
+ ->rrel_chairman: Andriejchenko_Vladimir_Pavlovich;; 
+*);;*]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [2008];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2008 года](*<-lang_ru;;*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2004_2007
+(*
+ ->rrel_chairman: Konopljov_Vladimir_Nikolajevich;; 
+*);; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [16];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [2004];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [2];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [2007];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2004_2007
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2004-2007 года](*<-lang_ru;;*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2007_2008
+(*
+ ->rrel_chairman:  Popov_Vadim_Aljeksandrovich;;
+*);; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [2];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [2007];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [27];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [2008];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2007_2008
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2007-2008 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008_2010
+(*
+ ->rrel_chairman: Batura_Boris_Vasiljevich;;
+*);;  *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [31];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [2008];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [24];;
+	    -> rrel_month: rrel_decimal: [5];;
+            -> rrel_year: rrel_decimal: [2010];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008_2010
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2008-2010 года](*<-lang_ru;;*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2010_2015
+(*
+ ->rrel_chairman: Rubinov_Anatolij_Nikolajevich;; 
+*);; *]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [24];;
+	    -> rrel_month: rrel_decimal: [5];;
+            -> rrel_year: rrel_decimal: [2010];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [16];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [2015];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2010_2015
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2010-2015 года](*<-lang_ru;;*);;
+
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2015
+(*
+ ->rrel_chairman: Myasnikovich_Mikhail_Vladimirovich;;
+*);; 
+*]
+(*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [16];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [2015];;
+            *);;
+        *);;
+   
+*);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2015
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 2015 года](*<-lang_ru;;*);;
+
+

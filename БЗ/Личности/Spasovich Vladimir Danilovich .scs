@@ -1,0 +1,8 @@
+Vladimir_Danilovich_Spasovich
+
+=> nrel_main_idtf:
+	[Спасович Владимир Данилович  ] (* <- lang_ru;; *);
+	[Spasovich Uladzimir Danilavich ] (* <- lang_en;; *);
+	[Спасовіч Уладзімір Данілавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

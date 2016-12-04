@@ -1,0 +1,6 @@
+Barysau_Alieksiej_Stiapanavich
+=> nrel_main_idtf:
+	[Борисов Алексей Степанович] (* <- lang_ru;; *);
+	[Barysau Alieksiej Stiapanavich] (* <- lang_en;; *);
+<- concept_male;
+<- concept_person;;

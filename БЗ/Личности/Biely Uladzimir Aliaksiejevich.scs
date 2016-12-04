@@ -1,0 +1,7 @@
+Uladzimir_Aliaksiejevich_Biely
+
+=> nrel_main_idtf:
+        [Белый Владимир Алексеевич  ] (* <- lang_ru;; *);
+	[Biely Uladzimir Aliaksiejevich ] (* <- lang_en;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,8 @@
+Rubinov_Anatolij_Nikolajevich
+
+=> nrel_main_idtf:
+	[Рубинов Анатолий Николаевич ] (* <- lang_ru;; *);
+	[ Rubinau Anatol' Mikalajevich] (* <- lang_en;; *);
+	[Рубінаў Анатоль Мікалаевіч  ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

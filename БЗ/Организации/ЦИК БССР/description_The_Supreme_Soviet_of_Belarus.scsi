@@ -1,0 +1,26 @@
+organization_The_Central_Executive_Committee_of_the_BSSR<- rrel_key_sc_element: ...
+	(*
+	
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Верховный Совет Республики Беларусь — в 1991—1996 — постоянно действующий парламент. 24 ноября 1996 года состоялся республиканский референдум по внесению изменений и дополнений в Конституцию Республики Беларусь, которые предусматривают создание двухпалатного парламента — Национального собрания Республики Беларусь, состоящего из Совета Республики и Палаты представителей.]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[The Supreme Soviet of Belarus (1991–1996) was the immediate continuation of the Supreme Soviet of the Byelorussian Soviet Socialist Republic (BSSR Supreme Soviet) (1938–1991), which it its turn was the successor of the Central Executive Committee of Byelorussian SSR (1920–1938), and all of them were the highest organs of state power in Belarus during 1920–1990.]
+			 (* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Вярхоўны Савет Рэспублікі Беларусь — найвышэйшы пастаянна дзеючы прадстаўнічы і заканадаўчы орган дзяржаўнай улады ў Рэспубліке Беларусь у 1991 – 1996. Валодаў вяршэнствам і паўнатой заканадаўчай улады і ажыццяўляў яе ад імя народа ў межах і формах, вызначаных Канстытуцыяй і законамі РБ.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);;

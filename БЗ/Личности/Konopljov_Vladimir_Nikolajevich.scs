@@ -1,0 +1,8 @@
+Konopljov_Vladimir_Nikolajevich
+
+=> nrel_main_idtf:
+	[Коноплев Владимир Николаевич  ] (* <- lang_ru;; *);
+	[Kanapljou Uladzimir Mikalajevich ] (* <- lang_en;; *);
+	[Канаплёў Уладзімір Мікалаевіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

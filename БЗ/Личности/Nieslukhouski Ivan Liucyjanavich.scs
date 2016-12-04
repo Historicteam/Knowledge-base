@@ -1,0 +1,8 @@
+Janka_Lucina
+
+=> nrel_main_idtf:
+	[Неслуховский Иван Люцианович  ] (* <- lang_ru;; *);
+	[Nieslukhouski Ivan Liucyjanavich] (* <- lang_en;; *);
+	[Неслухоўскі Іван Люцыянавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,8 @@
+Nadezhda_Grigoryevna_Grekova
+
+=> nrel_main_idtf:
+	[Надежда Григорьевна Грекова  ] (* <- lang_ru;; *);
+	[Nadezhda Grigoryevna Grekova] (* <- lang_en;; *);
+	[Надзея Рыгораўна Грэкава ] (* <- lang_by;; *);
+<- concept_female;
+<- concept_person;;

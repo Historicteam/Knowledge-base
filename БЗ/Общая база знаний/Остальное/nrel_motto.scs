@@ -1,0 +1,18 @@
+nrel_motto
+=>nrel_main_idtf:
+	[девиз*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[motto*] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [слово или короткая фраза, определяющая поведение и устремления группы людей или организации.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;	
+<-sc_node_norole_relation;;

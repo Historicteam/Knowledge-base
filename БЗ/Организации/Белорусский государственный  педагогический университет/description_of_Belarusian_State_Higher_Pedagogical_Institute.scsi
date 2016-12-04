@@ -1,0 +1,30 @@
+organization_Belarusian_State_Higher_Pedagogical_Institute
+<- rrel_key_sc_element: ...
+	(*
+	=> nrel_main_idtf:	
+	[Описание Белорусского государственного высшего педагогического института]
+	 (* <- lang_ru;; *);
+	[Description of the Belarusian State Higher Pedagogical Institute] 
+	(* <- lang_en;; *);
+	[Апісанне Беларускага дзяржаўнага вышэйшага педагагічнага інстытута]
+	(* <- lang_by;; *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[Белорусский государственный высший педагогический институт — высшее учебное заведение в Минске.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Belarusian State Higher Pedagogical Institute - a higher educational institution in Minsk.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Беларускі дзяржаўны вышэйшы педагагічны інстытут - вышэйшая навучальная ўстанова ў Мінску. ] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

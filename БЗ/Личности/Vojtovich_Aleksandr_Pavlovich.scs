@@ -1,0 +1,8 @@
+Vojtovich_Aleksandr_Pavlovich
+
+=> nrel_main_idtf:
+	[Войтович  Александр Павлович  ] (* <- lang_ru;; *);
+	[ Vajtovich Aliaksandr Paulavich] (* <- lang_en;; *);
+	[Вайтовіч Аляксандр Паўлавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

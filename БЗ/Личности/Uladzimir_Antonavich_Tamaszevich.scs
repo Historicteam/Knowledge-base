@@ -1,0 +1,8 @@
+Uladzimir_Antonavich_Tamaszevich
+
+=> nrel_main_idtf:
+        [Томашевич Владимир Антонович ] (* <- lang_ru;; *);
+	[Tamaszevich Uladzimir Antonavich ] (* <- lang_en;; *);
+	[Тамашэвіч Уладзімір Антонавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

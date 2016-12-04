@@ -1,0 +1,8 @@
+Arciemjeu_Iulian_Paulavich
+
+=> nrel_main_idtf:
+        [Артемьев Иулиан Павлович ] (* <- lang_ru;; *);
+	[Arciemjeu Iulian Paulavich] (* <- lang_en;; *);
+	[Арцем'еў Іуліан Паўлавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

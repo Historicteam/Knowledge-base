@@ -1,0 +1,24 @@
+organization_Belarusian_State_Higher_Pedagogical_Institute
+<- rrel_key_sc_element: ...
+	(*
+	
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[Белорусский государственный педагогический университет имени Максима Танка — высшее учебное заведение в Минске.] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[Belarusian State Pedagogical University named after Maxim Tank - a higher educational institution in Minsk.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Беларускі дзяржаўны педагагічны універсітэт імя Максіма Танка - вышэйшая навучальная ўстанова ў Мінску. ] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

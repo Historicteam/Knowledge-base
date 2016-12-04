@@ -1,0 +1,7 @@
+Ananij_Ivanavich_Dziakau
+=> nrel_main_idtf:
+        [ Ананий Иванович Дьяков] (* <- lang_ru;; *);
+	[Ananij_Ivanavich_Dziakau] (* <- lang_en;; *);
+	[Ананій Іванавіч Дзякаў] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,7 @@
+Ivan_Vasiljevich_Hiaorhijeuski
+
+=> nrel_main_idtf:
+	[Иван Васильевич Георгиевский ] (* <- lang_ru;; *);
+	[Ivan Vasiljevich Hiaorhijeuski] (* <- lang_en;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,8 @@
+Batura_Boris_Vasiljevich
+
+=> nrel_main_idtf:
+	[Батура  Борис Васильевич  ] (* <- lang_ru;; *);
+	[Batura Barys Vasilievich] (* <- lang_en;; *);
+	[Батура Барыс Васілевіч  ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

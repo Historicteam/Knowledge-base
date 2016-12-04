@@ -1,0 +1,7 @@
+nrel_subordination
+=>nrel_main_idtf:
+	[подчинение*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[subordination*] (* <-lang_en;; *);
+<-sc_const;
+<-sc_node_norole_relation;;

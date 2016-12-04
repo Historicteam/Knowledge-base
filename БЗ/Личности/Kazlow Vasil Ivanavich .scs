@@ -1,0 +1,8 @@
+Vasil_Ivanavich_Kazlow
+
+=> nrel_main_idtf:
+	[Козлов Василий Иванович  ] (* <- lang_ru;; *);
+	[Kazlou Vasil' Ivanavich ] (* <- lang_en;; *);
+	[Казлоў Васіль Іванавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

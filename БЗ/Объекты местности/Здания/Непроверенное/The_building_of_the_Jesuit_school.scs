@@ -816,26 +816,7 @@ concept_situation->[*Cherniavskii_Andrei_Gavrilovich => nrel_dwelling: The_build
         *);;
 *);;
 
-concept_situation->[*organization_presidium_bssr => nrel_location: The_building_of_the_Jesuit_school;;*]
-(*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения Президиума ЦИК БССР в здании иезуитской школы](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Прэзідыума ЦВК БССР ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1934];;
-            *);;
-        *);;
-*);;
+
 
 
 

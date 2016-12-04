@@ -1,0 +1,8 @@
+Kapiecki_Heorhij_Sciapanavich
+
+=> nrel_main_idtf:
+        [Копецкий георгий Степанович  ] (* <- lang_ru;; *);
+	[Kapiecki Heorhij Sciapanavich] (* <- lang_en;; *);
+	[Капецкі Георгій Сцяпанавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;
