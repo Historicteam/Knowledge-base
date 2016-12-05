@@ -1,8 +1,8 @@
 nrel_org
 =>nrel_main_idtf:
-	[с*] (* <-lang_ru;; *);
+	[организатор*] (* <-lang_ru;; *);
 =>nrel_main_idtf:
-	[Organizer*] (* <-lang_en;; *);
+	[organizer*] (* <-lang_en;; *);
 =>nrel_main_idtf:
 	[арганізатар*] (* <-lang_by;; *);
 <- rrel_key_sc_element:
