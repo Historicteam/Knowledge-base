@@ -1,0 +1,14 @@
+organization_studio_sb
+=> nrel_main_idtf:
+	[Киностудия "Совецкая Беларусь"]
+	(*
+	<- lang_ru;;
+	*);
+	[Film studio "Sovetskaya Belarus"]
+	(*
+	<- lang_en;;
+	*);
+	[Кінастудыя "Савецкая Беларусь"]
+	(*
+	<- lang_by;;
+	*);;

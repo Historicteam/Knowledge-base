@@ -1,0 +1,68 @@
+building_of_school_for_blind
+=> nrel_main_idtf:
+		[Училище для слепых] (* <- lang_ru;; *);
+		[School for the blind] (* <- lang_en;; *);
+		[Вучылішча для сляпых] (* <- lang_by;; *);
+
+=> nrel_org:Ivan_zdanovich;
+=> concept_square:indepence_square;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[  В 1911 г. в училище находилось 28 воспитанников. Все они жили в училище на бесплатном обеспечении. Учебные занятия велись по программе, принятой для училищ для слепых. Занятия по ремеслу проходили весьма успешно.]
+			(*
+			<- lang_ru;;
+			*);;
+                 -> rrel_example:
+			[У 1911 г. у вучылішчы знаходзілася 28 выхаванцаў. Усе яны жылі ў вучылішча на бясплатным забеспячэнні. Навучальныя заняткі вяліся па праграме, прынятай для вучэльняў для сьляпых. Заняткі па рамястве праходзілі вельмі паспяхова..]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/blind.png"
+			(*
+			=> nrel_format: format_png;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.7860, 32.8601]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.7860;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 32.8601;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

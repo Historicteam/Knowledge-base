@@ -1,0 +1,13 @@
+organization_Regional_management_Nargasuchet
+=> nrel_main_idtf:
+	[Областное управление "Наргосучета"](*
+	<- lang_ru;;
+	*);
+	[Regional management Nargasuchet]
+	(*
+	<- lang_en;;
+	*);
+	[Абласноу ўпраўленне "Наргасучота"]
+	(*
+	<- lang_by;;
+	*);;

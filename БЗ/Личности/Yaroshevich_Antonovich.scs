@@ -1,0 +1,8 @@
+Yaroshevich_Antonovich
+<- concept_male;
+<- concept_person;
+<- nrel_prior;
+=> nrel_main_idtf:
+	[Ярошевич Станислав Антонович] (* <- lang_ru;; *);
+	[Yaroshevich Stanislav Antonovich] (* <- lang_en;; *);
+	[Ярашэвіч Станіслаў Антонавіч] (* <- lang_by;; *);;

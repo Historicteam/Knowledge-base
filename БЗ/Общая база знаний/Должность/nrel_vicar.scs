@@ -1,0 +1,25 @@
+nrel_vicar
+=>nrel_main_idtf:
+	[викарий*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[vicar*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[вікарый*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[ В православной церкви: помощник епископа, епископ без епархии; в протестантской церкви: помощник священника.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[У праваслаўнай царкве: памочнік біскупа, біскуп без епархіі; ў пратэстанцкай царкве: памочнік сьвятара.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

@@ -1,0 +1,8 @@
+Shatsilo_Albin_Albinovich
+<- concept_male;
+<- concept_person;
+<- nrel_priest;
+=> nrel_main_idtf:
+	[Шацило Альбин Альбинович] (* <- lang_ru;; *);
+	[Shatsilo Albin Albinovich] (* <- lang_en;; *);
+	[Шацило Альбін Альбінавіч] (* <- lang_by;; *);;

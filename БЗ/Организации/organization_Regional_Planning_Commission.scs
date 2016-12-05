@@ -1,0 +1,13 @@
+organization_Regional_Planning_Commission
+=> nrel_main_idtf:
+	[Областное плановая комиссия](*
+	<- lang_ru;;
+	*);
+	[Regional Planning Commission]
+	(*
+	<- lang_en;;
+	*);
+	[Абласная планавая камісія]
+	(*
+	<- lang_by;;
+	*);;

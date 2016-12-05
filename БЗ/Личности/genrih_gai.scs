@@ -1,0 +1,8 @@
+Henry_Gaq
+<- concept_male;
+<- concept_person;
+<- nrel_architect;
+=> nrel_main_idtf:
+	[Генрих Гай] (* <- lang_ru;; *);
+	[Henry Gaq] (* <- lang_en;; *);
+	[Генрых Гай] (* <- lang_by;; *);;

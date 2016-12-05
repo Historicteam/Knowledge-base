@@ -1,0 +1,5 @@
+concept_brick
+=>nrel_main_idtf:
+	[кирпич] (* <-lang_ru;; *);
+	[brick] (* <-lang_en;; *);
+	[цагліна] (* <-lang_by;; *);;

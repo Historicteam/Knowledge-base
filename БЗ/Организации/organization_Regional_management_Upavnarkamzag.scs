@@ -1,0 +1,13 @@
+organization_Regional_management_Upavnarkamzag
+=> nrel_main_idtf:
+	[Областное управление "Уповнаркамзага"](*
+	<- lang_ru;;
+	*);
+	[Regional management Upavnarkamzag]
+	(*
+	<- lang_en;;
+	*);
+	[Абласноу ўпраўленне "Упаўнаркамзага"]
+	(*
+	<- lang_by;;
+	*);;
