@@ -1,0 +1,118 @@
+Kostrovickaja_house
+=> nrel_main_idtf:
+	[дом Костровицкой]
+	(*
+	<- lang_ru;;
+	*);
+	[Kostrovickaja house]
+	(*
+	<- lang_en;;
+	*);
+	[дом Кастравіцкай]
+	(*
+	<- lang_by;;
+		*);
+=> nrel_idtf:
+	[доходный дом Костровицкой]
+	(*
+	<- lang_ru;;
+	*);
+	[даходны дом Кастравіцкай]
+	(*
+	<- lang_by;;
+		*);
+=> concept_square:indepence_square;
+=> nrel_architect:Henry_Gaq;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Доходный дом Костровицкой в Минске был построен в 1904 году и располагался вблизи Красного костела. Имеет доходный дом в Минске и другое название – «дом Уминского в Минске». ]
+			(*
+			<- lang_ru;;
+			*);;
+                 -> rrel_example:
+			[Даходны дом Кастравіцкі ў Мінску быў пабудаваны ў 1904 годзе і размяшчаўся паблізу Чырвонага касцёла. Мае даходны дом у Мінску і іншая назва - «дом Уминского ў Менску».]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/kostr.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8967, 27.5491]  
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8967;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5491;;
+						*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<= nrel_owner: Bohdanovich_Maksim_Adamovich;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[После Октябрьской революции он принадлежал государству. В 1960-х годах дом был взорван..]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[After the October Revolution, it belonged to the state. In the 1960s the house was blown up.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Пасля Кастрычніцкай рэвалюцыі ён належаў дзяржаве. У 1960-х гадах дом быў узарваны.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

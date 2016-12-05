@@ -1,0 +1,1319 @@
+Zagorskaya_house_building
+=> nrel_main_idtf:
+        [Дом Загорской]	
+        (*
+	<- lang_ru;;
+	*);
+	[Zagorskaya house]
+	(*
+	<- lang_en;;
+	*);
+	[Дом Загорскай]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+        [Дом Чапского]
+	(*
+	<- lang_ru;;
+	*);
+	[Czapsky house]
+	(*
+	<- lang_en;;
+	*);
+	[Дом Чапскага]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Минского общества сельского хозяйства]
+	(*
+	<- lang_ru;;
+	*);
+	[The building of the Minsk Society of Agriculture]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Мінскага таварыства сельскай гаспадаркі]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание частной фельдшерско-акушерско школа доктора Гутцайта]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Private obstetric doctor Gutzeit School]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак прыватнай фельчарска-акушерскай школы доктара Гутцайта]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Городского родильного приюта]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the сity maternity hospital]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак гарадскога радзільнага прытулка]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Дом Берковича]
+	(*
+	<- lang_ru;;
+	*);
+        [Berkovich house]
+	(*
+	<- lang_en;;
+	*);
+        [Дом Бярковіча]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание лесной биржы]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Lumber exchange]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак лясной біржы]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание лесной ярмарки]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Forest fair]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак ляснога кірмаша]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание общетоварной биржи]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the total commodity exchange]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак агульнатаварнай біржы]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Народного комиссариата почты и телеграфа]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the National commissariat of posts and telegraphs]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Народнага камісарыята пошты і тэлеграфа]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Городского жилищного подотдела отдела коммунального хозяйства Минского окружного исполнительного комитета]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the City housing subdivision department of the communal household of the Minsk district executive committee]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Гарадскога жыллёвага пададдзела аддзела камунальнай гаспадаркі Мінскага акруговага выканаучага камітэта]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Минского отдела Императороского российского общества садоводства]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Minsk department of the Imperial Russian Society of Horticulture]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Мінскага аддзела Імператарскага расійскага таварыства садаводства]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Комитета попечительства о народной трезвости]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Committee of guardianship about national sobriety]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Камітэта апякунства аб народнай цвярозасці]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Попечительства детских приютов]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Guardianship of orphanages]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Апякунства дзіцячых прытулкаў]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Первого еврейского двухклассного народного училища]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the first Jewish two-year public college]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Першага яўрэйэйскага двухкласнага народнага вучылішча]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание конторы единственного представителя Юго-Западного края Московской технохимической лаборатории Иванова А. И.]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the office of the only representative of the south-western region of Moscow technochemical lab of Ivanov A I]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак канторы адзінага прадстаўніка Паўднёва-Захаднага краю Маскоўскай тэхнахімічнай лабараторыі Іванова А. І.]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Второй Минской частной зуболечебной школы]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the second Minsk dental medical private school]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Другой Мінскай прыватнай зубаўрачэбнай школы]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Управления Минского почтово-телеграфного округа]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Management of the Minsk Post and Telegraph District]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Упраўлення Мінскай паштова-тэлеграфнай акругі]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: Explanation_Zagorskaya_house_building
+	
+	(*
+	=> nrel_main_idtf:
+	[Пояснение Дома Загорской] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of the Zagorskaya house] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне Дома Загорскай]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дворец возведен в 1894 году по проекту архитектора Виктора Шрётера. Трехэтажный эклектичный дворец украшал нижний ярус аркады, а акцентом всего здания был эркер, выступавший из основного объема дворца на всю его высоту.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The palace was built in 1894 by architect Victor Shrotera. A three-storey eclectic palace adorned the lower tier arcade, and a focus of the building was a bay window protruding from the bulk of the palace to its full height.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Палац узведзены ў 1894 годзе паводле праекта архітэктара Віктара Шротэра. Трохпавярховы эклектычны палац упрыгожваў ніжні ярус аркадаў, а акцэнтам усяго будынка быў эркер, які выступаў з асноўнага аб’ёму палаца на ўсю яго вышыню. ]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+<- concept_building;
+<- concept_terrain_object;
+=> nrel_dwelling: Hutten_Czapsky_Emerickovich;
+=> nrel_dwelling: Zagorskaya_Elizaveta;;
+
+
+
+concept_situation->[*Zagorskaya_house_building => nrel_owner: organization_Minsk_Society_of_Agriculture;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения минского общество сельского хозяйства в здании дома Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+												(*
+												-> rrel_year: rrel_decimal: [1896];;
+												*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*Zagorskaya_house_building => nrel_owner: Zagorskaya_Elizaveta;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Загорской Елизаветой домом Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1888];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1891];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_owner: Hutten_Czapsky_Emerickovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Чапским Королем Эмериковичем домом Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1892];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1904];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_archpriest: Shroter_Victor_Aleksandrovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени, в которое Шрётер Виктор Александрович являлся архитектором дома Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1894];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1895];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_owner: organization_City_housing_subdivision_department_of_the_communal_household_of_the_Minsk_district_executive_committee;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Городского жилищного подотдела отдела коммунального хозяйства Минского окружного исполнительного комитета домом Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1922];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1922];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_location: organization_Minsk_department_of_the_Imperial_Russian_Society_of_horticulture;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Минского отдела Императороского российского общества садоводства в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1896];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1905];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_location: organization_Committee_of_guardianship_about_national_sobriety;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Комитета попечительства о народной трезвости в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1900];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1900];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_location: organization_Guardianship_of_orphanages;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Попечительства детских приютов в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1901];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1901];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_location: organization_the_first_Jewish_two_year_public_college;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Первого еврейского двухклассного народного училища в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1903];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1908];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_location: organization_office_of_the_only_representative_of_the_south_western_region_of_Moscow_technochemical_lab_of_Ivanov_A_I;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения конторы единственного представителя Юго-Западного края Московской технохимической лаборатории Иванова А. И. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1905];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1905];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_location: organization_the_second_Minsk_dental_medical_private_school;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения второй Минской частной зуболечебной школы в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1909];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1909];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_location: organization_Management_of_the_Minsk_post_and_telegraph_district;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Управления Минского почтово-телеграфного округа в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1913];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*
+	Zagorskaya_house_building        
+        <= nrel_complex_of_buildings_decomposition:
+        {   
+            Zagorskaya_house_building; 
+            Czapsky_house;
+            organization_Minsk_Society_of_Agriculture;
+            organization_National_commissariat_of_posts_and_telegraphs;
+            organization_City_housing_subdivision_department_of_the_communal_household_of_the_Minsk_district_executive_committee;
+            organization_Committee_guardianship_about_national_sobriety;
+            organization_Minsk_department_of_the_Imperial_Russian_Society_of_horticulture;
+            organization_Guardianship_of_orphanages;
+            organization_the_first_Jewish_two_year_public_college;
+            organization_the_second_Minsk_dental_medical_private_school;
+            organization_office_of_the_only_representative_of_the_south_western_region_of_Moscow_technochemical_lab_of_Ivanov_A_I;
+            organization_Management_of_the_Minsk_post_and_telegraph_district
+        };;
+*];;
+
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Voskresensky_Nikolai_Andreevich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Воскресенского Николая Андреевича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1896];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1896];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Kaminsky_Foma_Fomich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Каминского Фомы Фомича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1896];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1901];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Aleinikov_Petr_Mikhailovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Олейникова Петра Михайловича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1897];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1898];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Voronets_Ludviga_Nikolaevna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Воронец Людвиги Николаевны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1897];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1898];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Gavrilov_Mikhail_Iliich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Гаврилова Михаила Ильича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1897];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1898];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Shtolz_Nikolai_Ivanovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Штольца Николая Ивановича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1897];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1898];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Korovin_Ivan_Andereevich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Коровина Ивана Андреевича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1897];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1901];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Miller_Olga_Ivanovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Миллер Ольги Ивановны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1898];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1898];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Chesnokov_Konstantin_Nikolaevich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Чеснокова Константина Николаевича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1900];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1901];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Nikolaeva_Elizaveta_Andrianovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Николаевой Елизаветы Андриановной в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1900];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1905];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Nikolaev_Maksimilian_Iliich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Николаева Максимильяна Ильича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1902];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1903];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Filney_Polonskaya_Rokhlya_Fruma_Nakhamovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Фильней-Полонской Рохли-Фрума Нахамовны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1902];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1903];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Filney_Mendel_Itskavich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Фильней Меделя Ицковича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1902];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1903];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Sheindals_Boris_Aleksandrovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Шейндальса Бориса Александровича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1903];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1907];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Meyarovich_Xai_Genya_Khaimovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Меярович Хай-Гени Хаимовны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1903];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1908];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Rabinovich_Izrail;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Рабиновича Израиля в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1903];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1908];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Korovin_Sergey_Ivanovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Коровина Сергея Ивановича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1905];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Dmitrykov_Sergey_Ivanovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Дмитрюкова Сергея Ивановича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Krasovsky_Lev_Kazimirovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Красовского Льва Казимировича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Petukhova_Ekaterina_Petrovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Петуховой Екатерины Петровны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Petukhov_Aleksandr_Viktorovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Петухова Александра Викторовича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Rybsky_Vatslav_Anotnovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Рыбского Вацлава Антоновича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1906];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Korotkevich_Aleksandr_Andreevich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Короткевича Александра Андреевича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1909];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1909];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Karmilitsyn_Sergey_Dmitrievich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Кормилицына Сергея Дмитриевича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1912];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1913];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Kravchyk_Maria_Vladimirovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Кравчук Марии Владимировны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1912];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1913];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Radchenko_Nikolai_Stepanovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Радченко Николая Степановича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1912];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Belyatskaya_Alena_Nikolaevna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Беляцкой Алены Николаевны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Belyatsky_Aleksey_Ivanovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Беляцкого Алексея Ивановича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Yanyshevsky_Henrik_Yanyarovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Янушевского Генриха Януаровича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Borisyk_N_I;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Борисюка Н. И. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1935];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1936];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Klyatsko_Nikolay_Grigorievich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Кляцко Николая Григорьевича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1935];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1936];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Itskovich_B_M;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Ицковича Б. М. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1935];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1936];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Bely_V_P;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Белого В. П. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1935];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1940];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Lybomirsky_L_N;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Любомирского Л. Н. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1935];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1940];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Kofman_Lev_Moiseevich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Кофмана Льва Моисеевича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1935];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1941];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Aven_Anna_Karlovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Авен Анны Карловны в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1937];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Gnezdovsky_V_B;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Гнездовского В. Б. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1937];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Dovnar_Frants_Kazimirovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Довнар Франца Казимировича в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1937];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Zholnin_M_A;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Жолнина М. А. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1937];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Padnos_A_S;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Паднос А. С. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1937];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building => nrel_dwelling: Shkolnikov_M_N;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Школьникова М. Н. в доме Загорской](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1940];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*concept_residential_building -> Zagorskaya_house_building;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда Дом Загорской было жилым](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1888];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+*);;
+concept_situation->[*concept_lost_constructions -> Zagorskaya_house_building;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда Дом Загорской был утрачен](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2017];;
+            *);;
+        *);;
+*);;
+concept_situation->[*concept_arch_eclecticism -> Zagorskaya_house_building;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда Дом Загорской принадлежал архитектурному стилю эклектизму](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1888];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+*);;

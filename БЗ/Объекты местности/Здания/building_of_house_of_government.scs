@@ -1,0 +1,155 @@
+building_of_house_of_government
+=> nrel_main_idtf:
+		[Здание правительства] (* <- lang_ru;; *);
+		[Government house] (* <- lang_en;; *);
+		[Дом урада] (* <- lang_by;; *);
+=> nrel_architect:Langbard_Iosif;
+=> concept_architectural_style:concept_arch_constructivism;
+=> nrel_material:concept_brick;
+=> concept_square:indepence_square;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Дом правительства Республики Беларусь  — здание правительства Республики Беларусь в Минске. Расположено на площади Независимости. Крупнейшее общественное здание объёмом 240 000 м³, один из лучших памятников конструктивизма, положило начало формированию нового центра города]
+			(*
+			<- lang_ru;;
+			*);;
+                 -> rrel_example:
+			[Конкурс на проектирование Дома Правительства БССР (главного административного здания республики) — проводился в 1929 году по заданию Центрального Исполнительного Комитета и Совета Народных Комиссаров республики.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/goq.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.5346, 27.3241]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.5346;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.3241;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<-concept_building;;
+concept_situation->[*organization_Regional_Planning_Commission => nrel_location: building_of_house_of_government;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Областной плановой комиссии в здании урпавления](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Абласной планавай камісіі ў будынку Урада](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1935];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1940];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_Regional_management_Nargasuchet => nrel_location: building_of_house_of_government;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Областного управления "Наргасучета" в здании управления](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Абласнога упраўлення "Наргасучота" ў будынку урада](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1935];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1940];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_Regional_management_Upavnarkamzag => nrel_location: building_of_house_of_government;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Областного управления "Уповнаркамзага" в здании управления](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Абласнога упраўлення "Упаўнаркамзага" ў будынку урада](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1935];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1940];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_depart_zagotzhiv => nrel_location: building_of_house_of_government;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Областного отдела "Заготживтного" Минской области в здании управления](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Абласнога аддзелу "Заготжывёлы" Мінскай вобласці ў будынку урада](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1935];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1940];;
+            *);;
+        *);;
+*);;

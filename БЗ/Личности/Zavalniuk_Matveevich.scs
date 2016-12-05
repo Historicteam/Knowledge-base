@@ -1,0 +1,8 @@
+Zavalniuk_Matveevich
+<- concept_male;
+<- concept_person;
+<- nrel_prior;
+=> nrel_main_idtf:
+	[Завальнюк Владислав Матвеевич] (* <- lang_ru;; *);
+	[Zavalniuk Vladislav Matveevich] (* <- lang_en;; *);
+	[Завальнюк Уладзіслаў Мацвеевіч] (* <- lang_by;; *);;

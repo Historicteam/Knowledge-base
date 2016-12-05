@@ -1,0 +1,65 @@
+building_of_main_bsu
+=> nrel_main_idtf:
+		[Главный корпус БГУ] (* <- lang_ru;; *);
+		[the main building of the Belarusian State University] (* <- lang_en;; *);
+		[галоўны корпус БДУ] (* <- lang_by;; *);
+=> concept_square:indepence_square;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Белорусский государственный университет начал отсчет своей деятельности с 30 октября 1921 года Это стало знаменательным событием в истории белорусского народа. ]
+			(*
+			<- lang_ru;;
+			*);;
+                 -> rrel_example:
+			[Беларускі дзяржаўны універсітэт пачаў адлік сваёй дзейнасці з 30 кастрычніка 1921 года Гэта стала знамянальнай падзеяй у гісторыі беларускага народа.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/mainbsu.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.536405, 27.328280]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.536405;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.328280;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

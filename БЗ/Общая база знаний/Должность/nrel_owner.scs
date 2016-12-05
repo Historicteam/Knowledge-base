@@ -1,0 +1,25 @@
+nrel_owner
+=>nrel_main_idtf:
+	[собственник*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[оwner*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[уласнік*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[ Тот, кому, что-то принадлежит.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[ Той, каму, што-небудзь належыць ] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

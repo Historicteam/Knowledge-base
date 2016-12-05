@@ -1,0 +1,14 @@
+organization_mickevichs_lib
+=> nrel_main_idtf:
+	[Бибилиотека А. Мицкевича]
+	(*
+	<- lang_ru;;
+	*);
+	[Library A. Mickiewicz]
+	(*
+	<- lang_en;;
+	*);
+	[Бібліятэка А. Міцкевіча]
+	(*
+	<- lang_by;;
+	*);;

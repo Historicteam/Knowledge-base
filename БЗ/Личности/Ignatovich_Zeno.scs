@@ -1,0 +1,8 @@
+Ignatovich_Zeno
+<- concept_male;
+<- concept_person;
+<- nrel_prior;
+=> nrel_main_idtf:
+	[Игнатович Зенон] (* <- lang_ru;; *);
+	[Ignatovich Zeno] (* <- lang_en;; *);
+	[Ігнатовіч Зянон] (* <- lang_by;; *);;

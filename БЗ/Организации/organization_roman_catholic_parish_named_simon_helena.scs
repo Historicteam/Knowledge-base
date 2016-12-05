@@ -1,0 +1,14 @@
+organization_roman_catholic_parish_named_simon_helena
+=> nrel_main_idtf:
+	[Римско-Католический приход имени святого Симеона  и Елены]
+	(*
+	<- lang_ru;;
+	*);
+	[Roman Catholic parish named St. Simon and St. Helena]
+	(*
+	<- lang_en;;
+	*);
+	[Рымска-Каталіцкі прыход імя святога Сымона і Алены]
+	(*
+	<- lang_by;;
+	*);;

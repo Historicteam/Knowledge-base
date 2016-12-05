@@ -1,0 +1,7 @@
+Langbard_Iosif
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Лангбард Иосиф Григорьевич] (* <- lang_ru;; *);
+	[Іосіф Рыгоравіч Лангбард] (* <- lang_by;; *);;

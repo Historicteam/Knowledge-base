@@ -1,0 +1,9 @@
+Semaska_Sigismund
+<- concept_male;
+<- concept_person;
+<- nrel_vicar;
+
+=> nrel_main_idtf:
+	[Семашка Сигизмунд] (* <- lang_ru;; *);
+	[Semaska Sigismund] (* <- lang_en;; *);
+	[Сямашка Сігізмунд] (* <- lang_by;; *);;

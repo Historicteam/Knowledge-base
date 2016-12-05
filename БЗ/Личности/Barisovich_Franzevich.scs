@@ -1,0 +1,8 @@
+Barisovich_Franzevich
+<- concept_male;
+<- concept_person;
+<- nrel_prior;
+=> nrel_main_idtf:
+	[Барисович Антоний Францевич] (* <- lang_ru;; *);
+	[Barisovich Anthony Franzevich] (* <- lang_en;; *);
+	[Барисовiч Антоній Францавіч] (* <- lang_by;; *);;

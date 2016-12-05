@@ -1,0 +1,14 @@
+organization_depart_zagotzhiv
+=> nrel_main_idtf:
+	[Областной отдел "Заготживтного" Минской области]
+	(*
+	<- lang_ru;;
+	*);
+	[The regional department of "Zagotzhivtnogo" Minsk region]
+	(*
+	<- lang_en;;
+	*);
+	[Абласногы аддзел  "Заготжывёлы" Мінскай вобласці]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_BSSR_filarmonic
+=> nrel_main_idtf:
+	[Государственная филормония]
+	(*
+	<- lang_ru;;
+	*);
+	[State filormoniya]
+	(*
+	<- lang_en;;
+	*);
+	[Дзяржаўная філармонія]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_youth_theathre
+=> nrel_main_idtf:
+	[Театр юного зрителя]
+	(*
+	<- lang_ru;;
+	*);
+	[Youth Theatre]
+	(*
+	<- lang_en;;
+	*);
+	[Тэатр юнага гледача]
+	(*
+	<- lang_by;;
+	*);;

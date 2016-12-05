@@ -1,0 +1,14 @@
+organization_cinema_house
+=> nrel_main_idtf:
+	[Дом кино]
+	(*
+	<- lang_ru;;
+	*);
+	[Cinema house]
+	(*
+	<- lang_en;;
+	*);
+	[Дом кіно]
+	(*
+	<- lang_by;;
+	*);;

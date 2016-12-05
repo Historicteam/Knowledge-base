@@ -1,0 +1,14 @@
+organization_onemane_theathre
+=> nrel_main_idtf:
+	[Белорусский поэтический театр  одного актера]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian poetic one-man show]
+	(*
+	<- lang_en;;
+	*);
+	[Беларускі паэтычны тэатр аднаго акцёра]
+	(*
+	<- lang_by;;
+	*);;

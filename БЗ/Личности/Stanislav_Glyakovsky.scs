@@ -1,0 +1,8 @@
+Stanisla_Glyakovsky
+<- concept_male;
+<- concept_person;
+<- nrel_prior;
+=> nrel_main_idtf:
+	[Гляковский Станислав] (* <- lang_ru;; *);
+	[Stanislav Glyakovsky] (* <- lang_en;; *);
+	[Гляковский Станіслаў] (* <- lang_by;; *);;
