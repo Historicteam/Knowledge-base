@@ -1,0 +1,63 @@
+Perabila_Petr
+=>nrel_main_idtf:
+	[Перабила Петр] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Valasevich_Ivan
+=>nrel_main_idtf:
+	[Волосевич Иван] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Kvacheuski_Ipalit
+=>nrel_main_idtf:
+	[Квочевсий Ипполит] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Gurin 
+=>nrel_main_idtf:
+	[Гурин] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Rakitskiy 
+=>nrel_main_idtf:
+	[Ракицкий] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Kruchanok 
+=>nrel_main_idtf:
+	[Кручанок] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Chudzinovich_Ivan 
+=>nrel_main_idtf:
+	[Чудинович Иван] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Sakalou_Andrei 
+=>nrel_main_idtf:
+	[Соколов Андрей] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+Piguleuski_Antoniy
+=>nrel_main_idtf:
+	[Пигулевский Антоний] 
+	(* <-lang_ru;; *);	
+<-concept_person;;
+
+residents
+=>nrel_main_idtf:
+	[Жильцы] 
+	(* <-lang_ru;; *);;
+
+concept_arch_vizant
+=>nrel_main_idtf:
+	[Византийский архитектурный стиль]
+		(*<-lang_ru;;*);;

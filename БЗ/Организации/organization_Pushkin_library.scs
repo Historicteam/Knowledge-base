@@ -1,0 +1,7 @@
+organization_Pushkin_library
+=> nrel_main_idtf:
+	[филиал № 3 имени Льва Толстого библиотеки Александра Пушкина]	
+	(*
+	<- lang_ru;;
+	*);;
+

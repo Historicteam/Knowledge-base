@@ -1,0 +1,10 @@
+belgoskino_building 
+=> nrel_main_idtf:
+	[Кинотеатр "Культура"]	
+	(*
+	<- lang_ru;;
+	*);
+	["Culture" cinema]
+	(*
+	<- lang_en;;
+	*);;

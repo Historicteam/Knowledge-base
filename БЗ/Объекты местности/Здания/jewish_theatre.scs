@@ -1,0 +1,11 @@
+jewish_theatre_building
+
+=> nrel_main_idtf:
+	[Здание еврейского театра]	
+	(*
+	<- lang_ru;;
+	*);
+	[Jewish theatre building]
+	(*
+	<- lang_en;;
+	*);;

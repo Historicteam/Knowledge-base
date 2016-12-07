@@ -1,0 +1,14 @@
+Parusnikov_Mikhail_Pavlovich
+=> nrel_main_idtf:
+	[Парусников Михаил Павлович]
+	(*
+	<- lang_ru;;
+	*);
+	[Bohdanovich Semen Lukyanovich]
+	(*
+	<- lang_en;;
+	*);
+<-concept_male; 
+<-concept_architector;
+=>nrel_surname: surname_Parusnikov;
+=>nrel_first_name: name_Mikhail;;

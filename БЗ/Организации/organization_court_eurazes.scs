@@ -1,0 +1,7 @@
+organization_court_eurazes
+
+=> nrel_main_idtf:
+	[Суд ЕврАзЭС]	
+	(*
+	<- lang_ru;;
+	*);;

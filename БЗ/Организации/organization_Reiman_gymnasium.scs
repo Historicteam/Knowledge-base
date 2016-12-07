@@ -1,0 +1,15 @@
+organization_Reiman_gymnasium
+
+=> nrel_main_idtf:
+	[гимназия Рейман]	
+	(*
+	<- lang_ru;;
+	*);
+	[Reiman gymnasium]
+	(*
+	<- lang_en;;
+	*);
+	[Гімназія Рейман]	
+	(*
+	<- lang_by;;
+	*);;

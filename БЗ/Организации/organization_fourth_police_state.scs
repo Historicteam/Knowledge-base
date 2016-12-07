@@ -1,0 +1,11 @@
+organization_fourth_police_state
+
+=> nrel_main_idtf:
+	[4 милицейская часть]	
+	(*
+	<- lang_ru;;
+	*);
+	[4 police state]
+	(*
+	<- lang_en;;
+	*);;

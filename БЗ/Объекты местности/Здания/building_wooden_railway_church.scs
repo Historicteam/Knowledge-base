@@ -1,0 +1,308 @@
+building_wooden_railway_church
+
+=> nrel_main_idtf:
+	[Здание деревянной Казанской привокзальной железнодорожной церкви]	
+	(*
+	<- lang_ru;;
+	*);
+	[Kazan wooden railway church building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак драўлянай Казанскай прывакзальнай чыгуначнай царквы]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Здание деревянной Казанской привокзальной железнодорожной церкви было построено в 1890 году.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будынак драўлянай Казанскай прывакзальнай чыгуначнай царквы быў пабудаваны ў 1890 годзе.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);	
+
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1890];;
+		*);;
+	*);
+
+<- concept_terrain_object;
+=>nrel_material: material_wood;
+<- concept_building;;
+
+concept_situation->[*building_wooden_railway_church
+	<=nrel_location: kazan_church;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1890];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1914];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<=nrel_location: organization_lapiduk_shop;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1919];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1919];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<=nrel_location: organization_Pushkin_library;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1935];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1939];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<=nrel_location: organization_deaf_club;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1939];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1940];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/wood1890.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1890];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/wood18901.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1890];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<-concept_administrative;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1914];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1941];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<-concept_building_god;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1890];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1914];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_wooden_railway_church
+	<-concept_building_god;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1941];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_wooden_railway_church=> nrel_personal_composition: residents
+(*
+->rrel_prior: Perabila_Petr;;
+->rrel_deacon: Valasevich_Ivan;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+             	-> rrel_year: rrel_decimal: [1900];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            	-> rrel_year: rrel_decimal: [1901];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_wooden_railway_church=> nrel_personal_composition: residents
+(*
+->rrel_prior: Kvacheuski_Ipalit;;
+->rrel_deacon: Gurin;;
+->rrel_watchman: Rakitskiy;;
+->rrel_watchman: Kruchanok;;
+->rrel_priest: Chudzinovich_Ivan;;
+->rrel_priest: Sakalou_Andrei;;
+->rrel_priest: Piguleuski_Antoniy;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+             	-> rrel_year: rrel_decimal: [1901];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            	-> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+*);;

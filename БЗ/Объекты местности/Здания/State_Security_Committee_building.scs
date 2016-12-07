@@ -1,0 +1,142 @@
+State_Security_Committee_building
+
+=> nrel_main_idtf:
+	[Здание комитета государственной безопасности]	
+	(*
+	<- lang_ru;;
+	*);
+	[State Security Committee building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак камітэта дзяржаўнай бяспекі]	
+	(*
+	<- lang_by;;
+	*);
+
+=> nrel_abbreviature:
+	[Здание КГБ]	
+	(*
+	<- lang_ru;;
+	*);
+	[SSC Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак КДБ]	
+	(*
+	<- lang_by;;
+	*);
+
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Постановлением Совета Народных Комиссаров (СНК) Белорусской ССР № 1223 от 21 августа 1945 г. «О строительстве нового здания НКГБ в г. Минске» было принято решение отвести для строительства нового здания Народного комиссариата государственной безопасности (НКГБ) в г. Минске «участок по Советской улице между улицей Комсомольской и зданием НКВД БССР» (в настоящее время корпус административного здания МВД Республики Беларусь на пересечении проспекта Независимости с улицей Городской Вал).
+]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Resolution of the Byelorussian SSR Council of People's Commissars (SNK) number 1223 of 21 August 1945 "On the construction of the new building of the NKGB in Minsk," it was decided to take for the new building of the People's Commissariat of State Security (NKGB) in Minsk "section on Sovetskaya street between the street and the building Komsomolskaya NKVD BSSR "(currently housing the administrative building of the Ministry of Interior of the Republic of Belarus at the intersection of Independence Avenue to the streets of the city Val).]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Пастановай Савета Народных Камісараў (СНК) Беларускай ССР № 1223 ад 21 жнiўня 1945 г. «Аб будаўніцтве новага будынка НКГБ ў г. Мінску» было прынята рашэнне адвесці для будаўніцтва новага будынка Народнага камісарыята дзяржаўнай бяспекі (НКДБ) у г. Менску «ўчастак па савецкай вуліцы паміж вуліцай Камсамольскай і будынкам НКУС БССР »(у цяперашні час корпус адміністрацыйнага будынка МУС Рэспублікі Беларусь на скрыжаванні праспекта Незалежнасці з вуліцай Гарадскі Вал).]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.899186, 27.554655]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.899186;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.554655;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);	
+
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1947];;
+            *);;
+        *);
+
+=>nrel_architectural_style: concept_arch_classicism;
+=>nrel_architector: Parusnikov_Mikhail_Pavlovich;
+<- concept_terrain_object;
+<- concept_building;;
+
+concept_situation->[*State_Security_Committee_building
+	<=nrel_location: organization_State_Security_Committee;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1947];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*State_Security_Committee_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/KGB_1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2010];;
+            *);;
+        *);;
+*);;

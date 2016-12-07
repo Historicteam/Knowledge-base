@@ -1,0 +1,10 @@
+Work_club_building 
+=> nrel_main_idtf:
+	[Здание рабочего клуба]	
+	(*
+	<- lang_ru;;
+	*);
+	[Work club building]
+	(*
+	<- lang_en;;
+	*);;

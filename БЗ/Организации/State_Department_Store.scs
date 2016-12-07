@@ -1,0 +1,48 @@
+organization_State_Department_Store
+=> nrel_main_idtf:
+        [Государственный универсальный магазин]
+        (*
+        <- lang_ru;;
+        *);
+        [State Department Store]
+        (*
+        <- lang_en;;
+        *);
+        [Дзяржаўны універсальны магазін]
+        (*
+        <- lang_by;;
+        *);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ГУМ — первый крупнейший универсальный магазин г. Минска.
+5 ноября 1951 года универмаг распахнул свои двери для покупателей, гостей, жителей города и республики.
+]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[GUM- the first major department store in Minsk.
+November 5, 1951 Department Store opened its doors to customers, guests and residents of the republic.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[ГУМ - першы найбуйнейшы універсальны магазін г. Мінска.
+5 лістапада 1951 года універмаг расчыніў свае дзверы для пакупнікоў, гасцей, жыхароў горада і рэспублікі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

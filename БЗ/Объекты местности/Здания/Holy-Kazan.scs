@@ -1,0 +1,326 @@
+building_kazan_church
+
+=> nrel_main_idtf:
+	[Здание Свято-Казанской церкви]	
+	(*
+	<- lang_ru;;
+	*);
+	[Holy-Kazan church building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Свята-Казанскай царквы]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Привокзальная Казанская церковь была построена в начале ХХ в. на площади у Западного моста.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Прывакзальная Казанская царква была пабудавана ў пачатку ХХ ст. на плошчы каля Заходняга моста.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);	
+
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1914];;
+		*);;
+	*);
+
+<- concept_terrain_object;
+=> nrel_architectural_style: concept_arch_vizant;
+=> nrel_material: material_stone;
+<- concept_building;;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_railway_church;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1914];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1922];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_KPB;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1922];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1928];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_LKSMB;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1922];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1928];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_evening_school;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1922];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1928];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_railway_club;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1932];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1935];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<=nrel_location: organization_club_13_october;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1935];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1936];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/kazan1914.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/kazan1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<-concept_administrative;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1922];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1936];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<-concept_building_god;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1914];;
+		*);;
+	*);;
+		
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1922];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*building_kazan_church
+	<-concept_lost_constructions;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1936];;
+		*);;
+	*);;
+*);;
+
+concept_situation->[*organization_railway_church=> nrel_personal_composition: pricht_holy_kazan
+(*
+->rrel_watchman: Grynyavitski_Adam_Iosifovich;;
+->rrel_deacon: Rusetskiy_Ivan_Fotievich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+             	-> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            	-> rrel_year: rrel_decimal: [1922];;
+            *);;
+        *);;
+*);;
