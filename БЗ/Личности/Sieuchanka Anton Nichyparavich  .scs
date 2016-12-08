@@ -1,0 +1,8 @@
+Anton_Nichyparavich_Sieuchanka
+
+=> nrel_main_idtf:
+        [Антон Никифорович Севченко] (* <- lang_ru;; *);
+	[Anton Nichyparavich Sieuchanka] (* <- lang_en;; *);
+	[Антон Нічыпаравіч Сеўчанка] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

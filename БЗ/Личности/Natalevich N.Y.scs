@@ -1,0 +1,8 @@
+Natalevich_Nikifor_Yakovlevich.
+<- concept_male;
+<- concept_person;
+
+=> nrel_main_idtf:
+	[Наталевич Никифор Яковлевич] (* <- lang_ru;; *);
+	[Natalevich Nikifor Yakovlevich] (* <- lang_en;; *);
+	[Наталевіч Нічыпар Якаўлевіч] (* <- lang_by;; *);;

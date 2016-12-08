@@ -1,0 +1,26 @@
+organization_The_Central_Executive_Committee_of_the_BSSR
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Совет Республики Национального собрания Республики Беларусь — верхняя палата парламента Республики Беларусь, начала свою работу 13 января 1997. ]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[The Council of the Republic is the upper house in Belarus' bicameral parliament, the National Assembly.]
+			(* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Савет Рэспублікі Нацыянальнага сходу — верхняя палата парламента Рэспублікі Беларусь, утворанага па выніках усенароднага рэферэндуму ў лістападзе 1996. Пачаў сваю працу 13 студзеня 1997.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);;

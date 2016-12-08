@@ -1,0 +1,7 @@
+Stanislau_Kanstantinavich_Boltut
+
+=> nrel_main_idtf:
+	[Станислав Константинович Болтуть ] (* <- lang_ru;; *);
+	[Stanislau Kanstantinavich Boltut'] (* <- lang_en;; *);
+<- concept_male;
+<- concept_person;;

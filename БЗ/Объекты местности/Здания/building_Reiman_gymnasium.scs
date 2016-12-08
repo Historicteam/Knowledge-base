@@ -1,0 +1,306 @@
+Reiman_gymnasium_building
+
+=> nrel_main_idtf:
+	[Здание гимназии Рейман]	
+	(*
+	<- lang_ru;;
+	*);
+	[Reiman gymnasium building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак гімназіі Рейман]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Изначально здание было построено для управления четвертой милицейской части, что отразилось на его внешнем виде- неоклассический стиль, популярный и дорогостоящий красный кирпич, вензеля и небольший арки.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Originally the building was built to control the fourth part of the police, which is reflected in its external vision neoclassical style, popular and expensive red brick arches and a small monogram.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Першапачаткова будынак было пабудавана для кіравання чацвёртай міліцэйскай часці, што адбілася на яго знешнім виде- Неакласічны стыль, папулярны і дарагі чырвоная цэгла, вензелі і невялікі аркі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.893854, 27.551916]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.893854;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.551916;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);	
+
+=> nrel_start_time: ...
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1890];;
+		*);;
+	*);;
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1899];;
+		*);;
+	*);;
+*);
+
+=>nrel_architectural_style: concept_arch_neoclassicism;
+=>nrel_material: material_red_brick;
+<- concept_terrain_object;
+<- concept_administrative;
+<- concept_building;;
+
+concept_situation->[*Reiman_gymnasium_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/reiman.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+	(*
+		=> nrel_start_time: ...
+		(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		    (*
+		    -> rrel_year: rrel_decimal: [2016];;
+		    *);;
+		*);;
+	*);;
+
+concept_situation->[*Reiman_gymnasium_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/reiman1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+	(*
+		=> nrel_start_time: ...
+		(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		    (*
+		    -> rrel_year: rrel_decimal: [2016];;
+		    *);;
+		*);;
+	*);;
+
+concept_situation->[*Reiman_gymnasium_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/reiman2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+	(*
+		=> nrel_start_time: ...
+		(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		    (*
+		    -> rrel_year: rrel_decimal: [2016];;
+		    *);;
+		*);;
+	*);;
+
+concept_situation->[*Reiman_gymnasium_building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/reiman3.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+*]
+	(*
+		=> nrel_start_time: ...
+		(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		    (*
+		    -> rrel_year: rrel_decimal: [2016];;
+		    *);;
+		*);;
+	*);;
+
+
+
+concept_situation->[*Reiman_gymnasium_building
+	<=nrel_location: organization_fourth_police_state;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		=> nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1890];;
+			*);;
+		*);;
+
+		=> nrel_finish_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1899];;
+			*);;
+		*);;
+	*);;
+*);;
+
+
+
+concept_situation->[*Reiman_gymnasium_building
+	<=nrel_location: organization_Reiman_gymnasium;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1913];;
+		*);;
+	*);;
+
+	=> nrel_finish_time: ...
+	(*
+		=> nrel_start_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1919];;
+			*);;
+		*);;
+
+		=> nrel_finish_time: ...
+		(*
+			<-concept_time_point;;
+			=> nrel_translation_in_the_Gregorian_calendar: ...
+			(*
+				-> rrel_year: rrel_decimal: [1921];;
+			*);;
+		*);;
+	*);;
+*);;
+
+
+
+concept_situation->[*Reiman_gymnasium_building
+	<=nrel_location: organization_25_railway_school;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [1923];;
+		*);;
+	*);;
+
+	=> nrel_finish_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [2000];;
+		*);;
+	*);;
+*);;
+
+
+
+concept_situation->[*Reiman_gymnasium_building
+	<=nrel_location: organization_court_eurazes;;
+*]
+(*
+	=> nrel_start_time: ...
+	(*
+		<-concept_time_point;;
+		=> nrel_translation_in_the_Gregorian_calendar: ...
+		(*
+			-> rrel_year: rrel_decimal: [2000];;
+		*);;
+	*);;
+*);;
+
+

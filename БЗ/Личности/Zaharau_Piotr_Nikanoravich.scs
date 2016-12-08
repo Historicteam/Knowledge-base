@@ -1,0 +1,8 @@
+Zaharau_Piotr_Nikanoravich
+
+=> nrel_main_idtf:
+	[Захаров Петр Никанорович ] (* <- lang_ru;; *);
+	[Zaharau Piotr Nikanoravich] (* <- lang_en;; *);
+	[Захараў Пётр Ніканоравіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

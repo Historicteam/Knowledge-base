@@ -1,0 +1,8 @@
+Tomasz_Zan
+
+=> nrel_main_idtf:
+	[Томаш Зан] (* <- lang_ru;; *);
+	[Tomasz Zan] (* <- lang_en;; *);
+	[Томаш Зан] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

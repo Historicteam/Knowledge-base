@@ -1,0 +1,45 @@
+organization_State_Security_Committee
+=> nrel_main_idtf:
+        [Коммитет государственной безопасности]
+        (*
+        <- lang_ru;;
+        *);
+        [State Security Committee]
+        (*
+        <- lang_en;;
+        *);
+        [Камітэт дзяржаўнай бяспекі]
+        (*
+        <- lang_by;;
+        *);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Комите́т госуда́рственной безопа́сности Респу́блики Беларусь (КГБ РБ; белор. Камітэ́т дзяржа́ўнай бяспе́кі Рэспу́блікі Белару́сь) — спецслужба Беларуси, предназначенная для обеспечения национальной безопасности, ведения контрразведки и внешней разведки. Преемник КГБ БССР (структурного подразделения КГБ СССР).
+]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Committee of State Security of the Republic of Belarus (. KGB of Belarus; Belor Kamіtet dzyarzhaўnay byaspekі Respublika Belarus) - Belarusian special service designed to ensure national security, conducting counterintelligence and foreign intelligence. The successor to the KGB BSSR (structural unit of the KGB).]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Камітэт дзяржаўнай бяспекі Рэспублікі Беларусь (КДБ РБ; руск. Камітэт дзяржаўнай бяспекі Рэспублікі Беларусь) - спецслужба Беларусі, прызначаная для забеспячэння нацыянальнай бяспекі, вядзення контрвыведкі і знешняй выведкі. Пераемнік КДБ БССР (структурнага падраздзялення КДБ СССР).]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

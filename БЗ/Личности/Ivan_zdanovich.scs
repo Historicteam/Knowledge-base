@@ -1,0 +1,7 @@
+Ivan_zdanovich
+<- concept_male;
+<- concept_person;
+=> nrel_main_idtf:
+	[Иван Устинович Зданович] (* <- lang_ru;; *);
+	[Ivan Zdanowicz] (* <- lang_en;; *);
+	[Іван Усціновіч Здановіч] (* <- lang_by;; *);;

@@ -1,0 +1,7 @@
+Vasil_Ivanavich_Strazhau
+
+=> nrel_main_idtf:
+        [Василий Иванович Стражев ] (* <- lang_ru;; *);
+	[Strazhau Vasil Ivanavich ] (* <- lang_en;; *);
+<- concept_male;
+<- concept_person;;

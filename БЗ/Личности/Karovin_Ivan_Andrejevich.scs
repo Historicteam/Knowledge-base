@@ -1,0 +1,8 @@
+Karovin_Ivan_Andrejevich
+
+=> nrel_main_idtf:
+	[Коровин Иван Андреевич] (* <- lang_ru;; *);
+	[Karovin Ivan Andrejevich] (* <- lang_en;; *);
+	[Каровін Іван Андрэевіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,25 @@
+nrel_org
+=>nrel_main_idtf:
+	[организатор*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[organizer*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[арганізатар*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[ Тот, кто устраивает, основывает, организовывает что-либо] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[ Той, хто задавальняе, засноўвае, арганізоўвае што-небудзь ] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

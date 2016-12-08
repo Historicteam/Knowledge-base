@@ -1,0 +1,8 @@
+Halaskou_Ivan_Vasivjevich
+
+=> nrel_main_idtf:
+	[Голосков Иван Васильевич] (* <- lang_ru;; *);
+	[Halaskou Ivan Vasivjevich] (* <- lang_en;; *);
+	[Галаскоў Іван Васільевіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,26 @@
+organization_of_the_Third_Minsk_postal_telegraph_office
+=> nrel_main_idtf:
+	[Третье минское почтово-телеграфное отделение]
+	(*
+	<- lang_ru;;
+	*);
+	[Third Minsk postal telegraph office]
+	(*
+	<- lang_en;;
+	*);
+	[Трэцяе мінскае паштова-тэлеграфнае аддзяленне]
+	(*
+	<- lang_by;;
+	*);
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1916];;
+            *);;
+        *);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+
+

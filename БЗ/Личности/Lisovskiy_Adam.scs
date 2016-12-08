@@ -1,0 +1,8 @@
+Lisovskiy_Adam
+<- concept_male;
+<- concept_person;
+<- nrel_vicar;
+=> nrel_main_idtf:
+	[Лисовский Адам Юзефович] (* <- lang_ru;; *);
+	[Adam Lisowski Yuzefovich] (* <- lang_en;; *);
+	[Лісоўскі Адам Юзэфовіч] (* <- lang_by;; *);;

@@ -1,0 +1,14 @@
+organization_of_BST_of_working_youth
+=> nrel_main_idtf:
+	[Белорусский государственный  театр рабочей молодежи]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian State Theatre of Working Youth]
+	(*
+	<- lang_en;;
+	*);
+	[Беларускі дзяржаўны тэатр рабочай  моладзі]
+	(*
+	<- lang_by;;
+	*);;

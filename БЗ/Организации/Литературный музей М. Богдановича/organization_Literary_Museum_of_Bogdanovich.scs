@@ -1,0 +1,114 @@
+
+organization_Literary_Museum_of_Bogdanovich
+=>nrel_phone_number: [3750173340761]
+		(*
+		<-concept_phone_number;;
+		*);
+=>nrel_email: [maksimbagdanovich@gmail.com]
+		(*
+		<-concept_email;;
+		*);
+
+=> nrel_personal_composition:professor_and_teaching_staff_organization_Literary_Museum_of_Bogdanovich
+(*
+->rrel_director:Shelyagovich_Tatiana_Eduardovna;;
+*);;
+professor_and_teaching_staff_organization_Literary_Museum_of_Bogdanovich
+=>nrel_main_idtf:
+[Персональный состав Литературного музея М. Богдановича](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Literary_Museum_of_Bogdanovich=>nrel_transformation:
+organization_Branch_Literary_Museum_of_Bogdanovich;;*]
+(*
+
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [4];;
+            -> rrel_year: rrel_decimal: [2014];;
+            *);;
+        *);;
+*);;
+		
+organization_Literary_Museum_of_Bogdanovich
+=> nrel_main_idtf:
+	[Литературный музей М. Богдановича]
+	(*
+	<- lang_ru;;
+	*);
+	[Literary Museum of Bogdanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Літаратурны музей М. Багдановіча]
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: Explanation_Literary_Museum_of_Bogdanovich
+	(*
+		=> nrel_main_idtf:	[Пояснение литературного музея Максима Богдановича] (* <- lang_ru;; *);
+							[Explanation of the Bohdanovich Literary Museum concept] (* <- lang_en;; *);
+							[Тлумачэнне літаратурного Музея Багдановіча](* <- lang_by;; *);;
+
+		<-sc_explanation;;
+		<= nrel_sc_text_translation: 
+			...
+			(* -> rrel_example:
+	[Литературный музей Максима Богдановича – это один из самых красивых музеев белорусской столицы. Он разместился в двухэтажном здании (памятник городской архитектуры XIX столетия) в Троицком предместье.] (* <-lang_ru;; *);;
+			*);
+			...
+			(* -> rrel_example:
+	[The Bohdanovich Literary Museum is one of the most beautiful museums in the capital of Belarus. The museum is situated in a two-storied building of the Trinity Hill.] (* <-lang_en;; *);;
+			*);
+			...
+			(* -> rrel_example:
+	[Літаратурны музей Максіма Багдановіча - гэта адзін з самых прыгожых музеяў беларускай сталіцы. Ён размясціўся ў двухпавярховым будынку (помнік гарадской архітэктуры XIX стагоддзя) ў Троіцкім прадмесьці.] (* <- lang_by;;*);;
+			*);;
+	*);
+<-concept_museum;;
+
+
+
+concept_situation->[*organization_Literary_Museum_of_Bogdanovich => nrel_location: house_7a_Bogdanovich_street;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения литературного музея им. Богдановича по ул. Богдановича 7А](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_day: rrel_decimal: [19];;
+																				-> rrel_month: rrel_decimal: [9];;
+																				-> rrel_year: rrel_decimal: [1980];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_day: rrel_decimal: [1];;
+																				-> rrel_month: rrel_decimal: [4];;
+																				-> rrel_year: rrel_decimal: [2014];;
+																			*);;
+						*);;
+*);;
+
+house_7a_Bogdanovich_street
+=> nrel_main_idtf:
+		[улица М.Богдановича дом 7a]
+		(*
+		<- lang_ru;;
+		*);
+		[Bogdanovich Street, 7A]
+		(*
+		<- lang_en;;
+		*);
+		[вуліца М.Багдановіча дом 7a]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;
+	

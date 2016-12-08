@@ -1,0 +1,15 @@
+house_41_Kirovs_street 
+=> nrel_main_idtf:
+		[улица Кирова дом 41]
+		(*
+		<- lang_ru;;
+		*);
+		[house_41_Kirovs_street ]
+		(*
+		<- lang_en;;
+		*);
+		[вуліца Кірава дом 41]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

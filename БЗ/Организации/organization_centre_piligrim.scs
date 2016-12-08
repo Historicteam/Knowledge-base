@@ -1,0 +1,14 @@
+organization_centre_piligrim
+=> nrel_main_idtf:
+	[Центр "Пилигрим"]
+	(*
+	<- lang_ru;;
+	*);
+	[Сentre "piligrim"]
+	(*
+	<- lang_en;;
+	*);
+	[Цэнтр "Пілігрым"]
+	(*
+	<- lang_by;;
+	*);;

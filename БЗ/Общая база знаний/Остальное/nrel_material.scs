@@ -1,0 +1,7 @@
+nrel_material
+
+=> nrel_main_idtf:
+	[Материал постройки]	
+	(*
+	<- lang_ru;;
+	*);;

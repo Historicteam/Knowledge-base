@@ -1,0 +1,8 @@
+Mikalay_Dzyemyantsyey
+
+=> nrel_main_idtf:
+	[Дементей Николай Иванович  ] (* <- lang_ru;; *);
+	[Dziemiantiej Mikalaj Ivanavich ] (* <- lang_en;; *);
+	[Дземянцей Мікалай Іванавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

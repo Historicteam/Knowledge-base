@@ -1,0 +1,15 @@
+House_Frotskoy
+=> nrel_main_idtf:
+		[Дом Фроцкой]
+		(*
+		<- lang_ru;;
+		*);
+		[House Frotskoy ]
+		(*
+		<- lang_en;;
+		*);
+		[Дом Фроцкай]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

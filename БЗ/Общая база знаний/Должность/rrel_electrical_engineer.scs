@@ -1,0 +1,16 @@
+rrel_electrical_engineer
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[инженер-электрик']
+	(*
+	<- lang_ru;;
+	*);
+	[electrical engineer']
+	(*
+	<- lang_en;;
+	*);;
+

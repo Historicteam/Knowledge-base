@@ -1,0 +1,9 @@
+rrel_student
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[учащийся'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[student'] (* <-lang_en;; *);;

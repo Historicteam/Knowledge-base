@@ -1,0 +1,19 @@
+Lenin_Street
+	=> nrel_main_idtf:
+			[Улица Ленина]
+			(*
+			<- lang_ru;;
+			*);
+			[Lenin Street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Леніна]
+			(*
+			<- lang_by;;
+			*);
+<= nrel_subdividing:
+		{
+			The_building_of_the_Minsk_Male_Gymnasiume
+		};
+		<-concept_street;;

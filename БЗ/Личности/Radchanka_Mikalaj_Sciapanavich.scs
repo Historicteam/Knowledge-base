@@ -1,0 +1,8 @@
+Radchanka_Mikalaj_Sciapanavich
+
+=> nrel_main_idtf:
+        [Радченко Николай Степанович] (* <- lang_ru;; *);
+	[Radchanka Mikalaj Sciapanavich] (* <- lang_en;; *);
+	[Радчанка Мікалай Сцяпанавіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

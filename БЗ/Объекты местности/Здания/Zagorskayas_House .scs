@@ -1,0 +1,15 @@
+Zagorskayas_House 
+=> nrel_main_idtf:
+		[Дом Загорской]
+		(*
+		<- lang_ru;;
+		*);
+		[House Zagorskaya ]
+		(*
+		<- lang_en;;
+		*);
+		[дом Загорскай]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

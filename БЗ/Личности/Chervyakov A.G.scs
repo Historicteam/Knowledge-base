@@ -1,0 +1,9 @@
+Alexander_Grigoryevich_Chervyakov
+
+
+=> nrel_main_idtf:
+	[Червяков Александр Григорьевич] (* <- lang_ru;; *);
+	[Alexander Grigoryevich Chervyakov] (* <- lang_en;; *);
+	[Чарвякоў Аляксандр Рыгоравіч] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

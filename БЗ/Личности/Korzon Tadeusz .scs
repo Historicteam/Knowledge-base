@@ -1,0 +1,8 @@
+Tadeusz_Korzon
+
+=> nrel_main_idtf:
+	[Корзон Тадеуш  ] (* <- lang_ru;; *);
+	[Korzan Tadeusz ] (* <- lang_en;; *);
+	[Корзан Тадэвуш ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,14 @@
+Gegart_Roman_Mikhailovich
+=> nrel_main_idtf:
+	[Гегарт Роман Михайлович]
+	(*
+	<- lang_ru;;
+	*);
+	[Gegart Roman Mikhailovich]
+	(*
+	<- lang_en;;
+	*);
+<-concept_male;
+<-concept_architector; 
+=>nrel_surname: surname_Gegart;
+=>nrel_first_name: name_Roman;;

@@ -1,0 +1,500 @@
+organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
+=> nrel_main_idtf:
+	[Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[Office of the Commissioner of the People's Commissariat of Communications of the USSR under the Council of People's Commissars of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Кіравання ўпаўнаважанага Народнага камісарыята сувязі СССР пры Савеце Народных Камісараў БССР]
+	(*
+	<- lang_by;;
+	*);
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1934];;
+            *);;
+        *);
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1941];;
+            *);;
+        *);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination:organization_of_the_Minsk_provincial_post_and_telegraph_office ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1899];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination:organization_of_the_First_Minsk_postal_telegraph_office ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1891];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination: organization_of_the_Second_Minsk_postal_telegraph_office;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+*);;
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination: organization_of_the_Third_Minsk_postal_telegraph_office;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1916];;
+            *);;
+        *);;
+*);;
+
+organization_Minsk_Regional_Department_of_Communications_Office_of_the_Commissioner
+=> nrel_main_idtf:
+	[Минское областное управление связи управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Regional Department of Communications Office of the Commissioner of the People's Commissariat of Communications of the USSR under the Council of People's Commissars of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае абласное ўпраўленне сувязі ўпраўлення ўпаўнаважанага Народнага камісарыята сувязі СССР пры Савеце Народных Камісараў БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_Minsk_Regional_Department_of_Communications_Office_of_the_Commissioner;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1944];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1946];;
+            *);;
+        *);;
+*);;
+
+organization_Minsk_Regional_Management_Office_of_Communications_Commissioner_at_the_Council_of_Ministers
+=> nrel_main_idtf:
+	[Минское областное управление связи управления уполномоченного при Совете Министров БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Regional Management Office of Communications Commissioner at the Council of Ministers of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае абласное ўпраўленне сувязі ўпраўлення ўпаўнаважанага пры Савеце Міністраў БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_Minsk_Regional_Management_Office_of_Communications_Commissioner_at_the_Council_of_Ministers;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1946];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1954];;
+            *);;
+        *);;
+*);;
+
+organization_The_Ministry_of_Communications_of_the_BSSR
+=> nrel_main_idtf:
+	[Министерство связи БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[The Ministry of Communications of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Міністэрства сувязі БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_of_the_BSSR;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1954];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+*);;
+
+organization_The_Ministry_of_Communications_and_Informatics_of_the_BSSR
+=> nrel_main_idtf:
+	[Министерство связи и информатики БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[The Ministry of Communications and Informatics of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Міністэрства сувязі і інфарматыкі БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_and_Informatics_of_the_BSSR;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1997];;
+            *);;
+        *);;
+*);;
+
+organization_The_Ministry_of_Communications_of_the_Republic_of_Belarus
+=> nrel_main_idtf:
+	[Министерство связи Республики Беларусь]
+	(*
+	<- lang_ru;;
+	*);
+	[The Ministry of Communications of the Republic of Belarus]
+	(*
+	<- lang_en;;
+	*);
+	[Міністэрства сувязі Рэспублікі Беларусь]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_of_the_Republic_of_Belarus;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1997];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2004];;
+            *);;
+        *);;
+*);;
+
+organization_The_Ministry_of_Communications_and_Informatics_of_the_Republic_of_Belarus   
+=> nrel_main_idtf:
+ [Министерство связи и информатики Республики Беларусь]
+	(*
+	<- lang_ru;;
+	*);
+	[The Ministry of Communications and Informatics of the Republic of Belarus]
+	(*
+	<- lang_en;;
+	*);
+	[Міністэрства сувязі і інфарматыкі Рэспублікі Беларусь]
+	(*
+	<- lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_and_Informatics_of_the_Republic_of_Belarus ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2004];;
+            *);;
+        *);;
+*);;
+
+
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=> nrel_personal_composition:pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_1955_1980
+(*
+->rrel_Minister_of_Communications_and_Informatization: Afanasjeu_Paviel_Vasiljevich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [11];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [1955];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [22];;
+	    -> rrel_month: rrel_decimal: [1];;	
+            -> rrel_year: rrel_decimal: [1980];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_1955_1980
+=>nrel_main_idtf:
+[Персональный состав Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР 1955-1980 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=> nrel_personal_composition:pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_1980_1994
+(*
+->rrel_Minister_of_Communications_and_Informatization:Hrycuk_Ivan_Mikhajlavich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [22];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1980];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [16];;
+	    -> rrel_month: rrel_decimal: [9];;	
+            -> rrel_year: rrel_decimal: [1994];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_1980_1994
+=>nrel_main_idtf:
+[Персональный состав Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР 1980-1994 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=> nrel_personal_composition:pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_1994_1999
+(*
+->rrel_Minister_of_Communications_and_Informatization: Hancharenka_Uladzimir_Ivanavich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [14];;
+	    -> rrel_month: rrel_decimal: [10];;
+            -> rrel_year: rrel_decimal: [1994];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [16];;
+	    -> rrel_month: rrel_decimal: [12];;	
+            -> rrel_year: rrel_decimal: [1999];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_1994_1999
+=>nrel_main_idtf:
+[Персональный состав Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР 1994-1999 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=> nrel_personal_composition:pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2001_2006
+(*
+->rrel_Minister_of_Communications_and_Informatization: Hancharenka_Uladzimir_Ivanavich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [2001];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [5];;
+	    -> rrel_month: rrel_decimal: [5];;	
+            -> rrel_year: rrel_decimal: [2006];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2001_2006
+=>nrel_main_idtf:
+[Персональный состав Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР 2001-2006 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=> nrel_personal_composition:pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2000_2001
+(*
+->rrel_Minister_of_Communications_and_Informatization: Krukouski_Mikalaj_Aliaksandravich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [12];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [2000];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [22];;
+	    -> rrel_month: rrel_decimal: [2];;	
+            -> rrel_year: rrel_decimal: [2001];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2000_2001
+=>nrel_main_idtf:
+[Персональный состав Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР 2000-2001 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=> nrel_personal_composition:pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2006_2014
+(*
+->rrel_Minister_of_Communications_and_Informatization:Pancialiej_Mikalaj_Piatrovich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [5];;
+	    -> rrel_month: rrel_decimal: [5];;
+            -> rrel_year: rrel_decimal: [2006];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [21];;
+	    -> rrel_month: rrel_decimal: [2];;	
+            -> rrel_year: rrel_decimal: [2014];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2006_2014
+=>nrel_main_idtf:
+[Персональный состав Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР 2006-2014 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=> nrel_personal_composition:pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2014
+(*
+->rrel_Minister_of_Communications_and_Informatization:Papkou_Siarhej_Piatrovich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [21];;
+	    -> rrel_month: rrel_decimal: [2];;
+            -> rrel_year: rrel_decimal: [2014];;
+            *);;
+        *);;
+
+*);;
+pers_comp_organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications_2014
+=>nrel_main_idtf:
+[Персональный состав Управления уполномоченного Народного комиссариата связи СССР при Совете Народных Комиссаров БССР 2014 года](*<-lang_ru;;*);;
+
+

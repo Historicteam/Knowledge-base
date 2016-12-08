@@ -1,0 +1,15 @@
+organization_Branch_Literary_Museum_of_Bogdanovich
+=> nrel_main_idtf:
+	[Филиал "Литературный музей Максима Богдановича"]
+	(*
+	<- lang_ru;;
+	*);
+	[Branch "Literary Museum of Maxim Bogdanovich"]
+	(*
+	<- lang_en;;
+	*);
+	[Філіял "Літаратурны музей Максіма Багдановіча"]
+	(*
+	<- lang_by;;
+	*);
+<-concept_museum;;

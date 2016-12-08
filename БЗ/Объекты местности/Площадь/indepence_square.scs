@@ -1,0 +1,11 @@
+indepence_square
+<- concept_square;
+=> nrel_main_idtf:
+	[Площадь Независимости]
+	(*
+	<- lang_ru;;
+	*);
+	[Idepence Square]
+	(*
+	<- lang_en;;
+	*);;

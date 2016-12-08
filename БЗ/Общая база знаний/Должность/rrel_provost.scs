@@ -1,0 +1,20 @@
+rrel_provost
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[ректор'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[provost'] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Ре́ктор — руководитель высшего учебного заведения.] (* <-lang_ru;; *);; 
+		*);;
+	*);;
+

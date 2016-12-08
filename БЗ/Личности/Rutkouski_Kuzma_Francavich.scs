@@ -1,0 +1,8 @@
+Rutkouski_Kuzma_Francavich
+
+=> nrel_main_idtf:
+        [Рутковский Кузьма Францевич  ] (* <- lang_ru;; *);
+	[Rutkouski Kuzma Francavich] (* <- lang_en;; *);
+	[Руткоўскі Кузьма Францавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

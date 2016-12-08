@@ -1,0 +1,8 @@
+Anufryj_Niestaravich_Andruszchanka
+
+=> nrel_main_idtf:
+        [Андрющенко Онуфрий Несторович ] (* <- lang_ru;; *);
+	[Andruszchanka Niestaravich Anufryj  ] (* <- lang_en;; *);
+	[Андрушчанка Ануфрый Нестаровіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

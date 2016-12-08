@@ -1,0 +1,8 @@
+Myechyslaw_Hryb
+
+=> nrel_main_idtf:
+	[Гриб Мечислав Иванович  ] (* <- lang_ru;; *);
+	[Hryb Miechyslau Ivanavich ] (* <- lang_en;; *);
+	[Грыб Мечыслаў Іванавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

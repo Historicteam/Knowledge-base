@@ -1,0 +1,8 @@
+Ivan_Petrovich_Shamiakin
+
+=> nrel_main_idtf:
+	[Шамякин Иван Петрович ] (* <- lang_ru;; *);
+	[Shamiakin Ivan Piatrovich ] (* <- lang_en;; *);
+	[Шамякін Іван Пятровіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

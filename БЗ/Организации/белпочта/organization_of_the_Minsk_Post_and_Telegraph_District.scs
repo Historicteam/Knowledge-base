@@ -1,0 +1,268 @@
+organization_of_the_Minsk_Post_and_Telegraph_District
+=> nrel_main_idtf:
+	[Управление Минского почтово-телеграфного округа Главного управления почт и телеграфов]
+	(*
+	<- lang_ru;;
+	*);
+	[Management of the Minsk Post and Telegraph District Chief Department of Posts and Telegraphs]
+	(*
+	<- lang_en;;
+	*);
+	[Кіраванне Мінскага паштова-тэлеграфнай акругі Галоўнага ўпраўлення пошт і тэлеграфаў]
+	(*
+	<- lang_by;;
+	*);
+ => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [7];;
+            -> rrel_year: rrel_decimal: [1886];;
+            *);;
+        *);
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);
+<-concept_formal_organization;
+<-concept_administrative_organization;;
+
+
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=>nrel_subordination:organization_of_the_Minsk_provincial_post_and_telegraph_office ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1899];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=>nrel_subordination:organization_of_the_First_Minsk_postal_telegraph_office ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1891];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=>nrel_subordination: organization_of_the_Second_Minsk_postal_telegraph_office;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+*);;
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=>nrel_subordination: organization_of_the_Third_Minsk_postal_telegraph_office;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1916];;
+            *);;
+        *);;
+*);;
+
+
+
+
+concept_situation->[* organization_of_the_Minsk_Post_and_Telegraph_District => nrel_location: Proshinskogo_House;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1886];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+*);;
+ 
+concept_situation->[* organization_of_the_Minsk_Post_and_Telegraph_District => nrel_location: Zagorskaya_house_building ;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nrel_personal_composition:pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1910
+(*
+->rrel_director:Karovin_Ivan_Andrejevich;;
+->rrel_assistant:Rubiec_Erast_Macviejevich ;;
+->rrel_official_for_special_assignments: Tarnauski_Stiapan_Ignacjevich;;
+->rrel_clerk: Aliejnikau_Piotr_Mikhajlavich;;
+->rrel_assistant:Kazakievich_Arciemij_Arturavich ;;
+->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich ;;
+->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;;
+->rrel_assistant:Halaskou_Ivan_Vasivjevich ;;
+->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;;
+->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1910];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1910];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1910
+=>nrel_main_idtf:
+[Персональный состав Управления Минского почтово-телеграфного округа Главного управления почт и телеграфов 1910 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nrel_personal_composition:pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1901_1902
+(*
+->rrel_director:Karovin_Ivan_Andrejevich;;
+->rrel_assistant:Rubiec_Erast_Macviejevich ;;
+->rrel_official_for_special_assignments: Kapiecki_Heorhij_Sciapanavich;;
+->rrel_clerk: Piatrou_Arest_Jaugrafavich;;
+->rrel_assistant:Kavaliou_Vasil_Ciarencjevich ;;
+->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich ;;
+->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;;
+->rrel_assistant:Halaskou_Ivan_Vasivjevich ;;
+->rrel_assistant:Rutkouski_Kuzma_Francavich ;;
+->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;;
+->rrel_electrical_engineer:Siamionau_Dzmitryj_Siargiejevich;;
+->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;;
+->rrel_mechanic:Dalhapolau_Lieu_Jakaulievich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1901];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1902];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1901_1902
+=>nrel_main_idtf:
+[Персональный состав Управления Минского почтово-телеграфного округа Главного управления почт и телеграфов 1901-1902 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nrel_personal_composition:pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1903
+(*
+->rrel_director:Karovin_Ivan_Andrejevich;;
+->rrel_assistant:Rubiec_Erast_Macviejevich ;;
+->rrel_clerk: Piatrou_Arest_Jaugrafavich;;
+->rrel_assistant:Kavaliou_Vasil_Ciarencjevich ;;
+->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich ;;
+->rrel_assistant:Arciemjeu_Iulian_Paulavich;;
+->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;;
+->rrel_assistant:Halaskou_Ivan_Vasivjevich ;;
+->rrel_assistant:Rutkouski_Kuzma_Francavich ;;
+->rrel_counting_officials:Ciarencjeu_Avierkau_Asipovich;;
+->rrel_counting_officials:Radchanka_Mikalaj_Sciapanavich;;
+->rrel_mechanic:Jarzhambicki_Ivan_Ilaryjonavich ;;
+->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;;
+->rrel_electrical_engineer:Siamionau_Dzmitryj_Siargiejevich;;
+->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;;
+->rrel_mechanic:Dalhapolau_Lieu_Jakaulievich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1903];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1902];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1903
+=>nrel_main_idtf:
+[Персональный состав Управления Минского почтово-телеграфного округа Главного управления почт и телеграфов 1903 года](*<-lang_ru;;*);;
+
+
+
+
+
+
+
+
+
+

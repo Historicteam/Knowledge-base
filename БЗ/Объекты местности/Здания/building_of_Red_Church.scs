@@ -1,12 +1,16 @@
 building_of_Red_Church
 => nrel_main_idtf:
-		[костёл Святого Симеона и Святой Елены] (* <- lang_ru;; *);
-		[сhurch of Saints Simon and Helena] (* <- lang_en;; *);
-		[касцёл Святога Сымона і Святой Алены] (* <- lang_by;; *);
+		[Костёл Святого Симеона и Святой Елены] (* <- lang_ru;; *);
+		[Сhurch of Saints Simon and Helena] (* <- lang_en;; *);
+		[Касцёл Святога Сымона і Святой Алены] (* <- lang_by;; *);
 => nrel_main_idtf:
-		[красный костёл] (* <- lang_ru;; *);
-		[red Church] (* <- lang_en;; *);
-		[чырвоны касцёл)] (* <- lang_by;; *);
+		[Красный костёл] (* <- lang_ru;; *);
+		[Red Church] (* <- lang_en;; *);
+		[Чырвоны касцёл] (* <- lang_by;; *);
+=> nrel_architect:Paizderski_Tomash;
+=> concept_architectural_style:concept_arch_neo_romanescue;
+=> nrel_material:concept_brick;
+=> concept_square:indepence_square;
 <- rrel_key_sc_element:
 	...
 	(*
@@ -19,6 +23,11 @@ building_of_Red_Church
 			(*
 			<- lang_ru;;
 			*);;
+                 -> rrel_example:
+			[Строительство храма началось в 1905 году.  Осенью 1908 года были завершены основные строительные работы, в 1909 году на башню подняты колокола, а 20 сентября 1910 года архиепископ Ключинский освятил храм. Храм был целиком построен из красного кирпича, что принесло ему народное прозвище «Красный костёл»..]
+			(*
+			<- lang_ru;;
+			*);;
 		*);;
 		
 	*);
@@ -28,10 +37,621 @@ building_of_Red_Church
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://content/Костёл Святого Симеона и Святой Елены.png"
+		->rrel_example: "file://content/redchurch.png"
 			(*
 			=> nrel_format: format_png;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.7860, 32.8601]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.7860;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 32.8601;;
+					*);;
+				*);;
 			*);;
 		*);;
 	*);
 <-concept_building;;
+concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  библиотеки А. Мицкевича в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання бiблiятэкi А. Мiцкевiча ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1908];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1932];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_of_BST_of_working_youth => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  белорусского государственного театра рабочей молодежи в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Дзяржаунага беларускага тэатра працоуная моладзi ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1934];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1935];;
+            *);;
+        *);;
+*);
+
+
+<-concept_building;;
+concept_situation->[*organization_of_BSSR_temporal_decomposition_State_Polish_Theatre => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Государственного польского театра БССР в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Дзяржаунага польскага тэатра БССР ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1934];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1936];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_BSSR_filarmonic => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Государственной филарморнии БССР в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Дзяржаўнай філармоніі БССР ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1937];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1939];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_youth_theathre => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  театра юного зрителя в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання тэатра юнага гледача ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1938];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1940];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_studio_sb => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  киностудии "советская беларусь" в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання кінастудыi "савецкая беларусь" ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1937];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1941];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_studio_sb => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  киностудии "советская беларусь" в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання кінастудыi "савецкая беларусь" ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1946];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1975];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_cinema_house => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Дома Кино в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання Дома Kiно ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1975];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  библиотеки А. Мицкевича в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання бiблiятэкi А. Мiцкевiча ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1998];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2016];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_centre_piligrim => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  центра "Пилигрим" в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання цэнтра "Пiлiгрым" ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1992];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2016];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_onemane_theathre => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  белорусского поэтического театра одного актера в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання белорускага паэтычнана тэатра аднаго  акцера ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1995];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2016];;
+            *);;
+        *);;
+*);
+
+ 
+<-concept_building;;
+concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Римско-Католического прихода имени святого Симеона  и Елены в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання 
+Рымска-Каталіцкі прыход імя святога Сымона і Алены ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1910];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1933];;
+            *);;
+        *);;
+*);
+
+<-concept_building;;
+concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Римско-Католического прихода имени святого Симеона  и Елены в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання 
+Рымска-Каталіцкі прыход імя святога Сымона і Алены ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1941];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1946];;
+            *);;
+        *);;
+*);
+
+
+<-concept_building;;
+concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения  Римско-Католического прихода имени святого Симеона  и Елены в здании Красного костела](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання 
+Рымска-Каталіцкі прыход імя святога Сымона і Алены ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2016];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_vicar:Lisovskiy_Adam;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1910];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1911];;
+            *);;
+        *);;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_vicar:Lisovskiy_Adam;;
+->nrel_priest:Lucian_Zhelandkovskiy;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1911];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1912];;
+            *);;
+        *);;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Lucian_Zhelandkovskiy;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1912];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1916];;
+            *);;
+        *);;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_vicar:Semaska_Sigismund;;
+->nrel_priest:Lucian_Zhelandkovskiy;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1916];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1918];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Chmielewski_Yanovich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1921];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1928];;
+            *);;
+        *);;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Shatsilo_Albin_Albinovich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1929];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1930];;
+            *);;
+        *);;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_priest:Shatsilo_Albin_Albinovich;;
+->nrel_prior:Yaroshevich_Antonovich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1930];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1932];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Yaroshevich_Antonovich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1932];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1933];;
+            *);;
+        *);;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Stanisla_Glyakovsky;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1940];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1941];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Ignatovich_Zeno;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1941];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1944];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Barisovich_Franzevich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1944];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1944];;
+            *);;
+        *);;
+*);;
+concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+(*
+->nrel_prior:Zavalniuk_Matveevich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1990];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2016];;
+            *);;
+        *);;
+*);;

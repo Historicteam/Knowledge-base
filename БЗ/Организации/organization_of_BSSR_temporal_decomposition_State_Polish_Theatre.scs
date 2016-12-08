@@ -1,0 +1,14 @@
+organization_of_BSSR_temporal_decomposition_State_Polish_Theatre
+=> nrel_main_idtf:
+	[ Государственный польский театр БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[BSSR temporal decomposition State Polish Theatre]
+	(*
+	<- lang_en;;
+	*);
+	[Дзяржаўны польскі тэатр БССР]
+	(*
+	<- lang_by;;
+	*);;

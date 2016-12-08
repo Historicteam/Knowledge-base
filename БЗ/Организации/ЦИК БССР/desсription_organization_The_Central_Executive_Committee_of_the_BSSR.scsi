@@ -1,0 +1,27 @@
+organization_The_Central_Executive_Committee_of_the_BSSR
+<- rrel_key_sc_element: ...
+	(*
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Центральный Исполнительный Комитет БССР, (ЦИК БССР) — высший орган государственной власти Белорусской ССР в 1919—1938 между Всебелорусскими съездами Советов. Съезды проходили в Минске. ЦИК БССР функционировал до 1938 года, когда он был преобразован в Верховный Совет БССР.]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[BSSR Central Executive Committee (CEC Byelorussian SSR) - the highest organ of state power of the Byelorussian SSR in 1919-1938 between the All-Belarusian Congress of Soviets. The congress was held in Minsk. The CEC of the BSSR functioned until 1938, when it was converted to the Supreme Soviet of the BSSR.]
+			 (* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Цэнтральны Выканаўчы Камітэт БССР, (ЦВК БCCР) — вышэйшы орган дзяржаўнай улады Беларускай ССР у 1919—1938 паміж Усебеларускімі з'ездамі Саветаў. З'езды праходзілі ў Мінску. ЦВК БCCР функцыянаваў да 1938 года, калі ён быў ператвораны ў Вярхоўны Савет БССР.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);;

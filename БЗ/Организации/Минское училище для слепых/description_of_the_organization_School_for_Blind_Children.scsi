@@ -1,0 +1,22 @@
+organization_Minsk_School_for_the_Blind
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[После Великой Октябрьской революции училище было переименовано в школу для слепых детей, в ней наряду с мальчиками учились уже и девочки.  ] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[After the Great October Revolution, the school was renamed the school for blind children in it, along with the boys and girls have already learned.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Пасля Вялікай Кастрычніцкай рэвалюцыі вучылішча было пераназвана ў школу для сляпых дзяцей, у ёй разам з хлопчыкамі вучыліся ўжо і дзяўчынкі.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

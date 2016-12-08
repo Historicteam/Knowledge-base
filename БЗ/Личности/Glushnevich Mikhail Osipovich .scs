@@ -1,0 +1,9 @@
+Mikhail_Osipovich_Glushnevich
+
+
+=> nrel_main_idtf:
+	[Глушневич Михаил Осипович ] (* <- lang_ru;; *);
+	[Glushnievich Mikhail Vosipavich ] (* <- lang_en;; *);
+	[Глушневич Міхаіл Восіпавіч ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

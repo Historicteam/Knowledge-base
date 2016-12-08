@@ -1,0 +1,456 @@
+organization_Minsk_School_for_the_Blind
+=> nrel_main_idtf:
+	[Минское училище для слепых детей Опекунства императрицы Марии Александровны]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk school for blind children Guardianship of Empress Maria Alexandrovna]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае вучылішча для сляпых дзяцей апякунствам імператрыцы Марыі Аляксандраўны]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_founder:Zdanovich_Ivan_Ustinovich;
+<-concept_educational_institution;;
+
+concept_situation->[*^"file://description_organization_Minsk_School_for_the_Blind.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [3];;
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [7];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+*);;
+
+organization_School_for_Blind_Children
+=> nrel_main_idtf:
+	[Школа для слепых детей ]
+	(*
+	<- lang_ru;;
+	*);
+	[School for Blind Children]
+	(*
+	<- lang_en;;
+	*);
+	[Школа для сляпых дзяцей]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_decomposition: organization_School_for_Blind_Children;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	-> rrel_day: rrel_decimal: [7];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1921];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*^"file://description_of_the_organization_School_for_Blind_Children.scsi"*]
+(*
+   => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [7];;
+	    -> rrel_month: rrel_decimal: [11];;
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1929];;
+            *);;
+        *);;
+*);;
+
+organization_Minsk_school_blindly
+=> nrel_main_idtf:
+	[Минская школа слепых ]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk school blindly]
+	(*
+	<- lang_en;;
+	*);
+	[Мінская школа сляпых]
+	(*
+	<- lang_by;;
+	*);
+<-concept_educational_institution;;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_decomposition: organization_Minsk_school_blindly;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1917];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1932];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_Revenskogo;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [1];;
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [9];;	
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_Frotskoy;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [26];;
+	    -> rrel_month: rrel_decimal: [9];;	
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [1];;
+	    -> rrel_month: rrel_decimal: [9];;	
+            -> rrel_year: rrel_decimal: [1900];;
+            *);;
+        *);;
+*);;
+
+
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1900];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: the_city_of_Meschevsk;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [8];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+*);;
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1919];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1929];;
+            *);;
+        *);;
+*);;
+
+
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: Chyrvony_berah_village;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1929];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1930];;
+            *);;
+        *);;
+*);;
+concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: the_city_of_Mogilev;;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1930];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1941];;
+            *);;
+        *);;
+*);;
+
+
+
+concept_situation->[* organization_Minsk_School_for_the_Blind=> pers_comp_organization_Minsk_School_for_the_Blind_1897
+(*
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	    -> rrel_day: rrel_decimal: [28];;
+	    -> rrel_month: rrel_decimal: [9];;
+            -> rrel_year: rrel_decimal: [1897];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1910];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Minsk_School_for_the_Blind_1897
+=>nrel_main_idtf:
+[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1897-1910 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1905
+(*
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
+->rrel_teacher:Dickou_Ivan_Jehoravich;;
+
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1905];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1908];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Minsk_School_for_the_Blind_1905
+=>nrel_main_idtf:
+[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1905-1908 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1909
+(*
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
+->rrel_teacher:Barysau_Alieksiej_Stiapanavich;;
+
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1909];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1910];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Minsk_School_for_the_Blind_1909
+=>nrel_main_idtf:
+[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1909-1910 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1910
+(*
+->rrel_director:Zdanovich_Ivan_Ustinovich;;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
+->rrel_teacher:Barysau_Alieksiej_Stiapanavich;;
+->rrel_teacher:Fiodar_Afanasjevich_Malyshau;;
+->rrel_teacher:Vladzimir_Hrihorjevich_Khiraska;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1910];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+*);;
+pers_comp_organization_Minsk_School_for_the_Blind_1910
+=>nrel_main_idtf:
+[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1910-1915 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*organization_Minsk_School_for_the_Blind => nrel_personal_composition :pers_comp_organization_Minsk_School_for_the_Blind_1915
+(*
+->rrel_director:Ivan_Vasiljevich_Hiaorhijeuski;;
+*);;*]
+  (*
+    => nrel_start_time: ...
+    (*
+    <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+	
+            -> rrel_year: rrel_decimal: [1915];;
+            *);;
+        *);;
+*);;
+
+
+pers_comp_organization_Minsk_School_for_the_Blind_1915
+=>nrel_main_idtf:
+[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1915 года](*<-lang_ru;;*);;

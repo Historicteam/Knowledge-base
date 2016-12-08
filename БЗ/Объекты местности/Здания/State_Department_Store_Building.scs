@@ -1,0 +1,167 @@
+State_Department_Store_Building
+
+=> nrel_main_idtf:
+	[Здание государственного универсального магазина]	
+	(*
+	<- lang_ru;;
+	*);
+	[State Department Store Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак дзяржаўнага універсальнага магазіну]	
+	(*
+	<- lang_by;;
+	*);
+
+=> nrel_abbreviature:
+	[Здание ГУМ]	
+	(*
+	<- lang_ru;;
+	*);
+	[STS Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак ДУМ]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Первый государственный универсальный магазин – ГУМ - появился в Минске 28 мая 1934 года. Он стоял на углу улиц Советской (проспект Независимости) и Комсомольской.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[First State department store - GUM - appeared in Minsk on May 28, 1934. He was standing on the corner of the Soviet (Independence Avenue) and Komsomolskaya.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Першы дзяржаўны універсальны магазін - ГУМ - з'явіўся ў Мінску 28 мая 1934 гады. Ён стаяў на рагу вуліц Савецкай (праспект Незалежнасці) і Камсамольскай.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.900516, 27.558054]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.900516;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.558054;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);	
+
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1951];;
+            *);;
+        *);
+
+=>nrel_architectural_style: concept_arch_classicism;
+=>nrel_architector: Gegart_Roman_Mikhailovich;
+<- concept_terrain_object;
+<- concept_building;;
+
+concept_situation->[*State_Department_Store_Building
+	<=nrel_location: organization_State_Department_Store;;
+*]
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1947];;
+            *);;
+        *);;
+*);;
+
+concept_situation->[*State_Department_Store_Building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/GUM_1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;*]
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [2012];;
+            *);;
+        *);;
+*);;
+
+	
+concept_situation->[*State_Department_Store_Building
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/GUM_2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;*]
+(*
+	=> nrel_start_time: ...
+        (*
+        <-concept_time_point;;
+        => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1953];;
+            *);;
+        *);;
+*);;
+
+
+
+

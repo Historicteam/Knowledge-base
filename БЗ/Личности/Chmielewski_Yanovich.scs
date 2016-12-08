@@ -1,0 +1,8 @@
+Chmielewski_Yanovich
+<- concept_male;
+<- concept_person;
+<- nrel_priest;
+=> nrel_main_idtf:
+	[Пучкар-Хмелевский Адам Янович] (* <- lang_ru;; *);
+	[Puchkar-Adam Chmielewski Yanovich] (* <- lang_en;; *);
+	[Пучкар-Хмялеўскі Адам Яновіч] (* <- lang_by;; *);;

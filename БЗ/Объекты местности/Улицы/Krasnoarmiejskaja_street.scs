@@ -1,0 +1,14 @@
+Krasnoarmiejskaja_street
+	=> nrel_main_idtf:
+		[Красноармейская улица](* <- lang_ru;; *);
+		[Krasnoarmiejskaja street](* <- lang_en;; *);
+			[Чырвонаармейская вуліца]
+			(*
+			<- lang_by;;
+			*);
+	<= nrel_subdividing: 
+	{
+	building_Council_of_the_Republic
+	};
+	<- concept_street;;
+

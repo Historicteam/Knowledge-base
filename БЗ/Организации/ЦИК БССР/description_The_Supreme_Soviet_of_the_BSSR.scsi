@@ -1,0 +1,29 @@
+organization_The_Central_Executive_Committee_of_the_BSSR
+<-rrel_key_sc_element:... 
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[ Верховный Совет БССР — в 1938—1990 высший орган государственной власти БССР.
+Верховный Совет БССР с 1938 года являлся правопреемником Центрального Исполнительного Комитета БССР. Первоначально избирался гражданами БССР по избирательным округам сроком на 4 года по норме один депутат на 20 тысяч населения. Конституция 1978 года установила срок полномочий в 5 лет и фиксированное количество депутатов в 485 человек.]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[The Supreme Soviet of the BSSR - in 1938-1990 the highest organ of state power of the Byelorussian SSR.
+The Supreme Soviet of the BSSR since 1938 is the successor of the Central Executive Committee of the BSSR. Originally elected by the citizens of the Byelorussian SSR voting by election districts for a period of 4 years at a rate of one deputy for every 20,000 population. Constitution of 1978 established the term of 5 years and a fixed number of deputies to 485 people.]
+			 (* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Вярхоўны Савет БССР - 1938—1990 вышэйшы орган дзяржаўнай улады БССР.
+Вярхоўны Савет БССР з 1938 года з'яўляўся правапераемнікам Цэнтральнага Выканаўчага Камітэта БССР. Першапачаткова абіраўся грамадзянамі БССР па выбарчых акругах тэрмінам на 4 года па норме адзін дэпутат на 20 тысяч насельніцтва. Канстытуцыя 1978 года зацвердзіла тэрмін паўнамоцтваў у 5 гадоў і фіксаваную колькасць дэпутатаў у 485 чалавек.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);;

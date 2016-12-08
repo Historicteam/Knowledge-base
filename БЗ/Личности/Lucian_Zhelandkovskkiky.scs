@@ -1,0 +1,8 @@
+Lucian_Zhelandkovskiy
+<- concept_male;
+<- concept_person;
+<- nrel_priest;
+=> nrel_main_idtf:
+	[Желандковский Люциан] (* <- lang_ru;; *);
+	[Lucian Zhelandkovsky] (* <- lang_en;; *);
+	[Желандковский Люцыян] (* <- lang_by;; *);;

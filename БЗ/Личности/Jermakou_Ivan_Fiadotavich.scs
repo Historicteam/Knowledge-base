@@ -1,0 +1,8 @@
+Jermakou_Ivan_Fiadotavich
+
+=> nrel_main_idtf:
+        [Иван Федотович Ермаков ] (* <- lang_ru;; *);
+	[Jermakou Ivan Fiadotavich] (* <- lang_en;; *);
+	[Ермакоў Іван Фядотавіч  ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

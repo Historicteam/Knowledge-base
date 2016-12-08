@@ -1,0 +1,15 @@
+Lifshitz_House 
+=> nrel_main_idtf:
+		[Дом Лифшица]
+		(*
+		<- lang_ru;;
+		*);
+		[House Lifshitz ]
+		(*
+		<- lang_en;;
+		*);
+		[дом Ліфшыца]
+		(*
+		<- lang_by;;
+		*);
+		<-concept_building;;

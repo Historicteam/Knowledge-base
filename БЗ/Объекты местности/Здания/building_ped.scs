@@ -1,0 +1,94 @@
+bulding_ped
+=> nrel_main_idtf:
+		[Педагогический институт] (* <- lang_ru;; *);
+		[Teaching Institute] (* <- lang_en;; *);
+		[педагагічны інстытут] (* <- lang_by;; *);
+=> nrel_idtf:
+       [Минский учительский институт] (* <- lang_ru;; *);
+	[Minsk Teacher's Institute] (* <- lang_en;; *);
+	[Мінскі настаўніцкі інстытут] (* <- lang_by;; *);
+
+=> nrel_idtf:
+       [Минский институт народного образования] (* <- lang_ru;; *);
+	[Minsk Institute of Education] (* <- lang_en;; *);
+	[Мінскі інстытут народнай адукацыі] (* <- lang_by;; *);
+
+=> nrel_idtf:
+       [Белорусский государственный высший педагогический институт] (* <- lang_ru;; *);
+	[Belarusian State Higher Pedagogical Institute] (* <- lang_en;; *);
+	[Беларускі дзяржаўны вышэйшы педагагічны інстытут] (* <- lang_by;; *);
+=> nrel_idtf:
+       [Минский государственный педагогический институт имени А.М.Горького] (* <- lang_ru;; *);
+	[Minsk State Pedagogical Institute named after M. Gorky] (* <- lang_en;; *);
+	[Мінскі дзяржаўны педагагічны інстытут імя А.М.Горкага] (* <- lang_by;; *);
+=> nrel_idtf:
+       [Белорусский государственный педагогический университет] (* <- lang_ru;; *);
+	[Belarusian State Pedagogical University] (* <- lang_en;; *);
+	[Беларускі дзяржаўны педагагічны універсітэт] (* <- lang_by;; *);
+
+=> nrel_idtf:
+       [Белорусский государственный педагогический университет им. М.Танка] (* <- lang_ru;; *);
+	[Belarusian State Pedagogical University named M. Tank] (* <- lang_en;; *);
+	[Беларускі дзяржаўны педагагічны універсітэт имя М.Танка] (* <- lang_by;; *);
+
+ 
+=> concept_square:indepence_square;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Костёл Святого Симеона и Святой Елены — наиболее известный католический храм Минска, памятник архитектуры, включён в Государственный список историко-культурных ценностей Республики Беларусь, стиль храма характеризуется как неороманский или неоготика с чертами модерна.]
+			(*
+			<- lang_ru;;
+			*);;
+                 -> rrel_example:
+			[Строительство храма началось в 1905 году.  Осенью 1908 года были завершены основные строительные работы, в 1909 году на башню подняты колокола, а 20 сентября 1910 года архиепископ Ключинский освятил храм. Храм был целиком построен из красного кирпича, что принесло ему народное прозвище «Красный костёл»..]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+		
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/ped.png"
+			(*
+			=> nrel_format: format_png;;
+                        *);;
+		*);;
+
+
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.7860, 32.8601]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.7860;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 32.8601;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
