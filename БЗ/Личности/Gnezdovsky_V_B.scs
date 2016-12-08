@@ -1,0 +1,14 @@
+Gnezdovsky_V_B
+=> nrel_main_idtf:
+        [Гнездовский В. Б.]	
+        (*
+	<- lang_ru;;
+	*);
+	[Gnezdovsky V. B.]
+	(*
+	<- lang_en;;
+	*);
+	[Гняздоўскі В. Б.]
+	(*
+	<- lang_by;;
+	*);;

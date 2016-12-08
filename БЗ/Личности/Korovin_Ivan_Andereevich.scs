@@ -1,0 +1,14 @@
+Korovin_Ivan_Andereevich
+=> nrel_main_idtf:
+        [Коровин Иван Андреевич]	
+        (*
+	<- lang_ru;;
+	*);
+	[Korovin Ivan Andereevich]
+	(*
+	<- lang_en;;
+	*);
+	[Каровін Іван Андрэевіч]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_Central_Agricultural_Warehouse_of_the_National_Comissariat_of_agriculture_of_BSSR
+=> nrel_main_idtf:
+        [Центральный сельскохозяйственный склад Наркомата земледелия БССР]
+	(*
+	<- lang_ru;;
+	*);
+        [Central Agricultural Warehouse of the National Comissariat of agriculture of BSSR]
+	(*
+	<- lang_en;;
+	*);
+        [Центральны сельскагаспадарчы склад Наркамата земляробства БССР]
+	(*
+	<- lang_by;;
+	*);;

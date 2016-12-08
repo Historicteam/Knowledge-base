@@ -1,0 +1,15 @@
+organization_Warehouse_404
+=> nrel_main_idtf:
+        [Склад(пл. 404 кв. арш.)]
+	(*
+	<- lang_ru;;
+	*);
+        [Warehouse(area of 404 square yards)]
+	(*
+	<- lang_en;;
+	*);
+        [Склад(пл. 404 кв. арш.)]
+	(*
+	<- lang_by;;
+	*);;
+

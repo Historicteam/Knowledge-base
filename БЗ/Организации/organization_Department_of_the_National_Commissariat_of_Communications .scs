@@ -1,0 +1,14 @@
+organization_Department_of_the_National_Commissariat_of_Communications 
+=> nrel_main_idtf:
+        [Отдела Народного Комиссариата связи]
+	(*
+	<- lang_ru;;
+	*);
+        [Department of the National Commissariat of Communications ]
+	(*
+	<- lang_en;;
+	*);
+        [Аддзел Наркамата сувязі]
+	(*
+	<- lang_by;;
+	*);;

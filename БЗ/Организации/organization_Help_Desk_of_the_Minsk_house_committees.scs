@@ -1,0 +1,14 @@
+organization_Help_Desk_of_the_Minsk_house_committees
+=> nrel_main_idtf:
+	[Справочный стол домовых комитетов Минска]
+	(*
+	<- lang_ru;;
+	*);
+        [Help Desk of the Minsk house committees]
+	(*
+	<- lang_en;;
+	*);
+        [Даведачны стол дамавых камітэтаў Мінска]
+	(*
+	<- lang_by;;
+	*);;

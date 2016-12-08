@@ -1,0 +1,14 @@
+organization_School_of_Commerce_and_commercial_apprenticeship_of_the_Belarusian_trade
+=> nrel_main_idtf:
+        [Школа торгово-товарного ученичества "Белгандлю"]
+	(*
+	<- lang_ru;;
+	*);
+        [School of Commerce and commercial apprenticeship of the Belarusian trade]
+	(*
+	<- lang_en;;
+	*);
+        [Школа гандлёва-таварнага вучнёўства "Белгандлю"]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_Special_Department_of_Border_Troops
+=> nrel_main_idtf:
+        [Особый отдел пограничных войск]
+	(*
+	<- lang_ru;;
+	*);
+        [Special Department of Border Troops]
+	(*
+	<- lang_en;;
+	*);
+	[Асобы аддзел памежных войск]
+	(*
+	<- lang_by;;
+	*);;

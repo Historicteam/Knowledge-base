@@ -1,0 +1,14 @@
+organization_liquidation_commission_of_the_central_land_warehouse_of_Commissariat_of_the_National_Commissariat_of_Agriculture
+=> nrel_main_idtf:
+        [Ликвидационная комиссия центрального земсклада комиссариата Наркомата земледелия]	
+        (*
+	<- lang_ru;;
+	*);
+	[Liquidation commission of the central land warehouse of Commissariat of National Commissariat of Agriculture]
+	(*
+	<- lang_en;;
+	*);
+	[Ліквідацыйная камісія цэнтральнага земсклада камісарыята Наркамата земляробства]
+	(*
+	<- lang_by;;
+	*);;

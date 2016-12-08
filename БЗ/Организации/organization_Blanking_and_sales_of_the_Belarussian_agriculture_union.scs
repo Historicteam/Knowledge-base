@@ -1,0 +1,14 @@
+organization_Blanking_and_sales_of_the_Belarussian_agriculture_union
+=> nrel_main_idtf:
+        [Заготовительно-сбытовая часть "Белсельсоюза"]	
+        (*
+	<- lang_ru;;
+	*);
+	[Blanking and sales of the "Belarussian agriculture union"]
+	(*
+	<- lang_en;;
+	*);
+	[Нарыхтоўча-збытавая частка "Белсельсаюза"]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+Ivashkevich_Ivan_Vladislavovich
+=> nrel_main_idtf:
+        [Ивашкевич Иван Владиславович]	
+        (*
+	<- lang_ru;;
+	*);
+	[Ivashkevich Ivan Vladislavovich]
+	(*
+	<- lang_en;;
+	*);
+	[Івашкевіч Іван Уладзіслававіч]
+	(*
+	<- lang_by;;
+	*);;

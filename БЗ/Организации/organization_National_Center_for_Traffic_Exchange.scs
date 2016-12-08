@@ -1,0 +1,14 @@
+organization_National_Center_for_Traffic_Exchange
+=> nrel_main_idtf:
+        [Национальный центр обмена трафиком]
+	(*
+	<- lang_ru;;
+	*);
+        [National Center for Traffic Exchange]
+	(*
+	<- lang_en;;
+	*);
+        [Нацыянальны цэнтр абмену трафікам]
+	(*
+	<- lang_by;;
+	*);;

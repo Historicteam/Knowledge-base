@@ -1,0 +1,14 @@
+organization_Residential_District_Council
+=> nrel_main_idtf:
+	[Жилищный районный совет]
+	(*
+	<- lang_ru;;
+	*);
+        [Residential District Council]
+	(*
+	<- lang_en;;
+	*);
+        [Жыллёвы раённы савет]
+	(*
+	<- lang_by;;
+	*);;

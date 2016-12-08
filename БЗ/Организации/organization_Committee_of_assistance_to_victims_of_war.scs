@@ -1,0 +1,14 @@
+organization_Committee_of_assistance_to_victims_of_war
+=> nrel_main_idtf:
+        [Комитет помощи жертвам войны]	
+        (*
+	<- lang_ru;;
+	*);
+	[Committee of assistance to victims of war]
+	(*
+	<- lang_en;;
+	*);
+	[Камітэт дапамогі ахвярам вайны]
+	(*
+	<- lang_by;;
+	*);;

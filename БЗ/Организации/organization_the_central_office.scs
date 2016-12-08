@@ -1,0 +1,14 @@
+organization_the_central_office
+=> nrel_main_idtf:
+        [Центральная "контора"]
+	(*
+	<- lang_ru;;
+	*);
+        [The central "office"]
+	(*
+	<- lang_en;;
+	*);
+        [Цэнтральная "кантора"]
+	(*
+	<- lang_by;;
+	*);;

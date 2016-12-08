@@ -1,0 +1,14 @@
+Zholnin_M_A
+=> nrel_main_idtf:
+        [Жолнин М. А.]	
+        (*
+	<- lang_ru;;
+	*);
+	[Zholnin M. A.]
+	(*
+	<- lang_en;;
+	*);
+	[Жолнін М. А.]
+	(*
+	<- lang_by;;
+	*);;

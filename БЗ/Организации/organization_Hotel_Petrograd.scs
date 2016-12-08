@@ -1,0 +1,14 @@
+organization_Hotel_Petrograd
+=> nrel_main_idtf:
+        [Гостиница "Петроградская"]
+	(*
+	<- lang_ru;;
+	*);
+        [Hotel "Petrograd"]
+	(*
+	<- lang_en;;
+	*);
+	[Гасцініца "Петраградская"]
+	(*
+	<- lang_by;;
+	*);;

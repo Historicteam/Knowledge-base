@@ -1,0 +1,14 @@
+organization_Emergency_Commission_of_BSSR
+=> nrel_main_idtf:
+	[ЧК БССР]
+	(*
+	<- lang_ru;;
+	*);
+        [Emergency Commission of BSSR]
+	(*
+	<- lang_en;;
+	*);
+        [ЧК БССР]
+	(*
+	<- lang_by;;
+	*);;

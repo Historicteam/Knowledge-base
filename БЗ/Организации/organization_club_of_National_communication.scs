@@ -1,0 +1,14 @@
+organization_club_of_National_communication
+=> nrel_main_idtf:
+	[Клуб "Нарсвязи"]
+	(*
+	<- lang_ru;;
+	*);
+        [club of "National communication"]
+	(*
+	<- lang_en;;
+	*);
+        [Клуб "Нарсувязі"]
+	(*
+	<- lang_by;;
+	*);;

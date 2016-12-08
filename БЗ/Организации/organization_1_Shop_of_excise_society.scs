@@ -1,0 +1,14 @@
+organization_1_Shop_of_excise_society
+=> nrel_main_idtf:
+        [Первый магазин акцизного общества]
+	(*
+	<- lang_ru;;
+	*);
+        [First shop of excise society]
+	(*
+	<- lang_en;;
+	*);
+        [Першая крама акцызнага таварыства]
+	(*
+	<- lang_by;;
+	*);;

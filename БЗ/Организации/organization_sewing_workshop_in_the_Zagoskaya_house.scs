@@ -1,0 +1,14 @@
+organization_sewing_workshop_in_the_Zagoskaya_house
+=> nrel_main_idtf:
+        [Швейная мастерская в Доме Загорской (47)]
+	(*
+	<- lang_ru;;
+	*);
+        [Sewing workshop in the Zagoskaya house(47)]
+	(*
+	<- lang_en;;
+	*);
+        [Кравецкая майстэрня у Доме Загорскай(47)]
+	(*
+	<- lang_by;;
+	*);;

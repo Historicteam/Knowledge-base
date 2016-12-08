@@ -1,0 +1,14 @@
+organization_office_of_the_chief_of_the_Post_and_Telegraph_Department_of_the_Western_Front_Army
+=> nrel_main_idtf:
+        [Кабинет начальника почтово-телеграфного отдела армий Западне фронта]
+	(*
+	<- lang_ru;;
+	*);
+        [Assistant chief of the Minsk Post and Telegraph District office]
+	(*
+	<- lang_en;;
+	*);
+        [Кабінет начальніка паштова-тэлеграфнага аддзела армій Захаднага фронту]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_Sales_Department_of_Agricultural_credit_cooperatives
+=> nrel_main_idtf:
+        [Торговый отдел окружного союза "Сельхозкредиткооперации"]
+	(*
+	<- lang_ru;;
+	*);
+        [Sales Department of Agricultural credit cooperatives]
+	(*
+	<- lang_en;;
+	*);
+        [Гандлевы аддзел акруговага саюза "Сельгаскрэдыткааперацыі"]
+	(*
+	<- lang_by;;
+	*);;

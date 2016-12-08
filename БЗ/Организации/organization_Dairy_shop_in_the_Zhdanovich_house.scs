@@ -1,0 +1,14 @@
+organization_Dairy_shop_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Молочная лавка в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Dairy shop in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+        [Малочная лаўка у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

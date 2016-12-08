@@ -1,0 +1,14 @@
+organization_Commercial_Service_of_Libava_Romenskaya_railroad
+=> nrel_main_idtf:
+	[Коммерческая служба Либаво-Роменской железной дороги]
+	(*
+	<- lang_ru;;
+	*);
+        [Commercial Service of Libava-Romenskaya railroad]
+	(*
+	<- lang_en;;
+	*);
+        [Камерцыйная служба Лібава-Роменскай чыгункі]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_office_of_midwife_Blyumkina_Soria_Srolevna
+=> nrel_main_idtf:
+        [Кабинет акушерки Блюмкиной Сории Сролевны]
+	(*
+	<- lang_ru;;
+	*);
+        [Office of midwife Blyumkina Soria Srolevna]
+	(*
+	<- lang_en;;
+	*);
+        [Кабінет акушеркі Блюмкінай Соры Сролеўны]
+	(*
+	<- lang_by;;
+	*);;

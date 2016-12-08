@@ -1,0 +1,14 @@
+organization_Warehouse_and_Base_of_the_Society_Dynamo
+=> nrel_main_idtf:
+	[Склад-база общества "Динамо"]
+	(*
+	<- lang_ru;;
+	*);
+        [Warehouse and Base of the Society "Dynamo"]
+	(*
+	<- lang_en;;
+	*);
+        [Склад-база таварыства "Дынама"]
+	(*
+	<- lang_by;;
+	*);;

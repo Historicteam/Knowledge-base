@@ -1,0 +1,14 @@
+organization_postal_service_Marksa_29
+=> nrel_main_idtf:
+        [Почтовая служба по адресу ул. К. Маркса д. 29]
+	(*
+	<- lang_ru;;
+	*);
+        [Postal service, K. Marksa street, 29]
+	(*
+	<- lang_en;;
+	*);
+        [Паштовая служба на вуліцы К. Маркса 29]
+	(*
+	<- lang_by;;
+	*);;

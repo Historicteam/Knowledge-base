@@ -1,0 +1,14 @@
+organization_Bookstore_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Книжный магазин в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Bookstore in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Кнігарня у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

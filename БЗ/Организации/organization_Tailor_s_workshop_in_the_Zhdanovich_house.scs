@@ -1,0 +1,14 @@
+organization_Tailor_s_workshop_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Мастерская портного в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Tailor's workshop in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Майстэрня краўца у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

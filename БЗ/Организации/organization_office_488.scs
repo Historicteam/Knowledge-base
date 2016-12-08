@@ -1,0 +1,14 @@
+organization_office_488
+=> nrel_main_idtf:
+	[Контора(пл. 488 кв. арш.)]
+	(*
+	<- lang_ru;;
+	*);
+        [Office(area of 488 square yards)]
+	(*
+	<- lang_en;;
+	*);
+        [Кантора(пл. 488 кв. арш.)]
+	(*
+	<- lang_by;;
+	*);;

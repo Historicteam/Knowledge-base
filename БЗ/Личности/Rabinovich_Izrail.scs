@@ -1,0 +1,14 @@
+Rabinovich_Izrail
+=> nrel_main_idtf:
+        [Рабинович Израиль]	
+        (*
+	<- lang_ru;;
+	*);
+	[Rabinovich Izrail]
+	(*
+	<- lang_en;;
+	*);
+	[Рабіновіч Ізраіль]
+	(*
+	<- lang_by;;
+	*);;
