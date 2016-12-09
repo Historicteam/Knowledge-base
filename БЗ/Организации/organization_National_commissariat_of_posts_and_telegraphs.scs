@@ -1,0 +1,14 @@
+organization_National_commissariat_of_posts_and_telegraphs
+=> nrel_main_idtf:
+	[Народный комиссариат почты и телеграфа]
+	(*
+	<- lang_ru;;
+	*);
+        [The National commissariat of posts and telegraphs]
+	(*
+	<- lang_en;;
+	*);
+        [Народны камісарыят пошты і тэлеграфа]
+	(*
+	<- lang_by;;
+	*);;
