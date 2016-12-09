@@ -1,0 +1,18 @@
+ui_menu_search_buildings_architect_style_period <- ui_user_command_class_atom;
+
+=> nrel_main_idtf: [Поиск всех зданий в определённом периоде времени в определённом архитектурном стиле] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Search all buildings in a certain architectural style] (* <- lang_en;; *);;
+
+ui_menu_search_buildings_architect_style_period => ui_nrel_command_template:
+	[*
+		question_finding_buildings_of_architect_style_period _-> ._question_finding_buildings_of_architect_style_period_instance
+			(*
+			_->  rrel_1:: ui_arg_1;;
+			_->  rrel_2:: ui_arg_2;;
+			*);;
+		._question_finding_buildings_of_architect_style_period_instance _<- question;;
+	*];;
+
+ui_menu_search_buildings_architect_style_period => ui_nrel_command_lang_template: [Поиск всех зданий в архитектурном стиле $ui_arg_1 в период времени $ui_arg_2] (* <- lang_ru;; *);;
+ui_menu_search_buildings_architect_style_period => ui_nrel_command_lang_template: [Seacrh all buildings in: $ui_arg_1 architectural style] (* <- lang_en;; *);;
+
