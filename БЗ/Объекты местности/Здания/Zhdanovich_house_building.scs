@@ -95,16 +95,6 @@ Zhdanovich_house_building
 			*);;
 	*);;
 
-concept_situation->[*^"file://Illustration_Zhdanovich_house_building.scsi"*]
-(*
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [2014];;
-																			*);;
-						*);;
-*);;
 concept_situation->[*Zhdanovich_house_building <= nrel_temporal_decomposition: organization_Hotel_Kronstadt;;*]
 (*
 	=> nrel_start_time: ...

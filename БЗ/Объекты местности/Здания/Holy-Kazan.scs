@@ -188,59 +188,6 @@ concept_situation->[*building_kazan_church
 		*);;
 	*);;
 *);;
-
-concept_situation->[*building_kazan_church
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/kazan1914.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);;
-*]
-
-(*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1914];;
-            *);;
-        *);;
-*);;
-
-concept_situation->[*building_kazan_church
-	<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://content/kazan1.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);;
-*]
-
-(*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1914];;
-            *);;
-        *);;
-*);;
-
 concept_situation->[*building_kazan_church
 	<-concept_administrative;;
 *]

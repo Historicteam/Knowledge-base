@@ -126,9 +126,9 @@ Maryinskaya_girls_gymnasium_building <= nrel_location: organization_polytechnic;
 Maryinskaya_girls_gymnasium_building <= nrel_location: organization_ATS_2;;
 Maryinskaya_girls_gymnasium_building <= nrel_location: organization_postal_service_Marksa_29;;
 Maryinskaya_girls_gymnasium_building <= nrel_location: organization_National_Center_for_Traffic_Exchange;;
-Maryinskaya_girls_gymnasium_building <= nrel_location: organisation_museum_of_communications_Beltelecom;;
+Maryinskaya_girls_gymnasium_building <= nrel_location: organization_museum_of_communications_Beltelecom;;
 Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_polytechnic;;
-Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organisation_museum_of_communications_Beltelecom;;
+Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_museum_of_communications_Beltelecom;;
 concept_situation->[*^"file://Illustration_Maryinskaya_girls_gymnasium_building_1.scsi"*]
 (*
 	=> nrel_start_time: ...
