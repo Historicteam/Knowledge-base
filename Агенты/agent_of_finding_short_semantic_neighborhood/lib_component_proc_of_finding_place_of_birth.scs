@@ -1,0 +1,14 @@
+lib_component_proc_of_finding_place_of_birth
+=> nrel_main_idtf:
+	[Компонент библиотеки. scp-программа поиска места рождения]
+	(* <- lang_ru;; *);
+	[Library component. scp-program of finding place of birth]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+
+
+-> rrel_key_sc_element: 
+	proc_of_finding_place_of_birth;;
+
+lib_component_proc_of_finding_place_of_birth = [*^"file://proc_of_finding_place_of_birth.scsi"*];;

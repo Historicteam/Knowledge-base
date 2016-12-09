@@ -1,0 +1,95 @@
+scp_program -> proc_of_finding_place_of_death 
+	(*	
+	-> rrel_params: .proc_of_finding_identifier_params (*
+		-> rrel_1: rrel_in: _elem;;
+		-> rrel_2: rrel_in: _answer_proc_of_finding_place_of_death;;
+	*);;
+
+       -> rrel_operators: .proc_of_finding_place_of_death_operator_set 
+		(*
+		-> rrel_init: .proc_of_finding_place_of_death_operator1A
+			(*
+		 	<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _elem;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _elem2;;
+         	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_place_of_death;;
+	         
+         	-> rrel_set_3: rrel_assign: rrel_scp_var: _mainset;;
+
+         	=> nrel_then: .proc_of_finding_place_of_death_operator1B;;
+			=> nrel_else: .proc_of_finding_place_of_death_operator_return;;
+         	*);;
+
+		-> .proc_of_finding_place_of_death_operator1B 
+			(*
+		 	<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _mainset;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _place_of_death;;
+
+		 	=> nrel_then: .proc_of_finding_place_of_death_operator1C;;
+         	=> nrel_else: .proc_of_finding_place_of_death_operator4;;
+		 	*);; 
+
+		-> .proc_of_finding_place_of_death_operator1C 
+			(*
+		 	<- eraseEl;;
+		 	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc2;;
+
+         	=> nrel_goto: .proc_of_finding_place_of_death_operator1D;;
+		 	*);;
+
+		-> .proc_of_finding_place_of_death_operator1D 
+			(*
+			<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_proc_of_finding_place_of_death;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _place_of_death;;
+
+         	=> nrel_goto: .proc_of_finding_place_of_death_operator2A;;
+		 	*);;
+
+		-> .proc_of_finding_place_of_death_operator2A
+			(*
+		 	<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _elem;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _place_of_death;;
+         	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_place_of_death;;
+	         
+         	-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_proc_of_finding_place_of_death;;
+		 	-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_proc_of_finding_place_of_death;;
+
+         	=> nrel_then: .proc_of_finding_place_of_death_operator4;;
+			=> nrel_else: .proc_of_finding_place_of_death_operator_return;;
+         	*);;
+
+
+		-> .proc_of_finding_place_of_death_operator4 
+			(*
+		 	<- genElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_proc_of_finding_place_of_death;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_place_of_death;;
+
+         	=> nrel_goto: .proc_of_finding_place_of_death_operator5;;
+		 	*);;
+		 	
+		 	
+		 -> .proc_of_finding_place_of_death_operator5 
+			(*
+		 	<- eraseEl;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _mainset;;
+
+         	=> nrel_goto: .proc_of_finding_place_of_death_operator_return;;
+		 	*);;
+
+		-> .proc_of_finding_place_of_death_operator_return 
+			(*
+			<- return;;
+			*);;
+		*);;
+	*);;

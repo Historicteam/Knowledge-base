@@ -1,0 +1,14 @@
+lib_component_proc_of_finding_place_of_death
+=> nrel_main_idtf:
+	[Компонент библиотеки. scp-программа поиска места cмерти]
+	(* <- lang_ru;; *);
+	[Library component. scp-program of finding place of death]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+
+
+-> rrel_key_sc_element: 
+	proc_of_finding_place_of_death;;
+
+lib_component_proc_of_finding_place_of_death = [*^"file://proc_of_finding_place_of_death.scsi"*];;

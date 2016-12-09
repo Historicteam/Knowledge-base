@@ -13,11 +13,48 @@ Moniuszko_Stanislav_Chieslavovich
 	(*
 	<- lang_by;;
 	*);
-<-concept_male;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-short_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: [Польский композитор; автор песен, оперетт, балетов, опер; творец польской национальной оперы, классик вокальной лирики]
+			(* <- lang_ru;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-short_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: [Polish composer; songwriter, operettas, ballets, operas; creator of the Polish National Opera, classic vocal lyrics]
+			(* <- lang_en;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-short_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: [Кампазітар, дырыжор, стваральнік польскай нацыянальнай оперы, меў дачыненне да станаўлення беларускай музычнай культуры.]
+			(* <- lang_by;; *);;
+		*);;
+	*);
+
+<-concept_male
+(*
+ <-concept_person;;
+*);
 <-concept_composer;
 <- rrel_key_sc_element: ...
 	(*
-	<-sc_illustration;;
+	<-main_illustration;;
 	<=nrel_sc_text_translation:
 		...
 		(*

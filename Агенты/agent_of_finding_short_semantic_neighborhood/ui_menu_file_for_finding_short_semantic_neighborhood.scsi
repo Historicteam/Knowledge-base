@@ -1,0 +1,27 @@
+ui_menu_file_for_finding_short_semantic_neighborhood <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_short_semantic_neighborhood => nrel_main_idtf: 
+	[Агент поиска сокращённой семантической окрестности]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_short_semantic_neighborhood => nrel_main_idtf: 
+	[Search agent of finding short semantic neighborhood]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_short_semantic_neighborhood => ui_nrel_command_template:
+	[*
+		question_of_finding_short_semantic_neighborhood _-> ._question_of_finding_short_semantic_neighborhood_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_finding_short_semantic_neighborhood_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_short_semantic_neighborhood => ui_nrel_command_lang_template: 
+	[Запрос поиска сокращённой семантической окрестности: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_short_semantic_neighborhood => ui_nrel_command_lang_template: 
+	[Request of finding short semantic neighborhood: $ui_arg_1] 
+	(* <- lang_en;; *);;
+

@@ -1,0 +1,26 @@
+lib_component_agent_of_finding_short_semantic_neighborhood
+=> nrel_main_idtf:
+	[Компонент библиотеки. sc-агент поиска сокращённой семантической окрестности для заданного объекта]
+	(* <- lang_ru;; *);
+	[Library component. sc-agent of searching short semantic neighborhood for the given object]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components; 
+<- library_of_atomic_reusable_components; 
+
+
+=> nrel_attendant_component: 
+	lib_component_ui_menu_file_for_finding_short_semantic_neighborhood; 
+
+-> rrel_key_sc_element: 
+	.platform_independent_realization_of_sc_agent_of_finding_short_semantic_neighborhood;; 
+
+
+question_find_short_semantic_neighborhood
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+ 	[действие. найти сокращённую семантическую окрестность]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[action. to find short semantic neighborhood]
+	(* <- lang_en;;	*);;
