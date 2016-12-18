@@ -1,0 +1,14 @@
+organization_Moscou_univer
+=> nrel_main_idtf:
+	[Московский городской народный университет]
+	(*
+	<- lang_ru;;
+	*);
+	[Moscou gosudarstveni narodni universitet] 
+	(*
+	<- lang_en;;
+	*);
+	[Маскоускі гарадскі народны універсітэт]
+	(*
+	<- lang_by;;
+	*);;

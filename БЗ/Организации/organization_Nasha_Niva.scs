@@ -1,0 +1,17 @@
+organization_Nasha_Niva
+	
+	=> nrel_main_idtf:
+		[Наша Нива]
+		(*
+			<- lang_ru;;
+		*);
+		[Наша Ніва]
+		(*
+		<- lang_by;;
+		*);
+		[Nasha niva ]
+		(*
+		<- lang_en;;
+		*);
+<-concept_educational_institution;;
+	

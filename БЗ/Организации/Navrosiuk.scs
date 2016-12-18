@@ -1,0 +1,84 @@
+
+organization_uchiliche_minsk=> nrel_main_idtf:
+				[1-ое городское училище Минска]  (* <- lang_ru;; *);
+				[First town school in Minsk] (* <- lang_en;; *);
+				[Першы горад школы ў Мінску] (* <- lang_by;; *);;
+
+
+
+organization_pozemelni_bank_of_grodno
+			=> nrel_main_idtf:
+				[Поземельный банк в Гродно]  (* <- lang_ru;; *);
+				[Land Bank in Hrodna] (* <- lang_en;; *);
+				[Пазямельны банк у Гродна] (* <- lang_by;; *);;
+
+organization_pozemelni_bank_of_yaroslavl
+			=> nrel_main_idtf:
+				[Поземельный банк в Ярославле] (* <- lang_ru;; *);
+				[Land Bank in Yaroslavl]	 (* <- lang_en;; *);
+				[Пазямельнага банку ў Яраслаўлі] (* <- lang_by;; *);;
+
+
+organization_museum_yaroclavl
+			=> nrel_main_idtf:
+				[Музей в Ярославле] 		(* <- lang_ru;; *);
+				[The museum in Yaroslavl]	(* <- lang_en;; *);
+				[Музей у Яраслаўлі] (* <- lang_by;; *);;
+
+Hlopenichi
+			=> nrel_main_idtf:
+				[Деревня Хлопеничи] (* <-lang_ru;; *);
+				[Village Hlopenichi]	(* <- lang_en;; *);
+				[вёска Хлопеничи] (* <- lang_by;; *);;
+	
+house_of_troickaya_gora
+
+			=> nrel_main_idtf:
+				[Дом на Троицкой горе] (* <- lang_ru;; *);
+				[Trinity House on the Mount]	(* <- lang_en;; *);
+				[Дом на Траецкай гары] (* <- lang_by;; *);;
+
+
+house_of_sadovoi
+			=> nrel_main_idtf:
+				[Дом на Садовой] 					 (* <- lang_ru;; *);
+				[House on Sadovaya] (* <- lang_en;; *);
+				[Дом на Садовай] (* <- lang_by;; *);;
+
+
+organization_shcool_Minsl
+			=> nrel_main_idtf:
+				[Минская школа] 											 (* <- lang_ru;; *);
+				[Minsk school] (* <- lang_en;; *);
+				[Мінская школа] (* <- lang_by;; *);;
+
+
+
+organization_shcool_hlopenichi
+			=> nrel_main_idtf:
+				[Школа в Хлопеничах] 											 (* <- lang_ru;; *);
+				[School in Hlopenichah] (* <- lang_en;; *);
+				[Школа ў Хлопеничах] (* <- lang_by;; *);;
+
+
+
+organization_piter_academy_of_painture
+			=> nrel_main_idtf:
+				[Питерская художественная академия] 											 (* <- lang_ru;; *);
+				[The St. Petersburg Academy of Arts] (* <- lang_en;; *);
+				[Піцерская мастацкая акадэмія] (* <- lang_by;; *);;
+
+
+Kaluzici
+			=> nrel_main_idtf:
+				[Деревня Калужицы] (* <- lang_ru;; *);
+				[Village Kaluzhitsy] (* <- lang_en;; *);
+				[вёска Калужицы] (* <- lang_by;; *);;
+
+
+
+the_city_of_Paris
+=> nrel_main_idtf:
+				[Париж] (* <- lang_ru;; *);
+				[Paris] (* <- lang_en;; *);
+				[Парыж] (* <- lang_by;; *);;
