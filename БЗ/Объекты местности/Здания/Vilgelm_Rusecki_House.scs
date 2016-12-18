@@ -1,0 +1,15 @@
+Vilgelm_Rusecki_House
+=> nrel_main_idtf:
+	  [Дом Вильгельма Русецкого]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Vilgelm Rusecki House]
+  (*
+    <- lang_en;;
+  *);
+  [Дом Вільгельма Русекцкага]
+  (*
+    <- lang_by;;
+  *);;
+

@@ -1,0 +1,6 @@
+organization_museum_yaroclavl
+			=> nrel_main_idtf:
+				[Музей в Ярославле] 		(* <- lang_ru;; *);
+				[The museum in Yaroslavl]	(* <- lang_en;; *);
+				[Музей у Яраслаўлі] (* <- lang_by;; *);;
+

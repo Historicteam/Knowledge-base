@@ -1,0 +1,5 @@
+the_city_of_Paris
+=> nrel_main_idtf:
+				[Париж] (* <- lang_ru;; *);
+				[Paris] (* <- lang_en;; *);
+				[Парыж] (* <- lang_by;; *);;

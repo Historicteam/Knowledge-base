@@ -1,0 +1,415 @@
+Mitskevich_Konstantin_Mihailovich
+=> nrel_main_idtf:
+	[Мицкевич Константин Михайилович]
+	(*
+	<- lang_ru;;
+	*);
+	[Mitskevich Konstantin Mihailovich]
+	(*
+	<- lang_en;;
+	*);
+	[Міцкевіч Канстанцін Міхайлавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+=>nrel_first_name: name_Konstantin;
+=> nrel_alias:
+	[Якуб Колас]
+	(*
+	<- lang_ru;;
+	*);
+	[Jakub Kolas]
+	(*
+	<- lang_en;;
+	*);
+	[Якуб Колас]
+	(*
+	<- lang_by;;
+	*);
+<= nrel_student :organization_Nesvizh_teacher_seminary;
+<= nrel_student :organization_Nikolaevskaja_elementary_school;
+<=nrel_student:organization_Alexandrov_military_school;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yakub_Kolas.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yakub_Kolas1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yakub_Kolas2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+
+
+=>nrel_date_of_birth: 03_11_1882
+	(*
+	=> nrel_main_idtf:
+		[3 ноября 1882 года]
+		(*
+		<- lang_ru;;
+		*);
+		[November 3, 1882]
+		(*
+		<- lang_en;;
+		*);
+		[3 лістапада 1882]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 13_08_1956
+	(*
+	=> nrel_main_idtf:
+		[13 августа 1956 года]
+		(*
+		<- lang_ru;;
+		*);
+		[June 6, 1872]
+		(*
+		<- lang_en;;
+		*);
+		[6 чэрвеня 1872 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: Akinchici_village;
+=>nrel_place_of_death: the_city_of_Minsk;
+<=nrel_author: poem_Krai_rodimi
+	(*
+	=> nrel_main_idtf:
+		[стихотворение "Край Родимый"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Region Darling"]
+		(*
+			<- lang_en;;
+		*);
+		[верш " Край Народны"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_golas_zemli
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Голос земли"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Golos zemli"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Голас зямлі"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_shag_za_shagom
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Шаг за шагом"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Shag za shagam"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Шаг за шагам"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: pieces_antos_lata
+	(*
+	=> nrel_main_idtf:
+		[пьеса "Антон Лата"]
+		(*
+			<- lang_ru;;
+		*);
+		[pieces "Antos Lata"]
+		(*
+			<- lang_en;;
+		*);
+		[пьеса "Антось Лата"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pices;;
+	*);
+<=nrel_author: pieces_na_doroge
+	(*
+	=> nrel_main_idtf:
+		[пьеса "На дороге жизни"]
+		(*
+			<- lang_ru;;
+		*);
+		[pieces "Na doroge gizni"]
+		(*
+			<- lang_en;;
+		*);
+		[пьеса "На дарозе жыцця"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pices;;
+	*);
+<=nrel_author: pieces_zabastouka
+	(*
+	=> nrel_main_idtf:
+		[пьеса "Забаствощики"]
+		(*
+			<- lang_ru;;
+		*);
+		[pieces "Zabastouchiki"]
+		(*
+			<- lang_en;;
+		*);
+		[пьеса "Забастоўшчыкі"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pices;;
+	*);
+<=nrel_author: pieces_vaina
+	(*
+	=> nrel_main_idtf:
+		[пьеса "Война войне"]
+		(*
+			<- lang_ru;;
+		*);
+		[pieces "Vaina vaine"]
+		(*
+			<- lang_en;;
+		*);
+		[пьеса "Вайна вайне"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pices;;
+	*);
+<=nrel_author: pieces_palessse
+	(*
+	=> nrel_main_idtf:
+		[пьеса "У пущах Палесья"]
+		(*
+			<- lang_ru;;
+		*);
+		[pieces "У пушчах Палесся"]
+		(*
+			<- lang_en;;
+		*);
+		[пьеса "У пушчах палесся"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pices;;
+	*);
+<=nrel_author: poem_Pesni_Nevoli
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Песни неволи"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Songs of captivity"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау " Песні Няволі"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Novaya_Zemlya
+	(*
+	=> nrel_main_idtf:
+		[поэма "Новая Земля"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "New Earth"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "новая зямля"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+
+<=nrel_author: poem_Na_Rostannyah
+	(*
+	=> nrel_main_idtf:
+		[поэма "На росттанях"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "Na Rostannyah"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "На ростаннях"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;;
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling: Vilgelm_Rusecki_House;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания Якуба Коласа в Доме Вильгельма Русецкого ](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1921];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1927];;
+																			*);;
+						*);;			
+*);;
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: organization_In_Bel_Kult;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени работы Якуба Колоса в здании на ул. Революционной 15, там располагалась Научно-терминологическая комисси, которая затем стала называться Институт белорусской культуры](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1921];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1928];;
+																			*);;
+						*);;			
+*);;
+
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee:organization_The_Central_Executive_Committee_of_the_BSSR;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени членства Якуба Колоса ЦІК БССР ](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1931];;
+																			*);;
+						*);;			
+*);;
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: organization_The_Central_Executive_Committee_of_the_BSSR;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени членства Якуба Колоса ЦІК БССР ](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1935];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;			
+*);;
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: The_Supreme_Soviet_of_the_BSSR;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени  Якуба Колос депутат верховного совета БССР ](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1956];;
+																			*);;
+						*);;			
+*);;
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: The_Supreme_Soviet_of_the_USSR;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени  Якуба Колос депутат верховного совета ССР ](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1938];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1956];;
+																			*);;
+						*);;			
+*);;
+
+
+
+
+

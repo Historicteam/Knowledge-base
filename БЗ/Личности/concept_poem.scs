@@ -1,0 +1,14 @@
+concept_poem=> nrel_main_idtf:
+	[проивзведение]
+	(*
+	<- lang_ru;;
+	*);
+	[poem]
+	(*
+	<- lang_en;;
+	*);
+	[праізведзенне]
+	(*
+	<- lang_by;;
+	*);;
+

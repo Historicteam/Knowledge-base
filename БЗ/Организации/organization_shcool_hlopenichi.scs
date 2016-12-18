@@ -1,0 +1,9 @@
+
+organization_shcool_hlopenichi
+			=> nrel_main_idtf:
+				[Школа в Хлопеничах] 											 (* <- lang_ru;; *);
+				[School in Hlopenichah] (* <- lang_en;; *);
+				[Школа ў Хлопеничах] (* <- lang_by;; *);;
+
+
+

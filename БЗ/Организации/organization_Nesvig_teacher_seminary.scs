@@ -1,0 +1,17 @@
+organization_Nesvig_teacher_seminary
+=> nrel_main_idtf:
+	[Несвжская учительская семинария]
+	(*
+	<- lang_ru;;
+	*);
+	[Nesvig teacher seminary]
+	(*
+	<- lang_en;;
+	*);
+	[Нясвіжская вучыцельская семінарыя]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_seminary;
+<-concept_educational_institution;;

@@ -1,0 +1,15 @@
+Vitgorchik_House
+=> nrel_main_idtf:
+	  [Дом Витгорчика]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Vitgorchik House]
+  (*
+    <- lang_en;;
+  *);
+  [Дом Вітгорчыка]
+  (*
+    <- lang_by;;
+  *);;
+
