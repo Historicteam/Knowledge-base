@@ -1,0 +1,6 @@
+organization_pozemelni_bank_of_yaroslavl
+			=> nrel_main_idtf:
+				[Поземельный банк в Ярославле] (* <- lang_ru;; *);
+				[Land Bank in Yaroslavl]	 (* <- lang_en;; *);
+				[Пазямельнага банку ў Яраслаўлі] (* <- lang_by;; *);;
+
