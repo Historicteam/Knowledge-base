@@ -9,7 +9,179 @@ proc_of_bloodline_recovery_recursive
 
 	-> rrel_operators: .proc_of_bloodline_recovery_recursive_operator_set 
 		(*
-		-> rrel_init: .proc_of_bloodline_recovery_recursive_operator1 //searching mother
+		-> rrel_init: .rerere 
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE2];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_operator_pre_1;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_operator_pre_1
+		(*
+			<-genEl;;
+
+			-> rrel_1: rrel_assign: rrel_node: rrel_scp_var: _parents;;
+
+			=> nrel_goto: .rerere2;; 
+		*);;
+
+		-> .rerere2
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE3];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_2;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_pre_2
+		(*
+			<-searchSetStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _parent;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_parent;;
+
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _parents;;
+
+			=> nrel_then: .rerere3;;
+			=> nrel_else: .proc_of_bloodline_recovery_recursive_operator_return;;
+		*);;
+
+		-> .rerere3
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE4];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_3;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_pre_3
+		(*
+			<-searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _parents;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_for_delete;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _parent;;
+
+			=> nrel_then: .rerere5;;
+			=> nrel_else: .proc_of_bloodline_recovery_recursive_pre_10;;
+		*);;
+
+		-> .rerere5
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE5];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_4;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_pre_4
+		(*
+			<-searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_woman;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _parent;;
+
+			=> nrel_then: .rerere6;;
+			=> nrel_else: .proc_of_bloodline_recovery_recursive_pre_5;;
+		*);;
+
+		-> .rerere6
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE6];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_40;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_pre_40
+		(*
+			<-genElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _parent;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_mother;;
+
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_7;;
+		*);;
+
+		-> .rerere11
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE7];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_5;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_pre_5
+		(*
+			<-searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_male;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _parent;;
+
+			=> nrel_then: .rerere8;;
+			=> nrel_else: .proc_of_bloodline_recovery_recursive_pre_7;;
+		*);;
+
+		-> .rerere8
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE8];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_6;;
+		*);;
+
+
+		-> .proc_of_bloodline_recovery_recursive_pre_6
+		(*
+			<-genElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: rrel_const: _arc_1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _parent;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_father;;
+
+			=> nrel_goto: .rerere9;;
+		*);;
+
+		-> .rerere9
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [PRE9];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_pre_7;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_pre_7
+		(*
+			<-eraseEl;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc_for_delete;;
+
+			=> nrel_goto: .rerere3;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_recursive_pre_10
+		(*
+			<-eraseEl;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _parents;;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_recursive_operator1;;
+		*);;
+
+
+			-> .proc_of_bloodline_recovery_recursive_operator1 //searching mother
 			(*
 				<-searchSetStr5;;
 
