@@ -1,0 +1,87 @@
+proc_of_bloodline_recovery <- scp_program;
+-> rrel_params: .proc_of_bloodline_recovery_params 
+		(*
+		-> rrel_1: rrel_in: _person;;
+		-> rrel_2: rrel_in: _answer;;
+		*);
+
+->rrel_operators: .proc_of_bloodline_recovery_operator_set 
+(*
+		->rrel_init: .proc_of_bloodline_recovery_operator0 
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [p1];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_operator20;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator20
+		(*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_node: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_node: rrel_scp_var: _person;;
+
+		=> nrel_goto: .proc_of_bloodline_recovery_operator2;; 
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator2
+		(*
+			<- call;; 
+			-> rrel_1: rrel_fixed: rrel_scp_const:  proc_of_bloodline_recovery_recursive;; //calling recursive procedure
+			-> rrel_2: rrel_fixed: rrel_scp_const: .proc_of_bloodline_recovery_operator2_params (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _person;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _answer;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+			=>nrel_goto: .proc_of_bloodline_recovery_operator5_p;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator5_p 
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [p2];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_operator2_wait;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator2_wait 
+		(*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+			=>nrel_goto: .proc_of_bloodline_recovery_operator6_p;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator6_p 
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [p3];;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_operator200;;
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator200
+		(*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_node: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_node: rrel_scp_const: nrel_mother;;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_operator2000;; 
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator2000
+		(*
+			<- genElStr3;;
+			-> rrel_1: rrel_fixed: rrel_node: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_node: rrel_scp_const: nrel_father;;
+
+			=> nrel_goto: .proc_of_bloodline_recovery_operator_return;; 
+		*);;
+
+		-> .proc_of_bloodline_recovery_operator_return
+		(*
+			<- return;;
+		*);;
+*);;
