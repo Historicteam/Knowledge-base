@@ -1,0 +1,14 @@
+organization_dairy_store_in_Zagorskaya_house
+=> nrel_main_idtf:
+        [Молочный магазин в Доме Загорской]
+	(*
+	<- lang_ru;;
+	*);
+        [Dairy store in Zagorskaya house]
+	(*
+	<- lang_en;;
+	*);
+        [Малочная крама ў Доме Загорскай]
+	(*
+	<- lang_by;;
+	*);;

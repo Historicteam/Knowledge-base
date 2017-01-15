@@ -1,0 +1,14 @@
+organization_Shop_recreational_goods_stationery_in_the_Zagoskaya_house
+=> nrel_main_idtf:
+        [Магазин культтоваров (канцелярские принадлежности) в Доме Загорской (47)]
+	(*
+	<- lang_ru;;
+	*);
+        [Shop recreational goods (stationery) in the Zagoskaya house(47)]
+	(*
+	<- lang_en;;
+	*);
+        [Крама культтавараў (канцылярскія прылады) у Доме Загорскай(47)]
+	(*
+	<- lang_by;;
+	*);;

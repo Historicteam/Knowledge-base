@@ -1,0 +1,14 @@
+organization_Minsk_receiving_and_broadcasting_radio
+=> nrel_main_idtf:
+        [Минская приемная и широковещательная радиостанция]	
+        (*
+	<- lang_ru;;
+	*);
+	[Minsk receiving and broadcasting radio]
+	(*
+	<- lang_en;;
+	*);
+	[Мінская прыёмная і шырокавяшчальная радыёстанцыя]
+	(*
+	<- lang_by;;
+	*);;

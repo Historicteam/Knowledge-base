@@ -1,0 +1,783 @@
+Zagorskaya_house_building_2
+=> nrel_main_idtf:
+        [Дом Загорской(49)]	
+        (*
+	<- lang_ru;;
+	*);
+	[Zagorskaya house(49)]
+	(*
+	<- lang_en;;
+	*);
+	[Дом Загорскай(49)]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание НКВД]
+	(*
+	<- lang_ru;;
+	*);
+        [NCIA building]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак НКВД]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание МВД]
+	(*
+	<- lang_ru;;
+	*);
+        [MIA building]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак МУС]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Минского уездного исполнительного комитета]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Minsk district executive committee]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Мінскага павятовага выканаўчага камітэта]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание чрезвычайной комиссии по борьбе с контрреволюцией, спекуляцией и преступлениями по должности при Совете Народных Комиссаров]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Extraordinary Commission for combating counter-revolution, speculation and crimes on a post at the Council of Nation Commissars]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак надзвычайнай камісіі па барацьбе з контррэвалюцыяй, спекуляцыяй і злачынствамі па пасадзе пры Савеце Народных Камісараў]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Государственного политического управления БССР]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the State political administration of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Дзяржаўнага палітычнага ўпраўлення БССР]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Минского земледельческого товарищества взаимного страхования]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Minsk agricultural mutual insurance society]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Мінскага земляробчага таварыста ўзаемнага страхавання]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: Explanation_Zagorkaya_house_building_2
+	
+	(*
+	=> nrel_main_idtf:
+	[Пояснение Дома Загорской(49)] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of the Zagorskaya house(49)] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне Дома Загорскай(49)]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[На углу здания (в верхней его части) расположена скульптурная композиция – редкий в то время для Минска декоративный элемент. Автор композиции неизвестен, предположительно – Станислав Гайдукевич. Скульптурная композиция изображает греческую богиню плодородия, богатства и земледелия Деметру с детьми.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[At the corner of the building (near the top) is a sculptural composition - a rare while for Minsk decorative element. Author unknown composition, presumably - Stanislav Gaydukevich. The sculpture depicts the Greek goddess of fertility, wealth and agriculture Demeter with children.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[На рагу будынка (у верхняй яго часткі) размешчана скульптурная кампазіцыя - рэдкі ў той час для Мінска дэкаратыўны элемент. Аўтар кампазіцыі невядомы, як мяркуецца, - Станіслаў Гайдукевіч. Скульптурная кампазіцыя адлюстроўвае грэцкую багіню ўрадлівасці, багацця і земляробства Дэметры з дзецьмі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+<- concept_building;
+<- concept_terrain_object;
+
+
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.898356, 27.553799]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.898356;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree:  27.553799;;
+					*);;
+				*);;
+			*);;
+	*);;
+
+
+
+Zagorskaya_house_building_2 <= nrel_location: organization_1_Shop_of_excise_society;;
+Zagorskaya_house_building_2 <= nrel_location: organization_2_Shop_of_excise_society;;
+Zagorskaya_house_building_2 <= nrel_location: organization_Flower_shop_in_the_Zagoskaya_house_2;;
+Zagorskaya_house_building_2 <= nrel_location: organization_Dairy_shop_in_the_Zagoskaya_house_2;;
+Zagorskaya_house_building_2 <= nrel_location: organization_Yanyshevsky_Henrik_Yanyarovich_shop;;
+Zagorskaya_house_building_2 <= nrel_location: organization_Boiler_in_the_Zagoskaya_house_2;;
+Zagorskaya_house_building_2 <= nrel_location: organization_Red_Cross_Shop_in_the_Zagorskaya_house_2;;
+Zagorskaya_house_building_2 <= nrel_location: organization_First_Shop_of_Society_of_help_to_wounded_soldiers;;
+Zagorskaya_house_building_2 <= nrel_location: organization_Second_Shop_of_Society_of_help_to_wounded_soldiers;;
+Zagorskaya_house_building_2 <= nrel_location: organization_The_Board_of_the_Minsk_agricultural_mutual_insurance_society;;
+Zagorskaya_house_building_2 <= nrel_location: organization_Minsk_social_club;;
+Zagorskaya_house_building_2 <= nrel_location: organization_office_of_Libava_Romenskaya_railroad;;
+Zagorskaya_house_building <= nrel_location: organization_Minsk_agricultural_mutual_insurance_society;;
+Zagorskaya_house_building <= nrel_temporal_decomposition: organization_Minsk_agricultural_mutual_insurance_society;;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_temporal_decomposition: organization_State_political_administration_of_the_BSSR;;*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1922];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1933];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_State_political_administration_of_the_BSSR;;*]
+(*
+=> nrel_main_idtf: [Контур периода времени нахождения Государственного Политического управления БССР в Доме Загорской (49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1922];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1933];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_temporal_decomposition: organization_Extraordinary_Commission_for_combating_counter_revolution_speculation_and_crimes_on_a_post_at_the_Council_of_Nation_Commissars;;*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1920];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1923];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Extraordinary_Commission_for_combating_counter_revolution_speculation_and_crimes_on_a_post_at_the_Council_of_Nation_Commissars;;*]
+(*
+=> nrel_main_idtf: [Контур периода времени нахождения чрезвычайной комиссии по борьбе с контрреволюцией, спекуляцией и преступлениями по должности при Совете Народных Комиссаров в Доме Загорской (49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1920];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1923];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_temporal_decomposition: organization_Minsk_district_executive_committee;;*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1919];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_the_central_office;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения центральной "конторы" в Доме Загорской (49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Minsk_provincial_management_of_workers_and_peasants_militia;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения НКВД в Доме Загорской (49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1934];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_commandant_s_office_in_the_Zagoskaya_house_2;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения комендатуры в Доме Загорской (49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_club_in_the_Zagoskaya_house_2;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения клуба в Доме Загорской (49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Regiment_barracks_of_the_State_political_leadership;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения казарм полка Государственного политического руководства в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Emergency_Commission_of_BSSR;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения ЧК БССР в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1920];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1923];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_State_political_leadership;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Государственного политического руководства в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1929];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Help_Desk_of_the_Minsk_house_committees;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения справочного стола домовых комитетов Минска в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1919];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Residential_District_Council;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения жилищного районного совета в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1919];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Minsk_district_executive_committee;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Минского уездного исполнительного комитета в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1919];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Consumer_society_Sila;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения потребительского общества "Сила" в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Zemgor;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения "Земгора" в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1919];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Office_of_Chief_Assistant_of_the_Commercial_Service_of_Libava_Romenskaya_railroad;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения кабинета помощника начальника коммерческой службы Либаво-Роменской железной дороги в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Office_of_the_economic_part_of_chief_comissioner_of_the_Red_Cross;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения канцелярии хозяйственной части главного уполномоченного Красного Креста в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_The_dining_room_at_the_Main_Staff_of_the_Army;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Столовой при Главном штабе армии в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1916];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Management_of_the_Chief_Representative_of_the_Russian_association_Red_Cross;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Управления Главного уполномоченного Российского товарищества "Красного Креста" в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1916];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_Commercial_Service_of_Libava_Romenskaya_railroad;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Коммерческой службы Либаво-Роменской железной дороги в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1917];;
+																			*);;
+						*);;
+*);;
+
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_owner: organization_City_housing_subdivision_department_of_the_communal_household_of_the_Minsk_district_executive_committee;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Городского жилищного подотдела отдела коммунального хозяйства Минского окружного исполнительного комитета домом Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1922];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1922];;
+																			*);;
+						*);;
+*);;
+concept_situation->[* concept_arch_neoclassicism -> Zagorskaya_house_building_2  ;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени когда Дом Загорской(49) принадлежал архитектурному стилю неоклассицизму](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1914];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_owner: Zagorskaya_Elizaveta;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Загорской Елизаветой домом Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1888];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1891];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_architect: Gay_Henrik_Julianovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени, в которое Гай Генрих Юлианович являлся архитектором дома Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1914];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1914];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_dwelling: Goldberg;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Гольдберга в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_dwelling: Lapidus;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Лапидуса в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_dwelling: Yanyshevsky_Henrik_Yanyarovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Янушевского Генриха Яруаровича в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_dwelling: Akselrod;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Аксельрода в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_dwelling: Erangor;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Ерангора в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_dwelling: Kudzinovich_Maria_Antonovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Кудинович Марии Антоновны в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_dwelling: Ivashkevich_Ivan_Vladislavovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Ивашкевича Ивана Владиславовича в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1915];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <= nrel_location: organization_receiving_office_of_dentist_Stanisheuskaya_Wanda_Adolfovna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Приемного кабинета зубного врача Станишевской Ванды Адольфовны в доме Загорской(49)](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1912];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1913];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*Zagorskaya_house_building_2 <- concept_public_building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени, в которое дом Загорской(49) являлся общественным зданием](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1920];;
+																			*);;
+						*);;
+*);;
+concept_situation->[*concept_residential_building -> Zagorskaya_house_building_2;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда Дом Загорской(49) было жилым](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1914];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1920];;
+            *);;
+        *);;
+*);;
+concept_situation->[*^"file://Illustration_Zagorkaya_house_building_2.scsi"*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+												(*
+												-> rrel_year: rrel_decimal: [1914];;
+												*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [2014];;
+																			*);;
+						*);;
+*);;

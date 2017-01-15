@@ -1,0 +1,14 @@
+organization_Warehouse_in_the_Zagoskaya_house
+=> nrel_main_idtf:
+        [Склад в Доме Загорской (47)]
+	(*
+	<- lang_ru;;
+	*);
+        [Warehouse in the Zagoskaya house(47)]
+	(*
+	<- lang_en;;
+	*);
+        [Склад у Доме Загорскай(47)]
+	(*
+	<- lang_by;;
+	*);;

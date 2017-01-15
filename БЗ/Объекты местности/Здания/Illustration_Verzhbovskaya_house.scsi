@@ -1,0 +1,25 @@
+Verzhbovskaya_house <- rrel_key_sc_element: Illustration_Verzhbovskaya_house
+	(*
+=> nrel_main_idtf:
+	[Дом Вержбовской в наши дни.] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Verzhbovskaya house, our days] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Дом Вяржбоўскай ў нашы дні.]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Verzhbovskaya.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+ *);;

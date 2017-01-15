@@ -1,0 +1,14 @@
+organization_Lumber_exchange
+=> nrel_main_idtf:
+	[Лесная биржа]
+	(*
+	<- lang_ru;;
+	*);
+        [Lumber exchange]
+	(*
+	<- lang_en;;
+	*);
+        [Лясная біржа]
+	(*
+	<- lang_by;;
+	*);;

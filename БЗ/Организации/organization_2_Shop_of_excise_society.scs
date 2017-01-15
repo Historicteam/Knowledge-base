@@ -1,0 +1,14 @@
+organization_2_Shop_of_excise_society
+=> nrel_main_idtf:
+        [Второй магазин акцизного общества]
+	(*
+	<- lang_ru;;
+	*);
+        [Second shop of excise society]
+	(*
+	<- lang_en;;
+	*);
+        [Другая крама акцызнага таварыства]
+	(*
+	<- lang_by;;
+	*);;

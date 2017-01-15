@@ -1,0 +1,14 @@
+organization_Shoemaker_workshop_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Мастерская сапожника в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Shoemaker workshop in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Майстэрня шаўца у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

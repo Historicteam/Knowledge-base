@@ -1,0 +1,14 @@
+organization_Board_of_the_Agricultural_credit_cooperatives
+=> nrel_main_idtf:
+        [Правление окружного союза "Сельхозкредиткооперации"]
+	(*
+	<- lang_ru;;
+	*);
+        [Board of the Agricultural credit cooperatives]
+	(*
+	<- lang_en;;
+	*);
+        [Праўленне аддзел акруговага саюза "Сельгаскрэдыткааперацыі"]
+	(*
+	<- lang_by;;
+	*);;

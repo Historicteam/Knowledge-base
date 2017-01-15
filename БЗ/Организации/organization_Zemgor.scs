@@ -1,0 +1,14 @@
+organization_Zemgor
+=> nrel_main_idtf:
+	["Земгор"]
+	(*
+	<- lang_ru;;
+	*);
+        ["Zemgor"]
+	(*
+	<- lang_en;;
+	*);
+        ["Земгор"]
+	(*
+	<- lang_by;;
+	*);;

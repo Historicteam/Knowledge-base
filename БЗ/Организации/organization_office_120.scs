@@ -1,0 +1,14 @@
+organization_office_120
+=> nrel_main_idtf:
+	[Контора(пл. 120 кв. арш.)]
+	(*
+	<- lang_ru;;
+	*);
+        [Office(area of 120 square yards)]
+	(*
+	<- lang_en;;
+	*);
+        [Кантора(пл. 120 кв. арш.)]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_Archive_of_the_National_Commissariat_of_Posts_and_Telegraphs
+=> nrel_main_idtf:
+        [Архив Народного Комиссариата Почты и Телеграфа]
+	(*
+	<- lang_ru;;
+	*);
+        [Archive of the National Commissariat of Posts and Telegraphs]
+	(*
+	<- lang_en;;
+	*);
+        [Архіў Народнага камісарыята пошты і тэлеграфа]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_State_political_leadership_of_the_BSSR
+=> nrel_main_idtf:
+	[Государственное политическое руководство БССР]
+	(*
+	<- lang_ru;;
+	*);
+        [State political leadership of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+        [Дзяржаўнае палітычнае кіраўніцтва БССР]
+	(*
+	<- lang_by;;
+	*);;

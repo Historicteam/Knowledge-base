@@ -1,0 +1,14 @@
+Padnos_A_S
+=> nrel_main_idtf:
+        [Паднос А. С.]	
+        (*
+	<- lang_ru;;
+	*);
+	[Padnos A.S.]
+	(*
+	<- lang_en;;
+	*);
+	[Паднос А. С.]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_First_Shop_of_Society_of_help_to_wounded_soldiers
+=> nrel_main_idtf:
+        [Первый магазин товарищества помощи раненым военнослужащим]
+	(*
+	<- lang_ru;;
+	*);
+        [First Shop of Society of help to wounded soldiers]
+	(*
+	<- lang_en;;
+	*);
+        [Першая крама таварыста дапамогі параненым вайскоўцам]
+	(*
+	<- lang_by;;
+	*);;

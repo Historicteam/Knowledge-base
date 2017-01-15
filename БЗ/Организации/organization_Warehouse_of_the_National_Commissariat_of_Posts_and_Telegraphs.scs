@@ -1,0 +1,14 @@
+organization_Warehouse_of_the_National_Commissariat_of_Posts_and_Telegraphs
+=> nrel_main_idtf:
+        [Склад Народного Комиссариата Почты и Телеграфа]
+	(*
+	<- lang_ru;;
+	*);
+        [Warehouse of the National Commissariat of Posts and Telegraphs]
+	(*
+	<- lang_en;;
+	*);
+        [Склад Народнага камісарыята пошты і тэлеграфа]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_National_gallery
+=> nrel_main_idtf:
+	[Государственная картинная галерея]
+	(*
+	<- lang_ru;;
+	*);
+        [National gallery]
+	(*
+	<- lang_en;;
+	*);
+        [Дзяржаўная карцінная галерэя]
+	(*
+	<- lang_by;;
+	*);;

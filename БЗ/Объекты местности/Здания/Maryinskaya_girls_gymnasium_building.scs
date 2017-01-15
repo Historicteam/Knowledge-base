@@ -1,0 +1,216 @@
+Maryinskaya_girls_gymnasium_building
+=> nrel_main_idtf:
+        [Maryinskaya girl's gymnasium building]	
+        (*
+	<- lang_en;;
+	*);
+	[Здание Мариинской женской гимназии]
+	(*
+	<- lang_ru;;
+	*);
+	[Будынак Марыінскай жаночай гімназіі]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание политехникума]
+	(*
+	<- lang_ru;;
+	*);
+        [polytechnic building]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак політэхнікума]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Государственной картинной галереи]
+	(*
+	<- lang_ru;;
+	*);
+        [National gallery building]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Дзяржаўнай карціннай галерэі]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание музея связи РУП «Белтелеком»]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the museum of communications "Beltelecom"]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Музея сувязі РУП «Белтэлекам»]
+	(*
+	<- lang_by;;
+	*);
+rrel_key_sc_element: Explanation_Maryinskaya_girls_gymnasium_building
+	
+	(*
+	=> nrel_main_idtf:
+	[Пояснение здания Мариинской женской гимназии] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of the Maryinskaya girl's gymnasium building] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне будынака Марыінскай жаночай гімназіі]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[По традиции, существовавшей в Российской империи, женская гимназия, образованная в 1899 г., получила название Мариинской. Она считалась одной их лучших. Обучение здесь проходили более 560 воспитанниц в год. Учились благородным манерам, музыке, иностранным языкам. Образование позволяло ученицам седьмого класса преподавать в младших классах, выпускницы восьмого могли поступать на женские курсы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[According to the tradition that existed in the Russian Empire, the female gymnasium, founded in 1899, it was named Maria. She was considered one of the best. Training took place here more than 560 pupils per year. Studied noble manners, music, foreign languages. Education allowed the female students from the seventh grade to teach in the elementary grades, graduate eighth could act on women's courses.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Па традыцыі, якая існавала ў Расійскай імперыі, жаночая гімназія, адукаваная ў 1899 г., атрымала назву Марыінскай. Яна лічылася адной іх лепшых. Навучанне тут праходзілі больш за 560 выхаванак у год. Вучыліся высакародным манерам, музыцы, замежных мовах. Адукацыя дазваляла вучаніцам сёмага класа выкладаць у малодшых класах, выпускніцы восьмага маглі паступаць на жаночыя курсы.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+<- concept_building;
+<- concept_terrain_object;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8987258, 27.5571836]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8987258;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5571836;;
+					*);;
+				*);;
+			*);;
+	*);;
+
+Maryinskaya_girls_gymnasium_building <= nrel_location: organization_polytechnic;;
+Maryinskaya_girls_gymnasium_building <= nrel_location: organization_ATS_2;;
+Maryinskaya_girls_gymnasium_building <= nrel_location: organization_postal_service_Marksa_29;;
+Maryinskaya_girls_gymnasium_building <= nrel_location: organization_National_Center_for_Traffic_Exchange;;
+Maryinskaya_girls_gymnasium_building <= nrel_location: organization_museum_of_communications_Beltelecom;;
+Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_polytechnic;;
+Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_museum_of_communications_Beltelecom;;
+concept_situation->[*^"file://Illustration_Maryinskaya_girls_gymnasium_building_1.scsi"*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1879];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [2006];;
+																			*);;
+						*);;
+*);;
+concept_situation->[* Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_National_gallery;;*]
+(*
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1939];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1941];;
+																			*);;
+						*);;
+*);;
+concept_situation->[* Maryinskaya_girls_gymnasium_building <= nrel_location: organization_National_gallery;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения Государственной картинной галереи в здании Мариинской женской гимназии](*<-lang_ru;;*);;
+	=> nrel_start_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1939];;
+																			*);;
+						*);;
+	=> nrel_finish_time: ...
+						(*
+							=> nrel_translation_in_the_Gregorian_calendar: ...
+																			(*
+																				-> rrel_year: rrel_decimal: [1941];;
+																			*);;
+						*);;
+*);;
+
+
+concept_situation->[*concept_arch_eclecticism -> Maryinskaya_girls_gymnasium_building;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда Здание Мариинской Женской Гимназии принадлежало архитектурному стилю эклектизму](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1879];;
+            *);;
+        *);;
+*);;
+concept_situation->[*concept_public_building -> Maryinskaya_girls_gymnasium_building;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда Здание Мариинской Женской Гимназии было жилым](*<-lang_ru;;*);;
+    => nrel_start_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1888];;
+            *);;
+        *);;
+    => nrel_finish_time: ...
+        (*
+            => nrel_translation_in_the_Gregorian_calendar: ...
+            (*
+            -> rrel_year: rrel_decimal: [1949];;
+            *);;
+        *);;
+*);;

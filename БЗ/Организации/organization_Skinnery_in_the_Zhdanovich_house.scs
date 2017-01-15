@@ -1,0 +1,14 @@
+organization_Skinnery_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Скорняжная мастерская в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Skinnery in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Скарняцкая майстэрня у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

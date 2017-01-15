@@ -1,0 +1,14 @@
+organization_store_Khleb
+=> nrel_main_idtf:
+        [Магазина «Хлеб»]
+	(*
+	<- lang_ru;;
+	*);
+	[Store "Khleb"]
+	(*
+	<- lang_en;;
+	*);
+	[Крама «Хлеб»]
+	(*
+	<- lang_by;;
+	*);;

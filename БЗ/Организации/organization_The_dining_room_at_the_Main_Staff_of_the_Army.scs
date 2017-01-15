@@ -1,0 +1,14 @@
+organization_The_dining_room_at_the_Main_Staff_of_the_Army
+=> nrel_main_idtf:
+	[Столовая при Главном штабе армии]
+	(*
+	<- lang_ru;;
+	*);
+        [The dining room at the Main Staff of the Army]
+	(*
+	<- lang_en;;
+	*);
+        [Сталовая пры Галоўным штабе арміі]
+	(*
+	<- lang_by;;
+	*);;

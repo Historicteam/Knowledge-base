@@ -1,0 +1,14 @@
+Akselrod
+=> nrel_main_idtf:
+        [Аксельрод]	
+        (*
+	<- lang_ru;;
+	*);
+	[Akselrod]
+	(*
+	<- lang_en;;
+	*);
+	[Аксельрод]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_Workshop_13_of_repair_shoe_cooperative_Stakhanovets
+=> nrel_main_idtf:
+	[Мастерская №13 ремонтно-обувной артели "Стахановец"]
+	(*
+	<- lang_ru;;
+	*);
+        [Workshop №13 of repair shoe cooperative "Stakhanovets"]
+	(*
+	<- lang_en;;
+	*);
+        [Майстэрня №13 рамонтна-абутковай арцелі "Стаханавец"]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_Office_of_the_National_Commissariat_of_Posts_and_Telegraphs
+=> nrel_main_idtf:
+        [Канцелярия Народного Комиссариата Почты и Телеграфа]
+	(*
+	<- lang_ru;;
+	*);
+        [Office of the National Commissariat of Posts and Telegraphs]
+	(*
+	<- lang_en;;
+	*);
+        [Канцылярыя Народнага камісарыята пошты і тэлеграфа]
+	(*
+	<- lang_by;;
+	*);;

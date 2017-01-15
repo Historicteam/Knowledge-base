@@ -1,0 +1,14 @@
+organization_Bakery_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Булочная в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Bakery in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Булачная у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

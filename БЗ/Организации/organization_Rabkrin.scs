@@ -1,0 +1,14 @@
+organization_Rabkrin
+=> nrel_main_idtf:
+        [Рабоче-крестьянская инспекция]
+	(*
+	<- lang_ru;;
+	*);
+        [Rabkrin]
+	(*
+	<- lang_en;;
+	*);
+	[Рабоча-сялянская інспекцыя]
+	(*
+	<- lang_by;;
+	*);;

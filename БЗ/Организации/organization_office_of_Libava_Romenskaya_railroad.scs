@@ -1,0 +1,14 @@
+organization_office_of_Libava_Romenskaya_railroad
+=> nrel_main_idtf:
+	[Контора Либаво-Роменской железной дороги]
+	(*
+	<- lang_ru;;
+	*);
+        [Office of Libava-Romenskaya railroad]
+	(*
+	<- lang_en;;
+	*);
+        [Кантора Лібава-Роменскай чыгункі]
+	(*
+	<- lang_by;;
+	*);;

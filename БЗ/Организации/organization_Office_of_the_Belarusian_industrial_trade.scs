@@ -1,0 +1,14 @@
+organization_Office_of_the_Belarusian_industrial_trade
+=> nrel_main_idtf:
+	[Контора "Белпромторг"]
+	(*
+	<- lang_ru;;
+	*);
+        [Office of the Belarusian industrial trade]
+	(*
+	<- lang_en;;
+	*);
+        [Кантора "Белпрамграндаль"]
+	(*
+	<- lang_by;;
+	*);;

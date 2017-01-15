@@ -1,0 +1,14 @@
+organization_polytechnic
+=> nrel_main_idtf:
+	[Политехникум]
+	(*
+	<- lang_ru;;
+	*);
+        [polytechnic]
+	(*
+	<- lang_en;;
+	*);
+        [Політэхнікум]
+	(*
+	<- lang_by;;
+	*);;

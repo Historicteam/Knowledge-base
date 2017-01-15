@@ -1,0 +1,14 @@
+organization_Minsk_linearly_technical_operational_radio_transmission_communication_center
+=> nrel_main_idtf:
+	[Минский линейно-технический эксплуатационный радиотрансляционной узел связи]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk linearly technical operational radio transmission communication center]
+	(*
+	<- lang_en;;
+	*);
+        [Мінскі лінейна-тэхнічны эксплуатацыйны радыётрансляцыйны вузел сувязі]
+	(*
+	<- lang_by;;
+	*);;

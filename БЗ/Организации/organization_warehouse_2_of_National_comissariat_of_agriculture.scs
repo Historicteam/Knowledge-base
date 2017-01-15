@@ -1,0 +1,14 @@
+organization_warehouse_2_of_National_comissariat_of_agriculture
+=> nrel_main_idtf:
+	[Склад №2 Наркомата земледелия]
+	(*
+	<- lang_ru;;
+	*);
+        [Warehouse №2 of National comissariat of agriculture]
+	(*
+	<- lang_en;;
+	*);
+        [Склад №2 Наркамата земляробства]
+	(*
+	<- lang_by;;
+	*);;

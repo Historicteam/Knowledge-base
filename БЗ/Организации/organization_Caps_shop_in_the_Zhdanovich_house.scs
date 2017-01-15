@@ -1,0 +1,14 @@
+organization_Caps_shop_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Магазин шапок в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Caps shop in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Крама шапак у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

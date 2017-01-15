@@ -1,0 +1,14 @@
+organization_Shop_of_the_Society_Dynamo
+=> nrel_main_idtf:
+	[Магазин общества "Динамо"]
+	(*
+	<- lang_ru;;
+	*);
+        [Shop of the Society "Dynamo"]
+	(*
+	<- lang_en;;
+	*);
+        [Крама таварыства "Дынама"]
+	(*
+	<- lang_by;;
+	*);;

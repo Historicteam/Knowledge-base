@@ -1,0 +1,15 @@
+organization_sewing_workshop_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Швейная мастерская в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Sewing workshop in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Кравецкая майстэрня у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;
+

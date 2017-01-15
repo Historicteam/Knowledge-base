@@ -1,0 +1,14 @@
+Goldberg
+=> nrel_main_idtf:
+        [Гольдберг]	
+        (*
+	<- lang_ru;;
+	*);
+	[Goldberg]
+	(*
+	<- lang_en;;
+	*);
+	[Гольдберг]
+	(*
+	<- lang_by;;
+	*);;

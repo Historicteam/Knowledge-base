@@ -1,0 +1,14 @@
+organization_Obnorkom
+=> nrel_main_idtf:
+        ["Обнорком"]
+	(*
+	<- lang_ru;;
+	*);
+        ["Obnorkom"]
+	(*
+	<- lang_en;;
+	*);
+        ["Обнорком"]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_department_of_the_communal_household_of_the_Minsk_district_executive_committee
+=> nrel_main_idtf:
+        [Отдел коммунального хозяйства Минского окружного исполнительного комитета]	
+        (*
+	<- lang_ru;;
+	*);
+	[Department of the communal household of the Minsk district executive committee]
+	(*
+	<- lang_en;;
+	*);
+	[Аддзел камунальнай гаспадаркі Мінскага акруговага выканаучага камітэта]
+	(*
+	<- lang_by;;
+	*);;

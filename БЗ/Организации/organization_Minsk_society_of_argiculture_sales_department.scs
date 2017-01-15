@@ -1,0 +1,14 @@
+organization_Minsk_society_of_argiculture_sales_department
+=> nrel_main_idtf:
+        [Коммерческий отдел при Минском обществе сельского хозяйства]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk society of argiculture sales department]
+	(*
+	<- lang_en;;
+	*);
+        [Камерцыйны аддзел пры Мінскім таварыстве сельскай гаспадаркі]
+	(*
+	<- lang_by;;
+	*);;

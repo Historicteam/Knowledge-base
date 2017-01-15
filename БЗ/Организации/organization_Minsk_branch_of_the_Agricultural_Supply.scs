@@ -1,0 +1,14 @@
+organization_Minsk_branch_of_the_Agricultural_Supply
+=> nrel_main_idtf:
+	[Минское отделение "Сельхозснаба"]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk branch of the "Agricultural Supply"]
+	(*
+	<- lang_en;;
+	*);
+        [Мінскае аддзяленне "Сельгасснаба"]
+	(*
+	<- lang_by;;
+	*);;

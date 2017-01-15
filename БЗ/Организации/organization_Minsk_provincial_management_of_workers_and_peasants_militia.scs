@@ -1,0 +1,15 @@
+organization_Minsk_provincial_management_of_workers_and_peasants_militia
+=> nrel_main_idtf:
+	[Минское губернское управление рабоче-крестьянской милиции]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk provincial management of workers and peasants militia]
+	(*
+	<- lang_en;;
+	*);
+        [Мінскае губернскае ўпраўленне рабоча-сялянскай міліцыі]
+	(*
+	<- lang_by;;
+	*);;
+

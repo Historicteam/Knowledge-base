@@ -1,0 +1,14 @@
+organization_nodding_workshop_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Шапочная мастерская в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Nodding workshop in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Шапачная майстэрня у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

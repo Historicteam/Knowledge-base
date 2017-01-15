@@ -1,0 +1,14 @@
+organization_stall_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Прилавок в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Stall in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Лаўка у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

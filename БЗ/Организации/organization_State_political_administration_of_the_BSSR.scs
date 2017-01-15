@@ -1,0 +1,14 @@
+organization_State_political_administration_of_the_BSSR
+=> nrel_main_idtf:
+	[Государственное политическое управление БССР]
+	(*
+	<- lang_ru;;
+	*);
+        [State political administration of the BSSR]
+	(*
+	<- lang_en;;
+	*);
+        [Дзяржаўнае палітычнае ўпраўленне БССР]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_Office_of_the_economic_part_of_chief_comissioner_of_the_Red_Cross
+=> nrel_main_idtf:
+	[Канцелярия хозяйственной части главного уполномоченного Красного Креста]
+	(*
+	<- lang_ru;;
+	*);
+        [Office of the economic part of chief comissioner of the Red Cross]
+	(*
+	<- lang_en;;
+	*);
+        [Канцылярыя гаспадарчай часці галоўупаўнаважнага Чырвонага Крыжа]
+	(*
+	<- lang_by;;
+	*);;

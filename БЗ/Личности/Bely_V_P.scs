@@ -1,0 +1,14 @@
+Bely_V_P
+=> nrel_main_idtf:
+        [Белый В. П.]	
+        (*
+	<- lang_ru;;
+	*);
+	[Bely V. P.]
+	(*
+	<- lang_en;;
+	*);
+	[Белы В. П.]
+	(*
+	<- lang_by;;
+	*);;
