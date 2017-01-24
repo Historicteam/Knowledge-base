@@ -1,0 +1,22 @@
+begin_date_03_2036
+=> nrel_main_idtf:
+   [время начала - март 2036 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - march of 2036]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - сакавiк 2036 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 2036;;
+   *);
+<- begin_date_2036;;

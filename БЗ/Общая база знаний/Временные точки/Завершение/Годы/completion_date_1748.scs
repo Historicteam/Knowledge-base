@@ -1,0 +1,20 @@
+completion_date_1748
+=> nrel_main_idtf:
+   [время завершения - 1748]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1748]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1748]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1748;;
+   *);;

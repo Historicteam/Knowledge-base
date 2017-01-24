@@ -1,0 +1,22 @@
+completion_date_02_1738
+=> nrel_main_idtf:
+   [время завершения - февраль 1738 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1738]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1738 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1738;;
+   *);
+<- completion_date_1738;;

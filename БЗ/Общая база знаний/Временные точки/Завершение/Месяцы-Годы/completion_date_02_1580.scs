@@ -1,0 +1,22 @@
+completion_date_02_1580
+=> nrel_main_idtf:
+   [время завершения - февраль 1580 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1580]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1580 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1580;;
+   *);
+<- completion_date_1580;;

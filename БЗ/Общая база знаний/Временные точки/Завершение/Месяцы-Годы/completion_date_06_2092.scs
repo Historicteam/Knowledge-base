@@ -1,0 +1,22 @@
+completion_date_06_2092
+=> nrel_main_idtf:
+   [время завершения - июнь 2092 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 2092]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 2092 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 2092;;
+   *);
+<- completion_date_2092;;

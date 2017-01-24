@@ -1,0 +1,22 @@
+completion_date_12_2018
+=> nrel_main_idtf:
+   [время завершения - декабрь 2018 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - december of 2018]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - снежань 2018 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 2018;;
+   *);
+<- completion_date_2018;;

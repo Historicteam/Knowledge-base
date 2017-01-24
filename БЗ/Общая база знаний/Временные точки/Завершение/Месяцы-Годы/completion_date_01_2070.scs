@@ -1,0 +1,22 @@
+completion_date_01_2070
+=> nrel_main_idtf:
+   [время завершения - январь 2070 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - january of 2070]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - студзень 2070 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 1;;
+   <- number_of_year: 2070;;
+   *);
+<- completion_date_2070;;

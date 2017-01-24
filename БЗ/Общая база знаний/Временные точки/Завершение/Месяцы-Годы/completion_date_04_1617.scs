@@ -1,0 +1,22 @@
+completion_date_04_1617
+=> nrel_main_idtf:
+   [время завершения - апрель 1617 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 1617]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 1617 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1617;;
+   *);
+<- completion_date_1617;;

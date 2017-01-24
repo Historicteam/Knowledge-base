@@ -1,0 +1,22 @@
+completion_date_03_1953
+=> nrel_main_idtf:
+   [время завершения - март 1953 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 1953]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 1953 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1953;;
+   *);
+<- completion_date_1953;;

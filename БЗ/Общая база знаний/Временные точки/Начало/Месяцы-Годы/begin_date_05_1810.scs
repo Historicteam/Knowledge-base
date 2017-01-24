@@ -1,0 +1,22 @@
+begin_date_05_1810
+=> nrel_main_idtf:
+   [время начала - май 1810 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - may of 1810]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - май 1810 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 5;;
+   <- number_of_year: 1810;;
+   *);
+<- begin_date_1810;;

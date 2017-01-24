@@ -1,0 +1,22 @@
+begin_date_11_1848
+=> nrel_main_idtf:
+   [время начала - ноябрь 1848 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - november of 1848]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiстапад 1848 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1848;;
+   *);
+<- begin_date_1848;;

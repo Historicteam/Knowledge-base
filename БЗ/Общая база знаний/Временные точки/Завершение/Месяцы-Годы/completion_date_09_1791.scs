@@ -1,0 +1,22 @@
+completion_date_09_1791
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1791 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1791]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1791 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1791;;
+   *);
+<- completion_date_1791;;

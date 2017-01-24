@@ -1,0 +1,22 @@
+begin_date_01_1755
+=> nrel_main_idtf:
+   [время начала - январь 1755 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - january of 1755]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - студзень 1755 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 1;;
+   <- number_of_year: 1755;;
+   *);
+<- begin_date_1755;;

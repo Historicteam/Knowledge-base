@@ -1,0 +1,22 @@
+completion_date_09_1900
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1900 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1900]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1900 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1900;;
+   *);
+<- completion_date_1900;;

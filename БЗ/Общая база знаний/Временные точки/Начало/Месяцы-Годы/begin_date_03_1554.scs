@@ -1,0 +1,22 @@
+begin_date_03_1554
+=> nrel_main_idtf:
+   [время начала - март 1554 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - march of 1554]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - сакавiк 1554 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1554;;
+   *);
+<- begin_date_1554;;

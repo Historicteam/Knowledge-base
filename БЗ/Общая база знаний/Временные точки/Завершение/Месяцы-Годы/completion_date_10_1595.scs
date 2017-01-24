@@ -1,0 +1,22 @@
+completion_date_10_1595
+=> nrel_main_idtf:
+   [время завершения - октябрь 1595 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - october of 1595]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - кастрычнiк 1595 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1595;;
+   *);
+<- completion_date_1595;;

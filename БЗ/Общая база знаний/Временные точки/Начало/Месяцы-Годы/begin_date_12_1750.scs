@@ -1,0 +1,22 @@
+begin_date_12_1750
+=> nrel_main_idtf:
+   [время начала - декабрь 1750 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1750]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1750 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1750;;
+   *);
+<- begin_date_1750;;

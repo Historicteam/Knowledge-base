@@ -1,0 +1,22 @@
+begin_date_02_1507
+=> nrel_main_idtf:
+   [время начала - февраль 1507 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1507]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1507 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1507;;
+   *);
+<- begin_date_1507;;

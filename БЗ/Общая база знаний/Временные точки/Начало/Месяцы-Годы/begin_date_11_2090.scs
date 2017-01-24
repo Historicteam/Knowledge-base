@@ -1,0 +1,22 @@
+begin_date_11_2090
+=> nrel_main_idtf:
+   [время начала - ноябрь 2090 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - november of 2090]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiстапад 2090 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 2090;;
+   *);
+<- begin_date_2090;;

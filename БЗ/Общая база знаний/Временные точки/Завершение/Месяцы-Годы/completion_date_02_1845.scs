@@ -1,0 +1,22 @@
+completion_date_02_1845
+=> nrel_main_idtf:
+   [время завершения - февраль 1845 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1845]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1845 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1845;;
+   *);
+<- completion_date_1845;;

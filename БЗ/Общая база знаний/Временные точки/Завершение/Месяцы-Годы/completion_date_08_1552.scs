@@ -1,0 +1,22 @@
+completion_date_08_1552
+=> nrel_main_idtf:
+   [время завершения - август 1552 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1552]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1552 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1552;;
+   *);
+<- completion_date_1552;;

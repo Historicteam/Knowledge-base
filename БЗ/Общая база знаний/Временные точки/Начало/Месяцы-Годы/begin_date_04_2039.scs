@@ -1,0 +1,22 @@
+begin_date_04_2039
+=> nrel_main_idtf:
+   [время начала - апрель 2039 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - april of 2039]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - красавiк 2039 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 2039;;
+   *);
+<- begin_date_2039;;

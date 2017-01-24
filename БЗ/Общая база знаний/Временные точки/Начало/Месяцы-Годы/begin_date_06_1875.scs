@@ -1,0 +1,22 @@
+begin_date_06_1875
+=> nrel_main_idtf:
+   [время начала - июнь 1875 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - june of 1875]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - червень 1875 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 1875;;
+   *);
+<- begin_date_1875;;

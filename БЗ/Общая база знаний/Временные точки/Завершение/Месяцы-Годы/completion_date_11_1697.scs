@@ -1,0 +1,22 @@
+completion_date_11_1697
+=> nrel_main_idtf:
+   [время завершения - ноябрь 1697 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 1697]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 1697 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1697;;
+   *);
+<- completion_date_1697;;

@@ -1,0 +1,22 @@
+begin_date_10_1887
+=> nrel_main_idtf:
+   [время начала - октябрь 1887 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - october of 1887]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - кастрычнiк 1887 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1887;;
+   *);
+<- begin_date_1887;;

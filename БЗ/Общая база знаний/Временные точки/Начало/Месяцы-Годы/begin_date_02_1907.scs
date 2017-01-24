@@ -1,0 +1,22 @@
+begin_date_02_1907
+=> nrel_main_idtf:
+   [время начала - февраль 1907 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1907]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1907 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1907;;
+   *);
+<- begin_date_1907;;

@@ -1,0 +1,22 @@
+completion_date_11_1513
+=> nrel_main_idtf:
+   [время завершения - ноябрь 1513 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 1513]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 1513 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1513;;
+   *);
+<- completion_date_1513;;

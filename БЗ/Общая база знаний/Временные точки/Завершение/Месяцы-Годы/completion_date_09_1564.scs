@@ -1,0 +1,22 @@
+completion_date_09_1564
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1564 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1564]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1564 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1564;;
+   *);
+<- completion_date_1564;;

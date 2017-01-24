@@ -1,0 +1,22 @@
+completion_date_04_1876
+=> nrel_main_idtf:
+   [время завершения - апрель 1876 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 1876]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 1876 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1876;;
+   *);
+<- completion_date_1876;;

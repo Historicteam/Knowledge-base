@@ -1,0 +1,22 @@
+completion_date_03_1603
+=> nrel_main_idtf:
+   [время завершения - март 1603 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 1603]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 1603 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1603;;
+   *);
+<- completion_date_1603;;

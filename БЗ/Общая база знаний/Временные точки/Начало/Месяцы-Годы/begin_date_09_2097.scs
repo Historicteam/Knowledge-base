@@ -1,0 +1,22 @@
+begin_date_09_2097
+=> nrel_main_idtf:
+   [время начала - сентябрь 2097 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 2097]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 2097 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 2097;;
+   *);
+<- begin_date_2097;;

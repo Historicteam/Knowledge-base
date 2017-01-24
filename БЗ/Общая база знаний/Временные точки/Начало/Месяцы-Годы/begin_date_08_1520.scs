@@ -1,0 +1,22 @@
+begin_date_08_1520
+=> nrel_main_idtf:
+   [время начала - август 1520 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1520]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1520 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1520;;
+   *);
+<- begin_date_1520;;

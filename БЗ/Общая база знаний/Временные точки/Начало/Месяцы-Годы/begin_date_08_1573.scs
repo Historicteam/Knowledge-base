@@ -1,0 +1,22 @@
+begin_date_08_1573
+=> nrel_main_idtf:
+   [время начала - август 1573 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1573]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1573 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1573;;
+   *);
+<- begin_date_1573;;

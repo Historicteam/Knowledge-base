@@ -1,0 +1,22 @@
+completion_date_09_1940
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1940 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1940]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1940 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1940;;
+   *);
+<- completion_date_1940;;

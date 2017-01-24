@@ -1,0 +1,22 @@
+completion_date_03_2043
+=> nrel_main_idtf:
+   [время завершения - март 2043 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 2043]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 2043 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 2043;;
+   *);
+<- completion_date_2043;;

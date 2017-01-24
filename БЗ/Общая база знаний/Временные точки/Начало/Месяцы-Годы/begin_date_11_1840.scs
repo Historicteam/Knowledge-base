@@ -1,0 +1,22 @@
+begin_date_11_1840
+=> nrel_main_idtf:
+   [время начала - ноябрь 1840 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - november of 1840]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiстапад 1840 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1840;;
+   *);
+<- begin_date_1840;;

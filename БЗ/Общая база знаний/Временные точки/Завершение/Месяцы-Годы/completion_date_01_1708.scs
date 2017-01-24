@@ -1,0 +1,22 @@
+completion_date_01_1708
+=> nrel_main_idtf:
+   [время завершения - январь 1708 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - january of 1708]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - студзень 1708 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 1;;
+   <- number_of_year: 1708;;
+   *);
+<- completion_date_1708;;

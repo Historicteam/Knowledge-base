@@ -1,0 +1,22 @@
+completion_date_08_2033
+=> nrel_main_idtf:
+   [время завершения - август 2033 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 2033]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 2033 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 2033;;
+   *);
+<- completion_date_2033;;

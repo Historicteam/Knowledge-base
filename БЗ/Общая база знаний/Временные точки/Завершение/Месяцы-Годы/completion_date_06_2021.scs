@@ -1,0 +1,22 @@
+completion_date_06_2021
+=> nrel_main_idtf:
+   [время завершения - июнь 2021 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 2021]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 2021 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 2021;;
+   *);
+<- completion_date_2021;;

@@ -1,0 +1,22 @@
+begin_date_08_1865
+=> nrel_main_idtf:
+   [время начала - август 1865 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1865]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1865 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1865;;
+   *);
+<- begin_date_1865;;

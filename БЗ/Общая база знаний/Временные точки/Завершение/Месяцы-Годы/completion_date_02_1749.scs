@@ -1,0 +1,22 @@
+completion_date_02_1749
+=> nrel_main_idtf:
+   [время завершения - февраль 1749 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1749]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1749 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1749;;
+   *);
+<- completion_date_1749;;

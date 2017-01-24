@@ -1,0 +1,22 @@
+completion_date_11_1823
+=> nrel_main_idtf:
+   [время завершения - ноябрь 1823 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 1823]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 1823 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1823;;
+   *);
+<- completion_date_1823;;

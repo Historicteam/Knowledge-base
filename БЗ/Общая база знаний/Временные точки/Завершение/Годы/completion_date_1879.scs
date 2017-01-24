@@ -1,0 +1,20 @@
+completion_date_1879
+=> nrel_main_idtf:
+   [время завершения - 1879]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1879]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1879]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1879;;
+   *);;

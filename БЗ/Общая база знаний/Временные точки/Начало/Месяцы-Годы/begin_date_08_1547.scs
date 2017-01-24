@@ -1,0 +1,22 @@
+begin_date_08_1547
+=> nrel_main_idtf:
+   [время начала - август 1547 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1547]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1547 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1547;;
+   *);
+<- begin_date_1547;;

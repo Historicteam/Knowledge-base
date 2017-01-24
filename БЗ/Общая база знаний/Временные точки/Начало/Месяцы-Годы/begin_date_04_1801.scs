@@ -1,0 +1,22 @@
+begin_date_04_1801
+=> nrel_main_idtf:
+   [время начала - апрель 1801 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - april of 1801]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - красавiк 1801 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1801;;
+   *);
+<- begin_date_1801;;

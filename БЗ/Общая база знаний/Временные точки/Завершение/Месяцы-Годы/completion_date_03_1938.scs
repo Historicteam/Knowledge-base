@@ -1,0 +1,22 @@
+completion_date_03_1938
+=> nrel_main_idtf:
+   [время завершения - март 1938 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 1938]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 1938 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1938;;
+   *);
+<- completion_date_1938;;

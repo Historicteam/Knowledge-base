@@ -1,0 +1,22 @@
+completion_date_07_1884
+=> nrel_main_idtf:
+   [время завершения - июль 1884 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - july of 1884]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiпень 1884 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 1884;;
+   *);
+<- completion_date_1884;;

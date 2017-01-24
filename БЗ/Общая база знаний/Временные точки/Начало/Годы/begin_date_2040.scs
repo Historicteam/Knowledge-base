@@ -1,0 +1,20 @@
+begin_date_2040
+=> nrel_main_idtf:
+   [время начала - 2040]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 2040]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 2040]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 2040;;
+   *);;

@@ -1,0 +1,22 @@
+completion_date_06_2003
+=> nrel_main_idtf:
+   [время завершения - июнь 2003 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 2003]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 2003 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 2003;;
+   *);
+<- completion_date_2003;;

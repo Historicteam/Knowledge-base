@@ -1,0 +1,22 @@
+completion_date_03_2089
+=> nrel_main_idtf:
+   [время завершения - март 2089 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 2089]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 2089 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 2089;;
+   *);
+<- completion_date_2089;;

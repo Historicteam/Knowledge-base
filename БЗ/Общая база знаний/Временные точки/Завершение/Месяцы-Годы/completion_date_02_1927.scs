@@ -1,0 +1,22 @@
+completion_date_02_1927
+=> nrel_main_idtf:
+   [время завершения - февраль 1927 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1927]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1927 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1927;;
+   *);
+<- completion_date_1927;;

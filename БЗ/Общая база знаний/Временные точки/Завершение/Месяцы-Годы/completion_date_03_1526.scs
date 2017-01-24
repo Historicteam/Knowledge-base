@@ -1,0 +1,22 @@
+completion_date_03_1526
+=> nrel_main_idtf:
+   [время завершения - март 1526 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 1526]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 1526 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1526;;
+   *);
+<- completion_date_1526;;

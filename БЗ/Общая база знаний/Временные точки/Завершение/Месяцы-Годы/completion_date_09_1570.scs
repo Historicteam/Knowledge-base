@@ -1,0 +1,22 @@
+completion_date_09_1570
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1570 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1570]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1570 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1570;;
+   *);
+<- completion_date_1570;;

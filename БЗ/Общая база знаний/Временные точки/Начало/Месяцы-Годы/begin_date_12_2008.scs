@@ -1,0 +1,22 @@
+begin_date_12_2008
+=> nrel_main_idtf:
+   [время начала - декабрь 2008 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 2008]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 2008 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 2008;;
+   *);
+<- begin_date_2008;;

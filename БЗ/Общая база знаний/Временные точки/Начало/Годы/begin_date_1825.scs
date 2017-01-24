@@ -1,0 +1,20 @@
+begin_date_1825
+=> nrel_main_idtf:
+   [время начала - 1825]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1825]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1825]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1825;;
+   *);;

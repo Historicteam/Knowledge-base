@@ -1,0 +1,22 @@
+completion_date_11_1979
+=> nrel_main_idtf:
+   [время завершения - ноябрь 1979 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 1979]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 1979 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1979;;
+   *);
+<- completion_date_1979;;

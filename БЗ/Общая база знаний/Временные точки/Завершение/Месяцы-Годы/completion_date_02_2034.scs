@@ -1,0 +1,22 @@
+completion_date_02_2034
+=> nrel_main_idtf:
+   [время завершения - февраль 2034 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 2034]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 2034 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 2034;;
+   *);
+<- completion_date_2034;;

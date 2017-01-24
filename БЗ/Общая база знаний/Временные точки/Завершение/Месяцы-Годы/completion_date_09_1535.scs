@@ -1,0 +1,22 @@
+completion_date_09_1535
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1535 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1535]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1535 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1535;;
+   *);
+<- completion_date_1535;;

@@ -1,0 +1,22 @@
+begin_date_08_1691
+=> nrel_main_idtf:
+   [время начала - август 1691 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1691]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1691 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1691;;
+   *);
+<- begin_date_1691;;

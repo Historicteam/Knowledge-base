@@ -1,0 +1,22 @@
+begin_date_09_1950
+=> nrel_main_idtf:
+   [время начала - сентябрь 1950 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1950]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1950 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1950;;
+   *);
+<- begin_date_1950;;

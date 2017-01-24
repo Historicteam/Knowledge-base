@@ -1,0 +1,22 @@
+completion_date_09_1738
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1738 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1738]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1738 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1738;;
+   *);
+<- completion_date_1738;;

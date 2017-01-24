@@ -1,0 +1,22 @@
+begin_date_06_2008
+=> nrel_main_idtf:
+   [время начала - июнь 2008 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - june of 2008]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - червень 2008 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 2008;;
+   *);
+<- begin_date_2008;;

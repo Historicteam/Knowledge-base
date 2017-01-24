@@ -1,0 +1,22 @@
+completion_date_07_1934
+=> nrel_main_idtf:
+   [время завершения - июль 1934 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - july of 1934]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiпень 1934 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 1934;;
+   *);
+<- completion_date_1934;;

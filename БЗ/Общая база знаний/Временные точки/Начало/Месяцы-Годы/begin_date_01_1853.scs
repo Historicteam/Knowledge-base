@@ -1,0 +1,22 @@
+begin_date_01_1853
+=> nrel_main_idtf:
+   [время начала - январь 1853 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - january of 1853]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - студзень 1853 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 1;;
+   <- number_of_year: 1853;;
+   *);
+<- begin_date_1853;;

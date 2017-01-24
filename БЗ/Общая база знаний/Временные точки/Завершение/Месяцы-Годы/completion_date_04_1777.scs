@@ -1,0 +1,22 @@
+completion_date_04_1777
+=> nrel_main_idtf:
+   [время завершения - апрель 1777 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 1777]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 1777 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1777;;
+   *);
+<- completion_date_1777;;

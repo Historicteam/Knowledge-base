@@ -1,0 +1,22 @@
+begin_date_08_2089
+=> nrel_main_idtf:
+   [время начала - август 2089 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 2089]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 2089 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 2089;;
+   *);
+<- begin_date_2089;;

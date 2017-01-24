@@ -1,0 +1,22 @@
+begin_date_12_2091
+=> nrel_main_idtf:
+   [время начала - декабрь 2091 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 2091]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 2091 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 2091;;
+   *);
+<- begin_date_2091;;

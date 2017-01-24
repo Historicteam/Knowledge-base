@@ -1,0 +1,22 @@
+begin_date_04_1629
+=> nrel_main_idtf:
+   [время начала - апрель 1629 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - april of 1629]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - красавiк 1629 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1629;;
+   *);
+<- begin_date_1629;;

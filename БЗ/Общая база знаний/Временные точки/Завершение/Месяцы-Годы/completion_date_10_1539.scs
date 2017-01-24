@@ -1,0 +1,22 @@
+completion_date_10_1539
+=> nrel_main_idtf:
+   [время завершения - октябрь 1539 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - october of 1539]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - кастрычнiк 1539 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1539;;
+   *);
+<- completion_date_1539;;

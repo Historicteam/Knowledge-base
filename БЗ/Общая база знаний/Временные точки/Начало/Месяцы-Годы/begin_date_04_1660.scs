@@ -1,0 +1,22 @@
+begin_date_04_1660
+=> nrel_main_idtf:
+   [время начала - апрель 1660 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - april of 1660]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - красавiк 1660 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1660;;
+   *);
+<- begin_date_1660;;

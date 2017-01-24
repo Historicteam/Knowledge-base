@@ -1,0 +1,22 @@
+completion_date_04_2063
+=> nrel_main_idtf:
+   [время завершения - апрель 2063 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 2063]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 2063 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 2063;;
+   *);
+<- completion_date_2063;;

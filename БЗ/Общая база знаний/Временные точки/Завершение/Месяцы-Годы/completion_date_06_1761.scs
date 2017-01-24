@@ -1,0 +1,22 @@
+completion_date_06_1761
+=> nrel_main_idtf:
+   [время завершения - июнь 1761 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 1761]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 1761 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 1761;;
+   *);
+<- completion_date_1761;;

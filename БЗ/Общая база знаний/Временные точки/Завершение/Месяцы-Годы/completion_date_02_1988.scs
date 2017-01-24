@@ -1,0 +1,22 @@
+completion_date_02_1988
+=> nrel_main_idtf:
+   [время завершения - февраль 1988 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1988]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1988 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1988;;
+   *);
+<- completion_date_1988;;

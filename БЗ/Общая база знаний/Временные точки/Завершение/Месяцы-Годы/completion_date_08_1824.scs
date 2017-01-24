@@ -1,0 +1,22 @@
+completion_date_08_1824
+=> nrel_main_idtf:
+   [время завершения - август 1824 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1824]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1824 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1824;;
+   *);
+<- completion_date_1824;;

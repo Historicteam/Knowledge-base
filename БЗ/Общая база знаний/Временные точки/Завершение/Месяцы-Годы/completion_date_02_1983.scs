@@ -1,0 +1,22 @@
+completion_date_02_1983
+=> nrel_main_idtf:
+   [время завершения - февраль 1983 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1983]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1983 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1983;;
+   *);
+<- completion_date_1983;;

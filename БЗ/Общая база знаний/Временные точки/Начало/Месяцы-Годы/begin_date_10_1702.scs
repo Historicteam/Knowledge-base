@@ -1,0 +1,22 @@
+begin_date_10_1702
+=> nrel_main_idtf:
+   [время начала - октябрь 1702 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - october of 1702]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - кастрычнiк 1702 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1702;;
+   *);
+<- begin_date_1702;;

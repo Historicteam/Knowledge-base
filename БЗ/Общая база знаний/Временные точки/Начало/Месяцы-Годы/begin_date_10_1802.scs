@@ -1,0 +1,22 @@
+begin_date_10_1802
+=> nrel_main_idtf:
+   [время начала - октябрь 1802 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - october of 1802]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - кастрычнiк 1802 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1802;;
+   *);
+<- begin_date_1802;;

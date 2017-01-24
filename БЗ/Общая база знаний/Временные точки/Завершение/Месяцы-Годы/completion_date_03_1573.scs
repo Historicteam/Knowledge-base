@@ -1,0 +1,22 @@
+completion_date_03_1573
+=> nrel_main_idtf:
+   [время завершения - март 1573 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 1573]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 1573 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1573;;
+   *);
+<- completion_date_1573;;

@@ -1,0 +1,22 @@
+begin_date_09_1880
+=> nrel_main_idtf:
+   [время начала - сентябрь 1880 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1880]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1880 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1880;;
+   *);
+<- begin_date_1880;;

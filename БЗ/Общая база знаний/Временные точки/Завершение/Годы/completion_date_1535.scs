@@ -1,0 +1,20 @@
+completion_date_1535
+=> nrel_main_idtf:
+   [время завершения - 1535]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1535]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1535]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1535;;
+   *);;

@@ -1,0 +1,22 @@
+completion_date_09_1908
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1908 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1908]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1908 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1908;;
+   *);
+<- completion_date_1908;;

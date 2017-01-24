@@ -1,0 +1,20 @@
+begin_date_1952
+=> nrel_main_idtf:
+   [время начала - 1952]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1952]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1952]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1952;;
+   *);;

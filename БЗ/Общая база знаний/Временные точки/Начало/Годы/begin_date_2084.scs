@@ -1,0 +1,20 @@
+begin_date_2084
+=> nrel_main_idtf:
+   [время начала - 2084]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 2084]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 2084]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 2084;;
+   *);;

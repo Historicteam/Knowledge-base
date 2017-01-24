@@ -1,0 +1,66 @@
+begin_date_first_half_of_19_century
+=> nrel_main_idtf:
+   [время начала - первая половина 19 века]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - first part of 19 century]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - першая палова 19 веку]
+   (*
+   <- lang_by;;
+   *);
+<- begin_date_1800;
+<- begin_date_1801;
+<- begin_date_1802;
+<- begin_date_1803;
+<- begin_date_1804;
+<- begin_date_1805;
+<- begin_date_1806;
+<- begin_date_1807;
+<- begin_date_1808;
+<- begin_date_1809;
+<- begin_date_1810;
+<- begin_date_1811;
+<- begin_date_1812;
+<- begin_date_1813;
+<- begin_date_1814;
+<- begin_date_1815;
+<- begin_date_1816;
+<- begin_date_1817;
+<- begin_date_1818;
+<- begin_date_1819;
+<- begin_date_1820;
+<- begin_date_1821;
+<- begin_date_1822;
+<- begin_date_1823;
+<- begin_date_1824;
+<- begin_date_1825;
+<- begin_date_1826;
+<- begin_date_1827;
+<- begin_date_1828;
+<- begin_date_1829;
+<- begin_date_1830;
+<- begin_date_1831;
+<- begin_date_1832;
+<- begin_date_1833;
+<- begin_date_1834;
+<- begin_date_1835;
+<- begin_date_1836;
+<- begin_date_1837;
+<- begin_date_1838;
+<- begin_date_1839;
+<- begin_date_1840;
+<- begin_date_1841;
+<- begin_date_1842;
+<- begin_date_1843;
+<- begin_date_1844;
+<- begin_date_1845;
+<- begin_date_1846;
+<- begin_date_1847;
+<- begin_date_1848;
+<- begin_date_1849;
+<- exact_value;
+<- begin;;

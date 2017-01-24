@@ -1,0 +1,22 @@
+completion_date_11_1550
+=> nrel_main_idtf:
+   [время завершения - ноябрь 1550 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 1550]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 1550 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1550;;
+   *);
+<- completion_date_1550;;

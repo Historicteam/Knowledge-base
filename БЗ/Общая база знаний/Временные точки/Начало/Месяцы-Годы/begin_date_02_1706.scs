@@ -1,0 +1,22 @@
+begin_date_02_1706
+=> nrel_main_idtf:
+   [время начала - февраль 1706 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1706]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1706 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1706;;
+   *);
+<- begin_date_1706;;

@@ -1,0 +1,22 @@
+completion_date_03_1587
+=> nrel_main_idtf:
+   [время завершения - март 1587 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 1587]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 1587 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1587;;
+   *);
+<- completion_date_1587;;

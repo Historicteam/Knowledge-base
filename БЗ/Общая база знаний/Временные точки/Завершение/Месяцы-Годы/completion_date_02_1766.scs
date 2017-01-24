@@ -1,0 +1,22 @@
+completion_date_02_1766
+=> nrel_main_idtf:
+   [время завершения - февраль 1766 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1766]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1766 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1766;;
+   *);
+<- completion_date_1766;;

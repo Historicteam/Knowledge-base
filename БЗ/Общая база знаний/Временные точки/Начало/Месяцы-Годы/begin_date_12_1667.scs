@@ -1,0 +1,22 @@
+begin_date_12_1667
+=> nrel_main_idtf:
+   [время начала - декабрь 1667 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1667]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1667 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1667;;
+   *);
+<- begin_date_1667;;

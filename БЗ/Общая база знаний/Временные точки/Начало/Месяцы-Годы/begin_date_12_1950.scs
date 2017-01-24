@@ -1,0 +1,22 @@
+begin_date_12_1950
+=> nrel_main_idtf:
+   [время начала - декабрь 1950 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1950]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1950 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1950;;
+   *);
+<- begin_date_1950;;

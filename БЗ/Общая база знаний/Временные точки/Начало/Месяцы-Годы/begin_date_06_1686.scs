@@ -1,0 +1,22 @@
+begin_date_06_1686
+=> nrel_main_idtf:
+   [время начала - июнь 1686 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - june of 1686]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - червень 1686 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 1686;;
+   *);
+<- begin_date_1686;;

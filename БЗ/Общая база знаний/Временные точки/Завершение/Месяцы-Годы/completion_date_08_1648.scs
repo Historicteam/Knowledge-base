@@ -1,0 +1,22 @@
+completion_date_08_1648
+=> nrel_main_idtf:
+   [время завершения - август 1648 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1648]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1648 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1648;;
+   *);
+<- completion_date_1648;;

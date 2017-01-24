@@ -1,0 +1,22 @@
+begin_date_12_1658
+=> nrel_main_idtf:
+   [время начала - декабрь 1658 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1658]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1658 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1658;;
+   *);
+<- begin_date_1658;;

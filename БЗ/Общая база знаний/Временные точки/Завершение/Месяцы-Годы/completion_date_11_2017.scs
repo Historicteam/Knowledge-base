@@ -1,0 +1,22 @@
+completion_date_11_2017
+=> nrel_main_idtf:
+   [время завершения - ноябрь 2017 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 2017]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 2017 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 2017;;
+   *);
+<- completion_date_2017;;

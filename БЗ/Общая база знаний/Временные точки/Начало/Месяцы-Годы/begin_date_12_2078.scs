@@ -1,0 +1,22 @@
+begin_date_12_2078
+=> nrel_main_idtf:
+   [время начала - декабрь 2078 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 2078]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 2078 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 2078;;
+   *);
+<- begin_date_2078;;

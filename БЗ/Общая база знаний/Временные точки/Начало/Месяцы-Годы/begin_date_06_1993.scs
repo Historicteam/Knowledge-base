@@ -1,0 +1,22 @@
+begin_date_06_1993
+=> nrel_main_idtf:
+   [время начала - июнь 1993 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - june of 1993]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - червень 1993 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 1993;;
+   *);
+<- begin_date_1993;;

@@ -1,0 +1,22 @@
+begin_date_08_2071
+=> nrel_main_idtf:
+   [время начала - август 2071 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 2071]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 2071 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 2071;;
+   *);
+<- begin_date_2071;;

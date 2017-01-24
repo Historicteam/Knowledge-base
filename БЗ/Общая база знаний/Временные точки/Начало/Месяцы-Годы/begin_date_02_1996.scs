@@ -1,0 +1,22 @@
+begin_date_02_1996
+=> nrel_main_idtf:
+   [время начала - февраль 1996 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1996]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1996 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1996;;
+   *);
+<- begin_date_1996;;

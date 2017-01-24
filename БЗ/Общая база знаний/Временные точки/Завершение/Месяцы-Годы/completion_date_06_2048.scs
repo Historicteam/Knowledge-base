@@ -1,0 +1,22 @@
+completion_date_06_2048
+=> nrel_main_idtf:
+   [время завершения - июнь 2048 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 2048]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 2048 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 2048;;
+   *);
+<- completion_date_2048;;

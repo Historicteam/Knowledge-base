@@ -1,0 +1,22 @@
+begin_date_09_2037
+=> nrel_main_idtf:
+   [время начала - сентябрь 2037 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 2037]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 2037 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 2037;;
+   *);
+<- begin_date_2037;;

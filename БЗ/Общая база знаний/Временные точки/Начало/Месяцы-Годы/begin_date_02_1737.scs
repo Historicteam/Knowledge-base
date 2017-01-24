@@ -1,0 +1,22 @@
+begin_date_02_1737
+=> nrel_main_idtf:
+   [время начала - февраль 1737 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1737]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1737 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1737;;
+   *);
+<- begin_date_1737;;

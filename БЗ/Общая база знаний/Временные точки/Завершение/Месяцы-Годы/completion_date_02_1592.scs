@@ -1,0 +1,22 @@
+completion_date_02_1592
+=> nrel_main_idtf:
+   [время завершения - февраль 1592 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1592]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1592 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1592;;
+   *);
+<- completion_date_1592;;

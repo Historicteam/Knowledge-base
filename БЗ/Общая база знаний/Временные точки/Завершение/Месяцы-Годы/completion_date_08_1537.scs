@@ -1,0 +1,22 @@
+completion_date_08_1537
+=> nrel_main_idtf:
+   [время завершения - август 1537 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1537]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1537 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1537;;
+   *);
+<- completion_date_1537;;

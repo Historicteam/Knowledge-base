@@ -1,0 +1,22 @@
+completion_date_05_1992
+=> nrel_main_idtf:
+   [время завершения - май 1992 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - may of 1992]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - май 1992 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 5;;
+   <- number_of_year: 1992;;
+   *);
+<- completion_date_1992;;

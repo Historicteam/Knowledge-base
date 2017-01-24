@@ -1,0 +1,22 @@
+begin_date_09_1969
+=> nrel_main_idtf:
+   [время начала - сентябрь 1969 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1969]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1969 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1969;;
+   *);
+<- begin_date_1969;;

@@ -1,0 +1,22 @@
+completion_date_05_2021
+=> nrel_main_idtf:
+   [время завершения - май 2021 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - may of 2021]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - май 2021 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 5;;
+   <- number_of_year: 2021;;
+   *);
+<- completion_date_2021;;

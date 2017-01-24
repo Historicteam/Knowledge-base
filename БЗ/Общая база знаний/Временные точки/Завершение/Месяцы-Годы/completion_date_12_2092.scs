@@ -1,0 +1,22 @@
+completion_date_12_2092
+=> nrel_main_idtf:
+   [время завершения - декабрь 2092 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - december of 2092]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - снежань 2092 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 2092;;
+   *);
+<- completion_date_2092;;

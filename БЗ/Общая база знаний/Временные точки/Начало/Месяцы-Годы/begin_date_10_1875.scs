@@ -1,0 +1,22 @@
+begin_date_10_1875
+=> nrel_main_idtf:
+   [время начала - октябрь 1875 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - october of 1875]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - кастрычнiк 1875 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1875;;
+   *);
+<- begin_date_1875;;

@@ -1,0 +1,22 @@
+completion_date_01_1885
+=> nrel_main_idtf:
+   [время завершения - январь 1885 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - january of 1885]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - студзень 1885 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 1;;
+   <- number_of_year: 1885;;
+   *);
+<- completion_date_1885;;

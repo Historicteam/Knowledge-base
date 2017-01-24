@@ -1,0 +1,22 @@
+begin_date_09_1646
+=> nrel_main_idtf:
+   [время начала - сентябрь 1646 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1646]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1646 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1646;;
+   *);
+<- begin_date_1646;;

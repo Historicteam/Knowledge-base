@@ -1,0 +1,22 @@
+begin_date_08_1901
+=> nrel_main_idtf:
+   [время начала - август 1901 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1901]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1901 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1901;;
+   *);
+<- begin_date_1901;;

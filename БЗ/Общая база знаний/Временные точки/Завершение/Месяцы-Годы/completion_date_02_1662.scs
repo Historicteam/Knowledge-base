@@ -1,0 +1,22 @@
+completion_date_02_1662
+=> nrel_main_idtf:
+   [время завершения - февраль 1662 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1662]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1662 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1662;;
+   *);
+<- completion_date_1662;;

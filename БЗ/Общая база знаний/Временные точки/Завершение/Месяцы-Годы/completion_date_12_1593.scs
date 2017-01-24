@@ -1,0 +1,22 @@
+completion_date_12_1593
+=> nrel_main_idtf:
+   [время завершения - декабрь 1593 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - december of 1593]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - снежань 1593 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1593;;
+   *);
+<- completion_date_1593;;

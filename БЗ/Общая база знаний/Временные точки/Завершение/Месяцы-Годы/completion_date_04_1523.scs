@@ -1,0 +1,22 @@
+completion_date_04_1523
+=> nrel_main_idtf:
+   [время завершения - апрель 1523 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 1523]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 1523 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1523;;
+   *);
+<- completion_date_1523;;

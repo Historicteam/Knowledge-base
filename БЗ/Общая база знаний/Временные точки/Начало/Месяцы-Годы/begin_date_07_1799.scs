@@ -1,0 +1,22 @@
+begin_date_07_1799
+=> nrel_main_idtf:
+   [время начала - июль 1799 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 1799]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 1799 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 1799;;
+   *);
+<- begin_date_1799;;

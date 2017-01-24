@@ -1,0 +1,22 @@
+completion_date_01_1681
+=> nrel_main_idtf:
+   [время завершения - январь 1681 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - january of 1681]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - студзень 1681 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 1;;
+   <- number_of_year: 1681;;
+   *);
+<- completion_date_1681;;

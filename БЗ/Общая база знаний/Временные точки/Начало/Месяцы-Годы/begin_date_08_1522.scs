@@ -1,0 +1,22 @@
+begin_date_08_1522
+=> nrel_main_idtf:
+   [время начала - август 1522 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1522]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1522 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1522;;
+   *);
+<- begin_date_1522;;

@@ -1,0 +1,22 @@
+completion_date_08_2099
+=> nrel_main_idtf:
+   [время завершения - август 2099 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 2099]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 2099 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 2099;;
+   *);
+<- completion_date_2099;;

@@ -1,0 +1,22 @@
+begin_date_07_2038
+=> nrel_main_idtf:
+   [время начала - июль 2038 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 2038]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 2038 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 2038;;
+   *);
+<- begin_date_2038;;

@@ -1,0 +1,22 @@
+completion_date_02_1707
+=> nrel_main_idtf:
+   [время завершения - февраль 1707 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1707]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1707 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1707;;
+   *);
+<- completion_date_1707;;

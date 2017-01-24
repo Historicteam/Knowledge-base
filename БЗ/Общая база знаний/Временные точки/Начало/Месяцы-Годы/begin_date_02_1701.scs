@@ -1,0 +1,22 @@
+begin_date_02_1701
+=> nrel_main_idtf:
+   [время начала - февраль 1701 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1701]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1701 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1701;;
+   *);
+<- begin_date_1701;;

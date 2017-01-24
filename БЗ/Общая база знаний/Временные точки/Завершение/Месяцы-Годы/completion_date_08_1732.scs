@@ -1,0 +1,22 @@
+completion_date_08_1732
+=> nrel_main_idtf:
+   [время завершения - август 1732 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1732]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1732 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1732;;
+   *);
+<- completion_date_1732;;

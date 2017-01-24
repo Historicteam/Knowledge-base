@@ -1,0 +1,22 @@
+begin_date_07_1733
+=> nrel_main_idtf:
+   [время начала - июль 1733 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 1733]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 1733 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 1733;;
+   *);
+<- begin_date_1733;;

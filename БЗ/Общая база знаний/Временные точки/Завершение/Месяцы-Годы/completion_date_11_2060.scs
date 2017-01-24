@@ -1,0 +1,22 @@
+completion_date_11_2060
+=> nrel_main_idtf:
+   [время завершения - ноябрь 2060 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 2060]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 2060 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 2060;;
+   *);
+<- completion_date_2060;;

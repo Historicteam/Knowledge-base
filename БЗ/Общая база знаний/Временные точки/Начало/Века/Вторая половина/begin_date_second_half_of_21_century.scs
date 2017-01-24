@@ -1,0 +1,66 @@
+begin_date_second_half_of_21_century
+=> nrel_main_idtf:
+   [время начала - вторая половина 21 века]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - second part of 21 century]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - другая палова 21 веку]
+   (*
+   <- lang_by;;
+   *);
+<- begin_date_2050;
+<- begin_date_2051;
+<- begin_date_2052;
+<- begin_date_2053;
+<- begin_date_2054;
+<- begin_date_2055;
+<- begin_date_2056;
+<- begin_date_2057;
+<- begin_date_2058;
+<- begin_date_2059;
+<- begin_date_2060;
+<- begin_date_2061;
+<- begin_date_2062;
+<- begin_date_2063;
+<- begin_date_2064;
+<- begin_date_2065;
+<- begin_date_2066;
+<- begin_date_2067;
+<- begin_date_2068;
+<- begin_date_2069;
+<- begin_date_2070;
+<- begin_date_2071;
+<- begin_date_2072;
+<- begin_date_2073;
+<- begin_date_2074;
+<- begin_date_2075;
+<- begin_date_2076;
+<- begin_date_2077;
+<- begin_date_2078;
+<- begin_date_2079;
+<- begin_date_2080;
+<- begin_date_2081;
+<- begin_date_2082;
+<- begin_date_2083;
+<- begin_date_2084;
+<- begin_date_2085;
+<- begin_date_2086;
+<- begin_date_2087;
+<- begin_date_2088;
+<- begin_date_2089;
+<- begin_date_2090;
+<- begin_date_2091;
+<- begin_date_2092;
+<- begin_date_2093;
+<- begin_date_2094;
+<- begin_date_2095;
+<- begin_date_2096;
+<- begin_date_2097;
+<- begin_date_2098;
+<- begin_date_2099;
+<- exact_value;
+<- begin;;

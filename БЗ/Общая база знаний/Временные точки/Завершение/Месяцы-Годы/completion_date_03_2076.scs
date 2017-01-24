@@ -1,0 +1,22 @@
+completion_date_03_2076
+=> nrel_main_idtf:
+   [время завершения - март 2076 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 2076]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 2076 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 2076;;
+   *);
+<- completion_date_2076;;

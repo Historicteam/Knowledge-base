@@ -1,0 +1,22 @@
+begin_date_12_1969
+=> nrel_main_idtf:
+   [время начала - декабрь 1969 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1969]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1969 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1969;;
+   *);
+<- begin_date_1969;;

@@ -1,0 +1,22 @@
+completion_date_11_1566
+=> nrel_main_idtf:
+   [время завершения - ноябрь 1566 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 1566]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 1566 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1566;;
+   *);
+<- completion_date_1566;;

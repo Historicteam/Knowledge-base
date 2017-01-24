@@ -1,0 +1,22 @@
+completion_date_02_1533
+=> nrel_main_idtf:
+   [время завершения - февраль 1533 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1533]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1533 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1533;;
+   *);
+<- completion_date_1533;;

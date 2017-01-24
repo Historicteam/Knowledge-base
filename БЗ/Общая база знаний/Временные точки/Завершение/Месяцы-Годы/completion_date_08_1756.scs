@@ -1,0 +1,22 @@
+completion_date_08_1756
+=> nrel_main_idtf:
+   [время завершения - август 1756 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1756]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1756 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1756;;
+   *);
+<- completion_date_1756;;

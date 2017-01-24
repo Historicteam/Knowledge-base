@@ -1,0 +1,22 @@
+completion_date_02_1696
+=> nrel_main_idtf:
+   [время завершения - февраль 1696 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1696]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1696 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1696;;
+   *);
+<- completion_date_1696;;

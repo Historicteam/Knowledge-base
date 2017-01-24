@@ -1,0 +1,22 @@
+completion_date_12_1556
+=> nrel_main_idtf:
+   [время завершения - декабрь 1556 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - december of 1556]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - снежань 1556 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1556;;
+   *);
+<- completion_date_1556;;

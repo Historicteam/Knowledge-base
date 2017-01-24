@@ -1,0 +1,22 @@
+completion_date_06_1805
+=> nrel_main_idtf:
+   [время завершения - июнь 1805 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 1805]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 1805 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 1805;;
+   *);
+<- completion_date_1805;;

@@ -1,0 +1,22 @@
+begin_date_11_1570
+=> nrel_main_idtf:
+   [время начала - ноябрь 1570 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - november of 1570]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiстапад 1570 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1570;;
+   *);
+<- begin_date_1570;;

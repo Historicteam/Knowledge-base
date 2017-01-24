@@ -1,0 +1,22 @@
+completion_date_02_1910
+=> nrel_main_idtf:
+   [время завершения - февраль 1910 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1910]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1910 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1910;;
+   *);
+<- completion_date_1910;;

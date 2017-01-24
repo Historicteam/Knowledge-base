@@ -1,0 +1,22 @@
+completion_date_08_1571
+=> nrel_main_idtf:
+   [время завершения - август 1571 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1571]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1571 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1571;;
+   *);
+<- completion_date_1571;;

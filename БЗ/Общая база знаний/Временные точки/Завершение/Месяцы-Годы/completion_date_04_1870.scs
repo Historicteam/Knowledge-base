@@ -1,0 +1,22 @@
+completion_date_04_1870
+=> nrel_main_idtf:
+   [время завершения - апрель 1870 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 1870]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 1870 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1870;;
+   *);
+<- completion_date_1870;;

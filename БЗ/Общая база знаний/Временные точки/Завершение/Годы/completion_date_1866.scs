@@ -1,0 +1,20 @@
+completion_date_1866
+=> nrel_main_idtf:
+   [время завершения - 1866]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1866]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1866]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1866;;
+   *);;

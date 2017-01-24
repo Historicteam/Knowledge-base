@@ -1,0 +1,22 @@
+completion_date_04_2085
+=> nrel_main_idtf:
+   [время завершения - апрель 2085 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 2085]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 2085 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 2085;;
+   *);
+<- completion_date_2085;;

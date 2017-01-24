@@ -1,0 +1,22 @@
+begin_date_03_2027
+=> nrel_main_idtf:
+   [время начала - март 2027 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - march of 2027]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - сакавiк 2027 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 2027;;
+   *);
+<- begin_date_2027;;

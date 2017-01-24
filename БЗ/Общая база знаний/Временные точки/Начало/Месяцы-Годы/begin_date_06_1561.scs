@@ -1,0 +1,22 @@
+begin_date_06_1561
+=> nrel_main_idtf:
+   [время начала - июнь 1561 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - june of 1561]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - червень 1561 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 1561;;
+   *);
+<- begin_date_1561;;

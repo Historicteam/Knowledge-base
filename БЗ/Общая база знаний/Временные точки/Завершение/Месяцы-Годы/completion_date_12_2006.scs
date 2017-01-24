@@ -1,0 +1,22 @@
+completion_date_12_2006
+=> nrel_main_idtf:
+   [время завершения - декабрь 2006 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - december of 2006]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - снежань 2006 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 2006;;
+   *);
+<- completion_date_2006;;

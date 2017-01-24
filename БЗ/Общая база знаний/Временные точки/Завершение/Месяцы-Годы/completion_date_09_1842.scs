@@ -1,0 +1,22 @@
+completion_date_09_1842
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1842 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1842]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1842 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1842;;
+   *);
+<- completion_date_1842;;

@@ -1,0 +1,22 @@
+completion_date_02_1565
+=> nrel_main_idtf:
+   [время завершения - февраль 1565 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1565]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1565 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1565;;
+   *);
+<- completion_date_1565;;

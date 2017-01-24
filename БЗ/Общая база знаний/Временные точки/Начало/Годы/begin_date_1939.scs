@@ -1,0 +1,20 @@
+begin_date_1939
+=> nrel_main_idtf:
+   [время начала - 1939]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1939]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1939]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1939;;
+   *);;

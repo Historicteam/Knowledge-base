@@ -1,0 +1,22 @@
+begin_date_08_2005
+=> nrel_main_idtf:
+   [время начала - август 2005 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 2005]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 2005 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 2005;;
+   *);
+<- begin_date_2005;;

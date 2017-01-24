@@ -1,0 +1,22 @@
+completion_date_03_2008
+=> nrel_main_idtf:
+   [время завершения - март 2008 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 2008]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 2008 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 2008;;
+   *);
+<- completion_date_2008;;

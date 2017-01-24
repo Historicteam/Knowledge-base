@@ -1,0 +1,22 @@
+completion_date_07_2016
+=> nrel_main_idtf:
+   [время завершения - июль 2016 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - july of 2016]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiпень 2016 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 2016;;
+   *);
+<- completion_date_2016;;

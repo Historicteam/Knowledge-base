@@ -1,0 +1,22 @@
+completion_date_08_1694
+=> nrel_main_idtf:
+   [время завершения - август 1694 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 1694]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 1694 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1694;;
+   *);
+<- completion_date_1694;;

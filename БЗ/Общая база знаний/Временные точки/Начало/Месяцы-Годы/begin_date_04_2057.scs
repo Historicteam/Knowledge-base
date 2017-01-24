@@ -1,0 +1,22 @@
+begin_date_04_2057
+=> nrel_main_idtf:
+   [время начала - апрель 2057 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - april of 2057]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - красавiк 2057 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 2057;;
+   *);
+<- begin_date_2057;;

@@ -1,0 +1,22 @@
+completion_date_08_2070
+=> nrel_main_idtf:
+   [время завершения - август 2070 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - august of 2070]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - жнiвень 2070 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 2070;;
+   *);
+<- completion_date_2070;;

@@ -1,0 +1,66 @@
+completion_date_second_half_of_20_century
+=> nrel_main_idtf:
+   [время завершения - вторая половина 20 века]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - second part of 20 century]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - другая палова 20 веку]
+   (*
+   <- lang_by;;
+   *);
+<- completion_date_1950;
+<- completion_date_1951;
+<- completion_date_1952;
+<- completion_date_1953;
+<- completion_date_1954;
+<- completion_date_1955;
+<- completion_date_1956;
+<- completion_date_1957;
+<- completion_date_1958;
+<- completion_date_1959;
+<- completion_date_1960;
+<- completion_date_1961;
+<- completion_date_1962;
+<- completion_date_1963;
+<- completion_date_1964;
+<- completion_date_1965;
+<- completion_date_1966;
+<- completion_date_1967;
+<- completion_date_1968;
+<- completion_date_1969;
+<- completion_date_1970;
+<- completion_date_1971;
+<- completion_date_1972;
+<- completion_date_1973;
+<- completion_date_1974;
+<- completion_date_1975;
+<- completion_date_1976;
+<- completion_date_1977;
+<- completion_date_1978;
+<- completion_date_1979;
+<- completion_date_1980;
+<- completion_date_1981;
+<- completion_date_1982;
+<- completion_date_1983;
+<- completion_date_1984;
+<- completion_date_1985;
+<- completion_date_1986;
+<- completion_date_1987;
+<- completion_date_1988;
+<- completion_date_1989;
+<- completion_date_1990;
+<- completion_date_1991;
+<- completion_date_1992;
+<- completion_date_1993;
+<- completion_date_1994;
+<- completion_date_1995;
+<- completion_date_1996;
+<- completion_date_1997;
+<- completion_date_1998;
+<- completion_date_1999;
+<- exact_value;
+<- completion;;

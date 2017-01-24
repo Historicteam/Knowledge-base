@@ -1,0 +1,22 @@
+begin_date_09_1736
+=> nrel_main_idtf:
+   [время начала - сентябрь 1736 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1736]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1736 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1736;;
+   *);
+<- begin_date_1736;;

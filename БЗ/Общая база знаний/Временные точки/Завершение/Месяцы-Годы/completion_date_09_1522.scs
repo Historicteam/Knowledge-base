@@ -1,0 +1,22 @@
+completion_date_09_1522
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1522 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1522]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1522 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1522;;
+   *);
+<- completion_date_1522;;

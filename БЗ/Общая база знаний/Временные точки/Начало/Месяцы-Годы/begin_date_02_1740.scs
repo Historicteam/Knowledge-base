@@ -1,0 +1,22 @@
+begin_date_02_1740
+=> nrel_main_idtf:
+   [время начала - февраль 1740 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1740]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1740 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 1740;;
+   *);
+<- begin_date_1740;;

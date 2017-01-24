@@ -1,0 +1,22 @@
+begin_date_02_2079
+=> nrel_main_idtf:
+   [время начала - февраль 2079 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 2079]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 2079 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 2079;;
+   *);
+<- begin_date_2079;;

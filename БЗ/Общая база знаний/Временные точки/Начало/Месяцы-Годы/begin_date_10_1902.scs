@@ -1,0 +1,22 @@
+begin_date_10_1902
+=> nrel_main_idtf:
+   [время начала - октябрь 1902 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - october of 1902]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - кастрычнiк 1902 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1902;;
+   *);
+<- begin_date_1902;;

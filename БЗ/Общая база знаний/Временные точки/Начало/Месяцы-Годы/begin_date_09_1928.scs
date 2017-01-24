@@ -1,0 +1,22 @@
+begin_date_09_1928
+=> nrel_main_idtf:
+   [время начала - сентябрь 1928 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1928]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1928 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1928;;
+   *);
+<- begin_date_1928;;

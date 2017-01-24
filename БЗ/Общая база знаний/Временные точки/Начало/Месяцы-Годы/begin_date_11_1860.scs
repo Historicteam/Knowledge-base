@@ -1,0 +1,22 @@
+begin_date_11_1860
+=> nrel_main_idtf:
+   [время начала - ноябрь 1860 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - november of 1860]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiстапад 1860 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1860;;
+   *);
+<- begin_date_1860;;

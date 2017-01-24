@@ -1,0 +1,22 @@
+begin_date_12_1659
+=> nrel_main_idtf:
+   [время начала - декабрь 1659 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1659]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1659 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1659;;
+   *);
+<- begin_date_1659;;

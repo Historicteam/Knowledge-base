@@ -1,0 +1,22 @@
+completion_date_11_1858
+=> nrel_main_idtf:
+   [время завершения - ноябрь 1858 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 1858]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiстапад 1858 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 1858;;
+   *);
+<- completion_date_1858;;

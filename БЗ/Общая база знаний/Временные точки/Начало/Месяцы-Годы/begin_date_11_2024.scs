@@ -1,0 +1,22 @@
+begin_date_11_2024
+=> nrel_main_idtf:
+   [время начала - ноябрь 2024 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - november of 2024]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiстапад 2024 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 11;;
+   <- number_of_year: 2024;;
+   *);
+<- begin_date_2024;;

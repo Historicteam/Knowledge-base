@@ -1,0 +1,22 @@
+begin_date_08_1713
+=> nrel_main_idtf:
+   [время начала - август 1713 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1713]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1713 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1713;;
+   *);
+<- begin_date_1713;;

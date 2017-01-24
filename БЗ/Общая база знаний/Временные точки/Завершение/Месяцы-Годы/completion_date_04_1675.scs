@@ -1,0 +1,22 @@
+completion_date_04_1675
+=> nrel_main_idtf:
+   [время завершения - апрель 1675 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 1675]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 1675 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1675;;
+   *);
+<- completion_date_1675;;

@@ -1,0 +1,22 @@
+begin_date_05_2051
+=> nrel_main_idtf:
+   [время начала - май 2051 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - may of 2051]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - май 2051 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 5;;
+   <- number_of_year: 2051;;
+   *);
+<- begin_date_2051;;

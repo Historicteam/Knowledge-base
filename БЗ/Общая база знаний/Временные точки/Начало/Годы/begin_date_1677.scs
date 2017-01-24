@@ -1,0 +1,20 @@
+begin_date_1677
+=> nrel_main_idtf:
+   [время начала - 1677]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1677]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1677]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1677;;
+   *);;

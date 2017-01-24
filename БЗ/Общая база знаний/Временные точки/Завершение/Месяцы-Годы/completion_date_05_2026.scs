@@ -1,0 +1,22 @@
+completion_date_05_2026
+=> nrel_main_idtf:
+   [время завершения - май 2026 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - may of 2026]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - май 2026 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 5;;
+   <- number_of_year: 2026;;
+   *);
+<- completion_date_2026;;

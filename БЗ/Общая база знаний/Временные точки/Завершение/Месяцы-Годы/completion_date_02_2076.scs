@@ -1,0 +1,22 @@
+completion_date_02_2076
+=> nrel_main_idtf:
+   [время завершения - февраль 2076 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 2076]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 2076 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 2;;
+   <- number_of_year: 2076;;
+   *);
+<- completion_date_2076;;

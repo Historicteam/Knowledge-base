@@ -1,0 +1,22 @@
+begin_date_12_2048
+=> nrel_main_idtf:
+   [время начала - декабрь 2048 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 2048]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 2048 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 2048;;
+   *);
+<- begin_date_2048;;

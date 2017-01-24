@@ -1,0 +1,22 @@
+begin_date_08_1754
+=> nrel_main_idtf:
+   [время начала - август 1754 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1754]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1754 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1754;;
+   *);
+<- begin_date_1754;;

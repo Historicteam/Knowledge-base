@@ -1,0 +1,22 @@
+begin_date_10_1881
+=> nrel_main_idtf:
+   [время начала - октябрь 1881 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - october of 1881]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - кастрычнiк 1881 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 10;;
+   <- number_of_year: 1881;;
+   *);
+<- begin_date_1881;;

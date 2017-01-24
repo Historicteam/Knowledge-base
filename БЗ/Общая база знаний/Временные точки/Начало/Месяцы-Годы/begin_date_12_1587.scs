@@ -1,0 +1,22 @@
+begin_date_12_1587
+=> nrel_main_idtf:
+   [время начала - декабрь 1587 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1587]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1587 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1587;;
+   *);
+<- begin_date_1587;;

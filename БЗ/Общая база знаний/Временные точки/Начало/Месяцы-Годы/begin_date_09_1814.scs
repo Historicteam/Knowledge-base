@@ -1,0 +1,22 @@
+begin_date_09_1814
+=> nrel_main_idtf:
+   [время начала - сентябрь 1814 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1814]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1814 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 9;;
+   <- number_of_year: 1814;;
+   *);
+<- begin_date_1814;;

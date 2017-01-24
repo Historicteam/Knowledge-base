@@ -1,0 +1,22 @@
+completion_date_04_1807
+=> nrel_main_idtf:
+   [время завершения - апрель 1807 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - april of 1807]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - красавiк 1807 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 4;;
+   <- number_of_year: 1807;;
+   *);
+<- completion_date_1807;;

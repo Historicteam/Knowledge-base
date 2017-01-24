@@ -1,0 +1,22 @@
+begin_date_06_2063
+=> nrel_main_idtf:
+   [время начала - июнь 2063 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - june of 2063]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - червень 2063 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 2063;;
+   *);
+<- begin_date_2063;;

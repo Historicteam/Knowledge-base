@@ -1,0 +1,22 @@
+completion_date_06_1679
+=> nrel_main_idtf:
+   [время завершения - июнь 1679 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 1679]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 1679 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 6;;
+   <- number_of_year: 1679;;
+   *);
+<- completion_date_1679;;

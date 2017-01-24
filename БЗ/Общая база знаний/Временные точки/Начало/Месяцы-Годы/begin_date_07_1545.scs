@@ -1,0 +1,22 @@
+begin_date_07_1545
+=> nrel_main_idtf:
+   [время начала - июль 1545 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 1545]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 1545 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 1545;;
+   *);
+<- begin_date_1545;;

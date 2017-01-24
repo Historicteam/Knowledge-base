@@ -1,0 +1,22 @@
+begin_date_08_1538
+=> nrel_main_idtf:
+   [время начала - август 1538 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1538]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1538 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 1538;;
+   *);
+<- begin_date_1538;;

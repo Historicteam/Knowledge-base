@@ -1,0 +1,22 @@
+completion_date_12_1913
+=> nrel_main_idtf:
+   [время завершения - декабрь 1913 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - december of 1913]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - снежань 1913 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 12;;
+   <- number_of_year: 1913;;
+   *);
+<- completion_date_1913;;

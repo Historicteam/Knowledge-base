@@ -1,0 +1,22 @@
+completion_date_07_1764
+=> nrel_main_idtf:
+   [время завершения - июль 1764 года]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - july of 1764]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - лiпень 1764 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- completion;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 1764;;
+   *);
+<- completion_date_1764;;

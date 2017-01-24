@@ -1,0 +1,22 @@
+begin_date_03_1828
+=> nrel_main_idtf:
+   [время начала - март 1828 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - march of 1828]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - сакавiк 1828 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 3;;
+   <- number_of_year: 1828;;
+   *);
+<- begin_date_1828;;

@@ -1,0 +1,22 @@
+begin_date_07_1958
+=> nrel_main_idtf:
+   [время начала - июль 1958 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 1958]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 1958 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 7;;
+   <- number_of_year: 1958;;
+   *);
+<- begin_date_1958;;

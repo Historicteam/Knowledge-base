@@ -1,0 +1,22 @@
+begin_date_08_2055
+=> nrel_main_idtf:
+   [время начала - август 2055 года]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 2055]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 2055 году]
+   (*
+   <- lang_by;;
+   *);
+ <- exact_value;
+ <- begin;
+ => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: 8;;
+   <- number_of_year: 2055;;
+   *);
+<- begin_date_2055;;
