@@ -25,6 +25,6 @@ concept_complex_construction
 => nrel_inclusion: 
 	...
 	(*
-->concept_constructions;;
+->concept_construction;;
 	*);;
 

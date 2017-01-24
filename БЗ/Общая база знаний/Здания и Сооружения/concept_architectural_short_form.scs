@@ -19,7 +19,7 @@ concept_architectural_short_form
 		...
 		(* 
 		-> 	
-concept_constructions;
+concept_construction;
 concept_structure;;
 		*);;
 	*);;

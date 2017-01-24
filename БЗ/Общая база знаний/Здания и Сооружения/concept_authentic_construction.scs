@@ -18,7 +18,7 @@ concept_authentic_constructions
 	<= nrel_using_constants:
 		...
 		(* 
-		-> 	concept_constructions;;
+		-> 	concept_construction;;
 
 		*);;
 	*);;
