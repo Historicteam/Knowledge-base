@@ -12,78 +12,28 @@ organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communicat
 	(*
 	<- lang_by;;
 	*);
- => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1934];;
-            *);;
-        *);
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1941];;
-            *);;
-        *);
+ <- begin_date_1934;
+    <- completion_date_1941;
 <-concept_formal_organization;
 <-concept_administrative_organization;;
 concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination:organization_of_the_Minsk_provincial_post_and_telegraph_office ;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1899];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);;
+    <- begin_date_1899;;
+    <- completion_date_1917;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination:organization_of_the_First_Minsk_postal_telegraph_office ;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1891];;
-            *);;
-        *);;
+    <- begin_date_1891;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination: organization_of_the_Second_Minsk_postal_telegraph_office;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1914];;
-            *);;
-        *);;
+    <- begin_date_1914;;
 *);;
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications=>nrel_subordination: organization_of_the_Third_Minsk_postal_telegraph_office;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1916];;
-            *);;
-        *);;
+    <- begin_date_1916;;
 *);;
 
 organization_Minsk_Regional_Department_of_Communications_Office_of_the_Commissioner
@@ -104,22 +54,8 @@ organization_Minsk_Regional_Department_of_Communications_Office_of_the_Commissio
 <-concept_administrative_organization;;
 concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_Minsk_Regional_Department_of_Communications_Office_of_the_Commissioner;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1944];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1946];;
-            *);;
-        *);;
+    <- begin_date_1944;;
+    <- completion_date_1946;;
 *);;
 
 organization_Minsk_Regional_Management_Office_of_Communications_Commissioner_at_the_Council_of_Ministers
@@ -140,22 +76,8 @@ organization_Minsk_Regional_Management_Office_of_Communications_Commissioner_at_
 <-concept_administrative_organization;;
 concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_Minsk_Regional_Management_Office_of_Communications_Commissioner_at_the_Council_of_Ministers;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1946];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1954];;
-            *);;
-        *);;
+    <- begin_date_1946;;
+    <- completion_date_1954;;
 *);;
 
 organization_The_Ministry_of_Communications_of_the_BSSR
@@ -176,22 +98,8 @@ organization_The_Ministry_of_Communications_of_the_BSSR
 <-concept_administrative_organization;;
 concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_of_the_BSSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1954];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1990];;
-            *);;
-        *);;
+    <- begin_date_1954;;
+    <- completion_date_1990;;
 *);;
 
 organization_The_Ministry_of_Communications_and_Informatics_of_the_BSSR
@@ -212,22 +120,8 @@ organization_The_Ministry_of_Communications_and_Informatics_of_the_BSSR
 <-concept_administrative_organization;;
 concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_and_Informatics_of_the_BSSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1990];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1997];;
-            *);;
-        *);;
+    <- begin_date_1990;;
+    <- completion_date_1997;;
 *);;
 
 organization_The_Ministry_of_Communications_of_the_Republic_of_Belarus
@@ -248,22 +142,8 @@ organization_The_Ministry_of_Communications_of_the_Republic_of_Belarus
 <-concept_administrative_organization;;
 concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_of_the_Republic_of_Belarus;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1997];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2004];;
-            *);;
-        *);;
+    <- begin_date_1997;;
+    <- completion_date_2004;;
 *);;
 
 organization_The_Ministry_of_Communications_and_Informatics_of_the_Republic_of_Belarus   
@@ -284,14 +164,7 @@ organization_The_Ministry_of_Communications_and_Informatics_of_the_Republic_of_B
 <-concept_administrative_organization;;
 concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications => nrel_temporal_decomposition: organization_The_Ministry_of_Communications_and_Informatics_of_the_Republic_of_Belarus ;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2004];;
-            *);;
-        *);;
+    <- begin_date_2004;;
 *);;
 
 

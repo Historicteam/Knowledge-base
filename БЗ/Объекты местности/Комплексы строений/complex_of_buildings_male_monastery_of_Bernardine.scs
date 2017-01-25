@@ -24,22 +24,8 @@ complex_of_constructions_of_the_male_monastery_of_Bernardine
             building_of_the_Convention
         };;
 	*] (*
-	 => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1630];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1644];;
-                *);;
-            *);;
+	 <- begin_date_1630;;
+        <- completion_date_1644;;
 	*);;
             
    
@@ -54,22 +40,8 @@ complex_of_constructions_of_the_male_monastery_of_Bernardine
             };;
 	*] (*
                 
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1652];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1860];;
-                *);;
-            *);;
+        <- begin_date_1652;;
+        <- completion_date_1860;;
           *);;  
 
 

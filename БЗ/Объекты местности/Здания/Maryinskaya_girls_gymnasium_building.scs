@@ -131,55 +131,19 @@ Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organizatio
 Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_museum_of_communications_Beltelecom;;
 concept_situation->[*^"file://Illustration_Maryinskaya_girls_gymnasium_building_1.scsi"*]
 (*
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1879];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [2006];;
-																			*);;
-						*);;
+	<- begin_date_1879;;
+	<- completion_date_2006;;
 *);;
 concept_situation->[* Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_National_gallery;;*]
 (*
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1939];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1941];;
-																			*);;
-						*);;
+	<- begin_date_1939;;
+	<- completion_date_1941;;
 *);;
 concept_situation->[* Maryinskaya_girls_gymnasium_building <= nrel_location: organization_National_gallery;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения Государственной картинной галереи в здании Мариинской женской гимназии](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1939];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1941];;
-																			*);;
-						*);;
+	<- begin_date_1939;;
+	<- completion_date_1941;;
 *);;
 
 
@@ -187,30 +151,12 @@ concept_situation->[*concept_arch_eclecticism -> Maryinskaya_girls_gymnasium_bui
 (*
     => nrel_main_idtf: 
     [Контур периода времени когда Здание Мариинской Женской Гимназии принадлежало архитектурному стилю эклектизму](*<-lang_ru;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1879];;
-            *);;
-        *);;
+    <- begin_date_1879;;
 *);;
 concept_situation->[*concept_public_building -> Maryinskaya_girls_gymnasium_building;;*]
 (*
     => nrel_main_idtf: 
     [Контур периода времени когда Здание Мариинской Женской Гимназии было жилым](*<-lang_ru;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1888];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1949];;
-            *);;
-        *);;
+    <- begin_date_1888;;
+    <- completion_date_1949;;
 *);;

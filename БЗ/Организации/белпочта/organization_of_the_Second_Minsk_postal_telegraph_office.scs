@@ -12,36 +12,14 @@ organization_of_the_Second_Minsk_postal_telegraph_office
 	(*
 	<- lang_by;;
 	*);
- => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1914];;
-            *);;
-        *);
+ <- begin_date_1914;
 <-concept_formal_organization;
 <-concept_administrative_organization;;
 
 concept_situation->[* organization_of_the_Second_Minsk_postal_telegraph_office => nrel_location: Proshinskogo_House ;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1915];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);;
+    <- begin_date_1915;;
+    <- completion_date_1917;;
 *);;
 
 

@@ -803,297 +803,104 @@ opera_Galka
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_author: collections_Home_Songwriters;;*]
 (*
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1844];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1859];;
-                *);;
-            *);;
+    <- begin_date_1844;;
+    <- completion_date_1859;;
 *);;
 
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Dunin_Marcinkievich_Vincent_Ivanovich;;*]
 (*
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1852];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1872];;
-                *);;
-            *);;
+    <- begin_date_1852;;
+    <- completion_date_1872;;
 *);;
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_conductor:nrel_employee: Vilna_Municipal_Theatre;;*]
 (*
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1850];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1858];;
-																			*);;
-						*);;			
+	<- begin_date_1850;;
+	<- completion_date_1858;;			
 *);;
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_organist: church_of_st_johns;;*]
 (*
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1840];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1858];;
-																			*);;
-
-*);;
+	<- begin_date_1840;;
+	<- completion_date_1858;;
 
 *);;
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Valickij_Alieksandr;;*]
 (*
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1840];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1872];;
-                *);;
-            *);;
+    <- begin_date_1840;;
+    <- completion_date_1872;;
 *);;
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=> nrel_fallen_in_love: Miullier_Alieksandra;;*]
 (*
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1836];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1840];;
-                *);;
-            *);;
+    <- begin_date_1836;;
+    <- completion_date_1840;;
 *);;
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Moniuszkos_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания С.Ч. Монюшко в доме Монюшко](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1831];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1834];;
-																			*);;
-						*);;					
+	<- begin_date_1831;;
+	<- completion_date_1834;;					
 *);;
 
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_teacher: Freyer_August;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко у Августа Фрейера](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1827];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1830];;
-																			*);;
-						*);;					
+	<- begin_date_1827;;
+	<- completion_date_1830;;					
 *);;
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <= nrel_teacher: Rungenhagen_Karl_Friedrich;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко у Карла Рунгенхагена](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1837];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1840];;
-																			*);;
-						*);;					
+	<- begin_date_1837;;
+	<- completion_date_1840;;					
 *);;
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_professor:nrel_employee: organization_institute_Warsaw_Music_Institute;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко у Карла Рунгенхагена](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1864];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1872];;
-																			*);;
-						*);;					
+	<- begin_date_1864;;
+	<- completion_date_1872;;					
 *);;
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Liszt_Franz;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени дружбы между С.Ч. Монюшко и Ференцем Листом](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1858];;
-																			*);;
-						*);;
-						=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1872];;
-																			*);;
-						*);;	
+	<- begin_date_1858;;
+						<- completion_date_1872;;	
 *);;
 
 
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_school_of_PR_in_Warsaw;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко в школе пиаров в Варшаве](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1827];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1830];;
-																			*);;
-						*);;			
+	<- begin_date_1827;;
+	<- completion_date_1830;;			
 *);;
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_Minsk_Male_Gymnasium;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко в минской мужской гимназии](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1830];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1837];;
-																			*);;
-						*);;			
+	<- begin_date_1830;;
+	<- completion_date_1837;;			
 *);;
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Freemason_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания С.Ч. Монюшко в доме масонов](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1843];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1844];;
-																			*);;
-						*);;			
+	<- begin_date_1843;;
+	<- completion_date_1844;;			
 *);;
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich => nrel_dwelling: Muellers_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания С.Ч. Монюшко в доме Мюллеров](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1840];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1858];;
-																			*);;
-						*);;			
+	<- begin_date_1840;;
+	<- completion_date_1858;;			
 *);;
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_conductor:nrel_employee: organization_theater_Warsaw_Big_Teatr;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени работы С.Ч. Монюшко в Большом Варшавском Театре](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1858];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1872];;
-																			*);;
-						*);;			
+	<- begin_date_1858;;
+	<- completion_date_1872;;			
 *);;
 

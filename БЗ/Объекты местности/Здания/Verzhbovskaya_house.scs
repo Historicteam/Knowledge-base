@@ -110,13 +110,7 @@ On the Moskovskaya street, only one stone house preserved from the pre-revolutio
 	*);;
 concept_situation->[*^"file://Illustration_Verzhbovskaya_house.scsi"*]
 (*
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [2016];;
-																			*);;
-						*);;
+	<- completion_date_2016;;
 *);;
 concept_arch_neoclassicism -> Verzhbovskaya_house  ;;
 Verzhbovskaya_house <= nrel_location: organization_City_public_library_of_L_N_Tolstoy;;

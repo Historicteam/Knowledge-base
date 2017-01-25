@@ -38,29 +38,11 @@ building_of_residential_housing_of_male_Bernardine_monastery
             (*
             <= nrel_time_period: ...
                 (*
-                => nrel_start_time: ...
-                    (*
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1644];;
-                        *);;
-                    *);;
-                => nrel_finish_time: ...
-                    (*
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1652];;
-                        *);;
-                    *);;
+                <- begin_date_1644;;
+                <- completion_date_1652;;
                 *);;
             *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1864];;
-                *);;
-            *);;
+        <- completion_date_1864;;
         *);
 
 	building_of_the_Minsk_city_prison
@@ -79,20 +61,8 @@ building_of_residential_housing_of_male_Bernardine_monastery
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1864];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1867];;
-                *);;
-            *);;
+        <- begin_date_1864;;
+        <- completion_date_1867;;
         *);
         
         building_of_the_barracks_and_police_headquarters
@@ -111,20 +81,8 @@ building_of_residential_housing_of_male_Bernardine_monastery
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1867];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
+        <- begin_date_1867;;
+        <- completion_date_1918;;
         *);
         
         building_of_the_Minsk_military_commandant
@@ -143,31 +101,13 @@ building_of_residential_housing_of_male_Bernardine_monastery
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
+        <- begin_date_1918;;
         => nrel_finish_time: ...
             (*
             <= nrel_time_period: ...
                 (*
-                => nrel_start_time: ...
-                    (*
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1990];;
-                        *);;
-                    *);;
-                => nrel_finish_time: ...
-                    (*
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1999];;
-                        *);;
-                    *);;
+                <- begin_date_1990;;
+                <- completion_date_1999;;
                 *);;
             *);;
         *);
@@ -188,13 +128,7 @@ building_of_residential_housing_of_male_Bernardine_monastery
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2014];;
-                *);;
-            *);;
+        <- begin_date_2014;;
         *)
     };
 
@@ -254,20 +188,8 @@ concept_situation->[*
 	*);; 
 	*]
 	(*      
-            => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2007];;
-                *);;
-            *);;
-            => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2020];;
-                *);;
-            *);;
+            <- begin_date_2007;;
+            <- completion_date_2020;;
 	*);;
 
 concept_situation->[*organization_Minsk_city_prison => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;*]
@@ -275,20 +197,8 @@ concept_situation->[*organization_Minsk_city_prison => nrel_location: building_o
     => nrel_main_idtf: 
     [Контур периода времени расположения тюрьмы в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання турмы у будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1864];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1867];;
-                *);;
-            *);;
+    <- begin_date_1864;;
+    <- completion_date_1867;;
 *);;
 
 concept_situation->[*organization_City_Police_Battalion => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;
@@ -297,20 +207,8 @@ concept_situation->[*organization_City_Police_Battalion => nrel_location: buildi
     => nrel_main_idtf: 
     [Контур периода времени казарм и полицейского управления в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання жаўнерняў і паліцэйскага кіравання у будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1867];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
+    <- begin_date_1867;;
+    <- completion_date_1918;;
 *);;
 
 concept_situation->[*organization_military_commander => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;
@@ -319,20 +217,8 @@ concept_situation->[*organization_military_commander => nrel_location: building_
     => nrel_main_idtf: 
     [Контур периода времени расположения военной коммендатуры и военной прокуратуры в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання вайсковай камендатуры і вайсковай пракуратуры у будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1990];;
-                *);;
-            *);;
+    <- begin_date_1918;;
+    <- completion_date_1990;;
 *);;
 
 concept_situation->[*organization_Monastic_hotel => nrel_location: building_of_residential_housing_of_male_Bernardine_monastery;;
@@ -342,12 +228,6 @@ concept_situation->[*organization_Monastic_hotel => nrel_location: building_of_r
     => nrel_main_idtf: 
     [Контур периода времени расположения отеля "Монастырский", ресторана "Лавский", археологического музея в здании жилого корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання гатэля "Манастырскі", рэстарана "Лаўскі", археалагічнага музея ў будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2014];;
-                *);;
-            *);;
+    <- begin_date_2014;;
 *);;
  

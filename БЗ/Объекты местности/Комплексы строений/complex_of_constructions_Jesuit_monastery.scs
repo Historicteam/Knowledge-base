@@ -27,33 +27,12 @@ concept_situation->[*
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1678];;
-                        *);;
-                    *);;
+                    <- begin_date_1678;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1678];;
-                        *);;
-                    *);;
+                    <- completion_date_1678;;
                 *);;
             *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1699];;
-                *);;
-            *);;
+        <- completion_date_1699;;
             
 
                 
@@ -69,22 +48,8 @@ concept_situation->[*
 	The_building_of_the_Jesuit_school
         };;
 *] (*                   
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1699];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1708];;
-                *);;
-            *);;
+        <- begin_date_1699;;
+        <- completion_date_1708;;
             
         *);;
 
@@ -99,22 +64,8 @@ concept_situation->[*
 	The_building_of_the_Mariinsky_Cathedral
         };;
 *] (*     
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1708];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1722];;
-                *);;
-            *);;
+        <- begin_date_1708;;
+        <- completion_date_1722;;
      *);;
 
 concept_situation->[*
@@ -128,22 +79,8 @@ concept_situation->[*
 	The_building_of_the_chapel_of_Felician
         };;
  *] (*                  
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1722];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1732];;
-                *);;
-            *);;
+        <- begin_date_1722;;
+        <- completion_date_1732;;
             
        
             
@@ -162,22 +99,8 @@ concept_situation->[*
 	building_Jesuit_College
         };;   
  *] (*        
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1732];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1738];;
-                *);;
-            *);;
+        <- begin_date_1732;;
+        <- completion_date_1738;;
             
         
             
@@ -197,22 +120,8 @@ concept_situation->[*
 	The_Jesuit_tower_belfry
         };;
  *] (*
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1738];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1745];;
-                *);;
-            *);;
+        <- begin_date_1738;;
+        <- completion_date_1745;;
             
        
             
@@ -233,22 +142,8 @@ complex_of_constructions_Jesuit_monastery
 	The_Jesuit_building_of_the_refectory_and_kitchen
         };;
   *] (*               
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1745];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1747];;
-                *);;
-            *);;
+        <- begin_date_1745;;
+        <- completion_date_1747;;
             
         
             
@@ -269,22 +164,8 @@ complex_of_constructions_Jesuit_monastery
 	The_Jesuit_building_pharmacy_and_laboratory
         };;
    *] (*               
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1747];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1773];;
-                *);;
-            *);;
+        <- begin_date_1747;;
+        <- completion_date_1773;;
             
         
             

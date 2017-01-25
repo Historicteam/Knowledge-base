@@ -101,13 +101,7 @@ Przhelyaskovsky_house
 
 concept_situation->[*^"file://Illustration_Przhelyaskovsky_house_1.scsi"*]
 (*
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [2006];;
-																			*);;
-						*);;
+	<- completion_date_2006;;
 *);;
 Przhelyaskovsky_house <= nrel_location: organization_Minsk_commissioning_of_the_production_site;;
 Przhelyaskovsky_house <= nrel_temporal_decomposition: organization_Minsk_province_public_schools_management;;

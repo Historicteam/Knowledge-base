@@ -48,23 +48,9 @@ the_building_of_the_Dominican_monastery
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1615];;
-                    *);;
-                *);;
+                <- begin_date_1615;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1650];;
-                    *);;
-                *);;
+                <- completion_date_1650;;
             *);;
         *);
 
@@ -83,33 +69,12 @@ the_building_of_the_Dominican_monastery
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1615];;
-                    *);;
-                *);;
+                <- begin_date_1615;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1650];;
-                    *);;
-                *);;
+                <- completion_date_1650;;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1702];;
-            *);;
-        *);;
+    <- completion_date_1702;;
         *);
 
     paraphy_Church_of_the_Holy_Trinity
@@ -119,22 +84,8 @@ the_building_of_the_Dominican_monastery
         [Paraphy Church of the Holy Trinity] (* <- lang_en;; *);
         [Парафіяльны касцёл Найсвяцейшай Тройцы] (* <- lang_by;; *);;
 
-        => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1832];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1840];;
-            *);;
-        *);;
+        <- begin_date_1832;;
+    <- completion_date_1840;;
         *);
 
     minsk_catholic_theological_archdiocese_seminary_since_1844_to_1869
@@ -144,22 +95,8 @@ the_building_of_the_Dominican_monastery
         [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
         [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);;
 
-        => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1844];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1869];;
-            *);;
-        *);;
+        <- begin_date_1844;;
+    <- completion_date_1869;;
     *);
 
     officers_club_building
@@ -169,22 +106,8 @@ the_building_of_the_Dominican_monastery
         [Building of the Officers' Club] (* <- lang_en;; *);
         [Будынак афіцэрскага клуба] (* <- lang_by;; *);;
 
-        => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1869];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1918];;
-            *);;
-        *);;
+        <- begin_date_1869;;
+    <- completion_date_1918;;
         *);
 
     minsk_catholic_theological_archdiocese_seminary_since_10101918_to_1920
@@ -194,22 +117,8 @@ the_building_of_the_Dominican_monastery
         [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
         [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);;
 
-        => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1918];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
+        <- begin_date_1918;;
+    <- completion_date_1920;;
         *)
     };
 
@@ -249,58 +158,22 @@ the_building_of_the_Dominican_monastery
 concept_situation->[*organization_minsk_catholic_threological_archdiocese_seminary => nrel_location: the_building_of_the_Dominican_monastery;;*]
 (*
 => nrel_main_idtf: [Контур периода времени расположения Католической духовной семинарии Минской архидиацезии в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1844];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1869];;
-            *);;
-        *);;
+        <- begin_date_1844;;
+    <- completion_date_1869;;
  *);;    
 
 concept_situation->[*organization_minsk_catholic_threological_archdiocese_seminary => nrel_location: the_building_of_the_Dominican_monastery;;*]
 (*
     => nrel_main_idtf: [Контур периода времени расположения Католической духовной семинарии Минской архидиацезии в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1918];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
+    <- begin_date_1918;;
+    <- completion_date_1920;;
  *);;    
 
 concept_situation->[*organization_oficers_club => nrel_location: the_building_of_the_Dominican_monastery;;*]
 (*
     => nrel_main_idtf: [Контур периода времени расположения Офицерского клуба в здании доминиканского костёла Фомы Аквинского](*<-lang_ru;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1869];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1918];;
-            *);;
-        *);;
+    <- begin_date_1869;;
+    <- completion_date_1918;;
  *);;    
 
 concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church
@@ -321,23 +194,9 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                 (*
                 <= nrel_time_period: ...
                     (*
-                        => nrel_start_time: ...
-                        (*
-                        <-concept_time_point;;
-                        => nrel_translation_in_the_Gregorian_calendar: ...
-                            (*
-                            -> rrel_year: rrel_decimal: [1800];;
-                            *);;
-                        *);;
+                        <- begin_date_1800;;
           
-                        => nrel_finish_time: ...
-                        (*
-                        <-concept_time_point;;          
-                        => nrel_translation_in_the_Gregorian_calendar: ...
-                            (*
-                            -> rrel_year: rrel_decimal: [1899];;
-                            *);;
-                        *);;
+                        <- completion_date_1899;;
                     *);;
                 *);;
 *);;

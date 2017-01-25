@@ -96,20 +96,8 @@ building_of_Bernardine_Church
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1642];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1652];;
-                *);;
-            *);;
+        <- begin_date_1642;;
+        <- completion_date_1652;;
         => nrel_section_base_order:
             Church_of_Saints_Kirill_and_Miefodij;;
         *);
@@ -131,20 +119,8 @@ building_of_Bernardine_Church
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1860];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1870];;
-                *);;
-            *);;
+        <- begin_date_1860;;
+        <- completion_date_1870;;
         => nrel_section_base_order:
             Church_of_the_Holy_Spirit;;
         *);
@@ -175,13 +151,7 @@ building_of_Bernardine_Church
                 -> rrel_monthr: rrel_decimal: [10];;
                 *);;
             *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
+        <- completion_date_1918;;
         => nrel_section_base_order:
             building_of_Minsk_fire_brigade;;
         *);
@@ -202,20 +172,8 @@ building_of_Bernardine_Church
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-		*);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1920];;
-                *);;
-            *);;
+        <- begin_date_1918;;
+        <- completion_date_1920;;
         => nrel_section_base_order:
             Cathedral_of_the_Holy_Spirit;;
         *);
@@ -236,13 +194,7 @@ building_of_Bernardine_Church
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1943];;
-                *);;
-            *);;
+        <- begin_date_1943;;
         *)
     
     };;
@@ -252,20 +204,8 @@ concept_situation->[*organization_Minsk_fire_brigade => nrel_location: building_
     => nrel_main_idtf: 
     [Контур периода времени расположения Минской пожарной команды в здании кафедрального собора Святого Духа](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Мінскай пажарнай каманды ў будынку кафедральнага сабора Святога Духу](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1918];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
+    <- begin_date_1918;;
+    <- completion_date_1920;;
 *);;
 
 concept_situation->[*organization_Minsk_transit_prison => nrel_location: building_of_Bernardine_Church;;*]
@@ -277,33 +217,12 @@ concept_situation->[*organization_Minsk_transit_prison => nrel_location: buildin
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1925];;
-                        *);;
-                    *);;
+                    <- begin_date_1925;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1930];;
-                        *);;
-                    *);;
+                    <- completion_date_1930;;
                 *);;
             *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1940];;
-                *);;
-            *);;
+        <- completion_date_1940;;
  *);;
  
 

@@ -109,13 +109,7 @@ Oskar_Janickij_house
 	*);;
 concept_situation->[*^"file://Illustration_Oskar_Janickij_house.scsi"*]
 (*
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [2016];;
-																			*);;
-						*);;
+	<- completion_date_2016;;
 *);;
 Oskar_Janickij_house <= nrel_location: organization_complex_for_education_on_the_basis_of_the_BSU_Institute_of_retraining_and_advanced_training_of_judges_prosecutors_courts_and_institutions_of_justice;;
 Oskar_Janickij_house <= nrel_location: organization_store_Khleb;;

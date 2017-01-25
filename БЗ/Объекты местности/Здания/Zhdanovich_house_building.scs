@@ -97,436 +97,148 @@ Zhdanovich_house_building
 
 concept_situation->[*Zhdanovich_house_building <= nrel_temporal_decomposition: organization_Hotel_Kronstadt;;*]
 (*
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1910];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1910];;
-																			*);;
-						*);;
+	<- begin_date_1910;;
+	<- completion_date_1910;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_owner: organization_City_housing_subdivision_department_of_the_communal_household_of_the_Minsk_district_executive_committee;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени владения Городского жилищного подотдела отдела коммунального хозяйства Минского окружного исполнительного комитета домом Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1922];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1923];;
-																			*);;
-						*);;
+	<- begin_date_1922;;
+	<- completion_date_1923;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_owner: organization_department_of_the_communal_household_of_the_Minsk_district_executive_committee;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени владения отдела коммунального хозяйства Минского окружного исполнительного комитета домом Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Dairy_shop_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения молочной лавки в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Hotel_Kronstadt;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения Гостиницы "Кронштадт" в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1910];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1910];;
-																			*);;
-						*);;
+	<- begin_date_1910;;
+	<- completion_date_1910;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_grocery_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения бакалейной лавки в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Workshop_binding_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения мастерской (переплетной) в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Workshop_binding_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения мастерской (переплетной) в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Tailor_s_workshop_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения мастерской портного в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Shoemaker_workshop_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения мастерской сапожника в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Shoemaker_workshop_in_the_Zhdanovich_house_2;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения мастерской сапожника(Петровицкого) в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_stall_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения прилавка в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1927];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1928];;
-																			*);;
-						*);;
+	<- begin_date_1927;;
+	<- completion_date_1928;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Red_Belarus_magazine;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения журнала "Красная Беларусь" в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1930];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1930];;
-																			*);;
-						*);;
+	<- begin_date_1930;;
+	<- completion_date_1930;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Skinnery_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения скорняжной мастерской в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_nodding_workshop_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения шапочной мастерской в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Hotel_Petrograd;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения гостиницы "Петроградской" в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Rabkrin;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения рабоче-крестьянской инспекции в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1920];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1922];;
-																			*);;
-						*);;
+	<- begin_date_1920;;
+	<- completion_date_1922;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Special_Department_of_Border_Troops;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения особого отдела пограничных войск в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1920];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1922];;
-																			*);;
-						*);;
+	<- begin_date_1920;;
+	<- completion_date_1922;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Caps_shop_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения магазина шапок в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Bakery_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения булочной в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1918];;
-																			*);;
-						*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Bookstore_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения книжного магазина в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_sewing_workshop_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения швейной мастерской в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_location: organization_Hat_shop_in_the_Zhdanovich_house;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени нахождения шляпной мастерской в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 concept_situation->[*Zhdanovich_house_building <= nrel_dwelling: Laksin_M;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени местожительства Лаксина М. в доме Ждановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1925];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1926];;
-																			*);;
-						*);;
+	<- begin_date_1925;;
+	<- completion_date_1926;;
 *);;
 concept_residential_building ->  Zhdanovich_house_building;;
 concept_lost_constructions ->  Zhdanovich_house_building;;

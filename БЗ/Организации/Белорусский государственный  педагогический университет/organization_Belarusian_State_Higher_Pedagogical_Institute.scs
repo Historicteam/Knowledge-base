@@ -23,14 +23,7 @@ organization_Belarusian_State_Higher_Pedagogical_Institute
             *);;
       *);
 
-=> nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-	*);
+<- completion_date_1936;
 
 =>nrel_abbreviation:
 	[БГПУ]
@@ -68,14 +61,7 @@ concept_situation->[*^"file://description_of_Belarusian_State_Higher_Pedagogical
             -> rrel_year: rrel_decimal: [1931];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-        *);;
+    <- completion_date_1936;;
 *);;
 
 organization_Minsk_State_Pedagogical_Institute_Gorky
@@ -97,15 +83,7 @@ organization_Minsk_State_Pedagogical_Institute_Gorky
 
 concept_situation->[*^"file://description_of_the_Minsk_State_Pedagogical_Institute_Gorky.scsi"*]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-        *);;
+   <- begin_date_1936;;
     => nrel_finish_time: ...
         (*
         <-concept_time_point;;
@@ -120,27 +98,12 @@ concept_situation->[*^"file://description_of_the_Minsk_State_Pedagogical_Institu
 
 concept_situation->[*organization_Belarusian_State_Higher_Pedagogical_Institute=>nrel_location:building_ped;;*]
 (*
- => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1914];;
-            *);;
-        *);;
+ <- begin_date_1914;;
 *);;
 
 concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Minsk_State_Pedagogical_Institute_Gorky;; *]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-        *);;
+   <- begin_date_1936;;
     => nrel_finish_time: ...
         (*
         <-concept_time_point;;
@@ -184,15 +147,7 @@ concept_situation->[*^"file://description_of_the_Belarusian_State_Pedagogical_Un
             -> rrel_year: rrel_decimal: [1993];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+    <- completion_date_1995;;
 *);;
 
 concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Belarusian_State_Pedagogical_University;; *]
@@ -207,15 +162,7 @@ concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute
             -> rrel_year: rrel_decimal: [1993];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+    <- completion_date_1995;;
 *);;
 
 
@@ -238,26 +185,12 @@ organization_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank
 
 concept_situation->[*^"file://description_of_the_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank.scsi"*]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+   <- begin_date_1995;;
 *);;
 
 concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank;; *]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+   <- begin_date_1995;;
 *);;
 
 

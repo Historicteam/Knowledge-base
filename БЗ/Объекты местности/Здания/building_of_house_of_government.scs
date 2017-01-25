@@ -72,20 +72,8 @@ concept_situation->[*organization_Regional_Planning_Commission => nrel_location:
     => nrel_main_idtf: 
     [Контур периода времени расположения  Областной плановой комиссии в здании урпавления](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Абласной планавай камісіі ў будынку Урада](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1935];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1940];;
-            *);;
-        *);;
+    <- begin_date_1935;;
+    <- completion_date_1940;;
 *);
 
 <-concept_building;;
@@ -94,20 +82,8 @@ concept_situation->[*organization_Regional_management_Nargasuchet => nrel_locati
     => nrel_main_idtf: 
     [Контур периода времени расположения  Областного управления "Наргасучета" в здании управления](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Абласнога упраўлення "Наргасучота" ў будынку урада](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1935];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1940];;
-            *);;
-        *);;
+    <- begin_date_1935;;
+    <- completion_date_1940;;
 *);
 
 <-concept_building;;
@@ -116,20 +92,8 @@ concept_situation->[*organization_Regional_management_Upavnarkamzag => nrel_loca
     => nrel_main_idtf: 
     [Контур периода времени расположения  Областного управления "Уповнаркамзага" в здании управления](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Абласнога упраўлення "Упаўнаркамзага" ў будынку урада](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1935];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1940];;
-            *);;
-        *);;
+    <- begin_date_1935;;
+    <- completion_date_1940;;
 *);
 
 <-concept_building;;
@@ -138,18 +102,6 @@ concept_situation->[*organization_depart_zagotzhiv => nrel_location: building_of
     => nrel_main_idtf: 
     [Контур периода времени расположения  Областного отдела "Заготживтного" Минской области в здании управления](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Абласнога аддзелу "Заготжывёлы" Мінскай вобласці ў будынку урада](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1935];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1940];;
-            *);;
-        *);;
+    <- begin_date_1935;;
+    <- completion_date_1940;;
 *);;

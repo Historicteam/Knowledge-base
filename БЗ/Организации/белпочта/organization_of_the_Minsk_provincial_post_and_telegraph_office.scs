@@ -12,22 +12,8 @@ organization_of_the_Minsk_provincial_post_and_telegraph_office
 	(*
 	<- lang_by;;
 	*);
- => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1899];;
-            *);;
-        *);
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);
+ <- begin_date_1899;
+    <- completion_date_1917;
 <-concept_formal_organization;
 <-concept_administrative_organization;;
 
@@ -49,23 +35,8 @@ organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_RSFS
 <-concept_administrative_organization;;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_RSFSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [2];;
-            -> rrel_year: rrel_decimal: [1918];;
-            *);;
-        *);;
+    <- begin_date_1917;;
+    <- completion_date_02_1918;;
 *);;
  
 organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_BSSR
@@ -86,44 +57,13 @@ organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_BSSR
 <-concept_administrative_organization;;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_BSSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [1];;
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [2];;
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
+    <- begin_date_01_1919;;
+    <- completion_date_2_1919;;
 *);;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_BSSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [7];;
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1934];;
-            *);;
-        *);;
+    <- begin_date_07_1920;;
+    <- completion_date_1934;;
 *);;
   
 organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_Lithuania_and_Belarus
@@ -144,24 +84,8 @@ organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_Lith
 <-concept_administrative_organization;;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_Lithuania_and_Belarus;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [2];;
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [7];;
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
+    <- begin_date_02_1919;;
+    <- completion_date_07_1919;;
 *);;
 
 
@@ -183,22 +107,8 @@ organization_Minsk_post_office_of_the_Office_of_Commissioner_of_Communications_o
 <-concept_administrative_organization;;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_office_of_the_Office_of_Commissioner_of_Communications_of_the_USSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1934];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1941];;
-            *);;
-        *);;
+    <- begin_date_1934;;
+    <- completion_date_1941;;
 *);;
 
 
@@ -220,22 +130,8 @@ organization_Minsk_post_office_of_Minsk_Regional_Department_of_Communications_Of
 <-concept_administrative_organization;;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_office_of_Minsk_Regional_Department_of_Communications_Office_of_the_USSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1944];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1946];;
-            *);;
-        *);;
+    <- begin_date_1944;;
+    <- completion_date_1946;;
 *);;
 
 organization_Minsk_post_office_of_Minsk_Regional_Department_of_Communications_Office_of_the_USSR_under_the_Council_of_Ministers_of_the_BSSR
@@ -256,22 +152,8 @@ organization_Minsk_post_office_of_Minsk_Regional_Department_of_Communications_Of
 <-concept_administrative_organization;;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_office_of_Minsk_Regional_Department_of_Communications_Office_of_the_USSR_under_the_Council_of_Ministers_of_the_BSSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1944];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1955];;
-            *);;
-        *);;
+    <- begin_date_1944;;
+    <- completion_date_1955;;
 *);;
 organization_Minsk_post_office_of_the_Ministry_of_Communications_BSSR
 => nrel_main_idtf:
@@ -292,76 +174,27 @@ Minsk post office of the Ministry of Communications BSSR]
 <-concept_administrative_organization;;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_office_of_the_Ministry_of_Communications_BSSR;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1955];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1955];;
-            *);;
-        *);;
+    <- begin_date_1955;;
+    <- completion_date_1955;;
 *);;
 
 
 
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_location: Korkozovichs_House;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1906];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1941];;
-            *);;
-        *);;
+    <- begin_date_1906;;
+    <- completion_date_1941;;
 *);;
 
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_location: house_41_Kirovs_street ;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1944];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1953];;
-            *);;
-        *);;
+    <- begin_date_1944;;
+    <- completion_date_1953;;
 *);;
 
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_location: building_of_the_Minsk_Post_Office;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1953];;
-            *);;
-        *);;
+    <- begin_date_1953;;
 *);; 
 
 
@@ -382,24 +215,8 @@ concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_of
 ->rrel_mechanic:Dalhapolau_Lieu_Jakaulievich;;
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1901];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1901];;
-            *);;
-        *);;
+    <- begin_date_1901;;
+    <- completion_date_1901;;
 *);;
 pers_comp_organization_of_the_organization_of_the_Minsk_provincial_post_and_telegraph_office_1901
 =>nrel_main_idtf:

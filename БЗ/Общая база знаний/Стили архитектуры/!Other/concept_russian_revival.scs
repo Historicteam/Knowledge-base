@@ -8,23 +8,9 @@ concept_russian_revival
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1700];;
-                    *);;
-                *);;
+                <- begin_date_1700;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1710];;
-                    *);;
-                *);;
+                <- completion_date_1710;;
             *);;
         *);
 
@@ -32,23 +18,9 @@ concept_russian_revival
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1790];;
-                    *);;
-                *);;
+                <- begin_date_1790;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1800];;
-                    *);;
-                *);;
+                <- completion_date_1800;;
             *);;
         *);
 

@@ -21,11 +21,4 @@ Legend_of_plan_of_Minsk_1941;
 Image_of_plan_of_Minsk_1941
 };
 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_month: rrel_decimal: [7];;
--> rrel_year: rrel_decimal: [1941];;
-*);;
-*);;
+<- begin_date_7_1941;;

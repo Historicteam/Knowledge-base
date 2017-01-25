@@ -8,23 +8,9 @@ concept_arch_neo_gothic
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1740];;
-                    *);;
-                *);;
+                <- begin_date_1740;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1750];;
-                    *);;
-                *);;
+                <- completion_date_1750;;
             *);;
         *);
 

@@ -207,148 +207,52 @@ Bogdanovich_Adam_Egorovich
 concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_student: organization_shcool_hlopenichi;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения  Адама Богдановича в школе в Хлопеничах ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1868];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1878];;
-																			*);;
-						*);;			
+	<- begin_date_1868;;
+	<- completion_date_1878;;			
 *);;
 concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_student: organization_shcool_Minsl;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения  Адама Богдановича в школе в Минске ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1868];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1878];;
-																			*);;
-						*);;			
+	<- begin_date_1868;;
+	<- completion_date_1878;;			
 *);;
 
 
 concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_uchiliche_minsk;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича учителем 1-го городского училища](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1885];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1891];;
-																			*);;
-						*);;			
+	<- begin_date_1885;;
+	<- completion_date_1891;;			
 *);;
 concept_situation->[*Bogdanovich_Adam_Egorovich => nrel_dwelling: house_of_troickaya_gora;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Адама Богдановича в доме на Троицой горе](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1888];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1890];;
-																			*);;
-						*);;			
+	<- begin_date_1888;;
+	<- completion_date_1890;;			
 *);;
 		
 concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_pozemelni_bank_of_grodno;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича  в Гродненском отделении Крестьянского поземельного банка](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1892];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1896];;
-																			*);;
-						*);;			
+	<- begin_date_1892;;
+	<- completion_date_1896;;			
 *);;	
 concept_situation->[*Bogdanovich_Adam_Egorovich => nrel_dwelling: house_of_sadovoi;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Адама Богдановича в Гродно в доме на Cадовой](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1900];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1902];;
-																			*);;
-						*);;			
+	<- begin_date_1900;;
+	<- completion_date_1902;;			
 *);;
 concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_pozemelni_bank_of_yaroslavl;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича  в Ярославском отделении Крестьянского поземельного банка](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1902];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1907];;
-																			*);;
-						*);;			
+	<- begin_date_1902;;
+	<- completion_date_1907;;			
 *);;	
 concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_museum_yaroclavl;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича в Ярославском государственном музее](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1920];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1931];;
-																			*);;
-						*);;			
+	<- begin_date_1920;;
+	<- completion_date_1931;;			
 *);;	
 

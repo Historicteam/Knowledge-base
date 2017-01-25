@@ -27,33 +27,12 @@ concept_situation->[*
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1647];;
-                        *);;
-                    *);;
+                    <- begin_date_1647;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1682];;
-                        *);;
-                    *);;
+                    <- completion_date_1682;;
                 *);;
             *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1871];;
-                *);;
-            *);;
+        <- completion_date_1871;;
        *);;     
       
 concept_situation->[*
@@ -67,22 +46,8 @@ concept_situation->[*
 	    Stable
         };;	
 *] (*             
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1682];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1871];;
-                *);;
-            *);;
+        <- begin_date_1682;;
+        <- completion_date_1871;;
 	*);;
             
 
@@ -98,18 +63,6 @@ concept_situation->[*
         };;  
 *] (*
 
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1871];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1944];;
-                *);;
-            *);;
+        <- begin_date_1871;;
+        <- completion_date_1944;;
 	*);;

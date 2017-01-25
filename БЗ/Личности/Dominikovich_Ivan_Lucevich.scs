@@ -288,93 +288,33 @@ Lucevich_Ivan_Dominikovich
 concept_situation->[*Lucevich_Ivan_Dominikovich => nrel_dwelling: Vitgorchik_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Янки Купалы в Доме Витгорчика ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1890];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1891];;
-																			*);;
-						*);;			
+	<- begin_date_1890;;
+	<- completion_date_1891;;			
 *);;
 concept_situation->[*Lucevich_Ivan_Dominikovich => nrel_dwelling: Rgecki_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Янки Купалы в Доме Ржецкой на Независимости 31а](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1920];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1927];;
-																			*);;
-						*);;			
+	<- begin_date_1920;;
+	<- completion_date_1927;;			
 *);;
 concept_situation->[*Lucevich_Ivan_Dominikovich => nrel_dwelling: Yanka_Kupala_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Янки Купалы в Доме Янки Купалы](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1927];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1944];;
-																			*);;
-						*);;			
+	<- begin_date_1927;;
+	<- completion_date_1944;;			
 *);;
 concept_situation->[*Lucevich_Ivan_Dominikovich <=nrel_conductor:nrel_employee: organization_Nasha_Niva;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени работы Янки Купалы в  редакции первой белорусской газеты «Наша Ніва»](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1908];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1909];;
-																			*);;
-						*);;			
+	<- begin_date_1908;;
+	<- completion_date_1909;;			
 *);;
 						
 concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_Moscou_univer;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения  Янки Купалы в  Московском городском народном университете ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1915];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1916];;
-																			*);;
-						*);;			
+	<- begin_date_1915;;
+	<- completion_date_1916;;			
 *);;
 
 

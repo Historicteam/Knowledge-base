@@ -8,23 +8,9 @@ concept_arch_constructivism
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1920];;
-                    *);;
-                *);;
+                <- begin_date_1920;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1930];;
-                    *);;
-                *);;
+                <- completion_date_1930;;
             *);;
         *);
 
@@ -32,23 +18,9 @@ concept_arch_constructivism
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1930];;
-                    *);;
-                *);;
+                <- begin_date_1930;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1940];;
-                    *);;
-                *);;
+                <- completion_date_1940;;
             *);;
         *);
 

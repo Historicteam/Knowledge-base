@@ -67,14 +67,7 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_d
             -> rrel_year: rrel_decimal: [1917];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1921];;
-            *);;
-        *);;
+    <- completion_date_1921;;
 *);;
 
 concept_situation->[*^"file://description_of_the_organization_School_for_Blind_Children.scsi"*]
@@ -89,14 +82,7 @@ concept_situation->[*^"file://description_of_the_organization_School_for_Blind_C
             -> rrel_year: rrel_decimal: [1917];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1929];;
-            *);;
-        *);;
+    <- completion_date_1929;;
 *);;
 
 organization_Minsk_school_blindly
@@ -117,22 +103,8 @@ organization_Minsk_school_blindly
 
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_temporal_decomposition: organization_Minsk_school_blindly;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1932];;
-            *);;
-        *);;
+    <- begin_date_1917;;
+    <- completion_date_1932;;
 *);;
 
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: House_Revenskogo;;*]
@@ -187,23 +159,8 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: 
 
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1900];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1915];;
-            *);;
-        *);;
+    <- begin_date_1900;;
+    <- completion_date_1915;;
 *);;
 
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: the_city_of_Meschevsk;;*]
@@ -218,80 +175,24 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: 
             -> rrel_year: rrel_decimal: [1915];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
+    <- completion_date_1919;;
 *);;
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: building_of_school_for_blind;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1929];;
-            *);;
-        *);;
+    <- begin_date_1919;;
+    <- completion_date_1929;;
 *);;
 
 
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: Chyrvony_berah_village;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1929];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1930];;
-            *);;
-        *);;
+    <- begin_date_1929;;
+    <- completion_date_1930;;
 *);;
 concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: the_city_of_Mogilev;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1930];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1941];;
-            *);;
-        *);;
+    <- begin_date_1930;;
+    <- completion_date_1941;;
 *);;
 
 
@@ -311,15 +212,7 @@ concept_situation->[* organization_Minsk_School_for_the_Blind=> pers_comp_organi
             -> rrel_year: rrel_decimal: [1897];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1910];;
-            *);;
-        *);;
+    <- completion_date_1910;;
 *);;
 pers_comp_organization_Minsk_School_for_the_Blind_1897
 =>nrel_main_idtf:
@@ -335,24 +228,8 @@ concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_com
 
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1905];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1908];;
-            *);;
-        *);;
+    <- begin_date_1905;;
+    <- completion_date_1908;;
 *);;
 pers_comp_organization_Minsk_School_for_the_Blind_1905
 =>nrel_main_idtf:
@@ -368,24 +245,8 @@ concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_com
 
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1909];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1910];;
-            *);;
-        *);;
+    <- begin_date_1909;;
+    <- completion_date_1910;;
 *);;
 pers_comp_organization_Minsk_School_for_the_Blind_1909
 =>nrel_main_idtf:
@@ -401,24 +262,8 @@ concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_com
 ->rrel_teacher:Vladzimir_Hrihorjevich_Khiraska;;
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1910];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1915];;
-            *);;
-        *);;
+    <- begin_date_1910;;
+    <- completion_date_1915;;
 *);;
 pers_comp_organization_Minsk_School_for_the_Blind_1910
 =>nrel_main_idtf:
@@ -430,24 +275,8 @@ concept_situation->[*organization_Minsk_School_for_the_Blind => nrel_personal_co
 ->rrel_director:Ivan_Vasiljevich_Hiaorhijeuski;;
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1915];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1915];;
-            *);;
-        *);;
+    <- begin_date_1915;;
+    <- completion_date_1915;;
 *);;
 
 

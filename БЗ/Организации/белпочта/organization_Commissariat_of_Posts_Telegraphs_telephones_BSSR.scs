@@ -38,58 +38,22 @@ organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR
 
 concept_situation->[* organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination:organization_of_the_Minsk_provincial_post_and_telegraph_office ;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1899];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);;
+    <- begin_date_1899;;
+    <- completion_date_1917;;
 *);;
 
 concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination:organization_of_the_First_Minsk_postal_telegraph_office ;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1891];;
-            *);;
-        *);;
+    <- begin_date_1891;;
 *);;
 
 concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination: organization_of_the_Second_Minsk_postal_telegraph_office;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1914];;
-            *);;
-        *);;
+    <- begin_date_1914;;
 *);;
 concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR=>nrel_subordination: organization_of_the_Third_Minsk_postal_telegraph_office;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1916];;
-            *);;
-        *);;
+    <- begin_date_1916;;
 *);;
 
 
@@ -201,15 +165,7 @@ concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BS
             -> rrel_year: rrel_decimal: [1920];;
             *);;
         *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [10];;
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
+    <- completion_date_10_1920;;
 *);;
 
 organization_Peoples_Commissariat_of_Communications_BSSR_Voenrevkoma
@@ -230,24 +186,8 @@ organization_Peoples_Commissariat_of_Communications_BSSR_Voenrevkoma
 <-concept_administrative_organization;;
 concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Peoples_Commissariat_of_Communications_BSSR_Voenrevkoma;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [10];;
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [12];;
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
+    <- begin_date_10_1920;;
+    <- completion_date_12_1920;;
 *);;
 
 organization_Peoples_Commissariat_of_Posts_and_Telegraphs
@@ -268,15 +208,7 @@ organization_Peoples_Commissariat_of_Posts_and_Telegraphs
 <-concept_administrative_organization;;
 concept_situation->[*organization_Commissariat_of_Posts_Telegraphs_telephones_BSSR => nrel_temporal_decomposition: organization_Peoples_Commissariat_of_Posts_and_Telegraphs;;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_month: rrel_decimal: [12];;
-            -> rrel_year: rrel_decimal: [1920];;
-            *);;
-        *);;
+    <- begin_date_12_1920;;
     => nrel_finish_time: ...
         (*
         <-concept_time_point;;

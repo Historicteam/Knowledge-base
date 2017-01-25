@@ -8,23 +8,9 @@ concept_arch_flamboyant
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1400];;
-                    *);;
-                *);;
+                <- begin_date_1400;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1410];;
-                    *);;
-                *);;
+                <- completion_date_1410;;
             *);;
         *);
 
@@ -32,23 +18,9 @@ concept_arch_flamboyant
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1490];;
-                    *);;
-                *);;
+                <- begin_date_1490;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1500];;
-                    *);;
-                *);;
+                <- completion_date_1500;;
             *);;
         *);
 

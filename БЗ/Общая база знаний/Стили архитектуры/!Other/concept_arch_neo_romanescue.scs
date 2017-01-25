@@ -8,23 +8,9 @@ concept_arch_neo_romanescue
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1870];;
-                    *);;
-                *);;
+                <- begin_date_1870;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1880];;
-                    *);;
-                *);;
+                <- completion_date_1880;;
             *);;
         *);
 
@@ -32,23 +18,9 @@ concept_arch_neo_romanescue
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1920];;
-                    *);;
-                *);;
+                <- begin_date_1920;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1930];;
-                    *);;
-                *);;
+                <- completion_date_1930;;
             *);;
         *);
 

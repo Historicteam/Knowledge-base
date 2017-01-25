@@ -215,111 +215,39 @@ Zdanovich_Ivan_Ustinovich
 concept_situation->[*Zdanovich_Ivan_Ustinovich =>nrel_dwelling: Zdanovich_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Ивана Здановича в доме Ивана Здановича](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1891];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1915];;
-																			*);;
-						*);;			
+	<- begin_date_1891;;
+	<- completion_date_1915;;			
 *);;
 concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: organization_Minsk_Hospital;;*]
 (*
 	=> nrel_main_idtf: [Зданович Иван сотрудник Минской больницы Приказа общественного призрения(потом стала Минская Губернской земской больницей) находилась в Здании Свято-троицого монастыря](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1892];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1915];;
-																			*);;
-						*);;			
+	<- begin_date_1892;;
+	<- completion_date_1915;;			
 *);;
 concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: building_school_for_blind;;*]
 (*
 	=> nrel_main_idtf: [Конту периода времени Зданович Иван директор Училища для слепых (1897 -1901-  располагалось в Доме Яницкого, 1901 -1934 гг Здании училища для слепых](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1897];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1915];;
-																			*);;
-						*);;			
+	<- begin_date_1897;;
+	<- completion_date_1915;;			
 *);;
 concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: organization_minsk_woomen_gymnazi;;*]
 (*
 	=> nrel_main_idtf: [Контуp периода времени Зданович Иван сотрудник врач Мариинской женской гимназии (располагалось в Здании мариинской женской гимназии)](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1893];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1904];;
-																			*);;
-						*);;			
+	<- begin_date_1893;;
+	<- completion_date_1904;;			
 *);;
 concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: organization_minskay_rech;;*]
 (*
 	=> nrel_main_idtf: [Контуp периода времени Зданович Иван  сотрудник газеты «Минская речь» располагалась в Доме Вержбовского](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1906];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1912];;
-																			*);;
-						*);;			
+	<- begin_date_1906;;
+	<- completion_date_1912;;			
 *);;
 						
 concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_student: organization_Minsk_Male_Gymnasium;;*]
 (*
 	=> nrel_main_idtf: [Зданович Иван Устинович учащийся Минской мужской гимназии, которая располагалась в то время в Здании минской мужской гимназии. ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1978];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1885];;
-																			*);;
-						*);;			
+	<- begin_date_1978;;
+	<- completion_date_1885;;			
 *);;
 
 

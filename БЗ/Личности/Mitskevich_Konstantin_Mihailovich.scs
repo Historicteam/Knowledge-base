@@ -300,113 +300,41 @@ Mitskevich_Konstantin_Mihailovich
 concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling: Vilgelm_Rusecki_House;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Якуба Коласа в Доме Вильгельма Русецкого ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1921];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1927];;
-																			*);;
-						*);;			
+	<- begin_date_1921;;
+	<- completion_date_1927;;			
 *);;
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: organization_In_Bel_Kult;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени работы Якуба Колоса в здании на ул. Революционной 15, там располагалась Научно-терминологическая комисси, которая затем стала называться Институт белорусской культуры](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1921];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1928];;
-																			*);;
-						*);;			
+	<- begin_date_1921;;
+	<- completion_date_1928;;			
 *);;
 
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee:organization_The_Central_Executive_Committee_of_the_BSSR;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени членства Якуба Колоса ЦІК БССР ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1929];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1931];;
-																			*);;
-						*);;			
+	<- begin_date_1929;;
+	<- completion_date_1931;;			
 *);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: organization_The_Central_Executive_Committee_of_the_BSSR;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени членства Якуба Колоса ЦІК БССР ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1935];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1938];;
-																			*);;
-						*);;			
+	<- begin_date_1935;;
+	<- completion_date_1938;;			
 *);;
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: The_Supreme_Soviet_of_the_BSSR;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени  Якуба Колос депутат верховного совета БССР ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1938];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1956];;
-																			*);;
-						*);;			
+	<- begin_date_1938;;
+	<- completion_date_1956;;			
 *);;
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: The_Supreme_Soviet_of_the_USSR;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени  Якуба Колос депутат верховного совета ССР ](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1938];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_year: rrel_decimal: [1956];;
-																			*);;
-						*);;			
+	<- begin_date_1938;;
+	<- completion_date_1956;;			
 *);;
 
 

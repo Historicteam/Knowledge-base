@@ -8,23 +8,9 @@ concept_arch_romanesque_style
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1000];;
-                    *);;
-                *);;
+                <- begin_date_1000;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1099];;
-                    *);;
-                *);;
+                <- completion_date_1099;;
             *);;
         *);
 
@@ -32,23 +18,9 @@ concept_arch_romanesque_style
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1590];;
-                    *);;
-                *);;
+                <- begin_date_1590;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1600];;
-                    *);;
-                *);;
+                <- completion_date_1600;;
             *);;
         *);
 

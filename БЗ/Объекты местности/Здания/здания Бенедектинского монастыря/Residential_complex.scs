@@ -35,20 +35,8 @@ Residential_complex
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1647];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1871];;
-                *);;
-            *);;
+        <- begin_date_1647;;
+        <- completion_date_1871;;
         *);
         
         
@@ -68,20 +56,8 @@ Residential_complex
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1871];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1944];;
-                *);;
-            *);;
+        <- begin_date_1871;;
+        <- completion_date_1944;;
         *)
     };
 <- rrel_key_sc_element: ...
@@ -128,19 +104,7 @@ concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Resi
     => nrel_main_idtf: 
     [Контур периода времени расположения монастыря бенедектинок в здании жилого корпуса ](*<-lang_ru;;*);;
   
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1647];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1871];;
-            *);;
-        *);;
+    <- begin_date_1647;;
+    <- completion_date_1871;;
 *);;
  
