@@ -12,16 +12,7 @@ organization_of_the_Minsk_Post_and_Telegraph_District
 	(*
 	<- lang_by;;
 	*);
- => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_day: rrel_decimal: [1];;
-	    -> rrel_month: rrel_decimal: [7];;
-            -> rrel_year: rrel_decimal: [1886];;
-            *);;
-        *);
+ <- begin_date_01_07_1886;
     <- completion_date_1919;
 <-concept_formal_organization;
 <-concept_administrative_organization;;

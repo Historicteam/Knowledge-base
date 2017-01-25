@@ -113,14 +113,8 @@ concept_situation->[*
 	*);; 
 	*]
 	(*      
-            <- begin_date_1900;;
-            => nrel_finisih_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2000];;
-                *);;
-            *);;
+        <- begin_date_1900;;
+        <- completion_date_2000;;
 	*);;
 
 concept_situation->[*organization_Minsk_archive  => nrel_location: building_of_the_church_of_St_Joseph;;*]

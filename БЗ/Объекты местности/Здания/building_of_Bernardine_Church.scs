@@ -142,16 +142,9 @@ building_of_Bernardine_Church
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1870];;
-                -> rrel_day: rrel_decimal: [22];;
-                -> rrel_monthr: rrel_decimal: [10];;
-                *);;
-            *);;
+        <- begin_date_22_10_1870;;            
         <- completion_date_1918;;
+        
         => nrel_section_base_order:
             building_of_Minsk_fire_brigade;;
         *);

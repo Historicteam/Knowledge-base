@@ -61,22 +61,5 @@ organization_Minsk_Society_of_Agriculture
 => nrel_employee: Skirmynt_Roman_Alexandrovich;;
 
 organization_Minsk_Society_of_Agriculture
-=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-
--> rrel_day: rrel_decimal: [20];;
--> rrel_month: rrel_decimal: [8];;
--> rrel_year: rrel_decimal: [1876];;
-																			*);;
-						*);
-=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
--> rrel_day: rrel_decimal: [1];;
--> rrel_month: rrel_decimal: [5];;
--> rrel_year: rrel_decimal: [1921];;
-																			*);;
-						*);;
+<- begin_date_20_08_1876;
+<- completion_date_01_05_1921;;

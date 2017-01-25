@@ -30,16 +30,7 @@ Belarusian_State_University
 
 *);
 
-=> nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_day: rrel_decimal: [30];;
-	    -> rrel_month: rrel_decimal: [10];;
-            -> rrel_year: rrel_decimal: [1921];;
-            *);;
-        *);
+<- begin_date_30_10_1921;
 
 
 =>nrel_motto:
