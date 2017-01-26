@@ -18,7 +18,7 @@ organization_Minsk_Male_Gymnasium
 => nrel_student:Konstantin_Mihailovich_Jelski;
 => nrel_student: Tadeusz_Korzon;
 => nrel_student: Janka_Lucina;
-=> nrel_student:Zdanovich_Ivan_Ustinovich; 
+=> nrel_student:Ivan_zdanovich; 
 
 <- rrel_key_sc_element: Explanation_Minsk_Male_Gymnasium
 	(*

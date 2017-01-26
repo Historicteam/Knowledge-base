@@ -118,7 +118,7 @@ concept_situation->[*^"file://description_of_the_Minsk_State_Pedagogical_Institu
         *);;
 *);;
 
-concept_situation->[*organization_Belarusian_State_Higher_Pedagogical_Institute=>nrel_location:building_ped;;*]
+concept_situation->[*organization_Belarusian_State_Higher_Pedagogical_Institute=>nrel_location:bulding_ped;;*]
 (*
  => nrel_start_time: ...
     (*
