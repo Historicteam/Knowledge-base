@@ -12,14 +12,12 @@ subject_domain_of_buildings
     concept_construction;
 
 -> rrel_not_maximum_studied_object_class:
-    xxx;
-    xxx;
-    xxx;
-    xxx;
+    concept_residential_building;
+    concept_public_building;
+    concept_warehousing;
+    concept_civil;
 
 -> rrel_explored_relation:
-	xxx;
-    xxx;
-    xxx;
-    xxx;;
+	nrel_dwelling;
+    nrel_location;;
 

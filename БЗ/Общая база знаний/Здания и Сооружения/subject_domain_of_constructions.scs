@@ -16,18 +16,17 @@ subject_domain_of_constructions
     concept_construction;
 
 -> rrel_not_maximum_studied_object_class:
-    xxx;
-    xxx;
-    xxx;
-    xxx;
+    concept_building;
+    concept_structure;
+    concept_complex_of_buildings;
+    concept_architectural_complex;
 
 -> rrel_explored_non_related_subject_domain_concept:
-    xxx;
-    xxx;
+    concept_architectural_style;
 
 -> rrel_explored_relation:
-	xxx;
-    xxx;
-    xxx;
-    xxx;;
+	nrel_material;
+    nrel_architect;
+    nrel_geographical_location;
+    nrel_owner;;
 
