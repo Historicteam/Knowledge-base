@@ -41,20 +41,8 @@ The_building_of_the_Jesuit_school
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1699];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1773];;
-                *);;
-            *);;
+        <- begin_date_1699;;
+        <- completion_date_1773;;
         *);
 	Sixclasses_school
         (* 
@@ -72,20 +60,8 @@ The_building_of_the_Jesuit_school
             <- lang_by;;
             *);;
             
-        		=> nrel_start_time: ...
-            (*
-           		 => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1773];;
-                *);;
-            *);;
-       			 => nrel_finish_time: ...
-            (*
-          		  => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1799];;
-                *);;
-            *);;
+        		<- begin_date_1773;;
+       			 <- completion_date_1799;;
         *);
 
 	Government_house
@@ -104,20 +80,8 @@ The_building_of_the_Jesuit_school
             <- lang_by;;
             *);;
             
-       			 => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1799];;
-                *);;
-            *);;
-       			 => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1917];;
-                *);;
-            *);;
+       			 <- begin_date_1799;;
+       			 <- completion_date_1917;;
         *);
 	First_House_of_Soviets
         (* 
@@ -135,20 +99,8 @@ The_building_of_the_Jesuit_school
             <- lang_by;;
             *);;
             
-       			 => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1917];;
-                *);;
-            *);;
-       			 => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1968];;
-                *);;
-            *);;
+       			 <- begin_date_1917;;
+       			 <- completion_date_1968;;
         *)
 };
 
@@ -191,20 +143,8 @@ concept_situation->[*organization_sixclasses_school => nrel_location: The_buildi
     => nrel_main_idtf: 
     [Контур периода времени расположения светской шестиклассной школы в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцавання свецкай шасцікласнай школы ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1773];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1799];;
-            *);;
-        *);;
+    <- begin_date_1773;;
+    <- completion_date_1799;;
 *);;
 
 concept_situation->[*Dobrinski_Pavel_Mihailovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -212,20 +152,8 @@ concept_situation->[*Dobrinski_Pavel_Mihailovich => nrel_dwelling: The_building_
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Добринского Павла Михайловича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Добрынскага Паўла Міхайлавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1812];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1815];;
-            *);;
-        *);;
+    <- begin_date_1812;;
+    <- completion_date_1815;;
 *);;
 
 concept_situation->[*Rading_German_Ivanovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -233,20 +161,8 @@ concept_situation->[*Rading_German_Ivanovich => nrel_dwelling: The_building_of_t
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Радинга Германа Ивановича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Радзінга Германа Іванавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1806];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1812];;
-            *);;
-        *);;
+    <- begin_date_1806;;
+    <- completion_date_1812;;
 *);;
 
 concept_situation->[*Sulistrovski_Kazimir_Aloizovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -254,20 +170,8 @@ concept_situation->[*Sulistrovski_Kazimir_Aloizovich => nrel_dwelling: The_build
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Сулистровского Казимира Алоизовича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Сулістроўскага Казіміра Алаізавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1815];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1818];;
-            *);;
-        *);;
+    <- begin_date_1815;;
+    <- completion_date_1818;;
 *);;
 
 concept_situation->[*Korneev_Zaharui_Jakovlevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -275,20 +179,8 @@ concept_situation->[*Korneev_Zaharui_Jakovlevich => nrel_dwelling: The_building_
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Корнеева Захария Яковлевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Карнеева Захарыя Якаўлевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1796];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1806];;
-            *);;
-        *);;
+    <- begin_date_1796;;
+    <- completion_date_1806;;
 *);;
 
 concept_situation->[*Gechan_Gegevich_Vikentii_Ivanovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -296,20 +188,8 @@ concept_situation->[*Gechan_Gegevich_Vikentii_Ivanovich => nrel_dwelling: The_bu
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Гечана-Гечевича Викентия Ивановича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Гечана-Гечэвіча Вікенція Іванавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1818];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1831];;
-            *);;
-        *);;
+    <- begin_date_1818;;
+    <- completion_date_1831;;
 *);;
 
 concept_situation->[*Tsufaev_Kirill_Jakovlevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -317,20 +197,8 @@ concept_situation->[*Tsufaev_Kirill_Jakovlevich => nrel_dwelling: The_building_o
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Тюфяева Кирилла Яковлевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Цюфяева Кірыла Якаўлевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1831];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1831];;
-            *);;
-        *);;
+    <- begin_date_1831;;
+    <- completion_date_1831;;
 *);;
 
 concept_situation->[*Drebush_fon_Alexander_Fedorovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -338,20 +206,8 @@ concept_situation->[*Drebush_fon_Alexander_Fedorovich => nrel_dwelling: The_buil
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Дребуш фон Александра Федоровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Дрэбуш фон Аляксандра Фёдаравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1831];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1835];;
-            *);;
-        *);;
+    <- begin_date_1831;;
+    <- completion_date_1835;;
 *);;
 
 concept_situation->[*Davudov_Serhei_Ivanovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -359,20 +215,8 @@ concept_situation->[*Davudov_Serhei_Ivanovich => nrel_dwelling: The_building_of_
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Давыдова Сергея Иванович в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Давыдава Сяргея Іванавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1835];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1838];;
-            *);;
-        *);;
+    <- begin_date_1835;;
+    <- completion_date_1838;;
 *);;
 
 concept_situation->[*Sushkov_Nikolai_Vasiljevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -380,20 +224,8 @@ concept_situation->[*Sushkov_Nikolai_Vasiljevich => nrel_dwelling: The_building_
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Сушкова Николая Васильевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Сушкова Нікалая Васільевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1838];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1841];;
-            *);;
-        *);;
+    <- begin_date_1838;;
+    <- completion_date_1841;;
 *);;
 
 concept_situation->[*Semenov_Alexei_Vasiljevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -401,20 +233,8 @@ concept_situation->[*Semenov_Alexei_Vasiljevich => nrel_dwelling: The_building_o
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Семенова Алексея Васильевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Семёнава Аляксея Васільевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1844];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1850];;
-            *);;
-        *);;
+    <- begin_date_1844;;
+    <- completion_date_1850;;
 *);;
 
 concept_situation->[*Domelmejer_Gustav_Fedorovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -422,20 +242,8 @@ concept_situation->[*Domelmejer_Gustav_Fedorovich => nrel_dwelling: The_building
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Домелмейерa Густава Федоровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Домелмейера Густава Фёдаравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1842];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1844];;
-            *);;
-        *);;
+    <- begin_date_1842;;
+    <- completion_date_1844;;
 *);;
 
 concept_situation->[*Herheulidzev_Serhei_Anreevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -443,20 +251,8 @@ concept_situation->[*Herheulidzev_Serhei_Anreevich => nrel_dwelling: The_buildin
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Херхеулидзева Сергея Андреевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Херхеўлідзэва Сяргея Андрэевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1850];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1850];;
-            *);;
-        *);;
+    <- begin_date_1850;;
+    <- completion_date_1850;;
 *);;
 
 concept_situation->[*Jafimov_Nikolai_Matveevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -464,20 +260,8 @@ concept_situation->[*Jafimov_Nikolai_Matveevich => nrel_dwelling: The_building_o
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Яфимова Николая Матвеевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Яфімава Мікалая Мацьвеявіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1861];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1861];;
-            *);;
-        *);;
+    <- begin_date_1861;;
+    <- completion_date_1861;;
 *);;
 
 concept_situation->[*Shklarevich_Fedot_Nikolaevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -485,20 +269,8 @@ concept_situation->[*Shklarevich_Fedot_Nikolaevich => nrel_dwelling: The_buildin
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Шкларевичa Федотa Николаевичa в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Шкларэвічa Фядотa Нікалаявіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1850];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1857];;
-            *);;
-        *);;
+    <- begin_date_1850;;
+    <- completion_date_1857;;
 *);;
 
 concept_situation->[*Rosset_Ivan_Andreevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -506,20 +278,8 @@ concept_situation->[*Rosset_Ivan_Andreevich => nrel_dwelling: The_building_of_th
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Россетa Иванa Андреевичa в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Росетa Іванa Андрэевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1857];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1858];;
-            *);;
-        *);;
+    <- begin_date_1857;;
+    <- completion_date_1858;;
 *);;
 
 concept_situation->[*Keller_Eduard_Fedorovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -527,20 +287,8 @@ concept_situation->[*Keller_Eduard_Fedorovich => nrel_dwelling: The_building_of_
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Келлерa Эдуардa Фёдоровичa в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Келерa Эдуардa Фёдаравічa ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1858];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1861];;
-            *);;
-        *);;
+    <- begin_date_1858;;
+    <- completion_date_1861;;
 *);;
 
 concept_situation->[*Kushelev_Serhei_Egorovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -548,20 +296,8 @@ concept_situation->[*Kushelev_Serhei_Egorovich => nrel_dwelling: The_building_of
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Кушелева Сергея Егоровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Кушэлева Сяргея Ягоравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1861];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1862];;
-            *);;
-        *);;
+    <- begin_date_1861;;
+    <- completion_date_1862;;
 *);;
 
 concept_situation->[*Bojevnokov_Andrei_Lvovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -569,20 +305,8 @@ concept_situation->[*Bojevnokov_Andrei_Lvovich => nrel_dwelling: The_building_of
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Божевникова Андрея Львовича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Бажэўнікава Андрэя Львовіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1862];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1864];;
-            *);;
-        *);;
+    <- begin_date_1862;;
+    <- completion_date_1864;;
 *);;
 
 concept_situation->[*Shelgunov_Pavel_Nikonorovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -590,20 +314,8 @@ concept_situation->[*Shelgunov_Pavel_Nikonorovich => nrel_dwelling: The_building
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Шелгунова Павела Никоноровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Шэлгунова Паўла Ніканоравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1864];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1868];;
-            *);;
-        *);;
+    <- begin_date_1864;;
+    <- completion_date_1868;;
 *);;
 
 concept_situation->[*Tokarev_Vladzimir_Nikalaevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -611,20 +323,8 @@ concept_situation->[*Tokarev_Vladzimir_Nikalaevich => nrel_dwelling: The_buildin
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Токарева Владимира Николаевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Токарава Уладзіміра Мікалаевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1869];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1875];;
-            *);;
-        *);;
+    <- begin_date_1869;;
+    <- completion_date_1875;;
 *);;
 
 concept_situation->[*Kasinov_Egor_Alexandrovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -632,20 +332,8 @@ concept_situation->[*Kasinov_Egor_Alexandrovich => nrel_dwelling: The_building_o
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Касинова Егора Александровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Касінава Егора Аляксандравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1868];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1869];;
-            *);;
-        *);;
+    <- begin_date_1868;;
+    <- completion_date_1869;;
 *);;
 
 concept_situation->[*Charukov_Valerii_Ivanovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -653,20 +341,8 @@ concept_situation->[*Charukov_Valerii_Ivanovich => nrel_dwelling: The_building_o
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Чарыкова Валерия Ивановича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Чарыкова Валерыя Іванавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1875];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1879];;
-            *);;
-        *);;
+    <- begin_date_1875;;
+    <- completion_date_1879;;
 *);;
 
 concept_situation->[*Petrov_Alexander_Ivanovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -674,20 +350,8 @@ concept_situation->[*Petrov_Alexander_Ivanovich => nrel_dwelling: The_building_o
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Петрова Александра Ивановича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Пятрова Аляксандра Іванавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1879];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1886];;
-            *);;
-        *);;
+    <- begin_date_1879;;
+    <- completion_date_1886;;
 *);;
 
 concept_situation->[*Trubeckoi_Nikolai_Nikolaevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -695,20 +359,8 @@ concept_situation->[*Trubeckoi_Nikolai_Nikolaevich => nrel_dwelling: The_buildin
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Трубецкова Николая Николаевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Трубецкова Мікалая Мікалаевіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1886];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1902];;
-            *);;
-        *);;
+    <- begin_date_1886;;
+    <- completion_date_1902;;
 *);;
 
 concept_situation->[*Musin_Pushkin_Alexander_Alexandrovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -716,20 +368,8 @@ concept_situation->[*Musin_Pushkin_Alexander_Alexandrovich => nrel_dwelling: The
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Мусин-Пушкина Александра Александровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Мусін-Пушкіна Аляксандра Аляксандравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1902];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1905];;
-            *);;
-        *);;
+    <- begin_date_1902;;
+    <- completion_date_1905;;
 *);;
 
 concept_situation->[*Kurlov_Pavel_Grigorevich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -737,20 +377,8 @@ concept_situation->[*Kurlov_Pavel_Grigorevich => nrel_dwelling: The_building_of_
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Курлова Павла Григорьевича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Курлоў Паўла Рыгор'евіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1905];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1906];;
-            *);;
-        *);;
+    <- begin_date_1905;;
+    <- completion_date_1906;;
 *);;
 
 concept_situation->[*Girs_Alexei_Fedorovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -758,20 +386,8 @@ concept_situation->[*Girs_Alexei_Fedorovich => nrel_dwelling: The_building_of_th
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Гирса Алексея Фёдоровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Гірса Аляксея Фёдаравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1912];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1915];;
-            *);;
-        *);;
+    <- begin_date_1912;;
+    <- completion_date_1915;;
 *);;
 
 concept_situation->[*Erdeli_Jakov_Egorovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -779,20 +395,8 @@ concept_situation->[*Erdeli_Jakov_Egorovich => nrel_dwelling: The_building_of_th
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Эрдели Якова Егоровича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Эрделі Якава Ягоравіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1906];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1912];;
-            *);;
-        *);;
+    <- begin_date_1906;;
+    <- completion_date_1912;;
 *);;
 
 concept_situation->[*Cherniavskii_Andrei_Gavrilovich => nrel_dwelling: The_building_of_the_Jesuit_school;;*]
@@ -800,20 +404,8 @@ concept_situation->[*Cherniavskii_Andrei_Gavrilovich => nrel_dwelling: The_build
     => nrel_main_idtf: 
     [Контур периода времени местожительства губернатора Чернявского Андрея Гавриловича в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцажыхарства губернатара Чэрняўскага Андрэя Гаўрылавіча ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1915];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1916];;
-            *);;
-        *);;
+    <- begin_date_1915;;
+    <- completion_date_1916;;
 *);;
 
 
@@ -825,12 +417,6 @@ concept_situation->[*organization_of_music_school => nrel_location: The_building
     => nrel_main_idtf: 
     [Контур периода времени расположения Республиканской гимназии-колледжа при Белорусской государственной академии музыки в здании иезуитской школы](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Рэспубліканскай гімназіі-каледжа пры Беларускай дзяржаўнай акадэміі музыкі ў будынку езуіцкай школы](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1968];;
-            *);;
-        *);;
+    <- begin_date_1968;;
     
 *);;

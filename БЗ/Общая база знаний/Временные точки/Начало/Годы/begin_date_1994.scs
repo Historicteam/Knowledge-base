@@ -1,0 +1,20 @@
+begin_date_1994
+=> nrel_main_idtf:
+   [время начала - 1994]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1994]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1994]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1994;;
+   *);;

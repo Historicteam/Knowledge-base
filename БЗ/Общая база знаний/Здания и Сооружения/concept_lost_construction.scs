@@ -18,7 +18,7 @@ concept_lost_constructions
 	<= nrel_using_constants:
 		...
 		(* 
-		-> 	concept_constructions;;
+		-> 	concept_construction;;
 		*);;
 	*);;
 

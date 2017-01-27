@@ -50,20 +50,8 @@ building_Jesuit_College
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1732];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1773];;
-                *);;
-            *);;
+        <- begin_date_1732;;
+        <- completion_date_1773;;
 
 *);
 			The_building_of_government_offices
@@ -82,20 +70,8 @@ building_Jesuit_College
 				    <- lang_by;;
 				    *);;
 				    
-				=> nrel_start_time: ...
-				    (*
-				    => nrel_translation_in_the_Gregorian_calendar: ...
-					(*
-					-> rrel_year: rrel_decimal: [1799];;
-					*);;
-				    *);;
-				=> nrel_finish_time: ...
-				    (*
-				    => nrel_translation_in_the_Gregorian_calendar: ...
-					(*
-					-> rrel_year: rrel_decimal: [1852];;
-					*);;
-				    *);;
+				<- begin_date_1799;;
+				<- completion_date_1852;;
 
 			*);
 				The_building_of_treasury_chamber
@@ -114,20 +90,8 @@ building_Jesuit_College
 				    <- lang_by;;
 				    *);;
 				    
-				=> nrel_start_time: ...
-				    (*
-				    => nrel_translation_in_the_Gregorian_calendar: ...
-					(*
-					-> rrel_year: rrel_decimal: [1852];;
-					*);;
-				    *);;
-				=> nrel_finish_time: ...
-				    (*
-				    => nrel_translation_in_the_Gregorian_calendar: ...
-					(*
-					-> rrel_year: rrel_decimal: [1917];;
-					*);;
-				    *);;
+				<- begin_date_1852;;
+				<- completion_date_1917;;
 
 			*)
 };;
@@ -137,20 +101,8 @@ concept_situation->[*organization_government_offices => nrel_location: building_
     => nrel_main_idtf: 
     [Контур периода времени расположения присутственных мест в здании иезуитского коллегиума](*<-lang_ru;;*);
     [Контур перыяду часу месцавання прысутных месц у будынку езуіцкага калегіума](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1799];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1852];;
-            *);;
-        *);;
+    <- begin_date_1799;;
+    <- completion_date_1852;;
 *);;
 
 concept_situation->[*organization_treasury_chamber => nrel_location: building_Jesuit_College;;*]
@@ -158,20 +110,8 @@ concept_situation->[*organization_treasury_chamber => nrel_location: building_Je
     => nrel_main_idtf: 
     [Контур периода времени расположения казенной палаты в здании иезуитского коллегиума](*<-lang_ru;;*);
     [Контур перыяду часу месцавання казённай палаты у будынку езуіцкага калегіума](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1852];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1917];;
-            *);;
-        *);;
+    <- begin_date_1852;;
+    <- completion_date_1917;;
 *);;
 
 concept_situation->[*organization_The_Presidium_of_the_Minsk_city_executive_committee => nrel_location: building_Jesuit_College;;*]
@@ -179,20 +119,8 @@ concept_situation->[*organization_The_Presidium_of_the_Minsk_city_executive_comm
     => nrel_main_idtf: 
     [Контур периода времени расположения Президиума Минского городского исполкома в здании иезуитского коллегиума](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Прэзідыума Мінскага гарадскога выканкама у будынку езуіцкага калегіума](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1919];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1951];;
-            *);;
-        *);;
+    <- begin_date_1919;;
+    <- completion_date_1951;;
 *);;
 
 concept_situation->[*organization_Jesuit_monks_community => nrel_location: building_Jesuit_College;;*]
@@ -200,20 +128,8 @@ concept_situation->[*organization_Jesuit_monks_community => nrel_location: build
     => nrel_main_idtf: 
     [Контур периода времени расположения общины монахов иезуитов в здании иезуитского коллегиума](*<-lang_ru;;*);
     [Контур перыяду часу месцавання абшчыны манахаў езуітаў у будынку езуіцкага калегіума](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1732];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1773];;
-            *);;
-        *);;
+    <- begin_date_1732;;
+    <- completion_date_1773;;
 *);;
 
 

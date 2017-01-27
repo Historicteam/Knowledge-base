@@ -1,0 +1,18 @@
+ui_menu_file_for_bloodline_recovery_agent <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_bloodline_recovery_agent => nrel_main_idtf:
+[Запрос восстановления родословной заданной личности]
+(* <- lang_ru;; *);;
+
+ui_menu_file_for_bloodline_recovery_agent => ui_nrel_command_template:
+	[*
+		question_of_bloodline_recovery _-> ._question_of_bloodline_recovery_instance
+			(*
+			_-> ui_arg_1;;
+			*);;
+		._question_of_bloodline_recovery_instance _<- question;;
+	*];;
+
+ui_menu_file_for_bloodline_recovery_agent => ui_nrel_command_lang_template: 
+	[Запрос восстановления родословной конкретной личности: $ui_arg_1] (* <- lang_ru;; *);
+	[Request of bloodline recovery: $ui_arg_1] (* <- lang_en;; *);;

@@ -1,0 +1,14 @@
+organization_Minsk_province_public_schools_management  
+=> nrel_main_idtf:
+	[Дирекция народних училищ Минской губернии]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk province public schools management]
+	(*
+	<- lang_en;;
+	*);
+        [Дырэкцыя народных вучылішч Мінскай губерніі]
+	(*
+	<- lang_by;;
+	*);;

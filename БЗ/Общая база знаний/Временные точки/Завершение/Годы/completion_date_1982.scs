@@ -1,0 +1,20 @@
+completion_date_1982
+=> nrel_main_idtf:
+   [время завершения - 1982]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1982]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1982]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1982;;
+   *);;

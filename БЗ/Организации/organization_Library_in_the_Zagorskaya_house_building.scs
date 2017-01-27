@@ -1,0 +1,14 @@
+organization_Library_in_the_Zagorskaya_house_building
+=> nrel_main_idtf:
+	[Библиотека в Доме Загорской]
+	(*
+	<- lang_ru;;
+	*);
+        [Library in the Zagorskaya house building]
+	(*
+	<- lang_en;;
+	*);
+        [Бібліятэка ў Доме Загорскай]
+	(*
+	<- lang_by;;
+	*);;

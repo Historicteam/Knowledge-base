@@ -14,11 +14,5 @@ Image_of_fragment_of_map_of_Minsk_1985
 };
 
 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1985];;
-*);;
-*);;
+<- begin_date_1985;;
 

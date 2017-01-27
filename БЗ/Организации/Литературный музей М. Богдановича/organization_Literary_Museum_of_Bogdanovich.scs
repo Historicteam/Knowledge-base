@@ -21,16 +21,7 @@ concept_situation->[*organization_Literary_Museum_of_Bogdanovich=>nrel_transform
 organization_Branch_Literary_Museum_of_Bogdanovich;;*]
 (*
 
- => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_day: rrel_decimal: [1];;
-	    -> rrel_month: rrel_decimal: [4];;
-            -> rrel_year: rrel_decimal: [2014];;
-            *);;
-        *);;
+ <- begin_date_01_04_2014;;
 *);;
 		
 organization_Literary_Museum_of_Bogdanovich
@@ -76,24 +67,8 @@ organization_Literary_Museum_of_Bogdanovich
 concept_situation->[*organization_Literary_Museum_of_Bogdanovich => nrel_location: house_7a_Bogdanovich_street;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения литературного музея им. Богдановича по ул. Богдановича 7А](*<-lang_ru;;*);;
-	=> nrel_start_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_day: rrel_decimal: [19];;
-																				-> rrel_month: rrel_decimal: [9];;
-																				-> rrel_year: rrel_decimal: [1980];;
-																			*);;
-						*);;
-	=> nrel_finish_time: ...
-						(*
-							=> nrel_translation_in_the_Gregorian_calendar: ...
-																			(*
-																				-> rrel_day: rrel_decimal: [1];;
-																				-> rrel_month: rrel_decimal: [4];;
-																				-> rrel_year: rrel_decimal: [2014];;
-																			*);;
-						*);;
+	<- begin_date_19_09_1980;;
+	<- completion_date_01_04_2014;;
 *);;
 
 house_7a_Bogdanovich_street

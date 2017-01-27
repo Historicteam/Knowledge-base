@@ -83,67 +83,21 @@ Image_of_Hutten_Czapsky_Emerickovich
 
 [Image of Hutten-Czapsky Karol' Emerickovich](*<- lang_en;;*);
 
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1860];;
-            -> rrel_month: rrel_decimal: [8];;
-            -> rrel_day: rrel_decimal: [15];;
-            *);;
-        *);;
+<- begin_date_15_08_1860;;
 
 concept_situation -> [*Hutten_Czapsky_Emerickovich<=nrel_member: concept_catholic_church;;*]
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1860];;
-            -> rrel_month: rrel_decimal: [9];;
-            -> rrel_day: rrel_decimal: [6];;
-            *);;
-        *);;
+    <- begin_date_06_09_1860;;
 *);;
 
 concept_situation -> [*Hutten_Czapsky_Emerickovich=>nrel_place_of_study: building_Gymnasium_of_St_Anne;;*]
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1868];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1878];;
-            *);;
-        *);;
+	<- begin_date_1868;;
+    <- completion_date_1878;;
 *);;
 
 concept_situation -> [*Hutten_Czapsky_Emerickovich=>nrel_place_of_study: Imperial_University_of_Dorpat_Building;;*]
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1878];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1882];;
-            *);;
-        *);;
+	<- begin_date_1878;;
+    <- completion_date_1882;;
 *);;

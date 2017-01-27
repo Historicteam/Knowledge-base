@@ -12,25 +12,9 @@ organization_Belarusian_State_Higher_Pedagogical_Institute
 	(*
 	<- lang_by;;
 	*);
-=> nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_day: rrel_decimal: [28];;
-	    -> rrel_month: rrel_decimal: [7];;
-            -> rrel_year: rrel_decimal: [1931];;
-            *);;
-      *);
+<- begin_date_28_07_1931;
 
-=> nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-	*);
+<- completion_date_1936;
 
 =>nrel_abbreviation:
 	[БГПУ]
@@ -58,24 +42,8 @@ organization_Belarusian_State_Higher_Pedagogical_Institute
 
 concept_situation->[*^"file://description_of_Belarusian_State_Higher_Pedagogical_Institute.scsi"*]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_day: rrel_decimal: [28];;
-	    -> rrel_month: rrel_decimal: [7];;
-            -> rrel_year: rrel_decimal: [1931];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-        *);;
+   <- begin_date_28_07_1931;;
+    <- completion_date_1936;;
 *);;
 
 organization_Minsk_State_Pedagogical_Institute_Gorky
@@ -97,60 +65,19 @@ organization_Minsk_State_Pedagogical_Institute_Gorky
 
 concept_situation->[*^"file://description_of_the_Minsk_State_Pedagogical_Institute_Gorky.scsi"*]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	-> rrel_day: rrel_decimal: [8];;
-	    -> rrel_month: rrel_decimal: [9];;
-            -> rrel_year: rrel_decimal: [1993];;
-            *);;
-        *);;
+   <- begin_date_1936;;
+    <- completion_date_08_09_1993;;
 *);;
 
 concept_situation->[*organization_Belarusian_State_Higher_Pedagogical_Institute=>nrel_location:bulding_ped;;*]
 (*
- => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1914];;
-            *);;
-        *);;
+ <- begin_date_1914;;
 *);;
 
 concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Minsk_State_Pedagogical_Institute_Gorky;; *]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-
-            -> rrel_year: rrel_decimal: [1936];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	-> rrel_day: rrel_decimal: [8];;
-	    -> rrel_month: rrel_decimal: [9];;
-            -> rrel_year: rrel_decimal: [1993];;
-            *);;
-        *);;
+   <- begin_date_1936;;
+    <- completion_date_08_09_1993;;
 *);;
 
 
@@ -174,48 +101,14 @@ organization_Belarusian_State_Pedagogical_University
 
 concept_situation->[*^"file://description_of_the_Belarusian_State_Pedagogical_University.scsi"*]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	-> rrel_day: rrel_decimal: [8];;
-	    -> rrel_month: rrel_decimal: [9];;
-            -> rrel_year: rrel_decimal: [1993];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+   <- begin_date_08_09_1993;;
+    <- completion_date_1995;;
 *);;
 
 concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Belarusian_State_Pedagogical_University;; *]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	-> rrel_day: rrel_decimal: [8];;
-	    -> rrel_month: rrel_decimal: [9];;
-            -> rrel_year: rrel_decimal: [1993];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
- 	
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+   <- begin_date_08_09_1993;;
+    <- completion_date_1995;;
 *);;
 
 
@@ -238,26 +131,12 @@ organization_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank
 
 concept_situation->[*^"file://description_of_the_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank.scsi"*]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+   <- begin_date_1995;;
 *);;
 
 concept_situation->[* organization_Belarusian_State_Higher_Pedagogical_Institute<= nrel_temporal_decomposition: organization_Belarusian_State_Pedagogical_University_named_after_Maxim_Tank;; *]
 (*
-   => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+   <- begin_date_1995;;
 *);;
 
 

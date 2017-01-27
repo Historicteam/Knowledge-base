@@ -1,0 +1,20 @@
+completion_date_2017
+=> nrel_main_idtf:
+   [время завершения - 2017]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 2017]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 2017]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 2017;;
+   *);;

@@ -1,0 +1,14 @@
+Belyatskaya_Alena_Nikolaevna
+=> nrel_main_idtf:
+        [Беляцкая Алена Николаевна]	
+        (*
+	<- lang_ru;;
+	*);
+	[Belyatskaya Alena Nikolaevna]
+	(*
+	<- lang_en;;
+	*);
+	[Бяляцкая Алена Мікалаеўна]
+	(*
+	<- lang_by;;
+	*);;

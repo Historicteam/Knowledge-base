@@ -1,0 +1,20 @@
+begin_date_1799
+=> nrel_main_idtf:
+   [время начала - 1799]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1799]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1799]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1799;;
+   *);;

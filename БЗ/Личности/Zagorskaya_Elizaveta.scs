@@ -1,0 +1,14 @@
+Zagorskaya_Elizaveta
+=> nrel_main_idtf:
+        [Загорская Елизавета]	
+        (*
+	<- lang_ru;;
+	*);
+	[Zagorskaya Elizaveta]
+	(*
+	<- lang_en;;
+	*);
+	[Загорская Лізавета]
+	(*
+	<- lang_by;;
+	*);;

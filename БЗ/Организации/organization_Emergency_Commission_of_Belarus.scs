@@ -1,0 +1,14 @@
+organization_Emergency_Commission_of_Belarus
+=> nrel_main_idtf:
+	[ЧК Беларуси]
+	(*
+	<- lang_ru;;
+	*);
+        [Emergency Commission of Belarus]
+	(*
+	<- lang_en;;
+	*);
+        [ЧК Беларусі]
+	(*
+	<- lang_by;;
+	*);;

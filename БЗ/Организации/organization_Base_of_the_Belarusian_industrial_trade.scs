@@ -1,0 +1,14 @@
+organization_Base_of_the_Belarusian_industrial_trade
+=> nrel_main_idtf:
+	[База "Белпромторг"]
+	(*
+	<- lang_ru;;
+	*);
+        [Base of the Belarusian industrial trade]
+	(*
+	<- lang_en;;
+	*);
+        [База "Белпрамграндаль"]
+	(*
+	<- lang_by;;
+	*);;

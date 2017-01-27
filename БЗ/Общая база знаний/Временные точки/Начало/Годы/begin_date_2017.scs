@@ -1,0 +1,20 @@
+begin_date_2017
+=> nrel_main_idtf:
+   [время начала - 2017]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 2017]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 2017]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 2017;;
+   *);;

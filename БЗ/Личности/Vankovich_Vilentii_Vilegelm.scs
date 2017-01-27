@@ -1,0 +1,253 @@
+Vankovich_Vilentii_Vilegelm
+=> nrel_main_idtf:
+	[Ванькович Валентий-Вильгельм]
+	(*
+	<- lang_ru;;
+	*);
+	[Ваньковіч Валенцій-Вільгельм]
+	(*
+	<- lang_en;;
+	*);
+	[Vankovich Valenty William]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+=>nrel_first_name: name_Vilentii;
+
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://800px-Walenty_wankowicz.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<=nrel_author: Adam_Mickiewicz1
+	(*
+	=> nrel_main_idtf:
+		[Картина: Адам Мицкевич,1827-1828]
+		(*
+			<- lang_ru;;
+		*);
+		[Picture: Adam Mickiewicz, 1827-1828]
+		(*
+			<- lang_en;;
+		*);
+		[Карціна: Адам Міцкевіч, 1827-1828]
+		(*
+			<- lang_by;;
+		*);;
+<- rrel_key_sc_element: ...
+(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Adam_Mickiewicz.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+
+
+	
+<=nrel_author: Walenty_Wankowicz_Kobieta
+	(*
+	=> nrel_main_idtf:
+		[Картина:Женщина раскладывает пасьянс, 1829]
+		(*
+			<- lang_ru;;
+		*);
+		[Picture:Woman lays Solitaire 1829]
+		(*
+			<- lang_en;;
+		*);
+		[Карціна:Жанчына раскладвае пас'янс, 1829]
+		(*
+			<- lang_by;;
+		*);;
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Walenty_Wankowicz_Kobieta_układajaca_pasjansa_1829.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+	
+<=nrel_author: kowicz_Andrzej
+	(*
+	=> nrel_main_idtf:
+		[Картина:Андрей Товянский, ок.1830]
+		(*
+			<- lang_ru;;
+		*);
+		[Picture:Andrew Tovyansky, ok.1830]
+		(*
+			<- lang_en;;
+		*);
+		[Карціна:Андрэй Тавінскі, ок.1830]
+		(*
+			<- lang_by;;
+		*);;
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Wańkowicz_Andrzej_Towiański.png"
+			(*
+			=> nrel_format: format_png;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+	
+<=nrel_author: 1221
+	(*
+	=> nrel_main_idtf:
+		[Картина:Томаш Зан, 1837 ]
+		(*
+			<- lang_ru;;
+		*);
+		[Picture:Tomasz Zan, 1837]
+		(*
+			<- lang_en;;
+		*);
+		[Карціна:Томаш Зан, 1837]
+		(*
+			<- lang_by;;
+		*);;
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://1221.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+
+<=nrel_author: Portrait_of_a_Man
+	(*
+	=> nrel_main_idtf:
+		[Картина:Портрет мужчины]
+		(*
+			<- lang_ru;;
+		*);
+		[Picture: Portrait of a Man]
+		(*
+			<- lang_en;;
+		*);
+		[Карціна: Партрэт мужчыны]
+		(*
+			<- lang_by;;
+		*);;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Walenty_Wańkowicz_P.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+ 
+*);
+
+
+=>nrel_date_of_birth: 14_02_1800
+	(*
+	=> nrel_main_idtf:
+		[14 февраля 1800]
+		(*
+		<- lang_ru;;
+		*);
+		[February 14, 1800]
+		(*
+		<- lang_en;;
+		*);
+		[14 лютага 1800]
+
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 12_05_1842
+	(*
+	=> nrel_main_idtf:
+		[12 мая 1842 ]
+		(*
+		<- lang_ru;;
+		*);
+		[May 12, 1842]
+		(*
+		<- lang_en;;
+		*);
+		[12 мая 1842]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: Kaluzici;
+=>nrel_place_of_death: the_city_of_Paris;;
+
+
+
+
+					
+concept_situation->[*Vankovich_Vilentii_Vilegelm <=nrel_student: The_building_of_Jesuit_College;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени обучения Ваньковича Валентия-Вильгельма Полоцком иезуитском коллегиуме ](*<-lang_ru;;*);;
+	<- begin_date_1809;;
+	<- completion_date_1812;;			
+*);;
+concept_situation->[*Vankovich_Vilentii_Vilegelm <=nrel_student: organization_Vilna_state_university;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени обучения Ваньковича Валентия-Вильгельма в Виленском университете](*<-lang_ru;;*);;
+	<- begin_date_1818;;
+	<- completion_date_1824;;			
+*);;
+
+concept_situation->[*Vankovich_Vilentii_Vilegelm <=nrel_student: organization_piter_academy_of_painture;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени обучения Ваньковича Валентия-Вильгельма  в Петербуржской академии художеств ](*<-lang_ru;;*);;
+	<- begin_date_1824;;
+	<- completion_date_1830;;			
+*);;
+
+
+
+

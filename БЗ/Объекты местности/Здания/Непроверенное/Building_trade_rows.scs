@@ -93,21 +93,9 @@ Building_trade_rows
             
             <-concept_construction;;
         
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1800];;
-                *);;
-            *);;
+        <- begin_date_1800;;
             
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1850];;
-                *);;
-            *);;
+        <- completion_date_1850;;
         *);
 
 	construction_Vilenchuki
@@ -128,21 +116,9 @@ Building_trade_rows
             
             <-concept_construction;;
         
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1850];;
-                *);;
-            *);;
+        <- begin_date_1850;;
             
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1917];;
-                *);;
-            *);;
+        <- completion_date_1917;;
         *);
         
         construction_trade_rows
@@ -163,35 +139,15 @@ Building_trade_rows
             
             <-concept_construction;;
         
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1917];;
-                *);;
-            *);;
+        <- begin_date_1917;;
             
         => nrel_finish_time: ...
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1940];;
-                        *);;
-                    *);;
+                    <- begin_date_1940;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1950];;
-                        *);;
-                    *);;
+                    <- completion_date_1950;;
                 *);;
             *);;
         *)
@@ -219,20 +175,8 @@ concept_situation-> [*
     *);; 
 *]
 (*      
-    => nrel_start_time: ...
-    (*
-    => nrel_translation_in_the_Gregorian_calendar: ...
-        (*
-        -> rrel_year: rrel_decimal: [1920];;
-        *);;
-    *);;
-    => nrel_finish_time: ...
-    (*
-    => nrel_translation_in_the_Gregorian_calendar: ...
-        (*
-        -> rrel_year: rrel_decimal: [2000];;
-        *);;
-    *);;
+    <- begin_date_1920;;
+    <- completion_date_2000;;
 *);;
 
 
@@ -258,20 +202,8 @@ concept_situation-> [*
     *);; 
 *]
 (*      
-    => nrel_start_time: ...
-    (*
-    => nrel_translation_in_the_Gregorian_calendar: ...
-        (*
-        -> rrel_year: rrel_decimal: [1900];;
-        *);;
-    *);;
-    => nrel_finish_time: ...
-    (*
-    => nrel_translation_in_the_Gregorian_calendar: ...
-        (*
-        -> rrel_year: rrel_decimal: [1920];;
-        *);;
-    *);;
+    <- begin_date_1900;;
+    <- completion_date_1920;;
 *);;   
 
 
@@ -281,20 +213,8 @@ concept_situation->[*organization_city_fumatorium => nrel_location: Building_tra
     => nrel_main_idtf: 
     [Контур периода времени расположения городской дизенфекционной камеры и городской тюрьмы в здании торговых рядов](*<-lang_ru;;*);
     [Контур перыяду часу месцавання гарадской дизенфекцыйнай камеры і гарадской турмы у будынку гандлёвых шэрагаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1892];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1914];;
-                *);;
-            *);;
+    <- begin_date_1892;;
+    <- completion_date_1914;;
 *);;
 
 concept_situation->[*concept_residential_building -> Building_trade_rows;;*]
@@ -302,20 +222,8 @@ concept_situation->[*concept_residential_building -> Building_trade_rows;;*]
     => nrel_main_idtf: 
     [Контур периода времени когда здание торговых рядов было жилым](*<-lang_ru;;*);
     [Контур перыяду часу калі будынак гандлёвых шэрагаў быў жылым](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1950];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1960];;
-                *);;
-            *);;
+    <- begin_date_1950;;
+    <- completion_date_1960;;
 *);;
 
 concept_situation->[*organization_restaurant_At_the_town_hall => nrel_location: Building_trade_rows;;*]
@@ -323,11 +231,5 @@ concept_situation->[*organization_restaurant_At_the_town_hall => nrel_location: 
     => nrel_main_idtf: 
     [Контур периода времени расположения ресторана "У Ратуши" в здании торговых рядов](*<-lang_ru;;*);
     [Контур перыяду часу месцавання рэстарана "Ля Ратушы" у будынку гандлёвых шэрагаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2003];;
-                *);;
-            *);;
+    <- begin_date_2003;;
 *);;

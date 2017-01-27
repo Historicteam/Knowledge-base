@@ -1,0 +1,14 @@
+organization_Boiler_in_the_Zagoskaya_house_2
+=> nrel_main_idtf:
+        [Котельня в Доме Загорской (49)]
+	(*
+	<- lang_ru;;
+	*);
+        [Boiler in the Zagoskaya house(49)]
+	(*
+	<- lang_en;;
+	*);
+        [Кацельня у Доме Загорскай(49)]
+	(*
+	<- lang_by;;
+	*);;

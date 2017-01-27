@@ -1,0 +1,20 @@
+begin_date_1981
+=> nrel_main_idtf:
+   [время начала - 1981]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1981]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1981]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1981;;
+   *);;

@@ -32,20 +32,8 @@ building_of_residential_housing_of_female_Bernardine_monastery
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1642];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1852];;
-                *);;
-            *);;
+        <- begin_date_1642;;
+        <- completion_date_1852;;
         => nrel_section_base_order:
             Residential_housing_of_Holy_Trinity_Monastery;;
         *);
@@ -66,20 +54,8 @@ building_of_residential_housing_of_female_Bernardine_monastery
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1862];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1870];;
-                *);;
-            *);;
+        <- begin_date_1862;;
+        <- completion_date_1870;;
         *)
     };
 <-concept_building;
@@ -138,20 +114,8 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
     => nrel_main_idtf: 
     [Контур периода времени расположения общины монахинь в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
     [Контур перыяду часу месцавання лучыны манашак у будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1642];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1852];;
-                *);;
-            *);;
+    <- begin_date_1642;;
+        <- completion_date_1852;;
 *);;
 
 concept_situation->[*organization_community_of_orthodox_brothers_Holy_Trinity_male_monastery => nrel_location:
@@ -160,22 +124,8 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
     => nrel_main_idtf: 
     [Контур периода времени расположения общины православных братьев Свято-Троицкого мужского монастыря в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
     [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Траецкага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1862];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1870];;
-                *);;
-            *);;
+    <- begin_date_1862;;
+        <- completion_date_1870;;
 *);;
 
 concept_situation->[*organization_community_of_orthodox_brothers_Holy_Spirit_male_monastery => nrel_location:
@@ -186,22 +136,8 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
     (*<-lang_ru;;*);
     [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1870-1918)]
     (*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1870];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
+    <- begin_date_1870;;
+        <- completion_date_1918;;
 *);;
 
 concept_situation->[*organization_community_of_orthodox_brothers_Holy_Spirit_male_monastery => nrel_location:
@@ -212,22 +148,8 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
     (*<-lang_ru;;*);
     [Контур перыяду часу месцавання злучыны праваслаўных братоў Свята-Духаўскага мужчынскага манастыра ў будынку жылога корпуса манастыра бернардынак (1943-1945)]
     (*<-lang_by;;*);;
-     => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1943];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1945];;
-                *);;
-            *);;
+     <- begin_date_1943;;
+        <- completion_date_1945;;
 *);;
 	
 concept_situation->[*organization_state_commission_of_inquiry => nrel_location:
@@ -236,20 +158,8 @@ building_of_residential_housing_of_female_Bernardine_monastery;;*]
     => nrel_main_idtf: 
     [Контур периода времени расположения государственной следственной комиссии в здании жилого корпуса монастыря бернардинок](*<-lang_ru;;*);
     [Контур перыяду часу месцавання дзяржаўнай следчай камісіі ў будынку жылога корпуса манастыра бернардынак](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1863];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1864];;
-            *);;
-        *);;
+    <- begin_date_1863;;
+    <- completion_date_1864;;
 *);;
 
 concept_situation->[*concept_residential_building -> building_of_residential_housing_of_female_Bernardine_monastery;;*]
@@ -257,18 +167,6 @@ concept_situation->[*concept_residential_building -> building_of_residential_hou
     => nrel_main_idtf: 
     [Контур периода времени когда здание жилого корпуса монастыря бернардинок было жилым](*<-lang_ru;;*);
     [Контур перыяду часу калі будынак жылога корпуса манастыра бернардынак быў жылым](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1951];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1980];;
-            *);;
-        *);;
+    <- begin_date_1951;;
+    <- completion_date_1980;;
 *);;

@@ -1,0 +1,114 @@
+Yanka_Kupala_House
+=> nrel_main_idtf:
+	  [Дом Янки Купалы]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Yanka Kupala House]
+  (*
+    <- lang_en;;
+  *);
+  [Дом Янкі Купалы]
+  (*
+    <- lang_by;;
+  *);;
+
+organization_Minsk_men_gymnazi
+=> nrel_main_idtf:
+	  [Минская мужская гимназия]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Minsk men gymnazi]
+  (*
+    <- lang_en;;
+  *);
+  [Мінская мужчынская гімназія]
+  (*
+    <- lang_by;;
+  *);;
+organization_minsk_woomen_gymnazi
+=> nrel_main_idtf:
+	  [Минская женская гимназия]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[minsk woomen gymnazi]
+  (*
+    <- lang_en;;
+  *);
+  [Мінская жаночая гімназія]
+  (*
+    <- lang_by;;
+  *);;
+Zdanovich_House
+=> nrel_main_idtf:
+	  [Дом Здановича]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Zdanovich House]
+  (*
+    <- lang_en;;
+  *);
+  [Дом Здановіча]
+  (*
+    <- lang_by;;
+  *);;
+
+organization_Minsk_Hospital
+=> nrel_main_idtf:
+	  [Минская больница]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Vankovichi House]
+  (*
+    <- lang_en;;
+  *);
+  [Мінская лячэбня]
+  (*
+    <- lang_by;;
+  *);;
+organization_minskay_rech
+=> nrel_main_idtf:
+	  [Газета "Минская речь"]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Minskaya rech]
+  (*
+    <- lang_en;;
+  *);
+  [Газета "Мінская рэч"]
+  (*
+    <- lang_by;;
+  *);;
+organization_uchiliche_slepih
+=> nrel_main_idtf:
+	  [Училише слепых]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[Uchiliche slepih]
+  (*
+    <- lang_en;;
+  *);
+  [Вучылішча сляпых]
+  (*
+    <- lang_by;;
+  *);
+
+<- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
+
+=> nrel_openstreetmap:
+	[Yanka_Kupala_House] 
+	(*
+	=> nrel_format:
+		format_openstreetmap;;
+	*);
+
+
+<-concept_building;
+<-concept_terrain_object
+;;

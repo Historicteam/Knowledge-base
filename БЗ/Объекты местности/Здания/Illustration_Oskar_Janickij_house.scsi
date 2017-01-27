@@ -1,0 +1,25 @@
+Oskar_Janickij_house <- rrel_key_sc_element: Illustration_Oskar_Janickij_house
+	(*
+=> nrel_main_idtf:
+	[дом Оскара Яницкoгo в наши дни.] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Oskar Janickij house, our days] 
+		(* 
+		<- lang_en;; 
+		*);
+	[дом Оскара Яніцкага ў нашы дні.]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content//Oskar_Janickij_house.JPG"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+ *);;

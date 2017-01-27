@@ -1,0 +1,15 @@
+organization_Warehouse_1394
+=> nrel_main_idtf:
+        [Склад(пл. 1394 кв. арш.)]
+	(*
+	<- lang_ru;;
+	*);
+        [Warehouse(area of 1394 square yards)]
+	(*
+	<- lang_en;;
+	*);
+        [Склад(пл. 1394 кв. арш.)]
+	(*
+	<- lang_by;;
+	*);;
+

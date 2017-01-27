@@ -1,0 +1,258 @@
+Bogdanovich_Adam_Egorovich
+=> nrel_main_idtf:
+	[Богданович Адам Егорович]
+	(*
+	<- lang_ru;;
+	*);
+	[Bogdanovich Adam Egorovich]
+	(*
+	<- lang_en;;
+	*);
+	[Багдановіч Адам Егоравіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+=>nrel_first_name: name_Adam;
+
+
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Adam_Bagdanovich.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Adam_Bagdanovich1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Adam_Bagdanovich2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+<=nrel_author: vozrastanie1
+	(*
+	=> nrel_main_idtf:
+		[Возрастание становления женщины в селе белорусского края]
+		(*
+			<- lang_ru;;
+		*);
+		[position of women in peasant surroundings Essay Belarusian territory, 1886]
+		(*
+			<- lang_en;;
+		*);
+		[Нарыс становішча жанчыны ў сялянскім асяродзьдзі беларускага краю, 1886]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: panshina1
+	(*
+	=> nrel_main_idtf:
+		[Про панщину: Рассказ из белорусской жизни времён крепостного права, 1894]
+		(*
+			<- lang_ru;;
+		*);
+		[About panschinu: The story of the Belarusian life times of serfdom, 1894]
+		(*
+			<- lang_en;;
+		*);
+		[ Рассказ з беларускага жыцця часоў прыгоннага права, 1894крепостного правы, 1894]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: yazik_zemlii
+	(*
+	=> nrel_main_idtf:
+		[Язык земли: Этнологический очерк]
+		(*
+			<- lang_ru;;
+		*);
+		[Мова зямлі: этналагічных нарыс
+]
+		(*
+			<- lang_en;;
+		*);
+		[Land Language: Ethnological Essay
+]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: stranicii_jiznii
+	(*
+	=> nrel_main_idtf:
+		[Страницы из жизни Максима Горького]
+		(*
+			<- lang_ru;;
+		*);
+		[Pages from the life of Maxim Gorky]
+		(*
+			<- lang_en;;
+		*);
+		[Старонкі з жыцця Максіма Горкага]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: pro_jonchinu
+	(*
+	=> nrel_main_idtf:
+		[Про женщину]
+		(*
+			<- lang_ru;;
+		*);
+		[about a woman]
+		(*
+			<- lang_en;;
+		*);
+		[
+пра жанчыну]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+<=nrel_author: Moi_vospominania
+	(*
+	=> nrel_main_idtf:
+		[Мои воспоминания]
+		(*
+			<- lang_ru;;
+		*);
+		[My memories]
+		(*
+			<- lang_en;;
+		*);
+		[Мае ўспаміны]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+
+
+=>nrel_date_of_birth: 20_03_1862
+	(*
+	=> nrel_main_idtf:
+		[20 марта 1862]
+		(*
+		<- lang_ru;;
+		*);
+		[20 marth 1862]
+		(*
+		<- lang_en;;
+		*);
+		[20 сакавіка 1862]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 16_04_1940
+	(*
+	=> nrel_main_idtf:
+		[16 апреля 1940]
+		(*
+		<- lang_ru;;
+		*);
+		[16 april 1940]
+		(*
+		<- lang_en;;
+		*);
+		[16 красавіка 1940]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: Hlopenichi;
+=>nrel_place_of_death: the_city_of_Minsk;;
+
+
+
+
+					
+concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_student: organization_shcool_hlopenichi;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени обучения  Адама Богдановича в школе в Хлопеничах ](*<-lang_ru;;*);;
+	<- begin_date_1868;;
+	<- completion_date_1878;;			
+*);;
+concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_student: organization_shcool_Minsl;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени обучения  Адама Богдановича в школе в Минске ](*<-lang_ru;;*);;
+	<- begin_date_1868;;
+	<- completion_date_1878;;			
+*);;
+
+
+concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_uchiliche_minsk;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича учителем 1-го городского училища](*<-lang_ru;;*);;
+	<- begin_date_1885;;
+	<- completion_date_1891;;			
+*);;
+concept_situation->[*Bogdanovich_Adam_Egorovich => nrel_dwelling: house_of_troickaya_gora;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания Адама Богдановича в доме на Троицой горе](*<-lang_ru;;*);;
+	<- begin_date_1888;;
+	<- completion_date_1890;;			
+*);;
+		
+concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_pozemelni_bank_of_grodno;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича  в Гродненском отделении Крестьянского поземельного банка](*<-lang_ru;;*);;
+	<- begin_date_1892;;
+	<- completion_date_1896;;			
+*);;	
+concept_situation->[*Bogdanovich_Adam_Egorovich => nrel_dwelling: house_of_sadovoi;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания Адама Богдановича в Гродно в доме на Cадовой](*<-lang_ru;;*);;
+	<- begin_date_1900;;
+	<- completion_date_1902;;			
+*);;
+concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_pozemelni_bank_of_yaroslavl;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича  в Ярославском отделении Крестьянского поземельного банка](*<-lang_ru;;*);;
+	<- begin_date_1902;;
+	<- completion_date_1907;;			
+*);;	
+concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_conductor:nrel_employee: organization_museum_yaroclavl;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени работы Адама Богдановича в Ярославском государственном музее](*<-lang_ru;;*);;
+	<- begin_date_1920;;
+	<- completion_date_1931;;			
+*);;	
+

@@ -8,23 +8,9 @@ concept_arch_modern
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1890];;
-                    *);;
-                *);;
+                <- begin_date_1890;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1900];;
-                    *);;
-                *);;
+                <- completion_date_1900;;
             *);;
         *);
 
@@ -32,23 +18,9 @@ concept_arch_modern
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1910];;
-                    *);;
-                *);;
+                <- begin_date_1910;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1920];;
-                    *);;
-                *);;
+                <- completion_date_1920;;
             *);;
         *);
 

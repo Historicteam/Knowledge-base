@@ -1,0 +1,14 @@
+organization_newspaper_Worker
+=> nrel_main_idtf:
+	[Редакция газеты "Рабочий"]
+	(*
+	<- lang_ru;;
+	*);
+        [newspaper "Worker"]
+	(*
+	<- lang_en;;
+	*);
+        [Рэдакцыя газеты "Рабочы"]
+	(*
+	<- lang_by;;
+	*);;

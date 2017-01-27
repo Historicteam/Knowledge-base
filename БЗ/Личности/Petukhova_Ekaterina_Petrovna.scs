@@ -1,0 +1,14 @@
+Petukhova_Ekaterina_Petrovna
+=> nrel_main_idtf:
+        [Петухова Екатерина Петровна]	
+        (*
+	<- lang_ru;;
+	*);
+	[Petukhova Ekaterina Petrovna]
+	(*
+	<- lang_en;;
+	*);
+	[Петухова Кацярына Пятроўна]
+	(*
+	<- lang_by;;
+	*);;

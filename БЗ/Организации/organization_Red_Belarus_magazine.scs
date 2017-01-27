@@ -1,0 +1,14 @@
+organization_Red_Belarus_magazine
+=> nrel_main_idtf:
+        [Журнал "Красная Беларусь"]
+	(*
+	<- lang_ru;;
+	*);
+        ["Red Belarus" magazine]
+	(*
+	<- lang_en;;
+	*);
+	[Часопіс "Чырвоная Беларусь"]
+	(*
+	<- lang_by;;
+	*);;

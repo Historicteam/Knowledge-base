@@ -1,0 +1,23 @@
+subject_domain_of_buildings
+=> nrel_main_idtf:
+	[Предметная область зданий] 
+	(* <- lang_ru;; *);
+	[Subject domain of buildings]	
+	(* <- lang_en;; *);
+<- subject_domain;
+
+<= nrel_primary_elements_class_private_subject_domain: xxx;
+
+-> rrel_maximum_studied_object_class:
+    concept_construction;
+
+-> rrel_not_maximum_studied_object_class:
+    concept_residential_building;
+    concept_public_building;
+    concept_warehousing;
+    concept_civil;
+
+-> rrel_explored_relation:
+	nrel_dwelling;
+    nrel_location;;
+

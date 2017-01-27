@@ -1,0 +1,20 @@
+begin_date_1565
+=> nrel_main_idtf:
+   [время начала - 1565]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1565]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1565]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1565;;
+   *);;

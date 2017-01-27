@@ -1,0 +1,20 @@
+begin_date_1926
+=> nrel_main_idtf:
+   [время начала - 1926]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1926]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1926]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1926;;
+   *);;

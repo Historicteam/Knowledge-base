@@ -1,0 +1,320 @@
+Lucevich_Ivan_Dominikovich
+=> nrel_main_idtf:
+	[Луцевич Иван Доминикович]
+	(*
+	<- lang_ru;;
+	*);
+	[Lucevich_Ivan_Dominikovich]
+	(*
+	<- lang_en;;
+	*);
+	[Луцэвіч Іван Дамінікавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+=>nrel_first_name: name_Ivan;
+=> nrel_alias:
+	[Янка Купала]
+	(*
+	<- lang_ru;;
+	*);
+	[Yanka Kupala]
+	(*
+	<- lang_en;;
+	*);
+	[Янка Купала]
+	(*
+	<- lang_by;;
+	*);
+
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yanka_Kupala.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yanka_Kupala1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yanka_Kupala2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+
+=>nrel_date_of_birth: 07_07_1882
+	(*
+	=> nrel_main_idtf:
+		[7 июля 1882 года]
+		(*
+		<- lang_ru;;
+		*);
+		[July 7, 1882]
+		(*
+		<- lang_en;;
+		*);
+		[7 ліпеня 1882]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 28_06_1942
+	(*
+	=> nrel_main_idtf:
+		[28 июня 1942]
+		(*
+		<- lang_ru;;
+		*);
+		[June 7, 1942]
+		(*
+		<- lang_en;;
+		*);
+		[7 чэрвеня 1942 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: Vyzanka_village;
+=>nrel_place_of_death: the_city_of_Minsk;
+
+<=nrel_author: poem_Jaleika
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Жалейка"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Jaleika"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Жалейка"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Guslyar
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Гусляр"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Guslyar"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Гусьляр"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Putem_jizni
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Путём жизни"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Road health"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Шляхам жыцьця"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Nacledie
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Наследие"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Nasledie"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Спадчына"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Zimou
+	(*
+	=> nrel_main_idtf:
+		[поэма "Зимой"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "Zimou"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "Зімою"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+<=nrel_author: poem_Kaleka
+	(*
+	=> nrel_main_idtf:
+		[поэма "Калека"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "Kaleka"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "Калека"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+
+<=nrel_author: poem_Nikomu
+	(*
+	=> nrel_main_idtf:
+		[поэма "Никому"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "Nikomu"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "Нікому"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+<=nrel_author: pieces_Pavuinka
+	(*
+	=> nrel_main_idtf:
+		[пьесы "Павлинка"]
+		(*
+			<- lang_ru;;
+		*);
+		[пьесы "Pavuinka"]
+		(*
+			<- lang_en;;
+		*);
+		[pieces "Паўлінка"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pieces;;
+	*)
+;
+<=nrel_author: pieces_Zdehnie
+	(*
+	=> nrel_main_idtf:
+		[пьесы "Здешние"]
+		(*
+			<- lang_ru;;
+		*);
+		[пьесы "Zdehnie"]
+		(*
+			<- lang_en;;
+		*);
+		[pieces "Тутэйшыя"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pieces;;
+	*)
+;
+<=nrel_author: pieces_Raskidanoe_gnezdo
+	(*
+	=> nrel_main_idtf:
+		[пьесы "Раскиданное гнездо"]
+		(*
+			<- lang_ru;;
+		*);
+		[пьесы "Raskidanoe gnezdo"]
+		(*
+			<- lang_en;;
+		*);
+		[pieces "Раскіданае гняздо"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pieces;;
+	*)
+;;
+
+
+concept_situation->[*Lucevich_Ivan_Dominikovich => nrel_dwelling: Vitgorchik_House;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания Янки Купалы в Доме Витгорчика ](*<-lang_ru;;*);;
+	<- begin_date_1890;;
+	<- completion_date_1891;;			
+*);;
+concept_situation->[*Lucevich_Ivan_Dominikovich => nrel_dwelling: Rgecki_House;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания Янки Купалы в Доме Ржецкой на Независимости 31а](*<-lang_ru;;*);;
+	<- begin_date_1920;;
+	<- completion_date_1927;;			
+*);;
+concept_situation->[*Lucevich_Ivan_Dominikovich => nrel_dwelling: Yanka_Kupala_House;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания Янки Купалы в Доме Янки Купалы](*<-lang_ru;;*);;
+	<- begin_date_1927;;
+	<- completion_date_1944;;			
+*);;
+concept_situation->[*Lucevich_Ivan_Dominikovich <=nrel_conductor:nrel_employee: organization_Nasha_Niva;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени работы Янки Купалы в  редакции первой белорусской газеты «Наша Ніва»](*<-lang_ru;;*);;
+	<- begin_date_1908;;
+	<- completion_date_1909;;			
+*);;
+						
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_Moscou_univer;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени обучения  Янки Купалы в  Московском городском народном университете ](*<-lang_ru;;*);;
+	<- begin_date_1915;;
+	<- completion_date_1916;;			
+*);;
+
+

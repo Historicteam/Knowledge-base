@@ -1,0 +1,14 @@
+organization_Regiment_barracks_of_the_State_political_leadership
+=> nrel_main_idtf:
+	[Казармы полка Государственного политического руководства]
+	(*
+	<- lang_ru;;
+	*);
+        [Regiment barracks of the State political leadership]
+	(*
+	<- lang_en;;
+	*);
+        [Казармы палка Дзяржаўнага палітычнага кіраўніцтва]
+	(*
+	<- lang_by;;
+	*);;

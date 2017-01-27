@@ -30,20 +30,8 @@ The_building_of_the_Mariinsky_Cathedral
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1710];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1799];;
-                *);;
-            *);;
+        <- begin_date_1710;;
+        <- completion_date_1799;;
 
 	
 	
@@ -66,13 +54,7 @@ The_building_of_the_Mariinsky_Cathedral
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1799];;
-                *);;
-            *);;
+        <- begin_date_1799;;
 
         *);
 
@@ -93,20 +75,8 @@ The_building_of_the_Mariinsky_Cathedral
 			    <- lang_by;;
 			    *);;
 			    
-			=> nrel_start_time: ...
-            			(*
-            				=> nrel_translation_in_the_Gregorian_calendar: ...
-              					  (*
-               					 -> rrel_year: rrel_decimal: [1951];;
-						*);;
-					    *);;
-				       			 => nrel_finish_time: ...
-					    (*
-					    => nrel_translation_in_the_Gregorian_calendar: ...
-						(*
-						-> rrel_year: rrel_decimal: [1991];;
-				*);;
-			 *);;
+			<- begin_date_1951;;
+				       			 <- completion_date_1991;;
 		*);
 					Archcathedral_Cathedral_of_Saint_Mary
 					(*
@@ -124,13 +94,7 @@ The_building_of_the_Mariinsky_Cathedral
 					    <- lang_by;;
 					    *);;
 					    
-					=> nrel_start_time: ...
-			    			(*
-			    				=> nrel_translation_in_the_Gregorian_calendar: ...
-			      					  (*
-			       					 -> rrel_year: rrel_decimal: [1991];;
-								*);;
-							    *);;
+					<- begin_date_1991;;
 						       	
 
 	
@@ -169,20 +133,8 @@ concept_situation->[*organization_spartak => nrel_location: The_building_of_the_
     => nrel_main_idtf: 
     [Контур периода времени расположения Добровольного спортивного общества "Спартак" здании Мариинского кафедрального собора](*<-lang_ru;;*);
     [Контур перыяду часу месцавання Добраахвотнага спартыўнага таварыства "Спартак" ў будынку Марыінскага кафедральнага сабора](*<-lang_by;;*);;
-    => nrel_start_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1951];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1991];;
-            *);;
-        *);;
+    <- begin_date_1951;;
+    <- completion_date_1991;;
 *);;
 
 
@@ -207,20 +159,8 @@ The_building_of_the_Mariinsky_Cathedral <- rrel_key_sc_element: Image_Mariinskii
 			*);; 
 *]
 (* 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1864];;
-*);;
-*);;
-=> nrel_finish_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1905];;
-*);;
-*);;
+<- begin_date_1864;;
+<- completion_date_1905;;
 *);;
 
 
@@ -245,20 +185,8 @@ The_building_of_the_Mariinsky_Cathedral <- rrel_key_sc_element: Image_Mariinskii
 			*);; 
 *]
 (* 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1840];;
-*);;
-*);;
-=> nrel_finish_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1864];;
-*);;
-*);;
+<- begin_date_1840;;
+<- completion_date_1864;;
 *);;
 
 Image_Mariinskii_sobor_1905 
@@ -282,20 +210,8 @@ The_building_of_the_Mariinsky_Cathedral <- rrel_key_sc_element: Image_Mariinskii
 			*);; 
 *]
 (* 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1905];;
-*);;
-*);;
-=> nrel_finish_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1918];;
-*);;
-*);;
+<- begin_date_1905;;
+<- completion_date_1918;;
 *);;
 
 Image_Mariinskii_sobor_1918 
@@ -319,20 +235,8 @@ The_building_of_the_Mariinsky_Cathedral <- rrel_key_sc_element: Image_Mariinskii
 			*);; 
 *]
 (* 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1918];;
-*);;
-*);;
-=> nrel_finish_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [2003];;
-*);;
-*);;
+<- begin_date_1918;;
+<- completion_date_2003;;
 *);;
 
 Image_Mariinskii_sobor_2003 
@@ -356,12 +260,6 @@ The_building_of_the_Mariinsky_Cathedral <- rrel_key_sc_element: Image_Mariinskii
 			*);; 
 *]
 (* 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [2003];;
-*);;
-*);;
+<- begin_date_2003;;
 *);;
 

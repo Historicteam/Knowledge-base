@@ -1,0 +1,14 @@
+Lapidus
+=> nrel_main_idtf:
+        [Лапидус]	
+        (*
+	<- lang_ru;;
+	*);
+	[Lapidus]
+	(*
+	<- lang_en;;
+	*);
+	[Лапідус]
+	(*
+	<- lang_by;;
+	*);;

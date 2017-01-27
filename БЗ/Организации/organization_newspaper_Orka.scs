@@ -1,0 +1,14 @@
+organization_newspaper_Orka
+=> nrel_main_idtf:
+	[Редакция газеты Orka]
+	(*
+	<- lang_ru;;
+	*);
+        [newspaper Orka]
+	(*
+	<- lang_en;;
+	*);
+        [Рэдакцыя газеты Orka]
+	(*
+	<- lang_by;;
+	*);;

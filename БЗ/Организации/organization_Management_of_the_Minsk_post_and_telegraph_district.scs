@@ -1,0 +1,14 @@
+organization_Management_of_the_Minsk_post_and_telegraph_district
+=> nrel_main_idtf:
+	[Управление Минского почтово-телеграфного округа]
+	(*
+	<- lang_ru;;
+	*);
+        [The Management of the Minsk Post and Telegraph District]
+	(*
+	<- lang_en;;
+	*);
+        [Упраўленне Мінскай паштова-тэлеграфнай акругі]
+	(*
+	<- lang_by;;
+	*);;

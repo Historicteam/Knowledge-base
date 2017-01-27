@@ -1,0 +1,14 @@
+organization_Research_Institute_of_Food_Industry
+=> nrel_main_idtf:
+	[Научно-исследовательский Институт пищевой промышленности]
+	(*
+	<- lang_ru;;
+	*);
+        [Research Institute of Food Industry]
+	(*
+	<- lang_en;;
+	*);
+        [Навукова-даследчы Інстытут  харчовай прамысловасці]
+	(*
+	<- lang_by;;
+	*);;

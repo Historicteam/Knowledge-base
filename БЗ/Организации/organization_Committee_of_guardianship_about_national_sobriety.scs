@@ -1,0 +1,15 @@
+organization_Committee_of_guardianship_about_national_sobriety
+=> nrel_main_idtf:
+	[Комитет попечительства о народной трезвости]
+	(*
+	<- lang_ru;;
+	*);
+        [The Committee of guardianship about national sobriety]
+	(*
+	<- lang_en;;
+	*);
+        [Камітэт апякунства аб народнай цвярозасці]
+	(*
+	<- lang_by;;
+	*);;
+

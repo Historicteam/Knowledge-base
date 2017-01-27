@@ -37,46 +37,18 @@ building_of_economic_housing_of_male_Bernardine_monastery
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1644];;
-                        *);;
-                    *);;
+                    <- begin_date_1644;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1699];;
-                        *);;
-                    *);;
+                    <- completion_date_1699;;
                 *);;
             *);;
         => nrel_finish_time: ...
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1860];;
-                        *);;
-                    *);;
+                    <- begin_date_1860;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1870];;
-                        *);;
-                    *);;
+                    <- completion_date_1870;;
                 *);;
             *);;
         *);
@@ -101,33 +73,12 @@ building_of_economic_housing_of_male_Bernardine_monastery
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1860];;
-                        *);;
-                    *);;
+                    <- begin_date_1860;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1870];;
-                        *);;
-                    *);;
+                    <- completion_date_1870;;
                 *);;
             *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1981];;
-                *);;
-            *);;
+        <- completion_date_1981;;
         *)
     };
 
@@ -162,20 +113,8 @@ concept_situation->[*organization_Minsk_municipal_public_administration => nrel_
     => nrel_main_idtf: 
     [Контур периода времени расположения городского управления в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання гарадскога кiравання у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1860];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1891];;
-                *);;
-            *);;
+    <- begin_date_1860;;
+    <- completion_date_1891;;
 *);;
 
 concept_situation->[*organization_Minsk_Municipal_Pawnshop => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;
@@ -184,20 +123,8 @@ concept_situation->[*organization_Minsk_Municipal_Pawnshop => nrel_location: bui
     => nrel_main_idtf: 
     [Контур периода времени расположения городского ломбарда и городской пожарной команды в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання гарадскога ламбарда і гарадской пажарнай каманды у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1891];;
-                *);;
-            *);;
-    => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
+    <- begin_date_1891;;
+    <- completion_date_1918;;
 *);;
 
 concept_situation->[*organization_Brasserie_Old_Town_Piwnica => nrel_location: building_of_economic_housing_of_male_Bernardine_monastery;;
@@ -206,11 +133,5 @@ concept_situation->[*organization_Brasserie_Old_Town_Piwnica => nrel_location: b
     => nrel_main_idtf: 
     [Контур периода времени расположения пивной и музея карет в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання піўнога рэстарана і музея карэт у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2014];;
-                *);;
-            *);;
+    <- begin_date_2014;;
 *);;

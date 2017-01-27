@@ -1,0 +1,66 @@
+begin_date_second_half_of_20_century
+=> nrel_main_idtf:
+   [время начала - вторая половина 20 века]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - second part of 20 century]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - другая палова 20 веку]
+   (*
+   <- lang_by;;
+   *);
+<- begin_date_1950;
+<- begin_date_1951;
+<- begin_date_1952;
+<- begin_date_1953;
+<- begin_date_1954;
+<- begin_date_1955;
+<- begin_date_1956;
+<- begin_date_1957;
+<- begin_date_1958;
+<- begin_date_1959;
+<- begin_date_1960;
+<- begin_date_1961;
+<- begin_date_1962;
+<- begin_date_1963;
+<- begin_date_1964;
+<- begin_date_1965;
+<- begin_date_1966;
+<- begin_date_1967;
+<- begin_date_1968;
+<- begin_date_1969;
+<- begin_date_1970;
+<- begin_date_1971;
+<- begin_date_1972;
+<- begin_date_1973;
+<- begin_date_1974;
+<- begin_date_1975;
+<- begin_date_1976;
+<- begin_date_1977;
+<- begin_date_1978;
+<- begin_date_1979;
+<- begin_date_1980;
+<- begin_date_1981;
+<- begin_date_1982;
+<- begin_date_1983;
+<- begin_date_1984;
+<- begin_date_1985;
+<- begin_date_1986;
+<- begin_date_1987;
+<- begin_date_1988;
+<- begin_date_1989;
+<- begin_date_1990;
+<- begin_date_1991;
+<- begin_date_1992;
+<- begin_date_1993;
+<- begin_date_1994;
+<- begin_date_1995;
+<- begin_date_1996;
+<- begin_date_1997;
+<- begin_date_1998;
+<- begin_date_1999;
+<- exact_value;
+<- begin;;

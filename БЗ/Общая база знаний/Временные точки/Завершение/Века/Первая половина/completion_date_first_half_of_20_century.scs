@@ -1,0 +1,66 @@
+completion_date_first_half_of_20_century
+=> nrel_main_idtf:
+   [время завершения - первая половина 20 века]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - first part of 20 century]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - першая палова 20 веку]
+   (*
+   <- lang_by;;
+   *);
+<- completion_date_1900;
+<- completion_date_1901;
+<- completion_date_1902;
+<- completion_date_1903;
+<- completion_date_1904;
+<- completion_date_1905;
+<- completion_date_1906;
+<- completion_date_1907;
+<- completion_date_1908;
+<- completion_date_1909;
+<- completion_date_1910;
+<- completion_date_1911;
+<- completion_date_1912;
+<- completion_date_1913;
+<- completion_date_1914;
+<- completion_date_1915;
+<- completion_date_1916;
+<- completion_date_1917;
+<- completion_date_1918;
+<- completion_date_1919;
+<- completion_date_1920;
+<- completion_date_1921;
+<- completion_date_1922;
+<- completion_date_1923;
+<- completion_date_1924;
+<- completion_date_1925;
+<- completion_date_1926;
+<- completion_date_1927;
+<- completion_date_1928;
+<- completion_date_1929;
+<- completion_date_1930;
+<- completion_date_1931;
+<- completion_date_1932;
+<- completion_date_1933;
+<- completion_date_1934;
+<- completion_date_1935;
+<- completion_date_1936;
+<- completion_date_1937;
+<- completion_date_1938;
+<- completion_date_1939;
+<- completion_date_1940;
+<- completion_date_1941;
+<- completion_date_1942;
+<- completion_date_1943;
+<- completion_date_1944;
+<- completion_date_1945;
+<- completion_date_1946;
+<- completion_date_1947;
+<- completion_date_1948;
+<- completion_date_1949;
+<- exact_value;
+<- completion;;

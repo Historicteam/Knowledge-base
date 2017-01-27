@@ -1,0 +1,14 @@
+Itskovich_B_M
+=> nrel_main_idtf:
+        [Ицкович Б. М.]	
+        (*
+	<- lang_ru;;
+	*);
+	[Itskovich B. M.]
+	(*
+	<- lang_en;;
+	*);
+	[Іцковіч Б. М.]
+	(*
+	<- lang_by;;
+	*);;

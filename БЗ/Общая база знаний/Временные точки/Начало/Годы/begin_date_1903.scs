@@ -1,0 +1,20 @@
+begin_date_1903
+=> nrel_main_idtf:
+   [время начала - 1903]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1903]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1903]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1903;;
+   *);;

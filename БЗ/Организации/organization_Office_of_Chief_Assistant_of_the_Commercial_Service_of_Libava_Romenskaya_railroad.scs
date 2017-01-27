@@ -1,0 +1,14 @@
+organization_Office_of_Chief_Assistant_of_the_Commercial_Service_of_Libava_Romenskaya_railroad
+=> nrel_main_idtf:
+	[Кабинет помощника начальника коммерческой службы Либаво-Роменской железной дороги]
+	(*
+	<- lang_ru;;
+	*);
+        [Office of Chief Assistant of the commercial Service of Libava-Romenskaya railroad]
+	(*
+	<- lang_en;;
+	*);
+        [Кабінет памочніка начальніка камерцыйнай службы Лібава-Роменскай чыгункі]
+	(*
+	<- lang_by;;
+	*);;

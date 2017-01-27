@@ -1,0 +1,14 @@
+organization_State_political_leadership
+=> nrel_main_idtf:
+	[Государственное политическое руководство]
+	(*
+	<- lang_ru;;
+	*);
+        [State political leadership]
+	(*
+	<- lang_en;;
+	*);
+        [Дзяржаўнае палітычнае кіраўніцтва]
+	(*
+	<- lang_by;;
+	*);;

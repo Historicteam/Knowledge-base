@@ -1,0 +1,20 @@
+completion_date_1663
+=> nrel_main_idtf:
+   [время завершения - 1663]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1663]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1663]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1663;;
+   *);;

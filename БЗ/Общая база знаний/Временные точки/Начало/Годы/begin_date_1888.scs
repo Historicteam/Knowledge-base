@@ -1,0 +1,20 @@
+begin_date_1888
+=> nrel_main_idtf:
+   [время начала - 1888]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1888]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1888]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1888;;
+   *);;

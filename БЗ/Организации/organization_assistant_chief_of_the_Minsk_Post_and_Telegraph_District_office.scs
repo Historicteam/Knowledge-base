@@ -1,0 +1,14 @@
+organization_assistant_chief_of_the_Minsk_Post_and_Telegraph_District_office
+=> nrel_main_idtf:
+        [Кабинет помощника начальника Минской почтово-телеграфного округа]
+	(*
+	<- lang_ru;;
+	*);
+        [Assistant chief of the Minsk Post and Telegraph District office]
+	(*
+	<- lang_en;;
+	*);
+        [Кабінет памочніка начальніка Мінскай паштова-тэлеграфнай акругі]
+	(*
+	<- lang_by;;
+	*);;

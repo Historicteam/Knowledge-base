@@ -73,22 +73,8 @@ Reiman_gymnasium_building
 
 => nrel_start_time: ...
 (*
-	=> nrel_start_time: ...
-	(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		(*
-			-> rrel_year: rrel_decimal: [1890];;
-		*);;
-	*);;
-	=> nrel_finish_time: ...
-	(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		(*
-			-> rrel_year: rrel_decimal: [1899];;
-		*);;
-	*);;
+	<- begin_date_1890;;
+	<- completion_date_1899;;
 *);
 
 =>nrel_architectural_style: concept_arch_neoclassicism;
@@ -112,14 +98,7 @@ concept_situation->[*Reiman_gymnasium_building
 	*);;
 *]
 	(*
-		=> nrel_start_time: ...
-		(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		    (*
-		    -> rrel_year: rrel_decimal: [2016];;
-		    *);;
-		*);;
+		<- begin_date_2016;;
 	*);;
 
 concept_situation->[*Reiman_gymnasium_building
@@ -137,14 +116,7 @@ concept_situation->[*Reiman_gymnasium_building
 	*);;
 *]
 	(*
-		=> nrel_start_time: ...
-		(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		    (*
-		    -> rrel_year: rrel_decimal: [2016];;
-		    *);;
-		*);;
+		<- begin_date_2016;;
 	*);;
 
 concept_situation->[*Reiman_gymnasium_building
@@ -162,14 +134,7 @@ concept_situation->[*Reiman_gymnasium_building
 	*);;
 *]
 	(*
-		=> nrel_start_time: ...
-		(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		    (*
-		    -> rrel_year: rrel_decimal: [2016];;
-		    *);;
-		*);;
+		<- begin_date_2016;;
 	*);;
 
 concept_situation->[*Reiman_gymnasium_building
@@ -187,14 +152,7 @@ concept_situation->[*Reiman_gymnasium_building
 	*);;
 *]
 	(*
-		=> nrel_start_time: ...
-		(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		    (*
-		    -> rrel_year: rrel_decimal: [2016];;
-		    *);;
-		*);;
+		<- begin_date_2016;;
 	*);;
 
 
@@ -205,23 +163,9 @@ concept_situation->[*Reiman_gymnasium_building
 (*
 	=> nrel_start_time: ...
 	(*
-		=> nrel_start_time: ...
-		(*
-			<-concept_time_point;;
-			=> nrel_translation_in_the_Gregorian_calendar: ...
-			(*
-				-> rrel_year: rrel_decimal: [1890];;
-			*);;
-		*);;
+		<- begin_date_1890;;
 
-		=> nrel_finish_time: ...
-		(*
-			<-concept_time_point;;
-			=> nrel_translation_in_the_Gregorian_calendar: ...
-			(*
-				-> rrel_year: rrel_decimal: [1899];;
-			*);;
-		*);;
+		<- completion_date_1899;;
 	*);;
 *);;
 
@@ -231,34 +175,13 @@ concept_situation->[*Reiman_gymnasium_building
 	<=nrel_location: organization_Reiman_gymnasium;;
 *]
 (*
-	=> nrel_start_time: ...
-	(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		(*
-			-> rrel_year: rrel_decimal: [1913];;
-		*);;
-	*);;
+	<- begin_date_1913;;
 
 	=> nrel_finish_time: ...
 	(*
-		=> nrel_start_time: ...
-		(*
-			<-concept_time_point;;
-			=> nrel_translation_in_the_Gregorian_calendar: ...
-			(*
-				-> rrel_year: rrel_decimal: [1919];;
-			*);;
-		*);;
+		<- begin_date_1919;;
 
-		=> nrel_finish_time: ...
-		(*
-			<-concept_time_point;;
-			=> nrel_translation_in_the_Gregorian_calendar: ...
-			(*
-				-> rrel_year: rrel_decimal: [1921];;
-			*);;
-		*);;
+		<- completion_date_1921;;
 	*);;
 *);;
 
@@ -268,23 +191,9 @@ concept_situation->[*Reiman_gymnasium_building
 	<=nrel_location: organization_25_railway_school;;
 *]
 (*
-	=> nrel_start_time: ...
-	(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		(*
-			-> rrel_year: rrel_decimal: [1923];;
-		*);;
-	*);;
+	<- begin_date_1923;;
 
-	=> nrel_finish_time: ...
-	(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		(*
-			-> rrel_year: rrel_decimal: [2000];;
-		*);;
-	*);;
+	<- completion_date_2000;;
 *);;
 
 
@@ -293,14 +202,7 @@ concept_situation->[*Reiman_gymnasium_building
 	<=nrel_location: organization_court_eurazes;;
 *]
 (*
-	=> nrel_start_time: ...
-	(*
-		<-concept_time_point;;
-		=> nrel_translation_in_the_Gregorian_calendar: ...
-		(*
-			-> rrel_year: rrel_decimal: [2000];;
-		*);;
-	*);;
+	<- begin_date_2000;;
 *);;
 
 

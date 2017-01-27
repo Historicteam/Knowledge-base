@@ -24,22 +24,8 @@ concept_situation->[*
         };;
 	*] (*
 
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1617];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1634];;
-            *);;
-        *);;
+    <- begin_date_1617;;
+    <- completion_date_1634;;
     *);;
 
 concept_situation->[*       
@@ -50,22 +36,8 @@ concept_situation->[*
             Male_Basilian_Monastery_Building   
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1634];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1641];;
-            *);;
-        *);;
+    <- begin_date_1634;;
+    <- completion_date_1641;;
 *);;
 
 concept_situation->[*
@@ -77,20 +49,6 @@ concept_situation->[*
         Female_Basilian_Monastery_Building
         };;
 *](*
-    => nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1641];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1795];;
-            *);;
-        *);;
+    <- begin_date_1641;;
+    <- completion_date_1795;;
 *);;

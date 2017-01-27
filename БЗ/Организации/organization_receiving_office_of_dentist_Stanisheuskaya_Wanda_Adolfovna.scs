@@ -1,0 +1,14 @@
+organization_receiving_office_of_dentist_Stanisheuskaya_Wanda_Adolfovna
+=> nrel_main_idtf:
+        [Приемный кабинет зубного врача Станишевской Ванды Адольфовны]
+	(*
+	<- lang_ru;;
+	*);
+        [Receiving office of dentist Stanisheuskaya Wanda Adolfovna]
+	(*
+	<- lang_en;;
+	*);
+        [Прыёмны кабінет зубнога ўрача Станішэускай Ванды Адольфаўны]
+	(*
+	<- lang_by;;
+	*);;

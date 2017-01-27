@@ -9,23 +9,9 @@ concept_arch_deconstructivism
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1980];;
-                    *);;
-                *);;
+                <- begin_date_1980;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1990];;
-                    *);;
-                *);;
+                <- completion_date_1990;;
             *);;
         *);
 

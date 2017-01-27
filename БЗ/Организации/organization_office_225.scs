@@ -1,0 +1,14 @@
+organization_office_225
+=> nrel_main_idtf:
+	[Контора(пл. 225 кв. арш.)]
+	(*
+	<- lang_ru;;
+	*);
+        [Office(area of 225 square yards)]
+	(*
+	<- lang_en;;
+	*);
+        [Кантора(пл. 225 кв. арш.)]
+	(*
+	<- lang_by;;
+	*);;

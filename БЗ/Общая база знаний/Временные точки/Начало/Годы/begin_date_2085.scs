@@ -1,0 +1,20 @@
+begin_date_2085
+=> nrel_main_idtf:
+   [время начала - 2085]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 2085]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 2085]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 2085;;
+   *);;

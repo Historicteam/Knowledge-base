@@ -30,16 +30,7 @@ Belarusian_State_University
 
 *);
 
-=> nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-	    -> rrel_day: rrel_decimal: [30];;
-	    -> rrel_month: rrel_decimal: [10];;
-            -> rrel_year: rrel_decimal: [1921];;
-            *);;
-        *);
+<- begin_date_30_10_1921;
 
 
 =>nrel_motto:
@@ -105,22 +96,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost:Picheta_Uladzimir_Ivanavich;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1921];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1929];;
-            *);;
-        *);;
+    <- begin_date_1921;;
+    <- completion_date_1929;;
 *);;
 pers_comp_organization_Belarusian_State_University_1921_1929
 =>nrel_main_idtf:
@@ -131,22 +108,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost: Karanieuski_Iosif_Piatrovich;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1929];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1931];;
-            *);;
-        *);;
+    <- begin_date_1929;;
+    <- completion_date_1931;;
 *);;
 pers_comp_organization_Belarusian_State_University_1929_1931
 =>nrel_main_idtf:
@@ -157,22 +120,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost: Jermakou_Ivan_Fiadotavich;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1931];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1933];;
-            *);;
-        *);;
+    <- begin_date_1931;;
+    <- completion_date_1933;;
 *);;
 pers_comp_organization_Belarusian_State_University_1931_1933
 =>nrel_main_idtf:
@@ -183,22 +132,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
 ->rrel_provost: Ananij_Ivanavich_Dziakau;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1934];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1935];;
-            *);;
-        *);;
+    <- begin_date_1934;;
+    <- completion_date_1935;;
 *);;
 pers_comp_organization_Belarusian_State_University_1934_1935
 =>nrel_main_idtf:
@@ -209,22 +144,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
 ->rrel_provost: Aliaksiej_Sciapanavich_Kuchynski;;
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1935];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1937];;
-            *);;
-        *);;
+    <- begin_date_1935;;
+    <- completion_date_1937;;
 *);;
 pers_comp_organization_Belarusian_State_University_1935_1937
 =>nrel_main_idtf:
@@ -235,22 +156,8 @@ concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nre
 ->rrel_provost: Anufryj_Niestaravich_Andruszchanka;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1937];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1938];;
-            *);;
-        *);;
+    <- begin_date_1937;;
+    <- completion_date_1938;;
 *);;
 pers_comp_organization_Belarusian_State_University_1937_1938
 =>nrel_main_idtf:
@@ -261,22 +168,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost: Parfionau_Piatrovich_Savicki;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1938];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1946];;
-            *);;
-        *);;
+    <- begin_date_1938;;
+    <- completion_date_1946;;
 *);;
 pers_comp_organization_Belarusian_State_University_1938_1946
 =>nrel_main_idtf:
@@ -287,22 +180,8 @@ concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nre
 ->rrel_provost:  Uladzimir_Antonavich_Tamaszevich;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1946];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1949];;
-            *);;
-        *);;
+    <- begin_date_1946;;
+    <- completion_date_1949;;
 *);;
 pers_comp_organization_Belarusian_State_University_1946_1949
 =>nrel_main_idtf:
@@ -313,22 +192,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost:  Ivan_Savich_Chimburh;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1949];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1952];;
-            *);;
-        *);;
+    <- begin_date_1949;;
+    <- completion_date_1952;;
 *);;
 pers_comp_organization_Belarusian_State_University_1949_1952
 =>nrel_main_idtf:
@@ -339,22 +204,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
 ->rrel_provost:   Kanstancin_Ihnatavich_Lukaszou;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1952];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1957];;
-            *);;
-        *);;
+    <- begin_date_1952;;
+    <- completion_date_1957;;
 *);;
 pers_comp_organization_Belarusian_State_University_1952_1957
 =>nrel_main_idtf:
@@ -365,22 +216,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
 ->rrel_provost:Anton_Nichyparavich_Sieuchanka;;
 *);;  *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1957];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1972];;
-            *);;
-        *);;
+    <- begin_date_1957;;
+    <- completion_date_1972;;
 *);;
 pers_comp_organization_Belarusian_State_University_1957_1972
 =>nrel_main_idtf:
@@ -391,22 +228,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost: Usievalad_Mihajlavich_Sikorski;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1972];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1978];;
-            *);;
-        *);;
+    <- begin_date_1972;;
+    <- completion_date_1978;;
 *);;
 pers_comp_organization_Belarusian_State_University_1972_1978
 =>nrel_main_idtf:
@@ -417,22 +240,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost:  Uladzimir_Aliaksiejevich_Biely;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1978];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1983];;
-            *);;
-        *);;
+    <- begin_date_1978;;
+    <- completion_date_1983;;
 *);;
 pers_comp_organization_Belarusian_State_University_1978_1983
 =>nrel_main_idtf:
@@ -443,22 +252,8 @@ concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nre
 ->rrel_provost: Lieanid_Ivanavich_Kisialiouski;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1983];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1990];;
-            *);;
-        *);;
+    <- begin_date_1983;;
+    <- completion_date_1990;;
 *);;
 pers_comp_organization_Belarusian_State_University_1983_1990
 =>nrel_main_idtf:
@@ -469,22 +264,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost: Fiodar_Mikalajevich_Kapucki;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1990];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1995];;
-            *);;
-        *);;
+    <- begin_date_1990;;
+    <- completion_date_1995;;
 *);;
 pers_comp_organization_Belarusian_State_University_1990_1995
 =>nrel_main_idtf:
@@ -495,22 +276,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost:  Aliaksandr_Uladzislavavich_Kazulin;;
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1996];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2003];;
-            *);;
-        *);;
+    <- begin_date_1996;;
+    <- completion_date_2003;;
 *);;
 pers_comp_organization_Belarusian_State_University_1996_2003
 =>nrel_main_idtf:
@@ -521,22 +288,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost: Vasil_Ivanavich_Strazhau;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2003];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2008];;
-            *);;
-        *);;
+    <- begin_date_2003;;
+    <- completion_date_2008;;
 *);;
 pers_comp_organization_Belarusian_State_University_2003_2008
 =>nrel_main_idtf:
@@ -547,14 +300,7 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_provost: Siarhiej_Uladzimiravich_Ablamiejka;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2008];;
-            *);;
-        *);;
+    <- begin_date_2008;;
    
 *);;
 pers_comp_organization_Belarusian_State_University_2008
@@ -567,22 +313,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
 ->rrel_student: Barys_Paulavich_Dziemidovich;;
 *);;*]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1923];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1927];;
-            *);;
-        *);;
+    <- begin_date_1923;;
+    <- completion_date_1927;;
 *);;
 pers_comp_organization_Belarusian_State_University_1923_1927
 =>nrel_main_idtf:
@@ -593,22 +325,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_student: Ananich_Liliya_Staniclavauna;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1977];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1982];;
-            *);;
-        *);;
+    <- begin_date_1977;;
+    <- completion_date_1982;;
 *);;
 pers_comp_organization_Belarusian_State_University_1977_1982
 =>nrel_main_idtf:
@@ -619,22 +337,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 ->rrel_student: Lidzija_Mikhajlauna_Yarmoszyna;;
 *);; *]
   (*
-    => nrel_start_time: ...
-    (*
-    <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1970];;
-            *);;
-        *);;
-    => nrel_finish_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1975];;
-            *);;
-        *);;
+    <- begin_date_1970;;
+    <- completion_date_1975;;
 *);;
 pers_comp_organization_Belarusian_State_University_1970_1975
 =>nrel_main_idtf:

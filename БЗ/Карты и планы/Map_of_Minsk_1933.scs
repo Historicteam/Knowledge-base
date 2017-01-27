@@ -19,10 +19,4 @@ Image_of_map_of_Minsk_1933
 };
 
 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_year: rrel_decimal: [1933];;
-*);;
-*);;
+<- begin_date_1933;;

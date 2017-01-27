@@ -1,0 +1,14 @@
+organization_Workshop_binding_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Мастерская (переплетная) в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Workshop (binding) in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+	[Майстэрня(пераплётная) у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,14 @@
+organization_the_second_Minsk_dental_medical_private_school
+=> nrel_main_idtf:
+	[Вторая Минская частная зуболечебная школа]
+	(*
+	<- lang_ru;;
+	*);
+        [The second Minsk dental medical private school]
+	(*
+	<- lang_en;;
+	*);
+        [Другая Мінская прыватная зубаўрачэбная школа]
+	(*
+	<- lang_by;;
+	*);;

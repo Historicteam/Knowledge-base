@@ -1,0 +1,18 @@
+begin_date_19_century
+=> nrel_main_idtf:
+   [время начала - 19 век]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 19 century]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 19 век]
+   (*
+   <- lang_by;;
+   *);
+<- begin_date_first_half_of_19_century;
+<- begin_date_second_half_of_19_century;
+<- exact_value;
+<- begin;;

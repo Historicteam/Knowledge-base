@@ -18,6 +18,6 @@ concept_restored_construction
 	<= nrel_using_constants:
 		...
 		(* 
-		-> 	concept_constructions;;
+		-> 	concept_construction;;
 		*);;
 	*);;

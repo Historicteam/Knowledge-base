@@ -1,0 +1,25 @@
+Zagorskaya_house_building <- rrel_key_sc_element: Illustration_Zagorskaya_house_building3
+	(*
+=> nrel_main_idtf:
+	[Фото Дома Загорской(47) в 1918м году] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Zagorskaya House(47) photo in 1918] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Фота Дома Загорскай(47) ў 1918м годзе]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/chapsky1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+ *);;

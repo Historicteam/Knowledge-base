@@ -1,0 +1,20 @@
+begin_date_1904
+=> nrel_main_idtf:
+   [время начала - 1904]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1904]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1904]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1904;;
+   *);;

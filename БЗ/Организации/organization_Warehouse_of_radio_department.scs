@@ -1,0 +1,14 @@
+organization_Warehouse_of_radio_department
+=> nrel_main_idtf:
+	[Склад радиоотдела]
+	(*
+	<- lang_ru;;
+	*);
+        [Warehouse of radio department]
+	(*
+	<- lang_en;;
+	*);
+        [Склад радыёаддзела]
+	(*
+	<- lang_by;;
+	*);;

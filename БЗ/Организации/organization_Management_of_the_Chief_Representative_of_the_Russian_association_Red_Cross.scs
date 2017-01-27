@@ -1,0 +1,14 @@
+organization_Management_of_the_Chief_Representative_of_the_Russian_association_Red_Cross
+=> nrel_main_idtf:
+	[Управление Главного уполномоченного Российского товарищества "Красного Креста"]
+	(*
+	<- lang_ru;;
+	*);
+        [Management of the Chief Representative of the Russian association "Red Cross"]
+	(*
+	<- lang_en;;
+	*);
+        [Упраўленне Галоўнага ўпаўнаважанага Расійскага таварыста "Чырвонага Крыжа"]
+	(*
+	<- lang_by;;
+	*);;

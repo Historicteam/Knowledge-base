@@ -1,0 +1,20 @@
+begin_date_2063
+=> nrel_main_idtf:
+   [время начала - 2063]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 2063]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 2063]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 2063;;
+   *);;

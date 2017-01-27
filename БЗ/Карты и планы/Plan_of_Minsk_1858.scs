@@ -20,12 +20,4 @@ Image_of_plan_of_Minsk_1858
 };
 
 
-=> nrel_start_time: ...
-(*
-=> nrel_translation_in_the_Gregorian_calendar: ...
-(*
--> rrel_day: rrel_decimal: [25];;
--> rrel_month: rrel_decimal: [9];;
--> rrel_year: rrel_decimal: [1858];;
-*);;
-*);;
+<- begin_date_25_09_1858;;

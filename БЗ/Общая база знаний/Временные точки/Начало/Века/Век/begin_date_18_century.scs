@@ -1,0 +1,18 @@
+begin_date_18_century
+=> nrel_main_idtf:
+   [время начала - 18 век]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 18 century]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 18 век]
+   (*
+   <- lang_by;;
+   *);
+<- begin_date_first_half_of_18_century;
+<- begin_date_second_half_of_18_century;
+<- exact_value;
+<- begin;;

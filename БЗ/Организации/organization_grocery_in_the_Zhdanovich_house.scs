@@ -1,0 +1,14 @@
+organization_grocery_in_the_Zhdanovich_house
+=> nrel_main_idtf:
+        [Бакалейная лавка в Доме Ждановича]
+	(*
+	<- lang_ru;;
+	*);
+        [Grocery in the Zhdanovich house]
+	(*
+	<- lang_en;;
+	*);
+        [Бакалейная лаўка у Доме Ждановіча]
+	(*
+	<- lang_by;;
+	*);;

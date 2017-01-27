@@ -8,23 +8,9 @@ concept_arch_postmodern_architecture
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1950];;
-                    *);;
-                *);;
+                <- begin_date_1950;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1960];;
-                    *);;
-                *);;
+                <- completion_date_1960;;
             *);;
         *);
 
@@ -32,23 +18,9 @@ concept_arch_postmodern_architecture
         (*
         <= nrel_time_period: ...
             (*
-                => nrel_start_time: ...
-                (*
-                <-concept_time_point;;
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [1990];;
-                    *);;
-                *);;
+                <- begin_date_1990;;
           
-                => nrel_finish_time: ...
-                (*
-                <-concept_time_point;;          
-                => nrel_translation_in_the_Gregorian_calendar: ...
-                    (*
-                    -> rrel_year: rrel_decimal: [2000];;
-                    *);;
-                *);;
+                <- completion_date_2000;;
             *);;
         *);
 

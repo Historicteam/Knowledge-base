@@ -1,0 +1,14 @@
+organization_Minsk_society_of_argiculture_warehouse
+=> nrel_main_idtf:
+        [Cклад при Минском обществе сельского хозяйства]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk society of argiculture warehouse]
+	(*
+	<- lang_en;;
+	*);
+        [Cклад пры Мінскім таварыстве сельскай гаспадаркі]
+	(*
+	<- lang_by;;
+	*);;

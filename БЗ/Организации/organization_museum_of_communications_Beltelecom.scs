@@ -1,0 +1,14 @@
+organization_museum_of_communications_Beltelecom
+=> nrel_main_idtf:
+	[Музей связи РУП «Белтелеком»]
+	(*
+	<- lang_ru;;
+	*);
+        [Museum of communications "Beltelecom"]
+	(*
+	<- lang_en;;
+	*);
+        [Музей сувязі РУП «Белтэлекам»]
+	(*
+	<- lang_by;;
+	*);;

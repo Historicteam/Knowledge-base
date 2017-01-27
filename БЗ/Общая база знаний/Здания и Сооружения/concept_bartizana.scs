@@ -21,7 +21,7 @@ concept_bartizana
 
 		->concept_tower;
 concept_fortification;
-concept_constructions;;
+concept_construction;;
 
 		*);;
 	*);;

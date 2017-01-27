@@ -1,0 +1,20 @@
+completion_date_1702
+=> nrel_main_idtf:
+   [время завершения - 1702]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1702]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1702]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- completion;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1702;;
+   *);;

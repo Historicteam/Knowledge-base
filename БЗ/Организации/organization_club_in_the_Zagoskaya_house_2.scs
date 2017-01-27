@@ -1,0 +1,14 @@
+organization_club_in_the_Zagoskaya_house_2
+=> nrel_main_idtf:
+        [Клуб в Доме Загорской (49)]
+	(*
+	<- lang_ru;;
+	*);
+        [Club in the Zagoskaya house(49)]
+	(*
+	<- lang_en;;
+	*);
+        [Клуб у Доме Загорскай(49)]
+	(*
+	<- lang_by;;
+	*);;

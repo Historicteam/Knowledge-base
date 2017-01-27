@@ -1,0 +1,18 @@
+begin_date_21_century
+=> nrel_main_idtf:
+   [время начала - 21 век]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 21 century]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 21 век]
+   (*
+   <- lang_by;;
+   *);
+<- begin_date_first_half_of_21_century;
+<- begin_date_second_half_of_21_century;
+<- exact_value;
+<- begin;;

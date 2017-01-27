@@ -1,0 +1,14 @@
+organization_warehouse_103_of_Minsk_city_Western_Railway_station
+=> nrel_main_idtf:
+	[Склад №103 городской станции Минской западной железной дороги]
+	(*
+	<- lang_ru;;
+	*);
+        [warehouse №103 of Minsk city Western Railway station]
+	(*
+	<- lang_en;;
+	*);
+        [Склад №103 гарадской станцыі Мінскай заходняй чыгункі]
+	(*
+	<- lang_by;;
+	*);;

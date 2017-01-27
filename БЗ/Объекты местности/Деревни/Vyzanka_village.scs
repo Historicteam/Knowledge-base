@@ -1,0 +1,13 @@
+Vyzanka_village
+=> nrel_main_idtf:
+	[деревня Вязанка]
+	(*
+	<- lang_ru;;
+	*);
+	[Vyazanka village]
+	(*
+	<- lang_en;;
+	*);
+<-concept_terrain_object;
+<-concept_village
+;;

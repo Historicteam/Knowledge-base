@@ -39,21 +39,9 @@ building_of_the_church_of_St_Joseph
             <- lang_by;;
             *);;
             
-	=> nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1652];;
-                *);;
-            *);;
+	<- begin_date_1652;;
             
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1872];;
-                *);;
-            *);;
+        <- completion_date_1872;;
 	*);
         
         building_of_Minsk_city_archive
@@ -72,13 +60,7 @@ building_of_the_church_of_St_Joseph
             <- lang_by;;
             *);;
             
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1872];;
-                *);;
-            *);;
+        <- begin_date_1872;;
         *)
     };;
 
@@ -104,20 +86,8 @@ concept_situation->[*
 	*);; 
 	*]
 	(*      
-            => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1800];;
-                *);;
-            *);;
-            => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1900];;
-                *);;
-            *);;
+            <- begin_date_1800;;
+            <- completion_date_1900;;
 	*);;
 
 
@@ -143,20 +113,8 @@ concept_situation->[*
 	*);; 
 	*]
 	(*      
-            => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1900];;
-                *);;
-            *);;
-            => nrel_finisih_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [2000];;
-                *);;
-            *);;
+        <- begin_date_1900;;
+        <- completion_date_2000;;
 	*);;
 
 concept_situation->[*organization_Minsk_archive  => nrel_location: building_of_the_church_of_St_Joseph;;*]
@@ -164,11 +122,5 @@ concept_situation->[*organization_Minsk_archive  => nrel_location: building_of_t
     => nrel_main_idtf: 
     [Контур периода времени расположения архива в здании костёла святого Иосифа](*<-lang_ru;;*);
     [Контур перыяду часу месцавання архiву у будынку касцёла святога Язэпа](*<-lang_by;;*);;
-    => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1872];;
-                *);;
-            *);;
+    <- begin_date_1872;;
 *);;

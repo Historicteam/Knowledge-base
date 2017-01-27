@@ -1,0 +1,20 @@
+begin_date_1586
+=> nrel_main_idtf:
+   [время начала - 1586]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1586]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1586]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1586;;
+   *);;

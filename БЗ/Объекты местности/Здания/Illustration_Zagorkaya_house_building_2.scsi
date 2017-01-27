@@ -1,0 +1,26 @@
+Zagorskaya_house_building_2 <- rrel_key_sc_element: Illustration_Zagorskaya_house_building_2
+	(*
+=> nrel_main_idtf:
+	[Фото Дома Загорской(49) в 2014м году] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Zagorskaya house(49) photo in 2014] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Фота Дома Загорскай(49) ў 2014м годзе]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/KGB.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+ *);;
+

@@ -1,0 +1,14 @@
+organization_Main_trade_office
+=> nrel_main_idtf:
+	["Главторговля"]
+	(*
+	<- lang_ru;;
+	*);
+        ["Main trade office"]
+	(*
+	<- lang_en;;
+	*);
+        ["Галоўгандаль"]
+	(*
+	<- lang_by;;
+	*);;

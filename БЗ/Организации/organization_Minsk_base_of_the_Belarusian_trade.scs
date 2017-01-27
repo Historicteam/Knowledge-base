@@ -1,0 +1,14 @@
+organization_Minsk_base_of_the_Belarusian_trade
+=> nrel_main_idtf:
+	[Минская база "Белторгвли"]
+	(*
+	<- lang_ru;;
+	*);
+        [Minsk base of the Belarusian trade]
+	(*
+	<- lang_en;;
+	*);
+        [Мінская база "Белграндалю"]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,6 +1,65 @@
 organization_Minsk_Society_of_Agriculture
+=> nrel_main_idtf:
+	[Минское общество сельского хозяйства]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk Society of Agriculture]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскае таварыства сельскай гаспадаркі]
+	(*
+	<- lang_by;;
+	*);
 
+<- rrel_key_sc_element: Explanation_organization_Minsk_Society_of_Agriculture
+	(*
 	=> nrel_main_idtf:
-		[Минское общество сельского хозяйства] (* <- lang_ru;; *);
-		[Minsk Society of Agriculture] (* <- lang_en;; *);
-		[Мінскае таварыства сельскай гаспадаркі] (* <- lang_by;; *);;
+	[Пояснение Минского общества сельского хозяйства] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of The Minsk Society of Agriculture] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне Мінскага таварыства сельскай гаспадаркі]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Минское общество сельского хозяйства - общественная организация хозяйственного (а позже и политического) характера, которая существовала с 20 августа 1876 года по 1 мая 1921 г. и имевший в своем составе в основном среднезажиточного и зажиточных землевладельцев Минской губернии.]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[Minsk Society of Agriculture - the economic social organization (and later political) nature, which existed from August 20, 1876 to May 1, 1921 which had in its composition is mainly well-off and wealthy landowners Minsk province.]
+			 (* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Мінскае таварыства сельскай гаспадаркі — грамадская арганізацыя гаспадарчага (а пазней і палітычнага) характару, якая існавала з 20 жніўня 1876 г. па 1 мая 1921 г. і мела ў сваім складзе галоўным чынам сярэднезаможных і заможных землеўласнікаў Мінскай губерні.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);
+
+<-concept_organization;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+=> nrel_employee: Trubeckoi_Nikolai_Nikolaevich;
+=> nrel_employee: Musin_Pushkin_Alexander_Alexandrovich;
+=> nrel_employee: Skirmynt_Roman_Alexandrovich;;
+
+organization_Minsk_Society_of_Agriculture
+<- begin_date_20_08_1876;
+<- completion_date_01_05_1921;;

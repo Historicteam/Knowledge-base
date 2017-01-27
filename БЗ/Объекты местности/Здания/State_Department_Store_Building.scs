@@ -85,14 +85,7 @@ State_Department_Store_Building
 		*);;
 	*);	
 
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1951];;
-            *);;
-        *);
+	<- begin_date_1951;
 
 =>nrel_architectural_style: concept_arch_classicism;
 =>nrel_architector: Gegart_Roman_Mikhailovich;
@@ -103,14 +96,7 @@ concept_situation->[*State_Department_Store_Building
 	<=nrel_location: organization_State_Department_Store;;
 *]
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1947];;
-            *);;
-        *);;
+	<- begin_date_1947;;
 *);;
 
 concept_situation->[*State_Department_Store_Building
@@ -127,14 +113,7 @@ concept_situation->[*State_Department_Store_Building
 		*);;
 	*);;*]
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [2012];;
-            *);;
-        *);;
+	<- begin_date_2012;;
 *);;
 
 	
@@ -152,14 +131,7 @@ concept_situation->[*State_Department_Store_Building
 		*);;
 	*);;*]
 (*
-	=> nrel_start_time: ...
-        (*
-        <-concept_time_point;;
-        => nrel_translation_in_the_Gregorian_calendar: ...
-            (*
-            -> rrel_year: rrel_decimal: [1953];;
-            *);;
-        *);;
+	<- begin_date_1953;;
 *);;
 
 

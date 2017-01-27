@@ -1,0 +1,14 @@
+organization_Yanyshevsky_Henrik_Yanyarovich_shop
+=> nrel_main_idtf:
+        [Магазин Янушевского Генриха Януаровича в Доме Загорской (49)]
+	(*
+	<- lang_ru;;
+	*);
+        [Yanyshevsky Henrik Yanyarovich shop in the Zagoskaya house(49)]
+	(*
+	<- lang_en;;
+	*);
+        [Крама Янушэўскага Генрыха Януаравіча у Доме Загорскай(49)]
+	(*
+	<- lang_by;;
+	*);;

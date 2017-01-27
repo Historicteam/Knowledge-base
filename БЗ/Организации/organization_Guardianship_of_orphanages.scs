@@ -1,0 +1,14 @@
+organization_Guardianship_of_orphanages
+=> nrel_main_idtf:
+	[Попечительство детских приютов]
+	(*
+	<- lang_ru;;
+	*);
+        [The Guardianship of orphanages]
+	(*
+	<- lang_en;;
+	*);
+        [Апякунства дзіцячых прытулкаў]
+	(*
+	<- lang_by;;
+	*);;

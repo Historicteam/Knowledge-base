@@ -1,0 +1,20 @@
+begin_date_2025
+=> nrel_main_idtf:
+   [время начала - 2025]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 2025]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 2025]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 2025;;
+   *);;

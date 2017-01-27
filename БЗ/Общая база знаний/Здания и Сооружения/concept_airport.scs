@@ -22,6 +22,6 @@ concept_airport
 		-> 
 concept_structure;
 concept_complex_construction;	
-concept_constructions;;
+concept_construction;;
 	*);;
 

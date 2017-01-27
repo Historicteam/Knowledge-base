@@ -29,33 +29,12 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
             (*
             <= nrel_time_period: ...
                 (*
-                    => nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1642];;
-                        *);;
-                    *);;
+                    <- begin_date_1642;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1672];;
-                        *);;
-                    *);;
+                    <- completion_date_1672;;
                 *);;
             *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1852];;
-                *);;
-            *);;
+        <- completion_date_1852;;
         *);;
             
           
@@ -69,22 +48,8 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
             building_of_Bernardine_Church
         };;
 	*] (*
-        => nrel_start_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1862];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            <-concept_time_point;;
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1870];;
-                *);;
-            *);;
+        <- begin_date_1862;;
+        <- completion_date_1870;;
         *);;
         
         concept_situation->[*
@@ -95,33 +60,14 @@ complex_of_constructions_of_the_female_monastery_of_Bernardine
                 building_of_Bernardine_Church
             };;
 	    *]   (*         
-        => nrel_start_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1870];;
-                *);;
-            *);;
-        => nrel_finish_time: ...
-            (*
-            => nrel_translation_in_the_Gregorian_calendar: ...
-                (*
-                -> rrel_year: rrel_decimal: [1918];;
-                *);;
-            *);;
+        <- begin_date_1870;;
+        <- completion_date_1918;;
         *);;
 
 
 concept_situation->[*^"file://complex_of_constructions_of_the_female_monastery_of_Bernardine_1642_1852_definition.scsi"*]
 (*
-	=> nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1642];;
-                        *);;
-                    *);;
+	<- begin_date_1642;;
               
                     => nrel_finish_time: ...
                     (*
@@ -135,44 +81,16 @@ concept_situation->[*^"file://complex_of_constructions_of_the_female_monastery_o
 
 concept_situation->[*^"file://complex_of_constructions_of_the_female_monastery_of_Bernardine_1862_1870_definition.scsi"*]
 (*
-	=> nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1862];;
-                        *);;
-                    *);;
+	<- begin_date_1862;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1870];;
-                        *);;
-                    *);;
+                    <- completion_date_1870;;
 *);;
 
 concept_situation->[*^"file://complex_of_constructions_of_the_female_monastery_of_Bernardine_1870_1918_definition.scsi"*]
 (*
-	=> nrel_start_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1870];;
-                        *);;
-                    *);;
+	<- begin_date_1870;;
               
-                    => nrel_finish_time: ...
-                    (*
-                    <-concept_time_point;;
-                    => nrel_translation_in_the_Gregorian_calendar: ...
-                        (*
-                        -> rrel_year: rrel_decimal: [1918];;
-                        *);;
-                    *);;
+                    <- completion_date_1918;;
 *);;
 
 

@@ -1,0 +1,14 @@
+organization_receiving_civil_doctors_office_Raper_Adolf_Adolfovich
+=> nrel_main_idtf:
+        [Приемный кабинет гражданского врача рэпер Адольфа Адольфович]
+	(*
+	<- lang_ru;;
+	*);
+        [Receiving civil doctor's office Raper Adolf Adol'fovich]
+	(*
+	<- lang_en;;
+	*);
+        [Прыёмны кабінет грамадзянскага урача Рэпера Адольфа Адольфавіча]
+	(*
+	<- lang_by;;
+	*);;

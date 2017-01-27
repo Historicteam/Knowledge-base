@@ -1,0 +1,20 @@
+begin_date_1538
+=> nrel_main_idtf:
+   [время начала - 1538]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1538]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1538]
+   (*
+   <- lang_by;;
+   *);
+<- exact_value;
+<- begin;
+=> nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: 1538;;
+   *);;
