@@ -1,0 +1,8 @@
+Kabylinski_Juryj
+
+=> nrel_main_idtf:
+	[Кобылинский Юрий] (* <- lang_ru;; *);
+	[Kabylinski Juryj] (* <- lang_en;; *);
+	[Кабылінскі Юрый] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

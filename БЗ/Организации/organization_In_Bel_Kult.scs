@@ -12,5 +12,4 @@ organization_In_Bel_Kult
 	(*
 	<- lang_by;;
 	*);
-=>nrel_location: In_Bel_Kult_Building;
 <-concept_educational_institution;;

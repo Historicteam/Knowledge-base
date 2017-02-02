@@ -1,0 +1,8 @@
+Pszazdziecki_Mikhail
+
+=> nrel_main_idtf:
+	[Пшездецкий Михаил ] (* <- lang_ru;; *);
+	[Pszazdziecki Mikhail] (* <- lang_en;; *);
+	[Пшаздзецкі Міхаіл ] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

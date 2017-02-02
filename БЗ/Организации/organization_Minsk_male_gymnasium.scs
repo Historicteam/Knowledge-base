@@ -13,7 +13,7 @@ organization_Minsk_Male_Gymnasium
 	<- lang_by;;
 	*);
 
- => nrel_student: Mikhail_Osipovich_Glushnevich;
+=> nrel_student: Mikhail_Osipovich_Glushnevich;
 => nrel_student: Vladimir_Danilovich_Spasovich;
 => nrel_student:Konstantin_Mihailovich_Jelski;
 => nrel_student: Tadeusz_Korzon;

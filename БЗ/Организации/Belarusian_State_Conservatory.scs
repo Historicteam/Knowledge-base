@@ -1,0 +1,72 @@
+Belarusian_State_Conservatory
+=> nrel_main_idtf:
+	[Белорусская государственная консерватория ]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian State Conservatory] (* <- lang_en;; *);
+	[Беларуская дзяржаўная кансерваторыя] (* <- lang_by;; *);
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+		(* 
+		-> rrel_example:
+			[История Белорусской государственной академии музыки неразрывно связана с историей всей музыкальной культуры Беларуси XX столетия. Именно в Академии музыки сформировалась национальная композиторская школа, у истоков которой стоял ученик Н.А. Римского-Корсакова – профессор Василий Золотарёв. ] 
+			(* <-lang_ru;; *);;
+		*);
+	...
+		(* -> rrel_example:
+			[History of the Belarusian State Academy of Music is inextricably linked with the history of the whole musical culture of the XX century Belarus. It was at the Academy of Music formed a national school of composers, at the source of which was a pupil NA Rimsky-Korsakov - Professor Vasily Zolotarev.] 
+			(* <-lang_en;; *);;
+		*);
+	...
+			(* -> rrel_example:
+			[Гісторыя Беларускай дзяржаўнай акадэміі музыкі непарыўна звязана з гісторыяй усёй музычнай культуры Беларусі XX стагоддзя. Менавіта ў Акадэміі музыкі сфармавалася нацыянальная кампазітарская школа, ля вытокаў якой стаяў вучань Н.А. Рымскага-Корсакава - прафесар Васіль Золотарев.] 	
+			(* <- lang_by;;*);;
+		*);;
+
+*);
+
+<- begin_date_1932;
+<- completion_date_1934;
+<-concept_educational_institution;
+<-concept_formal_organization;;
+
+
+Belarusian_State_Conservatory_named_after_Lunacharsky
+=> nrel_main_idtf:
+	[Белорусская государственная консерватория имени Луначарского ]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian State Conservatory named after Lunacharsky] (* <- lang_en;; *);
+	[Беларуская дзяржаўная кансерваторыя імя Луначарскага] (* <- lang_by;; *);
+<-concept_educational_institution;
+<-concept_formal_organization;;
+concept_situation->[*Belarusian_State_Conservatory<= nrel_temporal_decomposition: Belarusian_State_Conservatory_named_after_Lunacharsky;;*]
+(*
+	<- begin_date_1884;;
+	<- completion_date_1895;;
+*);;
+
+Belarusian_State_Academy_of_Music
+=> nrel_main_idtf:
+	[Белорусская государственная академия музыки ]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian State Academy of Music] (* <- lang_en;; *);
+	[Беларуская дзяржаўная акадэмія музыкі] (* <- lang_by;; *);
+<-concept_educational_institution;
+<-concept_formal_organization;;
+concept_situation->[*Belarusian_State_Conservatory<= nrel_temporal_decomposition: Belarusian_State_Academy_of_Music;;*]
+(*
+	<- begin_date_1998;;
+*);;
+concept_situation->[*The_building_of_the_Minsk_Academy_of_Music <= nrel_location: Belarusian_State_Conservatory;;*]
+(*
+	<- begin_date_1998;;
+*);;

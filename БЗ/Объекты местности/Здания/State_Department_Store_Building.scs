@@ -86,9 +86,7 @@ State_Department_Store_Building
 	*);	
 
 	<- begin_date_1951;
-
-=>nrel_architectural_style: concept_arch_classicism;
-=>nrel_architector: Gegart_Roman_Mikhailovich;
+=>nrel_architect: Gegart_Roman_Mikhailovich;
 <- concept_terrain_object;
 <- concept_building;;
 
@@ -133,7 +131,10 @@ concept_situation->[*State_Department_Store_Building
 (*
 	<- begin_date_1953;;
 *);;
-
+concept_situation->[*State_Department_Store_Building<-concept_arch_empire_style;;*]
+(*
+	<- begin_date_1951;;
+*);;
 
 
 

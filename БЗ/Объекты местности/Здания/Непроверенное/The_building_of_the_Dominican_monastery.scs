@@ -45,82 +45,12 @@ the_building_of_the_Dominican_monastery
 ;
 
     => nrel_start_time: ...
-        (*
-        <= nrel_time_period: ...
+   
             (*
                 <- begin_date_1615;;
           
                 <- completion_date_1650;;
-            *);;
-        *);
-
-
-
-    <= nrel_temporal_decomposition:
-    {
-    st_Thomas_Aquinas_church
-    (*
-        => nrel_main_idtf:
-        [Костел святого Фомы Аквинского] (* <- lang_ru;; *);
-        [St. Thomas Aquinas church] (* <- lang_en;; *);
-        [Касцёл святога Фамы Аквінскага] (* <- lang_by;; *);;
-
-    => nrel_start_time: ...
-        (*
-        <= nrel_time_period: ...
-            (*
-                <- begin_date_1615;;
-          
-                <- completion_date_1650;;
-            *);;
-        *);;
-    <- completion_date_1702;;
-        *);
-
-    paraphy_Church_of_the_Holy_Trinity
-    (*
-    => nrel_main_idtf:
-        [Парафиальный костел Пресвятой Троицы] (* <- lang_ru;; *);
-        [Paraphy Church of the Holy Trinity] (* <- lang_en;; *);
-        [Парафіяльны касцёл Найсвяцейшай Тройцы] (* <- lang_by;; *);;
-
-        <- begin_date_1832;;
-    <- completion_date_1840;;
-        *);
-
-    minsk_catholic_theological_archdiocese_seminary_since_1844_to_1869
-    (*
-    => nrel_main_idtf:
-        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
-        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
-        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);;
-
-        <- begin_date_1844;;
-    <- completion_date_1869;;
-    *);
-
-    officers_club_building
-    (*
-    => nrel_main_idtf:
-        [Здание офицерского клуба] (* <- lang_ru;; *);
-        [Building of the Officers' Club] (* <- lang_en;; *);
-        [Будынак афіцэрскага клуба] (* <- lang_by;; *);;
-
-        <- begin_date_1869;;
-    <- completion_date_1918;;
-        *);
-
-    minsk_catholic_theological_archdiocese_seminary_since_10101918_to_1920
-    (*
-    => nrel_main_idtf:
-        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
-        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
-        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);;
-
-        <- begin_date_1918;;
-    <- completion_date_1920;;
-        *)
-    };
+            *);
 
     => nrel_openstreetmap:
     [The_building_of_the_Dominican_monastery] 
@@ -200,3 +130,108 @@ concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_elem
                     *);;
                 *);;
 *);;
+
+
+st_Thomas_Aquinas_church
+        => nrel_main_idtf:
+        [Костел святого Фомы Аквинского] (* <- lang_ru;; *);
+        [St. Thomas Aquinas church] (* <- lang_en;; *);
+        [Касцёл святога Фамы Аквінскага] (* <- lang_by;; *);
+       <- concept_building;
+<- concept_terrain_object;;
+
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: st_Thomas_Aquinas_church;;*]
+(*
+  => nrel_start_time: ...
+            (*
+                <- begin_date_1615;;
+          
+                <- completion_date_1650;;
+            *);;
+    <- completion_date_1702;;
+ *);;   
+
+
+
+ paraphy_Church_of_the_Holy_Trinity
+   
+    => nrel_main_idtf:
+        [Парафиальный костел Пресвятой Троицы] (* <- lang_ru;; *);
+        [Paraphy Church of the Holy Trinity] (* <- lang_en;; *);
+        [Парафіяльны касцёл Найсвяцейшай Тройцы] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+    
+
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: paraphy_Church_of_the_Holy_Trinity;;*]
+(*
+    <- begin_date_1832;;
+    <- completion_date_1840;;
+ *);;   
+
+
+minsk_catholic_theological_archdiocese_seminary_since_1844_to_1869
+
+    => nrel_main_idtf:
+        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
+        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
+        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: 
+    minsk_catholic_theological_archdiocese_seminary_since_1844_to_1869;;*]
+(*
+
+        <- begin_date_1844;;
+    <- completion_date_1869;;
+ *);;  
+
+officers_club_building
+    => nrel_main_idtf:
+        [Здание офицерского клуба] (* <- lang_ru;; *);
+        [Building of the Officers' Club] (* <- lang_en;; *);
+        [Будынак афіцэрскага клуба] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: 
+    officers_club_building;;*]
+(*
+        <- begin_date_1869;;
+    <- completion_date_1918;;
+ *);;  
+
+
+    minsk_catholic_theological_archdiocese_seminary_since_10101918_to_1920
+
+    => nrel_main_idtf:
+        [Здание католической духовной семинарии минской архидиацезии] (* <- lang_ru;; *);
+        [Building of the minsk Catholic theological archdiocese seminary] (* <- lang_en;; *);
+        [Будынак каталіцкай духоўнай семінарыі мінскай архідыяцезии] (* <- lang_by;; *);
+      <- concept_building;
+<- concept_terrain_object;;
+ 
+
+concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_decomposition: 
+        minsk_catholic_theological_archdiocese_seminary_since_10101918_to_1920;;*]
+(*
+        <- begin_date_1918;;
+    <- completion_date_1920;;
+ *);; 
+
+concept_situation->[*the_building_of_the_Dominican_monastery <-concept_arch_baroque;;*]
+(*
+    => nrel_start_time: ...
+   
+            (*
+                <- begin_date_1615;;
+          
+                <- completion_date_1650;;
+            *);;
+ *);; 
+ 
+

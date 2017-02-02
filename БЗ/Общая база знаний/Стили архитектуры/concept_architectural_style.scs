@@ -46,5 +46,6 @@ concept_architectural_style
 		concept_arch_deconstructivism;
 		concept_arch_constructivism;
 		concept_arch_bio_tech;
-		concept_arch_art_deco
+		concept_arch_art_deco;
+		functionalism
 	};;

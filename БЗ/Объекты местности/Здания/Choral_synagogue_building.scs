@@ -44,7 +44,7 @@ Choral_synagogue_building
 			*);;
 		*);;
 	*);
-
+=>nrel_architect: BBaklanov_architector;
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
@@ -74,26 +74,20 @@ Choral_synagogue_building
 	=> nrel_start_time: ...
         (*
 	       <- begin_date_1901;;
-		
 		<- completion_date_1906;;
         *);
-
-=>nrel_architectural_style:...
-(*
-	<-concept_arch_mavritan
-	(*
-		<- begin_date_1901;;
-		
-		<- completion_date_1941;;
-	*);;
-	
-	<-concept_arch_classicism
-	(*
-		<- begin_date_1944;;
-	*);;
-*);
 <- concept_terrain_object;
 <- concept_building;;
+
+concept_situation->[*Choral_synagogue_building<-concept_arch_mavritan;;*]
+(*
+ <- begin_date_1901;;
+<- completion_date_1944;;
+*);;
+concept_situation->[*Choral_synagogue_building	<-concept_arch_classicism;;*]
+(*
+<- begin_date_1944;;
+*);;
 
 concept_situation->[*Choral_synagogue_building
 	<=nrel_location: organization_Choral_synagogue;;
@@ -238,21 +232,8 @@ concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:Go
 	=> nrel_start_time: ...
 	(*
 		<- begin_date_1945;;
-
-		<- completion_date_1947;;
-	*);;
-	
-	=>nrel_architector: Baklanov_architector;;
-*);;
-
-concept_situation->[*Choral_synagogue_building
-	<=nrel_architector: Baklanov_architector;;
-*]
-(*
-	=> nrel_start_time: ...
-	(*
-		<- begin_date_1945;;
-
 		<- completion_date_1947;;
 	*);;
 *);;
+
+

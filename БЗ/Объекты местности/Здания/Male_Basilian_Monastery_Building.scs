@@ -106,7 +106,7 @@ Male_Basilian_Monastery_Building
 
 <- concept_building;
 <- concept_terrain_object;
-<- concept_arch_classicism;
+
 
 => nrel_openstreetmap:
 	[Male_Basilian_Monastery_Building] 
@@ -237,4 +237,14 @@ concept_situation->[*organisation_central_labour_club_red_profintern => nrel_loc
 (*
 	=> nrel_main_idtf: [Контур периода времени расположения центрального рабочего клуба "Красный профинтерн" в здании минского мужского базилианского монастыря](*<-lang_ru;;*);;
 	<- begin_date_1923;;
+*);;
+
+concept_situation->[*Male_Basilian_Monastery_Building<- concept_arch_baroque;;*]
+(*
+	<- begin_date_1617;;
+<- completion_date_1835;;
+*);;
+concept_situation->[*Male_Basilian_Monastery_Building<-concept_arch_classicism;;*]
+(*
+	<- begin_date_1835;;
 *);;

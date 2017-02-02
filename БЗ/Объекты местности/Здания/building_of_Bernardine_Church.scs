@@ -218,6 +218,9 @@ concept_situation->[*organization_Minsk_transit_prison => nrel_location: buildin
         <- completion_date_1940;;
  *);;
  
-
+concept_situation->[* building_of_Bernardine_Church<-concept_arch_vilnius_baroque;;*]
+(*
+    <- begin_date_1642;;
+*);;
  
  

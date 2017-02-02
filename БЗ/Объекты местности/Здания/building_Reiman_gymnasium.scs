@@ -76,12 +76,20 @@ Reiman_gymnasium_building
 	<- begin_date_1890;;
 	<- completion_date_1899;;
 *);
-
-=>nrel_architectural_style: concept_arch_neoclassicism;
 =>nrel_material: material_red_brick;
 <- concept_terrain_object;
 <- concept_administrative;
 <- concept_building;;
+
+
+concept_situation->[*Reiman_gymnasium_building<- concept_arch_neoclassicism;;*]
+	(*
+		=> nrel_start_time: ...
+(*
+	<- begin_date_1890;;
+	<- completion_date_1899;;
+*);;
+	*);;
 
 concept_situation->[*Reiman_gymnasium_building
 	<- rrel_key_sc_element: ...

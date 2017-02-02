@@ -1,5 +1,9 @@
 indepence_square
 <- concept_square;
+<= nrel_subdividing:
+	{
+	building_of_Red_Church
+	};
 => nrel_main_idtf:
 	[Площадь Независимости]
 	(*

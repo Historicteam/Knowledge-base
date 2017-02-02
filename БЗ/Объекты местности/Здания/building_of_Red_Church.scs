@@ -8,9 +8,7 @@ building_of_Red_Church
 		[Red Church] (* <- lang_en;; *);
 		[Чырвоны касцёл] (* <- lang_by;; *);
 => nrel_architect:Paizderski_Tomash;
-=> concept_architectural_style:concept_arch_neo_romanescue;
 => nrel_material:concept_brick;
-=> concept_square:indepence_square;
 <- rrel_key_sc_element:
 	...
 	(*
@@ -73,145 +71,78 @@ building_of_Red_Church
 <-concept_building;;
 concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  библиотеки А. Мицкевича в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання бiблiятэкi А. Мiцкевiча ў будынку Чырвонага касцёла](*<-lang_by;;*);;
     <- begin_date_1908;;
     <- completion_date_1932;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_of_BST_of_working_youth => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  белорусского государственного театра рабочей молодежи в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Дзяржаунага беларускага тэатра працоуная моладзi ў будынку Чырвонага касцёла](*<-lang_by;;*);;
     <- begin_date_1934;;
     <- completion_date_1935;;
-*);
-
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_of_BSSR_temporal_decomposition_State_Polish_Theatre => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  Государственного польского театра БССР в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Дзяржаунага польскага тэатра БССР ў будынку Чырвонага касцёла](*<-lang_by;;*);;
     <- begin_date_1934;;
     <- completion_date_1936;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_BSSR_filarmonic => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  Государственной филарморнии БССР в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Дзяржаўнай філармоніі БССР ў будынку Чырвонага касцёла](*<-lang_by;;*);;
     <- begin_date_1937;;
     <- completion_date_1939;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_youth_theathre => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  театра юного зрителя в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання тэатра юнага гледача ў будынку Чырвонага касцёла](*<-lang_by;;*);;
     <- begin_date_1938;;
     <- completion_date_1940;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_studio_sb => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  киностудии "советская беларусь" в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання кінастудыi "савецкая беларусь" ў будынку Чырвонага касцёла](*<-lang_by;;*);;
     <- begin_date_1937;;
     <- completion_date_1941;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_studio_sb => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  киностудии "советская беларусь" в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання кінастудыi "савецкая беларусь" ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+
     <- begin_date_1946;;
     <- completion_date_1975;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_cinema_house => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  Дома Кино в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Дома Kiно ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+
     <- begin_date_1975;;
     <- completion_date_1990;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  библиотеки А. Мицкевича в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання бiблiятэкi А. Мiцкевiча ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+
     <- begin_date_1998;;
     <- completion_date_2016;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_centre_piligrim => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  центра "Пилигрим" в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання цэнтра "Пiлiгрым" ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+
     <- begin_date_1992;;
     <- completion_date_2016;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_onemane_theathre => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  белорусского поэтического театра одного актера в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання белорускага паэтычнана тэатра аднаго  акцера ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+
     <- begin_date_1995;;
     <- completion_date_2016;;
-*);
-
- 
-<-concept_building;;
+*);;
 concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  Римско-Католического прихода имени святого Симеона  и Елены в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання 
-Рымска-Каталіцкі прыход імя святога Сымона і Алены ў будынку Чырвонага касцёла](*<-lang_by;;*);;
     <- begin_date_1910;;
     <- completion_date_1933;;
-*);
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  Римско-Католического прихода имени святого Симеона  и Елены в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання 
-Рымска-Каталіцкі прыход імя святога Сымона і Алены ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+
     <- begin_date_1941;;
     <- completion_date_1946;;
-*);
-
-
-<-concept_building;;
+*);;
 concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nrel_location: building_of_Red_Church;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения  Римско-Католического прихода имени святого Симеона  и Елены в здании Красного костела](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання 
-Рымска-Каталіцкі прыход імя святога Сымона і Алены ў будынку Чырвонага касцёла](*<-lang_by;;*);;
+
     <- begin_date_1990;;
     <- completion_date_2016;;
 *);;
@@ -319,3 +250,10 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- begin_date_1990;;
     <- completion_date_2016;;
 *);;
+
+concept_situation->[*building_of_Red_Church<-concept_arch_neo_romanescue;;*]
+  (*
+    <- begin_date_1908;;
+*);;
+
+

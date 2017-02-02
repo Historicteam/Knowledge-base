@@ -93,6 +93,20 @@ Freemason_House
 			*);;
 		*);;
 	*);
+=> nrel_start_time: ...
+        (*
+	       <- begin_date_1880;;
+		<- completion_date_1899;;
+        *);
 <-concept_building;
-<-concept_terrain_object
-;;
+<-concept_terrain_object;;
+
+concept_situation->[*Choral_synagogue_building<-concept_arch_classicism;;*]
+(*
+=> nrel_start_time: ...
+        (*
+	       <- begin_date_1880;;
+		<- completion_date_1899;;
+        *);;
+*);;
+

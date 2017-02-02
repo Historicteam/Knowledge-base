@@ -26,11 +26,9 @@ Building_courtyard_seating
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
+	*);
 
 <- concept_building;
-<- concept_arch_classicism;
 
 <- rrel_key_sc_element: Image_building_courtyard_seating (*
 	=> nrel_main_idtf:
@@ -56,3 +54,13 @@ Building_courtyard_seating
 			*);;
 		*);;
 	*);;
+concept_situation->[* building_of_Bernardine_Church<- concept_arch_classicism;;*]
+(*
+    <- begin_date_1799;;
+<- completion_date_1909;;
+*);;
+concept_situation->[* building_of_Bernardine_Church<- concept_arch_modern;;*]
+(*
+    <- begin_date_1909;;
+*);;
+

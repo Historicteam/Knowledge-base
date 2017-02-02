@@ -44,3 +44,9 @@ building_of_church_of_the_Holy_Spirit
 			*);;
 		*);;
 	*);;
+
+concept_situation->[*building_of_church_of_the_Holy_Spirit <-concept_arch_renaissanse;;*]
+(*
+                <- begin_date_1636;;
+          
+ *);;
