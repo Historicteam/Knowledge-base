@@ -16,5 +16,5 @@ completion_date_1972
 <- completion;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1972;;
+   <- number_of_year: [1972];;
    *);;

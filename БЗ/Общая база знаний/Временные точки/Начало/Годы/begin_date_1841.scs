@@ -16,5 +16,5 @@ begin_date_1841
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1841;;
+   <- number_of_year: [1841];;
    *);;

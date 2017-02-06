@@ -16,5 +16,5 @@ begin_date_1940
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1940;;
+   <- number_of_year: [1940];;
    *);;

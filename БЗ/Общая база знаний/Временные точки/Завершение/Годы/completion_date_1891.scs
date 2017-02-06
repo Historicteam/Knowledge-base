@@ -16,5 +16,5 @@ completion_date_1891
 <- completion;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1891;;
+   <- number_of_year: [1891];;
    *);;

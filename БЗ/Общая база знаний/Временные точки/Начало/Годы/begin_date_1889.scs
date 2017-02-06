@@ -16,5 +16,5 @@ begin_date_1889
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1889;;
+   <- number_of_year: [1889];;
    *);;

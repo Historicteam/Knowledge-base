@@ -16,5 +16,5 @@ completion_date_2032
 <- completion;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 2032;;
+   <- number_of_year: [2032];;
    *);;

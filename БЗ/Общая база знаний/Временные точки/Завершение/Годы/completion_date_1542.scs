@@ -16,5 +16,5 @@ completion_date_1542
 <- completion;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1542;;
+   <- number_of_year: [1542];;
    *);;

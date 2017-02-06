@@ -16,5 +16,5 @@ begin_date_1748
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1748;;
+   <- number_of_year: [1748];;
    *);;

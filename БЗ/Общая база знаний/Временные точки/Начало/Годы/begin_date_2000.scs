@@ -16,5 +16,5 @@ begin_date_2000
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 2000;;
+   <- number_of_year: [2000];;
    *);;

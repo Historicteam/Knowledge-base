@@ -16,5 +16,5 @@ completion_date_1998
 <- completion;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1998;;
+   <- number_of_year: [1998];;
    *);;

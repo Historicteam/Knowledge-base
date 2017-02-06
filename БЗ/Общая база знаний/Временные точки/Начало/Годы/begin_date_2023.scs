@@ -16,5 +16,5 @@ begin_date_2023
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 2023;;
+   <- number_of_year: [2023];;
    *);;

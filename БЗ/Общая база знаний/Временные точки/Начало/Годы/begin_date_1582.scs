@@ -16,5 +16,5 @@ begin_date_1582
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1582;;
+   <- number_of_year: [1582];;
    *);;

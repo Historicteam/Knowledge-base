@@ -16,5 +16,5 @@ begin_date_1862
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1862;;
+   <- number_of_year: [1862];;
    *);;

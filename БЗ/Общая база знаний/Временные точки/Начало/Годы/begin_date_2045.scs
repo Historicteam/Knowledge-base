@@ -16,5 +16,5 @@ begin_date_2045
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 2045;;
+   <- number_of_year: [2045];;
    *);;

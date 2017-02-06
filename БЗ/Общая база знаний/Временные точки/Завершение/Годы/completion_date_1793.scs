@@ -16,5 +16,5 @@ completion_date_1793
 <- completion;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1793;;
+   <- number_of_year: [1793];;
    *);;

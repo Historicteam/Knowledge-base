@@ -16,5 +16,5 @@ completion_date_1936
 <- completion;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1936;;
+   <- number_of_year: [1936];;
    *);;

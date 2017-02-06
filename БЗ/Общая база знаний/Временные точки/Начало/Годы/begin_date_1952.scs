@@ -16,5 +16,5 @@ begin_date_1952
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1952;;
+   <- number_of_year: [1952];;
    *);;

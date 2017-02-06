@@ -16,5 +16,5 @@ begin_date_1730
 <- begin;
 => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_year: 1730;;
+   <- number_of_year: [1730];;
    *);;
