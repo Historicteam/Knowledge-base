@@ -1,0 +1,24 @@
+completion_date_09_01_1996
+=> nrel_main_idtf:
+   [время завершения - 9 января 1996]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 9 january of 1996]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 9 студзеня 1996]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [9];;
+   <- number_of_month: [1];;
+   <- number_of_year: [1996];;
+   *);
+   <- completion_date_01_1996;
+   <- completion_date_1996;;

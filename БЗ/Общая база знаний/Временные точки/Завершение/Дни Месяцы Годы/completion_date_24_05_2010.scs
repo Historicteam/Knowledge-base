@@ -1,0 +1,24 @@
+completion_date_24_05_2010
+=> nrel_main_idtf:
+   [время завершения - 24 мая 2010]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 24 may of 2010]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 24 мая 2010]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [24];;
+   <- number_of_month: [5];;
+   <- number_of_year: [2010];;
+   *);
+   <- completion_date_05_2010;
+   <- completion_date_2010;;

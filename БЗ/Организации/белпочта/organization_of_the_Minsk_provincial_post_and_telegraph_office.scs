@@ -58,7 +58,7 @@ organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_BSSR
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_BSSR;;*]
   (*
     <- begin_date_01_1919;;
-    <- completion_date_2_1919;;
+    <- completion_date_02_1919;;
 *);;
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_temporal_decomposition: organization_Minsk_post_and_telegraph_office_of_the_Western_District_of_the_BSSR;;*]
   (*

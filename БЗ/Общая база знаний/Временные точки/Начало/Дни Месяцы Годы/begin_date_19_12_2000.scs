@@ -1,0 +1,24 @@
+begin_date_19_12_2000
+=> nrel_main_idtf:
+   [время начала - 19 декабря 2000]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 19 december of 2000]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 19 null 2000]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [19];;
+   <- number_of_month: [12];;
+   <- number_of_year: [2000];;
+   *);
+   <- begin_date_12_2000;
+   <- begin_date_2000;;

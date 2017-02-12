@@ -1,0 +1,24 @@
+begin_date_06_09_1860
+=> nrel_main_idtf:
+   [время начала - 6 сентября 1860]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 6 september of 1860]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 6 верасня 1860]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [6];;
+   <- number_of_month: [9];;
+   <- number_of_year: [1860];;
+   *);
+   <- begin_date_09_1860;
+   <- begin_date_1860;;

@@ -1,0 +1,22 @@
+begin_date_07_2003
+=> nrel_main_idtf:
+   [время начала - июль 2003]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 2003]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 2003]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: [7];;
+   <- number_of_year: [2003];;
+   *);
+   <- begin_date_2003;;

@@ -1,0 +1,22 @@
+begin_date_08_1920
+=> nrel_main_idtf:
+   [время начала - август 1920]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - august of 1920]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - жнiвень 1920]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: [8];;
+   <- number_of_year: [1920];;
+   *);
+   <- begin_date_1920;;

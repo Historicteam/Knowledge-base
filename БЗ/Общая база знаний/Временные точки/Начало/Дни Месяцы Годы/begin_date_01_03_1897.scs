@@ -1,0 +1,24 @@
+begin_date_01_03_1897
+=> nrel_main_idtf:
+   [время начала - 1 марта 1897]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1 march of 1897]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1 сакавiка 1897]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [1];;
+   <- number_of_month: [3];;
+   <- number_of_year: [1897];;
+   *);
+   <- begin_date_03_1897;
+   <- begin_date_1897;;

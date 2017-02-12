@@ -1,0 +1,24 @@
+begin_date_15_08_1860
+=> nrel_main_idtf:
+   [время начала - 15 августа 1860]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 15 august of 1860]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 15 жніўня 1860]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [15];;
+   <- number_of_month: [8];;
+   <- number_of_year: [1860];;
+   *);
+   <- begin_date_08_1860;
+   <- begin_date_1860;;

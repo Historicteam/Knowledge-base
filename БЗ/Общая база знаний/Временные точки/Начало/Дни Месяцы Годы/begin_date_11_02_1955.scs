@@ -1,0 +1,24 @@
+begin_date_11_02_1955
+=> nrel_main_idtf:
+   [время начала - 11 февраля 1955]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 11 february of 1955]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 11 лютага 1955]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [11];;
+   <- number_of_month: [2];;
+   <- number_of_year: [1955];;
+   *);
+   <- begin_date_02_1955;
+   <- begin_date_1955;;

@@ -1,0 +1,24 @@
+completion_date_01_03_1919
+=> nrel_main_idtf:
+   [время завершения - 1 марта 1919]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1 march of 1919]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1 сакавiка 1919]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [1];;
+   <- number_of_month: [3];;
+   <- number_of_year: [1919];;
+   *);
+   <- completion_date_03_1919;
+   <- completion_date_1919;;

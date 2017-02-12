@@ -1,0 +1,24 @@
+begin_date_22_10_1870
+=> nrel_main_idtf:
+   [время начала - 22 октября 1870]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 22 october of 1870]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 22 кастрычнiка 1870]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [22];;
+   <- number_of_month: [10];;
+   <- number_of_year: [1870];;
+   *);
+   <- begin_date_10_1870;
+   <- begin_date_1870;;

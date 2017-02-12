@@ -1,0 +1,24 @@
+begin_date_30_10_1921
+=> nrel_main_idtf:
+   [время начала - 30 октября 1921]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 30 october of 1921]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 30 кастрычнiка 1921]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [30];;
+   <- number_of_month: [10];;
+   <- number_of_year: [1921];;
+   *);
+   <- begin_date_10_1921;
+   <- begin_date_1921;;

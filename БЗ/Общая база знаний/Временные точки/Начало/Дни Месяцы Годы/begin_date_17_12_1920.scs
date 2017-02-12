@@ -1,0 +1,24 @@
+begin_date_17_12_1920
+=> nrel_main_idtf:
+   [время начала - 17 декабря 1920]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 17 december of 1920]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 17 null 1920]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [17];;
+   <- number_of_month: [12];;
+   <- number_of_year: [1920];;
+   *);
+   <- begin_date_12_1920;
+   <- begin_date_1920;;

@@ -1,0 +1,24 @@
+completion_date_22_12_1965
+=> nrel_main_idtf:
+   [время завершения - 22 декабря 1965]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 22 december of 1965]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 22 null 1965]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [22];;
+   <- number_of_month: [12];;
+   <- number_of_year: [1965];;
+   *);
+   <- completion_date_12_1965;
+   <- completion_date_1965;;

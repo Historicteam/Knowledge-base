@@ -1,0 +1,24 @@
+begin_date_12_03_1947
+=> nrel_main_idtf:
+   [время начала - 12 марта 1947]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 12 march of 1947]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 12 сакавiка 1947]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [12];;
+   <- number_of_month: [3];;
+   <- number_of_year: [1947];;
+   *);
+   <- begin_date_03_1947;
+   <- begin_date_1947;;

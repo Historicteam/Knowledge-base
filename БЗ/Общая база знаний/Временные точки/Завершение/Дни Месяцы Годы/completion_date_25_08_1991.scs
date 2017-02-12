@@ -1,0 +1,24 @@
+completion_date_25_08_1991
+=> nrel_main_idtf:
+   [время завершения - 25 августа 1991]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 25 august of 1991]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 25 жніўня 1991]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [25];;
+   <- number_of_month: [8];;
+   <- number_of_year: [1991];;
+   *);
+   <- completion_date_08_1991;
+   <- completion_date_1991;;

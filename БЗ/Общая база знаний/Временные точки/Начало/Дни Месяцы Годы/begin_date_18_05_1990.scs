@@ -1,0 +1,24 @@
+begin_date_18_05_1990
+=> nrel_main_idtf:
+   [время начала - 18 мая 1990]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 18 may of 1990]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 18 мая 1990]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [18];;
+   <- number_of_month: [5];;
+   <- number_of_year: [1990];;
+   *);
+   <- begin_date_05_1990;
+   <- begin_date_1990;;

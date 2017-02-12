@@ -1,0 +1,22 @@
+begin_date_05_2010
+=> nrel_main_idtf:
+   [время начала - май 2010]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - may of 2010]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - май 2010]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month: [5];;
+   <- number_of_year: [2010];;
+   *);
+   <- begin_date_2010;;

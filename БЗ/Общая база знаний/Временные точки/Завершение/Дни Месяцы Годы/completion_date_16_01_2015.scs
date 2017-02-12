@@ -1,0 +1,24 @@
+completion_date_16_01_2015
+=> nrel_main_idtf:
+   [время завершения - 16 января 2015]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 16 january of 2015]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 16 студзеня 2015]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [16];;
+   <- number_of_month: [1];;
+   <- number_of_year: [2015];;
+   *);
+   <- completion_date_01_2015;
+   <- completion_date_2015;;

@@ -1,0 +1,24 @@
+begin_date_26_09_1897
+=> nrel_main_idtf:
+   [время начала - 26 сентября 1897]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 26 september of 1897]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 26 верасня 1897]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [26];;
+   <- number_of_month: [9];;
+   <- number_of_year: [1897];;
+   *);
+   <- begin_date_09_1897;
+   <- begin_date_1897;;

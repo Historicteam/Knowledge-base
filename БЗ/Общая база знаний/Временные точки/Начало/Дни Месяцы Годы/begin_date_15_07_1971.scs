@@ -1,0 +1,24 @@
+begin_date_15_07_1971
+=> nrel_main_idtf:
+   [время начала - 15 июля 1971]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 15 july of 1971]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 15 лiпеня 1971]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [15];;
+   <- number_of_month: [7];;
+   <- number_of_year: [1971];;
+   *);
+   <- begin_date_07_1971;
+   <- begin_date_1971;;

@@ -1,0 +1,24 @@
+begin_date_25_09_1858
+=> nrel_main_idtf:
+   [время начала - 25 сентября 1858]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 25 september of 1858]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 25 верасня 1858]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [25];;
+   <- number_of_month: [9];;
+   <- number_of_year: [1858];;
+   *);
+   <- begin_date_09_1858;
+   <- begin_date_1858;;

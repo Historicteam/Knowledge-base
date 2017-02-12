@@ -1,0 +1,24 @@
+completion_date_13_11_1937
+=> nrel_main_idtf:
+   [время завершения - 13 ноября 1937]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 13 november of 1937]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 13 снежаня 1937]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day: [13];;
+   <- number_of_month: [11];;
+   <- number_of_year: [1937];;
+   *);
+   <- completion_date_11_1937;
+   <- completion_date_1937;;
