@@ -1,0 +1,8 @@
+Stankievich_Andrej
+
+=> nrel_main_idtf:
+	[Станкевич Андрей] (* <- lang_ru;; *);
+	[Stankievich Andrej] (* <- lang_en;; *);
+	[Станкевіч Андрэй] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

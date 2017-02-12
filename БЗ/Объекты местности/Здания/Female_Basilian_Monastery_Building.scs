@@ -86,4 +86,11 @@ Female_Basilian_Monastery_Building
 	*)
 ;;
 
-
+concept_situation->[*Female_Basilian_Monastery_Building<-concept_arch_vilnius_baroque;;*]
+(*
+        <- begin_date_1641;;
+ *);; 
+concept_situation->[*Female_Basilian_Monastery_Building<-concept_arch_classical_baroque;;*]
+(*
+        <- begin_date_1641;;
+ *);; 

@@ -1,14 +1,53 @@
+
+
+concept_situation->[* Urban_homestead<- concept_arch_classicism;;*]
+(*
+    <- begin_date_1795;;
+*);;
+concept_situation->[*Urban_homestead =>nrel_owner: Pszazdziecki_Mikhail;;*]
+(*
+	<- begin_date_1795;;
+	<- completion_date_1799;;
+*);;
+
+concept_situation->[*Urban_homestead =>nrel_owner: Stankievich_Andrej;;*]
+(*
+	<- begin_date_1799;;
+	<- completion_date_1826;;
+*);;
+concept_situation->[*Urban_homestead =>nrel_owner: Kabylinski_Juryj;;*]
+(*
+	<- begin_date_1826;;
+	<- completion_date_1850;;
+*);;
+
+
+
+
 Urban_homestead
 <- concept_building;
+<- begin_date_1795;
+<- completion_date_1799;
 => nrel_main_idtf:
+	[Здание Минского усадебного дома Пшездецких]
+	(*
+	<- lang_ru;;
+	*);
+	[The building of the Minsk manor house Pshezdetskih]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Мінскага сядзібнага дома Пшаздзецкіх]
+	(*
+	<- lang_by;;
+	*);
+
+
+=> nrel_idtf:
 	[Городская усадьба] (* <- lang_ru;; *);
 	[Urban homestead] (* <- lang_en;; *);
 	[Гарадская сядзіба] (* <- lang_by;; *);
 
-=> nrel_idtf:
-	[Усадьба Юрия Кобылинского] (* <- lang_ru;; *);
-	[Manor Yuri Kobylinsky] (* <- lang_en;; *);
-	[Сядзіба Юрыя Кабылінскага] (* <- lang_by;; *);
 
 <- rrel_key_sc_element: Image_of_city_estate (*
 	=> nrel_main_idtf:
@@ -35,3 +74,51 @@ Urban_homestead
 		*);;
 	*);;
 
+
+Building_Galleries_Mikhail_Savitsky
+=> nrel_main_idtf:
+	[Здание Галереи Михаила Савицкого]
+	(*
+	<- lang_ru;;
+	*);
+	[Building Galleries Mikhail Savitsky]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Галерэі Міхаіла Савіцкага]
+	(*
+	<- lang_by;;
+	*);
+<- concept_building;;
+
+concept_situation->[*Urban_homestead  <= nrel_temporal_decomposition:Building_Galleries_Mikhail_Savitsky ;;*]
+(*
+	<- begin_date_2012;;
+
+*);;
+
+Manor_Yuri_Kobylinsky
+=> nrel_main_idtf:
+	[Усадьба Юрия Кобылинского] (* <- lang_ru;; *);
+	[Manor Yuri Kobylinsky] (* <- lang_en;; *);
+	[Сядзіба Юрыя Кабылінскага] (* <- lang_by;; *);
+<- concept_building;;
+
+concept_situation->[*Urban_homestead <= nrel_temporal_decomposition:Manor_Yuri_Kobylinsky ;;*]
+(*
+	<- begin_date_1826;;
+<- completion_date_1850;;
+*);;
+
+Manor_Andrej_Stankievich
+=> nrel_main_idtf:
+	[Усадьба Андрея Станкевича] (* <- lang_ru;; *);
+	[Manor Andrej Stankievich] (* <- lang_en;; *);
+	[Сядзіба Андрэя Станкевіча] (* <- lang_by;; *);
+<- concept_building;;
+
+concept_situation->[*Urban_homestead <= nrel_temporal_decomposition:Manor_Andrej_Stankievich ;;*]
+(*
+	<- begin_date_1799;;
+<- completion_date_1826;;
+*);;

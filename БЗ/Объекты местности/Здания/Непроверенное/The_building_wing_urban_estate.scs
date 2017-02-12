@@ -1,5 +1,8 @@
 The_building_wing_urban_estate
 <- concept_building;
+<- begin_date_1795;
+
+
 
 => nrel_main_idtf:
 	[Здание флигеля городской усадьбы] (* <- lang_ru;; *);
@@ -20,3 +23,55 @@ The_building_wing_urban_estate
 			*);;
 		*);;
 	*);;
+
+concept_situation->[* The_building_wing_urban_estate<- concept_arch_classicism;;*]
+(*
+    <- begin_date_1795;;
+*);;
+
+
+concept_situation->[*The_building_wing_urban_estate =>nrel_owner: Pszazdziecki_Mikhail;;*]
+(*
+	<- begin_date_1795;;
+	<- completion_date_1799;;
+*);;
+concept_situation->[*The_building_wing_urban_estate=>nrel_owner: Stankievich_Andrej;;*]
+(*
+	<- begin_date_1799;;
+	<- completion_date_1826;;
+*);;
+concept_situation->[*The_building_wing_urban_estate=>nrel_owner: Kabylinski_Juryj;;*]
+(*
+	<- begin_date_1826;;
+	<- completion_date_1850;;
+*);;
+
+
+building_of_the_Minsk_male_religious_school
+=> nrel_main_idtf:
+	[Здание Минского мужского духовного училища]
+	(*
+	<- lang_ru;;
+	*);
+	[The building of the Minsk male religious school]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак Мінскага мужчынскага духоўнага вучылішча]
+	(*
+	<- lang_by;;
+	*);
+<- concept_building;;
+
+concept_situation->[*The_building_wing_urban_estate <= nrel_temporal_decomposition: building_of_the_Minsk_male_religious_school;;*]
+(*
+	<- begin_date_1872;;
+	<- completion_date_1900;;
+*);;
+concept_situation->[*The_building_wing_urban_estate<=nrel_location:organization_In_Bel_Kult;;*]
+(*
+ <- begin_date_1922;;
+<- completion_date_1924;;
+*);;
+
+

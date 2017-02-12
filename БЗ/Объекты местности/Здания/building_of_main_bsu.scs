@@ -63,3 +63,9 @@ building_of_main_bsu
 			*);;
 		*);;
 	*);;
+
+concept_situation->[*building_of_main_bsu <-concept_arch_functionalism;;*]
+(*
+                <- begin_date_1921;;
+
+ *);; 

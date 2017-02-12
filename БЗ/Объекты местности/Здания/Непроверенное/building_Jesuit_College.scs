@@ -1,26 +1,16 @@
 building_Jesuit_College
 <-concept_building;
 => nrel_main_idtf:
-	[Здание иезуитского коллегиума]
-	(*
-	<- lang_ru;;
-	*);
-	[Jesuit College building]
-	(*
-	<- lang_en;;
-	*);
-	[Будынак езуіцкага калегіума]
-	(*
-	<- lang_by;;
+	[Здание усадьбы Гегера] (* <- lang_ru;; *);
+	[The manor house Geiger] (* <- lang_en;; *);
+	[Будынак сядзіба Гегера] (* <- lang_by;; *);
+        <- begin_date_1600;
+        <- completion_date_1654;
+	
 
-	*);	
-
-<- rrel_key_sc_element: Image_building_Jesuit_College 
+<- rrel_key_sc_element: ... 
 (*
-	=> nrel_main_idtf:
-		[Изображение здания иезуитского коллегиума] (* <- lang_ru;; *);
-		[Image building Jesuit College] (* <- lang_en;; *);
-		[Выява будынка езуіцкага калегіума] (* <- lang_by;; *);;
+
 
 	<- sc_illustration;;
 	<= nrel_sc_text_translation: 
@@ -34,50 +24,50 @@ building_Jesuit_College
 	
 <= nrel_temporal_decomposition: 
     {
-	The_building_of_Jesuit_College
+	The_building_of_Jesuit_mission
         (* 
         => nrel_main_idtf:
-            [Иезуитский коллегиум]
+            [Иезуитская миссия]
             (*
             <- lang_ru;;
             *);
-            [Jesuit College]
+            [Jesuit mission]
             (*
             <- lang_en;;
             *);
-            [Езуіцкі калегіум]
+            [Езуіцкая місія]
             (*
             <- lang_by;;
             *);;
             
-        <- begin_date_1732;;
-        <- completion_date_1773;;
+        <- begin_date_1654;;
+        <- completion_date_1686;;
 
 *);
-			The_building_of_government_offices
+	The_building_of_Jesuit_Residence
 				(* 
 				=> nrel_main_idtf:
-				    [Здание присутственных мест]
+				    [Резиденция иезуитов]
 				    (*
 				    <- lang_ru;;
 				    *);
-				    [The building of government offices]
+				    [Jesuit Residence]
 				    (*
 				    <- lang_en;;
 				    *);
-				    [Будынак прысутных месц]
+				    [Рэзідэнцыя езуітаў]
 				    (*
 				    <- lang_by;;
 				    *);;
 				    
-				<- begin_date_1799;;
-				<- completion_date_1852;;
+				<- begin_date_1686;;
+				<- completion_date_1714;;
 
 			*);
-				The_building_of_treasury_chamber
+				The_building_of_Jesuit_College
 				(* 
 				=> nrel_main_idtf:
-				    [Здание казенной палаты]
+				    [Иезуитский коллегиум]
 				    (*
 				    <- lang_ru;;
 				    *);
@@ -85,54 +75,46 @@ building_Jesuit_College
 				    (*
 				    <- lang_en;;
 				    *);
-				    [Будынак казённай палаты]
+				    [Езуіцкі калегіум]
 				    (*
 				    <- lang_by;;
 				    *);;
 				    
-				<- begin_date_1852;;
-				<- completion_date_1917;;
+				<- begin_date_1714;;
+				
 
 			*)
 };;
 
 concept_situation->[*organization_government_offices => nrel_location: building_Jesuit_College;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения присутственных мест в здании иезуитского коллегиума](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання прысутных месц у будынку езуіцкага калегіума](*<-lang_by;;*);;
     <- begin_date_1799;;
     <- completion_date_1852;;
 *);;
 
 concept_situation->[*organization_treasury_chamber => nrel_location: building_Jesuit_College;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения казенной палаты в здании иезуитского коллегиума](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання казённай палаты у будынку езуіцкага калегіума](*<-lang_by;;*);;
     <- begin_date_1852;;
     <- completion_date_1917;;
 *);;
 
 concept_situation->[*organization_The_Presidium_of_the_Minsk_city_executive_committee => nrel_location: building_Jesuit_College;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения Президиума Минского городского исполкома в здании иезуитского коллегиума](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання Прэзідыума Мінскага гарадскога выканкама у будынку езуіцкага калегіума](*<-lang_by;;*);;
     <- begin_date_1919;;
     <- completion_date_1951;;
 *);;
 
 concept_situation->[*organization_Jesuit_monks_community => nrel_location: building_Jesuit_College;;*]
 (*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения общины монахов иезуитов в здании иезуитского коллегиума](*<-lang_ru;;*);
-    [Контур перыяду часу месцавання абшчыны манахаў езуітаў у будынку езуіцкага калегіума](*<-lang_by;;*);;
+
     <- begin_date_1732;;
     <- completion_date_1773;;
 *);;
 
-
+concept_situation->[*building_Jesuit_College<-concept_arch_vilnius_baroque;;*]
+(*
+    <- begin_date_1600;;
+*);;
 
 
 

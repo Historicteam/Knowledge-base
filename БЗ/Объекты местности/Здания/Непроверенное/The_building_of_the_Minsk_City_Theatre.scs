@@ -1,10 +1,14 @@
+
 The_building_of_the_Minsk_City_Theatre
 <- concept_building;
-
+<- begin_date_1815;
+<- completion_date_1825;
+<- begin_date_18195;
+<- completion_date_1984;
 => nrel_main_idtf:
-	[Здание Минского городского театра] (* <- lang_ru;; *);
-	[The building of the Minsk City Theatre] (* <- lang_en;; *);
-	[Будынак Мінскага гарадскога тэатра] (* <- lang_by;; *);
+	[Дом Яна Байкова] (* <- lang_ru;; *);
+	[House Jan Baykova] (* <- lang_en;; *);
+	[Дом Яна Байкова] (* <- lang_by;; *);
 
 <- rrel_key_sc_element: 
 	...
@@ -38,11 +42,7 @@ The_building_of_the_Minsk_City_Theatre
 	*)
 ;
 
-<- rrel_key_sc_element: Image_building_of_Minsk_City_Theatre (*
-	=> nrel_main_idtf:
-		[Изображение здания минского городского театра] (* <- lang_ru;; *);
-		[Image building of Minsk City Theatre] (* <- lang_en;; *);
-		[Выява будынка мінскага гарадскога тэатра] (* <- lang_by;; *);;
+<- rrel_key_sc_element: ... (*
 
 	<- sc_illustration;;
 	<= nrel_sc_text_translation: 
@@ -62,3 +62,66 @@ The_building_of_the_Minsk_City_Theatre
 			*);;
 		*);;
 	*);;
+
+
+The_building_of_the_Minsk_City_Theatre_1825
+=> nrel_main_idtf:
+	[Здание Минского городского театра] (* <- lang_ru;; *);
+	[The building of the Minsk City Theatre] (* <- lang_en;; *);
+	[Будынак Мінскага гарадскога тэатра] (* <- lang_by;; *);
+<- concept_building;;
+
+concept_situation->[*The_building_of_the_Minsk_City_Theatre<= nrel_temporal_decomposition: The_building_of_the_Minsk_City_Theatre_1825;;*]
+(*
+	<- begin_date_1825;;
+	<- completion_date_1884;;
+*);;
+
+The_building_of_the_military_club
+=> nrel_main_idtf:
+	[Здание воинского клуба] (* <- lang_ru;; *);
+	[The building of the military club] (* <- lang_en;; *);
+	[Будынак вайсковага клуба] (* <- lang_by;; *);
+<- concept_building;;
+
+concept_situation->[*The_building_of_the_Minsk_City_Theatre<= nrel_temporal_decomposition: The_building_of_the_military_club;;*]
+(*
+	<- begin_date_1884;;
+	<- completion_date_1895;;
+*);;
+
+The_building_branch_of_the_Northern_Bank
+=> nrel_main_idtf:
+	[Здание отделения Северного банка] (* <- lang_ru;; *);
+	[The building branch of the Northern Bank] (* <- lang_en;; *);
+	[Будынак аддзялення Паўночнага банка] (* <- lang_by;; *);
+<- concept_building;;
+
+concept_situation->[*The_building_of_the_Minsk_City_Theatre<= nrel_temporal_decomposition: The_building_branch_of_the_Northern_Bank;;*]
+(*
+	<- begin_date_1884;;
+	<- completion_date_1895;;
+*);;
+
+The_building_branch_of_the_Northern_Bank
+=> nrel_main_idtf:
+	[Здание отделения Северного банка] (* <- lang_ru;; *);
+	[The building branch of the Northern Bank] (* <- lang_en;; *);
+	[Будынак аддзялення Паўночнага банка] (* <- lang_by;; *);
+<- concept_building;;
+
+concept_situation->[*The_building_of_the_Minsk_City_Theatre<= nrel_temporal_decomposition: The_building_branch_of_the_Northern_Bank;;*]
+(*
+	<- begin_date_1884;;
+	<- completion_date_1895;;
+*);;
+concept_situation->[*The_building_of_the_Minsk_City_Theatre<-concept_lost_constructions;;*]
+(*
+	<- begin_date_1984;;
+
+*);;
+concept_situation->[*The_building_of_the_Minsk_City_Theatre<-concept_arch_classicism;;*]
+(*
+	<- begin_date_1815;;
+<- completion_date_1984;;
+*);;

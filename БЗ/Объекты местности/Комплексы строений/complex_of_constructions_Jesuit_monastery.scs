@@ -19,7 +19,7 @@ concept_situation->[*
 	complex_of_constructions_Jesuit_monastery
 	<= nrel_complex_of_buildings_decomposition:
         {
-		The_manor_house_Geiger;
+		building_Jesuit_College;
 		The_sacristy_of_Jesuit_monastery
         };;
 *] (*
@@ -43,7 +43,7 @@ concept_situation->[*
 	complex_of_constructions_Jesuit_monastery
 	<= nrel_complex_of_buildings_decomposition:
         {
-        The_manor_house_Geiger;
+        building_Jesuit_College;
 	The_sacristy_of_Jesuit_monastery;
 	The_building_of_the_Jesuit_school
         };;
@@ -58,7 +58,7 @@ concept_situation->[*
         complex_of_constructions_Jesuit_monastery        
  <= nrel_complex_of_buildings_decomposition:
         {
-        The_manor_house_Geiger;
+        Tbuilding_Jesuit_College;
 	The_sacristy_of_Jesuit_monastery;
 	The_building_of_the_Jesuit_school;
 	The_building_of_the_Mariinsky_Cathedral
@@ -72,7 +72,7 @@ concept_situation->[*
         complex_of_constructions_Jesuit_monastery 
  <= nrel_complex_of_buildings_decomposition:
         {
-        The_manor_house_Geiger;
+        building_Jesuit_College;
 	The_sacristy_of_Jesuit_monastery;
 	The_building_of_the_Jesuit_school;
 	The_building_of_the_Mariinsky_Cathedral;
@@ -91,12 +91,11 @@ concept_situation->[*
         complex_of_constructions_Jesuit_monastery 
 	<= nrel_complex_of_buildings_decomposition:
         {
-        The_manor_house_Geiger;
+        building_Jesuit_College;
 	The_sacristy_of_Jesuit_monastery;
 	The_building_of_the_Jesuit_school;
 	The_building_of_the_Mariinsky_Cathedral;
-	The_building_of_the_chapel_of_Felician;
-	building_Jesuit_College
+	The_building_of_the_chapel_of_Felician
         };;   
  *] (*        
         <- begin_date_1732;;
@@ -111,12 +110,11 @@ concept_situation->[*
         complex_of_constructions_Jesuit_monastery 
           <= nrel_complex_of_buildings_decomposition:
         {
-        The_manor_house_Geiger;
+        building_Jesuit_College;
 	The_sacristy_of_Jesuit_monastery;
 	The_building_of_the_Jesuit_school;
 	The_building_of_the_Mariinsky_Cathedral;
 	The_building_of_the_chapel_of_Felician;
-	building_Jesuit_College;
 	The_Jesuit_tower_belfry
         };;
  *] (*
@@ -132,12 +130,11 @@ concept_situation->[*
 complex_of_constructions_Jesuit_monastery 
 <= nrel_complex_of_buildings_decomposition:
         {
-        The_manor_house_Geiger;
+        building_Jesuit_College;
 	The_sacristy_of_Jesuit_monastery;
 	The_building_of_the_Jesuit_school;
 	The_building_of_the_Mariinsky_Cathedral;
 	The_building_of_the_chapel_of_Felician;
-	building_Jesuit_College;
 	The_Jesuit_tower_belfry;
 	The_Jesuit_building_of_the_refectory_and_kitchen
         };;
@@ -153,12 +150,11 @@ complex_of_constructions_Jesuit_monastery
 complex_of_constructions_Jesuit_monastery
 <= nrel_complex_of_buildings_decomposition:
         {
-        The_manor_house_Geiger;
+      building_Jesuit_College;
 	The_sacristy_of_Jesuit_monastery;
 	The_building_of_the_Jesuit_school;
 	The_building_of_the_Mariinsky_Cathedral;
 	The_building_of_the_chapel_of_Felician;
-	building_Jesuit_College;
 	The_Jesuit_tower_belfry;
 	The_Jesuit_building_of_the_refectory_and_kitchen;
 	The_Jesuit_building_pharmacy_and_laboratory

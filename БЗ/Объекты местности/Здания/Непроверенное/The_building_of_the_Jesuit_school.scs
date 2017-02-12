@@ -420,3 +420,18 @@ concept_situation->[*organization_of_music_school => nrel_location: The_building
     <- begin_date_1968;;
     
 *);;
+
+concept_situation->[* The_building_of_the_Jesuit_school<-concept_arch_baroque ;;*]
+(*
+    <- begin_date_1699;;
+        <- completion_date_1799;;
+*);;
+concept_situation->[* The_building_of_the_Jesuit_school<-concept_arch_classicism ;;*]
+(*
+    <- begin_date_1799;;
+        <- completion_date_1968;;
+*);;
+concept_situation->[* The_building_of_the_Jesuit_school<-concept_arch_functionalism ;;*]
+(*
+    <- begin_date_1968;;
+*);;
