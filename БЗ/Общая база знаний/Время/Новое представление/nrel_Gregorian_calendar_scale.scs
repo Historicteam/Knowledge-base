@@ -1,0 +1,9 @@
+nrel_Gregorian_calendar_scale
+=>nrel_main_idtf:
+	[измерение по григорианскому календарю*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[measurement of the Gregorian calendar*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[вымярэнне па грыгарыянскім календары*] (* <-lang_by;; *);		
+<-sc_const;	
+<-sc_node_norole_relation;;

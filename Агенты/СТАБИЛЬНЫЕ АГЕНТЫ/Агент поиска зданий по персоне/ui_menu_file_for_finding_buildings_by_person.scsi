@@ -1,0 +1,27 @@
+ui_menu_file_for_finding_buildings_by_person <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_buildings_by_person => nrel_main_idtf: 
+	[Агент поиска зданий по персоне]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_buildings_by_person => nrel_main_idtf: 
+	[Search agent of finding buildings by person]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_buildings_by_person => ui_nrel_command_template:
+	[*
+		question_of_finding_buildings_by_person _-> ._question_of_finding_buildings_by_person_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_finding_buildings_by_person_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_buildings_by_person => ui_nrel_command_lang_template: 
+	[Запрос поиска зданий по персоне: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_buildings_by_person => ui_nrel_command_lang_template: 
+	[Request of finding buildings by person: $ui_arg_1] 
+	(* <- lang_en;; *);;
+

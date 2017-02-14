@@ -1,0 +1,706 @@
+agent_of_finding_buildings_by_person
+=> nrel_main_idtf:
+	[агентная scp-программа поиска зданий, связанных с заданным объектом] (* <- lang_ru;; *);
+	[agent scp-program of finding short semantic neighborhood for the given object] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_finding_buildings_by_person 
+	(*
+	-> rrel_params: .agent_of_finding_buildings_by_person_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_buildings_by_person_operator_set 
+		(*
+		-> rrel_init: .agent_of_finding_buildings_by_person_operator1A 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		  	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person_operator1B;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person_operator1B
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+		  	=> nrel_then: .agent_of_finding_buildings_by_person_operator1C;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person_operator_return;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person_operator1C 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+
+		  	=> nrel_then: .agent_of_finding_buildings_by_person_operator1D;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person_operator_return;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person_operator1D 
+			(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator1;;
+			*);;
+
+
+
+
+    	-> .agent_of_finding_buildings_by_person__finding_dwelling__operator1
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_dwelling;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_then: .agent_of_finding_buildings_by_person__finding_dwelling__operator2;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__finding_owner__operator1;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator2
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_dwelling;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_owner__operator1;;
+			*);;
+
+
+
+		-> .agent_of_finding_buildings_by_person__finding_owner__operator1
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_owner;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_then: .agent_of_finding_buildings_by_person__finding_owner__operator2;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__finding_architect__operator1;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_owner__operator2
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_owner;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_architect__operator1;;
+			*);;
+
+
+
+		-> .agent_of_finding_buildings_by_person__finding_architect__operator1
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_architect;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_then: .agent_of_finding_buildings_by_person__finding_architect__operator2;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__finding_be_founded_in_the_name_of__operator1;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_architect__operator2
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_architect;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_be_founded_in_the_name_of__operator1;;
+			*);;
+
+
+
+		-> .agent_of_finding_buildings_by_person__finding_be_founded_in_the_name_of__operator1
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_be_founded_in_the_name_of;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_then: .agent_of_finding_buildings_by_person__finding_be_founded_in_the_name_of__operator2;;
+			=> nrel_else: .agent_of_finding_buildings_by_person_operator1E;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_be_founded_in_the_name_of__operator2
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_be_founded_in_the_name_of;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person_operator1E;;
+			*);;
+
+
+			
+
+
+
+		-> .agent_of_finding_buildings_by_person_operator1E 
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_buildings_by_person__patern_of_finding_organization;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _person;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _param;;
+					*);;  
+				*);;
+
+			=> nrel_then: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator1;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__finding_place_of_work__operator1;;
+		 	*);;
+
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator1
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction;;
+
+		 	=> nrel_then: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator2;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person__finding_place_of_work__operator1;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator2 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator3;;
+		 	*);;
+
+		 -> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator3 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _organization;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_organization;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator4;;
+		  	*);;
+
+     	-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator4
+        	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_buildings_by_person__patern_of_finding_building;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set2_of_found_constructions;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _organization2;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _found_organization;;
+					*);;  
+				*);;
+
+			=> nrel_then: .proc_of_search_of_organization_begin_date__operator1;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__finding_place_of_work__operator1;;
+		 	*);;
+
+        //SEARCH OF ORGANIZATION DATES
+		-> .proc_of_search_of_organization_begin_date__operator1 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _begin_date;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_organization_begin_date;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .proc_of_search_of_organization_begin_date__operator2;;
+		  	*);;
+
+	  	-> .proc_of_search_of_organization_begin_date__operator2
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _found_organization_begin_date;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_organization_begin_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+
+		  	=> nrel_goto:  .proc_of_search_of_organization_begin_date__operator3;;	
+			*);;
+
+		-> .proc_of_search_of_organization_begin_date__operator3
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _found_organization_begin_number_of_year;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_organization_begin_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+
+		  	=> nrel_goto:  .proc_of_search_of_organization_completion_date__operator1;;	
+			*);;
+
+		-> .proc_of_search_of_organization_completion_date__operator1 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _completion_date;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_organization_completion_date;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .proc_of_search_of_organization_completion_date__operator2;;
+		  	*);;
+
+	  	-> .proc_of_search_of_organization_completion_date__operator2
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _found_organization_completion_date;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_organization_completion_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+
+		  	=> nrel_goto:  .proc_of_search_of_organization_completion_date__operator3;;	
+			*);;
+
+		-> .proc_of_search_of_organization_completion_date__operator3
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _found_organization_completion_number_of_year;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_organization_completion_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+
+		  	=> nrel_goto:  .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator5;;	
+			*);;
+
+
+		//SEARCH BUILDING
+	 	-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator5
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set2_of_found_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction2;;
+
+		 	=> nrel_then: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator6;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator1;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator6
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc3;;
+
+         	=> nrel_goto:  .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator7;;
+		 	*);;
+
+	 	//FOUND BUILDING IS HERE
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator7
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _building;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction2;;
+
+		  	=> nrel_goto:  .proc_of_search_of_building_begin_date__operator1;;
+		  	*);;
+
+		//FOUND BUILDING BEGIN DATE IS HERE
+		-> .proc_of_search_of_building_begin_date__operator1
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _begin_date2;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building_begin_date;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction2;;
+
+		  	=> nrel_goto:  .proc_of_search_of_building_begin_date__operator2;;
+		  	*);;
+
+		-> .proc_of_search_of_building_begin_date__operator2
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _found_building_begin_date;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building_begin_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+
+		  	=> nrel_goto:  .proc_of_search_of_building_begin_date__operator3;;	
+			*);;
+
+        -> .proc_of_search_of_building_begin_date__operator3
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _found_building_begin_number_of_year;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building_begin_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+
+		  	=> nrel_goto:  .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator9;;	
+			*);;
+
+
+		//CHECK BEGIN DATES
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator9
+			(*
+			<- ifGr;;
+			-> rrel_1: rrel_scp_var: _found_organization_begin_number_of_year;;
+			-> rrel_2: rrel_scp_var: _found_building_begin_number_of_year;;
+			=> nrel_then: .proc_of_search_of_building_completion_date__operator1;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator10;;
+			*);;	
+
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator10
+			(*
+			<- ifEq;;
+			-> rrel_1: rrel_scp_var: _found_organization_begin_number_of_year;;
+			-> rrel_2: rrel_scp_var: _found_building_begin_number_of_year;;
+			=> nrel_then: .proc_of_search_of_building_completion_date__operator1;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator5;;
+			*);;
+
+		-> .proc_of_search_of_building_completion_date__operator1 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _ag_f_b_by_p_struct_of_building;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building_struct_node;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction2;;
+
+		  	=> nrel_goto:  .proc_of_search_of_building_completion_date__operator2;;
+		  	*);;
+
+		-> .proc_of_search_of_building_completion_date__operator2
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _may_be_found_building_completion_date;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building_struct_node;;
+
+		  	-> rrel_set_1: rrel_assign: rrel_scp_var: _set_of_found_buildings_completion_dates;;
+
+		  	=> nrel_goto:  .proc_of_search_of_building_completion_date__operator3;;	
+			*);;
+
+		-> .proc_of_search_of_building_completion_date__operator3
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_buildings_completion_dates;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _may_be_found_building_completion_date_xxx;;
+
+		 	=> nrel_then: .proc_of_search_of_building_completion_date__operator4;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator13_check_existence;;
+			*);;
+
+		-> .proc_of_search_of_building_completion_date__operator4 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .proc_of_search_of_building_completion_date__operator5;;
+		 	*);;
+
+		-> .proc_of_search_of_building_completion_date__operator5
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: completion;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _may_be_found_building_completion_date_xxx;;
+
+		  	=> nrel_then: .proc_of_search_of_building_completion_date__operator6;;
+		  	=> nrel_else: .proc_of_search_of_building_completion_date__operator3;;	
+			*);;
+
+		-> .proc_of_search_of_building_completion_date__operator6
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _may_be_found_building_completion_date_xxx;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building_completion_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+
+		  	=> nrel_goto:  .proc_of_search_of_building_completion_date__operator7;;	
+			*);;
+
+        -> .proc_of_search_of_building_completion_date__operator7
+			(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _found_building_completion_number_of_year;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building_completion_time_translation;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+
+		  	=> nrel_goto:  .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator11;;	
+			*);;
+
+
+
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator11
+			(*
+			<- ifGr;;
+			-> rrel_1: rrel_scp_var: _found_building_completion_number_of_year;;
+			-> rrel_2: rrel_scp_var: _found_organization_completion_number_of_year;;
+			=> nrel_then: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator13_check_existence;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator12;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator12
+			(*
+			<- ifEq;;
+			-> rrel_1: rrel_scp_var: _found_building_completion_number_of_year;;
+			-> rrel_2: rrel_scp_var: _found_organization_completion_number_of_year;;
+			=> nrel_then: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator13_check_existence;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator5;;
+			*);;
+
+
+		//ADD PLACE OF WORK TO THE ANSWER
+
+		
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator13_check_existence
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+		 	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_workplace;;
+
+         	=> nrel_then: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator5;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator13;;
+         	*);;
+
+
+		-> .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator13
+			(*
+		 	<- genElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+		 	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		 	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_workplace;;
+
+         	=> nrel_goto: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator5;;
+         	*);;
+
+
+		/*
+		//GENERATE BAD ANSWER
+		-> .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person2;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person2
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc3;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: [По данному запросу ничего не найдено];;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person3;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person3
+			(*
+			<- searchElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		  	-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc3;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_nothing;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc4;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person4;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person4
+			(*
+		 	<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc3;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person5;;
+         	*);;
+
+     	-> .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person5
+			(*
+		 	<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_nothing;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person6;;
+         	*);;
+
+     	-> .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person6
+			(*
+		 	<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc4;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person7;;
+         	*);;
+
+		-> .agent_of_finding_buildings_by_person__gen_bad_answer_finding_buildings_by_person7
+			(*
+		 	<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_answer_finding_buildings_by_person;;
+         	*);; */
+
+
+        -> .agent_of_finding_buildings_by_person__finding_place_of_work__operator1
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_workplace;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_then: .agent_of_finding_buildings_by_person__finding_place_of_work__operator2;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__gen_answer_finding_buildings_by_person;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_place_of_work__operator2
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_workplace;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_answer_finding_buildings_by_person;;
+			*);;
+
+
+
+
+
+
+		//GENERATE THE LAST PART OF THE ANSWER
+     	-> .agent_of_finding_buildings_by_person__gen_answer_finding_buildings_by_person 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__gen_answer_finding_buildings_by_person2;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__gen_answer_finding_buildings_by_person2
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person_operator_return;;
+			*);;
+					
+		-> .agent_of_finding_buildings_by_person_operator_return 
+			(*
+		  	<- return;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

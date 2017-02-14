@@ -6,6 +6,7 @@ ui_menu_na_keynodes
 		->ui_menu_file_for_finding_time_faults_in_time_contours;;
         	->ui_menu_file_for_finding_time_situations_which_last_till_now;;
         ->ui_menu_file_for_finding_short_semantic_neighborhood;;
+	->ui_menu_file_for_finding_buildings_by_person;;
         ->ui_menu_search_buildings_architect_style_now;;
         ->ui_menu_search_buildings_architect_style;;
         ->ui_menu_search_buildings_architect_style_period;;
