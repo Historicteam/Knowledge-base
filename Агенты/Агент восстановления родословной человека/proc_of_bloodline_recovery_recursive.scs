@@ -220,13 +220,13 @@ proc_of_bloodline_recovery_recursive
 					-> rrel_1: rrel_fixed: rrel_scp_var: _mother;;
 					-> rrel_2: rrel_fixed: rrel_scp_var: _answer;;
 				*);;
-				-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+				-> rrel_3: rrel_assign: rrel_scp_var: _descr4;;
 				=>nrel_goto: .agent_of_bloodline_recovery_recursive_operator3_wait;;
 			*);;
 
 		-> .agent_of_bloodline_recovery_recursive_operator3_wait (*
 			<- waitReturn;;
-			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr4;;
 			=>nrel_goto: .proc_of_bloodline_recovery_recursive_operator4;;
 		*);;
 
