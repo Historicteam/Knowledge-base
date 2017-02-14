@@ -34,6 +34,7 @@ nrel_kinsman
 	nrel_son_of_grandparent_s_sibling;
 	nrel_great_nephew;
 	nrel_grandfather;
+	nrel_grandmother;
 	nrel_uncle;
 	nrel_nephew;
 	nrel_niece;
