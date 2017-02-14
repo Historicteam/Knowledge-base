@@ -69,7 +69,7 @@ concept_situation->[*^"file://description_of_the_Minsk_State_Pedagogical_Institu
     <- completion_date_08_09_1993;;
 *);;
 
-concept_situation->[*organization_Belarusian_State_Higher_Pedagogical_Institute=>nrel_location:bulding_ped;;*]
+concept_situation->[*organization_Belarusian_State_Higher_Pedagogical_Institute=>nrel_location:building_ped;;*]
 (*
  <- begin_date_1914;;
 *);;

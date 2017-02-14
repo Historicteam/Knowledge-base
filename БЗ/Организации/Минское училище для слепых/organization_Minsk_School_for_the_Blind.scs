@@ -12,7 +12,7 @@ organization_Minsk_School_for_the_Blind
 	(*
 	<- lang_by;;
 	*);
-=> nrel_founder:Ivan_zdanovich;
+=> nrel_founder:Zdanovich_Ivan_Ustinovich;
 <-concept_educational_institution;;
 
 concept_situation->[*^"file://description_organization_Minsk_School_for_the_Blind.scsi"*]

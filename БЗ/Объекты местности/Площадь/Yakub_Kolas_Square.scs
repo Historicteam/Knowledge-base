@@ -1,0 +1,29 @@
+Yakub_Kolas_Square
+<- concept_square;
+=> nrel_main_idtf:
+	[Площадь Якуба Коласа]
+	(*
+	<- lang_ru;;
+	*);
+	[Yakub Kolas Square]
+	(*
+	<- lang_en;;
+	*);
+	[Пло́шча Яку́ба Ко́ласа]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Комаровская площадь]
+	(*
+	<- lang_ru;;
+	*);
+	[Komarovskaya Square]
+	(*
+	<- lang_en;;
+	*);
+	[Камароўская плошчу]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:Mitskevich_Konstantin_Mihailovich;;

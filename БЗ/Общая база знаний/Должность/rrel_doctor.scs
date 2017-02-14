@@ -1,12 +1,12 @@
-rrel_assistant
+rrel_doctor
 <- sc_node_role_relation;
 <- relation;
 <- binary_relation;
 <- oriented_relation;
 =>nrel_main_idtf:
-	[ассистент'] (* <-lang_ru;; *);
+	[врач'] (* <-lang_ru;; *);
 =>nrel_main_idtf:
-	[assistant'] (* <-lang_en;; *);	
+	[doctor'] (* <-lang_en;; *);	
 <- rrel_key_sc_element:
 	...  
 	(* 
@@ -14,7 +14,7 @@ rrel_assistant
 	<= nrel_sc_text_translation:
 		...
 		(* 
-		-> [Ассисте́нт (в общем значении) — помощник.] (* <-lang_ru;; *);; 
+		-> [Ре́ктор — лицо с высшим медицинским образованием, лечащее больных.] (* <-lang_ru;; *);; 
 		*);;
 	*);;
 

@@ -4,7 +4,7 @@ building_of_school_for_blind
 		[School for the blind] (* <- lang_en;; *);
 		[Вучылішча для сляпых] (* <- lang_by;; *);
 
-=> nrel_org:Ivan_zdanovich;
+=> nrel_org:Zdanovich_Ivan_Ustinovich;
 => concept_square:indepence_square;
 <- rrel_key_sc_element:
 	...
