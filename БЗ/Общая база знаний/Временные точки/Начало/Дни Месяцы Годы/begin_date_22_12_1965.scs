@@ -16,8 +16,8 @@ begin_date_22_12_1965
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [22];;
-   <- number_of_month: [12];;
+   <- number_of_day_in_month: [22];;
+   <- number_of_month_in_year: [12];;
    <- number_of_year: [1965];;
    *);
    <- begin_date_12_1965;

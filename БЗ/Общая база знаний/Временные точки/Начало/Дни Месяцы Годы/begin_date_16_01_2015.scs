@@ -16,8 +16,8 @@ begin_date_16_01_2015
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [16];;
-   <- number_of_month: [1];;
+   <- number_of_day_in_month: [16];;
+   <- number_of_month_in_year: [1];;
    <- number_of_year: [2015];;
    *);
    <- begin_date_01_2015;

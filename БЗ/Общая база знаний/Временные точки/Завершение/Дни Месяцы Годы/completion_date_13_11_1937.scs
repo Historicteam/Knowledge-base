@@ -16,8 +16,8 @@ completion_date_13_11_1937
    <- completion;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [13];;
-   <- number_of_month: [11];;
+   <- number_of_day_in_month: [13];;
+   <- number_of_month_in_year: [11];;
    <- number_of_year: [1937];;
    *);
    <- completion_date_11_1937;

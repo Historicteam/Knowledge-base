@@ -16,7 +16,7 @@ completion_date_09_1991
    <- completion;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_month: [9];;
+   <- number_of_month_in_year: [9];;
    <- number_of_year: [1991];;
    *);
    <- completion_date_1991;;

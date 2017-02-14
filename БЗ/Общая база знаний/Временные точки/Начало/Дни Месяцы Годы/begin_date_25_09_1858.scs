@@ -16,8 +16,8 @@ begin_date_25_09_1858
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [25];;
-   <- number_of_month: [9];;
+   <- number_of_day_in_month: [25];;
+   <- number_of_month_in_year: [9];;
    <- number_of_year: [1858];;
    *);
    <- begin_date_09_1858;

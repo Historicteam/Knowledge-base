@@ -16,7 +16,7 @@ completion_date_12_1920
    <- completion;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_month: [12];;
+   <- number_of_month_in_year: [12];;
    <- number_of_year: [1920];;
    *);
    <- completion_date_1920;;

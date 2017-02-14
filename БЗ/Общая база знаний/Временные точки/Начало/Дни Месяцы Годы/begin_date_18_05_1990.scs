@@ -16,8 +16,8 @@ begin_date_18_05_1990
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [18];;
-   <- number_of_month: [5];;
+   <- number_of_day_in_month: [18];;
+   <- number_of_month_in_year: [5];;
    <- number_of_year: [1990];;
    *);
    <- begin_date_05_1990;

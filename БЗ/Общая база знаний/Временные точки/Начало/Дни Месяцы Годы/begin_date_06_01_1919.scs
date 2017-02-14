@@ -16,8 +16,8 @@ begin_date_06_01_1919
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [6];;
-   <- number_of_month: [1];;
+   <- number_of_day_in_month: [6];;
+   <- number_of_month_in_year: [1];;
    <- number_of_year: [1919];;
    *);
    <- begin_date_01_1919;

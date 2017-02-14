@@ -16,8 +16,8 @@ begin_date_08_09_1993
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [8];;
-   <- number_of_month: [9];;
+   <- number_of_day_in_month: [8];;
+   <- number_of_month_in_year: [9];;
    <- number_of_year: [1993];;
    *);
    <- begin_date_09_1993;

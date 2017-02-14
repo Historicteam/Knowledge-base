@@ -16,8 +16,8 @@ completion_date_26_09_1897
    <- completion;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [26];;
-   <- number_of_month: [9];;
+   <- number_of_day_in_month: [26];;
+   <- number_of_month_in_year: [9];;
    <- number_of_year: [1897];;
    *);
    <- completion_date_09_1897;

@@ -16,8 +16,8 @@ begin_date_24_05_2010
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [24];;
-   <- number_of_month: [5];;
+   <- number_of_day_in_month: [24];;
+   <- number_of_month_in_year: [5];;
    <- number_of_year: [2010];;
    *);
    <- begin_date_05_2010;

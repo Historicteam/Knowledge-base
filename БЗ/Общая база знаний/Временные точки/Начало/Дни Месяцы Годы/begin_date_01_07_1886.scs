@@ -16,8 +16,8 @@ begin_date_01_07_1886
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [1];;
-   <- number_of_month: [7];;
+   <- number_of_day_in_month: [1];;
+   <- number_of_month_in_year: [7];;
    <- number_of_year: [1886];;
    *);
    <- begin_date_07_1886;

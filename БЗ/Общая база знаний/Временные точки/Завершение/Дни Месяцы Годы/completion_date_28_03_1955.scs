@@ -16,8 +16,8 @@ completion_date_28_03_1955
    <- completion;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [28];;
-   <- number_of_month: [3];;
+   <- number_of_day_in_month: [28];;
+   <- number_of_month_in_year: [3];;
    <- number_of_year: [1955];;
    *);
    <- completion_date_03_1955;

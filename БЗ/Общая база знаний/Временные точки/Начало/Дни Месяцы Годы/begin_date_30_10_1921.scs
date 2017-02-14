@@ -16,8 +16,8 @@ begin_date_30_10_1921
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [30];;
-   <- number_of_month: [10];;
+   <- number_of_day_in_month: [30];;
+   <- number_of_month_in_year: [10];;
    <- number_of_year: [1921];;
    *);
    <- begin_date_10_1921;

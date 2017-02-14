@@ -16,8 +16,8 @@ begin_date_06_09_1860
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [6];;
-   <- number_of_month: [9];;
+   <- number_of_day_in_month: [6];;
+   <- number_of_month_in_year: [9];;
    <- number_of_year: [1860];;
    *);
    <- begin_date_09_1860;

@@ -16,8 +16,8 @@ begin_date_15_12_1982
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [15];;
-   <- number_of_month: [12];;
+   <- number_of_day_in_month: [15];;
+   <- number_of_month_in_year: [12];;
    <- number_of_year: [1982];;
    *);
    <- begin_date_12_1982;

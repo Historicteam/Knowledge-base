@@ -16,8 +16,8 @@ begin_date_10_01_1996
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [10];;
-   <- number_of_month: [1];;
+   <- number_of_day_in_month: [10];;
+   <- number_of_month_in_year: [1];;
    <- number_of_year: [1996];;
    *);
    <- begin_date_01_1996;

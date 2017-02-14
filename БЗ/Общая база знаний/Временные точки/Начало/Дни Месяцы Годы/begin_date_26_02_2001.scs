@@ -16,8 +16,8 @@ begin_date_26_02_2001
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [26];;
-   <- number_of_month: [2];;
+   <- number_of_day_in_month: [26];;
+   <- number_of_month_in_year: [2];;
    <- number_of_year: [2001];;
    *);
    <- begin_date_02_2001;

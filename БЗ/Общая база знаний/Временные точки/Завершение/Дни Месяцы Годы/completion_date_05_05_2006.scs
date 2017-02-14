@@ -16,8 +16,8 @@ completion_date_05_05_2006
    <- completion;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [5];;
-   <- number_of_month: [5];;
+   <- number_of_day_in_month: [5];;
+   <- number_of_month_in_year: [5];;
    <- number_of_year: [2006];;
    *);
    <- completion_date_05_2006;

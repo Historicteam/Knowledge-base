@@ -16,8 +16,8 @@ begin_date_11_02_1955
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [11];;
-   <- number_of_month: [2];;
+   <- number_of_day_in_month: [11];;
+   <- number_of_month_in_year: [2];;
    <- number_of_year: [1955];;
    *);
    <- begin_date_02_1955;

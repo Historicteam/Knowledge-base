@@ -16,7 +16,7 @@ begin_date_01_1997
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_month: [1];;
+   <- number_of_month_in_year: [1];;
    <- number_of_year: [1997];;
    *);
    <- begin_date_1997;;

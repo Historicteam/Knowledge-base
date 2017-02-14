@@ -16,8 +16,8 @@ completion_date_22_02_2001
    <- completion;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [22];;
-   <- number_of_month: [2];;
+   <- number_of_day_in_month: [22];;
+   <- number_of_month_in_year: [2];;
    <- number_of_year: [2001];;
    *);
    <- completion_date_02_2001;

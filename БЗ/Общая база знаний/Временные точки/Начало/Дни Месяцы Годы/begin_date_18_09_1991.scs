@@ -16,8 +16,8 @@ begin_date_18_09_1991
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_day: [18];;
-   <- number_of_month: [9];;
+   <- number_of_day_in_month: [18];;
+   <- number_of_month_in_year: [9];;
    <- number_of_year: [1991];;
    *);
    <- begin_date_09_1991;
