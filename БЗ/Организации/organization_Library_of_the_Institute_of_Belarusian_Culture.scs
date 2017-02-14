@@ -1,0 +1,115 @@
+organization_Central_Scientific_Library_of_the_Academy_of_Sciences_of_Belarus_Yakub_Kolas
+=> nrel_main_idtf:
+		[Центральная научная библиотека Академии наук Беларуси имени Якуба Коласа] (* <- lang_ru;; *);
+		[Central Scientific Library of the Academy of Sciences of Belarus Yakub Kolas] (* <- lang_en;; *);
+		[Цэнтральная навуковая бібліятэка Акадэміі навук Беларусі імя Якуба Коласа] (* <- lang_by;; *);
+
+<-concept_library;
+<-concept_cultural_organization;
+<-concept_educational_institution;
+<-concept_formal_organization;;
+
+concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Culture<= nrel_temporal_decomposition:organization_Central_Scientific_Library_of_the_Academy_of_Sciences_of_Belarus_Yakub_Kolas;; *]
+(*
+    <- begin_date_25_05_1990;;
+
+*);;
+
+
+
+organization_Library_of_the_Institute_of_Belarusian_Culture
+=> nrel_main_idtf:
+		[Библиотека Института белорусской культуры] (* <- lang_ru;; *);
+		[Library of the Institute of Belarusian Culture] (* <- lang_en;; *);
+		[Бібліятэка Інстытута беларускай культуры] (* <- lang_by;; *);
+<- begin_date_1925;
+<- completion_date_1929;
+=>nrel_be_founded_in_the_name_of:Mitskevich_Konstantin_Mihailovich;
+
+<-concept_library;
+<-concept_cultural_organization;
+<-concept_educational_institution;
+<-concept_formal_organization;;
+
+concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Culture=> nrel_location:The_building_wing_urban_estate;; *]
+(*
+    <- begin_date_1925;;
+<- completion_date_1967;;
+*);;
+
+
+organization_Academy_of_Sciences_Library_of_BSSR
+=> nrel_main_idtf:
+		[Библиотека Академии наук БССР] (* <- lang_ru;; *);
+		[Academy of Sciences Library of BSSR] (* <- lang_en;; *);
+		[Бібліятэка Акадэміі навук БССР] (* <- lang_by;; *);
+
+<-concept_library;
+<-concept_cultural_organization;
+<-concept_educational_institution;
+<-concept_formal_organization;;
+
+concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Culture<= nrel_temporal_decomposition:organization_Academy_of_Sciences_Library_of_BSSR;; *]
+(*
+    <- begin_date_1929;;
+<- completion_date_1948;;
+*);;
+
+
+organization_Belarusian_Academy_of_Sciences_Library_named_after_Belinsky
+=> nrel_main_idtf:
+		[Библиотека Академии наук БССР имени Белинского В.Г] (* <- lang_ru;; *);
+		[Belarusian Academy of Sciences Library named after V.G. Belinsky] (* <- lang_en;; *);
+		[Бібліятэка Акадэміі навук БССР імя Бялінскага В.Г] (* <- lang_by;; *);
+
+<-concept_library;
+<-concept_cultural_organization;
+<-concept_educational_institution;
+<-concept_formal_organization;;
+
+concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Culture<= nrel_temporal_decomposition:organization_Belarusian_Academy_of_Sciences_Library_named_after_Belinsky;; *]
+(*
+    <- begin_date_1948;;
+<- completion_date_1966;;
+*);;
+
+
+
+
+organization_Fundamental_Library_of_the_Academy_of_Sciences_of_the_BSSR_named_after_Yakub_Kolas
+=> nrel_main_idtf:
+		[Фундаментальная библиотека Академии наук БССР имени Якуба Коласа] (* <- lang_ru;; *);
+		[Fundamental Library of the Academy of Sciences of the BSSR named after Yakub Kolas] (* <- lang_en;; *);
+		[Фундаментальная бібліятэка Акадэміі навук БССР імя Якуба Коласа] (* <- lang_by;; *);
+
+<-concept_library;
+<-concept_cultural_organization;
+<-concept_educational_institution;
+<-concept_formal_organization;;
+
+concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Culture<= nrel_temporal_decomposition:organization_Fundamental_Library_of_the_Academy_of_Sciences_of_the_BSSR_named_after_Yakub_Kolas;; *]
+(*
+    <- begin_date_1966;;
+<- completion_date_1981;;
+*);;
+
+
+organization_Central_Scientific_Library_of_the_Academy_of_Sciences_of_the_BSSR_named_after_Yakub_Kolas
+=> nrel_main_idtf:
+		[Центральная научная библиотека АН БССР имени Якуба Коласа] (* <- lang_ru;; *);
+		[Central Scientific Library of the Academy of Sciences of the BSSR named after Yakub Kolas] (* <- lang_en;; *);
+		[Цэнтральная навуковая бібліятэка АН БССР імя Якуба Коласа] (* <- lang_by;; *);
+
+<-concept_library;
+<-concept_cultural_organization;
+<-concept_educational_institution;
+<-concept_formal_organization;;
+
+concept_situation->[* organization_Library_of_the_Institute_of_Belarusian_Culture<= nrel_temporal_decomposition:organization_Central_Scientific_Library_of_the_Academy_of_Sciences_of_the_BSSR_named_after_Yakub_Kolas;; *]
+(*
+    <- begin_date_1991;;
+<- completion_date_25_05_1990;;
+*);;
+
+
+

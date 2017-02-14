@@ -14,7 +14,7 @@ Mitskevich_Konstantin_Mihailovich
 	*);
 <-concept_person;
 <-concept_male;
-
+<-concept_poet;
 =>nrel_first_name: name_Konstantin;
 => nrel_alias:
 	[Якуб Колас]
@@ -29,9 +29,6 @@ Mitskevich_Konstantin_Mihailovich
 	(*
 	<- lang_by;;
 	*);
-<= nrel_student :organization_Nesvizh_teacher_seminary;
-<= nrel_student :organization_Nikolaevskaja_elementary_school;
-<=nrel_student:organization_Alexandrov_military_school;
 
 <- rrel_key_sc_element: ...
 	(*
@@ -299,45 +296,122 @@ Mitskevich_Konstantin_Mihailovich
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling: Vilgelm_Rusecki_House;;*]
 (*
-	=> nrel_main_idtf: [Контур периода времени проживания Якуба Коласа в Доме Вильгельма Русецкого ](*<-lang_ru;;*);;
 	<- begin_date_1921;;
 	<- completion_date_1927;;			
 *);;
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: organization_In_Bel_Kult;;*]
+concept_situation->[* organization_In_Bel_Kult=> nrel_personal_composition :pers_comp_organization_In_Bel_Kult_1921_1928
 (*
-	=> nrel_main_idtf: [Контур периода времени работы Якуба Колоса в здании на ул. Революционной 15, там располагалась Научно-терминологическая комисси, которая затем стала называться Институт белорусской культуры](*<-lang_ru;;*);;
+->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
 	<- begin_date_1921;;
 	<- completion_date_1928;;			
 *);;
+pers_comp_organization_In_Bel_Kult_1921_1928
+=>nrel_main_idtf:
+[Персональный состав Института Белорусской культуры 1921-1928 года](*<-lang_ru;;*);;
 
 
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee:organization_The_Central_Executive_Committee_of_the_BSSR;;*]
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1929_1931
 (*
-	=> nrel_main_idtf: [Контур периода времени членства Якуба Колоса ЦІК БССР ](*<-lang_ru;;*);;
+->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
 	<- begin_date_1929;;
 	<- completion_date_1931;;			
 *);;
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1929_1931
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1929-1931 года](*<-lang_ru;;*);;
 
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: organization_The_Central_Executive_Committee_of_the_BSSR;;*]
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1935_1938
 (*
-	=> nrel_main_idtf: [Контур периода времени членства Якуба Колоса ЦІК БССР ](*<-lang_ru;;*);;
+->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
 	<- begin_date_1935;;
 	<- completion_date_1938;;			
 *);;
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: The_Supreme_Soviet_of_the_BSSR;;*]
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1935_1938
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1935-1938 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1956
 (*
-	=> nrel_main_idtf: [Контур периода времени  Якуба Колос депутат верховного совета БССР ](*<-lang_ru;;*);;
+->rrel_deputy:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
 	<- begin_date_1938;;
 	<- completion_date_1956;;			
 *);;
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_conductor:nrel_employee: The_Supreme_Soviet_of_the_USSR;;*]
+pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1956
+=>nrel_main_idtf:
+[Персональный состав Центрального Исполнительного Комитета БССР 1938-1956 года](*<-lang_ru;;*);;
+
+
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <= nrel_student :organization_Nesvizh_teacher_seminary;;*]
 (*
-	=> nrel_main_idtf: [Контур периода времени  Якуба Колос депутат верховного совета ССР ](*<-lang_ru;;*);;
-	<- begin_date_1938;;
-	<- completion_date_1956;;			
+	<- begin_date_1898;;
+	<- completion_date_1902;;			
+*);;
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <= nrel_student :organization_Nikolaevskaja_elementary_school;;*]
+(*
+	<- begin_date_1892;;
+	<- completion_date_1894;;			
+*);;
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_student:organization_Alexandrov_military_school;;*]
+(*
+	<- begin_date_1915;;
+	<- completion_date_1916;;			
+*);;
+
+concept_situation->[*organization_redaction_of_newspaper_Nasha_Niva=> nrel_personal_composition :pers_comp_organization_redaction_of_newspaper_Nasha_Niva_1906_1908
+(*
+->rrel_author:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
+	<- begin_date_1906;;
+	<- completion_date_1908;;			
+*);;
+pers_comp_organization_redaction_of_newspaper_Nasha_Niva_1906_1908
+=>nrel_main_idtf:
+[Персональный состав газеты "Наша Нива" 1906-1908 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich =>nrel_teacher: Fursevich_Alies;;*]
+(*
+	<- begin_date_1890;;
+	<- completion_date_1892;;			
 *);;
 
 
+concept_situation->[*Belarusian_State_University=> nrel_personal_composition :pers_comp_organization_Belarusian_State_University_1923_1926
+(*
+->rrel_assistant:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
+	<- begin_date_1923;;
+	<- completion_date_1926;;			
+*);;
+pers_comp_organization_Belarusian_State_University_1923_1926
+=>nrel_main_idtf:
+[Персональный состав Белорусского государственного университета 1923-1926 года](*<-lang_ru;;*);;
 
 
+
+concept_situation->[*The_National_Academy_of_Sciences_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
+(*
+->rrel_academician:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
+	<- begin_date_1928;;
+	<- completion_date_1956;;			
+*);;
+pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
+=>nrel_main_idtf:
+[Персональный состав Национальной академии наук БССР 1928-1956 года](*<-lang_ru;;*);;
 

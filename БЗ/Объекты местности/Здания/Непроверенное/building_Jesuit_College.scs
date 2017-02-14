@@ -111,7 +111,7 @@ concept_situation->[*organization_Jesuit_monks_community => nrel_location: build
     <- completion_date_1773;;
 *);;
 
-concept_situation->[*building_Jesuit_College<-concept_arch_vilnius_baroque;;*]
+concept_situation->[*building_Jesuit_College<-concept_arch_renaissanse;;*]
 (*
     <- begin_date_1600;;
 *);;

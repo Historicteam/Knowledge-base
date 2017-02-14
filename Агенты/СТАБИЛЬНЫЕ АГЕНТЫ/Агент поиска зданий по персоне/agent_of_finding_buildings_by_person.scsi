@@ -244,7 +244,7 @@ scp_program -> agent_of_finding_buildings_by_person
 				*);;
 
 			=> nrel_then: .proc_of_search_of_organization_begin_date__operator1;;
-			=> nrel_else: .agent_of_finding_buildings_by_person__finding_place_of_work__operator1;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__iteration_throught_found_sets__operator1;;
 		 	*);;
 
         //SEARCH OF ORGANIZATION DATES

@@ -1,0 +1,20 @@
+rrel_academician
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[академик'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[academician'] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Акаде́мик — член или, при нескольких ступенях членства, член высшей ступени организации ученых — академии наук.] (* <-lang_ru;; *);; 
+		*);;
+	*);;
+

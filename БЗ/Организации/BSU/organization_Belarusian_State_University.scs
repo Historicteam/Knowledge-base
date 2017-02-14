@@ -343,3 +343,11 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
 pers_comp_organization_Belarusian_State_University_1970_1975
 =>nrel_main_idtf:
 [Персональный состав Белорусского государственного университета 1970-1975 года](*<-lang_ru;;*);;
+
+
+
+concept_situation->[* Belarusian_State_University=>nrel_location:building_of_main_bsu;; *]
+  (*
+    <- begin_date_1921;;
+   
+*);;

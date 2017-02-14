@@ -1,0 +1,18 @@
+Fursevich_Alies
+	=> nrel_main_idtf:
+		[Фурсевич Алесь]
+		(*
+		<-lang_ru;;
+		*);
+		[Fursevich Alies]
+		(*
+		<-lang_en;;
+		*);
+		[Фурсевіч Алесь]
+		(*
+		<-lang_by;;
+		*);
+<-concept_person;
+<-concept_male;
+=>nrel_surname: surname_Fursevich;
+=>nrel_first_name: name_Alies;;

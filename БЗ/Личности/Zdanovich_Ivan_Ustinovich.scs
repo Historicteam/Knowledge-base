@@ -218,30 +218,43 @@ concept_situation->[*Zdanovich_Ivan_Ustinovich =>nrel_dwelling: Zdanovich_House;
 	<- begin_date_1891;;
 	<- completion_date_1915;;			
 *);;
-concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: organization_Minsk_Hospital;;*]
+
+concept_situation->[*organization_Minsk_Hospital=> nrel_personal_composition:pers_comp_organization_organization_Minsk_Hospital_1892_1915
+(* 
+->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
+*);;*]
 (*
-	=> nrel_main_idtf: [Зданович Иван сотрудник Минской больницы Приказа общественного призрения(потом стала Минская Губернской земской больницей) находилась в Здании Свято-троицого монастыря](*<-lang_ru;;*);;
 	<- begin_date_1892;;
 	<- completion_date_1915;;			
 *);;
-concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: building_school_for_blind;;*]
+pers_comp_organization_Minsk_School_for_the_Blind_1910
+=>nrel_main_idtf:
+[Персональный состав Минской больницы Приказа общественного призрения 1892-1915 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*organization_minsk_woomen_gymnazi=> nrel_personal_composition:pers_comp_organization_minsk_woomen_gymnazi_1893_1904
+(* 
+->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
+*);;*]
 (*
-	=> nrel_main_idtf: [Конту периода времени Зданович Иван директор Училища для слепых (1897 -1901-  располагалось в Доме Яницкого, 1901 -1934 гг Здании училища для слепых](*<-lang_ru;;*);;
-	<- begin_date_1897;;
-	<- completion_date_1915;;			
-*);;
-concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: organization_minsk_woomen_gymnazi;;*]
-(*
-	=> nrel_main_idtf: [Контуp периода времени Зданович Иван сотрудник врач Мариинской женской гимназии (располагалось в Здании мариинской женской гимназии)](*<-lang_ru;;*);;
 	<- begin_date_1893;;
 	<- completion_date_1904;;			
 *);;
-concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_conductor:nrel_employee: organization_minskay_rech;;*]
+pers_comp_organization_minsk_woomen_gymnazi_1893_1904
+=>nrel_main_idtf:
+[Персональный состав Мариинской женской гимназии 1893-1904 года](*<-lang_ru;;*);;
+
+concept_situation->[*organization_minskay_rech=> nrel_personal_composition:pers_comp_organization_minskay_rech_1906_1912
 (*
-	=> nrel_main_idtf: [Контуp периода времени Зданович Иван  сотрудник газеты «Минская речь» располагалась в Доме Вержбовского](*<-lang_ru;;*);;
+->rrel_editor;;
+*);;*]
+(*
 	<- begin_date_1906;;
 	<- completion_date_1912;;			
 *);;
+pers_comp_organization_minskay_rech_1906_1912
+=>nrel_main_idtf:
+[Персональный состав газеты «Минская речь» 1906-1912 года](*<-lang_ru;;*);;
 						
 concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_student: organization_Minsk_Male_Gymnasium;;*]
 (*

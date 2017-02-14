@@ -1,0 +1,8 @@
+Akinchici_village
+=>nrel_main_idtf:
+	[Акинчицы] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Akinchici] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Акінчыцы] (* <-lang_by;; *);	
+<-concept_village;;

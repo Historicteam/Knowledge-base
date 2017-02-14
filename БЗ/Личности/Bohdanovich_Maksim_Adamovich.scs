@@ -363,7 +363,8 @@ Myakota_Afanasiy
 	(*
 	<- lang_by;;
 	*);
-<-concept_male; <-concept_person;
+<-concept_male; 
+<-concept_person;
 =>nrel_surname: surname_Myakota;
 =>nrel_first_name: name_Afanasiy;
 <=>nrel_spouse:Malevich_Tatiana_Osipovna;;
@@ -767,7 +768,7 @@ Bohdanovich_Maksim_Adamovich
 			*);;
 		*);;
 	*);
-//=> https://www.youtube.com/watch?v=P9KB6OxNHh0;
+
 =>nrel_author:Pogonia;
 =>nrel_author:Venus;
 
@@ -778,12 +779,11 @@ Bohdanovich_Maksim_Adamovich
 
 <=nrel_be_founded_in_the_name_of:monument_in_honor_of_Bogdanovich;
 <=nrel_be_founded_in_the_name_of:organization_Literary_Museum_of_Bogdanovich;
-=>nrel_dwelling: 
-	organization_Literary_Museum_of_Bogdanovich_Belarusian_hut;
-	organization_The_first_city_school;
-	Rabkorovskiys_Street_house_19;
 
-<=nrel_student:organization_Nizhny_Novgorod_Male_Gymnasium;
+=>nrel_dwelling:organization_The_first_city_school;
+=>nrel_dwelling:Rabkorovskiys_Street_house_19;
+
+
 =>nrel_author:poem_Musyka;
 <-concept_writer;;
 
@@ -828,3 +828,31 @@ poem_Musyka
 	(*
 	<- lang_by;;
 	*);;
+
+
+concept_situation->[* Bohdanovich_Maksim_Adamovich<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Bohdanovich.png"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;*]
+  (*
+    <- begin_date_1927;;
+    <- completion_date_1930;;
+*);;
+concept_situation->[* Bohdanovich_Maksim_Adamovich=>nrel_dwelling: organization_Literary_Museum_of_Bogdanovich_Belarusian_hut;;*]
+  (*
+    <- begin_date_1916;;
+    <- completion_date_1917;;
+*);;
+concept_situation->[* Bohdanovich_Maksim_Adamovich<=nrel_student:organization_Nizhny_Novgorod_Male_Gymnasium;;*]
+  (*
+    <- begin_date_1902;;
+    <- completion_date_1911;;
+*);;

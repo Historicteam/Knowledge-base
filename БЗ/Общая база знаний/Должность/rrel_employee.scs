@@ -1,0 +1,11 @@
+rrel_employee
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[сотрудник'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[employee'] (* <-lang_en;; *);;	
+
+

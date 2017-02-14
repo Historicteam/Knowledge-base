@@ -1,0 +1,20 @@
+rrel_editor
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[редактор'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[editor'] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Редактор — тот, кто работает с текстом, а именно составляет, проверяет и исправляет содержание в соответствии с требованиями определённого жанра, готовит к печати издание (книги, журнала, газеты и т. п.), также выступает в роли управляющего.] (* <-lang_ru;; *);; 
+		*);;
+	*);;
+

@@ -139,7 +139,7 @@ organization_House_of_Representatives_of_Belarus
 concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=>nrel_location:The_building_of_the_Jesuit_school;;*]
 (*
  <- begin_date_04_02_1919;;
-    <- completion_date_27_02_1919;;
+    <- completion_date_1936;;
 *);;
 
 concept_situation->[*^"file://desсription_organization_The_Central_Executive_Committee_of_the_BSSR.scsi"*]
@@ -162,7 +162,7 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR<=
 
 concept_situation->[* organization_The_Supreme_Council_of_the_BSSR=> nrel_location:building_of_house_of_government;; *]
 (*
-    <- begin_date_1945;;
+    <- begin_date_1936;;
     <- completion_date_19_09_1991;;
 *);;
 

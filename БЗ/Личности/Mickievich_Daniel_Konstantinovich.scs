@@ -1,0 +1,19 @@
+Mickievich_Daniel_Konstantinovich
+	=> nrel_main_idtf:
+		[Мицкевич Даниил Констанович]
+		(*
+			<- lang_ru;;
+		*);
+		[Міцкевіч Данііл Канстанцінавіч]
+		(*
+		<- lang_by;;
+		*);
+		[Mickievich Daniel Konstantinovich]
+		(*
+		<- lang_en;;
+		*);
+<-concept_person;
+<-concept_male;
+=>nrel_surname: surname_Mickievich;
+=>nrel_first_name: name_Daniel;
+=>nrel_parent:Mickievich_Konstantin_Mikhailovich;;
