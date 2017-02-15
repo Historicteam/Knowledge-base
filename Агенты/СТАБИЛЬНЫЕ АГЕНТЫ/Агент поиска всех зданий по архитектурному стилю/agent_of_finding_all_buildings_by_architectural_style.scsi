@@ -138,6 +138,79 @@ scp_program -> agent_of_finding_all_buildings_by_architectural_style
 
 	  	-> .agent_of_finding_all_buildings_by_architectural_style__iteration_throught_found_sets__operator4 
 			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _substyle_ttt;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_substyle;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_5A;;
+		  	*);;
+
+	  	-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_5A
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_6A;;
+  			*);;
+
+	  	-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_6A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_7A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_7A
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_var: _found_substyle;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_8A;;
+  			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_8A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_9A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_9A 
+			(*
+			<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_substyle;;
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_11A;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_10A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_10A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_substyle;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_11A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_11A 
+			(*
 			<- genElStr3;;
 		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
@@ -199,7 +272,68 @@ scp_program -> agent_of_finding_all_buildings_by_architectural_style
 		  	=> nrel_goto:  .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_5;;
 		  	*);;
 
-	  	-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_5 
+	  	-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_5
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_6;;
+  			*);;
+
+	  	-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_6 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_7;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_7
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_8;;
+  			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_8 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_9;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_9 
+			(*
+			<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_11;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_10;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_10 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_11;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_by_architectural_style_operator_STYLES_11 
 			(*
 			<- genElStr3;;
 		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
@@ -217,7 +351,7 @@ scp_program -> agent_of_finding_all_buildings_by_architectural_style
 			<- genElStr3;;
 		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_by_architectural_style;;
 		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
-		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: concept_building;;
 
 		  	=> nrel_goto: .agent_of_finding_all_buildings_by_architectural_style__gen_answer_finding_all_buildings_by_architectural_style2;;
 			*);;
