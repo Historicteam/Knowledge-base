@@ -116,12 +116,7 @@ concept_situation->[Church_of_St_Adalbert <-concept_arch_vilnius_baroque ;; *]
 			<- completion_date_1871;;
 *);;
 
-concept_situation->[Church_of_St_Adalbert <-concept_arch_vilnius_baroque ;; *]
-(*
 
-            <- begin_date_1647;;
-			<- completion_date_1871;;
-*);;
 concept_situation->[Church_of_St_Adalbert <-concept_russian_revival;; *]
 (*
  <- begin_date_1871;;
