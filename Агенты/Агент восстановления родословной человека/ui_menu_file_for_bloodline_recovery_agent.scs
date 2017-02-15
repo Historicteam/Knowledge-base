@@ -6,11 +6,11 @@ ui_menu_file_for_bloodline_recovery_agent => nrel_main_idtf:
 
 ui_menu_file_for_bloodline_recovery_agent => ui_nrel_command_template:
 	[*
-		question_of_bloodline_recovery _-> ._question_of_bloodline_recovery_instance
+		question_of_bloodline_relations_recovery _-> .question_of_bloodline_relations_recovery_instance
 			(*
 			_-> ui_arg_1;;
 			*);;
-		._question_of_bloodline_recovery_instance _<- question;;
+		.question_of_bloodline_relations_recovery_instance _<- question;;
 	*];;
 
 ui_menu_file_for_bloodline_recovery_agent => ui_nrel_command_lang_template: 

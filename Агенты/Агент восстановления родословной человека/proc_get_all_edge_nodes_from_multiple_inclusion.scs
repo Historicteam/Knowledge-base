@@ -1,0 +1,86 @@
+proc_get_all_edge_nodes_from_multiple_inclusion <- scp_program;
+-> rrel_params: .proc_get_all_edge_nodes_from_multiple_inclusion_params 
+		(*
+		-> rrel_1: rrel_in: _root;;
+		-> rrel_2: rrel_in: _edge_nodes;;
+		*);
+
+->rrel_operators: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_set
+(*
+		->rrel_init: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_1 
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [proc_get_all_edge_nodes_from_multiple_inclusion];;
+
+			=> nrel_goto: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_1_a;;
+		*);;
+
+		-> .proc_get_all_edge_nodes_from_multiple_inclusion_operator_1_a
+		(*
+			<-searchSetStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _root;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _subroot;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _subroots;;
+
+			=> nrel_then: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_2;;
+			=> nrel_else: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_return;;
+		*);;
+
+		-> .proc_get_all_edge_nodes_from_multiple_inclusion_operator_2
+		(*
+			<-searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _subroots;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _subroot;;
+
+			=> nrel_then: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_3;;
+			=> nrel_else: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_return;;
+		*);;
+
+		-> .proc_get_all_edge_nodes_from_multiple_inclusion_operator_3
+		(*
+			<-eraseEl;;
+
+			-> rrel_1: rrel_fixed: rrel_erase: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+
+			=> nrel_goto: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_4;;
+		*);;
+
+		-> .proc_get_all_edge_nodes_from_multiple_inclusion_operator_4
+		(*
+			<-searchSetStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _subroot;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _subsubroot;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion;;
+
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _subroots;;
+
+			=> nrel_then: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_2;;
+			=> nrel_else: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_2else;;
+		*);;
+
+		-> .proc_get_all_edge_nodes_from_multiple_inclusion_operator_2else
+		(*
+			<-genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _edge_nodes;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _subroot;;
+
+			=> nrel_goto: .proc_get_all_edge_nodes_from_multiple_inclusion_operator_2;;
+		*);;
+
+		-> .proc_get_all_edge_nodes_from_multiple_inclusion_operator_return
+		(*
+			<- return;;
+		*);;
+*);;
