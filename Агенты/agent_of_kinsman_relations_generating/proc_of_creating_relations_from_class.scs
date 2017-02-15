@@ -1,0 +1,182 @@
+proc_of_creating_relations_from_class <- scp_program; //добавляет в ответ связки между членами отношения
+-> rrel_params: .proc_of_creating_relations_from_class_params 
+		(*
+		-> rrel_1: rrel_in: _entity;;
+		-> rrel_2: rrel_in: _relation_class;;
+		-> rrel_3: rrel_in: _answer;;
+		*);
+
+->rrel_operators: .proc_of_creating_relations_from_class_operator_set
+(*
+		->rrel_init: .proc_of_creating_relations_from_class_operator_q 
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [pp1];;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_1b;;
+		*);;
+
+		/*-> .proc_of_creating_relations_from_class_operator_1a
+		(*
+			<-genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _relation_class;;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_1b;;
+		*);; */  
+
+		-> .proc_of_creating_relations_from_class_operator_1b
+		(*
+			<-genEl;;
+
+			-> rrel_1: rrel_assign: rrel_node: rrel_scp_var: _relations;;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_1;;
+		*);; 
+
+		-> .proc_of_creating_relations_from_class_operator_1
+		(*
+			<-searchSetStr3/*5*/;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: VERY_IMPORTANT_NODE/*nrel_kinsman*/;;//!!!!!!!!11111111111111!!!!!!!!!!!!!!!!!!!!!
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _relation;;
+			//-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_2;;
+			//-> rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _relations;;
+
+			=> nrel_then: .proc_of_creating_relations_from_class_operator_2;;
+			=> nrel_else: .proc_of_creating_relations_from_class_operator_2p;;
+		*);;
+
+
+		/*-> .proc_of_creating_relations_from_class_operator_1
+		(*
+			<- call;; 
+			-> rrel_1: rrel_fixed: rrel_scp_const:  proc_get_all_edge_nodes_from_multiple_inclusion;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: .proc_of_creating_relations_from_class_operator_1_params (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _relation_class;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _relations;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr8;;
+			=>nrel_goto: .proc_of_creating_relations_from_class_operator_1wait;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_1wait 
+		(*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr8;;
+			=>nrel_goto: .proc_of_creating_relations_from_class_operator_2p;;
+		*);; */
+
+		-> .proc_of_creating_relations_from_class_operator_2p
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [proc_get_all_edge_nodes_from_multiple_inclusion ended];;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_2;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_2
+		(*
+			<-searchElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _relations;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _some_relation;;
+
+			=> nrel_then: .proc_of_creating_relations_from_class_operator_3;;
+			=> nrel_else: .proc_of_creating_relations_from_class_operator_2ret;; //cycle end
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_2ret
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [no relations, return];;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_return;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_3
+		(*
+			<-eraseEl;;
+
+			-> rrel_1: rrel_fixed: rrel_erase: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_4a;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_4a
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [to UBER];;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_4;;
+		*);;
+
+
+
+		-> .proc_of_creating_relations_from_class_operator_4
+		(*
+			<- call;; 
+			-> rrel_1: rrel_fixed: rrel_scp_const:  proc_of_creating_relation_using_related_template;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: .proc_of_creating_relations_from_class_operator_4_params (*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _entity;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _some_relation;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr2;;
+			=>nrel_goto: .proc_of_creating_relations_from_class_operator_4wait;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_4wait 
+		(*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr2;;
+			=>nrel_goto: .proc_of_creating_relations_from_class_operator_5a;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_5a
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [main end];;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_5;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_5
+		(*
+			<-searchSetStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _entity;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _some_second_entity;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_var: _some_relation;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+
+			=> nrel_then: .proc_of_creating_relations_from_class_operator_5i;;
+			=> nrel_else: .proc_of_creating_relations_from_class_operator_2;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_5i
+		(*
+			<-genElStr3;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_1;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_relation;;
+
+			=> nrel_goto: .proc_of_creating_relations_from_class_operator_2;;
+		*);;
+
+		-> .proc_of_creating_relations_from_class_operator_return
+		(*
+			<- return;;
+		*);;
+*);;

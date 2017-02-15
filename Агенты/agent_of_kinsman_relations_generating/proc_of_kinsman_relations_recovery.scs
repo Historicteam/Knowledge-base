@@ -1,0 +1,60 @@
+proc_of_kinsman_relations_recovery <- scp_program;
+-> rrel_params: .proc_of_kinsman_relations_recovery_params 
+		(*
+		-> rrel_1: rrel_in: _entity;;
+		-> rrel_2: rrel_in: _answer;;
+		*);
+
+->rrel_operators: .proc_of_kinsman_relations_recovery_operator_set
+(*
+		->rrel_init: .proc_of_kinsman_relations_recovery_operator_q 
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [ppp1];;
+
+			=> nrel_goto: .proc_of_kinsman_relations_recovery_operator_1;;
+		*);;
+
+		-> .proc_of_kinsman_relations_recovery_operator_1
+		(*
+			<- call;; 
+			-> rrel_1: rrel_fixed: rrel_scp_const:  proc_of_creating_relations_from_class;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: .proc_of_kinsman_relations_recovery_operator_1_params 
+			(*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _entity;;
+				-> rrel_2: rrel_fixed: rrel_scp_const: nrel_kinsman;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+				
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr12;;
+			=>nrel_goto: .proc_of_kinsman_relations_recovery_operator_2;;
+		*);;
+
+		-> .proc_of_kinsman_relations_recovery_operator_2
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [agentuss in 1];;
+
+			=> nrel_goto: .proc_of_kinsman_relations_recovery_operator_3;;
+		*);;
+
+		-> .proc_of_kinsman_relations_recovery_operator_3 
+		(*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr12;;
+			=>nrel_goto: .proc_of_kinsman_relations_recovery_operator_4;;
+		*);;
+
+				-> .proc_of_kinsman_relations_recovery_operator_4
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [agentuss out 1];;
+
+			=> nrel_goto: .proc_of_kinsman_relations_recovery_operator_return;;
+		*);;
+
+		-> .proc_of_kinsman_relations_recovery_operator_return
+		(*
+			<- return;;
+		*);;
+*);;

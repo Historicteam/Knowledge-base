@@ -13,8 +13,7 @@ ui_menu_na_view_kb <- ui_user_command_class_noatom;
 	ui_menu_na_view_kb_identifiers;/*;
 	ui_menu_na_view_kb_pattern*/
 	ui_menu_search_commands_kinship_main;
-	ui_menu_finding_way;
-	ui_menu_coworkers
+	ui_menu_finding_way
 };
 
 
