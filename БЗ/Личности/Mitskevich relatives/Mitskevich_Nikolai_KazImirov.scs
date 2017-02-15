@@ -1,0 +1,12 @@
+Mitskevich_Nikolai_KazImirov
+=> nrel_main_idtf:
+	[Мицкевич Николай Казимиров]
+	(*
+	<- lang_ru;;
+	*);
+	<= nrel_parent:Mitskevich_Ivan_Nikolaev;
+
+<=>nrel_spouse:Mitskevich_Nikolai_KazImirov;
+<-concept_male;;
+
+

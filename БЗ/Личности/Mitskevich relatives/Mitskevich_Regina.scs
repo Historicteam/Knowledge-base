@@ -1,0 +1,13 @@
+Mitskevich_Regina
+=> nrel_main_idtf:
+	[Мицкевич Регина]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+<= nrel_parent:Mitskevich_Rozalia_Leonovna;
+<= nrel_parent:Mitskevich_Nikolai_Leonov;
+<= nrel_parent:Mitskevich_Stanislav_Leonov;
+
+<=>nrel_spouse:Mitskevich_Levon_Kazimirov;;

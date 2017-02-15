@@ -1,0 +1,15 @@
+Mitskevich_Kazimir_Nikolaev
+=> nrel_main_idtf:
+	[Мицкевич Казимир Николаев]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_male;
+<= nrel_parent:Mitskevich_Mihail_Kazimirov;
+<= nrel_parent:MItskevich_Ignati_Kazimirov;
+<= nrel_parent:MItskevich_Karolina_Kazimirova;
+<= nrel_parent:MItskevich_Efim_Kazimirov;
+<= nrel_parent:MItskevich_Magdalena_Kazimirovma;
+<= nrel_parent:Mitskevich_Petr_Kazimirov;
+<=>nrel_spouse:Mitskevich_Anna;;

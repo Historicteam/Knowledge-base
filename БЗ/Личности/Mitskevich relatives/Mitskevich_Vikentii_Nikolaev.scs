@@ -1,0 +1,12 @@
+Mitskevich_Vikentii_Nikolaev
+=> nrel_main_idtf:
+	[Мицкевич Викентий Николаев]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_male;
+
+<= nrel_parent:Mitskevich_Anton_Vikentiev;
+
+<=>nrel_spouse:Mitskevich_Urshula;;

@@ -29,45 +29,6 @@ Mitskevich_Konstantin_Mihailovich
 	(*
 	<- lang_by;;
 	*);
-
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://Yakub_Kolas.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*); 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://Yakub_Kolas1.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*); 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://Yakub_Kolas2.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*); 
-
-
 =>nrel_date_of_birth: 03_11_1882
 	(*
 	=> nrel_main_idtf:
@@ -100,7 +61,11 @@ Mitskevich_Konstantin_Mihailovich
 		<- lang_by;;
 		*);;
 	*);
+<= nrel_parent:Mitskevich_Daniil_Konstantinovich;
+<= nrel_parent:Mitskevich_Mihail_Konstantinovich;
+<= nrel_parent:Mitskevich_Yuri_Konstantinovich;
 
+<=>nrel_spouse:Mitskevich_Maria_Dmirtievna;
 =>nrel_place_of_birth: Akinchici_village;
 =>nrel_place_of_death: the_city_of_Minsk;
 <=nrel_author: poem_Krai_rodimi
@@ -351,6 +316,32 @@ pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1956
 
 
 
+
+
+
+concept_situation->[*The_National_Academy_of_Sciences_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
+(*
+->rrel_academician:Mitskevich_Konstantin_Mihailovich;;
+*);;*]
+(*
+	<- begin_date_1928;;
+	<- completion_date_1956;;			
+*);;
+pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
+=>nrel_main_idtf:
+[Персональный состав Национальной академии наук БССР 1928-1956 года](*<-lang_ru;;*);;
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building_Frunze_13;;*]
+(*
+	<- begin_date_1927;;
+	<- completion_date_1941;;			
+*);;
+concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building_is_a_dwelling_house_of_Yakub_Kolas;;*]
+(*
+	<- begin_date_1945;;
+	<- completion_date_13_08_1956;;			
+*);;
+
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <= nrel_student :organization_Nesvizh_teacher_seminary;;*]
 (*
 	<- begin_date_1898;;
@@ -402,16 +393,38 @@ pers_comp_organization_Belarusian_State_University_1923_1926
 [Персональный состав Белорусского государственного университета 1923-1926 года](*<-lang_ru;;*);;
 
 
-
-concept_situation->[*The_National_Academy_of_Sciences_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yakub_Kolas.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;*]
 (*
-->rrel_academician:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
-(*
-	<- begin_date_1928;;
-	<- completion_date_1956;;			
+	<- begin_date_1930;;
+	<- completion_date_1935;;			
 *);;
-pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
-=>nrel_main_idtf:
-[Персональный состав Национальной академии наук БССР 1928-1956 года](*<-lang_ru;;*);;
+
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yakub_Kolas2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;*]
+(*
+	<- begin_date_1908;;
+	<- completion_date_1915;;			
+*);;
 

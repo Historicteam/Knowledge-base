@@ -1,0 +1,18 @@
+Mitskevich_Ganna_Yurievna
+=> nrel_main_idtf:
+	[Мицкевич Ганна Юрьевна]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+<= nrel_parent:Mitskevich_Aleksnadr_Mihalovich;
+<= nrel_parent:Mitskevich_Iosif_Mihailovich;
+
+<= nrel_parent:Mitskevich_Mihalina_Mihailovna;
+
+<= nrel_parent:Mitskevich_Vera_Mihailovna;
+<=>nrel_spouse:Mitskevich_Mihail_Kazimirov;;
+
+
+

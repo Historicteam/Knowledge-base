@@ -1,0 +1,12 @@
+Mitskevich_Mihalina_Mihailovna
+=> nrel_main_idtf:
+	[Мицкевич Михалина Михайловна]
+	(*
+	<- lang_ru;;
+	*);
+	<= nrel_parent:Mitskevich_Aleksandr_Ivanovich;
+
+<=>nrel_spouse:Ivan;
+<-concept_woman;;
+
+

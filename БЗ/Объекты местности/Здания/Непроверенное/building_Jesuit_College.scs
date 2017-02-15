@@ -92,6 +92,7 @@ concept_situation->[*organization_government_offices => nrel_location: building_
     <- completion_date_1852;;
 *);;
 
+
 concept_situation->[*organization_treasury_chamber => nrel_location: building_Jesuit_College;;*]
 (*
     <- begin_date_1852;;
@@ -111,7 +112,7 @@ concept_situation->[*organization_Jesuit_monks_community => nrel_location: build
     <- completion_date_1773;;
 *);;
 
-concept_situation->[*building_Jesuit_College<-concept_arch_renaissanse;;*]
+concept_situation->[*building_Jesuit_College<-concept_arch_vilnius_baroque;;*]
 (*
     <- begin_date_1600;;
 *);;

@@ -48,15 +48,15 @@ Church_of_St_Adalbert
         Church_of_St_Adalbert_of_Spaso_Preobrazhensky_female_monastery
         (*
         => nrel_main_idtf:
-            [Костел Святого Войцеха Спасо-Преоброженского женского монастыря]
+            [Церковь Спасо-Преоброженского женского монастыря]
             (*
             <- lang_ru;;
             *);
-            [Church of St Adalbert of Spaso Preobrazhensky female monastery]
+            [Church of  Spaso Preobrazhensky female monastery]
             (*
             <- lang_en;;
             *);
-            [Касцёл Святога Войцэха Спаса-Праабражэнскага жаночага манастыра]
+            [Царква Спаса-Праабражэнскага жаночага манастыра]
             (*
             <- lang_by;;
             *);;
@@ -92,6 +92,12 @@ Church_of_St_Adalbert
 			*);;
 		*);;
 	*);;
+concept_situation->[Church_of_St_Adalbert<-concept_lost_constructions;;*]
+(*
+	 <- begin_date_1960;;
+    <- completion_date_1967;;
+
+*);;
 	concept_situation->[Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1647_1871;; *]
 (*
             => nrel_main_idtf:
@@ -109,4 +115,16 @@ Church_of_St_Adalbert
 			<- completion_date_1944;;
 *);;
 
- 
+concept_situation->[Church_of_St_Adalbert <-concept_arch_vilnius_baroque ;; *]
+(*
+
+            <- begin_date_1647;;
+			<- completion_date_1871;;
+*);;
+
+
+concept_situation->[Church_of_St_Adalbert <-concept_russian_revival;; *]
+(*
+ <- begin_date_1871;;
+
+*);;
