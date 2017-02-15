@@ -1,0 +1,11 @@
+Mitskevich_Elena_Simeonovna
+=> nrel_main_idtf:
+	[Мицкевич Елена Симеоновна]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+
+
+<=>nrel_spouse:Mitskevich_Staniclav_KazImirov;;

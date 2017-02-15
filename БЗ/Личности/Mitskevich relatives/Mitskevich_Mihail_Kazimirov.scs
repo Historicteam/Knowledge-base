@@ -1,0 +1,15 @@
+Mitskevich_Mihail_Kazimirov
+=> nrel_main_idtf:
+	[Мицкевич Михаил Казимиров]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_male;
+<= nrel_parent:Mitskevich_Aleksnadr_Mihalovich;
+<= nrel_parent:Mitskevich_Iosif_Mihailovich;
+
+<= nrel_parent:Mitskevich_Mihalina_Mihailovna;
+
+<= nrel_parent:Mitskevich_Vera_Mihailovna;
+<=>nrel_spouse:Mitskevich_Ganna_Yurievna;;

@@ -1,0 +1,11 @@
+MItskevich_Karolina_Kazimirova
+=> nrel_main_idtf:
+	[Мицкевич Каролина Казимировна]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+
+
+<=>nrel_spouse:Demidovich_Ambrozhni;;

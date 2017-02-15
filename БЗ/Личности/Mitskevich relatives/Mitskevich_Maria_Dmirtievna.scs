@@ -1,0 +1,13 @@
+Mitskevich_Maria_Dmirtievna
+=> nrel_main_idtf:
+	[Мицкевич Мария Дмитриевна]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+<= nrel_parent:Mitskevich_Daniil_Konstantinovich;
+<= nrel_parent:Mitskevich_Mihail_Konstantinovich;
+<= nrel_parent:Mitskevich_Yuri_Konstantinovich;
+
+<=>nrel_spouse:Mitskevich_Konstantin_Mihailovich;;

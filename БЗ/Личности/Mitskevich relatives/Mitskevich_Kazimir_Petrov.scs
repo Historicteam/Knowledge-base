@@ -1,0 +1,13 @@
+Mitskevich_Kazimir_Petrov
+=> nrel_main_idtf:
+	[Мицкевич Казимир Петров]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_male;
+<= nrel_parent:Mitskevich_Levon_Kazimirov;
+<= nrel_parent:Mitskevich_Nikolai_KazImirov;
+<= nrel_parent:Mitskevich_Staniclav_KazImirov;;
+
+

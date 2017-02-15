@@ -1,0 +1,14 @@
+Mitskevich_Domna_Ignatovna
+=> nrel_main_idtf:
+	[Мицкевич Домна Игнатовна]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+<= nrel_parent:Mitskevich_Vikentii_Nikolaev;
+<= nrel_parent:Mitskevich_Kristina_Nikolaevna;
+<= nrel_parent:Mitskevich_Kazimir_Nikolaev;
+<= nrel_parent:Mitskevich_Ivan_Nikolaev;
+
+<=>nrel_spouse:Mitskevich_Nikolai_Leonov;;
