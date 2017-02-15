@@ -1,8 +1,8 @@
 time_point -> time_point_66
 (*
-  => nrel_translation_in_the_Gregorian_calendar: ...
-  (*
-    -> rrel_year: rrel_decimal: [66];;
-  *);;
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [66];;
+   *);;
   => nrel_main_idtf: [66 год] (* <-lang_ru;;*);;
 *);;

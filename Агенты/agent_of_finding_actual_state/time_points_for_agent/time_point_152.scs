@@ -1,8 +1,8 @@
 time_point -> time_point_152
 (*
-  => nrel_translation_in_the_Gregorian_calendar: ...
-  (*
-    -> rrel_year: rrel_decimal: [152];;
-  *);;
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [152];;
+   *);;
   => nrel_main_idtf: [152 год] (* <-lang_ru;;*);;
 *);;

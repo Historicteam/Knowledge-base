@@ -1,8 +1,8 @@
 time_point -> time_point_1805
 (*
-  => nrel_translation_in_the_Gregorian_calendar: ...
-  (*
-    -> rrel_year: rrel_decimal: [1805];;
-  *);;
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [1805];;
+   *);;
   => nrel_main_idtf: [1805 год] (* <-lang_ru;;*);;
 *);;

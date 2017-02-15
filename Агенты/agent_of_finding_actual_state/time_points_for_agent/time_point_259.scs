@@ -1,8 +1,8 @@
 time_point -> time_point_259
 (*
-  => nrel_translation_in_the_Gregorian_calendar: ...
-  (*
-    -> rrel_year: rrel_decimal: [259];;
-  *);;
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [259];;
+   *);;
   => nrel_main_idtf: [259 год] (* <-lang_ru;;*);;
 *);;
