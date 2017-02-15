@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/var/general_node" idtf="_aofabbas_building" shapeColor="0" id="42416352" parent="39066512" left="0" top="0" right="114.141" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="395.444" y="368.046" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="concept_building" shapeColor="0" id="41389552" parent="39066512" left="0" top="0" right="100.391" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="287.444" y="372.046" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="_aofabbas_style" shapeColor="0" id="42560960" parent="39066512" left="0" top="0" right="93.1719" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="494.444" y="156.046" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="38619232" parent="39066512" id_b="42560960" id_e="42416352" b_x="494.444" b_y="156.046" e_x="395.444" e_y="368.046" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="42747952" parent="39066512" id_b="41389552" id_e="42416352" b_x="287.444" b_y="372.046" e_x="395.444" e_y="368.046" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="agent_of_finding_all_buildings_by_architectural_style__patern_of_finding_buildings_by_style" shapeColor="193" id="39066512" parent="0" left="0" top="0" right="517.594" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="173.444" y="137.046"/>
+                <point x="225.444" y="429.046"/>
+                <point x="816.444" y="440.046"/>
+                <point x="714.444" y="95.0465"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

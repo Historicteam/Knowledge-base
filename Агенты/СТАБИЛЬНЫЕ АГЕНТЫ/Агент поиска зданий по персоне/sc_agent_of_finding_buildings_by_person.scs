@@ -1,6 +1,6 @@
 sc_agent_of_finding_buildings_by_person
 => nrel_main_idtf:
-	[sc-агент поиска сокращённой зданий по персоне для заданного понятия] (* <- lang_ru;; *);
+	[sc-агент поиска зданий по персоне для заданного понятия] (* <- lang_ru;; *);
 	[sc-agent of finding buildings by person for the given concept] (* <- lang_en;; *);
 
 <- abstract_sc_agent;
