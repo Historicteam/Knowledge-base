@@ -58,4 +58,8 @@ concept_situation->[*organization_city_fire_brigade => nrel_location: The_Jesuit
     <- completion_date_1917;;
 *);;
 
+concept_situation->[*The_Jesuit_tower_belfry<-concept_arch_vilnius_baroque;;*]
+(*
+    <- begin_date_1738;;
 
+*);;

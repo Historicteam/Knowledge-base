@@ -30,42 +30,8 @@ Mitskevich_Konstantin_Mihailovich
 	<- lang_by;;
 	*);
 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://Yakub_Kolas.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*); 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://Yakub_Kolas1.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*); 
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example: "file://Yakub_Kolas2.jpg"
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*); 
+
+
 
 
 =>nrel_date_of_birth: 03_11_1882
@@ -415,3 +381,51 @@ pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
 =>nrel_main_idtf:
 [Персональный состав Национальной академии наук БССР 1928-1956 года](*<-lang_ru;;*);;
 
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building_Frunze_13;;*]
+(*
+	<- begin_date_1927;;
+	<- completion_date_1941;;			
+*);;
+concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building_is_a_dwelling_house_of_Yakub_Kolas;;*]
+(*
+	<- begin_date_1945;;
+	<- completion_date_13_08_1956;;			
+*);;
+
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yakub_Kolas.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*) ;;*]
+(*
+	<- begin_date_1930;;
+	<- completion_date_1935;;			
+*);;
+
+
+
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Yakub_Kolas2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); ;*]
+(*
+	<- begin_date_1908;;
+	<- completion_date_1915;;			
+*);;

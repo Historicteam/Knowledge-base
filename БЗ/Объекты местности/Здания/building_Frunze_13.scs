@@ -1,14 +1,14 @@
-Vilgelm_Rusecki_House
+building_Frunze_13
 => nrel_main_idtf:
-	  [Дом Вильгельма Русецкого]
+	  [Здание Фрунзе, 13]
 	  (*
 	    <- lang_ru;;
 	  *);
-	[Vilgelm Rusecki House]
+	[The building Frunze, 13]
   (*
     <- lang_en;;
   *);
-  [Дом Вільгельма Русекцкага]
+  [Будынак Фрунзе, 13]
   (*
     <- lang_by;;
   *);
@@ -19,7 +19,7 @@ Vilgelm_Rusecki_House
 	<=nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://content/house_Rusetski.jpg"
+		->rrel_example: "file://content/Frunze_13.jpg"
 			(*
 			=> nrel_format: format_jpg;;
                         *);;
@@ -30,7 +30,7 @@ Vilgelm_Rusecki_House
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.9103851, 27.5704614]
+	=> nrel_WGS_84_translation: [53.9045262, 27.5763971]
 		(*
 		-> ...
 			(*
@@ -39,20 +39,18 @@ Vilgelm_Rusecki_House
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 53.9103851;;
+					-> rrel_degree: 53.9045262;;
 					*);;
 				*);;
 			->rrel_longitude: ...
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 27.5704614;;
+					-> rrel_degree: 27.5763971;;
 					*);;
 				*);;
 			*);;
 		*);;
 	*);
 <-concept_residential_building;
-<-concept_building;
-<-concept_lost_constructions;;
-
+<-concept_building;;
