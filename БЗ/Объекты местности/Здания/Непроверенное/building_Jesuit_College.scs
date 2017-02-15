@@ -92,6 +92,7 @@ concept_situation->[*organization_government_offices => nrel_location: building_
     <- completion_date_1852;;
 *);;
 
+
 concept_situation->[*organization_treasury_chamber => nrel_location: building_Jesuit_College;;*]
 (*
     <- begin_date_1852;;

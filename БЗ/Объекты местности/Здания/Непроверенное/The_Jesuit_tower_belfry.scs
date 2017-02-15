@@ -48,7 +48,12 @@ The_Jesuit_tower_belfry
 
 *)
 };;
+concept_situation->[*organization_city_fire_brigade<-concept_lost_constructions;;*]
+(*
+	 <- begin_date_1941;;
+    <- completion_date_1942;;
 
+*);;
 concept_situation->[*organization_city_fire_brigade => nrel_location: The_Jesuit_tower_belfry;;*]
 (*
     => nrel_main_idtf: 
