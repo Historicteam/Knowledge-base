@@ -1,8 +1,8 @@
 building_of_house_of_government
 => nrel_main_idtf:
-		[Здание правительства] (* <- lang_ru;; *);
-		[Government house] (* <- lang_en;; *);
-		[Дом урада] (* <- lang_by;; *);
+		[Здание Дом правительства] (* <- lang_ru;; *);
+		[Building of Government house] (* <- lang_en;; *);
+		[Будынак Дом урада] (* <- lang_by;; *);
 => nrel_architect:Langbard_Iosif;
 => nrel_material:concept_brick;
 => concept_square:indepence_square;

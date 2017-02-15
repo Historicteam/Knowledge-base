@@ -1,7 +1,7 @@
 concept_lost_constructions
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Утраченное  строение]
+	[утраченное  строение]
 	(* <- lang_ru;;	*);
 => nrel_idtf:
 	[понятие утраченного строения]

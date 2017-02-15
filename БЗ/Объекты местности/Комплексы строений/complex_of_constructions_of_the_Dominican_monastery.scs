@@ -21,7 +21,7 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery
   <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church
+            the_building_of_the_Dominican_monastery
         };; 
 *](*
      => nrel_start_time: ...
@@ -42,7 +42,7 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery
 <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church;
+            the_building_of_the_Dominican_monastery;
             the_Dominican_monastery_outbuilding_1;
             the_Dominican_monastery_outbuilding_2;
             residential_housing_of_the_Dominican_Monastery;
@@ -61,7 +61,7 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery
 <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church;
+            the_building_of_the_Dominican_monastery;
             the_Dominican_monastery_outbuilding_1;
             the_Dominican_monastery_outbuilding_2;
             residential_housing_of_the_Dominican_Monastery;
@@ -79,7 +79,7 @@ concept_situation->[*
 complex_of_constructions_Dominican_monastery 
 <= nrel_complex_of_buildings_decomposition:
         {
-            st_Thomas_Aquinas_church;
+            the_building_of_the_Dominican_monastery;
             the_Dominican_monastery_outbuilding_1;
             the_Dominican_monastery_outbuilding_2;
             residential_housing_of_the_Dominican_Monastery;
