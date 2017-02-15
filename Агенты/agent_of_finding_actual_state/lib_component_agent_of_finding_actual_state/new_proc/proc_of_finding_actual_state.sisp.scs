@@ -116,4 +116,4 @@ scp_program -> proc_of_finding_actual_state (*
         *);;
     *);;
 *);;
-  temporal_decomposition_template_values -> ... (*    -> rrel_1: rrel_scp_const: _answer_in_template;;    -> rrel_2: rrel_scp_var: _answer;;  *);;  temporal_decomposition_template_values -> ... (*    -> rrel_1: rrel_scp_const: _object_in_template;;    -> rrel_2: rrel_scp_var: _object;;  *);;  temporal_decomposition_template_values -> ... (*    -> rrel_1: rrel_scp_const: _state_in_template;;    -> rrel_2: rrel_scp_var: _state;;  *);;
+ temporal_decomposition_template_values -> ... (* -> rrel_1: rrel_scp_const: _answer_in_template;; -> rrel_2: rrel_scp_var: _answer;; *);; temporal_decomposition_template_values -> ... (* -> rrel_1: rrel_scp_const: _object_in_template;; -> rrel_2: rrel_scp_var: _object;; *);; temporal_decomposition_template_values -> ... (* -> rrel_1: rrel_scp_const: _state_in_template;; -> rrel_2: rrel_scp_var: _state;; *);; 

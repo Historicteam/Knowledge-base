@@ -1,8 +1,8 @@
 time_point -> time_point_2007
 (*
-  => nrel_translation_in_the_Gregorian_calendar: ...
-  (*
-    -> rrel_year: rrel_decimal: [2007];;
-  *);;
+  => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_year: [2007];;
+   *);;
   => nrel_main_idtf: [2007 год] (* <-lang_ru;;*);;
 *);;

@@ -11,7 +11,7 @@ scp_program -> proc_of_compare_time_points (*
             -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_finding_time_point_translation;;
             -> rrel_2: ... (*
                 -> rrel_1: rrel_fixed: rrel_scp_var: _time_point1;;
-                -> rrel_2: rrel_fixed: rrel_scp_const: nrel_translation_in_the_Gregorian_calendar;;
+                -> rrel_2: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
                 -> rrel_3: rrel_fixed: rrel_scp_var: _nrel_in_period;;
                 -> rrel_4: rrel_scp_var: rrel_assign: _time_point1_translation;;
             *);;
@@ -28,7 +28,7 @@ scp_program -> proc_of_compare_time_points (*
             -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_finding_time_point_translation;;
             -> rrel_2: ... (*
                 -> rrel_1: rrel_fixed: rrel_scp_var: _time_point2;;
-                -> rrel_2: rrel_fixed: rrel_scp_const: nrel_translation_in_the_Gregorian_calendar;;
+                -> rrel_2: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
                 -> rrel_3: rrel_fixed: rrel_scp_var: _nrel_in_period;;
                 -> rrel_4: rrel_scp_var: rrel_assign: _time_point2_translation;;
             *);;
@@ -42,20 +42,20 @@ scp_program -> proc_of_compare_time_points (*
         *);;
         ->..operator4 (*
             <- searchElStr5;;
-            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point1_translation;;
+            -> rrel_1: rrel_scp_var: rrel_assign: rrel_link: _year1;;
             -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
-            -> rrel_3: rrel_scp_var: rrel_assign: rrel_link: _year1;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _time_point1_translation;;
             -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
-            -> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
             => nrel_goto: ..operator5;;
         *);;
         ->..operator5 (*
             <- searchElStr5;;
-            -> rrel_1: rrel_fixed: rrel_scp_var: _time_point2_translation;;
+            -> rrel_1: rrel_scp_var: rrel_assign: rrel_link: _year2;;
             -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
-            -> rrel_3: rrel_scp_var: rrel_assign: rrel_link: _year2;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _time_point2_translation;;
             -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
-            -> rrel_5: rrel_fixed: rrel_scp_const: rrel_year;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
             => nrel_goto: ..operator6;;
         *);;
         ->..operator6 (*
@@ -73,21 +73,31 @@ scp_program -> proc_of_compare_time_points (*
             -> rrel_1: rrel_fixed: rrel_scp_var: _year1;;
             -> rrel_2: rrel_fixed: rrel_scp_var: _year2;;
             => nrel_then: ..operator9;;
-            => nrel_else: ..operator10;;
+            => nrel_else: ..operator11;;
         *);;
         ->..operator9 (*
-            <- varAssign;;
-            -> rrel_1: rrel_scp_var: rrel_assign: _time_point;;
-            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point1;;
-            => nrel_goto: ..operator11;;
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: [Greater];;
+            => nrel_goto: ..operator10;;
         *);;
         ->..operator10 (*
             <- varAssign;;
             -> rrel_1: rrel_scp_var: rrel_assign: _time_point;;
-            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point2;;
-            => nrel_goto: ..operator11;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point1;;
+            => nrel_goto: ..operator13;;
         *);;
         ->..operator11 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: [Smaller];;
+            => nrel_goto: ..operator12;;
+        *);;
+        ->..operator12 (*
+            <- varAssign;;
+            -> rrel_1: rrel_scp_var: rrel_assign: _time_point;;
+            -> rrel_2: rrel_fixed: rrel_scp_var: _time_point2;;
+            => nrel_goto: ..operator13;;
+        *);;
+        ->..operator13 (*
             <- return;;
         *);;
     *);;
