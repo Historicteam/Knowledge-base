@@ -1,0 +1,11 @@
+Demidovich_Ambrozhni
+=> nrel_main_idtf:
+	[Демидович Амброжный]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_male;
+
+
+<=>nrel_spouse:MItskevich_Karolina_Kazimirova;;

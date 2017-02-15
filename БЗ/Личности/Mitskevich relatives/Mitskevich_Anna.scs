@@ -1,0 +1,11 @@
+Mitskevich_Anna
+=> nrel_main_idtf:
+	[Мицкевич Анна]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+<= nrel_parent:Mitskevich_Mihail_Kazimirov;
+
+<=>nrel_spouse:Mitskevich_Kazimir_Nikolaev;;

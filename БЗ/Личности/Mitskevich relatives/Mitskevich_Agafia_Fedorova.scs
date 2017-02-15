@@ -1,0 +1,12 @@
+Mitskevich_Agafia_Fedorova
+=> nrel_main_idtf:
+	[Мицкевич Агафья Федорова]
+	(*
+	<- lang_ru;;
+	*);
+	
+
+<=>nrel_spouse:Mitskevich_Levon_Kazimirov;
+<-concept_woman;;
+
+

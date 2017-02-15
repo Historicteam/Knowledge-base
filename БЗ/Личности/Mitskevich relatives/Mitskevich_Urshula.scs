@@ -1,0 +1,12 @@
+Mitskevich_Urshula
+=> nrel_main_idtf:
+	[Мицкевич Уршула]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_woman;
+
+<= nrel_parent:Mitskevich_Anton_Vikentiev;
+
+<=>nrel_spouse:Mitskevich_Vikentii_Nikolaev;;

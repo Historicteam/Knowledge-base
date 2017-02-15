@@ -1,0 +1,11 @@
+Mitskevich_Staniclav_KazImirov
+=> nrel_main_idtf:
+	[Мицкевич Cтанислав Казимиров]
+	(*
+	<- lang_ru;;
+	*);
+	
+<-concept_male;
+
+
+<=>nrel_spouse:Mitskevich_Elena_Simeonovna;;
