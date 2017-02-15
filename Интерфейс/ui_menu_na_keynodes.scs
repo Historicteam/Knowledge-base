@@ -10,7 +10,7 @@ ui_menu_na_keynodes
         ->ui_menu_search_buildings_architect_style;;
         ->ui_menu_search_buildings_architect_style_period;;
 	->ui_menu_file_for_bloodline_recovery_agent;;
-->ui_menu_file_for_finding_film;;
+	->ui_menu_file_for_agent_of_kinsman_relations_recovery;;
 	*);
 => nrel_main_idtf:
 	[Ключевые узлы навигации] (* <- lang_ru;; *);
