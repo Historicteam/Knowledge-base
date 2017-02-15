@@ -222,6 +222,12 @@ concept_situation->[*the_building_of_the_Dominican_monastery <= nrel_temporal_de
         <- begin_date_1918;;
     <- completion_date_1920;;
  *);; 
+concept_situation->[*the_building_of_the_Dominican_monastery<-concept_lost_constructions;;*]
+(*
+	 <- begin_date_1947;;
+  
+
+*);;
 
 concept_situation->[*the_building_of_the_Dominican_monastery <-concept_arch_baroque;;*]
 (*

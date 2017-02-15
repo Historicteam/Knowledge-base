@@ -92,6 +92,12 @@ Church_of_St_Adalbert
 			*);;
 		*);;
 	*);;
+concept_situation->[Church_of_St_Adalbert<-concept_lost_constructions;;*]
+(*
+	 <- begin_date_1960;;
+    <- completion_date_1967;;
+
+*);;
 	concept_situation->[Church_of_St_Adalbert <- rrel_key_sc_element: Image_Adalbert_1647_1871;; *]
 (*
             => nrel_main_idtf:
