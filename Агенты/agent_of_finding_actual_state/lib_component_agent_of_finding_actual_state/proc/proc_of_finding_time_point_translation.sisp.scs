@@ -19,33 +19,38 @@ scp_program -> proc_of_finding_time_point_translation (*
             <- ifVarAssign;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _translation;;
             => nrel_else: ..operator2;;
-            => nrel_then: ..operator7;;
+            => nrel_then: ..operator8;;
         *);;
         ->..operator2 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: [Translation of time point not found];;
+            => nrel_goto: ..operator3;;
+        *);;
+        ->..operator3 (*
             <- searchElStr5;;
             -> rrel_1: rrel_scp_var: rrel_assign: _time_period;;
             -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
             -> rrel_3: rrel_fixed: rrel_scp_var: _time_point;;
             -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
             -> rrel_5: rrel_fixed: rrel_scp_const: nrel_time_period;;
-            => nrel_goto: ..operator3;;
-        *);;
-        ->..operator3 (*
-            <- ifVarAssign;;
-            -> rrel_1: rrel_fixed: rrel_scp_var: _time_period;;
-            => nrel_then: ..operator4;;
-            => nrel_else: ..operator7;;
+            => nrel_goto: ..operator4;;
         *);;
         ->..operator4 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _time_period;;
+            => nrel_then: ..operator5;;
+            => nrel_else: ..operator8;;
+        *);;
+        ->..operator5 (*
             <- searchElStr5;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _time_period;;
             -> rrel_2: rrel_scp_var: rrel_assign: _arc;;
             -> rrel_3: rrel_scp_var: rrel_assign: _new_time_point;;
             -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
             -> rrel_5: rrel_fixed: rrel_scp_var: _nrel_in_period;;
-            => nrel_goto: ..operator5;;
+            => nrel_goto: ..operator6;;
         *);;
-        ->..operator5 (*
+        ->..operator6 (*
             <- call;;
             -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_finding_time_point_translation;;
             -> rrel_2: ... (*
@@ -55,14 +60,14 @@ scp_program -> proc_of_finding_time_point_translation (*
                 -> rrel_4: rrel_scp_var: rrel_assign: _translation;;
             *);;
             -> rrel_3: rrel_assign: rrel_scp_var: _argument0;;
-            => nrel_goto: ..operator6;;
-        *);;
-        ->..operator6 (*
-            <- waitReturn;;
-            -> rrel_1: rrel_fixed: rrel_scp_var: _argument0;;
             => nrel_goto: ..operator7;;
         *);;
         ->..operator7 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator8;;
+        *);;
+        ->..operator8 (*
             <- return;;
         *);;
     *);;

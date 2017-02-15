@@ -1,0 +1,32 @@
+function proc_of_finding_time_point_from_situation(_situation, _concept) {
+  return _time_point;
+
+  search(
+    [assign, _element],
+    [assign, pos_const_perm, _arc],
+    _situation,
+    [assign, _time_points], [], []
+  );
+
+  if (_time_points)
+    while(search(_time_points, [assign, _arc], [assign, _element])) {
+      if (search(_concept, [assign, _arc1], _element))
+        var_assign([assign, _time_point], _element);
+      erase([erase, _arc]);
+    }
+}
+
+/*scs
+  pattern_of_finding_time_point_from_situation = [*
+    _concept_in_pattern _-> _time_point_in_pattern;;
+    exact_value _-> _time_point_in_pattern;;
+    _time_point_in_pattern _-> _situation_in_pattern;;
+  *];;
+
+  finding_time_point_accordance -> ..set1;;
+  finding_time_point_accordance -> ..set2;;
+  ..set1 -> rrel_1: rrel_scp_const: _situation_in_pattern;;
+  ..set1 -> rrel_2: rrel_scp_var: _situation;;
+  ..set2 -> rrel_1: rrel_scp_const: _concept_in_pattern;;
+  ..set2 -> rrel_2: rrel_scp_var: _concept;;
+scs*/

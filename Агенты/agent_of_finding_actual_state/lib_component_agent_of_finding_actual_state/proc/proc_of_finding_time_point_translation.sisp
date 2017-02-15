@@ -8,6 +8,7 @@ function proc_of_finding_time_point_translation(_time_point, _nrel_translation, 
     _nrel_translation
   );
   if (_translation); else {
+    print("Translation of time point not found");
     search(
       [assign, _time_period],
       [assign, _arc],

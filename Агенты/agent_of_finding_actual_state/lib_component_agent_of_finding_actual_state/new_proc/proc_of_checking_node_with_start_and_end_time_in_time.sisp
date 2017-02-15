@@ -1,20 +1,9 @@
 function proc_of_checking_node_with_start_and_end_time_in_time(_situation, _time_point) {
   return _status;
   var_assign([assign, _status], false_node);
-  search(
-    _situation,
-    [assign, _arc1],
-    [assign, _start_time],
-    [assign, _arc2],
-    nrel_start_time
-  );
-  search(
-    _situation,
-    [assign, _arc1],
-    [assign, _finish_time],
-    [assign, _arc2],
-    nrel_finish_time
-  );
+
+  proc_of_finding_time_point_from_situation(_situation, begin, [assign, _start_time]);
+  proc_of_finding_time_point_from_situation(_situation, completion, [assign, _finish_time]);
   if (_start_time)
     proc_of_compare_time_points(_time_point, _start_time, nrel_start_time, [assign, _time1]);
   else var_assign([assign, _time1], _time_point);
@@ -22,6 +11,26 @@ function proc_of_checking_node_with_start_and_end_time_in_time(_situation, _time
     proc_of_compare_time_points(_time_point, _finish_time, nrel_finish_time, [assign, _time2]);
   else var_assign([assign, _time2], empty);
   if (is(_time_point, _time1))
-    if (is(_time_point, _time2)); else  
+    if (is(_time_point, _time2)); else {
+      print("Situation matches!");
       var_assign([assign, _status], true_node);
+    }
 }
+
+/*scs
+  pattern_of_finding_begin = [*
+    begin _-> _time_point_in_pattern;;
+    exact_value _-> _time_point_in_pattern;;
+    _time_point_in_pattern _-> _situation_in_pattern;;
+  *];;
+
+  pattern_of_finding_completion = [*
+    completion _-> _time_point_in_pattern;;
+    exact_value _-> _time_point_in_pattern;;
+    _time_point_in_pattern _-> _situation_in_pattern;;
+  *];;
+
+  situation_accordance -> ..set;;
+  ..set -> rrel_1: rrel_scp_const: _situation_in_pattern;;
+  ..set -> rrel_2: rrel_scp_var: _situation;;
+scs*/
