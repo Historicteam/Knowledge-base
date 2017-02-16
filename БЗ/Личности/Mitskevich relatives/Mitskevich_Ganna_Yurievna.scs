@@ -8,7 +8,7 @@ Mitskevich_Ganna_Yurievna
 <-concept_woman;
 <= nrel_parent:Mitskevich_Aleksnadr_Mihalovich;
 <= nrel_parent:Mitskevich_Iosif_Mihailovich;
-
+<= nrel_parent:Mitskevich_Konstantin_Mihailovich;
 <= nrel_parent:Mitskevich_Mihalina_Mihailovna;
 
 <= nrel_parent:Mitskevich_Vera_Mihailovna;
