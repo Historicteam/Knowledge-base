@@ -18,12 +18,16 @@ sc_agent_of_kinsman_relations_recovery
 	};
 
 => nrel_inclusion: 
-	.platform_independent_realization_of_sc_agent_of_kinsman_relations_recovery
+	...
 	(*
 	<- platform_independent_abstract_sc_agent;;
 	<= nrel_sc_agent_program: 
 		{
-				agent_of_kinsman_relations_recovery
+				agent_of_kinsman_relations_recovery;
+				proc_of_creating_relations_from_class;
+				proc_of_creating_relation_using_related_template;
+				proc_of_kinsman_relations_recovery
+
 		};;
 	-> sc_agent_of_kinsman_relations_recovery_scp    
 		(* <- active_sc_agent;; *);;  

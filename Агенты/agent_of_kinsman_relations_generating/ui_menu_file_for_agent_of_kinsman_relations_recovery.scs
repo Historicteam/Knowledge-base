@@ -6,11 +6,11 @@ ui_menu_file_for_agent_of_kinsman_relations_recovery => nrel_main_idtf:
 
 ui_menu_file_for_agent_of_kinsman_relations_recovery => ui_nrel_command_template:
 	[*
-		question_of_kinsman_relations_recovery _-> .question_of_kinsman_relations_recovery_instance
+		question_of_kinsman_relations_recovery _-> ._question_of_kinsman_relations_recovery_instance
 			(*
 			_-> ui_arg_1;;
 			*);;
-		.question_of_kinsman_relations_recovery_instance _<- question;;
+		._question_of_kinsman_relations_recovery_instance _<- question;;
 	*];;
 
 ui_menu_file_for_agent_of_kinsman_relations_recovery => ui_nrel_command_lang_template: 
