@@ -44,7 +44,7 @@ sc_agent_search_sister
 			agent_search_test_sister;
 			proc_search_of_sister
 		};;
-		->sc_agent_of_search_operation_scp /*(* <- active_sc_agent;; *)*/;;
+		->sc_agent_of_search_operation_scp (* <- active_sc_agent;; *);;
 	*);;
 
 	// условия инициирования агента
