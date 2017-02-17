@@ -16,7 +16,7 @@ Mitskevich_Konstantin_Mihailovich
 <-concept_male;
 <-concept_poet;
 =>nrel_first_name: name_Konstantin;
-=> nrel_alias:
+=> nrel_idtf:
 	[Якуб Колас]
 	(*
 	<- lang_ru;;
