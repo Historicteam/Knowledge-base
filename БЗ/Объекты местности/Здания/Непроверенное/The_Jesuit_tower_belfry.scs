@@ -48,7 +48,7 @@ The_Jesuit_tower_belfry
 
 *)
 };;
-concept_situation->[*organization_city_fire_brigade<-concept_lost_constructions;;*]
+concept_situation->[*The_Jesuit_tower_belfry<-concept_lost_constructions;;*]
 (*
 	 <- begin_date_1941;;
     <- completion_date_1942;;

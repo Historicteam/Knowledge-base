@@ -7,7 +7,6 @@ ui_menu_na_keynodes
 ->ui_menu_file_for_finding_all_buildings_by_architectural_style;;
 ->ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style;;
 ->ui_menu_file_for_agent_of_kinsman_relations_recovery;;
-*);
 => nrel_main_idtf:
 [Ключевые узлы навигации] (* <- lang_ru;; *);
 [Keynodes for navigation] (* <- lang_en;; *);;
