@@ -78,8 +78,6 @@ proc_of_creating_relation_using_related_template <- scp_program;
 			=>nrel_goto: .proc_of_creating_relation_using_related_template_operator_2;;
 		*);;
 
-
-
 		-> .proc_of_creating_relation_using_related_template_operator_2
 		(*
 			<- sys_search;;
