@@ -78,14 +78,12 @@ proc_of_creating_relation_using_related_template <- scp_program;
 			=>nrel_goto: .proc_of_creating_relation_using_related_template_operator_2;;
 		*);;
 
-
-
 		-> .proc_of_creating_relation_using_related_template_operator_2
 		(*
 			<- sys_search;;
 
 			-> rrel_1: rrel_fixed: rrel_scp_var: _rel_template;;
-			-> rrel_2: rrel_fixed: rrel_scp_const: _relators
+			-> rrel_2: rrel_fixed: rrel_scp_const: ...
 				(*
 					-> ...
 					(*
@@ -93,7 +91,7 @@ proc_of_creating_relation_using_related_template <- scp_program;
 						-> rrel_2: rrel_assign: rrel_scp_var: rrel_set: _entitys;;
 					*);;
 				*);;
-			-> rrel_3: rrel_fixed: rrel_scp_const: _sys_oper_3
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
 				(*
 					-> ...
 					(*
