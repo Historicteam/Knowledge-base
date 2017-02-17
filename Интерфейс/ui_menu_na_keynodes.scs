@@ -1,20 +1,13 @@
 ui_menu_na_keynodes
 <- ui_user_command_class_noatom;
 <= nrel_ui_commands_decomposition:...
-	(*
-		->ui_menu_finding_links;;
-		->ui_menu_file_for_finding_time_faults_in_time_contours;;
-        	->ui_menu_file_for_finding_time_situations_which_last_till_now;;
-        ->ui_menu_file_for_finding_short_semantic_neighborhood;;
-	->ui_menu_file_for_finding_buildings_by_person;;
-	->ui_menu_file_for_finding_all_buildings_by_architectural_style;;
-        ->ui_menu_search_buildings_architect_style_now;;
-        ->ui_menu_search_buildings_architect_style;;
-        ->ui_menu_search_buildings_architect_style_period;;
-	->ui_menu_file_for_bloodline_recovery_agent;;
-	->ui_00001;;
-	->ui_menu_file_for_agent_of_kinsman_relations_recovery;;
-	*);
+(*
+->ui_menu_file_for_finding_short_semantic_neighborhood;;
+->ui_menu_file_for_finding_buildings_by_person;;
+->ui_menu_file_for_finding_all_buildings_by_architectural_style;;
+->ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+->ui_menu_file_for_agent_of_kinsman_relations_recovery;;
+*);
 => nrel_main_idtf:
-	[Ключевые узлы навигации] (* <- lang_ru;; *);
-	[Keynodes for navigation] (* <- lang_en;; *);;
+[Ключевые узлы навигации] (* <- lang_ru;; *);
+[Keynodes for navigation] (* <- lang_en;; *);;
