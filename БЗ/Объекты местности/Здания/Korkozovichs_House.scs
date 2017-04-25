@@ -13,13 +13,6 @@ Korkozovichs_House
 	<- lang_by;;
 	*);
 
-=> nrel_openstreetmap:
-	[Korkozovichs_House] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

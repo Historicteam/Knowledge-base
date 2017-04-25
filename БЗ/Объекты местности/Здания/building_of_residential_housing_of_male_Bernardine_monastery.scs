@@ -131,13 +131,6 @@ building_of_residential_housing_of_male_Bernardine_monastery
         <- begin_date_2014;;
         *)
     };
-
-=> nrel_openstreetmap:
-    [building_of_residential_housing_of_male_Bernardine_monastery] 
-    (*
-    => nrel_format:
-            format_openstreetmap;;
-    *);
     
 => nrel_geographical_location: ...
     (*

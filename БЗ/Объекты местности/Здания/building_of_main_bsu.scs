@@ -35,9 +35,9 @@ building_of_main_bsu
 			=> nrel_format: format_jpg;;
                         *);;
 		*);;
-
-
 	*);
+
+=> nrel_osm_query: [way["name"="Главный корпус БГУ"];];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

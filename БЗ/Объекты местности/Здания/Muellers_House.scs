@@ -15,13 +15,6 @@ Muellers_House
 <-concept_building;
 <-concept_terrain_object;
 
-=> nrel_openstreetmap:
-	[Muellers_House] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

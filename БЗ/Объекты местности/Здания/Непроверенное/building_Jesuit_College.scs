@@ -20,7 +20,8 @@ building_Jesuit_College
 			*);;
 		*);;
 	*);
-	
+
+=> nrel_osm_query: [way["addr:street"="площадь Свободы"]["name"="Посольство Франции"]];
 	
 <= nrel_temporal_decomposition: 
     {

@@ -14,13 +14,6 @@ Minsk_Railway_Station_Building
 	<- lang_en;;
 	*);
 
-=> nrel_openstreetmap:
-	[Minsk_Railway_Station_Building] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 <-concept_terrain_object;
 <-concept_building;
 

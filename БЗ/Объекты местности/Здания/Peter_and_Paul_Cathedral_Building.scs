@@ -41,13 +41,6 @@ Peter_and_Paul_Cathedral_Building
 	<- lang_by;;
 	*);
 
-=> nrel_openstreetmap:
-	[Peter_and_Paul_Cathedral_Building] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

@@ -61,13 +61,6 @@ building_of_residential_housing_of_female_Bernardine_monastery
 <-concept_building;
 <-concept_terrain_object;
 
-=> nrel_openstreetmap:
-    [building_of_residential_housing_of_female_Bernardine_monastery] 
-    (*
-    => nrel_format:
-            format_openstreetmap;;
-    *);
-	
 => nrel_geographical_location: ...
     (*
     <-concept_mapped_point;;

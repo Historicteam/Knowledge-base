@@ -33,15 +33,6 @@ Building_trade_rows
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
-
-
-=> nrel_openstreetmap:
-	[Building_trade_rows] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
 	*);
 
 => nrel_geographical_location: ...

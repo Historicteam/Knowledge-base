@@ -27,6 +27,7 @@ building_Frunze_13
 
 
 	*);
+=> nrel_osm_query: [way(25431472);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

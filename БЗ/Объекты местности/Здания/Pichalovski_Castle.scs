@@ -16,13 +16,6 @@ Pichalovski_Castle
 
 <- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
 
-=> nrel_openstreetmap:
-	[Pichalovski_Castle] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 <-concept_prison;
 <-concept_building;
 <-concept_terrain_object

@@ -27,13 +27,6 @@ Moniuszkos_House
 		*);;
 	*);
 
-=> nrel_openstreetmap:
-	[Moniuszkos_House] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

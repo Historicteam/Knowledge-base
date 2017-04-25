@@ -39,6 +39,7 @@ building_of_house_of_government
 
 
 	*);
+=> nrel_osm_query: [way(100041810);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

@@ -107,13 +107,7 @@ Male_Basilian_Monastery_Building
 <- concept_building;
 <- concept_terrain_object;
 
-
-=> nrel_openstreetmap:
-	[Male_Basilian_Monastery_Building] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
+=> nrel_osm_query:[node["name"="Монастырь Св. Духа базилиан: жилой корпус"];];
 
 => nrel_geographical_location: ...
 	(*

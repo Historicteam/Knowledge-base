@@ -51,13 +51,6 @@ the_building_of_the_Dominican_monastery
           
                 <- completion_date_1650;;
             *);
-
-    => nrel_openstreetmap:
-    [The_building_of_the_Dominican_monastery] 
-    (*
-    => nrel_format:
-        format_openstreetmap;;
-    *);
     
 => nrel_geographical_location: ...
     (*

@@ -14,13 +14,6 @@ building_of_The_1st_Minsk_Brewery_Olivariya
 	*);
 <-concept_building;
 
-=> nrel_openstreetmap:
-	[building_of_The_1st_Minsk_Brewery_Olivariya] 
-	(*
-	=> nrel_format:
-		format_openstreetmap;;
-	*);
-
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

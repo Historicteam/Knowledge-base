@@ -57,8 +57,9 @@ Female_Basilian_Monastery_Building
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;
+	*);
+
+=> nrel_osm_query: [node["name"="Кляштар Св. Духа базыльянак"];];
 
 <- rrel_key_sc_element: ...
 	(*
