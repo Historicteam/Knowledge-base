@@ -1,0 +1,26 @@
+lib_component_agent_of_finding_all_buildings_by_architectural_style_which_are_not_lost
+=> nrel_main_idtf:
+	[Компонент библиотеки. sc-агент поиска всех сохранившихся до наших дней зданий по архитектурному стилю для заданного объекта]
+	(* <- lang_ru;; *);
+	[Library component. sc-agent of finding all not lost buildings by architectural style for the given object]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components; 
+<- library_of_atomic_reusable_components; 
+
+
+=> nrel_attendant_component: 
+	lib_component_ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost; 
+
+-> rrel_key_sc_element: 
+	.platform_independent_realization_of_sc_agent_of_finding_all_buildings_by_architectural_style_which_are_not_lost;; 
+
+
+question_find_all_buildings_by_architectural_style_which_are_not_lost
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+ 	[действие. найти все неутраченные здания связанные с данным архитектурным стилем]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[action. to find all not lost buildings related to this architectural style]
+	(* <- lang_en;;	*);;

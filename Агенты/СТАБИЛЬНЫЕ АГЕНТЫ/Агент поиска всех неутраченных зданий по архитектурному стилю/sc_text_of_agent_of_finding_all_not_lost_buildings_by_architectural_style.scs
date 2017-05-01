@@ -1,0 +1,6 @@
+sc_text_of_agent_of_finding_all_buildings_by_architectural_style_which_are_not_lost
+-> rrel_key_sc_element:
+	agent_of_finding_all_buildings_by_architectural_style_which_are_not_lost;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_finding_all_buildings_by_architectural_style_which_are_not_lost = [*^"file://agent_of_finding_all_not_lost_buildings_by_architectural_style.scsi"*];;

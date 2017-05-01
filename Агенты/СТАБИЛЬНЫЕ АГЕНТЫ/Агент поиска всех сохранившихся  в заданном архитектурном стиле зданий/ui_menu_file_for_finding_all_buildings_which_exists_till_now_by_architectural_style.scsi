@@ -1,0 +1,27 @@
+ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style => nrel_main_idtf: 
+	[Найти все сохранившиеся в заданном архитектурном стиле здания]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style => nrel_main_idtf: 
+	[Search agent of finding all buildings which exists till now by architectural style]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style => ui_nrel_command_template:
+	[*
+		question_of_finding_all_buildings_which_exists_till_now_by_architectural_style _-> ._question_of_finding_all_buildings_which_exists_till_now_by_architectural_style_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_finding_all_buildings_which_exists_till_now_by_architectural_style_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style => ui_nrel_command_lang_template: 
+	[Запрос поиска всех сохранившихся до наших дней зданий по архитектурному стилю: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_buildings_which_exists_till_now_by_architectural_style => ui_nrel_command_lang_template: 
+	[Request of finding all buildings which exists till now by architectural style: $ui_arg_1] 
+	(* <- lang_en;; *);;
+

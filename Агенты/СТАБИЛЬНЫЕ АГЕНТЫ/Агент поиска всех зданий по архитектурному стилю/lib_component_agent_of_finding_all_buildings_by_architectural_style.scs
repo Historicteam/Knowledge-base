@@ -16,7 +16,7 @@ lib_component_agent_of_finding_all_buildings_by_architectural_style
 	.platform_independent_realization_of_sc_agent_of_finding_all_buildings_by_architectural_style;; 
 
 
-question_find_building_by_person
+question_find_all_buildings_by_architectural_style
 <- sc_node_not_relation;
 => nrel_main_idtf:
  	[действие. найти все здания связанные с данным архитектурным стилем]

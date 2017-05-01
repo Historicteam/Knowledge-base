@@ -1,0 +1,636 @@
+agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style
+=> nrel_main_idtf:
+	[агентная scp-программа поиска всех зданий, связанных с заданным архитектурным стилем] (* <- lang_ru;; *);
+	[agent scp-program of finding all buildings for the architectural style] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style 
+	(*
+	-> rrel_params: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_set 
+		(*
+		-> rrel_init: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1A 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		  	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1B;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1B
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1C;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_return;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1C 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1D;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_return;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1D 
+			(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+
+			=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1E;;
+			*);;
+
+
+
+/*
+    	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__finding_dwelling__operator1
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_dwelling;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+
+			=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__finding_dwelling__operator2;;
+			=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__finding_owner__operator1;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__finding_dwelling__operator2
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_dwelling;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__finding_owner__operator1;;
+			*);;
+*/
+
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator1E 
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_all_buildings_by_architectural_style__patern_of_finding_buildings_by_substyle;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _aofabbas_style_ttt;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _param;;
+					*);;  
+				*);;
+
+			=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator1;;
+			=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES;;
+		 	*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator1
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction;;
+
+		 	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator2;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator2 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator3;;
+		 	*);;
+
+		 -> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator3 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _aofabbas_building_ttt;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator4;;
+		  	*);;
+
+	  	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator4 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _substyle_ttt;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_substyle;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator4A;;
+		  	*);;
+
+	  	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator4A 
+			(*
+		 	<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_lost_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator1;;
+			=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it1;;
+		  	*);;
+
+
+
+
+  		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it1 
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__patern_of_finding_begin_date_for_it;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions_with_begin_dates;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _aofabwetnbas_style;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _found_substyle;;
+					*);;  
+					-> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _aofabwetnbas_building;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _found_building;;
+					*);;  
+				*);;
+
+			=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it2;;
+			=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_5A;;
+		 	*);;
+
+
+         -> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it2
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions_with_begin_dates;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction_with_begin_date;;
+
+		 	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it3;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator1;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it3 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it4;;
+		 	*);;
+
+	 	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it4 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _aofabwetnbas_constr_with_begin_date;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_struct_ttt;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction_with_begin_date;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it5;;
+		  	*);;
+
+	 	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it5
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _concrete_date;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _found_struct_ttt;;
+
+		 	-> rrel_set_1: rrel_assign: rrel_scp_var: _set_of_nodes_with_concrete_dates;;
+
+		 	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it6;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it6
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_nodes_with_concrete_dates;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _concrete_date;;
+
+		 	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it7;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_5A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it7 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it8;;
+		 	*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it8
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: completion;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _concrete_date;;
+
+		 	=> nrel_then:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it2;;
+		 	=> nrel_else:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_Search_it6;;
+			*);;
+
+
+
+
+
+	  	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_5A
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_6A;;
+  			*);;
+
+	  	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_6A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_7A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_7A
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_var: _found_substyle;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_that_i_need;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_8A;;
+  			*);;
+
+
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_8A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc_that_i_need;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_9A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_9A 
+			(*
+			<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_substyle;;
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_11A;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_10A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_10A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_substyle;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_11A;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_11A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__iteration_throught_found_sets__operator1;;
+			*);;
+
+
+
+
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_all_buildings_by_architectural_style__patern_of_finding_buildings_by_style;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _aofabbas_style;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _param;;
+					*);;  
+				*);;
+
+			=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_2;;
+			=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__gen_answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		 	*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_2
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction;;
+
+		 	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_3;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__gen_answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_3 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_4;;
+		 	*);;
+
+		 -> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_4
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _aofabbas_building;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_4A;;
+		  	*);;
+
+	  	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_4A 
+			(*
+		 	<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_lost_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_2;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it1;;
+		  	*);;
+
+	  
+
+
+  		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it1 
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__patern_of_finding_begin_date_for_it;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions_with_begin_dates;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _aofabwetnbas_style;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _param;;
+					*);;  
+					-> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _aofabwetnbas_building;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _found_building;;
+					*);;  
+				*);;
+
+			=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it2;;
+			=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_5;;
+		 	*);;
+
+
+         -> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it2
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions_with_begin_dates;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction_with_begin_date;;
+
+		 	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it3;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_2;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it3 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it4;;
+		 	*);;
+
+	 	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it4 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _aofabwetnbas_constr_with_begin_date;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_struct_ttt;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction_with_begin_date;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it5;;
+		  	*);;
+
+	 	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it5
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _concrete_date;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _found_struct_ttt;;
+
+		 	-> rrel_set_1: rrel_assign: rrel_scp_var: _set_of_nodes_with_concrete_dates;;
+
+		 	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it6;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it6
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_nodes_with_concrete_dates;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _concrete_date;;
+
+		 	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it7;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_5;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it7 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it8;;
+		 	*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it8
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: completion;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_fixed: rrel_scp_var: _concrete_date;;
+
+		 	=> nrel_then:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it2;;
+		 	=> nrel_else:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_another_operator_Search_it6;;
+			*);;
+
+
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_5
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_6;;
+  			*);;
+
+	  	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_6 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_7;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_7
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _i_need_this_arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_8;;
+  			*);;
+
+
+
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_8 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _i_need_this_arc;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_9;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_9 
+			(*
+			<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_then: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_11;;
+		  	=> nrel_else: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_10;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_10 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_11;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_11 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_STYLES_2;;
+			*);;
+
+
+
+		//GENERATE THE LAST PART OF THE ANSWER
+     	-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__gen_answer_finding_all_buildings_which_exists_till_now_by_architectural_style 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: concept_building;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__gen_answer_finding_all_buildings_which_exists_till_now_by_architectural_style2;;
+			*);;
+
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style__gen_answer_finding_all_buildings_which_exists_till_now_by_architectural_style2
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _answer_finding_all_buildings_which_exists_till_now_by_architectural_style;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+		  	=> nrel_goto: .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_return;;
+			*);;
+					
+		-> .agent_of_finding_all_buildings_which_exists_till_now_by_architectural_style_operator_return 
+			(*
+		  	<- return;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

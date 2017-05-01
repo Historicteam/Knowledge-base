@@ -1,7 +1,7 @@
 ui_menu_file_for_finding_all_buildings_by_architectural_style <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
 
 ui_menu_file_for_finding_all_buildings_by_architectural_style => nrel_main_idtf: 
-	[Агент поиска всех зданий по архитектурному стилю]
+	[Найти все здания в данном архитектурном стиле]
 	(* <- lang_ru;; *);;
 
 ui_menu_file_for_finding_all_buildings_by_architectural_style => nrel_main_idtf: 

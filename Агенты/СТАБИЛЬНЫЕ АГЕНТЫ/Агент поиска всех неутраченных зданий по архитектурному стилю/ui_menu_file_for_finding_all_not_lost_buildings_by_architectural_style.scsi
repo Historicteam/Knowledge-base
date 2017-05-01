@@ -1,0 +1,27 @@
+ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost => nrel_main_idtf: 
+	[Найти все неутраченные здания в данном архитектурном стиле]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost => nrel_main_idtf: 
+	[Search agent of finding all not lost buildings by architectural style]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost => ui_nrel_command_template:
+	[*
+		question_of_finding_all_buildings_by_architectural_style_which_are_not_lost _-> ._question_of_finding_all_buildings_by_architectural_style_which_are_not_lost_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_finding_all_buildings_by_architectural_style_which_are_not_lost_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost => ui_nrel_command_lang_template: 
+	[Запрос поиска всех неутраченных зданий по архитектурному стилю: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost => ui_nrel_command_lang_template: 
+	[Request of finding all not lost buildings by architectural style: $ui_arg_1] 
+	(* <- lang_en;; *);;
+
