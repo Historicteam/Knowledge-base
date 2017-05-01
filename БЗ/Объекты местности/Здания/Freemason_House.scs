@@ -13,6 +13,7 @@ Freemason_House
     <- lang_by;;
   *);
 
+=> nrel_osm_query: [way(25327511);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

@@ -11,4 +11,6 @@ Czapsky_house
 	[Дом Чапскага]
 	(*
 	<- lang_by;;
-	*);;
+	*);
+
+<- concept_building;;

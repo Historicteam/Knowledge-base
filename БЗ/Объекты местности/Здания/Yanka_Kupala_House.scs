@@ -41,20 +41,6 @@ organization_minsk_woomen_gymnazi
   (*
     <- lang_by;;
   *);;
-Zdanovich_House
-=> nrel_main_idtf:
-	  [Дом Здановича]
-	  (*
-	    <- lang_ru;;
-	  *);
-	[Zdanovich House]
-  (*
-    <- lang_en;;
-  *);
-  [Дом Здановіча]
-  (*
-    <- lang_by;;
-  *);;
 
 organization_Minsk_Hospital
 => nrel_main_idtf:

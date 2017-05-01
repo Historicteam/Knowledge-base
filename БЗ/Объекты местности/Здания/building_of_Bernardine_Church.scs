@@ -43,7 +43,7 @@ building_of_Bernardine_Church
 		*);;
 	*);
 	
-=> nrel_osm_query: [way["addr:housenumber"="5"]["addr:street"="улица Кирилла и Мефодия"]];
+=> nrel_osm_query: [way(25387225);];
 => nrel_geographical_location: ...
     (*
     <-concept_mapped_point;;

@@ -25,7 +25,7 @@ building_is_a_dwelling_house_of_Yakub_Kolas
                         *);;
 		*);;
 	*);
-=> nrel_osm_query: [way["name"="Государственный литературно-мемориальный музей Якуба Коласа"]];
+=> nrel_osm_query: [way(25323366);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

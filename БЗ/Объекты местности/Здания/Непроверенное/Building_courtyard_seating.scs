@@ -5,6 +5,8 @@ Building_courtyard_seating
 	[Building courtyard seating] (* <- lang_en;; *);
 	[Будынак гасцінага двара] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(196755410);];
+
 <- rrel_key_sc_element: 
 	...
 	(*

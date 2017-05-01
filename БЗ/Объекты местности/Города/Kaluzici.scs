@@ -3,6 +3,7 @@ Kaluzici
 			=> nrel_main_idtf:
 				[Деревня Калужицы] (* <- lang_ru;; *);
 				[Village Kaluzhitsy] (* <- lang_en;; *);
-				[вёска Калужицы] (* <- lang_by;; *);;
+				[вёска Калужицы] (* <- lang_by;; *);
 
 
+<-concept_city;;

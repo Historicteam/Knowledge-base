@@ -11,6 +11,8 @@ Rgecki_House
   [Дом Ржецкай]
   (*
     <- lang_by;;
-  *);;
+  *);
+
+ <-concept_building;;
 
 

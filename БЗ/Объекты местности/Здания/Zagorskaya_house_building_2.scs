@@ -138,7 +138,7 @@ Zagorskaya_house_building_2
 <- concept_terrain_object;
 
 
-
+=> nrel_osm_query: [way(25387473);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

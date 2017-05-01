@@ -2,8 +2,6 @@
 The_building_of_the_Minsk_City_Theatre
 <- concept_building;
 <- begin_date_1815;
-<- completion_date_1825;
-<- begin_date_18195;
 <- completion_date_1984;
 => nrel_main_idtf:
 	[Дом Яна Байкова] (* <- lang_ru;; *);

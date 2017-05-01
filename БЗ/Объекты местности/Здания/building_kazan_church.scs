@@ -37,7 +37,7 @@ building_kazan_church
 		*);;
 	*);	
 
-	<- begin_date_1914;
+<- begin_date_1914;
 
 <- concept_terrain_object;
 

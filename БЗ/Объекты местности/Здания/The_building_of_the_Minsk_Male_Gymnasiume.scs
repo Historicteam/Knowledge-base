@@ -12,4 +12,6 @@ The_building_of_the_Minsk_Male_Gymnasiume
 		(*
 		<- lang_by;;
 		*);
-		<-concept_building;;
+
+=> nrel_osm_query: [way(25432683);];
+<-concept_building;;

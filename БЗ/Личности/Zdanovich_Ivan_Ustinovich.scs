@@ -212,7 +212,7 @@ Zdanovich_Ivan_Ustinovich
 
 
 
-concept_situation->[*Zdanovich_Ivan_Ustinovich =>nrel_dwelling: Zdanovich_House;;*]
+concept_situation->[*Zdanovich_Ivan_Ustinovich =>nrel_dwelling: Zhdanovich_house_building;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени проживания Ивана Здановича в доме Ивана Здановича](*<-lang_ru;;*);;
 	<- begin_date_1891;;

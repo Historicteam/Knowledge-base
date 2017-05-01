@@ -1,14 +1,14 @@
 Minsk_Municipal_Shelter_Building
 => nrel_main_idtf:
-  [здание Минского городского приюта]
+  [Здание Минского городского приюта]
   (*
     <- lang_ru;;
   *);
-	[будынак Мінскага гарадскога прытулку]
+	[Будынак Мінскага гарадскога прытулку]
   (*
     <- lang_by;;
   *);
-  	[Minsk Municipal Shelter Building]
+  	[Building of Minsk Municipal Shelter]
   (*
     <- lang_en;;
   *);

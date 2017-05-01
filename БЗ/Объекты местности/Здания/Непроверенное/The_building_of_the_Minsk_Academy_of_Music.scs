@@ -8,6 +8,8 @@ The_building_of_the_Minsk_Academy_of_Music
 <- concept_building;
 <- concept_arch_classicism;
 
+=> nrel_osm_query: [way(25327624);];
+
 <- rrel_key_sc_element: Image_building_Minsk_Academy_of_Music (*
 	=> nrel_main_idtf:
 		[Изображение здания минской академии музыки] (* <- lang_ru;; *);

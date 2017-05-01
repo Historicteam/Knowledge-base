@@ -86,6 +86,7 @@ On the Moskovskaya street, only one stone house preserved from the pre-revolutio
 <- concept_building;
 <- concept_terrain_object;
 
+=> nrel_osm_query: [way(25389628);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

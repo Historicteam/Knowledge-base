@@ -37,5 +37,6 @@ Building_Institute_Belpromproekt
 	*)
 ;
 
+=> nrel_osm_query: [way(25387324);];
 => nrel_have_a_number:
 	17;;

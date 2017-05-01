@@ -5,6 +5,8 @@ The_Jesuit_tower_belfry
 	[The building of tower-belfry] (* <- lang_en;; *);
 	[Будынак вежы-звоніццы] (* <- lang_by;; *);
 
+
+
 <= nrel_temporal_decomposition: 
     {
 	The_building_of_tower_belfry_Jesuit_monastery

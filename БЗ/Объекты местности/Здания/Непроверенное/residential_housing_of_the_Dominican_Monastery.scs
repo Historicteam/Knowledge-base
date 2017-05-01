@@ -6,8 +6,9 @@ building_of_residential_housing_of_the_Dominican_Monastery
 	[Будынак жылога корпусу кляштара дамініканаў] (* <- lang_by;; *);
 
 <- begin_date_1703;
-
 <- completion_date_1950;
+
+=> nrel_osm_query: [node(1563537424);];
 
 <= nrel_temporal_decomposition: 
     {

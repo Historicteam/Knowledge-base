@@ -14,6 +14,7 @@ building_of_economic_housing_of_male_Bernardine_monastery
 	*);
 	
 <-concept_building;
+=> nrel_osm_query: [way(25327547);];
 
 <= nrel_temporal_decomposition: 
     {

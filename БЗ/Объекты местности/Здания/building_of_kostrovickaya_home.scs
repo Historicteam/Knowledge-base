@@ -57,6 +57,8 @@ Kostrovickaja_house
 
 
 	*);
+
+=> nrel_osm_query: [way(35996170);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

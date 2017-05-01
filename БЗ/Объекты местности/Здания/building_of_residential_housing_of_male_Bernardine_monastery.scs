@@ -16,6 +16,8 @@ building_of_residential_housing_of_male_Bernardine_monastery
 <-concept_building;
 <-concept_terrain_object;
 
+=> nrel_osm_query: [way(25327547);];
+
 <= nrel_temporal_decomposition: 
     {
         Residential_housing_of_male_Bernardine_monastery

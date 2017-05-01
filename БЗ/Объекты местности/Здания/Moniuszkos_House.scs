@@ -27,6 +27,7 @@ Moniuszkos_House
 		*);;
 	*);
 
+=> nrel_osm_query: [way(25327522);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

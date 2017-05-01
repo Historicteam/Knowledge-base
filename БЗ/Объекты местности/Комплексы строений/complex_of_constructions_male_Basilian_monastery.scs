@@ -32,7 +32,7 @@ concept_situation->[*
         complex_of_constructions_male_Basilian_monastery
 	<= nrel_complex_of_buildings_decomposition:
         {
-            building_of_church_of_the_Holy_Spirit;
+            Peter_and_Paul_Cathedral_Building;
             Male_Basilian_Monastery_Building   
         };;
 *](*
@@ -44,7 +44,7 @@ concept_situation->[*
 	complex_of_constructions_male_Basilian_monastery
    	<= nrel_complex_of_buildings_decomposition:
         {
-        building_of_church_of_the_Holy_Spirit;
+        Peter_and_Paul_Cathedral_Building;
         Male_Basilian_Monastery_Building;
         Female_Basilian_Monastery_Building
         };;

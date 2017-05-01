@@ -61,6 +61,7 @@ State_Security_Committee_building
 		*);;
 	*);
 
+=> nrel_osm_query: [way(35995634);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

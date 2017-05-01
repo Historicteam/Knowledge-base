@@ -20,7 +20,7 @@ building_of_the_church_of_St_Joseph
 			*);;
 		*);;
 	*);
-=> nrel_osm_query: [relation["name"="Кирилла и Мефодия 3"]];
+=> nrel_osm_query: [way(25327537);];
 
 <= nrel_temporal_decomposition: 
     {

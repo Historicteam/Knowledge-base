@@ -2,7 +2,7 @@ concept_excursion->excursion_of_the_Freedom_Square
 (*
 	=> nrel_route_point: 
 	[*
-	Male_Basilian_Monastery_Building => nrel_next_point:building_of_church_of_the_Holy_Spirit
+	Male_Basilian_Monastery_Building => nrel_next_point:Peter_and_Paul_Cathedral_Building
 	(*
 		=> nrel_next_point:Female_Basilian_Monastery_Building
 		(*

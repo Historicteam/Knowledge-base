@@ -64,7 +64,7 @@ Building_Brovary
 concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Building_Brovary;;*]
 (*
     => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бенедектинок в Здание бровара ](*<-lang_ru;;*);;
+    [Контур периода времени расположения монастыря бенедектинок в здании бровара ](*<-lang_ru;;*);;
   
     <- begin_date_1647;;
     <- completion_date_1871;;

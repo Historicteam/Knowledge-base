@@ -12,4 +12,23 @@ building_State_Library_named_after_Lenin
 		(*
 		<- lang_by;;
 		*);
-		<-concept_building;;
+
+<-concept_building;
+<-concept_library;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/old_building_of_national_library.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+            *);;
+		*);;
+	*);
+
+=> nrel_osm_query: [way(25319604);];;
+
+

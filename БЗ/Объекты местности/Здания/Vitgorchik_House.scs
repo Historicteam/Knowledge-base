@@ -11,5 +11,6 @@ Vitgorchik_House
   [Дом Вітгорчыка]
   (*
     <- lang_by;;
-  *);;
+  *);
 
+<-concept_building;;

@@ -43,6 +43,8 @@ building_of_Red_Church
 
 
 	*);
+
+=> nrel_osm_query: [way(100418249);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

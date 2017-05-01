@@ -27,7 +27,7 @@ Vilgelm_Rusecki_House
 
 
 	*);
-=> nrel_osm_query: [way(53.910, 27.570, 53.911, 27.571)["name"="Гимназия №50"];];
+=> nrel_osm_query: [way(25326633);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

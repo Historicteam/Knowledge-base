@@ -44,11 +44,15 @@ Choral_synagogue_building
 			*);;
 		*);;
 	*);
+
+
 =>nrel_architect: BBaklanov_architector;
+
+=> nrel_osm_query: [way(25387470);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.898636, 27.551085]
+	=> nrel_WGS_84_translation: [53.89839, 27.55127]
 		(*
 		-> ...
 			(*
@@ -57,14 +61,14 @@ Choral_synagogue_building
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 53.898636;;
+					-> rrel_degree: 53.89839;;
 					*);;
 				*);;
 			->rrel_longitude: ...
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 27.551085;;
+					-> rrel_degree: 27.55127;;
 					*);;
 				*);;
 			*);;
