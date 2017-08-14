@@ -55,8 +55,6 @@ scp_program -> agent_of_finding_buildings_by_person
 			*);;
 
 
-
-
     	-> .agent_of_finding_buildings_by_person__finding_dwelling__operator1
 			(*
 			<- searchSetStr5;;
@@ -66,9 +64,7 @@ scp_program -> agent_of_finding_buildings_by_person
 		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
 		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_dwelling;;
 
-			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
-			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
-			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _dwelling_buildings;;
 
 			=> nrel_then: .agent_of_finding_buildings_by_person__finding_dwelling__operator2;;
 			=> nrel_else: .agent_of_finding_buildings_by_person__finding_owner__operator1;;
@@ -76,16 +72,266 @@ scp_program -> agent_of_finding_buildings_by_person
 
 		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator2
 			(*
-		  	<- genElStr3;;
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _dwelling_buildings;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _dwelling_building;;
 
-		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
-		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
-		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_dwelling;;
+		 	=> nrel_then: .agent_of_finding_buildings_by_person__finding_dwelling__operator3;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person__finding_owner__operator1;;
+			*);;
 
-		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_owner__operator1;;
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator3 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_buildings_by_person__finding_dwelling__operator4;;
+		 	*);;
+
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator4
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc_of_relation;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _dwelling_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_dwelling;;
+
+		  	-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator5;;
 			*);;
 
 
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator5
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_dwelling;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator5A;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator5A
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _dwelling_building;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator6;;
+			*);;
+
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator6
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _situation_node;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc_of_relation;;
+
+		  	-> rrel_set_1: rrel_assign: rrel_scp_var: _set_of_maybe_situation_nodes;;
+
+		  	=> nrel_goto:  .agent_of_finding_buildings_by_person__finding_dwelling__operator7;;	
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator7
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_maybe_situation_nodes;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _situation_node;;
+
+		 	=> nrel_then: .agent_of_finding_buildings_by_person__finding_dwelling__operator8;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person__finding_dwelling__operator2;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator8 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_buildings_by_person__finding_dwelling__operator9;;
+		 	*);;
+
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator9
+		 	(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: concept_situation;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _situation_node;;
+
+		  	=> nrel_then: .agent_of_finding_buildings_by_person__finding_dwelling__operator10;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person__finding_dwelling__operator7;;
+			*);;
+
+        
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator10 
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_buildings_by_person__patern_of_finding_concrete_key_elem;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions3;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _situation;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _situation_node;;
+					*);;
+					-> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _building;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _dwelling_building;;
+					*);;   
+				*);;
+
+			=> nrel_then: .agent_of_finding_buildings_by_person__finding_dwelling__operator11;;
+			=> nrel_else: .agent_of_finding_buildings_by_person__finding_dwelling__operator7;;
+		 	*);;
+
+		 -> .agent_of_finding_buildings_by_person__finding_dwelling__operator11
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions3;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction;;
+
+		 	-> rrel_set_3: rrel_assign: rrel_scp_var: _found_constructions;;
+
+		 	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator12;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator12
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _found_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction;;
+
+		 	=> nrel_then: .agent_of_finding_buildings_by_person__finding_dwelling__operator12A;;
+		  	=> nrel_else: .agent_of_finding_buildings_by_person__finding_dwelling__operator2;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator12A 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_buildings_by_person__finding_dwelling__operator12B;;
+		 	*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator12B
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _key_elem;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_key_element;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_buildings_by_person__finding_dwelling__operator13;;
+		  	*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator13
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _just_arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_key_element;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator14;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator14
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _found_key_element;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _dwelling_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_key_sc_element;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator15;;
+			*);;
+			
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator15
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _just_arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: rrel_key_sc_element;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator16;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator16
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _translation;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_key_element;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	-> rrel_set_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator17;;
+			*);;
+			
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator17
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _just_arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator18;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator18
+			(*
+			<- searchSetStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _translation;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _text;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: rrel_example;;
+
+		  	-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+
+			=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator19;;
+			*);;
+
+		-> .agent_of_finding_buildings_by_person__finding_dwelling__operator19
+			(*
+		  	<- genElStr3;;
+
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_buildings_by_person;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _just_arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: rrel_example;;
+
+		  	=> nrel_goto: .agent_of_finding_buildings_by_person__finding_dwelling__operator12;;
+			*);;
+	
+
+			
 
 		-> .agent_of_finding_buildings_by_person__finding_owner__operator1
 			(*
