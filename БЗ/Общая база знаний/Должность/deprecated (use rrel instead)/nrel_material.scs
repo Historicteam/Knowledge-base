@@ -1,0 +1,25 @@
+nrel_material
+=>nrel_main_idtf:
+	[материал строения*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[material*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[матэрыял*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[Материал,из которого построено здание.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[Матэрыял, з якога зроблены будынак.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

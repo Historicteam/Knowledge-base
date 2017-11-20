@@ -1,0 +1,25 @@
+nrel_prior
+=>nrel_main_idtf:
+	[настоятель*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[prior*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[настаяцель*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[ В Православной церкви — старший клирик прихода или монастыря. .] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[У Праваслаўнай царквы - старшы клірык прыходу або манастыра.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

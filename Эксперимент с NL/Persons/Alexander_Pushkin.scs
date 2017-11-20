@@ -37,7 +37,7 @@ Alexander_Pushkin => nrel_date_of_death: 1837_02_10
     [February 10, 1837](* <- lang_en;; *);
     [10 февраля, 1837](* <- lang_ru;; *);;
     *);;
-Alexander_Pushkin <= nrel_student: 
+Alexander_Pushkin <-rrel_student:
     Tsarskoye_Selo_Lyceum
         (*
         => nrel_main_idtf:

@@ -1,0 +1,45 @@
+nrel_student
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[учащийся*]
+	(*
+	<- lang_ru;;
+	*);
+	[student*]
+	(*
+	<- lang_en;;
+	*);
+	[навучэнец*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_educational_institution;
+=> nrel_second_domain:
+	concept_person;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Учащийся - бинарное отношение, связываюшие учебное заведение и человека, который там учится.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Навучэнец - бінарнае дачыненне, якое злучае навучальную ўстанову і чалавека, які там вучыцца.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

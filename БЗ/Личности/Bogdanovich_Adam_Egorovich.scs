@@ -204,13 +204,13 @@ Bogdanovich_Adam_Egorovich
 
 
 					
-concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_student: organization_shcool_hlopenichi;;*]
+concept_situation->[*Bogdanovich_Adam_Egorovich <-rrel_student: organization_shcool_hlopenichi;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения  Адама Богдановича в школе в Хлопеничах ](*<-lang_ru;;*);;
 	<- begin_date_1868;;
 	<- completion_date_1878;;			
 *);;
-concept_situation->[*Bogdanovich_Adam_Egorovich <=nrel_student: organization_shcool_Minsl;;*]
+concept_situation->[*Bogdanovich_Adam_Egorovich <-rrel_student: organization_shcool_Minsl;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения  Адама Богдановича в школе в Минске ](*<-lang_ru;;*);;
 	<- begin_date_1868;;

@@ -246,7 +246,7 @@ concept_situation->[*organization_minskay_rech
 	<- completion_date_1912;;			
 *);;
 						
-concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_student: organization_Minsk_Male_Gymnasium;;*]
+concept_situation->[*Zdanovich_Ivan_Ustinovich <-rrel_student: organization_Minsk_Male_Gymnasium;;*]
 (*
 	=> nrel_main_idtf: [Зданович Иван Устинович учащийся Минской мужской гимназии, которая располагалась в то время в Здании минской мужской гимназии. ](*<-lang_ru;;*);;
 	<- begin_date_1978;;

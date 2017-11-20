@@ -228,20 +228,20 @@ Vankovich_Vilentii_Vilegelm
 
 
 					
-concept_situation->[*Vankovich_Vilentii_Vilegelm <=nrel_student: The_building_of_Jesuit_College;;*]
+concept_situation->[*Vankovich_Vilentii_Vilegelm <-rrel_student: organization_Jesuit_College;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения Ваньковича Валентия-Вильгельма Полоцком иезуитском коллегиуме ](*<-lang_ru;;*);;
 	<- begin_date_1809;;
 	<- completion_date_1812;;			
 *);;
-concept_situation->[*Vankovich_Vilentii_Vilegelm <=nrel_student: organization_Vilna_state_university;;*]
+concept_situation->[*Vankovich_Vilentii_Vilegelm <-rrel_student: organization_Vilna_state_university;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения Ваньковича Валентия-Вильгельма в Виленском университете](*<-lang_ru;;*);;
 	<- begin_date_1818;;
 	<- completion_date_1824;;			
 *);;
 
-concept_situation->[*Vankovich_Vilentii_Vilegelm <=nrel_student: organization_piter_academy_of_painture;;*]
+concept_situation->[*Vankovich_Vilentii_Vilegelm <-rrel_student: organization_piter_academy_of_painture;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения Ваньковича Валентия-Вильгельма  в Петербуржской академии художеств ](*<-lang_ru;;*);;
 	<- begin_date_1824;;

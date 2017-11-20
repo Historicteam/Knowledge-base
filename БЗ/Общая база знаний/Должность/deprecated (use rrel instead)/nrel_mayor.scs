@@ -1,0 +1,25 @@
+nrel_mayor
+=>nrel_main_idtf:
+	[городской голова*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[mayor*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[гарадскі галава*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[Городской голова — выборная должность в Российской империи, глава городского общественного управления.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+			[Гарадскі галава - выбарная пасада ў Расійскай імперыі, кіраўнік гарадскога грамадскага кіравання.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

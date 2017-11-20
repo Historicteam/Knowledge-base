@@ -25,7 +25,7 @@ Hutten_Czapsky_Emerickovich
 		*);;
 	*);
 <-concept_male;
-<=nrel_student:organization_Imperial_University_of_Dorpat; organization_gymnasium_of_St_Anne;
+<-rrel_student:organization_Imperial_University_of_Dorpat; organization_gymnasium_of_St_Anne;
 
 <=nrel_employee: organization_Ministry_of_Finance_of_the_Russian_Empire;
 <=nrel_mayor:nrel_employee: organization_Minsk_municipal_public_administration;

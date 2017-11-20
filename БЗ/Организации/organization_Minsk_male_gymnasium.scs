@@ -13,11 +13,11 @@ organization_Minsk_Male_Gymnasium
 	<- lang_by;;
 	*);
 
-=> nrel_student: Mikhail_Osipovich_Glushnevich;
-=> nrel_student: Vladimir_Danilovich_Spasovich;
-=> nrel_student:Konstantin_Mihailovich_Jelski;
-=> nrel_student: Tadeusz_Korzon;
-=> nrel_student: Janka_Lucina;
+-> rrel_student: Mikhail_Osipovich_Glushnevich;
+-> rrel_student: Vladimir_Danilovich_Spasovich;
+-> rrel_student:Konstantin_Mihailovich_Jelski;
+-> rrel_student: Tadeusz_Korzon;
+-> rrel_student: Janka_Lucina;
 
 
 <- rrel_key_sc_element: Explanation_Minsk_Male_Gymnasium
@@ -70,7 +70,7 @@ concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_location: The_bu
     <- completion_date_1915;;
 *);;
 
-concept_situation->[* organization_Minsk_Male_Gymnasium => nrel_student: Tomasz_Zan;;*]
+concept_situation->[* organization_Minsk_Male_Gymnasium -> rrel_student: Tomasz_Zan;;*]
   (*
     <- begin_date_1805;;
     <- completion_date_1812;;

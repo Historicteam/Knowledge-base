@@ -851,7 +851,7 @@ concept_situation->[* Bohdanovich_Maksim_Adamovich=>nrel_dwelling: organization_
     <- begin_date_1916;;
     <- completion_date_1917;;
 *);;
-concept_situation->[* Bohdanovich_Maksim_Adamovich<=nrel_student:organization_Nizhny_Novgorod_Male_Gymnasium;;*]
+concept_situation->[* Bohdanovich_Maksim_Adamovich<-rrel_student:organization_Nizhny_Novgorod_Male_Gymnasium;;*]
   (*
     <- begin_date_1902;;
     <- completion_date_1911;;

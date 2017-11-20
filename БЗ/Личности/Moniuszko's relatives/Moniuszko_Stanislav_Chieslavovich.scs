@@ -873,13 +873,13 @@ concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=>nrel_friend: Liszt_Fra
 *);;
 
 
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_school_of_PR_in_Warsaw;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <-rrel_student: organization_school_of_PR_in_Warsaw;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко в школе пиаров в Варшаве](*<-lang_ru;;*);;
 	<- begin_date_1827;;
 	<- completion_date_1830;;			
 *);;
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_Minsk_Male_Gymnasium;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <-rrel_student: organization_Minsk_Male_Gymnasium;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения С.Ч. Монюшко в минской мужской гимназии](*<-lang_ru;;*);;
 	<- begin_date_1830;;

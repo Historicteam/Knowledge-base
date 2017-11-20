@@ -320,19 +320,19 @@ concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building
 	<- completion_date_13_08_1956;;			
 *);;
 
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <= nrel_student :organization_Nesvizh_teacher_seminary;;*]
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <-rrel_student :organization_Nesvizh_teacher_seminary;;*]
 (*
 	<- begin_date_1898;;
 	<- completion_date_1902;;			
 *);;
 
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <= nrel_student :organization_Nikolaevskaja_elementary_school;;*]
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <-rrel_student :organization_Nikolaevskaja_elementary_school;;*]
 (*
 	<- begin_date_1892;;
 	<- completion_date_1894;;			
 *);;
 
-concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_student:organization_Alexandrov_military_school;;*]
+concept_situation->[*Mitskevich_Konstantin_Mihailovich <-rrel_student:organization_Alexandrov_military_school;;*]
 (*
 	<- begin_date_1915;;
 	<- completion_date_1916;;			

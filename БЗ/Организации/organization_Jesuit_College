@@ -1,0 +1,16 @@
+organization_Jesuit_College
+=> nrel_main_idtf:
+        [Иезуитский коллегиум]
+	(*
+	<- lang_ru;;
+	*);
+        [Jesuit College]
+	(*
+	<- lang_en;;
+	*);
+	[Iезуицкi калегiум]
+	(*
+	<- lang_by;;
+	*);
+
+<- concept_organization;;

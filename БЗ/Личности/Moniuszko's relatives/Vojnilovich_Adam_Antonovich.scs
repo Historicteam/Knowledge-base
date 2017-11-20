@@ -59,7 +59,7 @@ Vojnilovich_Adam_Antonovich
 		*);;
 	*);
 =>nrel_place_of_death: Savichi_village;
-<=nrel_student:organization_Slutsk_gymnasium_1;organization_Vilna_state_university;
+<-rrel_student:organization_Slutsk_gymnasium_1;organization_Vilna_state_university;
 <=nrel_employee:nrel_provincial_secretary:organization_Vilna_state_university;
 <=nrel_employee:nrel_police_inspector:organization_temporary_police_department_of_Slutsk_district;
 <=nrel_trustee:organization_rural_spare_stores_Slutsky_County;

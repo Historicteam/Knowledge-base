@@ -47,7 +47,7 @@ Masherov_Piotr_Myronovych
 	  [4 кастрычніка 1980 года] (* <- lang_by;; *);;
 	*);
 
-<=nrel_student: organization_Vitebsk_State_University;
+<-rrel_student: organization_Vitebsk_State_University;
 
 <- rrel_key_sc_element: family_tree_Masherov
 	(*

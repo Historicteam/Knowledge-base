@@ -50,7 +50,7 @@ Vojnilovich_Edvard_Adamavich
 	*);
 =>nrel_place_of_birth:the_city_of_Minsk;
 =>nrel_dwelling:estste_Savichi;estste_Slienianka;
-<=nrel_student:organization_Sluck_Gymnasium;
+<-rrel_student:organization_Sluck_Gymnasium;
 	organization_Imperial_St_Petersburg_Technological_Institute;
 	organization_Sorbonne;
 	organization_College_de_France;

@@ -310,7 +310,7 @@ concept_situation->[*Lucevich_Ivan_Dominikovich <=nrel_conductor:nrel_employee: 
 	<- completion_date_1909;;			
 *);;
 						
-concept_situation->[*Moniuszko_Stanislav_Chieslavovich <=nrel_student: organization_Moscou_univer;;*]
+concept_situation->[*Moniuszko_Stanislav_Chieslavovich <-rrel_student: organization_Moscou_univer;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени обучения  Янки Купалы в  Московском городском народном университете ](*<-lang_ru;;*);;
 	<- begin_date_1915;;

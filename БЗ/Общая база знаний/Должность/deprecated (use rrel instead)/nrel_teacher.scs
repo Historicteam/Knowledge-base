@@ -1,0 +1,26 @@
+nrel_teacher
+=>nrel_main_idtf:
+	[преподаватель*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[teacher*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[выкладчык*] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+		[Преподаватель — бинарное отношение связывающие человека с его преподавателем.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* -> rrel_example:
+		[Выкладчык - бінарнае дачыненне, што злучае чалавека з яго выкладчыкам.] (* <-lang_by;; *);; 
+		*);;
+	*);
+	
+<-sc_const;
+	
+<-sc_node_norole_relation;;

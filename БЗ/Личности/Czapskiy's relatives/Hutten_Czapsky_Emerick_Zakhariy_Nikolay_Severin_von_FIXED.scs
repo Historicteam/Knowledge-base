@@ -71,7 +71,7 @@ Hutten_Czapsky_Emerick_Carlovich
 		*);;
 	*);
 =>nrel_place_of_birth:estste_Stankov;
-<=nrel_student:organization_Vilna_Male_Gymnasium;
+<-rrel_student:organization_Vilna_Male_Gymnasium;
 =>nrel_place_of_death:the_city_of_Krakow;
 <=nrel_be_founded_in_the_name_of:organization_Museum_of_Emeric_Hutten_Czapski;
 <=nrel_parent: Hutten_Czapsky_Jerzy_Emerickovich; Hutten_Czapsky_Emerickovich; Hutten_Czapskaya_Sofia_Emerickovna;
