@@ -9,13 +9,7 @@ organization_Literary_Museum_of_Bogdanovich
 		<-concept_email;;
 		*);
 
-=> nrel_personal_composition:professor_and_teaching_staff_organization_Literary_Museum_of_Bogdanovich
-(*
 ->rrel_director:Shelyagovich_Tatiana_Eduardovna;;
-*);;
-professor_and_teaching_staff_organization_Literary_Museum_of_Bogdanovich
-=>nrel_main_idtf:
-[Персональный состав Литературного музея М. Богдановича](*<-lang_ru;;*);;
 
 concept_situation->[*organization_Literary_Museum_of_Bogdanovich=>nrel_transformation:
 organization_Branch_Literary_Museum_of_Bogdanovich;;*]

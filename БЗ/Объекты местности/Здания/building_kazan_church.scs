@@ -132,7 +132,7 @@ concept_situation->[*building_kazan_church
 	<- begin_date_1936;;
 *);;
 
-concept_situation->[*organization_railway_church=> nrel_personal_composition: pricht_holy_kazan
+concept_situation->[*organization_railway_church
 (*
 ->rrel_watchman: Grynyavitski_Adam_Iosifovich;;
 ->rrel_deacon: Rusetskiy_Ivan_Fotievich;;

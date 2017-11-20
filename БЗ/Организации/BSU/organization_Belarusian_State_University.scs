@@ -1,4 +1,4 @@
-Belarusian_State_University
+organization_Belarusian_State_University
 => nrel_main_idtf:
 	[Беларускі дзяржаўны універсітэт]
 	(*
@@ -82,16 +82,7 @@ house_4_Independence_Avenue
 		*);
 		<-concept_building;;
 
-Belarusian_State_University=>nrel_inclusion: students_and_staff_of_the_Belarusian_State_University
-(*
-=>nrel_main_idtf:
-[ учащиеся и сотрудники Белорусского государственного университета](*<-lang_ru;;*);;
-*);;
-
-
-
-
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1921_1929
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost:Picheta_Uladzimir_Ivanavich;;
 *);; *]
@@ -99,11 +90,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1921;;
     <- completion_date_1929;;
 *);;
-pers_comp_organization_Belarusian_State_University_1921_1929
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1921-1929 года](*<-lang_ru;;*);;
    
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1929_1931
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost: Karanieuski_Iosif_Piatrovich;;
 *);; *]
@@ -111,11 +99,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1929;;
     <- completion_date_1931;;
 *);;
-pers_comp_organization_Belarusian_State_University_1929_1931
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1929-1931 года](*<-lang_ru;;*);;
    
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1931_1933
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost: Jermakou_Ivan_Fiadotavich;;
 *);; *]
@@ -123,11 +108,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1931;;
     <- completion_date_1933;;
 *);;
-pers_comp_organization_Belarusian_State_University_1931_1933
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1931-1933 года](*<-lang_ru;;*);;
 
-concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1934_1935
+concept_situation->[*  organization_Belarusian_State_University
 (*
 ->rrel_provost: Ananij_Ivanavich_Dziakau;;
 *);; *]
@@ -135,11 +117,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
     <- begin_date_1934;;
     <- completion_date_1935;;
 *);;
-pers_comp_organization_Belarusian_State_University_1934_1935
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1934-1935 года](*<-lang_ru;;*);;
 
-concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1935_1937
+concept_situation->[*  organization_Belarusian_State_University
 (*
 ->rrel_provost: Aliaksiej_Sciapanavich_Kuchynski;;
 *);;*]
@@ -147,11 +126,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
     <- begin_date_1935;;
     <- completion_date_1937;;
 *);;
-pers_comp_organization_Belarusian_State_University_1935_1937
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1935-1937 года](*<-lang_ru;;*);;
 
-concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1937_1938
+concept_situation->[*organization_Belarusian_State_University
 (*
 ->rrel_provost: Anufryj_Niestaravich_Andruszchanka;;
 *);; *]
@@ -159,11 +135,8 @@ concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nre
     <- begin_date_1937;;
     <- completion_date_1938;;
 *);;
-pers_comp_organization_Belarusian_State_University_1937_1938
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1937-1938 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1938_1946
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost: Parfionau_Piatrovich_Savicki;;
 *);; *]
@@ -171,11 +144,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1938;;
     <- completion_date_1946;;
 *);;
-pers_comp_organization_Belarusian_State_University_1938_1946
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1938-1946 года](*<-lang_ru;;*);;
 
-concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1946_1949
+concept_situation->[*organization_Belarusian_State_University
 (*
 ->rrel_provost:  Uladzimir_Antonavich_Tamaszevich;;
 *);; *]
@@ -183,11 +153,8 @@ concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nre
     <- begin_date_1946;;
     <- completion_date_1949;;
 *);;
-pers_comp_organization_Belarusian_State_University_1946_1949
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1946-1949 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1949_1952
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost:  Ivan_Savich_Chimburh;;
 *);; *]
@@ -195,11 +162,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1949;;
     <- completion_date_1952;;
 *);;
-pers_comp_organization_Belarusian_State_University_1949_1952
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1949-1952 года](*<-lang_ru;;*);;
 
-concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1952_1957
+concept_situation->[*  organization_Belarusian_State_University
 (*
 ->rrel_provost:   Kanstancin_Ihnatavich_Lukaszou;;
 *);; *]
@@ -207,11 +171,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
     <- begin_date_1952;;
     <- completion_date_1957;;
 *);;
-pers_comp_organization_Belarusian_State_University_1952_1957
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1952-1957 года](*<-lang_ru;;*);;
 
-concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1957_1972
+concept_situation->[*  organization_Belarusian_State_University
 (*
 ->rrel_provost:Anton_Nichyparavich_Sieuchanka;;
 *);;  *]
@@ -219,11 +180,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
     <- begin_date_1957;;
     <- completion_date_1972;;
 *);;
-pers_comp_organization_Belarusian_State_University_1957_1972
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1957-1972 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1972_1978
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost: Usievalad_Mihajlavich_Sikorski;;
 *);; *]
@@ -231,11 +189,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1972;;
     <- completion_date_1978;;
 *);;
-pers_comp_organization_Belarusian_State_University_1972_1978
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1972-1978 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1978_1983
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost:  Uladzimir_Aliaksiejevich_Biely;;
 *);; *]
@@ -243,11 +198,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1978;;
     <- completion_date_1983;;
 *);;
-pers_comp_organization_Belarusian_State_University_1978_1983
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1978-1983 года](*<-lang_ru;;*);;
 
-concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1983_1990
+concept_situation->[*organization_Belarusian_State_University
 (*
 ->rrel_provost: Lieanid_Ivanavich_Kisialiouski;;
 *);; *]
@@ -255,11 +207,8 @@ concept_situation->[*students_and_staff_of_the_Belarusian_State_University=> nre
     <- begin_date_1983;;
     <- completion_date_1990;;
 *);;
-pers_comp_organization_Belarusian_State_University_1983_1990
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1983-1990 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1990_1995
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost: Fiodar_Mikalajevich_Kapucki;;
 *);; *]
@@ -267,11 +216,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1990;;
     <- completion_date_1995;;
 *);;
-pers_comp_organization_Belarusian_State_University_1990_1995
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1990-1995 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1996_2003
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost:  Aliaksandr_Uladzislavavich_Kazulin;;
 *);;*]
@@ -279,11 +225,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1996;;
     <- completion_date_2003;;
 *);;
-pers_comp_organization_Belarusian_State_University_1996_2003
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1996-2003 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_2003_2008
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost: Vasil_Ivanavich_Strazhau;;
 *);; *]
@@ -291,11 +234,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_2003;;
     <- completion_date_2008;;
 *);;
-pers_comp_organization_Belarusian_State_University_2003_2008
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 2003-2008 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_2008
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_provost: Siarhiej_Uladzimiravich_Ablamiejka;;
 *);; *]
@@ -303,12 +243,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_2008;;
    
 *);;
-pers_comp_organization_Belarusian_State_University_2008
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 2008 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1923_1927
+concept_situation->[*  organization_Belarusian_State_University
 (*
 ->rrel_student: Barys_Paulavich_Dziemidovich;;
 *);;*]
@@ -316,11 +252,8 @@ concept_situation->[*  students_and_staff_of_the_Belarusian_State_University=> n
     <- begin_date_1923;;
     <- completion_date_1927;;
 *);;
-pers_comp_organization_Belarusian_State_University_1923_1927
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1923-1927 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1977_1982
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_student: Ananich_Liliya_Staniclavauna;;
 *);; *]
@@ -328,11 +261,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1977;;
     <- completion_date_1982;;
 *);;
-pers_comp_organization_Belarusian_State_University_1977_1982
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1977-1982 года](*<-lang_ru;;*);;
 
-concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nrel_personal_composition:pers_comp_organization_Belarusian_State_University_1970_1975
+concept_situation->[* organization_Belarusian_State_University
 (*
 ->rrel_student: Lidzija_Mikhajlauna_Yarmoszyna;;
 *);; *]
@@ -340,13 +270,8 @@ concept_situation->[* students_and_staff_of_the_Belarusian_State_University=> nr
     <- begin_date_1970;;
     <- completion_date_1975;;
 *);;
-pers_comp_organization_Belarusian_State_University_1970_1975
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1970-1975 года](*<-lang_ru;;*);;
 
-
-
-concept_situation->[* Belarusian_State_University=>nrel_location:building_of_main_bsu;; *]
+concept_situation->[* organization_Belarusian_State_University=>nrel_location:building_of_main_bsu;; *]
   (*
     <- begin_date_1921;;
    

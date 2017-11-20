@@ -1,0 +1,7 @@
+natural_text_processing_test1
+=> nrel_text_for_processing:
+ 	[Заборский был архитектором здания женского мариавитского монастыря.] 
+ 	(*
+ 	=> nrel_format:
+ 		text_for_natural_text_processing;;
+ 	*);;

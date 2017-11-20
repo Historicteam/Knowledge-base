@@ -31,13 +31,7 @@ Svetlana_Alexievich => nrel_date_of_birth: 1948_05_31
     [May 31, 1948](* <- lang_en;; *);
     [31 мая, 1948](* <- lang_ru;; *);;
     *);;
-Svetlana_Alexievich <= nrel_student: 
-    Belarusian_State_University
-        (*
-        => nrel_main_idtf:
-            [Belarusian State University](* <- lang_en;; *);
-            [Белорусский государственный университет](* <- lang_ru;; *);;
-        *);;
+Svetlana_Alexievich <= nrel_student: organization_Belarusian_State_University
 Svetlana_Alexievich <- 
     journalist
         (*

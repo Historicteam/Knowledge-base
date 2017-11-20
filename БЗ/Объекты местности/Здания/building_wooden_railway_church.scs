@@ -141,7 +141,7 @@ concept_situation->[*building_wooden_railway_church
 	<- begin_date_1941;;
 *);;
 
-concept_situation->[*building_wooden_railway_church=> nrel_personal_composition: residents
+concept_situation->[*building_wooden_railway_church
 (*
 ->rrel_prior: Perabila_Petr;;
 ->rrel_deacon: Valasevich_Ivan;;
@@ -151,7 +151,7 @@ concept_situation->[*building_wooden_railway_church=> nrel_personal_composition:
     <- completion_date_1901;;
 *);;
 
-concept_situation->[*building_wooden_railway_church=> nrel_personal_composition: residents
+concept_situation->[*building_wooden_railway_church
 (*
 ->rrel_prior: Kvacheuski_Ipalit;;
 ->rrel_deacon: Gurin;;

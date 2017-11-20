@@ -87,7 +87,7 @@ State_Department_Store_Building
 	*);	
 
 	<- begin_date_1951;
-=>nrel_architect: Gegart_Roman_Mikhailovich;
+<=nrel_architect: Gegart_Roman_Mikhailovich;
 <- concept_terrain_object;
 <- concept_building;;
 

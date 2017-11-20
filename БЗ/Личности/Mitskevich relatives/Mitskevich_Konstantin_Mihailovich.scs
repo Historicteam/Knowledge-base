@@ -264,7 +264,7 @@ concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling: Vilgelm
 	<- begin_date_1921;;
 	<- completion_date_1927;;			
 *);;
-concept_situation->[* organization_In_Bel_Kult=> nrel_personal_composition :pers_comp_organization_In_Bel_Kult_1921_1928
+concept_situation->[* organization_In_Bel_Kult
 (*
 ->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
 *);;*]
@@ -272,12 +272,8 @@ concept_situation->[* organization_In_Bel_Kult=> nrel_personal_composition :pers
 	<- begin_date_1921;;
 	<- completion_date_1928;;			
 *);;
-pers_comp_organization_In_Bel_Kult_1921_1928
-=>nrel_main_idtf:
-[Персональный состав Института Белорусской культуры 1921-1928 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1929_1931
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
 (*
 ->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
 *);;*]
@@ -285,11 +281,8 @@ concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> 
 	<- begin_date_1929;;
 	<- completion_date_1931;;			
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1929_1931
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1929-1931 года](*<-lang_ru;;*);;
 
-concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1935_1938
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
 (*
 ->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
 *);;*]
@@ -297,12 +290,8 @@ concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> 
 	<- begin_date_1935;;
 	<- completion_date_1938;;			
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1935_1938
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1935-1938 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1956
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
 (*
 ->rrel_deputy:Mitskevich_Konstantin_Mihailovich;;
 *);;*]
@@ -310,16 +299,8 @@ concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> 
 	<- begin_date_1938;;
 	<- completion_date_1956;;			
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1956
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1938-1956 года](*<-lang_ru;;*);;
 
-
-
-
-
-
-concept_situation->[*The_National_Academy_of_Sciences_of_the_BSSR=> nrel_personal_composition :pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
+concept_situation->[*The_National_Academy_of_Sciences_of_the_BSSR
 (*
 ->rrel_academician:Mitskevich_Konstantin_Mihailovich;;
 *);;*]
@@ -327,9 +308,6 @@ concept_situation->[*The_National_Academy_of_Sciences_of_the_BSSR=> nrel_persona
 	<- begin_date_1928;;
 	<- completion_date_1956;;			
 *);;
-pers_comp_organization_The_National_Academy_of_Sciences_of_the_BSSR_1928_1956
-=>nrel_main_idtf:
-[Персональный состав Национальной академии наук БССР 1928-1956 года](*<-lang_ru;;*);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building_Frunze_13;;*]
 (*
@@ -360,7 +338,7 @@ concept_situation->[*Mitskevich_Konstantin_Mihailovich <=nrel_student:organizati
 	<- completion_date_1916;;			
 *);;
 
-concept_situation->[*organization_redaction_of_newspaper_Nasha_Niva=> nrel_personal_composition :pers_comp_organization_redaction_of_newspaper_Nasha_Niva_1906_1908
+concept_situation->[*organization_redaction_of_newspaper_Nasha_Niva
 (*
 ->rrel_author:Mitskevich_Konstantin_Mihailovich;;
 *);;*]
@@ -368,10 +346,6 @@ concept_situation->[*organization_redaction_of_newspaper_Nasha_Niva=> nrel_perso
 	<- begin_date_1906;;
 	<- completion_date_1908;;			
 *);;
-pers_comp_organization_redaction_of_newspaper_Nasha_Niva_1906_1908
-=>nrel_main_idtf:
-[Персональный состав газеты "Наша Нива" 1906-1908 года](*<-lang_ru;;*);;
-
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich =>nrel_teacher: Fursevich_Alies;;*]
 (*
@@ -380,7 +354,7 @@ concept_situation->[*Mitskevich_Konstantin_Mihailovich =>nrel_teacher: Fursevich
 *);;
 
 
-concept_situation->[*Belarusian_State_University=> nrel_personal_composition :pers_comp_organization_Belarusian_State_University_1923_1926
+concept_situation->[*organization_Belarusian_State_University
 (*
 ->rrel_assistant:Mitskevich_Konstantin_Mihailovich;;
 *);;*]
@@ -388,10 +362,6 @@ concept_situation->[*Belarusian_State_University=> nrel_personal_composition :pe
 	<- begin_date_1923;;
 	<- completion_date_1926;;			
 *);;
-pers_comp_organization_Belarusian_State_University_1923_1926
-=>nrel_main_idtf:
-[Персональный состав Белорусского государственного университета 1923-1926 года](*<-lang_ru;;*);;
-
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: ...
 	(*

@@ -53,7 +53,7 @@ concept_situation->[* organization_of_the_Minsk_Post_and_Telegraph_District => n
     <- completion_date_1919;;
 *);;
 
-concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nrel_personal_composition:pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1910
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District
 (*
 ->rrel_director:Karovin_Ivan_Andrejevich;;
 ->rrel_assistant:Rubiec_Erast_Macviejevich ;;
@@ -70,12 +70,9 @@ concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nre
     <- begin_date_1910;;
     <- completion_date_1910;;
 *);;
-pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1910
-=>nrel_main_idtf:
-[Персональный состав Управления Минского почтово-телеграфного округа Главного управления почт и телеграфов 1910 года](*<-lang_ru;;*);;
 
 
-concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nrel_personal_composition:pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1901_1902
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District
 (*
 ->rrel_director:Karovin_Ivan_Andrejevich;;
 ->rrel_assistant:Rubiec_Erast_Macviejevich ;;
@@ -95,12 +92,8 @@ concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nre
     <- begin_date_1901;;
     <- completion_date_1902;;
 *);;
-pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1901_1902
-=>nrel_main_idtf:
-[Персональный состав Управления Минского почтово-телеграфного округа Главного управления почт и телеграфов 1901-1902 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nrel_personal_composition:pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1903
+concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District
 (*
 ->rrel_director:Karovin_Ivan_Andrejevich;;
 ->rrel_assistant:Rubiec_Erast_Macviejevich ;;
@@ -123,10 +116,6 @@ concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District=> nre
     <- begin_date_1903;;
     <- completion_date_1902;;
 *);;
-pers_comp_organization_of_the_Minsk_Post_and_Telegraph_District_1903
-=>nrel_main_idtf:
-[Персональный состав Управления Минского почтово-телеграфного округа Главного управления почт и телеграфов 1903 года](*<-lang_ru;;*);;
-
 
 
 

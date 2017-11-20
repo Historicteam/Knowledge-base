@@ -219,7 +219,7 @@ concept_situation->[*Zdanovich_Ivan_Ustinovich =>nrel_dwelling: Zhdanovich_house
 	<- completion_date_1915;;			
 *);;
 
-concept_situation->[*organization_Minsk_Hospital=> nrel_personal_composition:pers_comp_organization_organization_Minsk_Hospital_1892_1915
+concept_situation->[*organization_Minsk_Hospital
 (* 
 ->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
 *);;*]
@@ -227,12 +227,8 @@ concept_situation->[*organization_Minsk_Hospital=> nrel_personal_composition:per
 	<- begin_date_1892;;
 	<- completion_date_1915;;			
 *);;
-pers_comp_organization_Minsk_School_for_the_Blind_1910
-=>nrel_main_idtf:
-[Персональный состав Минской больницы Приказа общественного призрения 1892-1915 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*organization_minsk_woomen_gymnazi=> nrel_personal_composition:pers_comp_organization_minsk_woomen_gymnazi_1893_1904
+concept_situation->[*organization_minsk_woomen_gymnazi
 (* 
 ->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
 *);;*]
@@ -240,11 +236,8 @@ concept_situation->[*organization_minsk_woomen_gymnazi=> nrel_personal_compositi
 	<- begin_date_1893;;
 	<- completion_date_1904;;			
 *);;
-pers_comp_organization_minsk_woomen_gymnazi_1893_1904
-=>nrel_main_idtf:
-[Персональный состав Мариинской женской гимназии 1893-1904 года](*<-lang_ru;;*);;
 
-concept_situation->[*organization_minskay_rech=> nrel_personal_composition:pers_comp_organization_minskay_rech_1906_1912
+concept_situation->[*organization_minskay_rech
 (*
 ->rrel_editor;;
 *);;*]
@@ -252,9 +245,6 @@ concept_situation->[*organization_minskay_rech=> nrel_personal_composition:pers_
 	<- begin_date_1906;;
 	<- completion_date_1912;;			
 *);;
-pers_comp_organization_minskay_rech_1906_1912
-=>nrel_main_idtf:
-[Персональный состав газеты «Минская речь» 1906-1912 года](*<-lang_ru;;*);;
 						
 concept_situation->[*Zdanovich_Ivan_Ustinovich <=nrel_student: organization_Minsk_Male_Gymnasium;;*]
 (*

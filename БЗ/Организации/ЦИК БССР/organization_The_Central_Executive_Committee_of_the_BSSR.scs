@@ -227,7 +227,7 @@ building_of_house_of_government;;*]
 
 
 
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1920_1937
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:Alexander_Grigoryevich_Chervyakov;;
 *);;   *]
@@ -235,11 +235,8 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_18_12_1920;;
     <- completion_date_16_06_1937;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1920_1937
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1920-1937 года](*<-lang_ru;;*);;
 
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1937_1937
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:Stakun_Mikhail_Iosiphovich;; 
 *);;  *]
@@ -247,12 +244,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_07_07_1937;;
     <- completion_date_13_11_1937;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1937_1937
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1937 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1947
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Nadezhda_Grigoryevna_Grekova;; 
 *);; *]
@@ -260,12 +253,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_25_07_1938;;
     <- completion_date_12_03_1947;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1938_1947
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1938-1947 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1947_1948
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:Vasil_Ivanavich_Kazlow;; 
 *);;  *]
@@ -273,11 +262,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_12_03_1947;;
     <- completion_date_17_03_1948;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1947_1948
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1947-1948 года](*<-lang_ru;;*);;
 
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1948_1949
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Eugene_Bugaev;; 
 *);;  *]
@@ -285,11 +271,8 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_17_03_1948;;
     <- completion_date_14_04_1949;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1948_1949
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1948-1949 года](*<-lang_ru;;*);;
 
-concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1949_1955
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Joseph_Belsky;; 
 *);;  *]
@@ -297,12 +280,8 @@ concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> 
     <- begin_date_14_04_1949;;
     <- completion_date_28_03_1955;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1949_1955
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1949-1955 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1955_1963
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:  Timofey_Gorbunov_Sazonovich;;
 *);;  *]
@@ -310,11 +289,8 @@ concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
     <- begin_date_28_03_1955;;
     <- completion_date_28_03_1963;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1955_1963
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1955-1963 года](*<-lang_ru;;*);;
 
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1963_1965
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:  Vasil_Filimonovich_Shauro;;
 *);;  *]
@@ -322,11 +298,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_28_03_1963;;
     <- completion_date_22_12_1965;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1963_1965
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1963-1965 года](*<-lang_ru;;*);;
 
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1965_1971
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:  Evgeny_Ivanovich_Skurko;;
 *);;  *]
@@ -334,12 +307,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_22_12_1965;;
     <- completion_date_15_07_1971;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1965_1971
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1965-1971 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1971_1985
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Ivan_Petrovich_Shamiakin;;
 *);;  *]
@@ -347,11 +316,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_15_07_1971;;
     <- completion_date_28_03_1985;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1971_1985
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1971-1985 года](*<-lang_ru;;*);;
 
-concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1985_1990
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Ivan_Naumenko;;
 *);;   *]
@@ -359,11 +325,8 @@ concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
     <- begin_date_28_03_1985;;
     <- completion_date_15_05_1990;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1985_1990
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1985-1990 года](*<-lang_ru;;*);;
 
-concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1990_1991
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Mikalay_Dzyemyantsyey;;
 *);;  *]
@@ -371,12 +334,8 @@ concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
     <- begin_date_18_05_1990;;
     <- completion_date_25_08_1991;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1990_1991
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1990-1991 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1991_1994
+concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:Stanislav_Shushkevich;;
 *);; *]
@@ -384,11 +343,8 @@ concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
     <- begin_date_18_09_1991;;
     <- completion_date_26_01_1994;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1991_1994
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1991-1994 года](*<-lang_ru;;*);;
 
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1994_1996
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Myechyslaw_Hryb;;
 *);;  *]
@@ -396,11 +352,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_24_01_1994;;
     <- completion_date_09_01_1996;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1994_1996
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1994-1996 года](*<-lang_ru;;*);;
 
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_1996
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Syamyon_Sharetski;;
 *);;  *]
@@ -408,12 +361,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_10_01_1996;;
     <- completion_date_27_11_1996;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_1996
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1996 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_2000
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Malofiejev_Anatolij_Aleksandrivich;;
 *);;   *]
@@ -421,13 +370,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_28_11_1996;;
     <- completion_date_21_11_2000;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1996_2000
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1996-2000 года](*<-lang_ru;;*);;
 
-
-
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1997_2000
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Paviel_Vladimirovich_Szipuk;;
 *);;   *]
@@ -435,13 +379,8 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_13_01_1997;;
     <- completion_date_19_12_2000;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_1997_2000
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 1997-2000 года](*<-lang_ru;;*);;
 
-
-
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2003
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Vojtovich_Aleksandr_Pavlovich;;
 *);;   *]
@@ -449,11 +388,8 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_19_12_2000;;
     <- completion_date_25_07_2003;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2003
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2000-2003 года](*<-lang_ru;;*);;
 
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2004
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Popov_Vadim_Aljeksandrovich;;
 *);;  *]
@@ -461,11 +397,8 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_21_11_2000;;
     <- completion_date_16_11_2004;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2000_2004
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2000-2004 года](*<-lang_ru;;*);;
 
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2003_2008
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Novickij_Hennadij_Vasiljevich;; 
 *);;  *]
@@ -473,22 +406,16 @@ concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=
     <- begin_date_28_07_2003;;
     <- completion_date_31_10_2008;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2003_2008
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2003-2008 года](*<-lang_ru;;*);;
 
-concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008
+concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Andriejchenko_Vladimir_Pavlovich;; 
 *);;*]
 (*
     <- begin_date_27_10_2008;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2008 года](*<-lang_ru;;*);;
 
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2004_2007
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Konopljov_Vladimir_Nikolajevich;; 
 *);; *]
@@ -496,11 +423,8 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_16_11_2004;;
     <- completion_date_02_10_2007;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2004_2007
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2004-2007 года](*<-lang_ru;;*);;
 
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2007_2008
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman:  Popov_Vadim_Aljeksandrovich;;
 *);; *]
@@ -508,11 +432,8 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_02_10_2007;;
     <- completion_date_27_10_2008;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2007_2008
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2007-2008 года](*<-lang_ru;;*);;
 
-concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008_2010
+concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Batura_Boris_Vasiljevich;;
 *);;  *]
@@ -520,11 +441,8 @@ concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR=> 
     <- begin_date_31_10_2008;;
     <- completion_date_24_05_2010;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2008_2010
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2008-2010 года](*<-lang_ru;;*);;
 
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2010_2015
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Rubinov_Anatolij_Nikolajevich;; 
 *);; *]
@@ -532,11 +450,8 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_24_05_2010;;
     <- completion_date_16_01_2015;;
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2010_2015
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2010-2015 года](*<-lang_ru;;*);;
 
-concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=> nrel_personal_composition:pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2015
+concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
 (*
  ->rrel_chairman: Myasnikovich_Mikhail_Vladimirovich;;
 *);; 
@@ -545,8 +460,3 @@ concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR=>
     <- begin_date_16_01_2015;;
    
 *);;
-pers_comp_organization_The_Central_Executive_Committee_of_the_BSSR_2015
-=>nrel_main_idtf:
-[Персональный состав Центрального Исполнительного Комитета БССР 2015 года](*<-lang_ru;;*);;
-
-

@@ -116,7 +116,7 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: 
 
 
 
-concept_situation->[* organization_Minsk_School_for_the_Blind=> pers_comp_organization_Minsk_School_for_the_Blind_1897
+concept_situation->[* organization_Minsk_School_for_the_Blind
 (*
 ->rrel_director:Zdanovich_Ivan_Ustinovich;;
 *);;*]
@@ -124,12 +124,8 @@ concept_situation->[* organization_Minsk_School_for_the_Blind=> pers_comp_organi
     <- begin_date_28_09_1897;;
     <- completion_date_1910;;
 *);;
-pers_comp_organization_Minsk_School_for_the_Blind_1897
-=>nrel_main_idtf:
-[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1897-1910 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1905
+concept_situation->[*organization_Minsk_School_for_the_Blind
 (*
 ->rrel_director:Zdanovich_Ivan_Ustinovich;;
 ->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
@@ -141,12 +137,8 @@ concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_com
     <- begin_date_1905;;
     <- completion_date_1908;;
 *);;
-pers_comp_organization_Minsk_School_for_the_Blind_1905
-=>nrel_main_idtf:
-[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1905-1908 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1909
+concept_situation->[*organization_Minsk_School_for_the_Blind
 (*
 ->rrel_director:Zdanovich_Ivan_Ustinovich;;
 ->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
@@ -158,11 +150,8 @@ concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_com
     <- begin_date_1909;;
     <- completion_date_1910;;
 *);;
-pers_comp_organization_Minsk_School_for_the_Blind_1909
-=>nrel_main_idtf:
-[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1909-1910 года](*<-lang_ru;;*);;
 
-concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_composition:pers_comp_organization_Minsk_School_for_the_Blind_1910
+concept_situation->[*organization_Minsk_School_for_the_Blind
 (*
 ->rrel_director:Zdanovich_Ivan_Ustinovich;;
 ->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
@@ -175,12 +164,8 @@ concept_situation->[*organization_Minsk_School_for_the_Blind=> nrel_personal_com
     <- begin_date_1910;;
     <- completion_date_1915;;
 *);;
-pers_comp_organization_Minsk_School_for_the_Blind_1910
-=>nrel_main_idtf:
-[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1910-1915 года](*<-lang_ru;;*);;
 
-
-concept_situation->[*organization_Minsk_School_for_the_Blind => nrel_personal_composition :pers_comp_organization_Minsk_School_for_the_Blind_1915
+concept_situation->[*organization_Minsk_School_for_the_Blind
 (*
 ->rrel_director:Ivan_Vasiljevich_Hiaorhijeuski;;
 *);;*]
@@ -188,8 +173,3 @@ concept_situation->[*organization_Minsk_School_for_the_Blind => nrel_personal_co
     <- begin_date_1915;;
     <- completion_date_1915;;
 *);;
-
-
-pers_comp_organization_Minsk_School_for_the_Blind_1915
-=>nrel_main_idtf:
-[Персональный состав Минского училища для слепых детей Опекунства императрицы Марии Александровны 1915 года](*<-lang_ru;;*);;

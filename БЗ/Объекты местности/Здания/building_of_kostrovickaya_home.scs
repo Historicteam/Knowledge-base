@@ -22,7 +22,7 @@ Kostrovickaja_house
 	<- lang_by;;
 		*);
 => concept_square:indepence_square;
-=> nrel_architect:Henry_Gaq;
+<= nrel_architect:Henry_Gaq;
 <- rrel_key_sc_element:
 	...
 	(*

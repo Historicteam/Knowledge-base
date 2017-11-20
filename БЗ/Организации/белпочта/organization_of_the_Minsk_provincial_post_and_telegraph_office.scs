@@ -195,31 +195,5 @@ concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_of
 concept_situation->[* organization_of_the_Minsk_provincial_post_and_telegraph_office => nrel_location: building_of_the_Minsk_Post_Office;;*]
   (*
     <- begin_date_1953;;
-*);; 
-
-
-/*concept_situation->[*organization_of_the_Minsk_provincial_post_and_telegraph_office=> nrel_personal_composition:pers_comp_organization_of_the_organization_of_the_Minsk_provincial_post_and_telegraph_office_1901
-(*
-->rrel_director:Karovin_Ivan_Andrejevich;;
-->rrel_assistant:Rubiec_Erast_Macviejevich ;;
-->rrel_official_for_special_assignments: Kapiecki_Heorhij_Sciapanavich;;
-->rrel_clerk: Piatrou_Arest_Jaugrafavich;;
-->rrel_assistant:Kavaliou_Vasil_Ciarencjevich ;;
-->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich ;;
-->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;;
-->rrel_assistant:Halaskou_Ivan_Vasivjevich ;;
-->rrel_assistant:Rutkouski_Kuzma_Francavich ;;
-->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;;
-->rrel_electrical_engineer:Siamionau_Dzmitryj_Siargiejevich;;
-->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;;
-->rrel_mechanic:Dalhapolau_Lieu_Jakaulievich;;
-*);;*]
-  (*
-    <- begin_date_1901;;
-    <- completion_date_1901;;
 *);;
-pers_comp_organization_of_the_organization_of_the_Minsk_provincial_post_and_telegraph_office_1901
-=>nrel_main_idtf:
-[Персональный состав Минской губернской почтово-телеграфной конторы 1901 года](*<-lang_ru;;*);;
-*/
 

@@ -7,7 +7,7 @@ building_of_Red_Church
 		[Красный костёл] (* <- lang_ru;; *);
 		[Red Church] (* <- lang_en;; *);
 		[Чырвоны касцёл] (* <- lang_by;; *);
-=> nrel_architect:Paizderski_Tomash;
+<= nrel_architect:Paizderski_Tomash;
 => nrel_material:concept_brick;
 <- rrel_key_sc_element:
 	...
@@ -149,7 +149,7 @@ concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nr
     <- completion_date_2016;;
 *);;
 
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_vicar:Lisovskiy_Adam;;
 *);;*]
@@ -157,7 +157,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- begin_date_1910;;
     <- completion_date_1911;;
 *);;
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_vicar:Lisovskiy_Adam;;
 ->nrel_priest:Lucian_Zhelandkovskiy;;
@@ -166,7 +166,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- begin_date_1911;;
     <- completion_date_1912;;
 *);;
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_priest:Lucian_Zhelandkovskiy;;
 *);;*]
@@ -184,7 +184,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- completion_date_1918;;
 *);;
 
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_priest:Chmielewski_Yanovich;;
 *);;*]
@@ -192,7 +192,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- begin_date_1921;;
     <- completion_date_1928;;
 *);;
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_priest:Shatsilo_Albin_Albinovich;;
 *);;*]
@@ -200,7 +200,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- begin_date_1929;;
     <- completion_date_1930;;
 *);;
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_priest:Shatsilo_Albin_Albinovich;;
 ->nrel_prior:Yaroshevich_Antonovich;;
@@ -218,7 +218,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- begin_date_1932;;
     <- completion_date_1933;;
 *);;
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_prior:Stanisla_Glyakovsky;;
 *);;*]
@@ -227,7 +227,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- completion_date_1941;;
 *);;
 
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_prior:Ignatovich_Zeno;;
 *);;*]
@@ -236,7 +236,7 @@ concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organiza
     <- completion_date_1944;;
 *);;
 
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
+concept_situation->[*building_of_Red_Church
 (*
 ->nrel_prior:Barisovich_Franzevich;;
 *);;*]
