@@ -228,233 +228,206 @@ building_of_house_of_government;;*]
 
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:Alexander_Grigoryevich_Chervyakov;;
-*);;   *]
+*]
 (*
     <- begin_date_18_12_1920;;
     <- completion_date_16_06_1937;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:Stakun_Mikhail_Iosiphovich;; 
-*);;  *]
+*]
 (*
     <- begin_date_07_07_1937;;
     <- completion_date_13_11_1937;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Nadezhda_Grigoryevna_Grekova;; 
-*);; *]
+*]
 (*
     <- begin_date_25_07_1938;;
     <- completion_date_12_03_1947;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:Vasil_Ivanavich_Kazlow;; 
-*);;  *]
+*]
 (*
     <- begin_date_12_03_1947;;
     <- completion_date_17_03_1948;;
 *);;
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Eugene_Bugaev;; 
-*);;  *]
+*]
 (*
     <- begin_date_17_03_1948;;
     <- completion_date_14_04_1949;;
 *);;
 
 concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Joseph_Belsky;; 
-*);;  *]
+*]
 (*
     <- begin_date_14_04_1949;;
     <- completion_date_28_03_1955;;
 *);;
 
 concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:  Timofey_Gorbunov_Sazonovich;;
-*);;  *]
+*]
 (*
     <- begin_date_28_03_1955;;
     <- completion_date_28_03_1963;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:  Vasil_Filimonovich_Shauro;;
-*);;  *]
+*]
 (*
     <- begin_date_28_03_1963;;
     <- completion_date_22_12_1965;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:  Evgeny_Ivanovich_Skurko;;
-*);;  *]
+*]
 (*
     <- begin_date_22_12_1965;;
     <- completion_date_15_07_1971;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Ivan_Petrovich_Shamiakin;;
-*);;  *]
+*]
 (*
     <- begin_date_15_07_1971;;
     <- completion_date_28_03_1985;;
 *);;
 
 concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Ivan_Naumenko;;
-*);;   *]
+*]
 (*
     <- begin_date_28_03_1985;;
     <- completion_date_15_05_1990;;
 *);;
 
 concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Mikalay_Dzyemyantsyey;;
-*);;  *]
+*]
 (*
     <- begin_date_18_05_1990;;
     <- completion_date_25_08_1991;;
 *);;
 
 concept_situation->[*   organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:Stanislav_Shushkevich;;
-*);; *]
+*]
 (*
     <- begin_date_18_09_1991;;
     <- completion_date_26_01_1994;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Myechyslaw_Hryb;;
-*);;  *]
+*]
 (*
     <- begin_date_24_01_1994;;
     <- completion_date_09_01_1996;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Syamyon_Sharetski;;
-*);;  *]
+*]
 (*
     <- begin_date_10_01_1996;;
     <- completion_date_27_11_1996;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Malofiejev_Anatolij_Aleksandrivich;;
-*);;   *]
+*]
 (*
     <- begin_date_28_11_1996;;
     <- completion_date_21_11_2000;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Paviel_Vladimirovich_Szipuk;;
-*);;   *]
+*]
 (*
     <- begin_date_13_01_1997;;
     <- completion_date_19_12_2000;;
 *);;
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Vojtovich_Aleksandr_Pavlovich;;
-*);;   *]
+*]
 (*
     <- begin_date_19_12_2000;;
     <- completion_date_25_07_2003;;
 *);;
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Popov_Vadim_Aljeksandrovich;;
-*);;  *]
+*]
 (*
     <- begin_date_21_11_2000;;
     <- completion_date_16_11_2004;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Novickij_Hennadij_Vasiljevich;; 
-*);;  *]
+*]
 (*
     <- begin_date_28_07_2003;;
     <- completion_date_31_10_2008;;
 *);;
 
 concept_situation->[*  organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Andriejchenko_Vladimir_Pavlovich;; 
-*);;*]
+*]
 (*
     <- begin_date_27_10_2008;;
 *);;
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Konopljov_Vladimir_Nikolajevich;; 
-*);; *]
+*]
 (*
     <- begin_date_16_11_2004;;
     <- completion_date_02_10_2007;;
 *);;
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman:  Popov_Vadim_Aljeksandrovich;;
-*);; *]
+*]
 (*
     <- begin_date_02_10_2007;;
     <- completion_date_27_10_2008;;
 *);;
 
 concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Batura_Boris_Vasiljevich;;
-*);;  *]
+*]
 (*
     <- begin_date_31_10_2008;;
     <- completion_date_24_05_2010;;
 *);;
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Rubinov_Anatolij_Nikolajevich;; 
-*);; *]
+*]
 (*
     <- begin_date_24_05_2010;;
     <- completion_date_16_01_2015;;
 *);;
 
 concept_situation->[* organization_The_Central_Executive_Committee_of_the_BSSR
-(*
  ->rrel_chairman: Myasnikovich_Mikhail_Vladimirovich;;
-*);; 
 *]
 (*
     <- begin_date_16_01_2015;;

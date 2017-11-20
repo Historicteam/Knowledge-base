@@ -142,25 +142,23 @@ concept_situation->[*building_wooden_railway_church
 *);;
 
 concept_situation->[*building_wooden_railway_church
-(*
-->rrel_prior: Perabila_Petr;;
+->rrel_prior: Perabila_Petr;
 ->rrel_deacon: Valasevich_Ivan;;
-*);;*]
+*]
   (*
     <- begin_date_1900;;
     <- completion_date_1901;;
 *);;
 
 concept_situation->[*building_wooden_railway_church
-(*
-->rrel_prior: Kvacheuski_Ipalit;;
-->rrel_deacon: Gurin;;
-->rrel_watchman: Rakitskiy;;
-->rrel_watchman: Kruchanok;;
-->rrel_priest: Chudzinovich_Ivan;;
-->rrel_priest: Sakalou_Andrei;;
+->rrel_prior: Kvacheuski_Ipalit;
+->rrel_deacon: Gurin;
+->rrel_watchman: Rakitskiy;
+->rrel_watchman: Kruchanok;
+->rrel_priest: Chudzinovich_Ivan;
+->rrel_priest: Sakalou_Andrei;
 ->rrel_priest: Piguleuski_Antoniy;;
-*);;*]
+*]
   (*
     <- begin_date_1901;;
     <- completion_date_1917;;

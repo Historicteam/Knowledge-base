@@ -54,18 +54,17 @@ concept_situation->[* organization_of_the_Minsk_Post_and_Telegraph_District => n
 *);;
 
 concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District
-(*
-->rrel_director:Karovin_Ivan_Andrejevich;;
-->rrel_assistant:Rubiec_Erast_Macviejevich ;;
-->rrel_official_for_special_assignments: Tarnauski_Stiapan_Ignacjevich;;
-->rrel_clerk: Aliejnikau_Piotr_Mikhajlavich;;
-->rrel_assistant:Kazakievich_Arciemij_Arturavich ;;
-->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich ;;
-->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;;
-->rrel_assistant:Halaskou_Ivan_Vasivjevich ;;
-->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;;
+->rrel_director:Karovin_Ivan_Andrejevich;
+->rrel_assistant:Rubiec_Erast_Macviejevich;
+->rrel_official_for_special_assignments: Tarnauski_Stiapan_Ignacjevich;
+->rrel_clerk: Aliejnikau_Piotr_Mikhajlavich;
+->rrel_assistant:Kazakievich_Arciemij_Arturavich;
+->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich;
+->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;
+->rrel_assistant:Halaskou_Ivan_Vasivjevich;
+->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;
 ->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;;
-*);;*]
+*]
   (*
     <- begin_date_1910;;
     <- completion_date_1910;;
@@ -73,45 +72,43 @@ concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District
 
 
 concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District
-(*
-->rrel_director:Karovin_Ivan_Andrejevich;;
-->rrel_assistant:Rubiec_Erast_Macviejevich ;;
-->rrel_official_for_special_assignments: Kapiecki_Heorhij_Sciapanavich;;
-->rrel_clerk: Piatrou_Arest_Jaugrafavich;;
-->rrel_assistant:Kavaliou_Vasil_Ciarencjevich ;;
-->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich ;;
-->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;;
-->rrel_assistant:Halaskou_Ivan_Vasivjevich ;;
-->rrel_assistant:Rutkouski_Kuzma_Francavich ;;
-->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;;
-->rrel_electrical_engineer:Siamionau_Dzmitryj_Siargiejevich;;
-->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;;
+->rrel_director:Karovin_Ivan_Andrejevich;
+->rrel_assistant:Rubiec_Erast_Macviejevich;
+->rrel_official_for_special_assignments: Kapiecki_Heorhij_Sciapanavich;
+->rrel_clerk: Piatrou_Arest_Jaugrafavich;
+->rrel_assistant:Kavaliou_Vasil_Ciarencjevich;
+->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich;
+->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;
+->rrel_assistant:Halaskou_Ivan_Vasivjevich;
+->rrel_assistant:Rutkouski_Kuzma_Francavich;
+->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;
+->rrel_electrical_engineer:Siamionau_Dzmitryj_Siargiejevich;
+->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;
 ->rrel_mechanic:Dalhapolau_Lieu_Jakaulievich;;
-*);;*]
+*]
   (*
     <- begin_date_1901;;
     <- completion_date_1902;;
 *);;
 
 concept_situation->[*organization_of_the_Minsk_Post_and_Telegraph_District
-(*
-->rrel_director:Karovin_Ivan_Andrejevich;;
-->rrel_assistant:Rubiec_Erast_Macviejevich ;;
-->rrel_clerk: Piatrou_Arest_Jaugrafavich;;
-->rrel_assistant:Kavaliou_Vasil_Ciarencjevich ;;
-->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich ;;
-->rrel_assistant:Arciemjeu_Iulian_Paulavich;;
-->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;;
-->rrel_assistant:Halaskou_Ivan_Vasivjevich ;;
-->rrel_assistant:Rutkouski_Kuzma_Francavich ;;
-->rrel_counting_officials:Ciarencjeu_Avierkau_Asipovich;;
-->rrel_counting_officials:Radchanka_Mikalaj_Sciapanavich;;
-->rrel_mechanic:Jarzhambicki_Ivan_Ilaryjonavich ;;
-->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;;
-->rrel_electrical_engineer:Siamionau_Dzmitryj_Siargiejevich;;
-->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;;
+->rrel_director:Karovin_Ivan_Andrejevich;
+->rrel_assistant:Rubiec_Erast_Macviejevich;
+->rrel_clerk: Piatrou_Arest_Jaugrafavich;
+->rrel_assistant:Kavaliou_Vasil_Ciarencjevich;
+->rrel_assistant:Jarzhambicki_Ivan_Ilaryjonavich;
+->rrel_assistant:Arciemjeu_Iulian_Paulavich;
+->rrel_accountant: Piatrou_Mitrafan_Jaugrafavich;
+->rrel_assistant:Halaskou_Ivan_Vasivjevich;
+->rrel_assistant:Rutkouski_Kuzma_Francavich;
+->rrel_counting_officials:Ciarencjeu_Avierkau_Asipovich;
+->rrel_counting_officials:Radchanka_Mikalaj_Sciapanavich;
+->rrel_mechanic:Jarzhambicki_Ivan_Ilaryjonavich;
+->rrel_mechanic: Rukavisznikau_Dzmitryj_Firsavich;
+->rrel_electrical_engineer:Siamionau_Dzmitryj_Siargiejevich;
+->rrel_mechanic:Katkouski_Vasil_Aliaksiejevich;
 ->rrel_mechanic:Dalhapolau_Lieu_Jakaulievich;;
-*);;*]
+*]
   (*
     <- begin_date_1903;;
     <- completion_date_1902;;

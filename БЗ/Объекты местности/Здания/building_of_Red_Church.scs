@@ -150,104 +150,92 @@ concept_situation->[*organization_roman_catholic_parish_named_simon_helena => nr
 *);;
 
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_vicar:Lisovskiy_Adam;;
-*);;*]
+->rrel_vicar:Lisovskiy_Adam;;
+*]
   (*
     <- begin_date_1910;;
     <- completion_date_1911;;
 *);;
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_vicar:Lisovskiy_Adam;;
-->nrel_priest:Lucian_Zhelandkovskiy;;
-*);;*]
+->rrel_vicar:Lisovskiy_Adam;
+->rrel_priest:Lucian_Zhelandkovskiy;;
+*]
   (*
     <- begin_date_1911;;
     <- completion_date_1912;;
 *);;
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_priest:Lucian_Zhelandkovskiy;;
-*);;*]
+->rrel_priest:Lucian_Zhelandkovskiy;;
+*]
   (*
     <- begin_date_1912;;
     <- completion_date_1916;;
 *);;
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
-(*
-->nrel_vicar:Semaska_Sigismund;;
-->nrel_priest:Lucian_Zhelandkovskiy;;
-*);;*]
+concept_situation->[*building_of_Red_Church
+->rrel_vicar:Semaska_Sigismund;
+->rrel_priest:Lucian_Zhelandkovskiy;;
+*]
   (*
     <- begin_date_1916;;
     <- completion_date_1918;;
 *);;
 
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_priest:Chmielewski_Yanovich;;
-*);;*]
+->rrel_priest:Chmielewski_Yanovich;;
+*]
   (*
     <- begin_date_1921;;
     <- completion_date_1928;;
 *);;
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_priest:Shatsilo_Albin_Albinovich;;
-*);;*]
+->rrel_priest:Shatsilo_Albin_Albinovich;;
+*]
   (*
     <- begin_date_1929;;
     <- completion_date_1930;;
 *);;
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_priest:Shatsilo_Albin_Albinovich;;
-->nrel_prior:Yaroshevich_Antonovich;;
-*);;*]
+->rrel_priest:Shatsilo_Albin_Albinovich;
+->rrel_prior:Yaroshevich_Antonovich;;
+*]
   (*
     <- begin_date_1930;;
     <- completion_date_1932;;
 *);;
 
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
-(*
-->nrel_prior:Yaroshevich_Antonovich;;
-*);;*]
+concept_situation->[*building_of_Red_Church
+->rrel_prior:Yaroshevich_Antonovich;;
+*]
   (*
     <- begin_date_1932;;
     <- completion_date_1933;;
 *);;
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_prior:Stanisla_Glyakovsky;;
-*);;*]
+->rrel_prior:Stanisla_Glyakovsky;;
+*]
   (*
     <- begin_date_1940;;
     <- completion_date_1941;;
 *);;
 
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_prior:Ignatovich_Zeno;;
-*);;*]
+->rrel_prior:Ignatovich_Zeno;;
+*]
   (*
     <- begin_date_1941;;
     <- completion_date_1944;;
 *);;
 
 concept_situation->[*building_of_Red_Church
-(*
-->nrel_prior:Barisovich_Franzevich;;
-*);;*]
+->rrel_prior:Barisovich_Franzevich;;
+*]
   (*
     <- begin_date_1944;;
     <- completion_date_1944;;
 *);;
-concept_situation->[*building_of_Red_Church=> nrel_personal_composition:organization_roman_catholic_parish_named_simon_helena
-(*
-->nrel_prior:Zavalniuk_Matveevich;;
-*);;*]
+concept_situation->[*building_of_Red_Church
+->rrel_prior:Zavalniuk_Matveevich;;
+*]
   (*
     <- begin_date_1990;;
     <- completion_date_2016;;

@@ -220,27 +220,24 @@ concept_situation->[*Zdanovich_Ivan_Ustinovich =>nrel_dwelling: Zhdanovich_house
 *);;
 
 concept_situation->[*organization_Minsk_Hospital
-(* 
 ->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1892;;
 	<- completion_date_1915;;			
 *);;
 
 concept_situation->[*organization_minsk_woomen_gymnazi
-(* 
 ->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1893;;
 	<- completion_date_1904;;			
 *);;
 
 concept_situation->[*organization_minskay_rech
-(*
 ->rrel_editor;;
-*);;*]
+*]
 (*
 	<- begin_date_1906;;
 	<- completion_date_1912;;			

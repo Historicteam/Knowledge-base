@@ -265,102 +265,95 @@ concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling: Vilgelm
 	<- completion_date_1927;;			
 *);;
 concept_situation->[* organization_In_Bel_Kult
-(*
 ->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1921;;
-	<- completion_date_1928;;			
+	<- completion_date_1928;;
 *);;
 
 concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
-(*
 ->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1929;;
-	<- completion_date_1931;;			
+	<- completion_date_1931;;
 *);;
 
 concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
-(*
 ->rrel_employee:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1935;;
-	<- completion_date_1938;;			
+	<- completion_date_1938;;
 *);;
 
 concept_situation->[*organization_The_Central_Executive_Committee_of_the_BSSR
-(*
 ->rrel_deputy:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1938;;
-	<- completion_date_1956;;			
+	<- completion_date_1956;;
 *);;
 
 concept_situation->[*The_National_Academy_of_Sciences_of_the_BSSR
-(*
 ->rrel_academician:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1928;;
-	<- completion_date_1956;;			
+	<- completion_date_1956;;
 *);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building_Frunze_13;;*]
 (*
 	<- begin_date_1927;;
-	<- completion_date_1941;;			
+	<- completion_date_1941;;
 *);;
 concept_situation->[*Mitskevich_Konstantin_Mihailovich => nrel_dwelling:building_is_a_dwelling_house_of_Yakub_Kolas;;*]
 (*
 	<- begin_date_1945;;
-	<- completion_date_13_08_1956;;			
+	<- completion_date_13_08_1956;;
 *);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <-rrel_student :organization_Nesvizh_teacher_seminary;;*]
 (*
 	<- begin_date_1898;;
-	<- completion_date_1902;;			
+	<- completion_date_1902;;
 *);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <-rrel_student :organization_Nikolaevskaja_elementary_school;;*]
 (*
 	<- begin_date_1892;;
-	<- completion_date_1894;;			
+	<- completion_date_1894;;
 *);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <-rrel_student:organization_Alexandrov_military_school;;*]
 (*
 	<- begin_date_1915;;
-	<- completion_date_1916;;			
+	<- completion_date_1916;;
 *);;
 
 concept_situation->[*organization_redaction_of_newspaper_Nasha_Niva
-(*
 ->rrel_author:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1906;;
-	<- completion_date_1908;;			
+	<- completion_date_1908;;
 *);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich =>nrel_teacher: Fursevich_Alies;;*]
 (*
 	<- begin_date_1890;;
-	<- completion_date_1892;;			
+	<- completion_date_1892;;
 *);;
 
 
 concept_situation->[*organization_Belarusian_State_University
-(*
 ->rrel_assistant:Mitskevich_Konstantin_Mihailovich;;
-*);;*]
+*]
 (*
 	<- begin_date_1923;;
-	<- completion_date_1926;;			
+	<- completion_date_1926;;
 *);;
 
 concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: ...
@@ -377,7 +370,7 @@ concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: .
 	*);;*]
 (*
 	<- begin_date_1930;;
-	<- completion_date_1935;;			
+	<- completion_date_1935;;
 *);;
 
 
@@ -395,6 +388,6 @@ concept_situation->[*Mitskevich_Konstantin_Mihailovich <- rrel_key_sc_element: .
 	*);;*]
 (*
 	<- begin_date_1908;;
-	<- completion_date_1915;;			
+	<- completion_date_1915;;
 *);;
 

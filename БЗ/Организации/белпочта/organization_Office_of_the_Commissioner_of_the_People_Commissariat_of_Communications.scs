@@ -170,63 +170,56 @@ concept_situation->[* organization_Office_of_the_Commissioner_of_the_People_Comm
 
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
-(*
 ->rrel_Minister_of_Communications_and_Informatization: Afanasjeu_Paviel_Vasiljevich;;
-*);;*]
+*]
   (*
     <- begin_date_11_02_1955;;
     <- completion_date_22_01_1980;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
-(*
 ->rrel_Minister_of_Communications_and_Informatization:Hrycuk_Ivan_Mikhajlavich;;
-*);;*]
+*]
   (*
     <- begin_date_22_01_1980;;
     <- completion_date_16_09_1994;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
-(*
 ->rrel_Minister_of_Communications_and_Informatization: Hancharenka_Uladzimir_Ivanavich;;
-*);;*]
+*]
   (*
     <- begin_date_14_10_1994;;
     <- completion_date_16_12_1999;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
-(*
 ->rrel_Minister_of_Communications_and_Informatization: Hancharenka_Uladzimir_Ivanavich;;
-*);;*]
+*]
   (*
     <- begin_date_26_02_2001;;
     <- completion_date_05_05_2006;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
-(*
 ->rrel_Minister_of_Communications_and_Informatization: Krukouski_Mikalaj_Aliaksandravich;;
-*);;*]
+*]
   (*
     <- begin_date_12_01_2000;;
     <- completion_date_22_02_2001;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
-(*
 ->rrel_Minister_of_Communications_and_Informatization:Pancialiej_Mikalaj_Piatrovich;;
-*);;*]
+*]
   (*
     <- begin_date_05_05_2006;;
     <- completion_date_21_02_2014;;
 *);;
 
 concept_situation->[*organization_Office_of_the_Commissioner_of_the_People_Commissariat_of_Communications
-(*
 ->rrel_Minister_of_Communications_and_Informatization:Papkou_Siarhej_Piatrovich;;
-*);;*]
+*]
   (*
     <- begin_date_21_02_2014;;
 

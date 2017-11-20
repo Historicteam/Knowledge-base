@@ -117,58 +117,51 @@ concept_situation->[* organization_Minsk_School_for_the_Blind => nrel_location: 
 
 
 concept_situation->[* organization_Minsk_School_for_the_Blind
-(*
 ->rrel_director:Zdanovich_Ivan_Ustinovich;;
-*);;*]
+*]
   (*
     <- begin_date_28_09_1897;;
     <- completion_date_1910;;
 *);;
 
 concept_situation->[*organization_Minsk_School_for_the_Blind
-(*
-->rrel_director:Zdanovich_Ivan_Ustinovich;;
-->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
-->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
+->rrel_director:Zdanovich_Ivan_Ustinovich;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;
 ->rrel_teacher:Dickou_Ivan_Jehoravich;;
-
-*);;*]
+*]
   (*
     <- begin_date_1905;;
     <- completion_date_1908;;
 *);;
 
 concept_situation->[*organization_Minsk_School_for_the_Blind
-(*
-->rrel_director:Zdanovich_Ivan_Ustinovich;;
-->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
-->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
+->rrel_director:Zdanovich_Ivan_Ustinovich;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;
 ->rrel_teacher:Barysau_Alieksiej_Stiapanavich;;
-
-*);;*]
+*]
   (*
     <- begin_date_1909;;
     <- completion_date_1910;;
 *);;
 
 concept_situation->[*organization_Minsk_School_for_the_Blind
-(*
-->rrel_director:Zdanovich_Ivan_Ustinovich;;
-->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;;
-->rrel_teacher:Stanislau_Kanstantinavich_Boltut;;
-->rrel_teacher:Barysau_Alieksiej_Stiapanavich;;
-->rrel_teacher:Fiodar_Afanasjevich_Malyshau;;
+->rrel_director:Zdanovich_Ivan_Ustinovich;
+->rrel_inspector:Ivan_Vasiljevich_Hiaorhijeuski;
+->rrel_teacher:Stanislau_Kanstantinavich_Boltut;
+->rrel_teacher:Barysau_Alieksiej_Stiapanavich;
+->rrel_teacher:Fiodar_Afanasjevich_Malyshau;
 ->rrel_teacher:Vladzimir_Hrihorjevich_Khiraska;;
-*);;*]
+*]
   (*
     <- begin_date_1910;;
     <- completion_date_1915;;
 *);;
 
 concept_situation->[*organization_Minsk_School_for_the_Blind
-(*
 ->rrel_director:Ivan_Vasiljevich_Hiaorhijeuski;;
-*);;*]
+*]
   (*
     <- begin_date_1915;;
     <- completion_date_1915;;
