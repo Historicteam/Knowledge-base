@@ -6,8 +6,6 @@ subject_domain_of_buildings
 	(* <- lang_en;; *);
 <- subject_domain;
 
-<= nrel_primary_elements_class_private_subject_domain: xxx;
-
 -> rrel_maximum_studied_object_class:
     concept_construction;
 
