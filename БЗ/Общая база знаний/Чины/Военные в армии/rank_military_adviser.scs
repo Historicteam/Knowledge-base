@@ -1,0 +1,16 @@
+rank_military_adviser
+=>nrel_main_idtf:
+	[Военный советник]
+	(*
+		<-lang_ru;;
+	*);
+	[Military Adviser]
+	(*
+		<-lang_en;;
+	*);
+	[Ваенны саветнік]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1763;
+	<- completion_date_1808;;

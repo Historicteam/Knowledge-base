@@ -1,0 +1,8 @@
+Nestar_Larans
+
+=> nrel_main_idtf:
+	[Нестор Леранс] (* <- lang_ru;; *);
+	[Nestar Larans] (* <- lang_en;; *);
+	[Нестар Ляранс] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

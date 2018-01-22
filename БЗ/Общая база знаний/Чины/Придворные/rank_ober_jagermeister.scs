@@ -1,0 +1,16 @@
+rank_ober_jagermeister
+=>nrel_main_idtf:
+	[Обер-егермейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober-Jägermeister]
+	(*
+		<-lang_en;;
+	*);
+	[Обер-егермайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

@@ -1,0 +1,16 @@
+rank_chancellor
+=>nrel_main_idtf:
+	[Канцлер]
+	(*
+		<-lang_ru;;
+	*);
+	[Chancellor]
+	(*
+		<-lang_en;;
+	*);
+	[Канцлер]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

@@ -1,0 +1,16 @@
+rank_college_recorder
+=>nrel_main_idtf:
+	[Коллежский регистратор]
+	(*
+		<-lang_ru;;
+	*);
+	[College Recorder]
+	(*
+		<-lang_en;;
+	*);
+	[Калежскі рэгістратар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

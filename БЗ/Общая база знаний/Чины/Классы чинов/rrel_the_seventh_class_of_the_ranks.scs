@@ -1,0 +1,16 @@
+sc_node_role_relation->rrel_the_seventh_class_of_the_ranks;;
+
+rrel_the_seventh_class_of_the_ranks
+=>nrel_main_idtf:
+	[VII класс чинов']
+	(*
+		<-lang_ru;;
+	*);
+	[VII class of ranks']
+	(*
+		<-lang_en;;
+	*);
+	[VII клас чыноў']
+	(*
+		<-lang_by;;
+	*);;

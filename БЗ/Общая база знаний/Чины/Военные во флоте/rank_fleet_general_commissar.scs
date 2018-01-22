@@ -1,0 +1,16 @@
+rank_fleet_general_commissar
+=>nrel_main_idtf:
+	[Генерал-кригскомиссар флота]
+	(*
+		<-lang_ru;;
+	*);
+	[Fleet General Commissar]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-крiгскамісар флоту]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1817;;

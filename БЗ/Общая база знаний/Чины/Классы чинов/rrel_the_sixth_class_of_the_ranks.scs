@@ -1,0 +1,16 @@
+sc_node_role_relation->rrel_the_sixth_class_of_the_ranks;;
+
+rrel_the_sixth_class_of_the_ranks
+=>nrel_main_idtf:
+	[VI класс чинов']
+	(*
+		<-lang_ru;;
+	*);
+	[VI class of ranks']
+	(*
+		<-lang_en;;
+	*);
+	[VI клас чыноў']
+	(*
+		<-lang_by;;
+	*);;

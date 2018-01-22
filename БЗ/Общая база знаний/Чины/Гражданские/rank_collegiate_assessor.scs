@@ -1,0 +1,16 @@
+rank_collegiate_assessor
+=>nrel_main_idtf:
+	[Коллежский асессор]
+	(*
+		<-lang_ru;;
+	*);
+	[Collegiate assessor]
+	(*
+		<-lang_en;;
+	*);
+	[Калежскі асэсар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

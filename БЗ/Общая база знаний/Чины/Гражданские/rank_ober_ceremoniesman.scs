@@ -1,0 +1,22 @@
+rank_ober_ceremoniesman
+=>nrel_main_idtf:
+	[Обер-церемониймейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober Ceremoniesman]
+	(*
+		<-lang_en;;
+	*);
+	[Обер-цырымоніймайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1796;;
+
+concept_situation->[* subdividing_of_civil_ranks -> rrel_the_fourth_class_of_the_ranks: rank_ober_ceremoniesman;; *]
+(*
+    <- begin_date_1743;;
+	<- completion_date_1796;;
+*);;

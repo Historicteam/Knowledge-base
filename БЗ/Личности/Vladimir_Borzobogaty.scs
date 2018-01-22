@@ -1,0 +1,8 @@
+Vladimir_Borzobogaty
+
+=> nrel_main_idtf:
+	[Владимир Борзобогатый] (* <- lang_ru;; *);
+	[Vladimir Borzobogaty] (* <- lang_en;; *);
+	[Уладзімір Борзабогаты] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

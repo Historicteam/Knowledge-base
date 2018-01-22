@@ -1,0 +1,22 @@
+rank_podesaul
+=>nrel_main_idtf:
+	[Подъесаул]
+	(*
+		<-lang_ru;;
+	*);
+	[Pod'esaul]
+	(*
+		<-lang_en;;
+	*);
+	[Пад'есавул]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1730;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_ninth_class_of_the_ranks: rank_podesaul;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

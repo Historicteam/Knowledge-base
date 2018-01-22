@@ -1,0 +1,16 @@
+rank_stahlmaster
+=>nrel_main_idtf:
+	[Шталмейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Stahlmaster]
+	(*
+		<-lang_en;;
+	*);
+	[Шталмайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

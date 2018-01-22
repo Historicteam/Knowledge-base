@@ -1,0 +1,16 @@
+sc_node_role_relation->rrel_the_thirteenth_class_of_the_ranks;;
+
+rrel_the_thirteenth_class_of_the_ranks
+=>nrel_main_idtf:
+	[ХIII класс чинов']
+	(*
+		<-lang_ru;;
+	*);
+	[ХIII class of ranks']
+	(*
+		<-lang_en;;
+	*);
+	[ХIII клас чыноў']
+	(*
+		<-lang_by;;
+	*);;

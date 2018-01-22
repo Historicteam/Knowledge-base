@@ -1,0 +1,49 @@
+rank_second_in_command_in_cavalry
+=>nrel_main_idtf:
+	[Секунд-ротмистр в кавалерии]
+	(*
+		<-lang_ru;;
+	*);
+	[Second-in-command in cavalry]
+	(*
+		<-lang_en;;
+	*);
+	[Секунд-ротмістр у кавалерыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1884;;
+
+concept_situation->[* rank_second_in_command_in_cavalry<= nrel_temporal_decomposition:rank_staff_captain_in_the_cavalry;; *]
+(*
+    <- begin_date_1797;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_tenth_class_of_the_ranks: rank_staff_captain_in_the_cavalry;; *]
+(*
+    <- begin_date_1797;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_ninth_class_of_the_ranks: rank_staff_captain_in_the_cavalry;; *]
+(*
+    <- begin_date_1797;;
+	<- completion_date_1884;;
+*);;
+
+rank_staff_captain_in_the_cavalry
+=>nrel_main_idtf:
+	[Штабс-ротмистр в кавалерии]
+	(*
+		<-lang_ru;;
+	*);
+	[Staff Captain in cavalry]
+	(*
+		<-lang_en;;
+	*);
+	[Штабс-ротмістр у кавалерыі]
+	(*
+		<-lang_by;;
+	*);;

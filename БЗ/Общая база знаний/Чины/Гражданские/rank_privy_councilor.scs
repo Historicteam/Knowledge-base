@@ -1,0 +1,22 @@
+rank_privy_councilor
+=>nrel_main_idtf:
+	[Тайный советник]
+	(*
+		<-lang_ru;;
+	*);
+	[Privy Councilor]
+	(*
+		<-lang_en;;
+	*);
+	[Тайны радца]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_civil_ranks -> rrel_the_third_class_of_the_ranks: rank_privy_councilor;;  *]
+(*
+    <- begin_date_1724;;
+	<- completion_date_1917;;
+*);;

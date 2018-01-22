@@ -1,0 +1,49 @@
+rank_captain_lieutenant_in_the_infantry
+=>nrel_main_idtf:
+	[Капитан-поручик в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Captain-Lieutenant in the Infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Капітан-паручнік у пяхоце]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1730;
+	<- completion_date_1917;;
+
+concept_situation->[* rank_captain_lieutenant_in_the_infantry<= nrel_temporal_decomposition:rank_staff_captain_in_the_infantry;; *]
+(*
+    <- begin_date_1797;;
+	<- completion_date_1917;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_tenth_class_of_the_ranks: rank_staff_captain_in_the_infantry;; *]
+(*
+    <- begin_date_1797;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_ninth_class_of_the_ranks: rank_staff_captain_in_the_infantry;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;
+
+rank_staff_captain_in_the_infantry
+=>nrel_main_idtf:
+	[Штабс-капитан в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Staff Captain in the Infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Штабс-капітан у пяхоце]
+	(*
+		<-lang_by;;
+	*);;

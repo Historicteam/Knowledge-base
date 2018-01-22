@@ -1,0 +1,16 @@
+rank_titular_adviser
+=>nrel_main_idtf:
+	[Титулярный советник]
+	(*
+		<-lang_ru;;
+	*);
+	[Titular Adviser]
+	(*
+		<-lang_en;;
+	*);
+	[Тытулярны саветнік]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

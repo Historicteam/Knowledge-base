@@ -1,0 +1,16 @@
+rank_major_general
+=>nrel_main_idtf:
+	[Генерал-майор]
+	(*
+		<-lang_ru;;
+	*);
+	[Major General]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-маёр]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

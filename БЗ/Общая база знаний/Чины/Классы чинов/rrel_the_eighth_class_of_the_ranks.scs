@@ -1,0 +1,16 @@
+sc_node_role_relation->rrel_the_eighth_class_of_the_ranks;;
+
+rrel_the_eighth_class_of_the_ranks
+=>nrel_main_idtf:
+	[VIII класс чинов']
+	(*
+		<-lang_ru;;
+	*);
+	[VIII class of ranks']
+	(*
+		<-lang_en;;
+	*);
+	[VIII клас чыноў']
+	(*
+		<-lang_by;;
+	*);;

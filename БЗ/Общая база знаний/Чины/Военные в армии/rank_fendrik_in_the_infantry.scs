@@ -1,0 +1,50 @@
+rank_fendrik_in_the_infantry
+=>nrel_main_idtf:
+	[Фендрик в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Fendrik in the infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Фендрык ў пяхоце]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+rank_ensign_in_the_infantry
+=>nrel_main_idtf:
+	[Прапорщик в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Ensign in the infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Прапаршчык у пяхоце]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_situation->[* rank_fendrik_in_the_infantry<= nrel_temporal_decomposition:rank_ensign_in_the_infantry;; *]
+(*
+    <- begin_date_1730;;
+	<- completion_date_1884;;
+	<-concept_the_fourteenth_class_of_the_ranks;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_fourteenth_class_of_the_ranks: rank_fendrik_in_the_infantry;; *]
+(*
+    <- begin_date_1730;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_thirteenth_class_of_the_ranks: rank_fendrik_in_the_infantry;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

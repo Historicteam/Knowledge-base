@@ -1,0 +1,17 @@
+rank_1st_rank_captain
+=>nrel_main_idtf:
+	[Капитан 1-го ранга]
+	(*
+		<-lang_ru;;
+	*);
+	[1st Rank Captain]
+	(*
+		<-lang_en;;
+	*);
+	[Капітан 1-га рангу]
+	(*
+		<-lang_by;;
+	*);
+
+<- begin_date_1722;
+	<- completion_date_1917;;

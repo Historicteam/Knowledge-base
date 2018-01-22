@@ -1,0 +1,22 @@
+rank_ober_schenk
+=>nrel_main_idtf:
+	[Обер-Шенк]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober-Schenk]
+	(*
+		<-lang_en;;
+	*);
+	[Обер-Шэнк]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_second_class_of_the_ranks: rank_ober_schenk;; *]
+(*
+    <- begin_date_1762;;
+	<- completion_date_1917;;
+*);;

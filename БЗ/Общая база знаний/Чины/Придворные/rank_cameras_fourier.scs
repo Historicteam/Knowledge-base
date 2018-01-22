@@ -1,0 +1,16 @@
+rank_cameras_fourier
+=>nrel_main_idtf:
+	[Камер-фурьер]
+	(*
+		<-lang_ru;;
+	*);
+	[Cameras-Fourier]
+	(*
+		<-lang_en;;
+	*);
+	[Камер-фур'ер]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1742;
+	<- completion_date_1884;;

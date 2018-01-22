@@ -1,0 +1,22 @@
+rank_general_from_the_cavalry
+=>nrel_main_idtf:
+	[Генерал от кавалерии]
+	(*
+		<-lang_ru;;
+	*);
+	[General from the Cavalry]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал ад кавалерыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_second_class_of_the_ranks: rank_general_from_the_cavalry;; *]
+(*
+    <- begin_date_1796;;
+	<- completion_date_1917;;
+*);;

@@ -1,0 +1,22 @@
+rank_chamberlain
+=>nrel_main_idtf:
+	[Камергер]
+	(*
+		<-lang_ru;;
+	*);
+	[Chamberlain]
+	(*
+		<-lang_en;;
+	*);
+	[Камергер]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1809;;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_fourth_class_of_the_ranks: rank_chamberlain;; *]
+(*
+    <- begin_date_1737;;
+	<- completion_date_1809;;
+*);;

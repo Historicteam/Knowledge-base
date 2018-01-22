@@ -1,0 +1,16 @@
+rank_gallery_master
+=>nrel_main_idtf:
+	[Галерный мастер]
+	(*
+		<-lang_ru;;
+	*);
+	[The gallery master]
+	(*
+		<-lang_en;;
+	*);
+	[Галерны майстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1826;;

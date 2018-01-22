@@ -1,0 +1,16 @@
+rank_lieutenant_guard
+=>nrel_main_idtf:
+	[Подпоручик гвардии]
+	(*
+		<-lang_ru;;
+	*);
+	[Lieutenant Guard]
+	(*
+		<-lang_en;;
+	*);
+	[Падпаручнік гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1730;
+	<- completion_date_1884;;

@@ -1,0 +1,8 @@
+Oleg_Trusov
+
+=> nrel_main_idtf:
+	[Олег Трусов] (* <- lang_ru;; *);
+	[Oleg Trusov] (* <- lang_en;; *);
+	[Алег Трусаў] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

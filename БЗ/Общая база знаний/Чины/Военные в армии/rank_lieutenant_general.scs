@@ -1,0 +1,16 @@
+rank_lieutenant_general
+=>nrel_main_idtf:
+	[Генерал-поручик]
+	(*
+		<-lang_ru;;
+	*);
+	[Lieutenant-General]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал ад фартыфікацыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1741;
+	<- completion_date_1796;;

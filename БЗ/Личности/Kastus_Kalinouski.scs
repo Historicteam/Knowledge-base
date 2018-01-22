@@ -1,0 +1,8 @@
+Kastus_Kalinouski
+
+=> nrel_main_idtf:
+	[Кастусь Калиновский] (* <- lang_ru;; *);
+	[Kastus Kalinouski] (* <- lang_en;; *);
+	[Кастусь Каліноўскі] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

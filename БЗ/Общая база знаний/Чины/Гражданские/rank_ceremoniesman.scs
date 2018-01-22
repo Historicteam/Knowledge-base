@@ -1,0 +1,28 @@
+rank_ceremoniesman
+=>nrel_main_idtf:
+	[Церемониймейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Ceremoniesman]
+	(*
+		<-lang_en;;
+	*);
+	[Цырымоніймайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1796;;
+
+concept_situation->[* subdividing_of_civil_ranks -> rrel_the_fifth_class_of_the_ranks: rank_ceremoniesman;; *]
+(*
+    <- begin_date_1743;;
+	<- completion_date_1796;;
+*);;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_fifth_class_of_the_ranks: rank_ceremoniesman ;; *]
+(*   
+	<- begin_date_1743;;
+	<- completion_date_1796;;
+*);;

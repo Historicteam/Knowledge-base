@@ -1,0 +1,22 @@
+rank_centurion_of_the_cossacks
+=>nrel_main_idtf:
+	[Сотник у казаков]
+	(*
+		<-lang_ru;;
+	*);
+	[The centurion of the Cossacks]
+	(*
+		<-lang_en;;
+	*);
+	[Сотнік у казакоў]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_tenth_class_of_the_ranks: rank_centurion_of_the_cossacks;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

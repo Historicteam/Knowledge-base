@@ -1,0 +1,51 @@
+sc_node_not_relation->concept_court_rank;;
+concept_court_rank
+=>nrel_main_idtf:
+	[придворный чин]
+	(*
+		<-lang_ru;;
+	*);
+	[court rank]
+	(*
+		<-lang_en;;
+	*);
+	[прыдворны чын]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_court_rank
+	<=nrel_subdividing: subdividing_of_court_ranks
+	(*
+		-> rrel_the_sixth_class_of_the_ranks: rank_cameras_fourier;;
+		-> rrel_the_ninth_class_of_the_ranks: rank_camer_junker;;
+		-> rrel_the_sixth_class_of_the_ranks: rank_chamberlain;;
+		-> rrel_the_ninth_class_of_the_ranks: rank_hoffourier;;
+		-> rrel_the_second_class_of_the_ranks: rank_hofmarshal;;
+		-> rrel_the_third_class_of_the_ranks: rank_hofmeister;;
+		-> rrel_the_third_class_of_the_ranks: rank_jagermeister;;
+		-> rrel_the_second_class_of_the_ranks: rank_ober_chamberlain;;
+		-> rrel_the_second_class_of_the_ranks: rank_ober_hofhmarshal;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_ober_hofmeister;;
+		-> rrel_the_second_class_of_the_ranks: rank_ober_jagermeister;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_ober_schenk;;
+		-> rrel_the_third_class_of_the_ranks: rank_ober_stahlmaster;;
+		-> rrel_the_third_class_of_the_ranks: rank_stahlmaster;;
+		-> rrel_the_eighth_class_of_the_ranks: rank_titular_chamberlain;;
+	*);;
+
+sc_node_not_relation->subdividing_of_court_ranks;;
+subdividing_of_court_ranks
+=>nrel_main_idtf:
+	[разбиение на придворные чины]
+	(*
+		<-lang_ru;;
+	*);
+	[subdividing of court ranks]
+	(*
+		<-lang_en;;
+	*);
+	[разбіенне на прыдворныя чыны]
+	(*
+		<-lang_by;;
+	*);;

@@ -1,0 +1,22 @@
+rank_ober_stahlmaster
+=>nrel_main_idtf:
+	[Обер-шталмейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober-Stahlmaster]
+	(*
+		<-lang_en;;
+	*);
+	[Обер-шталмайстрам]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_second_class_of_the_ranks: rank_ober_stahlmaster;; *]
+(*
+    <- begin_date_1766;;
+	<- completion_date_1917;;
+*);;

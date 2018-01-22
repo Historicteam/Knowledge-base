@@ -1,0 +1,16 @@
+rank_colonel_in_the_infantry
+=>nrel_main_idtf:
+	[Полковник в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Colonel in the infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Палкоўнік у пяхоце]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

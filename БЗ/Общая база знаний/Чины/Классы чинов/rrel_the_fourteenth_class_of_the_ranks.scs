@@ -1,0 +1,16 @@
+sc_node_role_relation->rrel_the_fourteenth_class_of_the_ranks;;
+
+rrel_the_fourteenth_class_of_the_ranks
+=>nrel_main_idtf:
+	[ХIV класс чинов']
+	(*
+		<-lang_ru;;
+	*);
+	[ХIV class of ranks']
+	(*
+		<-lang_en;;
+	*);
+	[ХIV клас чыноў']
+	(*
+		<-lang_by;;
+	*);;

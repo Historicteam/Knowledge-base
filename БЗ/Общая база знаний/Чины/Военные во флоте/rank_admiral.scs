@@ -1,0 +1,16 @@
+rank_admiral
+=>nrel_main_idtf:
+	[Адмирал]
+	(*
+		<-lang_ru;;
+	*);
+	[Admiral]
+	(*
+		<-lang_en;;
+	*);
+	[Адмірал]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

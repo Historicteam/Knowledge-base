@@ -1,0 +1,27 @@
+rank_poruchik
+=>nrel_main_idtf:
+	[Поручик]
+	(*
+		<-lang_ru;;
+	*);
+	[Poruchik]
+	(*
+		<-lang_en;;
+	*);
+	[Паручнік]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_idtf:
+	[Порутчик]
+	(*
+		<-lang_ru;;
+	*);
+<- begin_date_1730;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_tenth_class_of_the_ranks: rank_army_sergeant;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

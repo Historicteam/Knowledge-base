@@ -1,0 +1,16 @@
+sc_node_role_relation->rrel_the_twelfth_class_of_the_ranks;;
+
+rrel_the_twelfth_class_of_the_ranks
+=>nrel_main_idtf:
+	[ХII класс чинов']
+	(*
+		<-lang_ru;;
+	*);
+	[ХII class of ranks']
+	(*
+		<-lang_en;;
+	*);
+	[ХII клас чыноў']
+	(*
+		<-lang_by;;
+	*);;

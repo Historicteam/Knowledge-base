@@ -1,0 +1,22 @@
+rank_real_privy_councilor
+=>nrel_main_idtf:
+	[Действительный тайный советник]
+	(*
+		<-lang_ru;;
+	*);
+	[Real Privy Councilor]
+	(*
+		<-lang_en;;
+	*);
+	[Сапраўдны тайны радца]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_civil_ranks -> rrel_the_first_class_of_the_ranks: rank_real_privy_councilor;; *]
+(*
+    <- begin_date_1773;;
+	<- completion_date_1917;;
+*);;

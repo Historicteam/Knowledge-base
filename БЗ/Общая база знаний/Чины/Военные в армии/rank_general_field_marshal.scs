@@ -1,0 +1,16 @@
+rank_general_field_marshal
+=>nrel_main_idtf:
+	[Генерал-фельдмаршал]
+	(*
+		<-lang_ru;;
+	*);
+	[General-Field Marshal]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-фельдмаршал]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

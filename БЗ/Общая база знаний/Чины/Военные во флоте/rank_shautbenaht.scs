@@ -1,0 +1,45 @@
+rank_shautbenaht
+=>nrel_main_idtf:
+	[Шаутбенахт]
+	(*
+		<-lang_ru;;
+	*);
+	[Shautbenaht]
+	(*
+		<-lang_en;;
+	*);
+	[Шаутбенахт]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1740;;
+
+rank_rear_admiral
+=>nrel_main_idtf:
+	[Контр-адмирал]
+	(*
+		<-lang_ru;;
+	*);
+	[Rear Admiral]
+	(*
+		<-lang_en;;
+	*);
+	[Контр-адмірал]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1740;
+	<- completion_date_1917;;
+
+concept_situation->[* rank_shautbenaht<= nrel_temporal_decomposition:rank_rear_admiral;; *]
+(*
+    <- begin_date_1740;;
+	<- completion_date_1917;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_fourth_class_of_the_ranks: rank_captain_commander;; *]
+(*
+    <- begin_date_1740;;
+	<- completion_date_1917;;
+*);;

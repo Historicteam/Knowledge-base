@@ -1,0 +1,22 @@
+rank_senior_lieutenant
+=>nrel_main_idtf:
+	[Старший лейтенант]
+	(*
+		<-lang_ru;;
+	*);
+	[Senior Lieutenant]
+	(*
+		<-lang_en;;
+	*);
+	[Старэйшы лейтэнант]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1907;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_eighth_class_of_the_ranks: rank_senior_lieutenant;; *]
+(*
+    <- begin_date_1912;;
+	<- completion_date_1917;;
+*);;

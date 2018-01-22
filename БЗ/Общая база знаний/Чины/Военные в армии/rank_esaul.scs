@@ -1,0 +1,22 @@
+rank_esaul
+=>nrel_main_idtf:
+	[Есаул]
+	(*
+		<-lang_ru;;
+	*);
+	[Esaul]
+	(*
+		<-lang_en;;
+	*);
+	[Есавул]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1798;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_eighth_class_of_the_ranks: rank_esaul;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

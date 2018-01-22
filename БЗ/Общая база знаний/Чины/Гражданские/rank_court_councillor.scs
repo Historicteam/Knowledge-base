@@ -1,0 +1,22 @@
+rank_court_councillor
+=>nrel_main_idtf:
+	[Надворный советник]
+	(*
+		<-lang_ru;;
+	*);
+	[Court councillor]
+	(*
+		<-lang_en;;
+	*);
+	[Надворны саветнік]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_civil_ranks -> rrel_the_fifth_class_of_the_ranks: rank_court_councillor;; *]
+(*
+    <- begin_date_1745;;
+	<- completion_date_1917;;
+*);;

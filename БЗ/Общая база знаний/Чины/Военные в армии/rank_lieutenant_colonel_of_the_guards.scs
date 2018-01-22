@@ -1,0 +1,22 @@
+rank_lieutenant_colonel_of_the_guards
+=>nrel_main_idtf:
+	[Подполковник гвардии]
+	(*
+		<-lang_ru;;
+	*);
+	[Lieutenant Colonel of the Guards]
+	(*
+		<-lang_en;;
+	*);
+	[Падпалкоўнік гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1798;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_fourth_class_of_the_ranks: rank_lieutenant_colonel_of_the_guards;; *]
+(*
+    <- begin_date_1748;;
+	<- completion_date_1798;;
+*);;

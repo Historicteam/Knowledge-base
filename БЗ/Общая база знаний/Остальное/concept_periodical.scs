@@ -1,0 +1,26 @@
+concept_periodical
+=>nrel_main_idtf:
+	[периодическое издание] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Periodical] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Перыядычнае выданне] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:
+		[Издание (обычно печатное), выходящее с заявленной периодичностью.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example:
+		[Выданне (звычайна друкаванае), якое выходзіць з заяўленай перыядычнасцю.] (* <-lang_by;; *);;
+		*);;
+	*);
+	
+<-sc_const;;

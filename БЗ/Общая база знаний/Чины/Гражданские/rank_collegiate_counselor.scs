@@ -1,0 +1,16 @@
+rank_collegiate_counselor
+=>nrel_main_idtf:
+	[Коллежский советник]
+	(*
+		<-lang_ru;;
+	*);
+	[Collegiate Counselor]
+	(*
+		<-lang_en;;
+	*);
+	[Калежскі саветнік]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

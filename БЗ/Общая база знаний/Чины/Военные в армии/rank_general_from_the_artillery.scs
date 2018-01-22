@@ -1,0 +1,16 @@
+rank_general_from_the_artillery
+=>nrel_main_idtf:
+	[Генерал от артиллерии]
+	(*
+		<-lang_ru;;
+	*);
+	[General from the artillery]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал ад артылерыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1796;
+	<- completion_date_1917;;

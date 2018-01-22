@@ -1,0 +1,16 @@
+rank_engineer_general
+=>nrel_main_idtf:
+	[Инженер-генерал]
+	(*
+		<-lang_ru;;
+	*);
+	[Engineer-General]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-фельдмаршал]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1796;
+	<- completion_date_1917;;

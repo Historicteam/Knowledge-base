@@ -1,0 +1,34 @@
+rank_captain_commander
+=>nrel_main_idtf:
+	[Капитан-командор]
+	(*
+		<-lang_ru;;
+	*);
+	[Captain Commander]
+	(*
+		<-lang_en;;
+	*);
+	[Капітан-камандор]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1827;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_fifth_class_of_the_ranks: rank_captain_commander;; *]
+(*
+    <- begin_date_1722;;
+	<- completion_date_1732;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_fifth_class_of_the_ranks: rank_captain_commander;; *]
+(*
+    <- begin_date_1751;;
+	<- completion_date_1764;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_fifth_class_of_the_ranks: rank_captain_commander;; *]
+(*
+    <- begin_date_1798;;
+	<- completion_date_1827;;
+*);;

@@ -1,0 +1,16 @@
+rank_state_councillor
+=>nrel_main_idtf:
+	[Статский советник]
+	(*
+		<-lang_ru;;
+	*);
+	[State Councillor]
+	(*
+		<-lang_en;;
+	*);
+	[Cтацкі саветнік]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1724;
+	<- completion_date_1917;;

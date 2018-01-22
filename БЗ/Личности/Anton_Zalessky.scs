@@ -1,0 +1,8 @@
+Anton_Zalessky
+
+=> nrel_main_idtf:
+	[Антон Залесский] (* <- lang_ru;; *);
+	[Anton Zalessky] (* <- lang_en;; *);
+	[Антось Залескі] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

@@ -1,0 +1,8 @@
+Ludwig_Zvezdowski
+
+=> nrel_main_idtf:
+	[Людвиг Звеждовский] (* <- lang_ru;; *);
+	[Ludwig Zvezdowski] (* <- lang_en;; *);
+	[Людвіг Звяждоўскі] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

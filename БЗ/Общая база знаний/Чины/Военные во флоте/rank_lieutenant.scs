@@ -1,0 +1,28 @@
+rank_lieutenant
+=>nrel_main_idtf:
+	[Лейтенант]
+	(*
+		<-lang_ru;;
+	*);
+	[Lieutenant]
+	(*
+		<-lang_en;;
+	*);
+	[Лейтэнант]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_ninth_class_of_the_ranks: rank_lieutenant;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1906;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_ninth_class_of_the_ranks: rank_lieutenant;; *]
+(*
+	<- begin_date_1912;;
+	<- completion_date_1917;;
+*);;
