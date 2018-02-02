@@ -221,15 +221,14 @@ concept_situation->[* organization_Committee_of_the_Movement->rrel_chairman:Ludw
 	<- completion_date_1862;;
 *);;
 
-concept_situation->[* organization_Committee_of_the_Movement->rrel_member: ...
-(*
- ->Kastus_Kalinouski;;
- ->Achillo_Bonaldi;;
- ->Edmund_Verigo;;
- ->Zygmunt_Chehovich;;
- ->Boleslaw_Dluski;;
- ->Anton_Zalessky;;
-*);;   *]
+concept_situation->[* 
+ organization_Committee_of_the_Movement->rrel_member: Kastus_Kalinouski;;
+ organization_Committee_of_the_Movement->rrel_member: Achillo_Bonaldi;;
+ organization_Committee_of_the_Movement->rrel_member: Edmund_Verigo;;
+ organization_Committee_of_the_Movement->rrel_member: Zygmunt_Chehovich;;
+ organization_Committee_of_the_Movement->rrel_member: Boleslaw_Dluski;;
+ organization_Committee_of_the_Movement->rrel_member: Anton_Zalessky;;
+ *]
 (*
     <- begin_date_1861;;
 	<- completion_date_1862;;
