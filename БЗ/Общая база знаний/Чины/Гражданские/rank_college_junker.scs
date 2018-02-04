@@ -1,0 +1,21 @@
+rank_college_junker
+=>nrel_main_idtf:
+	[Коллежский юнкер]
+	(*
+		<-lang_ru;;
+	*);
+	[College Junker]
+	(*
+		<-lang_en;;
+	*);
+	[Калежскі юнкер]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_idtf:
+	[Коллегии-юнкер]
+	(*
+		<-lang_ru;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1822;;

@@ -1,0 +1,81 @@
+sc_node_not_relation->concept_military_rank_in_the_army;;
+concept_military_rank_in_the_army
+=>nrel_main_idtf:
+	[военный чин в армии]
+	(*
+		<-lang_ru;;
+	*);
+	[military rank in the army]
+	(*
+		<-lang_en;;
+	*);
+	[ваенны чын у арміі]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_military_rank_in_the_army
+	<=nrel_subdividing: subdividing_of_military_ranks_in_the_army
+	(*
+		-> rrel_the_eighth_class_of_the_ranks: rank_army_sergeant;;
+		-> rrel_the_thirteenth_class_of_the_ranks: rank_bayonet_cadet_in_artillery;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_brigadier;;
+		-> rrel_the_tenth_class_of_the_ranks: rank_captain_lieutenant_in_the_infantry;;
+		-> rrel_the_seventh_class_of_the_ranks: rank_captain_of_the_guards;;
+		-> rrel_the_twelfth_class_of_the_ranks: rank_centurion_of_the_cossacks;;
+		-> rrel_the_sixth_class_of_the_ranks: rank_colonel_in_the_infantry;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_colonel_of_the_guards;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_cornet_in_the_cavalry;;
+		-> rrel_the_second_class_of_the_ranks: rank_engineer_general;;
+		-> rrel_the_twelfth_class_of_the_ranks: rank_ensign_of_the_guard;;
+		-> rrel_the_ninth_class_of_the_ranks: rank_esaul;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_fendrik_in_the_infantry;;
+		-> rrel_the_second_class_of_the_ranks: rank_general_feldsegmehster;;
+		-> rrel_the_first_class_of_the_ranks: rank_general_field_marshal;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_general_from_fortification;;
+		-> rrel_the_second_class_of_the_ranks: rank_general_from_the_artillery;;
+		-> rrel_the_second_class_of_the_ranks: rank_general_from_the_cavalry;;
+		-> rrel_the_second_class_of_the_ranks: rank_general_from_the_infantry;;
+		-> rrel_the_third_class_of_the_ranks: rank_general_kriegskomissar;;
+		-> rrel_the_third_class_of_the_ranks: rank_general_lieutenant;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_general_proviantmeister;;
+		-> rrel_the_second_class_of_the_ranks: rank_general_secretary;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_khorunzhy_cossacks;;
+		-> rrel_the_seventh_class_of_the_ranks: rank_krigskomissar;;
+		-> rrel_the_seventh_class_of_the_ranks: rank_lieutenant_colonel_in_the_infantry;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_lieutenant_colonel_of_the_guards;;
+		-> rrel_the_third_class_of_the_ranks: rank_lieutenant_general;;
+		-> rrel_the_tenth_class_of_the_ranks: rank_lieutenant_guard;;
+		-> rrel_the_thirteenth_class_of_the_ranks: rank_lieutenant_in_the_infantry;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_major_general;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_major_major_guards;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_military_adviser;;
+		-> rrel_the_sixth_class_of_the_ranks: rank_ober_krigskomissar;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_ober_shter_krogskomissar;;
+		-> rrel_the_tenth_class_of_the_ranks: rank_podesaul;;
+		-> rrel_the_twelfth_class_of_the_ranks: rank_poruchik;;
+		-> rrel_the_eighth_class_of_the_ranks: rank_prime_major_in_the_infantry;;
+		-> rrel_the_seventh_class_of_the_ranks: rank_rotmistr_of_the_guards;;
+		-> rrel_the_tenth_class_of_the_ranks: rank_second_in_command_in_cavalry;;
+		-> rrel_the_thirteenth_class_of_the_ranks: rank_second_lieutenant_in_artillery;;
+		-> rrel_the_sixth_class_of_the_ranks: rank_second_major_guards;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_shter_kriegscommissioner;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_sub_lieutenant_in_the_guards;;
+		-> rrel_the_tenth_class_of_the_ranks: rank_zeyhvarter_in_artillery;;
+	*);;
+
+sc_node_not_relation->subdividing_of_military_ranks_in_the_army;;
+subdividing_of_military_ranks_in_the_army
+=>nrel_main_idtf:
+	[разбиение на военные чины в армии]
+	(*
+		<-lang_ru;;
+	*);
+	[subdividing of military ranks in the army]
+	(*
+		<-lang_en;;
+	*);
+	[разбіенне на ваенныя чыны у арміі]
+	(*
+		<-lang_by;;
+	*);;

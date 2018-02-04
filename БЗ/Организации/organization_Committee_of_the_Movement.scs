@@ -1,0 +1,290 @@
+organization_Committee_of_the_Movement
+=> nrel_main_idtf:
+	[Комитет движения]
+	(*
+	<- lang_ru;;
+	*);
+	[Committee of the Movement]
+	(*
+	<- lang_en;;
+	*);
+	[Камiтэт руху]
+	(*
+	<- lang_by;;
+	*);
+<- begin_date_1861;
+	<- completion_date_1862; 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Осенью 1861 г. революционеры Беларуси и Литвы создали в Вильне Комитет движения под руководством Людвига Звеждовского, в конце лета 1862 г. преобразованный в Литовский провинциальный комитет, для руководства восстанием в крае.]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[In the autumn of 1861 the revolutionaries of Belarus and Lithuania was created in Vilna Committee of the movement under the leadership of Ludwig Zvezdowski, in the late summer of 1862 transformed into the Lithuanian Provincial Committee to lead the uprising in the province.]
+			 (* 
+			<-lang_en;; 
+			*);;
+		*);
+	...
+		(* -> rrel_example:
+	[Восенню 1861 г. рэвалюцыянеры Беларусі і Літвы стварылі ў Вільні Камітэт руху пад кіраўніцтвам Людвіга Звяждоўскага, у канцы лета 1862 г. пераўтвораны ў Літоўскі правінцыйны камітэт, для кіраўніцтва паўстаннем ў краі.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);
+<-concept_organization;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;
+=>nrel_founder:Ludwig_Zvezdowski;;
+
+organization_Lithuanian_Provincial_Committee
+=> nrel_main_idtf:
+	[Литовский провинциальный комитет]
+	(*
+	<- lang_ru;;
+	*);
+	[Lithuanian Provincial Committee]
+	(*
+	<- lang_en;;
+	*);
+	[Літоўскі правінцыйны камітэт]
+	(*
+	<- lang_by;;
+	*); 
+<- begin_date_1862;
+	<- completion_date_1864;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+organization_Provincial_Provisional_Government_of_Lithuania_and_Belarus
+=> nrel_main_idtf:
+	[Временное правительство Литвы и Беларуси]
+	(*
+	<- lang_ru;;
+	*);
+	[Provincial Provisional Government of Lithuania and Belarus]
+	(*
+	<- lang_en;;
+	*);
+	[Правінцыйны Часовы ўрад Літвы і Беларусі]
+	(*
+	<- lang_by;;
+	*); 
+<- begin_date_01_02_1863;
+	<- completion_date_11_03_1863;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+organization_Executive_department_of_Lithuania
+=> nrel_main_idtf:
+	[Исполнительный отдел Литвы]
+	(*
+	<- lang_ru;;
+	*);
+	[Executive department of Lithuania]
+	(*
+	<- lang_en;;
+	*);
+	[Выканаўчы аддзел Літвы]
+	(*
+	<- lang_by;;
+	*); 
+<- begin_date_26_06_1863;
+	<- completion_date_1864;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+organization_Provinces_of_Lithuania_Management_Division
+=> nrel_main_idtf:
+	[Отдел управления провинциями Литвы]
+	(*
+	<- lang_ru;;
+	*);
+	[Provinces of Lithuania Management Division]
+	(*
+	<- lang_en;;
+	*);
+	[Аддзел кіраўніцтва правінцыямі Літвы]
+	(*
+	<- lang_by;;
+	*); 
+<- begin_date_11_03_1863;
+	<- completion_date_26_06_1863;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+organization_Grodno_Revolutionary_Organization
+=> nrel_main_idtf:
+	[Гродненская революционная организация]
+	(*
+	<- lang_ru;;
+	*);
+	[Grodno revolutionary organization]
+	(*
+	<- lang_en;;
+	*);
+	[Гарадзенская рэвалюцыйная арганізацыя]
+	(*
+	<- lang_by;;
+	*); 
+<- begin_date_1862;
+	<- completion_date_1864;
+ ->rrel_chairman:Kastus_Kalinouski;
+<-concept_organization;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+organization_Minsk_Revolutionary_Organization
+=> nrel_main_idtf:
+	[Минская революционная организация]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk revolutionary organization]
+	(*
+	<- lang_en;;
+	*);
+	[Менская рэвалюцыйная арганізацыя]
+	(*
+	<- lang_by;;
+	*); 
+<- begin_date_1862;
+	<- completion_date_1864;
+ ->rrel_chairman:Oleg_Trusov;
+<-concept_organization;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+organization_Novogrudok_Revolutionary_Organization
+=> nrel_main_idtf:
+	[Новогрудская революционная организация]
+	(*
+	<- lang_ru;;
+	*);
+	[Novogrudok revolutionary organization]
+	(*
+	<- lang_en;;
+	*);
+	[Наваградзкая рэвалюцыйная арганізацыя]
+	(*
+	<- lang_by;;
+	*); 
+<- begin_date_1862;
+	<- completion_date_1864;
+ ->rrel_chairman:Vladimir_Borzobogaty;
+<-concept_organization;
+<-concept_non_governmental_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+concept_situation->[* organization_Committee_of_the_Movement<= nrel_temporal_decomposition:organization_Provinces_of_Lithuania_Management_Division;; *]
+(*
+    <- begin_date_11_03_1863;;
+	<- completion_date_26_06_1863;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement<= nrel_temporal_decomposition:organization_Executive_department_of_Lithuania;; *]
+(*
+    <- begin_date_26_06_1863;;
+	<- completion_date_1864;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement<= nrel_temporal_decomposition:organization_Provincial_Provisional_Government_of_Lithuania_and_Belarus;; *]
+(*
+    <- begin_date_01_02_1863;;
+	<- completion_date_11_03_1863;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement<= nrel_temporal_decomposition:organization_Lithuanian_Provincial_Committee;; *]
+(*
+    <- begin_date_1862;;
+	<- completion_date_1864;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement->rrel_chairman:Ludwig_Zvezdowski;; *]
+(*
+    <- begin_date_1861;;
+	<- completion_date_1862;;
+*);;
+
+concept_situation->[* 
+ organization_Committee_of_the_Movement->rrel_member: Kastus_Kalinouski;;
+ organization_Committee_of_the_Movement->rrel_member: Achillo_Bonaldi;;
+ organization_Committee_of_the_Movement->rrel_member: Edmund_Verigo;;
+ organization_Committee_of_the_Movement->rrel_member: Zygmunt_Chehovich;;
+ organization_Committee_of_the_Movement->rrel_member: Boleslaw_Dluski;;
+ organization_Committee_of_the_Movement->rrel_member: Anton_Zalessky;;
+ *]
+(*
+    <- begin_date_1861;;
+	<- completion_date_1862;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement->rrel_chairman:Kastus_Kalinouski;; *]
+(*
+    <- begin_date_1862;;
+	<- completion_date_1864;;
+*);;
+
+concept_situation->[* 
+ organization_Committee_of_the_Movement->rrel_member: Jan_Cosell_Poklevsky;;
+ organization_Committee_of_the_Movement->rrel_member: Achillo_Bonaldi;;
+ organization_Committee_of_the_Movement->rrel_member: Edmund_Verigo;;
+ organization_Committee_of_the_Movement->rrel_member: Zygmunt_Chehovich;;
+ organization_Committee_of_the_Movement->rrel_member: Boleslaw_Dluski;;
+ organization_Committee_of_the_Movement->rrel_member: Anton_Zalessky;;
+ *]
+(*
+    <- begin_date_1862;;
+	<- completion_date_1864;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement->rrel_commissar:Nestar_Larans;; *]
+(*
+    <- begin_date_1862;;
+	<- completion_date_1864;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement=> nrel_publisher:Muzyckaja_prauda;;   *]
+(*
+    <- begin_date_1862;;
+	<- completion_date_1863;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement=> nrel_publisher:Sciah_Svabody;;   *]
+(*
+    <- begin_date_1862;;
+	<- completion_date_1863;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement=> nrel_branch:organization_Grodno_Revolutionary_Organization;;   *]
+(*
+    <- begin_date_1861;;
+	<- completion_date_1863;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement=> nrel_branch:organization_Minsk_Revolutionary_Organization;;   *]
+(*
+    <- begin_date_1861;;
+	<- completion_date_1863;;
+*);;
+
+concept_situation->[* organization_Committee_of_the_Movement=> nrel_branch:organization_Novogrudok_Revolutionary_Organization;;   *]
+(*
+    <- begin_date_1861;;
+	<- completion_date_1863;;
+*);;

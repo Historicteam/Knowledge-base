@@ -1,0 +1,8 @@
+Jan_Cosell_Poklevsky
+
+=> nrel_main_idtf:
+	[Ян Козелл-Поклевский] (* <- lang_ru;; *);
+	[Jan Cosell-Poklevsky] (* <- lang_en;; *);
+	[Ян Козел-Паклеўскі] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

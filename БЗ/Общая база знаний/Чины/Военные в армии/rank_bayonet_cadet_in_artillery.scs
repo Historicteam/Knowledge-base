@@ -1,0 +1,16 @@
+rank_bayonet_cadet_in_artillery
+=>nrel_main_idtf:
+	[Штык-юнкер в артиллерии]
+	(*
+		<-lang_ru;;
+	*);
+	[Bayonet-cadet in artillery]
+	(*
+		<-lang_en;;
+	*);
+	[Падпрапаршчык ў гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1796;;

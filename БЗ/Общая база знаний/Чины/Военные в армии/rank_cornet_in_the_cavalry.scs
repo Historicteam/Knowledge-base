@@ -1,0 +1,22 @@
+rank_cornet_in_the_cavalry
+=>nrel_main_idtf:
+	[Корнет в кавалерии]
+	(*
+		<-lang_ru;;
+	*);
+	[Cornet in the Cavalry]
+	(*
+		<-lang_en;;
+	*);
+	[Карнет ў кавалерыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1731;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_twelfth_class_of_the_ranks: rank_cornet_in_the_cavalry;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

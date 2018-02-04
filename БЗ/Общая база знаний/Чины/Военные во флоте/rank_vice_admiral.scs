@@ -1,0 +1,17 @@
+rank_vice_admiral
+=>nrel_main_idtf:
+	[Вице-адмирал]
+	(*
+		<-lang_ru;;
+	*);
+	[Vice Admiral]
+	(*
+		<-lang_en;;
+	*);
+	[Віцэ-адмірал]
+	(*
+		<-lang_by;;
+	*);
+<-concept_the_third_class_of_the_ranks;
+<- begin_date_1722;
+	<- completion_date_1917;;

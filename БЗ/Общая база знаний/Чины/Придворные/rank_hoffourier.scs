@@ -1,0 +1,16 @@
+rank_hoffourier
+=>nrel_main_idtf:
+	[Гоф-фурьер]
+	(*
+		<-lang_ru;;
+	*);
+	[Hof-Fourier]
+	(*
+		<-lang_en;;
+	*);
+	[Гоф-фур'ер]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

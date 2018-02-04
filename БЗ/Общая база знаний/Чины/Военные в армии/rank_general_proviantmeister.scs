@@ -1,0 +1,16 @@
+rank_general_proviantmeister
+=>nrel_main_idtf:
+	[Генерал-провиантмейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[General Proviantmeister]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-правіантмайстра]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1864;;

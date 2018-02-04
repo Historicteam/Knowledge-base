@@ -1,0 +1,16 @@
+rank_second_lieutenant_in_artillery
+=>nrel_main_idtf:
+	[Секунд-поручик в артиллерии]
+	(*
+		<-lang_ru;;
+	*);
+	[Second-Lieutenant in Artillery]
+	(*
+		<-lang_en;;
+	*);
+	[Секунд-паручнік у артылерыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1796;;

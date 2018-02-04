@@ -1,0 +1,16 @@
+rank_senate_registrar
+=>nrel_main_idtf:
+	[Сенатский регистратор]
+	(*
+		<-lang_ru;;
+	*);
+	[Senate Registrar]
+	(*
+		<-lang_en;;
+	*);
+	[Сенацкі рэгістратар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1834;;

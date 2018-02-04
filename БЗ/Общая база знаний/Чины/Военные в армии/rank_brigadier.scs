@@ -1,0 +1,16 @@
+rank_brigadier
+=>nrel_main_idtf:
+	[Бригадир]
+	(*
+		<-lang_ru;;
+	*);
+	[Brigadier]
+	(*
+		<-lang_en;;
+	*);
+	[Брыгадзір]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1796;;

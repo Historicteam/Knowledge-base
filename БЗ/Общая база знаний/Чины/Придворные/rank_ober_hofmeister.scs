@@ -1,0 +1,22 @@
+rank_ober_hofmeister
+=>nrel_main_idtf:
+	[Обер-гофмейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober-Hofmeister]
+	(*
+		<-lang_en;;
+	*);
+	[Обер-гофмайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_second_class_of_the_ranks: rank_ober_hofmeister;; *]
+(*
+    <- begin_date_1760;;
+	<- completion_date_1917;;
+*);;

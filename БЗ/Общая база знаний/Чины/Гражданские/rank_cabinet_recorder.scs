@@ -1,0 +1,16 @@
+rank_cabinet_recorder
+=>nrel_main_idtf:
+	[Кабинетский регистратор]
+	(*
+		<-lang_ru;;
+	*);
+	[Cabinet Recorder]
+	(*
+		<-lang_en;;
+	*);
+	[Кабинетский рэгістратар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

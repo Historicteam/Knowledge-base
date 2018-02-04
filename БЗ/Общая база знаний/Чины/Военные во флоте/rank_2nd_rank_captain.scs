@@ -1,0 +1,16 @@
+rank_2nd_rank_captain
+=>nrel_main_idtf:
+	[Капитан 2-го ранга]
+	(*
+		<-lang_ru;;
+	*);
+	[2nd Rank Captain]
+	(*
+		<-lang_en;;
+	*);
+	[Капітан 2-га рангу]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

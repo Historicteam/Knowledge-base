@@ -1,0 +1,28 @@
+rank_colonel_of_the_guards
+=>nrel_main_idtf:
+	[Полковник гвардии]
+	(*
+		<-lang_ru;;
+	*);
+	[Colonel of the Guards]
+	(*
+		<-lang_en;;
+	*);
+	[Палкоўнік гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_third_class_of_the_ranks: rank_colonel_of_the_guards;; *]
+(*
+    <- begin_date_1748;;
+	<- completion_date_1798;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_sixth_class_of_the_ranks: rank_colonel_of_the_guards;; *]
+(*
+    <- begin_date_1798;;
+	<- completion_date_1917;;
+*);;

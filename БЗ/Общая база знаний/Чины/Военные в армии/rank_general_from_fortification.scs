@@ -1,0 +1,16 @@
+rank_general_from_fortification
+=>nrel_main_idtf:
+	[Генерал от фортификации]
+	(*
+		<-lang_ru;;
+	*);
+	[General from fortification]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал ад фартыфікацыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1741;
+	<- completion_date_1796;;

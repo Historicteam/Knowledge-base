@@ -1,0 +1,16 @@
+rank_shter_kriegscommissioner
+=>nrel_main_idtf:
+	[Штер-кригскомиссар]
+	(*
+		<-lang_ru;;
+	*);
+	[Shter Kriegscommissioner]
+	(*
+		<-lang_en;;
+	*);
+	[Штэр-крігскамісар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1868;;

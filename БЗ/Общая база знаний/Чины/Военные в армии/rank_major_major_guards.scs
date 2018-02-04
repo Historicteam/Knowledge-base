@@ -1,0 +1,16 @@
+rank_major_major_guards
+=>nrel_main_idtf:
+	[Премьер-майор гвардии]
+	(*
+		<-lang_ru;;
+	*);
+	[Major-Major Guards]
+	(*
+		<-lang_en;;
+	*);
+	[Прэм'ер-маёр гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1748;
+	<- completion_date_1798;;

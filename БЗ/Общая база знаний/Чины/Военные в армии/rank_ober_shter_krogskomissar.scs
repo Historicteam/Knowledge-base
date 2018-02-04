@@ -1,0 +1,16 @@
+rank_ober_shter_krogskomissar
+=>nrel_main_idtf:
+	[Обер-штер-кригскомиссар]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober-shter-krogskomissar]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал ад фартыфікацыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1868;;

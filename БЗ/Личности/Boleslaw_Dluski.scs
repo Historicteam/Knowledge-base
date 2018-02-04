@@ -1,0 +1,8 @@
+Boleslaw_Dluski
+
+=> nrel_main_idtf:
+	[Болеслав Длуский] (* <- lang_ru;; *);
+	[Boleslaw Dluski] (* <- lang_en;; *);
+	[Баляслаў Длускі] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

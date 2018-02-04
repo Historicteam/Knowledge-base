@@ -1,0 +1,16 @@
+rank_ober_chamberlain
+=>nrel_main_idtf:
+	[Обер-камергер]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober-Chamberlain]
+	(*
+		<-lang_en;;
+	*);
+	[Обер-камергер]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

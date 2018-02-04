@@ -1,0 +1,22 @@
+rank_hofmarshal
+=>nrel_main_idtf:
+	[Гофмаршал]
+	(*
+		<-lang_ru;;
+	*);
+	[Hof-Marshal]
+	(*
+		<-lang_en;;
+	*);
+	[Гофмаршал]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_third_class_of_the_ranks: rank_hofmarshal;; *]
+(*
+    <- begin_date_1742;;
+	<- completion_date_1917;;
+*);;

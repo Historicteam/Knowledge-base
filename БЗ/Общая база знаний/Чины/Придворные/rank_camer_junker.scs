@@ -1,0 +1,28 @@
+rank_camer_junker
+=>nrel_main_idtf:
+	[Камер-юнкер]
+	(*
+		<-lang_ru;;
+	*);
+	[Camer-Junker]
+	(*
+		<-lang_en;;
+	*);
+	[Гоф-фур'ер]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1802;;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_sixth_class_of_the_ranks: rank_camer_junker;; *]
+(*
+    <- begin_date_1737;;
+	<- completion_date_1742;;
+*);;
+
+concept_situation->[* subdividing_of_court_ranks -> rrel_the_fifth_class_of_the_ranks: rank_camer_junker;; *]
+(*
+    <- begin_date_1742;;
+	<- completion_date_1802;;
+*);;

@@ -1,0 +1,22 @@
+rank_lieutenant_in_the_infantry
+=>nrel_main_idtf:
+	[Подпоручик в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Lieutenant in the infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Падпаручнік ў пяхоце]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1730;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_twelfth_class_of_the_ranks: rank_lieutenant_in_the_infantry;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

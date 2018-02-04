@@ -1,0 +1,16 @@
+rank_valid_state_councilor
+=>nrel_main_idtf:
+	[Действительный статский советник]
+	(*
+		<-lang_ru;;
+	*);
+	[Valid state councilor]
+	(*
+		<-lang_en;;
+	*);
+	[Сапраўдны стацкі саветнік]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1724;
+	<- completion_date_1917;;

@@ -1,0 +1,22 @@
+rank_general_lieutenant
+=>nrel_main_idtf:
+	[Генерал-лейтенант]
+	(*
+		<-lang_ru;;
+	*);
+	[General-Lieutenant]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-лейтэнант]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_third_class_of_the_ranks: rank_army_sergeant;; *]
+(*
+    <- begin_date_1796;;
+	<- completion_date_1917;;
+*);;

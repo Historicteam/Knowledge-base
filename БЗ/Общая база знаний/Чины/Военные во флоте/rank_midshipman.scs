@@ -1,0 +1,28 @@
+rank_midshipman
+=>nrel_main_idtf:
+	[Мичман]
+	(*
+		<-lang_ru;;
+	*);
+	[Midshipman]
+	(*
+		<-lang_en;;
+	*);
+	[Мічман]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1732;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_twelfth_class_of_the_ranks: rank_midshipman;; *]
+(*
+    <- begin_date_1796;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_tenth_class_of_the_ranks: rank_midshipman;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

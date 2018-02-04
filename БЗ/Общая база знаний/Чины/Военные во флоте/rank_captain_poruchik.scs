@@ -1,0 +1,55 @@
+rank_captain_poruchik
+=>nrel_main_idtf:
+	[Капитан-поручик]
+	(*
+		<-lang_ru;;
+	*);
+	[Captain-Poruchik]
+	(*
+		<-lang_en;;
+	*);
+	[Капітан-паручнік]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1911;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_eighth_class_of_the_ranks: rank_captain_poruchik;; *]
+(*
+    <- begin_date_1764;;
+	<- completion_date_1798;;
+*);;
+
+concept_situation->[* rank_captain_poruchik<= nrel_temporal_decomposition:rank_captain_lientenant;; *]
+(*
+    <- begin_date_1798;;
+	<- completion_date_1911;;
+*);;
+
+rank_captain_lientenant
+=>nrel_main_idtf:
+	[Капитан-лейтенант]
+	(*
+		<-lang_ru;;
+	*);
+	[Captain-Lieutenant]
+	(*
+		<-lang_en;;
+	*);
+	[Капітан-лейтэнант]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_ninth_class_of_the_ranks: rank_captain_lientenant;; *]
+(*
+    <- begin_date_1798;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_fleet -> rrel_the_eighth_class_of_the_ranks: rank_captain_lientenant;; *]
+(*
+    <- begin_date_1907;;
+	<- completion_date_1911;;
+*);;

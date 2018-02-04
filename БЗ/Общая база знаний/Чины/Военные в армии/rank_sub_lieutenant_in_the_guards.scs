@@ -1,0 +1,16 @@
+rank_sub_lieutenant_in_the_guards
+=>nrel_main_idtf:
+	[Подпрапорщик в гвардии]
+	(*
+		<-lang_ru;;
+	*);
+	[The Sub-Lieutenant in the Guards]
+	(*
+		<-lang_en;;
+	*);
+	[Падпрапаршчык ў гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1826;
+	<- completion_date_1917;;

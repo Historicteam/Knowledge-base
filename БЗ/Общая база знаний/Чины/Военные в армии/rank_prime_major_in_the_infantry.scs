@@ -1,0 +1,83 @@
+rank_prime_major_in_the_infantry
+=>nrel_main_idtf:
+	[Премьер-майор в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Prime Major in the Infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Прэм'ер-маёр у пяхоце]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_idtf:
+	[Секунд-майор в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Seconds Major in the Infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Секунд-маёр у пяхоце]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1731;
+	<- completion_date_1917;;
+
+rank_major_in_the_infantry
+=>nrel_main_idtf:
+	[Майор в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Major in the Infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Маёр у пяхоце]
+	(*
+		<-lang_by;;
+	*);;
+
+rank_captain_in_the_infantry
+=>nrel_main_idtf:
+	[Капитан в пехоте]
+	(*
+		<-lang_ru;;
+	*);
+	[Captain in the Infantry]
+	(*
+		<-lang_en;;
+	*);
+	[Капітан у пяхоце]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_situation->[* rank_prime_major_in_the_infantry<= nrel_temporal_decomposition:rank_major_in_the_infantry;; *]
+(*
+    <- begin_date_1798;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_eighth_class_of_the_ranks: rank_major_in_the_infantry;; *]
+(*
+    <- begin_date_1798;;
+	<- completion_date_1884;;
+*);;
+
+concept_situation->[* rank_prime_major_in_the_infantry<= nrel_temporal_decomposition:rank_captain_in_the_infantry;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_eighth_class_of_the_ranks: rank_captain_in_the_infantry;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

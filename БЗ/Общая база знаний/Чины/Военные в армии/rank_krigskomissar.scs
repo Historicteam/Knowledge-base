@@ -1,0 +1,16 @@
+rank_krigskomissar
+=>nrel_main_idtf:
+	[Кригскомиссар]
+	(*
+		<-lang_ru;;
+	*);
+	[Krigskomissar]
+	(*
+		<-lang_en;;
+	*);
+	[Крігскамісар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1868;;

@@ -1,0 +1,16 @@
+rank_ober_krigskomissar
+=>nrel_main_idtf:
+	[Обер-кригскомиссар]
+	(*
+		<-lang_ru;;
+	*);
+	[Ober-Krigskomissar]
+	(*
+		<-lang_en;;
+	*);
+	[Обер-крігскамісар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1868;;

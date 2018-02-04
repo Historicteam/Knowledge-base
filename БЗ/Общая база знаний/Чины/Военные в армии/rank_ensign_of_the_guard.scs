@@ -1,0 +1,16 @@
+rank_ensign_of_the_guard
+=>nrel_main_idtf:
+	[Прапорщик гвардии]
+	(*
+		<-lang_ru;;
+	*);
+	[Ensign of the Guard]
+	(*
+		<-lang_en;;
+	*);
+	[Прапаршчык гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1730;
+	<- completion_date_1884;;

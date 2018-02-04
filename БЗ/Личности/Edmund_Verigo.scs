@@ -1,0 +1,8 @@
+Edmund_Verigo
+
+=> nrel_main_idtf:
+	[Эдмунд Иванович Вериго] (* <- lang_ru;; *);
+	[Edmund Verigo] (* <- lang_en;; *);
+	[Эдмунд Іванавіч Вярыга] (* <- lang_by;; *);
+<- concept_male;
+<- concept_person;;

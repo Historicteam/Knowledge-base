@@ -1,0 +1,22 @@
+sc_node_not_relation->concept_military_rank;;
+concept_military_rank
+=>nrel_main_idtf:
+	[военный чин]
+	(*
+		<-lang_ru;;
+	*);
+	[military rank]
+	(*
+		<-lang_en;;
+	*);
+	[ваенны чын]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_military_rank
+	<=nrel_subdividing:
+	{
+		concept_military_rank_in_the_army;
+		concept_military_rank_in_the_fleet
+	};;

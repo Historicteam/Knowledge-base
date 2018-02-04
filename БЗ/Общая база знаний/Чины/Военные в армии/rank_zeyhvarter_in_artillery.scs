@@ -1,0 +1,16 @@
+rank_zeyhvarter_in_artillery
+=>nrel_main_idtf:
+	[Цейхвартер в артиллерии]
+	(*
+		<-lang_ru;;
+	*);
+	[Zeyhvarter in artillery]
+	(*
+		<-lang_en;;
+	*);
+	[Цейхвартер ў артылерыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1884;;

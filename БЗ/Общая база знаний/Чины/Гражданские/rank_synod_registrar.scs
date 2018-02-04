@@ -1,0 +1,16 @@
+rank_synod_registrar
+=>nrel_main_idtf:
+	[Синодский регистратор]
+	(*
+		<-lang_ru;;
+	*);
+	[Synod Registrar]
+	(*
+		<-lang_en;;
+	*);
+	[Синоцкі рэгістратар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1764;
+	<- completion_date_1917;;

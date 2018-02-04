@@ -1,0 +1,52 @@
+sc_node_not_relation->concept_military_rank_in_the_fleet;;
+concept_military_rank_in_the_fleet
+=>nrel_main_idtf:
+	[военный чин во флоте]
+	(*
+		<-lang_ru;;
+	*);
+	[military rank in the navy]
+	(*
+		<-lang_en;;
+	*);
+	[ваенны чын у флоце]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_military_rank_in_the_fleet
+	<=nrel_subdividing: subdividing_of_military_ranks_in_the_fleet
+	(*
+		-> rrel_the_sixth_class_of_the_ranks: rank_1st_rank_captain;;
+		-> rrel_the_seventh_class_of_the_ranks: rank_2nd_rank_captain;;
+		-> rrel_the_eighth_class_of_the_ranks: rank_3rd_rank_captain;;
+		-> rrel_the_second_class_of_the_ranks: rank_admiral;;
+		-> rank_captain_commander;;
+		-> rrel_the_ninth_class_of_the_ranks: rank_captain_poruchik;;
+		-> rrel_the_third_class_of_the_ranks: rank_fleet_general_commissar;;
+		-> rrel_the_ninth_class_of_the_ranks: rank_gallery_master;;
+		-> rrel_the_first_class_of_the_ranks: rank_general_admiral;;
+		-> rrel_the_tenth_class_of_the_ranks: rank_lieutenant;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_midshipman;;
+		-> rrel_the_ninth_class_of_the_ranks: rank_senior_lieutenant;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_shautbenaht;;
+		-> rrel_the_eleventh_class_of_the_ranks: rank_Ships_secretary;;
+		-> rrel_the_twelfth_class_of_the_ranks: rank_unter_lieutenant;;
+		-> rrel_the_third_class_of_the_ranks: rank_vice_admiral;;
+	*);;
+
+sc_node_not_relation->subdividing_of_military_ranks_in_the_fleet;;
+subdividing_of_military_ranks_in_the_fleet
+=>nrel_main_idtf:
+	[разбиение на военные чины во флоте]
+	(*
+		<-lang_ru;;
+	*);
+	[subdividing of military ranks in the fleet]
+	(*
+		<-lang_en;;
+	*);
+	[разбіенне на ваенныя чыны у флоце]
+	(*
+		<-lang_by;;
+	*);;

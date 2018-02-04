@@ -1,0 +1,22 @@
+rank_army_sergeant
+=>nrel_main_idtf:
+	[Войсковой старшина]
+	(*
+		<-lang_ru;;
+	*);
+	[Army Sergeant]
+	(*
+		<-lang_en;;
+	*);
+	[Вайсковы старшыня]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1796;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_seventh_class_of_the_ranks: rank_army_sergeant;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

@@ -1,0 +1,16 @@
+rank_titular_chamberlain
+=>nrel_main_idtf:
+	[Титулярный камергер]
+	(*
+		<-lang_ru;;
+	*);
+	[Titular Chamberlain]
+	(*
+		<-lang_en;;
+	*);
+	[Тытулярны камергер]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1771;;

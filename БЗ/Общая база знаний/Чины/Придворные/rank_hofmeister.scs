@@ -1,0 +1,16 @@
+rank_hofmeister
+=>nrel_main_idtf:
+	[Гофмейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Hofmeister]
+	(*
+		<-lang_en;;
+	*);
+	[Гофмайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

@@ -1,0 +1,23 @@
+sc_node_not_relation->concept_rank;;
+concept_rank
+=>nrel_main_idtf:
+	[чин]
+	(*
+		<-lang_ru;;
+	*);
+	[rank]
+	(*
+		<-lang_en;;
+	*);
+	[чын]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_rank
+	<= nrel_subdividing:
+	{
+		concept_civil_rank;
+		concept_military_rank;
+		concept_court_rank
+	};;

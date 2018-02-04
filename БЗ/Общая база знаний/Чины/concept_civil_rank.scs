@@ -1,0 +1,57 @@
+sc_node_not_relation->concept_civil_rank;;
+concept_civil_rank
+=>nrel_main_idtf:
+	[гражданский чин]
+	(*
+		<-lang_ru;;
+	*);
+	[civil rank]
+	(*
+		<-lang_en;;
+	*);
+	[гражданскі чын]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_civil_rank
+	<=nrel_subdividing: subdividing_of_civil_ranks
+	(*
+		-> rrel_the_thirteenth_class_of_the_ranks: rank_cabinet_recorder;;
+		-> rrel_the_seventh_class_of_the_ranks: rank_ceremoniesman;;
+		-> rrel_the_first_class_of_the_ranks: rank_chancellor;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_city_secretary;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_college_junker;;
+		-> rrel_the_fourteenth_class_of_the_ranks: rank_college_recorder;;
+		-> rrel_the_tenth_class_of_the_ranks: rank_college_secretary;;
+		-> rrel_the_eighth_class_of_the_ranks: rank_collegiate_assessor;;
+		-> rrel_the_sixth_class_of_the_ranks: rank_collegiate_counselor;;
+		-> rrel_the_eighth_class_of_the_ranks: rank_court_councillor;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_ober_ceremoniesman;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_privy_councilor;;
+		-> rrel_the_thirteenth_class_of_the_ranks: rank_province_secretary;;
+		-> rrel_the_twelfth_class_of_the_ranks: rank_provincial_secretary;;
+		-> rrel_the_second_class_of_the_ranks: rank_real_privy_councilor;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_secret_chamberlain;;
+		-> rrel_the_thirteenth_class_of_the_ranks: rank_senate_registrar;;
+		-> rrel_the_fifth_class_of_the_ranks: rank_state_councillor;;
+		-> rrel_the_thirteenth_class_of_the_ranks: rank_synod_registrar;;
+		-> rrel_the_ninth_class_of_the_ranks: rank_titular_adviser;;
+		-> rrel_the_fourth_class_of_the_ranks: rank_valid_state_councilor;;
+	*);;
+
+sc_node_not_relation->subdividing_of_civil_ranks;;
+subdividing_of_civil_ranks
+=>nrel_main_idtf:
+	[разбиение на гражданские чины]
+	(*
+		<-lang_ru;;
+	*);
+	[subdividing of civil ranks]
+	(*
+		<-lang_en;;
+	*);
+	[разбіенне на гражданскія чыны]
+	(*
+		<-lang_by;;
+	*);;

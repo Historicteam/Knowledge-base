@@ -1,0 +1,16 @@
+rank_general_admiral
+=>nrel_main_idtf:
+	[Генерал-адмирал]
+	(*
+		<-lang_ru;;
+	*);
+	[The General Admiral]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-адмірал]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;

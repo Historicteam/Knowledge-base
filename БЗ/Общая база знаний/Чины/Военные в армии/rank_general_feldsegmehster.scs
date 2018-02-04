@@ -1,0 +1,16 @@
+rank_general_feldsegmehster
+=>nrel_main_idtf:
+	[Генерал-фельдцейхмейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[General-Feldsegmehster]
+	(*
+		<-lang_en;;
+	*);
+	[Генерал-фельцайхмайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1763;;

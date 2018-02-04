@@ -1,0 +1,16 @@
+rank_second_major_guards
+=>nrel_main_idtf:
+	[Секунд-майор гвардии]
+	(*
+		<-lang_ru;;
+	*);
+	[Second-Major Guards]
+	(*
+		<-lang_en;;
+	*);
+	[Секунд-маёр гвардыі]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1748;
+	<- completion_date_1798;;

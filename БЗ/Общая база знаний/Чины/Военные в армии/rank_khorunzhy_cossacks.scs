@@ -1,0 +1,22 @@
+rank_khorunzhy_cossacks
+=>nrel_main_idtf:
+	[Хорунжий у казаков]
+	(*
+		<-lang_ru;;
+	*);
+	[Khorunzhy Cossacks]
+	(*
+		<-lang_en;;
+	*);
+	[Харунжы ў казакоў]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
+
+concept_situation->[* subdividing_of_military_ranks_in_the_army -> rrel_the_twelfth_class_of_the_ranks: rank_khorunzhy_cossacks;; *]
+(*
+    <- begin_date_1884;;
+	<- completion_date_1917;;
+*);;

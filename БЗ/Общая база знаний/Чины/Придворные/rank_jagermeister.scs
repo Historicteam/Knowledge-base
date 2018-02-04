@@ -1,0 +1,16 @@
+rank_jagermeister
+=>nrel_main_idtf:
+	[Егермейстер]
+	(*
+		<-lang_ru;;
+	*);
+	[Jägermeister]
+	(*
+		<-lang_en;;
+	*);
+	[Егермайстар]
+	(*
+		<-lang_by;;
+	*);
+<- begin_date_1722;
+	<- completion_date_1917;;
