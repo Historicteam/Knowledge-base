@@ -1,0 +1,19 @@
+action.baptism
+=>nrel_main_idtf:
+	[действие. крестить] (* <-lang_ru;; *);
+	[action. baptism] (* <-lang_en;; *);
+	[дзеянне. хрост] (* <-lang_by;; *);
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Крестить- класс действий, обозначающих христианский обряд (таинство) принятия кого-н. в число верующих, приобщения к церкви и наречения личного имени.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);	
+
+<-actions_class;;
+
+

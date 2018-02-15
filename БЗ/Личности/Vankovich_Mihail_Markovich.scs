@@ -1,0 +1,19 @@
+Vankovich_Mihail_Markovich
+=> nrel_main_idtf:
+	[Ванькович Михаил Маркович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Mihail Markovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Міхал Маркавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+<-concept_rural_inhabitants;;

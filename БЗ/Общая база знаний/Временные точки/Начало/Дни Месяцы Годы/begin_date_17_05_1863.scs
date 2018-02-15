@@ -1,0 +1,20 @@
+begin_date_17_05_1863
+=> nrel_main_idtf:
+   [время начала - 17 мая 1863]
+   (*
+   <- lang_ru;;
+   *);
+   [час пачатку - 17 мая 1863]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [17];;
+   <- number_of_month_in_year: [5];;
+   <- number_of_year: [1863];;
+   *);
+   <- completion_date_05_1863;
+   <- completion_date_1863;;

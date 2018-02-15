@@ -1,0 +1,70 @@
+Vankovich_Kazimir_Valencijevich
+=> nrel_main_idtf:
+	[Ванькович Казимир Валентиевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Kazimir Valencijevich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Казімір Валенціявіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+<-begin_date_1831;
+<- concept_participant_of_the_uprising_1863;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[За ўдзел ў паўстанні ў складзе "Мінскай рэвалюцыйнай арганізацыі" арыштаваны. Знаходзіўся пад следствам ў ІСК. 06.07.1863 адасланы  Мінск. Утрымліваўся ў Мінскай гарадской турме. Прысуджаны (суд цягнуўся з 15.01.1864 па 18.02.1864) да пазбаўлення правоў стану, канфіскацыі маёмасці і ссылкі на катаргу на заводах на 4 гады. "Вызвалены з ссылкі на падставе асобага Высачэйшага загаду" і вярнуўся на радзіму.] 	
+			(* <- lang_by;;*);;
+		*);;
+
+*);;
+
+concept_situation->[*Vankovich_Kazimir_Valencijevich <= nrel_dwelling: estate_Sliepianka;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Казимира Ваньковича в им.Слепянка.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1831;;
+	<- completion_date_1863;;			
+*);;
+
+concept_situation->[*Vankovich_Kazimir_Valencijevich <= nrel_dwelling: the_city_of_Vilnius;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Казимира Ваньковича в Вильнюсе.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1868;;			
+*);;
+
+concept_situation->[*Vankovich_Kazimir_Valencijevich <= nrel_dwelling: Warsaw;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Казимира Ваньковича в Варшаве.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1870;;			
+*);;
+
+concept_situation->[*Vankovich_Kazimir_Valencijevich <= nrel_location: organization_Minsk_city_prison;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Казимира Ваньковича в Минской городской тюрьме.]
+		(*<-lang_ru;;*);;
+	<- begin_date_06_07_1863;;
+	<- completion_date_1863;;			
+*);;
+
+
+concept_situation->[*Vankovich_Kazimir_Valencijevich <= nrel_member: organization_Minsk_revolutionary_organization;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени участия Казимира Ваньковича в Минской революционной организации.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1863;;			
+*);;

@@ -1,0 +1,30 @@
+Vankovich_Flaryan
+=> nrel_main_idtf:
+	[Ванькович Флориан]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Flaryan]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Фларыян]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+<- concept_participant_of_the_uprising_1863;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[Дваранін Свянцінскага павета. За ўдзел ў паўстанні яго маемасць на падставе распараджэння віленскага гібернатара ад 22.06.1863 і пастановы ВілГП ад 09.07.1863 падлягала секвестру. Прысуджаны (каля 09.1864) да пазбаўлення правоў стану, канфіскацыі маемасці і ссылкі на жыхарства ў Томскую губернію.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

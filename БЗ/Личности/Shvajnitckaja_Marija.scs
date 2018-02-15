@@ -1,0 +1,16 @@
+Shvajnitckaja_Marija
+=> nrel_main_idtf:
+	[Швайницкая Мария]
+	(*
+	<- lang_ru;;
+	*);
+	[Shvajnitckaja_Marija]
+	(*
+	<- lang_en;;
+	*);
+	[Швайніцкая Марыя]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_woman;;

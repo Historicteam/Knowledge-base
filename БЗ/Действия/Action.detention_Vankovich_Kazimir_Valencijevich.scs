@@ -1,0 +1,9 @@
+Action.detention_Vankovich_Kazimir_Valencijevich
+
+=>nrel_main_idtf:
+	[Действие. арест Ваньковича Казимира Валентиевича] (* <-lang_ru;; *);
+
+=>nrel_object: Vankovich_Kazimir_Valencijevich;
+=>nrel_performer: organization_Igumensk_commission_of_inquiry;
+<-begin_date_1863;
+<-action.detention;;

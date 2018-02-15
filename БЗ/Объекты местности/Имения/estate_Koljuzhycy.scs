@@ -1,0 +1,11 @@
+estate_Koljuzhycy
+=> nrel_main_idtf:
+	[Колюжицы]
+	(*
+	<- lang_ru;;
+	*);
+	[Koljuzhycy]
+	(*
+	<- lang_en;;
+	*);
+<-concept_estate;;

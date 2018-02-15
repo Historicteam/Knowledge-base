@@ -1,0 +1,10 @@
+Action.court_Vankovich_Melhior_Raman_Julian
+
+=>nrel_main_idtf:
+	[Действие. суд над Ваньковичем Мельхиором-Романом-Юлианом Каролиевичем] (* <-lang_ru;; *);
+=>nrel_object: Vankovich_Melhior_Raman_Julian;
+=>nrel_performer: Muravjov_Mihail_Nikolaevich;
+<-begin_date_30_01_1864;
+<-action.court;;
+
+

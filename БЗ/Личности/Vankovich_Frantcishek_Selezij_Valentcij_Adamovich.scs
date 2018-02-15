@@ -1,0 +1,19 @@
+Vankovich_Frantcishek_Selezij_Valentcij_Adamovich
+=> nrel_main_idtf:
+	[Ванькович Франтишек-Селезий-Валентий Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Frantcishek Selezij Valentcij Adamovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Францішак-Селезій-Валенцій Адамавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+=>nrel_parent: Vankovich_Adam_Valencijevich;;

@@ -1,0 +1,19 @@
+Vankovich_Adam_Iosif_Adamovich
+=> nrel_main_idtf:
+	[Ванькович Адам-Иосиф Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Adam-Iosif Adamovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Адам-Юзаф Адамавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+=>nrel_parent: Vankovich_Adam_Valencijevich;;

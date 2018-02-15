@@ -1,0 +1,64 @@
+Tjundevickij_Mihail_Efim_Melhiorovich
+=> nrel_main_idtf:
+	[Тюндевицкий Михаил-Ефим Мельхиорович]
+	(*
+	<- lang_ru;;
+	*);
+	[Tjundevickij Mihail-Efim Melhiorovich]
+	(*
+	<- lang_en;;
+	*);
+	[Цюндзявіцкі Міхал-Іаахім Мельхіёравіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+
+<-begin_date_1840;
+<-completion_date_21_05_1863;
+
+-> rrel_student: organization_cadet_school;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[У паўстанні 06.02.1863 зачытаў ў карчме ля в.Камень Барысаўскага павета паўстанцкі маніфест і газету "Мужыцкая праўда", агітаваў сялян удзельнічаць ў паўстанні. Арыштаваны. Знаходзіўся пад следствам ў МСК, якая 04.03.1863 скончыла яго справу. Загадам камандуючага Віленскай вайсковай акругі ад 15.03.1863 аддадзены пад ПВС пры штабе 3 пяхотнай дывізіі ў Мінску. Яго маемасць падлягала секвестру. 17.05.1863 прысуджаны да расстрэлу і канфіскацыі маемасці. 21.05.1863 расстраляны ў Мінску ля Ігуменскай заставы.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;
+
+concept_situation->[*Tjundevickij_Mihail_Efim_Melhiorovich => nrel_dwelling: estate_Viljanovo;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Тюндевицкого Михаила-Ефима в поместье Вильяново.]
+		(*<-lang_ru;;*);;
+	<- begin_date_10_10_1862;;
+	<- completion_date_1863;;
+*);;
+
+concept_situation->[*Tjundevickij_Mihail_Efim_Melhiorovich <- concept_participant_of_the_uprising_1863;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени участия Тюндевицкого Михаила-Ефима в восстании 1863 года.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1863;;
+	<-completion_date_21_05_1863;;			
+*);;
+
+concept_situation->[*Tjundevickij_Mihail_Efim_Melhiorovich => nrel_owner: estate_Viljanovo;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Тюндевицкого Михаила-Ефима имением Вильяново.]
+		(*<-lang_ru;;*);;
+	<- completion_date_06_1863;;			
+*);;
+
+concept_situation->[*Tjundevickij_Mihail_Efim_Melhiorovich <- rrel_warrant_officer: concept_rifled_vicinity_of_the_third_battery;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени Тюндевицкого Михаила-Ефима службы прапорщиком.]
+		(*<-lang_ru;;*);;
+	<- completion_date_10_10_1862;;			
+*);;

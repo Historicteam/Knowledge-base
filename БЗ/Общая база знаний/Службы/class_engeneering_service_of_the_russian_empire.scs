@@ -1,0 +1,14 @@
+class_engeneering_service_of_the_russian_empire
+=> nrel_main_idtf:
+	[Инженерная служба Российского империи]
+	(*
+	<- lang_ru;;
+	*);
+	[Engeneering service of the Russian empire]
+	(*
+	<- lang_en;;
+	*);
+	[Інжынерная служба Расійская імперыі]
+	(*
+	<- lang_by;;
+	*);;

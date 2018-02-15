@@ -1,0 +1,8 @@
+action.confiscation_of_property
+=>nrel_main_idtf:
+	[действие. конфискация имущества] (* <-lang_ru;; *);
+	[action. confiscation of property] (* <-lang_en;; *);	
+
+<-actions_class;;
+
+

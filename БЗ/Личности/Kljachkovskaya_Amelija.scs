@@ -1,0 +1,12 @@
+Kljachkovskaya_Amelija
+=> nrel_main_idtf:
+	[Клячковская Амелия]
+	(*
+	<- lang_ru;;
+	*);
+	[Kljachkovskaya Amelija]
+	(*
+	<- lang_en;;
+	*);
+
+<-concept_woman;;

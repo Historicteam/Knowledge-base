@@ -1,0 +1,20 @@
+begin_date_10_10_1862
+=> nrel_main_idtf:
+   [время начала - 10 октября 1862]
+   (*
+   <- lang_ru;;
+   *);
+   [час пачатку - 10 кастрычніка 1862]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [10];;
+   <- number_of_month_in_year: [10];;
+   <- number_of_year: [1862];;
+   *);
+   <- begin_date_10_1862;
+   <- begin_date_1862;;

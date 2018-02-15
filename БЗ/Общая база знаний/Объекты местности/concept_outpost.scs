@@ -1,0 +1,21 @@
+concept_outpost
+=>nrel_main_idtf:
+	[застава] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[outpost] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[застава] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [1.Место въезда в город, являющееся пунктом контроля привозимых грузов и приезжающих.
+				  2.Воинское подразделение, несущее охранение.] (* <-lang_ru;; *);;
+		*);; 
+	*);
+	
+<-sc_const;;

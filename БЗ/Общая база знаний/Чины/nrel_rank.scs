@@ -1,0 +1,29 @@
+nrel_rank
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[чин*]
+	(*
+	<- lang_ru;;
+	*);
+	[rank*]
+	(*
+	<- lang_en;;
+	*);
+	[чын*]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Чин* - служебный разряд у военных и гражданских служащих.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);;
+	*);;

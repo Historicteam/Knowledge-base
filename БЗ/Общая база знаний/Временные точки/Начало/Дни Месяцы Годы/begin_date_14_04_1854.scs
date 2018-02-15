@@ -1,0 +1,24 @@
+begin_date_14_04_1854
+=> nrel_main_idtf:
+   [время начала - 14 апреля 1854]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 14 april of 1854]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 14 красавіка 1858]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [14];;
+   <- number_of_month_in_year: [4];;
+   <- number_of_year: [1854];;
+   *);
+   <- begin_date_04_1854;
+   <- begin_date_1854;;
