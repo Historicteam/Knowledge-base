@@ -1,0 +1,37 @@
+estate_Viljanovo
+=> nrel_main_idtf:
+	[Вильяново]
+	(*
+	<- lang_ru;;
+	*);
+	[Viljanovo]
+	(*
+	<- lang_en;;
+	*);
+<-concept_estate;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [54.409755, 28.456715]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 54.409755;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 28.456715;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

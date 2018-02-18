@@ -1,0 +1,36 @@
+Igumensk_outpost
+=>nrel_main_idtf:
+	[Игуменская застава] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Igumensk outpost] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Ігуменская застава] (* <-lang_by;; *);
+<-concept_outpost;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.896135, 27.551958]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.896135;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.551958;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+=> nrel_osm_query: [way(35996171);];;

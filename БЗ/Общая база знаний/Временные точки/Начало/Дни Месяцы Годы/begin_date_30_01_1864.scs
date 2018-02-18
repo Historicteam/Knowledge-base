@@ -1,0 +1,24 @@
+begin_date_30_01_1864
+=> nrel_main_idtf:
+   [время начала - 30 января 1864]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 30 janyary of 1864]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 30 студзеня 1864]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [30];;
+   <- number_of_month_in_year: [1];;
+   <- number_of_year: [1864];;
+   *);
+   <- begin_date_01_1864;
+   <- begin_date_1864;;

@@ -1,0 +1,19 @@
+Vankovich_Chaslau_Melhiorovich
+=> nrel_main_idtf:
+	[Ванькович Чеслав Мельхиорович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Chaslau Melhiorovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Часлаў Мельхіеравич]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+=>nrel_parent: Vankovich_Melhior_Raman_Julian;;

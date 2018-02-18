@@ -1,0 +1,9 @@
+Action.baptism_Vankovich_Kazimir_Valencijevich
+
+=>nrel_main_idtf:
+	[Действие. крещение Ваньковича Казимира Валентиевича] (* <-lang_ru;; *);
+
+=>nrel_location: Archcathedral_Cathedral_of_Saint_Mary;
+=>nrel_object: Vankovich_Kazimir_Valencijevich;
+<-begin_date_29_12_1831;
+<-action.baptism;;

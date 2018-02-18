@@ -1,0 +1,16 @@
+organization_Minsk_commission_of_inquiry
+=> nrel_main_idtf:
+        [Минская следственная комиссия]
+        (*
+        <- lang_ru;;
+        *);
+        [Minsk commission of inquiry]
+        (*
+        <- lang_en;;
+        *);
+        [Мінская следчая камісія]
+        (*
+        <- lang_by;;
+        *);
+
+=>nrel_location: building_of_the_church_of_St_Joseph;;

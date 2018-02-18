@@ -1,0 +1,15 @@
+unknown
+=> nrel_main_idtf:
+	[Неизвестный]
+	(*
+	<- lang_ru;;
+	*);
+	[unknown]
+	(*
+	<- lang_en;;
+	*);
+	[Невядомы]
+	(*
+	<- lang_by;;
+	*);
+<-class_engeneering_service_of_the_russian_empire;;

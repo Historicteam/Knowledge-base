@@ -1,0 +1,7 @@
+building_catholic_church_of_Pinsk
+=> nrel_main_idtf:
+	[Костел города Пинска]
+	(*
+	<- lang_ru;;
+	*);
+<-concept_building;;

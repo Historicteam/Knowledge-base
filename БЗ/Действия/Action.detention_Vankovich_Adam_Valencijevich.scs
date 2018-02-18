@@ -1,0 +1,9 @@
+Action.detention_Vankovich_Adam_Valencijevich
+
+=>nrel_main_idtf:
+	[Действие. арест Ваньковича Адама Валентиевича] (* <-lang_ru;; *);
+
+=>nrel_object: Vankovich_Adam_Valencijevich;
+=>nrel_performer: organisation_Minsk_city_police;
+<-begin_date_01_10_1864;
+<-action.detention;;

@@ -1,0 +1,19 @@
+Vankovich_Vatclav_Stanislav_Adamovich
+=> nrel_main_idtf:
+	[Ванькович Вацлав-Станислав Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Vatclav Stanislav Adamovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Вацлаў-Станіслаў Адамавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+=>nrel_parent: Vankovich_Adam_Valencijevich;;

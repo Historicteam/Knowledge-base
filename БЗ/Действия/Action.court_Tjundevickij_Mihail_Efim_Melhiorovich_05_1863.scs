@@ -1,0 +1,21 @@
+Action.court_Tjundevickij_Mihail_Efim_Melhiorovich_05_1863
+
+=>nrel_main_idtf:
+	[Действие. суд над Тюндевицким Михаилом-Ефимом] (* <-lang_ru;; *);
+=>nrel_object: Tjundevickij_Mihail_Efim_Melhiorovich;
+=>nrel_performer: organization_Minsk_military_field_court;
+=>nrel_initiator: Muravjov_Mihail_Nikolaevich;
+<-begin_date_17_05_1863;
+<-action.court;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[Прысуджаны да расстрэлу і канфіскацыі маемасці.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;
+

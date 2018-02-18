@@ -1,0 +1,20 @@
+completion_date_04_03_1863
+=> nrel_main_idtf:
+   [время завершения - 4 марта 1863]
+   (*
+   <- lang_ru;;
+   *);
+   [час заканчэння - 4 марта 1863]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [4];;
+   <- number_of_month_in_year: [3];;
+   <- number_of_year: [1863];;
+   *);
+   <- completion_date_03_1919;
+   <- completion_date_1863;;

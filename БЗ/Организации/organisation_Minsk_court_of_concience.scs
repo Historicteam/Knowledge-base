@@ -1,0 +1,14 @@
+organisation_Minsk_court_of_concience
+=> nrel_main_idtf:
+	[Минский совестный суд]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk honest court]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі сумленнасны суд]
+	(*
+	<- lang_by;;
+	*);;

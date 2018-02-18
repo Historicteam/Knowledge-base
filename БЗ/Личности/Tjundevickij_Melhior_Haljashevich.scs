@@ -1,0 +1,27 @@
+Tjundevickij_Melhior_Haljashevich
+=> nrel_main_idtf:
+	[Тюндевицкий Мельхиор Гальяшевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Tjundevickij Melhior Haljashevich]
+	(*
+	<- lang_en;;
+	*);
+	[Цюндзявіцкі Мельхіёр Гальяшавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+<=nrel_parent: Tjundevickij_Mihail_Efim_Melhiorovich;
+<=nrel_parent: Tjundevickij_Alexandr_Melhiorovich;
+<=nrel_parent: Tjundevickij_Evgenij_Melhiorovich;
+<=nrel_parent: Tjundevickij_Mihail_Melhiorovich;
+<=nrel_parent: Tjundevickij_Emil_Melhiorovich;
+<=nrel_parent: Tjundevickaja_Maria_Melhiorovna;
+<=nrel_parent: Tjundevickaja_Rozalija_Melhiorovna;
+<=nrel_parent: Tjundevickaja_Olimpija_Melhiorovna;
+<=nrel_parent: Tjundevickaja_Klementina_Melhiorovna;
+<=nrel_parent: Tjundevickaja_Zofja_Melhiorovna;
+->completion_date_1863;;

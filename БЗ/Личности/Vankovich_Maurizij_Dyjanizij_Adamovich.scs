@@ -1,0 +1,19 @@
+Vankovich_Maurizij_Dyjanizij_Adamovich
+=> nrel_main_idtf:
+	[Ванькович Мауриций-Дианизий Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Maurizij Dyjanizij Adamovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Маўрыцый-Дыянізій Адамавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+=>nrel_parent: Vankovich_Adam_Valencijevich;;

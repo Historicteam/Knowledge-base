@@ -1,0 +1,11 @@
+farm_Dudy
+=> nrel_main_idtf:
+	[Хутор Дуды]
+	(*
+	<- lang_ru;;
+	*);
+	[farm Dudy]
+	(*
+	<- lang_en;;
+	*);
+<-concept_khutor;;

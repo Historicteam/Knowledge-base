@@ -1,0 +1,16 @@
+Tjundevickaja_Olimpija_Melhiorovna
+=> nrel_main_idtf:
+	[Тюндевицкая Олимпия Мельхиоровна]
+	(*
+	<- lang_ru;;
+	*);
+	[Tjundevickaja Olimpija Melhiorovna]
+	(*
+	<- lang_en;;
+	*);
+	[Цюндзявіцкая Алімпія Мельхіёраўна]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_female;;

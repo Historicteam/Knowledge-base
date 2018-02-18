@@ -1,0 +1,18 @@
+rrel_governor
+=>nrel_main_idtf:
+	[губернатор'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[governor'] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Губернатор — это ролевое отношение, связывающее губернию и человека, который являлся начальником этой губернии.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;
+<-sc_node_role_relation;;

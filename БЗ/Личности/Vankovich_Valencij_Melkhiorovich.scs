@@ -1,0 +1,22 @@
+Vankovich_Valencij_Melkhiorovich
+=> nrel_main_idtf:
+	[Ванькович Валентий Мельхиорович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Valencij Melkhiorovich]
+	(*
+	<- lang_en;;
+	*);
+
+<-begin_date_1800;
+<-completion_date_1842;
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+<=nrel_parent: Vankovich_Adam_Valencijevich;
+<=nrel_parent: Vankovich_Kazimir_Valencijevich;
+<=nrel_parent: Vankovich_Jan_Edvard_Valencijevich;
+
+=>nrel_owner:estate_Sliepianka;;

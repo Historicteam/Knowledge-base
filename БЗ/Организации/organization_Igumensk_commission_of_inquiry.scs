@@ -1,0 +1,14 @@
+organization_Igumensk_commission_of_inquiry
+=> nrel_main_idtf:
+        [Игуменская следственная комиссия]
+        (*
+        <- lang_ru;;
+        *);
+        [Igumensk commission of inquiry]
+        (*
+        <- lang_en;;
+        *);
+        [Ігуменская следчая камісія]
+        (*
+        <- lang_by;;
+        *);;

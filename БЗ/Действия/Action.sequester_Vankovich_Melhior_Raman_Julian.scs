@@ -1,0 +1,7 @@
+Action.sequester_Vankovich_Melhior_Raman_Julian
+
+=>nrel_main_idtf:
+	[Действие. секвестр имущества Ваньковича Мельхиора-Романа-Юльана Валентиевича] (* <-lang_ru;; *);
+
+=>nrel_object: Vankovich_Melhior_Raman_Julian;
+<-action.sequester;;

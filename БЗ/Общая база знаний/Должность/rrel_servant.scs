@@ -1,0 +1,18 @@
+rrel_servant
+=>nrel_main_idtf:
+	[служащий'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[servant'] (* <-lang_en;; *);	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Служащий — это ролевое отношение, связывающее службу и человека, который работал по найму в различных областях умственного труда.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+<-sc_const;
+<-sc_node_role_relation;;

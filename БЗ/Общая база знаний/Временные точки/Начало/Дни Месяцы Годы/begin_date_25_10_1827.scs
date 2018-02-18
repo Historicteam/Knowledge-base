@@ -1,0 +1,20 @@
+begin_date_25_10_1827
+=> nrel_main_idtf:
+   [время начала - 25 октября 1827]
+   (*
+   <- lang_ru;;
+   *);
+   [час пачатку - 25 кастрычніка 1827]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [25];;
+   <- number_of_month_in_year: [10];;
+   <- number_of_year: [1827];;
+   *);
+   <- begin_date_10_1827;
+   <- begin_date_1827;;

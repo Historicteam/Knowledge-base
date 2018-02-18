@@ -1,0 +1,11 @@
+estate_Galynka
+=> nrel_main_idtf:
+	[Галынка]
+	(*
+	<- lang_ru;;
+	*);
+	[Galynka]
+	(*
+	<- lang_en;;
+	*);
+<-concept_estate;;

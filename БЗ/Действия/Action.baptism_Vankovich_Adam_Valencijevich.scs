@@ -1,0 +1,9 @@
+Action.baptism_Vankovich_Adam_Valencijevich
+
+=>nrel_main_idtf:
+	[Действие. крещение Ваньковича Адама Валентиевича] (* <-lang_ru;; *);
+
+=>nrel_location: building_catholic_church_of_Pinsk;
+=>nrel_object: Vankovich_Adam_Valencijevich;
+<-begin_date_25_10_1827;
+<-action.baptism;;

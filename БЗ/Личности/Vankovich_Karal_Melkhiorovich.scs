@@ -1,0 +1,19 @@
+Vankovich_Karal_Melkhiorovich
+=> nrel_main_idtf:
+	[Ванькович Караль Мельхиорович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Karal Melkhiorovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Караль Мельхіёравіч]
+	(*
+	<- lang_by;;
+	*);
+
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+<= nrel_parent: Vankovich_Melhior_Raman_Julian;
+<-concept_male;;
