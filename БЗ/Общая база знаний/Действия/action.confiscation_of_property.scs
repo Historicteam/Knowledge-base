@@ -3,6 +3,6 @@ action.confiscation_of_property
 	[действие. конфискация имущества] (* <-lang_ru;; *);
 	[action. confiscation of property] (* <-lang_en;; *);	
 
-<-actions_class;;
+<=nrel_inclusion:actions_class;;
 
 

@@ -1,0 +1,22 @@
+completion_date_08_05_2004
+<-exact_value;
+<-completion;
+=> nrel_main_idtf:
+	[время завершения - 8 мая 2004]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[completion date - 8 may of 2004]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час заканчэння - 8 мая 2004]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [8];;
+   		<- number_of_month_in_year: [5];;
+   		<- number_of_year: [2004];;
+   	*);;

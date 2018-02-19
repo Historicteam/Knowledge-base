@@ -1,0 +1,30 @@
+organization_the_hall_of_noble_assembly
+=>nrel_main_idtf:
+	[Зал Дворянского собрания]
+	(*
+		<-lang_ru;;
+	*);
+	[The hall of Noble Assembly]
+	(*
+		<-lang_en;;
+	*);
+	[Зала Дварянскага сходу]
+	(*
+		<-lang_by;;
+	*);
+<-concept_organization;;
+
+concept_situation->[*
+organization_the_hall_of_noble_assembly
+=>nrel_location:building_the_hajdukievich_house;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени расположения зала Дворянского собрания в доме Гайдукевича]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1840;;
+	<-completion_date_1860;;
+*);;
+	

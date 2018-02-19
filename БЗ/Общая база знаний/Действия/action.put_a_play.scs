@@ -1,0 +1,11 @@
+action.put_a_play
+=>nrel_main_idtf:
+	[действие. поставить пьесу]
+	(*
+		<-lang_ru;;
+	*);
+	[action. to put_on_a_play]
+	(*
+		<-lang_en;;
+	*);
+<=nrel_inclusion:actions_class;;

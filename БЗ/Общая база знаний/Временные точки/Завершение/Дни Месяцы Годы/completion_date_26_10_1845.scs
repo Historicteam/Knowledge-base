@@ -1,0 +1,21 @@
+completion_date_26_10_1845
+=>nrel_main_idtf:
+	[дата завершения - 26 октября 1845]
+	(*
+		<-lang_ru;;
+	*);
+	[completion date - 26 october of 1845]
+	(*
+		<-lang_en;;
+	*);
+	[час заканчэння - 26 кастрычніка 1845]
+	(*
+		<-lang_by;;
+	*);
+=> nrel_Gregorian_calendar_scale:...
+	(*
+		<-number_of_day_in_month: [26];;
+		<-number_of_month_in_year: [10];;
+		<-number_of_year: [1845];;
+	*);;
+

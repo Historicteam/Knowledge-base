@@ -1,0 +1,12 @@
+Action.Dunin_Marcinkievich_Vincent_Ivanovichs_imprisonment_at_the_pichalovski_castel
+=>nrel_main_idtf:
+	[Действие. заключение Дунина-Марцинкевича Винцента Ивановича в Пищаловском замке]
+	(*
+		<-lang_ru;;
+	*);
+<-action.imprisonment;
+=>nrel_object:Dunin_Marcinkievich_Vincent_Ivanovich;
+=>nrel_initiator:organization_the_minsk_investigative_commission;
+=>nrel_location:Pichalovski_Castle;
+<-begin_date_1864;
+<-completion_date_1865;;

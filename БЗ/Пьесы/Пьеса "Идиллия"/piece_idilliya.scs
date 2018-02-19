@@ -1,0 +1,17 @@
+piece_idilliya
+=>nrel_main_idtf:
+	[Пьеса "Идиллия"]
+	(*
+		<-lang_ru;;
+	*);
+	[Piece "Idilliya"]
+	(*
+		<-lang_en;;
+	*);
+	[Пьеса "Ідылія"]
+	(*
+		<-lang_by;;
+	*);
+->text_of_piece_idilliya;
+->libretto_of_piece_idilliya;
+<-concept_piece;;

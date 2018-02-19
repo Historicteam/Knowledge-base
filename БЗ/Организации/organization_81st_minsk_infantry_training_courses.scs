@@ -1,0 +1,115 @@
+organization_81st_minsk_infantry_training_courses
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[81-е Минские пехотные подготовительные курсы]
+	(*
+		<- lang_ru;;
+	*);
+	[81st Minsk Infantry Training Courses]
+	(*
+		<- lang_en;;
+	*);
+	[81-е Мінскія пяхотныя падрыхтоўчыя курсы]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_05_02_1921;
+<- completion_date_03_1921;;
+
+concept_situation->[*organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_81st_minsk_trainin_courses_for_command_staff;;
+*]
+(*
+	<- begin_date_03_1921;;
+	<- completion_date_05_1921;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_81st_minsk_infantry_command_courses;;
+*]
+(*
+	<- begin_date_05_1921;;
+	<- completion_date_03_1923;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_6th_minsk_infantry_courses_of_the_workers_and_peasants_red_army;;
+*]
+(*
+	<- begin_date_03_1923;;
+	<- completion_date_03_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_7th_united_belarussian_command_school;;
+*]
+(*
+	<- begin_date_03_1924;;
+	<- completion_date_10_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_7th_united_belarussian_military_school;;
+*]
+(*
+	<- begin_date_10_1924;;
+	<- completion_date_09_10_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_7th_united_military_school_named_after_the_cec_of_the_bssr;;
+*]
+(*
+	<- begin_date_09_10_1924;;
+	<- completion_date_1924;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_the_united_belarussian_military_school_named_after_the_cec_of_the_bssr;;
+*]
+(*
+	<- begin_date_1924;;
+	<- completion_date_06_11_1933;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_the_united_belarussian_military_school_named_after_kalinin;;
+*]
+(*
+	<- begin_date_06_11_1933;;
+	<- completion_date_16_03_1937;;
+*);;
+
+concept_situation->[*
+organization_81st_minsk_infantry_training_courses
+<=nrel_temporal_decomposition:
+organization_the_minsk_military_infantry_school_named_after_kalinin;;
+*]
+(*
+	<- begin_date_16_03_1937;;
+	<- completion_date_1941;;
+*);;
+
+
+concept_situation->[*building_of_the_female_mariavite_monastery
+<= nrel_location: organization_81st_minsk_infantry_training_courses;;*]
+(*
+	<- begin_date_05_02_1921;;
+	<- completion_date_03_1921;;
+*);;

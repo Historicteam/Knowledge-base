@@ -1,0 +1,11 @@
+Riejkhart_B_K
+=>nrel_main_idtf:
+	[Рейхарт Б.К.]
+	(*
+		<-lang_ru;;
+	*);
+	[Riejkhart B.K.]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;;

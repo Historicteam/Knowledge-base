@@ -14,6 +14,6 @@ action.baptism
 		*);;
 	*);	
 
-<-actions_class;;
+<=nrel_inclusion:actions_class;;
 
 

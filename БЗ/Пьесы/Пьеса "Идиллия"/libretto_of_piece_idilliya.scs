@@ -1,0 +1,16 @@
+libretto_of_piece_idilliya
+=>nrel_main_idtf:
+	[Либретто пьесы "Идиллия"]
+	(*
+		<-lang_ru;;
+	*);
+	[Libretto of piece "Idilliya"]
+	(*
+		<-lang_en;;
+	*);
+	[Либрэта пьесы "Ідылія"]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_author:Moniuszko_Stanislav_Chieslavovich;
+<-concept_libretto;;

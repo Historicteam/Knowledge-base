@@ -1,0 +1,15 @@
+organization_Mikhailovskij_Artillery_Academy
+=>nrel_main_idtf:
+	[Михайловская артиллерийская академия]
+	(*
+		<-lang_ru;;
+	*);
+	[Mikhailovskij Artillery Academy]
+	(*
+		<-lang_en;;
+	*);
+	[Міхайлаўская артылерыйская акадэмія]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_location:building_of_the_Mikhailovskij_Artillery_Academy;;

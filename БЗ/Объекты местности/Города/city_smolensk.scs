@@ -1,0 +1,33 @@
+city_smolensk
+<-concept_city;
+=>nrel_main_idtf:
+	[Смоленск]
+	(*
+		<-lang_ru;;
+	*);
+	[Smolensk]
+	(*
+		<-lang_en;;
+	*);
+	[Смаленск]
+	(*
+		<-lang_by;;
+	*);
+<-rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Смоленск — город в России, административный, промышленный и культурный центр Смоленской области.]
+			(*
+				<-lang_ru;;
+			*);;
+		*);;
+	*);
+<=nrel_subdividing:
+	{
+		building_of_the_krasnoarmeyskaya_pravda
+	};;

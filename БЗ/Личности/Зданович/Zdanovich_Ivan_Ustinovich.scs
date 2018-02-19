@@ -12,10 +12,10 @@ Zdanovich_Ivan_Ustinovich
 	(*
 	<- lang_by;;
 	*);
-<-concept_person;
 <-concept_male;
 
 =>nrel_first_name: name_Ivan;
+=>nrel_surname:surname_Zdanovich;
 
 <- rrel_key_sc_element: ...
 	(*

@@ -1,0 +1,22 @@
+completion_date_09_10_1924
+<-exact_value;
+<-completion;
+=> nrel_main_idtf:
+	[время завершения - 9 октября 1924]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[completion date - 9 october of 1924]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час заканчэння - 9 кастрычніка 1924]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [9];;
+   		<- number_of_month_in_year: [10];;
+   		<- number_of_year: [1924];;
+   	*);;

@@ -1,0 +1,18 @@
+Shimkievich_Florian
+=>nrel_main_idtf:
+	[Шимкевич Флориан]
+	(*
+		<-lang_ru;;
+	*);
+	[Shimkievich Florian]
+	(*
+		<-lang_en;;
+	*);
+	[Шымкевіч Фларыян]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Florian;
+=>nrel_surname:surname_Shimkievich;
+<-completion_date_1840;;

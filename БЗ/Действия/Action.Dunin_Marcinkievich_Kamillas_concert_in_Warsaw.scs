@@ -1,0 +1,12 @@
+Action.Dunin_Marcinkievich_Kamillas_concert_in_Warsaw
+=>nrel_main_idtf:
+	[Действие. концерт Дунин-Марцинкевич Камиллы в г. Варшава]
+	(*
+		<-lang_ru;;
+	*);
+=>nrel_location:Warsaw;
+=>nrel_initiator:Dunin_Marcinkievich_Kamilla_Vincientovna;
+<-action.give_a_concert;
+<-begin_date_1850;
+<-completion_date_1850;;
+

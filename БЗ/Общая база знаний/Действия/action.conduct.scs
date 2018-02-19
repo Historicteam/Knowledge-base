@@ -1,0 +1,11 @@
+action.conduct
+=>nrel_main_idtf:
+	[действие. дирижировать]
+	(*
+		<-lang_ru;;
+	*);
+	[action. conduct]
+	(*
+		<-lang_en;;
+	*);
+<=nrel_inclusion:actions_class;;

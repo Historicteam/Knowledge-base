@@ -1,0 +1,13 @@
+Zaustinskij_Anton
+=>nrel_main_idtf:
+	[Заустинский Антон]
+	(*
+		<-lang_ru;;
+	*);
+	[Zaustinskij Anton]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Anton;
+=>nrel_surname:surname_Zaustinskij;;

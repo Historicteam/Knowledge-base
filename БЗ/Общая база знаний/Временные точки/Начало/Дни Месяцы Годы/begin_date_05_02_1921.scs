@@ -1,0 +1,22 @@
+begin_date_05_02_1921
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - 5 февраля 1921]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - 5 february of 1921]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - 5 лютага 1921]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [5];;
+   		<- number_of_month_in_year: [2];;
+   		<- number_of_year: [1921];;
+   	*);;

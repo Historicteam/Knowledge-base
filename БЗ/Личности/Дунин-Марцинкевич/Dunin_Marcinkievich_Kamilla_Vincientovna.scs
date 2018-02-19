@@ -1,0 +1,156 @@
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_main_idtf:
+	[Дунин-Марцинкевич Камилла Винцентовна]
+	(*
+		<-lang_ru;;
+	*);
+	[Dunin-Marcinkievich Kamilla Vincientovna]
+	(*
+		<-lang_en;;
+	*);
+=>nrel_idtf:
+	[Марцинкевич Камилла]
+	(*
+		<-lang_ru;;
+	*);
+	[Marcinkievich Kamilla]
+	(*
+		<-lang_en;;
+	*);
+<-concept_woman;
+=>nrel_first_name:name_Kamilla;
+=>nrel_parent:Dunin_Marcinkievich_Vincent_Ivanovich;
+=>nrel_parent:Baranovskaja_Juziefa;
+=>nrel_place_of_birth:the_city_of_Minsk;
+<-rrel_student:organization_the_minsk_private_womens_boarding_house;
+<-begin_date_22_11_1834;
+<-completion_date_1900;
+<-rrel_key_sc_element:...
+	(*
+		=>nrel_main_idtf:
+			[Камилла Дунин-Марцинкевич в детстве]
+			(*
+				<-lang_ru;;
+			*);;
+		<-sc_illustration;;
+		<=nrel_sc_text_translation:...
+			(*
+				->rrel_example:"file://youngKDM.jpg"
+					(*
+						=>nrel_format:format_jpg;;
+					*);;
+			*);;
+	*);
+<-concept_participant_of_the_uprising_1863;;
+
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_middle_name:name_Omalija;
+=>nrel_godfather:Uminskij_Juzief;
+=>nrel_godmother:Volotovskaja_Barbara;
+=>nrel_godfather:Liegatovich_Ignat;
+=>nrel_godfather:Shimkievich_Florian;
+=>nrel_godfather:Bochkovskij_Bohuslav;
+=>nrel_godmother:Montiegrandi_Marija;
+=>nrel_godmother:Grinievskaja_Aloiza;
+=>nrel_godmother:Volotovskaja_Anna;;
+*]
+(*
+	<-begin_date_22_11_1834;;
+	<-completion_date_1900;;
+*);;
+
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_location:the_city_of_Minsk;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени местоположения Дунин-Марцинкевич Камиллы Винцентовны в городе Минске]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_22_11_1834;;
+	<-completion_date_1863;;
+*);;
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_location:city_solikamsk;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени ссылки Дунин-Марцинкевич Камиллы Винцентовны в город Соликамск]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1863;;
+	<-completion_date_1880;;	
+*);;
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_location:the_city_of_Vilnius;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени местоположения Дунин-Марцинкевич Камиллы Винцентовны в Вильне]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1881;;
+	<-completion_date_1900;;
+*);;
+
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_dwelling:building_the_home_of_vincent_dunin_marcinkievich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени местожительства Дунин-Марцинкевич Камиллы Винцентовны в доме на улице Захаровской]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_22_11_1834;;
+	<-completion_date_1840;;
+*);;
+
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_spouse:Osipovich_Kazimir_Hiacintovich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна была замужем за Осиповичем Казимиром Гиацинтовичем]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1865;;
+	<-completion_date_25_07_1884;;	
+*);;
+
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_surname:surname_Dunin_Marcinkievich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна носила фамилию Дунин-Марцинкевич]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_22_11_1834;;
+	<-completion_date_1865;;	
+*);;
+concept_situation->[*
+Dunin_Marcinkievich_Kamilla_Vincientovna
+=>nrel_surname:surname_Osipovich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна носила фамилию Осипович]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1865;;
+	<-completion_date_1900;;	
+*);;
