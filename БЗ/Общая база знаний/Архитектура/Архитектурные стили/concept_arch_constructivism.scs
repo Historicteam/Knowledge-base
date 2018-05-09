@@ -1,0 +1,47 @@
+concept_arch_constructivism
+=>nrel_main_idtf:
+	[Архитектурный стиль конструктивизм] (* <-lang_ru;; *);
+	[Architectural style constructivism] (* <-lang_en;; *);
+	[Архітэктурны стыль канструктывізм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Конструктивизм — стиль в архитектуре, получивший развитие в 1920 — первой половине 1930 годов.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Dom_Cultury_Zueva_constructivism.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+	...
+	(*
+	->rrel_example: "file://content/konstr-dom-kulturi-rusakova_constructivism.jpg"
+		(*
+		=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);;

@@ -1,0 +1,42 @@
+concept_architectural_element
+=>nrel_main_idtf:
+  [архитектурный элемент] (* <-lang_ru;; *);
+  [architectural element] (* <-lang_en;; *);
+  [архітэктурны элемент] (* <-lang_by;; *);
+
+<-sc_const;
+<-sc_node_not_relation;
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Архитектурный элемент — элемент строения, характерный конкретному архитектурному стилю.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);;
+  *);
+
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Архітэктурны элемент - элемент будынка, характэрны канкрэтнаму архітэктурнаму стылю.]
+      (* <- lang_by;; *);;
+    *);;
+  *);
+
+<= nrel_subdividing:
+  {
+    concept_enclosing_structure;
+    concept_bearing_structures;
+    concept_decorative_element
+  };;

@@ -1,0 +1,18 @@
+organization_peasant_land_bank
+=> nrel_main_idtf:
+  [Крестьянский поземельный банк]
+  (*
+  <- lang_ru;;
+  *);
+  [Peasant Land Bank]
+  (*
+  <- lang_en;;
+  *);
+  [Сялянскі пазямельны банк]
+  (*
+  <- lang_by;;
+  *);
+
+=>nrel_location:Malinins_house;
+
+<- concept_formal_organization;;

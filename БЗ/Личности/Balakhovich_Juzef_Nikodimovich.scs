@@ -1,0 +1,8 @@
+Balakhovich_Juzef_Nikodimovich
+=> nrel_main_idtf:  
+      [Балахович Юзеф Никодимович] (* <- lang_ru;; *);
+      [Balakhovich Juzef Nikodimovich](* <- lang_en;; *);
+      [Балаховіч Юзэф Нікадзімавіч](* <- lang_by;; *);
+<-concept_male;
+=>nrel_surname: surname_Balakhovich;
+=>nrel_first_name: name_Juzef;;

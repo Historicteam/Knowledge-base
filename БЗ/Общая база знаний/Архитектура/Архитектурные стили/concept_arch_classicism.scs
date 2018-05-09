@@ -1,0 +1,47 @@
+concept_arch_classicism
+=>nrel_main_idtf:
+	[Архитектурный стиль  классицизм] (* <-lang_ru;; *);
+	[Architectural style  сlassicism] (* <-lang_en;; *);
+	[Архітэктурны стыль класіцызм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Классицизм – архитектурный стиль, в основе которого лежат идеи рационализма.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Warshaw_theatre.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+=>nrel_arch_style_elem:concept_doric_column;
+=>nrel_arch_style_elem:concept_ionic_column;
+=>nrel_arch_style_elem:concept_tuscan_order;
+=>nrel_arch_style_elem:concept_composite_order;
+
+<= nrel_subdividing:
+	{
+		concept_arch_neoclassicism;
+		concept_arch_empire_style
+	};
+
+<-begin_date_17_century;
+<-completion_date_19_century;;

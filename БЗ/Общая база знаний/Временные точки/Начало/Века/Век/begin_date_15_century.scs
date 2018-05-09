@@ -1,0 +1,18 @@
+begin_date_15_century
+=> nrel_main_idtf:
+   [время начала - 15 век]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 15 century]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 15 век]
+   (*
+   <- lang_by;;
+   *);
+<- begin_date_first_half_of_15_century;
+<- begin_date_second_half_of_15_century;
+<- exact_value;
+<- begin;;

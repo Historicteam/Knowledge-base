@@ -1,0 +1,25 @@
+organization_central_belarusian_military_council
+=> nrel_main_idtf:
+  [Центральная Белорусская Военная Рада]
+  (*
+  <- lang_ru;;
+  *);
+  [Central Belarusian Military Council]
+  (*
+  <- lang_en;;
+  *);
+  [Цэнтральная Беларуская Ваенная Рада]
+  (*
+  <- lang_by;;
+  *);
+
+<- concept_formal_organization;
+<- concept_administrative_organization;;
+
+concept_situation -> [*organization_central_belarusian_military_council <- ... (* <- concept_institutions_of_force;;
+  <- ...(* <- concept_formal_government_apparatus;;
+    <= nrel_political_power: state_belarusian_people_s_republic;;*);; *);;*]
+(*
+  <- begin_date_25_03_1918;;
+  <- completion_date_11_1918;;
+*);;

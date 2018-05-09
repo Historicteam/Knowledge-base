@@ -1,0 +1,47 @@
+concept_arch_mavritan
+=>nrel_main_idtf:
+	[Мавританский архитектурный стиль] (* <-lang_ru;; *);
+	[Moorish architectural style] (* <-lang_en;; *);
+  [Маўрытанскі архітэктурны стыль] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Мавританская архитектура — архитектурный стиль, сформировавшийся под влиянием берберского и испанского стилей в Северной Африке и Аль-Андалусе.]
+      (*
+      <- lang_ru;;
+      *);;
+
+    *);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Voronc_castle_mavritan.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Morozov_mavritan.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;

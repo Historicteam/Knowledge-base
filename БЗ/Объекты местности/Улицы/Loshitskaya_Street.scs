@@ -1,0 +1,82 @@
+Loshitskaya_Street
+  => nrel_main_idtf:
+      [Улица Лошицкая]
+      (*
+      <- lang_ru;;
+      *);
+      [Loshitskaya Street]
+      (*
+      <- lang_en;;
+      *);
+      [вуліца Лошыцкая]
+      (*
+      <- lang_by;;
+      *);;
+
+Prison_Street
+  => nrel_main_idtf:
+      [Улица Тюремная]
+      (*
+      <- lang_ru;;
+      *);
+      [Prison Street]
+      (*
+      <- lang_en;;
+      *);
+      [вуліца Турэмная]
+      (*
+      <- lang_by;;
+      *);;
+
+Serpukhovskaya_Street
+  => nrel_main_idtf:
+      [Улица Серпуховская]
+      (*
+      <- lang_ru;;
+      *);
+      [Serpukhovskaya Street]
+      (*
+      <- lang_en;;
+      *);
+      [вуліца Серпухаўская]
+      (*
+      <- lang_by;;
+      *);
+    <-concept_street;;
+
+Volodarsky_Street
+  => nrel_main_idtf:
+      [Улица Володарского]
+      (*
+      <- lang_ru;;
+      *);
+      [Volodarsky Street]
+      (*
+      <- lang_en;;
+      *);
+      [вуліца Валадарскага]
+      (*
+      <- lang_by;;
+      *);
+    <= nrel_subdividing:
+    {
+      Malinins_house
+    };
+    <-concept_street;;
+
+concept_situation->[* Loshitskaya_Street<= nrel_temporal_decomposition:Volodarsky_Street;; *]
+(*
+    <- begin_date_1825;;
+    <- competition_date_1870;;
+*);;
+
+concept_situation->[* Loshitskaya_Street<= nrel_temporal_decomposition:Serpukhovskaya_Street;; *]
+(*
+    <- begin_date_1870;;
+    <- competition_date_1922;;
+*);;
+
+concept_situation->[* Loshitskaya_Street<= nrel_temporal_decomposition:Volodarsky_Street;; *]
+(*
+    <- begin_date_1922;;
+*);;

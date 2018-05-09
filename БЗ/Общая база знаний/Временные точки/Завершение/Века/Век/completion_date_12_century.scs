@@ -1,0 +1,18 @@
+completion_date_12_century
+=> nrel_main_idtf:
+   [время завершения - 12 век]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 12 century]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 12 век]
+   (*
+   <- lang_by;;
+   *);
+<- completion_date_first_half_of_12_century;
+<- completion_date_second_half_of_12_century;
+<- exact_value;
+<- completion;;

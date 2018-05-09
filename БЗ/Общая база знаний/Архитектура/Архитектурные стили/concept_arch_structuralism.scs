@@ -1,0 +1,33 @@
+concept_arch_structuralism
+=>nrel_main_idtf:
+	[Архитектурный стиль cтруктурализм] (* <-lang_ru;; *);
+	[Architectural style structuralism] (* <-lang_en;; *);
+	[Архітэктурны стыль структуралізм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Структурализм — стиль архитектуры, который пришел на смену интернациональному стилю во второй половине 1950-х гг. и постепенно эволюционировал в различные разновидности постмодернизма.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/LotusDelhi.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;

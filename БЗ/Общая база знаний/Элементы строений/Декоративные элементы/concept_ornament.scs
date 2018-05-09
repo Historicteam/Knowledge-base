@@ -23,21 +23,13 @@ concept_ornament
 *);;
 *);
 <=nrel_subdividing:
-
- ...
-
-(*
-
--> concept_rocaille;;
--> concept_strapwork;;
--> concept_ormushl;;
--> concept_auricular;;
--> concept_rolverk;;
--> concept_meander;;
--> concept_palmette;;
--> concept_rosette;;
-
-*)
-
-;;
-
+  {
+    concept_rocaille;
+    concept_strapwork;
+    concept_ormushl;
+    concept_auricular;
+    concept_rolverk;
+    concept_meander;
+    concept_palmette;
+    concept_rosette
+  };;

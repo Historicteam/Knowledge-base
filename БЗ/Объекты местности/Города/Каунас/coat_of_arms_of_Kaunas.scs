@@ -1,0 +1,26 @@
+coat_of_arms_of_Kaunas
+  => nrel_main_idtf:
+  [герб Каунаса]  
+    (*  
+    <- lang_ru;;  
+    *);
+  [coat of arms of Kaunas]  
+    (*
+    <- lang_en;;
+    *);
+
+<-concept_emblem;
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Coat_of_arms_of_Kaunas.png"
+      (*
+      => nrel_format: format_png;;
+      *);;
+    *);;
+  *)
+;;

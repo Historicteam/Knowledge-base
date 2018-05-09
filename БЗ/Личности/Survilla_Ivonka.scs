@@ -1,0 +1,15 @@
+Survilla_Ivonka
+=> nrel_main_idtf:
+  [Сурвилла Ивонка] (* <- lang_ru;; *);
+  [Survilla Ivonka] (* <- lang_en;; *);
+  [Сурвіла Івонка] (* <- lang_by;; *);
+
+<-begin_date_11_04_1936;
+  
+<- concept_female;
+<- concept_person;;
+
+concept_situation->[*Survilla_Ivonka <-rrel_chairman_of_the_council:organization_Council_of_Belarusian_People_s_Republic;;*]
+(*
+  <- begin_date_1997;;
+*);;

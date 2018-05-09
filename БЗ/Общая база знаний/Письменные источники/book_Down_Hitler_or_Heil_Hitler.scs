@@ -1,0 +1,10 @@
+book_Down_Hitler_or_Heil_Hitler
+=>nrel_main_idtf:
+  [Книга «Долой Гитлера или хайль Гитлер?»] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [The book "Down Hitler or Heil Hitler?"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [Кніга «Далой Гітлера або хайль Гітлер?»] (* <-lang_by;; *);
+  
+<-concept_book; 
+<-sc_const;;

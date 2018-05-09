@@ -1,0 +1,19 @@
+rrel_Vice_Minister_of_National_Defense
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+  [Вице-министр народной обороны']
+  (*
+  <- lang_ru;;
+  *);
+  [Віцэ-міністр народнай абароны']
+  (*
+  <- lang_by;;
+  *);
+  [Vice Minister of National Defense']
+  (*
+  <- lang_en;;
+  *);;

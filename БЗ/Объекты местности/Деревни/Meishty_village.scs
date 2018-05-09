@@ -1,0 +1,8 @@
+Meishty_village
+=>nrel_main_idtf:
+  [Мейшты] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [Meishty] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [Мейшты] (* <-lang_by;; *); 
+<-concept_village;;

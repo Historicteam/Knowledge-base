@@ -1,0 +1,33 @@
+concept_arch_stalinist_eclecticism
+=>nrel_main_idtf:
+  [Архитектурный стиль сталинская эклектика] (* <-lang_ru;; *);
+  [Architectural style of Stalinist eclecticism] (* <-lang_en;; *);
+  [Архітэктурны стыль сталінская эклектыка] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Сталинская эклектика — стиль архитектуры СССР с середины 1930-х до конца 1950-х годов, представляющий собой характерный узнаваемый сплав нескольких архитектурных стилей и отличающийся от предшествующих направлений в архитектуре СССР и архитектуры 1930-1950-х годов за рубежом.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+  ...
+  (*
+  ->rrel_example: "file://content/stalinist_eclecticism.jpg"
+    (*
+    => nrel_format: format_jpg;;
+    *);;
+  *);;
+*);;

@@ -23,15 +23,7 @@ concept_capital
 *);;
 *);
 <=nrel_subdividing:
-
- ...
-
-(*
-
--> concept_crocket_capital;;
--> concept_bowl_capital;;
-
-*)
-
-;;
-
+  {
+   concept_crocket_capital;
+   concept_bowl_capital
+  };;

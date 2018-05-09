@@ -3,7 +3,7 @@ building_of_house_of_government
 		[Здание Дом правительства] (* <- lang_ru;; *);
 		[Building of Government house] (* <- lang_en;; *);
 		[Будынак Дом урада] (* <- lang_by;; *);
-<= nrel_architect:Langbard_Iosif;
+=> nrel_architect: Langbard_Iosif;
 => nrel_material:concept_brick;
 => concept_square:indepence_square;
 <- rrel_key_sc_element:

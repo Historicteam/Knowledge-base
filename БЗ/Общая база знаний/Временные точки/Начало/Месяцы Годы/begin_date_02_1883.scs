@@ -1,0 +1,22 @@
+begin_date_02_1883
+=> nrel_main_idtf:
+   [время начала - февраль 1883]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - february of 1883]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - люты 1883]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [2];;
+   <- number_of_year: [1883];;
+   *);
+   <- begin_date_1883;;

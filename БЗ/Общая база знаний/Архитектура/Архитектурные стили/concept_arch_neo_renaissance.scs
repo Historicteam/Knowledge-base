@@ -1,0 +1,35 @@
+concept_arch_neo_renaissance
+=>nrel_main_idtf:
+	[Архитектурный стиль неоренессанс] (* <-lang_ru;; *);
+	[Architectural style neorenaissance] (* <-lang_en;; *);
+	[Архітэктурны стыль неарэнесанс] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Неоренессанс — стиль архитектурной эклектики XIX века, воспроизводившая архитектурные решения времён Возрождения.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+  ...
+  (*
+  ->rrel_example: "file://content/Palais_Leuchtenberg_Neorenaissance.jpg"
+    (*
+    => nrel_format: format_jpg;;
+    *);;
+  *);;
+*);;

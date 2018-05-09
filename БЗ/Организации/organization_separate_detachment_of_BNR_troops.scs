@@ -1,0 +1,50 @@
+organization_separate_detachment_of_BNR_troops
+=> nrel_main_idtf:
+  [Отдельный отряд войск БНР]
+  (*
+  <- lang_ru;;
+  *);
+  [Separate detachment of BNR troops]
+  (*
+  <- lang_en;;
+  *);
+  [Асобны атрад войскаў БНР]
+  (*
+  <- lang_by;;
+  *);
+<-concept_formal_organization;
+
+<-begin_date_11_1919;
+<-completion_date_03_1920;;
+
+
+organization_belarusian_people_s_army
+=> nrel_main_idtf:
+  [Белорусская народная Армия]
+  (*
+  <- lang_ru;;
+  *);
+  [Belarusian People's Army]
+  (*
+  <- lang_en;;
+  *);
+  [Беларуская народная Армія]
+  (*
+  <- lang_by;;
+  *);
+<-concept_formal_organization;;
+
+concept_situation->[*organization_separate_detachment_of_BNR_troops <=nrel_temporal_decomposition: organization_belarusian_people_s_army;;*]
+(*
+  <- begin_date_03_1920;;
+  <- completion_date_11_1920;;
+*);;
+
+concept_situation->
+[*organization_separate_detachment_of_BNR_troops <- ... (* <- concept_institutions_of_force;;
+  <- ...(* <- concept_formal_government_apparatus;;
+    <= nrel_political_power: state_belarusian_people_s_republic;;*);; *);;*]
+(*
+  <- begin_date_1919;;
+  <- completion_date_1920;;
+*);;

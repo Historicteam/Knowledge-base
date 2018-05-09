@@ -1,0 +1,52 @@
+concept_arch_romanesque_style
+=>nrel_main_idtf:
+	[Романский архитектурный стиль] (* <-lang_ru;; *);
+	[Romanesque architectural style] (* <-lang_en;; *);
+	[Раманскі архітэктурны стыль] (* <-lang_by;; *);
+
+<-rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Романский архитектурный стиль - архитектурный стиль, господствовавший в Западной Европе (а также затронувший некоторые страны Восточной Европы) в XI—XII веках, основное место в котором отводилось крепостной архитектуре.]
+      (*
+      <- lang_ru;;
+      *);;
+
+    *);;
+*);
+
+<-rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Романский архитектурный стиль - архитектурный стиль, для которого характерны узкие полукруглые окна, полукруглые арки, дорические колонны и массивные контрфорсы.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/sen-saven-tur-Gantamp.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+=>nrel_arch_style_elem: concept_arch_neo_romanescue;;

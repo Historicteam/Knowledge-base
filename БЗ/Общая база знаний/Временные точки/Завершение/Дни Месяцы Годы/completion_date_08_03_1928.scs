@@ -1,0 +1,24 @@
+completion_date_08_03_1928
+=> nrel_main_idtf:
+   [время завершения - 8 марта 1928]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 8 march of 1928]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 8 сакавіка 1928]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [8];;
+   <- number_of_month_in_year: [3];;
+   <- number_of_year: [1928];;
+   *);
+   <- completion_date_03_1928;
+   <- completion_date_1928;;

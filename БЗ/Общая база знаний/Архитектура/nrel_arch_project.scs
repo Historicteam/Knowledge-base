@@ -1,0 +1,21 @@
+nrel_arch_project
+=>nrel_main_idtf:
+  [архитектурный проект*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [architectural project*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [архітэктурны праект*] (* <-lang_by;; *);
+
+<-sc_const; 
+<-sc_node_norole_relation;
+
+=> nrel_first_domain:
+    concept_building;
+=> nrel_second_domain:
+    concept_arch_project;
+
+<- binary_relation;
+<- oriented_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+<- antireflexive_relation;;

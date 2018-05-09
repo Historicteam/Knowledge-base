@@ -55,7 +55,7 @@ Vojnilovich_Jadwiga_Adamovna
 		*);;
 	*);
 <=nrel_founder:Kostrovickaja_house;
-<=nrel_member:organization_partnership_Asvata;organization_Minsk_governance_of_charity;
+<-rrel_member:organization_partnership_Asvata;organization_Minsk_governance_of_charity;
 =>nrel_place_of_death:the_city_of_Bydgoszcz;
 =>nrel_surname: surname_Vojnilovich;
 =>nrel_surname: surname_Kostrovickaja;

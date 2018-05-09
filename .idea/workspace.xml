@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d193b30-fc17-4c4f-809e-0f1e41694cb5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/БЗ/Личности/Baklanov.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Личности/Czapskiy's relatives/Hutten_Czapsky_Jan_Carol_Alexander_FIXED.scs" afterPath="$PROJECT_DIR$/БЗ/Личности/Czapskiy's relatives/Hutten_Czapsky_Jan_Carol_Alexander_FIXED.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Личности/Moniuszko's relatives/Vojnilovich_Jadwiga_Adamovna.scs" afterPath="$PROJECT_DIR$/БЗ/Личности/Moniuszko's relatives/Vojnilovich_Jadwiga_Adamovna.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Личности/concept_brick.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Личности/concept_poem.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Личности/name.scs" afterPath="$PROJECT_DIR$/БЗ/Личности/name.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Личности/surname.scs" afterPath="$PROJECT_DIR$/БЗ/Личности/surname.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Временные точки/Завершение/Месяцы Годы/completion_date_11_1917.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Временные точки/Завершение/Месяцы Годы/completion_date_11_1917.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Временные точки/Начало/Месяцы Годы/begin_date_11_1917.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Временные точки/Начало/Месяцы Годы/begin_date_11_1917.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Должность/deprecated (use rrel instead)/nrel_architect.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Объекты местности/concept_architectural_ensemble.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Объекты местности/nrel_state_flag.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Остальное/concept_architector.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Остальное/concept_periodical.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Остальное/neoclassicism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Остальное/newspaper_Muzyckaja_prauda.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Остальное/newspaper_Sciah_Svabody.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Остальное/nrel_publisher.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Остальное/nrel_publisher.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Состояния человека/nrel_member.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_art_deco.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_bio_tech.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_constructivism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_deconstructivism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_eclecticism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_empire_style.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_expressionism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_flamboyant.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_hi_tech.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_metabolism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_neo_gothic.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_neo_renaissance.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_neo_romanescue.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_postmodern_architecture.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_pseudo_gothic.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_arch_structuralism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/concept_russian_revival.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Beloselskii_eclectisism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Cochise_County_courthouse_art_deco.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Dancing_House_deconstructivism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Dom_Cultury_Zueva_constructivism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Grundtvig_memorial_church_expressionism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Kazan_Cathedral_St_Petersburg_empire.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Milan_Cathedral_flamboyant.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Milwaukee-Art-Museum_bio_tech.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/National_Space_Centre_GB_bio_tech.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Royal_Ontario_Museum_deconstructivism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Taut_Glass_Pavilion_exterior_expressionism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Triomphe_du_Carrousel_empire.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/Vancouver_Marine_Building_art_deco.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/konstr-dom-kulturi-rusakova_constructivism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/content/pirogovka_clinics_eclectisism.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/functionalism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/mavritan.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/modern/concept_arch_modern.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/modern/concept_neo_romanticism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/modern/content/Balio_house.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/modern/content/Haudi_House_art_deco.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/modern/content/Дом Бальо.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/modern/content/Дом с химерами.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/!Other/modern/content/Здание управления либаво-роменской железной дороги.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/Classicism(1)/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/Classicism(1)/concept_arch_classicism.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/Classicism(1)/subdividind/concept_arch_empire_style.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/Classicism(1)/subdividind/content/Triomphe_du_Carrousel_empire.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/Classicism(1)/subdividind/content/winter-kazan-cathedral.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/barocue_architecture(1)/concept_arch_baroque.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/barocue_architecture(1)/subdividing/classical_baroque/classical_baroque.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/barocue_architecture(1)/subdividing/rococo_architecture(0)/rococo_architecture.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/barocue_architecture(1)/subdividing/subdividing.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/barocue_architecture(1)/subdividing/vilnius_baroque/vilnius_baroque.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/concept_architectural_style.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/gothic_architecture(1)/concept_arch_gothic.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/renaissanse_architecture(1)/concept_arch_renaissanse.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Стили архитектуры/romanescue_architecture(1)/concept_arch_romanesque_style.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/concept_bearing_structures.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/concept_bearing_structures.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/concept_decorative_element.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/concept_decorative_element.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/concept_enclosing_scructure.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/concept_enclosing_scructure.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Декоративные элементы/concept_capital.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Декоративные элементы/concept_capital.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Декоративные элементы/concept_frontone.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Декоративные элементы/concept_frontone.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Декоративные элементы/concept_ornament.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Декоративные элементы/concept_ornament.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Декоративные элементы/concept_pediment.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/concept_foundation.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Арки/arch.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Арки/pointed_arch.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Арки/semicircural_arch.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_chandelier_column.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_chandelier_column.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_composite_order.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_composite_order.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_doric_column.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_doric_column.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_ionic_column.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_ionic_column.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_tuscan_order.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Несущие конструкции/Виды колонн/Несущие/concept_tuscan_order.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Ограждающие конструкции/concept_roof.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Ограждающие конструкции/concept_roof.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Ограждающие конструкции/concept_window.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Ограждающие конструкции/concept_window.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Ограждающие конструкции/Типы окон/concept_picture_window.scs" afterPath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Ограждающие конструкции/Типы окон/concept_picture_window.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Общая база знаний/Элементы строений/Ограждающие конструкции/Типы окон/барочные окна/concept_picture_window.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Choral_synagogue_building.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Choral_synagogue_building.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Female_Basilian_Monastery_Building.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Female_Basilian_Monastery_Building.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Peter_and_Paul_Cathedral_Building.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Peter_and_Paul_Cathedral_Building.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Pichalovski_Castle.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Pichalovski_Castle.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/State_Department_Store_Building.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/State_Department_Store_Building.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/State_Security_Committee_building.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/State_Security_Committee_building.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Zagorskaya_house_building.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Zagorskaya_house_building.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Zagorskaya_house_building_2.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Zagorskaya_house_building_2.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_Bernardine_Church.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_Bernardine_Church.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_Red_Church.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_Red_Church.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_house_of_government.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_house_of_government.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_kostrovickaya_home.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/building_of_kostrovickaya_home.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Непроверенное/The_building_of_the_Minsk_Academy_of_Music.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Непроверенное/The_building_of_the_Minsk_Academy_of_Music.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Непроверенное/building_of_refurbished_Town_Hall.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Непроверенное/building_of_refurbished_Town_Hall.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Непроверенное/building_of_the_church_of_St_Joseph.scs" afterPath="$PROJECT_DIR$/БЗ/Объекты местности/Здания/Непроверенное/building_of_the_church_of_St_Joseph.scs" />
+      <change beforePath="$PROJECT_DIR$/БЗ/Ордена/Useful stuff/nrel Награждён_Е .gwf" afterPath="$PROJECT_DIR$/БЗ/Ордена/Useful stuff/nrel Награждён_Е .gwf" />
+      <change beforePath="$PROJECT_DIR$/Эксперимент с NL/Persons/Stanisław_Bułak-Bałachowicz.scs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Эксперимент с NL/Persons/content/Stanislaw_Bulak_Balachowicz.jpg" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Abramchik_Nikolay_Semyonovich.scs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/БЗ/Общая база знаний/4 семестр/БНР/Abramchik_Nikolay_Semyonovich.scs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Stanislaw</find>
+      <find>&lt;=nrel_member</find>
+      <find>nrel_member</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>&lt;-rrel_member</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="218" />
+    <option name="y" value="24" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Knowledge-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge-base" type="462c0819:PsiDirectoryNode" />
+              <item name="БЗ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge-base" type="462c0819:PsiDirectoryNode" />
+              <item name="БЗ" type="462c0819:PsiDirectoryNode" />
+              <item name="Общая база знаний" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge-base" type="462c0819:PsiDirectoryNode" />
+              <item name="БЗ" type="462c0819:PsiDirectoryNode" />
+              <item name="Общая база знаний" type="462c0819:PsiDirectoryNode" />
+              <item name="4 семестр" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Knowledge-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Knowledge-base" type="462c0819:PsiDirectoryNode" />
+              <item name="БЗ" type="462c0819:PsiDirectoryNode" />
+              <item name="Общая база знаний" type="462c0819:PsiDirectoryNode" />
+              <item name="4 семестр" type="462c0819:PsiDirectoryNode" />
+              <item name="БНР" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d193b30-fc17-4c4f-809e-0f1e41694cb5" name="Default" comment="" />
+      <created>1525378547466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525378547466</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="218" y="24" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/БЗ/Общая база знаний/4 семестр/БНР/Abramchik_Nikolay_Semyonovich.scs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

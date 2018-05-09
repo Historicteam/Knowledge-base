@@ -1,0 +1,10 @@
+book_War_will_or_will_not_be
+=>nrel_main_idtf:
+  [Книга «Война, будет или не будет»] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [The book "War, will or will not be"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [Кніга «Вайна, будзе ці не будзе»] (* <-lang_by;; *);
+  
+<-concept_book; 
+<-sc_const;;

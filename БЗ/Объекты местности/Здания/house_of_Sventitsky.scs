@@ -1,0 +1,112 @@
+house_of_Sventitsky
+=> nrel_main_idtf:
+  [дом Свентицкого]
+  (*
+  <- lang_ru;;
+  *);
+  [house of Sventitsky]
+  (*
+  <- lang_en;;
+  *);
+  [дом Свянціцкага]
+  (*
+  <- lang_by;;
+    *);
+=> nrel_idtf:
+  [доходный дом Свентицкого]
+  (*
+  <- lang_ru;;
+  *);
+  [даходны дом Свянціцкага]
+  (*
+  <- lang_by;;
+    *);
+=> nrel_architect: Henry_Gaq;
+<- rrel_key_sc_element:
+  ...
+  (*
+  <-sc_definition;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+      [Бывший доходный дом для богатых жильцов, расположенный по адресу Карла Маркса, 30, был построен в начале ХХ века модным архитектором Генрихом Гаем.]
+      (*
+      <- lang_ru;;
+      *);;
+                 -> rrel_example:
+      [Былы прыбытковы дом для багатых жыхароў, размешчаны па адрасе Карла Маркса, 30, быў пабудаваны ў пачатку ХХ стагоддзя модным архітэктарам Генрыхам Гаем.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);;
+    
+  *);
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/dom-marksa-30.jpg"
+      (*
+      => nrel_format: format_jpg;;
+                        *);;
+    *);;
+  *);
+
+<- concept_building;
+=> nrel_geographical_location: ...
+  (*
+  <-concept_mapped_point;;
+  => nrel_WGS_84_translation: [53.899300, 27.560920]  
+    (*
+    -> ...
+      (*
+      <- concept_coordinate;;
+      ->rrel_latitude: ...
+        (*
+        <=nrel_value: ...
+          (*
+          -> rrel_degree: 53.899300;;
+          *);;
+        *);;
+      ->rrel_longitude: ...
+        (*
+        <=nrel_value: ...
+          (*
+          -> rrel_degree: 27.560920;;
+            *);;
+        *);;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <- sc_definition;;
+  <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+      [С 1951 по 1980 год в одной из квартир на Маркса, 30 жил народный поэт Беларуси Петрусь Бровка – сейчас в этих стенах литературный музей его имени.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);
+  ...
+    (*
+    -> rrel_example:
+      [З 1951 па 1980 году ў адной з кватэр на Маркса, 30 жыў народны паэт Беларусі Пятрусь Броўка - цяпер у гэтых сценах літаратурны музей яго імя.]
+      (*
+      <- lang_by;;
+      *);;
+    *);;
+  *)
+;;
+
+concept_situation->[*Kostrovickaja_house <- concept_arch_modern;;*]
+(*
+  <- begin_date_1912;;
+*);;

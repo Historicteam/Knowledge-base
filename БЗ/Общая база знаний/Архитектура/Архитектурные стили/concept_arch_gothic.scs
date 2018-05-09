@@ -1,0 +1,63 @@
+concept_arch_gothic
+=>nrel_main_idtf:
+	[Готический архитектурный стиль] (* <-lang_ru;; *);
+	[Gothic architectural styl] (* <-lang_en;; *);
+	[Гатычны архітэктурны стыль] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Готический стиль — архитектурный стиль, отличием которого являются стрельчатые своды и остроконечные, легкие, резные, смело уходящие вверх башни; возник во Франции.]
+      (*
+      <- lang_ru;;
+      *);;
+
+    *);;
+*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Готическая архитектура сочетает три ключевых элемента: стрельчатая арка, способная выдерживать большие нагрузки по сравнению с круглой; нервюрный свод — система выступающих ребер, благодаря которой высота свода увеличивается и, соответственно, в здание проникает больше света; и, наконец, аркбутан — наружная горизонтальная полуарка, передающая нагрузку на контрфорсы.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Kelns_cathedral.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+=>nrel_arch_style_elem: concept_pointed_arch;
+=>nrel_arch_style_elem: concept_flying_buttresses;
+
+  <= nrel_subdividing:
+  {
+    concept_arch_neo_gothic;
+    concept_arch_flamboyant;
+    concept_arch_pseudo_gothic
+  };
+
+<-begin_date_second_half_of_12_century;
+<-completion_date_first_half_of_16_century;;

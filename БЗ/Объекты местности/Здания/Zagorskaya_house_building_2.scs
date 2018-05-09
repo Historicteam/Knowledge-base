@@ -320,7 +320,7 @@ concept_situation->[*Zagorskaya_house_building_2 <= nrel_owner: Zagorskaya_Eliza
 	<- begin_date_1888;;
 	<- completion_date_1891;;
 *);;
-concept_situation->[*Zagorskaya_house_building_2 <= nrel_architect: Gay_Henrik_Julianovich;;*]
+concept_situation->[*Zagorskaya_house_building_2 => nrel_architect: Gay_Henrik_Julianovich;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени, в которое Гай Генрих Юлианович являлся архитектором дома Загорской(49)](*<-lang_ru;;*);;
 	<- begin_date_1914;;

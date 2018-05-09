@@ -1,0 +1,79 @@
+Malinins_house
+=> nrel_main_idtf:
+  [дом Малининых]
+  (*
+  <- lang_ru;;
+  *);
+  [Malinins house]
+  (*
+  <- lang_en;;
+  *);
+  [дом Малініных]
+  (*
+  <- lang_by;;
+    *);
+
+<- rrel_key_sc_element:
+  ...
+  (*
+  <-sc_definition;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+      [Жилой дом на Володарского 9 был возведен в конце XIX – начале XX веков. Это яркий пример гражданской архитектуры.]
+      (*
+      <- lang_ru;;
+      *);;
+    -> rrel_example:
+      [Жылы дом на Валадарскага 9 быў узведзены ў канцы XIX - пачатку XX стагоддзяў. Гэта яскравы прыклад грамадзянскай архітэктуры.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);;
+  *);
+
+<- concept_building;
+=> nrel_geographical_location: ...
+  (*
+  <-concept_mapped_point;;
+  => nrel_WGS_84_translation: [53.897652, 27.551456]
+    (*
+    -> ...
+      (*
+      <- concept_coordinate;;
+      ->rrel_latitude: ...
+        (*
+        <=nrel_value: ...
+          (*
+          -> rrel_degree: 53.897652;;
+          *);;
+        *);;
+      ->rrel_longitude: ...
+        (*
+        <=nrel_value: ...
+          (*
+          -> rrel_degree: 27.551456;;
+          *);;
+        *);;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Volodarskogo9.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;
+
+concept_situation->[*Malinins_house <- concept_arch_modern;;*]
+(*
+  <- begin_date_1912;;
+*);;

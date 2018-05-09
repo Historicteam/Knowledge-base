@@ -1,0 +1,22 @@
+begin_date_07_1906
+=> nrel_main_idtf:
+   [время начала - июль 1906]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 1906]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 1906]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [7];;
+   <- number_of_year: [1906];;
+   *);
+   <- begin_date_1906;;

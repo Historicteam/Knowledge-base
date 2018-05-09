@@ -1,0 +1,22 @@
+organization_belarusian_delegation_at_the_paris_peace_conference
+=> nrel_main_idtf:
+  [Белорусская делегация на Парижской мирной конференции]
+  (*
+  <- lang_ru;;
+  *);
+  [Belarusian delegation at the Paris Peace Conference]
+  (*
+  <- lang_en;;
+  *);
+  [Беларуская дэлегацыя на Парыжскай мірнай канферэнцыі]
+  (*
+  <- lang_by;;
+  *);
+
+<-concept_formal_organization;;
+
+concept_situation->[*state_belarusian_people_s_republic -> rrel_delegation: organization_belarusian_delegation_at_the_paris_peace_conference;;*]
+(*
+  <- begin_date_18_01_1919;;
+  <- completion_date_21_01_1920;;
+*);;

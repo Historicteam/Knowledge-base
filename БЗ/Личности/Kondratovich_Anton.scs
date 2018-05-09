@@ -1,0 +1,8 @@
+Kondratovich_Anton
+=> nrel_main_idtf:  
+      [Кондратович Антон] (* <- lang_ru;; *);
+      [Kondratovich Anton](* <- lang_en;; *);
+      [Кандратовіч Антон](* <- lang_by;; *);
+<-concept_male;
+=>nrel_surname: surname_Kondratovich;
+=>nrel_first_name: name_Anton;;

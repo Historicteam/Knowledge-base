@@ -163,13 +163,15 @@ Peter_and_Paul_Cathedral_Building
 			*);;
 		*);;
 	*);
-	<- begin_date_1613;;
-concept_situation->[*Peter_and_Paul_Cathedral_Building<-concept_russian_revival;;*]
+
+<- begin_date_1613;;
+
+concept_situation->[*Peter_and_Paul_Cathedral_Building<-concept_arch_pseudo_russian_style;;*]
 (*
 	<- begin_date_1613;;
 *);;
 
 concept_situation->[*Peter_and_Paul_Cathedral_Building <-concept_arch_renaissanse;;*]
 (*
-                <- begin_date_1636;;
+   <- begin_date_1636;;
 *);;

@@ -1,0 +1,16 @@
+estste_Gorodno
+=> nrel_main_idtf:
+  [Городно]
+  (*
+  <- lang_ru;;
+  *);
+  [Gorodno]
+  (*
+  <- lang_en;;
+  *);
+  [Гародна]
+  (*
+  <- lang_by;;
+  *);
+  =>nrel_location:Gorodno_village;
+<-concept_estate;;

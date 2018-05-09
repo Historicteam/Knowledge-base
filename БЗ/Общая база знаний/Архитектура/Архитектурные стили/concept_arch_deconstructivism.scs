@@ -1,0 +1,34 @@
+concept_arch_deconstructivism
+=>nrel_main_idtf:
+	[Архитектурный стиль деконструктивизм] (* <-lang_ru;; *);
+	[Architectural style deсonstructivism] (* <-lang_en;; *);
+	[Архітэктурны стыль дэканструктывізм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Деконструктивизм - стиль в архитектуре, для которого характерны визуальная усложнённость, неожиданные изломанные и нарочито деструктивные формы, а также подчёркнуто агрессивное вторжение в городскую среду.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Royal_Ontario_Museum_deconstructivism.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

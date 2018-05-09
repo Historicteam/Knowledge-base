@@ -1,0 +1,57 @@
+the_city_of_Kaunas
+<-sc_const;
+=> nrel_main_idtf:
+  [Каунас]
+  (*
+  <- lang_ru;;
+  *);
+  [Kaunas]
+  (*
+  <- lang_en;;
+  *);
+  [Каўнас]
+  (*
+  <- lang_en;;
+  *);
+
+=>nrel_coat_of_arms:coat_of_arms_of_Kaunas;
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Kaunas_castle.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-concept_city;
+
+<- rrel_key_sc_element:
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [Каунас - второй по величине и значению город Литвы, административный центр Каунасского района, в 1919—1940 годах — временная столица Литовской Республики.]
+        (* <- lang_ru;; *);;
+      *);;
+    *);
+
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [Каўнас - другі па велічыні і значэнню горад Літвы, адміністрацыйны цэнтр Каўнаскага раёна, у 1919-1940 гадах - часовая сталіца Літоўскай Рэспублікі.]
+        (* <- lang_by;; *);;
+      *);;
+    *);;

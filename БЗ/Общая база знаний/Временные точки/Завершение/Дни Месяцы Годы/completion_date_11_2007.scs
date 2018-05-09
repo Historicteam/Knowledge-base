@@ -1,0 +1,22 @@
+completion_date_11_2007
+=> nrel_main_idtf:
+   [время завершения - ноябрь 2007]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - november of 2007]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - снежань 2007]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [11];;
+   <- number_of_year: [2007];;
+   *);
+   <- completion_date_2007;;

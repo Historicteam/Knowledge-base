@@ -88,7 +88,7 @@ Female_Basilian_Monastery_Building
 ;;
 
 
-concept_situation->[*Female_Basilian_Monastery_Building<-concept_arch_classical_baroque;;*]
+concept_situation->[*Female_Basilian_Monastery_Building <- concept_arch_baroque;;*]
 (*
         <- begin_date_1641;;
  *);; 

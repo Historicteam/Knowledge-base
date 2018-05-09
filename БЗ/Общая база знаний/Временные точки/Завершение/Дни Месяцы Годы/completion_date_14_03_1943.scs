@@ -1,0 +1,24 @@
+completion_date_14_03_1943
+=> nrel_main_idtf:
+   [время завершения - 14 марта 1943]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 14 march of 1943]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 14 сакавiка 1943]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [14];;
+   <- number_of_month_in_year: [3];;
+   <- number_of_year: [1943];;
+   *);
+   <- completion_date_03_1943;
+   <- completion_date_1943;;

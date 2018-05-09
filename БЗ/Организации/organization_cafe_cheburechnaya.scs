@@ -1,0 +1,19 @@
+organization_cafe_cheburechnaya
+=> nrel_main_idtf:
+  [Кафе "Чебуречная"]
+  (*
+  <- lang_ru;;
+  *);
+  [Cafe Cheburechnaya]
+  (*
+  <- lang_en;;
+  *);
+  [Кафэ "Чабурэчная"]
+  (*
+  <- lang_by;;
+  *);
+
+=>nrel_location:Malinins_house;
+
+<-concept_labour_organization;
+<- concept_formal_organization;;

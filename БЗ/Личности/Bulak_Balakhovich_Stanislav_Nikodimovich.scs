@@ -1,0 +1,41 @@
+Bulak_Balakhovich_Stanislav_Nikodimovich
+=> nrel_main_idtf:  
+      [Булак-Балахович Станислав Никодимович] (* <- lang_ru;; *);
+      [Bulak-Balakhovich Stanislav Nikodimovich](* <- lang_en;; *);
+      [Булак-Балаховіч Станіслаў Нікадзімавіч](* <- lang_by;; *);
+
+=>nrel_idtf:
+      [Атаман (батька) Булак-Балахович] (* <- lang_ru;; *);
+
+<-concept_male;
+=>nrel_surname: surname_Bulak_Balakhovich;
+=>nrel_first_name: name_Stanislav;
+=>nrel_parent:Balakhovich_Nikodim_Mikhail_Silvestrovich;
+=>nrel_parent:Balakhovich_Jozefa;
+<=>nrel_sibling:Balakhovich_Juzef_Nikodimovich;
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Balakhovich.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+=>nrel_author:
+  book_War_will_or_will_not_be;
+  book_Down_Hitler_or_Heil_Hitler;
+
+<-rrel_commander_in_chief:organization_separate_detachment_of_BNR_troops;
+
+=>nrel_place_of_birth:Meishty_village;
+=>nrel_place_of_death:Warsaw;
+
+<-begin_date_22_02_1883;
+<-completion_date_10_05_1940;;
+

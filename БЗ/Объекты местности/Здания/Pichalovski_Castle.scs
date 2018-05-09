@@ -20,3 +20,8 @@ Pichalovski_Castle
 <-concept_building;
 <-concept_terrain_object
 ;;
+
+concept_situation->[*Pichalovski_Castle <- concept_arch_neoclassicism;;*]
+(*
+  <- begin_date_1825;;
+*);;

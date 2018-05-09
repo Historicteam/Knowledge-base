@@ -1,0 +1,9 @@
+Zalesskaya_Zinaida
+=> nrel_main_idtf:  
+      [Зинаида Залесская] (* <- lang_ru;; *);
+      [Zinaida Zalesskaya](* <- lang_en;; *);
+      [Зінаіда Залеская](* <- lang_by;; *);
+<-concept_female;
+=>nrel_surname: surname_Zalesskaya;
+=>nrel_first_name: name_Zinaida;
+<=>nrel_spouse:Kondratovich_Anton;;

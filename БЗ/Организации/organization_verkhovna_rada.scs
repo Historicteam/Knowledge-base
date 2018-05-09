@@ -1,0 +1,43 @@
+organization_verkhovna_rada
+=> nrel_main_idtf:
+  [Верховная Рада]
+  (*
+  <- lang_ru;;
+  *);
+  [The Verkhovna Rada]
+  (*
+  <- lang_en;;
+  *);
+  [Вярхоўная Рада]
+  (*
+  <- lang_by;;
+  *);
+
+->rrel_chairman_of_the_council: Luckevich_Anton_Ivanovich;
+
+<-concept_formal_organization;
+
+<- rrel_key_sc_element:
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [Верховная Рада ориентировалась на сотрудничество с польскими властями и искала формы осуществления белорусской государственности на основе федерации с Польшей.]
+        (* <- lang_ru;; *);;
+      *);;
+    *);
+
+...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Вярхоўная Рада арыентавалася на супрацоўніцтва з польскімі ўладамі і шукала формы ажыццяўлення беларускай дзяржаўнасці на аснове федэрацыі з Польшчай.]
+      (* <- lang_by;; *);;
+    *);;
+  *);;

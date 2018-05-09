@@ -1,0 +1,18 @@
+Rubanenko_Boris_Rafailovich
+=> nrel_main_idtf:
+  [Рубаненко Борис Рафаилович]
+  (*
+  <- lang_ru;;
+  *);
+  [Rubanenko Boris Rafailovich]
+  (*
+  <- lang_en;;
+  *);
+  [Рубаненка Барыс Рафаілавіч]
+  (*
+  <- lang_by;;
+  *);
+<-concept_male;
+<-concept_architector; 
+=>nrel_surname: surname_Rubanenko;
+=>nrel_first_name: name_Boris;;

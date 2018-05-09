@@ -1,0 +1,36 @@
+concept_arch_empire_style
+=>nrel_main_idtf:
+	[Архитектурный стиль ампир] (* <-lang_ru;; *);
+	[Architectural style empire style] (* <-lang_en;; *);
+	[Архітэктурны стыль ампір] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Ампир - стиль позднего классицизма в архитектуре, особенность которого заключается в обязательном наличии колонн, пилястров и других классических элементов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+  ...
+  (*
+  ->rrel_example: "file://content/Triomphe_du_Carrousel_empire.jpg"
+    (*
+    => nrel_format: format_jpg;;
+    *);;
+  *);;
+*);
+
+<-begin_date_first_half_of_19_century;
+<-completion_date_second_half_of_19_century;;

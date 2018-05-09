@@ -1,0 +1,24 @@
+completion_date_25_03_1918
+=> nrel_main_idtf:
+   [время завершения - 25 марта 1918]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 25 march of 1918]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 25 марта 1918]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [25];;
+   <- number_of_month_in_year: [03];;
+   <- number_of_year: [1918];;
+   *);
+   <- completion_date_03_1918;
+   <- completion_date_1918;;

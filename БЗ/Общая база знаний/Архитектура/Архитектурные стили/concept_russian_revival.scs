@@ -1,0 +1,46 @@
+concept_arch_pseudo_russian_style
+=>nrel_main_idtf:
+	[Псевдорусский архитектурный стиль] (* <-lang_ru;; *);
+	[Pseudo-Russian architectural style] (* <-lang_en;; *);
+	[Псеўдарускі архітэктурны стыль] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Псевдорусский стиль - архитектурный стиль, условное общее наименование нескольких различных по своим идейным истокам направлений историзма в русской архитектуре XIX — начала XX веков, основанное на использовании традиций древнерусского зодчества и народного искусства, а также ассоциируемых с ними элементов византийской архитектуры.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Igumnov_House_russian_revival.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Timiryazev_Museum_russian_revival.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;

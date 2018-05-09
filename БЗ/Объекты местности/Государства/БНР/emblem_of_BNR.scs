@@ -1,0 +1,23 @@
+emblem_of_BNR
+
+=> nrel_main_idtf:
+  [герб БНР] (* <- lang_ru;; *);
+  [The BNR emblem] (* <- lang_en;; *);
+  [герб БНР] (* <- lang_by;; *);
+=> nrel_idtf:
+  [герб "Погоня""] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/emblem_of_BNR.png"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+
+<- concept_emblem;;

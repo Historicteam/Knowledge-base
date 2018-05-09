@@ -1,0 +1,35 @@
+concept_arch_hi_tech
+=>nrel_main_idtf:
+	[Архитектурный стиль хай-тек] (* <-lang_ru;; *);
+	[Architectural style hi-tech] (* <-lang_en;; *);
+	[Архітэктурны стыль хай-тэк] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Хай-тек - архитектурный стиль, основанный на использовании высоких технологий в проектировании, строительстве и инженерии зданий и сооружений, использовании прямых линий и форм, широком применении стекла, пластика, металла.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/the-georges-pompidou-centre.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;

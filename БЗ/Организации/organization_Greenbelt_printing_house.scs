@@ -1,0 +1,19 @@
+organization_Greenbelt_printing_house
+=> nrel_main_idtf:
+  [Типография Гринблата]
+  (*
+  <- lang_ru;;
+  *);
+  [Greenbelt Printing House]
+  (*
+  <- lang_en;;
+  *);
+  [Друкарня Гринблата]
+  (*
+  <- lang_by;;
+  *);
+
+=>nrel_location: house_of_Sventitsky;
+
+<-concept_formal_organization;
+<-concept_cultural_educational_organization;;

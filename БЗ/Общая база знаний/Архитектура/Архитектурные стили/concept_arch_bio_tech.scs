@@ -1,0 +1,48 @@
+concept_arch_bio_tech
+=>nrel_main_idtf:
+	[Архитектурный стиль био-тек] (* <-lang_ru;; *);
+	[Architectural style bio-tech] (* <-lang_en;; *);
+	[Архітэктурны стыль бія-тэк] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Био-тек — стиль архитектуры, где выразительность конструкций достигается заимствованием природных форм.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+	...
+	(*
+	->rrel_example: "file://content/Milwaukee-Art-Museum_bio_tech.jpg"
+		(*
+		=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+	...
+	(*
+	->rrel_example: "file://content/National_Space_Centre_GB_bio_tech.jpg"
+		(*
+		=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);;

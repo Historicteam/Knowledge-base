@@ -1,0 +1,55 @@
+concept_arch_renaissanse
+=>nrel_main_idtf:
+	[Архитектурный стиль ренессанс] (* <-lang_ru;; *);
+	[Architectural style renaissanse] (* <-lang_en;; *);
+	[Архітэктурны стыль рэнесанс] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Ренессанс - архитектурный стиль, который выражается взглядом на античность глазами людей из Средневековья.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Ренессанс - отказ от традиционной средневековой и готической архитектуры. В проектировании стали использовать чистые геометрические формы — квадрат и круг.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/st_Maria_del_Fiore.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+=>nrel_arch_style_elem: concept_arch_neo_renaissance;
+
+<-begin_date_first_half_of_15_century;
+<-completion_date_first_half_of_17_century;;

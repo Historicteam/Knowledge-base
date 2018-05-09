@@ -1,0 +1,24 @@
+begin_date_18_01_1919
+=> nrel_main_idtf:
+   [время начала - 18 января 1919]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 18 january of 1919]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 18 студзеня 1919]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [18];;
+   <- number_of_month_in_year: [1];;
+   <- number_of_year: [1919];;
+   *);
+   <- begin_date_01_1919;
+   <- begin_date_1919;;

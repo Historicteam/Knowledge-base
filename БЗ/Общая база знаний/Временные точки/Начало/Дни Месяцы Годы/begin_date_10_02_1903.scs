@@ -1,0 +1,24 @@
+begin_date_10_02_1903
+=> nrel_main_idtf:
+   [время начала - 10 февраля 1903]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 10 february of 1903]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 10 лютага 1903]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [10];;
+   <- number_of_month_in_year: [2];;
+   <- number_of_year: [1903];;
+   *);
+   <- begin_date_02_1903;
+   <- begin_date_1903;;

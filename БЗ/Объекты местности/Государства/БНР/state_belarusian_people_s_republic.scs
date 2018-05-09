@@ -1,0 +1,33 @@
+state_belarusian_people_s_republic
+=> nrel_main_idtf:
+  [Белорусская Народная Республика] (* <- lang_ru;; *);
+  [Belarusian People's Republic] (* <- lang_en;; *);
+  [Беларуская Народная Рэспубліка] (* <- lang_by;; *);
+
+=> nrel_idtf:
+  [БНР] (* <- lang_ru;; *);
+
+<-concept_state;
+<-concept_nation_state;
+<-concept_republic;
+concept_unitary_state;
+
+=>nrel_state_emblem: emblem_of_BNR;
+=>nrel_state_flag: flag_of_BNR;;
+
+concept_situation->
+[*organization_Council_of_Belarusian_People_s_Republic <- ... (* <- concept_legislature;;
+  <- ...(* <- concept_formal_government_apparatus;;
+    <= nrel_political_power: state_belarusian_people_s_republic;;*);; *);;*]
+(*
+  <- begin_date_12_1917;;
+*);;
+
+concept_situation->
+[*organization_Government_people_s_Secretariat <- ... (* <- concept_executive;;
+  <- ...(* <- concept_formal_government_apparatus;;
+    <= nrel_political_power: state_belarusian_people_s_republic;;*);; *);;*]
+(*
+  <- begin_date_05_1918;;
+  <- completion_date_10_1918;;
+*);;

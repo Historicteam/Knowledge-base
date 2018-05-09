@@ -3,7 +3,7 @@ The_building_of_the_Minsk_Academy_of_Music
 	[Здание минской академии музыки] (* <- lang_ru;; *);
 	[The building of the Minsk Academy of Music] (* <- lang_en;; *);
 	[Будынак мінскай акадэміі музыкі] (* <- lang_by;; *);
-<=nrel_architect:Gegart_Roman_Mikhailovich;
+=> nrel_architect: Gegart_Roman_Mikhailovich;
 <- begin_date_1958;
 <- concept_building;
 <- concept_arch_classicism;

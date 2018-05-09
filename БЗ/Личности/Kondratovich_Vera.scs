@@ -1,0 +1,8 @@
+Kondratovich_Vera
+=> nrel_main_idtf:  
+      [Кондратович Вера] (* <- lang_ru;; *);
+      [Kondratovich Vera](* <- lang_en;; *);
+      [Кандратовіч Вера](* <- lang_by;; *);
+<-concept_female;
+=>nrel_surname: surname_Kondratovich;
+=>nrel_first_name: name_Vera;;

@@ -1,0 +1,16 @@
+nrel_arch_style_elem
+=>nrel_main_idtf:
+  [архитектурный элемент*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [architectural element*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [архітэктурны элемент*] (* <-lang_by;; *);
+
+<-sc_const; 
+<-sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+<- antireflexive_relation;;

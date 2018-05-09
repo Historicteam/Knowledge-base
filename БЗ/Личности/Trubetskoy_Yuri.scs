@@ -1,0 +1,8 @@
+Trubetskoy_Yuri
+=> nrel_main_idtf:  
+      [Трубецкой Юрий] (* <- lang_ru;; *);
+      [Trubetskoy Yuri](* <- lang_en;; *);
+      [Трубецкі Юрый](* <- lang_by;; *);
+<-concept_male;
+=>nrel_surname: surname_Trubetskoy;
+=>nrel_first_name: name_Yuri;;

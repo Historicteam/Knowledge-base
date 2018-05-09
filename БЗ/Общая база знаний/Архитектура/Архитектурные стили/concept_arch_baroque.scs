@@ -1,0 +1,77 @@
+concept_arch_baroque
+=>nrel_main_idtf:
+	[Архитектурный стиль барокко] (* <-lang_ru;; *);
+	[Architectural style baroque] (* <-lang_en;; *);
+	[Архітэктурны стыль барока] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Барокко — архитектурный стиль конца 16 – середины 18 в., отличался от стиля Возрождения и от классицизма 18 в. декоративной пышностью, сложными формами и живописностью.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Для архитектуры барокко характерна определенная художественная свобода и экспериментаторство, в отличие от строгого греческого возрождения середины XVII века.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/st_Paul_cathedral.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/winter_palace.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+  
+	<= nrel_subdividing:
+	{
+		concept_arch_rococo_architecture;
+		concept_arch_vilnius_baroque;
+		concept_arch_moscow_baroque
+	};
+
+=>nrel_arch_style_elem: concept_baroque_classic_top;
+=>nrel_arch_style_elem: concept_baroque_elongated_window;
+=>nrel_arch_style_elem: concept_baroque_rounded_top;
+
+<-begin_date_second_half_of_16_century;
+<-completion_date_first_half_of_18_century;;

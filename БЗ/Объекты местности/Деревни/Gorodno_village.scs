@@ -1,0 +1,8 @@
+Gorodno_village
+=>nrel_main_idtf:
+  [Городно] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [Gorodno] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [Гародна] (* <-lang_by;; *); 
+<-concept_village;;

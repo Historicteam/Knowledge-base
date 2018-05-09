@@ -1,0 +1,24 @@
+completion_date_21_01_1920
+=> nrel_main_idtf:
+   [время завершения - 21 января 1920]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 21 january of 1920]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 21 студзеня 1920]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [21];;
+   <- number_of_month_in_year: [1];;
+   <- number_of_year: [1920];;
+   *);
+   <- completion_date_01_1920;
+   <- completion_date_1920;;

@@ -1,0 +1,24 @@
+completion_date_31_12_1918
+=> nrel_main_idtf:
+   [время завершения - 31 декабря 1918]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 31 december of 1918]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 31 снежня 1918]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [31];;
+   <- number_of_month_in_year: [12];;
+   <- number_of_year: [1918];;
+   *);
+   <- completion_date_12_1918;
+   <- completion_date_1918;;

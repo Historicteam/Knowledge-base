@@ -1,0 +1,23 @@
+flag_of_BNR
+
+=> nrel_main_idtf:
+  [флаг БНР] (* <- lang_ru;; *);
+  [The BNR flag] (* <- lang_en;; *);
+  [сцяг БНР] (* <- lang_by;; *);
+=> nrel_idtf:
+  [Бело-красно-белый флаг] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/Flag_of_BNR.png"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+
+<- concept_breadth;;

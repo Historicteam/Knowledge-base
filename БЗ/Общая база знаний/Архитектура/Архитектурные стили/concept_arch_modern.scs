@@ -1,0 +1,66 @@
+concept_arch_modern
+=>nrel_main_idtf:
+	[Архитектурный стиль модерн] (* <-lang_ru;; *);
+	[Architectural style modern] (* <-lang_en;; *);
+	[Архітэктурны стыль мадэрн] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Модерн — архитектурный стиль, получивший распространение в Европе в 1890-е—1910-е годы в рамках художественного направления модерн. Архитектуру модерна отличает отказ от классических линий и углов в пользу более декоративных линий при использовании новых материалов таких как металл, бетон, железобетон и стекло.]
+      (*
+      <- lang_ru;;
+      *);;
+
+    *);;
+*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Стиль модерн возник в европейском и американском искусстве в конце XIX – начале XX века и наиболее ярко проявился в архитектуре частных домов – особняков, а также в строительстве деловых, промышленных и торговых зданий – банков, бирж, вокзалов.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Balio_house.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Haudi_House_art_deco.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-begin_date_second_half_of_19_century;
+<-completion_date_first_half_of_20_century;;
