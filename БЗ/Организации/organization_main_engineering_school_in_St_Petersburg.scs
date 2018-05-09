@@ -1,0 +1,7 @@
+organization_main_engineering_school_in_St_Petersburg
+<-concept_organization;
+
+=> nrel_main_idtf:
+	[Главное инженерное училище г.Санкт-Петербурга] (* <- lang_ru;; *);
+	[The main engineering school in St. Petersburg] (* <- lang_en;; *);
+	[Галоўнае інжынернае вучылішча г.Санкт-Петербурга] (* <- lang_by;; *);;

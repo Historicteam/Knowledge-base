@@ -1,0 +1,29 @@
+concept_lieutenant
+<-sc_const;
+=> nrel_main_idtf:
+	[поручик]
+	(*
+	<- lang_ru;;
+	*);
+	[lieutenant]
+	(*
+	<- lang_en;;
+	*);
+	[паручнік]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Поручик — офицерский чин рангом выше подпоручика и ниже штабс-капитана, а также лицо, имеющее этот чин.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

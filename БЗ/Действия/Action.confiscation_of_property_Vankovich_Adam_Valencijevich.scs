@@ -1,0 +1,7 @@
+Action.confiscation_of_property_Vankovich_Adam_Valencijevich
+
+=>nrel_main_idtf:
+	[Действие. конфискация имущества Ваньковича Адама Валентиевича] (* <-lang_ru;; *);
+
+=>nrel_object: Vankovich_Adam_Valencijevich;
+<-action.confiscation_of_property;;

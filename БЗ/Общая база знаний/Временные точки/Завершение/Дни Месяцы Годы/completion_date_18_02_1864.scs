@@ -1,0 +1,20 @@
+completion_date_18_02_1864
+=> nrel_main_idtf:
+   [время завершения - 18 февраля 1864]
+   (*
+   <- lang_ru;;
+   *);
+   [час заканчэння - 18 лютага 1864]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [18];;
+   <- number_of_month_in_year: [2];;
+   <- number_of_year: [1863];;
+   *);
+   <- completion_date_02_1864;
+   <- completion_date_1864;;

@@ -1,0 +1,7 @@
+Action.confiscation_of_property_Vankovich_Flaryan
+
+=>nrel_main_idtf:
+	[Действие. конфискация имущества имущества Ваньковича Флориана] (* <-lang_ru;; *);
+
+=>nrel_object: Vankovich_Flaryan;
+<-action.confiscation_of_property;;

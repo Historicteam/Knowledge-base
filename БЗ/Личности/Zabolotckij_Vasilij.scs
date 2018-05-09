@@ -1,0 +1,15 @@
+Zabolotckij_Vasilij
+=> nrel_main_idtf:
+	[Заболоцкий Василий]
+	(*
+	<- lang_ru;;
+	*);
+	[Zabolotckij Vasilij]
+	(*
+	<- lang_en;;
+	*);
+	[Забалоцкі Васілій]
+	(*
+	<- lang_by;;
+	*);
+<= nrel_governor: organization_provincial_board_of_Minsk;;

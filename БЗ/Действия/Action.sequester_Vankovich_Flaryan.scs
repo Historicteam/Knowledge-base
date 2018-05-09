@@ -1,0 +1,7 @@
+Action.sequester_Vankovich_Flaryan
+
+=>nrel_main_idtf:
+	[Действие. секвестр имущества Ваньковича Флориана] (* <-lang_ru;; *);
+
+=>nrel_object: Vankovich_Flaryan;
+<-action.sequester;;

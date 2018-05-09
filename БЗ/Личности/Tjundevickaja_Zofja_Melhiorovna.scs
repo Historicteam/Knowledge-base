@@ -1,0 +1,16 @@
+Tjundevickaja_Zofja_Melhiorovna
+=> nrel_main_idtf:
+	[Тюндевицкая Зофья Мельхиоровна]
+	(*
+	<- lang_ru;;
+	*);
+	[Tjundevickaja Zofja Melhiorovna]
+	(*
+	<- lang_en;;
+	*);
+	[Цюндзявіцкая Зоф'я Мельхіёраўна]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_female;;

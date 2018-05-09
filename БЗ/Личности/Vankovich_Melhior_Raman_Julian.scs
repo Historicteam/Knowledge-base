@@ -1,0 +1,68 @@
+Vankovich_Melhior_Raman_Julian
+=> nrel_main_idtf:
+	[Ванькович Мельхиор-Роман-Юльан Каролиевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Melhior Raman Julian Karolievich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Мельхіёр-Раман-Юльян Караліявіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+<=>nrel_spouse: Shvajnitckaja_Marija;
+<- concept_participant_of_the_uprising_1863;
+
+<-begin_date_1842;
+<-completion_date_1892;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[Ўдзельнічаў ў паўстанні, арыштаваны. Знаходзіўся пад следствам ў ІСК. Прысуджаны да пазбаўлення правоў стану, канфіскацыі маёмасці і ссылкі ў Сібір ці на катаргу.] 	
+			(* <- lang_by;;*);;
+		*);;
+
+*);;
+
+concept_situation->[*Vankovich_Melhior_Raman_Julian <= nrel_dwelling: estate_Koljuzhycy;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Мельхиора-Романа-Юльана Ваньковича в им.Колюжыцы.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1842;;
+	<- completion_date_1863;;			
+*);;
+
+concept_situation->[*Vankovich_Melhior_Raman_Julian <= nrel_dwelling: estate_Koljuzhycy;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Мельхиора-Романа-Юльана Ваньковича в им.Колюжыцы.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1868;;
+	<- completion_date_1892;;			
+*);;
+
+
+concept_situation->[*Vankovich_Melhior_Raman_Julian <= nrel_dwelling: region_Sibir;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Мельхиора-Романа-Юльана Ваньковича в ссылке, в Сибири.]
+		(*<-lang_ru;;*);;
+	<- begin_date_30_01_1864;;
+	<- completion_date_17_05_1868;;			
+*);;
+
+concept_situation->[*Vankovich_Melhior_Raman_Julian <= nrel_owner: estate_Koljuzhycy;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Мельхіора-Рамана-Юльана Ваньковича поместьем Колюжицы.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1890;;
+	<- completion_date_1892;;			
+*);;

@@ -1,0 +1,21 @@
+concept_typography
+<- sc_node_norole_relation;
+=>nrel_main_idtf:
+	[типография] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[typography] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[друкарня] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предприятие, где производится надор и печатание изданий.] (* <-lang_ru;; *);;
+		*);;
+	*);
+	
+<-sc_const;;

@@ -1,0 +1,16 @@
+Tjundevickaja_Klementina_Melhiorovna
+=> nrel_main_idtf:
+	[Тюндевицкая Клементина Мельхиоровна]
+	(*
+	<- lang_ru;;
+	*);
+	[Tjundevickaja Klementina Melhiorovna]
+	(*
+	<- lang_en;;
+	*);
+	[Цюндзявіцкая Клемянціна Мельхіёраўна]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_female;;

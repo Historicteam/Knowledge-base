@@ -1,0 +1,114 @@
+Vankovich_Adam_Valencijevich
+=> nrel_main_idtf:
+	[Ванькович Адам Валентиевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Adam Valencijevich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Адам Валенціявіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+<=>nrel_spouse: Kljachkovskaya_Amelija;
+<- concept_participant_of_the_uprising_1863;
+
+<-begin_date_1827;
+<-completion_date_1895;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[За ўдзел ў паўстанні ў складзе "Мінскай рэвалюцыйнай арганізацыі" арыштаваны. Прысуджаны (да 01.10.1864) да пазбаўлення правоў стану, канфіскацыі маёмасці і ссылкі ў Сібір на пасяленне.] 	
+			(* <- lang_by;;*);;
+		*);;
+*);
+
+-> rrel_student: organization_Minsk_Male_Gymnasium;
+-> rrel_student: organization_main_engineering_school_in_St_Petersburg;;
+
+
+concept_situation->[*Vankovich_Adam_Valencijevich -> rrel_chairman: organisation_Minsk_court_of_concience;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени работы Адама Ваньковича председателем Минского совестного суда.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1859;;
+	<- completion_date_1863;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich => nrel_owner: estate_Sliepianka;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Адама Ваньковича имением Слепянка.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1860;;
+	<- completion_date_1863;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich => nrel_owner: farm_Dudy;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Адама Ваньковича хутором Дуды.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1860;;
+	<- completion_date_1863;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich => nrel_dwelling: estate_Sliepianka;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Адама Ваньковича в имении Слепянка.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1860;;
+	<- completion_date_1864;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich => nrel_dwelling: estate_Mikelevshchyna;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Адама Ваньковича в имении Микелевщина.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1876;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich => nrel_dwelling: estate_Galynka;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени местожительства Адама Ваньковича в имении Галынка.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1871;;
+	<- completion_date_1876;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich => nrel_dwelling: region_Sibir;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Адама Ваньковича в ссылке, в Сибири.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1863;;
+	<- completion_date_1871;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich => nrel_member: organization_Minsk_revolutionary_organization;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени участия Адама Ваньковича в Минской революционной организации.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1863;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich <- rrel_servant: unknown;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени службы Адама Ваньковича в Инженерной службе.]
+		(*<-lang_ru;;*);;
+	<- completion_date_1854;;			
+*);;
+
+concept_situation->[*Vankovich_Adam_Valencijevich <- concept_lieutenant;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени, когда Адам Ванькович ушел в отставку поручиком.]
+		(*<-lang_ru;;*);;
+	<- begin_date_14_04_1854;;			
+*);;

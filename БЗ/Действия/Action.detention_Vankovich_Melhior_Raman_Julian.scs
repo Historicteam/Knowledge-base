@@ -1,0 +1,8 @@
+Action.detention_Vankovich_Melhior_Raman_Julian
+
+=>nrel_main_idtf:
+	[Действие. арест Ваньковича Мельхиора-Романа-Юлиана] (* <-lang_ru;; *);
+
+=>nrel_object: Vankovich_Melhior_Raman_Julian;
+=>nrel_performer: organization_Igumensk_commission_of_inquiry;
+<-action.detention;;

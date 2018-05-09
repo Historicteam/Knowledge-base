@@ -1,0 +1,22 @@
+completion_date_06_1863
+=> nrel_main_idtf:
+   [время завершения - июнь 1863]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 1863]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - червень 1863]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [6];;
+   <- number_of_year: [1863];;
+   *);
+   <- completion_date_1863;;

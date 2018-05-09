@@ -1,0 +1,14 @@
+organization_Minsk_military_field_court
+=> nrel_main_idtf:
+	[Минский полевой военный суд]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk military field court]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі палявы ваенны суд]
+	(*
+	<- lang_by;;
+	*);;

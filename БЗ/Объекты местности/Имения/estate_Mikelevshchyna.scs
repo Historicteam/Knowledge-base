@@ -1,0 +1,11 @@
+estate_Mikelevshchyna
+=> nrel_main_idtf:
+	[Микелевщина]
+	(*
+	<- lang_ru;;
+	*);
+	[Mikelevshchyna]
+	(*
+	<- lang_en;;
+	*);
+<-concept_estate;;

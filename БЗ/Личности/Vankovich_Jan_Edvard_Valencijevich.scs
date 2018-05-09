@@ -1,0 +1,17 @@
+Vankovich_Jan_Edvard_Valencijevich
+=> nrel_main_idtf:
+	[Ванькович Ян-Эдвард Валентиевич]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Jan Edvard Valencijevich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Ян-Эдвард Валенціявіч]
+	(*
+	<- lang_by;;
+	*);
+
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;;

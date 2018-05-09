@@ -1,0 +1,19 @@
+Vankovich_Boleslav_Feliks_Adamovich
+=> nrel_main_idtf:
+	[Ванькович Болеслав-Феликс Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Vankovich Boleslav Feliks Adamovich]
+	(*
+	<- lang_en;;
+	*);
+	[Ваньковіч Баляслаў-Фелікс Адамавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+=>nrel_social_status: concept_titled_nobility;
+=>nrel_social_status: concept_ancestral_nobility;
+=>nrel_parent: Vankovich_Adam_Valencijevich;;

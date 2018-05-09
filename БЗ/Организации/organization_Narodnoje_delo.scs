@@ -1,0 +1,16 @@
+organization_typography_of_journal_Narodnoje_delo
+=> nrel_main_idtf:
+	[Типография журнала "Народное дело"]
+	(*
+	<- lang_ru;;
+	*);
+	[Typography of journal Narodnoje delo]
+	(*
+	<- lang_en;;
+	*);
+	[Друкарня часопіса "Народнае дзела"]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_typography;;
