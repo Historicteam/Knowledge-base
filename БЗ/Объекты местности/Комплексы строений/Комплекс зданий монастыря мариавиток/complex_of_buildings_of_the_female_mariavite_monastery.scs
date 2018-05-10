@@ -1,0 +1,89 @@
+complex_of_buildings_of_the_female_mariavite_monastery
+=>nrel_main_idtf:
+	[Комплекс зданий монастыря мариавиток]
+	(*
+		<-lang_ru;;
+	*);
+	[Complex of buildings of The Female Mariavite monastery]
+	(*
+		<-lang_en;;
+	*);
+<-concept_complex_of_buildings;
+=>nrel_architect:Chakhovskiy_Mikhail;
+=>nrel_architect:Zaborskiy_Georgiy_Vladimirovich;
+=>nrel_osm_query: [way(376987590);];; 
+
+concept_situation->[*
+	complex_of_buildings_of_the_female_mariavite_monastery
+	<=nrel_complex_of_buildings_decomposition:
+	{
+		building_of_the_female_mariavite_monastery;
+		building_of_hospital_of_sisters_of_Mercy;
+		building_of_church_of_st_vincent
+	};;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени декомпозиции комплекса зданий монастыря мариавиток]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1811;;
+	<-completion_date_1854;;
+*);;
+
+concept_situation->[*
+	complex_of_buildings_of_the_female_mariavite_monastery
+	<=nrel_temporal_decomposition:
+	complex_of_buildings_of_the_orthodox_theological_seminary;;
+*]
+(*
+	<-begin_date_1854;;
+	<-completion_date_1918;;
+*);;
+
+concept_situation->[*
+	complex_of_buildings_of_the_female_mariavite_monastery
+	<=nrel_temporal_decomposition:
+	complex_of_buildings_of_the_united_belorussian_military_school;;
+*]
+(*
+	<-begin_date_1921;;
+	<-completion_date_1941;;
+*);;
+
+concept_situation->[*
+	complex_of_buildings_of_the_female_mariavite_monastery
+	<=nrel_temporal_decomposition:
+	complex_of_buildings_of_the_minsk_suvorov_military_school;;
+*]
+(*
+	<-begin_date_1953;;
+*);;
+
+concept_situation->[*
+	complex_of_buildings_of_the_female_mariavite_monastery
+	<-concept_arch_empire_style;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда комплекс зданий монастыря мариавиток принадлежал архитектурному стилю ампир]
+		(*
+			<-lang_ru;;		
+		*);;
+	<-begin_date_1811;;
+	<-completion_date_1953;;
+*);;
+
+concept_situation->[*
+	complex_of_buildings_of_the_female_mariavite_monastery
+	<-concept_arch_neoclassicism;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда комплекс зданий монастыря мариавиток принадлежал архитектурному стилю неоклассицизм]
+		(*
+			<-lang_ru;;		
+		*);;
+	<-begin_date_1953;;
+*);;			

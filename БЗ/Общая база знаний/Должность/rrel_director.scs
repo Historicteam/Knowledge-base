@@ -3,10 +3,26 @@ rrel_director
 <- relation;
 <- binary_relation;
 <- oriented_relation;
-
-=> nrel_main_idtf:
+=>nrel_main_idtf:
+	[директор']
+	(*
+		<-lang_ru;;
+	*);
+	[director']
+	(*
+		<-lang_en;;
+	*);
+	[дырэктар']
+	(*
+		<-lang_by;;
+	*);
+=>nrel_idtf:
 	[заведующий']
 	(*
-	<- lang_ru;;
+		<- lang_ru;;
+	*);
+	[руководитель']
+	(*
+		<- lang_ru;;
 	*);;
 

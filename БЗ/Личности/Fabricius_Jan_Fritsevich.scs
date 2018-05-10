@@ -1,0 +1,19 @@
+Fabricius_Jan_Fritsevich
+=> nrel_main_idtf:
+	[Фабрициус Ян Фрицевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Fabricius_Jan_Fritsevich]
+	(*
+		<-lang_en;;
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Fabricius_Jan_Fritsevich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_1922;;
+		<-completion_date_1923;;
+*);;

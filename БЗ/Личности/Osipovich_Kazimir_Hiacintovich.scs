@@ -1,0 +1,47 @@
+Osipovich_Kazimir_Hiacintovich
+=>nrel_main_idtf:
+	[Осипович Казимир Гиацинтович]
+	(*
+		<-lang_ru;;
+	*);
+	[Osipovich Kazimir Hiacintovich]
+	(*
+		<-lang_en;;
+	*);
+	[Асіповіч Казімір Гіяцынтавіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Kazimir;
+=>nrel_surname:surname_Osipovich;
+=>nrel_parent:Osipovich_Hiacint;
+<-rrel_student:organization_the_moscow_university;
+<-begin_date_27_04_1835;
+<-completion_date_25_07_1884;;
+
+concept_situation->[*
+Osipovich_Kazimir_Hiacintovich
+=>nrel_location:city_solikamsk;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени местоположения Осиповича Казимира Гиацинтовича в городе Соликамск]
+	(*
+		<-lang_ru;;
+	*);;
+	<-completion_date_1880;;
+*);;
+concept_situation->[*
+Osipovich_Kazimir_Hiacintovich
+=>nrel_location:the_city_of_Vilnius;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени местоположения Осиповича Казимира Гиацинтовича в Вильне]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1881;;
+	<-completion_date_25_07_1884;;
+*);;

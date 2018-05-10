@@ -1,0 +1,24 @@
+organization_Minsk_Hospital
+=>nrel_main_idtf:
+	[Минская больница Приказа общественного призрения]
+	(*
+		<-lang_ru;;
+	*);
+	[The Minsk Hospital of Public Charity Order]
+	(*
+		<-lang_en;;
+	*);
+<-concept_hospital;
+<-begin_date_1799;
+<-completion_date_1904;;
+
+concept_situation->[*
+organization_Minsk_Hospital
+=>nrel_location:
+complex_of_buildings_the_minsk_hospital_of_public_charity_order;;
+*]
+(*
+	<-begin_date_1839;;
+	<-completion_date_1904;;
+*);;
+

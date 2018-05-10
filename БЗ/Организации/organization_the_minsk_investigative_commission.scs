@@ -1,0 +1,42 @@
+organization_the_minsk_investigative_commission
+=>nrel_main_idtf:
+	[Минская следственная комиссия по политическим делам]
+	(*
+		<-lang_ru;;
+	*);
+	[The Minsk Investigative Commission for Political Affairs]
+	(*
+		<-lang_en;;
+	*);
+<-begin_date_1863;
+<-completion_date_1865;
+<-concept_formal_organization;
+<-concept_state_organization;;
+
+concept_situation->[*
+organization_the_minsk_investigative_commission
+->rrel_director:Riejkhart_B_K;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Рейхарт Б.К. возглавлял Минскую следственную комиссию]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1863;;
+	<-completion_date_1865;;
+*);;
+
+concept_situation->[*
+organization_the_minsk_investigative_commission
+=>nrel_location:building_of_the_church_of_St_Joseph;;
+*]
+(*
+	=>nrel_main_idtf:
+	[Контур периода времени, когда Минская следственная комиссия по политическим делам располагалась в здании костёла Св. Иосифа]
+	(*
+		<-lang_ru;;
+	*);;
+	<-begin_date_1863;;
+	<-completion_date_1865;;
+*);;

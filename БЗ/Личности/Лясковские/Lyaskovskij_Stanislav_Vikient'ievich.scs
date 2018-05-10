@@ -1,0 +1,61 @@
+Liaskovskij_Stanislav_Vikientievich
+=>nrel_main_idtf:
+	[Лясковский Станислав Викентьевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Liaskovskij Stanislav Vikient'ievich]
+	(*
+		<-lang_en;;
+	*);
+	[Ляскоўскі Станіслаў Вікеньцевіч]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_alias:
+	[Собек Игнатий]
+	(*
+		<-lang_ru;;
+	*);
+	[Sobiek Ignatij]
+	(*
+		<-lang_en;;	
+	*);
+<-concept_male;
+=>nrel_surname:surname_Liaskovskij;
+=>nrel_first_name:name_Stanislav;
+<-begin_date_21_01_1840;
+<-completion_date_1867;
+=>nrel_parent:Liaskovskij_Vikientij; 
+=>nrel_social_status:concept_ancestral_nobility;
+=>nrel_social_status:concept_hereditary_nobility;
+<-rrel_student:organization_Mikhailovskij_Artillery_Academy;
+<-concept_participant_of_the_uprising_1863;
+<-rrel_key_sc_element:...
+	(*
+		=>nrel_main_idtf:[Пояснение роли Станислава Лясковского в восстании 1863-1864 гг.]
+			(*
+				<-lang_ru;;
+			*);;
+		<-sc_explanation;;
+		<=nrel_sc_text_translation:...
+			(*
+				->rrel_example:[Разработал общий план вооруженного восстания в Минской губернии. Возглавлял отряд в Игуменском повете. Провёл ряд боёв с царскими войсками: 9 мая под Юровичами, 13 июня под Лочином, 23 июля захватил в плен российского генерала, но затем отпустил его под честное слово. Осень 1863 года распутил отряд, после эмигрировал.]
+					(*
+						<-lang_ru;;
+					*);;
+			*);;
+	*);;
+
+concept_situation->[*
+Liaskovskij_Stanislav_Vikientievich
+<-rrel_director:organization_Stanislav_Lyaskovsky_squad;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Станислав Лясковский был руководителем отряда]
+		(*
+			<-lang_ru;;
+		*);;
+	<-time_point_1863;;
+*);;

@@ -1,0 +1,15 @@
+city_solikamsk
+=>nrel_main_idtf:
+	[Соликамск]
+	(*
+		<-lang_ru;;
+	*);
+	[Solikamsk]
+	(*
+		<-lang_en;;
+	*);
+	[Салікамск]
+	(*
+		<-lang_by;;
+	*);
+<-concept_city;;

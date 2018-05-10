@@ -1,0 +1,19 @@
+organization_the_united_belarussian_military_school_named_after_kalinin
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Объединённая Белорусская военная школа имени М.И. Калинина]
+	(*
+		<- lang_ru;;
+	*);
+	[The United Belarussian Military School named after M.I. Kalinin]
+	(*
+		<- lang_en;;
+	*);
+	[Аб'яднаная Беларуская ваенная школа імя М.І. Калініна]
+	(*
+		<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:Kalinin_Mikhail_Ivanovich;
+<- begin_date_06_11_1933;
+<- completion_date_16_03_1937;;

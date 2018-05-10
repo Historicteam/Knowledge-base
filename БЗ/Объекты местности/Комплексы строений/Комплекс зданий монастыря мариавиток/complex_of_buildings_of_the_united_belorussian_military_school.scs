@@ -1,0 +1,31 @@
+complex_of_buildings_of_the_united_belorussian_military_school
+=>nrel_main_idtf:
+	[Комплекс зданий Объединённой белорусской военной школы]
+	(*
+		<-lang_ru;;
+	*);
+	[Complex of buildings of The United Belorussian Military School]
+	(*
+		<-lang_en;;
+	*);
+<-concept_complex_of_buildings;;
+
+concept_situation->[*
+	complex_of_buildings_of_the_united_belorussian_military_school
+	<=nrel_complex_of_buildings_decomposition:
+	{
+		building_of_the_female_mariavite_monastery;
+		building_of_hospital_of_sisters_of_Mercy;
+		building_of_church_of_st_vincent
+	};;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени декомпозиции комплекса зданий Объединенной белорусской военной школы]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1921;;
+	<-completion_date_1941;;
+*);;
+

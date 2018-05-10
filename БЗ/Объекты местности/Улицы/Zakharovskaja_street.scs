@@ -1,0 +1,27 @@
+Zakharovskaja_street
+<-concept_street;
+=>nrel_main_idtf:
+	[Улица Захаровская]
+	(*
+		<-lang_ru;;
+	*);
+	[Zakharovskaja street]
+	(*
+		<-lang_en;;
+	*);
+	[Вуліца Захараўская]
+	(*
+		<-lang_by;;
+	*);
+<=nrel_subdividing:building_the_home_of_vincent_dunin_marcinkievich;;
+
+concept_situation->[*
+Zakharovskaja_street
+<=nrel_temporal_decomposition:
+Independence_Avenue;;*]
+(*
+	<-begin_date_16_century;;
+	<-completion_date_1917;;
+*);;
+
+

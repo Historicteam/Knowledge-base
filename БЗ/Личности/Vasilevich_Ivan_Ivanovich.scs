@@ -1,0 +1,23 @@
+Vasilevich_Ivan_Ivanovich
+=> nrel_main_idtf:
+	[Василевич Иван Иванович]
+	(*
+		<-lang_ru;;
+	*);
+	[Vasilevich Ivan Ivanovich]
+	(*
+		<-lang_en;;
+	*);
+	[Васілевіч Іван Іванавіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Vasilevich_Ivan_Ivanovich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_12_1928;;
+		<-completion_date_01_1932;;
+*);;

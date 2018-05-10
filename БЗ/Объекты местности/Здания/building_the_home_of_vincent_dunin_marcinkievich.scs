@@ -1,0 +1,35 @@
+building_the_home_of_vincent_dunin_marcinkievich
+=>nrel_main_idtf:
+	[Дом Винцента Дунина-Марцинкевича]
+	(*
+		<-lang_ru;;
+	*);
+	[The home of Vincent Dunin-Marcinkievich]
+	(*
+		<-lang_en;;
+	*);
+<-concept_residential_building;
+<-concept_lost_constructions;
+=>nrel_material:material_wood;
+=>nrel_geographical_location:...
+	(*
+		<-concept_mapped_point;;
+		=>nrel_WGS_84_translation:[53.90856, 27.57383]
+			(*
+				<-concept_coordinate;;
+				->rrel_latitude:...
+					(*
+						<=nrel_value:...
+							(*
+								->rrel_degree:53.90856;;
+							*);;
+					*);;
+				->rrel_longitude:...
+					(*
+						<=nrel_value:...
+							(*
+								->rrel_degree:27.57383;;
+							*);;
+					*);;
+			*);;
+	*);;

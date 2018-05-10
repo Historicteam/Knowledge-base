@@ -1,0 +1,18 @@
+organization_81st_minsk_trainin_courses_for_command_staff
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[81-е Минские подготовительные курсы командного состава]
+	(*
+		<- lang_ru;;
+	*);
+	[81st Minsk Trainin Courses For Command Staff]
+	(*
+		<- lang_en;;
+	*);
+	[81-е Мінскія падрыхтоўчыя курсы каманднага саставу]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_03_1921;
+<- completion_date_05_1921;;

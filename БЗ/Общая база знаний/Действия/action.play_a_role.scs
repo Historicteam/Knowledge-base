@@ -1,0 +1,11 @@
+action.play_a_role
+=>nrel_main_idtf:
+	[действие. играть роль]
+	(*
+		<-lang_ru;;
+	*);
+	[action. to play a role]
+	(*
+		<-lang_en;;
+	*);
+<=nrel_inclusion:actions_class;;

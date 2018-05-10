@@ -1,0 +1,42 @@
+organization_newspaper_proryv
+<-concept_cultural_educational_organization;
+=>nrel_main_idtf:
+	[Газета "Прорыв"]
+	(*
+		<-lang_ru;;
+	*);
+	[Newspaper "Proryv"]
+	(*
+		<-lang_en;;
+	*);
+	[Газета "Прарыў"]
+	(*
+		<-lang_by;;
+	*);
+<-rrel_key_sc_element:
+	...
+	(*
+		<-sc_explanation;;
+		<=nrel_sc_text_translation:
+		...
+		(*
+			->rrel_example:
+			[Газета "Прорыв" - немецкоязычная газета, издаваемая в Минске во время аккупационный период. Для работы в типографии привлекались узники еврейского гетто, знавшие немецкий язык, а также некоторые военнопленные, которые помогали подпольщикам. Оборудование и русские шрифты газеты "Красноармейская Правда", которая располагалась ранее в здании, были изначально свалены в подвал, однако впоследствие использовались в печати листовок.]
+			(*
+				<-lang_ru;;
+			*);;
+		*);;
+	*);
+<-begin_date_07_1941;
+<-completion_date_07_1944;;
+
+
+concept_situation->
+[*building_of_the_female_mariavite_monastery<= nrel_location: 
+organization_newspaper_proryv;;
+*]
+(*
+	<-begin_date_07_1941;;
+	<-completion_date_07_1944;;
+*);;
+	

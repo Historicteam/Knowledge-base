@@ -1,0 +1,23 @@
+Alyokhin_Yevgeniy_Stepanovich
+=> nrel_main_idtf:
+	[Алёхин Евгений Степанович]
+	(*
+		<-lang_ru;;
+	*);
+	[Alyokhin Yevgeniy Stepanovich]
+	(*
+		<-lang_en;;
+	*);
+	[Алёхін Яўген Сцяпанавіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Alyokhin_Yevgeniy_Stepanovich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_04_1933;;
+		<-completion_date_07_1937;;
+*);;

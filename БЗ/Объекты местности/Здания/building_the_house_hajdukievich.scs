@@ -1,0 +1,16 @@
+building_the_hajdukievich_house
+=>nrel_main_idtf:
+	[Дом Гайдукевича]
+	(*
+		<-lang_ru;;
+	*);
+	[The Hajdukievich house]
+	(*
+		<-lang_en;;
+	*);
+	[Дом Гайдукевіча]
+	(*
+		<-lang_by;;
+	*);
+<-concept_building;
+<-concept_lost_constructions;;

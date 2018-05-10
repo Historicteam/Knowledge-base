@@ -1,0 +1,15 @@
+Sverdlov_Yakov_Mikhaylovich
+=>nrel_main_idtf:
+	[Свердлов Яков Михайлович]
+	(*
+		<-lang_ru;;
+	*);
+	[Sverdlov Yakov Mikhaylovich]
+	(*
+		<-lang_en;;
+	*);
+	[Свярдлоў Якаў Міхайлавіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;

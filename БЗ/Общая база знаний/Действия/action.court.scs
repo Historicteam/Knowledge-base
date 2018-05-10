@@ -2,7 +2,6 @@ action.court
 =>nrel_main_idtf:
 	[действие. суд] (* <-lang_ru;; *);
 	[action. court] (* <-lang_en;; *);	
-
-<-actions_class;;
+<=nrel_inclusion:actions_class;;
 
 

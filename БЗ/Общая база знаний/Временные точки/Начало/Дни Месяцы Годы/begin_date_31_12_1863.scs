@@ -1,0 +1,22 @@
+begin_date_31_12_1863
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - 31 декабря 1863]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - 31 december of 1863]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - 31 снежня 1863]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [31];;
+   		<- number_of_month_in_year: [12];;
+   		<- number_of_year: [1863];;
+   	*);;

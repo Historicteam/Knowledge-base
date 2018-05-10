@@ -57,7 +57,11 @@ the_city_of_Saint_Petersburg
 			<- lang_ru;;
 			*);;
 		*);;
-*);;
+*);
+<= nrel_subdividing:
+	{
+		building_of_the_Mikhailovskij_Artillery_Academy
+	};;
 
 	
 

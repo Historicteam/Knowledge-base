@@ -1,0 +1,18 @@
+organization_7th_united_belarussian_command_school
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[7-я Объединённая Белорусская командная школа]
+	(*
+		<- lang_ru;;
+	*);
+	[7th United Belarussian Command School]
+	(*
+		<- lang_en;;
+	*);
+	[7-я Аб'яднаная Беларуская камандная школа]
+	(*
+		<- lang_by;;
+	*);
+<-begin_date_03_1924;
+<-completion_date_10_1924;;

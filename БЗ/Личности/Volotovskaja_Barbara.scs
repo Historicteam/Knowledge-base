@@ -1,0 +1,17 @@
+Volotovskaja_Barbara
+=>nrel_main_idtf:
+	[Волотовская Барбара]
+	(*
+		<-lang_ru;;
+	*);
+	[Volotovskaja Barbara]
+	(*
+		<-lang_en;;
+	*);
+	[Валатоўская Барбара]
+	(*
+		<-lang_by;;
+	*);
+<-concept_woman;
+=>nrel_first_name:name_Barbara;
+=>nrel_surname:surname_Volotovskaja;;

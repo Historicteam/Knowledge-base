@@ -1,0 +1,9 @@
+Action.conduct_the_libretto_of_piece_idilliya
+=>nrel_main_idtf:
+	[Действие. дирижировать либретто пьесы "Идиллия"]
+	(*
+		<-lang_ru;;
+	*);
+<-action.conduct;			=>nrel_performer:Moniuszko_Stanislav_Chieslavovich;			=>nrel_object:Action.perform_the_libretto_of_piece_idilliya;
+<-begin_date_09_02_1852;
+<-completion_date_09_02_1852;;	

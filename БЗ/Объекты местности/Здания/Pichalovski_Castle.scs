@@ -1,22 +1,41 @@
-
 Pichalovski_Castle
-=> nrel_main_idtf:
-	  [Пищаловски замок]
-	  (*
-	    <- lang_ru;;
-	  *);
+=>nrel_main_idtf:
+	[Пищаловский замок]
+	(*
+		<- lang_ru;;
+	*);
 	[Pichalovski castle]
-  (*
-    <- lang_en;;
-  *);
-  [Пішалавскі замак]
-  (*
-    <- lang_by;;
-  *);
-
+	(*
+		<- lang_en;;
+	*);
+	[Пішалавскі замак]
+	(*
+		<- lang_by;;
+	*);
 <- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
-
 <-concept_prison;
 <-concept_building;
-<-concept_terrain_object
-;;
+<-concept_terrain_object;
+=>nrel_osm_query:[way(1369825004);];
+=>nrel_geographical_location:...
+	(*
+		<-concept_mapped_point;;
+		=>nrel_WGS_84_translation:[53.8988090, 27.5481780]
+			(*
+				<-concept_coordinate;;
+				->rrel_latitude:...
+					(*
+						<=nrel_value:...
+							(*
+								->rrel_degree:53.8988090;;
+							*);;
+					*);;
+				->rrel_longitude:...
+					(*
+						<=nrel_value:...
+							(*
+								->rrel_degree:27.5481780;;
+							*);;
+					*);;
+			*);;
+	*);;

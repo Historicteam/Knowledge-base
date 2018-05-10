@@ -2,7 +2,6 @@ action.sequester
 =>nrel_main_idtf:
 	[действие. секвестр] (* <-lang_ru;; *);
 	[action. sequester] (* <-lang_en;; *);	
-
-<-actions_class;;
+<=nrel_inclusion:actions_class;;
 
 

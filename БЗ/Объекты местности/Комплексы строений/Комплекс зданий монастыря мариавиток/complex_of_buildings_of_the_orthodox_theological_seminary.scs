@@ -1,0 +1,31 @@
+complex_of_buildings_of_the_orthodox_theological_seminary
+=>nrel_main_idtf:
+	[Комплекс зданий Минской духовной семинарии]
+	(*
+		<-lang_ru;;
+	*);
+	[Complex of buildings of The Minsk Theological Seminary]
+	(*
+		<-lang_en;;
+	*);
+<-concept_complex_of_buildings;;
+
+concept_situation->[*
+	complex_of_buildings_of_the_orthodox_theological_seminary
+	<=nrel_complex_of_buildings_decomposition:
+	{
+		building_of_the_female_mariavite_monastery;
+		building_of_hospital_of_sisters_of_Mercy;
+		building_of_church_of_st_vincent
+		
+	};;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени декомпозиции комплекса зданий Минской духовной семинарии]
+		(*
+			<-lang_ru;;
+		*);;
+	<-begin_date_1854;;
+	<-completion_date_1918;;
+*);;

@@ -1,0 +1,23 @@
+Puzikov_Ivan_Mikhaylovich
+=> nrel_main_idtf:
+	[Пузиков Иван Михайлович]
+	(*
+		<-lang_ru;;
+	*);
+	[Puzikov Ivan Mikhaylovich]
+	(*
+		<-lang_en;;
+	*);
+	[Пузікаў Іван Міхайлавіч]
+	(*
+		<-lang_by;;	
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Puzikov_Ivan_Mikhaylovich<-rrel_provost:organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_03_1938;;
+		<-completion_date_03_1941;;
+*);;

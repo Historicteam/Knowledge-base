@@ -1,0 +1,33 @@
+photo_of_the_minsk_insurgents_1863
+=>nrel_main_idtf:
+	[Фотография минских участников восстания 1863-1864 гг.]
+	(*
+		<-lang_ru;;
+	*);
+<-time_point_1863;
+<-rrel_key_sc_element:...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation:...
+			(*
+				<-lang_ru;;
+				->rrel_example:"file://KDM.jpg"
+					(*
+						=>nrel_format:format_jpg;;
+					*);;
+			*);;
+	*);
+<-rrel_key_sc_element:...
+	(*
+		<-sc_explanation;;
+		<=nrel_sc_text_translation:...
+			(*
+				->rrel_example:[Фотография была найдена в 1863 при обыске квартиры-ателье знаменитого минского фотографа Антона Прушинского. Четыре человека на фото были одеты в народные сюртуки и платья-«чемарки» – такую одежду носили повстанцы. Единственная женщина на снимке – Камилла Дунин-Марцинкевич.]
+					(*
+						<-lang_ru;;
+					*);;
+			*);;
+	*);
+->Dunin_Marcinkievich_Kamilla_Vincientovna;
+->Dunin_Marcinkievich_Vincent_Ivanovich;
+->Liaskovskij_Stanislav_Vikientievich;;

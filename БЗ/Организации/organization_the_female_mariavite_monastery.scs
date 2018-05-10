@@ -1,0 +1,38 @@
+organization_the_female_mariavite_monastery
+<- concept_monastery;
+=> nrel_main_idtf:
+	[Монастырь мариавиток]
+	(*
+		<- lang_ru;;
+	*);
+	[The Female Mariavite Monastery]
+	(*
+		<- lang_en;;
+	*);
+	[Манастыр марыявітак]
+	(*
+		<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example:
+					[Монастырь мариавиток был открыт в 1811 году. На базе монастыря существовали госпиталь и школа. Госпиталь предназначался для ухода за сиротами, внебрачными детьми, стариками и нищими. Присматривали за ними монахини ордена Св. Викентия. В школе осуществлялось обучение воспитанниц языкам, домоводству, арифметике. В 1854 году монастырь был упразднен.]
+				(*
+					<-lang_ru;;
+				*);;
+			*);;
+	*);
+<- begin_date_1811;
+<- completion_date_1854;;
+
+concept_situation->[*building_of_the_female_mariavite_monastery 
+<= nrel_location: organization_the_female_mariavite_monastery;;*]
+(*
+	<- begin_date_1811;;
+	<- completion_date_1854;;
+*);;

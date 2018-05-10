@@ -1,0 +1,17 @@
+Grinievskaja_Aloiza
+=>nrel_main_idtf:
+	[Гриневская Алоиза]
+	(*
+		<-lang_ru;;
+	*);
+	[Grinievskaja Aloiza]
+	(*
+		<-lang_en;;
+	*);
+	[Грынеўская Алаіза]
+	(*
+		<-lang_by;;
+	*);
+<-concept_woman;
+=>nrel_first_name:name_Aloiza;
+=>nrel_surname:surname_Grinievskaja;;

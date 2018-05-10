@@ -1,0 +1,18 @@
+Uminskij_Juzief
+=>nrel_main_idtf:
+	[Уминский Юзеф]
+	(*
+		<-lang_ru;;
+	*);
+	[Uminskij Juzief]
+	(*
+		<-lang_en;;
+	*);
+	[Умінскі Юзаф]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+<-concept_urban_inhabitants;
+=>nrel_first_name:name_Juzief;
+=>nrel_surname:surname_Uminskij;;

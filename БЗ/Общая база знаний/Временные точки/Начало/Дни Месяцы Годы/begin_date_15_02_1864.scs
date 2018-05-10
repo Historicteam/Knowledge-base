@@ -1,0 +1,22 @@
+begin_date_15_02_1864
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - 15 февраля 1864]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - 15 february of 1864]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - 15 лютага 1864]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [15];;
+   		<- number_of_month_in_year: [2];;
+   		<- number_of_year: [1864];;
+   	*);;

@@ -1,0 +1,14 @@
+organization_the_kamilla_dunin_marcinkievich_female_vocal_group
+=>nrel_main_idtf:
+	[Женская вокальная группа Камиллы Дунин-Марцинкевич]
+	(*
+		<-lang_ru;;
+	*);
+	[The Kamilla Dunin-Marcinkievich female vocal group]
+	(*
+		<-lang_en;;
+	*);
+<-concept_political_organization;
+<-concept_informal_organization;
+=>nrel_founder:Dunin_Marcinkievich_Kamilla_Vincientovna;;
+

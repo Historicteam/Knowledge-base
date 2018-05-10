@@ -1,0 +1,22 @@
+begin_date_27_12_1857
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - 27 декабря 1857]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - 27 december of 1857]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - 27 снежня 1857]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [27];;
+   		<- number_of_month_in_year: [12];;
+   		<- number_of_year: [1857];;
+   	*);;

@@ -1,0 +1,21 @@
+Lovyagin_Pyotr_Yermolayevich
+=> nrel_main_idtf:
+	[Ловягин Пётр Ермолаевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Lovyagin Pyotr Yermolayevich]
+	(*
+		<-lang_en;;
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Lovyagin_Pyotr_Yermolayevich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_07_1937;;
+		<-completion_date_11_1937;;
+*);;
+
+

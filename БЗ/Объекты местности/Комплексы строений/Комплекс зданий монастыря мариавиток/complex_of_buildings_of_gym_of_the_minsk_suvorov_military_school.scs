@@ -1,0 +1,17 @@
+complex_of_buildings_of_gym_of_the_minsk_suvorov_military_school
+<-concept_complex_of_buildings;
+=>nrel_main_idtf:
+	[Спортивный зал Минского Суворовского военного училища]
+	(*
+		<-lang_ru;;
+	*);
+	[Gym of The Minsk Suvorov military school]
+	(*
+		<-lang_en;;
+	*);
+=>nrel_architect:Zaborskiy_Georgiy_Vladimirovich;
+<=nrel_subdividing:
+	{
+		building_of_gym_of_the_minsk_suvorov_military_school_housing_2_1;
+		building_of_gym_of_the_minsk_suvorov_military_school_housing_2_7
+	};;

@@ -1,0 +1,19 @@
+Montiegrandi_Marija
+=>nrel_main_idtf:
+	[Монтегранди Мария]
+	(*
+		<-lang_ru;;
+	*);
+	[Montiegrandi Marija]
+	(*
+		<-lang_en;;
+	*);
+	[Монтэграндзі Марыя]
+	(*
+		<-lang_by;;
+	*);
+<-concept_woman;
+=>nrel_first_name:name_Marija;
+=>nrel_surname:surname_Montiegrandi;
+<-completion_date_26_10_1845;
+<-rrel_director:organization_the_minsk_private_womens_boarding_house;;

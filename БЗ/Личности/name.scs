@@ -1440,5 +1440,236 @@ name_Vaclav
 	(*
 	<- lang_by;;
 	*);
-<-concept_name
-;;
+<-concept_name;;
+
+name_Vikientij
+=>nrel_main_idtf:
+	[Викентий]
+	(*
+		<-lang_ru;;
+	*);
+	[Vikientij]
+	(*
+		<-lang_en;;
+	*);
+	[Вікенцій]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Vasilij
+=>nrel_main_idtf:
+	[Василий]
+	(*
+		<-lang_ru;;
+	*);
+	[Vasilij]
+	(*
+		<-lang_en;;
+	*);
+	[Васілій]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Iustin
+=>nrel_main_idtf:
+	[Иустин]
+	(*
+		<-lang_ru;;
+	*);
+	[Iustin]
+	(*
+		<-lang_en;;
+	*);
+<-concept_name;;
+
+name_Sofronij
+=>nrel_main_idtf:
+	[Софроний]
+	(*
+		<-lang_ru;;
+	*);
+	[Sofronij]
+	(*
+		<-lang_en;;
+	*);
+<-concept_name;;
+
+name_Kamilla
+=>nrel_main_idtf:
+	[Камилла]
+	(*
+		<-lang_ru;;
+	*);
+	[Kamilla]
+	(*
+		<-lang_en;;
+	*);
+	[Каміла]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Juziefa
+=>nrel_main_idtf:
+	[Юзефа]
+	(*
+		<-lang_ru;;
+	*);
+	[Juziefa]
+	(*
+		<-lang_en;;
+	*);
+	[Юзефа]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Vincient
+=>nrel_main_idtf:
+	[Винцент]
+	(*
+		<-lang_ru;;
+	*);
+	[Vincient]
+	(*
+		<-lang_en;;
+	*);
+	[Вінцэнт]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Juzief
+=>nrel_main_idtf:
+	[Юзеф]
+	(*
+		<-lang_ru;;
+	*);
+	[Juzief]
+	(*
+		<-lang_en;;
+	*);
+	[Юзаф]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Barbara
+=>nrel_main_idtf:
+	[Барбара]
+	(*
+		<-lang_ru;;
+	*);
+	[Barbara]
+	(*
+		<-lang_en;;
+	*);
+	[Барбара]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Omalija
+=>nrel_main_idtf:
+	[Омалия]
+	(*
+		<-lang_ru;;
+	*);
+	[Omalija]
+	(*
+		<-lang_en;;
+	*);
+	[Амалія]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Jakub
+=>nrel_main_idtf:
+	[Якуб]
+	(*
+		<-lang_ru;;
+	*);
+	[Jakub]
+	(*
+		<-lang_en;;
+	*);
+	[Якуб]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Florian
+=>nrel_main_idtf:
+	[Флориан]
+	(*
+		<-lang_ru;;
+	*);
+	[Florian]
+	(*
+		<-lang_en;;
+	*);
+	[Фларыян]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Bohuslav
+=>nrel_main_idtf:
+	[Богуслав]
+	(*
+		<-lang_ru;;
+	*);
+	[Bohuslav]
+	(*
+		<-lang_en;;
+	*);
+	[Багуслаў]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Aloiza
+=>nrel_main_idtf:
+	[Алоиза]
+	(*
+		<-lang_ru;;
+	*);
+	[Aloiza]
+	(*
+		<-lang_en;;
+	*);
+	[Алаіза]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
+
+name_Hiacint
+=>nrel_main_idtf:
+	[Гиацинт]
+	(*
+		<-lang_ru;;
+	*);
+	[Hiacint]
+	(*
+		<-lang_en;;
+	*);
+	[Гіяцынт]
+	(*
+		<-lang_by;;
+	*);
+<-concept_name;;
