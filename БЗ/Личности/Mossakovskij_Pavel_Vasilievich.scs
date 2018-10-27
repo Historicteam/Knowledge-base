@@ -1,0 +1,14 @@
+Mossakovskij_Paviel_Vasilievich
+=>nrel_main_idtf:
+	[Моссаковский Павел Васильевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Mossakovskij Paviel Vasilievich]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Paviel;
+=>nrel_surname:surname_Mossakovskij;
+=>nrel_parent:Mossakovskij_Vasilij;;

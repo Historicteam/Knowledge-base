@@ -1,0 +1,19 @@
+Levashev_Aleksey_Fedorovich
+=> nrel_main_idtf:
+	[Левашев Алексей Фёдорович]
+	(*
+		<-lang_ru;;
+	*);
+	[Levashev Aleksey Fedorovich]
+	(*
+		<-lang_en;;
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Levashev_Aleksey_Fedorovich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_02_1938;;
+		<-completion_date_03_1938;;
+*);;

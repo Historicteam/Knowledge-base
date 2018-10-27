@@ -1,0 +1,15 @@
+building_of_church_of_st_vincent
+<-concept_building;
+=>nrel_main_idtf:
+	[Костёл Святого Викентия]
+	(*
+		<-lang_ru;;
+	*);
+	[Church of Saint Vincent]
+	(*
+		<-lang_en;;
+	*);
+	[Касцёл Святога Вікенція]
+	(*
+		<-lang_by;;
+	*);;

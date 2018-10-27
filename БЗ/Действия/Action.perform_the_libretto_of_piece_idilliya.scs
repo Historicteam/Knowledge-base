@@ -1,0 +1,11 @@
+Action.perform_the_libretto_of_piece_idilliya
+=>nrel_main_idtf:
+	[Действие. исполнить либретто пьесы "Идиллия"]
+	(*
+		<-lang_ru;;
+	*);
+<-action.perform_a_libretto;
+=>nrel_performer:Dunin_Marcinkievich_Kamilla_Vincientovna;
+=>nrel_object:libretto_of_piece_idilliya;
+<-begin_date_09_02_1852;
+<-completion_date_09_02_1852;;

@@ -1,0 +1,18 @@
+organization_7th_united_belarussian_military_school
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[7-я Объединённая Белорусская военная школа]
+	(*
+		<- lang_ru;;
+	*);
+	[7th United Belarussian Military School]
+	(*
+		<- lang_en;;
+	*);
+	[7-я Аб'яднаная Беларуская ваенная школа]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_10_1924;
+<- completion_date_09_10_1924;;

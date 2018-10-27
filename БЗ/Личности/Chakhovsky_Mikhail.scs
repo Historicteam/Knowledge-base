@@ -1,0 +1,15 @@
+Chakhovskiy_Mikhail
+=>nrel_main_idtf:
+	[Чаховский Михаил]
+	(*
+		<-lang_ru;;
+	*);
+	[Chakhovskiy Mikhail]
+	(*
+		<-lang_en;;
+	*);
+	[Чахоўскі Міхаіл]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;;

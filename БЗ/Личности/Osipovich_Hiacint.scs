@@ -1,0 +1,17 @@
+Osipovich_Hiacint
+=>nrel_main_idtf:
+	[Осипович Гиацинт]
+	(*
+		<-lang_ru;;
+	*);
+	[Osipovich Hiacint]
+	(*
+		<-lang_en;;
+	*);
+	[Асіповіч Гіяцынт]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Hiacint;
+=>nrel_surname:surname_Osipovich;;

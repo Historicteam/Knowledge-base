@@ -1,0 +1,59 @@
+organization_newspaper_krasnoarmeyskaya_pravda
+<- concept_cultural_educational_organization;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Военная газета "Красноармейская Правда"]
+	(*
+		<- lang_ru;;
+	*);
+	[Military newspaper "Krasnoarmeyskaya Pravda"]
+	(*
+		<- lang_en;;
+	*);
+	[Ваенная газета "Чырвонаармейская Праўда"]
+	(*
+		<- lang_by;;
+	*);
+<-begin_date_22_06_1919;
+<-completion_date_1947;; 
+
+concept_situation->
+[*building_of_the_female_mariavite_monastery
+<= nrel_location: 
+organization_newspaper_krasnoarmeyskaya_pravda;;
+*]
+(*
+	<-begin_date_09_1939;;
+	<-completion_date_07_1941;;
+*);;	
+ 
+
+concept_situation->
+[*building_of_the_krasnoarmeyskaya_pravda
+<= nrel_location: 
+organization_newspaper_krasnoarmeyskaya_pravda;;
+*]
+(*
+	<-begin_date_22_06_1919;;
+	<-completion_date_09_1939;;
+*);;
+
+
+consept_situation->[*
+organization_newspaper_krasnoarmeyskaya_pravda
+<= nrel_temporal_decomposition:
+organization_newspaper_vo_slavu_rodiny;;
+*]
+(*
+	<-begin_date_1947;;
+	<-completion_date_08_05_2004;;
+*);;
+
+concept_situation->[*
+organization_newspaper_krasnoarmeyskaya_pravda
+<= nrel_temporal_decomposition:
+organization_newspaper_vo_slavu_rodiny_2;;
+*]
+(*
+	<-begin_date_08_05_2004;;
+*);;

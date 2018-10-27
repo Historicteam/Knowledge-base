@@ -1,0 +1,23 @@
+Laur_Zhan_Ivanovich
+=> nrel_main_idtf:
+	[Лаур Жан Иванович]
+	(*
+		<-lang_ru;;
+	*);
+	[Laur Zhan Ivanovich]
+	(*
+		<-lang_en;;
+	*);
+	[Лаур Жан Іванавіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Laur_Zhan_Ivanovich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_1923;;
+		<-completion_date_1925;;
+*);;

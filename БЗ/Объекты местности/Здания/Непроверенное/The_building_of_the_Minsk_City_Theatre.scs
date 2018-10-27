@@ -59,6 +59,28 @@ The_building_of_the_Minsk_City_Theatre
 				=> nrel_format: format_jpg;;
 			*);;
 		*);;
+	*);
+=>nrel_geographical_location:...
+	(*
+		<-concept_mapped_point;;
+		=>nrel_WGS_84_translation:[53.902754, 27.557121]
+			(*
+				<-concept_coordinate;;
+				->rrel_latitude:...
+					(*
+						<=nrel_value:...
+							(*
+								->rrel_degree:53.902754;;
+							*);;
+					*);;
+				->rrel_longitude:...
+					(*
+						<=nrel_value:...
+							(*
+								->rrel_degree:27.557121;;
+							*);;
+					*);;
+			*);;
 	*);;
 
 

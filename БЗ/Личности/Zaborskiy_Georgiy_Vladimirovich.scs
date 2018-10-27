@@ -1,0 +1,15 @@
+Zaborskiy_Georgiy_Vladimirovich
+=> nrel_main_idtf:
+	[Заборский Георгий Владимирович]
+	(*
+		<-lang_ru;;
+	*);
+	[Zaborskiy Georgiy Vladimirovich]
+	(*
+		<-lang_en;;
+	*);
+	[Заборскі Георгій Уладзіміравіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;

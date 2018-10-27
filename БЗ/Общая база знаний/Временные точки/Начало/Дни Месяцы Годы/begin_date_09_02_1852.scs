@@ -1,0 +1,22 @@
+begin_date_09_02_1852
+=>nrel_main_idtf:
+	[время начала - 9 февраля 1852]
+	(*
+		<-lang_ru;;
+	*);
+	[begin date - 9 february of 1852]
+	(*
+		<-lang_en;;
+	*);
+	[час пачатку - 9 лютага 1852]
+	(*
+		<-lang_by;;
+	*);
+<-begin;
+<-exact_value;
+=> nrel_Gregorian_calendar_scale:...
+	(*
+		<-number_of_day_in_month: [9];;
+		<-number_of_month_in_year: [2];;
+		<-number_of_year: [1852];;
+	*);;

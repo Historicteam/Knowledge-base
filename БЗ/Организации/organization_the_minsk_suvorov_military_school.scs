@@ -1,0 +1,67 @@
+organization_the_minsk_suvorov_military_school
+<-concept_educational_institution;
+<-concept_state_organization;
+=>nrel_main_idtf:
+	[Минское Суворовское военное училище]
+	(*
+		<-lang_ru;;
+	*);
+	[The Minsk Suvorov Military School]
+	(*
+		<-lang_en;;
+	*);
+	[Мінскае Сувораўскае ваеннае вучылішча]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_idtf:
+	[Суворовское училище]
+	(*
+		<-lang_ru;;
+	*);
+	[The Suvorov School]
+	(*
+		<-lang_en;;
+	*);
+	[Сувораўскае вучылішча]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_abbreviation:
+	[МнСВУ]
+	(*
+		<-lang_ru;;
+	*);
+	[MnSVU]
+	(*
+		<-lang_en;;
+	*);
+<-rrel_key_sc_element:
+	...
+	(*
+		<-sc_explanation;;
+		<=nrel_sc_text_translation:
+		...
+		(*
+			->rrel_example:
+			[Минское Суворовское военное училище — государственное среднее специализированное учебное заведение с военно-профессиональной направленностью обучения и воспитания, предназначенное для подготовки суворовцев к поступлению в высшие учебные заведения и к дальнейшей военной или другой государственной службе.]
+			(*
+				<-lang_ru;;
+			*);;
+		*);;
+	*);
+<-begin_date_01_09_1953;
+=>nrel_site:[www.mnsvu.org]
+	(*
+		<-concept_site;;
+	*);;
+
+
+concept_situation->[*
+building_of_the_female_mariavite_monastery
+<=nrel_location:
+organization_the_minsk_suvorov_military_school;;
+*]
+(*
+	<-begin_date_01_09_1953;;
+*);;

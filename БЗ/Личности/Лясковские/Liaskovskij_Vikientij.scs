@@ -1,0 +1,19 @@
+Liaskovskij_Vikientij
+=>nrel_main_idtf:
+	[Лясковский Викентий]
+	(*	
+		<-lang_ru;;
+	*);
+	[Liaskovskij Vikientij]
+	(*
+		<-lang_en;;
+	*);
+	[Ляскоўскі Вікенцій]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname:surname_Liaskovskij;
+=>nrel_first_name:name_Vikientij;
+=>nrel_social_status:concept_ancestral_nobility;
+=>nrel_social_status:concept_hereditary_nobility;;

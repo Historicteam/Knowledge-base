@@ -1,0 +1,17 @@
+Stavrovich_Vasilij
+=>nrel_main_idtf:
+	[Ставрович Василий]
+	(*
+		<-lang_ru;;
+	*);
+	[Stavrovich Vasilij]
+	(*
+		<-lang_en;;
+	*);
+	[Стаўровіч Васілій]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_surname:surname_Stavrovich;
+=>nrel_first_name:name_Vasilij;;

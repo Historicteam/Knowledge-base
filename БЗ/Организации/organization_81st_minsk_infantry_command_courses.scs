@@ -1,0 +1,18 @@
+organization_81st_minsk_infantry_command_courses
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[81-е Минские пехотные командные курсы]
+	(*
+		<- lang_ru;;
+	*);
+	[81st Minsk Infantry Command Courses]
+	(*
+		<- lang_en;;
+	*);
+	[81-е Мінскія пяхотныя камандныя курсы]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_05_1921;
+<- completion_date_03_1923;;

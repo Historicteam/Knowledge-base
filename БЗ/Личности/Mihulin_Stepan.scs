@@ -1,0 +1,13 @@
+Mihulin_Stepan
+=>nrel_main_idtf:
+	[Мигулин Степан]
+	(*
+		<-lang_ru;;
+	*);
+	[Mihulin_Stepan]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Stepan;
+=>nrel_surname:surname_Mihulin;;

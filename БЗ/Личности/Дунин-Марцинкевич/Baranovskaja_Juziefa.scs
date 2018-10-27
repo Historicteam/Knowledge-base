@@ -1,0 +1,17 @@
+Baranovskaja_Juziefa
+=>nrel_main_idtf:
+	[Барановская Юзефа]
+	(*
+		<-lang_ru;;
+	*);
+	[Baranovskaja Juziefa]
+	(*
+		<-lang_en;;
+	*);
+<-concept_woman;
+=>nrel_first_name:name_Juziefa;
+=>nrel_middle_name:name_Olimpija;
+=>nrel_surname:surname_Baranovskaja;
+<=>nrel_spouse:Dunin_Marcinkievich_Vincent_Ivanovich;;
+
+	

@@ -1,0 +1,22 @@
+organization_magazine_pravoslavnyy_bratchik
+<- concept_cultural_educational_organization;
+=> nrel_main_idtf:
+	[Редакция религиозного журнала "Православный братчик"]
+	(*
+		<- lang_ru;;
+	*);
+	[Religious magazine "Pravoslavnyy Bratchik"]
+	(*
+		<- lang_en;;
+	*);
+	[Рэдакцыя рэлігійнага часопіса "Праваслаўны братчык"]
+	(*
+		<- lang_by;;
+	*);;
+
+concept_situation->[*building_of_the_female_mariavite_monastery
+<= nrel_location: organization_magazine_pravoslavnyy_bratchik;;*]
+(*
+	<- begin_date_1910;;
+	<- completion_date_1911;;
+*);;

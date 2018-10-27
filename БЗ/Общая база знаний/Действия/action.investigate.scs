@@ -1,0 +1,11 @@
+action.investigate
+=>nrel_main_idtf:
+	[действие. вести следствие]
+	(*
+		<-lang_ru;;
+	*);
+	[action. investigate]
+	(*
+		<-lang_en;;
+	*);
+<=nrel_inclusion:actions_class;;

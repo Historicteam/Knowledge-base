@@ -2,7 +2,6 @@ action.shooting
 =>nrel_main_idtf:
 	[действие. расстрел] (* <-lang_ru;; *);
 	[action. shooting] (* <-lang_en;; *);	
-
-<-actions_class;;
+<=nrel_inclusion:actions_class;;
 
 

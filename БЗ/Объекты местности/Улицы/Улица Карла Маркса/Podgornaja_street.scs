@@ -1,0 +1,17 @@
+Podgornaja_street
+<-concept_street;
+=>nrel_main_idtf:
+	[Улица Подгорная]
+	(*
+		<-lang_ru;;
+	*);
+	[Podgornaya street]
+	(*
+		<-lang_en;;
+	*);
+	[Вуліца Падгорная]
+	(*
+		<-lang_by;;
+	*);
+<-begin_date_first_half_of_19_century;
+<-completion_date_1919;;

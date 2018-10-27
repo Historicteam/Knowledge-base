@@ -1,0 +1,15 @@
+Kalinin_Mikhail_Ivanovich
+=>nrel_main_idtf:
+	[Калинин Михаил Иванович]
+	(*
+		<-lang_ru;;
+	*);
+	[Kalinin Mikhail Ivanovich]
+	(*
+		<-lang_en;;
+	*);
+	[Калінін Міхаіл Іванавіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;;

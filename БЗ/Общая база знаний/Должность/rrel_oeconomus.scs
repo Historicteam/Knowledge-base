@@ -1,0 +1,13 @@
+rrel_oeconomus
+<-sc_node_role_relation;
+<-binary_relation;
+<-oriented_relation;
+=>nrel_main_idtf:
+	[эконом']
+	(*
+		<-lang_ru;;
+	*);
+	[oeconomus']
+	(*
+		<-lang_en;;
+	*);;

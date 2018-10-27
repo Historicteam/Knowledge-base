@@ -1,0 +1,15 @@
+organization_the_moscow_university
+=>nrel_main_idtf:
+	[Московский университет]
+	(*
+		<-lang_ru;;
+	*);
+	[The Moscow University]
+	(*
+		<-lang_en;;
+	*);
+	[Маскоўскі ўніверсітэт]
+	(*
+		<-lang_by;;
+	*);
+<-concept_university;;

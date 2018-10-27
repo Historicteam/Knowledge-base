@@ -1,0 +1,19 @@
+organization_the_united_belarussian_military_school_named_after_the_cec_of_the_bssr
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Объединённая Белорусская военная школа имени ЦИК БССР]
+	(*
+		<- lang_ru;;
+	*);
+	[The United Belarussian Military School named after the CEC of the BSSR]
+	(*
+		<- lang_en;;
+	*);
+	[Аб'яднаная Беларуская ваенная школа імя ЦВК БССР]
+	(*
+		<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:organization_The_Central_Executive_Committee_of_the_BSSR;
+<- begin_date_1924;
+<- completion_date_06_11_1933;;

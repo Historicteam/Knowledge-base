@@ -1,0 +1,20 @@
+completion_date_25_07_1884
+=>nrel_main_idtf:
+	[время завершения - 25 июля 1884]
+	(*
+		<-lang_ru;;
+	*);
+	[completion date - 25 july of 1835]
+	(*
+		<-lang_en;;
+	*);
+	[час заканчэння - 25 ліпеня 1884]
+	(*
+		<-lang_by;;
+	*);
+=> nrel_Gregorian_calendar_scale:...
+	(*
+		<-number_of_day_in_month: [25];;
+		<-number_of_month_in_year: [7];;
+		<-number_of_year: [1884];;
+	*);;

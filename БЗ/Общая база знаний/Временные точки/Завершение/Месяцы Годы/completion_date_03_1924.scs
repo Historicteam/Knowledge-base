@@ -1,0 +1,21 @@
+completion_date_03_1924
+<-exact_value;
+<-completion;
+=> nrel_main_idtf:
+	[время завершения - март 1924]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[completion date - march of 1924]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час заканчэння - сакавік 1924]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_month_in_year: [3];;
+   		<- number_of_year: [1924];;
+   	*);;

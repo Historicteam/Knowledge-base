@@ -1,0 +1,18 @@
+rrel_actor
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[актёр']
+	(*
+		<-lang_ru;;
+	*);
+	[actor']
+	(*
+		<-lang_en;;
+	*);	
+	[акцёр']
+	(*
+		<-lang_by;;
+	*);;

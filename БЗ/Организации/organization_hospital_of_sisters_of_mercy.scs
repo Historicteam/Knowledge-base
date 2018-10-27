@@ -1,0 +1,29 @@
+organization_hospital_of_sisters_of_mercy
+<-concept_hospital;
+=>nrel_main_idtf:
+	[Госпиталь сестёр Милосердия]
+	(*
+		<-lang_ru;;
+	*);
+	[Hospital of sisters of Mercy]
+	(*
+		<-lang_en;;
+	*);
+	[Шпіталь сясцёр Міласэрнасці]
+	(*
+		<-lang_by;;
+	*);;
+
+concept_situation->[*
+	building_of_hospital_of_sisters_of_Mercy
+	<=nrel_location: 
+	organization_hospital_of_sisters_of_mercy;;
+*]
+(*
+	=>nrel_main_idtf:[Контур периода времени расположения госпиталя сестёр Милосердия в здании]
+	(*
+		<-lang_ru;;
+	*);;
+	<-begin_date_1811;;
+	<-completion_date_1854;;
+*);;

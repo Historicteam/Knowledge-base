@@ -1,0 +1,17 @@
+organization_newspaper_vo_slavu_rodiny_2
+<- concept_cultural_educational_organization;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Военная газета "Белорусская военная газета. Во славу Родины"]
+	(*
+		<- lang_ru;;
+	*);
+	[Military newspaper "Belorusskaya voyennaya gazeta. Vo Slavu Rodiny"]
+	(*
+		<- lang_en;;
+	*);
+	[Ваенная газета "Беларуская ваенная газета. У славу Радзімы"]
+	(*
+		<- lang_by;;
+	*);
+<-begin_date_08_05_2004;; 

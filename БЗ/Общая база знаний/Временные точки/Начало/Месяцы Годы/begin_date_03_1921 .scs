@@ -1,0 +1,21 @@
+begin_date_03_1921
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - март 1921]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - march of 1921]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - сакавік 1921]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_month_in_year: [3];;
+   		<- number_of_year: [1921];;
+   	*);;

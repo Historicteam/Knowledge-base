@@ -1,0 +1,15 @@
+organization_the_minsk_private_womens_boarding_house
+=>nrel_main_idtf:
+	[Минский частный женский пансион]
+	(*
+		<-lang_ru;;
+	*);
+	[The Minsk private women's boarding house]
+	(*
+		<-lang_en;;
+	*);
+	[Мінскі прыватны жаночы пансіён]
+	(*
+		<-lang_by;;
+	*);
+<-concept_educational_institution;;

@@ -1,6 +1,10 @@
 material_wood
 => nrel_main_idtf:
-	[Дерево]	
+	[дерево]	
 	(*
-	<- lang_ru;;
+		<-lang_ru;;
+	*);
+	[wood]
+	(*
+		<-lang_en;;
 	*);;
