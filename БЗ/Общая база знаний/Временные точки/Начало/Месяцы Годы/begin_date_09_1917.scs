@@ -1,0 +1,22 @@
+begin_date_09_1917
+=> nrel_main_idtf:
+   [время начала - сентябрь 1917]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1917]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1917]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [9];;
+   <- number_of_year: [1917];;
+   *);
+   <- begin_date_1917;;

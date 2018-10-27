@@ -1,57 +1,55 @@
 concept_decorative_element
+
 <-sc_const;
 <-sc_node_not_relation;
+
 => nrel_main_idtf:
-[декоративный элемент]
-(*
-<- lang_ru;;
-*);
-[decorative element]
-(*
-<- lang_en;;
-*);
-[дэкаратыўны элемент]
-(*
-<- lang_by;;
-*);
+  [декоративный элемент]
+  (*
+  <- lang_ru;;
+  *);
+  [decorative element]
+  (*
+  <- lang_en;;
+  *);
+  [дэкаратыўны элемент]
+  (*
+  <- lang_by;;
+  *);
+
 <- rrel_key_sc_element:
-...
-(*
-<-sc_explanation;;
-<=nrel_sc_text_translation:
-...
-(*
--> rrel_example:
-[Декоративный элемент - элемент строения, служащий для украшения.]
-(*
-<- lang_ru;;
-*);;
-*);
-...
-(*
--> rrel_example:
-[Дэкаратыўны элемент -элемент будынка, які служыць для ўпрыгожвання.]
-(*
-<- lang_by;;
-*);;
-*);;
-*);
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation:
+    ...
+      (*
+        -> rrel_example:
+        [Декоративный элемент - элемент строения, служащий для украшения.]
+        (*
+        <- lang_ru;;
+        *);;
+      *);
+    ...
+      (*
+        -> rrel_example:
+        [Дэкаратыўны элемент -элемент будынка, які служыць для ўпрыгожвання.]
+        (*
+        <- lang_by;;
+        *);;
+      *);;
+  *);
 <=nrel_subdividing:
- ...
-(*
-
-
--> concept_gable;;
--> concept_pediment;;
--> concept_facade;;
--> concept_garland;;
--> concept_ornament;;
--> concept_vault;;
--> concept_urn;;
--> concept_dialling_column;;
--> concept_voluta;;
--> concept_capital;;
--> concept_portico;;
-*)
-;;
-
+  {
+    concept_gable;
+    concept_sandrik;
+    concept_facade;
+    concept_garland;
+    concept_ornament;
+    concept_vault;
+    concept_urn;
+    concept_dialling_column;
+    concept_voluta;
+    concept_capital;
+    concept_portico
+  };;

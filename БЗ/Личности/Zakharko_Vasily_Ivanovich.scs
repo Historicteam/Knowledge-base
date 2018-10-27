@@ -1,0 +1,17 @@
+Zakharko_Vasily_Ivanovich
+=> nrel_main_idtf:
+  [Захарко Василий Иванович] (* <- lang_ru;; *);
+  [Zakharko Vasily Ivanovich] (* <- lang_en;; *);
+  [Захарка Васіль Іванавіч] (* <- lang_by;; *);
+  
+<-begin_date_01_04_1877;
+<-completion_date_14_03_1943;
+
+<- concept_male;
+<- concept_person;;
+
+concept_situation->[*Zakharko_Vasily_Ivanovich <-rrel_chairman_of_the_council:organization_Council_of_Belarusian_People_s_Republic;;*]
+(*
+  <- begin_date_1928;;
+  <- completion_date_1943;;
+*);;

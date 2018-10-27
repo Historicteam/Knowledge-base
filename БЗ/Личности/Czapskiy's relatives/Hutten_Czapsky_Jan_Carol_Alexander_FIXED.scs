@@ -85,7 +85,7 @@ Image_of_Hutten_Czapsky_Emerickovich
 
 <- begin_date_15_08_1860;;
 
-concept_situation -> [*Hutten_Czapsky_Emerickovich<=nrel_member: concept_catholic_church;;*]
+concept_situation -> [*Hutten_Czapsky_Emerickovich<-rrel_member: concept_catholic_church;;*]
 (*
     <- begin_date_06_09_1860;;
 *);;

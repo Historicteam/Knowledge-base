@@ -1,0 +1,22 @@
+completion_date_05_1970
+=> nrel_main_idtf:
+   [время завершения - май 1970]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - may of 1970]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - май 1970]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [5];;
+   <- number_of_year: [1970];;
+   *);
+   <- completion_date_1970;;

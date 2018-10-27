@@ -38,11 +38,8 @@ concept_gable
 *);;
 *);
 <=nrel_subdividing:
- ...
-(*
--> concept_decorative_gable;;
-      
--> concept_broken_pediment;;
-
--> concept_stepped_gable;;   
-*);;
+  {
+    concept_decorative_gable;   
+    concept_broken_pediment;
+    concept_stepped_gable   
+  };;

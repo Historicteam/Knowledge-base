@@ -1,0 +1,79 @@
+Gates_of_Minsk
+=> nrel_main_idtf:
+  [Ворота Минска]
+  (*
+  <- lang_ru;;
+  *);
+  [Gates of Minsk]
+  (*
+  <- lang_en;;
+  *);
+  [Вароты Мінска]
+  (*
+  <- lang_by;;
+    *);
+
+<- rrel_key_sc_element:
+  ...
+  (*
+  <-sc_definition;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+      [Ворота Минска — архитектурный комплекс на Привокзальной площади в Минске, представляющий собой два 11-этажных здания-башни по углам 5-этажных домов, расположенных симметрично относительно поперечной оси площади.]
+      (*
+      <- lang_ru;;
+      *);;
+    -> rrel_example:
+      [Вароты Мінска - архітэктурны комплекс на Прывакзальнай плошчы ў Менску, які ўяўляе сабой два 11-павярховых будынка-вежы па кутах 5-павярховых дамоў, размешчаных сіметрычна адносна папярочнай восі плошчы.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);;
+  *);
+=> nrel_architect: Rubanenko_Boris_Rafailovich;
+<- concept_complex_of_buildings;
+=> nrel_geographical_location: ...
+  (*
+  <-concept_mapped_point;;
+  => nrel_WGS_84_translation: [53.892046, 27.551059]
+    (*
+    -> ...
+      (*
+      <- concept_coordinate;;
+      ->rrel_latitude: ...
+        (*
+        <=nrel_value: ...
+          (*
+          -> rrel_degree: 53.892046;;
+          *);;
+        *);;
+      ->rrel_longitude: ...
+        (*
+        <=nrel_value: ...
+          (*
+          -> rrel_degree: 27.551059;;
+          *);;
+        *);;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Gates_of_Minsk.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;
+
+concept_situation->[*Gates_of_Minsk <- concept_arch_stalinist_eclecticism;;*]
+(*
+  <- begin_date_1947;;
+*);;

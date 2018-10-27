@@ -1,0 +1,17 @@
+Krechevsky_Peter_Antonovich
+
+=> nrel_main_idtf:
+  [Кречевский Пётр Антонович] (* <- lang_ru;; *);
+  [Krechevsky Peter Antonovich] (* <- lang_en;; *);
+  [Крэчэўскі Пётр Антонавіч] (* <- lang_by;; *);
+
+<-begin_date_7_08_1879;
+<-completion_date_08_03_1928;
+<- concept_male;
+<- concept_person;;
+
+concept_situation->[*Krechevsky_Peter_Antonovich <-rrel_chairman_of_the_council:organization_Council_of_Belarusian_People_s_Republic;;*]
+(*
+  <- begin_date_1918;;
+  <- completion_date_1928;;
+*);;

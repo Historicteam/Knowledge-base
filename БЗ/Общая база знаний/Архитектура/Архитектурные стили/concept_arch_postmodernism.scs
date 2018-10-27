@@ -1,0 +1,33 @@
+concept_arch_postmodernism
+=>nrel_main_idtf:
+	[Архитектурный стиль постмодернизм] (* <-lang_ru;; *);
+	[Architectural style postmodernism] (* <-lang_en;; *);
+	[Архітэктурны стыль постмадэрнізм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Постмодернизм - архитектурный стиль, представляющий собой совокупность течений, зародившихся в 1960-х гг., пришедших на смену господствовавшему модернизму.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+  ...
+  (*
+  ->rrel_example: "file://content/postmoernizm.jpg"
+    (*
+    => nrel_format: format_jpg;;
+    *);;
+  *);;
+*);;

@@ -1,0 +1,8 @@
+Zinevichi_village
+=>nrel_main_idtf:
+  [Зиневичи] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [Zinevichi] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [Зіневічы] (* <-lang_by;; *); 
+<-concept_village;;

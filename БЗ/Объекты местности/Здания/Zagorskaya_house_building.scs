@@ -159,7 +159,7 @@ concept_situation->[*Zagorskaya_house_building <= nrel_owner: Hutten_Czapsky_Eme
 	<- begin_date_1892;;
 	<- completion_date_1904;;
 *);;
-concept_situation->[*Zagorskaya_house_building <= nrel_architect: Shroter_Victor_Aleksandrovich;;*]
+concept_situation->[*Zagorskaya_house_building => nrel_architect: Shroter_Victor_Aleksandrovich;;*]
 (*
 	=> nrel_main_idtf: [Контур периода времени, в которое Шрётер Виктор Александрович являлся архитектором дома Загорской(47)](*<-lang_ru;;*);;
 	<- begin_date_1894;;

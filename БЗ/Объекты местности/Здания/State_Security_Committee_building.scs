@@ -89,7 +89,7 @@ State_Security_Committee_building
 	*);	
 
 <- begin_date_1947;
-<=nrel_architect: Parusnikov_Mikhail_Pavlovich;
+=> nrel_architect: Parusnikov_Mikhail_Pavlovich;
 <- concept_terrain_object;
 <- concept_building;;
 

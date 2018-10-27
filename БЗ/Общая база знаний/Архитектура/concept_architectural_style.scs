@@ -1,0 +1,60 @@
+concept_architectural_style
+=>nrel_main_idtf:
+	[архитектурный стиль] (* <-lang_ru;; *);
+	[architectural style] (* <-lang_en;; *);
+	[архітэктурны стыль] (* <-lang_by;; *);
+
+<-sc_const;
+<-sc_node_not_relation;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Архитектурный стиль — совокупность характерных черт и признаков архитектуры, проявляющихся в особенностях функциональной, конструктивной и художественной сторон (назначение зданий, строительные материалы и конструкции, приёмы архитектурной композиции).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+
+	...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Архітэктурны стыль - сукупнасць характэрных рысаў і прыкмет архітэктуры, якія праяўляюцца ў асаблівасцях функцыянальнай, канструктыўнай і мастацкай бакоў (прызначэнне будынкаў, будаўнічыя матэрыялы і канструкцыі, прыёмы архітэктурнай кампазіцыі).]
+      (* <- lang_by;; *);;
+    *);;
+  *);
+
+<= nrel_subdividing:
+	{
+		concept_arch_romanesque_style;
+		concept_arch_renaissanse;
+		concept_arch_gothic;
+		concept_arch_classicism;
+		concept_arch_baroque;
+		concept_arch_art_deco;
+		concept_arch_bio_tech;
+		concept_arch_constructivism;
+		concept_arch_deconstructivism;
+		concept_arch_eclecticism;
+		concept_arch_expressionism;
+		concept_arch_modern;
+		concept_arch_modernism;
+		concept_arch_structuralism;
+		concept_arch_pseudo_russian_style;
+		concept_arch_functionalism;
+		concept_arch_hi_tech;
+		concept_arch_mavritan;
+		concept_arch_metabolism;
+    concept_arch_historicism;
+    concept_arch_stalinist_eclecticism
+	};;

@@ -7,7 +7,7 @@ building_of_Red_Church
 		[Красный костёл] (* <- lang_ru;; *);
 		[Red Church] (* <- lang_en;; *);
 		[Чырвоны касцёл] (* <- lang_by;; *);
-<= nrel_architect:Paizderski_Tomash;
+=> nrel_architect:Paizderski_Tomash;
 => nrel_material:concept_brick;
 <- rrel_key_sc_element:
 	...

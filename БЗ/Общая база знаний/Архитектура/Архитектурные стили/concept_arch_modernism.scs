@@ -1,0 +1,38 @@
+concept_arch_modernism
+=>nrel_main_idtf:
+  [Архитектурный стиль модернизм] (* <-lang_ru;; *);
+  [Architectural style modernism] (* <-lang_en;; *);
+  [Архітэктурны стыль  мадэрнізм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Модернизм — стиль в архитектуре двадцатого века, переломное по содержанию, связанное с решительным обновлением форм и конструкций, отказом от стилей прошлого.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);;
+  *);
+  
+=>nrel_inclusion: concept_arch_postmodernism;
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/modernizm_example.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-begin_date_first_half_of_20_century;
+<-completion_date_second_half_of_20_century;;

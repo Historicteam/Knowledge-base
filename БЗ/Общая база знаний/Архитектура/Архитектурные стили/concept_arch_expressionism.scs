@@ -1,0 +1,34 @@
+concept_arch_expressionism
+=>nrel_main_idtf:
+	[Архитектурный стиль  экспрессионизм] (* <-lang_ru;; *);
+	[Architectural style expressionism] (* <-lang_en;; *);
+	[Архітэктурны стыль экспрэсіянізм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Экспрессионизм — стиль архитектуры Первой мировой войны, для которой свойственно искажение традиционных архитектурных форм с целью достижения максимального эмоционального эффекта на зрителя. Ядром стиля является художественная экспрессия.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Grundtvig_memorial_church_expressionism.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;

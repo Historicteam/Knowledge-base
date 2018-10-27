@@ -1,0 +1,8 @@
+Balakhovich_Jozefa
+=> nrel_main_idtf:  
+      [Балахович Юзефа] (* <- lang_ru;; *);
+      [Balakhovich Jozefa](* <- lang_en;; *);
+      [Балаховіч Юзэфа](* <- lang_by;; *);
+<-concept_female;
+=>nrel_surname: surname_Balakhovich;
+=>nrel_first_name: name_Jozefa;;

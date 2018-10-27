@@ -126,7 +126,7 @@ concept_situation->[*organization_Minsk_archive  => nrel_location: building_of_t
     <- begin_date_1872;;
 *);;
 
-concept_situation->[* building_of_the_church_of_St_Joseph<-concept_arch_classical_baroque;;*]
+concept_situation->[* building_of_the_church_of_St_Joseph<-concept_arch_baroque;;*]
 (*
     <- begin_date_1652;;
 *);;

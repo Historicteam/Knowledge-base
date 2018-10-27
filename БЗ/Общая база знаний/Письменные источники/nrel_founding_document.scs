@@ -1,0 +1,50 @@
+nrel_founding_document
+=>nrel_main_idtf:
+  [учредительный докумен*] (* <-lang_ru;; *);
+  [founding document*] (* <-lang_en;; *);
+  [ўстаноўчы дакумент*] (* <-lang_by;; *);  
+
+<-sc_const; 
+<-sc_node_norole_relation;
+
+<- rrel_key_sc_element:
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [Учредительный документ — это документ, служащий основанием для деятельности юридического лица.]
+        (* <- lang_ru;; *);;
+      *);;
+    *);
+
+...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Ўстаноўчы дакумент - гэта дакумент, які служыць падставай для дзейнасці юрыдычнай асобы.]
+      (* <- lang_by;; *);;
+    *);;
+  *);;
+
+nrel_founding_document <- binary_relation;
+<- oriented_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+<- antireflexive_relation;;
+
+concept_organization <- ...
+  (*
+  -> concept_document;;
+  => nrel_combination: ...
+    (*
+    <= nrel_definitional_domain: nrel_founding_document;;
+    *);;
+  *);;
+nrel_founding_document => nrel_first_domain: concept_organization;
+=> nrel_second_domain: concept_document;;

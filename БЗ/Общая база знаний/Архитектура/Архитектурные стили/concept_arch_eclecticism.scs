@@ -1,0 +1,33 @@
+concept_arch_eclecticism
+=>nrel_main_idtf:
+	[Архитектурный стиль эклектика] (* <-lang_ru;; *);
+	[Architectural style eclecticism] (* <-lang_en;; *);
+	[Архітэктурны стыль эклектыка] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Эклектика — стиль в архитектуре, ориентирующееся на использование в одном сооружении любых форм прошлого в любых сочетаниях.]
+			(*
+			<- lang_be;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Beloselskii_eclectisism.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,17 @@
+Sazhich_Iosif_Simonovic
+=> nrel_main_idtf:
+  [Сажич Иосиф Симонович] (* <- lang_ru;; *);
+  [Sazhich Iosif Simonovic] (* <- lang_en;; *);
+  [Сажыч Язэп Сімановіч] (* <- lang_by;; *);
+
+<-begin_date_05_09_1917;
+<-completion_date_19_11_2007;
+  
+<- concept_male;
+<- concept_person;;
+
+concept_situation->[*Sazhich_Iosif_Simonovic <-rrel_chairman_of_the_council:organization_Council_of_Belarusian_People_s_Republic;;*]
+(*
+  <- begin_date_1982;;
+  <- completion_date_1997;;
+*);;

@@ -368,6 +368,7 @@ surname_Konopatskaja
 	*);
 <-concept_surname
 ;;
+
 surname_Obukhovich
 => nrel_main_idtf:
 	[Обухович]
@@ -457,7 +458,6 @@ surname_Sulistrovskaja
 	*);
 <-concept_surname
 ;;
-
 
 surname_Gorvat
 => nrel_main_idtf:
@@ -591,8 +591,111 @@ surname_Kostrovickij
 	[Кастравіцкi]
 	(*
 	<- lang_by;;
+	*);	
+<-concept_surname
+;;
+
+surname_Kondratovich
+=> nrel_main_idtf:
+	[Кондратович]
+	(*
+	<- lang_ru;;
+	*);
+	[Kondratovich]
+	(*
+	<- lang_en;;
+	*);
+	[Кандратовіч]
+	(*
+	<- lang_by;;
 		*);		
-<-concept_surname;;
+<-concept_surname
+;;
+
+surname_Trubetskoy
+=> nrel_main_idtf:
+	[Трубецкой]
+	(*
+	<- lang_ru;;
+	*);
+	[Trubetskoy]
+	(*
+	<- lang_en;;
+	*);
+	[Трубецкі]
+	(*
+	<- lang_by;;
+		*);		
+<-concept_surname
+;;
+
+surname_Zalesskaya
+=> nrel_main_idtf:
+	[Залесская]
+	(*
+	<- lang_ru;;
+	*);
+	[Zalesskaya]
+	(*
+	<- lang_en;;
+	*);
+	[Залеская]
+	(*
+	<- lang_by;;
+		*);		
+<-concept_surname
+;;
+
+surname_Balakhovich
+=> nrel_main_idtf:
+	[Балахович]
+	(*
+	<- lang_ru;;
+	*);
+	[Balakhovich]
+	(*
+	<- lang_en;;
+	*);
+	[Балаховіч]
+	(*
+	<- lang_by;;
+		*);		
+<-concept_surname
+;;
+
+surname_Bulak_Balakhovich
+=> nrel_main_idtf:
+	[Булак-Балахович]
+	(*
+	<- lang_ru;;
+	*);
+	[Bulak-Balakhovich]
+	(*
+	<- lang_en;;
+	*);
+	[Булак-Балаховіч]
+	(*
+	<- lang_by;;
+		*);		
+<-concept_surname
+;;
+
+surname_Rubanenko
+=> nrel_main_idtf:
+	[Рубаненко]
+	(*
+	<- lang_ru;;
+	*);
+	[Rubanenko]
+	(*
+	<- lang_en;;
+	*);
+	[Рубаненка]
+	(*
+	<- lang_by;;
+	*);		
+<-concept_surname
+;;
 
 surname_Liaskovskij
 => nrel_main_idtf:

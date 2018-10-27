@@ -72,8 +72,6 @@ name_Edvard
 	*);
 <-concept_name;;
 
-
-
 name_Lieon
 => nrel_main_idtf:
 	[Леон]
@@ -176,8 +174,6 @@ name_John
 <-concept_name
 ;;
 
-
-
 name_Egor
 => nrel_main_idtf:
 	[Егор]
@@ -211,7 +207,6 @@ name_Jan
 	*);
 <-concept_name
 ;;
-
 
 name_Stanislav
 => nrel_main_idtf:
@@ -1440,7 +1435,127 @@ name_Vaclav
 	(*
 	<- lang_by;;
 	*);
-<-concept_name;;
+<-concept_name
+;;
+
+name_Kiprian
+=> nrel_main_idtf:	
+	[Kiprian]
+	(*
+	<- lang_en;;
+	*);
+	[Киприан]
+	(*
+	<- lang_ru;;
+	*);
+	[Кіпрыян]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Zinaida
+=> nrel_main_idtf:	
+	[Zinaida]
+	(*
+	<- lang_en;;
+	*);
+	[Зинаида]
+	(*
+	<- lang_ru;;
+	*);
+	[Зінаіда]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Ada
+=> nrel_main_idtf:	
+	[Ada]
+	(*
+	<- lang_en;;
+	*);
+	[Ада]
+	(*
+	<- lang_ru;;
+	*);
+	[Ада]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Mikhail
+=> nrel_main_idtf:	
+	[Mikhail]
+	(*
+	<- lang_en;;
+	*);
+	[Михаил]
+	(*
+	<- lang_ru;;
+	*);
+	[Міхаіл]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Nikodim
+=> nrel_main_idtf:	
+	[Nikodim]
+	(*
+	<- lang_en;;
+	*);
+	[Никодим]
+	(*
+	<- lang_ru;;
+	*);
+	[Нікадзім]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Jozefa
+=> nrel_main_idtf:	
+	[Józefa]
+	(*
+	<- lang_en;;
+	*);
+	[Юзефа]
+	(*
+	<- lang_ru;;
+	*);
+	[Юзэфа]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
+
+name_Boris
+=> nrel_main_idtf:	
+	[Boris]
+	(*
+	<- lang_en;;
+	*);
+	[Борис]
+	(*
+	<- lang_ru;;
+	*);
+	[Барыс]
+	(*
+	<- lang_by;;
+	*);
+<-concept_name
+;;
 
 name_Vikientij
 =>nrel_main_idtf:

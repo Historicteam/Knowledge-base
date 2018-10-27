@@ -1,0 +1,27 @@
+organization_state_security_council_of_bnr
+=> nrel_main_idtf:
+  [Совет государственной безопасности БНР]
+  (*
+  <- lang_ru;;
+  *);
+  [The State Security Council of the BNR]
+  (*
+  <- lang_en;;
+  *);
+  [Савет дзяржаўнай бяспекі БНР]
+  (*
+  <- lang_by;;
+  *);
+
+-> rrel_chairman: Lastovskij_Vaclav_Ustinovich;
+
+<- concept_formal_organization;
+<- concept_administrative_organization;;
+
+concept_situation -> [*organization_state_security_council_of_bnr <- ... (* <- concept_institutions_of_force;;
+  <- ...(* <- concept_formal_government_apparatus;;
+    <= nrel_political_power: state_belarusian_people_s_republic;;*);; *);;*]
+(*
+  <- begin_date_12_1918;;
+  <- completion_date_12_1918;;
+*);;

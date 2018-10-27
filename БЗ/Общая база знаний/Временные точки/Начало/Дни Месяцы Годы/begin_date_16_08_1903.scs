@@ -1,0 +1,24 @@
+begin_date_16_08_1903
+=> nrel_main_idtf:
+   [время начала - 16 августа 1903]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 16 august of 1903]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 16 жніўня 1903]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [16];;
+   <- number_of_month_in_year: [8];;
+   <- number_of_year: [1903];;
+   *);
+   <- begin_date_08_1903;
+   <- begin_date_1903;;

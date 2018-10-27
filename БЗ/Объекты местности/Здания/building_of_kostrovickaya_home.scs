@@ -21,8 +21,8 @@ Kostrovickaja_house
 	(*
 	<- lang_by;;
 		*);
-=> concept_square:indepence_square;
-<= nrel_architect:Henry_Gaq;
+=> concept_square: indepence_square;
+=> nrel_architect: Henry_Gaq;
 <- rrel_key_sc_element:
 	...
 	(*
@@ -118,3 +118,8 @@ Kostrovickaja_house
 		*);;
 	*)
 ;;
+
+concept_situation->[*Kostrovickaja_house <- concept_arch_modern;;*]
+(*
+  <- begin_date_1912;;
+*);;

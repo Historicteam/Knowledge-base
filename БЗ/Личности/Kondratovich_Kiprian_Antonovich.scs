@@ -1,0 +1,155 @@
+Kondratovich_Kiprian_Antonovich
+=> nrel_main_idtf:  
+      [Кондратович Киприан Антонович] (* <- lang_ru;; *);
+      [Kondratovich Kiprian Antonovich](* <- lang_en;; *);
+      [Кандратовіч Кіпрыян Антонавіч](* <- lang_by;; *);
+<-concept_male;
+=>nrel_surname: surname_Kondratovich;
+=>nrel_first_name: name_Kiprian;
+=>nrel_parent: Trubetskoy_Yuri;
+=>nrel_parent: Zalesskaya_Zinaida;
+
+<=>nrel_spouse: Kondratovich_Ada;
+<=nrel_parent: Kondratovich_Vera;
+
+<-rank_general_from_the_infantry;
+
+=>nrel_author: book_Plevna_and_Grenadiers_November_28_1877;
+
+=>nrel_place_of_birth:Zinevichi_village;
+
+=>nrel_place_of_death:estste_Gorodno;
+
+<-begin_date_28_04_1859;
+<-completion_date_31_10_1932;;
+
+concept_situation->
+[*
+Kondratovich_Kiprian_Antonovich <- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Kandratovic_Kipryjan.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;
+*]
+(* <- begin_date_1900;; *);;
+
+concept_situation->
+[*
+Kondratovich_Kiprian_Antonovich <- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/General_Kondratovich.jpg"
+        (*
+        => nrel_format: format_jpg;;
+        *);;
+      *);;
+  *);;
+*]
+(* <- begin_date_1905;; *);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_third_class_Order_of_St_Stanislaus;;*]
+(*
+  <- begin_date_1885;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_third_class_Order_of_St_Anna;;*]
+(*
+  <- begin_date_1891;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_second_class_Order_of_St_Stanislaus;;*]
+(*
+  <- begin_date_1896;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_second_class_Order_of_St_Anna;;*]
+(*
+  <- begin_date_1899;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_third_class_Order_of_St_Vladimir;;*]
+(*
+  <- begin_date_1902;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_first_class_Order_of_St_Stanislaus;;*]
+(*
+  <- begin_date_1904;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_first_class_Order_of_St_Anna;;*]
+(*
+  <- begin_date_1905;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_fourth_class_Order_of_St_George;;*]
+(*
+  <- begin_date_17_07_1906;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_second_class_Order_of_St_Vladimir;;*]
+(*
+  <- begin_date_04_06_1909;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: the_second_class_Order_of_St_Vladimir;;*]
+(*
+  <- begin_date_03_07_1909;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich => nrel_awarded: Order_of_the_White_Eagle_russian;;*]
+(*
+  <- begin_date_06_12_1912;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich <-rrel_member:organization_central_belarusian_military_council;;*]
+(*
+  <- begin_date_1917;;
+  <- completion_date_25_03_1918;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich <- rrel_member: organization_Government_people_s_Secretariat;;*]
+(*
+  <- begin_date_05_1918;;
+  <- completion_date_06_1918;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich <- rrel_member: organization_belarusian_delegation_at_the_paris_peace_conference;;*]
+(*
+  <- begin_date_18_01_1919;;
+  <- completion_date_21_01_1920;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich <-rrel_chairman: organization_state_security_council_of_bnr;;*]
+(*
+  <- begin_date_01_12_1918;;
+  <- completion_date_31_12_1918;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich <-rrel_Minister_of_Defense: organization_Government_people_s_Secretariat;;*]
+(*
+  <- begin_date_25_03_1918;;
+  <- completion_date_06_1918;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich <-rrel_Vice_Minister_of_National_Defense: organization_Government_people_s_Secretariat;;*]
+(*
+  <- begin_date_05_1918;;
+  <- completion_date_06_1918;;
+*);;
+
+concept_situation->[*Kondratovich_Kiprian_Antonovich <- rrel_member: organization_Council_of_Belarusian_People_s_Republic;;*]
+(*
+  <- begin_date_25_03_1918;;
+  <- completion_date_1921;;
+*);;

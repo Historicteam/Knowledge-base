@@ -1,0 +1,47 @@
+concept_flying_buttresses
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+  [летающий контрфорс](* <- lang_ru;; *);
+  [flying buttresses](* <- lang_en;; *);
+  [лятаючы контрфорс](* <- lang_by;; *);
+
+<- rrel_key_sc_element:
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [Летающий контрфорс – вертикальная конструкция, представляющая собой либо выступающую часть стены, вертикальное ребро, либо отдельно стоящую опору, связанную со стеной аркбутаном.]
+        (* <- lang_ru;; *);;
+      *);;
+    *);
+
+...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Лятаючы контрфорс - вертыкальная канструкцыя, якая ўяўляе сабой альбо выступае частку сцяны, вертыкальнае рабро, альбо асобна якая стаіць апору, звязаную са сцяной аркбутаном.]
+      (* <- lang_by;; *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/flying_buttress.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;

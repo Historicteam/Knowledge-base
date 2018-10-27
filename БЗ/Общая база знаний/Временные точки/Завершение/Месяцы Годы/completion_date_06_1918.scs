@@ -1,0 +1,22 @@
+completion_date_06_1918
+=> nrel_main_idtf:
+   [время завершения - июнь 1918]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - june of 1918]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - чэрвень 1918]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [6];;
+   <- number_of_year: [1918];;
+   *);
+   <- completion_date_1918;;

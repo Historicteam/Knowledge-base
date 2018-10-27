@@ -1,0 +1,17 @@
+Zhuk_Grishkevich_Vincent_Antonovich
+=> nrel_main_idtf:
+  [Жук-Гришкевич Винцент Антонович] (* <- lang_ru;; *);
+  [Zhuk-Grishkevich Vincent Antonovich] (* <- lang_en;; *);
+  [Жук-Грышкевіч Вінцэнт Антонавіч] (* <- lang_by;; *);
+  
+<-begin_date_10_02_1903;
+<-completion_date_14_02_1989;
+
+<- concept_male;
+<- concept_person;;
+
+concept_situation->[*Zhuk_Grishkevich_Vincent_Antonovich <-rrel_chairman_of_the_council:organization_Council_of_Belarusian_People_s_Republic;;*]
+(*
+  <- begin_date_1970;;
+  <- completion_date_1982;;
+*);;

@@ -1,0 +1,48 @@
+concept_arch_art_deco
+=>nrel_main_idtf:
+	[Архитектурный стиль ар-деко] (* <-lang_ru;; *);
+	[Architectural style Art Deco] (* <-lang_en;; *);
+	[Архітэктурны стыль Ар-дэко] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Ар-деко — архитектурный стиль, для которого характерно использование геометрических форм, симметрии и стилизованных природных мотивов.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+	...
+	(*
+	->rrel_example: "file://content/Vancouver_Marine_Building_art_deco.jpg"
+		(*
+		=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_illustration;;
+<=nrel_sc_text_translation:
+	...
+	(*
+	->rrel_example: "file://content/Cochise_County_courthouse_art_deco.jpg"
+		(*
+		=> nrel_format: format_jpg;;
+		*);;
+	*);;
+*);;

@@ -1,0 +1,35 @@
+concept_arch_metabolism
+=>nrel_main_idtf:
+	[Архитектурный стиль метаболизм] (* <-lang_ru;; *);
+	[Architectural style metabolism] (* <-lang_en;; *);
+	[Архітэктурны стыль метабалізм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Метаболизм — архитектурный стиль середины XX в.,в основе которого лежит принцип индивидуального развития живого организма и коэволюции.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Nakagin_metabolism.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);;

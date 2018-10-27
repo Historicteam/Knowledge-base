@@ -1,0 +1,24 @@
+begin_date_01_04_1877
+=> nrel_main_idtf:
+   [время начала - 1 апреля 1877]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1 april of 1877]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1 красавіка 1877]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [1];;
+   <- number_of_month_in_year: [4];;
+   <- number_of_year: [1877];;
+   *);
+   <- begin_date_04_1877;
+   <- begin_date_1877;;

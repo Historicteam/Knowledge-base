@@ -1,0 +1,37 @@
+concept_arch_vilnius_baroque
+=>nrel_main_idtf:
+	[Архитектурный стиль виленское барокко] (* <-lang_ru;; *);
+	[Architectural style vilnius baroque] (* <-lang_en;; *);
+	[Архітэктурны стыль віленскае барока] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Виленское барокко - архитектурный стиль, условное название позднего этапа развития стиля барокко в храмовой архитектуре Великого княжества Литовского, на территории распространения Брестской церковной унии, в том числе и в Виленской епархии Римско-католической церкви.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Vilnus_Cathedral_viln_baroque.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-begin_date_second_half_of_18_century;
+<-completion_date_first_half_of_20_century;;

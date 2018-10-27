@@ -1,0 +1,17 @@
+Abramchik_Nikolay_Semyonovich
+=> nrel_main_idtf:
+  [Абрамчик Николай Семёнович] (* <- lang_ru;; *);
+  [Abramchik Nikolay Semyonovich] (* <- lang_en;; *);
+  [Абрамчык Мікалай Сямёнавіч] (* <- lang_by;; *);
+  
+<-begin_date_16_08_1903;
+<-completion_date_29_05_1970;
+
+<- concept_male;
+<- concept_person;;
+
+concept_situation->[*Abramchik_Nikolay_Semyonovich <-rrel_chairman_of_the_council:organization_Council_of_Belarusian_People_s_Republic;;*]
+(*
+  <- begin_date_1943;;
+  <- completion_date_1970;;
+*);;

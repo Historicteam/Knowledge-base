@@ -1,0 +1,22 @@
+begin_date_12_1912
+=> nrel_main_idtf:
+   [время начала - декабрь 1912]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1912]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1912]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [12];;
+   <- number_of_year: [1912];;
+   *);
+   <- begin_date_1912;;

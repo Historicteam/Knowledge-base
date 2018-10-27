@@ -108,7 +108,7 @@ concept_window
 ->concept_lancent_window;;
 ->concept_picture_window;;
 ->concept_trifora;;
-->colonial_window;; 
+->concept_colonial_window;; 
 ->concept_baroque_window;;
 *);
 

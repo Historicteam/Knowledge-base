@@ -1,0 +1,37 @@
+concept_arch_moscow_baroque
+=>nrel_main_idtf:
+  [Архитектурный стиль  московское барокко] (* <-lang_ru;; *);
+  [Architectural style  moscow baroque] (* <-lang_en;; *);
+  [Архітэктурны стыль  маскоўскае барока] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Московское барокко — условное название стиля русской архитектуры последних десятилетий XVII — первых лет XVIII в., основной особенностью которого является широкое применение элементов архитектурного ордера и использование центрических композиций в храмовой архитектуре.]
+      (*
+      <- lang_ru;;
+      *);;
+
+    *);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/moscow_baroque.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-begin_date_second_half_of_17_century;
+<-completion_date_first_half_of_18_century;;

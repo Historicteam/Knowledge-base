@@ -15,6 +15,7 @@ Pichalovski_Castle
 <- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
 <-concept_prison;
 <-concept_building;
+
 <-concept_terrain_object;
 =>nrel_osm_query:[way(1369825004);];
 =>nrel_geographical_location:...
@@ -39,3 +40,8 @@ Pichalovski_Castle
 					*);;
 			*);;
 	*);;
+
+concept_situation->[*Pichalovski_Castle <- concept_arch_neoclassicism;;*]
+(*
+  <- begin_date_1825;;
+*);;

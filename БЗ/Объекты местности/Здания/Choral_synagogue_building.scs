@@ -46,7 +46,7 @@ Choral_synagogue_building
 	*);
 
 
-<=nrel_architect: BBaklanov_architector;
+=> nrel_architect: BBaklanov_architector;
 
 => nrel_osm_query: [way(25387470);];
 => nrel_geographical_location: ...

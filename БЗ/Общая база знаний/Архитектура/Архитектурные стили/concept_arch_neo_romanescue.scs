@@ -1,0 +1,36 @@
+concept_arch_neo_romanescue
+=>nrel_main_idtf:
+	[Неороманский архитектурный стиль] (* <-lang_ru;; *);
+	[Architectural style neo-romanescue] (* <-lang_en;; *);
+	[Неараманскі архітэктурны стыль] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Неороманский стиль - архитектурный стиль XIX века, основой которого стала романская архитектура XI—XII веков.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Ikazn_cathedral_neo-roman.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-begin_date_second_half_of_19_century;
+<-completion_date_first_half_of_20_century;;

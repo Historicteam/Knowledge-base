@@ -1,0 +1,31 @@
+rrel_Minister_of_Defense
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+  [Министр обороны']
+  (*
+  <- lang_ru;;
+  *);
+  [Міністр абароны']
+  (*
+  <- lang_by;;
+  *);
+  [Minister of Defense']
+  (*
+  <- lang_en;;
+  *);
+
+<- rrel_key_sc_element:
+  ...  
+  (* 
+  <- sc_explanation;;
+  <= nrel_sc_text_translation:
+    ...
+    (* 
+    -> rrel_example:
+    [Министр обороны — министр, возглавляющий министерство обороны (военное министерство) того или иного государства.] (* <-lang_ru;; *);;
+    *);;
+  *);;

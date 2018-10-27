@@ -1,4 +1,4 @@
-picture_window
+concept_picture_window
 <-sc_const;
 <-sc_node_not_relation;
 => nrel_main_idtf:
@@ -6,7 +6,7 @@ picture_window
 (*
 <- lang_ru;;
 *);
-[picture window]
+[Picture window]
 (*
 <- lang_en;;
 *);

@@ -1,0 +1,49 @@
+organization_people_s_council
+=> nrel_main_idtf:
+  [Народная Рада]
+  (*
+  <- lang_ru;;
+  *);
+  [People's Council]
+  (*
+  <- lang_en;;
+  *);
+  [Народная Рада]
+  (*
+  <- lang_by;;
+  *);
+
+->rrel_chairman_of_the_council: Lastovskij_Vaclav_Ustinovich;
+
+<-concept_formal_organization;
+
+<- rrel_key_sc_element:
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [Народная Рада протестовала против «колонизаторской политики» Польши и своими союзниками рассматривала прибалтийские республики.]
+        (* <- lang_ru;; *);;
+      *);;
+    *);
+
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [Народная Рада пратэставала супраць «каланізатарскай палітыкі» Польшчы і сваімі саюзьнікамі разглядала прыбалтыйскія рэспублікі.]
+        (* <- lang_by;; *);;
+      *);;
+    *);;
+
+concept_situation->[* the_city_of_Kaunas <=nrel_location: organization_people_s_council;;*]
+(*
+  <- begin_date_07_1920;;
+  <- completion_date_11_1923;;
+*);;

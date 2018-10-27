@@ -1,0 +1,37 @@
+concept_arch_rococo_architecture
+=>nrel_main_idtf:
+	[Архитектурный стиль рококо] (* <-lang_ru;; *);
+	[Architectural style rococo] (* <-lang_en;; *);
+	[Архітэктурны стыль рококо] (* <-lang_by;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Рококо — архитектурный стиль, который появился в начале XVIII века во Франции. Он стал своеобразным продолжением стиля барокко и развивался вплоть до 60-х годов.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/arhiepiskopskiy_dvorec_v_prage.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-begin_date_second_half_of_18_century;
+<-completion_date_first_half_of_18_century;;

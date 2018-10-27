@@ -1,0 +1,37 @@
+concept_arch_neoclassicism
+=> nrel_main_idtf:
+	[Архитектурный стиль  неоклассицизм]	(* 	<- lang_ru;; *);
+  	[Архітэктурны стыль неакласiцызм] (*  <- lang_by;; *);
+  	[Architectural style neoclassicism] (*  <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+  ...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [Неоклассицизм — архитектурный стиль последней трети XIX и XX веков, которым присуще обращение к традициям искусства античности, искусства эпохи Возрождения или классицизма.]
+      (*
+      <- lang_ru;;
+      *);;
+    *);;
+  *);
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/Vienna_parlament.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<-begin_date_second_half_of_18_century;
+<-completion_date_first_half_of_19_century;;
+  

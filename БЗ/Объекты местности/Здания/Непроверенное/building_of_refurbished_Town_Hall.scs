@@ -4,3 +4,8 @@ building_of_refurbished_Town_Hall
 	[Восстановленное здание ратуши] (* <- lang_ru;; *);
 	[Refurbished Town Hall] (* <- lang_en;; *);
 	[Адноўлены будынак ратушы] (* <- lang_by;; *);;
+
+concept_situation->[*building_of_refurbished_Town_Hall <- concept_arch_classicism;;*]
+(*
+  <- begin_date_2003;;
+*);;
