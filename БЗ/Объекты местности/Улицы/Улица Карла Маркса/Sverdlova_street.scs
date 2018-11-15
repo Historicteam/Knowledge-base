@@ -1,0 +1,18 @@
+Sverdlova_street
+<-concept_street;
+=>nrel_main_idtf:
+	[Улица Свердлова]
+	(*
+		<-lang_ru;;
+	*);
+	[Sverdlova street]
+	(*
+		<-lang_en;;
+	*);
+	[Вуліца Свярдлова]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:Sverdlov_Yakov_Mikhaylovich;
+<-begin_date_1919;
+<-completion_date_1922;;

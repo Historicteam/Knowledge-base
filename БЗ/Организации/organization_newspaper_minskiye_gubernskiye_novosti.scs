@@ -1,0 +1,21 @@
+organization_newspaper_minskiye_gubernskiye_novosti
+<- concept_cultural_educational_organization;
+=> nrel_main_idtf:
+	[Редакция епархиальной газеты "Минские губернские новости"]
+	(*
+		<- lang_ru;;
+	*);
+	[Diocesan newspaper "Minskiye Gubernskiye Novosti"]
+	(*
+		<- lang_en;;
+	*);
+	[Рэдакцыя епархіяльнай газеты "Мінскія губернскія навіны"]
+	(*
+		<- lang_by;;
+	*);;
+concept_situation->[*building_of_the_female_mariavite_monastery
+<= nrel_location: organization_newspaper_minskiye_gubernskiye_novosti;;*]
+(*
+	<- begin_date_1869;;
+	<- completion_date_1920;;
+*);;

@@ -1,0 +1,46 @@
+Novyj_Rynok_street
+<-concept_street;
+=>nrel_main_idtf:
+	[Улица Новый Рынок]
+	(*
+		<-lang_ru;;
+	*);
+	[Novyy Rynok street]
+	(*
+		<-lang_en;;
+	*);
+	[Вуліца Новы Рынак]
+	(*
+		<-lang_by;;
+	*);
+<-begin_date_first_half_of_19_century;
+<-completion_date_first_half_of_19_century;;
+
+concept_situation->[*
+Novyj_Rynok_street
+<=nrel_temporal_decomposition:
+Podgornaja_street;;
+*]
+(*
+	<-begin_date_first_half_of_19_century;;
+	<-completion_date_1919;;	
+*);;
+
+concept_situation->[*
+Novyj_Rynok_street
+<=nrel_temporal_decomposition:
+Sverdlova_street;;
+*]
+(*
+	<-begin_date_1919;;
+	<-completion_date_1922;;	
+*);;
+
+concept_situation->[*
+Novyj_Rynok_street
+<=nrel_temporal_decomposition:
+Karla_Marksa_street;;
+*]
+(*
+	<-begin_date_1922;;
+*);;

@@ -1,0 +1,15 @@
+Action.put_the_play_idilliya
+=>nrel_main_idtf:
+	[Действие. поставить пьесу "Идиллия"]
+	(*
+		<-lang_ru;;
+	*);
+<-action.put_a_play;
+=>nrel_initiator:Dunin_Marcinkievich_Vincent_Ivanovich;
+=>nrel_object:piece_idilliya;
+=>nrel_performer:organization_the_dunin_marcinkievich_theater;
+=>nrel_location:The_building_of_the_Minsk_City_Theatre;
+->Action.conduct_the_libretto_of_piece_idilliya;
+->Action.perform_the_libretto_of_piece_idilliya;	
+<-begin_date_09_02_1852;
+<-completion_date_09_02_1852;;

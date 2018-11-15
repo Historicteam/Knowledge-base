@@ -5,7 +5,6 @@ building_of_school_for_blind
 		[Вучылішча для сляпых] (* <- lang_by;; *);
 
 => nrel_org:Zdanovich_Ivan_Ustinovich;
-=> concept_square:indepence_square;
 <- rrel_key_sc_element:
 	...
 	(*

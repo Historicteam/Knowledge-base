@@ -40,6 +40,7 @@ building_wooden_railway_church
 	<- begin_date_1890;
 
 <- concept_terrain_object;
+<-concept_lost_constructions;
 =>nrel_material: material_wood;
 <- concept_building;;
 

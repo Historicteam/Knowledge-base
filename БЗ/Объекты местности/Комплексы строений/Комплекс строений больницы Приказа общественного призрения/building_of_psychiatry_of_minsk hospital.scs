@@ -1,0 +1,12 @@
+building_of_psychiatry_of_minsk_hospital
+=>nrel_main_idtf:
+	[Корпус психиатрии Минской больницы Приказа общественного призрения]
+	(*
+		<-lang_ru;;
+	*);
+	[The building of psychiatry of the Minsk hospital of Charity Order]
+	(*
+		<-lang_en;;
+	*);
+<-concept_building;
+<-begin_date_1847;;

@@ -1,0 +1,15 @@
+building_of_hospital_of_sisters_of_Mercy
+<-concept_building;
+=>nrel_main_idtf:
+	[Здание госпиталя сестёр милосердия]
+	(*
+		<-lang_ru;;
+	*);
+	[The building of the hospital of sisters of Mercy]
+	(*
+		<-lang_en;;
+	*);
+	[Будынак шпіталя сясцёр міласэрнасці]
+	(*
+		<-lang_by;;
+	*);;

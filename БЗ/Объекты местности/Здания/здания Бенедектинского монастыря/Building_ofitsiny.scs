@@ -59,7 +59,7 @@ Building_ofitsiny
         <- completion_date_1944;;
         *)
     };
-	
+ =>nrel_osm_query:[way(538208752);];	
  => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

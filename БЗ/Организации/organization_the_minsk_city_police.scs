@@ -1,0 +1,17 @@
+organization_the_minsk_city_police
+=>nrel_main_idtf:
+	[Минская городская полиция]
+	(*
+		<-lang_ru;;
+	*);
+	[The Minsk city police]
+	(*
+		<-lang_en;;
+	*);
+	[Мінская гарадская паліцыя]
+	(*
+		<-lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;
+<-concept_state_organization;;

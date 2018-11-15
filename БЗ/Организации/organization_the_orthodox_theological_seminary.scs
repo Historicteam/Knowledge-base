@@ -1,0 +1,38 @@
+organization_the_orthodox_theological_seminary
+<- concept_educational_institution;
+=> nrel_main_idtf:
+	[Минская духовная семинария имени святителей Василия Великого, Григория Богослова и Иоанна Златоуста]
+	(*
+		<- lang_ru;;
+	*);
+	[The Minsk Theological Seminary named after St. Basil the Great, Gregory the Theologian and John Chrysostom]
+	(*
+		<- lang_en;;
+	*);
+	[Мінская духоўная семінарыя імя свяціцеляў Васіля Вялікага, Рыгора Багаслова і Іаана Златавуста]
+	(*
+		<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example:
+				[В 1854 году в здании бывшего монастыря мариавиток разместилась православная духовная семинария. В её стенах обучалось около 200-х воспитанников. В самом здании проживали ректор и инспектор, а также располагалась домашняя церковь и низшее четырехклассное училище. В 1918 году на основании декрета «Об отделении Церкви от государства и школы от Церкви» семинария была закрыта.]
+				(*
+					<- lang_ru;;
+				*);;
+			*);;
+	*);
+<- begin_date_1854;
+<- completion_date_1918;;
+
+concept_situation->[*building_of_the_female_mariavite_monastery
+<= nrel_location: organization_the_orthodox_theological_seminary;;*]
+(*
+	<- begin_date_1811;;
+	<- completion_date_1918;;
+*);;

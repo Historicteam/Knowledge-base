@@ -2,7 +2,12 @@ indepence_square
 <- concept_square;
 <= nrel_subdividing:
 	{
-	building_of_Red_Church
+	building_of_Red_Church;
+	building_of_house_of_government;
+	Kostrovickaja_house;
+	building_of_main_bsu;
+	building_of_school_for_blind;
+	building_ped
 	};
 => nrel_main_idtf:
 	[Площадь Независимости]

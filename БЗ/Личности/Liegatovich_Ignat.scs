@@ -1,0 +1,18 @@
+Liegatovich_Ignat
+=>nrel_main_idtf:
+	[Легатович Игнат]
+	(*
+		<-lang_ru;;
+	*);
+	[Liegatovich Ignat]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+<-concept_poet;
+=>nrel_first_name:name_Ignatij;
+=>nrel_middle_name:name_Peter;
+=>nrel_surname:surname_Liegatovich;
+<-begin_date_1796;
+<-completion_date_1867;
+<=>nrel_friend:Dunin_Marcinkievich_Vincent_Ivanovich;;

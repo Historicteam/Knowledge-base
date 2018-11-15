@@ -1,0 +1,13 @@
+Zdanovich_Ignatij
+=>nrel_main_idtf:
+	[Зданович Игнатий]
+	(*
+		<-lang_ru;;
+	*);
+	[Zdanovich Ignatij]
+	(*
+		<-lang_en;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Ignatij;
+=>nrel_surname:surname_Zdanovich;;

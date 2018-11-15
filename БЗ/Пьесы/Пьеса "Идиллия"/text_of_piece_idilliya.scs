@@ -1,0 +1,15 @@
+text_of_piece_idilliya
+=>nrel_main_idtf:
+	[Текст пьесы "Идиллия"]
+	(*
+		<-lang_ru;;
+	*);
+	[Text of piece "Idilliya"]
+	(*
+		<-lang_en;;
+	*);
+	[Тэкст пьесы "Ідылія"]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_author:Dunin_Marcinkievich_Vincent_Ivanovich;;

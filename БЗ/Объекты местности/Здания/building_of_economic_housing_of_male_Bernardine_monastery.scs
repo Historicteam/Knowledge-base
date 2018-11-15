@@ -135,4 +135,31 @@ concept_situation->[*organization_Brasserie_Old_Town_Piwnica => nrel_location: b
     [Контур периода времени расположения пивной и музея карет в здании хозяйственного корпуса мужского монастыря бернардинцев](*<-lang_ru;;*);
     [Контур перыяду часу месцавання піўнога рэстарана і музея карэт у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
     <- begin_date_2014;;
-*);;
+*);
+=>nrel_osm_query:[way(3640330869);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.905475, 27.557068]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.905475;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.557068;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*)
+;;

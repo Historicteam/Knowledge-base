@@ -1,0 +1,23 @@
+Koblents_Grigoriy_Mikhaylovich
+=> nrel_main_idtf:
+	[Кобленц Григорий Михайлович]
+	(*
+		<-lang_ru;;
+	*);
+	[Koblents Grigoriy Mikhaylovich]
+	(*
+		<-lang_en;;
+	*);
+	[Кобленц Рыгор Міхайлавіч]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;
+
+concept_situation->[*
+Koblents_Grigoriy_Mikhaylovich<-rrel_provost: organization_81st_minsk_infantry_training_courses;;
+*]
+(*
+		<-begin_date_01_1932;;
+		<-completion_date_04_1933;;
+*);;

@@ -591,6 +591,23 @@ surname_Kostrovickij
 	[Кастравіцкi]
 	(*
 	<- lang_by;;
+	*);	
+<-concept_surname
+;;
+
+surname_Kondratovich
+=> nrel_main_idtf:
+	[Кондратович]
+	(*
+	<- lang_ru;;
+	*);
+	[Kondratovich]
+	(*
+	<- lang_en;;
+	*);
+	[Кандратовіч]
+	(*
+	<- lang_by;;
 		*);		
 <-concept_surname
 ;;
@@ -693,6 +710,260 @@ surname_Rubanenko
 	[Рубаненка]
 	(*
 	<- lang_by;;
+<<<<<<< HEAD
 		*);		
 <-concept_surname
 ;;
+
+surname_Liaskovskij
+=> nrel_main_idtf:
+	[Лясковский]
+	(*
+		<-lang_ru;;
+	*);
+	[Liaskovskij]
+	(*
+		<-lang_en;;
+	*);
+	[Ляскоўскі]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Stavrovich
+=> nrel_main_idtf:
+	[Ставрович]
+	(*
+		<-lang_ru;;
+	*);
+	[Stavrovich]
+	(*
+		<-lang_en;;
+	*);
+	[Стаўровіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Konopasievich
+=> nrel_main_idtf:
+	[Конопасевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Konopasievich]
+	(*
+		<-lang_en;;
+	*);
+<-concept_surname;;
+
+surname_Zdanovich
+=> nrel_main_idtf:
+	[Зданович]
+	(*
+		<-lang_ru;;
+	*);
+	[Zdanovich]
+	(*
+		<-lang_en;;
+	*);
+	[Здановіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Zaustinskij
+=> nrel_main_idtf:
+	[Заустинский]
+	(*
+		<-lang_ru;;
+	*);
+	[Zaustinskij]
+	(*
+		<-lang_en;;
+	*);
+<-concept_surname;;
+
+surname_Mihulin
+=>nrel_main_idtf:
+	[Мигулин]
+	(*
+		<-lang_ru;;
+	*);
+	[Mihulin]
+	(*
+		<-lang_en;;
+	*);
+	[Мігулін]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Mossakovskij
+=>nrel_main_idtf:
+	[Моссаковский]
+	(*
+		<-lang_ru;;
+	*);
+	[Mossakovskij]
+	(*
+		<-lang_en;;
+	*);
+<-concept_surname;;
+
+surname_Dunin_Marcinkievich
+=>nrel_main_idtf:
+	[Дунин-Марцинкевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Dunin Marcinkievich]
+	(*
+		<-lang_en;;
+	*);
+<-concept_surname;;
+
+surname_Baranovskaja
+=>nrel_main_idtf:
+	[Барановская]
+	(*
+		<-lang_ru;;
+	*);
+	[Baranovskaja]
+	(*
+		<-lang_en;;
+	*);
+<-concept_surname;;
+
+surname_Uminskij
+=>nrel_main_idtf:
+	[Уминский]
+	(*
+		<-lang_ru;;
+	*);
+	[Uminskij]
+	(*
+		<-lang_en;;
+	*);
+	[Умінскі]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Volotovskaja
+=>nrel_main_idtf:
+	[Волотовская]
+	(*
+		<-lang_ru;;
+	*);
+	[Volotovskaja]
+	(*
+		<-lang_en;;
+	*);
+	[Валатоўская]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Liegatovich
+=>nrel_main_idtf:
+	[Легатович]
+	(*
+		<-lang_ru;;
+	*);
+	[Liegatovich]
+	(*
+		<-lang_en;;
+	*);
+	[Легатовіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Montiegrandi
+=>nrel_main_idtf:
+	[Монтегранди]
+	(*
+		<-lang_ru;;
+	*);
+	[Montiegrandi]
+	(*
+		<-lang_en;;
+	*);
+	[Мнтэграндзі]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Shimkievich
+=>nrel_main_idtf:
+	[Шимкевич]
+	(*
+		<-lang_ru;;
+	*);
+	[Shimkievich]
+	(*
+		<-lang_en;;
+	*);
+	[Шымкевіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Bochkovskij
+=>nrel_main_idtf:
+	[Бочковский]
+	(*
+		<-lang_ru;;
+	*);
+	[Bochkovskij]
+	(*
+		<-lang_en;;
+	*);
+	[Бачкоўскі]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Grinievskaja
+=>nrel_main_idtf:
+	[Гриневская]
+	(*
+		<-lang_ru;;
+	*);
+	[Grinievskaja]
+	(*
+		<-lang_en;;
+	*);
+	[Грынеўская]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+
+surname_Osipovich
+=>nrel_main_idtf:
+	[Осипович]
+	(*
+		<-lang_ru;;
+	*);
+	[Osipovich]
+	(*
+		<-lang_en;;
+	*);
+	[Асіповіч]
+	(*
+		<-lang_by;;
+	*);
+<-concept_surname;;
+

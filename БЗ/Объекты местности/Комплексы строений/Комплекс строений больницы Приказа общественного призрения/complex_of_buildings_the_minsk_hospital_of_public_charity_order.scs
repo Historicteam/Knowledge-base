@@ -1,0 +1,24 @@
+complex_of_buildings_the_minsk_hospital_of_public_charity_order
+=>nrel_main_idtf:
+	[Комплекс строений Минской больницы Приказа общественного призрения]
+	(*
+		<-lang_ru;;
+	*);
+	[The complex of buildings of The Minsk Hospital of Public Charity Order]
+	(*
+		<-lang_en;;
+	*);
+<-concept_complex_of_buildings;
+->building_of_psychiatry_of_minsk_hospital;
+<-rrel_key_sc_element:...
+	(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation:...
+			(*
+				<-lang_ru;;
+				->rrel_example:"file://2 клиническая больница.jpg"
+					(*
+						=>nrel_format:format_jpg;;
+					*);;
+			*);;
+	*);;

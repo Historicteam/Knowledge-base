@@ -1,20 +1,20 @@
 completion_date_1955
+<-exact_value;
+<-completion;
 => nrel_main_idtf:
-   [время завершения - 1955]
-   (*
-   <- lang_ru;;
-   *);
-   [completion date - 1955]
-   (*
-   <- lang_en;;
-   *);
-   [час заканчэння - 1955]
-   (*
-   <- lang_by;;
-   *);
-<- exact_value;
-<- completion;
+	[время завершения - 1955]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[completion date -1955]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час заканчэння - 1955]
+   	(*
+   		<-lang_by;;
+   	*);
 => nrel_Gregorian_calendar_scale: ...
-   (*
-   <- number_of_year: [1955];;
-   *);;
+   	(*
+   		<- number_of_year: [1955];;
+   	*);;

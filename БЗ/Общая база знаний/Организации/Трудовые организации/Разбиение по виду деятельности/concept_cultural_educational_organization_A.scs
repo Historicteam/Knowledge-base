@@ -32,6 +32,7 @@ concept_cultural_educational_organization
 -> organization_Literary_Museum_of_Bogdanovich_Belarusian_hut;
 -> organization_redaction_of_magazine_Vozhyk;
 -> organization_redaction_of_magazine_Polymia;
+-> organization_Museum_of_great_patriotic_war;
 
 =>nrel_inclusion:
 	concept_museum;

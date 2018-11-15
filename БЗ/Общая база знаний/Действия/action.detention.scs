@@ -3,6 +3,6 @@ action.detention
 	[действие. арест] (* <-lang_ru;; *);
 	[action. detention] (* <-lang_en;; *);	
 
-<-actions_class;;
+<=nrel_inclusion:actions_class;;
 
 

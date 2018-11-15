@@ -1,0 +1,22 @@
+begin_date_29_09_1861
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - 29 сентября 1861]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - 29 september of 1861]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - 29 верасня 1861]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [29];;
+   		<- number_of_month_in_year: [9];;
+   		<- number_of_year: [1861];;
+   	*);;

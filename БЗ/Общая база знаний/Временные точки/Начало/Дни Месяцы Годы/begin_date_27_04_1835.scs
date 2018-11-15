@@ -1,0 +1,20 @@
+begin_date_27_04_1835
+=>nrel_main_idtf:
+	[время начала - 27 апреля 1835]
+	(*
+		<-lang_ru;;
+	*);
+	[begin date - 27 april of 1835]
+	(*
+		<-lang_en;;
+	*);
+	[час пачатку - 27 красавіка 1835]
+	(*
+		<-lang_by;;
+	*);
+=> nrel_Gregorian_calendar_scale:...
+	(*
+		<-number_of_day_in_month: [27];;
+		<-number_of_month_in_year: [4];;
+		<-number_of_year: [1835];;
+	*);;

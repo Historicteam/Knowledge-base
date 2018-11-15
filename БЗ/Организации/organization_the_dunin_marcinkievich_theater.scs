@@ -1,0 +1,45 @@
+organization_the_dunin_marcinkievich_theater
+=>nrel_main_idtf:
+	[Театр Дунина-Марцинкевича]
+	(*
+		<-lang_ru;;
+	*);
+	[The Dunin-Marcinkievuch theater]
+	(*
+		<-lang_en;;
+	*);
+	[Тэатр Дуніна-Марцінкевіча]
+	(*
+		<-lang_by;;
+	*);
+<-concept_theater;
+<-concept_cultural_organization;
+=>nrel_founder:Dunin_Marcinkievich_Vincent_Ivanovich;
+<-completion_date_1856;;
+
+concept_situation->[*
+organization_the_dunin_marcinkievich_theater
+->rrel_director:Dunin_Marcinkievich_Vincent_Ivanovich;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Дунин-Марцинкевич Винцент был руководителем своего театра]
+		(*
+			<-lang_ru;;
+		*);;
+	<-completion_date_1856;;
+*);;
+
+concept_situation->[*
+organization_the_dunin_marcinkievich_theater
+->Dunin_Marcinkievich_Kamilla_Vincientovna;;
+*]
+(*
+	=>nrel_main_idtf:
+		[Контур периода времени, когда Дунин-Марцинкевич Камилла Винцентовна была членом театра Дунина-Марцинкевича]
+		(*
+			<-lang_ru;;
+		*);;
+	<-completion_date_1856;;
+*);;
+

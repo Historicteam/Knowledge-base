@@ -1,0 +1,15 @@
+Karl_Marx
+=> nrel_main_idtf:
+	[Карл Генрих Маркс]
+	(*
+		<-lang_ru;;
+	*);
+	[Karl Heinrich Marx]
+	(*
+		<-lang_en;;
+	*);
+	[Карл Генрых Маркс]
+	(*
+		<-lang_by;;
+	*);
+<- concept_male;;

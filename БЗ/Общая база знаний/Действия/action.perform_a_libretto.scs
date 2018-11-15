@@ -1,0 +1,11 @@
+action.perform_a_libretto
+=>nrel_main_idtf:
+	[действие. исполнить либретто]
+	(*
+		<-lang_ru;;
+	*);
+	[action. perform a libretto]
+	(*
+		<-lang_en;;
+	*);
+<=nrel_inclusion:actions_class;;

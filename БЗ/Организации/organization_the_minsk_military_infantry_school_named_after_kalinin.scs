@@ -1,0 +1,19 @@
+organization_the_minsk_military_infantry_school_named_after_kalinin
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[Минское военно-пехотное училище имени М.И. Калинина]
+	(*
+		<- lang_ru;;
+	*);
+	[The Minsk Military Infantry School named after M.I. Kalinin]
+	(*
+		<- lang_en;;
+	*);
+	[Мінскае ваенна-пяхотнае вучылішча імя М. І. Калініна]
+	(*
+		<- lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:Kalinin_Mikhail_Ivanovich;
+<-begin_date_16_03_1937;
+<-completion_date_1941;;

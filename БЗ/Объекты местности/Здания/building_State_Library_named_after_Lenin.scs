@@ -29,6 +29,29 @@ building_State_Library_named_after_Lenin
 		*);;
 	*);
 
-=> nrel_osm_query: [way(25319604);];;
-
-
+=> nrel_osm_query: [way(25319604);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.900845, 27.566386]  
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.900845;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.566386;;
+						*);;
+				*);;
+			*);;
+		*);;
+	*);;

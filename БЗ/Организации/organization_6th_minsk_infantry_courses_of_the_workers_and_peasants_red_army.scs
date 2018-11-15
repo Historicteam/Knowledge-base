@@ -1,0 +1,31 @@
+organization_6th_minsk_infantry_courses_of_the_workers_and_peasants_red_army
+<- concept_educational_institution;
+<- concept_state_organization;
+=> nrel_main_idtf:
+	[6-е Минские пехотные курсы Рабоче-крестьянской Красной армии]
+	(*
+		<- lang_ru;;
+	*);
+	[6th Minsk Infantry Courses of the Workers' and Peasants' Red Army]
+	(*
+		<- lang_en;;
+	*);
+	[6-е Мінскія пяхотныя курсы Рабоча-сялянскай Чырвонай арміі]
+	(*
+		<- lang_by;;
+	*);
+=> nrel_idtf:
+	[6-е Минские пехотные курсы РККА]
+	(*
+		<- lang_ru;;
+	*);
+	[6th Minsk Infantry Courses of the RKKA]
+	(*
+		<- lang_en;;
+	*);
+	[6-е Мінскія пяхотныя курсы РККА]
+	(*
+		<- lang_by;;
+	*);
+<- begin_date_03_1923;
+<- completion_date_03_1924;;

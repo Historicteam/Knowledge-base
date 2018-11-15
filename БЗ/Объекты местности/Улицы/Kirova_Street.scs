@@ -1,0 +1,13 @@
+Kirova_Street
+=> nrel_main_idtf:
+		[Улица Кирова](* <- lang_ru;; *);
+		[Kirova Street](* <- lang_en;; *);
+			[Вуліца Кірава]
+			(*
+			<- lang_by;;
+			*);
+		<= nrel_subdividing: 
+		{
+		Reiman_gymnasium_building
+		};
+		<-concept_street;; 

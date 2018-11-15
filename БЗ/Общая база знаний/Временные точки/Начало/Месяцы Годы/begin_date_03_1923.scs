@@ -1,0 +1,21 @@
+begin_date_03_1923
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - март 1923]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - march of 1923]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - сакавік 1923]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_month_in_year: [3];;
+   		<- number_of_year: [1923];;
+   	*);;

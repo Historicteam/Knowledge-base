@@ -32,7 +32,7 @@ building_ped
 	[Беларускі дзяржаўны педагагічны універсітэт имя М.Танка] (* <- lang_by;; *);
 
  
-=> concept_square:indepence_square;
+
 <- rrel_key_sc_element:
 	...
 	(*

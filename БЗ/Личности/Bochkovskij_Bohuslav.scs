@@ -1,0 +1,17 @@
+Bochkovskij_Bohuslav
+=>nrel_main_idtf:
+	[Бочковский Богуслав]
+	(*
+		<-lang_ru;;
+	*);
+	[Bochkovskij Bohuslav]
+	(*
+		<-lang_en;;
+	*);
+	[Бачкоўскі Багуслаў]
+	(*
+		<-lang_by;;
+	*);
+<-concept_male;
+=>nrel_first_name:name_Bohuslav;
+=>nrel_surname:surname_Bochkovskij;;

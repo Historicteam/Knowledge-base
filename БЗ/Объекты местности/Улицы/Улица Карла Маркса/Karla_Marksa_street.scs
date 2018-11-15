@@ -1,0 +1,17 @@
+Karla_Marksa_street
+<-concept_street;
+=>nrel_main_idtf:
+	[Улица Карла Маркса]
+	(*
+		<-lang_ru;;
+	*);
+	[Karla Marksa street]
+	(*
+		<-lang_en;;
+	*);
+	[Вуліца Карла Маркса]
+	(*
+		<-lang_by;;
+	*);
+=>nrel_be_founded_in_the_name_of:Karl_Marx;
+<-begin_date_1922;;

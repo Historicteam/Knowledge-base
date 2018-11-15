@@ -1,0 +1,11 @@
+building_of_gym_of_the_minsk_suvorov_military_school_housing_2_7
+<-concept_building;
+=>nrel_main_idtf:
+	[Корпус 2/7 Минского Суворовского военного училища]
+	(*
+		<-lang_ru;;
+	*);
+	[Housing 2/7 of The Minsk Suvorov military school]
+	(*
+		<-lang_enu;;
+	*);;

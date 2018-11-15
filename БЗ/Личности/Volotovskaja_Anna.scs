@@ -1,0 +1,17 @@
+Volotovskaja_Anna
+=>nrel_main_idtf:
+	[Волотовская Анна]
+	(*
+		<-lang_ru;;
+	*);
+	[Volotovskaja Anna]
+	(*
+		<-lang_en;;
+	*);
+	[Валатоўская Ганна]
+	(*
+		<-lang_by;;
+	*);
+<-concept_woman;
+=>nrel_first_name:name_Anna;
+=>nrel_surname:surname_Volotovskaja;;

@@ -1,0 +1,22 @@
+begin_date_18_02_1863
+<-exact_value;
+<-begin;
+=> nrel_main_idtf:
+	[время начала - 18 февраля 1863]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[begin date - 18 february of 1863]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час пачатку - 18 лютага 1863]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [18];;
+   		<- number_of_month_in_year: [2];;
+   		<- number_of_year: [1863];;
+   	*);;
