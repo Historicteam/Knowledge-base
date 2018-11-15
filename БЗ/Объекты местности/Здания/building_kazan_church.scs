@@ -38,8 +38,10 @@ building_kazan_church
 	*);	
 
 <- begin_date_1914;
+<-completion_date_1962;
 
 <- concept_terrain_object;
+<-concept_lost_constructions;
 
 => nrel_material: material_stone;
 <- concept_building;;
@@ -140,3 +142,4 @@ concept_situation->[*organization_railway_church
     <- begin_date_1914;;
     <- completion_date_1922;;
 *);;
+

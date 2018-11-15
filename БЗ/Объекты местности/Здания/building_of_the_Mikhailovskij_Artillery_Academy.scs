@@ -8,4 +8,31 @@ building_of_the_Mikhailovskij_Artillery_Academy
 	[building of the Mikhailovskij Artillery Academy]
 	(*
 		<-lang_en;;
+	*);
+=>nrel_osm_query:[way(6581705)];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [59.95529,30.35258]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 59.95529;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 30.35258;;
+					*);;
+				*);;
+			*);;
+		*);;
 	*);;
+

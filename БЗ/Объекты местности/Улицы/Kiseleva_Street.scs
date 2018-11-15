@@ -1,0 +1,14 @@
+Kiseleva_Street
+	=> nrel_main_idtf:
+		[Улица Киселева](* <- lang_ru;; *);
+		[Kiseleva Street](* <- lang_en;; *);
+			[Вуліца Кісялева]
+			(*
+			<- lang_by;;
+			*);
+	<= nrel_subdividing: 
+	{
+	building_of_The_1st_Minsk_Brewery_Olivariya
+	};
+	<- concept_street;;
+

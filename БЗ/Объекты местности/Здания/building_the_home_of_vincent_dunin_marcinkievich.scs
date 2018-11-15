@@ -11,6 +11,7 @@ building_the_home_of_vincent_dunin_marcinkievich
 <-concept_residential_building;
 <-concept_lost_constructions;
 =>nrel_material:material_wood;
+=> nrel_osm_query:[way(25431860);];
 =>nrel_geographical_location:...
 	(*
 		<-concept_mapped_point;;

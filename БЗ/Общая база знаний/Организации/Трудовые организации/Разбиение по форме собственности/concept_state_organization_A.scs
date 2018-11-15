@@ -59,6 +59,7 @@ concept_state_organization
 -> organization_Nizhny_Novgorod_Male_Gymnasium;
 -> organization_redaction_of_magazine_Vozhyk;
 -> organization_redaction_of_magazine_Polymia;
+-> organization_Museum_of_great_patriotic_war;
 
 <-sc_node_not_relation;
 <-sc_const;;

@@ -44,7 +44,7 @@ Reiman_gymnasium_building
 			*);;
 		*);;
 	*);
-
+=>nrel_osm_query:[way(25434696);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

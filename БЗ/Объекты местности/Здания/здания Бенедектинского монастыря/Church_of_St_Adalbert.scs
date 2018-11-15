@@ -70,7 +70,7 @@ Church_of_St_Adalbert
    => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
+	=> nrel_WGS_84_translation: [53.90157,27.55486]
 		(*
 		-> ...
 			(*
@@ -79,19 +79,20 @@ Church_of_St_Adalbert
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 53.54557;;
+					-> rrel_degree: 53.90157;;
 					*);;
 				*);;
 			->rrel_longitude: ...
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 27.331614;;
+					-> rrel_degree: 27.55486;;
 					*);;
 				*);;
 			*);;
 		*);;
-	*);;
+	*);
+=>nrel_osm_query:[way(35605529);];;
 concept_situation->[Church_of_St_Adalbert<-concept_lost_constructions;;*]
 (*
 	 <- begin_date_1960;;

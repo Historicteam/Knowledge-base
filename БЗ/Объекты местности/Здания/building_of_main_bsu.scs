@@ -3,7 +3,6 @@ building_of_main_bsu
 		[Главный корпус БГУ] (* <- lang_ru;; *);
 		[the main building of the Belarusian State University] (* <- lang_en;; *);
 		[галоўны корпус БДУ] (* <- lang_by;; *);
-=> concept_square:indepence_square;
 <- rrel_key_sc_element:
 	...
 	(*

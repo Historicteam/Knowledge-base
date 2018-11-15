@@ -8,7 +8,9 @@ Krasnoarmiejskaja_street
 			*);
 	<= nrel_subdividing: 
 	{
-	building_Council_of_the_Republic
+	building_Council_of_the_Republic;
+	building_State_Library_named_after_Lenin
+
 	};
 	<- concept_street;;
 
