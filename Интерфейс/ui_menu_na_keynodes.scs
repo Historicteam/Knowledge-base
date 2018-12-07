@@ -1,6 +1,6 @@
 ui_menu_na_keynodes
 <- ui_user_command_class_noatom;
-<= nrel_ui_commands_decomposition:...
+<= nrel_ui_commands_decomposition: decomposition_of_ui_menu_na_keynodes
 	(*
 	->ui_menu_file_for_finding_buildings_by_person;;
 	->ui_menu_file_for_finding_all_buildings_by_architectural_style;;
