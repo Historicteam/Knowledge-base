@@ -1,0 +1,58 @@
+Aleksandrovskij_public_garden
+=> nrel_main_idtf:
+	[Александровский сквер]
+	(*
+	<- lang_ru;;
+	*);
+	[Aleksandrovskij public garden]
+	(*
+	<- lang_en;;
+	*);
+	[Аляксандраўскі сквер]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_public_garden;
+
+=>nrel_be_founded_in_the_name_of:Nevskij_Aleksandr;
+
+=>nrel_be_surrounded_by:Karl_Marks_Street;
+=>nrel_be_surrounded_by:Engelss_Street;
+=>nrel_be_surrounded_by:Krasnoarmiejskaja_street;
+=>nrel_be_surrounded_by:Independence_Avenue;
+
+
+=>nrel_adjacent:Janka_Kupala_Theatre;
+=>nrel_adjacent:Oktjabrskaya_Square;
+=>nrel_adjacent:Building_of_Central_house_of_officers;
+=>nrel_adjacent:Building_of_Residence_of_the_President_of_the_Republic_of_Belarus;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.901509, 27.563080]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.901509;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.563080;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+
+=> nrel_osm_query: [way(5696921);];;

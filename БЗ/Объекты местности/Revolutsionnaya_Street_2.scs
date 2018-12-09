@@ -1,0 +1,5 @@
+Revolutsionnaya_Street_2
+	=> nrel_main_idtf:	[ул. Революционная 2](* <- lang_ru;; *);
+				[вул. Рэвалюцыйная 2] (* <- lang_by;; *);
+				[Revolutsionnaya Street 2](* <- lang_en;; *);
+<-concept_building;;

@@ -1,0 +1,27 @@
+coat_of_arms_Navina
+	=> nrel_main_idtf:
+	[герб "Навіна"]	
+		(*	
+		<- lang_ru;;	
+		*);
+	[coat of arms "Navina"]	
+		(*
+		<- lang_en;;
+		*);
+	[герб "Навіна"]		
+		(*	
+		<- lang_by;;	
+		*);
+	<-concept_emblem;
+	<- rrel_key_sc_element: ...
+		(*
+		<-sc_illustration;;
+		<=nrel_sc_text_translation:
+			...
+			(*
+			->rrel_example: "file://Luckevich_coat_of_arms.gif"
+				(*
+				=> nrel_format: format_jpg;;
+				*);;
+			*);;
+		*);;

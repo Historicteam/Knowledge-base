@@ -1,0 +1,17 @@
+organization_Commissariat_of_agriculture_of_BSSR
+=> nrel_main_idtf:
+	[Наркомат земледелия БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[Commissariat of agriculture of BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[Наркамат земляробства БССР]
+	(*
+	<- lang_by;;
+	*);
+<-concept_organization;
+<-concept_formal_organization;
+<-concept_labour_organization;;

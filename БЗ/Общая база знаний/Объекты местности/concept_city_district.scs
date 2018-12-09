@@ -1,0 +1,35 @@
+concept_city_district
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[район города](* <- lang_ru;; *);
+	[city district](* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- sc_definition;;
+	<= nrel_using_constants:
+		...
+	(* -> concept_city;; *);;
+	=> nrel_main_idtf:[Опр.(район города)](* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:...
+	(*
+		-> [Объект градостроения, представляющий собой часть города, выделенная административно, объединяющая разные виды застройки.](* <- lang_ru;; *);;
+	*);;
+*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Местность, выделяющаяся по каким-н. признакам, особенностям.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

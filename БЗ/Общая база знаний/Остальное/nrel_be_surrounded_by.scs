@@ -1,0 +1,41 @@
+nrel_be_surrounded_by
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[be surrounded by*](* <- lang_en;; *);
+	[быть окружённым*](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:[Опр. (быть окруженным*)](* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:
+	...
+	(*
+		-> rrel_example: [Быть окруженным* — бинарное отношение, связывающее площадь, парк или сквер с улицей, прилегающей к объекту градостроения.](* <- lang_ru;; *);;
+	*);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_square;;
+		-> concept_public_garden;;
+		-> concept_park;;
+		-> concept_street;;
+	*);;
+*);
+
+=> nrel_first_domain:concept_park;
+=> nrel_first_domain:concept_square;
+=> nrel_first_domain:concept_public_garden;
+=> nrel_second_domain:concept_street;
+=> nrel_definitional_domain:...
+(*
+	<= nrel_combination:...
+	(*
+		-> concept_square;;
+		-> concept_public_garden;;
+		-> concept_park;;
+		-> concept_street;;
+	*);;	
+*);;

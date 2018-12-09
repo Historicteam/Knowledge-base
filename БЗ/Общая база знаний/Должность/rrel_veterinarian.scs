@@ -1,0 +1,11 @@
+rrel_veterinarian
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=>nrel_main_idtf:
+	[ветеринар'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[veterinarian'] (* <-lang_en;; *);;	
+
+

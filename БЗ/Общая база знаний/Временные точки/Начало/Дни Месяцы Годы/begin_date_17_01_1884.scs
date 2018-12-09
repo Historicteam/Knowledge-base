@@ -1,0 +1,24 @@
+begin_date_17_01_1884
+=> nrel_main_idtf:
+   [время начала - 17(29) января 1884]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 17(29) January of 1884]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 17(29) студзеня 1884]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [17(29)];;
+   <- number_of_month_in_year: [1];;
+   <- number_of_year: [1884];;
+   *);
+   <- begin_date_01_1884;
+   <- begin_date_1884;;

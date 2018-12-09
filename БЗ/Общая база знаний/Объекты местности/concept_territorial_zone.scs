@@ -1,0 +1,45 @@
+concept_territorial_zone
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[территориальная зона](* <- lang_ru;; *);
+	[territorial zone](* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- sc_definition;;
+	<= nrel_using_constants:
+		...
+	(* -> concept_city;;
+	   ->concept_street;; *);;
+	=> nrel_main_idtf:[Опр.(территориальная зона)](* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:...
+	(*
+		-> [Территориальные зоны – объекты градостроения, представляющие собой условно разграниченные территориальные единицы города, характеризующие историческое развитие и внутреннюю организацию города.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+concept_territorial_zone <= nrel_subdividing:...
+  (*
+	=>nrel_main_idtf:[Разбиение по признаку вида территориальных зон по преимущественному функциональному использованию.](* <-lang_ru;; *);;
+	-> concept_zones_of_urban_development_settlements;;
+	-> concept_areas_for_the_placement_of_horticultural_associations_and_dacha_cooperatives;;
+	-> concept_agricultural_zones;;
+	-> concept_forest_management_zones;;
+	-> concept_nature_protection_and_recreation_zones;;
+	-> concept_special_purpose_zones;;
+	*);;
+
+
+concept_territorial_zone <= nrel_subdividing:...
+  (*
+	=>nrel_main_idtf:[Разбиение по признаку вида территориальных зон по преимущественному функциональному использованию территорий населенных пунктов.](* <-lang_ru;; *);;
+	-> concept_residential_zones;;
+	-> concept_public_and_business_zones;;
+	-> concept_industrial_zones;;
+	-> concept_zones_of_transport_engineering_infrastructure;;
+	-> concept_recreational_zones;;
+	-> concept_agricultural_zones;;
+	-> concept_special_purpose_zones;;
+	*);;
+

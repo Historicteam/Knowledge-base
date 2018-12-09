@@ -1,0 +1,7 @@
+concept_business_quarter
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[деловой квартал](* <- lang_ru;; *);
+	[business quarter](* <- lang_en;; *);
+	[дзелавы квартал](* <- lang_by;; *);;

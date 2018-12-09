@@ -1,0 +1,22 @@
+begin_date_07_1930
+=> nrel_main_idtf:
+   [время начала - июль 1930]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - july of 1930]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - лiпень 1930]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [7];;
+   <- number_of_year: [1930];;
+   *);
+   <- begin_date_1930;;

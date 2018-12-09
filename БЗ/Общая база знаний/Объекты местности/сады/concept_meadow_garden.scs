@@ -1,0 +1,7 @@
+concept_meadow_garden
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[луговой cад](* <- lang_ru;; *);
+	[meadow garden](* <- lang_en;; *);
+	[лугавы сад](* <- lang_by;; *);;

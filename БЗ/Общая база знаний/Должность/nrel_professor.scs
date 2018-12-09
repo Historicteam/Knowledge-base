@@ -1,0 +1,19 @@
+nrel_professor
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[professor*](* <- lang_en;; *);
+	[доцент*](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[Доце́нт — учёное звание преподавателей высших учебных заведений (реже — сотрудников научных учреждений), выполняющих функцию университетских лекторов или другую педагогическую работу сопоставимого уровня; также наименование должности в высших учебных заведениях.] 	
+			(* <- lang_ru;;*);;
+		*);;
+*);;

@@ -1,0 +1,24 @@
+begin_date_03_12_1918
+=> nrel_main_idtf:
+   [время начала - 03 декабря 1918]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 03 december of 1918]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 03 null 1918]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [03];;
+   <- number_of_month_in_year: [12];;
+   <- number_of_year: [1918];;
+   *);
+   <- begin_date_12_1918;
+   <- begin_date_1918;;

@@ -1,0 +1,10 @@
+Action.detention_Luckevich_Anton_Ivanovich_1928
+
+=>nrel_main_idtf:
+	[Действие. арест Луцкевича Антона Ивановича] (* <-lang_ru;; *);
+
+=>nrel_object: Luckevich_Anton_Ivanovich;
+<-begin_date_1928;
+<-completion_date_1928;
+
+<-action.detention;;

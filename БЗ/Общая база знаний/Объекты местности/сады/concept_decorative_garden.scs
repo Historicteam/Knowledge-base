@@ -1,0 +1,7 @@
+concept_decorative_garden
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[декоративный cад](* <- lang_ru;; *);
+	[decorative garden](* <- lang_en;; *);
+	[дэкаратыўны сад](* <- lang_by;; *);;

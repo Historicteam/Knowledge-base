@@ -1,0 +1,9 @@
+concept_regular_park
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[регулярный парк](* <- lang_ru;; *);
+	[regular park](* <- lang_en;; *);
+=> nrel_idtf:
+	[францу́зский парк](* <- lang_ru;; *);
+	[геометри́ческий парк](* <- lang_ru;; *);;

@@ -1,0 +1,40 @@
+1st_BNR_Statutory_Charter
+
+<-sc_const;
+<-concept_document;
+
+=> nrel_main_idtf:
+  [1-ая Уставная грамота БНР](* <- lang_ru;; *);
+  [The 1th BNR Statutory Charter](* <- lang_en;; *);
+  [1-ая Устаўная грамата БНР](* <- lang_by;; *);
+
+<-begin_date_21_02_1918;
+
+<-Founding_documents_of_BNR;
+<=nrel_publisher: organization_Greenbelt_printing_house;
+
+<- rrel_key_sc_element:
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [В день захвата Минска немцами, 21 февраля 1918 г., Исполком Рады Всебелорусского съезда обратился к народу Беларуси с 1-й Уставной грамотой, в которой объявил себя властью в крае. Исполнительным органом, правительством стал Народный секретариат во главе с И. Я. Воронко.]
+        (* <- lang_ru;; *);;
+      *);;
+    *);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://BNR_First_charter.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

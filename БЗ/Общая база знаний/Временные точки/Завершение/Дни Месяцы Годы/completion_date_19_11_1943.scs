@@ -1,0 +1,24 @@
+completion_date_19_11_1943
+=> nrel_main_idtf:
+   [время завершения - 19 ноября 1943]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 19 november of 1943]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 19 лістапада 1943]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [19];;
+   <- number_of_month_in_year: [11];;
+   <- number_of_year: [1943];;
+   *);
+   <- completion_date_11_1943;
+   <- completion_date_1943;;

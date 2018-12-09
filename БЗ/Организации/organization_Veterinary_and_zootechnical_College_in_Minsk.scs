@@ -1,0 +1,16 @@
+organization_Veterinary_and_zootechnical_College_in_Minsk
+=> nrel_main_idtf:
+	[Минский ветеринарно-зоотехнический техникум]
+	(*
+	<- lang_ru;;
+	*);
+	[Veterinary and zootechnical College in Minsk]
+	(*
+	<- lang_en;;
+	*);
+	[Мінскі ветэрынарна-заатэхнічны тэхнікум]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_educational_institution;;

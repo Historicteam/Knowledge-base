@@ -1,0 +1,15 @@
+Janka_Kupala_Theatre
+=> nrel_main_idtf:
+	[Театр имени Янки Купалы]
+	(*
+	<- lang_ru;;
+	*);
+	[Janka Kupala Theatre]
+	(*
+	<- lang_en;;
+	*);
+	[Тэатр имя Янкі Купалы]
+	(*
+	<- lang_by;;
+	*)
+;;

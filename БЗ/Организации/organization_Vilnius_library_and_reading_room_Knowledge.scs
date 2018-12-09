@@ -1,0 +1,10 @@
+organization_Vilnius_library_and_reading_room_Knowledge
+=> nrel_main_idtf:
+		[Вильнюсская библиотека-читальня «Знание»] (* <- lang_ru;; *);
+		[The Vilnius library and reading room "Knowledge»] (* <- lang_en;; *);
+		[Віленская бібліятэка-чытальня «Веды»] (* <- lang_by;; *);
+
+<-concept_library;
+<-concept_cultural_organization;
+<-concept_educational_institution;
+<-concept_formal_organization;;

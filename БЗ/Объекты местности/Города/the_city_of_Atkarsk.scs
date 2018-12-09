@@ -1,0 +1,39 @@
+the_city_of_Atkarsk
+<-sc_const;
+=> nrel_main_idtf:
+	[Аткарск]
+	(*
+	<- lang_ru;;
+	*);
+	[Atkarsk]
+	(*
+	<- lang_en;;
+	*);
+
+<-concept_city;
+=> nrel_osm_query: [way(284359408);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [51.873632, 45.000296]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 51.873632;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 45.000296;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

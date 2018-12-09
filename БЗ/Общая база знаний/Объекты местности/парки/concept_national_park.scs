@@ -1,0 +1,7 @@
+concept_national_park
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[национальный парк](* <- lang_ru;; *);
+	[national park](* <- lang_en;; *);
+	[нацыянальны парк](* <- lang_by;; *);;

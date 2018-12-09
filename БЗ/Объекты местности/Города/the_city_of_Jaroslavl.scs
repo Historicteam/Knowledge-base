@@ -1,0 +1,13 @@
+the_city_of_Jaroslavl
+<-sc_const;
+=> nrel_main_idtf:
+	[Ярославль]
+	(*
+	<- lang_ru;;
+	*);
+	[Jaroslavl']
+	(*
+	<- lang_en;;
+	*);
+
+<-concept_city;;

@@ -1,0 +1,45 @@
+monument_in_honor_of_brothers_Luckevich
+=> nrel_main_idtf:
+	[Памятник братьям Луцкевичам]
+	(*
+	<- lang_ru;;
+	*);
+	[The Statue of brothers Luckevich]
+	(*
+	<- lang_en;;
+	*);
+	[Помнік братам Луцкевічам]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_monument;
+
+=>nrel_be_founded_in_the_name_of:Luckevich_Anton_Ivanovich;
+=>nrel_be_founded_in_the_name_of:Luckievich_Ivan_Ivanovich;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.906980, 27.564806]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.906980;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.564806;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

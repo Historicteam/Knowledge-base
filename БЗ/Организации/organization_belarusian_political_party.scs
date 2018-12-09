@@ -1,0 +1,8 @@
+organization_belarusian_political_party
+=>nrel_main_idtf:
+	[Белорусская политическая партия] (* <-lang_ru;; *);
+	[Belarusian political party] (* <-lang_en;; *);
+	[Беларуская палітычная партыя] (* <-lang_by;; *);
+<- concept_organization;
+<-concept_political_party;;
+	

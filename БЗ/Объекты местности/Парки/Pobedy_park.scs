@@ -1,0 +1,44 @@
+Pobedy_park
+=> nrel_main_idtf:
+	[парк Победы]
+	(*
+	<- lang_ru;;
+	*);
+	[Pobedy park]
+	(*
+	<- lang_en;;
+	*);
+	[парк Перамогі]
+	(*
+	<- lang_by;;
+	*);
+<-concept_park;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.922793, 27.537118]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.922793;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.537118;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+
+=> nrel_osm_query: [way(99881325);];;

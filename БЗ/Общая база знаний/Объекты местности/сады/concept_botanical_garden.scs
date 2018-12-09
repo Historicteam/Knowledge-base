@@ -1,0 +1,9 @@
+concept_botanical_garden
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[ботанический cад](* <- lang_ru;; *);
+	[botanical garden](* <- lang_en;; *);
+	[батанічны сад](* <- lang_by;; *);
+
+-> Botanical_garden;;

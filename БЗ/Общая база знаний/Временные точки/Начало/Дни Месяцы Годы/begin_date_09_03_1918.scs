@@ -1,0 +1,24 @@
+begin_date_09_03_1918
+=> nrel_main_idtf:
+   [время начала - 9 марта 1918]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 9 march of 1918]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 9 сакавiка 1918]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [9];;
+   <- number_of_month_in_year: [3];;
+   <- number_of_year: [1918];;
+   *);
+   <- begin_date_03_1918;
+   <- begin_date_1918;;

@@ -1,0 +1,7 @@
+Engelss_Street
+=> nrel_main_idtf:
+	[Улица Энгельса](* <- lang_ru;; *);
+	[Engels's Street](* <- lang_en;; *);
+	[Вуліца Энгельса](* <- lang_by;; *);
+	
+<- concept_street;;

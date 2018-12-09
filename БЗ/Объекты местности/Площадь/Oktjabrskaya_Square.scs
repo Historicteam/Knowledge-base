@@ -1,0 +1,57 @@
+Oktjabrskaya_Square
+
+<- concept_square;
+
+=> nrel_main_idtf:
+	[Октябрьская площадь]
+	(*
+	<- lang_ru;;
+	*);
+	[Oktjabrskaya Square]
+	(*
+	<- lang_en;;
+	*);
+	[Кастрычніцкая плошча]
+	(*
+	<- lang_by;;
+	*);
+
+=>nrel_be_surrounded_by:Engelss_Street;
+=>nrel_be_surrounded_by:Independence_Avenue;
+=>nrel_be_surrounded_by:International_Street;
+
+<= nrel_subdividing:
+	{
+		Aleksandrovskij_public_garden;
+		Building_of_Republic_palace;
+		Building_of_Palace_of_culture_of_trade_unions
+	};
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.902510, 27.561417]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.902510;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.561417;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+
+=> nrel_osm_query: [way(28226989);];;

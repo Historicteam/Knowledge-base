@@ -1,0 +1,10 @@
+Action.internation_Luckevich_Anton_Ivanovich
+
+=>nrel_main_idtf:
+	[Действие. интернация Луцкевича Антона Ивановича] (* <-lang_ru;; *);
+
+=>nrel_object: Luckevich_Anton_Ivanovich;
+<- begin_date_09_1919;
+<- completion_date_11_1919;
+=>nrel_location: Warsaw;
+<-action.intern;;
