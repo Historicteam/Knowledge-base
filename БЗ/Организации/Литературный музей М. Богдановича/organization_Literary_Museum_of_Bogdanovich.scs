@@ -64,20 +64,3 @@ concept_situation->[*organization_Literary_Museum_of_Bogdanovich => nrel_locatio
 	<- begin_date_19_09_1980;;
 	<- completion_date_01_04_2014;;
 *);;
-
-house_7a_Bogdanovich_street
-=> nrel_main_idtf:
-		[улица М.Богдановича дом 7a]
-		(*
-		<- lang_ru;;
-		*);
-		[Bogdanovich Street, 7A]
-		(*
-		<- lang_en;;
-		*);
-		[вуліца М.Багдановіча дом 7a]
-		(*
-		<- lang_by;;
-		*);
-		<-concept_building;;
-	

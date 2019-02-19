@@ -4,4 +4,5 @@ organization_Minsk_revolutionary_organization
 	[Минская революционная организация] (* <- lang_ru;; *);
 	[Minsk revolutionary organization] (* <- lang_en;; *);
 	[Мінская рэвалюцыйная арганізацыя] (* <- lang_by;; *);
+<- begin_date_1861;
 <-concept_organization;;

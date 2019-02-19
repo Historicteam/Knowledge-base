@@ -38,6 +38,9 @@ Zagorskaya_house_building
 	(*
 	<- lang_by;;
 	*);
+
+<- begin_date_1894;
+
 <- rrel_key_sc_element: Explanation_Zagorskaya_house_building
 	
 	(*

@@ -19,6 +19,8 @@ Church_of_St_Adalbert
 <- begin_date_1647;
         <- completion_date_1944;
 
+<- concept_lost_constructions;
+
 
 <= nrel_temporal_decomposition: 
     {

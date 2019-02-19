@@ -14,4 +14,5 @@ Minsk_Municipal_Shelter_Building
   *);
 <-concept_building;
 <-completion_date_01_03_1919;
-<-concept_terrain_object;;
+<-concept_terrain_object;
+<- concept_lost_constructions;;

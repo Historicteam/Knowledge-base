@@ -14,6 +14,14 @@ building_of_residential_housing_of_female_Bernardine_monastery
 	<- lang_by;;
 	*);
 
+  => nrel_start_time: ...
+   
+            (*
+                <- begin_date_1642;;
+          
+                <- completion_date_1687;;
+            *);
+
 <= nrel_temporal_decomposition: 
     {
         Residential_housing_of_female_Bernardine_monastery

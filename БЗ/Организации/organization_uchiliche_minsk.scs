@@ -3,6 +3,8 @@ organization_uchiliche_minsk=> nrel_main_idtf:
 				[First town school in Minsk] (* <- lang_en;; *);
 				[Першы горад школы ў Мінску] (* <- lang_by;; *);
 
+<- begin_date_1872;
+<- completion_date_1912;
 <- concept_organization;;
 
 

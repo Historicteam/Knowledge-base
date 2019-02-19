@@ -1,0 +1,27 @@
+ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street <- ui_user_command_class_atom; 
+ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => nrel_main_idtf: 
+	[Найти все сохранившиеся здания на заданной улице]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => nrel_main_idtf: 
+	[Search agent of finding all existing till now buildings on the street]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => ui_nrel_command_template:
+	[*
+		question_of_finding_all_existing_till_now_buildings_on_the_street _-> ._question_of_finding_all_existing_till_now_buildings_on_the_street_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_finding_all_existing_till_now_buildings_on_the_street_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => ui_nrel_command_lang_template: 
+	[Запрос поиска всех сохранившихся зданий на заданной улице: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => ui_nrel_command_lang_template: 
+	[Request of finding all existing till now buildings on the street: $ui_arg_1] 
+	(* <- lang_en;; *);;

@@ -4,5 +4,7 @@ organization_pozemelni_bank_of_yaroslavl
 				[Land Bank in Yaroslavl]	 (* <- lang_en;; *);
 				[Пазямельнага банку ў Яраслаўлі] (* <- lang_by;; *);
 
+<- begin_date_1862;
+<- completion_date_1918;
 <- concept_organization;;
 

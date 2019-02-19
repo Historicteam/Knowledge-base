@@ -51,6 +51,7 @@ Maryinskaya_girls_gymnasium_building
 	(*
 	<- lang_by;;
 	*);
+<- begin_date_1899;
 rrel_key_sc_element: Explanation_Maryinskaya_girls_gymnasium_building
 	
 	(*
