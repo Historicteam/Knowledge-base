@@ -612,23 +612,6 @@ surname_Kondratovich
 <-concept_surname
 ;;
 
-surname_Kondratovich
-=> nrel_main_idtf:
-	[Кондратович]
-	(*
-	<- lang_ru;;
-	*);
-	[Kondratovich]
-	(*
-	<- lang_en;;
-	*);
-	[Кандратовіч]
-	(*
-	<- lang_by;;
-		*);		
-<-concept_surname
-;;
-
 surname_Trubetskoy
 => nrel_main_idtf:
 	[Трубецкой]
@@ -965,4 +948,3 @@ surname_Osipovich
 		<-lang_by;;
 	*);
 <-concept_surname;;
-
