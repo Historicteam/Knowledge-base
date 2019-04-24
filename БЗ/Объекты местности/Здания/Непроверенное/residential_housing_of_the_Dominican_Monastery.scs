@@ -1,5 +1,5 @@
 building_of_residential_housing_of_the_Dominican_Monastery
-<- concept_building;
+<- concept_non_profit_residental_building;
 => nrel_main_idtf:
 	[Здание жилого корпуса монастыря доминиканцев] (* <- lang_ru;; *);
 	[Building of residential housing of the Dominican Monastery] (* <- lang_en;; *);

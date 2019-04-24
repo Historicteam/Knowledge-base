@@ -13,7 +13,7 @@ building_State_Library_named_after_Lenin
 		<- lang_by;;
 		*);
 
-<-concept_building;
+<-concept_cultural_building;
 <-concept_library;
 
 <- rrel_key_sc_element: ...

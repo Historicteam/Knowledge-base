@@ -1,25 +1,29 @@
 concept_authentic_constructions
-<- sc_node_not_relation;
+<-sc_const;
+<-sc_node_not_relation;
 => nrel_main_idtf:
-	[Аутентичное строение]
-	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятие аутентичного строения]
-	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_authentic_construction
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [ Строение, которое не является копией другого строения, проект задумывался только для этого строения. ] (* <-lang_ru;; *);;
-		*);;
-	<= nrel_using_constants:
-		...
-		(* 
-		-> 	concept_construction;;
+	
+	[аутентичное строение](*<- lang_ru;;*);
+	[authentic construction](*<- lang_en;;*);
+        [аўтэнтычнае збудаванне](*<- lang_by;;*);
 
-		*);;
-	*);;
-
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Authentic construction is a consrtuction which is not a copy of another building, the project was conceived only for this building.]
+    (*
+    <- lang_en;;
+    *);
+  [Аутентичное строение - строение, которое не является копией другого строения, проект задумывался только для этого строения.]
+    (*
+     <-lang_ru;;
+    *);
+  [Аўтэнтычнае збудаванне - збудаванне, якое не з'яўляецца копіяй іншага збудавання, праект задумваўся толькі для гэтага збудавання.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

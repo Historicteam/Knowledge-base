@@ -28,6 +28,7 @@ building_of_Bernardine_Church
 	*);
 
 <-concept_building;
+<-concept_catholic_temple;
 <-concept_terrain_object;
 
 <- rrel_key_sc_element: ...

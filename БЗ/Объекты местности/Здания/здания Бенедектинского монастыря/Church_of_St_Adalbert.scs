@@ -13,7 +13,7 @@ Church_of_St_Adalbert
 	<- lang_by;;
 	*);
 	
-<-concept_building;
+<-concept_catholic_temple;
 <-concept_terrain_object;
 
 <- begin_date_1647;

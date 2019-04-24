@@ -67,5 +67,5 @@ building_of_school_for_blind
 			*);;
 		*);;
 	*);
-<-concept_building;
+<-concept_educational_building;
 <-concept_educational_institution;;

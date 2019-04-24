@@ -13,7 +13,7 @@ Residential_complex
 	<- lang_by;;
 	*);
 	
-<-concept_building;
+<-concept_non_profit_residental_building;
 <-concept_terrain_object;
 
 	

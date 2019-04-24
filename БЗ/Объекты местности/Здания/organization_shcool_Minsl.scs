@@ -5,4 +5,4 @@ organization_shcool_Minsl
 				[Minsk school] (* <- lang_en;; *);
 				[Мінская школа] (* <- lang_by;; *);
 
-<- concept_building;;
+<- concept_educational_building;;

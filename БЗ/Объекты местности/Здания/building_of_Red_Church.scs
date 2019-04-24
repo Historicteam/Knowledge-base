@@ -70,7 +70,7 @@ building_of_Red_Church
 			*);;
 		*);;
 	*);
-<-concept_building;;
+<-concept_catholic_temple;;
 concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
 (*
     <- begin_date_1908;;

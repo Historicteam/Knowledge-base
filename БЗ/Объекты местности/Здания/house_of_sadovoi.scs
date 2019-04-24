@@ -5,4 +5,4 @@ house_of_sadovoi
 				[House on Sadovaya] (* <- lang_en;; *);
 				[Дом на Садовай] (* <- lang_by;; *);
 
-<- concept_building;;
+<- concept_non_profit_residental_building;;

@@ -1,5 +1,5 @@
 The_hotel_Europe
-<- concept_building;
+<- concept_concept_commercial_residental_building;
 => nrel_main_idtf:
 	[Здание гостиницы "Европа"] (* <- lang_ru;; *);
 	[The hotel Europe] (* <- lang_en;; *);

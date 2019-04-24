@@ -37,9 +37,26 @@ concept_building
 			*);;
 		*);;
 	*);
-=>nrel_subdividing:
-...
-(*
-->concept_civil;
-concept_production_building;;
-*);;
+<= nrel_subdividing:
+subdividing_of_building
+	(*
+		=> nrel_main_idtf:
+			[разбиение здания по назначению]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of building for its intended purpose]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё будынка па прызначэнні]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_industrial_building;;
+        ->concept_residental_building;;
+        ->concept_public_building;;
+        ->concept_government_building;;
+        ->concept_religious_building;;
+	*);;
+
