@@ -13,6 +13,7 @@ Moniuszkos_House
     <- lang_en;;
   *);
 <-concept_building;
+<-concept_non_profit_residental_building;
 <-concept_terrain_object;
 <- rrel_key_sc_element: ...
 	(*

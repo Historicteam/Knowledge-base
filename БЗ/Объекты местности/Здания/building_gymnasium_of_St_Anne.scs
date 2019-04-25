@@ -38,4 +38,5 @@ building_Gymnasium_of_St_Anne
 			*);;
 		*);;
 	*);
+<-concept_educational_building;
 <-concept_building;;

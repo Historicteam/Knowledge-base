@@ -3,4 +3,6 @@ Building_of_Republic_palace
 	[Здание дворца республики](* <- lang_ru;; *);
 	[Republic palace](* <- lang_en;; *);
 	
+
+<- concept_cultural_building;
 <- concept_building;;

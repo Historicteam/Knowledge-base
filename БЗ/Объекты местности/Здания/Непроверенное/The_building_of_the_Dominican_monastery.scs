@@ -1,5 +1,6 @@
 the_building_of_the_Dominican_monastery
 <- concept_building;
+<- concept_catholic_temple;
 <- concept_terrain_object;
 
 => nrel_main_idtf:
