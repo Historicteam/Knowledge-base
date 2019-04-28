@@ -1,6 +1,7 @@
 the_Dominican_monastery_stable
 
-<- concept_building;
+<- concept_structure;
+<- concept_stable;
 => nrel_main_idtf:
 	[конюшня доминиканского монастыря] (* <- lang_ru;; *);
 	[the Dominican monastery stable] (* <- lang_en;; *);

@@ -34,6 +34,8 @@ Malinins_house
   *);
 
 <- concept_building;
+<- concept_non_profit_residental_building;
+
 => nrel_geographical_location: ...
   (*
   <-concept_mapped_point;;

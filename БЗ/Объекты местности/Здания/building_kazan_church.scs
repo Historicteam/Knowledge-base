@@ -42,6 +42,7 @@ building_kazan_church
 
 <- concept_terrain_object;
 <-concept_lost_constructions;
+<-concept_building;
 
 => nrel_material: material_stone;
 <- concept_orthodox_temple;;

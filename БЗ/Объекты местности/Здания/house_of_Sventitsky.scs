@@ -54,6 +54,7 @@ house_of_Sventitsky
                         *);;
     *);;
   *);
+<- concept_building;
 <- concept_commercial_residental_building;
 
 => nrel_geographical_location: ...

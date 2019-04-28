@@ -1,6 +1,7 @@
 Warsaw_Music_Institute_Building <- ... (*
 	=> nrel_subdividing: Warsaw;;
 *);
+<- concept_building;
 <- concept_educational_building;;
 Warsaw_Music_Institute_Building
 => nrel_main_idtf:

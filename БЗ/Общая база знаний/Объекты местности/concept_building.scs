@@ -56,7 +56,6 @@ subdividing_of_building
 	->concept_industrial_building;;
         ->concept_residental_building;;
         ->concept_public_building;;
-        ->concept_government_building;;
         ->concept_religious_building;;
 	*);;
 

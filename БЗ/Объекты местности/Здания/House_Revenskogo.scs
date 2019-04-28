@@ -12,4 +12,5 @@ House_Revenskogo
 		(*
 		<- lang_by;;
 		*);
+		<-concept_educational_building;
 		<-concept_building;;
