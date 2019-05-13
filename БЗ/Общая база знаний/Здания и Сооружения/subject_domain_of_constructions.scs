@@ -8,7 +8,7 @@ subject_domain_of_constructions
 
 => nrel_primary_elements_class_private_subject_domain: 
     subject_domain_of_buildings; 
-    subject_domain_of_structures;
+    subject_domain_of_facilities;
 
 -> rrel_maximum_studied_object_class:
     concept_construction;
@@ -16,7 +16,7 @@ subject_domain_of_constructions
 -> rrel_not_maximum_studied_object_class:
     concept_building;
     concept_structure;
-    concept_complex_of_buildings;
+    concept_complex_of_constructions;
 
 concept_fortification_structure;
 concept_small_architectural_form;

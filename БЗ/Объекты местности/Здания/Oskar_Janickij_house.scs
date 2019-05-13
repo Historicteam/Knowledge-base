@@ -38,6 +38,7 @@ Oskar_Janickij_house
 	(*
 	<- lang_by;;
 	*);
+<=nrel_whole_part:Sovetskaya_Street;
 <- rrel_key_sc_element: Explanation_Oskar_Janickij_house
 	
 	(*

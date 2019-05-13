@@ -72,6 +72,7 @@ Male_Basilian_Monastery_Building
 	<- lang_by;;
 	*);
 
+<=nrel_whole_part:Freedom_Square;
 <- rrel_key_sc_element: 
 	...
 	(*

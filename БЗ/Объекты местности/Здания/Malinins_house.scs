@@ -12,7 +12,7 @@ Malinins_house
   (*
   <- lang_by;;
     *);
-
+<=nrel_whole_part:Volodarsky_Street;
 <- rrel_key_sc_element:
   ...
   (*

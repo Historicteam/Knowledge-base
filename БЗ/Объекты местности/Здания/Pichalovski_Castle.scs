@@ -14,7 +14,8 @@ Pichalovski_Castle
 	*);
 <- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
 <-concept_prison;
-<-concept_complex_of_buildings;
+<-concept_complex_of_constructions;
+<-concept_manor_complex;
 
 <-concept_terrain_object;
 =>nrel_osm_query:[way(1369825004);];

@@ -15,6 +15,7 @@ Moniuszkos_House
 <-concept_building;
 <-concept_non_profit_residental_building;
 <-concept_terrain_object;
+<=nrel_whole_part:International_Street;
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;

@@ -12,9 +12,5 @@ Kullmans_Street
 			(*
 			<- lang_by;;
 			*);
-		<= nrel_subdividing:
-		{
-			house_15_Kullmans_Street
-		};
 		<-concept_street;;
 

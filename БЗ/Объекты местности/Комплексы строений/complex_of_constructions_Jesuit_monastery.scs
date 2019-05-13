@@ -1,5 +1,6 @@
 complex_of_constructions_Jesuit_monastery
-<-concept_complex_of_buildings;
+<-concept_complex_of_constructions;
+<-concept_complex_of_monastery_buildings;
 => nrel_main_idtf:
 	[Комплекс строений Иезуитского монастыря]
 	(*
