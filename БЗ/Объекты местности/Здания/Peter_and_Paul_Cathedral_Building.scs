@@ -134,7 +134,7 @@ Peter_and_Paul_Cathedral_Building
 	<-sc_illustration;;
 	<=nrel_sc_text_translation:
 		...
-		(*
+		(*Engelss_Street
 		->rrel_example: "file://content/Holy_Sp_1.jpg"
 			(*
 			=> nrel_format: format_jpg;;
