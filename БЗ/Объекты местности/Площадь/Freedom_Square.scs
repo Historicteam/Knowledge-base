@@ -146,7 +146,7 @@ Freedom_Square
 		(*
 		<- lang_by;;
 		*);;
-	<- sc_statement;;
+	<-sc_definition;;
 	<= nrel_sc_text_translation:
 		...
 		(*

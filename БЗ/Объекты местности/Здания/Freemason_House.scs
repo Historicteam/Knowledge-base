@@ -78,6 +78,7 @@ Freemason_House
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

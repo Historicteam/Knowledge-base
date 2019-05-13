@@ -15,6 +15,7 @@ Pole_house
 		[Выява дома Поляка] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation:
 		... (*
 		-> rrel_example: "file://contents//Дом Поляка.jpg" (*

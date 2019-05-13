@@ -11,7 +11,8 @@ The_building_of_the_Minsk_City_Theatre
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -43,6 +44,7 @@ The_building_of_the_Minsk_City_Theatre
 <- rrel_key_sc_element: ... (*
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Здание минского городского театра.jpg" (*

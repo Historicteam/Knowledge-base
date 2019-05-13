@@ -17,9 +17,12 @@ Warsaw_Music_Institute_Building
 	<- lang_by;;
 	*);
 
+<- begin_date_1810;
+
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

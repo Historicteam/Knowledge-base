@@ -14,6 +14,14 @@ building_of_residential_housing_of_female_Bernardine_monastery
 	<- lang_by;;
 	*);
 
+  => nrel_start_time: ...
+   
+            (*
+                <- begin_date_1642;;
+          
+                <- completion_date_1687;;
+            *);
+
 <= nrel_temporal_decomposition: 
     {
         Residential_housing_of_female_Bernardine_monastery
@@ -91,8 +99,9 @@ building_of_residential_housing_of_female_Bernardine_monastery
     
 <- rrel_key_sc_element: ...
     (*
-    <-sc_illustration;;
-    <=nrel_sc_text_translation:
+	<-sc_illustration;;
+	<-key_image;;
+	<=nrel_sc_text_translation:
             ...
             (*
             ->rrel_example: "file://content/bernki_corpus.jpg"

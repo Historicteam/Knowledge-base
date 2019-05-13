@@ -16,21 +16,22 @@ Malinins_house
 <- rrel_key_sc_element:
   ...
   (*
-  <-sc_definition;;
-  <=nrel_sc_text_translation:
-    ...
-    (*
-    -> rrel_example:
-      [Жилой дом на Володарского 9 был возведен в конце XIX – начале XX веков. Это яркий пример гражданской архитектуры.]
-      (*
-      <- lang_ru;;
-      *);;
-    -> rrel_example:
-      [Жылы дом на Валадарскага 9 быў узведзены ў канцы XIX - пачатку XX стагоддзяў. Гэта яскравы прыклад грамадзянскай архітэктуры.]
-      (*
-      <- lang_ru;;
-      *);;
-    *);;
+	<-sc_explanation;;
+	<-key_explanation;;
+	<=nrel_sc_text_translation:
+	...
+	(*
+	    -> rrel_example:
+	      [Жилой дом на Володарского 9 был возведен в конце XIX – начале XX веков. Это яркий пример гражданской архитектуры.]
+	      (*
+	      <- lang_ru;;
+	      *);;
+	    -> rrel_example:
+	      [Жылы дом на Валадарскага 9 быў узведзены ў канцы XIX - пачатку XX стагоддзяў. Гэта яскравы прыклад грамадзянскай архітэктуры.]
+	      (*
+	      <- lang_ru;;
+	      *);;
+	    *);;
   *);
 
 <- concept_building;
@@ -62,8 +63,9 @@ Malinins_house
 
 <- rrel_key_sc_element: ...
   (*
-  <-sc_illustration;;
-  <=nrel_sc_text_translation:
+	<-sc_illustration;;
+	<-key_image;;
+	<=nrel_sc_text_translation:
     ...
     (*
     ->rrel_example: "file://content/Volodarskogo9.jpg"

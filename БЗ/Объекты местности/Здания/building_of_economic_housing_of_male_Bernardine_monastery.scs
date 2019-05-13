@@ -98,8 +98,9 @@ building_of_economic_housing_of_male_Bernardine_monastery
 	(*
 	<- lang_by;;
 	*);;
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
+	<- sc_illustration;;
+	<-key_image;;
+	<= nrel_sc_text_translation: ... 
     (*
         ->rrel_example: "file://content/хозяйственный корпус монастыря бернадринцев.jpg" 
         (*

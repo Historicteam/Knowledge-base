@@ -1,8 +1,6 @@
-
 organization_shcool_Minsl
-			=> nrel_main_idtf:
-				[Минская школа] 											 (* <- lang_ru;; *);
-				[Minsk school] (* <- lang_en;; *);
-				[Мінская школа] (* <- lang_by;; *);
-
+	=> nrel_main_idtf:
+		[Минская школа] (* <- lang_ru;; *);
+		[Minsk school] (* <- lang_en;; *);
+		[Мінская школа] (* <- lang_by;; *);
 <- concept_building;;

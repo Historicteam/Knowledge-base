@@ -13,12 +13,14 @@ Verzhbovskaya_house <- rrel_key_sc_element: Illustration_Verzhbovskaya_house
 		(* 
 		<- lang_by;;
 		 *);;
-	<-sc_illustration;;
-	<=nrel_sc_text_translation:
-		...
+
+<-sc_illustration;;
+<-key_image;;
+<=nrel_sc_text_translation:
+	...
+	(*
+	->rrel_example: "file://content/Verzhbovskaya.jpg"
 		(*
-		->rrel_example: "file://content/Verzhbovskaya.jpg"
-			(*
 			=> nrel_format: format_jpg;;
 			*);;
 		*);;

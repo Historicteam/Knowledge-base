@@ -20,12 +20,9 @@ Oktjabrskaya_Square
 =>nrel_be_surrounded_by:Independence_Avenue;
 =>nrel_be_surrounded_by:International_Street;
 
-<= nrel_subdividing:
-	{
-		Aleksandrovskij_public_garden;
-		Building_of_Republic_palace;
-		Building_of_Palace_of_culture_of_trade_unions
-	};
+<= nrel_whole_part: Aleksandrovskij_public_garden;
+<= nrel_whole_part: Building_of_Republic_palace;
+<= nrel_whole_part: Building_of_Palace_of_culture_of_trade_unions;
 
 => nrel_geographical_location: ...
 	(*

@@ -13,6 +13,7 @@ building_of_the_church_of_St_Joseph
 		[Выява касцёла святога Язэпа] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Костел св. Иосифа.jpg" (*

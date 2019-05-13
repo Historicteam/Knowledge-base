@@ -38,6 +38,9 @@ Zagorskaya_house_building
 	(*
 	<- lang_by;;
 	*);
+
+<- begin_date_1894;
+
 <- rrel_key_sc_element: Explanation_Zagorskaya_house_building
 	
 	(*
@@ -120,6 +123,7 @@ Zagorskaya_house_building <= nrel_location: organization_Minsk_society_of_argicu
 Zagorskaya_house_building <= nrel_location: organization_dairy_store_in_Zagorskaya_house;;
 Zagorskaya_house_building <= nrel_location: organization_Minsk_agricultural_mutual_insurance_society;;
 Zagorskaya_house_building <= nrel_temporal_decomposition: Czapsky_house;;
+
 concept_situation->[*^"file://Illustration_Zagorskaya_house_building1.scsi"*]
 (*
 	<- begin_date_1888;;

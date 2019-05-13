@@ -12,6 +12,7 @@ The_hotel_Europe
 		[Выява будынка гасцініцы "Еўропа"] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Отель Европа.jpg" (*

@@ -1,0 +1,203 @@
+agent_of_finding_intersection_of_two_sets
+=> nrel_main_idtf:
+	[агентная scp-программа поиска пересечения двух множеств] (* <- lang_ru;; *);
+	[agent scp-program of finding intersection of two sets] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_finding_intersection_of_two_sets 
+	(*
+	-> rrel_params: .agent_of_finding_intersection_of_two_sets_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_intersection_of_two_sets_operator_set 
+		(*
+		-> rrel_init: .agent_of_finding_intersection_of_two_sets_operator1A 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		  	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+		  	=> nrel_goto: .agent_of_finding_intersection_of_two_sets_operator1B;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_operator1B
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_intersection_of_two_sets;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+		  	=> nrel_then: .agent_of_finding_intersection_of_two_sets_operator1C_1;;
+		  	=> nrel_else: .agent_of_finding_intersection_of_two_sets_operator_return;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_operator1C_1
+			(*
+			<- searchElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param1_set_one;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+
+			=> nrel_then: .agent_of_finding_intersection_of_two_sets_operator1C_2;;
+			=> nrel_else: .agent_of_finding_intersection_of_two_sets_operator_return;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_operator1C_2
+			(*
+			<- searchElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param2_set_two;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+
+			=> nrel_then: .agent_of_finding_intersection_of_two_sets_operator1D;;
+			=> nrel_else: .agent_of_finding_intersection_of_two_sets_operator_return;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_operator1D 
+			(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer_finding_intersection_of_two_sets;;
+
+			=> nrel_goto: .agent_of_finding_intersection_of_two_sets_operator1E;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_operator1E
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param1_set_one;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _set_one_found_elem;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _set_of_found_elems_of_set_one;;
+
+		 	=> nrel_goto: .agent_of_finding_intersection_of_two_sets_operator1F;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_operator1F
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _param2_set_two;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _set_two_found_elem;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _set_of_found_elems_of_set_two;;
+
+		 	=> nrel_goto: .agent_of_finding_intersection_of_two_sets_search_lost_operator1A;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_search_lost_operator1A 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_elems_of_set_two;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _set_of_found_elems_of_set_two_elem;;
+
+		  	=> nrel_then: .agent_of_finding_intersection_of_two_sets_search_lost_operator1B;;
+		  	=> nrel_else: .agent_of_finding_intersection_of_two_sets__gen_answer1;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_search_lost_operator1B
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_intersection_of_two_sets_search_lost_operator1C;;
+		 	*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_search_lost_operator1C 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_elems_of_set_one;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _set_of_found_elems_of_set_two_elem;;
+
+		  	=> nrel_then: .agent_of_finding_intersection_of_two_sets_gen_answer_operator1;;
+		  	=> nrel_else: .agent_of_finding_intersection_of_two_sets_search_lost_operator1A;;
+			*);;
+
+		
+
+		-> .agent_of_finding_intersection_of_two_sets_gen_answer_operator1
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: concept_intersection_set;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _set_of_found_elems_of_set_two_elem;;
+
+		  	=> nrel_goto: .agent_of_finding_intersection_of_two_sets_gen_answer_operator2;;
+			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets_gen_answer_operator2 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_intersection_of_two_sets;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_intersection_of_two_sets_gen_answer_operator3;;
+			*);;	
+
+		-> .agent_of_finding_intersection_of_two_sets_gen_answer_operator3
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_intersection_of_two_sets;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _set_of_found_elems_of_set_two_elem;;
+
+		  	=> nrel_goto: .agent_of_finding_intersection_of_two_sets_search_lost_operator1A;;
+			*);;
+
+
+
+		-> .agent_of_finding_intersection_of_two_sets__gen_answer1
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_intersection_of_two_sets;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: concept_intersection_set;;
+
+			=> nrel_then: .agent_of_finding_intersection_of_two_sets__gen_answer3;;
+		  	=> nrel_else:  .agent_of_finding_intersection_of_two_sets__gen_answer2;;
+  			*);;
+
+		-> .agent_of_finding_intersection_of_two_sets__gen_answer2 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_intersection_of_two_sets;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: concept_intersection_set;;
+
+		  	=> nrel_goto: .agent_of_finding_intersection_of_two_sets__gen_answer3;;
+			*);;
+
+
+		-> .agent_of_finding_intersection_of_two_sets__gen_answer3
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _answer_finding_intersection_of_two_sets;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+		  	=> nrel_goto: .agent_of_finding_intersection_of_two_sets_operator_return;;
+			*);;
+
+
+					
+		-> .agent_of_finding_intersection_of_two_sets_operator_return 
+			(*
+		  	<- return;;
+			*);;
+		*);;
+	*);;

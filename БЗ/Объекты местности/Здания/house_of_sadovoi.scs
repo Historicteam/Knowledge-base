@@ -1,8 +1,6 @@
-
 house_of_sadovoi
-			=> nrel_main_idtf:
-				[Дом на Садовой] 					 (* <- lang_ru;; *);
-				[House on Sadovaya] (* <- lang_en;; *);
-				[Дом на Садовай] (* <- lang_by;; *);
-
+	=> nrel_main_idtf:
+		[Дом на Садовой] (* <- lang_ru;; *);
+		[House on Sadovaya] (* <- lang_en;; *);
+		[Дом на Садовай] (* <- lang_by;; *);
 <- concept_building;;

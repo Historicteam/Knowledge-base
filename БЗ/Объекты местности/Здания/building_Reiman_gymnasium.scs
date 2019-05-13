@@ -15,6 +15,7 @@ Reiman_gymnasium_building
 	*);
 
 <=nrel_whole_part:Kirova_Street;
+
 <- rrel_key_sc_element: 
 	...
 	(*
@@ -96,6 +97,7 @@ concept_situation->[*Reiman_gymnasium_building
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

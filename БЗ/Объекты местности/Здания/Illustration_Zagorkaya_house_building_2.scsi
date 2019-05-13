@@ -14,6 +14,7 @@ Zagorskaya_house_building_2 <- rrel_key_sc_element: Illustration_Zagorskaya_hous
 		<- lang_by;;
 		 *);;
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

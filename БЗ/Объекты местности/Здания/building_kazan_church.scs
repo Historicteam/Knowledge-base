@@ -17,7 +17,7 @@ building_kazan_church
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_explanation;;
+	<-sc_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*

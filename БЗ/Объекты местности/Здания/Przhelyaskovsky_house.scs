@@ -25,6 +25,7 @@ Przhelyaskovsky_house
 	(*
 	<- lang_by;;
 	*);
+
 <- rrel_key_sc_element: Explanation_Przhelyaskovsky_house 
 	
 	(*

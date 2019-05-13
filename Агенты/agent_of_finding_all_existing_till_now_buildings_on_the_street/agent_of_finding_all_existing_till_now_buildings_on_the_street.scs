@@ -1,0 +1,185 @@
+agent_of_finding_all_existing_till_now_buildings_on_the_street
+=> nrel_main_idtf:
+	[агентная scp-программа поиска всех сохранившихся зданий на заданной улице] (* <- lang_ru;; *);
+	[agent scp-program of finding all existing till now buildings on the street] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_finding_all_existing_till_now_buildings_on_the_street 
+	(*
+	-> rrel_params: .agent_of_finding_all_existing_till_now_buildings_on_the_street_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator_set 
+		(*
+		-> rrel_init: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1A 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		  	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+		  	=> nrel_goto: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1B;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1B
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_all_existing_till_now_buildings_on_the_street;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+		  	=> nrel_then: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1C;;
+		  	=> nrel_else: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator_return;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1C 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+
+		  	=> nrel_then: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1D;;
+		  	=> nrel_else: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator_return;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1D 
+			(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer_finding_all_existing_till_now_buildings_on_the_street;;
+
+			=> nrel_goto: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1E;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1E 
+         	(*
+			<- searchElStr5;;
+		 	-> rrel_1: rrel_assign: rrel_scp_var: _rel_node;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_subdividing;;
+
+			=> nrel_then: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1F;;
+			=> nrel_else: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator_return;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1F
+			(*
+			<- searchSetStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _rel_node;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: _set_of_found_buildings;;
+
+		 	=> nrel_goto: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1A;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1A 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_buildings;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _set_of_found_buildings_elem;;
+
+		  	=> nrel_then: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1B;;
+		  	=> nrel_else: .agent_of_finding_all_existing_till_now_buildings_on_the_street__gen_answer;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1B
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1C;;
+		 	*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1C 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: concept_lost_constructions;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _set_of_found_buildings_elem;;
+
+		  	=> nrel_then: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1A;;
+		  	=> nrel_else: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1A;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1A 
+			(*
+		  	<- searchSetStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _input_node;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _set_of_found_buildings_elem;;
+
+			-> rrel_set_1: rrel_assign: rrel_scp_var: _set_of_maybe_date_nodes;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1B;;
+		 	*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1B 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_maybe_date_nodes;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_date;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _maybe_date_node;;
+
+		  	=> nrel_then: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1C;;
+		  	=> nrel_else: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1G;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1C
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc_date;;
+
+         	=> nrel_goto:  .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1D;;
+		 	*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1D 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: completion;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_in_date;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _maybe_date_node;;
+
+		  	=> nrel_then: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1A;;
+		  	=> nrel_else: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_complete_date_operator1B;;
+			*);;
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator1G 
+			(*
+		  	<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_existing_till_now_buildings_on_the_street;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _set_of_found_buildings_elem;;
+
+		  	=> nrel_goto: .agent_of_finding_all_existing_till_now_buildings_on_the_street_search_lost_operator1A;;
+			*);;
+
+
+
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street__gen_answer
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _answer_finding_all_existing_till_now_buildings_on_the_street;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+		  	=> nrel_goto: .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator_return;;
+			*);;
+
+
+					
+		-> .agent_of_finding_all_existing_till_now_buildings_on_the_street_operator_return 
+			(*
+		  	<- return;;
+			*);;
+		*);;
+	*);;

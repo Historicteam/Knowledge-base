@@ -102,6 +102,7 @@ concept_situation->[*building_wooden_railway_church
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

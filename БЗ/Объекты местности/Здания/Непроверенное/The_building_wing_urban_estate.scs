@@ -43,6 +43,7 @@ The_building_wing_urban_estate
 		[Выява будынка флігеля гарадской сядзібы] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Здание флигеля городской усадьбы.jpg" (*

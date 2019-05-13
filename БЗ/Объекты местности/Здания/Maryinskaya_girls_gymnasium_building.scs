@@ -51,24 +51,57 @@ Maryinskaya_girls_gymnasium_building
 	(*
 	<- lang_by;;
 	*);
-rrel_key_sc_element: Explanation_Maryinskaya_girls_gymnasium_building
-	
+<- begin_date_1899;
+
+<- rrel_key_sc_element: Illustration_Maryinskaya_girls_gymnasium_building_1
 	(*
-	=> nrel_main_idtf:
-	[Пояснение здания Мариинской женской гимназии] 
+=> nrel_main_idtf:
+	[Фото Мариинской женской гимназии в 2006м году] 
 		(* 
 		<- lang_ru;; 
 		*);
-	[Explanation of the Maryinskaya girl's gymnasium building] 
+	[Maryinskaya girl's gymnasium in 2006] 
 		(* 
 		<- lang_en;; 
 		*);
-	[Тлумачэнне будынака Марыінскай жаночай гімназіі]
+	[Фота Марыінскай жаночай гімназіі ў 2006м годзе]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<-key_image;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Maryinskaya_girls_gymnasium_building_1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+	
+		<- begin_date_1879;;
+		<- completion_date_2006;;
+		*);;
+ *);
+
+rrel_key_sc_element: Definition_Maryinskaya_girls_gymnasium_building
+	
+	(*
+	=> nrel_main_idtf:
+	[Описание здания Мариинской женской гимназии] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Definition of the Maryinskaya girl's gymnasium building] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Апісанне будынака Марыінскай жаночай гімназіі]
 		(* 
 		<- lang_by;;
 		 *);;
 
 	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -130,11 +163,7 @@ Maryinskaya_girls_gymnasium_building <= nrel_location: organization_National_Cen
 Maryinskaya_girls_gymnasium_building <= nrel_location: organization_museum_of_communications_Beltelecom;;
 Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_polytechnic;;
 Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_museum_of_communications_Beltelecom;;
-concept_situation->[*^"file://Illustration_Maryinskaya_girls_gymnasium_building_1.scsi"*]
-(*
-	<- begin_date_1879;;
-	<- completion_date_2006;;
-*);;
+
 concept_situation->[* Maryinskaya_girls_gymnasium_building <= nrel_temporal_decomposition: organization_National_gallery;;*]
 (*
 	<- begin_date_1939;;

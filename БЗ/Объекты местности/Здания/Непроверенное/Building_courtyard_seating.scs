@@ -10,7 +10,8 @@ Building_courtyard_seating
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -49,6 +50,7 @@ Building_courtyard_seating
 
 <- rrel_key_sc_element: Image_building_courtyard_seating (*
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Здание гостинного двора 2.jpg" (*

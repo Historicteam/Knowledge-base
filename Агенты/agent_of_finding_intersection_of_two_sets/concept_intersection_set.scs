@@ -1,0 +1,18 @@
+concept_intersection_set
+=> nrel_main_idtf:
+	[результирующее множество]
+	(*
+	<- lang_ru;;
+	*);
+	[выніковае мноства]
+	(*
+	<- lang_en;;
+	*);
+	[result set]
+	(*
+	<- lang_by;;
+	*);
+
+<-sc_const;
+<-sc_node_not_relation;;
+

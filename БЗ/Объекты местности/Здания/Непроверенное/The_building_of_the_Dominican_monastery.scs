@@ -15,7 +15,8 @@ the_building_of_the_Dominican_monastery
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -43,8 +44,7 @@ the_building_of_the_Dominican_monastery
 		*);;
 	*);
 
- => nrel_start_time: ...
-   
+=> nrel_start_time: ...   
             (*
                 <- begin_date_1615;;
           
@@ -101,6 +101,7 @@ concept_situation->[*organization_oficers_club => nrel_location: the_building_of
 concept_situation->[*the_building_of_the_Dominican_monastery <- rrel_key_sc_element: Picture_of_Dominican_Church
 (*  
         <- sc_illustration;;
+	<-key_image;;
         <= nrel_sc_text_translation: 
         ... 
         (*
