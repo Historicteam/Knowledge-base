@@ -1,0 +1,24 @@
+begin_date_02_12_1953
+=>nrel_main_idtf:
+	[время начала - 2 декабря 1953]
+	(*
+		<-lang_ru;;
+	*);
+	[begin date - 2 december of 1953]
+	(*
+		<-lang_en;;
+	*);
+	[час пачатку - 2 снежня 1953]
+	(*
+		<-lang_by;;
+	*);
+<-begin;
+<-exact_value;
+=> nrel_Gregorian_calendar_scale:...
+	(*
+		<-number_of_day_in_month: [2];;
+		<-number_of_month_in_year: [12];;
+		<-number_of_year: [1953];;
+	*);
+<-begin_date_12_1953;
+<-begin_date_1953;;

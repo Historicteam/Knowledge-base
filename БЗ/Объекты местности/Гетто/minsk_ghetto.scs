@@ -1,0 +1,31 @@
+minsk_ghetto
+=>nrel_main_idtf:
+	[Минское гетто](*<-lang_ru;;*);
+	[Minsk ghetto](*<-lang_en;;*);
+	[Мінскае гета](*<-lang_by;;*);
+<-concept_ghetto;
+<-begin_date_20_07_1941;
+<-completion_date_21_10_1943;
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ Минское гетто было одним из самых крупных в Европе, 
+			оно на оккупированной территории СССР занимало второе место по количеству узников после Львовского.
+			 Через Минское гетто прошло более 100 000 евреев.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+<=nrel_basic_decomposition:
+{
+	big_minsk_ghetto;
+	small_minsk_ghetto;
+	sonderghetto
+};;
+

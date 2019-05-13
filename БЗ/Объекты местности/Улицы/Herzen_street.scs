@@ -4,6 +4,4 @@ Herzen_street
 	[Herzen street](* <- lang_en;; *);
 	[Вуліца Герцена](* <- lang_by;; *);
 
-=> nrel_whole_part: 
-		Building_trade_rows;
 <-concept_street;; 

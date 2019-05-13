@@ -1,0 +1,29 @@
+house_16_Independance_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости дом 16](*<-lang_ru;;*);
+    [House 16 Independence avenue](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_osm_query: [way(25434683);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.898190, 27.554990]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.898190;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.554990;;
+					*);;
+				*);;
+			*);;
+	*);;

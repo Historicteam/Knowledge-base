@@ -1,0 +1,18 @@
+second_world_war
+<-concept_war;
+=> nrel_main_idtf:
+	[Вторая Мировая Война]
+	(*
+	<- lang_ru;;
+	*);
+	[Second World War]
+	(*
+	<- lang_en;;
+	*);
+	[Другая Сусветная Вайна]
+	(*
+	<- lang_by;;
+	*);
+	
+<-begin_date_01_09_1939;
+<-completion_date_02_09_1945;;

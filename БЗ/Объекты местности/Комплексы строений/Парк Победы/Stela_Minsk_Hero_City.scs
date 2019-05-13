@@ -1,0 +1,44 @@
+Stela_Minsk_Hero_City
+=>nrel_main_idtf:
+	[Стела Минск — город-герой]
+	(*
+	<-lang_ru;;
+	*);
+	[Stela Minsk - Hero City]
+	(*
+	<-lang_en;;
+	*);
+	[Стэла Мінск - горад-герой]
+	(*
+	<-lang_by;;
+	*);
+<-concept_monument;
+<-begin_date_1985;
+=>nrel_be_founded_in_memory_of:second_world_war;
+=>nrel_architect:Victor_Kramarenko;
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_statement;;
+	<=nrel_sc_text_translation:
+		...
+			(*
+				->rrel_example:[Обелиск был открыт в 1985. Дата была приурочена к 40-летию Великой победы. Стела «Минск – город-герой» находится недалеко от центра города, в конце пр. Победителей и в самом начале парка Победы.]
+				(*
+				<-lang_ru;;
+				*);;
+			*);;
+*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/stela_minsk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+

@@ -1,0 +1,21 @@
+completion_date_07_1942
+<-exact_value;
+<-completion;
+=> nrel_main_idtf:
+	[время завершения - июль 1942]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[completion date - july of 1942]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час заканчэння - ліпень 1942]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_month_in_year: [7];;
+   		<- number_of_year: [1942];;
+   	*);;

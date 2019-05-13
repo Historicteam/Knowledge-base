@@ -136,6 +136,8 @@ concept_situation->[*organization_Brasserie_Old_Town_Piwnica => nrel_location: b
     [Контур перыяду часу месцавання піўнога рэстарана і музея карэт у будынку гаспадарчага корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
     <- begin_date_2014;;
 *);
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
+
 =>nrel_osm_query:[way(3640330869);];
 => nrel_geographical_location: ...
 	(*

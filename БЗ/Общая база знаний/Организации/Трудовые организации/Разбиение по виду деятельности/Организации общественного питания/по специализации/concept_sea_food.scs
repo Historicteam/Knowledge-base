@@ -1,0 +1,31 @@
+concept_sea_food
+=>nrel_main_idtf:
+    [seafood-кафе](*<-lang_ru;;*);
+    [seafood-cafee](* <-lang_en;; *);
+    [seafood-кафэ](*<-lang_by;;*);
+
+<- rrel_key_sc_element:
+	Definition_of_the_seafood_cafee_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+            [ Seafood-кафе – это заведение, специализирующееся на изготовлении и продаже блюд из морепродуктов] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[ seafood-cafee is organization specializing in the producing and saling of seafood] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[seafood-кафэ -  установа,якая спецыялізуецца на вырабе і продажу страв з морапрадуктаў] (* <-lang_by;; *);; 
+			*);;
+	*);
+<=nrel_inclusion:concept_specialized_catering_organization;
+<-sc_node_not_relation;;

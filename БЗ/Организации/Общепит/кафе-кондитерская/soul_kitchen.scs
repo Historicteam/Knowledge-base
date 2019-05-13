@@ -1,0 +1,22 @@
+Soul_kitchel
+=> nrel_main_idtf:
+    [Soul Kitchen]
+    (* <- lang_en;; *);
+    [Soul Kitchen]
+    (* <- lang_ru;; *);
+<-concept_catering_with_counter_service;
+<-concept_cafe_bakery;
+=>nrel_working_hours: Mon_Sun_12_00_19_00; 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/soulkitchen.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_10_Platonova_street;;

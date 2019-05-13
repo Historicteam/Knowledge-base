@@ -1,0 +1,58 @@
+week
+=> nrel_main_idtf:
+    [неделя](* <- lang_ru;; *);
+    [тыдзень](* <-lang_by;;*);
+    [week](*<-lang_en;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_week
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "неделя"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the week]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "тыдзень"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Неделя – единица исчисления времени, равная семи дням.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+            [A week is a time unit equal to seven days.](* <-lang_en;;*);;
+            *);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Тыдзень - адзінка вылічэння часу, роўная сямі дням.] (* <-lang_by;; *);; 
+			*);;
+
+
+	*);
+<-rrel_sc_key_element:section_subjdomain_temporary_entity;
+<-rrel_not_maximum_studied_object_class:subjdomain_temporary_entity;
+<-duration;
+<=nrel_basic_decomposition: 
+{
+    concept_monday;
+    concept_tuesday;
+    concept_wednesday;
+    concept_thursday;
+    concept_friday;
+    concept_saturday;
+    concept_sunday
+};;

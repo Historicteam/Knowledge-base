@@ -1,0 +1,11 @@
+kuhmistr
+=>nrel_main_idtf:
+    [Кухмистр](*<-lang_ru;;*);
+    [Kuhmistr](* <-lang_en;;*);
+    [Кухмiстр](*<-lang_by;;*);
+<-concept_catering_organization;
+=>nrel_cuisine:belarussian_cuisine;
+<-concept_catering_with_waiter_service;
+<-concept_restaurant;
+=>nrel_working_hours: Mon_Sun_12_00_23_00;
+=>nrel_location:house_40_Karla_Marksa_street;;

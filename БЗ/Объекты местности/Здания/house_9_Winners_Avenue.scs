@@ -1,0 +1,29 @@
+house_9_Winners_Avenue
+=>nrel_main_idtf:
+    [Проспект Победителей дом 9](*<-lang_ru;;*);
+    [House 9 Winners avenue](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Winners_Avenue;
+=> nrel_osm_query: [way(368403743);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.90872, 27.54871]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.90872;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.54871;;
+					*);;
+				*);;
+			*);;
+	*);;

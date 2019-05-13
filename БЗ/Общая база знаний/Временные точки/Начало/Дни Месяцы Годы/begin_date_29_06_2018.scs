@@ -1,0 +1,24 @@
+begin_date_29_06_2018
+=> nrel_main_idtf:
+   [время начала - 29 июня 2018]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 29 june of 2018]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 29 чэрвеня 2018]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [29];;
+   <- number_of_month_in_year: [6];;
+   <- number_of_year: [2018];;
+   *);
+   <- begin_date_06_2018;
+   <- begin_date_2018;;

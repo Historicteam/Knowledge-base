@@ -13,6 +13,7 @@ building_is_a_dwelling_house_of_Yakub_Kolas
     <- lang_by;;
   *);
 
+<=nrel_whole_part:Academic_Street;
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;

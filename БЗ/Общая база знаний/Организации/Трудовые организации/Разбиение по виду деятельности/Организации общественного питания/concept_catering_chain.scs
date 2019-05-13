@@ -1,0 +1,7 @@
+concept_catering_chain
+=>nrel_main_idtf:
+    [сеть организаций общественного питания](*<-lang_ru;;*);
+    [catering chain](* <-lang_en;; *);
+    [сець арганізацый грамадскага харчавання](*<-lang_by;;*);
+<-sc_node_not_relation;
+<=nrel_set_of_subsets:concept_catering_organization;;

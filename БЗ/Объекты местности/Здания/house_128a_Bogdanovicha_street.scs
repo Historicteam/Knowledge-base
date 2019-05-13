@@ -1,0 +1,29 @@
+house_128a_Bogdanovichs_street
+=>nrel_main_idtf:
+    [Улица Максима Богдановича 128а](*<-lang_ru;;*);
+    [House 128a Bogdanovich street](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Bogdanovichs_street;
+=> nrel_osm_query: [way(389226830);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.93647, 27.5846]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.93647;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5846;;
+					*);;
+				*);;
+			*);;
+	*);;

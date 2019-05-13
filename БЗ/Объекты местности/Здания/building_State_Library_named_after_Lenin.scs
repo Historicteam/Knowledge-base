@@ -28,7 +28,7 @@ building_State_Library_named_after_Lenin
             *);;
 		*);;
 	*);
-
+<=nrel_whole_part:Krasnoarmiejskaja_street;
 => nrel_osm_query: [way(25319604);];
 => nrel_geographical_location: ...
 	(*

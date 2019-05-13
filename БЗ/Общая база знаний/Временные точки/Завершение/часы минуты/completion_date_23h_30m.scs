@@ -1,0 +1,23 @@
+completion_date_23h_30m
+
+=> nrel_main_idtf:
+   [время завершения - 23 часов 30 минут]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 23 hours 30 minuts]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 23 гадзін 30 хвілін]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_24hours_day_scale: ...
+   (*
+     <- number_of_hour_in_day: [23];;
+    <- number_of_minut_in_hour: [30];;
+   *);
+   <- completion_date_23h;;

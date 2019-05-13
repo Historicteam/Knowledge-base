@@ -16,6 +16,7 @@ Residential_complex
 <-concept_building;
 <-concept_terrain_object;
 
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 	
 <= nrel_temporal_decomposition: 
     {
@@ -72,6 +73,7 @@ Residential_complex
 			*);;
 		*);;
 	*);
+
  =>nrel_osm_query:[way(538208752);];	
  => nrel_geographical_location: ...
 	(*

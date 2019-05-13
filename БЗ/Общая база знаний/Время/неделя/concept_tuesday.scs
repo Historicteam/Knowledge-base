@@ -1,0 +1,44 @@
+concept_tuesday
+    => nrel_main_idtf:
+    [вторник](* <- lang_ru;; *);
+    [аўторак](* <-lang_by;;*);
+    [tuesdayconcept_tuesday](*<-lang_en;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_tuesday
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "вторник"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of concept tuesday]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "аўторак"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[вторник - второй день недели] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+            [tuesday is second day of the week](*<-lang_en;;*);;
+            *);
+			...
+			(* 
+			-> rrel_example:
+			[ аўторак - други дзень тыдня ] (* <-lang_by;; *);; 
+			*);;
+	*);
+	<=nrel_inclusion:day;
+    <-rrel_number_of_day_in_week:2;;

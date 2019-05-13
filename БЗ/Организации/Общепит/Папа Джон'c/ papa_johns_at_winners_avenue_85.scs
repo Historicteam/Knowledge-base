@@ -1,0 +1,9 @@
+papa_johns_at_winners_avenue_85
+=>nrel_main_idtf:
+    ["Папа Джонс" на проспекте Победителей 85](*<-lang_ru;;*);
+    ["Vasilki" at Winners Avenue 85](* <-lang_en;;*);
+    ["Васількі" на праспекте Пераможцау 85](*<-lang_by;;*);
+<-concept_pizzeria;
+<-concept_catering_with_waiter_service;
+=>nrel_working_hours: Mon_Sun_11_00_23_00;
+=>nrel_location:house_85_Winners_Avenue;;

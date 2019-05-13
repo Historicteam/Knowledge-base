@@ -1,0 +1,23 @@
+tovarisch
+=>nrel_main_idtf:
+    [Товарищ](*<-lang_ru;;*);
+    [Tovarisch](*<-lang_en;;*);
+    [Таварыш](*<-lang_by;;*);
+<-concept_back_to_ussr;
+<-concept_restaurant;
+<-concept_catering_with_waiter_service;
+<-concept_universal_catering_organization;
+=>nrel_working_hours: Fri_Sun_12_00_00_00_Mon_;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/tovarisch.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+            *);;
+		*);;
+	*);
+=>nrel_location:house_21_Kupala_street;;

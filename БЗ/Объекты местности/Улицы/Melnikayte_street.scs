@@ -1,0 +1,19 @@
+Melnikayte_street
+=> nrel_main_idtf:
+			[Улица Мельникайте]
+			(*
+			<- lang_ru;;
+			*);
+			[Melnikayte street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Мельнікайтэ]
+			(*
+			<- lang_by;;
+			*);
+<= nrel_subdividing: 
+	{
+	memorial_pit
+	};
+<- concept_street;;

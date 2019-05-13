@@ -60,6 +60,7 @@ building_of_residential_housing_of_female_Bernardine_monastery
     };
 <-concept_building;
 <-concept_terrain_object;
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 
 => nrel_osm_query: [way(25387248);];
 => nrel_geographical_location: ...

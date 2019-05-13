@@ -6,9 +6,6 @@ Kiseleva_Street
 			(*
 			<- lang_by;;
 			*);
-	<= nrel_subdividing: 
-	{
-	building_of_The_1st_Minsk_Brewery_Olivariya
-	};
+
 	<- concept_street;;
 

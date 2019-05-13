@@ -6,12 +6,4 @@ Street_of_Kirill_and_Miefodij
 			(*
 			<- lang_by;;
 			*);
-		=> nrel_whole_part: 
-		
-		building_of_economic_housing_of_male_Bernardine_monastery;
-		building_of_Bernardine_Church;
-		building_of_residential_housing_of_male_Bernardine_monastery;
-		building_of_residential_housing_of_female_Bernardine_monastery;
-		building_of_the_church_of_St_Joseph
-		;
 		<-concept_street;; 

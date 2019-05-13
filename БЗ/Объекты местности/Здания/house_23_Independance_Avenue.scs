@@ -1,0 +1,29 @@
+house_23_Independence_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости дом 23](*<-lang_ru;;*);
+    [House 23 Independence avenue](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_osm_query: [way(658135843);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.901127, 27.559534]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.901127;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.559534;;
+					*);;
+				*);;
+			*);;
+	*);;

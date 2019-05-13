@@ -1,0 +1,29 @@
+house_7_Kazintsa_street
+=>nrel_main_idtf:
+    [Казинца дом 7](*<-lang_ru;;*);
+    [House 7 Kazintsa street](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Kazintsa_street;
+=> nrel_osm_query: [way(25390543);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.86625, 27.5249]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.86625;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5249;;
+					*);;
+				*);;
+			*);;
+	*);;

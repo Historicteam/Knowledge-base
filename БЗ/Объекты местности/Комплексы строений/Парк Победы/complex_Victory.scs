@@ -1,0 +1,65 @@
+complex_Victory
+=> nrel_main_idtf:
+	[Музейно-парковый комплекс «Победа»]
+	(*
+	<- lang_ru;;
+	*);
+	[Museum and Park Complex "Victory"]
+	(*
+	<- lang_en;;
+	*);
+	[Музейна-паркавы комплекс «Перамога»]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_memory_of:second_world_war;
+=>nrel_osm_query:[way(99881325);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.917, 27.5382]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.917;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5382;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<-begin_date_1945;
+<-concept_architectural_ensemble;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Музейно-парковый комплекс «Победа» расположен в Минске на берегу водохранилища Комсомольское озеро. Площадь парка занимает порядка 200 гектар. Открытие парка состоялось в 1945 году.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+<=nrel_complex_of_buildings_decomposition:
+	{
+		building_of_Museum_of_great_patriotic_war;
+		Victory_park;
+		Stela_Minsk_Hero_City	
+	};;

@@ -1,0 +1,22 @@
+nrel_working_hours
+=>nrel_main_idtf:
+    [время работы*](* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[working hours*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[час працы*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example: [Отношение задающее период в течение суток, когда организация функционирует] (* <-lang_ru;; *);;
+		*);;
+    *);
+<-sc_node_norole_relation;
+=>nrel_first_domain:
+    concept_organization;
+=>nrel_second_domain:
+    concept_schedule;;

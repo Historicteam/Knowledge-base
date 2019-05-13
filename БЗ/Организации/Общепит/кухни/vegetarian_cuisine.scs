@@ -1,0 +1,32 @@
+vegetarian_cuisine
+=>nrel_main_idtf:
+    [Вегетарианская  кухня](*<-lang_ru;;*);
+    [Вегетарыянская  кухня](*<-lang_by;;*);
+    [Vegetarian cuisine](*<-lang_en;;*);
+<-concept_cuisine;
+<- rrel_key_sc_element:
+	 Definition_of_the_vegetarian_cuisine
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "вегетарианская кухня"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of vegetarian cuisine]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "вегетарыянская кухня"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Вегетарианская кухня - кухня характеризующаяся отсутствием убойной пищи(мясо, рыба, птица, морепродукты...)] (* <-lang_ru;; *);; 
+			*);;
+
+	*);;

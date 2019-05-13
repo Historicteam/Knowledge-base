@@ -1,0 +1,22 @@
+begin_date_12_1979
+=> nrel_main_idtf:
+   [время начала - декабрь 1979]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1979]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - null 1979]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [12];;
+   <- number_of_year: [1979];;
+   *);
+   <- begin_date_1979;;

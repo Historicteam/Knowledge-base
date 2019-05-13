@@ -1,0 +1,84 @@
+memorial_cemetery_Blagovshchina
+<-concept_memorial_complex;
+<-concept_cemetry;
+=> nrel_main_idtf:
+	[Мемориальное кладбище «Благовщина»]
+	(*
+	<- lang_ru;;
+	*);
+	[Memorial cemetery "Blagovshchina"]
+	(*
+	<- lang_en;;
+	*);
+	[Мемарыяльныя могілкі «Благаўшчына»]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_memory_of:second_world_war;
+=>nrel_osm_query:[way(2752536890);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.841451, 27.739576]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.841451;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.739576;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+=>nrel_architect:Anna_Alekseevna_Aksenova;
+=>nrel_architect:Leonid_Levin;
+<-begin_date_29_06_2018;
+<=nrel_burial_place: ...
+	(*
+	<-concept_person;;
+	<-rrel_imprisoned:trostinez;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[в Благовщине уничтожались  мирные жители.
+			За два года в Благовщине в 34 ямах длиной 50 метров и шириной 3 метра были убиты, 
+			по данным Чрезвычайной государственной комиссии (ЧГК), около 150 тысяч человек. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+<=nrel_complex_of_buildings_decomposition:
+	{
+			hall_of_memory_carriage
+	};;
+	
+trostinez
+=> nrel_main_idtf:
+	[Тростенец]
+	(*
+	<- lang_ru;;
+	*);;
+
+	
+	
+

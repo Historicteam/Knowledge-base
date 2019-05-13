@@ -1,0 +1,77 @@
+concept_catering_organization
+=>nrel_main_idtf:
+    [организация общественного питания](*<-lang_ru;;*);
+    [catering organisation](* <-lang_en;; *);
+    [арганізацыя грамадскага харчавання](*<-lang_by;;*);
+<=nrel_inclusion:concept_industrial_organization;
+=>nrel_inclusion:concept_coffee;
+=>nrel_inclusion:concept_bar;
+=>nrel_inclusion:concept_restaurant;
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_catering_organization_concept
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "организация общественного питания"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the catering organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "арганізацыя грамадскага харчавання"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Организация общественного питания – это организация, занимающаяся тем, что производит, реализует и организует потребление продукции кулинарного типа.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Catering organisation is an organization engaged in the fact that it produces, sells and organizes the consumption of culinary-type products.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Арганизацыя грамадскага харчавання - гэта арганізацыя, якая займаецца тым, што вырабляе, рэалізуе і арганізуе спажыванне прадукцыі кулінарнага тыпу.] (* <-lang_by;; *);; 
+			*);;
+
+
+	*);;
+
+subdiving_by_type_of_service
+    =>nrel_main_idtf:
+        [разбиение по виду обслуживания](* <-lang_ru;; *);;
+
+concept_catering_organization
+    <= nrel_subdividing: subdiving_by_type_of_service
+        (*
+            ->concept_catering_with_self_service;
+            concept_catering_with_waiter_service;
+            concept_catering_with_bar_service;
+            concept_catering_with_counter_service;;
+        *);;
+
+subdiving_by_specialisation
+	=>nrel_main_idtf:
+		[разбиение по наличию специализации](* <-lang_ru;;*);;
+
+concept_catering_organization
+	<=nrel_subdividing: subdiving_by_specialisation
+		(*
+			->concept_specialized_catering_organization;
+			concept_universal_catering_organization;;
+		*);;
+
+
+        

@@ -13,7 +13,6 @@ Choral_synagogue_building
 	(*
 	<- lang_by;;
 	*);
-
 <- rrel_key_sc_element: 
 	...
 	(*

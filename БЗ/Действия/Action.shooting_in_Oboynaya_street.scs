@@ -1,0 +1,17 @@
+Action.shooting_in_Oboynaya_street
+=>nrel_main_idtf:
+	[Действие.расстрел на улице Обойной] (* <-lang_ru;; *);
+
+<-begin_date_20_10_1941;
+=>nrel_location: Oboynaya_street;
+<-action.shooting;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[были убиты от 6 000 до 15 000 евреев в районе улицы Обойной и рядом с ней] 	
+			(* <- lang_by;;*);;
+		*);;
+*);;

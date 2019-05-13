@@ -1,0 +1,15 @@
+Lenin_Street
+	=> nrel_main_idtf:
+			[Улица Ленина]
+			(*
+			<- lang_ru;;
+			*);
+			[Lenin Street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Леніна]
+			(*
+			<- lang_by;;
+			*);
+		<-concept_street;;

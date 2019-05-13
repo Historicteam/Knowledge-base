@@ -1,0 +1,30 @@
+sculpture_last_way
+=> nrel_main_idtf:
+	[Скульптурная композиция "Последний путь"]
+	(*
+	<- lang_ru;;
+	*);
+	[Sculpture "Last way"]
+	(*
+	<- lang_en;;
+	*);
+	[Скульптурная кампазицыя "Апошни шлях"]
+	(*
+	<- lang_by;;
+	*);
+<-begin_date_2000;
+<-concept_monument;
+=>nrel_architect:Leonid_Levin;
+=>nrel_sculptor:Alexandr_Finski;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/memorial-sculpture.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

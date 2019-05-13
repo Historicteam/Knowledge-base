@@ -1,0 +1,11 @@
+You_coffee
+<-concept_catering_chain;
+=>nrel_main_idtf:
+    [Сеть кофеен "You coffee"](*<-lang_ru;;*);
+    [Catering chain "You coffee"](* <-lang_en;;*);
+    [Сетка кафеен "You coffee"](*<-lang_by;;*);
+<=nrel_basic_decomposition:
+{
+    You_coffee_L_Bedy_45;
+    You_coffee_Kolasa_10
+};;

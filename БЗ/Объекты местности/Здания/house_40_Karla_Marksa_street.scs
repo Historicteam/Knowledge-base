@@ -1,0 +1,29 @@
+house_40_Karla_Marksa_street
+=>nrel_main_idtf:
+    [Карла Маркса дом 40](*<-lang_ru;;*);
+    [House 40 Karla Marksa street](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Karla_Marksa_street;
+=> nrel_osm_query: [way(25326688);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.90149, 27.56534]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.90149;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.56534;;
+					*);;
+				*);;
+			*);;
+	*);;

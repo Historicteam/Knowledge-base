@@ -1,0 +1,71 @@
+Victory_park
+=> nrel_main_idtf:
+	[Парк Победы]
+	(*
+	<- lang_ru;;
+	*);
+	[Victory Park]
+	(*
+	<- lang_en;;
+	*);
+	[Парк Перамогі]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_memory_of:second_world_war;
+=>nrel_osm_query:[way(99881325);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.917, 27.5382]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.917;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5382;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<-begin_date_1945;
+<-concept_park;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Парк Победы — крупнейший из парков Минска, одно из любимых мест отдыха минчан..]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/victory_park.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

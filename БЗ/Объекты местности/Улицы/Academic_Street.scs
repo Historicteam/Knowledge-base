@@ -3,8 +3,5 @@ Academic_Street
 		[Улица Академическая](*<-lang_ru;; *);
 		[academic street](*<-lang_en;; *);
 		[Вуліца Акадэмічная](*<-lang_by;; *);
-	<=nrel_subdividing:
-	{
-	building_is_a_dwelling_house_of_Yakub_Kolas
-	};
+
 	<-concept_street;;

@@ -1,0 +1,13 @@
+begin_date_7h_00m
+=> nrel_main_idtf:
+   [время начала - 7 часов 00 минут](*<- lang_ru;;*);
+   [begin date - 7 hours 00 minuts](*<- lang_en;; *);
+   [час пачатку - 7 гадзін 00 хвілін] (*<- lang_by;; *);
+   <- exact_value;
+   <- begin;
+   => nrel_24hours_day_scale: ...
+   (*
+   <- number_of_hour_in_day: [7];;
+   <- number_of_minut_in_hour: [0];;
+   *);
+   <- begin_date_7h;;

@@ -1,0 +1,9 @@
+Music_Backstreet
+=> nrel_main_idtf:
+		[Музыкальный переулок](* <- lang_ru;; *);
+		[Music backstreet](* <- lang_en;; *);
+			[Музыкальны завулак]
+			(*
+			<- lang_by;;
+			*);
+		<-concept_street;;

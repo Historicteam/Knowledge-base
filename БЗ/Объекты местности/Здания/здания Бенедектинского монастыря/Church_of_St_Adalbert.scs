@@ -67,6 +67,8 @@ Church_of_St_Adalbert
          *)
       };
 
+
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
    => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

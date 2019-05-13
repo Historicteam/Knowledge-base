@@ -1,0 +1,18 @@
+concept_canteen
+=>nrel_main_idtf:
+    [столовая](*<-lang_ru;;*);
+    [canteen](* <-lang_en;; *);
+    [сталовая](*<-lang_by;;*);
+    <- rrel_key_sc_element:
+	Definition_of_the_canteen_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Столовая – это заведение, работающее на самообслужиании и предоставляющее в основном обеденные блюда массового спроса] (* <-lang_ru;; *);; 
+			*);;
+	*);
+<=nrel_inclusion:concept_catering_organization;
+<-sc_node_not_relation;;

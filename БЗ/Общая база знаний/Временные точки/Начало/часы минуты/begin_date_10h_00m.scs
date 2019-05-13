@@ -1,0 +1,13 @@
+begin_date_10h_00m
+=> nrel_main_idtf:
+   [время начала - 10 часов 00 минут](*<- lang_ru;;*);
+   [begin date - 10 hours 00 minuts](*<- lang_en;; *);
+   [час пачатку - 10 гадзін 00 хвілін] (*<- lang_by;; *);
+   <- exact_value;
+   <- begin;
+   => nrel_24hours_day_scale: ...
+   (*
+   <- number_of_hour_in_day: [10];;
+   <- number_of_minut_in_hour: [0];;
+   *);
+   <- begin_date_10h;;
