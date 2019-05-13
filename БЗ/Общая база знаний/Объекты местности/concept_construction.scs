@@ -54,6 +54,7 @@ subdividing_of_the_construction
 			*);;
 	->concept_building;;
         ->concept_structure;;
+        ->concept_complex_of_buildings;;
 	*);
    
 <= nrel_subdividing:

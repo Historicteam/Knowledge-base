@@ -19,7 +19,6 @@ concept_architectural_short_form
 		...
 		(* 
 		-> 	
-concept_construction;
 concept_structure;;
 		*);;
 	*);;

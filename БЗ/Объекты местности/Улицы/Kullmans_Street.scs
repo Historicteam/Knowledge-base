@@ -14,7 +14,7 @@ Kullmans_Street
 			*);
 		<= nrel_subdividing:
 		{
-			house_15_Kullmans_Street<-concept_non_profit_residental_building;;
+			house_15_Kullmans_Street
 		};
 		<-concept_street;;
 

@@ -28,6 +28,14 @@ concept_building
 			<- lang_ru;;
 			*);;
 		*);
+...
+		(*
+		-> rrel_example:
+			[Building is a kind of above-ground building construction with premises created as a result of building activity in order to carry out certain consumer functions, such as living (housing), economic or other activities of people, placing production, storing products or keeping animals.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
 		...
 		(*
 		-> rrel_example:
