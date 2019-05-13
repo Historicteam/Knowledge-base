@@ -107,7 +107,7 @@ Male_Basilian_Monastery_Building
 <- concept_building;
 <- concept_terrain_object;
 
-=> nrel_osm_query:[node(1369957958);];
+=> nrel_osm_query:[relation(8478813);];
 
 => nrel_geographical_location: ...
 	(*

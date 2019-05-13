@@ -1,0 +1,110 @@
+agent_proc_search_working_restaurants_with_given_cuisine
+=>nrel_main_idtf:
+	[Агентная scp-программа поиска работающих ресторанов с заданной кухней] 
+	(* <- lang_ru;; *);
+	[Agent scp-program of search working restaurants with given cuisine] 
+	(* <- lang_en;; *);
+<- agent_scp_program;;
+scp_program ->agent_proc_search_working_restaurants_with_given_cuisine 
+(*
+	// Множество параметров агентной программы
+	->rrel_params: .agent_proc_search_working_restaurants_with_given_cuisine_params 
+	(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+	*);;
+	->rrel_operators: .agent_proc_search_working_restaurants_with_given_cuisine_operator_set 
+	(*
+		->rrel_init: .agent_proc_search_working_restaurants_with_given_cuisine_operator1 
+		(*
+			<- searchElStr3;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+			=>nrel_goto: .agent_proc_search_working_restaurants_with_given_cuisine_operator2;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator2 
+		(*
+			<- searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: question_search_working_restaurants_with_given_cuisine;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+			=>nrel_then: .agent_proc_search_working_restaurants_with_given_cuisine_operator3_1;;
+			=>nrel_else: .agent_proc_search_working_restaurants_with_given_cuisine_operator_return;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator3_1 
+		(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_1_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param1;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_1_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+			=>nrel_then: .agent_proc_search_working_restaurants_with_given_cuisine_operator3_2;;
+			=>nrel_else: .agent_proc_search_working_restaurants_with_given_cuisine_operator_return;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator3_2
+		(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_2_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param2;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_2_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+			=>nrel_then: .agent_proc_search_working_restaurants_with_given_cuisine_operator3_3;;
+			=>nrel_else: .agent_proc_search_working_restaurants_with_given_cuisine_operator_return;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator3_3
+		(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_3_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param3;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_3_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_3;;
+			=>nrel_then: .agent_proc_search_working_restaurants_with_given_cuisine_operator4;;
+			=>nrel_else: .agent_proc_search_working_restaurants_with_given_cuisine_operator_return;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator4 
+		(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
+			=>nrel_goto: .agent_proc_search_working_restaurants_with_given_cuisine_operator5;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator5 
+		(*
+			<- call;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_search_working_restaurants_with_given_cuisine;;
+			->rrel_2:rrel_fixed:rrel_scp_const:
+			.agent_proc_search_working_restaurants_with_given_cuisine_operator5_params 
+			(*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _param1;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _param2;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _param3;;
+				-> rrel_4: rrel_fixed: rrel_scp_var: _answer;;
+			*);;
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+			=>nrel_goto: .agent_proc_search_working_restaurants_with_given_cuisine_operator6;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator6 
+		(*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+			=>nrel_goto: .agent_proc_search_working_restaurants_with_given_cuisine_operator_gen_answer;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator_gen_answer 
+		(*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+			=>nrel_goto: .agent_proc_search_working_restaurants_with_given_cuisine_operator_return;;
+		*);;
+		-> .agent_proc_search_working_restaurants_with_given_cuisine_operator_return 
+		(*
+			<- return;;
+		*);;
+	*);;
+*);;

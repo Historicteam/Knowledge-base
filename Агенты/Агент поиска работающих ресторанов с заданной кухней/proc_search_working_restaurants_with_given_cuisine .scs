@@ -1,0 +1,498 @@
+scp_program ->proc_search_working_restaurants_with_given_cuisine 
+(*
+	->rrel_params:...
+	(*
+		->rrel_1: rrel_in: _cuisine;;
+		->rrel_2: rrel_in: _day;;
+		->rrel_3: rrel_in: _date;;	
+		->rrel_4: rrel_in: _answer;;
+	*);;
+	->rrel_operators:...
+	(*
+		///////////////////////////////////////////////////////Добавляем все рестораны в узел
+		///////////////////////////////////////////////////////
+		->rrel_init:..proc_search_working_restaurants_with_given_cuisine_op0
+		(*
+			<-genElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector0_0_1;;
+			->rrel_3: rrel_fixed: rre_scp_var: _cuisine;;
+			=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op0_2;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op0_2
+		(*
+			<-searchSetStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _rest;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector0_2_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _cuisine;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector0_2_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_cuisine;;
+			->rrel_set_1: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+			=>nrel_then: ..proc_search_working_restaurants_with_given_cuisine_op0_3;;
+			=>nrel_else: ..proc_search_working_restaurants_with_given_cuisine_return;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op0_3
+		(*
+			<-genElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector0_0_1;;
+			->rrel_3: rrel_fixed: rre_scp_const: nrel_cuisine;;
+			=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op1_1;;
+		*);;
+		///////////////////////////////////////////////////////
+		///////////////////////////////////////////////////////Проверка входных значений
+		///////////////////////////////////////////////////////
+		->..proc_search_working_restaurants_with_given_cuisine_op1_1
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: concept_cuisine;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector1_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _cuisine;;
+			=>nrel_then: ..proc_search_working_restaurants_with_given_cuisine_op2;;
+			=>nrel_else: ..proc_search_working_restaurants_with_given_cuisine_op1_2;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op1_2
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: concept_national_cuisine;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector1_2;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _cuisine;;
+			=>nrel_then: ..proc_search_working_restaurants_with_given_cuisine_op2;;
+			=>nrel_else: ..proc_search_working_restaurants_with_given_cuisine_return;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op2
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_const: day;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector2_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _day;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector2_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion;;
+			=>nrel_then: ..proc_search_working_restaurants_with_given_cuisine_op3;;
+			=>nrel_else: ..proc_search_working_restaurants_with_given_cuisine_return;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op3
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _date;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector3_1;;
+			->rrel_3: rrel_assign: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector3_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_24hours_day_scale;;
+			=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op4_1;;
+			=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_return;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op4_1
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _hour;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector4_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_hour_in_day;;
+			=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op4_2;;
+			=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_return;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op4_2
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _hour;;
+			=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op5_1;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op5_1
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _minute;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector4_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_minut_in_hour;;
+			=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op5_3;;
+			=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_op5_2;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op5_2
+		(*
+			<-contAssign;;
+			->rrel_1: rrel_assign: rrel_scp_var: _minute;;
+			->rrel_2: rrel_fixed: rrel_scp_const: [0];;
+			=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op5_3;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op5_3
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _minute;;
+			=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op6;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_op6
+		(*
+			<-searchSetStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _rest;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector6_2;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _cuisine;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector6_1;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_cuisine;;
+			->rrel_set_1: rrel_assign: rrel_scp_var: _restaurants;;
+			=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op7;;
+			=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_return;;
+		*);;
+		///////////////////////////////////////////////////////
+		///////////////////////////////////////////////////////Исследование
+		///////////////////////////////////////////////////////
+		->..proc_search_working_restaurants_with_given_cuisine_op7
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _restaurants;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector7;;
+			->rrel_3: rrel_assign: rrel_node: rrel_scp_var: _restaurant;;
+			//=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_show_restaurant;;
+			=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_show_restaurant_1;;
+			=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_return;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_show_restaurant_1
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _restaurant;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector_show_1;;
+			->rrel_3: rrel_assign: rrel_scp_var: _text;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector_show_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_main_idtf;;
+			=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_show_restaurant_2;;
+			=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_op8;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_show_restaurant_2
+		(*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _text;;
+			=> nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op8;;
+		*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op8
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _restaurant;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector8_1;;
+				->rrel_3: rrel_assign: rrel_scp_var: _shedule;;
+				->rrel_4: rrel_assign: rrel_scp_var: _connector8_2;;
+				->rrel_5: rrel_fixed: rrel_scp_const: nrel_working_hours;;
+				=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op9;;
+				=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_1;;
+				//=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase;;
+			*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op9
+			(*
+				<-searchSetStr3;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _shedule;;
+				->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector9;;
+				->rrel_3: rrel_assign: rrel_scp_var: _element;;
+				->rrel_set_3: rrel_assign: rrel_scp_var: _days;;
+				=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op10;;
+				=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_1;;
+				//=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase;;
+			*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op10
+			(*
+				<-searchElStr3;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _days;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector10;;
+				->rrel_3: rrel_assign: rrel_scp_var: _point;;
+				=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op11;;
+				=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase;;
+				//=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_1;;TODO: ВЕРНУТЬСЯ К ЭТОМУ!!!!
+			*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op11
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _point;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector11_1;;
+				->rrel_3: rrel_fixed: rrel_scp_var: _day;;
+				->rrel_4: rrel_assign: rrel_scp_var: _connector11_2;;
+				->rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+				=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op12;;
+				=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_point;;
+			*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op12
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _point;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector12_1;;
+				->rrel_3: rrel_assign: rrel_scp_var: _time;;
+				->rrel_4: rrel_assign: rrel_scp_var: _connector12_2;;
+				->rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+				=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op13_1;;
+				=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_point;;
+			*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op13_1
+			(*
+				<-searchSetStr3;;
+				->rrel_1: rrel_assign: rrel_scp_var: _t;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector13_1;;
+				->rrel_3: rrel_fixed: rrel_scp_var: _time;;
+				->rrel_set_1: rrel_assign: rrel_scp_var: _times;;
+				=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op13_0_2;;
+				=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_point;;
+			*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op13_0_2
+			(*
+				<-printEl;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _times;;
+				=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op13_2;;
+			*);;
+			->..proc_search_working_restaurants_with_given_cuisine_op13_2
+			(*
+				<-searchElStr3;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _times;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector13_2;;
+				->rrel_3: rrel_assign: rrel_scp_var: _t;;
+				=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op14;;
+				=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_3_from_data;;
+				//=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_point;;
+			*);;
+				->..proc_search_working_restaurants_with_given_cuisine_op14
+				(*
+					<-searchElStr3;;
+					->rrel_1: rrel_fixed: rrel_scp_const: begin;;
+					->rrel_2: rrel_assign: rrel_scp_var: _connector14;;
+					->rrel_3: rrel_fixed: rrel_scp_var: _t;;
+					=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op14_1;;
+					=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_op15;;
+				*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op14_1	
+					(*
+						<-searchElStr5;;
+						->rrel_1: rrel_fixed: rrel_scp_var: _t;;
+						->rrel_2: rrel_assign: rrel_scp_var: _connector14_1_1;;
+						->rrel_3: rrel_assign: rrel_scp_var: _t_node;;
+						->rrel_4: rrel_assign: rrel_scp_var: _connector14_2_2;;
+						->rrel_5: rrel_fixed: rrel_scp_const: nrel_24hours_day_scale;;
+						=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op14_2;;
+						=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_0_from_date;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op14_2
+					(*
+						<-searchElStr5;;
+						->rrel_1: rrel_assign: rrel_scp_var: _t_hour;;
+						->rrel_2: rrel_assign: rrel_scp_var: _connector14_2_1;;
+						->rrel_3: rrel_fixed: rrel_scp_var: _t_node;;
+						->rrel_4: rrel_assign: rrel_scp_var: _connector14_2_2;;
+						->rrel_5: rrel_fixed: rrel_scp_const: number_of_hour_in_day;;
+						=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op14_3;;
+						=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_0_from_date;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op14_3
+					(*
+						<-searchElStr5;;
+						->rrel_1: rrel_assign: rrel_scp_var: _t_minute;;
+						->rrel_2: rrel_assign: rrel_scp_var: _connector14_3_1;;
+						->rrel_3: rrel_fixed: rrel_scp_var: _t_node;;
+						->rrel_4: rrel_assign: rrel_scp_var: _connector14_3_2;;
+						->rrel_5: rrel_fixed: rrel_scp_const: number_of_minut_in_hour;;
+						//=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+						=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op14_5;;
+						=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_op14_4;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op14_4
+					(*
+						<-contAssign;;
+						->rrel_1: rrel_assign: rrel_scp_var: _t_minute;;
+						->rrel_2: rrel_fixed: rrel_scp_const: [0];;
+						=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op14_5;;
+						//=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op14_5
+					(*
+						<- ifEq;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _hour;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _t_hour;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_op14_7;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_op14_6;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op14_6
+					(*
+						<- ifGr;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _hour;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _t_hour;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_0_from_date;;
+						//=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_time;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op14_7
+					(*
+						<- ifEq;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _minute;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _t_minute;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_op14_8;;
+					*);;					
+					->..proc_search_working_restaurants_with_given_cuisine_op14_8
+					(*
+						<- ifGr;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _minute;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _t_minute;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_t;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_1;;
+						//=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_time;;
+					*);;
+				////////////////////////////////////////////////////////////////////////////
+				->..proc_search_working_restaurants_with_given_cuisine_op15
+				(*
+					<-searchElStr3;;
+					->rrel_1: rrel_fixed: rrel_scp_const: completion;;
+					->rrel_2: rrel_assign: rrel_scp_var: _connector15;;
+					->rrel_3: rrel_fixed: rrel_scp_var: _t;;
+					=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op15_1;;
+					=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+					/*=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op15_1;;
+					=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_time;;*/
+				*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op15_1	
+					(*
+						<-searchElStr5;;
+						->rrel_1: rrel_fixed: rrel_scp_var: _t;;
+						->rrel_2: rrel_assign: rrel_scp_var: _connector15_1_1;;
+						->rrel_3: rrel_assign: rrel_scp_var: _t_node;;
+						->rrel_4: rrel_assign: rrel_scp_var: _connector15_2_2;;
+						->rrel_5: rrel_fixed: rrel_scp_const: nrel_24hours_day_scale;;
+						=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op15_2;;
+						=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_0_from_date;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op15_2
+					(*
+						<-searchElStr5;;
+						->rrel_1: rrel_assign: rrel_scp_var: _t_hour;;
+						->rrel_2: rrel_assign: rrel_scp_var: _connector15_2_1;;
+						->rrel_3: rrel_fixed: rrel_scp_var: _t_node;;
+						->rrel_4: rrel_assign: rrel_scp_var: _connector15_2_2;;
+						->rrel_5: rrel_fixed: rrel_scp_const: number_of_hour_in_day;;
+						=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op15_3;;
+						=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_0_from_date;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op15_3
+					(*
+						<-searchElStr5;;
+						->rrel_1: rrel_assign: rrel_scp_var: _t_minute;;
+						->rrel_2: rrel_assign: rrel_scp_var: _connector15_3_1;;
+						->rrel_3: rrel_fixed: rrel_scp_var: _t_node;;
+						->rrel_4: rrel_assign: rrel_scp_var: _connector15_3_2;;
+						->rrel_5: rrel_fixed: rrel_scp_const: number_of_minut_in_hour;;
+						//=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+						=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_op15_5;;
+						=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_op15_4;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op15_4
+					(*
+						<-contAssign;;
+						->rrel_1: rrel_assign: rrel_scp_var: _t_minute;;
+						->rrel_2: rrel_fixed: rrel_scp_const: [0];;
+						=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op15_5;;
+						//=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op15_5
+					(*
+						<- ifEq;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _hour;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _t_hour;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_op15_7;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_op15_6;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op15_6
+					(*
+						<- ifGr;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _t_hour;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _hour;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_0_from_date;;
+						//=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_time;;
+					*);;
+					->..proc_search_working_restaurants_with_given_cuisine_op15_7
+					(*
+						<- ifEq;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _minute;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _t_minute;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_op15_8;;
+					*);;					
+					->..proc_search_working_restaurants_with_given_cuisine_op15_8
+					(*
+						<- ifGr;;
+						-> rrel_1: rrel_fixed: rrel_scp_var: _t_minute;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _minute;;
+						=> nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_t;;
+						=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_rest_0;;
+						//=> nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_time;;
+					*);;
+				->..proc_search_working_restaurants_with_given_cuisine_erase_date
+				(*
+					<-eraseEl;;
+					->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector13_2;;
+					=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op13_0_2;;
+				*);;
+										->..proc_search_working_restaurants_with_given_cuisine_erase_rest_0_from_date
+										(*
+											<-printNl;;
+											->rrel_1: rrel_fixed: rrel_scp_const: [Удаление ресторана];;
+											=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_erase_rest_1_from_date;;
+										*);;
+										->..proc_search_working_restaurants_with_given_cuisine_erase_rest_1_from_date
+										(*
+											<-searchElStr3;;
+											->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+											->rrel_2: rrel_assign: rrel_scp_var: _connector1;;
+											->rrel_3: rrel_fixed: rrel_scp_var: _restaurant;;
+											=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_rest_2_from_data;;
+											=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase_date;;
+										*);;
+										->..proc_search_working_restaurants_with_given_cuisine_erase_rest_2_from_data
+										(*
+											<-eraseEl;;
+											->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector1;;
+											=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_erase_rest_3_from_data;;
+										*);;
+										->..proc_search_working_restaurants_with_given_cuisine_erase_rest_3_from_data
+										(*
+											<-eraseEl;;
+											->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _times;;
+											=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_erase_rest_4_from_data;;
+										*);;
+										->..proc_search_working_restaurants_with_given_cuisine_erase_rest_4_from_data
+										(*
+											<-eraseEl;;
+											->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _days;;
+											=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_erase;;
+										*);;	
+
+			->..proc_search_working_restaurants_with_given_cuisine_erase_point
+			(*
+				<-eraseEl;;
+				->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector10;;
+				=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op10;;
+			*);;
+		->..proc_search_working_restaurants_with_given_cuisine_erase_rest_1
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _restaurant;;
+			=>nrel_then:..proc_search_working_restaurants_with_given_cuisine_erase_rest_2;;
+			=>nrel_else:..proc_search_working_restaurants_with_given_cuisine_erase;;
+		*);;
+		->..proc_search_working_restaurants_with_given_cuisine_erase_rest_2
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector1;;
+			=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_erase;;
+		*);;				
+		->..proc_search_working_restaurants_with_given_cuisine_erase
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector7;;
+			=>nrel_goto:..proc_search_working_restaurants_with_given_cuisine_op7;;
+		*);;
+
+		/////////////////////////////////////////////////////////////
+		->..proc_search_working_restaurants_with_given_cuisine_return
+		(*
+			<-return;;
+		*);;
+	*);;
+*);;
