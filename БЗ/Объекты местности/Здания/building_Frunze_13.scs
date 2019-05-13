@@ -16,6 +16,7 @@ building_Frunze_13
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -27,6 +28,7 @@ building_Frunze_13
 
 
 	*);
+<=nrel_whole_part:Frunze_Street;
 => nrel_osm_query: [way(25431472);];
 => nrel_geographical_location: ...
 	(*

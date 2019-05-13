@@ -1,0 +1,45 @@
+concept_cuisine
+=>nrel_main_idtf:
+    [кухня](*<-lang_ru;;*);
+    [cuisine](* <-lang_en;; *);
+    [кухня](*<-lang_by;;*);
+<-sc_node_not_relation;
+=>nrel_inclusion:concept_national_cuisine;
+<- rrel_key_sc_element:
+	 Definition_of_the_cuisine_concept
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия кухня]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of cuisine]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "кухня"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Кухня - совокупность традиций и рецептов приготовления пищи обусловленная различными условиями] (* <-lang_ru;; *);; 
+			*);
+			...
+			(* 
+			-> rrel_example:
+			[A cuisine is a style of cooking characterized by distinctive ingredients, techniques and dishes] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Кухня - сукупнасць традыцый і рэцэптаў прыгатавання ежы, абумоўленая рознымі ўмовамі] (* <-lang_by;; *);; 
+			*);;
+
+
+	*);;

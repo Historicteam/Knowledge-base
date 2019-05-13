@@ -1,0 +1,18 @@
+Action.jewish_shooting_07_42
+=>nrel_main_idtf:
+	[Действие.расстел в июле 1942 в минском гетто] (* <-lang_ru;; *);
+<-begin_date_28_07_1942;
+<-completion_date_31_07_1942;
+=>nrel_location: minsk_ghetto;
+<-action.shooting;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[Погром длился 4 дня, трудоспособных узников всё это время держали на работе.
+ Были убиты около 30 000 человек] 	
+			(*<- lang_ru;;*);;
+		*);;
+*);;

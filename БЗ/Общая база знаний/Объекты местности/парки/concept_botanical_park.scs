@@ -1,0 +1,7 @@
+concept_botanical_park
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[ботанический парк](* <- lang_ru;; *);
+	[botanical park](* <- lang_en;; *);
+	[батанічны парк](* <- lang_by;; *);;

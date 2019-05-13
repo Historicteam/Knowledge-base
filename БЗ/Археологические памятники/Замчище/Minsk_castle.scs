@@ -1,0 +1,45 @@
+Minsk_castle
+
+=>nrel_main_idtf:
+	[Минский замок] (* <-lang_ru;; *);
+	[Minsk' castle] (* <-lang_en;; *);
+	[Мінскі замак] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Замок был возведен на правом берегу Свислочи в месте впадения в нее Немиги. Овальная в плане площадь замка (3 га) была обнесена по периметру мощным земляным валом. Песчано-гравийная насыпь достигала в ширину 20 м. Внутри вал был армирован специальным деревянным каркасом из сосновых бревен, положенных в девять накатов строго поперек и вдоль трассы вала.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [The castle was erected on the right bank of the Svisloch at the place where Nemigi fell into it. The castle’s oval area (3 hectares) was surrounded by a powerful earthen bank around the perimeter. The sand-gravel mound reached a width of 20 m. Inside, the shaft was reinforced with a special wooden frame made of pine logs, laid in nine rolls strictly across and along the route of the shaft.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Замак быў узведзены на правым беразе Свіслачы ў месцы ўпадзення ў яе Нямігі. Авальная ў плане плошча замка (3 га) была абнесеная па перыметры магутным земляным валам. Пясчана-жвіровы насып дасягала ў шырыню 20 м. унутры вал быў армаваны спецыяльным драўляным каркасам з хваёвых бярвення, пакладзеных у дзевяць накатаў строга папярок і ўздоўж трасы вала.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_plan_of_Minsk_Castle (*
+	=> nrel_main_idtf:
+		[Изображение Минского замка на плане 1773 г.] (* <- lang_ru;; *);
+		[Выява Мінскага замка на плане 1773 г.] (* <- lang_by;; *);
+		[Picture of Minsk Castle on the plan of 1773] (* <- lang_en;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Minsk_castle.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- concept_building;
+<- concept_lost_constructions;;

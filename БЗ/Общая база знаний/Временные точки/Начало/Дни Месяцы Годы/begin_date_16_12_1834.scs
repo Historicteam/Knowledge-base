@@ -19,5 +19,7 @@ begin_date_16_12_1834
 		<-number_of_day_in_month: [16];;
 		<-number_of_month_in_year: [12];;
 		<-number_of_year: [1834];;
-	*);;
+	*);
+<-begin_date_12_1834;
+<-begin_date_1834;;
 

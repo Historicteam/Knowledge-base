@@ -1,0 +1,7 @@
+concept_park_of_culture_and_rest
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[парк культуры и отдыха](* <- lang_ru;; *);
+	[park of culture and rest](* <- lang_en;; *);
+	[парк культуры і адпачынку](* <- lang_by;; *);;

@@ -6,9 +6,5 @@ Leningradskaya_street
 			(*
 			<- lang_by;;
 			*);
-	<= nrel_subdividing: 
-	{
-	House_Revenskogo
-	};
 	<- concept_street;;
 

@@ -1,0 +1,53 @@
+concept_park
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[парк](* <- lang_ru;; *);
+	[park](* <- lang_en;; *);
+	[парк](* <- lang_by;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- sc_definition;;
+	<= nrel_using_constants:
+		...
+	(* -> concept_garden;; *);;
+	=> nrel_main_idtf:[Опр.(парк)](* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:...
+	(*
+		-> [Парк — объект градостроения, представляющий собой открытую обширную (обычно больше 10-15 га) озелененную территорию, благоустроенную и художественно оформленню для отдыха под открытым небом. Как правило, парки содержатся государством и предоставляются для отдыха всем желающим. Бывают разных видов.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+
+concept_park <= nrel_subdividing:
+	...
+  (*
+	=>nrel_main_idtf:[Разбиение парков по статусу.](* <-lang_ru;; *);;
+	-> concept_botanical_park;;
+	-> concept_zoological_park;;
+	-> concept_national_park;;
+	*);;
+
+concept_park <= nrel_subdividing:
+	...
+  (*
+	=>nrel_main_idtf:[Разбиение парков по функционалу.](* <-lang_ru;; *);;
+	-> concept_natural_park;;
+	-> concept_forest_park;;
+	-> concept_park_of_culture_and_rest;;
+	*);;
+
+concept_park <= nrel_subdividing:
+	...
+  (*
+	=>nrel_main_idtf:[Разбиение парков по планировке.](* <-lang_ru;; *);;
+	-> concept_regular_park;;
+	-> concept_irregular_park;;
+	*);;
+
+
+concept_territory
+=> nrel_main_idtf:
+	[территория](* <- lang_ru;; *);
+	[territory](* <- lang_en;; *);;

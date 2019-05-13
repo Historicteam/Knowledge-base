@@ -1,0 +1,21 @@
+Action.last_jewish_shooting
+
+=>nrel_main_idtf:
+	[Действие.последний погром в минском гетто] (* <-lang_ru;; *);
+
+<-begin_date_21_10_1943;
+<-completion_date_23_10_1943;
+=>nrel_location: minsk_ghetto;
+<-action.shooting;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[Были убиты все ещё живые к тому времени узники
+				На территории Минского гетто в живых осталось только 13 человек] 	
+			(* <- lang_ru;;*);;
+		*);;
+*);;

@@ -1,0 +1,41 @@
+Botanical_garden
+=> nrel_main_idtf:
+	[Ботанический сад]
+	(*
+	<- lang_ru;;
+	*);
+	[Botanical garden]
+	(*
+	<- lang_en;;
+	*);
+
+<-concept_garden;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.914298, 27.613071]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.914298;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.613071;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+
+=> nrel_osm_query: [way(222265);];;

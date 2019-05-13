@@ -1,0 +1,11 @@
+Founding_documents_of_BNR
+
+<-sc_const;
+<-concept_document;
+
+=> nrel_main_idtf:
+  [Учредительные документы БНР](* <- lang_ru;; *);
+  [Founding documents of BNR](* <- lang_en;; *);
+  [Ўстаноўчыя дакументы БНР](* <- lang_by;; *);
+
+<= nrel_founding_document: state_belarusian_people_s_republic;;

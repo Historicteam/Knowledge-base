@@ -15,7 +15,7 @@ building_of_residential_housing_of_male_Bernardine_monastery
 	*);
 <-concept_building;
 <-concept_terrain_object;
-
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 => nrel_osm_query: [way(25327547);];
 
 <= nrel_temporal_decomposition: 
@@ -173,6 +173,7 @@ concept_situation->[*
         <- rrel_key_sc_element: Image_of_residential_housing_of_male_Bernardine_monastery 
 	(*
 	<- sc_illustration;;
+	<-key_image;;
     	<= nrel_sc_text_translation: ... 
     		(*
      	   	->rrel_example: "file://content/berncy_corpus.jpg" 

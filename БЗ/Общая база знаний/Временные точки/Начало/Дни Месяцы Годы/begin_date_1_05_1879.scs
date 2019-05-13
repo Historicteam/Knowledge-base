@@ -1,0 +1,24 @@
+begin_date_1_05_1879
+=> nrel_main_idtf:
+   [время начала - 1(13) мая 1879]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 1(13) May of 1879]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 1(13) мая 1879]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [1(13)];;
+   <- number_of_month_in_year: [5];;
+   <- number_of_year: [1879];;
+   *);
+   <- begin_date_05_1879;
+   <- begin_date_1879;;

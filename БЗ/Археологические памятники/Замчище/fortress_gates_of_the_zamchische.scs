@@ -1,0 +1,45 @@
+fortress_gates_of_the_zamchische
+
+=> nrel_main_idtf:
+    [Крепостные ворота Замчища] (* <- lang_ru;; *);
+    [Fortress gates of the Zamchische] (* <- lang_en;; *);
+    [Прыгонныя вароты Замчышча] (* <- lang_by;; *);
+
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Крепостные ворота находились в юго-восточной части детинца. На их место указывают все исторические планы города.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [The fortress gates were located in the southeastern part of the Detinets. In their place are used all the historical plans of the city.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Прыгонныя вароты знаходзіліся ў паўднёва-ўсходняй частцы дзяцінца. На іх месца паказваюць усе Гістарычныя планы горада.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_fortress_gates_of_the_Zamchische (*
+	=> nrel_main_idtf:
+		[Изображение крепостных ворот Замчища] (* <- lang_ru;; *);
+		[Picture of fortress gates of the Zamchische] (* <- lang_en;; *);
+		[Выява прыгонных варот Замчышча] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Fortress_gates_of_the_Zamchische.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+
+<- concept_defenses;
+<- concept_lost_constructions;;

@@ -1,0 +1,15 @@
+Gorkij_Maksim
+=> nrel_main_idtf:
+	[Горький Максим]
+	(*
+	<- lang_ru;;
+	*);
+	[Gorkij Maksim]
+	(*
+	<- lang_en;;
+	*);
+	[Горкі Максім]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

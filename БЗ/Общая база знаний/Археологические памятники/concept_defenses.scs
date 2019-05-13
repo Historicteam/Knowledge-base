@@ -1,0 +1,29 @@
+concept_defenses
+
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [оборонительные сооружения] (* <- lang_ru;; *);
+    [defenses] (* <- lang_en;; *);
+    [абарончыя збудаванні] (* <- lang_by;; *);
+
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Сооружения, возводимые (оборудуемые) на местности с целью обеспечить войскам условия для ведения обороны, уменьшить их потери и затруднить наступление противнику при осаде.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Facilities erected (equipped) on the ground in order to provide troops with conditions for defense, reduce their losses and make it more difficult for the enemy to advance during a siege.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Збудаванні, якія ўзводзяцца (абсталёўваюцца) на мясцовасці з мэтай забяспечыць войскам ўмовы для вядзення абароны, паменшыць іх страты і абцяжарыць наступ суперніку пры аблозе.] (* <-lang_by;; *);; 
+			*);;
+	*);;

@@ -1,0 +1,7 @@
+organization_Agricultural_school_in_Marina_Gorka
+<-concept_organization;
+
+=> nrel_main_idtf:
+	[Марьиногорское сельскохозяйственное училище] (* <- lang_ru;; *);
+	[Agricultural_school_in_Marina_Gorka] (* <- lang_en;; *);
+	[Марьиногорское сельскохозяйственное училище] (* <- lang_by;; *);;

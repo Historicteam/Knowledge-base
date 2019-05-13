@@ -1,14 +1,14 @@
-begin_date_07_1931
+begin_date_04_1931
 => nrel_main_idtf:
-   [время начала - июль 1931]
+   [время начала - апрель 1931]
    (*
    <- lang_ru;;
    *);
-   [begin date - july of 1931]
+   [begin date - April of 1931]
    (*
    <- lang_en;;
    *);
-   [час пачатку - лiпень 1931]
+   [час пачатку - красавік 1931]
    (*
    <- lang_by;;
    *);
@@ -16,7 +16,7 @@ begin_date_07_1931
    <- begin;
    => nrel_Gregorian_calendar_scale: ...
    (*
-   <- number_of_month_in_year: [7];;
+   <- number_of_month_in_year: [4];;
    <- number_of_year: [1931];;
    *);
    <- begin_date_1931;;

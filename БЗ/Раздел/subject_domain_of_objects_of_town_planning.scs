@@ -1,0 +1,60 @@
+subject_domain_of_objects_of_town_planning
+=> nrel_main_idtf:
+	[Предметная область объектов градостроения] 
+	(* <- lang_ru;; *);
+	[Subject domain of objects of town planning]	
+	(* <- lang_en;; *);
+<- subject_domain;
+
+=> nrel_primary_elements_class_private_subject_domain: 
+    subject_domain_of_constructions;
+
+-> rrel_maximum_studied_object_class:
+    concept_object_of_town_planning;
+
+-> rrel_not_maximum_studied_object_class:
+	concept_street;
+	concept_avenue;
+	concept_boulevard;
+	
+	concept_park;
+	concept_regular_park;
+	concept_irregular_park;
+	concept_botanical_park;
+	concept_zoological_park;
+	concept_national_park;	
+	concept_natural_park;
+	concept_forest_park;
+	concept_park_of_culture_and_rest;
+	
+	concept_garden;
+	concept_botanical_garden;
+	concept_decorative_garden;
+	concept_fruit_garden;
+	concept_meadow_garden;
+
+	concept_public_garden;
+
+	concept_territorial_zone;
+	concept_zones_of_urban_development_settlements;
+	concept_agricultural_zones;
+	concept_forest_management_zones;
+	concept_nature_protection_and_recreation_zones;
+	concept_special_purpose_zones;
+	concept_residential_zones;
+	concept_public_and_business_zones;
+	concept_industrial_zones;
+	concept_zones_of_transport_engineering_infrastructure;
+	concept_recreational_zones;
+	concept_zones_for_the_placement_of_horticultural_associations_and_dacha_cooperatives;
+	
+	concept_city_district;
+	concept_road;
+	concept_square;
+	concept_quarter;
+
+
+-> rrel_explored_relation:
+	nrel_adjacent;
+	nrel_be_surrounded_by;
+	nrel_location;;

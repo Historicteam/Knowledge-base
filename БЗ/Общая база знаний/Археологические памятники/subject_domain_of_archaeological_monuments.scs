@@ -1,0 +1,44 @@
+subject_domain_of_archaeological_monuments
+=> nrel_main_idtf:
+	[Предметная область археологических памятников] 
+	(* <- lang_ru;; *);
+	[Subject domain of archaeological monuments]	
+	(* <- lang_en;; *);
+<- subject_domain;
+
+//=> nrel_primary_elements_class_private_subject_domain: 
+
+-> rrel_maximum_studied_object_class:
+    concept_archaeological_monument;
+
+-> rrel_not_maximum_studied_object_class:
+    concept_burial_mound;
+    concept_ground_mound;
+    concept_mound;
+    concept_under_burial_mounds;
+    concept_cenotaph;
+    concept_funerary_monument;
+    concept_memorial_complex;
+    concept_necropolis;
+    concept_cave;
+    concept_hillfort;
+    concept_settlement;
+    concept_settler_monument;
+    concept_stand;
+    concept_cairn;
+    concept_cromlech;
+    concept_dolmen;
+    concept_megaliths;
+    concept_menhir;
+    concept_labyrinth;
+    concept_revered_place;
+    concept_ritual_and_religious_monuments;
+    concept_sanctuary;
+    concept_chance_find;
+    concept_flooded_city;
+    concept_shipwreck;
+    concept_specific_type_monuments;
+    concept_treasure;
+
+-> rrel_explored_relation:
+	nrel_number_of_mounds;;

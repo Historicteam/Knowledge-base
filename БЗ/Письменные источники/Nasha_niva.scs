@@ -1,0 +1,14 @@
+Nasha_niva
+=>nrel_main_idtf:
+	[Газета "Наша нива"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Newspaper "Nasha niva"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Газета "Наша ніва"] (* <-lang_by;; *);
+
+<- begin_date_1906;
+<- completion_date_1915;
+
+=>nrel_publisher:organization_belarusian_socialist_hramada;
+<-concept_periodical;	
+<-sc_const;;

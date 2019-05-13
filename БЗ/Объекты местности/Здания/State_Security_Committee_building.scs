@@ -104,6 +104,7 @@ concept_situation->[*State_Security_Committee_building
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

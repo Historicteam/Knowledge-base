@@ -1,0 +1,11 @@
+Goman
+=>nrel_main_idtf:
+	[Газета "Гоман"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Newspaper "Goman"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Газета "Гоман"] (* <-lang_by;; *);
+
+=>nrel_publisher:organization_belarusian_socialist_hramada;
+<-concept_periodical;	
+<-sc_const;;

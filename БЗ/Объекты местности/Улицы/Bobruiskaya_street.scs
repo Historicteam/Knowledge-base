@@ -1,0 +1,15 @@
+Bobruiskaya_street
+=> nrel_main_idtf:
+			[Улица Бобруйская]
+			(*
+			<- lang_ru;;
+			*);
+			[Bobruiskaya street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Бабруйская]
+			(*
+			<- lang_by;;
+			*);
+<-concept_street;;

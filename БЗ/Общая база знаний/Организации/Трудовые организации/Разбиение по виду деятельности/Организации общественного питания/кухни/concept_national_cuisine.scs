@@ -1,0 +1,43 @@
+concept_national_cuisine
+=>nrel_main_idtf:
+    [национальная кухня](*<-lang_ru;;*);
+    [national cuisine](* <-lang_en;; *);
+    [нацыянальная кухня](*<-lang_by;;*);
+<-sc_node_not_relation;
+=>nrel_inclusion:belarussian_cuisine;
+<- rrel_key_sc_element:
+	 Definition_of_the_national_cuisine_concept
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия национальная кухня]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of national cuisine]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "нацыянальная кухня"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Национальная кухня - совокупность традиций и рецептов приготовления пищи принятых в определенной стране или народе] (* <-lang_ru;; *);; 
+			*);
+			...
+			(* 
+			-> rrel_example:
+			[National cuisine - a set of traditions and cooking recipes adopted in a particular country or people] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Нацыянальная кухня - сукупнасць традыцый і рэцэптаў прыгатавання ежы прынятых у пэўнай краіне ці народзе] (* <-lang_by;; *);; 
+			*);;
+	*);;

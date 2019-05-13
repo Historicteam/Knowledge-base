@@ -12,8 +12,7 @@ Zakharovskaja_street
 	[Вуліца Захараўская]
 	(*
 		<-lang_by;;
-	*);
-<=nrel_subdividing:building_the_home_of_vincent_dunin_marcinkievich;;
+	*);;
 
 concept_situation->[*
 Zakharovskaja_street

@@ -1,0 +1,46 @@
+concept_quarter
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[квартал](* <- lang_ru;; *);
+	[quarter](* <- lang_en;; *);
+	[квартал](* <- lang_by;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- sc_definition;;
+	<= nrel_using_constants:
+		...
+	(* -> concept_city;;
+	   ->concept_street;; *);;
+	=> nrel_main_idtf:[Опр.(квартал)](* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:...
+	(*
+		-> [Объект градостроения, представляющий собой некоторую городскую территорию,со всех сторон ограниченную пересекающимися улицами.](* <- lang_ru;; *);;
+	*);;
+*);;
+
+
+concept_quarter <= nrel_subdividing:
+	...
+  (*
+	=>nrel_main_idtf:[Разбиение по признаку предназначения квартала.](* <-lang_ru;; *);;
+	-> concept_residential_quarter;;
+	-> concept_business_quarter;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Квартал — в архитектуре и градостроительстве часть территории города. Часто употребляется в устойчивых сочетаниях.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

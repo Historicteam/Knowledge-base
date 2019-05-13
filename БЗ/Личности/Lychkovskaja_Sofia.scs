@@ -1,0 +1,16 @@
+Lychkovskaja_Sofia
+=> nrel_main_idtf:
+	[Лычковская София]
+	(*
+	<- lang_ru;;
+	*);
+	[Lychkovskaja Sofia]
+	(*
+	<- lang_en;;
+	*);
+	[Лычкоўская Сафія]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_woman;;

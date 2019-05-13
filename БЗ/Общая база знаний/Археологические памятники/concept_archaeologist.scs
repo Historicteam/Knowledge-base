@@ -1,0 +1,29 @@
+concept_archaeologist
+
+=>nrel_main_idtf:
+	[археолог] (* <-lang_ru;; *);
+	[archaeologist] (* <-lang_en;; *);
+	[археолаг] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Является ученым, который по сохранившимся останкам жизнедеятельности изучает быт и культуру древних цивилизаций. Археолог проводит <sc_element sys_idtf="concept_excavation">раскопки</sc_element> для поиска источников исследования.] (* <-lang_ru;; => nrel_format: format_html;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [He is a scientist who studies the life and culture of ancient civilizations from preserved remains of vital activity. An archaeologist is <sc_element sys_idtf="concept_excavation">excavating</sc_element> to find sources of research.] (* <-lang_en;; => nrel_format: format_html;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [З'яўляецца навукоўцам, які па захаваных парэшткаў жыццядзейнасці вывучае быт і культуру старажытных цывілізацый. Археолаг праводзіць <sc_element sys_idtf="concept_excavation">раскопкі</sc_element> для пошуку крыніц даследавання.] (* <-lang_by;; => nrel_format: format_html;; *);; 
+			*);;
+	*);
+
+<- sc_node_not_relation;;

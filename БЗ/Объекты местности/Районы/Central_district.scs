@@ -1,0 +1,44 @@
+Central_district
+=> nrel_main_idtf:
+	[Центральный район]
+	(*
+	<- lang_ru;;
+	*);
+	[Central district]
+	(*
+	<- lang_en;;
+	*);
+	[Цэнтральны раён]
+	(*
+	<- lang_by;;
+	*);
+<-concept_city_district;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.917199, 27.546542]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.917199;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.546542;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+
+=> nrel_osm_query: [way(59249);];;

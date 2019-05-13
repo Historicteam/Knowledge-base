@@ -1,0 +1,15 @@
+Oboynaya_street
+=> nrel_main_idtf:
+			[Улица Обойная]
+			(*
+			<- lang_ru;;
+			*);
+			[Oboynaya street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Абойная]
+			(*
+			<- lang_by;;
+			*);
+<- concept_street;;

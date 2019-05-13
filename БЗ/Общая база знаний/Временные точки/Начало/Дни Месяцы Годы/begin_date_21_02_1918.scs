@@ -1,0 +1,24 @@
+begin_date_21_02_1918
+=> nrel_main_idtf:
+   [время начала - 21 февраля 1918]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 21 february of 1918]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 21 лютага 1918]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [21];;
+   <- number_of_month_in_year: [2];;
+   <- number_of_year: [1942];;
+   *);
+   <- begin_date_02_1918;
+   <- begin_date_1918;;

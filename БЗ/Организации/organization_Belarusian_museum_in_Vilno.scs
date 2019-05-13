@@ -1,0 +1,17 @@
+organization_Belarusian_museum_in_Vilno
+=> nrel_main_idtf:
+	[Белорусский музей в Вильно]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian Museum in Vilno]
+	(*
+	<- lang_en;;
+	*);
+	[Беларускі музей у Вільні]
+	(*
+	<- lang_by;;
+	*);
+
+
+<-concept_organization;;

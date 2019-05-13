@@ -1,0 +1,16 @@
+Kulman_street
+=> nrel_main_idtf:
+			[Улица Кульман]
+			(*
+			<- lang_ru;;
+			*);
+			[Kulman street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Кульман]
+			(*
+			<- lang_by;;
+			*);
+->house_15_Kullmans_Street;
+<-concept_street;;

@@ -1,0 +1,21 @@
+Zerno
+=>nrel_main_idtf:
+    [Зерно](*<-lang_ru;;*);
+    [Zerno](* <-lang_en;;*);
+    [Зярно](*<-lang_by;;*);
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_7_00_23_00; 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/zerno.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_46_Independence_Avenue;;

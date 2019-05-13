@@ -1,0 +1,15 @@
+L_Bedy_street
+=> nrel_main_idtf:
+			[Улица Леонида Беды]
+			(*
+			<- lang_ru;;
+			*);
+			[Leonid Bedy street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Леаніда Бяды]
+			(*
+			<- lang_by;;
+			*);
+<-concept_street;;

@@ -1,0 +1,25 @@
+big_minsk_ghetto
+=>nrel_main_idtf:
+	["Большое" гетто](*<-lang_ru;;*);
+	["Big" ghetto](*<-lang_en;;*);
+	["Вялiкае" гета](*<-lang_by;;*);
+<-concept_ghetto;
+<-begin_date_20_07_1941;
+<-completion_date_21_10_1943;
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_statement;;
+	<=nrel_sc_text_translation:
+		...
+			(*
+				->rrel_example:[Территория "Большого" гетто охватывала 39 улиц и переулков вокруг Юбилейной площади — в районе еврейского кладбища и Нижнего рынка. Обшая площадь 2 км\кв]
+				(*
+				<-lang_ru;;
+				*);;
+			*);;
+*);;
+
+
+
+	

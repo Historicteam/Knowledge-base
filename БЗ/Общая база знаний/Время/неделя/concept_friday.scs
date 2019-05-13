@@ -1,0 +1,44 @@
+concept_friday
+    => nrel_main_idtf:
+    [пятница](* <- lang_ru;; *);
+    [пятніца](* <-lang_by;;*);
+    [friday](*<-lang_en;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_concept_friday
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "пятница"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of concept friday]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "пятніца"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[пятница - пятый день недели] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_eample:
+            [friday is 5th day of the week](*<-lang_en;;*);;
+            *);
+			...
+			(* 
+			-> rrel_example:
+			[ пятніца - пяты дзень тыдня ] (* <-lang_by;; *);; 
+			*);;
+	*);
+	<=nrel_inclusion:day;
+    <-rrel_number_of_day_in_week:5;;

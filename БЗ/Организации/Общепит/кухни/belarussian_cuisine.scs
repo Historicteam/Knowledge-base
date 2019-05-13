@@ -1,0 +1,6 @@
+belarussian_cuisine
+=>nrel_main_idtf:
+    [Белорусская кухня](*<-lang_ru;;*);
+    [Belarussian cuisine](* <-lang_en;; *);
+    [Беларуская кухня](*<-lang_by;;*);
+<-national_cuisine;;

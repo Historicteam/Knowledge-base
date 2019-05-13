@@ -1,0 +1,18 @@
+nrel_be_founded_in_memory_of
+<- sc_node_norole_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[быть основанным в память*]
+	(*
+	<- lang_ru;;
+	*);
+	[be founded in memory of*]
+	(*
+	<- lang_en;;
+	*);
+	[быць заснаваным у памяць*]
+	(*
+	<- lang_by;;
+	*);;
+

@@ -1,0 +1,15 @@
+Revolution_street
+=> nrel_main_idtf:
+			[Улица Революционная]
+			(*
+			<- lang_ru;;
+			*);
+			[Revolution street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Рэвалюцыйная]
+			(*
+			<- lang_by;;
+			*);
+<-concept_street;;

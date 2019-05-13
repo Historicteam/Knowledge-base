@@ -1,0 +1,15 @@
+Nevskij_Aleksandr
+=> nrel_main_idtf:
+	[Невский Александр]
+	(*
+	<- lang_ru;;
+	*);
+	[Nevskij Aleksandr]
+	(*
+	<- lang_en;;
+	*);
+	[Неўскі Александр]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

@@ -1,0 +1,21 @@
+monument_in_honor_of_Goretckij
+=> nrel_main_idtf:
+	[Памятник М.Горецкому]
+	(*
+	<- lang_ru;;
+	*);
+	[The Statue of Maksim Goretckij]
+	(*
+	<- lang_en;;
+	*);
+	[Помнік М.Гарэцкага]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_monument;
+
+=>nrel_be_founded_in_the_name_of:Goretckij_Maksim;
+
+=> nrel_location: Revolutsionnaya_Street_2;;
+

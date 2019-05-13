@@ -1,0 +1,11 @@
+key_image
+
+=> nrel_main_idtf:
+	[ключевое изображение]
+	(*
+	<- lang_ru;;
+	*);
+	[key image]
+	(*
+	<- lang_en;;
+	*);;

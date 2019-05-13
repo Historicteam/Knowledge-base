@@ -1,0 +1,7 @@
+concept_forest_park
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[лесопарк](* <- lang_ru;; *);
+	[forest park](* <- lang_en;; *);
+	[лесапарк](* <- lang_by;; *);;

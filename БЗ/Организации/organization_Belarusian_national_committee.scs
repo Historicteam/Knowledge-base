@@ -1,0 +1,16 @@
+organization_Belarusian_national_committee
+=> nrel_main_idtf:
+	[Белорусский национальный комитет]
+	(*
+	<- lang_ru;;
+	*);
+        [Belarusian national Committee]
+	(*
+	<- lang_en;;
+	*);
+        [Беларускі нацыянальны камітэт]
+	(*
+	<- lang_by;;
+	*);
+
+=>nrel_representative_organ:concept_belarusian_political_party;;

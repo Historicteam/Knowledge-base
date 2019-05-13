@@ -1,0 +1,22 @@
+completion_date_03_1942
+=> nrel_main_idtf:
+   [время завершения - март 1942]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - march of 1942]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - сакавiк 1942]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [3];;
+   <- number_of_year: [1942];;
+   *);
+   <- completion_date_1942;;

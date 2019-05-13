@@ -1,0 +1,9 @@
+Action.detention_Sereda_Ivan_Nikitovich
+
+=>nrel_main_idtf:
+	[Действие. арест Ивана Никитовича Середы] (* <-lang_ru;; *);
+
+=>nrel_object: Sereda_Ivan_Nikitovich;
+=>nrel_performer: organization_State_political_administration_of_the_BSSR;
+<-begin_date_04_07_1930;
+<-action.detention;;

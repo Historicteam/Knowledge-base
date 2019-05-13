@@ -1,0 +1,12 @@
+Nasha_dolja
+=>nrel_main_idtf:
+	[Газета "Наша доля"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Newspaper "Nasha dolja"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Газета "Наша доля"] (* <-lang_by;; *);
+
+
+=>nrel_publisher:organization_belarusian_socialist_hramada;
+<-concept_periodical;	
+<-sc_const;;

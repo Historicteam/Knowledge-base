@@ -1,0 +1,10 @@
+monkey_food
+=>nrel_main_idtf:
+    [Monkey food](* <-lang_en;;*);
+    [Monkey food](* <-lang_ru;;*);
+<-concept_catering_organization;
+=>nrel_cuisine:vegan_cuisine;
+<-concept_catering_with_counter_service;
+=>nrel_working_hours: Mon_Sun_11_00_22_00;
+    
+=>nrel_location:house_128a_Bogdanovichs_street;;

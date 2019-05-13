@@ -11,7 +11,34 @@ Yanka_Kupala_House
   [Дом Янкі Купалы]
   (*
     <- lang_by;;
-  *);;
+  *);
+
+=>nrel_osm_query:[way(25327481);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.90612, 27.56523]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.90612;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.56523;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
 
 organization_Minsk_men_gymnazi
 => nrel_main_idtf:

@@ -1,0 +1,52 @@
+concept_garden
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[cад](* <- lang_ru;; *);
+	[garden](* <- lang_en;; *);
+	[сад](* <- lang_by;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- sc_definition;;
+	<= nrel_using_constants:
+		...
+	(* -> concept_land;; *);;
+	=> nrel_main_idtf:[Опр.(сад)](* <- lang_ru;; *);;
+	<= nrel_sc_text_translation:...
+	(*
+		-> [Сад – объект градостроения, представляющий собой участок с культивируемыми растениями. Помимо древесных и кустарниковых насаждений, цветников, включает аллеи, площадки для отдыха, небольшие водоемы, малые архитектурные формы типа беседок и пр. Под термином сад в отличие от парка подразумеваются довольно ограниченные размеры (редко превышают 5-10 га). Ландшафт сада обычно имеет явно рукотворный характер. Для исторически сложившихся садов типично наличие аллей, партеров, террас, непосредственная связь с домом (дворцом, особняком).](* <- lang_ru;; *);;
+	*);;
+*);;
+
+concept_garden <= nrel_subdividing:
+	...
+  (*
+	=>nrel_main_idtf:[Разбиение садов по статусу.](* <-lang_ru;; *);;
+	-> concept_botanical_garden;;
+	-> concept_decorative_garden;;
+	*);;
+
+concept_garden <= nrel_subdividing:
+	...
+  (*
+	=>nrel_main_idtf:[Разбиение садов по функционалу.](* <-lang_ru;; *);;
+	-> concept_fruit_garden;;
+	-> concept_meadow_garden;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Также в саду могут произрастать декоративные кустарники, цветы, а также присутствовать элементы огорода.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

@@ -1,27 +1,5 @@
 
 
-concept_situation->[* Urban_homestead<- concept_arch_classicism;;*]
-(*
-    <- begin_date_1795;;
-*);;
-concept_situation->[*Urban_homestead =>nrel_owner: Pszazdziecki_Mikhail;;*]
-(*
-	<- begin_date_1795;;
-	<- completion_date_1799;;
-*);;
-
-concept_situation->[*Urban_homestead =>nrel_owner: Stankievich_Andrej;;*]
-(*
-	<- begin_date_1799;;
-	<- completion_date_1826;;
-*);;
-concept_situation->[*Urban_homestead =>nrel_owner: Kabylinski_Juryj;;*]
-(*
-	<- begin_date_1826;;
-	<- completion_date_1850;;
-*);;
-
-
 
 
 Urban_homestead
@@ -48,6 +26,34 @@ Urban_homestead
 	[Urban homestead] (* <- lang_en;; *);
 	[Гарадская сядзіба] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(25387289);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.903595, 27.552943]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.903595;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.552943;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
 
 <- rrel_key_sc_element: Image_of_city_estate (*
 	=> nrel_main_idtf:
@@ -66,6 +72,7 @@ Urban_homestead
 
 <- rrel_key_sc_element: Image_of_city_estate (*
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Городская усадьба 2.jpg" (*
@@ -96,6 +103,27 @@ concept_situation->[*Urban_homestead  <= nrel_temporal_decomposition:Building_Ga
 	<- begin_date_2012;;
 
 *);;
+concept_situation->[* Urban_homestead<- concept_arch_classicism;;*]
+(*
+    <- begin_date_1795;;
+*);;
+concept_situation->[*Urban_homestead =>nrel_owner: Pszazdziecki_Mikhail;;*]
+(*
+	<- begin_date_1795;;
+	<- completion_date_1799;;
+*);;
+
+concept_situation->[*Urban_homestead =>nrel_owner: Stankievich_Andrej;;*]
+(*
+	<- begin_date_1799;;
+	<- completion_date_1826;;
+*);;
+concept_situation->[*Urban_homestead =>nrel_owner: Kabylinski_Juryj;;*]
+(*
+	<- begin_date_1826;;
+	<- completion_date_1850;;
+*);;
+
 
 Manor_Yuri_Kobylinsky
 => nrel_main_idtf:

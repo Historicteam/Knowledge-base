@@ -1,0 +1,8 @@
+concept_object_of_town_planning
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[объект градостроения] 
+	(* <- lang_ru;; *);
+	[object of town planning]	
+	(* <- lang_en;; *);;

@@ -1,0 +1,24 @@
+Action.First_all_Belarusian_Congress_in_Minsk
+
+=>nrel_main_idtf:
+	[Действие. Первый Всебелорусский съезд в Минске] (* <-lang_ru;; *);
+
+
+=>nrel_object: First_all_Belarusian_Congress_in_Minsk;
+=>nrel_location: Minsk;
+->rrel_head: organization_Presidium_of_all_Belarusian_Congress;
+=>nrel_initiator:organization_Council_of_Belarusian_People_s_Republic;
+<-begin_date_12_1917;
+<-action.congress;;
+
+
+First_all_Belarusian_Congress_in_Minsk
+=> nrel_main_idtf:
+	[Первый всебелорусский съезд в Минске]
+	(*
+	<- lang_ru;;
+	*);
+	[First all Belarusian Congress in Minsk]
+	(*
+	<- lang_en;;
+	*);;

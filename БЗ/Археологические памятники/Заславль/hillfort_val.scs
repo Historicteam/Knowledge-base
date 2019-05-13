@@ -1,0 +1,44 @@
+hillfort_val
+
+=>nrel_main_idtf:
+	[Городище "Вал"] (* <-lang_ru;; *);
+	[Hillfort "Val"] (* <-lang_en;; *);
+	[Гарадзішча "Вал"] (* <-lang_by;; *);
+
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [История городища "Вал" начинается на границе XI - XII вв. Первоначально валы, насыпанные из песка, были высотой 3-3,5 м. Их внутренние склоны укреплялись глиной и камнями, а на отдельных участках – деревянными конструкциями. Самая значительная перестройка городища "Вал" – строительство бастионного замка – произошла в конце XVI в. и была проведена в жизнь собственником города Яном Яновичем Глебовичем.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [The history of the town "Val" begins on the border of the XI - XII centuries. Initially, shafts made of sand were 3–3.5 m high. Their internal slopes were reinforced with clay and stones, and in some areas wooden structures. The most significant restructuring of the Val settlement, the construction of the bastion castle, took place at the end of the 16th century. and was enforced by the owner of the city, Jan Yanovich Glebovich.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Гісторыя гарадзішча "Вал" пачынаецца на мяжы XI-XII стст. першапачаткова валы, насыпаныя з пяску, былі вышынёй 3-3, 5 м. іх унутраныя схілы ўмацоўваліся глінай і камянямі, а на асобных участках – драўлянымі канструкцыямі. Самая значная перабудова гарадзішча " Вал " - будаўніцтва бастыённага замка-адбылася ў канцы XVI ст. і была праведзена ў жыццё ўласнікам горада Янам Янавічам Глебавічам.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_hillfort_val (*
+	=> nrel_main_idtf:
+		[Изображение городища Вал] (* <- lang_ru;; *);
+		[Picture of hillfort Val] (* <- lang_en;; *);
+		[Выява гарадзішча Вал] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//val.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- concept_hillfort;;

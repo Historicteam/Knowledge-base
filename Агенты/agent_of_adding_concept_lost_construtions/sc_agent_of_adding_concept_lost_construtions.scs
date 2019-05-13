@@ -1,0 +1,50 @@
+sc_agent_of_adding_concept_lost_construtions
+=> nrel_main_idtf:
+	[sc-агент добавления зданий к множеству утраченных зданий] (* <- lang_ru;; *);
+	[sc-agent of adding concept lost construtions] (* <- lang_en;; *);
+
+<- abstract_sc_agent;
+
+=> nrel_primary_initiation_condition: //начальное условие для операции
+	(sc_event_add_output_arc => question_initiated);
+
+=> nrel_initiation_condition_and_result: //начальное условие и результат для операции
+	(..sc_agent_of_adding_concept_lost_construtions_condition => ..sc_agent_of_adding_concept_lost_construtions_result);
+
+<= nrel_sc_agent_key_sc_elements: //описание деятельности sc-агента
+	{
+	question_initiated;
+	question;
+	question_of_adding_concept_lost_constructions
+	};
+
+=> nrel_inclusion: //описание первичного условия инициирования sc-агента
+	.platform_independent_realization_of_sc_agent_of_adding_concept_lost_construtions
+	(*
+	<- platform_independent_abstract_sc_agent;;
+	<= nrel_sc_agent_program: 
+		{
+		agent_of_adding_buildings_to_concept_lost_constructions
+		};;
+	-> sc_agent_of_adding_concept_lost_construtions_scp    
+		(* 
+		<- active_sc_agent;; 
+		*);;  
+	*);;
+
+..sc_agent_of_adding_concept_lost_construtions_condition //условия инициирования агента
+= [*
+	question_of_adding_concept_lost_constructions _-> .._question;;
+	question_initiated _-> .._question;;
+	question _-> .._question;;
+	.._question _-> .._parameter;;
+*];;
+
+..sc_agent_of_adding_concept_lost_construtions_result //описание результатов выполнения sc-агента
+= [*
+	question_of_adding_concept_lost_constructions _-> .._question;;
+	question_finished _-> .._question;;
+	question _-> .._question;;
+	.._question _=> nrel_answer:: .._answer;;
+	.._question _-> .._parameter;;
+*];;

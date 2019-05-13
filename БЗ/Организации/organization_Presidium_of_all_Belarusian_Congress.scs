@@ -1,0 +1,10 @@
+organization_Presidium_of_all_Belarusian_Congress
+=> nrel_main_idtf:
+		[Президиум Всебелорусского съезда] (* <- lang_ru;; *);
+		[Presidium of all Belarusian Congress] (* <- lang_en;; *);
+		[Прэзідыум Усебеларускага з'езда] (* <- lang_by;; *);
+
+<-concept_organization;
+<-concept_formal_organization;
+<-concept_state_organization;
+<-concept_administrative_organization;;

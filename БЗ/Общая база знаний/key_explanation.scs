@@ -1,0 +1,11 @@
+key_explanation
+
+=> nrel_main_idtf:
+	[ключевое пояснение]
+	(*
+	<- lang_ru;;
+	*);
+	[key explanation]
+	(*
+	<- lang_en;;
+	*);;

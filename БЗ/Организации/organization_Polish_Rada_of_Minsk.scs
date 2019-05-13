@@ -1,0 +1,33 @@
+organization_Polish_Rada_of_Minsk
+=> nrel_main_idtf:
+	[Польская Рада Минской Земли]
+	(*
+	<- lang_ru;;
+	*);
+	[The Polish Rada of Minsk]
+	(*
+	<- lang_en;;
+	*);
+	[Польская Рада Мінскай Зямлі]
+	(*
+	<- lang_by;;
+	*);
+<- begin_date_05_1917;
+<-concept_government;
+->nrel_location:Minsk;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Параллельно с белорусским, в Минске активизировалось и польское национальное движение. В мае 1917 была создана Польская Рада Минской Земли (ПРМЗ).]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);;
+	*);
+<-concept_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+

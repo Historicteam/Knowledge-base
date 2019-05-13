@@ -1,0 +1,22 @@
+concept_zones_of_urban_development_settlements
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[зоны градостроительного развития населенных пунктов](* <- lang_ru;; *);
+	[zones of urban development settlements](* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Зоны градостроительного развития населенных пунктов – территории развития городов, поселков городского типа и сельских населенных пунктов.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

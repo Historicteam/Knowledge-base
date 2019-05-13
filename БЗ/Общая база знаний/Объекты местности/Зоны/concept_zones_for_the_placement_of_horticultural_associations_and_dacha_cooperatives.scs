@@ -1,0 +1,22 @@
+concept_zones_for_the_placement_of_horticultural_associations_and_dacha_cooperatives
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[зоны размещения садоводческих товариществ и дачных кооперативов](* <- lang_ru;; *);
+	[zones for the placement of horticultural associations and dacha cooperatives](* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Зоны размещения садоводческих товариществ и дачных кооперативов – территории, предназначенные для ведения коллективного садоводства и дачного строительства.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

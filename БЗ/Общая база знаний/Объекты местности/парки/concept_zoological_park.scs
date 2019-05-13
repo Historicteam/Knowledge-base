@@ -1,0 +1,7 @@
+concept_zoological_park
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[зоологический парк](* <- lang_ru;; *);
+	[zoological park](* <- lang_en;; *);
+	[заалагічны парк](* <- lang_by;; *);;

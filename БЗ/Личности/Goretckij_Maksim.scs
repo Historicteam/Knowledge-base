@@ -1,0 +1,15 @@
+Goretckij_Maksim
+=> nrel_main_idtf:
+	[Горецкий Максим]
+	(*
+	<- lang_ru;;
+	*);
+	[Goretckij Maksim]
+	(*
+	<- lang_en;;
+	*);
+	[Гарэцкі Максім]
+	(*
+	<- lang_by;;
+	*);
+<-concept_male;;

@@ -1,0 +1,18 @@
+Action.jewish_shooting_07_11_41
+
+=>nrel_main_idtf:
+	[Действие.расстел 7 ноября 1941 в минском гетто] (* <-lang_ru;; *);
+<-begin_date_07_10_1941;
+=>nrel_location: minsk_ghetto;
+<-action.shooting;
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[По разным оценкам, в этот день было убито от 5 000  до 12 000 узников] 	
+			(* <- lang_ru;;*);;
+		*);;
+*);;

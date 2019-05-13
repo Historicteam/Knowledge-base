@@ -1,0 +1,20 @@
+organization_Central_Committee_of_Belarusian_party_of_socialists_Federalists
+=> nrel_main_idtf:
+	[Центральный Комитет Белорусской партии социалистов-федералистов]
+	(*
+	<- lang_ru;;
+	*);
+	[Central Committee of the Belarusian party of socialists-Federalists]
+	(*
+	<- lang_en;;
+	*);
+	[Цэнтральны Камітэт Беларускай партыі сацыялістаў-федэралістаў]
+	(*
+	<- lang_by;;
+	*);
+
+  <- begin_date_1918;
+  <- completion_date_1920; 
+<-concept_state_organization;
+<-concept_administrative_organization;
+<-concept_political_organization;;

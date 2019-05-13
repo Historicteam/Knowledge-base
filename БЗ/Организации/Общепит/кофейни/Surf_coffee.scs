@@ -1,0 +1,20 @@
+Surf_coffee
+=>nrel_main_idtf:
+    [Surf coffee](*<-lang_ru;;*);
+    [Surf coffee](* <-lang_en;;*);
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_8_00_23_00; 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Surf_coffee.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_19_Kirova_street;;

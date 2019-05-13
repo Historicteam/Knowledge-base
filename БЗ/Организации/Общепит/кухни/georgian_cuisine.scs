@@ -1,0 +1,6 @@
+georgian_cuisine
+=>nrel_main_idtf:
+    [Грузинская кухня](*<-lang_ru;;*);
+    [Georgian cuisine](* <-lang_en;; *);
+    [Грузiнская кухня](*<-lang_by;;*);
+<-national_national_cuisine;;

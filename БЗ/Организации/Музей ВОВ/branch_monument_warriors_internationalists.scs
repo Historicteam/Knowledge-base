@@ -1,0 +1,25 @@
+organization_Branch_memorial_to_the_soldiers_internationalists
+=> nrel_main_idtf:
+	[Филиал "Памятник воинам-интернационалистам"]
+	(*
+	<- lang_ru;;
+	*);
+	[Branch "memorial to the soldiers internationalists"]
+	(*
+	<- lang_en;;
+	*);
+	[Філіял "Помнік воінам-інтэрнацыяналістам"]
+	(*
+	<- lang_by;;
+	*);
+	[Остров слёз]
+	(*
+	<- lang_ru;;
+	*);
+	[Востраў слёз]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_memory_of:afghan_war;
+ <- begin_date_03_08_1966;
+<-concept_memorial_complex;;

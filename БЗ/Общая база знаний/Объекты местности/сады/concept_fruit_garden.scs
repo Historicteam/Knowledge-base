@@ -1,0 +1,7 @@
+concept_fruit_garden
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[фруктовый cад](* <- lang_ru;; *);
+	[fruit garden](* <- lang_en;; *);
+	[фруктовы сад](* <- lang_by;; *);;

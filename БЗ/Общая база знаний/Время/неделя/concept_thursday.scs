@@ -1,0 +1,44 @@
+concept_thursday
+    => nrel_main_idtf:
+    [четверг](* <- lang_ru;; *);
+    [чацвер](* <-lang_by;;*);
+    [thursday](*<-lang_en;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_tconcept_thursday
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "четверг"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of concept thursday]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "чацвер"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[четверг - четвертый день недели] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_eample:
+            [thursday is 4th day of the week](*<-lang_en;;*);;
+            *);
+			...
+			(* 
+			-> rrel_example:
+			[ чацвер - чацвёрты дзень тыдня ] (* <-lang_by;; *);; 
+			*);;
+	*);
+	<=nrel_inclusion:day;
+    <-rrel_number_of_day_in_week:4;;

@@ -1,0 +1,16 @@
+Luckevich_Jan_Boleslav
+=> nrel_main_idtf:
+	[Луцкевич Ян-Болеслав]
+	(*
+	<- lang_ru;;
+	*);
+	[Luckevich Jan Boleslav]
+	(*
+	<- lang_en;;
+	*);
+	[Луцкевіч Ян-Баляслаў]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;;

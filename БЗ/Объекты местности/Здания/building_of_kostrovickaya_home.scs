@@ -1,6 +1,6 @@
 Kostrovickaja_house
 => nrel_main_idtf:
-	[дом Костровицкой]
+	[Дом Костровицкой]
 	(*
 	<- lang_ru;;
 	*);
@@ -21,11 +21,12 @@ Kostrovickaja_house
 	(*
 	<- lang_by;;
 		*);
+
 => nrel_architect: Henry_Gaq;
 <- rrel_key_sc_element:
 	...
 	(*
-	<-sc_definition;;
+	<-sc_explanation;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -45,9 +46,10 @@ Kostrovickaja_house
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
-		(*
+		(*	
 		->rrel_example: "file://content/kostr.jpg"
 			(*
 			=> nrel_format: format_jpg;;
@@ -89,12 +91,13 @@ Kostrovickaja_house
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
 		-> rrel_example:
-			[После Октябрьской революции он принадлежал государству. В 1960-х годах дом был взорван..]
+			[После Октябрьской революции он принадлежал государству. В 1960-х годах дом был взорван.]
 			(*
 			<- lang_ru;;
 			*);;

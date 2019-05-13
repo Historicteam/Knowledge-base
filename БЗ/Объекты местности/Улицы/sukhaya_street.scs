@@ -1,0 +1,20 @@
+Sukhaya_street
+=> nrel_main_idtf:
+			[Улица Сухая]
+			(*
+			<- lang_ru;;
+			*);
+			[Sukhaya street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Сухая]
+			(*
+			<- lang_by;;
+			*);
+<= nrel_subdividing: 
+	{
+	Monument_Broken_hearth;
+	building_Sukhaya_21
+	};
+<-concept_street;;

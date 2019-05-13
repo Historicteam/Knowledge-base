@@ -3,4 +3,31 @@ The_building_of_the_chapel_of_Felician
 => nrel_main_idtf:
 	[Здание часовни святого Фелициана] (* <- lang_ru;; *);
 	[The building of the chapel of St. Felician] (* <- lang_en;; *);
-	[Будынак капліцы святога Феліцыяна] (* <- lang_by;; *);;
+	[Будынак капліцы святога Феліцыяна] (* <- lang_by;; *);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.903152, 27.554730]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.903152;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.554730;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
+

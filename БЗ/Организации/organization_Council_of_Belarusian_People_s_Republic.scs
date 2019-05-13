@@ -1,0 +1,54 @@
+organization_Council_of_Belarusian_People_s_Republic
+=> nrel_main_idtf:
+	[Рада Белорусской Народной республики]
+	(*
+	<- lang_ru;;
+	*);
+	[The Council of Belarusian People's Republic]
+	(*
+	<- lang_en;;
+	*);
+	[Рада Беларускай Народнай рэспублікі]
+	(*
+	<- lang_by;;
+	*);
+<- begin_date_12_1917;
+
+<- concept_government;
+<- ... (* <- concept_executive;;
+	<- ...(* <- concept_formal_government_apparatus;;
+		<= nrel_political_power: state_belarusian_people_s_republic;;*);; *);
+
+->rrel_head_of_government: organization_Executive_Committee_of_the_all_Belarusian_Congress;
+->rrel_head:Konstantin_Ezovitov;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: ...
+		(* -> rrel_example:
+	[Рада (Совет) Белорусской Народной Республики — высший государственный орган Белорусской Народной Республики. ]
+			 (* 
+			<-lang_ru;;
+			 *);;
+		*);
+	...
+		(* -> rrel_example:
+	[Рада Беларускае Народнае Рэспублікі – найстарэйшая дзеючая беларуская палітычная і дзяржаўная інстытуцыя, захавальнік традыцый беларускага нацыянальнага руху ад пачатку XX стагодзьдзя.] 
+			(*
+			 <- lang_by;;
+			*);;
+		*);;
+	*);
+
+<-concept_organization;
+<-concept_formal_organization;
+<-concept_political_organization;;
+
+
+concept_situation->[*organization_Council_of_Belarusian_People_s_Republic <=nrel_subdividing:
+	{
+	organization_people_s_council;
+	organization_verkhovna_rada
+	};;
+		*] (*	<- begin_date_12_1919;; *);;

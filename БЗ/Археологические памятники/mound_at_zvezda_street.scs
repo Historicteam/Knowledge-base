@@ -1,0 +1,49 @@
+mound_at_zvezda_street
+
+=> nrel_main_idtf:
+    [Курган на проспекте Газеты «Звезда»] (* <- lang_ru;; *);
+    [Mound on the avenue of the newspaper "Zvezda"] (* <- lang_en;; *);
+    [Курган на праспекце Газеты "Звязда"] (* <- lang_by;; *);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.861302, 27.461881]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.861302;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.461881;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_the_mound_at_zvezda_street (*
+	=> nrel_main_idtf:
+		[Изображение кургана на проспекте Газеты «Звезда»] (* <- lang_ru;; *);
+		[Picture of mound on the avenue of the newspaper "Zvezda"] (* <- lang_en;; *);
+		[Выява кургану на праспекце Газеты "Звязда"] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//mound_at_zvezda_street.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+
+<- concept_burial_mound;;

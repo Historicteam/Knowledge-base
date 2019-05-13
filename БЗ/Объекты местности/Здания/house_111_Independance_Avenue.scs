@@ -1,0 +1,29 @@
+house_111_Independence_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости дом 111](*<-lang_ru;;*);
+    [House 111 Independence avenue](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_osm_query: [way(25427791);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.929091, 27.630203]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.929091;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.630203;;
+					*);;
+				*);;
+			*);;
+	*);;

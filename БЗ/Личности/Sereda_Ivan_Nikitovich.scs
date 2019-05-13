@@ -1,0 +1,114 @@
+Sereda_Ivan_Nikitovich
+=> nrel_main_idtf:
+	[Иван Никитович Середа]
+	(*
+	<- lang_ru;;
+	*);
+	[Sereda Ivan Nikitovich]
+	(*
+	<- lang_en;;
+	*);
+	[Серада Іван Мікітавіч]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf: 
+	[Янка Серада]
+	(*
+	<- lang_by;;
+	*);
+	[Ян Серада] 
+	(*
+	<- lang_by;;
+	*);		
+
+<-concept_male;
+
+<-begin_date_1_05_1879;
+<-completion_date_19_11_1943;
+
+<- rrel_member:organization_belarusian_socialist_hramada;
+<- rrel_member: organization_belarusian_socialist_federalists_party;
+<- rrel_member: organization_Belarusian_national_committee;
+<- rrel_member: organization_Presidium_of_all_Belarusian_Congress;
+<= nrel_scientific_employee: organization_Library_of_the_Institute_of_Belarusian_Culture;
+<- rrel_director: organization_Library_of_the_Institute_of_Belarusian_Culture;
+<= nrel_org: organization_Veterinary_and_zootechnical_College_in_Minsk;
+<= nrel_employee: organization_Commissariat_of_agriculture_of_BSSR;;
+
+concept_situation->[* organization_Council_of_Belarusian_People_s_Republic -> rrel_chairman_of_the_council: Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Ивана Никитовича Середы на должности председателя в Раде Белорусской Народной республики.]
+		(*<-lang_ru;;*);;
+	<- begin_date_09_03_1918;;
+	<- completion_date_14_05_1918;;
+*);;
+
+concept_situation->[* organization_Presidium_of_all_Belarusian_Congress => rrel_chairman:Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Ивана Никитовича Середы на должности председателя в Президиуме Всебелорусского съезда.]
+		(*<-lang_ru;;*);;
+	<- begin_date_09_03_1917;;
+*);;
+
+concept_situation->[* organization_Agricultural_school_in_Marina_Gorka => nrel_teacher:Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени преподавания Ивана Никитовича Середы в Марьиногорском сельскохозяйственном училище.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1907;;
+	<- completion_date_1911;;
+*);;
+
+concept_situation->[* organization_institute_Warsaw_Veterinary_Institute => nrel_student: Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени обучения Ивана Никитовича Середы в Варшавском Ветеринарном институте.]		(*<-lang_ru;;*);;
+	<- completion_date_1903;;
+*);;
+
+concept_situation->[* organization_Central_Committee_of_Belarusian_party_of_socialists_Federalists -> rrel_member:Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени членства Ивана Никитовича Середы в Центральном Комитете Белорусской партии социалистов-федералистов.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1918;;
+	<- completion_date_1918;;
+*);;
+
+concept_situation->[* organization_Veterinary_and_zootechnical_College_in_Minsk -> rrel_director:Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Ивана Никитовича Середы на должности директора в Минскиом ветеринарно-зоотехническом техникуме.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1923;;
+	<- completion_date_1924;;
+*);;
+
+concept_situation->[*organization_Belarusian_agricultural_Academy => nrel_professor:Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Ивана Никитовича Середы на должности доцента в Белорусской сельскохозяйственной академии.]
+		(*<-lang_ru;;*);;
+	<- begin_date_07_1925;;
+	<- completion_date_12_1929;;
+*);;
+
+concept_situation->[*organization_verkhovna_rada -> rrel_member :Sereda_Ivan_Nikitovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени членства Ивана Никитовича Середы в Верховной Раде БНР.]
+		(*<-lang_ru;;*);;
+	<- begin_date_07_1919;;
+	<- completion_date_12_1920;;
+*);;
+
+concept_situation->[*Sereda_Ivan_Nikitovich => nrel_dwelling :the_city_of_Jaroslavl;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени ссылки Ивана Никитовича Середы в Ярославль.]
+		(*<-lang_ru;;*);;
+	<- begin_date_10_04_1931;;
+	<- completion_date_09_07_1935;;
+*);;
+
+concept_situation->[*Sereda_Ivan_Nikitovich => nrel_dwelling :camp_Kraslag;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени ссылки Ивана Никитовича Середы в исправительно-трудовой лагерь Краслаг.]
+		(*<-lang_ru;;*);;
+	<- begin_date_27_12_1941;;
+	<- completion_date_19_11_1943;;
+*);;

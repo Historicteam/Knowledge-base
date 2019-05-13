@@ -1,0 +1,55 @@
+Luckevich_Anton_Ivanovich
+=> nrel_main_idtf:
+	[Луцкевич Антон Иванович]
+	(*
+	<- lang_ru;;
+	*);
+	[Luckevich Anton Ivanovich]
+	(*
+	<- lang_en;;
+	*);
+	[Луцкевіч Антон Іванавіч]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_male;
+
+<-begin_date_17_01_1884;
+<-completion_date_23_03_1942;
+
+=>nrel_place_of_birth:the_city_of_Siauliai;
+=>nrel_place_of_death:the_city_of_Atkarsk;
+
+=>nrel_parent:Luckevich_Jan_Boleslav;
+=>nrel_parent:Lychkovskaja_Sofia;
+
+=>nrel_coat_of_arms: coat_of_arms_Navina;
+
+<=nrel_founder:organization_belarusian_socialist_hramada;
+<- rrel_student: organization_Minsk_Male_Gymnasium;;
+
+
+concept_situation->[* organization_Vilnius_library_and_reading_room_Knowledge => nrel_owner:Luckevich_Anton_Ivanovich;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени владения Луцкевичем Антоном Ивановичем Вильнюсской библиотекой-читальней "Знание".]
+		(*<-lang_ru;;*);;
+	<- begin_date_1914;;
+	<- completion_date_1942;;
+*);;
+
+concept_situation->[*Luckevich_Anton_Ivanovich => rrel_chairman: organization_Belarusian_national_committee;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Луцкевича Антона Иванновича на должности председателя в Белорусском национальном комитете.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1921;;
+*);;
+
+concept_situation->[*Luckevich_Anton_Ivanovich => rrel_director: organization_Belarusian_museum_in_Vilno;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени нахождения Луцкевича Антона Иванновича на должности директора в Белорусском музее в Вильно.]
+		(*<-lang_ru;;*);;
+	<- begin_date_1921;;
+	<- completion_date_1939;;
+*);;
+

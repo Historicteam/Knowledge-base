@@ -1,0 +1,7 @@
+concept_residential_quarter
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[жилой квартал](* <- lang_ru;; *);
+	[residential quarter](* <- lang_en;; *);
+	[жылы квартал](* <- lang_by;; *);;

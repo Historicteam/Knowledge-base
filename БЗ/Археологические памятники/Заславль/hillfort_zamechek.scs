@@ -1,0 +1,44 @@
+hillfort_zamechek
+
+=>nrel_main_idtf:
+	[Городище "Замечек"] (* <-lang_ru;; *);
+	[Hillfort "Zamechek"] (* <-lang_en;; *);
+	[Гарадзішча "Замэчак"] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Городище "Замэчак" – остатки укрепленного поселения на юго-западной окраине Заславля. Крепость была сооружена в последней четверти Х в. по приказу Владимира Святославича как Форпост Северо-Западных границ его государства.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [The mound "Zamechak" - the remains of a fortified settlement on the south-western outskirts of Zaslavl. The fortress was built in the last quarter of the X century. by order of Vladimir Svyatoslavich as the Outpost of the North-Western borders of his state.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Гарадзішча «Замэчак» – рэшткі ўмацаванага паселішча на паўднева-заходняй ускраіне Заслаўя. Крэпасць была збудаваная ў апошняй чвэрці Х ст. па загадзе Уладзіміра Святаславіча як фарпост паўночна-заходніх межаў ягонай дзяржавы.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_hillfort_zamechek (*
+	=> nrel_main_idtf:
+		[Изображение креста на месте городища Замечeк] (* <- lang_ru;; *);
+		[Picture of cross at place of hillfort Zamechek] (* <- lang_en;; *);
+		[Выява крыжа на месцы гарадзішча Замэчак] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//Zamjechek.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- concept_hillfort;;

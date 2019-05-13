@@ -1,0 +1,21 @@
+sc_node_norole_relation -> nrel_height;;
+
+nrel_height => nrel_main_idtf:
+	[высота*]
+	(* <- lang_ru;; *);
+	[height*]
+	(* <- lang_en;; *);;
+
+nrel_height => nrel_idtf: [быть высотой*]
+	(* <- lang_ru;; *);;
+
+nrel_height <- relation;;
+nrel_height <- binary_relation;;
+nrel_height <- oriented_relation;;
+nrel_height <- antireflexive_relation;;
+nrel_height <- antisymmetric_relation;;
+nrel_height <- antitransitive_relation;;
+
+
+
+

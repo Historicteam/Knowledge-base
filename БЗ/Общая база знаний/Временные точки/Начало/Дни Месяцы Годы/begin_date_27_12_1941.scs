@@ -1,0 +1,24 @@
+begin_date_27_12_1941
+=> nrel_main_idtf:
+   [время начала - 27 декабря 1841]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 27 december of 1841]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 27 сьнежня 1841]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [27];;
+   <- number_of_month_in_year: [12];;
+   <- number_of_year: [1841];;
+   *);
+   <- begin_date_12_1841;
+   <- begin_date_1841;;

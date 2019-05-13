@@ -1,0 +1,6 @@
+Building_of_Palace_of_culture_of_trade_unions
+=> nrel_main_idtf:
+	[Здание дворца культуры профсоюзов](* <- lang_ru;; *);
+	[Building of Palace of culture of trade unions](* <- lang_en;; *);
+	
+<- concept_building;;

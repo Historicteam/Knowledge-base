@@ -1,0 +1,28 @@
+ui_menu_file_of_adding_concept_lost_constructions <- ui_user_command_class_atom;
+ui_user_command_class_view_kb;;
+
+ui_menu_file_of_adding_concept_lost_constructions => nrel_main_idtf: 
+	[Добавить здания к множеству утраченных зданий]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_of_adding_concept_lost_constructions => nrel_main_idtf: 
+	[Agent of adding concept lost construtions]
+	(* <- lang_en;; *);;
+
+ui_menu_file_of_adding_concept_lost_constructions => ui_nrel_command_template:
+	[*
+			question_of_adding_concept_lost_constructions _-> ._question_of_adding_concept_lost_constructions
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_adding_concept_lost_constructions _<- question;;
+	*];;
+
+ui_menu_file_of_adding_concept_lost_constructions => ui_nrel_command_lang_template: 
+	[Запрос добавления зданий к множеству утраченных зданий: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_of_adding_concept_lost_constructions => ui_nrel_command_lang_template: 
+	[Request of adding concept lost construtions: $ui_arg_1] 
+	(* <- lang_en;; *);;
+

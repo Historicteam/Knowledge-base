@@ -1,0 +1,20 @@
+Ember
+=>nrel_main_idtf:
+    [Ember](*<-lang_en;;*);
+<-concept_catering_with_great_view;
+<-concept_catering_with_waiter_service;
+=>nrel_working_hours: Mon_Sun_12_00_23_00;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/ember.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_9_Winners_Avenue;;

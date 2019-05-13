@@ -1,0 +1,96 @@
+Female_Basilian_Monastery_Building
+<- concept_terrain_object;
+<- concept_building;
+=> nrel_main_idtf:
+	[Здание женского базилианского монастыря]	
+	(*
+	<- lang_ru;;
+	*);
+	[Female Basilian Monastery Building]
+	(*
+	<- lang_en;;
+	*);
+	[Будынак жаночага базільянскага манастыра]	
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Детская музыкальная школа имени Глебова]	
+	(*
+	<- lang_ru;;
+	*);
+	[Children's music school named after Glebov]
+	(*
+	<- lang_en;;
+	*);
+	[Дзіцячая музычная школа імя Глебава]	
+	(*
+	<- lang_by;;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<-key_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Строительство здания началось в 1641 году по фундации трокской кастелянши Зузаны Гансевской. Во время его строительства были использованы подвалы и стены тех жилых зданий, которые находились на этом месте ранее. В здании располагался монастырь Святого духа базилианок.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The building,sponsored by Trok’s castellan Zuzanna Hansevskaja, beganin 1641. During the building were used basements and walls of previous houses, located on this place. I the building the Holi spirit female basilian’s monastery was located.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будаўніцтва пачалося ў 1641 годзе па фундацыі трокскай касцяляншы Зузаны Гансеўскай. Падчас будаўніцтва былі выкарыстаныя падвалы і сцены тых жылых будынкаў, якія размяшчаліся тут раней. У будынку размяшчался манастыр Святога духа базіліянак.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+=> nrel_osm_query: [node(1369959004);];
+<=nrel_whole_part:Engels_street;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<-key_image;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/wommon1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/wommon2.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*)
+;;
+
+
+concept_situation->[*Female_Basilian_Monastery_Building <- concept_arch_baroque;;*]
+(*
+        <- begin_date_1641;;
+ *);; 

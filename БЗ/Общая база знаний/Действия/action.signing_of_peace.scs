@@ -1,0 +1,17 @@
+action.signing_of_peace
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[действие. подписание мира]
+	(*
+		<-lang_ru;;
+	*);
+	[action. signing of peace]
+	(*
+		<-lang_en;;
+	*);
+	[падпісанне міру]
+	(*
+		<-lang_by;;
+	*);
+
+<-actions_class;;

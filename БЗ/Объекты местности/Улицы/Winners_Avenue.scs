@@ -1,0 +1,11 @@
+Winners_Avenue
+	=>nrel_main_idtf:
+		[Проспект Победителей](*<-lang_ru;;*);
+		[Winners Avenue](*<-lang_en;;*);
+		[Праспект Пераможцаў](*<-lang_by;;*);
+<=nrel_subdividing:
+{
+	building_of_Museum_of_great_patriotic_war;
+	complex_Victory
+};
+<-concept_avenue;;

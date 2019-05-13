@@ -19,4 +19,6 @@ begin_date_01_09_1953
    		<- number_of_day_in_month: [1];;
    		<- number_of_month_in_year: [9];;
    		<- number_of_year: [1953];;
-   	*);;
+   	*);
+   	   <- begin_date_09_1953;
+   		<- begin_date_1953;;

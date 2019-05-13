@@ -1,0 +1,39 @@
+the_city_of_Siauliai
+<-sc_const;
+=> nrel_main_idtf:
+	[Шяуля́й]
+	(*
+	<- lang_ru;;
+	*);
+	[Siauliai]
+	(*
+	<- lang_en;;
+	*);
+
+<-concept_city;
+=> nrel_osm_query: [way(1714886);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [55.932798, 23.317687]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 55.932798;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 23.317687;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

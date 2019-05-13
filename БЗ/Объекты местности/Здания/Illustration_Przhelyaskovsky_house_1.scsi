@@ -1,25 +1,61 @@
-Przhelyaskovsky_house <- rrel_key_sc_element: Illustration_Przhelyaskovsky_house_1
-	(*
+Przhelyaskovsky_house 
 => nrel_main_idtf:
-	[В книге "Минск. Страницы жизни дореволюционного города" (З. Шибеко, С. Шибеко, 1990) указывается, что здание на фото ниже, возможно, сохранившийся Дом Пржелясковского, XIX, ул. Энгельса 28. 2006 г.] 
+	[Дом Пржелясковского] 
 		(* 
 		<- lang_ru;; 
 		*);
-	[In the book "Minsk. Pages of pre-revolutionary life of the city" (Z. Shibeko, S. Shibeko, 1990) indicates that the building in the photo below, may keep the house of Przhelyaskovsky, the XIX, Engels street, 28. 2006 year.] 
+	[The house of Przhelyaskovsky] 
 		(* 
 		<- lang_en;; 
 		*);
-	[У кнізе "Мінск. Старонкі жыцця дарэвалюцыйнага горада" (З. Шыбека, З. Шыбека, 1990) паказваецца, што будынак на фота ніжэй, магчыма, захаваўся Дом Пржеляскоўскага, XIX, вул. Энгельса 28. 2006 г.]
+	[Дом Пржеляскоўскага]
 		(* 
 		<- lang_by;;
-		 *);;
+		 *);
+
+<- rrel_key_sc_element: ...
+	(*	
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
+		... (*
+			->rrel_example: "file://content/Przhelyaskovsky_house_image1.jpg"
+				(*
+				=> nrel_format: format_jpg;;
+				*);;
+			*);;
+		*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<-key_explanation;;
+	<= nrel_sc_text_translation:
 		...
 		(*
-		->rrel_example: "file://content/Przhelyaskovsky_house_image1.jpg"
+		-> rrel_example:
+			[В книге "Минск. Страницы жизни дореволюционного города" (З. Шибеко, С. Шибеко, 1990) указывается, что здание на фото, возможно, сохранившийся Дом Пржелясковского, XIX, ул. Энгельса 28. 2006 г.]
 			(*
-			=> nrel_format: format_jpg;;
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[In the book "Minsk. Pages of pre-revolutionary life of the city" (Z. Shibeko, S. Shibeko, 1990) indicates that the building in the photo below, may keep the house of Przhelyaskovsky, the XIX, Engels street, 28. 2006 year.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[У кнізе "Мінск. Старонкі жыцця дарэвалюцыйнага горада" (З. Шыбека, З. Шыбека, 1990) паказваецца, што будынак на фота ніжэй, магчыма, захаваўся Дом Пржеляскоўскага, XIX, вул. Энгельса 28. 2006 г.]
+			(*
+			<- lang_by;;
 			*);;
 		*);;
- *);;
+	*)
+;;
+

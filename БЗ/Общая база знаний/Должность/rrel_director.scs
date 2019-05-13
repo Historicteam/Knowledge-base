@@ -4,18 +4,9 @@ rrel_director
 <- binary_relation;
 <- oriented_relation;
 =>nrel_main_idtf:
-	[директор']
-	(*
-		<-lang_ru;;
-	*);
-	[director']
-	(*
-		<-lang_en;;
-	*);
-	[дырэктар']
-	(*
-		<-lang_by;;
-	*);
+	[директор'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[director'] (* <-lang_en;; *);	
 =>nrel_idtf:
 	[заведующий']
 	(*
@@ -24,5 +15,26 @@ rrel_director
 	[руководитель']
 	(*
 		<- lang_ru;;
-	*);;
+	*);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Руководитель предприятия, учреждения или учебного заведения.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+=> nrel_first_domain:concept_person;
+=> nrel_second_domain:concept_organization;
+=> nrel_definitional_domain:...
+(*
+	<= nrel_combination:...
+	(*
+		-> concept_person;;
+		-> concept_organization;;
+	*);;	
+*);;
 

@@ -1,0 +1,25 @@
+sonderghetto
+=>nrel_main_idtf:
+	[Зондергетто](*<-lang_ru;;*);
+	[Sonderghetto](*<-lang_en;;*);
+	[Зандэргета](*<-lang_by;;*);
+<-concept_ghetto;
+<- begin_date_10_1943;
+<- completion_date_30_06_1944;
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_statement;;
+	<=nrel_sc_text_translation:
+		...
+			(*
+				->rrel_example:[ «Зондергетто» (часть гетто по ул. Сухой и Обувной) — гетто для 20 000 евреев, депортированных нацистами из семи стран Западной, Центральной и Восточной Европы. ]
+				(*
+				<-lang_ru;;
+				*);;
+			*);;
+*);
+=>nrel_inclusion:Oboynaya_street;
+=>nrel_inclusion:Sukhaya_street;
+=>nrel_osm_query:[way(135307541);];;
+

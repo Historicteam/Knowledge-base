@@ -1,0 +1,19 @@
+nrel_scientific_employee
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[scientific employee*](* <- lang_en;; *);
+	[научный сотрудник*](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+	...
+			(* -> rrel_example:
+			[Нау́чный сотру́дник — общее наименование ряда должностей учёных, занятых научной деятельностью в НИИ, на предприятиях или в вузах, но не являющихся руководителями структурных подразделений, а также одна из конкретных должностей таких учёных. ] 	
+			(* <- lang_ru;;*);;
+		*);;
+*);;

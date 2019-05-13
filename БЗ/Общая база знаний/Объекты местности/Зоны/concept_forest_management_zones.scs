@@ -1,0 +1,22 @@
+concept_forest_management_zones
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[лесохозяйственные зоны](* <- lang_ru;; *);
+	[forest management zones](* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example:
+		[Лесохозяйственные зоны – территории с преобладанием земель лесного фонда, основным назначением которых являются производство и переработка лесной продукции, а также выполнение природоохранных и рекреационных функций.]
+			(*
+			<- lang_ru;;
+			*);;
+
+		*);;
+*);;

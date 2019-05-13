@@ -16,6 +16,7 @@ Stable
 <-concept_building;
 <-concept_terrain_object;
 
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 
 <= nrel_temporal_decomposition: 
     {

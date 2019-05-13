@@ -1,0 +1,16 @@
+organization_institute_Warsaw_Veterinary_Institute
+=> nrel_main_idtf:
+	[Варшавский ветеринарный  институт]
+	(*
+	<- lang_ru;;
+	*);
+	[Warsaw Veterinary Institute]
+	(*
+	<- lang_en;;
+	*);
+	[Варшаўскі ветэрынарны інстытут]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_educational_institution;;

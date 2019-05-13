@@ -1,0 +1,15 @@
+Kazintsa_street
+=> nrel_main_idtf:
+			[Улица Казинца]
+			(*
+			<- lang_ru;;
+			*);
+			[Kazintsa street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Казiца]
+			(*
+			<- lang_by;;
+			*);
+<-concept_street;;

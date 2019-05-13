@@ -1,0 +1,22 @@
+begin_date_06_1942
+=> nrel_main_idtf:
+   [время начала - июнь 1942]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - june of 1942]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - чэрвень 1942]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [6];;
+   <- number_of_year: [1942];;
+   *);
+   <- begin_date_1942;;

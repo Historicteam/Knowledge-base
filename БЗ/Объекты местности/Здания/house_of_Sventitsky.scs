@@ -25,7 +25,7 @@ house_of_Sventitsky
 <- rrel_key_sc_element:
   ...
   (*
-  <-sc_definition;;
+  <-sc_explanation;;
   <=nrel_sc_text_translation:
     ...
     (*
@@ -44,8 +44,9 @@ house_of_Sventitsky
   *);
 <- rrel_key_sc_element: ...
   (*
-  <-sc_illustration;;
-  <=nrel_sc_text_translation:
+	<-sc_illustration;;
+	<-key_image;;
+	<=nrel_sc_text_translation:
     ...
     (*
     ->rrel_example: "file://content/dom-marksa-30.jpg"
@@ -56,6 +57,8 @@ house_of_Sventitsky
   *);
 
 <- concept_building;
+
+=>nrel_osm_query: [way(5348963857);]; 
 => nrel_geographical_location: ...
   (*
   <-concept_mapped_point;;
@@ -85,8 +88,9 @@ house_of_Sventitsky
 <- rrel_key_sc_element: 
   ...
   (*
-  <- sc_definition;;
-  <= nrel_sc_text_translation:
+	<-sc_explanation;;
+	<- key_definition;;
+	<= nrel_sc_text_translation:
     ...
     (*
     -> rrel_example:

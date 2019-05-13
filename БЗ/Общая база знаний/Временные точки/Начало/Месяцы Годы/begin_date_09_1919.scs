@@ -1,0 +1,22 @@
+begin_date_09_1919
+=> nrel_main_idtf:
+   [время начала - сентябрь 1919]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - september of 1919]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - верасень 1919]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [9];;
+   <- number_of_year: [1919];;
+   *);
+   <- begin_date_1919;;

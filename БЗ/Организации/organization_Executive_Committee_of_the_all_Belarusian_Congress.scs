@@ -1,0 +1,18 @@
+organization_Executive_Committee_of_the_all_Belarusian_Congress
+=> nrel_main_idtf:
+	[Исполнительный комитет Ра­ды Все­бе­лорус­ско­го съез­да]
+	(*
+	<- lang_ru;;
+	*);
+	[Executive Committee of The all-Belarusian Congress]
+	(*
+	<- lang_en;;
+	*);
+	[Выканаўчы камітэт Рады Усебеларускага з'езда]
+	(*
+	<- lang_by;;
+	*); 
+
+<- begin_date_03_01_1918;
+<-concept_formal_organization;
+<-concept_political_organization;;

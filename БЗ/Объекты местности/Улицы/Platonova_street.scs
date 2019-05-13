@@ -1,0 +1,15 @@
+Platonova_street
+=> nrel_main_idtf:
+			[Улица Платонова]
+			(*
+			<- lang_ru;;
+			*);
+			[Platonova street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Платонова]
+			(*
+			<- lang_by;;
+			*);
+<-concept_street;;
