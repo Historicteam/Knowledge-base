@@ -1,0 +1,74 @@
+concept_hillfort
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[городище]
+(*
+<- lang_ru;;
+*);
+[hillfort]
+(*
+<- lang_en;;
+*);
+[гарадзішча]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Городи́ще — тип <sc_element sys_idtf="concept_archaeological_monument">археологического памятника</sc_element>, укреплённое поселение,название бывших укреплённых поселений, обнесённых земляными валами.]
+
+      (*
+<- lang_ru;;
+=> nrel_format: format_html;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Гарадзішча - тып <sc_element sys_idtf="concept_archaeological_monument">археалагічнага помніка</sc_element>, умацаванае паселішча, назва былых умацаваных паселішчаў, занесеных землянымі валамі  ]   
+ (*
+<- lang_by;;
+=> nrel_format: format_html;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Hillfort - the type of <sc_element sys_idtf="concept_archaeological_monument">archaeological site</sc_element>, fortified settlement, the name of the former fortified settlements listed ramparts ]
+     (*
+<- lang_en;;
+=> nrel_format: format_html;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/hillfort.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

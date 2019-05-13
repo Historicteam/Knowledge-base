@@ -3,7 +3,40 @@ building_of_refurbished_Town_Hall
 => nrel_main_idtf:
 	[Восстановленное здание ратуши] (* <- lang_ru;; *);
 	[Refurbished Town Hall] (* <- lang_en;; *);
-	[Адноўлены будынак ратушы] (* <- lang_by;; *);;
+	[Адноўлены будынак ратушы] (* <- lang_by;; *);
+
+=> nrel_osm_query: [way(25387231);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.903596, 27.556102]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.903596;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.556102;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+=> nrel_have_a_number:
+	2;
+
+<- begin_date_1598;;
 
 concept_situation->[*building_of_refurbished_Town_Hall <- concept_arch_classicism;;*]
 (*

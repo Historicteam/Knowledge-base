@@ -22,6 +22,32 @@ building_of_the_church_of_St_Joseph
 	*);
 => nrel_osm_query: [way(25327537);];
 
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.904714, 27.556967]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.904714;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.556967;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
 <= nrel_temporal_decomposition: 
     {
         Church_of_St_Joseph

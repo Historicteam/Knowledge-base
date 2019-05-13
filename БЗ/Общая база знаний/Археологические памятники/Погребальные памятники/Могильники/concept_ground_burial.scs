@@ -1,0 +1,73 @@
+concept_ground_mound
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[грунтовый могильник]
+(*
+<- lang_ru;;
+*);
+[ground mound]
+(*
+<- lang_en;;
+*);
+[грунтавы магільнік]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Грунтовый могильник-<sc_element sys_idtf="concept_mound">могильник</sc_element>,в котором захоронения производились на грунтовой почве.]
+      (*
+<- lang_ru;;
+=> nrel_format: format_html;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Грунтавы могільнік-<sc_element sys_idtf="concept_mound">магільнік</sc_element>, у якім пахавання вырабляліся на грунтавай глебе.]
+      (*
+<- lang_by;;
+=> nrel_format: format_html;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Ground mound-<sc_element sys_idtf="concept_mound">mound</sc_element>, where the burial ground on the dirt proizvoilis.]
+      (*
+<- lang_en;;
+=> nrel_format: format_html;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/ground_mound.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

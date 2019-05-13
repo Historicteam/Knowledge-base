@@ -6,6 +6,8 @@ Pole_house
 	[Pole house] (* <- lang_en;; *);
 	[Дом Паляка] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(25327595);];
+
 <- rrel_key_sc_element: Picture_House_Pole (*
 	=> nrel_main_idtf:
 		[Изображение дома Поляка] (* <- lang_ru;; *);
@@ -19,4 +21,33 @@ Pole_house
 				=> nrel_format: format_jpg;;
 			*);;
 		*);;
-	*);;
+	*);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.902692, 27.557023]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.902692;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.557023;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- begin_date_1810;;
+

@@ -12,11 +12,15 @@ Independence_Avenue
 				(*
 				<- lang_by;;
 				*);
-			<= nrel_subdividing: 
-			{
-			house_39_Independence_Avenue;
-			building_government_House;
-			house_4_Independence_Avenue
-			};
-			<-concept_avenue;;
+=> nrel_whole_part: 
+{
+	house_39_Independence_Avenue;
+	building_government_House;
+	house_4_Independence_Avenue;
+	State_Department_Store_Building;
+	State_Security_Committee_building;
+	Zagorskaya_house_building;
+	Zhdanovich_house_building
+};
+<-concept_avenue;;
 

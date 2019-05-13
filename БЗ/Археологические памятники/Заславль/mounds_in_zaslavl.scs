@@ -1,0 +1,29 @@
+mounds_in_zaslavl
+
+=>nrel_main_idtf:
+	[Курганы в Заславле] (* <-lang_ru;; *);
+	[mounds in Zaslavl] (* <-lang_en;; *);
+	[Курганы ў Заслаўле] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Курганный могильник конца X — начала XII века. Это один из самых крупных в Беларуси могильников древнерусского периода. В начале XX века курганов насчитывалось более 300. Сейчас можно увидеть около 50.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Burial mound of the late 10th - early 12th century. This is one of the largest ancient Russian burial grounds in Belarus. At the beginning of the 20th century there were more than 300 mounds. Now you can see about 50.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Курганны могільнік канца X — пачатку XII стагоддзя. Гэта адзін з самых буйных у Беларусі магільнікаў старажытнарускага перыяду. У пачатку XX стагоддзя курганоў налічвалася больш за 300. Зараз можна ўбачыць каля 50.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+<- concept_burial_mound;;

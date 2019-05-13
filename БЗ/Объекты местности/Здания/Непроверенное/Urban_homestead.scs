@@ -48,6 +48,34 @@ Urban_homestead
 	[Urban homestead] (* <- lang_en;; *);
 	[Гарадская сядзіба] (* <- lang_by;; *);
 
+=> nrel_osm_query: [way(25387289);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.903595, 27.552943]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.903595;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.552943;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
 
 <- rrel_key_sc_element: Image_of_city_estate (*
 	=> nrel_main_idtf:

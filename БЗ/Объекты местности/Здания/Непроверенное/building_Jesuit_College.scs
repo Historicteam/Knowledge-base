@@ -22,6 +22,35 @@ building_Jesuit_College
 	*);
 
 => nrel_osm_query: [way(482601234);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.903041, 27.555113]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.903041;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.555113;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+=> nrel_have_a_number:
+	7;
 	
 <= nrel_temporal_decomposition: 
     {

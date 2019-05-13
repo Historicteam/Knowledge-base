@@ -1,0 +1,18 @@
+sc_node_norole_relation -> nrel_number_of_mounds;;
+
+nrel_number_of_mounds => nrel_main_idtf:
+	[количество курганов*]
+	(* <- lang_ru;; *);
+	[number of mounds*]
+	(* <- lang_en;; *);;
+
+nrel_number_of_mounds <- relation;;
+nrel_number_of_mounds <- binary_relation;;
+nrel_number_of_mounds <- oriented_relation;;
+nrel_number_of_mounds <- antireflexive_relation;;
+nrel_number_of_mounds <- antisymmetric_relation;;
+nrel_number_of_mounds <- antitransitive_relation;;
+
+
+
+

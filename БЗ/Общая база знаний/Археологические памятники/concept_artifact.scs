@@ -1,0 +1,29 @@
+concept_artifact
+
+=>nrel_main_idtf:
+	[артефакт] (* <-lang_ru;; *);
+	[artifact] (* <-lang_en;; *);
+	[артэфакт] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Объект, подвергнутый в прошлом направленному механическому воздействию, обнаруженный в результате целенаправленных <sc_element sys_idtf="concept_excavation">археологических раскопок</sc_element> или какого-либо единичного, иногда случайного события.] (* <-lang_ru;; => nrel_format: format_html;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [An object subjected in the past to a directed mechanical impact, discovered as a result of targeted <sc_element sys_idtf="concept_excavation">archaeological excavations</sc_element> or a single, sometimes random event.] (* <-lang_en;; => nrel_format: format_html;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Аб'ект, падвергнуты ў мінулым накіраванаму механічнага ўздзеяння, выяўлены ў выніку мэтанакіраваных <sc_element sys_idtf="concept_excavation">археалагічных раскопак</sc_element> ці якога-небудзь адзінкавага, часам выпадковага падзеі.] (* <-lang_by;; => nrel_format: format_html;; *);; 
+			*);;
+	*);
+
+<- sc_node_not_relation;;

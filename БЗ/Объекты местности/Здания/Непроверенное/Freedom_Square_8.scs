@@ -3,4 +3,32 @@ Freedom_Square_8
 => nrel_main_idtf:
 	[Площадь Свободы, 8] (* <- lang_ru;; *);
 	[Freedom Square, 8] (* <- lang_en;; *);
-	[Плошча Свабоды, 8] (* <- lang_by;; *);;
+	[Плошча Свабоды, 8] (* <- lang_by;; *);
+
+=> nrel_osm_query: [way(25387279);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.904444, 27.555659]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.904444;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.555659;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,52 @@
+concept_menhir
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[менгир]
+(*
+<- lang_ru;;
+*);
+[menhir]
+(*
+<- lang_en;;
+*);
+[мянгір]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Менги́р — простейший <sc_element sys_idtf="concept_megaliths">мегалит</sc_element> в виде установленного человеком грубо обработанного дикого камня, у которого вертикальные размеры заметно превышают горизонтальные; древний обелиск.]
+      (*
+<- lang_ru;;
+=> nrel_format: format_html;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Мянгір - найпросты <sc_element sys_idtf="concept_megaliths">мегаліт</sc_element> ў выглядзе устаноўленага чалавекам груба апрацаванага дзікага каменя, у якога вертыкальныя памеры прыкметна перавышаюць гарызантальныя; старажытны абеліск..]
+      (*
+<- lang_by;;
+=> nrel_format: format_html;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Menhir - simple <sc_element sys_idtf="concept_megaliths">megalith</sc_element> in the form established by the person rudely treated rough stone, whose vertical dimensions are significantly higher than horizontal; ancient obelisk.]
+      (*
+<- lang_en;;
+=> nrel_format: format_html;;
+      *);;
+  *);;
+*)
+;;
