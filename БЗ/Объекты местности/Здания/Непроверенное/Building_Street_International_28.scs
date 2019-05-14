@@ -4,7 +4,7 @@ Building_Street_International_28
 	[Здание. Улица Интернациональная, 28] (* <- lang_ru;; *);
 	[Building. Street International, 28] (* <- lang_en;; *);
 	[Будынак. Вуліца Інтэрнацыянальная, 28] (* <- lang_by;; *);
-
+<=nrel_whole_part:International_Street;
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

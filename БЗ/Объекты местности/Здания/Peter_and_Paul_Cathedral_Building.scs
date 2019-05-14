@@ -67,6 +67,7 @@ Peter_and_Paul_Cathedral_Building
 ;
 
 => nrel_osm_query: [way(156144834);];
+<=nrel_whole_part:Engelss_Street;
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

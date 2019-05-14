@@ -25,6 +25,32 @@ hillfort_zamchische
 			*);;
 	*);
 
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.906749, 27.552861]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.906749;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.552861;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
 <- rrel_key_sc_element: Picture_of_Zamchische (*
 	=> nrel_main_idtf:
 		[Изображение Замчища] (* <- lang_ru;; *);

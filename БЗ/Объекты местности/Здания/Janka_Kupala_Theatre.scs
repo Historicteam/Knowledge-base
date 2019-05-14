@@ -12,7 +12,7 @@ Janka_Kupala_Theatre
 	(*
 	<- lang_by;;
 	*);
-
+<=nrel_whole_part:Karla_Marksa_street;
 => nrel_osm_query: [way(25327619);];
 => nrel_geographical_location: ...
 	(*

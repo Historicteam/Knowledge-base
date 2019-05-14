@@ -2,6 +2,21 @@ house_11_Independence_Avenue
 =>nrel_main_idtf:
     [Проспект Независимости дом 11](*<-lang_ru;;*);
     [House 11 Independence avenue](* <-lang_en;;*);
+
+	<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/house_11_Independence_Avenue.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
 <-concept_building;
 <=nrel_whole_part:Independence_Avenue;
 => nrel_osm_query: [way(25387608);];

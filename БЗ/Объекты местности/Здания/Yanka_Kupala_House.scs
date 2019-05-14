@@ -12,7 +12,7 @@ Yanka_Kupala_House
   (*
     <- lang_by;;
   *);
-
+<=nrel_whole_part:Kupala_street;
 =>nrel_osm_query:[way(25327481);];
 => nrel_geographical_location: ...
 	(*

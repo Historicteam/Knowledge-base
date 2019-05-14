@@ -75,6 +75,7 @@ Przhelyaskovsky_house
 <- concept_building;
 <- concept_terrain_object;
 
+<=nrel_whole_part:Engelss_Street;
 => nrel_osm_query: [way(25432621);];
 => nrel_geographical_location: ...
 	(*

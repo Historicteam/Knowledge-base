@@ -113,6 +113,7 @@ Oskar_Janickij_house
 <- concept_building;
 <- concept_terrain_object;
 
+<=nrel_whole_part:Sovetskaya_Street;
 => nrel_osm_query: [way(25435144);];
 => nrel_geographical_location: ...
 	(*

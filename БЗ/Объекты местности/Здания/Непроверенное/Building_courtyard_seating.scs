@@ -58,7 +58,6 @@ Building_courtyard_seating
 			*);;
 		*);;
 	*);
-
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

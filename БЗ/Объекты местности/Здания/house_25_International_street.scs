@@ -1,0 +1,29 @@
+house_25a_International_street
+=>nrel_main_idtf:
+	[Улица Интернациональная 25]
+		(*
+		<- lang_ru;;
+		*);
+		[International street, 25]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца інтэрнацыянальная 25]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:International_Street;
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/house_international_25.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+<-concept_building;;

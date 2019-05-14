@@ -137,7 +137,7 @@ Zagorskaya_house_building_2
 <- concept_building;
 <- concept_terrain_object;
 
-
+<=nrel_whole_part:Independence_Avenue;
 => nrel_osm_query: [way(25387473);];
 => nrel_geographical_location: ...
 	(*

@@ -34,6 +34,7 @@ Malinins_house
 	    *);;
   *);
 
+<=nrel_whole_part:Volodarsky_Street;
 <- concept_building;
 => nrel_geographical_location: ...
   (*

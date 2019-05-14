@@ -24,6 +24,8 @@ Pole_house
 		*);;
 	*);
 
+<= nrel_whole_part: International_Street;
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

@@ -1,0 +1,17 @@
+Newspaper_Zvezda_Avenue
+=> nrel_main_idtf:
+				[Проспект Газеты «Звезда»]
+				(*
+				<- lang_ru;;
+				*);
+				[Newspaper "Zvezda" Avenue]
+				(*
+				<- lang_en;;
+				*);
+				[Праспект Газеты "Звязда"]
+				(*
+				<- lang_by;;
+				*);
+
+<-concept_avenue;;
+

@@ -17,6 +17,7 @@ Minsk_Railway_Station_Building
 <-concept_terrain_object;
 <-concept_building;
 
+<=nrel_whole_part:Bobruiskaya_street;
 => nrel_osm_query: [way(358224860);];
 => nrel_geographical_location: ...
 	(*
