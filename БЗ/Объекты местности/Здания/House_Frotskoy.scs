@@ -12,6 +12,6 @@ House_Frotskoy
 		(*
 		<- lang_by;;
 		*);
-                <=nrel_whole_part:Komsomolskaya_street;
+
                 <- concept_building;
 		<-concept_non_profit_residental_building;;

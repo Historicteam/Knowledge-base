@@ -12,5 +12,4 @@ house_15_Kullmans_Street
 		(*
 		<- lang_by;;
 		*);
-<=nrel_whole_part:Kullmans_Street;
 <-concept_building;;
