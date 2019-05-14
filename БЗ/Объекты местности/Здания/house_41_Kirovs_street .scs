@@ -12,5 +12,5 @@ house_41_Kirovs_street
 		(*
 		<- lang_by;;
 		*);
-
+                <=nrel_whole_part:Kirova_Street;
 		<-concept_building;;
