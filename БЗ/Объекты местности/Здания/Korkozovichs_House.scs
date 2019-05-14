@@ -13,6 +13,7 @@ Korkozovichs_House
 	<- lang_by;;
 	*);
 
+<=nrel_whole_part:Bogdanovichs_Street;
 => nrel_osm_query: [relation(6076393);];
 => nrel_geographical_location: ...
 	(*

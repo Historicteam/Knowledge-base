@@ -131,7 +131,7 @@ rrel_key_sc_element: Definition_Maryinskaya_girls_gymnasium_building
 
 <- concept_building;
 <- concept_terrain_object;
-
+<=nrel_whole_part:Karla_Marksa_street;
 => nrel_osm_query: [way(25327616);];
 => nrel_geographical_location: ...
 	(*

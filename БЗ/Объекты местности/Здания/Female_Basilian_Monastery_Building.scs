@@ -61,7 +61,7 @@ Female_Basilian_Monastery_Building
 	*);
 
 => nrel_osm_query: [node(1369959004);];
-<=nrel_whole_part:Engels_street;
+<=nrel_whole_part:Engelss_Street;
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;

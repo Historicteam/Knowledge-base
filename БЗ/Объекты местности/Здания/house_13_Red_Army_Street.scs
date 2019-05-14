@@ -1,5 +1,5 @@
 house_13_Red_Army_Street
-
+<=nrel_whole_part:Krasnoarmiejskaja_street;
 	=> nrel_main_idtf:
 		[Улица Красноармейская, 13] (* <- lang_ru;; *);
 		[Вуліца Чырвонаармейская, 13] (* <- lang_by;; *);

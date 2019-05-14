@@ -12,9 +12,7 @@ Sukhaya_street
 			(*
 			<- lang_by;;
 			*);
-<= nrel_subdividing: 
-	{
+=>nrel_whole_part:
 	Monument_Broken_hearth;
-	building_Sukhaya_21
-	};
+	building_Sukhaya_21;
 <-concept_street;;

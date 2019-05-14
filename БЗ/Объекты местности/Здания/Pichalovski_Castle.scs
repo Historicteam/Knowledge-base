@@ -16,8 +16,9 @@ Pichalovski_Castle
 <-concept_prison;
 <-concept_building;
 
+<=nrel_whole_part:Volodarsky_Street;
 <-concept_terrain_object;
-=>nrel_osm_query:[way(1369825004);];
+=>nrel_osm_query:[way(108452973);];
 =>nrel_geographical_location:...
 	(*
 		<-concept_mapped_point;;

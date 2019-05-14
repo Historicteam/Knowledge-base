@@ -69,6 +69,7 @@ Zhdanovich_house_building
 			*);;
 		*);;
 	*);
+<=nrel_whole_part:Independence_Avenue;
 <- concept_building;
 <- concept_terrain_object;
 

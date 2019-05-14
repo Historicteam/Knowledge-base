@@ -4,7 +4,7 @@ house_89_Independence_Avenue
     [House 89 Independence avenue](* <-lang_en;;*);
 <-concept_building;
 <=nrel_whole_part:Independence_Avenue;
-=> nrel_osm_query: [way(25432621);];
+=> nrel_osm_query: [way(25429792);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
