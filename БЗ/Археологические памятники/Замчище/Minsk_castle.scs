@@ -42,4 +42,4 @@ Minsk_castle
 	*);
 
 <- concept_building;
-<- concept_lost_constructions;;
+<- concept_lost_archaeological_monument;;

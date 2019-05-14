@@ -22,9 +22,11 @@ mounds_in_sukharevo
 			
 			...
 			(* 
-			-> rrel_example: [Аб'ект гісторыка-культурнай спадчыны, помнік археалогіі Х-ХІІ стст.] (* <-lang_by;; *);; 
+			-> rrel_example: [Аб'ект гісторыка-культурнай спадчыны, помнік археалогіі Х-ХІІ ст.] (* <-lang_by;; *);; 
 			*);;
 	*);
+
+=> nrel_osm_query: [node(5728269188);];
 
 => nrel_geographical_location: ...
 	(*
@@ -62,6 +64,21 @@ mounds_in_sukharevo
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//mounds_in_sukharevo.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_the_plan_of_barrow_burial (*
+	=> nrel_main_idtf:
+		[Изображение плана частично курганного могильника, сохранившийся в Сухарево] (* <- lang_ru;; *);
+		[Picture of the plan of the partly barrow burial, preserved in Sukharevo] (* <- lang_en;; *);
+		[Выява плану часткова курганнага могільніка, які захаваўся ў Сухарава] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//plan_of_mounds_in_suharevo.jpg" (*
 				=> nrel_format: format_jpg;;
 			*);;
 		*);;

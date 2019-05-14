@@ -4,6 +4,8 @@ Building_trade_rows
 	[Building of the trade rows] (* <- lang_en;; *);
 	[Будынак гандлёвых шэрагаў] (* <- lang_by;; *);
 
+<= nrel_whole_part: Herzen_street;
+
 => nrel_osm_query: [way(347338490);];
 
 <- begin_date_1817;

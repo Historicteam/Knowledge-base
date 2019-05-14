@@ -5,6 +5,10 @@ mound_at_zvezda_street
     [Mound on the avenue of the newspaper "Zvezda"] (* <- lang_en;; *);
     [Курган на праспекце Газеты "Звязда"] (* <- lang_by;; *);
 
+=> nrel_whole_part: Newspaper_Zvezda_Avenue;
+
+=> nrel_osm_query: [node(264434602);];
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

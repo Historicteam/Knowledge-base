@@ -12,6 +12,7 @@ Moniuszkos_House
   (*
     <- lang_en;;
   *);
+<= nrel_whole_part: International_Street;
 <-concept_building;
 <-concept_terrain_object;
 <- rrel_key_sc_element: ...

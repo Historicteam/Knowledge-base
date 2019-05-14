@@ -55,6 +55,7 @@ Freedom_Square
 	*);
 
 => nrel_whole_part:
+{
 		Male_Basilian_Monastery_Building;
 		Building_Institute_Belpromproekt;
 		building_of_refurbished_Town_Hall;
@@ -69,7 +70,8 @@ Freedom_Square
 		The_building_of_the_Jesuit_school;
 		The_building_wing_urban_estate;
                 building_Jesuit_College;
-                The_building_of_the_chapel_of_Felician;
+                The_building_of_the_chapel_of_Felician
+};
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
