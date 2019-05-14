@@ -20,4 +20,6 @@ organization_podkomorsky_court
 	[Подкоморский суд — судебно-арбитражный орган в Великом княжестве Литовском в XVI-XVIII веках, который рассматривал дела о земельных спорах.] (* <-lang_ru;; *);;
 		*);;	
 	*);
+<- begin_date_1565;
+<- completion_date_1832;
 <-concept_organization;;

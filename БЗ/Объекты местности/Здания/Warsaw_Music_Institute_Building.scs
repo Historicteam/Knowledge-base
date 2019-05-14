@@ -1,7 +1,8 @@
 Warsaw_Music_Institute_Building <- ... (*
 	=> nrel_subdividing: Warsaw;;
-*);
-<- concept_building;;
+*);;
+
+
 Warsaw_Music_Institute_Building
 => nrel_main_idtf:
 	[Музыкальный университет им. Фредерика Шопена]
@@ -18,6 +19,8 @@ Warsaw_Music_Institute_Building
 	*);
 
 <- begin_date_1810;
+
+<- concept_building;
 
 <- rrel_key_sc_element: ...
 	(*

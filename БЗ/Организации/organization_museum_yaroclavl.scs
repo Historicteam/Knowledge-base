@@ -3,6 +3,6 @@ organization_museum_yaroclavl
 				[Музей в Ярославле] 		(* <- lang_ru;; *);
 				[The museum in Yaroslavl]	(* <- lang_en;; *);
 				[Музей у Яраслаўлі] (* <- lang_by;; *);
-
+<- begin_date_1992;
 <- concept_organization;;
 

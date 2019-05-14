@@ -1,7 +1,10 @@
 organization_piter_academy_of_painture
 			=> nrel_main_idtf:
-				[Питерская художественная академия] 											 (* <- lang_ru;; *);
+				[Питерская художественная академия] (* <- lang_ru;; *);
 				[The St. Petersburg Academy of Arts] (* <- lang_en;; *);
 				[Піцерская мастацкая акадэмія] (* <- lang_by;; *);
+
+<- begin_date_1757;
+<- completion_date_1918;
 
 <- concept_organization;;

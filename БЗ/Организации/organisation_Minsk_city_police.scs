@@ -12,4 +12,5 @@ organisation_Minsk_city_police
 	(*
 	<- lang_by;;
 	*);
-<-concept_organization;;
+<- completion_date_1917;
+<- concept_organization;;

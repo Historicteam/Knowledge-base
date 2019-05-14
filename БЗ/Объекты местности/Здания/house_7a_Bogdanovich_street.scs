@@ -1,0 +1,43 @@
+house_7a_Bogdanovich_street
+=> nrel_main_idtf:
+		[улица М.Богдановича дом 7a]
+		(*
+		<- lang_ru;;
+		*);
+		[Bogdanovich Street, 7A]
+		(*
+		<- lang_en;;
+		*);
+		[вуліца М.Багдановіча дом 7a]
+		(*
+		<- lang_by;;
+		*);
+
+=>nrel_osm_query:[way(25327504);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.90797, 27.55655]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.90797;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.55655;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<-concept_building;;

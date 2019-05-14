@@ -8,5 +8,8 @@ organization_provincial_board_of_Minsk
 	(*
 	<- lang_en;;
 	*);
+
+<- begin_date_1796;
+<- completion_date_1917;	
 <-concept_provincial_board;
 <-concept_organization;;

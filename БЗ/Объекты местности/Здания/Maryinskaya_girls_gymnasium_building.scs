@@ -83,8 +83,7 @@ Maryinskaya_girls_gymnasium_building
 		*);;
  *);
 
-rrel_key_sc_element: Definition_Maryinskaya_girls_gymnasium_building
-	
+<- rrel_key_sc_element: Explanation_Maryinskaya_girls_gymnasium_building
 	(*
 	=> nrel_main_idtf:
 	[Описание здания Мариинской женской гимназии] 

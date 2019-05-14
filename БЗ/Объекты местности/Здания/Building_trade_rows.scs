@@ -166,7 +166,7 @@ concept_situation-> [*
 	<-key_image;;
 	<= nrel_sc_text_translation: ... 
             (*
-            ->rrel_example: "file://contents//Торговые ряды.jpg"
+            ->rrel_example: "file://content//Торговые ряды.jpg"
                         (*
                     => nrel_format: format_jpg;;
                         *);;
@@ -193,7 +193,7 @@ concept_situation-> [*
     <- sc_illustration;;
     <= nrel_sc_text_translation: ... 
             (*
-            ->rrel_example: "file://contents/виленчуки 1900.jpg"
+            ->rrel_example: "file://content/виленчуки 1900.jpg"
                         (*
                     => nrel_format: format_jpg;;
                         *);;
