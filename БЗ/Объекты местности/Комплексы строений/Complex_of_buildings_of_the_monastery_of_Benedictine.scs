@@ -1,6 +1,7 @@
 complex_of_buildings_of_the_monastery_of_Benedictine
 
-<-concept_complex_of_buildings;
+<-concept_complex_of_constructions;
+<-concept_complex_of_monastery_buildings;
 => nrel_main_idtf:
     [Комплекс строений монастыря бенедиктинок]
     (*

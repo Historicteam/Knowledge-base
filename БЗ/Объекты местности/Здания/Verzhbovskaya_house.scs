@@ -1,0 +1,121 @@
+Verzhbovskaya_house
+=> nrel_main_idtf:
+        [Verzhbovskaya house]	
+        (*
+	<- lang_en;;
+	*);
+	[Дом Вержбовской]
+	(*
+	<- lang_ru;;
+	*);
+	[Дом Вяржбоўскай]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание Городской публичной библиотеки имени Л.Н. Толстого]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the City public library of L. N. Tolstoy]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак Гарадской публічнай бібліятэкі імя Л. М. Таўстога]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf:
+	[Здание прокуратуры Минского Района]
+	(*
+	<- lang_ru;;
+	*);
+        [The building of the Prosecutor's office of Minsk Region]
+	(*
+	<- lang_en;;
+	*);
+        [Будынак пракуратуры Мінскага Раёна]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: Explanation_Verzhbovskaya_house
+	
+	(*
+	=> nrel_main_idtf:
+	[Пояснение Дома Вержбовской] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Explanation of the Verzhbovskaya house] 
+		(* 
+		<- lang_en;; 
+		*);
+	[Тлумачэнне Дома Вяржбоўскай]
+		(* 
+		<- lang_by;;
+		 *);;
+
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[На улице Московской от дореволюционной застройки сохранился лишь один каменный дом (Московская, 11). Принадлежал он госпоже Вержбовской, которая 1 октября 1911 года открыла здесь городскую публичную библиотеку. Это учреждение культуры получило имя великого русского писателя Льва Толстого. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[
+On the Moskovskaya street, only one stone house preserved from the pre-revolutionary building (Moskovskaya, 11). It belonged to Mrs. Verzhbovskaya that 1 October 1911 open a city public library. This cultural institution has received the great Russian writer Leo Tolstoy.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[На вуліцы Маскоўскай ад дарэвалюцыйнай забудовы захаваўся толькі адзін каменны дом (Маскоўская, 11). Належаў ён спадарыні Вяржбоўскай, якая 1 кастрычніка 1911 г. адкрыла тут гарадскую публічную бібліятэку. Гэтая ўстанова культуры атрымала імя вялікага рускага пісьменніка Льва Талстога.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+<- concept_cultural_building;
+<-concept_building;
+<- concept_terrain_object;
+
+=> nrel_osm_query: [way(25389628);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8880038, 27.5368989]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8880038;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5368989;;
+					*);;
+				*);;
+			*);;
+	*);;
+concept_situation->[*^"file://Illustration_Verzhbovskaya_house.scsi"*]
+(*
+	<- completion_date_2016;;
+*);;
+concept_arch_neoclassicism -> Verzhbovskaya_house  ;;
+Verzhbovskaya_house <= nrel_location: organization_City_public_library_of_L_N_Tolstoy;;
+Verzhbovskaya_house <= nrel_location: organization_prosecutor_s_office_of_Minsk_Region;;
+Verzhbovskaya_house <= nrel_temporal_decomposition: organization_City_public_library_of_L_N_Tolstoy;;
+Verzhbovskaya_house <= nrel_temporal_decomposition: organization_prosecutor_s_office_of_Minsk_Region;;

@@ -12,4 +12,31 @@ building_Gymnasium_of_St_Anne
 	(*
 	<- lang_by;;
 	*);
+=>nrel_osm_query:[way(89430625);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [59.944234, 30.353130]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 59.944234;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 30.353130;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<-concept_educational_building;
 <-concept_building;;

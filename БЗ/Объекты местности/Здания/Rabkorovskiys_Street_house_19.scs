@@ -4,8 +4,6 @@ Rabkorovskiys_Street_house_19
 		[вул. Рабкароўская 19] (* <- lang_by;; *);
 		[Rabkorovskaya's Street, 19](* <- lang_en;; *);
 
-<-concept_building;
-
 => nrel_osm_query: [way(25388652);];
 => nrel_geographical_location: ...
 	(*
@@ -32,4 +30,7 @@ Rabkorovskiys_Street_house_19
 			*);;
 		*);;
 	*)
-;;
+;
+<-concept_non_profit_residental_building;
+<-concept_cultural_building;
+<-concept_building;;

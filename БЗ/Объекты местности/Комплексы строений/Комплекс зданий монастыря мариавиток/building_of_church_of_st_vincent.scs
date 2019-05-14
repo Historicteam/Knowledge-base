@@ -1,4 +1,5 @@
 building_of_church_of_st_vincent
+<-concept_catholic_temple;
 <-concept_building;
 =>nrel_main_idtf:
 	[Костёл Святого Викентия]

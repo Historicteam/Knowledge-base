@@ -1,5 +1,6 @@
 The_building_wing_urban_estate
-<- concept_building;
+<- concept_structure;
+<- concept_wing;
 <- begin_date_1795;
 
 => nrel_osm_query: [way(25387290);];

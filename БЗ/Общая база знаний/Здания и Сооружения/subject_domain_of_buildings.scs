@@ -7,15 +7,43 @@ subject_domain_of_buildings
 <- subject_domain;
 
 -> rrel_maximum_studied_object_class:
-    concept_construction;
+    concept_building;
 
 -> rrel_not_maximum_studied_object_class:
-    concept_residential_building;
-    concept_public_building;
-    concept_warehousing;
-    concept_civil;
+    concept_religious_building;
+    concept_sinagogue;
+concept_prayer_house;
+concept_church;
+concept_mosque;
+concept_kirkha;
+concept_orthodox_temple;
+concept_catholic_temple;
+
+concept_residental_building;
+concept_commercial_residental_building;
+concept_non_profit_residental_building;
+
+concept_industrial_building;
+concept_transport_and_storage_building;
+concept_manufacturing_building;
+concept_energy_building;
+
+concept_public_building;
+concept_research_building;
+concept_trade_enterprise_building;
+concept_transport_service_building;
+concept_utility_building;
+concept_sports_building;
+concept_government_building;
+concept_cultural_building;
+concept_educational_building;
+concept_healthcare_building;
+concept_office_building;
+
+
 
 -> rrel_explored_relation:
 	nrel_dwelling;
-    nrel_location;;
+        nrel_arch_project;
+        nrel_architect;;
 

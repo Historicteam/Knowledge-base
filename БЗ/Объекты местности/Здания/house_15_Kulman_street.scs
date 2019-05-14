@@ -13,7 +13,6 @@ house_15_Kullmans_Street
 		<- lang_by;;
 		*);
 
-
 => nrel_osm_query: [way(25431720);];
 => nrel_geographical_location: ...
 	(*
@@ -41,5 +40,5 @@ house_15_Kullmans_Street
 		*);;
 	*);
 
-
+<=nrel_whole_part:Kullmans_Street;
 <-concept_building;;

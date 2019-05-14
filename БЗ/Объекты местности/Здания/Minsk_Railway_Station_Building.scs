@@ -1,5 +1,5 @@
 Minsk_Railway_Station_Building
-<- concept_building;
+<-concept_transport_service_building;
 => nrel_main_idtf:
 	[Здание Минского железнодорожного вокзала]
 	(*
@@ -16,6 +16,7 @@ Minsk_Railway_Station_Building
 
 <-concept_terrain_object;
 <-concept_building;
+<=nrel_whole_part:Privokzalnaya_square;
 
 <=nrel_whole_part:Bobruiskaya_street;
 => nrel_osm_query: [way(358224860);];

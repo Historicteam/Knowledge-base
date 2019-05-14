@@ -94,6 +94,7 @@ Freemason_House
 		<- completion_date_1899;;
         *);
 <-concept_building;
+<-concept_non_profit_residental_building;
 <-concept_terrain_object;;
 
 concept_situation->[*Choral_synagogue_building<-concept_arch_classicism;;*]

@@ -1,6 +1,7 @@
 the_Dominican_monastery_outbuilding_2
 
-<- concept_building;
+<- concept_structure;
+<- concept_wing;
 => nrel_main_idtf:
 	[флигель доминиканского монастыря 2] (* <- lang_ru;; *);
 	[Dominican monastery outbuilding 2] (* <- lang_en;; *);

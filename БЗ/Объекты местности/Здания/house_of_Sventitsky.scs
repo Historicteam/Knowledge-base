@@ -55,11 +55,12 @@ house_of_Sventitsky
                         *);;
     *);;
   *);
-
 <- concept_building;
 
 <=nrel_whole_part:Karla_Marksa_street;
 =>nrel_osm_query: [way(25432625);]; 
+<- concept_commercial_residental_building;
+
 => nrel_geographical_location: ...
   (*
   <-concept_mapped_point;;

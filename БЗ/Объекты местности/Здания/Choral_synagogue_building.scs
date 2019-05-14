@@ -80,6 +80,8 @@ Choral_synagogue_building
 		<- completion_date_1906;;
         *);
 <- concept_terrain_object;
+<- concept_catholic_temple;
+<- concept_cultural_building;
 <- concept_building;;
 
 concept_situation->[*Choral_synagogue_building<-concept_arch_mavritan;;*]

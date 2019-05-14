@@ -4,5 +4,7 @@ house_13_Red_Army_Street
 		[Улица Красноармейская, 13] (* <- lang_ru;; *);
 		[Вуліца Чырвонаармейская, 13] (* <- lang_by;; *);
 		[Red Army Street, 13] (* <- lang_en;; *);
-	<-concept_building;;
+        <- concept_building;
+        <=nrel_whole_part:Krasnoarmiejskaja_street;
+	<-concept_non_profit_residental_building;;
 

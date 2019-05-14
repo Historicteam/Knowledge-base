@@ -90,7 +90,8 @@ State_Department_Store_Building
 	<- begin_date_1951;
 => nrel_architect: Gegart_Roman_Mikhailovich;
 <- concept_terrain_object;
-<- concept_building;;
+<-concept_building;
+<- concept_trade_enterprise_building;;
 
 concept_situation->[*State_Department_Store_Building
 	<=nrel_location: organization_State_Department_Store;;

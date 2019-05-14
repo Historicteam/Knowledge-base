@@ -66,7 +66,8 @@ building_of_residential_housing_of_female_Bernardine_monastery
         <- completion_date_1870;;
         *)
     };
-<-concept_building;
+<-concept_non_profit_residental_building;
+<- concept_building;
 <-concept_terrain_object;
 <=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 

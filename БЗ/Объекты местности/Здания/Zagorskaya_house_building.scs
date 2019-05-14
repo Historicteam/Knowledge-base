@@ -86,7 +86,7 @@ Zagorskaya_house_building
 		*);;
 	*);
 
-<- concept_building;
+<- concept_non_profit_residental_building;
 <- concept_terrain_object;
 
 <= nrel_whole_part: Independence_Avenue;

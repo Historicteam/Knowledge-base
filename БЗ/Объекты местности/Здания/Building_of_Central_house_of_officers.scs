@@ -32,4 +32,6 @@ Building_of_Central_house_of_officers
 	*)
 ;
 	
+
+<- concept_government_building;
 <- concept_building;;

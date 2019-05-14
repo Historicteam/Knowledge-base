@@ -1,6 +1,7 @@
 the_Dominican_monastery_maids_house
 
 <- concept_building;
+<- concept_non_profit_residental_building;
 => nrel_main_idtf:
 	[дом для прислуги доминиканского монастыря] (* <- lang_ru;; *);
 	[the Dominican monastery maids house] (* <- lang_en;; *);

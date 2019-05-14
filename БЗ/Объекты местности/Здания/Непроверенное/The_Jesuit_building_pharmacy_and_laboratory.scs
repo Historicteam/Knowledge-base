@@ -1,5 +1,6 @@
 The_Jesuit_building_pharmacy_and_laboratory
 <- concept_building;
+<- concept_trade_enterprise_building;
 => nrel_main_idtf:
 	[Здание аптеки и лаборатории] (* <- lang_ru;; *);
 	[The building pharmacy and laboratory] (* <- lang_en;; *);

@@ -57,5 +57,5 @@ Korkozovichs_House
 	*);
 <-concept_terrain_object;
 <-concept_lost_constructions;
-<-concept_building
-;;
+<-concept_building;
+<-concept_non_profit_residental_building;;
