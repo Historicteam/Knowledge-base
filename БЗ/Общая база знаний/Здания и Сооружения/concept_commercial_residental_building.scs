@@ -1,0 +1,29 @@
+concept_commercial_residental_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[коммерческое жилое здание](*<- lang_ru;;*);
+	[commercial residental buiding](*<- lang_en;;*);
+        [камерцыйны жылы будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Commercial residential building is a building used for commercial activities with subsequent extraction of permanent profits or capital gains, rental income, investment income (hotels, commercial dormitories, apartment buildings) .]
+    (*
+    <- lang_en;;
+    *);
+  [Коммерческое жилое здание - здание, используемое для коммерческой деятельности с последующим извлечением постоянной прибыли или прироста капитала, дохода от аренды, инвестиционного дохода (гостиницы, коммерческие общежития, доходные дома).]
+    (*
+     <-lang_ru;;
+    *);
+  [Камерцыйны жылы будынак - будынак, які выкарыстоўваецца для камерцыйнай дзейнасці з наступным атрыманнем пастаяннай прыбытку або прыросту капіталу, даходу ад арэнды, інвестыцыйнага даходу (гасцініцы, камерцыйныя інтэрната, прыбытковыя дома).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

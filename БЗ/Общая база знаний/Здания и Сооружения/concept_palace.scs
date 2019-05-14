@@ -1,0 +1,29 @@
+concept_palace
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[дворец](*<- lang_ru;;*);
+	[palace](*<- lang_en;;*);
+        [палац](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Palace is a large monumental front building, distinguished by its architecture, was originally the residence of the reigning sovereigns, the highest nobility and from the XIII century, also some buildings of government bodies were called.]
+    (*
+    <- lang_en;;
+    *);
+  [Дворец — большое монументальное парадное здание, выделяющееся своей архитектурой, являлось первоначально резиденцией царствующих владетельных лиц, высшей знати и уже с XIII века так же назывались некоторые здания органов государственной власти.]
+    (*
+     <-lang_ru;;
+    *);
+  [Палац - вялікі манументальны парадны будынак, які вылучаецца сваёй архітэктурай, з'яўляўся першапачаткова рэзідэнцыяй валадараць валадарных асоб, вышэйшай шляхты [1] і ўжо з XIII стагоддзя гэтак жа называліся некаторыя будынкі органаў дзяржаўнай улады.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

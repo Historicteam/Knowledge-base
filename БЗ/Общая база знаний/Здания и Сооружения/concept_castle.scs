@@ -1,0 +1,46 @@
+concept_castle
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[замок](*<- lang_ru;;*);
+	[castle](*<- lang_en;;*);
+        [замак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Castle is a building, combining residential and defensive fortification tasks.]
+    (*
+    <- lang_en;;
+    *);
+  [Замок - здание, сочетающее в себе жилые и оборонительно-фортификационные задачи.]
+    (*
+     <-lang_ru;;
+    *);
+  [Замак - будынак, які спалучае ў сабе жылыя і абарончай-фартыфікацыйныя задачы.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [First official castles were built to protect the family of the feudal lord and himself from the attacks of the Normans (Vikings) and the Hungarians.]
+    (*
+    <- lang_en;;
+    *);
+  [Первые официальные замки строились для защиты семьи феодала и его самого от нападений норманнов (викингов) и венгров.]
+    (*
+     <-lang_ru;;
+    *);;
+  *);;
+*);;

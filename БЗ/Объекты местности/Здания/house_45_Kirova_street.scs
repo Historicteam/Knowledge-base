@@ -5,7 +5,7 @@ house_45_Kirova_street
     [House 45 Kirova street](* <-lang_en;;*);
 <-concept_building;
 <=nrel_whole_part:Kirova_Street;
-=> nrel_osm_query: [node(4502252677);];
+=> nrel_osm_query: [way(484233639);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

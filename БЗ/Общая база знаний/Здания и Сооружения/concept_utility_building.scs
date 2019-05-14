@@ -1,0 +1,29 @@
+concept_utility_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[здание коммунального хозяйства](*<- lang_ru;;*);
+	[utility buiding](*<- lang_en;;*);
+        [будынак камунальнай гаспадаркі](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Utility building is a building designed to house public utilities (fire stations, funeral homes, public restrooms, baths, hotels).]
+    (*
+    <- lang_en;;
+    *);
+  [Здание коммунального хозяйства - здание, предназначенное для размещения учреждений коммунального хозяйства (пожарные депо, похоронные бюро, общественные уборные, бани, гостиницы).]
+    (*
+     <-lang_ru;;
+    *);
+  [Будынак камунальнай гаспадаркі - будынак, прызначаны для размяшчэння устаноў камунальнай гаспадаркі (пажарныя дэпо, пахавальныя бюро, грамадскія прыбіральні, лазні, гасцініцы).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

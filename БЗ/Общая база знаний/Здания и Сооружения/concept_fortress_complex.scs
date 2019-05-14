@@ -1,0 +1,16 @@
+concept_fortress_complex
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[комплекс строений крепости]
+	(*
+	<- lang_ru;;
+	*);
+	[fortress complex]
+	(*
+	<- lang_en;;
+	*);
+	[комплекс будынкаў крэпасці]
+	(*
+	<- lang_by;;
+	*);;

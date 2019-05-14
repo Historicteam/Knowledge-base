@@ -2,7 +2,7 @@ concept_wednesday
     => nrel_main_idtf:
     [среда](* <- lang_ru;; *);
     [серада](* <-lang_by;;*);
-    [wenconcept_wednesdayconcept_wednesday](*<-lang_en;;*);
+    [wednesday](*<-lang_en;;*);
 <-sc_node_not_relation;
 <- rrel_key_sc_element:
 	 Definition_of_wednesday
@@ -32,7 +32,7 @@ concept_wednesday
 			...
 			(* 
 			-> rrel_example:
-            [wenconcept_wednesday is third day of the week](*<-lang_en;;*);;
+            [wednesday is third day of the week](*<-lang_en;;*);;
             *);
 			...
 			(* 

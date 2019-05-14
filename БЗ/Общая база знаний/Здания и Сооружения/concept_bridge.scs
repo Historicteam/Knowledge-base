@@ -1,0 +1,29 @@
+concept_
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[мост](*<- lang_ru;;*);
+	[bridge](*<- lang_en;;*);
+        [мост](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Bridge is an artificial structure erected over a water obstacle, for example, across a river, lake, marsh, strait.]
+    (*
+    <- lang_en;;
+    *);
+  [Мост — искусственное сооружение, возведённое над водным препятствием, например, через реку, озеро, болото, пролив.]
+    (*
+     <-lang_ru;;
+    *);
+  [Мост - штучнае збудаванне, узведзены над водным перашкодай, напрыклад, праз раку, возера, балота, праліў.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

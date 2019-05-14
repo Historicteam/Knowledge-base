@@ -1,0 +1,49 @@
+concept_underground_structure
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[подземное сооружение](*<- lang_ru;;*);
+	[underground structure](*<- lang_en;;*);
+        [падземнае будаванне](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Подземное сооружение — объект промышленного, сельскохозяйственного, культурного, оборонного, коммунального и другого подобного назначения, создаваемый под земной поверхностью, в массивах горных пород.]
+    (*
+    <-lang_ru;;
+    *);
+  [Underground structure is an object of industrial, agricultural, cultural, defense, municipal and other similar purposes, created under the earth's surface, in rock massifs.]
+    (*
+       <- lang_en;;
+    *);
+  [Падземнае збудаванне - аб'ект прамысловага, сельскагаспадарчага, культурнага, абароннага, камунальнай і іншага падобнага прызначэння, створанае пад зямной паверхняй, у масівах горных парод [1].]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+<= nrel_subdividing:
+subdividing_of_underground_structure
+	(*
+		=> nrel_main_idtf:
+			[разбиение подзмного сооружения по назначению]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of underground structure by purpose]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё падземнага будавання па прызначэнні]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_structure_for_the_extraction_of_solid_minerals;;
+        ->concept_structure_of_transport_communications;;
+        ->concept_structure_for_the_placement_of_water_storage;;
+	*);;

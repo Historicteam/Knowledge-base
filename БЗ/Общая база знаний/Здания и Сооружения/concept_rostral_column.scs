@@ -1,0 +1,29 @@
+concept_rostral_column
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[ростральная колонна](*<- lang_ru;;*);
+	[rostral column](*<- lang_en;;*);
+        [ростральная калона](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Ростральная колонна — отдельно стоящая колонна, украшенная носами кораблей (рострами) или их скульптурными изображениями. Традиция использовать в качестве элемента парадных сооружений ростры вражеских кораблей существовала в Древнем Риме и была возрождена в период позднего классицизма (ампира).]
+    (*
+    <-lang_ru;;
+    *);
+  [Rostral column is a stand-alone column, decorated with the noses of ships or their sculptural images. The tradition of using rostra of enemy ships as an element of the ceremonial structures existed in ancient Rome and was revived during the period of late classicism (Empire).]
+    (*
+       <- lang_en;;
+    *);
+  [Ростральная калона - асобна якая стаіць калона, упрыгожаная насамі караблёў ці іх скульптурнымі выявамі. Традыцыя выкарыстоўваць у якасці элемента парадных збудаванняў РоСтра варожых караблёў існавала ў Старажытным Рыме і была адроджана ў перыяд позняга класіцызму (ампіру).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

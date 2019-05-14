@@ -1,0 +1,29 @@
+concept_technical_monument
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[технический памятник](*<- lang_ru;;*);
+	[tecchnical monument](*<- lang_en;;*);
+        [тэхнічны помнік](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Технический памятник - установленное в качестве памятника техническое устройство, чаще всего — транспортное (паровозы, автомобили, танки, пушки, самолеты и т. д.).]
+    (*
+    <-lang_ru;;
+    *);
+  [Technical monument is a technical device installed as monument, most often transport vehicle (steam locomotives, cars, tanks, guns, airplanes, etc.);]
+    (*
+       <- lang_en;;
+    *);
+  [Тэхнічны помнік - усталяваная ў якасці помніка тэхнічная прылада, часцей за ўсё - транспартная (паравозы, аўтамабілі, танкі, гарматы, самалёты і т. д.).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

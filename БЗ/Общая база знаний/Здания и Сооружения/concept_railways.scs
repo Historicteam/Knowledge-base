@@ -1,0 +1,29 @@
+concept_railways
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[железнодорожные пути](*<- lang_ru;;*);
+	[railways](*<- lang_en;;*);
+        [чыгуначныя шляхі](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Railways is a complex complex of linear and concentrated engineering structures and facilities located in the right of way, forming a road with a guide rail.]
+    (*
+    <- lang_en;;
+    *);
+  [Железнодорожные пути — сложный комплекс линейных и сосредоточенных инженерных сооружений и обустройств, расположенных в полосе отвода, образующих дорогу с направляющей рельсовой колеёй.]
+    (*
+     <-lang_ru;;
+    *);
+  [Чыгуначныя шляхі - складаны комплекс лінейных і засяроджаных інжынерных збудаванняў і ўладкавання, размешчаных у паласе адводу, якія ўтвараюць дарогу з накіроўвалай рэйкавай каляінай.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

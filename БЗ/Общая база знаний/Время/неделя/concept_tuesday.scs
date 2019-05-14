@@ -2,7 +2,7 @@ concept_tuesday
     => nrel_main_idtf:
     [вторник](* <- lang_ru;; *);
     [аўторак](* <-lang_by;;*);
-    [tuesdayconcept_tuesday](*<-lang_en;;*);
+    [tuesday](*<-lang_en;;*);
 <-sc_node_not_relation;
 <- rrel_key_sc_element:
 	 Definition_of_tuesday

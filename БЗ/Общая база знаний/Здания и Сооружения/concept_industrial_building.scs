@@ -1,0 +1,57 @@
+concept_industrial_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[промышленное здание]
+	(*
+	<- lang_ru;;
+	*);
+	[industrial building]
+	(*
+	<- lang_en;;
+	*);
+	[прамысловы будынак]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Industrial building is a a building designed to house industrial production and provide the necessary working conditions for people and the operation of technological equipment.]
+    (*
+    <- lang_en;;
+    *);
+  [Промышленное здание - здание, предназначенное для размещения промышленных производств и обеспечивающее необходимые условия для труда людей и эксплуатации технологического оборудования.]
+    (*
+     <-lang_ru;;
+    *);
+  [Прамысловы будынак - будынак, прызначаны для размяшчэння прамысловых вытворчасцей і забеспячэння неабходных умоў працы людзей і эксплуатацыі тэхналагічнага абсталявання.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+<= nrel_subdividing:
+subdividing_of_the_industrial_building
+	(*
+		=> nrel_main_idtf:
+			[разбиение промышленного здания по назначению]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of industrial building for its intended purpose]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё прамысловага будынка па прызначэнні]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_manufacturing_building;;
+        ->concept_energy_building;;
+        ->concept_transport_and_storage_building;;
+	*);;
+
