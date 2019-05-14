@@ -36,4 +36,5 @@ The_building_of_the_Minsk_Male_Gymnasiume
 				*);;
 			*);;
 	*);
-<-concept_building;;
+<- concept_building;
+<- concept_educational_building;;

@@ -1,5 +1,6 @@
 Building_Institute_Belpromproekt
-<- concept_building;
+<- concept_office_building;
+<-concept_building;
 => nrel_main_idtf:
 	[Площадь Свободы, 17] (* <- lang_ru;; *);
 	[Freedom Square, 17] (* <- lang_en;; *);

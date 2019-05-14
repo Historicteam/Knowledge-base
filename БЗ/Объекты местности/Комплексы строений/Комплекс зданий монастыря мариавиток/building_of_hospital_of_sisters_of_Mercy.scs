@@ -1,5 +1,6 @@
 building_of_hospital_of_sisters_of_Mercy
 <-concept_building;
+<-concept_healthcare_building;
 =>nrel_main_idtf:
 	[Здание госпиталя сестёр милосердия]
 	(*

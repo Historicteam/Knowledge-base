@@ -8,7 +8,7 @@ subject_domain_of_constructions
 
 => nrel_primary_elements_class_private_subject_domain: 
     subject_domain_of_buildings; 
-    subject_domain_of_structures;
+    subject_domain_of_facilities;
 
 -> rrel_maximum_studied_object_class:
     concept_construction;
@@ -16,8 +16,71 @@ subject_domain_of_constructions
 -> rrel_not_maximum_studied_object_class:
     concept_building;
     concept_structure;
-    concept_complex_of_buildings;
-    concept_architectural_complex;
+    concept_complex_of_constructions;
+
+concept_fortification_structure;
+concept_small_architectural_form;
+concept_underground_structure;
+concept_memorial_structure;
+concept_hydrotechnical_sructure;
+concept_structure_of_transport_communications;
+concept_structure_for_the_placement_of_water_storage;
+concept_structure_for_the_extraction_of_solid_minerals;
+concept_gazebo;
+concept_fountain;
+concept_fence;
+concept_chapel;
+concept_airdrome;
+concept_technical_monument;
+concept_triumphal_arch;
+concept_bridge;
+concept_wing;
+concept_tower;
+concept_tombstone;
+concept_faked_pillar;
+concept_statue;
+concept_stable;
+concept_stairs;
+concept_railways;
+concept_obelisk;
+concept_memorial_plaque;
+
+concept_fortress_complex;
+concept_memorial_complex;
+concept_manor_complex;
+concept_architectural_ensemble;
+concept_palace_and_park_ensemble;
+concept_complex_of_monastery_buildings;
+
+   concept_religious_building;
+    concept_sinagogue;
+concept_prayer_house;
+concept_church;
+concept_mosque;
+concept_kirkha;
+concept_orthodox_temple;
+concept_catholic_temple;
+
+concept_residental_building;
+concept_commercial_residental_building;
+concept_non_profit_residental_building;
+
+concept_industrial_building;
+concept_transport_and_storage_building;
+concept_manufacturing_building;
+concept_energy_building;
+
+concept_public_building;
+concept_research_building;
+concept_trade_enterprise_building;
+concept_transport_service_building;
+concept_utility_building;
+concept_sports_building;
+concept_government_building;
+concept_cultural_building;
+concept_educational_building;
+concept_healthcare_building;
+concept_office_building;
 
 -> rrel_explored_non_related_subject_domain_concept:
     concept_architectural_style;

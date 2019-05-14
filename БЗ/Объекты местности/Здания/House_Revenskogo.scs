@@ -12,4 +12,6 @@ House_Revenskogo
 		(*
 		<- lang_by;;
 		*);
+		<-concept_educational_building;
+                <=nrel_whole_part:Leningradskaya_street;
 		<-concept_building;;

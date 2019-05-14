@@ -1,4 +1,5 @@
-Oskar_Janickij_house <- rrel_key_sc_element: Illustration_Oskar_Janickij_house
+Oskar_Janickij_house 
+<- rrel_key_sc_element: Illustration_Oskar_Janickij_house
 	(*
 => nrel_main_idtf:
 	[дом Оскара Яницкoгo в наши дни.] 

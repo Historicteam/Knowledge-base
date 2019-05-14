@@ -1,6 +1,8 @@
 Peter_and_Paul_Cathedral_Building
 <- concept_building;
+<- concept_catholic_temple;
 <- concept_terrain_object;
+<=nrel_whole_part:Engelss_Street;
 => nrel_idtf:
 	[Здание Святодуховской церкови]
 	(*

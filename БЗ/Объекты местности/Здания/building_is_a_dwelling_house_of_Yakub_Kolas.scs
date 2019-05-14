@@ -53,7 +53,8 @@ building_is_a_dwelling_house_of_Yakub_Kolas
 			*);;
 		*);;
 	*);
+<- concept_building;
 <-concept_residential_building;
-<-concept_building;
+<-concept_non_profit_residental_building;
 <-concept_lost_constructions;;
 

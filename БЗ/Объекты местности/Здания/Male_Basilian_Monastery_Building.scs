@@ -72,6 +72,7 @@ Male_Basilian_Monastery_Building
 	<- lang_by;;
 	*);
 
+<=nrel_whole_part:Freedom_Square;
 <- rrel_key_sc_element: 
 	...
 	(*
@@ -106,6 +107,8 @@ Male_Basilian_Monastery_Building
 ;
 
 <- concept_building;
+<- concept_cultural_building;
+<- concept_educational_building;
 <- concept_terrain_object;
 
 => nrel_osm_query:[relation(8478813);];

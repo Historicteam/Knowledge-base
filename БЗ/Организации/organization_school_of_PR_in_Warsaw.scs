@@ -26,6 +26,6 @@ organization_school_of_PR_in_Warsaw
 	<- ...(*
 		=> nrel_subdividing: Warsaw;;	
 	*);;
-	<- concept_building;;
+	<- concept_educational_building;;
 *);
 <-concept_educational_institution;;

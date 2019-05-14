@@ -72,6 +72,7 @@ building_of_Red_Church
 			*);;
 		*);;
 	*);
+<-concept_catholic_temple;
 <-concept_building;;
 concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
 (*

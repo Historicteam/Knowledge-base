@@ -1,5 +1,6 @@
 The_building_of_the_Mariinsky_Cathedral
-<- concept_building;
+<- concept_catholic_temple;
+<-concept_building;
 => nrel_main_idtf:
 	[Здание Иезуитского костёла Святой Варвары, Марии и Иисуса] (* <- lang_ru;; *);
 	[The building of Jesuit church of St. Barbara, Mary and Jesus] (* <- lang_en;; *);

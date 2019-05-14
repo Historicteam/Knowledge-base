@@ -3,6 +3,5 @@ house_of_troickaya_gora
 		[Дом на Троицкой горе] (* <- lang_ru;; *);
 		[Trinity House on the Mount]	(* <- lang_en;; *);
 		[Дом на Траецкай гары] (* <- lang_by;; *);
+<- concept_non_profit_residental_building;
 <- concept_building;;
-
-

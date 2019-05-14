@@ -1,0 +1,44 @@
+Muellers_House
+=> nrel_main_idtf:
+	[Дом Мюллеров]
+	(*
+	<- lang_ru;;
+	*);
+	[Muellers' House]
+	(*
+	<- lang_en;;
+	*);
+	[Дом Мюлераў]
+	(*
+	<- lang_by;;
+	*);
+<-concept_building;
+<-concept_non_profit_residental_building;
+<-concept_terrain_object;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [54.680365, 25.282745]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 54.680365;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 25.282745;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*)
+;;

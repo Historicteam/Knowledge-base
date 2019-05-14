@@ -13,8 +13,9 @@ Church_of_St_Adalbert
 	<- lang_by;;
 	*);
 	
-<-concept_building;
+<-concept_catholic_temple;
 <-concept_terrain_object;
+<-concept_building;
 
 <- begin_date_1647;
         <- completion_date_1944;

@@ -114,6 +114,6 @@ organization_uchiliche_slepih
 
 <- ... (* => nrel_subdividing: the_city_of_Minsk;; *);
 
-<-concept_building;
+<-concept_non_profit_residental_building;
 <-concept_terrain_object
 ;;

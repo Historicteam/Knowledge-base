@@ -35,6 +35,50 @@ concept_construction
 			<- lang_by;;
 			*);;
 		*);;
-	*)
-;;
+	*);
+<= nrel_subdividing:
+subdividing_of_the_construction
+	(*
+		=> nrel_main_idtf:
+			[разбиение понятия "строение"]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of construction]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё паняцця "збудаванне"]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_building;;
+        ->concept_structure;;
+        ->concept_complex_of_buildings;;
+	*);
+   
+<= nrel_subdividing:
+subdividing_of_the_construction_preservation_type
+	(*
+		=> nrel_main_idtf:
+			[разбиение строения по типу сохранности]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of construction by type of preservation]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё збудавання па тыпу захаванасці]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_lost_constructions;;
+        ->concept_authentic_constructions;;
+        ->concept_renovated_construction;;
+        ->concept_reconstructed_construction;;
+
+	*);;
+   
+
 

@@ -32,7 +32,8 @@ Building_courtyard_seating
 	*);
 
 <- concept_building;
-
+<- concept_commercial_residental_building;
+<- concept_trade_enterprise_building;
 <- rrel_key_sc_element: Image_building_courtyard_seating (*
 	=> nrel_main_idtf:
 		[Изображение здания гостиного двора] (* <- lang_ru;; *);

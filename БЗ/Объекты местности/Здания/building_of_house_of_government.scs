@@ -67,6 +67,7 @@ building_of_house_of_government
 			*);;
 		*);;
 	*);
+<-concept_government_building;
 <-concept_building;;
 concept_situation->[*organization_Regional_Planning_Commission => nrel_location: building_of_house_of_government;;*]
 (*

@@ -1,24 +1,29 @@
 concept_lost_constructions
-<- sc_node_not_relation;
+<-sc_const;
+<-sc_node_not_relation;
 => nrel_main_idtf:
-	[утраченное  строение]
-	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятие утраченного строения]
-	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_lost_constructions
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [Утраченное строение - строение которое больше не доступно для использования в силу разнообразных причин.(Пожар, наводнение, цунами) . ] (* <-lang_ru;; *);;
-		*);;
-	<= nrel_using_constants:
-		...
-		(* 
-		-> 	concept_construction;;
-		*);;
-	*);;
+	
+	[утраченное  строение](*<- lang_ru;;*);
+	[lost construction](*<- lang_en;;*);
+        [страчанае збудаванне](*<- lang_by;;*);
 
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Lost construction is a construction that is no longer available due to various reasons.]
+    (*
+    <- lang_en;;
+    *);
+  [Утраченное строение - строение которое больше не доступно для использования в силу разнообразных причин(пожар, наводнение, цунами).]
+    (*
+     <-lang_ru;;
+    *);
+  [Страчанае збудаванне - збудаванне, якое больш недаступна ў сілу разнастайных прычын.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

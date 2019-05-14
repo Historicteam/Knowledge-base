@@ -12,7 +12,7 @@ Malinins_house
   (*
   <- lang_by;;
     *);
-
+<=nrel_whole_part:Volodarsky_Street;
 <- rrel_key_sc_element:
   ...
   (*
@@ -36,6 +36,8 @@ Malinins_house
 
 <=nrel_whole_part:Volodarsky_Street;
 <- concept_building;
+<- concept_non_profit_residental_building;
+
 => nrel_geographical_location: ...
   (*
   <-concept_mapped_point;;
