@@ -1,7 +1,0 @@
-Musical_Lane
-=> nrel_main_idtf:
-	[Переулок Музыкальный](* <- lang_ru;; *);
-	[Musical lane](* <- lang_en;; *);
-	[Завулак Музыкальны](* <- lang_by;; *);
-
-<-concept_street;; 

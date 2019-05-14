@@ -25,8 +25,8 @@ organization_Minsk_Municipal_Public_Library_named_after_Pushkin
 		[Інтэрнацыянальная вуліца дом 31]
 		(*
 		<- lang_by;;
-		*);
-                <=nrel_whole_part:International_Street;;
+		*);;
 	*); 
+	   <=nrel_whole_part:International_Street;
 <-concept_library
 ;;
