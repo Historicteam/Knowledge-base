@@ -1,0 +1,29 @@
+concept_renovated_construction
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[реставрированное строение](*<- lang_ru;;*);
+	[renovated construction](*<- lang_en;;*);
+        [рэстаўраванае збудаванне](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Renovated construction is a construction which has gone through a certain modernization.]
+    (*
+    <- lang_en;;
+    *);
+  [Реставрированное строение - здание, которое прошло определенную модернизацию.]
+    (*
+     <-lang_ru;;
+    *);
+  [Рэстаўраванае збудаванне - збудаванне, якое прайшло пэўную мадэрнізацыю.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

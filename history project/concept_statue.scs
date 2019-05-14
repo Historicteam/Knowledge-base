@@ -1,0 +1,29 @@
+concept_statue
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[статуя](*<- lang_ru;;*);
+	[statue](*<- lang_en;;*);
+        [статуя](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Статуя - один из основных видов круглой скульптуры, представляющее собой трёхмерное изображение человеческой фигуры или животного.]
+    (*
+    <-lang_ru;;
+    *);
+  [Statue is one of the main types of circular sculpture, which is a three-dimensional image of a human figure or animal.]
+    (*
+       <- lang_en;;
+    *);
+  [Статуя - адзін з асноўных відаў круглай скульптуры, якое прадстаўляе сабой трохмерны малюнак чалавечай фігуры ці жывёлы.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

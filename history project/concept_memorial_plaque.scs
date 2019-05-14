@@ -1,0 +1,29 @@
+concept_memorial_plaque
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[мемориальная доска](*<- lang_ru;;*);
+	[memorial plaque](*<- lang_en;;*);
+        [мемарыяльная дошка](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Мемориальная доска -плита, обычно из долговечного камня (мрамор, гранит) или металлического сплава (бронза, чугун), увековечивающая память о знаменитом человеке или событии. Устанавливаются на зданиях, в которых проживала или работала знаменитая персона или в которых (возле которых) произошло важное событие.]
+    (*
+    <-lang_ru;;
+    *);
+  [Memorial plaque is a plate, usually of durable stone (marble, granite) or metal alloy (bronze, cast iron), perpetuating the memory of a famous person or event. They are installed on buildings in which the famous person lived or worked or in which (near which) an important event occurred.]
+    (*
+       <- lang_en;;
+    *);
+  [Мемарыяльная дошка - пліта, звычайна з даўгавечнага каменя (мармур, граніт) або металічнага сплаву (бронза, чыгун), увекавечваць памяць аб знакамітым чалавеку або падзеі. Ўсталёўваюцца на будынках, у якіх пражывала або працавала знакамітая персона або ў якіх (каля якіх) адбылася важная падзея.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

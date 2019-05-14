@@ -1,0 +1,16 @@
+concept_palace_and_park_ensemble
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[дворцово-парковый ансамбль]
+	(*
+	<- lang_ru;;
+	*);
+	[palace and park ensemble]
+	(*
+	<- lang_en;;
+	*);
+	[палацава-паркавы ансамбль]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,30 @@
+concept_catholic_temple
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[католический храм](*<- lang_ru;;*);
+	[catholic temple](*<- lang_en;;*);
+        [каталіцкі храм](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Catholic temple is a catholic religious building, intended for the commission of public worship, which has an altar, altar and dome.]
+    (*
+    <- lang_en;;
+    *);
+  [Католический храм — католическое религиозное сооружение, предназначенное для совершения общественного богослужения, имеющее алтарь, престол и купол.]
+    (*
+     <-lang_ru;;
+    *);
+  [Каталіцкі храм - каталіцкае рэлігійнае будаванне, прызначанае для здзяйснення грамадскага набажэнствы, якое мае алтар, прастол і купал.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+
