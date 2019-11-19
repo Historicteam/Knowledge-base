@@ -6,6 +6,21 @@ haute_cuisine
 <- rrel_key_sc_element:
 	 Definition_of_the_haute_cuisine
 	(* 
+
+		=> nrel_main_idtf:
+			[Определение понятия высокая кухня]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of haute cuisine]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "высокая кухня"]
+			(*
+			<- lang_by;;
+			*);;
+
 		<- sc_definition;;
 		<= nrel_sc_text_translation:
 			...

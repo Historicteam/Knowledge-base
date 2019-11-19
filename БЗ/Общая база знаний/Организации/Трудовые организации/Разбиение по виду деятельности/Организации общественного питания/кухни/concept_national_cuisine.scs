@@ -4,9 +4,8 @@ concept_national_cuisine
     [national cuisine](* <-lang_en;; *);
     [нацыянальная кухня](*<-lang_by;;*);
 <-sc_node_not_relation;
-=>nrel_inclusion:belarussian_cuisine;
 <- rrel_key_sc_element:
-	 Definition_of_the_national_cuisine_concept
+	Definition_of_the_national_cuisine_concept
 	(* 
 		=> nrel_main_idtf:
 			[Определение понятия национальная кухня]

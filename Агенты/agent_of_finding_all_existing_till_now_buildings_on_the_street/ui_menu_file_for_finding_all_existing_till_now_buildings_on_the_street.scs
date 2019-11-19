@@ -19,7 +19,7 @@ ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => ui_nre
 	*];;
 
 ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => ui_nrel_command_lang_template: 
-	[Запрос поиска всех сохранившихся зданий на заданной улице: $ui_arg_1] 
+	[Запрос поиска всех сохранившихся зданий на улице: $ui_arg_1] 
 	(* <- lang_ru;; *);;
 
 ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street => ui_nrel_command_lang_template: 

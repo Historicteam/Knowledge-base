@@ -5,6 +5,7 @@ kuhmistr
     [Кухмiстр](*<-lang_by;;*);
 <-concept_catering_organization;
 =>nrel_cuisine:belarussian_cuisine;
+=>nrel_cuisine:haute_cuisine;
 <-concept_catering_with_waiter_service;
 <-concept_restaurant;
 =>nrel_working_hours: Mon_Sun_12_00_23_00;

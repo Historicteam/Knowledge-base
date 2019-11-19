@@ -7,4 +7,4 @@ hinkalnia
 <-concept_catering_with_waiter_service;
 <-concept_restaurant;
 =>nrel_working_hours: Mon_Sun_12_00_00_00;
-=>nrel_location:house_25_International_street;;
+=>nrel_location:house_25a_International_street;;

@@ -6,8 +6,7 @@ concept_lost_archaeological_monument
 => nrel_idtf:
 	[понятие утраченного археологического памятника]
 	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_lost_archaeological_monument
+<- rrel_key_sc_element: ...
 	(* 
 	<- sc_explanation;;
 	<= nrel_sc_text_translation:
