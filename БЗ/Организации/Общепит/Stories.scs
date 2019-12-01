@@ -1,0 +1,9 @@
+Stories
+=>nrel_main_idtf:
+    [Stories](* <-lang_ru;;*);
+    [Stories](* <-lang_en;;*);
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_9_00_22_00;
+=>nrel_location:house_14_International_street;;

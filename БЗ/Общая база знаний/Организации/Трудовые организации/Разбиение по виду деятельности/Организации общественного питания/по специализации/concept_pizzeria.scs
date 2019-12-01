@@ -1,18 +1,19 @@
 concept_pizzeria
 =>nrel_main_idtf:
-    [pizzeria](*<-lang_en;;*);
+        [pizzeria](* <-lang_en;;*);
+=>nrel_idtf:
     [пиццерия](*<-lang_ru;;*);
+    [pizzeria](* <-lang_en;;*);
     [піцэрыя](*<-lang_by;;*);
-    <- rrel_key_sc_element:
-	Definition_of_the_pizzeria_concept
+<- rrel_key_sc_element:
+	Definition_of_the_coffee_concept
 	(* 
 		<- sc_definition;;
 		<= nrel_sc_text_translation:
 			...
 			(* 
 			-> rrel_example:
-			[Пиццерия - заведение специализирующееся на изготовлении и продаже пиццы.] (* <-lang_ru;; *);; 
+			[Пиццерия - закусочная, в которой готовят и подают пиццу.] (* <-lang_ru;; *);; 
 			*);;
 	*);
-<=nrel_inclusion:concept_specialized_catering_organization;
-<-sc_node_not_relation;;
+ <-sc_node_not_relation;;

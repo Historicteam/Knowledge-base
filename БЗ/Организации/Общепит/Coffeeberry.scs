@@ -1,0 +1,22 @@
+Coffeeberry
+=>nrel_main_idtf:
+	[CoffeeBerry](* <-lang_en;;*);
+	[Кофеберри](* <-lang_ru;;*); 
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-concept_coffee;
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/coffeeberry.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+=>nrel_working_hours: Mon_Sun_8_00_23_00;
+=>nrel_location:house_5_International_street;;

@@ -1,0 +1,6 @@
+italian_cuisine
+=>nrel_main_idtf:
+    [Итальянская кухня](*<-lang_ru;;*);
+    [Italian cuisine](* <-lang_en;; *);
+    [Iтальянская кухня](*<-lang_by;;*);
+<-concept_national_cuisine;;

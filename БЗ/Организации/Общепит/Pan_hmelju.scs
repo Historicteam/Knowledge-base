@@ -1,0 +1,24 @@
+Pan_hmelju
+=>nrel_main_idtf:
+  [Пан Хмелю](*<-lang_en;;*);  
+  [Пан Хмелю](*<-lang_ru;;*);
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-concept_restaurant;
+=>nrel_cuisine:belarussian_cuisine;
+=>nrel_working_hours: Sun_Thu_12_00_00_00;
+=>nrel_working_hours: Fri_Sat_12_00_02_00;
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/pan-hmelu.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+=>nrel_location: house_11_International_street;;

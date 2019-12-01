@@ -1,0 +1,22 @@
+Fri_Sat_12_00_02_00
+        <-concept_schedule;
+        =>nrel_main_idtf:
+            [Пт-Сб 12:00-02:00](*<-lang_ru;;*);
+        ->...
+        (*
+            ->rrel_1:concept_friday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_12h_00m;;
+                <-completion_date_02h_00m;;
+            *);;
+        *);
+        ->...
+        (*
+            ->rrel_1:concept_saturday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_12h_00m;;
+                <-completion_date_02h_00m;;
+            *);;
+        *);;

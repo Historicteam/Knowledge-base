@@ -16,7 +16,6 @@ Moniuszkos_House
 <-concept_building;
 <-concept_non_profit_residental_building;
 <-concept_terrain_object;
-<=nrel_whole_part:International_Street;
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
@@ -31,7 +30,6 @@ Moniuszkos_House
 		*);;
 	*);
 
-<=nrel_whole_part:International_Street;
 => nrel_osm_query: [way(25327522);];
 => nrel_geographical_location: ...
 	(*

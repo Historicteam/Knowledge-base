@@ -1,0 +1,42 @@
+house_14_International_street
+=>nrel_main_idtf:
+	[Улица Интернациональная 14]
+		(*
+		<- lang_ru;;
+		*);
+		[International street, 14]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца інтэрнацыянальная 14]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:International_Street;
+=> nrel_osm_query: [way(38809289);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.901018, 27.552787]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.901018;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.552787;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<-concept_building;;

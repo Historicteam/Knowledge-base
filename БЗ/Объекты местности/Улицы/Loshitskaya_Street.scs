@@ -58,10 +58,6 @@ Volodarsky_Street
       (*
       <- lang_by;;
       *);
-    <= nrel_subdividing:
-    {
-      Malinins_house
-    };
     <-concept_street;;
 
 concept_situation->[* Loshitskaya_Street<= nrel_temporal_decomposition:Volodarsky_Street;; *]

@@ -1,0 +1,22 @@
+Grand_Cafe
+=>nrel_main_idtf:
+	[Grand Cafe](* <-lang_en;;*);
+	[Grand Café](* <-lang_ru;;*); 
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-concept_restaurant;
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/grand-cafe.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+=>nrel_working_hours: Mon_Sun_12_00_00_00;
+=>nrel_location:house_2_Lenina_street;;

@@ -1,0 +1,10 @@
+Il_grottino
+=>nrel_main_idtf:
+	[Pizzeria IL Grottino](* <-lang_en;;*);
+	[Pizzeria IL Grottino](* <-lang_ru;;*);
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-concept_pizzeria;
+=>nrel_cuisine:italian_cuisine;
+=>nrel_working_hours: Mon_Sun_9_00_00_00;
+=>nrel_location:house_13_International_street;;

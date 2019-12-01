@@ -1,0 +1,42 @@
+house_9_International_street
+=>nrel_main_idtf:
+	[Улица Интернациональная 9]
+		(*
+		<- lang_ru;;
+		*);
+		[International street, 9]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца інтэрнацыянальная 9]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:International_Street;
+=> nrel_osm_query: [node(5906483403);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9016138, 27.5536492]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9016138;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5536492;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<-concept_building;;
