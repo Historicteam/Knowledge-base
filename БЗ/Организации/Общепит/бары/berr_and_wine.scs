@@ -1,0 +1,9 @@
+Beer_and_wine
+=>nrel_main_idtf:
+    [Beer&Wine](*<-lang_ru;;*);
+    [Beer And Wine](*<-lang_en;;*);
+<-concept_bar;
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+=>nrel_working_hours:Mon_Sun_00_00_00_00;
+=>nrel_location:house_9_Kulman_street;;

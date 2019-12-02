@@ -2,7 +2,6 @@ My_Dear_Kebab
 =>nrel_main_idtf:
     [My Dear Kebab](*<-lang_en;;*);
     [My Dear Kebab](*<-lang_ru;;*);
-<-concept_catering_organization;
 <-concept_shawarma;
 <-concept_catering_with_counter_service;
 =>nrel_working_hours: Mon_Sun_9_00_00_00;

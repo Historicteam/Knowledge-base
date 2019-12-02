@@ -1,0 +1,9 @@
+El_buritto
+=>nrel_main_idtf:
+    [эль-Бурыта](*<-lang_by;;*);
+    [эль-Буррито](*<-lang_by;;*);
+    [el-Buritto](*<-lang_en;;*);
+<-concept_shawarma;
+<-concept_catering_with_counter_service;
+=>nrel_working_hours: Mon_Sun_10_00_06_00;
+=>nrel_location:house_18_Kulman_street;;

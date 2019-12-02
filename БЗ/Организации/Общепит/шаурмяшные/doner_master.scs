@@ -1,0 +1,9 @@
+Doner_master
+=>nrel_main_idtf:
+    [Донер Мастер](*<-lang_ru;;*);
+    [Донар майстар](*<-lang_by;;*);
+    [Doner master](*<-lang_en;;*);
+<-concept_shawarma;
+<-concept_catering_with_counter_service;
+=>nrel_working_hours:Mon_Sun_09_00_01_00;
+=>nrel_location:house_9_Kulman_street;;

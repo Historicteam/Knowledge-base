@@ -1,0 +1,9 @@
+Doner_city
+=>nrel_main_idtf:
+    [Донер сити](*<-lang_ru;;*);
+    [Донар сіці](*<-lang_by;;*);
+    [Doner city](*<-lang_en;;*);
+<-concept_shawarma;
+<-concept_catering_with_counter_service;
+=>nrel_working_hours:Mon_Sun_09_00_06_00;
+=>nrel_location:house_9_Kulman_street;;

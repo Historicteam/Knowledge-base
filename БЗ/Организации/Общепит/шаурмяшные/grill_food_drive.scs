@@ -2,7 +2,6 @@ grill_food_drive
 =>nrel_main_idtf:
     [Гриль фуд драйв](*<-lang_ru;;*);
     [Grill food drive](*<-lang_en;;*);
-<-concept_catering_organization;
 <-concept_shawarma;
 <-concept_catering_with_counter_service;
 =>nrel_working_hours: Mon_Sun_00_00_00_00;

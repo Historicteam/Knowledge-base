@@ -2,7 +2,6 @@ hinkalnia
 =>nrel_main_idtf:
     [Хинкальня](*<-lang_ru;;*);
     [Hinkalnia](* <-lang_en;;*);
-<-concept_catering_organization;
 =>nrel_cuisine:georgian_cuisine;
 <-concept_catering_with_waiter_service;
 <-concept_restaurant;

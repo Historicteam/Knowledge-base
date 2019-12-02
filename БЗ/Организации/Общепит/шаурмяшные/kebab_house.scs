@@ -1,0 +1,9 @@
+Kebab_House
+=>nrel_main_idtf:
+    [Кебаб хауз](*<-lang_ru;;*);
+    [Кебаб хауз](*<-lang_by;;*);
+    [Kebab House](*<-lang_en;;*);
+<-concept_shawarma;
+<-concept_catering_with_counter_service;
+=>nrel_working_hours:Mon_Sun_10_00_00_00;
+=>nrel_location:house_9_Kulman_street;;

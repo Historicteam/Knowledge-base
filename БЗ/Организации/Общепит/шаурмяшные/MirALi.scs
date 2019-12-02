@@ -2,7 +2,6 @@ MirAli
 =>nrel_main_idtf:
     [МирАли](*<-lang_ru;;*);
     [Mirali](*<-lang_en;;*);
-<-concept_catering_organization;
 <-concept_shawarma;
 <-concept_catering_with_counter_service;
 =>nrel_working_hours: Mon_Sun_10_00_23_00;
