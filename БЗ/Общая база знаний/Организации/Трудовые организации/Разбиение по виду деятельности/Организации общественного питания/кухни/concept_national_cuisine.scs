@@ -1,11 +1,11 @@
 concept_national_cuisine
+<-sc_node_not_relation;
 =>nrel_main_idtf:
     [национальная кухня](*<-lang_ru;;*);
     [national cuisine](* <-lang_en;; *);
     [нацыянальная кухня](*<-lang_by;;*);
-<-sc_node_not_relation;
 <- rrel_key_sc_element:
-	Definition_of_the_national_cuisine_concept
+	 Definition_of_the_national_cuisine_concept
 	(* 
 		=> nrel_main_idtf:
 			[Определение понятия национальная кухня]
@@ -40,3 +40,16 @@ concept_national_cuisine
 			[Нацыянальная кухня - сукупнасць традыцый і рэцэптаў прыгатавання ежы прынятых у пэўнай краіне ці народзе] (* <-lang_by;; *);; 
 			*);;
 	*);;
+
+subdiving_by_type_of_national_cuisine
+    =>nrel_main_idtf:
+        [разбиение по виду национальной кухни](* <-lang_ru;; *);;
+
+concept_national_cuisine 
+	<= nrel_subdividing: subdiving_by_type_of_national_cuisine
+        (*
+            ->belarussian_cuisine;
+            georgian_cuisine;
+            italian_cuisine;
+            spanish_cuisine;;
+        *);;

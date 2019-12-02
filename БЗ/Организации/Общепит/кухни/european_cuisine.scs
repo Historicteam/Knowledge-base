@@ -1,0 +1,16 @@
+european_cuisine
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Европейская кухня](*<-lang_ru;;*);
+    [European cuisine](* <-lang_en;; *);
+    [Еурапейская кухня](*<-lang_by;;*);;
+subdiving_by_type_of_european_cuisine
+	=>nrel_main_idtf:
+        	[разбиение по виду европейской кухни](* <-lang_ru;; *);;
+european_cuisine
+    <= nrel_subdividing: subdiving_by_type_of_european_cuisine
+      	(*
+            ->italian_cuisine;
+            spanish_cuisine;
+            belarussian_cuisine;;
+	*);;

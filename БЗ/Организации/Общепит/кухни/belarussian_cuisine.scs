@@ -1,6 +1,7 @@
 belarussian_cuisine
+<-sc_node_not_relation;
 =>nrel_main_idtf:
     [Белорусская кухня](*<-lang_ru;;*);
     [Belarussian cuisine](* <-lang_en;; *);
-    [Беларуская кухня](*<-lang_by;;*);
-<-concept_national_cuisine;;
+    [Беларуская кухня](*<-lang_by;;*);;
+

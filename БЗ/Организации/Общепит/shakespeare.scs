@@ -1,0 +1,13 @@
+shakespeare
+=>nrel_main_idtf:
+    [ШексПИР](*<-lang_ru;;*);
+    [Shakespeare](* <-lang_en;;*);
+<-concept_catering_organization;
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-european_cuisine;
+<-belarussian_cuisine;
+<-concept_restaurant;
+<-concept_bar;
+=>nrel_working_hours: Mon_Sun_12_00_2_00;
+=>nrel_location:house_7_Bogdanovich_street;;

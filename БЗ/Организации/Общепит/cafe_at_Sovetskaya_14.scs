@@ -1,0 +1,12 @@
+cafe_at_Sovetskaya_14
+=>nrel_main_idtf:
+    [Кафе на Советской 14](*<-lang_ru;;*);
+    [Cafe at Sovetskaya 14](* <-lang_en;;*);
+=>nrel_cuisine:home_cuisine;
+=>nrel_cuisine:european_cuisine;
+=>nrel_cuisine:belarussian_cuisine;
+<-concept_catering_with_waiter_service;
+<-concept_cafe;
+=>nrel_working_hours: Mon_Sun_12_00_23_00;
+=>nrel_location:house_14_Sovetskaya_street;;
+

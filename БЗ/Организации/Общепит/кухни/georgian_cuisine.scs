@@ -1,6 +1,7 @@
 georgian_cuisine
+<-sc_node_not_relation;
 =>nrel_main_idtf:
     [Грузинская кухня](*<-lang_ru;;*);
     [Georgian cuisine](* <-lang_en;; *);
-    [Грузiнская кухня](*<-lang_by;;*);
-<-concept_national_cuisine;;
+    [Грузiнская кухня](*<-lang_by;;*);;
+
