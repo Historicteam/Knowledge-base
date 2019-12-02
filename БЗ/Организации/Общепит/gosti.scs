@@ -1,0 +1,12 @@
+gosti
+=>nrel_main_idtf:
+	[Gosti](* <-lang_en;;*);
+	[Гости](* <-lang_ru;;*); 
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-concept_restaurant;
+=>nrel_cuisine:european_cuisine;
+=>nrel_cuisine:belarussian_cuisine;
+=>nrel_working_hours: Sun_Thu_12_00_01_00;
+=>nrel_working_hours: Fri_Sat_12_00_03_00;
+=>nrel_location:house_25_Independence_Avenue;;
