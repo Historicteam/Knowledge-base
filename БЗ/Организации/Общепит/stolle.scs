@@ -1,0 +1,9 @@
+stolle
+=>nrel_main_idtf:
+	[Stolle](* <-lang_en;;*);
+	[Штолле](* <-lang_ru;;*); 
+<-concept_catering_with_counter_service;
+<-concept_cafe_bakery;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_8_00_23_00;
+=>nrel_location:house_38_Independence_Avenue;;

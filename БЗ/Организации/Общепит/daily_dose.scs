@@ -1,0 +1,8 @@
+daily_dose
+=>nrel_main_idtf:
+	[Daily Dose](* <-lang_en;;*);
+	[Daily Dose](* <-lang_ru;;*); 
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_7_00_23_00;
+=>nrel_location:house_23_Independence_Avenue;;

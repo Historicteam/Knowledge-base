@@ -1,0 +1,32 @@
+house_22_Independence_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости 22](*<-lang_ru;;*);
+    [House 22 Independence Avenue](* <-lang_en;;*);
+<-concept_building;
+=> nrel_osm_query: [way(25432668);];
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9008434, 27.5601864]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9008434;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5601864;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;

@@ -1,0 +1,8 @@
+coffee_wanted
+=>nrel_main_idtf:
+	[Coffee Wanted](* <-lang_en;;*);
+	[Coffee Wanted](* <-lang_ru;;*); 
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_9_00_23_00;
+=>nrel_location:house_34_Independence_Avenue;;

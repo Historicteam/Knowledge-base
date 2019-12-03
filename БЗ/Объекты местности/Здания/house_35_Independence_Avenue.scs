@@ -1,0 +1,32 @@
+house_35_Independence_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости 35](*<-lang_ru;;*);
+    [House 35 Independence Avenue](* <-lang_en;;*);
+<-concept_building;
+=> nrel_osm_query: [way(25431834);];
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9091255, 27.5738204]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9091255;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5738204;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;
