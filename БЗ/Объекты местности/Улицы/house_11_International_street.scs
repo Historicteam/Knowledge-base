@@ -1,0 +1,16 @@
+house_11_International_street
+=>nrel_main_idtf:
+	[Улица Интернациональная 11]
+		(*
+		<- lang_ru;;
+		*);
+		[International street, 11]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца інтэрнацыянальная 11]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:International_Street;
+<-concept_building;;

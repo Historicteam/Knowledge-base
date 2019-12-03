@@ -1,0 +1,56 @@
+concept_settler_monument
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[поселенческие памятники]
+(*
+<- lang_ru;;
+*);
+[settler monument]
+(*
+<- lang_en;;
+*);
+[пасяленчыскі помнік]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Поселенческий памятник- особый вид памятников ,который включает в себя городища, стоянки, селища, пещеры, земледельческие комплексы, культурный слой поселений, производственные комплексы]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Пасяленчыскі помнік- адмысловы выгляд помнікаў,які ўключае ў сябе гарадзішча, стаянкі, селішчы, пячоры, земляробчыя комплексы, культурны пласт паселішчаў, вытворчыя комплексы]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Settler monument- special kind of monuments, which includes a settlements, mounds, stands, caves, agricultural complexes, cultural layer of settlements, remains_of_dwellings]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_village;;
+	-> concept_settlement;;
+	-> concept_stand;;
+	-> concept_cave;;
+	*)
+;;

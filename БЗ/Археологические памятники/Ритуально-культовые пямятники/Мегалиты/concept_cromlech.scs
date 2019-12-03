@@ -1,0 +1,74 @@
+concept_cromlech
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[кромлех]
+(*
+<- lang_ru;;
+*);
+[cromlech]
+(*
+<- lang_en;;
+*);
+[кромлехі]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Кро́млех — древнее сооружение, как правило, позднего неолита или раннего бронзового века, представляющее собой несколько поставленных вертикально в землю обработанных или необработанных продолговатых камней, образующих одну или несколько концентрических окружностей]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Кромлехі - старажытнае збудаванне, як правіла, позняга неаліту і ранняга бронзавага веку, якое прадстаўляе сабой некалькі пастаўленых вертыкальна ў зямлю апрацаваных або неапрацаваных даўгаватых камянёў, якія ўтвараюць адну або некалькі канцэнтрычных акружнасцяў]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Cromlech - ancient construction, as a rule, the late Neolithic and early Bronze Age, which is a few set vertically into the ground treated or untreated oblong stones, forming one or more concentric circles]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/cromlech.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

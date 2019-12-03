@@ -1,0 +1,44 @@
+concept_bed_and_breakfast
+=>nrel_main_idtf:
+    [полупансион](*<-lang_ru;;*);
+    [bed&breakfast](* <-lang_en;; *);
+    [паўпансіён](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_bed_and_breakfast
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Полупансион"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Bed&breakfast concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Паўпансіён"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Полупансио́ном является небольшой частный дом, хозяева которого сдают несколько спален, а также обеспечивают завтраком. В большинстве случаев такие дома являются маленькими особняками с индивидуальной планировкой и услугами. Как правило, постояльцы проводят в таких домах лишь ночи, проводя день за пределами дома. Цены в полупансионах разнятся: они могут быть и достаточно высокие (на уровне 4-звёздочной гостиницы), могут быть и умеренные, особенно если они являются широкой повсеместной практикой в данной местности (напр. Германия).] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Bed&breakfast is a small private house, the owners of which rent several bedrooms and also provide breakfast. In most cases, these houses are small mansions with individual layout and services. As a rule, guests spend only nights in such houses, spending the day outside the house. Prices in half-board vary: they can be quite high (at the level of a 4-star hotel), they can be moderate, especially if they are a widespread ubiquitous practice in the area (eg Germany).] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Паўпансіёнам з'яўляецца невялікі прыватны дом, гаспадары якога здаюць некалькі спальняў, а таксама забяспечваюць сняданкам. У большасці выпадкаў такія дамы з'яўляюцца маленькімі асабнякамі з індывідуальнай планіроўкай і паслугамі. Як правіла, пастаяльцы праводзяць у такіх дамах толькі ночы, праводзячы дзень за межамі дома. Кошты ў паўпансіён адрозніваюцца: яны могуць быць і досыць высокія (на ўзроўні 4-зоркавым гатэлі), могуць быць і памяркоўныя, асабліва калі яны з'яўляюцца шырокай паўсюднай практыкай у дадзенай мясцовасці (напр. Германія).] (* <-lang_by;; *);; 
+			*);;
+	*);;       

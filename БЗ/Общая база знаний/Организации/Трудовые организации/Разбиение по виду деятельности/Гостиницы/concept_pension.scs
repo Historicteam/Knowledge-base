@@ -1,0 +1,44 @@
+concept_pension
+=>nrel_main_idtf:
+    [пансионат](*<-lang_ru;;*);
+    [boarding House](* <-lang_en;; *);
+    [пансіянат](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_pension
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Пансионат"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Boarding House concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Пансіянат"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Пансионат — это свободная форма, характерная для зданий, которые при строительстве не планировались как гостиницы. Обычно это строение небольшой этажности, расположенное на тихой улице. Традиционный пансионат отличается небольшим количеством комнат, рассчитанных на проживание 10—20 человек (в редких случаях количество мест достигает 50). Чаще всего принадлежит одной семье или владелице, которая нанимает горничную или берёт себе компаньонку. В пансионах могут жить люди, которые по каким-либо причинам не хотят или не имеют возможности жить в собственном доме, квартире. Главное отличие пансионата от гостиницы — он, как правило, не попадает под категорию звездности и по определению не обязан соответствовать этим стандартам.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[A boarding house is a free form characteristic of buildings that were not planned as hotels during construction. Usually this is a building with a small number of floors, located on a quiet street. A traditional boarding house is distinguished by a small number of rooms, designed to accommodate 10-20 people (in rare cases, the number of places reaches 50). Most often it belongs to one family or owner who hires a maid or takes a companion. In boarding houses people can live who for some reason do not want or are not able to live in their own house, apartment. The main difference between a boarding house and a hotel is that, as a rule, it does not fall under the category of stardom and, by definition, is not required to meet these standards.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Пансіянат - гэта свабодная форма, характэрная для будынкаў, якія пры будаўніцтве не планаваліся як гасцініцы. Звычайна гэта будынак невялікі паверхавасці, размешчанае на ціхай вуліцы. Традыцыйны пансіянат адрозніваецца невялікім колькасцю пакояў, разлічаных на пражыванне 10-20 чалавек (у рэдкіх выпадках колькасць месцаў дасягае 50). Часцей за ўсё належыць адной сям'і або уладальніцы, якая наймае пакаёўку або бярэ сабе кампаньёнку. У пансіёнах могуць жыць людзі, якія па якіх-небудзь прычынах не хочуць ці не маюць магчымасці жыць ва ўласным доме, кватэры. Галоўнае адрозненне пансіяната ад гасцініцы - ён, як правіла, не трапляе пад катэгорыю зорнасці і па вызначэнні не абавязаны адпавядаць гэтым стандартам.] (* <-lang_by;; *);; 
+			*);;
+	*);;       

@@ -102,5 +102,3 @@ concept_situation->[*The_building_wing_urban_estate<=nrel_location:organization_
  <- begin_date_1922;;
 <- completion_date_1924;;
 *);;
-
-

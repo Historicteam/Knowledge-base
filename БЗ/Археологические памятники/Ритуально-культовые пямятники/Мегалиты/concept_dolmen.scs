@@ -1,0 +1,74 @@
+concept_dolmen
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[дольмен]
+(*
+<- lang_ru;;
+*);
+[dolmen]
+(*
+<- lang_en;;
+*);
+[дальмэн]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Дольмен — погребальное сооружение эпохи бронзы и раннего железа в виде огромных камней, накрытых сверху каменной плитой.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Дальмэн - пахавальнае збудаванне эпохі бронзы і ранняга жалеза ў выглядзе велізарных камянёў, накрытых зверху каменнай плітой.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Dolmen - burial structure of the Bronze Age and Early Iron Age in the form of huge stones, covered with a stone slab on top.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/dolmen.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

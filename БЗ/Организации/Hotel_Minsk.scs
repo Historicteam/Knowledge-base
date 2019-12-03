@@ -1,0 +1,51 @@
+Hotel_Minsk
+=>nrel_main_idtf:
+	[Hotel Minsk](* <-lang_en;;*);
+	[Отель Минск](* <-lang_ru;;*); 
+	[Гатэль Мінск](* <-lang_ru;;*); 
+
+<-concept_hotel;
+<-concept_four_stars_hotel;
+
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/Minsk.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
+=>nrel_location:house_11_Independence_Avenue;
+
+=> nrel_osm_query: [way(204363849);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.897639, 27.549888]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.897639;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.549888;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

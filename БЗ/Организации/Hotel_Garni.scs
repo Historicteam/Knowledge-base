@@ -1,0 +1,52 @@
+Hotel_Garni
+=>nrel_main_idtf:
+	[Hotel Garni](* <-lang_en;;*);
+	[Отель Гарни](* <-lang_ru;;*); 
+	[Гатэль Гарні](* <-lang_ru;;*); 
+
+<-concept_hotel;
+<-concept_three_stars_hotel;
+=>nrel_cuisine:belarussian_cuisine;
+
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/garni.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
+=>nrel_location:house_11_International_street;
+
+=> nrel_osm_query: [way(2766736540);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.902039, 27.553976]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.902039;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.553976;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

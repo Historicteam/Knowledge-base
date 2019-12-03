@@ -1,0 +1,51 @@
+Hotel_Viktorija
+=>nrel_main_idtf:
+	[Hotel Viktorija](* <-lang_en;;*);
+	[Отель Виктория](* <-lang_ru;;*); 
+	[Гатэль Вікторыя](* <-lang_ru;;*); 
+
+<-concept_hotel;
+<-concept_four_stars_hotel;
+
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://content/viktorija.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
+=>nrel_location:house_59_Winners_Avenue;
+
+=> nrel_osm_query: [way(3600891292);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.926851, 27.525465]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.926851;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.525465;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

@@ -11,4 +11,38 @@ organization_Monastic_hotel
         [Гатель "Манастырскi"]
         (*
         <- lang_by;;
-        *);;
+        *);
+
+<-concept_hotel;
+<-concept_three_stars_hotel;
+=>nrel_cuisine:belarussian_cuisine;
+=>nrel_cuisine:european_cuisine;
+
+=>nrel_location: house_6_Kirilla_i_Mefodija_street;
+
+=> nrel_osm_query: [way(25327547);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.905303, 27.557574]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.905303;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.557574;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

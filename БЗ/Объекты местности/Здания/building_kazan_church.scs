@@ -143,4 +143,3 @@ concept_situation->[*organization_railway_church
     <- begin_date_1914;;
     <- completion_date_1922;;
 *);;
-

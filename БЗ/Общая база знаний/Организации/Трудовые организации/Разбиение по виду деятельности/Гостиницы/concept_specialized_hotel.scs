@@ -1,0 +1,47 @@
+concept_specialized_hotel
+=>nrel_main_idtf:
+    [специализированная гостиница](*<-lang_ru;;*);
+    [specialized Hotel](* <-lang_en;; *);
+    [спецыялізаваная гасцініца](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_specialized_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Специализированная гостиница"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Specialized Hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Спецыялізаваная гасцініца"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Помимо обычных гостиниц, расположенных вдоль наиболее оживлённых магистралей, а также рядом с туристическими достопримечательностями, существуют более специализированные: курортные (расположены на пляжах, близ природных аттракционов); бизнес-отели (расположены в центре крупных деловых городов, с обязательным наличием многофункциональных конференц-залов, апартаментов класса «люкс»), SPA; отели-казино и др.
+В России также есть так называемые ведомственные гостиницы, которые прикреплены к различным правительственным и муниципальным структурам, а также к крупным предприятиям и компаниям, для расселения командированных.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[In addition to the usual hotels located along the busiest highways, as well as close to tourist attractions, there are more specialized ones: resort (located on the beaches, near natural attractions); business hotels (located in the center of large business cities, with the obligatory presence of multifunctional conference rooms, luxury apartments), SPA; casino hotels, etc.
+In Russia, there are also so-called departmental hotels, which are attached to various government and municipal structures, as well as to large enterprises and companies, for resettlement of business travelers.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Акрамя звычайных гасцініц, размешчаных уздоўж найбольш ажыўленых магістраляў, а таксама побач з турыстычнымі славутасцямі, існуюць больш спецыялізаваныя: курортныя (размешчаны на пляжах, блізу прыродных атракцыёнаў); бізнес-гатэлі (размешчаны ў цэнтры буйных дзелавых гарадоў, з абавязковай наяўнасцю шматфункцыянальных канферэнц-залаў, апартаментаў класа «люкс»), SPA; гатэлі-казіно і інш.
+У Расіі таксама ёсць так званыя ведамасныя гасцініцы, якія прымацаваныя да розных ўрадавых і муніцыпальным структурам, а таксама да буйных прадпрыемстваў і кампаніям, для рассялення камандзіраваных.] (* <-lang_by;; *);; 
+			*);;
+	*);;       

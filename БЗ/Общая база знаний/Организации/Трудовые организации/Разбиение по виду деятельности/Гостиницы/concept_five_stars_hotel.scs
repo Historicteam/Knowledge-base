@@ -1,0 +1,44 @@
+concept_five_stars_hotel
+=>nrel_main_idtf:
+    [гостиница пять звезд](*<-lang_ru;;*);
+    [five stars hotel](* <-lang_en;; *);
+    [гатэль пяць зорак](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_three_stars_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Гостиница пять звезд"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Five star hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Гатэль пяць зорак"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Пять звёзд — гостиница класса люкс. Отличаются обширным набором услуг, особенно эксклюзивных (напр., наличие частного гольф-клуба, вертолётной площадки, многокомнатных апартаментов с прислугой). Гостю уделяется персональное внимание, способствующее учёту всех его пожеланий. Цены на проживание, равно как и на дополнительные услуги, в номерах в таких гостиницах весьма высоки. Как правило, в эту категорию стремятся попасть все известные мировые отельные бренды и курортные отели. Несмотря на различие систем под «пятизвёздочным отелем» всегда понимается гостиница наивысшего сервиса.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Пяць зорак - гасцініца класа люкс. Адрозніваюцца шырокім наборам паслуг, асабліва эксклюзіўных (напр., Наяўнасць прыватнага гольф-клуба, верталётнай пляцоўкі, шматпакаёвых апартаментаў з прыслугай). Госцю надаецца персанальнае ўвагу, якое спрыяе ўліку ўсіх яго пажаданняў. Цэны на пражыванне, роўна як і на дадатковыя паслугі, у нумарах ў такіх гасцініцах вельмі высокія. Як правіла, у гэтую катэгорыю імкнуцца трапіць усе вядомыя сусветныя гатэльны брэнды і курортныя гатэлі. Нягледзячы на ​​адрозненне сістэм пад «пяцізоркавы гатэль» заўсёды разумеецца гасцініца найвышэйшага сэрвісу.] (* <-lang_by;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Five stars - a luxury hotel. They have a wide range of services, especially exclusive ones (for example, the presence of a private golf club, helipad, multi-room apartments with a maid). The guest is given personal attention, contributing to the consideration of all his wishes. Prices for accommodation, as well as for additional services in the rooms in such hotels are very high. As a rule, all world famous hotel brands and resort hotels tend to fall into this category. Despite the difference in systems, a “five-star hotel” always means a hotel of the highest service.] (* <-lang_en;; *);; 
+			*);;
+	*);;       

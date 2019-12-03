@@ -1,0 +1,22 @@
+Storozhevskaya_street
+=> nrel_main_idtf:
+	[Улица Сторожёвская]
+		(*
+			<- lang_ru;;				
+		*);
+	[Storozhevskaya street]
+		(*
+			<- lang_en;;
+		*);
+	[Вуліца Старажоўская]
+		(*
+			<- lang_by;;
+		*);
+
+=> nrel_whole_part: 
+{
+	house_15_Storozhevskaya_street
+};
+
+<-concept_street;;
+

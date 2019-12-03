@@ -1,0 +1,70 @@
+ concept_cave
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[пещера]
+(*
+<- lang_ru;;
+*);
+[cave]
+(*
+<- lang_en;;
+*);
+[пячора]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Пеще́ра — полость в верхней части земной коры, сообщающаяся с поверхностью одним или несколькими входными отверстиями ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Пячора - паражніна ў верхняй частцы зямной кары, сазлучаная з паверхняй адным ці некалькімі ўваходнымі адтулінамі] 
+(*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Cave - a cavity in the upper part of the crust, which communicates with the surface of one or more inlets]
+   (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/cave.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

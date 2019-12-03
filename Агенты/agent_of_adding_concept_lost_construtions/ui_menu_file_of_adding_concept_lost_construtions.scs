@@ -25,4 +25,3 @@ ui_menu_file_of_adding_concept_lost_constructions => ui_nrel_command_lang_templa
 ui_menu_file_of_adding_concept_lost_constructions => ui_nrel_command_lang_template: 
 	[Request of adding concept lost construtions: $ui_arg_1] 
 	(* <- lang_en;; *);;
-

@@ -5,6 +5,11 @@ The_hotel_Europe
 	[The hotel Europe] (* <- lang_en;; *);
 	[Будынак гасцініцы "Еўропа"] (* <- lang_by;; *);
 
+<-concept_hotel;
+<-concept_five_stars_hotel;
+
+=>nrel_location: house_28_International_street;
+
 <- rrel_key_sc_element: Picture_of_the_hotel_Europe (*
 	=> nrel_main_idtf:
 		[Изображение здания гостиницы "Европа"] (* <- lang_ru;; *);

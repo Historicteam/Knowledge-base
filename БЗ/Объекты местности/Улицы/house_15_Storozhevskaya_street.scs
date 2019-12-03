@@ -1,0 +1,16 @@
+house_15_Storozhevskaya_street
+=>nrel_main_idtf:
+	[Улица Сторожёвская 15]
+		(*
+		<- lang_ru;;
+		*);
+		[Storozhevskaya street, 15]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца Старажоўская 15]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part: Storozhevskaya_street;
+<-concept_building;;

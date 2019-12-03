@@ -1,0 +1,55 @@
+4th_BNR_Statutory_Charter
+
+<-sc_const;
+<-concept_document;
+
+=> nrel_main_idtf:
+  [4-ая Уставная грамота БНР](* <- lang_ru;; *);
+  [The 4th BNR Statutory Charter](* <- lang_en;; *);
+  [4-ая Устаўная грамата БНР](* <- lang_by;; *);
+
+<-begin_date_29_11_1918;
+
+<-Founding_documents_of_BNR;
+
+<- rrel_key_sc_element: ...
+  (*
+  <-sc_illustration;;
+  <=nrel_sc_text_translation:
+    ...
+    (*
+    ->rrel_example: "file://content/4th_BNR_Statutory_Charter.jpg"
+      (*
+      => nrel_format: format_jpg;;
+      *);;
+    *);;
+  *);
+
+<=nrel_author: organization_Council_of_Belarusian_People_s_Republic;
+
+<=nrel_publisher: organization_Greenbelt_printing_house;
+
+<- rrel_key_sc_element:
+  ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation: 
+      ...
+      (*
+      -> rrel_example:
+      [4-ая Уставная грамота БНР, принятая в обстоятельствах отхода армии интервентов, зазывала белорусский народ к сохранению порядка, установленного рабой БНР.]
+        (* <- lang_ru;; *);;
+      *);;
+    *);
+
+...
+  (*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: 
+    ...
+    (*
+    -> rrel_example:
+    [4-ая Устаўная грамата БНР, прынятая ў абставінах адыходу арміі інтэрвентаў, зазывала беларускі народ да захавання парадку, устаноўленага рабом БНР.]
+      (* <- lang_by;; *);;
+    *);;
+  *);;

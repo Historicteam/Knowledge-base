@@ -1,0 +1,44 @@
+concept_four_stars_hotel
+=>nrel_main_idtf:
+    [гостиница четыре звезды](*<-lang_ru;;*);
+    [four stars hotel](* <-lang_en;; *);
+    [гатэль чатыры зоркі](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_three_stars_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Гостиница четыре звезды"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Four star hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Гатэль чатыры зоркі"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Четыре звезды — гостиница высокого класса, предоставляющие все вышеуказанные услуги, а также специальные (вроде спа, массажей, наличие нескольких баров и ресторанов, конференц-залов). Цены на номера в таких гостиницах значительно выше средних.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Чатыры зоркі - гасцініца высокага класа, якія прадстаўляюць усе вышэйпаказаныя паслугі, а таксама спецыяльныя (накшталт спа, масажаў, наяўнасць некалькіх бараў і рэстаранаў, канферэнц-залаў). Цэны на нумары ў такіх гасцініцах значна вышэй сярэдніх.] (* <-lang_by;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Four stars is a high-class hotel that provides all of the above services, as well as special ones (like spas, massages, several bars and restaurants, and conference rooms). Room prices in such hotels are significantly higher than average.] (* <-lang_en;; *);; 
+			*);;
+	*);;       

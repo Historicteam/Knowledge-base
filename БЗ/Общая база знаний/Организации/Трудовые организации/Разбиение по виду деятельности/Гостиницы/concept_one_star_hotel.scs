@@ -1,0 +1,44 @@
+concept_one_star_hotel
+=>nrel_main_idtf:
+    [гостиница одна звезда](*<-lang_ru;;*);
+    [one star hotel](* <-lang_en;; *);
+    [гатэль адна зорка](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_one_star_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Гостиница одна звезда"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the one star hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Гатэль адна зорка"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Одна звезда — дешёвая гостиница с минимумом услуг (ежедневная уборка номеров не всегда в них входит). Все номера одного типа.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Адна зорка - танная гасцініца з мінімумам паслуг (штодзённая ўборка нумароў не заўсёды ў іх уваходзіць). Усе нумары аднаго тыпу.] (* <-lang_by;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[One star is a cheap hotel with a minimum of services (daily housekeeping is not always included in them). All rooms are of the same type.] (* <-lang_en;; *);; 
+			*);;
+	*);;       

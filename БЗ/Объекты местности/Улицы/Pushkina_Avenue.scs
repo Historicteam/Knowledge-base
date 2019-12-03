@@ -1,0 +1,22 @@
+Pushkina_Avenue
+=> nrel_main_idtf:
+	[Проспект Пушкина]
+		(*
+			<- lang_ru;;				
+		*);
+	[Pushkina Avenue]
+		(*
+			<- lang_en;;
+		*);
+	[Праспект Пушкіна]
+		(*
+			<- lang_by;;
+		*);
+
+=> nrel_whole_part: 
+{
+	house_39_Pushkina_Avenue;
+};
+
+<-concept_avenue;;
+

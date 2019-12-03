@@ -232,6 +232,4 @@ concept_situation->[*the_building_of_the_Dominican_monastery <-concept_arch_baro
           
                 <- completion_date_1650;;
             *);;
- *);; 
- 
-
+ *);;

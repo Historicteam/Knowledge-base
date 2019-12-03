@@ -223,5 +223,3 @@ concept_situation->[* Choral_synagogue_building<= nrel_temporal_decomposition:Go
 		<- completion_date_1947;;
 	*);;
 *);;
-
-

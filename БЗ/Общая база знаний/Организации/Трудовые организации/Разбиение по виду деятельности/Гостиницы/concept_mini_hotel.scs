@@ -1,0 +1,47 @@
+concept_mini_hotel
+=>nrel_main_idtf:
+    [мини-гостиница](*<-lang_ru;;*);
+    [hostel](* <-lang_en;; *);
+    [міні-гасцініца](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_mini_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Мини-гостиница"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Hostel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Міні-гасцініца"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Легкость появления мини-гостиниц обусловлена наличием в прошлом большого количества коммунальных квартир в центре города. Такие квартиры имели общую площадь от 120 до 600 м² (самый часто встречающийся формат от 200 до 300 метров). Такие размеры позволяют создать порядка 6-10 номеров со всеми удобствами; с маленькой кухней-кафе и ресепшеном. В таких гостиницах есть обслуживающий персонал, работающий 24 часа (администратор + горничная).
+Основные недостатки: площадь номеров (иногда встречаются очень маленькие — до 10 м²), а также придомовая территория (иногда не ремонтированные подъезды, неаккуратный двор, отсутствие лифта).] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[The ease of the appearance of mini-hotels is due to the presence in the past of a large number of communal apartments in the city center. Such apartments had a total area of ​​120 to 600 m² (the most common format is 200 to 300 meters). Such sizes allow you to create about 6-10 rooms with all amenities; with a small kitchen-cafe and reception. In such hotels there is a service staff working 24 hours (administrator + maid).
+The main disadvantages: the area of ​​the rooms (sometimes there are very small ones - up to 10 m²), as well as the house area (sometimes not repaired entrances, sloppy courtyard, lack of an elevator).] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Лёгкасць з'яўлення міні-гасцініц абумоўлена наяўнасцю ў мінулым вялікай колькасці камунальных кватэр у цэнтры горада. Такія кватэры мелі агульную плошчу ад 120 да 600 м ² (самы часта сустракаецца фармат ад 200 да 300 метраў). Такія памеры дазваляюць стварыць парадку 6-10 нумароў з усімі выгодамі; з маленькай кухняй-кафэ і ресепшене. У такіх гасцініцах ёсць абслугоўваючы персанал, які працуе 24 гадзіны (адміністратар + пакаёўка).
+Асноўныя недахопы: плошча нумароў (часам сустракаюцца вельмі маленькія - да 10 м²), а таксама прыдамавых тэрыторыя (часам не рамантаваць пад'езды, неахайнай двор, адсутнасць ліфта).] (* <-lang_by;; *);; 
+			*);;
+	*);;       

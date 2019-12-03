@@ -1,0 +1,44 @@
+concept_exotic_hotel
+=>nrel_main_idtf:
+    [экзотическая гостиница](*<-lang_ru;;*);
+    [specialized Hotel](* <-lang_en;; *);
+    [экзатычная гасцініца](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_exotic_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Экзотическая гостиница"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Exotic Hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Экзатычная гасцініца"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[В Японии существуют капсульные отели, площадь «номеров» в которых не превышает нескольких квадратных метров. В арктических регионах можно найти «ледовые гостиницы», построенные изо льда и снега. В Дубае и США существуют подводные отели.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[In Japan, there are capsule hotels, the area of "rooms" in which does not exceed several square meters. In the Arctic regions you can find "ice hotels" built of ice and snow. Underwater hotels exist in Dubai and the USA (see hotel underwater).] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[У Японіі існуюць капсульная гатэлі, плошча «нумароў» у якіх не перавышае некалькіх квадратных метраў. 	У арктычных рэгіёнах можна знайсці «лядовыя гасцініцы», пабудаваныя з лёду і снегу. У Дубаі і ЗША існуюць падводныя гатэлі (гл. Гасцініца пад вадой).] (* <-lang_by;; *);; 
+			*);;
+	*);;       

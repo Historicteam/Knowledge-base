@@ -1,0 +1,71 @@
+concept_village
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[городище]
+(*
+<- lang_ru;;
+*);
+[village]
+(*
+<- lang_en;;
+*);
+[гарадзішча]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Городи́ще — тип археологического памятника, укреплённое поселение,название бывших укреплённых поселений, обнесённых земляными валами.]
+
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Гарадзішча - тып археалагічнага помніка, умацаванае паселішча, назва былых умацаваных паселішчаў, занесеных землянымі валамі  ]   
+ (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Village - the type of archaeological site, fortified settlement, the name of the former fortified settlements listed ramparts ]
+     (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;
+<- rrel_key_sc_element:
+
+...
+
+	(*
+
+	<-sc_illustration;;
+
+	<=nrel_sc_text_translation:
+
+		...
+
+		(*
+
+		->rrel_example: "file://content/village.jpg"
+
+			(*
+
+			=> nrel_format: format_jpg;;
+
+			*);;
+
+		*);;
+
+	*);;

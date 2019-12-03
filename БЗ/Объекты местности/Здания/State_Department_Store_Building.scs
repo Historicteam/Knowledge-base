@@ -139,6 +139,3 @@ concept_situation->[*State_Department_Store_Building<-concept_arch_empire_style;
 (*
 	<- begin_date_1951;;
 *);;
-
-
-

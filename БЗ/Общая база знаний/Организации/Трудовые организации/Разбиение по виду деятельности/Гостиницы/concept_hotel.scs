@@ -1,0 +1,83 @@
+concept_hotel
+=>nrel_main_idtf:
+    [гостиница](*<-lang_ru;;*);
+    [hotel](* <-lang_en;; *);
+    [гасцініца](*<-lang_by;;*);
+<=nrel_inclusion:concept_industrial_organization;
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Гостиница"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the hotel organization]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Гасцініца"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Гостиница - средство размещения, состоящее из определённого количества номеров, имеющее единое руководство, предоставляющее набор услуг (минимум — заправка постелей, уборка номера и санузла). Гостиницы подразделяются на различные классы в соответствии с предоставляемыми услугами и оборудованием номеров. Историческое название недорогой гостиницы в России — постоялый двор.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Hotel - accommodation facility, consisting of a certain number of rooms, having a single manual, providing a range of services (making beds, cleaning the room and bathroom). Hotels are divided into various classes in accordance with the provided services and equipment rooms.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Гасцініца - сродак размяшчэння, якое складаецца з вызначанага колькасці нумароў, якое мае адзінае кіраўніцтва, якое прадастаўляе набор паслуг (мінімум - запраўка пасцеляў, ўборка нумара і санвузла). Гасцініцы падпадзяляюцца на розныя класы ў адпаведнасці з якія прадстаўляюцца паслугамі і абсталяваннем нумароў. Гістарычная назва недарагі гасцініцы ў Расіі - заезны двор.] (* <-lang_by;; *);; 
+			*);;
+
+
+	*);;
+
+subdiving_by_type_of_hotels
+    =>nrel_main_idtf:
+        [разбиение по типам гостиниц](* <-lang_ru;; *);;
+
+concept_hotel
+    <= nrel_subdividing: subdiving_by_type_of_hotels
+        (*
+      ->concept_pension;
+	concept_bed_and_breakfast;
+	concept_motel;
+	concept_hostel;
+	concept_specialized_hotel;
+	concept_exotic_hotel;
+	concept_aparthotel;
+	concept_scattered_hotel;
+	concept_hotel_without_staff;
+	concept_mini_hotel;;
+        *);;
+
+subdiving_by_number_of_stars
+	=>nrel_main_idtf:
+		[разбиение по количеству звезд](* <-lang_ru;;*);;
+
+concept_hotel
+	<=nrel_subdividing: subdiving_by_number_of_stars
+		(*
+			->concept_one_star_hotel;	
+			concept_two_stars_hotel;	
+			concept_three_stars_hotel;	
+			concept_four_stars_hotel;	
+			concept_five_stars_hotel;;
+		*);;
+
+
+        

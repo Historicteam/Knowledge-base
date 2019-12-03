@@ -1,0 +1,16 @@
+house_28_International_street
+=>nrel_main_idtf:
+	[Улица Интернациональная 28]
+		(*
+		<- lang_ru;;
+		*);
+		[International street, 28]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца інтэрнацыянальная 28]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:International_Street;
+<-concept_building;;

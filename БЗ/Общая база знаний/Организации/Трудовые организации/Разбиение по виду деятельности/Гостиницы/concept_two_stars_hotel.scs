@@ -1,0 +1,44 @@
+concept_two_stars_hotel
+=>nrel_main_idtf:
+    [гостиница две звезды](*<-lang_ru;;*);
+    [two stars hotel](* <-lang_en;; *);
+    [гатэль дзве зоркі](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_two_stars_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Гостиница две звезды"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the two star hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Гатэль дзве зоркі"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Две звезды — малобюджетная гостиница, также с минимумом услуг, но с обязательной ежедневной уборкой номеров. Один-два типа номеров.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Дзве зоркі - малабюджэтная гасцініца, таксама з мінімумам паслуг, але з абавязковай штодзённай уборкай нумароў. Адзін-два тыпу нумароў.] (* <-lang_by;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Two stars is a low-budget hotel, also with a minimum of services, but with the obligatory daily housekeeping. One or two types of rooms.] (* <-lang_en;; *);; 
+			*);;
+	*);;       

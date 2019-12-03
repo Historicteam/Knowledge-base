@@ -1,17 +1,17 @@
 Independence_Avenue
 => nrel_main_idtf:
-				[Проспект Независимости]
-				(*
-				<- lang_ru;;
-				*);
-				[Independence Avenue]
-				(*
-				<- lang_en;;
-				*);
-				[Праспект Незалежнасці]
-				(*
-				<- lang_by;;
-				*);
+	[Проспект Независимости]
+		(*
+			<- lang_ru;;				
+		*);
+	[Independence Avenue]
+		(*
+			<- lang_en;;
+		*);
+	[Праспект Незалежнасці]
+		(*
+			<- lang_by;;
+		*);
 
 => nrel_whole_part: 
 {

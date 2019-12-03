@@ -1,0 +1,44 @@
+concept_scattered_hotel
+=>nrel_main_idtf:
+    [Разбросанный отель](*<-lang_ru;;*);
+    [scattered hotel](* <-lang_en;; *);
+    [раскіданы гатэль](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_scattered_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Разбросанный отель"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Scattered Hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Раскіданы гатэль"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Отель, который не является единичным блоком, а состоит из различных исторических зданий, находящихся в небольшом сообществе.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[The hotel, which is not a single unit, but consists of various historical buildings located in a small community.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Гатэль, які не з'яўляецца адзінкавым блокам, а складаецца з розных гістарычных будынкаў, якія знаходзяцца ў невялікім супольнасці.] (* <-lang_by;; *);; 
+			*);;
+	*);;       

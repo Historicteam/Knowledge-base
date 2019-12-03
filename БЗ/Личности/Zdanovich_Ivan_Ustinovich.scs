@@ -1,0 +1,253 @@
+Zdanovich_Ivan_Ustinovich
+=> nrel_main_idtf:
+	[Зданович Иван Устинович]
+	(*
+	<- lang_ru;;
+	*);
+	[Zdanovich Ivan Ustinovich]
+	(*
+	<- lang_en;;
+	*);
+	[Здановіч Іван Усцінавіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-concept_male;
+
+=>nrel_first_name: name_Ivan;
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://Zdanocih_Ivan.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*); 
+
+
+=>nrel_date_of_birth: 06_06_1864
+	(*
+	=> nrel_main_idtf:
+		[6 июня 1864]
+		(*
+		<- lang_ru;;
+		*);
+		[June 6, 1864]
+		(*
+		<- lang_en;;
+		*);
+		[6 красавіка 1864]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+=>nrel_date_of_death: 24_08_1915
+	(*
+	=> nrel_main_idtf:
+		[24 августа 1915]
+		(*
+		<- lang_ru;;
+		*);
+		[Aug 24, 1942]
+		(*
+		<- lang_en;;
+		*);
+		[24 чэрвеня 1942 года]
+		(*
+		<- lang_by;;
+		*);;
+	*);
+
+=>nrel_place_of_birth: the_city_of_Minsk;
+=>nrel_place_of_death: the_city_of_Minsk;
+
+<=nrel_author: poem_Jaleika
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Жалейка"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Jaleika"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Жалейка"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Guslyar
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Гусляр"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Guslyar"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Гусьляр"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Putem_jizni
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Путём жизни"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Road health"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Шляхам жыцьця"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Nacledie
+	(*
+	=> nrel_main_idtf:
+		[сборник стихотворений "Наследие"]
+		(*
+			<- lang_ru;;
+		*);
+		[poem "Nasledie"]
+		(*
+			<- lang_en;;
+		*);
+		[зборнік вершау "Спадчына"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*);
+<=nrel_author: poem_Zimou
+	(*
+	=> nrel_main_idtf:
+		[поэма "Зимой"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "Zimou"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "Зімою"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+<=nrel_author: poem_Kaleka
+	(*
+	=> nrel_main_idtf:
+		[поэма "Калека"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "Kaleka"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "Калека"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+
+<=nrel_author: poem_Nikomu
+	(*
+	=> nrel_main_idtf:
+		[поэма "Никому"]
+		(*
+			<- lang_ru;;
+		*);
+		[паэма "Nikomu"]
+		(*
+			<- lang_en;;
+		*);
+		[poem "Нікому"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_poem;;
+	*)
+;
+<=nrel_author: pieces_Pavuinka
+	(*
+	=> nrel_main_idtf:
+		[пьесы "Павлинка"]
+		(*
+			<- lang_ru;;
+		*);
+		[пьесы "Pavuinka"]
+		(*
+			<- lang_en;;
+		*);
+		[pieces "Паўлінка"]
+		(*
+			<- lang_by;;
+		*);;
+	<- concept_pieces;;
+	*)
+;;
+
+
+
+
+concept_situation->[*Zdanovich_Ivan_Ustinovich =>nrel_dwelling: Zhdanovich_house_building;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени проживания Ивана Здановича в доме Ивана Здановича](*<-lang_ru;;*);;
+	<- begin_date_1891;;
+	<- completion_date_1915;;			
+*);;
+
+concept_situation->[*organization_Minsk_Hospital
+->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
+*]
+(*
+	<- begin_date_1892;;
+	<- completion_date_1915;;			
+*);;
+
+concept_situation->[*organization_minsk_woomen_gymnazi
+->rrel_doctor:Zdanovich_Ivan_Ustinovich;;
+*]
+(*
+	<- begin_date_1893;;
+	<- completion_date_1904;;			
+*);;
+
+concept_situation->[*organization_minskay_rech
+->rrel_editor;;
+*]
+(*
+	<- begin_date_1906;;
+	<- completion_date_1912;;			
+*);;
+						
+concept_situation->[*Zdanovich_Ivan_Ustinovich <-rrel_student: organization_Minsk_Male_Gymnasium;;*]
+(*
+	=> nrel_main_idtf: [Зданович Иван Устинович учащийся Минской мужской гимназии, которая располагалась в то время в Здании минской мужской гимназии. ](*<-lang_ru;;*);;
+	<- begin_date_1978;;
+	<- completion_date_1885;;			
+*);;
+
+
