@@ -1,0 +1,27 @@
+ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building => nrel_main_idtf: 
+	[Найти все неутраченные здания данного типа]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building => nrel_main_idtf: 
+	[Search agent of finding all not lost buildings by type of building]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building => ui_nrel_command_template:
+	[*
+		question_of_finding_all_not_lost_buildings_by_type_of_building _-> ._question_of_finding_all_not_lost_buildings_by_type_of_building_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_finding_all_not_lost_buildings_by_type_of_building_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building => ui_nrel_command_lang_template: 
+	[Запрос поиска всех неутраченных зданий данного типа: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building => ui_nrel_command_lang_template: 
+	[Request of finding all not lost buildings by type of building: $ui_arg_1] 
+	(* <- lang_en;; *);;
+

@@ -1,0 +1,404 @@
+agent_of_finding_all_not_lost_buildings_by_type_of_building
+=> nrel_main_idtf:
+	[агентная scp-программа поиска всех неутраченных зданий, относящихся к данному типу] (* <- lang_ru;; *);
+	[agent scp-program of finding all not lost buildings by type] (* <- lang_en;; *);
+	<- agent_scp_program;;
+
+scp_program -> agent_of_finding_all_not_lost_buildings_by_type_of_building
+	(*
+	-> rrel_params: .agent_of_finding_all_not_lost_buildings_by_type_of_building_params 
+		(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_set 
+		(*
+		-> rrel_init: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1A 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+		  	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1B;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1B
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+		  	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1C;;
+		  	=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_return;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1C 
+			(*
+		  	<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+
+		  	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1D;;
+		  	=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_return;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1D 
+			(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+
+			=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1E;;
+			*);;
+
+
+
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator1E 
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_all_buildings_by_type_of_building__patern_of_finding_buildings_by_subtype;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _type_in_construction_ttt;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _param;;
+					*);;  
+				*);;
+
+			=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator1;;
+			=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES;;
+		 	*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator1
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction;;
+
+		 	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator2;;
+		  	=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator2 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator3;;
+		 	*);;
+
+		 -> .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator3 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _building_in_construction_ttt;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator4;;
+		  	*);;
+
+
+	  	-> .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator4 
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _subtype_ttt;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_subtype;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building_TYPES_5AAA;;
+		  	*);;
+
+
+	  	-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_TYPES_5AAA 
+			(*
+		 	<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_lost_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+
+		  	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator1;;
+			=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_5A;;
+		  	*);;
+
+
+	  	-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_5A
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_6A;;
+  			*);;
+
+	  	-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_6A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_7A;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_7A
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_var: _found_subtype;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_8A;;
+  			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_8A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_9A;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_9A 
+			(*
+			<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_subtype;;
+
+		  	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_11A;;
+		  	=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_10A;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_10A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_subtype;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_11A;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_11A 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building__iteration_throught_found_sets__operator1;;
+			*);;
+
+
+
+
+
+//добавили конструкции по шаблону во множество конструкций
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES
+         	(*
+		 	<- sys_search;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: agent_of_finding_all_buildings_by_type__patern_of_finding_buildings_by_type_little;; 
+			-> rrel_2: rrel_assign: rrel_scp_var: _set_of_found_constructions;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: ...
+				(* -> ... 
+					(* 
+                       -> rrel_1: rrel_fixed: rrel_scp_const: _type_in_construction;;
+                       -> rrel_2: rrel_fixed: rrel_scp_var: _param;;
+					*);;  
+				*);;
+
+			=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_2;;
+			=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building__gen_answer_finding_all_buildings_by_type_of_building;;
+		 	*);;
+
+
+
+//взяли конструкцию из множества найденных конструкций
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_2
+			(*
+			<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_found_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		 	-> rrel_3: rrel_assign: rrel_scp_var: _found_construction;;
+
+		 	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_3;;
+		  	=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building__gen_answer_finding_all_buildings_by_type_of_building;;
+			*);;
+
+
+//убираем ее из множества конструкций
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_3 
+			(*
+		 	<- eraseEl;;
+         	-> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+
+         	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_4;;
+		 	*);;
+
+
+		 -> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_4
+			(*
+		 	<- searchElStr5;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: _building_in_construction;;
+		 	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_assign: rrel_scp_var: _found_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_var: _found_construction;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_4A;;
+		  	*);;
+
+        -> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_4A 
+			(*
+		 	<- searchElStr3;;
+		 	-> rrel_1: rrel_fixed: rrel_scp_const: concept_lost_constructions;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+
+		  	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_2;;
+			=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_5;;
+		  	*);;
+
+
+        	-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_5
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_const: concept_building;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_6;;
+  			*);;
+
+              
+//формируем ответ
+	  	-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_6 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_7;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_7
+	  		(*
+	  		<- searchElStr3;;
+	  		-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		 	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto:  .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_8;;
+  			*);;
+
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_8 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _arc1;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_9;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_9 
+			(*
+			<- searchElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_then: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_11;;
+		  	=> nrel_else: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_10;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_10 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_11;;
+			*);;
+
+
+            -> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_11 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _found_building;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_TYPES_2;;
+			*);;
+
+
+
+		//GENERATE THE LAST PART OF THE ANSWER
+     	-> .agent_of_finding_all_not_lost_buildings_by_type_of_building__gen_answer_finding_all_buildings_by_type_of_building 
+			(*
+			<- genElStr3;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:  _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_const: concept_building;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building__gen_answer_finding_all_buildings_by_type_of_building2;;
+			*);;
+
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building__gen_answer_finding_all_buildings_by_type_of_building2
+			(*
+			<- genElStr5;;
+		  	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  	-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		  	-> rrel_3: rrel_fixed: rrel_scp_var: _answer_finding_all_not_lost_buildings_by_type_of_building;;
+		  	-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  	-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+		  	=> nrel_goto: .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_return;;
+			*);;
+					
+		-> .agent_of_finding_all_not_lost_buildings_by_type_of_building_operator_return 
+			(*
+		  	<- return;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

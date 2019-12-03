@@ -17,6 +17,7 @@ ui_menu_na_keynodes
 	->ui_menu_search_working_restaurants_with_given_cuisine;;
 	->ui_menu_file_for_finding_caterings_with_more_than_one_cuisine;;
 	->ui_menu_file_for_finding_all_caterings_on_the_street;;
+	->ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building;;
 	*);
 => nrel_main_idtf:
 	[Ключевые узлы навигации] (* <- lang_ru;; *);

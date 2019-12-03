@@ -13,104 +13,6 @@ Residential_complex
 	<- lang_by;;
 	*);
 	
-<-concept_building;
-<-concept_terrain_object;
-
-<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
-	
-<= nrel_temporal_decomposition: 
-    {
-        Residential_complex_of_the_monastery_of_Benedictine
-        (* 
-        => nrel_main_idtf:
-            [Здание жилого корпуса монастыря Бенедектинок]
-            (*
-            <- lang_ru;;
-            *);
-            [Residental complex of Benedictine Monastery]
-            (*
-            <- lang_en;;
-            *);
-            [Будынак жылога корпуса кляштара Бенедыктынак]
-            (*
-            <- lang_by;;
-            *);;
-            
-        <- begin_date_1647;;
-        <- completion_date_1871;;
-        *);
-        
-        
-        Residential_complex_of_Spaso_Preobrazhensky_female_monastery
-        (*
-        => nrel_main_idtf:
-            [Здание жилого корпуса Спасо-Преоброженского женского монастыря]
-            (*
-            <- lang_ru;;
-            *);
-            [Residential complex of Spaso Preobrazhensky female monastery]
-            (*
-            <- lang_en;;
-            *);
-            [Будынак жылога корпуса Спаса-Праабражэнскага жаночага манастыра]
-            (*
-            <- lang_by;;
-            *);;
-            
-        <- begin_date_1871;;
-        <- completion_date_1944;;
-        *)
-    };
-<- rrel_key_sc_element: ...
-	(*
-	<-sc_illustration;;
-	<-key_image;;
-	<=nrel_sc_text_translation:
-		...
-		(*
-		->rrel_example:[ file://content/mememens35-05.jpg]
-			(*
-			=> nrel_format: format_jpg;;
-			*);;
-		*);;
-	*);
-
- =>nrel_osm_query:[way(538208752);];	
- => nrel_geographical_location: ...
-	(*
-	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
-		(*
-		-> ...
-			(*
-			<- concept_coordinate;;
-			->rrel_latitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 53.9050399;;
-					*);;
-				*);;
-			->rrel_longitude: ...
-				(*
-				<=nrel_value: ...
-					(*
-					-> rrel_degree: 27.5561731;;
-					*);;
-				*);;
-			*);;
-		*);;
-	*);;
-
-concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Residential_complex;;*]
-(*
-    => nrel_main_idtf: 
-    [Контур периода времени расположения монастыря бенедектинок в здании жилого корпуса ](*<-lang_ru;;*);;
-  
-    <- begin_date_1647;;
-    <- completion_date_1871;;
-*);;
-	
 <-concept_non_profit_residental_building;
 <- concept_building;
 <-concept_terrain_object;
@@ -209,3 +111,4 @@ concept_situation->[*buidling_of_Monastery_of_Benedectine => nrel_location: Resi
     <- begin_date_1647;;
     <- completion_date_1871;;
 *);;
+ 

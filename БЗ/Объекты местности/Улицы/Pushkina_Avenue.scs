@@ -15,7 +15,7 @@ Pushkina_Avenue
 
 => nrel_whole_part: 
 {
-	house_39_Pushkina_Avenue;
+	house_39_Pushkina_Avenue
 };
 
 <-concept_avenue;;
