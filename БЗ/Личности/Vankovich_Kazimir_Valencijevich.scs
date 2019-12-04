@@ -12,7 +12,7 @@ Vankovich_Kazimir_Valencijevich
 	(*
 	<- lang_by;;
 	*);
-
+<-concept_person;
 <-concept_male;
 =>nrel_social_status: concept_titled_nobility;
 =>nrel_social_status: concept_ancestral_nobility;

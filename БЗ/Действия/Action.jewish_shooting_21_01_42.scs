@@ -1,7 +1,7 @@
 Action.jewish_shooting_21_01_42
 =>nrel_main_idtf:
 	[Действие.расстел 21 января 1942 в минском гетто] (* <-lang_ru;; *);
-<-begin_date_21_01_1942;
+=>nrel_begin_date:begin_date_21_01_1942;
 =>nrel_location: minsk_ghetto;
 <-action.shooting;
 <- rrel_key_sc_element:...

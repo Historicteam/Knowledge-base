@@ -3,8 +3,8 @@ Action.last_jewish_shooting
 =>nrel_main_idtf:
 	[Действие.последний погром в минском гетто] (* <-lang_ru;; *);
 
-<-begin_date_21_10_1943;
-<-completion_date_23_10_1943;
+=>nrel_begin_date:begin_date_21_10_1943;
+=>nrel_completion_date:completion_date_23_10_1943;
 =>nrel_location: minsk_ghetto;
 <-action.shooting;
 

@@ -13,5 +13,6 @@ Grinievskaja_Aloiza
 		<-lang_by;;
 	*);
 <-concept_woman;
+<-concept_person;
 =>nrel_first_name:name_Aloiza;
 =>nrel_surname:surname_Grinievskaja;;

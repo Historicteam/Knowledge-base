@@ -8,6 +8,6 @@ Action.Dunin_Marcinkievich_Kamilla_Vincientovnas_imprisonment_at_the_pichalovski
 =>nrel_object:Dunin_Marcinkievich_Kamilla_Vincientovna;
 =>nrel_initiator:organization_the_minsk_investigative_commission;
 =>nrel_location:Pichalovski_Castle;
-<-begin_date_1863;
-<-completion_date_1863;;
+=>nrel_begin_date:begin_date_1863;
+=>nrel_completion_date:completion_date_1863;;
 

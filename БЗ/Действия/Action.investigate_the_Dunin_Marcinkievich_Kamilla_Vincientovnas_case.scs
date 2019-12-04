@@ -8,5 +8,5 @@ Action.investigate_the_Dunin_Marcinkievich_Kamilla_Vincientovnas_case
 =>nrel_object:Dunin_Marcinkievich_Kamilla_Vincientovna;
 =>nrel_location:building_of_the_church_of_St_Joseph;
 =>nrel_performer:organization_the_minsk_investigative_commission;
-<-begin_date_1863;
-<-completion_date_1863;;
+=>nrel_begin_date:begin_date_1863;
+=>nrel_completion_date:completion_date_1863;;

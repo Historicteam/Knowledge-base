@@ -9,6 +9,7 @@ Konopasievich_Sofronij
 		<-lang_en;;
 	*);
 <-concept_male;
+<-concept_person;
 =>nrel_first_name:name_Sofronij;
 =>nrel_surname:surname_Konopasievich;;
 

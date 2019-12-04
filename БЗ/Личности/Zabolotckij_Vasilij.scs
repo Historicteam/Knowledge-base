@@ -12,4 +12,5 @@ Zabolotckij_Vasilij
 	(*
 	<- lang_by;;
 	*);
+<- concept_person;
 <= nrel_governor: organization_provincial_board_of_Minsk;;

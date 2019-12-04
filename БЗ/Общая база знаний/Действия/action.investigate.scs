@@ -8,4 +8,5 @@ action.investigate
 	(*
 		<-lang_en;;
 	*);
+<- sc_node_not_relation;
 <=nrel_inclusion:actions_class;;

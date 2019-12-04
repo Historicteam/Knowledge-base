@@ -8,4 +8,5 @@ action.put_a_play
 	(*
 		<-lang_en;;
 	*);
+<- sc_node_not_relation;
 <=nrel_inclusion:actions_class;;

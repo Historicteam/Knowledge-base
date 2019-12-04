@@ -23,6 +23,7 @@ Sereda_Ivan_Nikitovich
 	*);		
 
 <-concept_male;
+<-concept_person;
 
 <-begin_date_1_05_1879;
 <-completion_date_19_11_1943;

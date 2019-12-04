@@ -4,6 +4,7 @@ Balakhovich_Nikodim_Mikhail_Silvestrovich
       [Balakhovich Nikodim-Mikhail Silvestrovich](* <- lang_en;; *);
       [Балаховіч Нікадзім-Міхаіл Сильвестрович](* <- lang_by;; *);
 <-concept_male;
+<- concept_person;
 =>nrel_surname: surname_Balakhovich;
 =>nrel_middle_name: name_Mikhail;
 =>nrel_first_name: name_Nikodim;;

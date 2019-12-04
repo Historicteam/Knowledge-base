@@ -5,7 +5,7 @@ Action.court_Tjundevickij_Mihail_Efim_Melhiorovich_05_1863
 =>nrel_object: Tjundevickij_Mihail_Efim_Melhiorovich;
 =>nrel_performer: organization_Minsk_military_field_court;
 =>nrel_initiator: Muravjov_Mihail_Nikolaevich;
-<-begin_date_17_05_1863;
+=>nrel_begin_date: begin_date_17_05_1863;
 <-action.court;
 
 <- rrel_key_sc_element:...

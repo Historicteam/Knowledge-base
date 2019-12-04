@@ -4,7 +4,6 @@ Action.court_Tjundevickij_Mihail_Efim_Melhiorovich
 	[Действие. суд над Тюндевицким Михаилом-Ефимом] (* <-lang_ru;; *);
 =>nrel_object: Tjundevickij_Mihail_Efim_Melhiorovich;
 =>nrel_performer: organization_Minsk_military_field_court;
-<-begin_date_15_03_1863;
+=>nrel_begin_date: begin_date_15_03_1863;
 <-action.court;;
-
 

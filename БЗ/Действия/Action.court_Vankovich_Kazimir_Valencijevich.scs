@@ -6,8 +6,6 @@ Action.court_Vankovich_Kazimir_Valencijevich
 =>nrel_initiator: Zabolotckij_Vasilij;
 =>nrel_performer: organization_Minsk_commission_of_inquiry;
 =>nrel_location: building_of_the_church_of_St_Joseph;
-<-begin_date_15_01_1864;
-<-completion_date_18_02_1864;
+=>nrel_begin_date: begin_date_15_01_1864;
+=>nrel_completion_date: completion_date_18_02_1864;
 <-action.court;;
-
-

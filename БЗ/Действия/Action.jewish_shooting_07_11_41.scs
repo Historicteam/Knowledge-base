@@ -2,7 +2,7 @@ Action.jewish_shooting_07_11_41
 
 =>nrel_main_idtf:
 	[Действие.расстел 7 ноября 1941 в минском гетто] (* <-lang_ru;; *);
-<-begin_date_07_10_1941;
+=>nrel_begin_date:begin_date_07_10_1941;
 =>nrel_location: minsk_ghetto;
 <-action.shooting;
 

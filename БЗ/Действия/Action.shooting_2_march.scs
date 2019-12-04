@@ -3,8 +3,8 @@ Action.shooting_2_march
 =>nrel_main_idtf:
 	[Действие.бойня второго марта] (* <-lang_ru;; *);
 
-<-begin_date_02_03_1942;
-<-completion_date_03_03_1942;
+=>nrel_begin_date:begin_date_02_03_1942;
+=>nrel_completion_date:completion_date_03_03_1942;
 =>nrel_location: minsk_ghetto;
 <-action.shooting;
 

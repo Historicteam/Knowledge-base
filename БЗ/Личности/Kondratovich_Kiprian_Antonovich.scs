@@ -4,6 +4,7 @@ Kondratovich_Kiprian_Antonovich
       [Kondratovich Kiprian Antonovich](* <- lang_en;; *);
       [Кандратовіч Кіпрыян Антонавіч](* <- lang_by;; *);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Kondratovich;
 =>nrel_first_name: name_Kiprian;
 =>nrel_parent: Trubetskoy_Yuri;

@@ -4,5 +4,6 @@ Kondratovich_Vera
       [Kondratovich Vera](* <- lang_en;; *);
       [Кандратовіч Вера](* <- lang_by;; *);
 <-concept_female;
+<-concept_person;
 =>nrel_surname: surname_Kondratovich;
 =>nrel_first_name: name_Vera;;

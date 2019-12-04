@@ -6,6 +6,7 @@ Action.detention_Tjundevickij_Mihail_Efim_Melhiorovich
 =>nrel_object: Tjundevickij_Mihail_Efim_Melhiorovich;
 =>nrel_performer: organization_Minsk_commission_of_inquiry;
 => nrel_location: organization_Minsk_city_prison;
-<-begin_date_1863;
-<-completion_date_04_03_1863;
+=>nrel_begin_date: begin_date_1863;
+=>nrel_completion_date: completion_date_04_03_1863;
 <-action.detention;;
+

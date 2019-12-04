@@ -4,5 +4,6 @@ Balakhovich_Jozefa
       [Balakhovich Jozefa](* <- lang_en;; *);
       [Балаховіч Юзэфа](* <- lang_by;; *);
 <-concept_female;
+<- concept_person;
 =>nrel_surname: surname_Balakhovich;
 =>nrel_first_name: name_Jozefa;;

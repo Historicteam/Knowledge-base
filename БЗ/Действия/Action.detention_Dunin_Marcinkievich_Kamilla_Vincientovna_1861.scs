@@ -9,5 +9,5 @@ Action.detention_Dunin_Marcinkievich_Kamilla_Vincientovna_1861
 =>nrel_performer:organization_the_minsk_investigative_commission;
 =>nrel_location:Mariinsky_Cathedra;
 =>nrel_object:Dunin_Marcinkievich_Kamilla_Vincientovna;
-<-begin_date_1861;
-<-completion_date_1861;;
+=>nrel_begin_date: begin_date_1861;
+=>nrel_completion_date: completion_date_1861;;

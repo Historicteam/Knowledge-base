@@ -1,0 +1,6 @@
+sc_text_of_agent_for_verify_the_participation_of_two_persons_in_the_same_action
+-> rrel_key_sc_element:
+	agent_for_verify_the_participation_of_two_persons_in_the_same_action;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_for_verify_the_participation_of_two_persons_in_the_same_action = [*^"file://agent_for_verify_the_participation_of_two_persons_in_the_same_action.scsi"*];;

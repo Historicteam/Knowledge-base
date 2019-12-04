@@ -7,5 +7,5 @@ Action.detention_Dunin_Marcinkievich_Kamilla_Vincientovna_1863
 <-action.detention;
 =>nrel_initiator:Bojevnokov_Andrei_Lvovich;
 =>nrel_object:Dunin_Marcinkievich_Kamilla_Vincientovna;
-<-begin_date_1863;
-<-completion_date_1863;;
+=>nrel_begin_date: begin_date_1863;
+=>nrel_completion_date: completion_date_1863;;

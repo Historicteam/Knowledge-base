@@ -2,7 +2,7 @@ Action.first_jewish_shooting
 =>nrel_main_idtf:
 	[Действие. первый погром в Минском гетто] (* <-lang_ru;; *);
 =>nrel_location: minsk_ghetto;
-<-begin_date_08_1941;
+=>nrel_begin_date:begin_date_08_1941;
 <-action.shooting;
 <- rrel_key_sc_element:...
 	(*

@@ -4,5 +4,6 @@ Balakhovich_Juzef_Nikodimovich
       [Balakhovich Juzef Nikodimovich](* <- lang_en;; *);
       [Балаховіч Юзэф Нікадзімавіч](* <- lang_by;; *);
 <-concept_male;
+<- concept_person;
 =>nrel_surname: surname_Balakhovich;
 =>nrel_first_name: name_Juzef;;

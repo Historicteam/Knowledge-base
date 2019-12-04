@@ -5,5 +5,5 @@ Action.detention_Sereda_Ivan_Nikitovich
 
 =>nrel_object: Sereda_Ivan_Nikitovich;
 =>nrel_performer: organization_State_political_administration_of_the_BSSR;
-<-begin_date_04_07_1930;
+=>nrel_begin_date: begin_date_04_07_1930;
 <-action.detention;;
