@@ -1,0 +1,6 @@
+film_manta_ray
+<-concept_film;
+=>nrel_main_idtf:
+  	[Манта Рэй] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Manta Ray] (* <-lang_en;; *);;

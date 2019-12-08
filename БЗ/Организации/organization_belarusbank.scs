@@ -1,0 +1,19 @@
+organization_belarusbank
+=>nrel_main_idtf:
+	[банк "Беларусбанк"]
+	(*
+	<-lang_ru;;
+	*);
+=>nrel_main_idtf:
+  [bank "Belarusbank"]
+	(*
+	<-lang_en;;
+	*);
+=>nrel_main_idtf:
+  [банк "Беларусбанк"]
+	(*
+	<-lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_joint_stock_company;
+<-begin_date_1922;;

@@ -1,0 +1,26 @@
+nomination_documentary_listapad
+<-concept_nomination;
+=>nrel_main_idtf:
+    [Основной конкурс документального кино (Лістапад)] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+    [Awards of The Main Documentary Film competition (Listapad)] (* <-lang_en;; *);
+=>nrel_main_idtf:
+    [Узнагароды асноўнага конкурсу дакументальнага кіно (Лістапад)] (* <-lang_by;; *);;
+
+concept_situation->[*
+nomination_documentary_listapad
+->rrel_participant:film_over_the_limit;
+->rrel_participant:film_belarusian_atlantis;
+->rrel_participant:film_hermit;
+=>nrel_special_jury_award:film_over_the_limit;
+=>nrel_grand_prix:film_home_games;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени участников конкурса документального кино минского международного кинофестиваля "Листапад" 2018]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_02_11_2018;;
+        <-completion_date_09_11_2018;;
+*);;

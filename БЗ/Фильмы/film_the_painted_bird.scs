@@ -1,0 +1,6 @@
+film_the_painted_bird
+<-concept_film;
+=>nrel_main_idtf:
+  	[Раскрашенная птица] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[The Painted Bird] (* <-lang_en;; *);;

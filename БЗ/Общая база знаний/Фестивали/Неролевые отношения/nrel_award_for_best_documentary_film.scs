@@ -1,0 +1,32 @@
+nrel_award_for_best_documentary_film
+<-sc_node_norole_relation;
+<-relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<-binary_relation;
+<-oriented_relation;
+=> nrel_main_idtf:
+	[лучший документальный фильм*]
+	(*
+	<- lang_ru;;
+	*);
+	[award for best documentary film*]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_first_domain:concept_nomination;
+=> nrel_second_domain:concept_film;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Лучший документальный фильм* - приз, присуждаемый в рамках минского международного кинофестиваля "Лістапад".]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

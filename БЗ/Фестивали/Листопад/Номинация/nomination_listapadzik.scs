@@ -1,0 +1,26 @@
+nomination_listapadzik
+<-concept_nomination;
+=>nrel_main_idtf:
+    [Конкурс фильмов для детской и юношеской аудитории "Лістападзік"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+    [Children and youth film competition "Listapadzik"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+    [Конкурс фільмау для дзіцячай і юнацкай аудыторыі «Лістападзік»] (* <-lang_by;; *);;
+
+concept_situation->[*
+nomination_listapadzik
+->rrel_participant:film_supo_modo;
+->rrel_participant:film_girl_in_flight;
+->rrel_participant:film_the_witch_hunters;
+->rrel_participant:film_the_little_comrade;
+=>nrel_grand_prix_golden_listapadzik_for_best_film:file_supo_modo;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени участниково конкурса фильмов для детской и юношеской аудитории "Лістападзік" минского международного кинофестиваля "Листапад" 2018]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_02_11_2018;;
+        <-completion_date_09_11_2018;;
+*);;

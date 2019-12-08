@@ -11,7 +11,7 @@ ui_menu_na_keynodes
 	->ui_menu_file_for_finding_all_existing_till_now_buildings_on_the_street;;
 	->ui_menu_file_for_finding_all_buildings_on_the_street;;
 	->ui_menu_file_of_adding_concept_lost_constructions;;
-	->ui_menu_search_actual_state_of_object;;	
+	->ui_menu_search_actual_state_of_object;;
 	->ui_menu_file_of_finding_nodes_without_date;;
 	->ui_menu_file_for_finding_intersection_of_two_sets;;
 	->ui_menu_search_working_restaurants_with_given_cuisine;;
@@ -19,6 +19,8 @@ ui_menu_na_keynodes
 	->ui_menu_file_for_finding_all_caterings_on_the_street;;
 	->ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building;;
 	->ui_menu_file_for_verify_the_participation_of_two_persons_in_the_same_action;;
+	->ui_menu_search_affiche;;
+	->ui_menu_search_all_winners;;
 	*);
 => nrel_main_idtf:
 	[Ключевые узлы навигации] (* <- lang_ru;; *);

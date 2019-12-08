@@ -1,0 +1,37 @@
+nrel_special_jury_award
+<-sc_node_norole_relation;
+<-relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<-binary_relation;
+<-oriented_relation;
+=> nrel_main_idtf:
+	[специальный приз жюри*]
+	(*
+	<- lang_ru;;
+	*);
+	[special jury award*]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_first_domain:
+  ...
+  (*
+  ->concept_competition;;
+  ->concept_nomination;;
+  *);
+=> nrel_second_domain:concept_film;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Специальный приз жюри - награда, присуждаемая произведению жюри.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

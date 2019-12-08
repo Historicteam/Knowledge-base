@@ -1,0 +1,6 @@
+film_belarusian_atlantis
+<-concept_film;
+=>nrel_main_idtf:
+  	[Белорусская Атлантида] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Belarusian Atlantis] (* <-lang_en;; *);;

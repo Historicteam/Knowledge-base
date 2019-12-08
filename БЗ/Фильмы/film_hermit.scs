@@ -1,0 +1,6 @@
+film_hermit
+<-concept_film;
+=>nrel_main_idtf:
+  	[Отшельник] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Hermit] (* <-lang_en;; *);;

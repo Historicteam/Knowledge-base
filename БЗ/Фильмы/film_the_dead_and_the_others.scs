@@ -1,0 +1,6 @@
+film_the_dead_and_the_others
+<-concept_film;
+=>nrel_main_idtf:
+  	[Смерть и другие] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[The dead and The others] (* <-lang_en;; *);;

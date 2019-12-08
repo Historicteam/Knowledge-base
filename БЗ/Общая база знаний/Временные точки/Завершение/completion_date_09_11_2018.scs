@@ -1,0 +1,22 @@
+completion_date_09_11_2018
+<-exact_value;
+<-completion;
+=> nrel_main_idtf:
+	[время завершения - 9 ноября 2018]
+   	(*
+   		<-lang_ru;;
+   	*);
+   	[completion date - 9 november of 2018]
+   	(*
+   		<-lang_en;;
+   	*);
+   	[час заканчэння - 9 лістапада 2018]
+   	(*
+   		<-lang_by;;
+   	*);
+=> nrel_Gregorian_calendar_scale: ...
+   	(*
+   		<- number_of_day_in_month: [9];;
+   		<- number_of_month_in_year: [11];;
+   		<- number_of_year: [2018];;
+   	*);;

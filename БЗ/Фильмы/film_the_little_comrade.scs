@@ -1,0 +1,6 @@
+film_the_little_comrade
+<-concept_film;
+=>nrel_main_idtf:
+  	[Товарищ ребёнок] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[The little comrade] (* <-lang_en;; *);;

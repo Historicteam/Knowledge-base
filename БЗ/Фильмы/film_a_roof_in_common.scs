@@ -1,0 +1,6 @@
+film_a_roof_in_common
+<-concept_film;
+=>nrel_main_idtf:
+  	[Под одной крышей] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[A roof in common] (* <-lang_en;; *);;

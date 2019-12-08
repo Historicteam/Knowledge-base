@@ -1,0 +1,20 @@
+concept_nomination
+<-sc_node_not_relation;
+<-sc_const;
+=>nrel_main_idtf:
+  [номинация] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [nomination] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [намінацыя] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+  ...
+    (*
+    <- sc_explanation;;
+    <= nrel_sc_text_translation:
+    ...
+      (*
+      -> rrel_example:
+      [Номинация — процесс отбора лучших произведений или лиц для присуждения наград, званий и тому подобного на фестивалях.] (* <-lang_ru;; *);;
+      *);;
+    *);;

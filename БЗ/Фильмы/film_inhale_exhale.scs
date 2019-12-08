@@ -1,0 +1,6 @@
+film_inhale_exhale
+<-concept_film;
+=>nrel_main_idtf:
+  	[Вдох-выдох] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Inhale-Exhale] (* <-lang_en;; *);;
