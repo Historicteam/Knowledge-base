@@ -1,0 +1,6 @@
+film_yuli
+<-concept_film;
+=>nrel_main_idtf:
+  	[Юли] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Yuli] (* <-lang_en;; *);;

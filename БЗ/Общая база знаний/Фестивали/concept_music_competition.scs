@@ -1,0 +1,22 @@
+concept_music_competition
+<-sc_node_not_relation;
+<-sc_const;
+=>nrel_main_idtf:
+  [музыкальный конкурс] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [music competition] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [музычны конкурс] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+  ...
+  (*
+  <- sc_explanation;;
+  <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+    [Музыкальный конкурс — конкурс, призванный определить и наградить музыкальные коллективы, солистов и музыковедов. A music competition is a public event designed to identify and award outstanding musical ensembles, soloists and musicologists.] (* <-lang_ru;; *);;
+    -> rrel_example:
+    [A music competition is a public event designed to identify and award outstanding musical ensembles, soloists and musicologists.] (* <-lang_en;; *);;
+    *);;
+  *);;

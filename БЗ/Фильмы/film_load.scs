@@ -1,0 +1,7 @@
+film_load
+<-concept_film;
+=>nrel_main_idtf:
+  	[Груз] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Load] (* <-lang_en;; *);;
+

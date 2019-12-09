@@ -1,0 +1,37 @@
+nrel_grand_prix_golden_listapadzik_for_best_film
+<-sc_node_norole_relation;
+<-relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<-binary_relation;
+<-oriented_relation;
+=> nrel_main_idtf:
+	[гран-при «Золотой «Лістападзік» за лучший фильм»*]
+	(*
+	<- lang_ru;;
+	*);
+	[grand prix golden "Listapadzik" for best film*]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_first_domain:
+	...
+	(*
+	->concept_competition;;
+	->concept_nomination;;
+	*);
+=> nrel_second_domain:concept_film;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Гран-при «Золотой «Лістападзік» за лучший фильм» - главная награда в номинации фильмов для детской и юношеской аудитории минского международного кинофестиваля "Лістапад".]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

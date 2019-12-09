@@ -1,0 +1,26 @@
+nomination_national_film_schools_listapad
+<-concept_nomination;
+=>nrel_main_idtf:
+    [Конкурс национальных киношкол (Лістапад)] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+    [National film schools competition (Listapad)] (* <-lang_en;; *);
+=>nrel_main_idtf:
+    [Конкурс нацыянальных кінашкол (Лістапад)] (* <-lang_by;; *);;
+
+concept_situation->[*
+nomination_national_film_schools_listapad
+->rrel_participant:film_the_same_pain;
+->rrel_participant:film_a_roof_in_common;
+->rrel_participant:film_bruno_jumps;
+->rrel_participant:film_hotel_fremon;
+=>nrel_national_film_school_competition_award_for_best_film:film_the_same_pain;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени участников конкурса национальных киношкол минского международного кинофестиваля "Листапад" 2018]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_02_11_2018;;
+        <-completion_date_09_11_2018;;
+    *);;

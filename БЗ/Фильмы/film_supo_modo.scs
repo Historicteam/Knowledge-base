@@ -1,0 +1,6 @@
+film_supo_modo
+<-concept_film;
+=>nrel_main_idtf:
+  	[Супо Модо] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Supo Modo] (* <-lang_en;; *);;

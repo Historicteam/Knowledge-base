@@ -1,0 +1,6 @@
+film_crystal_swan
+<-concept_film;
+=>nrel_main_idtf:
+  	[Хрусталь] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Crystal Swan] (* <-lang_en;; *);;

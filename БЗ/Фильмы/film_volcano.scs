@@ -1,0 +1,6 @@
+film_volcano
+<-concept_film;
+=>nrel_main_idtf:
+  	[Вулкан] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Volcano] (* <-lang_en;; *);;

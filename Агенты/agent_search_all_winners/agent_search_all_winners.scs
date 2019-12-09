@@ -1,0 +1,440 @@
+scp_program->proc_search_all_winners
+(*
+  ->rrel_params:...
+  (*
+    ->rrel_1: rrel_in: _competition;;
+    ->rrel_2: rrel_in: _date;;
+    ->rrel_3: rrel_in: _answer;;
+  *);;
+
+  ->rrel_operators:...
+  (*
+    ->rrel_init:..proc_search_all_winners0_0_1
+    (*
+      <-genElStr3;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector0_0_1;;
+      ->rrel_3: rrel_fixed: rre_scp_var: _competition;;
+      =>nrel_goto:..proc_search_all_winners0_1;;
+    *);;
+
+    ->..proc_search_all_winners0_1
+    (*
+      <-searchElStr5;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _date;;
+      ->rrel_2: rrel_assign: rrel_scp_var: _connector0_1_1;;
+      ->rrel_3: rrel_assign: rrel_scp_var: _date_node;;
+      ->rrel_4: rrel_assign: rrel_scp_var: _connector0_1_2;;
+      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+      =>nrel_then:..proc_search_all_winners0_2;;
+      =>nrel_else:..proc_search_all_winners0_1_1;;
+    *);;
+
+    ->..proc_search_all_winners0_1_1
+		(*
+			<-printEl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [Используемая дата некорректна];;
+			=>nrel_goto:..proc_search_all_winners_return;;
+		*);;
+
+    ->..proc_search_all_winners0_2
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _year_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector0_2_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector0_2_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+			=>nrel_then:..proc_search_all_winners0_3;;
+			=>nrel_else:..proc_search_all_winners0_1_1;;
+		*);;
+
+    ->..proc_search_all_winners0_3
+    (*
+      <-printNl;;
+      ->rrel_1: rrel_fixed: rrel_scp_const: [Начало работы агента];;
+      =>nrel_goto:..proc_search_all_winners1_0;;
+    *);;
+/////////////////////////////////////////////////////////////////////////////
+		->..proc_search_all_winners1_0
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [proc_search_all_winners1];;
+			=>nrel_goto:..proc_search_all_winners1;;
+		*);;
+
+    ->..proc_search_all_winners1
+    (*
+      <-searchElStr5;;
+      ->rrel_1: rrel_assign: rrel_scp_var: _subdividing_node;;
+      ->rrel_2: rrel_assign: rrel_scp_var: _connector1_1;;
+      ->rrel_3: rrel_fixed: rrel_scp_var: _competition;;
+      ->rrel_4: rrel_assign: rrel_scp_var: _connector1_2;;
+      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_subdividing;;
+      =>nrel_then:..proc_search_all_winners2_0_1;;
+      =>nrel_else:..proc_search_all_winners_return;;
+    *);;
+
+	->..proc_search_all_winners2_0_1
+	(*
+	  <-genElStr3;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector2_0_1;;
+      ->rrel_3: rrel_fixed: rrel_scp_var: _connector1_1;;
+      =>nrel_goto:..proc_search_all_winners2_0_2;;
+	*);;
+
+	->..proc_search_all_winners2_0_2
+	(*
+	  <-genElStr3;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector2_0_2;;
+      ->rrel_3: rrel_fixed: rrel_scp_var: _connector1_2;;
+      =>nrel_goto:..proc_search_all_winners2_0_3;;
+	*);;
+
+	->..proc_search_all_winners2_0_3
+	(*
+	  <-genElStr3;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector2_0_3;;
+      ->rrel_3: rrel_fixed: rrel_scp_const: nrel_subdividing;;
+      =>nrel_goto:..proc_search_all_winners2_0_4;;
+	*);;
+
+	->..proc_search_all_winners2_0_4
+	(*
+	  <-genElStr3;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector2_0_4;;
+      ->rrel_3: rrel_fixed: rrel_scp_var: _subdividing_node;;
+      =>nrel_goto:..proc_search_all_winners2;;
+	*);;
+
+    ->..proc_search_all_winners2
+    (*
+      <-searchSetStr3;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _subdividing_node;;
+      ->rrel_2: rrel_assign: rrel_scp_var: _connector2;;
+      ->rrel_3: rrel_assign: rrel_scp_var: _nomination;;
+      ->rrel_set_3: rrel_assign: rrel_scp_var: _nominations;;
+      =>nrel_then:..proc_search_all_winners3;;
+      =>nrel_else:..proc_search_all_winners_return;;
+    *);;
+
+    ->..proc_search_all_winners3
+    (*
+      <-searchElStr3;;
+      ->rrel_1: rrel_fixed: rrel_scp_var: _nominations;;
+      ->rrel_2: rrel_assign: rrel_scp_var: _connector3;;
+      ->rrel_3: rrel_assign: rrel_scp_var: _nomination;;
+      =>nrel_then:..proc_search_all_winners4;;
+      =>nrel_else:..proc_search_all_winners_return;;
+    *);;
+
+        ->..proc_search_all_winners4
+        (*
+          <-searchSetStr3;;
+          ->rrel_1: rrel_assign: rrel_scp_var: _node3;;
+          ->rrel_2: rrel_assign: rrel_scp_var: _connector4;;
+          ->rrel_3: rrel_fixed: rrel_scp_var: _nomination;;
+          ->rrel_set_1: rrel_assign: rrel_scp_var: _nodes;;
+          =>nrel_then:..proc_search_all_winners5_0;;
+          =>nrel_else:..proc_search_all_winners_erase_nomination_0;;
+        *);;
+
+				->..proc_search_all_winners5_0
+				(*
+					<-printNl;;
+					->rrel_1: rrel_fixed: rrel_scp_const: [proc_search_all_winners5];;
+					=>nrel_goto:..proc_search_all_winners5;;
+				*);;
+
+        ->..proc_search_all_winners5
+        (*
+          <-searchElStr3;;
+          ->rrel_1: rrel_fixed: rrel_scp_var: _nodes;;
+          ->rrel_2: rrel_assign: rrel_scp_var: _connector5;;
+          ->rrel_3: rrel_assign: rrel_scp_var: _node;;
+          =>nrel_then:..proc_search_all_winners6;;
+          =>nrel_else:..proc_search_all_winners_erase_nomination;;
+        *);;
+
+        ->..proc_search_all_winners6
+        (*
+          <-searchElStr3;;
+          ->rrel_1: rrel_fixed: rrel_scp_const: concept_situation;;
+          ->rrel_2: rrel_assign: rrel_scp_var: _connector6;;
+          ->rrel_3: rrel_fixed: rrel_scp_var: _node;;
+          =>nrel_then:..proc_search_all_winners7;;
+          =>nrel_else:..proc_search_all_winners_erase_node;;
+        *);;
+
+            ->..proc_search_all_winners7
+            (*
+              <-searchSetStr3;;
+              ->rrel_1: rrel_assign: rrel_scp_var: _node_d;;
+              ->rrel_2: rrel_assign: rrel_scp_var: _connector7;;
+              ->rrel_3: rrel_fixed: rrel_scp_var: _node;;
+              ->rrel_set_1: rrel_assign: rrel_scp_var: _dates;;
+              =>nrel_then:..proc_search_all_winners8;;
+              =>nrel_else:..proc_search_all_winners_erase_node;;
+            *);;
+
+            ->..proc_search_all_winners8
+            (*
+              <-searchElStr3;;
+              ->rrel_1: rrel_fixed: rrel_scp_var: _dates;;
+              ->rrel_2: rrel_assign: rrel_scp_var: _connector8;;
+              ->rrel_3: rrel_assign: rrel_scp_var: _d;;
+              =>nrel_then:..proc_search_all_winners9;;
+              =>nrel_else:..proc_search_all_winners_erase_node;;
+            *);;
+
+            ->..proc_search_all_winners9
+            (*
+              <-searchElStr5;;
+              ->rrel_1: rrel_fixed: rrel_scp_var: _d;;
+              ->rrel_2: rrel_assign: rrel_scp_var: _connector9_1;;
+              ->rrel_3: rrel_assign: rrel_scp_var: _date_d;;
+              ->rrel_4: rrel_assign: rrel_scp_var: _connector9_2;;
+              ->rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+              =>nrel_then:..proc_search_all_winners10;;
+              =>nrel_else:..proc_search_all_winners_erase_d;;
+            *);;
+
+                ->..proc_search_all_winners10
+                (*
+                  <-searchElStr5;;
+                  ->rrel_1: rrel_assign: rrel_scp_var: _year;;
+            			->rrel_2: rrel_assign: rrel_scp_var: _connector10_1;;
+            			->rrel_3: rrel_fixed: rrel_scp_var: _date_d;;
+            			->rrel_4: rrel_assign: rrel_scp_var: _connector10_2;;
+            			->rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+                  =>nrel_then:..proc_search_all_winners11;;
+                  =>nrel_else:..proc_search_all_winners_erase_dates;;
+                *);;
+
+                    ->..proc_search_all_winners11
+                    (*
+                      <-ifEq;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _year_node;;
+                			->rrel_2: rrel_fixed: rrel_scp_var: _year;;
+                			=>nrel_then:..proc_search_all_winners12;;
+                			=>nrel_else:..proc_search_all_winners_erase_dates;;
+                    *);;
+
+          					->..proc_search_all_winners12_1
+          					(*
+          					   <-genElStr3;;
+          				      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+          				      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector12_1;;
+          				      ->rrel_3: rrel_fixed: rrel_scp_var: _nomination;;
+          				      =>nrel_goto:..proc_search_all_winners12_2;;
+          					*);;
+
+          					->..proc_search_all_winners12_2
+          					(*
+          					   <-searchElStr3;;
+          				      ->rrel_1: rrel_fixed: rrel_scp_var: _subdividing_node;;
+          				      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_2;;
+          				      ->rrel_3: rrel_fixed: rrel_scp_var: _nomination;;
+          				      =>nrel_then: ..proc_search_all_winners12_3;;
+          				      =>nrel_else: ..proc_search_all_winners_erase_dates;;
+          					*);;
+
+          					->..proc_search_all_winners12_3
+          					(*
+          					   <-genElStr3;;
+          				      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+          				      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector12_3;;
+          				      ->rrel_3: rrel_fixed: rrel_scp_var: _connector12_2;;
+          				      =>nrel_goto: ..proc_search_all_winners12_4_0_1;;
+          					*);;
+
+										->..proc_search_all_winners12_4_0_1
+										(*
+                      <-searchSetStr3;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_0_1;;
+                      ->rrel_3: rrel_assign: rrel_scp_var: _film;;
+                      ->rrel_set_3: rrel_assign: rrel_scp_var: _films;;
+                      =>nrel_then: ..proc_search_all_winners12_4_0_2;;
+                      =>nrel_else: ..proc_search_all_winners_erase_dates;;
+										*);;
+
+                    ->..proc_search_all_winners12_4_0_2
+                    (*
+                      <-searchElStr3;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _films;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_0_2;;
+                      ->rrel_3: rrel_assign: rrel_scp_var: _film;;
+                      =>nrel_then: ..proc_search_all_winners12_4;;
+                      =>nrel_else: ..proc_search_all_winners_erase_dates;;
+                    *);;
+
+                    ->..proc_search_all_winners12_4
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_award_for_best_animated_film;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners12_5;;
+                    *);;
+
+                    ->..proc_search_all_winners12_5
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_award_for_best_documentary_film;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners12_6;;
+                    *);;
+
+										->..proc_search_all_winners12_6
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_award_for_best_fiction_film;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners12_7;;
+                    *);;
+
+										->..proc_search_all_winners12_7
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_award_youth_on_the_march;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners12_8;;
+                    *);;
+
+										->..proc_search_all_winners12_8
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_grand_prix;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners12_9;;
+                    *);;
+
+										->..proc_search_all_winners12_9
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_grand_prix_golden_listapadzik_for_best_film;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners12_10;;
+                    *);;
+
+										->..proc_search_all_winners12_10
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_national_film_school_competition_award_for_best_film;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners12_11;;
+                    *);;
+
+										->..proc_search_all_winners12_11
+                    (*
+                      <-searchElStr5;;
+                      ->rrel_1: rrel_fixed: rrel_scp_var: _nomination;;
+                      ->rrel_2: rrel_assign: rrel_scp_var: _connector12_4_1;;
+                      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+                      ->rrel_4: rrel_assign: rrel_scp_var: _connector12_4_2;;
+                      ->rrel_5: rrel_fixed: rrel_scp_const: nrel_special_jury_award;;
+                      =>nrel_then: ..proc_search_all_winners13_1;;
+                      =>nrel_else: ..proc_search_all_winners_erase_film;;
+                    *);;
+
+                    	->..proc_search_all_winners13_1
+                    	(*
+	                      <-genElStr3;;
+        					      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+        					      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector13_1;;
+        					      ->rrel_3: rrel_fixed: rrel_scp_var: _film;;
+        					      =>nrel_goto: ..proc_search_all_winners13_4;;
+                    	*);;
+
+                    	->..proc_search_all_winners13_4
+                    	(*
+                    	  <-genElStr3;;
+        					      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+        					      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector13_4;;
+        					      ->rrel_3: rrel_fixed: rrel_scp_var: _connector12_4_1;;
+        					      =>nrel_goto: ..proc_search_all_winners13_5;;
+                    	*);;
+
+
+                    	->..proc_search_all_winners13_5
+                    	(*
+                    	  <-genElStr3;;
+        					      ->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+        					      ->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector13_5;;
+        					      ->rrel_3: rrel_fixed: rrel_scp_var: _connector12_4_2;;
+        					      =>nrel_goto: ..proc_search_all_winners_erase_film;;
+                    	*);;
+
+		                ->..proc_search_all_winners_erase_film
+		                (*
+		                  <-eraseEl;;
+		                  ->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector12_4_0_2;;
+		                  =>nrel_goto: ..proc_search_all_winners12_4_0_2;;
+		                *);;
+
+                ->..proc_search_all_winners_erase_dates
+                (*
+                  <-eraseEl;;
+                  ->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _dates;;
+                  =>nrel_goto:..proc_search_all_winners_erase_node;;
+                *);;
+
+            ->..proc_search_all_winners_erase_d
+            (*
+              <-eraseEl;;
+              ->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector8;;
+              =>nrel_goto:..proc_search_all_winners8;;
+            *);;
+
+        ->..proc_search_all_winners_erase_node
+        (*
+          <-eraseEl;;
+          ->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector5;;
+          =>nrel_goto:..proc_search_all_winners5_0;;
+        *);;
+
+    ->..proc_search_all_winners_erase_nomination
+    (*
+      <-eraseEl;;
+      ->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector3;;
+      =>nrel_goto:..proc_search_all_winners3;;
+    *);;
+/////////////////////////////////////////////////////////////////////////////
+    ->..proc_search_all_winners_return
+    (*
+      <-return;;
+    *);;
+  *);;
+*);;

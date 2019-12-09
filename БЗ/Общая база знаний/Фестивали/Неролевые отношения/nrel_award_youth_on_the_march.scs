@@ -1,0 +1,32 @@
+nrel_award_youth_on_the_march
+<-sc_node_norole_relation;
+<-relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<-binary_relation;
+<-oriented_relation;
+=> nrel_main_idtf:
+	[приз "Молодость на марше"*]
+	(*
+	<- lang_ru;;
+	*);
+	[award "Youth on The March"*]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_first_domain:concept_nomination;
+=> nrel_second_domain:concept_film;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Приз "Молодость на марше" - приз, присуждаемый в рамках минского международного кинофестиваля "Лістапад".]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

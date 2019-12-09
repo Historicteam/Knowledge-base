@@ -1,0 +1,30 @@
+nomination_national_competition_listapad
+<-concept_nomination;
+=>nrel_main_idtf:
+    [Национальный конкурс (Лістапад)] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+    [National Competition (Listapad)] (* <-lang_en;; *);
+=>nrel_main_idtf:
+    [Нацыянальны конкурс (Лістапад)] (* <-lang_by;; *);;
+
+concept_situation->[*
+nomination_national_competition_listapad
+->rrel_participant:film_crystal_swan;
+->rrel_participant:film_daughter;
+->rrel_participant:film_songs_for_kit;
+->rrel_participant:film_not_a_groom;
+->rrel_participant:film_the_good_wolf;
+->rrel_participant:film_wolfie;
+=>nrel_award_for_best_fiction_film:film_daughter;
+=>nrel_award_for_best_documentary_film:film_songs_for_kit;
+=>nrel_award_for_best_animated_film:film_the_good_wolf;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени участниково национального конкурса минского международного кинофестиваля "Листапад" 2018]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_02_11_2018;;
+        <-completion_date_09_11_2018;;
+*);;

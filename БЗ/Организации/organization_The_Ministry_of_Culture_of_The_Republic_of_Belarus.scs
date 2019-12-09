@@ -1,0 +1,19 @@
+organization_The_Ministry_of_Culture_of_The_Republic_of_Belarus
+=>nrel_main_idtf:
+	[Министерство Культуры Республики Беларусь]
+	(*
+	<-lang_ru;;
+	*);
+=>nrel_main_idtf:
+  	[The Ministry of Culture of The Republic of Belarus]
+	(*
+	<-lang_en;;
+	*);
+=>nrel_main_idtf:
+  	[Міністэрства Культуры Рэспублікі Беларусь]
+	(*
+	<-lang_by;;
+	*);
+<-concept_formal_organization;
+<-concept_administrative_organization;
+<-begin_date_2010;;

@@ -1,0 +1,6 @@
+film_the_third_wife
+<-concept_film;
+=>nrel_main_idtf:
+  	[Третья жена] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[The Third Wife] (* <-lang_en;; *);;

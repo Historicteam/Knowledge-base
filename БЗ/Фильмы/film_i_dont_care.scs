@@ -1,0 +1,6 @@
+film_i_dont_care
+<-concept_film;
+=>nrel_main_idtf:
+  	[Мне плевать, если мы войдем в историю как варвары] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[I don't care if we go down in history as barbarians] (* <-lang_en;; *);;

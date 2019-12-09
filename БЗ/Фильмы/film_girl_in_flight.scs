@@ -1,0 +1,6 @@
+film_girl_in_flight
+<-concept_film;
+=>nrel_main_idtf:
+  	[Побег из Рима] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Girl in flight] (* <-lang_en;; *);;

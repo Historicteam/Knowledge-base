@@ -1,0 +1,27 @@
+nomination_youth_on_the_march_listapad
+<-concept_nomination;
+=>nrel_main_idtf:
+    [Конкурс игрового кино «Молодость на марше» (Лістапад)] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+    [Feature films competition "Youth on the March" (Listapad)] (* <-lang_en;; *);
+=>nrel_main_idtf:
+    [Конкурс ігравога кіно «Маладосць на Маршы» (Лістапад)] (* <-lang_by;; *);;
+
+concept_situation->[*
+nomination_youth_on_the_march_listapad
+->rrel_participant:film_the_dead_and_the_others;
+->rrel_participant:film_manta_ray;
+->rrel_participant:film_one_day;
+->rrel_participant:film_ash;
+=>nrel_award_youth_on_the_march:film_the_dead_and_the_others;
+=>nrel_special_jury_award:film_manta_ray;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени участников конкурса игрового кино «Молодость на марше» минского международного кинофестиваля "Листапад" 2018]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_02_11_2018;;
+        <-completion_date_09_11_2018;;
+*);;
