@@ -1,0 +1,15 @@
+concept_national_movement<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[национальное движение]
+	(*
+	<- lang_ru;;
+	*);
+	[nation movement]
+	(*
+	<- lang_en;;
+	*);
+	[нацыянальны рух]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclussion:concept_nation;;

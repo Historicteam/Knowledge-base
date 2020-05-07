@@ -1,0 +1,46 @@
+nrel_occupation
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[оккупация*]
+	(*
+	<- lang_ru;;
+	*);
+	[occupation*]
+	(*
+	<- lang_en;;
+	*);
+	[акупацыя*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_country;
+=> nrel_second_domain:
+	concept_country;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Оккупация — насильственное занятие чужой территории военной силой..]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Акупацыя - насильственное занятие чужой территории военной силой.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;
+

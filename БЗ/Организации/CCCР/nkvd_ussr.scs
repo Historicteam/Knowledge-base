@@ -1,0 +1,45 @@
+concept_nkvd<-sc_node_not_relation;
+<=nrel_inclusion:concept_secret_police;
+=> nrel_main_idtf:
+	[НКВД]
+	(*
+	<- lang_ru;;
+	*);
+	[NKVD]
+	(*
+	<- lang_en;;
+	*);
+	[НКУС]
+	(*
+	<- lang_by;;
+	*);;
+
+nkvd_bssr<-concept_nkvd;
+=> nrel_main_idtf:
+	[НКВД БССР]
+	(*
+	<- lang_ru;;
+	*);
+	[NKVD BSSR]
+	(*
+	<- lang_en;;
+	*);
+	[НКУС БССР]
+	(*
+	<- lang_by;;
+	*);;
+
+nkvd_ussr<-concept_nkvd;
+=> nrel_main_idtf:
+	[НКВД СССР]
+	(*
+	<- lang_ru;;
+	*);
+	[NKVD USSR]
+	(*
+	<- lang_en;;
+	*);
+	[НКУС СССР]
+	(*
+	<- lang_by;;
+	*);;

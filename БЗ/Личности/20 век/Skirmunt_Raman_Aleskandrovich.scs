@@ -1,0 +1,36 @@
+Skirmunt_Raman_Aleksandrovich
+=> nrel_main_idtf:
+	[Скирмунт Роман Александрович]
+	(*
+	<- lang_ru;;
+	*);
+	[Skirmunt Raman Aleksandrovich]
+	(*
+	<- lang_en;;
+	*);
+	[Раман Аляксандравіч Скірмунт]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf: 
+	[Раман Скірмунт]
+	(*
+	<- lang_by;;
+	*);	
+
+<-concept_male;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/Skirmunt.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+<-concept_belarus_national_movement_person;
+<-begin_date_25_03_1868;
+<-completion_date_7_01_1939;;

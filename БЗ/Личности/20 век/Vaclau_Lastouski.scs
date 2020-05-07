@@ -1,0 +1,36 @@
+Vaclau_Justynavich_Lastouski
+=> nrel_main_idtf:
+	[Вацлав Устинович Ластовский]
+	(*
+	<- lang_ru;;
+	*);
+	[Vaclau_Justynavich_Lastouski]
+	(*
+	<- lang_en;;
+	*);
+	[Вацлаў Юстынавіч Ластоўскі]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf: 
+	[Вацлаў Ластоўскі]
+	(*
+	<- lang_by;;
+	*);	
+
+<-concept_male;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/Vaclau_Lastouski.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+<-concept_belarus_national_movement_person;
+<-begin_date_08_11_1883;
+<-completion_date_23_01_1938;;

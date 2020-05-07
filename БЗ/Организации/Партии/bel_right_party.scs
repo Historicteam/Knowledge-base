@@ -1,0 +1,15 @@
+concept_belarussian_right_party<-sc_node_not_relation;
+<=nrel_inclussion:concept_political_party;
+=> nrel_main_idtf:
+	[белорусская правая партия]
+	(*
+	<- lang_ru;;
+	*);
+	[belarussian right party]
+	(*
+	<- lang_en;;
+	*);
+	[беларуская правая партыя]
+	(*
+	<- lang_by;;
+	*);;

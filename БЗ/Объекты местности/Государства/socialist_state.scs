@@ -1,0 +1,6 @@
+concept_socialist_state<-sc_node_not_relation;
+<=nrel_inclusion:concept_state;
+=> nrel_main_idtf:
+  [социалистическое государство] (* <- lang_ru;; *);
+  [social state] (* <- lang_en;; *);
+  [сацыялістычная дзяржава] (* <- lang_by;; *);;

@@ -1,0 +1,50 @@
+Branislaw_Adamavich_Tarashkyevich
+=> nrel_main_idtf:
+	[Тарашкевич Бронислав Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Branislaw Adamavich Tarashkyevich]
+	(*
+	<- lang_en;;
+	*);
+	[Браніслаў Адамавіч Тарашкевіч]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf: 
+	[Браніслаў Тарашкевіч]
+	(*
+	<- lang_by;;
+	*);	
+
+<-concept_male;
+<-concept_person;
+<-concept_belarus_national_movement_person;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/Tarashkevich.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+<-rrel_academician:The_National_Academy_of_Sciences_of_the_BSSR;
+<-nrel_date_of_birth:20_01_1892;
+<-nrel_date_of_death:29_11_1938;
+<=nrel_repression:...
+(*
+  <-sc_identifier_tuple_set;;
+  ->rrel_date_of_repression:date_06__05_1937;;
+  ->rrel_organization_of_repression:nkvd_ussr;;
+*);
+<=nrel_execution_by_shooting:...
+(*
+  <-sc_identifier_tuple_set;;
+  ->rrel_date_of_repression:date_06__05_1937;;
+  ->rrel_execution_by_organization:nkvd_ussr;;
+*);;

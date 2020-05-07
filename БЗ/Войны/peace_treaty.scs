@@ -1,0 +1,2 @@
+concept_peace_treaty<-sc_node_not_relation;
+<=nrel_inclusion:concept_document;;

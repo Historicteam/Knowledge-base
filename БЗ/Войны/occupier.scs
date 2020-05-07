@@ -1,0 +1,18 @@
+rrel_occupier
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[оккупант']
+	(*
+	<- lang_ru;;
+	*);
+	[occupier']
+	(*
+	<- lang_en;;
+	*);
+	[акупант']
+	(*
+	<- lang_by;;
+	*);;
