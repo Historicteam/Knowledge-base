@@ -1,0 +1,30 @@
+slutsk_uprising
+=> nrel_main_idtf:
+	[Слуцкое восстание]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk uprising] 
+	(*
+	<- lang_en;;
+	*);
+	[Слуцкае паўстанне]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_uprising;
+<-begin_date_28_01_1920;
+<-completion_date_18_03_1921;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/slutsk.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);;
