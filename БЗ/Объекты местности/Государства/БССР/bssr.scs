@@ -1,0 +1,25 @@
+state_bssr
+=> nrel_main_idtf:
+  [Белорусская Советская Социалистическая Республика] (* <- lang_ru;; *);
+  [Byelorussian Soviet Socialist Republic] (* <- lang_en;; *);
+  [Беларуская Савецкая Сацыялістычная Рэспубліка] (* <- lang_by;; *);
+<-concept_socialist_state;;
+
+nrel_current_policy
+<-sc_node_norole_relation;
+<-relation;
+<-binary_relation;
+<-oriented_relation;
+=> nrel_main_idtf:
+	[проводимая политика*]
+	(*
+	<- lang_ru;;
+	*);
+	[current policy*]
+	(*
+	<- lang_en;;
+	*);
+	[праводжаная палітыка*]
+	(*
+	<- lang_by;;
+	*);;
