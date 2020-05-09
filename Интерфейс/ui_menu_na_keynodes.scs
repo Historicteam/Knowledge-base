@@ -2,7 +2,9 @@ ui_menu_na_keynodes
 <- ui_user_command_class_noatom;
 <= nrel_ui_commands_decomposition: decomposition_of_ui_menu_na_keynodes
 	(*
-        ->ui_menu_file_for_finding_all_hotels;;
+        ->ui_menu_file_for_finding_five_stars_hotels;;
+        ->ui_menu_file_for_finding_four_stars_hotels;;
+        ->ui_menu_file_for_finding_3_all_hotels;;
 	->ui_menu_file_for_finding_buildings_by_person;;
 	->ui_menu_file_for_finding_all_buildings_by_architectural_style;;
 	->ui_menu_file_for_finding_all_buildings_by_architectural_style_which_are_not_lost;;
