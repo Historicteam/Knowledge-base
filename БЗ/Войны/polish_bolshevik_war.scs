@@ -36,3 +36,34 @@ polish_bolshevik_war
 ->rrel_participant:state_second_polish_republic;
 
 =>nrel_result:Peace_of_Riga;;
+
+
+begin_date_28_01_1919
+=> nrel_main_idtf:
+	[28 января 1919 года]
+	(*
+	<- lang_ru;;
+	*);
+	[january 28 1919]
+	(*
+	<- lang_en;;
+	*);
+	[28 студзеня 1892]
+	(*
+	<- lang_by;;
+	*);;
+
+completion_date_18_03_1921
+=> nrel_main_idtf:
+	[дата окончания 18 марта 1921]
+	(*
+	<- lang_ru;;
+	*);
+	[march 22 1938]
+	(*
+	<- lang_en;;
+	*);
+	[22 сакавік 1938]
+	(*
+	<- lang_by;;
+	*);;

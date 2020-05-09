@@ -44,7 +44,7 @@ Branislaw_Adamavich_Tarashkyevich
 *);
 
 <-rrel_member:organization_belarusian_socialist_hramada;
-=>nrel_author:belarussian_grammar;
+=>nrel_author:Belarussian_grammar;
 <-rrel_member_of_department_of_education:state_lbssr;
 <=nrel_execution_by_shooting:...
 (*
@@ -52,3 +52,85 @@ Branislaw_Adamavich_Tarashkyevich
   ->rrel_date_of_repression:date_06__05_1937;;
   ->rrel_execution_by_organization:nkvd_ussr;;
 *);;
+
+
+rrel_member_of_department_of_education<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[участник министерства образования]
+	(*
+	<- lang_ru;;
+	*);
+	[member of department of education]
+	(*
+	<- lang_en;;
+	*);
+	[удзельнік мінэстэрства адукацыі]
+	(*
+	<- lang_by;;
+	*);;
+
+concept_belarusian_grammar<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[белорусская грамматика]
+	(*
+	<- lang_ru;;
+	*);
+	[belarusian grammar]
+	(*
+	<- lang_en;;
+	*);
+	[беларуская граматыка]
+	(*
+	<- lang_by;;
+	*);;
+
+
+Belarussian_grammar<-concept_belarusian_grammar;
+=> nrel_main_idtf:
+	[Белорусская грамматика]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian grammar]
+	(*
+	<- lang_en;;
+	*);
+	[Беларуская граматыка]
+	(*
+	<- lang_by;;
+	*);
+  => nrel_idtf: 
+	[Тарашкевіца]
+	(*
+	<- lang_by;;
+	*);;
+
+20_01_1892
+=> nrel_main_idtf:
+	[22 января 1892 года]
+	(*
+	<- lang_ru;;
+	*);
+	[january 22 1892]
+	(*
+	<- lang_en;;
+	*);
+	[22 студзеня 1892]
+	(*
+	<- lang_by;;
+	*);;
+
+29_11_1938
+=> nrel_main_idtf:
+	[22 ноября 1938]
+	(*
+	<- lang_ru;;
+	*);
+	[november 22 1938]
+	(*
+	<- lang_en;;
+	*);
+	[22 кастрычніка 1938]
+	(*
+	<- lang_by;;
+	*);;
