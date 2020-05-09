@@ -1,0 +1,16 @@
+house_13_International_street
+=>nrel_main_idtf:
+	[Улица Интернациональная 13]
+		(*
+		<- lang_ru;;
+		*);
+		[International street, 13]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца інтэрнацыянальная 13]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:International_Street;
+<-concept_building;;
