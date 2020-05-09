@@ -42,6 +42,10 @@ Branislaw_Adamavich_Tarashkyevich
   ->rrel_date_of_repression:date_06__05_1937;;
   ->rrel_organization_of_repression:nkvd_ussr;;
 *);
+
+<-rrel_member:organization_belarusian_socialist_hramada;
+=>nrel_author:belarussian_grammar;
+<-rrel_member_of_department_of_education:state_lbssr;
 <=nrel_execution_by_shooting:...
 (*
   <-sc_identifier_tuple_set;;

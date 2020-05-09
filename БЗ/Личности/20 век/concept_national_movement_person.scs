@@ -1,1 +1,14 @@
-concept_national_movement_person<=nrel_inclusion:concept_national_movement;;
+concept_national_movement_person<=nrel_inclusion:concept_national_movement;
+=> nrel_main_idtf:
+	[личность национального движения]
+	(*
+	<- lang_ru;;
+	*);
+	[person of national movement]
+	(*
+	<- lang_en;;
+	*);
+	[асоба нацыянальнага руху]
+	(*
+	<- lang_by;;
+	*);;

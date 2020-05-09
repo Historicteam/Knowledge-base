@@ -28,3 +28,33 @@ slutsk_uprising
         *);;
       *);;
   *);;
+
+  Slutsk<-concept_city;
+  => nrel_main_idtf:
+	[Слуцк]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk] 
+	(*
+	<- lang_en;;
+	*);
+	[Слуцк]
+	(*
+	<- lang_by;;
+	*);;
+
+slutsk_population<=nrel_population:Slutsk;
+=> nrel_main_idtf:
+	[население Слуцка]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk population] 
+	(*
+	<- lang_en;;
+	*);
+	[Слуцкае насельніцтва]
+	(*
+	<- lang_by;;
+	*);;
