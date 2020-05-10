@@ -1,0 +1,50 @@
+concept_shuttle_taxi
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[маршрутное такси](*<- lang_ru;;*);
+	[shuttle taxi](*<- lang_en;;*);
+	[маршрутнае таксі](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Автобусы и микроавтобусы, осуществляющие перевозку пассажиров и багажа по установленным маршрутам и не полностью интегрированные в регулярную систему общественного транспорта.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Buses and minibuses that carry passengers and luggage along established routes and are not fully integrated into the regular public transport system.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Аўтобусы і мікрааўтобусы, якія ажыццяўляюць перавозку пасажыраў і багажу па вызначаных маршрутах і не цалкам інтэграваныя ў рэгулярную сістэму грамадскага транспарту.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/shuttle_taxi.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

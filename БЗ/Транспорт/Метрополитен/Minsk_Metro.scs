@@ -1,0 +1,55 @@
+Minsk_Metro
+<- concept_metro;
+=> nrel_main_idtf:
+	[Минский метрополитен](*<- lang_ru;;*);
+	[Minsk Metro](*<- lang_en;;*);
+	[Мінскі метрапалітэн](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Один из видов городского транспорта в Минске. Является девятым на территории бывшего СССР, а также первым и единственным в Беларуси.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[One of the types of urban transport in Minsk. It is the ninth in the territory of the former USSR, as well as the first and only in Belarus.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Адзін з відаў гарадскога транспарту ў Мінску. З'яўляецца дзевятым на тэрыторыі былога СССР, а таксама першым і адзіным у Беларусі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- opening_date_29_06_1984;
+<- rrel_key_sc_element: Minsk_Metro_scheme (*
+	=> nrel_main_idtf:
+		[Схема линий минского метрополитена] (* <- lang_ru;; *);
+		[Minsk Metro scheme] (* <- lang_en;; *);
+		[Схема лiнiй мiнскага метрапалiтэна] (* <- lang_by;; *);;
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Minsk_metro.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=> nrel_number_of_stations: [29];
+=> nrel_number_of_metro_lines: [2];;

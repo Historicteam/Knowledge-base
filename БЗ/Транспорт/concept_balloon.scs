@@ -1,0 +1,50 @@
+concept_balloon
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[воздушный шар](*<- lang_ru;;*);
+	[balloon](*<- lang_en;;*);
+	[паветраны шар](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Летательный аппарат (аэростат), в котором для полёта используется газ, который легче воздуха.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Aircraft (aerostat), which uses gas that is lighter than air for flight.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Лятальны апарат (аэрастат), у якім для палёту выкарыстоўваецца газ, які лягчэй паветра.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/balloon.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

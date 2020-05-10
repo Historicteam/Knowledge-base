@@ -1,0 +1,46 @@
+concept_land_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[наземный транспорт](*<- lang_ru;;*);
+	[land transport](*<- lang_en;;*);
+	[наземны транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Транспорт, включающий автотранспорт всех видов, вагоны поездов, трамваев и метрополитена, тракторы, сельскохозяйственные, строительные и дорожно строительные машины.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Transport, including all types of vehicles, train, tram and metro cars, tractors, agricultural, construction and road-building machines.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Транспарт, які ўключае аўтатранспарт ўсіх відаў, вагоны цягнікоў, трамваяў і метрапалітэна, трактары, сельскагаспадарчыя, будаўнічыя і дарожна будаўнічыя машыны.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+=>nrel_inclusion:
+	concept_autobus;
+	concept_electric_bus;
+	concept_trolleybus;
+	concept_tram;
+	concept_shuttle_taxi;
+	concept_taxi;
+	concept_train;;

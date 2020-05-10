@@ -1,0 +1,31 @@
+bus_stop_Bolshaya_Slepnya
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Большая Слепня](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Вялiкая Сляпня](*<- lang_by;;*);
+=> nrel_osm_query: [node(767183528);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.933635, 27.631137]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.933635;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.631137;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

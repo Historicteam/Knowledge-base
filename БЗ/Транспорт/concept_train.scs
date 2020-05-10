@@ -1,0 +1,50 @@
+concept_train
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[поезд](*<- lang_ru;;*);
+	[train](*<- lang_en;;*);
+	[цягнік](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сформированный и сцепленный состав, состоящий из группы вагонов, с одним или несколькими действующими локомотивами или моторными вагонами, приводящими его в движение, и имеющий установленные сигналы, которые обозначают его голову и хвост.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Formed and linked train consisting of a group of cars, with one or more active locomotives or motor cars, which set it in motion, and having installed signals that indicate its head and tail.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Сфармаваны і счэплены састаў, які складаецца з групы вагонаў, з адным ці некалькімі дзейснымі лакаматывамі ці маторнымі вагонамі, якія прыводзяць яго ў рух, і які мае вызначаныя сігналы, якія абазначаюць яго галаву і хвост.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/train.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

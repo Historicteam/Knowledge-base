@@ -1,0 +1,22 @@
+opening_date_07_11_2005
+=> nrel_main_idtf:
+   [Дата открытия - 7 ноября 2005]
+   (*
+   <- lang_ru;;
+   *);
+   [Opening Date - November 7, 2005]
+   (*
+   <- lang_en;;
+   *);
+   [Дата адкрыцця - 7 лiстапада 2005]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [7];;
+   <- number_of_month_in_year: [11];;
+   <- number_of_year: [2005];;
+   *);;

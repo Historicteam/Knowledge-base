@@ -1,0 +1,20 @@
+nrel_number_of_stations
+
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[количество станций*]
+	(*
+	<- lang_ru;;
+	*);
+	[number of stations*]
+	(*
+	<- lang_en;;
+	*);
+	[колькасць станцый*]
+	(*
+	<- lang_by;;
+	*);;

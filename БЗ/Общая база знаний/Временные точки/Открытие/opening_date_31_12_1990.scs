@@ -1,0 +1,22 @@
+opening_date_31_12_1990
+=> nrel_main_idtf:
+   [Дата открытия - 31 декабря 1990]
+   (*
+   <- lang_ru;;
+   *);
+   [Opening Date - December 31, 1990]
+   (*
+   <- lang_en;;
+   *);
+   [Дата адкрыцця - 31 снежня 1990]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [31];;
+   <- number_of_month_in_year: [12];;
+   <- number_of_year: [1990];;
+   *);;

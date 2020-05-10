@@ -1,0 +1,31 @@
+bus_stop_Kozlova
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Козлова](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Казлова](*<- lang_by;;*);
+=> nrel_osm_query: [node(767074844);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.911772, 27.578740]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.911772;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.578740;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
