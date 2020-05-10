@@ -1,0 +1,49 @@
+birds_island<-concept_island;
+=>nrel_osm_query:[way(25377355);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.92051, 27.53539]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.92051;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.53539;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
+birds_island=> nrel_main_idtf:
+	[остров птиц]
+	(*
+	<- lang_ru;;
+	*);
+	[birds island]
+	(*
+	<- lang_en;;
+	*);
+	<=nrel_whole_part:Svisloch_river;
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://картинки/bird.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

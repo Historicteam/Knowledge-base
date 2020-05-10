@@ -1,0 +1,30 @@
+concept_lake_reservoir<-sc_node_not_relation;
+	=> nrel_main_idtf:
+	[озерное водохранилище] 
+	(* <- lang_ru;; *);
+	[lake reservoir]	
+	(* <- lang_en;; *);;
+concept_lake_reservoir<=nrel_part_whole:concept_lake;;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_lake_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Тип водохранилища, которое устанавливают на территории озера.](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [The type of reservoir that is installed on the lake. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "озерное водохранилище"](*<- lang_ru;;*);
+			[Definition of the lake reservoir concept] (* <-lang_en;; *);;
+    *);;
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_lake_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Для водохранилищ озёрного вида характерно формирование водных масс, существенно отличных по своим физическим свойствам от свойств вод притоков. Течения в этих водохранилищах связаны больше всего с ветрами.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Характеристика озерного водохранилища](*<- lang_ru;;*);;
+*);;

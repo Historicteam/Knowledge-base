@@ -1,0 +1,20 @@
+waterfront_of_internationalist_warriors<-concept_waterfront;
+=> nrel_main_idtf:
+	[набережная воинов-интернационалистов] 
+	(* <- lang_ru;; *);
+	[waterfront of the Internationalist Warriors]	
+	(* <- lang_en;; *);
+=>nrel_osm_query:[way(486457068);];
+<=nrel_bordering_constructure:Svisloch_river;;
+waterfront_of_internationalist_warriors<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/naberezhnaya.jpg"
+	(*
+		=>nrel_format:format_jpg;;
+	*);;	
+*);;
+*);;

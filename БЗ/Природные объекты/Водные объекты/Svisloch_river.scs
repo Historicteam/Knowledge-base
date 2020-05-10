@@ -1,0 +1,42 @@
+Svisloch_river<-concept_river;
+=> nrel_main_idtf:
+	[свислоч] 
+	(* <- lang_ru;; *);
+	[svisloch]	
+	(* <- lang_en;; *);
+	[Свіслач]	
+	(* <- lang_by;; *);
+=>nrel_osm_query:[way(25061860);];
+<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/svi.jpg"
+	(*
+		=>nrel_format:format_jpg;;
+	*);;	
+*);;
+*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сви́слочь — река в Белорусси, правый приток Березины (бассейн Днепра). Основная водная артерия Минска. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[В прошлом использовалась для рыболовного промысла, судоходства и сплава леса, в настоящее время имеет, в основном, ограниченное рекреационное значение.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

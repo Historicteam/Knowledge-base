@@ -1,0 +1,49 @@
+nrel_excursion_object<-sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+<-sc_node_norole_relation;
+	=> nrel_main_idtf:
+	[объект экскурсии*] 
+	(* <- lang_ru;; *);
+	[excursion object*]	
+	(* <- lang_en;; *);
+=> nrel_first_domain:concept_object_of_town_planning;
+			concept_construction;
+			concept_nature_object;
+=> nrel_second_domain:concept_excursion;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Объект экскурсии - объект который будет участвовать в показе экскурсии.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Excursion object - an object that will participate in the excursion display.]
+			(* 
+			<- lang_en;; 
+			*);;
+		*);;
+		
+	*);;
+
+nrel_excursion_object<=nrel_subdividing:
+	...
+	(*
+	=>nrel_main_idtf:
+		[разбиение объектов экскурсии по приоритету] (* <-lang_ru;; *);
+		[subdividing excursion objects of priority ] (* <-lang_en;; *);;
+	->	nrel_main_excursion_object;
+		nrel_additional_excursion_object;;
+	*);;

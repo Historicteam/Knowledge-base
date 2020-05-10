@@ -1,0 +1,41 @@
+concept_reservoir<-sc_node_not_relation;
+<-concept_pond;
+	=> nrel_main_idtf:
+	[водохранилище] 
+	(* <- lang_ru;; *);
+	[reservoir]	
+	(* <- lang_en;; *);;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Искусственный (рукотворный) водоём, образованный, как правило, в долине реки водоподпорными сооружениями для накопления и хранения воды в целях её использования в народном хозяйстве. ](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [A reservoir is, most commonly, an enlarged natural or artificial lake, pond or impoundment created using a dam or lock to store water. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "водохранилище"](*<- lang_ru;;*);
+			[Definition of the reservoir concept](*<- lang_en;;*);;
+    *);;
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Первые водохранилища были созданы в Древнем Египте с целью освоения земель в долине реки Нил (более 3000 лет до н. э.)](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Исторический факт о водохранилищах](*<- lang_ru;;*);;
+
+*);;
+concept_reservoir<=nrel_subdividing:
+	subdividing_of_reservoirs_in_accordance_with_kinds_of_location
+	(*
+	=>nrel_main_idtf:
+		[разбиение водохранилищ по месту положения] (* <-lang_ru;; *);
+		[subdividing of reservoirs in accordance with kinds of location] (* <-lang_en;; *);;
+	->	concept_river_reservoir;
+		concept_lake_reservoir;;
+	*);;

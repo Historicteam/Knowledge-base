@@ -1,0 +1,28 @@
+nrel_water_barrier<-sc_node_norole_relation;
+	<-sc_node_norole_relation;
+	=> nrel_main_idtf:
+	[водная преграда*] 
+	(* <- lang_ru;; *);
+	[water barrier*]	
+	(* <- lang_en;; *);
+<- relation;
+<-asymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_first_domain:concept_water_object;
+=> nrel_second_domain:concept_bridge;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Водное препятствие — река, канал, озеро и водохранилище, лиман, фиорд, пролив и тому подобное, преодолеваемые с помощью мостов или других специальных сооружений.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);;
+	*);;

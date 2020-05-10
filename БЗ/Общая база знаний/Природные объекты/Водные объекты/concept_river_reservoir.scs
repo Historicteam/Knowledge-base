@@ -1,0 +1,30 @@
+concept_river_reservoir<-sc_node_not_relation;
+	=> nrel_main_idtf:
+	[речное водохранилище] 
+	(* <- lang_ru;; *);
+	[river reservoir]	
+	(* <- lang_en;; *);;
+concept_river_reservoir<=nrel_part_whole:concept_river;;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_river_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Тип водохранилища, которое устанавливают в русле реки.](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [The type of reservoir that is installed in the riverbed.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "речное водохранилище"](*<- lang_ru;;*);
+			[Definition of the river reservoir concept](*<- lang_en;;*);;
+    *);;
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_river_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Водохранилища речного (руслового) вида имеют вытянутую форму, течения в них обычно стоковые; водная масса по своим характеристикам близка к речным водам.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Характеристика речного водохранилища](*<- lang_ru;;*);;
+*);;

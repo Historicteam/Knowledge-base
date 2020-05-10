@@ -1,0 +1,33 @@
+concept_decorative_water_object<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[декоративный водный объект]
+(*
+<- lang_ru;;
+*);
+[decorative water object]
+(*
+<- lang_en;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Данные водные объекты имеют декоративный характер и эстетическую ценность. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ These water objects have a decorative character and aesthetic value.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);;

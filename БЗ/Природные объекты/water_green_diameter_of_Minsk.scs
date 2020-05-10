@@ -1,0 +1,56 @@
+water_green_diameter_of_Minsk<-concept_complex_nature_object;
+<-concept_system;
+=>nrel_osm_query:[relation(10750311);];
+=>nrel_main_idtf:
+	[водно-зеленый диаметр Минска] (* <-lang_ru;; *);
+	[water-green diameter of Minsk] (* <-lang_en;; *);
+	[водна-зялёны дыяметр Мінска] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...
+	(* 
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Водно-зелёный диаметр Минска — система парков, водоёмов, бульваров и скверов с обеих сторон реки Свислочь, которая пересекает широкой «зелёной лентой» весь город Минск с северо-запада на юго-восток — от водохранилища Дрозды до микрорайона Шабаны. ] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Labour organization is an institutionalized set of people that act on a special plan to achieve goals which are significant for all members of the organization and to create certain socially necessary products or services.] (* <-lang_en;; *);; 
+		*);;
+*);;
+water_green_diameter_of_Minsk<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/wg.jpg"
+	(*
+		=>nrel_format:format_jpg;;
+	*);;	
+*);;
+*);;
+water_green_diameter_of_Minsk=>nrel_whole_part:Svisloch_river;
+				Pobedy_park;
+				Gorky_park;
+				40th_anniversary_of_October_park;
+				Yanka_Kupala_park;
+				Starostinskaya_sloboda;;
+
+40th_anniversary_of_October_park<-concept_park;
+=>nrel_osm_query:[relation(10750311);];
+=>nrel_main_idtf:
+	[парк 40-летия Октября] (* <-lang_ru;; *);
+	[40th anniversary of October park] (* <-lang_en;; *);;
+
+Yanka_Kupala_park<-concept_park;
+=>nrel_osm_query:[way(102188799);];
+=>nrel_main_idtf:
+	[парк Янки Купалы] (* <-lang_ru;; *);
+	[Yanka Kupala Park] (* <-lang_en;; *);;
+
+Starostinskaya_sloboda<=concept_public_garden;
+=>nrel_osm_query:[way(99877375);];
+=>nrel_main_idtf:
+	[сквер Старостинская слобода] (* <-lang_ru;; *);
+	[Starostinskaya sloboda] (* <-lang_en;; *);;

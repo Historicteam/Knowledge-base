@@ -1,0 +1,32 @@
+concept_coast
+<-sc_const;
+<-concept_nature_object;;
+concept_island => nrel_main_idtf: [берег](*<- lang_ru;;*);;
+concept_island => nrel_main_idtf: [coast](*<- lang_en;;*);;
+
+
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_coast;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Бе́рег — узкая полоса взаимодействия между сушей и водоёмом или между сушей и водотоком. ](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [Coast - a narrow band of interaction between land and a reservoir or between land and a watercourse. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "берег"](*<- lang_ru;;*);
+			[Definition of the coast concept] (* <-lang_en;; *);;
+    *);;
+
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_coast;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Основным фактором, влияющим на формирование берега, является волновой, а также производные от него прибойный поток и волновые течения.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Факторы формирования берега](*<- lang_ru;;*);;
+*);;
