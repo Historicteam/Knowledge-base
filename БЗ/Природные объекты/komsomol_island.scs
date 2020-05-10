@@ -1,4 +1,13 @@
 komsomol_island<-concept_island;
+=> nrel_main_idtf:
+	[остров комсомольцев]
+	(*
+	<- lang_ru;;
+	*);
+	[komsomol island]
+	(*
+	<- lang_en;;
+	*);
 =>nrel_osm_query:[way(43705424);];
 => nrel_geographical_location: ...
 	(*
@@ -25,18 +34,10 @@ komsomol_island<-concept_island;
 			*);;
 		*);;
 	*);;
-komsomol_island=> nrel_main_idtf:
-	[остров птиц]
-	(*
-	<- lang_ru;;
-	*);
-	[birds island]
-	(*
-	<- lang_en;;
-	*);
-	<=nrel_whole_part:Svisloch_river;
-	<=nrel_whole_part:Pobedy_park;
-	<- rrel_key_sc_element: ...
+komsomol_island
+<=nrel_plot_of_land:Svisloch_river;
+<=nrel_whole_part:Pobedy_park;
+<- rrel_key_sc_element: ...
 	(*
 	<=nrel_sc_text_translation:
 		...

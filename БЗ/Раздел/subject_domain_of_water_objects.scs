@@ -16,6 +16,7 @@ subject_domain_of_water_objects
 	concept_waterflow;
 -> rrel_explored_relation:
 	nrel_plot_of_land;
-	nrel_water_barrier;;
+	nrel_water_barrier;
+	nrel_inflow;;
 
 

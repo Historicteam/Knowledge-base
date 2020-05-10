@@ -17,5 +17,8 @@ subject_domain_of_nature_objects
 	concept_island;
 	concept_complex_nature_object;
 	concept_coast;
+	concept_water_object;
 -> rrel_explored_relation:
-	nrel_plot_of_land;;
+	nrel_plot_of_land;
+	nrel_coastline;
+	nrel_coastline;;

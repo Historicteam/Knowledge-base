@@ -6,7 +6,7 @@ nrel_coastal_object<-sc_node_norole_relation;
 	[coastal object*]	
 	(* <- lang_en;; *);
 <- relation;
-<-asymmetric_relation;
+<-antisymmetric_relation;
 <-antireflexive_relation;
 <- binary_relation;
 <- oriented_relation;

@@ -6,7 +6,7 @@ nrel_water_barrier<-sc_node_norole_relation;
 	[water barrier*]	
 	(* <- lang_en;; *);
 <- relation;
-<-asymmetric_relation;
+<-antisymmetric_relation;
 <-antireflexive_relation;
 <- binary_relation;
 <- oriented_relation;

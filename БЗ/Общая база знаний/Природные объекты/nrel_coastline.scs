@@ -6,7 +6,7 @@ nrel_coastline<-sc_node_norole_relation;
 	[coastline*]	
 	(* <- lang_en;; *);
 <- relation;
-<-asymmetric_relation;
+<-antisymmetric_relation;
 <-antireflexive_relation;
 <- binary_relation;
 <- oriented_relation;

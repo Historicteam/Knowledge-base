@@ -1,5 +1,5 @@
 thears_island<-concept_island;
-<=nrel_whole_part:Svisloch_river;
+<=nrel_plot_of_land:Svisloch_river;
 =>nrel_osm_query:[way(99881325);];
 => nrel_geographical_location: ...
 	(*

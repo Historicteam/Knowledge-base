@@ -1,8 +1,9 @@
 concept_coast
 <-sc_const;
+<-sc_node_not_relation;
 <-concept_nature_object;;
-concept_island => nrel_main_idtf: [берег](*<- lang_ru;;*);;
-concept_island => nrel_main_idtf: [coast](*<- lang_en;;*);;
+concept_coast => nrel_main_idtf: [берег](*<- lang_ru;;*);;
+concept_coast => nrel_main_idtf: [coast](*<- lang_en;;*);;
 
 
 sc_definition -> ...

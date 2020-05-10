@@ -14,21 +14,21 @@ concept_pond
 
 <- rrel_key_sc_element: ...
 (*
-<-sc_definition;;
-<=nrel_sc_text_translation: ...
+	<-sc_definition;;
+	<=nrel_sc_text_translation: ...
   (*
--> rrel_example:
-[ Водоём — постоянное или временное скопление стоячей или со сниженным стоком воды в естественных или искусственных впадинах. В широком смысле, также — обозначение морей и океанов.]
-      (*
-<- lang_ru;;
-      *);;
-  *);
+	-> rrel_example:
+	[ Водоём — постоянное или временное скопление стоячей или со сниженным стоком воды в естественных или искусственных впадинах. В широком смысле, также — обозначение морей и океанов.]
+	(*<- lang_ru;;*);;
+  *);;
+*);
 ...
 (*
--> rrel_example:
-[ A permanent or temporary accumulation of stagnant or with reduced runoff in natural or artificial cavities.]
-      (*
-<- lang_en;;
-      *);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation: ...
+  (*
+	-> rrel_example:
+	[ A permanent or temporary accumulation of stagnant or with reduced runoff in natural or artificial cavities.]
+	(*<- lang_en;;*);;
   *);;
 *);;

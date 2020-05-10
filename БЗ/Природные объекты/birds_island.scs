@@ -34,7 +34,7 @@ birds_island=> nrel_main_idtf:
 	(*
 	<- lang_en;;
 	*);
-	<=nrel_whole_part:Svisloch_river;
+	<=nrel_plot_of_land:Svisloch_river;
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
