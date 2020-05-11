@@ -32,5 +32,37 @@ Vaclau_Justynavich_Lastouski
       *);;
   *);
 <-concept_belarus_national_movement_person;
-<-begin_date_08_11_1883;
-<-completion_date_23_01_1938;;
+<=nrel_employee:organization_Nasha_Niva;
+<-rrel_member:organization_belarusian_socialist_hramada;
+<-nrel_date_of_birth:08_11_1883;
+<-nrel_date_of_death:23_01_1938;;
+
+08_11_1883
+=> nrel_main_idtf:
+	[8 октября 1883]
+	(*
+	<- lang_ru;;
+	*);
+	[october 8 1883]
+	(*
+	<- lang_en;;
+	*);
+	[8 кастрычніка 1883]
+	(*
+	<- lang_by;;
+	*);;
+
+23_01_1938
+=> nrel_main_idtf:
+	[23 января 1938]
+	(*
+	<- lang_ru;;
+	*);
+	[january 23 1938]
+	(*
+	<- lang_en;;
+	*);
+	[23 студзеня 1938]
+	(*
+	<- lang_by;;
+	*);;

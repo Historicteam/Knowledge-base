@@ -19,7 +19,6 @@ Branislaw_Adamavich_Tarashkyevich
 	*);	
 
 <-concept_male;
-<-concept_person;
 <-concept_belarus_national_movement_person;
 <- rrel_key_sc_element: ...
   (*
@@ -39,7 +38,7 @@ Branislaw_Adamavich_Tarashkyevich
 <=nrel_repression:...
 (*
   <-sc_identifier_tuple_set;;
-  ->rrel_date_of_repression:date_06__05_1937;;
+  ->rrel_date_of_repression:06_05_1937;;
   ->rrel_organization_of_repression:nkvd_ussr;;
 *);
 
@@ -49,7 +48,7 @@ Branislaw_Adamavich_Tarashkyevich
 <=nrel_execution_by_shooting:...
 (*
   <-sc_identifier_tuple_set;;
-  ->rrel_date_of_repression:date_06__05_1937;;
+  ->rrel_date_of_repression:29_11_1938;;
   ->rrel_execution_by_organization:nkvd_ussr;;
 *);;
 
@@ -103,7 +102,19 @@ Belarussian_grammar<-concept_belarusian_grammar;
 	[Тарашкевіца]
 	(*
 	<- lang_by;;
-	*);;
+	*);
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/tar_book.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);;
 
 20_01_1892
 => nrel_main_idtf:
@@ -131,6 +142,21 @@ Belarussian_grammar<-concept_belarusian_grammar;
 	<- lang_en;;
 	*);
 	[22 кастрычніка 1938]
+	(*
+	<- lang_by;;
+	*);;
+
+06_05_1937
+=> nrel_main_idtf:
+	[6 мая 1937]
+	(*
+	<- lang_ru;;
+	*);
+	[may 6 1937]
+	(*
+	<- lang_en;;
+	*);
+	[22 мая 1937]
 	(*
 	<- lang_by;;
 	*);;

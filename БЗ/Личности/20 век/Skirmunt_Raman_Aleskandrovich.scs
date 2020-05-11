@@ -31,6 +31,38 @@ Skirmunt_Raman_Aleksandrovich
         *);;
       *);;
   *);
+<-rrel_member:organization_Council_of_Belarusian_People_s_Republic;
+<=nrel_execution_by_shooting:nkvd_bssr; 
 <-concept_belarus_national_movement_person;
-<-begin_date_25_03_1868;
-<-completion_date_7_01_1939;;
+<-nrel_date_of_birth:25_03_1868;
+<-nrel_date_of_death:7_01_1939;;
+
+25_03_1868
+=> nrel_main_idtf:
+	[25 марта 1868]
+	(*
+	<- lang_ru;;
+	*);
+	[march 25 1868]
+	(*
+	<- lang_en;;
+	*);
+	[25 сакавіка 1868]
+	(*
+	<- lang_by;;
+	*);;
+
+7_01_1939
+=> nrel_main_idtf:
+	[7 января 1939]
+	(*
+	<- lang_ru;;
+	*);
+	[january 7 1939]
+	(*
+	<- lang_en;;
+	*);
+	[7 студзеня 1937]
+	(*
+	<- lang_by;;
+	*);;

@@ -40,15 +40,15 @@ polish_bolshevik_war
 
 begin_date_28_01_1919
 => nrel_main_idtf:
-	[28 января 1919 года]
+	[дата начала 28 января 1919 года]
 	(*
 	<- lang_ru;;
 	*);
-	[january 28 1919]
+	[begin date january 28 1919]
 	(*
 	<- lang_en;;
 	*);
-	[28 студзеня 1892]
+	[дата пачатку 28 студзеня 1892]
 	(*
 	<- lang_by;;
 	*);;
