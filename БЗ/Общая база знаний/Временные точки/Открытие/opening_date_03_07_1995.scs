@@ -1,0 +1,22 @@
+opening_date_03_07_1995
+=> nrel_main_idtf:
+   [Дата открытия - 03 июля 1995]
+   (*
+   <- lang_ru;;
+   *);
+   [Opening Date - July 03, 1995]
+   (*
+   <- lang_en;;
+   *);
+   [Дата адкрыцця - 03 лiпеня 1995]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [03];;
+   <- number_of_month_in_year: [07];;
+   <- number_of_year: [1995];;
+   *);;

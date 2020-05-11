@@ -1,0 +1,50 @@
+concept_taxi
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[такси](*<- lang_ru;;*);
+	[taxi](*<- lang_en;;*);
+	[таксі](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Пассажирский транспорт, обычно автомобиль, используемый для перевозки пассажиров в любую указанную точку с оплатой проезда машины по счётчику — таксометру.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Passenger transport, usually a car used to transport passengers to any specified point with payment for the passage of the car at the meter - taximeter.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Пасажырскі транспарт, звычайна аўтамабіль, які выкарыстоўваецца для перавозкі пасажыраў у любую паказаную кропку з аплатай праезду машыны па лічыльніку - таксометру.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/taxi.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

@@ -1,0 +1,38 @@
+concept_water_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[водный транспорт](*<- lang_ru;;*);
+	[water transport](*<- lang_en;;*);
+	[водны транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Вид транспортa, перевозящего грузы и/или пассажиров по водным путям сообщения, как естественным (океаны, моря, реки, озера), так и искусственным (каналы, водохранилища).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A type of transport transporting goods and / or passengers on waterways, both natural (oceans, seas, rivers, lakes), and artificial (canals, reservoirs).]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Выгляд транспортa, якія перавозяць грузы і / або пасажыраў па водных шляхах паведамленні, як натуральным (акіяны, моры, рэкі, азёры), так і штучным (каналы, вадасховішча).]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

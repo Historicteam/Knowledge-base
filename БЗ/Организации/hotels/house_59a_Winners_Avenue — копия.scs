@@ -1,0 +1,16 @@
+house_59a_Winners_Avenue
+=>nrel_main_idtf:
+	[Проспект Победителей 59a]
+		(*
+		<- lang_ru;;
+		*);
+		[Winners_Avenue, 59a]
+		(*
+		<- lang_en;;
+		*);
+		[Праспект пераможцаў 59a]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:Winners_Avenue;
+<-concept_building;;

@@ -1,0 +1,68 @@
+Skirmunt_Raman_Aleksandrovich
+=> nrel_main_idtf:
+	[Скирмунт Роман Александрович]
+	(*
+	<- lang_ru;;
+	*);
+	[Skirmunt Raman Aleksandrovich]
+	(*
+	<- lang_en;;
+	*);
+	[Раман Аляксандравіч Скірмунт]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf: 
+	[Раман Скірмунт]
+	(*
+	<- lang_by;;
+	*);	
+
+<-concept_male;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/Skirmunt.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+<-rrel_member:organization_Council_of_Belarusian_People_s_Republic;
+<=nrel_execution_by_shooting:nkvd_bssr; 
+<-concept_belarus_national_movement_person;
+<-nrel_date_of_birth:25_03_1868;
+<-nrel_date_of_death:7_01_1939;;
+
+25_03_1868
+=> nrel_main_idtf:
+	[25 марта 1868]
+	(*
+	<- lang_ru;;
+	*);
+	[march 25 1868]
+	(*
+	<- lang_en;;
+	*);
+	[25 сакавіка 1868]
+	(*
+	<- lang_by;;
+	*);;
+
+7_01_1939
+=> nrel_main_idtf:
+	[7 января 1939]
+	(*
+	<- lang_ru;;
+	*);
+	[january 7 1939]
+	(*
+	<- lang_en;;
+	*);
+	[7 студзеня 1937]
+	(*
+	<- lang_by;;
+	*);;

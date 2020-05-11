@@ -1,0 +1,69 @@
+polish_bolshevik_war
+<-concept_war;
+=> nrel_main_idtf:
+	[Польско-большевистская война]
+	(*
+	<- lang_ru;;
+	*);
+	[Polish-bolshevik War]
+	(*
+	<- lang_en;;
+	*);
+	[Польска-бальшавіцкая вайна]
+	(*
+	<- lang_by;;
+	*);
+<-begin_date_28_01_1919;
+<-completion_date_18_03_1921;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/Battle_of_Niemen.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+
+->rrel_participant:state_belarusian_people_s_republic;
+->rrel_participant:state_rsfsr;
+->rrel_participant:state_ussr;
+->rrel_participant:state_ssrb;
+->rrel_participant:state_lbssr;
+->rrel_participant:state_second_polish_republic;
+
+=>nrel_result:Peace_of_Riga;;
+
+
+begin_date_28_01_1919
+=> nrel_main_idtf:
+	[дата начала 28 января 1919 года]
+	(*
+	<- lang_ru;;
+	*);
+	[begin date january 28 1919]
+	(*
+	<- lang_en;;
+	*);
+	[дата пачатку 28 студзеня 1892]
+	(*
+	<- lang_by;;
+	*);;
+
+completion_date_18_03_1921
+=> nrel_main_idtf:
+	[дата окончания 18 марта 1921]
+	(*
+	<- lang_ru;;
+	*);
+	[march 22 1938]
+	(*
+	<- lang_en;;
+	*);
+	[22 сакавік 1938]
+	(*
+	<- lang_by;;
+	*);;

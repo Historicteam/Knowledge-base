@@ -1,0 +1,6 @@
+state_ussr
+=> nrel_main_idtf:
+  [Союз Советских Социалистических Республик] (* <- lang_ru;; *);
+  [Union of Soviet Socialist Republics] (* <- lang_en;; *);
+  [Саюз Савецкіх Сацыялістычных Рэспублік] (* <- lang_by;; *);
+<-concept_socialist_state;;

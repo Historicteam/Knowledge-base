@@ -1,0 +1,88 @@
+nrel_repression
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[репрессия*]
+	(*
+	<- lang_ru;;
+	*);
+	[repression*]
+	(*
+	<- lang_en;;
+	*);
+	[рэпрэсія*]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Репрессия — карательные меры, применяемые государственными органами с целью защиты и сохранения существующего строя.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Рэпрэсія — карныя меры, што ўжываюцца дзяржаўнымі органамі дзеля абароны і захавання існага ладу.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;
+
+rrel_place_of_repression<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[место репрессии']
+	(*
+	<- lang_ru;;
+	*);
+	[place of repression']
+	(*
+	<- lang_en;;
+	*);
+	[месца рэпрэсіі']
+	(*
+	<- lang_by;;
+	*);;
+
+
+rrel_date_of_repression<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[дата репрессии']
+	(*
+	<- lang_ru;;
+	*);
+	[date of repression']
+	(*
+	<- lang_en;;
+	*);
+	[дата рэпрэсіі']
+	(*
+	<- lang_by;;
+	*);;
+
+
+rrel_organization_of_repression<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[орган репресии']
+	(*
+	<- lang_ru;;
+	*);
+	[оgraniation of repression']
+	(*
+	<- lang_en;;
+	*);
+	[орган рэпрэсіі']
+	(*
+	<- lang_by;;
+	*);;

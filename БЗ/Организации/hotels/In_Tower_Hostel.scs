@@ -1,0 +1,51 @@
+In_Tower_Hostel
+=>nrel_main_idtf:
+	[In Tower Hostel](* <-lang_en;;*);
+	[Хостел в башне](* <-lang_ru;;*); 
+	[Хостел у вежы](* <-lang_ru;;*); 
+
+<-concept_hotel;
+<-concept_three_stars_hotel;
+
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://in_tower.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
+=>nrel_location:house_1_Kirova_street;
+
+=> nrel_osm_query: [way(35996179);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.892060, 27.551006]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.892060;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.551006;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

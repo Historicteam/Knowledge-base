@@ -1,0 +1,16 @@
+house_1_Kirova_street
+=>nrel_main_idtf:
+	[Улица Кирова 1]
+		(*
+		<- lang_ru;;
+		*);
+		[Kirova street, 1]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца Кiрава 1]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:Kirova_Street;
+<-concept_building;;

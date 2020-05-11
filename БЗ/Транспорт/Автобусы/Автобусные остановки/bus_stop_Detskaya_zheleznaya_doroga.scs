@@ -1,0 +1,31 @@
+bus_stop_Detskaya_zheleznaya_doroga
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Детская железная дорога](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Дзіцячая чыгунка](*<- lang_by;;*);
+=> nrel_osm_query: [node(767183987);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.925718, 27.618848]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.925718;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.618848;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

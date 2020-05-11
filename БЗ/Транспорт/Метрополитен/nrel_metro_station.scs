@@ -1,0 +1,44 @@
+nrel_metro_station
+
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[станция метрополитена*]
+	(*
+	<- lang_ru;;
+	*);
+	[metro station*]
+	(*
+	<- lang_en;;
+	*);
+	[станцыя метрапалiтэна*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_metro;
+=> nrel_second_domain:
+	concept_metro_station;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[*Станция метрополитена - бинарное отношение, связывающее метро и станцию метрополитена.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[*Станцыя метрапалiтэна - бінарная адносіна, якая звязвае метро i станцыю метрапалiтэна.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

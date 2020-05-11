@@ -1,0 +1,31 @@
+bus_stop_Old_airport_disembarkation
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Старый аэропорт высадка пассажиров](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Стары аэрапорт высадка пасажыраў](*<- lang_by;;*);
+=> nrel_osm_query: [node(6313167279);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.872626, 27.535787]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.872626;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.535787;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,6 @@
+state_central_lithuania
+=> nrel_main_idtf:
+  [Срединная Литва] (* <- lang_ru;; *);
+  [Republic of Central Lithuania] (* <- lang_en;; *);
+  [Сярэдняя Літва] (* <- lang_by;; *);
+<-concept_state;;

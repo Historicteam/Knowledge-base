@@ -1,0 +1,8 @@
+nrel_territory<-sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+  [территория*] (* <- lang_ru;; *);
+  [territory*] (* <- lang_en;; *);
+  [тэрыторыя*] (* <- lang_by;; *);;

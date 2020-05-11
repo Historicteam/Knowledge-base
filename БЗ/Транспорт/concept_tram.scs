@@ -1,0 +1,50 @@
+concept_tram
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[трамвай](*<- lang_ru;;*);
+	[tram](*<- lang_en;;*);
+	[трамвай](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[На­зем­ная электрическая же­лез­ная до­ро­га, вид уличного и частично уличного общественного транспорта для перевозки пассажиров по заданным маршрутам, используемый преимущественно в городах.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Terrestrial electric railway, a type of street and partially street public transport for transporting passengers on given routes, used mainly in cities.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Наземная электрычная чыгунка, выгляд вулічнага і часткова вулічнага грамадскага транспарту для перавозкі пасажыраў па зададзеных маршрутах, які выкарыстоўваецца пераважна ў гарадах.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/tram.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

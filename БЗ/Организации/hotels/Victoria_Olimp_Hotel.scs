@@ -1,0 +1,51 @@
+Victoria_Olimp_Hotel
+=>nrel_main_idtf:
+	[Victoria Olimp Hotel](* <-lang_en;;*);
+	[Отель Виктория Олимп](* <-lang_ru;;*); 
+	[Гатэль Вікторыя Алімп](* <-lang_ru;;*); 
+
+<-concept_hotel;
+<-concept_four_stars_hotel;
+
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://olimp.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
+=>nrel_location:house_103_Winners_Avenue;
+
+=> nrel_osm_query: [way(264313960);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.935161, 27.494691]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.935161;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.494691;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

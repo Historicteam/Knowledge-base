@@ -1,0 +1,51 @@
+Prime_Apartments
+=>nrel_main_idtf:
+	[Prime Apartments](* <-lang_en;;*);
+	[Лучшие апартаменты](* <-lang_ru;;*); 
+	[Прэм'ер-кватэры](* <-lang_ru;;*); 
+
+<-concept_hotel;
+<-concept_three_stars_hotel;
+
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://prime_apart.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
+=>nrel_location:house_13_International_street;
+
+=> nrel_osm_query: [way(35995625);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.902103, 27.554680]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.902103;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.554680;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

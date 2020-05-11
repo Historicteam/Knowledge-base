@@ -1,0 +1,50 @@
+concept_plane
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[самолет](*<- lang_ru;;*);
+	[plane](*<- lang_en;;*);
+	[самалёт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Воздушное судно тяжелее воздуха, предназначенное для полётов в атмосфере с помощью силовой установки, создающей тягу, и неподвижного относительно других частей аппарата крыла, создающего подъёмную силу.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The aircraft is heavier than air, designed for flying in the atmosphere with the help of a propulsion system that creates thrust, and motionless relative to other parts of the wing apparatus that creates lift.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Паветранае судна цяжэй паветра, прызначанае для палётаў у атмасферы з дапамогай сілавой ўстаноўкі, якая стварае цягу, і нерухомага адносна іншых частак апарата крыла, які стварае пад'ёмную сілу.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/plane.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

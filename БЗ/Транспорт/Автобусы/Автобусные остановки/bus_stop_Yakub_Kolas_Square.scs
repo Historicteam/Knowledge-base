@@ -1,0 +1,31 @@
+bus_stop_Yakub_Kolas_Square
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Площадь Якуба Коласа](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Плошча Якуба Коласа](*<- lang_by;;*);
+=> nrel_osm_query: [node(277477191);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.915602, 27.583247]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.915602;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.583247;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,15 @@
+polugon_kommunarka<-concept_memorial_complex;
+<-concept_cemetry;
+=> nrel_main_idtf:
+	[Расстрельный полигон Коммунарка]
+	(*
+	<- lang_ru;;
+	*);
+	[Kommunarka shooting ground]
+	(*
+	<- lang_en;;
+	*);
+	[Расстрэльны палігон Камунарка]
+	(*
+	<- lang_by;;
+	*);;

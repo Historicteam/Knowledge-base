@@ -1,0 +1,38 @@
+concept_pipeline_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[трубопроводный транспорт](*<- lang_ru;;*);
+	[pipeline transport](*<- lang_en;;*);
+	[трубаправодны транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Транспортировка по трубам сырья (жидкостей или газов) и продуктов (любых химически стабильных веществ, которые возможно перемещать по трубопроводам).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Transportation through pipes of raw materials (liquids or gases) and products (any chemically stable substances that can be transported through pipelines).]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Транспарціроўка па трубах сыравіны (вадкасцей або газаў) і прадуктаў (любых хімічна стабільных рэчываў, якія магчыма перамяшчаць па трубаправодах).]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

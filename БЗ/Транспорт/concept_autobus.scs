@@ -1,0 +1,50 @@
+concept_autobus
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[автобус](*<- lang_ru;;*);
+	[autobus](*<- lang_en;;*);
+	[аўтобус](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Безрельсовое механическое моторное транспортное средство, технически предназначенное для перевозки девяти и более пассажиров и способное маневрировать на дороге, приводимое в движение источником энергии, запасённым или производимым из топлива, хранящегося на борту.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A trackless mechanical motor vehicle technically designed to carry nine or more passengers and capable of maneuvering on the road, driven by an energy source stored or produced from fuel stored on board.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Бязрэйкавы механічны маторны транспартны сродак, тэхнічна прызначаны для перавозкі дзевяці і больш пасажыраў і здольнае манеўраваць на дарозе, прыводнае ў рух крыніцай энергіі, запасённай або вырабляемай з паліва, якое захоўваецца на борце.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/autobus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

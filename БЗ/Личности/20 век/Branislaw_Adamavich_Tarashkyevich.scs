@@ -1,0 +1,162 @@
+Branislaw_Adamavich_Tarashkyevich
+=> nrel_main_idtf:
+	[Тарашкевич Бронислав Адамович]
+	(*
+	<- lang_ru;;
+	*);
+	[Branislaw Adamavich Tarashkyevich]
+	(*
+	<- lang_en;;
+	*);
+	[Браніслаў Адамавіч Тарашкевіч]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_idtf: 
+	[Браніслаў Тарашкевіч]
+	(*
+	<- lang_by;;
+	*);	
+
+<-concept_male;
+<-concept_belarus_national_movement_person;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/Tarashkevich.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);
+<-rrel_academician:The_National_Academy_of_Sciences_of_the_BSSR;
+<-nrel_date_of_birth:20_01_1892;
+<-nrel_date_of_death:29_11_1938;
+<=nrel_repression:...
+(*
+  <-sc_identifier_tuple_set;;
+  ->rrel_date_of_repression:06_05_1937;;
+  ->rrel_organization_of_repression:nkvd_ussr;;
+*);
+
+<-rrel_member:organization_belarusian_socialist_hramada;
+=>nrel_author:Belarussian_grammar;
+<-rrel_member_of_department_of_education:state_lbssr;
+<=nrel_execution_by_shooting:...
+(*
+  <-sc_identifier_tuple_set;;
+  ->rrel_date_of_repression:29_11_1938;;
+  ->rrel_execution_by_organization:nkvd_ussr;;
+*);;
+
+
+rrel_member_of_department_of_education<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[участник министерства образования]
+	(*
+	<- lang_ru;;
+	*);
+	[member of department of education]
+	(*
+	<- lang_en;;
+	*);
+	[удзельнік мінэстэрства адукацыі]
+	(*
+	<- lang_by;;
+	*);;
+
+concept_belarusian_grammar<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[белорусская грамматика]
+	(*
+	<- lang_ru;;
+	*);
+	[belarusian grammar]
+	(*
+	<- lang_en;;
+	*);
+	[беларуская граматыка]
+	(*
+	<- lang_by;;
+	*);;
+
+
+Belarussian_grammar<-concept_belarusian_grammar;
+=> nrel_main_idtf:
+	[Белорусская грамматика]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian grammar]
+	(*
+	<- lang_en;;
+	*);
+	[Беларуская граматыка]
+	(*
+	<- lang_by;;
+	*);
+  => nrel_idtf: 
+	[Тарашкевіца]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/tar_book.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);;
+
+20_01_1892
+=> nrel_main_idtf:
+	[22 января 1892 года]
+	(*
+	<- lang_ru;;
+	*);
+	[january 22 1892]
+	(*
+	<- lang_en;;
+	*);
+	[22 студзеня 1892]
+	(*
+	<- lang_by;;
+	*);;
+
+29_11_1938
+=> nrel_main_idtf:
+	[22 ноября 1938]
+	(*
+	<- lang_ru;;
+	*);
+	[november 22 1938]
+	(*
+	<- lang_en;;
+	*);
+	[22 кастрычніка 1938]
+	(*
+	<- lang_by;;
+	*);;
+
+06_05_1937
+=> nrel_main_idtf:
+	[6 мая 1937]
+	(*
+	<- lang_ru;;
+	*);
+	[may 6 1937]
+	(*
+	<- lang_en;;
+	*);
+	[22 мая 1937]
+	(*
+	<- lang_by;;
+	*);;

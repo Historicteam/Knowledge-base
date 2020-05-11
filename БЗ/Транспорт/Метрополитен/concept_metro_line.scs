@@ -1,0 +1,39 @@
+concept_metro_line
+<-sc_const;
+<-concept_metro;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[линия метрополитена](*<- lang_ru;;*);
+	[metro line](*<- lang_en;;*);
+	[лiнiя метрапалiтэна](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Автономная часть метрополитена со станциями, перегонами и тупиками, предназначенная для движения поездов по одному маршруту.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The autonomous part of the subway with stations, stages and dead ends, designed for the movement of trains along the same route.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Аўтаномная частка метрапалітэна са станцыямі, перагонамі і тупікамі, прызначаная для руху цягнікоў па адным маршруце.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

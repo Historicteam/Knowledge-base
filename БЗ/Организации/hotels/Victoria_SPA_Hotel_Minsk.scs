@@ -1,0 +1,51 @@
+Victoria_SPA_Hotel_Minsk
+=>nrel_main_idtf:
+	[Victoria&SPA Hotel Minsk](* <-lang_en;;*);
+	[Отель Виктория СПА](* <-lang_ru;;*); 
+	[Гатэль Вікторыя СПА](* <-lang_ru;;*); 
+
+<-concept_hotel;
+<-concept_four_stars_hotel;
+
+<- rrel_key_sc_element: ... 
+(* 
+<-sc_illustration;; 
+<-key_image;; 
+<=nrel_sc_text_translation: 
+... 
+(* 
+->rrel_example: "file://spa.jpg" 
+(* 
+=> nrel_format: format_jpg;; 
+*);; 
+*);; 
+*);
+
+=>nrel_location:house_59a_Winners_Avenue;
+
+=> nrel_osm_query: [way(290579115);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.922798, 27.525261]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.922798;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.525261;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

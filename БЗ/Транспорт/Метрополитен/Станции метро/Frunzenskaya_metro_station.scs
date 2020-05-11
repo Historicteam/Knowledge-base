@@ -1,0 +1,85 @@
+Frunzenskaya_metro_station
+<- concept_metro_station;
+<- Autozavodskaya_metro_line;
+=> nrel_main_idtf:
+	[Станция метро Фрунзенская](*<- lang_ru;;*);
+	[Frunzenskaya metro station](*<- lang_en;;*);
+	[Станцыя метро Фрунзенская](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Cтанция Автозаводской линии Минского метрополитена. Расположена между станциями «Молодёжная» и «Немига».]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Station of the Avtozavodskaya line of the Minsk metro. It is 
+Located between the Maladzyozhnaya and Nyamiha stations.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Cтанция Аўтазаводскай лініі Мінскага метрапалітэна. Размешчана паміж станцыямі «Маладзёжная» і «Няміга».]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- opening_date_31_12_1990;
+<- rrel_key_sc_element: Frunzenskaya_station_hall (*
+	=> nrel_main_idtf:
+		[Зал станции Фрунзенская] (* <- lang_ru;; *);
+		[Frunzenskaya station hall] (* <- lang_en;; *);
+		[Зала станцыі Фрунзенская] (* <- lang_by;; *);;
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Frunzenskaya.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=> nrel_osm_query: [node(278394361);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.905349, 27.539319]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.905349;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.539319;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+=>nrel_working_hours: Mon_Sun_05_30_01_00;
+=>nrel_neighboring_metro_station:
+	Maladzyozhnaya_metro_station;
+	Nyamiha_metro_station;;

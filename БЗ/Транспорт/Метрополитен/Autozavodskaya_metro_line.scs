@@ -1,0 +1,40 @@
+Autozavodskaya_metro_line
+<- concept_metro_line;
+<- Minsk_Metro;
+=> nrel_main_idtf:
+	[Автозаводская линия Минского метрополитена](*<- lang_ru;;*);
+	[Avtozavodskaya line of the Minsk Metro](*<- lang_en;;*);
+	[Аўтазаводская лінія Мінскага метрапалітэна](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Вторая линия Минского метрополитена длиной 18,1 км,пересекает Минск с юго-востока на запад. Время следования электропоезда от начальной станции до конечной 27 минут.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The second line of the Minsk Metro is 18.1 km long, crosses Minsk from the southeast to the west. The duration of the train from the initial station to the final 27 minutes.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Другая лінія Мінскага метрапалітэна даўжынёй 18,1 км, перасякае Мінск з паўночна-усходу на захад. Час руху электрацягніка ад пачатковай станцыі да канчатковай 27 хвілін.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- opening_date_31_12_1990;
+=> nrel_number_of_stations: [14];;
