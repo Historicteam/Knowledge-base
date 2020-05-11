@@ -7,6 +7,10 @@ concept_multifunctional_water_object
 (*
 <- lang_ru;;
 *);
+[шматфункцыянальны водны аб'ект]
+(*
+<- lang_by;;
+*);
 [multifunctional water object]
 (*
 <- lang_en;;
@@ -23,6 +27,14 @@ concept_multifunctional_water_object
 <- lang_ru;;
       *);;
   *);
+...
+(*
+-> rrel_example:
+[ Водныя аб'екты які мае больш аднаго спосабу выкарыстання.]
+      (*
+<- lang_by;;
+      *);;
+*);
 ...
 (*
 -> rrel_example:

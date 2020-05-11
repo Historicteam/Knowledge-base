@@ -3,6 +3,8 @@ concept_reservoir<-sc_node_not_relation;
 	=> nrel_main_idtf:
 	[водохранилище] 
 	(* <- lang_ru;; *);
+	[вадасховишча] 
+	(* <- lang_by;; *);
 	[reservoir]	
 	(* <- lang_en;; *);;
 sc_definition -> ...
@@ -13,10 +15,15 @@ sc_definition -> ...
             -> [Искусственный (рукотворный) водоём, образованный, как правило, в долине реки водоподпорными сооружениями для накопления и хранения воды в целях её использования в народном хозяйстве. ](*<- lang_ru;;*);;
         *);
 	...
+	(*
+            -> [Pукатворны вадаём, адукаваны, як правіла, у даліне ракі водоподпорными будынкамі для назапашвання і захоўвання вады ў мэтах яе выкарыстання ў народнай гаспадарцы. ](*<- lang_ru;;*);;
+        *);
+	...
         (*
             -> [A reservoir is, most commonly, an enlarged natural or artificial lake, pond or impoundment created using a dam or lock to store water. ](*<- lang_en;;*);;
         *);;
     => nrel_main_idtf: [Определение понятия "водохранилище"](*<- lang_ru;;*);
+			[Вызначэнне паняцця "вадасховишча"](*<- lang_by;;*);
 			[Definition of the reservoir concept](*<- lang_en;;*);;
     *);;
 
@@ -26,15 +33,26 @@ sc_statement -> ...
     <= nrel_sc_text_translation:...
         (*
             -> [Первые водохранилища были созданы в Древнем Египте с целью освоения земель в долине реки Нил (более 3000 лет до н. э.)](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Першыя вадасховішча былі створаны ў Старажытным Егіпце з мэтай асваення зямель у даліне ракі Ніл (больш за 3000 гадоў да н. Э.)](*<- lang_by;;*);;
+        *);
+	...
+	(*
+            -> [The first reservoirs were created in Ancient Egypt with the goal of developing land in the Nile River Valley (more than 3,000 years BC)](*<- lang_en;;*);;
         *);;
-    => nrel_main_idtf: [Исторический факт о водохранилищах](*<- lang_ru;;*);;
-
+    => nrel_main_idtf: [Исторический факт о водохранилищах](*<- lang_ru;;*);
+			[Гістарычны факт пра вадасховішчах](*<- lang_by;;*);
+			[Historical Facts About Reservoirs] (* <-lang_en;; *);;
 *);;
+
 concept_reservoir<=nrel_subdividing:
 	subdividing_of_reservoirs_in_accordance_with_kinds_of_location
 	(*
 	=>nrel_main_idtf:
 		[разбиение водохранилищ по месту положения] (* <-lang_ru;; *);
+		[разбіццё вадасховішчаў па месцы палажэнні] (* <-lang_by;; *);
 		[subdividing of reservoirs in accordance with kinds of location] (* <-lang_en;; *);;
 	->	concept_river_reservoir;
 		concept_lake_reservoir;;

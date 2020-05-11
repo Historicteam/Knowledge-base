@@ -6,6 +6,10 @@ concept_fishing_water_object<-sc_const;
 (*
 <- lang_ru;;
 *);
+[рыбалоўны водны аб'ект]
+(*
+<- lang_by;;
+*);
 [fishing water object]
 (*
 <- lang_en;;

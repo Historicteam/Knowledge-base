@@ -3,6 +3,8 @@ nrel_bordering_constructure<-sc_node_norole_relation;
 	=> nrel_main_idtf:
 	[окаймляющее сооружение*] 
 	(* <- lang_ru;; *);
+	[акаймляючае збудаванне*] 
+	(* <- lang_ru;; *);
 	[bordering constructure*]	
 	(* <- lang_en;; *);
 <- relation;
@@ -23,6 +25,11 @@ nrel_bordering_constructure<-sc_node_norole_relation;
 			[Сооружение, которое окаймляет (подчеркивает линию) какого-нибудь водоема.]
 			(* 
 			<- lang_ru;; 
+			*);;
+		-> rrel_example: 
+			[Збудаванне, якое аблямоўвае (падкрэслівае лінію) якога-небудзь вадаёма.]
+			(* 
+			<- lang_by;; 
 			*);;
 		-> rrel_example: 
 			[A constructure that borders (emphasizes the line) of a water object.]

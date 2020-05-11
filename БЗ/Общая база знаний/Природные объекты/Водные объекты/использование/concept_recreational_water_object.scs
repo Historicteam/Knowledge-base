@@ -3,9 +3,13 @@ concept_recreational_water_object
 <-sc_node_not_relation;
 
 => nrel_main_idtf:
-[рекреацилнный водный объект]
+[рекреационный водный объект]
 (*
 <- lang_ru;;
+*);
+[рэкрэацыйны водны аб'ект]
+(*
+<- lang_by;;
 *);
 [recreational water object]
 (*
@@ -23,6 +27,14 @@ concept_recreational_water_object
 <- lang_ru;;
       *);;
   *);
+...
+(*
+-> rrel_example:
+[ Дадзеныя водныя аб'екты выкарыстоўваюцца як рэсурсы спрыяюць аднаўленню і развіццю духоўных і фізічных сіл чалавека, яго працаздольнасці.]
+      (*
+<- lang_by;;
+      *);;
+*);
 ...
 (*
 -> rrel_example:

@@ -2,6 +2,8 @@ concept_river_reservoir<-sc_node_not_relation;
 	=> nrel_main_idtf:
 	[речное водохранилище] 
 	(* <- lang_ru;; *);
+	[рачное водасховішча] 
+	(* <- lang_by;; *);
 	[river reservoir]	
 	(* <- lang_en;; *);;
 concept_river_reservoir<=nrel_part_whole:concept_river;;
@@ -13,10 +15,15 @@ sc_definition -> ...
             -> [Тип водохранилища, которое устанавливают в русле реки.](*<- lang_ru;;*);;
         *);
 	...
+	(*
+            -> [Тып вадасховішча, якое усталёўваюць у рэчышчы ракі.](*<- lang_by;;*);;
+        *);
+	...
         (*
             -> [The type of reservoir that is installed in the riverbed.](*<- lang_en;;*);;
         *);;
     => nrel_main_idtf: [Определение понятия "речное водохранилище"](*<- lang_ru;;*);
+			[Вызначэнне паняцця "рачное водасховішча"](*<- lang_by;;*);
 			[Definition of the river reservoir concept](*<- lang_en;;*);;
     *);;
 sc_statement -> ...
@@ -25,6 +32,16 @@ sc_statement -> ...
     <= nrel_sc_text_translation:...
         (*
             -> [Водохранилища речного (руслового) вида имеют вытянутую форму, течения в них обычно стоковые; водная масса по своим характеристикам близка к речным водам.](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Вадасховішча рачнога (русловой) выгляду маюць выцягнутую форму, плыні ў іх звычайна стоковые; водная маса па сваіх характарыстыках блізкая да рачных водах.](*<- lang_by;;*);;
+        *);
+	...
+	(*
+            -> [Reservoirs of a river (channel) type have an elongated shape, the currents in them are usually stock; water mass in its characteristics is close to river waters.](*<- lang_en;;*);;
         *);;
-    => nrel_main_idtf: [Характеристика речного водохранилища](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Характеристика речного водохранилища](*<- lang_ru;;*);
+			[Характарыстыка рачнога вадасховішча](*<- lang_by;;*);
+			[Characteristics of the river reservoir] (* <-lang_en;; *);;
 *);;

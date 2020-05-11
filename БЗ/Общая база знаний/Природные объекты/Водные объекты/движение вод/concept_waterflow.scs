@@ -7,6 +7,10 @@ concept_waterflow
 (*
 <- lang_ru;;
 *);
+[вадацёк]
+(*
+<- lang_by;;
+*);
 [waterflow]
 (*
 <- lang_en;;
@@ -17,16 +21,24 @@ concept_waterflow
 <-sc_definition;;
 <=nrel_sc_text_translation: ...
   (*
--> rrel_example:
-[ Водото́к — обоб­щён­ное по­ня­тие вод­ных объ­ек­тов с по­сту­па­тель­ным дви­же­ни­ем во­ды в на­прав­ле­нии ук­ло­на в вы­тя­ну­том уг­луб­ле­нии зем­ной по­верх­но­сти.]
+  -> rrel_example:
+  [ Водото́к — обоб­щён­ное по­ня­тие вод­ных объ­ек­тов с по­сту­па­тель­ным дви­же­ни­ем во­ды в на­прав­ле­нии ук­ло­на в вы­тя­ну­том уг­луб­ле­нии зем­ной по­верх­но­сти.]
       (*
 <- lang_ru;;
       *);;
   *);
 ...
-(*
--> rrel_example:
-[ A generalized concept of water bodies with the forward movement of water in the direction of a slope in an elongated recess of the earth's surface. A watercourse is a permanent or temporary accumulation of standing or with a reduced flow of water in natural or artificial depressions.]
+  (*
+  -> rrel_example:
+  [ Вадацёк - абагульненае паняцце водных аб'ектаў з паступальным рухам вады ў кірунку ўхілу ў выцягнутым паглыбленні зямной паверхні.]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+  (*
+  -> rrel_example:
+  [ A generalized concept of water bodies with the forward movement of water in the direction of a slope in an elongated recess of the earth's surface. A watercourse is a permanent or temporary accumulation of standing or with a reduced flow of water in natural or artificial depressions.]
       (*
 <- lang_en;;
       *);;

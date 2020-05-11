@@ -3,6 +3,8 @@ concept_lake<-sc_node_not_relation;
 	=> nrel_main_idtf:
 	[озеро] 
 	(* <- lang_ru;; *);
+	[возера] 
+	(* <- lang_by;; *);
 	[lake]	
 	(* <- lang_en;; *);;
 sc_definition -> ...
@@ -14,11 +16,16 @@ sc_definition -> ...
         *);
 	...
 	(*
+            -> [Возера - кампанент гідрасферы, які ўяўляе сабой натуральна ўзнік вадаём, запоўнены ў межах азёрнай чары (азёрнага ложа) вадой і які не мае непасрэднага злучэння з морам, акіянам.](*<- lang_by;;*);;
+        *);
+	...
+	(*
             -> [A lake is an area filled with water, localized in a basin, surrounded by land, apart from any river or other outlet that serves to feed or drain the lake. Lakes lie on land and are not part of the ocean.](*<- lang_en;;*);;
         *);;
     => nrel_main_idtf: [Определение понятия "озеро"](*<- lang_ru;;*);
+			[Вызначэнне паняцця "возера"](*<- lang_by;;*);
 			[Definition of the lake concept] (* <-lang_en;; *);;
-    *);;
+*);;
 
 sc_statement -> ...
 (*
@@ -26,8 +33,18 @@ sc_statement -> ...
     <= nrel_sc_text_translation:...
         (*
             -> [ Хотя химический состав озёр остаётся относительно длительное время постоянным, в отличие от реки заполняющее его вещество обновляется значительно реже, а имеющиеся в нём течения не являются преобладающим фактором, определяющим его режим.](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Хоць хімічны склад азёр застаецца адносна доўгі час пастаянным, у адрозненне ад ракі якое запаўняе яго рэчыва абнаўляецца значна радзей, а наяўныя ў ім плыні не з'яўляюцца пераважным фактарам, вызначальным яго рэжым.](*<- lang_by;;*);;
+        *);
+	...
+	(*
+            -> [Although the chemical composition of the lakes remains constant for a relatively long time, in contrast to the river, the substance filling it is updated much less frequently, and the currents present in it are not the predominant factor determining its regime.](*<- lang_en;;*);;
         *);;
-    => nrel_main_idtf: [Факт об озерах](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Факт об озерах](*<- lang_ru;;*);
+			[Факт аб азёрах](*<- lang_by;;*);
+			[The fact of the lakes] (* <-lang_en;; *);;
 
 *);;
 

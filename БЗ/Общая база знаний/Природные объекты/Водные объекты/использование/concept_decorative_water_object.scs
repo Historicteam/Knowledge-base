@@ -6,6 +6,10 @@ concept_decorative_water_object<-sc_const;
 (*
 <- lang_ru;;
 *);
+[дэкаратыўны водны аб'ект]
+(*
+<- lang_by;;
+*);
 [decorative water object]
 (*
 <- lang_en;;
@@ -22,6 +26,14 @@ concept_decorative_water_object<-sc_const;
 <- lang_ru;;
       *);;
   *);
+...
+(*
+-> rrel_example:
+[ Дадзеныя водныя аб'екты маюць дэкаратыўны характар і эстэтычную каштоўнасць.]
+      (*
+<- lang_by;;
+      *);;
+*);
 ...
 (*
 -> rrel_example:
