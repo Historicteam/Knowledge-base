@@ -1,0 +1,64 @@
+memorial_pit
+<-concept_memorial_complex;
+<-concept_cemetry;
+=> nrel_main_idtf:
+	[Мемориал «Яма»]
+	(*
+	<- lang_ru;;
+	*);
+	[Memorial "Pit"]
+	(*
+	<- lang_en;;
+	*);
+	[Мемарыял "Яма"]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_memory_of:minsk_ghetto;
+=>nrel_be_founded_in_memory_of:Action.shooting_2_march;
+=>nrel_osm_query:[way(7311395);];
+<=nrel_complex_of_buildings_decomposition:
+	{
+			sculpture_last_way;
+			obelisk_in_memorial_pit
+	};
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9097082, 27.5428293]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9097082;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5428293;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/pit1.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+=>nrel_architect:Leonid_Levin;
+->begin_date_2000;;

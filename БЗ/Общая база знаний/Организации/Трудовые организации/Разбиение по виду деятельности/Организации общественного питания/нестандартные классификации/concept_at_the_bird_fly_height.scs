@@ -1,0 +1,5 @@
+concept_catering_with_great_view
+=>nrel_main_idtf:
+    [заведения с красивым видом](*<-lang_ru;;*);
+<=nrel_inclusion:concept_restaurant;
+<-sc_node_not_relation;;

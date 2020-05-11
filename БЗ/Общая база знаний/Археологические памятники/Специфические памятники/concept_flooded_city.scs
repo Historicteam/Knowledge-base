@@ -1,0 +1,18 @@
+concept_flooded_city
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[затонувший город]
+(*
+<- lang_ru;;
+*);
+[flooded city]
+(*
+<- lang_en;;
+*);
+[затоплены горад]
+(*
+<- lang_by;;
+*);;

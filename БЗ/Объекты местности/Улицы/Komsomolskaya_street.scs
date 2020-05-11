@@ -6,9 +6,5 @@ Komsomolskaya_street
 			(*
 			<- lang_by;;
 			*);
-	<= nrel_subdividing: 
-	{
-	House_Frotskoy
-	};
 	<- concept_street;;
 

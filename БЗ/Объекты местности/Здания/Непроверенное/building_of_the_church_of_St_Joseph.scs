@@ -1,5 +1,6 @@
 building_of_the_church_of_St_Joseph
-<- concept_building;
+<- concept_catholic_temple;
+<-concept_building;
 
 => nrel_main_idtf:
 	[Здание костёла святого Иосифа] (* <- lang_ru;; *);
@@ -13,6 +14,7 @@ building_of_the_church_of_St_Joseph
 		[Выява касцёла святога Язэпа] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Костел св. Иосифа.jpg" (*
@@ -21,6 +23,32 @@ building_of_the_church_of_St_Joseph
 		*);;
 	*);
 => nrel_osm_query: [way(25327537);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.904714, 27.556967]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.904714;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.556967;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
 
 <= nrel_temporal_decomposition: 
     {
@@ -130,4 +158,3 @@ concept_situation->[* building_of_the_church_of_St_Joseph<-concept_arch_baroque;
 (*
     <- begin_date_1652;;
 *);;
-

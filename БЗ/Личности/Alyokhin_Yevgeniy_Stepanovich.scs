@@ -12,6 +12,7 @@ Alyokhin_Yevgeniy_Stepanovich
 	(*
 		<-lang_by;;
 	*);
+<- concept_person;
 <- concept_male;;
 
 concept_situation->[*

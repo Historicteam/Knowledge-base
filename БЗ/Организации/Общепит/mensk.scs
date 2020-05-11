@@ -1,0 +1,12 @@
+Mensk
+=>nrel_main_idtf:
+    [Кафе  Менск](*<-lang_ru;;*);
+    [Cafe  Mensk](* <-lang_en;;*);
+=>nrel_cuisine:european_cuisine;
+=>nrel_cuisine:belarussian_cuisine;
+<-concept_catering_with_waiter_service;
+<-concept_cafe;
+<-concept_banquet_room;
+=>nrel_working_hours: Mon_Sun_10_00_23_00;
+=>nrel_location:house_9_Sovetskaya_street;;
+

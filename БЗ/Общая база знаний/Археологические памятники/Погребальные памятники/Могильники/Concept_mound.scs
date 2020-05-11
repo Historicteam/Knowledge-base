@@ -1,0 +1,55 @@
+concept_mound
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[могильник]
+(*
+<- lang_ru;;
+*);
+[mound]
+(*
+<- lang_en;;
+*);
+[магільнік]
+(*
+<- lang_by;;
+*);
+
+<= nrel_subdividing: ...
+	(*
+	-> concept_ground_mound;;
+	-> concept_burial_mound;;
+	-> concept_under_burial_mounds;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Могильник — комплекс погребений. Выделяют могильники <sc_element sys_idtf="concept_burial_mound">курганные</sc_element>, <sc_element sys_idtf="concept_ground_mound">грунтовые</sc_element>, склеповые, мавзолеи, <sc_element sys_idtf="concept_under_burial_mounds">подкурганные</sc_element>.]
+      (*
+<- lang_ru;;
+=> nrel_format: format_html;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Магільнік - комплекс пахаванняў. Вылучаюць магільнікі <sc_element sys_idtf="concept_burial_mound">курганыя</sc_element>, <sc_element sys_idtf="concept_ground_mound">грунтавыя</sc_element>, склепы, маўзалеі, <sc_element sys_idtf="concept_under_burial_mounds">падкурганныя</sc_element>.]
+      (*
+<- lang_by;;
+=> nrel_format: format_html;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[Mound - burial complex. There are <sc_element sys_idtf="concept_burial_mound">burial mounds</sc_element>, <sc_element sys_idtf="concept_ground_mound">ground</sc_element>, crypts, mausoleums, <sc_element sys_idtf="concept_under_burial_mounds">beneath barrows</sc_element>.]
+      (*
+<- lang_en;;
+=> nrel_format: format_html;;
+      *);;
+  *);;
+*)
+;;

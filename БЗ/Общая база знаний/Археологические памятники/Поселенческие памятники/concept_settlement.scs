@@ -1,0 +1,46 @@
+concept_settlement
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+[селище]
+(*
+<- lang_ru;;
+*);
+[settlement]
+(*
+<- lang_en;;
+*);
+[пасяленне]
+(*
+<- lang_by;;
+*);
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Се́лище — археологический термин, обозначающий древнее (исчезнувшее) неукреплённое поселение. Селище обычно не заметно на местности и обнаруживается только по наличию культурного слоя. Слово употреблялось в русском языке с древних времён и обозначало жилище, а также место бывшего села.]
+
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Селішча - археалагічны тэрмін, які пазначае старажытнае (зніклых) неукреплённое паселішча. Селішча звычайна не прыкметна на мясцовасці і выяўляецца толькі па наяўнасці культурнага пласта. Слова магло ўжывацца ў сваім рускай мове з старажытных часоў і пазначала жыллё, а таксама месца былога вёскі. ]   
+ (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[settlement - archaeological term for the ancient (the disappeared) neukreplёnnoe settlement. Selishche usually not noticeable on the ground and is found only in the presence of the cultural layer. The word was used in the Russian language since ancient times and meant home and the place of the former village.]
+     (*
+<- lang_en;;
+      *);;
+  *);;
+*)
+;;

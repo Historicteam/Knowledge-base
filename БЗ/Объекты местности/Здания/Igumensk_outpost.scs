@@ -7,6 +7,7 @@ Igumensk_outpost
 	[Ігуменская застава] (* <-lang_by;; *);
 <-concept_outpost;
 
+<=nrel_whole_part:Independence_Avenue;
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
@@ -33,4 +34,4 @@ Igumensk_outpost
 		*);;
 	*);
 
-=> nrel_osm_query: [way(35996171);];;
+=> nrel_osm_query: [way(25387553);];;

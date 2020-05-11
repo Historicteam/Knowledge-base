@@ -1,0 +1,15 @@
+Morduch_Sprishen
+=> nrel_main_idtf:
+        [Мордух Абрамович Спришен]	
+        (*
+	<- lang_ru;;
+	*);
+	[Morduch Abramovich Sprishen]
+	(*
+	<- lang_en;;
+	*);
+	[Мордух Абрамовіч Спришен]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;;

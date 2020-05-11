@@ -1,0 +1,48 @@
+concept_lake_reservoir<-sc_node_not_relation;
+	=> nrel_main_idtf:
+	[озерное водохранилище] 
+	(* <- lang_ru;; *);
+	[азёрнае вадасховішча] 
+	(* <- lang_by;; *);
+	[lake reservoir]	
+	(* <- lang_en;; *);;
+concept_lake_reservoir<=nrel_part_whole:concept_lake;;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_lake_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Тип водохранилища, которое устанавливают на территории озера.](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Тып вадасховішча, якое усталёўваюць на тэрыторыі возера.](*<- lang_by;;*);;
+        *);
+	...
+        (*
+            -> [The type of reservoir that is installed on the lake. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "озерное водохранилище"](*<- lang_ru;;*);
+			[Definition of the lake reservoir concept] (* <-lang_en;; *);;
+    *);;
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_lake_reservoir;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Для водохранилищ озёрного вида характерно формирование водных масс, существенно отличных по своим физическим свойствам от свойств вод притоков. Течения в этих водохранилищах связаны больше всего с ветрами.](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Для вадасховішчаў азёрнага выгляду характэрна фарміраванне водных мас, істотна выдатных па сваіх фізічных уласцівасцях ад уласцівасцяў вод прытокаў. Плыні ў гэтых вадасховішчах звязаныя больш за ўсё з вятрамі.](*<- lang_by;;*);;
+        *);
+	...
+	(*
+            -> [The reservoirs of the lake species are characterized by the formation of water masses that are significantly different in their physical properties from the properties of the waters of the tributaries. The currents in these reservoirs are most associated with winds.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Факт об озерных водохранилищах](*<- lang_ru;;*);
+			[Факт аб азёрных вадасховішчах](*<- lang_by;;*);
+			[The fact of lake reservoirs] (* <-lang_en;; *);;
+
+*);;
+

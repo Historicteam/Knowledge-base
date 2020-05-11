@@ -1,0 +1,32 @@
+haute_cuisine
+=>nrel_main_idtf:
+    [Высокая кухня](*<-lang_ru;;*);
+    [Haute cuisine](* <-lang_en;; *);
+    [Высокая кухня](*<-lang_by;;*);
+<- rrel_key_sc_element:
+	 Definition_of_the_haute_cuisine
+	(* 
+
+		=> nrel_main_idtf:
+			[Определение понятия высокая кухня]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of haute cuisine]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "высокая кухня"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Высокая кухня - кухня "высокоуровневых заведений", характеризуется тщательной презентацией и высокими ценами] (* <-lang_ru;; *);; 
+			*);;
+	*);
+<-concept_cuisine;;

@@ -1,0 +1,31 @@
+concept_schedule
+=>nrel_main_idtf:
+    [расписание](* <- lang_ru;; *);
+    [schedule](* <-lang_en;; *);
+    [расклад](*<-lang_by;;*);
+ <-sc_node_not_relation;
+ <- rrel_key_sc_element:
+	 Definition_of_the_schedule_concept
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "расписание"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the schedule concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "расклад"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Расписание – это множество отношенией, задающее периоды функционирования чего-либо.] (* <-lang_ru;; *);; 
+			*);;
+	*);;

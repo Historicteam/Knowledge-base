@@ -1,0 +1,44 @@
+concept_hostel
+=>nrel_main_idtf:
+    [хостел](*<-lang_ru;;*);
+    [hostel](* <-lang_en;; *);
+    [хостел](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_hostel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Хостел"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Hostel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Хостел"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Хо́стел — это гостиница, предоставляющая путешественникам на короткий срок жильё, — как правило, спальное место в общем номере без дополнительных удобств (часто для молодёжи и студентов, привокзальные гостиницы для проезжающих). В таких номерах одновременно проживают несколько посторонних людей, что сближает хостелы с общежитиями. Хостелы востребованы любителями недорогих путешествий, поэтому они ориентируются главным образом на материально стеснённую молодёжь. К недостаткам хостелов относятся необходимость совместного проживания с незнакомыми людьми, опасность краж.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[A hostel is a hotel providing travelers with short-term accommodation, as a rule, a bed in a dormitory without additional amenities (often for young people and students, station hotels for travelers). In these rooms several strangers live at the same time, which brings hostels and hostels closer together. Hostels are in demand by lovers of low-cost travel, so they focus mainly on financially constrained youth. The disadvantages of hostels include the need to live together with strangers, the risk of theft.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Хостэл - гэта гасцініца, якая прадстаўляе падарожнікам на кароткі тэрмін жыллё, - як правіла, спальнае месца ў агульным нумары без дадатковых выгод (часта для моладзі і студэнтаў, прывакзальныя гасцініцы для праязджаюць). У такіх нумарах адначасова пражываюць некалькі старонніх людзей, што збліжае хостелы з інтэрнатамі. Хостелы запатрабаваныя аматарамі недарагіх падарожжаў, таму яны арыентуюцца галоўным чынам на матэрыяльна сціснутыя моладзь. Да недахопаў хостэлаў ставяцца неабходнасць сумеснага пражывання з незнаёмымі людзьмі, небяспека крадзяжоў.] (* <-lang_by;; *);; 
+			*);;
+	*);;       

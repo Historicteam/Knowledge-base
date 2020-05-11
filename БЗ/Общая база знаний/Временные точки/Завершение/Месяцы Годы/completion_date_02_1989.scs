@@ -1,0 +1,22 @@
+completion_date_02_1989
+=> nrel_main_idtf:
+   [время завершения - февраль 1989]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - february of 1989]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - люты 1989]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [2];;
+   <- number_of_year: [1989];;
+   *);
+   <- completion_date_1989;;

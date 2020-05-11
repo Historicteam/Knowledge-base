@@ -1,0 +1,29 @@
+concept_triumphal_arch
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[триумфальная арка](*<- lang_ru;;*);
+	[triumphal arch](*<- lang_en;;*);
+        [трыумфальная арка](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Триумфальная арка — архитектурный памятник, представляющий собой большую торжественно оформленную арку. Триумфальные арки устраиваются при входе в города, в конце улиц, на мостах, на больших дорогах в честь победителей или в память важных событий.]
+    (*
+    <-lang_ru;;
+    *);
+  [Triumphal arch is an architectural monument, which is a large, solemnly decorated arch. Triumphal arches are arranged at the entrance to the city, at the end of the streets, on bridges, on large roads in honor of the winners or in memory of important events.]
+    (*
+       <- lang_en;;
+    *);
+  [Трыумфальная арка - архітэктурны помнік, які ўяўляе сабой вялікую ўрачыста аформленую арку. Трыўмфальныя аркі ладзяцца пры ўваходзе ў гарады, у канцы вуліц, на мастах, на вялікіх дарогах у гонар пераможцаў або ў памяць важных падзей.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

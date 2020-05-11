@@ -3,4 +3,5 @@ Building_of_Palace_of_culture_of_trade_unions
 	[Здание дворца культуры профсоюзов](* <- lang_ru;; *);
 	[Building of Palace of culture of trade unions](* <- lang_en;; *);
 	
-<- concept_building;;
+<-concept_building;
+<- concept_cultural_building;;

@@ -1,0 +1,37 @@
+hall_of_memory_carriage
+=> nrel_main_idtf:
+	[Зал памяти “Вагон”]
+	(*
+	<- lang_ru;;
+	*);
+	[hall of memory "Carriage"]
+	(*
+	<- lang_en;;
+	*);
+<-concept_monument;
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Залы памяти “Вагон”  символизируют эшелоны, в которых прибывали жертвы. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/vagon.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

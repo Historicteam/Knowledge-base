@@ -1,0 +1,38 @@
+museum_Zaslavl
+
+=>nrel_main_idtf:
+	[Историко-культурный музей-заповедник "Заславль"] (* <-lang_ru;; *);
+	[Historical and Cultural Museum-Reserve "Zaslavl"] (* <-lang_en;; *);
+	[Гісторыка-культурны музей-запаведнік "Заслаўе"] (* <-lang_by;; *);
+
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Историко-культурный музей-заповедник "Заславль" представляет собой уникальную территорию исторического центра древнего города Заславля с сохранившимися памятниками архитектуры и археологии X – XIX вв. и музейными объектами.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Historical and Cultural Museum-Reserve "Zaslavl" is a unique territory of the historic center of the ancient city of Zaslavl with preserved monuments of architecture and archeology of the X - XIX centuries. and museum objects.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Гісторыка-культурны музей-запаведнік "Заслаўе" ўяўляе сабой унікальную тэрыторыю гістарычнага цэнтра старажытнага горада Заслаўя з захаванымі помнікамі архітэктуры і археалогіі X – XIX стст.і музейнымі аб'ектамі.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+<= nrel_subdividing: ...
+    (*
+        -> hillfort_zamechek;;
+		-> mounds_in_zaslavl;;
+		-> hillfort_val;;
+		-> ethnographic_complex_Kuznya;;
+		-> ethnographic_complex_Mlin;;
+    *);
+
+<- concept_museum;;

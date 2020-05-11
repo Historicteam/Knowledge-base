@@ -1,0 +1,38 @@
+concept_space_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[космический транспорт](*<- lang_ru;;*);
+	[space transport](*<- lang_en;;*);
+	[касмічны транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Механическое транспортное средство, предназначенное для перевозки грузов и пассажиров по безвоздушному пространству (в космосе).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A power-driven vehicle designed to transport goods and passengers through airless space (in space).]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Механiчны транспартны сродак, прызначаны для перавозкі грузаў і пасажыраў па беспаветранай прасторы (у космасе).]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

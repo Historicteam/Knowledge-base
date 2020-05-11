@@ -1,0 +1,15 @@
+Kupala_street
+=> nrel_main_idtf:
+			[Улица Янки Купала]
+			(*
+			<- lang_ru;;
+			*);
+			[Kupala street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Янкі Купала]
+			(*
+			<- lang_by;;
+			*);
+<-concept_street;;

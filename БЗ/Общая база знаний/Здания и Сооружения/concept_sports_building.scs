@@ -1,0 +1,29 @@
+concept_sports_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[спортивное здание](*<- lang_ru;;*);
+	[sports buiding](*<- lang_en;;*);
+        [спартыўны будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Sports building is an appropriately equipped building providing the possibility of holding sports competitions, an educational and training process, sports and recreation and sports and recreational activities in various sports.]
+    (*
+    <- lang_en;;
+    *);
+  [Спортивное здание - соответственно оборудованное здание, обеспечивающее возможность проведения спортивных соревнований, учебно-тренировочного процесса, физкультурно-оздоровительных и спортивно развлекательных работ по различным видам спорта.]
+    (*
+     <-lang_ru;;
+    *);
+  [Спартыўны будынак - адпаведна абсталяваны будынак, які забяспечвае магчымасць правядзення спартыўных спаборніцтваў, вучэбна-трэніровачнага працэсу, фізкультурна-аздараўленчых і спартыўна забаўляльных работ па розных відах спорту.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

@@ -1,0 +1,30 @@
+concept_non_profit_residental_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[некоммерческое жилое здание](*<- lang_ru;;*);
+	[non-profit residental buiding](*<- lang_en;;*);
+        [некамерцыйны жылы будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Non-profit residential building is a building that is not used for commercial activities with subsequent extraction of permanent profits (dormitories and non-profit hotels attached to 
+factories or educational institutions, military barracks, residential buildings (except apartment buildings)).]
+    (*
+    <- lang_en;;
+    *);
+  [Некоммерческое жилое здание - здание, не используемое для коммерческой деятельности с последующим извлечением постоянной прибыли (общежития и некоммерческие гостиницы при фабриках или учебных заведениях, военные казармы, жилые дома (кроме доходных домов)).]
+    (*
+     <-lang_ru;;
+    *);
+  [Некамерцыйны жылы будынак - будынак, які не выкарыстоўваецца для камерцыйнай дзейнасці з наступным атрыманнем пастаяннай прыбытку (інтэрната і некамерцыйныя гасцініцы пры фабрыках ці навучальных установах, ваенныя казармы, жылыя дамы (акрамя даходных дамоў)).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

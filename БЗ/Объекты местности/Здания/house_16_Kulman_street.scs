@@ -1,0 +1,29 @@
+house_16_Kulman_street
+=>nrel_main_idtf:
+    [Кульман дом 16](*<-lang_ru;;*);
+    [House 9 Kiulman street](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Kulman_street;
+=> nrel_osm_query: [way(25325785);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.92146, 27.58074]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.92146;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.58074;;
+					*);;
+				*);;
+			*);;
+	*);;

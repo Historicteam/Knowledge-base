@@ -1,11 +1,12 @@
 building_of_the_Mikhailovskij_Artillery_Academy
-<-concept_public_building;
+<-concept_educational_building;
+<-concept_building;
 =>nrel_main_idtf:
-	[здание Михайловской артиллерийской академии]
+	[Здание Михайловской артиллерийской академии]
 	(*
 		<-lang_ru;;
 	*);
-	[building of the Mikhailovskij Artillery Academy]
+	[Building of the Mikhailovskij Artillery Academy]
 	(*
 		<-lang_en;;
 	*);

@@ -1,0 +1,6 @@
+film_ash
+<-concept_film;
+=>nrel_main_idtf:
+  	[Прах] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Ash] (* <-lang_en;; *);;

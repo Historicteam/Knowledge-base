@@ -1,4 +1,6 @@
-Maryinskaya_girls_gymnasium_building <- rrel_key_sc_element: Illustration_Maryinskaya_girls_gymnasium_building_1
+Maryinskaya_girls_gymnasium_building
+<=nrel_whole_part:Karla_Marksa_street;
+ <- rrel_key_sc_element: Illustration_Maryinskaya_girls_gymnasium_building_1
 	(*
 => nrel_main_idtf:
 	[Фото Мариинской женской гимназии в 2006м году] 

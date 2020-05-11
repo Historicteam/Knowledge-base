@@ -8,5 +8,5 @@ Action.Dunin_Marcinkievich_Kamilla_Vincientovnas_imprisonment_at_the_minsk_hospi
 =>nrel_performer:organization_Minsk_Hospital;
 =>nrel_location:building_of_psychiatry_of_minsk_hospital;
 =>nrel_object:Dunin_Marcinkievich_Kamilla_Vincientovna;
-<-begin_date_1861;
-<-completion_date_1862;;
+=>nrel_begin_date:begin_date_1861;
+=>nrel_completion_date:completion_date_1862;;

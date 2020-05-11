@@ -1,4 +1,5 @@
 Kondratovich_Ada
+<-concept_person;
 => nrel_main_idtf:  
       [Кондратович Ада] (* <- lang_ru;; *);
       [Kondratovich Ada](* <- lang_en;; *);

@@ -3,11 +3,4 @@ Bogdanovichs_Street
 	[Улица Максима Богдановича](* <- lang_ru;; *);
 	[Bogdanovich Street](* <- lang_en;; *);
 	[Вуліца Максіма Багдановіча](* <- lang_by;; *);
-	<= nrel_subdividing:
-		{
-			Korkozovichs_House;
-			house_7a_Bogdanovich_street;
-			Minsk_Municipal_Shelter_Building;
-			building_of_the_female_mariavite_monastery
-		};
 <- concept_street;;

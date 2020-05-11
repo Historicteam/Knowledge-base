@@ -1,0 +1,29 @@
+concept_memorial_structure
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[мемориальное сооружение](*<- lang_ru;;*);
+	[memorial structure](*<- lang_en;;*);
+        [мемарыяльнае будаванне](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Мемориальное сооружение - сооружение без захоронений, установленное в память каких-либо лиц, исторических событий и содержащее мемориальную информацию.]
+    (*
+    <-lang_ru;;
+    *);
+  [Memorial structure is a structure without burial places, established in the memory of any persons, historical events and containing memorial information.]
+    (*
+       <- lang_en;;
+    *);
+  [Мемарыяльнае будаванне - будаванне без пахаванняў, усталяванае ў памяць якіх-небудзь асоб, гістарычных падзей і якое змяшчае мемарыяльную інфармацыю.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

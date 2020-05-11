@@ -1,0 +1,22 @@
+completion_date_09_1945
+=> nrel_main_idtf:
+   [время завершения - сентябрь 1945]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - september of 1945]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - верасень 1945]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [9];;
+   <- number_of_year: [1945];;
+   *);
+   <- completion_date_1945;;

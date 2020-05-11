@@ -1,25 +1,29 @@
 concept_tower
-<- sc_node_not_relation;
+<-sc_const;
+<-sc_node_not_relation;
 => nrel_main_idtf:
-	[Башня]
-	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятие башни]
-	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_tower
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [ Башня - высокое и узкое архитектурное сооружение. ] (* <-lang_ru;; *);;
-		*);;
-	<= nrel_using_constants:
-		...
-		(* 
-		-> 	concept_structure;;
+	
+	[башня](*<- lang_ru;;*);
+	[tower](*<- lang_en;;*);
+        [вежа](*<- lang_by;;*);
 
-		*);;
-	*);;
-
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Tower is an engineering structure characterized by a significant predominance of height over the side or diameter of the base.]
+    (*
+    <- lang_en;;
+    *);
+  [Башня - инженерное сооружение, отличающееся значительным преобладанием высоты над стороной или диаметром основания.]
+    (*
+     <-lang_ru;;
+    *);
+  [Вежа - інжынернае збудаванне, якое адрозніваецца значным перавагай вышыні над бокам або дыяметрам падставы.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

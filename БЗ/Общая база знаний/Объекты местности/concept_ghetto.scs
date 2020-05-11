@@ -1,0 +1,35 @@
+concept_ghetto
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[гетто]
+	(*<-lang_ru;; *);
+	[ghetto]
+	(*<-lang_en;;*);
+	[гета]
+	(*<-lang_by;;*);
+<-rrel_key_sc_element: ...
+	(*
+	<-sc_defenition;;
+	=>nrel_idtf:[Определение(Гетто)]
+		(*
+		<-lang_ru;;
+		*);;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: 
+		[Гетто  во время Второй Мировой войны - жилые зоны на подконтрольных немецким войскам территориях, куда насильственно перемещали еврейское население. ]
+		(*<-lang_ru;;*);;
+		*);;
+	<=nrel_using_constants:
+		...	
+		(*
+		->concept_terrain_object;;
+		*);;
+	*);
+
+<=nrel_inclusion:
+...	
+	(*
+	->concept_terrain_object;;
+	*);;

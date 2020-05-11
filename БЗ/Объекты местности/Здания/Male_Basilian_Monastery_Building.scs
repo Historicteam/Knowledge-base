@@ -75,7 +75,8 @@ Male_Basilian_Monastery_Building
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -105,9 +106,12 @@ Male_Basilian_Monastery_Building
 ;
 
 <- concept_building;
+<- concept_cultural_building;
+<- concept_educational_building;
 <- concept_terrain_object;
 
-=> nrel_osm_query:[node(1369957958);];
+=> nrel_osm_query:[relation(8478813);];
+<=nrel_whole_part:Freedom_Square;
 
 => nrel_geographical_location: ...
 	(*
@@ -151,6 +155,7 @@ Male_Basilian_Monastery_Building
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

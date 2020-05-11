@@ -1,0 +1,30 @@
+concept_orthodox_temple
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[православный храм](*<- lang_ru;;*);
+	[orthodox temple](*<- lang_en;;*);
+        [праваслаўны храм](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Orthodox temple is an orthodox religious building intended for the conduct of public worship.]
+    (*
+    <- lang_en;;
+    *);
+  [Православный храм —  православное религиозное сооружение, предназначенное для совершения общественного богослужения.]
+    (*
+     <-lang_ru;;
+    *);
+  [Праваслаўны храм - праваслаўнае рэлігійнае будаванне, прызначанае для здзяйснення грамадскага набажэнствы.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

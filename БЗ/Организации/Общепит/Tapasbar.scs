@@ -1,0 +1,11 @@
+Tapasbar
+=>nrel_main_idtf:
+	[Тапас Бар](*<-lang_ru;;*);
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-concept_coffee;
+=>nrel_cuisine:vegetarian_cuisine;
+=>nrel_cuisine:spanish_cuisine;
+=>nrel_working_hours: Mon_Fry_9_00_00_00;
+=>nrel_working_hours: Sat_Sun_11_00_00_00;
+=>nrel_location:house_5_International_street;;

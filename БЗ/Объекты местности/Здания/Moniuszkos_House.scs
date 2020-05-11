@@ -12,11 +12,14 @@ Moniuszkos_House
   (*
     <- lang_en;;
   *);
+<= nrel_whole_part: International_Street;
 <-concept_building;
+<-concept_non_profit_residental_building;
 <-concept_terrain_object;
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -56,7 +59,8 @@ Moniuszkos_House
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -87,4 +91,3 @@ concept_situation->[*Moniuszkos_House<-concept_arch_classicism;;*]
 (*
 	<- begin_date_1797;;
 *);;
-

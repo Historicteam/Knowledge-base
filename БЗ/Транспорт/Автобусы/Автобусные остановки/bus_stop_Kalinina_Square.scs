@@ -1,0 +1,31 @@
+bus_stop_Kalinina_Square
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Площадь Калинина](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Плошча Калініна](*<- lang_by;;*);
+=> nrel_osm_query: [node(767183450);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.922935, 27.606483]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.922935;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.606483;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,44 @@
+nrel_neighboring_metro_station
+
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[соседняя станция метрополитена*]
+	(*
+	<- lang_ru;;
+	*);
+	[neighboring metro station*]
+	(*
+	<- lang_en;;
+	*);
+	[суседняя станцыя метрапалiтэна*]
+	(*
+	<- lang_by;;
+	*);
+=> nrel_first_domain:
+	concept_metro_station;
+=> nrel_second_domain:
+	concept_metro_station;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[*Соседняя станция метрополитена - бинарное отношение, связывающее станции метрополитена.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[*Суседняя станцыя метрапалiтэна - бінарная адносіна, якая звязвае станцыi метрапалiтэна.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;

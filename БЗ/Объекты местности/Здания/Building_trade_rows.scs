@@ -1,0 +1,234 @@
+Building_trade_rows
+=> nrel_main_idtf:
+	[Здание торговых рядов] (* <- lang_ru;; *);
+	[Building of the trade rows] (* <- lang_en;; *);
+	[Будынак гандлёвых шэрагаў] (* <- lang_by;; *);
+
+<= nrel_whole_part: Herzen_street;
+
+=> nrel_osm_query: [way(347338490);];
+
+<- begin_date_1817;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<-key_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Здание впервые упоминается в 1817 году в составе имущества монастыря бернардинцев. Первоначально здание было частью ограды монастыря, но в середине XIX века здесь располагались магазины. После войны 1941-1945 годов из 20 помещений сохранились только 7 и использовались под жилье.  Сейчас в здании располагается ресторан.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The building mentioned firstly in 1817 as a property of Bernardine monastery. It was the collegiate fence, but in the middle of XIX century the market places were there. After the WWII only 7 spaces preserved and were used for living. Now the restaurant is located here.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Будынак упершыню адзначаецца у 1817 годзе у складзе маемасці манастыра бернардзінцаў. Перашпачаткова будынак быў часткай ппаркана манастыра, але ў сярэдзіне XIX стагоддзя тут размяшчаліся крамы. Пасля вайны 1941-1945 гадоў з 20 памяшканняў  ацалелі толькі 7 і выкарыстоўваліся пад жытло.  Зараз у будынку месціцца рэстарацыя.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.904474, 27.5566851]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.904474;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5566851;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- concept_building;
+<- concept_arch_classicism;
+
+<= nrel_temporal_decomposition: 
+    {
+        construction_Bernardine_shops
+        (* 
+        => nrel_main_idtf:
+            [Строение "Бернардинские лавки"]
+            (*
+            <- lang_ru;;
+            *);
+            [The construction "Bernardine shops"]
+            (*
+            <- lang_en;;
+            *);
+            [Будова "Бернардынскія крамы"]
+            (*
+            <- lang_by;;
+            *);;
+            
+            <-concept_construction;;
+        
+        <- begin_date_1800;;
+            
+        <- completion_date_1850;;
+        *);
+
+	construction_Vilenchuki
+        (* 
+        => nrel_main_idtf:
+            [Строение "Виленчуки"]
+            (*
+            <- lang_ru;;
+            *);
+            [The construction "Vilenchuki"]
+            (*
+            <- lang_en;;
+            *);
+            [Будова "Вiленчукi"]
+            (*
+            <- lang_by;;
+            *);;
+            
+            <-concept_construction;;
+        
+        <- begin_date_1850;;
+            
+        <- completion_date_1917;;
+        *);
+        
+        construction_trade_rows
+        (* 
+        => nrel_main_idtf:
+            [Торговые ряды]
+            (*
+            <- lang_ru;;
+            *);
+            [The trade rows]
+            (*
+            <- lang_en;;
+            *);
+            [Гандлёвыя шэрагi"]
+            (*
+            <- lang_by;;
+            *);;
+            
+            <-concept_construction;;
+        
+        <- begin_date_1917;;
+            
+        => nrel_finish_time: ...
+            (*
+            <= nrel_time_period: ...
+                (*
+                    <- begin_date_1940;;
+              
+                    <- completion_date_1950;;
+                *);;
+            *);;
+        *)
+    };;
+
+
+Image_building_shopping_malls_1920 
+=> nrel_main_idtf:
+            [Изображение здания торговых рядов 1920] (* <- lang_ru;; *);
+            [Image building shopping malls 1920] (* <- lang_en;; *);
+            [Выява будынка гандлёвых шэрагаў 1920] (* <- lang_by;; *);;
+
+concept_situation-> [*
+    Building_trade_rows 
+    <- rrel_key_sc_element: Image_building_shopping_malls_1920 
+    (*
+	<- sc_illustration;;
+	<-key_image;;
+	<= nrel_sc_text_translation: ... 
+            (*
+            ->rrel_example: "file://content//Торговые ряды.jpg"
+                        (*
+                    => nrel_format: format_jpg;;
+                        *);;
+            *);;
+    *);; 
+*]
+(*      
+    <- begin_date_1920;;
+    <- completion_date_2000;;
+*);;
+
+
+
+Image_of_building_trade_rows_1900 
+    => nrel_main_idtf:
+	[Изображение здания торговых рядов 1900] (* <- lang_ru;; *);
+	[Image of building of the trade rows 1900] (* <- lang_en;; *);
+	[Выявы будынку гандлёвых шэрагаў 1900] (* <- lang_by;; *);;
+
+concept_situation-> [*
+    Building_trade_rows 
+    <- rrel_key_sc_element: Image_of_building_trade_rows_1900 
+    (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+            (*
+            ->rrel_example: "file://content/виленчуки 1900.jpg"
+                        (*
+                    => nrel_format: format_jpg;;
+                        *);;
+            *);;
+    *);; 
+*]
+(*      
+    <- begin_date_1900;;
+    <- completion_date_1920;;
+*);;   
+
+
+concept_situation->[*organization_city_fumatorium => nrel_location: Building_trade_rows;;
+		     organization_analitical_station =>  nrel_location: Building_trade_rows;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения городской дизенфекционной камеры и городской тюрьмы в здании торговых рядов](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання гарадской дизенфекцыйнай камеры і гарадской турмы у будынку гандлёвых шэрагаў](*<-lang_by;;*);;
+    <- begin_date_1892;;
+    <- completion_date_1914;;
+*);;
+
+concept_situation->[*concept_residential_building -> Building_trade_rows;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени когда здание торговых рядов было жилым](*<-lang_ru;;*);
+    [Контур перыяду часу калі будынак гандлёвых шэрагаў быў жылым](*<-lang_by;;*);;
+    <- begin_date_1950;;
+    <- completion_date_1960;;
+*);;
+
+concept_situation->[*organization_restaurant_At_the_town_hall => nrel_location: Building_trade_rows;;*]
+(*
+    => nrel_main_idtf: 
+    [Контур периода времени расположения ресторана "У Ратуши" в здании торговых рядов](*<-lang_ru;;*);
+    [Контур перыяду часу месцавання рэстарана "Ля Ратушы" у будынку гандлёвых шэрагаў](*<-lang_by;;*);;
+    <- begin_date_2003;;
+*);;

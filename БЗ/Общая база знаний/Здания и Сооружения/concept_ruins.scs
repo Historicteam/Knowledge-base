@@ -3,24 +3,15 @@ concept_ruins
 => nrel_main_idtf:
 	[Руина]
 	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятие Руины]
-	(* <- lang_ru;; *);
-
-<- rrel_key_sc_element:
-	Definition_of_ruins
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [Руины — останки бывшего здания, сооружеия. ] (* <-lang_ru;; *);;
-		*);;
-	<= nrel_using_constants:
-		...
-		(* 
-		-> 	concept_building;
-concept_structure;;
-		*);;
-	*);;
-
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Руины — останки бывшего здания, сооружеия.]
+    (*
+     <-lang_ru;;
+    *);;
+  *);;
+*);;

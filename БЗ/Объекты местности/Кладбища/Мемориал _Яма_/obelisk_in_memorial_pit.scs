@@ -1,0 +1,22 @@
+obelisk_in_memorial_pit
+	=>nrel_main_idtf:
+	[Обелиск Мемориала "Яма"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Obelisk in Memorial "Pit"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Абелiск Мемарырыяла "Яма"] (* <-lang_by;; *);
+<-begin_date_1947;
+<-concept_monument;
+=>nrel_stonecutter:Morduch_Sprishen;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/obelisk.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

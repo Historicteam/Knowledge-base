@@ -1,0 +1,50 @@
+concept_helicopter
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[вертолет](*<- lang_ru;;*);
+	[helicopter](*<- lang_en;;*);
+	[верталёт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Винтокрылый летательный аппарат вертикального взлёта и посадки, у которого подъёмная и движущая силы на всех этапах полёта создаются одним или несколькими несущими винтами с приводом от одного или нескольких двигателей.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A rotorcraft with vertical take-off and landing, in which the lifting and driving forces at all stages of flight are created by one or more rotors driven by one or more engines.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Вінтакрылыя лятальны апарат вертыкальнага ўзлёту і пасадкі, у якога пад'ёмная і рухаючая сілы на ўсіх этапах палёту ствараюцца адным ці некалькімі апорнымі вінтамі з прывадам ад аднаго ці некалькіх рухавікоў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/helicopter.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

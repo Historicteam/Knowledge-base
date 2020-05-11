@@ -1,0 +1,66 @@
+concept_island<-sc_node_not_relation;<-sc_const;;
+concept_island => nrel_main_idtf: [остров](*<- lang_ru;;*);;
+concept_island => nrel_main_idtf: [island](*<- lang_en;;*);;
+
+
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_island;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Участок суши (обычно естественного происхождения) в океане, море, озере или на реке, окружённый со всех сторон водой и постоянно возвышающийся над водой даже в период наибольшего прилива. ](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [An island or isle is any piece of sub-continental land that is surrounded by water. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "остров"](*<- lang_ru;;*);
+			[Definition of the island concept] (* <-lang_en;; *);;
+    *);;
+
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_island;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Острова различаются в зависимости от происхождения и их расположения относительно материков. При этом основным является деление островов на расположенные в морских водоёмах и в пресных.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Разновидности островов](*<- lang_ru;;*);;
+*);;
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_island;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [От материков острова отличаются меньшими размерами.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Отличие материков и остров](*<- lang_ru;;*);;
+*);;
+
+concept_island<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/isl.jpg"
+	(*
+		=>nrel_format:format_jpg;;
+	*);;	
+*);;
+*);;
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,5 +8,5 @@ Action.Dunin_Marcinkievich_Kamilla_Vincientovnas_imprisonment_at_the_building_of
 =>nrel_initiator:organization_the_minsk_investigative_commission;
 =>nrel_location:building_of_residential_housing_of_male_Bernardine_monastery;
 =>nrel_object:Dunin_Marcinkievich_Kamilla_Vincientovna;
-<-begin_date_1863;
-<-completion_date_1863;;
+=>nrel_begin_date:begin_date_1863;
+=>nrel_completion_date:completion_date_1863;;

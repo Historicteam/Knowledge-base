@@ -1,0 +1,31 @@
+concept_stable
+<-sc_const;
+<-concept_structure;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[конюшня](*<- lang_ru;;*);
+	[stable](*<- lang_en;;*);
+        [стайня](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Stable is a room for the maintenance of horses, usually is a building, divided into individual sections for each horse, which are called stalls and stalls.]
+    (*
+    <- lang_en;;
+    *);
+  [Конюшня — помещение для содержания лошадей, обычно представляет собой постройку, разделённую на индивидуальные для каждой лошади секции, которые называются денниками и стойлами.]
+    (*
+     <-lang_ru;;
+    *);
+  [Стайня - памяшканне для ўтрымання коней, звычайна ўяўляе сабой пабудову, падзеленай на індывідуальныя для кожнай коні секцыі, якія называюцца праварын і стойла.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

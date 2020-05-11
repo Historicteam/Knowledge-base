@@ -1,0 +1,52 @@
+sc_agent_of_finding_intersection_of_two_sets
+=> nrel_main_idtf:
+	[sc-агент поиска пересечения двух множеств] (* <- lang_ru;; *);
+	[sc-agent of finding intersection of two sets] (* <- lang_en;; *);
+
+<- abstract_sc_agent;
+
+=> nrel_primary_initiation_condition: 
+	(sc_event_add_output_arc => question_initiated);
+
+=> nrel_initiation_condition_and_result: 
+	(..sc_agent_of_finding_intersection_of_two_sets_condition => ..sc_agent_of_finding_intersection_of_two_sets_result);
+
+<= nrel_sc_agent_key_sc_elements: 
+	{
+	question_initiated;
+	question;
+	question_of_finding_intersection_of_two_sets
+	};
+
+=> nrel_inclusion: 
+	.platform_independent_realization_of_sc_agent_of_finding_intersection_of_two_sets
+	(*
+	<- platform_independent_abstract_sc_agent;;
+	<= nrel_sc_agent_program: 
+		{
+		agent_of_finding_intersection_of_two_sets
+		};;
+	-> sc_agent_of_finding_intersection_of_two_sets_scp    
+		(* 
+		<- active_sc_agent;; 
+		*);;  
+	*);;
+
+..sc_agent_of_finding_intersection_of_two_sets_condition
+= [*
+	question_of_finding_intersection_of_two_sets _-> .._question;;
+	question_initiated _-> .._question;;
+	question _-> .._question;;
+	.._question _-> rrel_1:: .._param1_set_one;;
+	.._question _-> rrel_2:: .._param2_set_two;;
+*];;
+
+..sc_agent_of_finding_intersection_of_two_sets_result
+= [*
+	question_of_finding_intersection_of_two_sets _-> .._question;;
+	question_finished _-> .._question;;
+	question _-> .._question;;
+	.._question _=> nrel_answer:: .._answer;;
+	.._question _-> rrel_1:: .._param1_set_one;;
+	.._question _-> rrel_2:: .._param2_set_two;;
+*];;

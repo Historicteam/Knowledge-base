@@ -3,4 +3,5 @@ Building_of_Residence_of_the_President_of_the_Republic_of_Belarus
 	[Здание Резиденции Президента Республики Беларусь](* <- lang_ru;; *);
 	[Residence Of The President Of The Republic Of Belarus](* <- lang_en;; *);
 	
-<- concept_building;;
+<-concept_building;
+<- concept_government_building;;

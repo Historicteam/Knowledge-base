@@ -1,0 +1,29 @@
+concept_tombstone
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[надгробный памятник](*<- lang_ru;;*);
+	[tombstone](*<- lang_en;;*);
+        [надмагільны помнік](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Надгробный памятник - крест, камень, скульптура или архитектурное сооружение, устанавливаемое на могиле для увековечения памяти умершего.]
+    (*
+    <-lang_ru;;
+    *);
+  [Tombstone is a cross, stone, sculpture or architectural structure installed on the grave to perpetuate the memory of the deceased.]
+    (*
+       <- lang_en;;
+    *);
+  [Надмагільны помнік - крыж, камень, скульптура або архітэктурнае збудаванне, якое ўстанаўліваецца на магіле для ўшанавання памяці памерлага.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

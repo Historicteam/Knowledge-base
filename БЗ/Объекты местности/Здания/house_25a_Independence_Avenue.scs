@@ -1,0 +1,32 @@
+house_25a_Independence_Avenue
+=>nrel_main_idtf:
+	[Проспект Независимости 25а]
+		(*
+		<- lang_ru;;
+		*);
+		[Independence Avenue, 25A]
+		(*
+		<- lang_en;;
+		*);
+		[Праспект Незалежнасці 25а]
+		(*
+		<- lang_by;;
+		*);
+
+		
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/MuzVOVOld.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+<-concept_building;
+<-completion_date_2014;
+<-concept_lost_constructions;;
+

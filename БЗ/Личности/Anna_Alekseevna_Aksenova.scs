@@ -1,0 +1,16 @@
+Anna_Alekseevna_Aksenova
+=> nrel_main_idtf:
+        [Анна Алексеевна Аксенова]	
+        (*
+	<- lang_ru;;
+	*);
+	[Anna Alekseevna Aksenova]
+	(*
+	<- lang_en;;
+	*);
+	[Ганна Аляксееўна Аксёнава]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-begin_date_1953;;

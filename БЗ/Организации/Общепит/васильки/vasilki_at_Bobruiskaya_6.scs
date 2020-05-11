@@ -1,0 +1,22 @@
+vasilki_at_Bobruiskaya_6
+=>nrel_main_idtf:
+    ["Васильки" на Бобруйской 6](*<-lang_ru;;*);
+    ["Vasilki" at Bobruiskaya 6](* <-lang_en;;*);
+    ["Васількі" на Бабруйскай 6](*<-lang_by;;*);
+<-concept_catering_with_waiter_service;
+<-concept_restaurant;
+=>nrel_cuisine:belarussian_cuisine;
+=>nrel_working_hours: Mon_Sun_10_00_23_00;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/vasilki_bobr_6.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_6_Bobruiskaya_street;;

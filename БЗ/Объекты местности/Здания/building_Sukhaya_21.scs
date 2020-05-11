@@ -1,0 +1,71 @@
+building_Sukhaya_21
+=> nrel_main_idtf:
+	  [Здание Сухая, 21]
+	  (*
+	    <- lang_ru;;
+	  *);
+	[The building Sukhaya, 21]
+  (*
+    <- lang_en;;
+  *);
+  [Будынак Сухая, 21]
+  (*
+    <- lang_by;;
+  *);
+<=nrel_whole_part:Sukhaya_street;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/sukhaya_21.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+
+
+	*);
+<=nrel_inclusion:minsk_ghetto;
+=> nrel_osm_query: [way(25431472);];
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[ Во время Минского гетто, здесь находилось убежище, в котором спаслись от немецких погромов 13 человек]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.903004, 27.537888]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.903004;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.537888;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<-concept_building;;

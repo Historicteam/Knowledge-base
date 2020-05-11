@@ -13,13 +13,32 @@ Church_of_St_Adalbert
 	<- lang_by;;
 	*);
 	
-<-concept_building;
+<-concept_catholic_temple;
 <-concept_terrain_object;
+<-concept_building;
 
 <- begin_date_1647;
         <- completion_date_1944;
 
+<- concept_lost_constructions;
 
+<- rrel_key_sc_element: Image_Adalbert_1871_1944
+	(*
+	=> nrel_main_idtf:
+		[Изображение костела Святого Войцеха в 1871-1944] (* <- lang_ru;; *);;
+	<-sc_illustration;;
+	<-key_image;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://contents/sadalamber1900.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		<- completion_date_2016;;		
+		*);;
+ *);
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 <= nrel_temporal_decomposition: 
     {
         Church_of_St_Adalbert_of_the_monastery_of_Benedictine
@@ -66,11 +85,11 @@ Church_of_St_Adalbert
 
          *)
       };
-
+=>nrel_osm_query:[way(35605529);];
    => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.90157,27.55486]
+	=> nrel_WGS_84_translation: [53.9050399, 27.5561731]
 		(*
 		-> ...
 			(*
@@ -79,20 +98,20 @@ Church_of_St_Adalbert
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 53.90157;;
+					-> rrel_degree: 53.54557;;
 					*);;
 				*);;
 			->rrel_longitude: ...
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 27.55486;;
+					-> rrel_degree: 27.331614;;
 					*);;
 				*);;
 			*);;
 		*);;
-	*);
-=>nrel_osm_query:[way(35605529);];;
+	*);;
+
 concept_situation->[Church_of_St_Adalbert<-concept_lost_constructions;;*]
 (*
 	 <- begin_date_1960;;

@@ -1,0 +1,18 @@
+concept_pancake_house
+=>nrel_main_idtf:
+    [pancake house](*<-lang_en;;*);
+    [блинная](*<-lang_ru;;*);
+    [бліновая](*<-lang_by;;*);
+    <- rrel_key_sc_element:
+	Definition_of_the_pancake_house_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[ Блинная - это заведение общественного питания, которое специализируется на изготовлении и последующей реализации одного вида продукции.  Основными пищевыми продуктами, которые предлагаются в блинной, выступают блины и блинчики.] (* <-lang_ru;; *);; 
+			*);;
+	*);
+<=nrel_inclusion:concept_specialized_catering_organization;
+<-sc_node_not_relation;;

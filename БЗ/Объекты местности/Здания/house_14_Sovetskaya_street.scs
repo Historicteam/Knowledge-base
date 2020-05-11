@@ -1,0 +1,32 @@
+house_14_Sovetskaya_street
+=>nrel_main_idtf:
+    [Советская дом 14](*<-lang_ru;;*);
+    [House 14 Sovetskaya](* <-lang_en;;*);
+<-concept_building;
+=> nrel_osm_query: [way(25435144);];
+<=nrel_whole_part:Sovetskaya_Street;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.894364, 27.543510]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.894364;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.543510;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;

@@ -1,0 +1,58 @@
+concept_religious_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[культовое сооружение]
+	(*
+	<- lang_ru;;
+	*);
+	[religious building]
+	(*
+	<- lang_en;;
+	*);
+	[культавы будынак]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Religious building is a structure or complex of structures for religious or religious needs (administration of services, reading prayers and appeals to God), serving God.]
+    (*
+    <- lang_en;;
+    *);
+  [Культовое сооружение — сооружение для культовых, религиозных нужд (отправления служб, чтения молитв и обращений к Богу), служения Богу.]
+    (*
+     <-lang_ru;;
+    *);
+  [Культавы будынак - будынак ці комплекс будынкаў для культавых, рэлігійных патрэб (адпраўлення службаў, чытання малітваў і зваротаў да Бога), служэння Богу.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+=> nrel_inclusion:
+inclusion_to_religious_building
+	(*
+		=> nrel_main_idtf:
+			[включение в культовое сооружение]
+			(*
+			<- lang_ru;;
+			*);
+			[inclusion to religious building]
+			(*
+			<- lang_en;;
+			*);
+			[ўключэнне ў культавы будынак]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_church;;
+        ->concept_prayer_house;;
+        ->concept_mosque;;
+        ->concept_sinagogue;;  
+	*);;
+

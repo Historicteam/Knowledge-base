@@ -1,0 +1,44 @@
+concept_motel
+=>nrel_main_idtf:
+    [мотель](*<-lang_ru;;*);
+    [motel](* <-lang_en;; *);
+    [матэль](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_motel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Мотель"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Motel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Матэль"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Моте́ль — гостиница (обычно небольшая; расположена возле автострад), ориентированная на постояльцев, путешествующих на собственном автотранспорте, вход в номера которой осуществляется с улицы (с места парковки автомобиля). Как правило, мотели имеют всего один или два этажа, количество дополнительных услуг и типов номеров минимально, что соответствует низкой стоимости проживания. Для многих людей, особенно постоянно находящихся в разъездах на своих автомобилях, мотели удобны отсутствием долгих регистрационных формальностей, возможностью иметь свою машину на виду; прямой доступ с улицы в номер также является преимуществом для инвалидов. К недостаткам мотелей относится их низкий уровень безопасности, а также минимальное обслуживание.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Motel - a hotel (usually small; located near freeways), focused on guests traveling on their own vehicles, the entrance to the rooms of which is from the street (from the parking place of the car). As a rule, motels have only one or two floors, the number of additional services and room types is minimal, which corresponds to a low cost of living. For many people, especially those who are constantly traveling on their cars, motels are comfortable with the absence of long registration formalities, the ability to have their car in sight; Direct access from the street to the room is also an advantage for the disabled. The disadvantages of motels include their low level of security, as well as minimal maintenance.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Матэль - гасцініца (звычайна невялікая; размешчана каля аўтастрад), арыентаваная на пастаяльцаў, якія вандруюць на ўласным аўтатранспарце, уваход у нумары якой ажыццяўляецца з вуліцы (з месца паркоўкі аўтамабіля). Як правіла, матэлі маюць усяго адзін ці два паверхі, колькасць дадатковых паслуг і тыпаў нумароў мінімальна, што адпавядае нізкай кошту пражывання. Для многіх людзей, асабліва якія пастаянна знаходзяцца ў раз'ездах на сваіх аўтамабілях, матэлі зручныя адсутнасцю доўгіх рэгістрацыйных фармальнасцей, магчымасцю мець сваю машыну на ўвазе; прамы доступ з вуліцы ў нумар таксама з'яўляецца перавагай для інвалідаў. Да недахопаў матэляў адносіцца іх нізкі ўзровень бяспекі, а таксама мінімальнае абслугоўванне.] (* <-lang_by;; *);; 
+			*);;
+	*);;       

@@ -1,0 +1,21 @@
+concept_coffee
+=>nrel_main_idtf:
+    [кофейня](*<-lang_ru;;*);
+    [coffee](* <-lang_en;;*);
+    [кафейня](*<-lang_by;;*);
+=>nrel_idtf:
+    [кафе](*<-lang_ru;;*);
+    [cafee](* <-lang_en;;*);
+    [кафэ](*<-lang_by;;*);
+<- rrel_key_sc_element:
+	Definition_of_the_coffee_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Кафе – организация общственного питания, где продаются горячие напитки и десертные блюда.] (* <-lang_ru;; *);; 
+			*);;
+	*);
+ <-sc_node_not_relation;;

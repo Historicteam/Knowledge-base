@@ -1,0 +1,39 @@
+concept_metro_station
+<-sc_const;
+<-sc_node_not_relation;
+<-concept_metro_line;
+=> nrel_main_idtf:
+	[станция метрополитена](*<- lang_ru;;*);
+	[metro station](*<- lang_en;;*);
+	[станцыя метрапалiтэна](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Станции используются для посадки и высадки пассажиров из вагонов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Stations are used for boarding and alighting passengers from wagons.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Станцыі выкарыстоўваюцца для пасадкі і высадкі пасажыраў з вагонаў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

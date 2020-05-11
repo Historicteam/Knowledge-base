@@ -1,0 +1,23 @@
+begin_date_21_01_1953
+=>nrel_main_idtf:
+	[время начала - 21 января 1953]
+	(*
+		<-lang_ru;;
+	*);
+	[begin date - 21 january of 1953]
+	(*
+		<-lang_en;;
+	*);
+	[час пачатку - 21 студзеня 1953]
+	(*
+		<-lang_by;;
+	*);
+=> nrel_Gregorian_calendar_scale:...
+	(*
+		<-number_of_day_in_month: [21];;
+		<-number_of_month_in_year: [1];;
+		<-number_of_year: [1953];;
+	*);
+<- begin_date_01_1953;
+<- begin_date_1953;;
+

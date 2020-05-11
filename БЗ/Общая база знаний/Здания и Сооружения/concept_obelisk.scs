@@ -1,0 +1,29 @@
+concept_obelisk
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[обелиск](*<- lang_ru;;*);
+	[obelisk](*<- lang_en;;*);
+        [абеліск](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Обелиск — сужающийся к верху монумент, в большинстве случаев квадратный в сечении. Важный элемент архитектуры Древнего Египта, где обелиски были символами Солнца. В Древнем Риме обелиски использовались как гномоны солнечных часов или поворотные знаки в цирках.]
+    (*
+    <-lang_ru;;
+    *);
+  [Obelisk is a tapering monument, in most cases square in cross section. An important element of the architecture of ancient Egypt, where the obelisks were symbols of the sun. In ancient Rome, obelisks were used as gnomes of a sundial or turning signs in circuses.]
+    (*
+       <- lang_en;;
+    *);
+  [Абеліск - звужаецца да верху манумент, у большасці выпадкаў квадратны ў перасеку. Важны элемент архітэктуры Старажытнага Егіпта, дзе абеліскі былі сімваламі Сонца. У Старажытным Рыме абеліскі выкарыстоўваліся як гноман сонечных гадзін або паваротныя знакі ў цырках.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

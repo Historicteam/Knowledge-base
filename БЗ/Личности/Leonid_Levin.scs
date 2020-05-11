@@ -1,0 +1,31 @@
+Leonid_Levin
+=> nrel_main_idtf:
+        [Леонид Менделеевич Левин]	
+        (*
+	<- lang_ru;;
+	*);
+	[Leonid Meendeleеvich Levin]
+	(*
+	<- lang_en;;
+	*);
+	[Леанід Менделеевiч Левін]
+	(*
+	<- lang_by;;
+	*);
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/levin.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+
+
+	*);
+<-concept_person;
+<-begin_date_25_07_1936;
+<-completion_date_01_05_2014;;

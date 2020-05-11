@@ -1,0 +1,85 @@
+Maladzyozhnaya_metro_station
+<- concept_metro_station;
+<- Autozavodskaya_metro_line;
+=> nrel_main_idtf:
+	[Станция метро Молодёжная](*<- lang_ru;;*);
+	[Maladzyozhnaya metro station](*<- lang_en;;*);
+	[Станцыя метро Маладзёжная](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Cтанция Автозаводской линии Минского метрополитена. Расположена между станциями «Пушкинская» и «Фрунзенская».]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Station of the Avtozavodskaya line of the Minsk metro. It is 
+Located between the Pushkinskaya and Frunzenskaya stations.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Cтанция Аўтазаводскай лініі Мінскага метрапалітэна. Размешчана паміж станцыямі «Пушкінская» і «Фрунзенская».]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- opening_date_03_07_1995;
+<- rrel_key_sc_element: Maladzyozhnaya_station_hall (*
+	=> nrel_main_idtf:
+		[Зал станции Пушкинская] (* <- lang_ru;; *);
+		[Maladzyozhnaya station hall] (* <- lang_en;; *);
+		[Зала станцыі Пушкінская] (* <- lang_by;; *);;
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Maladzyozhnaya.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=> nrel_osm_query: [node(266680843);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.906639, 27.522913]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.906639;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.522913;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+=>nrel_working_hours: Mon_Sun_05_30_01_00;
+=>nrel_neighboring_metro_station:
+	Pushkinskaya_metro_station;
+	Frunzenskaya_metro_station;;

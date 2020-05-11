@@ -5,10 +5,38 @@ The_building_of_the_Minsk_Academy_of_Music
 	[Будынак мінскай акадэміі музыкі] (* <- lang_by;; *);
 => nrel_architect: Gegart_Roman_Mikhailovich;
 <- begin_date_1958;
+<- concept_educational_building;
 <- concept_building;
 <- concept_arch_classicism;
+<=nrel_whole_part:International_Street;
 
 => nrel_osm_query: [way(25327624);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.902865, 27.557728]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.902865;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.557728;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
 
 <- rrel_key_sc_element: Image_building_Minsk_Academy_of_Music (*
 	=> nrel_main_idtf:
@@ -17,6 +45,7 @@ The_building_of_the_Minsk_Academy_of_Music
 		[Выява будынка мінскай акадэміі музыкі] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Здание минской академии музыки.jpg" (*

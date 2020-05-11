@@ -1,0 +1,48 @@
+nomination_main_feature_film_competition_listapad
+<-concept_nomination;
+=>nrel_main_idtf:
+    [Основной конкурс игрового кино (Лістапад)] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+    [Main feature film competition (Listapad)] (* <-lang_en;; *);
+=>nrel_main_idtf:
+    [Асноўны конкурс ігравога кіно (Лістапад)] (* <-lang_by;; *);;
+
+concept_situation->[*
+nomination_main_feature_film_competition_listapad
+->rrel_participant:film_the_secret_of_a_leader;
+->rrel_participant:film_the_painted_bird;
+->rrel_participant:film_kerosene;
+->rrel_participant:film_the_criminal_man;
+->rrel_participant:film_inhale_exhale;
+->rrel_participant:film_and_then_we_danced;
+->rrel_participant:film_atlantis;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени участников основного конкурса игрового кино минского международного кинофестиваля "Листапад" 2019]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_01_11_2019;;
+        <-completion_date_08_11_2019;;
+*);;
+
+concept_situation->[*
+nomination_main_feature_film_competition
+->rrel_participant:film_i_dont_care;
+->rrel_participant:film_yuli;
+->rrel_participant:film_volcano;
+->rrel_participant:film_load;
+->rrel_participant:film_the_third_wife;
+=>nrel_grand_prix:film_i_dont_care;
+=>nrel_special_jury_award:film_the_third_wife;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени участников основного конкурса игрового кино минского международного кинофестиваля "Листапад" 2018]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_02_11_2018;;
+        <-completion_date_09_11_2018;;
+*);;

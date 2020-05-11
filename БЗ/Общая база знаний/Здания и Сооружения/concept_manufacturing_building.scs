@@ -1,0 +1,29 @@
+concept_manufacturing_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[производственное здание](*<- lang_ru;;*);
+	[manufacturing buiding](*<- lang_en;;*);
+        [вытворчы будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Manufacturing building is a building, which houses the main technological processes of the enterprise (open-hearth, rolling, assembly, weaving, pastry shops, etc.).]
+    (*
+    <- lang_en;;
+    *);
+  [Производственное здание - здание, в котором размещаются основные технологические процессы предприятия (мартеновские, прокатные, сборочные, ткацкие, кондитерские цехи и др.).]
+    (*
+     <-lang_ru;;
+    *);
+  [Вытворчы будынак - будынак, у якім размяшчаюцца асноўныя тэхналагічныя працэсы прадпрыемствы (мартеновской, пракатныя, зборачныя, ткацкія, кандытарскія цэхі і інш.).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

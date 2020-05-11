@@ -1,0 +1,17 @@
+concept_uprising
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[восстание]
+	(*
+	<- lang_ru;;
+	*);
+	[uprising]
+	(*
+	<- lang_en;;
+	*);
+	[паўстанне]
+	(*
+	<- lang_by;;
+	*);;
+	

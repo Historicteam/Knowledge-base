@@ -1,0 +1,6 @@
+state_lbssr
+=> nrel_main_idtf:
+  [Литовско-Белорусская Советская Социалистическая Республика] (* <- lang_ru;; *);
+  [Lithuanian–Byelorussian Soviet Socialist Republic] (* <- lang_en;; *);
+  [Літоўска-Беларуская Савецкая Сацыялістычная Рэспубліка] (* <- lang_by;; *);
+<-concept_socialist_state;;

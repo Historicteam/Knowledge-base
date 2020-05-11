@@ -1,0 +1,50 @@
+concept_trolleybus
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[троллейбус](*<- lang_ru;;*);
+	[trolleybus](*<- lang_en;;*);
+	[тралейбус](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Безрельсовое механическое транспортное средство контактного типа с электрическим приводом, получающее электрический ток от внешнего источника питания через двухпроводную контактную сеть с помощью штангового токоприёмника и сочетающее в себе преимущества трамвая и автобуса.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A trackless electric motor vehicle of a contact type, which receives electric current from an external power source through a two-wire contact network using a rod current collector and combines the advantages of a tram and a bus.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Бязрэйкавы механiчны транспартны сродак кантактнага тыпу з электрычным прывадам, якi атрымлiвае электрычны ток ад вонкавай крыніцы харчавання праз двухправодную кантактную сетку з дапамогай штангавай токапрымача і якое спалучае ў сабе перавагі трамвая і аўтобуса.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/trolleybus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

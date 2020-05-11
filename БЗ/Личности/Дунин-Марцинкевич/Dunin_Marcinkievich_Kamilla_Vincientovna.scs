@@ -18,6 +18,7 @@ Dunin_Marcinkievich_Kamilla_Vincientovna
 		<-lang_en;;
 	*);
 <-concept_woman;
+<-concept_person;
 =>nrel_first_name:name_Kamilla;
 =>nrel_parent:Dunin_Marcinkievich_Vincent_Ivanovich;
 =>nrel_parent:Baranovskaja_Juziefa;

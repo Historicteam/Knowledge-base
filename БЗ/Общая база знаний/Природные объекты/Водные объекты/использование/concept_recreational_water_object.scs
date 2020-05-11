@@ -1,0 +1,46 @@
+concept_recreational_water_object
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[рекреационный водный объект]
+(*
+<- lang_ru;;
+*);
+[рэкрэацыйны водны аб'ект]
+(*
+<- lang_by;;
+*);
+[recreational water object]
+(*
+<- lang_en;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Данные водные объекты используются как ресурсы способствующие восстановлению и развитию духовных и физических сил человека, его трудоспособности.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Дадзеныя водныя аб'екты выкарыстоўваюцца як рэсурсы спрыяюць аднаўленню і развіццю духоўных і фізічных сіл чалавека, яго працаздольнасці.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ These water objects are used as resources contributing to the restoration and development of the spiritual and physical forces of man, his ability to work.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);;

@@ -1,0 +1,30 @@
+zamchische_defenses
+
+=> nrel_main_idtf:
+    [Оборонительные сооружения Замчища] (* <- lang_ru;; *);
+    [Fortifications of the Zamchische] (* <- lang_en;; *);
+    [Абарончыя збудаванні Замчышча] (* <- lang_by;; *);
+
+<- rrel_key_sc_element: Picture_of_fortifications_around_the_Zamchische (*
+	=> nrel_main_idtf:
+		[Изображение оборонительных сооружений вокруг Замчища] (* <- lang_ru;; *);
+		[Picture of fortifications around the Zamchische] (* <- lang_en;; *);
+		[Выява абарончых збудаванняў вакол Замчышча] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//zamchische_defenses.gif" (*
+				=> nrel_format: format_gif;;
+			*);;
+		*);;
+	*); 
+
+	<= nrel_subdividing: ...
+	(*
+		-> fortress_gates_of_the_zamchische;;
+		-> walls_around_the_zamchische;;
+	*);
+
+<- concept_defenses;
+<- concept_lost_archaeological_monument;;

@@ -1,26 +1,89 @@
 concept_structure
-<- sc_node_not_relation;
+<-sc_const;
+<-sc_node_not_relation;
 => nrel_main_idtf:
-	[cооружение]
-	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятие сооружения]
-	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_structure
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [ это результат строительной деятельности для осуществления определённых потребительских функций.Используется не для жилищно-бытовых функций.](* <-lang_ru;; *);;
-		*);;
-=>nrel_subdividing:
-...
+	
+	[сооружение](*<- lang_ru;;*);
+	[structure](*<- lang_en;;*);
+        [будаванне](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Structure is a three-dimensional, planar or linear construction system that has ground, elevated and (or) underground parts, consisting of supporting and, in some cases, enclosing building structures and intended to perform various types of production processes, storage of products, temporary stay of people, movement of people and goods.]
+    (*
+    <- lang_en;;
+    *);
+  [Сооружение — это объемная, плоскостная или линейная строительная система, имеющая наземную, надземную и (или) подземную части, состоящая из несущих, а в отдельных случаях и ограждающих строительных конструкций и предназначенная для выполнения производственных процессов различного вида, хранения продукции, временного пребывания людей, перемещения людей и грузов.]
+    (*
+     <-lang_ru;;
+    *);
+  [Будаванне - гэта аб'ёмная, плоскасная або лінейная будаўнічая сістэма, якая мае наземную, надземную і (або) падземную часткі, якая складаецца з апорных, а ў асобных выпадках і якія агароджваюць будаўнічых канструкцый і прызначаны для выканання вытворчых працэсаў рознага выгляду, захоўвання прадукцыі, часовага знаходжання людзей, перамяшчэння людзей і грузаў.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+<= nrel_subdividing:
+subdividing_of_structure_functionality
 	(*
-->concept_hydraulic_engineering;
-concept_social;
-concept_fortification;;
+		=> nrel_main_idtf:
+			[разбиение сооружения по функциональности]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of structure by functionality]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё будавання па функцыянальнасці]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_hydrotechnical_sructure;;
+        ->concept_underground_structure;;
+        ->concept_fortification_structure;;
+        ->concept_memorial_structure;;
+        ->concept_small_architectural_form;;
+	*);
+=> nrel_inclusion:
+inclusion_to_structure_type
+	(*
+		=> nrel_main_idtf:
+			[включение в сооружение по типу сооружения]
+			(*
+			<- lang_ru;;
+			*);
+			[inclusion to structure by type of structure]
+			(*
+			<- lang_en;;
+			*);
+			[ўключэнне ў будаванне па тыпу будавання]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_tower;;
+        ->concept_bridge;;
+        ->concept_railways;;
+        ->concept_airdrome;;
+        
+        ->concept_statue;;
+        ->concept_tombstone;;
+        ->concept_technical_monument;;
+        ->concept_memorial_plaque;;
+        ->concept_triumphal_arch;;
+        ->concept_faked_pillar;;
+        ->concept_obelisk;;
+
+        ->concept_gazebo;;
+        ->concept_fence;;
+        ->concept_fountain;;
+        ->concept_stairs;;
+        ->concept_stable;;
+        ->concept_chapel;;
+        ->concept_wing;;
 	*);;
-*);;
 

@@ -1,25 +1,37 @@
 concept_mosque
-<- sc_node_not_relation;
+<-sc_const;
+<-sc_node_not_relation;
 => nrel_main_idtf:
-	[Мечеть]
-	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятия мечеть]
-	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_mosque
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [Молитвенное здание у мусульман.](* <-lang_ru;; *);;
-		*);;
-	<= nrel_using_constants:
-		...
-		(* 
-		-> concept_building_god;;
-		*);;
-	*);;
-
+	[мечеть]
+	(*
+	<- lang_ru;;
+	*);
+	[mosque]
+	(*
+	<- lang_en;;
+	*);
+	[мячэць]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Mosque is a muslim prayer (liturgal) building.]
+    (*
+    <- lang_en;;
+    *);
+  [Мечеть - мусульманское молитвенное (богослужебное) сооружение.]
+    (*
+     <-lang_ru;;
+    *);
+  [Мячэць - мусульманскае мальтоўнае (богаслужбовае) будаванне.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
 

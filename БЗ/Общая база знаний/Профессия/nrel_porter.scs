@@ -1,0 +1,24 @@
+nrel_porter
+=>nrel_main_idtf:
+	[носильщик*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[porter*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[насільшчык*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[Носильщик — человек, переноской багажа постояльцев до/из номера.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+=> nrel_first_domain:
+    concept_person;
+=> nrel_second_domain:
+    concept_hotel;
+<-sc_const;
+<-sc_node_norole_relation;;

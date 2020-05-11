@@ -1,0 +1,44 @@
+concept_wednesday
+    => nrel_main_idtf:
+    [среда](* <- lang_ru;; *);
+    [серада](* <-lang_by;;*);
+    [wednesday](*<-lang_en;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_wednesday
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "среда"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of concept wednesday]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "серада"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[среда - третий день недели] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+            [wednesday is third day of the week](*<-lang_en;;*);;
+            *);
+			...
+			(* 
+			-> rrel_example:
+			[ серада - трэці дзень тыдня ] (* <-lang_by;; *);; 
+			*);;
+	*);
+	<=nrel_inclusion:day;
+    <-rrel_number_of_day_in_week:3;;

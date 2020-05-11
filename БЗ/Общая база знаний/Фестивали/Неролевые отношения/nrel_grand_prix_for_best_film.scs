@@ -1,0 +1,37 @@
+nrel_grand_prix
+<-sc_node_norole_relation;
+<-relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<-binary_relation;
+<-oriented_relation;
+=> nrel_main_idtf:
+	[гран-при*]
+	(*
+	<- lang_ru;;
+	*);
+	[grand prix*]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_first_domain:
+	...
+	(*
+	->concept_competition;;
+	->concept_nomination;;
+	*);
+=> nrel_second_domain:concept_film;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Гран-при - главная награда на курсе или в соревновании.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,32 @@
+house_38_Independence_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости 38](*<-lang_ru;;*);
+    [House 38 Independence Avenue](* <-lang_en;;*);
+<-concept_building;
+=> nrel_osm_query: [way(25431518);];
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9078534, 27.5754834]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9078534;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5754834;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;

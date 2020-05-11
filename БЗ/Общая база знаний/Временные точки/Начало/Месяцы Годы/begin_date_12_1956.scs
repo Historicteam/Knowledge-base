@@ -1,0 +1,22 @@
+begin_date_12_1956
+=> nrel_main_idtf:
+   [время начала - декабрь 1956]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - december of 1956]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - снежань 1956]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_month_in_year: [12];;
+   <- number_of_year: [1956];;
+   *);
+   <- begin_date_1956;;

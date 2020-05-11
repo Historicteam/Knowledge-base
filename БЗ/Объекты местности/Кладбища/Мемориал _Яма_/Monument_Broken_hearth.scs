@@ -1,0 +1,57 @@
+Monument_Broken_hearth
+<-concept_memorial_complex;
+=> nrel_main_idtf:
+	[Памятник «Разбитый очаг»]
+	(*
+	<- lang_ru;;
+	*);
+	[Monument "Broken hearth"]
+	(*
+	<- lang_en;;
+	*);
+	[Помнік «Разбіты ачаг»]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_memory_of:minsk_ghetto;
+=>nrel_osm_query:[way(99884355);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9024132, 27.5357877]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9024132;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5357877;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/table_monument.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+=>nrel_architect:Leonid_Levin;
+->begin_date_22_10_2008;;

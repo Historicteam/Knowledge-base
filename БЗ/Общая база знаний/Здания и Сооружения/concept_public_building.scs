@@ -1,24 +1,64 @@
 concept_public_building
-<- sc_node_not_relation;
+<-sc_const;
+<-sc_node_not_relation;
 => nrel_main_idtf:
-	[Общественное здание]
-	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятие общественного здания]
-	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_public_building
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [Общественные здания - здания, предназначенные для размещения в них учреждений культурно-бытового обслуживания населения, административные учреждений и т.д.] (* <-lang_ru;; *);;
-		*);;
-	<= nrel_using_constants:
-		...
-		(* 
-		-> concept_building;
-concept_civil;;
-		*);;
+	[общественное здание]
+	(*
+	<- lang_ru;;
+	*);
+	[public building]
+	(*
+	<- lang_en;;
+	*);
+	[грамадскі будынак]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Public building is a building designed to house institutions, enterprises, organizations providing services for individuals or legal entities.]
+    (*
+    <- lang_en;;
+    *);
+  [Общественное здание - здание, предназначенное для размещения учреждений, предприятий, организаций, предоставляющих услуги для физических или юридических лиц.]
+    (*
+     <-lang_ru;;
+    *);
+  [Грамадскі будынак - будынак, прызначаны для размяшчэння устаноў, прадпрыемстваў, арганізацый, якія прадстаўляюць паслугі для фізічных або юрыдычных асоб.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+<= nrel_subdividing:
+subdividing_of_public_building
+	(*
+		=> nrel_main_idtf:
+			[разбиение общественного здания]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of public building]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё грамадскага будынка]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_educational_building;;
+        ->concept_research_building;;
+        ->concept_sports_building;;
+        ->concept_healthcare_building;;
+        ->concept_cultural_building;;
+        ->concept_trade_enterprise_building;;
+        ->concept_transport_service_building;;
+        ->concept_utility_building;;
+        ->concept_office_building;;
+        ->concept_government_building;;
 	*);;
+

@@ -1,0 +1,24 @@
+begin_date_03_08_1966
+=> nrel_main_idtf:
+   [время начала - 3 августа 1966]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 3 august of 1966]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 3 жніўня 1966]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [3];;
+   <- number_of_month_in_year: [8];;
+   <- number_of_year: [1966];;
+   *);
+   <- begin_date_08_1966;
+   <- begin_date_1966;;

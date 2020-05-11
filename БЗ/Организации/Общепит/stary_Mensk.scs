@@ -1,0 +1,9 @@
+stary_Mensk
+=>nrel_main_idtf:
+	[Стары Менск](* <-lang_en;;*);
+	[Стары Менск](* <-lang_ru;;*); 
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Sun_Thu_12_00_00_00;
+=>nrel_working_hours: Fri_Sat_12_00_02_00;
+=>nrel_location:house_14_Independence_Avenue;;

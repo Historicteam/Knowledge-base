@@ -1,0 +1,24 @@
+nrel_hotelier
+=>nrel_main_idtf:
+	[отельер*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[hotelier*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[отельеры*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* -> rrel_example:
+			[Отельер — человек, занимающийся общим управлением гостиницей.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+=> nrel_first_domain:
+    concept_person;
+=> nrel_second_domain:
+    concept_hotel;
+<-sc_const;
+<-sc_node_norole_relation;;

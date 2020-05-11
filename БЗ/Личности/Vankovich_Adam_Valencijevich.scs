@@ -14,6 +14,7 @@ Vankovich_Adam_Valencijevich
 	*);
 
 <-concept_male;
+<-concept_person;
 =>nrel_social_status: concept_titled_nobility;
 =>nrel_social_status: concept_ancestral_nobility;
 <=>nrel_spouse: Kljachkovskaya_Amelija;

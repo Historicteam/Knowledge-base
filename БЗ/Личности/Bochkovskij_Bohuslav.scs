@@ -13,5 +13,6 @@ Bochkovskij_Bohuslav
 		<-lang_by;;
 	*);
 <-concept_male;
+<- concept_person;
 =>nrel_first_name:name_Bohuslav;
 =>nrel_surname:surname_Bochkovskij;;

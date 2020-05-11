@@ -1,0 +1,44 @@
+concept_three_stars_hotel
+=>nrel_main_idtf:
+    [гостиница три звезды](*<-lang_ru;;*);
+    [three stars hotel](* <-lang_en;; *);
+    [гатэль тры зоркі](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_three_stars_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Гостиница три звезды"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Three star hotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Гатэль тры зоркі"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Три звезды — гостиница среднего класса со стандартным набором услуг: ежедневная уборка номеров, санузел, телевизор, мини-бар или холодильник в каждом номере; на территории гостиницы имеются прачечная для постояльцев, бассейн, тренажёрный зал, бизнес-центр, место для предоставляемого гостиницей завтрака. Некоторые из этих услуг могут отсутствовать, в то же время могут быть другие. Наличие различных типов номеров (одноместные, двухкомнатные, для курящих, не курящих и так далее), а также наличие своей электрической подстанции на случай внепланового отключения света в городе.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Тры зоркі - гасцініца сярэдняга класа са стандартным наборам паслуг: штодзённая ўборка нумароў, санвузел, тэлевізар, міні-бар ці халадзільнік ў кожным нумары; на тэрыторыі гасцініцы маюцца пральня для пастаяльцаў, басейн, трэнажорная зала, бізнес-цэнтр, месца для прадастаўляецца гасцініцай сняданку. Некаторыя з гэтых паслуг могуць адсутнічаць, у той жа час могуць быць іншыя. Наяўнасць розных тыпаў нумароў (аднамесныя, двухпакаёвыя, для тых, хто паліць, ня паляць і гэтак далей), а таксама наяўнасць сваёй электрычнай падстанцыі на выпадак пазапланавага адключэння святла ў горадзе.] (* <-lang_by;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Three stars - a middle-class hotel with a standard set of services: daily room cleaning, a bathroom, a TV, a minibar or a refrigerator in each room; the hotel has a laundry room for guests, a swimming pool, a gym, a business center, a place for breakfast provided by the hotel. Some of these services may not be available, while others may be. The presence of various types of rooms (single, two-room, for smokers, non-smokers, and so on), as well as the availability of its own electrical substation in case of unplanned blackouts in the city.] (* <-lang_en;; *);; 
+			*);;
+	*);;       

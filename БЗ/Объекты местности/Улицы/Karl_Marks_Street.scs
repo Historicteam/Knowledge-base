@@ -1,7 +1,0 @@
-Karl_Marks_Street
-=> nrel_main_idtf:
-	[Улица Карла Маркса](* <- lang_ru;; *);
-	[K.Marks's Street](* <- lang_en;; *);
-	[Вуліца Карла Маркса](* <- lang_by;; *);
-	
-<- concept_street;;

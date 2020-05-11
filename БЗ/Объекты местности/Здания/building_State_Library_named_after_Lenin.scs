@@ -13,12 +13,14 @@ building_State_Library_named_after_Lenin
 		<- lang_by;;
 		*);
 
+<-concept_cultural_building;
 <-concept_building;
 <-concept_library;
 
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;	
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -28,8 +30,8 @@ building_State_Library_named_after_Lenin
             *);;
 		*);;
 	*);
-
-=> nrel_osm_query: [way(25319604);];
+<=nrel_whole_part:Krasnoarmiejskaja_street;
+=> nrel_osm_query: [way(25326687);];
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

@@ -1,5 +1,6 @@
 Building_Institute_Belpromproekt
-<- concept_building;
+<- concept_office_building;
+<-concept_building;
 => nrel_main_idtf:
 	[Площадь Свободы, 17] (* <- lang_ru;; *);
 	[Freedom Square, 17] (* <- lang_en;; *);
@@ -8,7 +9,8 @@ Building_Institute_Belpromproekt
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -29,7 +31,7 @@ Building_Institute_Belpromproekt
 		...
 		(*
 		-> rrel_example:
-			[Будынак быў пабудавана ў 1969 годзе. Цяпер здаецца пад офісы.]
+			[Будынак быў пабудаваны ў 1969 годзе. Цяпер здаецца пад офісы.]
 			(*
 			<- lang_by;;
 			*);;
@@ -39,4 +41,32 @@ Building_Institute_Belpromproekt
 
 => nrel_osm_query: [way(25387324);];
 => nrel_have_a_number:
-	17;;
+	17;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.904452, 27.553556]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.904452;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.553556;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- begin_date_1969;;

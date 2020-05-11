@@ -6,10 +6,13 @@ Building_trade_rows
 
 => nrel_osm_query: [way(347338490);];
 
+<- begin_date_1817;
+
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -157,8 +160,9 @@ concept_situation-> [*
     Building_trade_rows 
     <- rrel_key_sc_element: Image_building_shopping_malls_1920 
     (*
-    <- sc_illustration;;
-    <= nrel_sc_text_translation: ... 
+	<- sc_illustration;;
+	<-key_image;;
+	<= nrel_sc_text_translation: ... 
             (*
             ->rrel_example: "file://contents//Торговые ряды.jpg"
                         (*

@@ -1,0 +1,32 @@
+vegan_cuisine
+=>nrel_main_idtf:
+    [Веганская кухня](*<-lang_ru;;*);
+    [Веганская  кухня](*<-lang_by;;*);
+    [Vegan cuisine](*<-lang_en;;*);
+<-concept_cuisine;
+<- rrel_key_sc_element:
+	 Definition_of_the_vegan_cuisine
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "веганская кухня"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of vegan cuisine]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "веганская кухня"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Веганская кухня - кухня характеризующаяся отсутствием пищи животного происхождения] (* <-lang_ru;; *);; 
+			*);;
+
+	*);;

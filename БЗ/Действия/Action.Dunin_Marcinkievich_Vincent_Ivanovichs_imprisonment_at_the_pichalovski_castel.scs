@@ -8,5 +8,5 @@ Action.Dunin_Marcinkievich_Vincent_Ivanovichs_imprisonment_at_the_pichalovski_ca
 =>nrel_object:Dunin_Marcinkievich_Vincent_Ivanovich;
 =>nrel_initiator:organization_the_minsk_investigative_commission;
 =>nrel_location:Pichalovski_Castle;
-<-begin_date_1864;
-<-completion_date_1865;;
+=>nrel_begin_date:begin_date_1864;
+=>nrel_completion_date:completion_date_1865;;

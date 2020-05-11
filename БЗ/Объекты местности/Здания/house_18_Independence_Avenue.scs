@@ -1,0 +1,32 @@
+house_18_Independence_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости 18](*<-lang_ru;;*);
+    [House 18 Independence Avenue](* <-lang_en;;*);
+<-concept_building;
+=> nrel_osm_query: [way(35995661);];
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.8994373, 27.5573463]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.8994373;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5573463;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;

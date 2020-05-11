@@ -5,5 +5,5 @@ Action.shooting_Tjundevickij_Mihail_Efim_Melhiorovich
 
 =>nrel_object: Tjundevickij_Mihail_Efim_Melhiorovich;
 =>nrel_location: concept_Igumensk_outpost;
-<-begin_date_21_06_1863;
+=>nrel_begin_date:begin_date_21_06_1863;
 <-action.shooting;;

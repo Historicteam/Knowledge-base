@@ -1,0 +1,29 @@
+concept_energy_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[энергетическое здание](*<- lang_ru;;*);
+	[energy buiding](*<- lang_en;;*);
+        [энергетычны будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Energy building is a building, which houses the installation, supplying the enterprise with electricity, compressed air, steam and gas (CHP, compressor, gas and blower stations, etc.).]
+    (*
+    <- lang_en;;
+    *);
+  [Энергетическое здание - здание, в котором размещаются установки, снабжающие предприятие электроэнергией, сжатым воздухом, паром и газом (ТЭЦ, компрессорные, газогенераторные и воздуходувные станции и др.).]
+    (*
+     <-lang_ru;;
+    *);
+  [Энергетычны будынак -будынак, у якім размяшчаюцца ўстаноўкі, якія забяспечваюць прадпрыемства электраэнергіяй, сціснутым паветрам, парай і газам (ЦЭЦ, кампрэсарныя, газогенераторные і паветраўдуўныя станцыі і інш.).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

@@ -1,0 +1,37 @@
+concept_prayer_house
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[молельный дом]
+	(*
+	<- lang_ru;;
+	*);
+	[prayer house]
+	(*
+	<- lang_en;;
+	*);
+	[малельны дом]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Prayer building is a name of a church building (church) with evangelical Christians (Baptists, Pentecostals), Seventh-day Adventists and some other Protestant denominations.]
+    (*
+    <- lang_en;;
+    *);
+  [Молельный дом — название богослужебного сооружения (церкви) у евангельских христиан (баптистов, пятидесятников), адвентистов седьмого дня и некоторых других протестантских деноминаций.]
+    (*
+     <-lang_ru;;
+    *);
+  [Малельны дом - назва богаслужбовага будавання (царквы) у евангельскіх хрысціян (баптыстаў, пяцідзесятнікаў), адвентыстаў сёмага дня і некаторых іншых пратэстанцкіх дэнамінацыяў.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

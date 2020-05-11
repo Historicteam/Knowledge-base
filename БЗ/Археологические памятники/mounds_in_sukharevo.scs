@@ -1,0 +1,90 @@
+mounds_in_sukharevo
+
+=> nrel_main_idtf:
+    [Сухаревские курганы] (* <- lang_ru;; *);
+    [Mounds in sukharevo] (* <- lang_en;; *);
+    [Сухараўскія курганы] (* <- lang_by;; *);
+
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Объект историко-культурного наследия, памятник археологии X-XII вв.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [Object of historical and cultural heritage, a monument of archeology X-XII centuries.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Аб'ект гісторыка-культурнай спадчыны, помнік археалогіі Х-ХІІ ст.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+=> nrel_osm_query: [node(5728269188);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.879763, 27.449527]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.879763;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.449527;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_a_plate_on_one_of_the_mounds_in_Sukharevo (*
+	=> nrel_main_idtf:
+		[Изображение таблички на одном из курганов] (* <- lang_ru;; *);
+		[Picture of a plate on one of the mounds] (* <- lang_en;; *);
+		[Выява таблічкі на адным з курганоў] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//mounds_in_sukharevo.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_the_plan_of_barrow_burial (*
+	=> nrel_main_idtf:
+		[Изображение плана частично курганного могильника, сохранившийся в Сухарево] (* <- lang_ru;; *);
+		[Picture of the plan of the partly barrow burial, preserved in Sukharevo] (* <- lang_en;; *);
+		[Выява плану часткова курганнага могільніка, які захаваўся ў Сухарава] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//plan_of_mounds_in_suharevo.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+=> nrel_number_of_mounds: [16];
+=> nrel_height: [1,5 - 3];
+
+<- concept_burial_mound;;

@@ -1,0 +1,29 @@
+concept_airdrome
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[аэродром](*<- lang_ru;;*);
+	[airdrome](*<- lang_en;;*);
+        [аэрадром](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Аэродром — земельный или водный участок с воздушным пространством, сооружениями и оборудованием, обеспечивающими взлёт, посадку, руление, размещение и обслуживание самолётов, вертолётов и планёров.]
+    (*
+    <-lang_ru;;
+    *);
+  [Airdrome is a land or water area with airspace, facilities and equipment that provide takeoff, landing, taxiing, accommodation and maintenance of aircraft, helicopters and gliders.]
+    (*
+       <- lang_en;;
+    *);
+  [Аэрадром - зямельны або водны ўчастак з паветранай прасторай, пабудовамі і абсталяваннем, якія забяспечваюць ўзлёт, пасадку, руленнем, размяшчэнне і абслугоўванне самалётаў, верталётаў і планёра.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

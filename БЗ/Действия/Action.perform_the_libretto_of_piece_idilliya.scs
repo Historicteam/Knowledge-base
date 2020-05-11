@@ -7,5 +7,5 @@ Action.perform_the_libretto_of_piece_idilliya
 <-action.perform_a_libretto;
 =>nrel_performer:Dunin_Marcinkievich_Kamilla_Vincientovna;
 =>nrel_object:libretto_of_piece_idilliya;
-<-begin_date_09_02_1852;
-<-completion_date_09_02_1852;;
+=>nrel_begin_date:begin_date_09_02_1852;
+=>nrel_completion_date:completion_date_09_02_1852;;

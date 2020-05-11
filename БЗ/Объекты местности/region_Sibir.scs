@@ -1,0 +1,6 @@
+region_Sibir 
+=> nrel_main_idtf:
+	[Сибирь](* <-lang_ru;; *);
+	[Сибир](*<- lang_by;; *);
+	[Sibir](* <- lang_en;; *);
+<-sc_node_not_relation;;

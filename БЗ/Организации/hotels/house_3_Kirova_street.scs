@@ -1,0 +1,16 @@
+house_3_Kirova_street
+=>nrel_main_idtf:
+	[Улица Кирова 3]
+		(*
+		<- lang_ru;;
+		*);
+		[Kirova street, 3]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца Кiрава 3]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part:Kirova_Street;
+<-concept_building;;

@@ -1,0 +1,45 @@
+film_festival_listapad
+<-concept_film_festival;
+=>nrel_main_idtf:
+  [Минский международный кинофестиваль "Лістапад"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [Minsk international film festival "Listapad"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [Мінскі міжнародны кінафестываль "Лістапад"] (* <-lang_by;; *);
+<=nrel_subdividing:
+  ...
+  (*
+  ->nomination_main_feature_film_competition_listapad;;
+  ->nomination_youth_on_the_march_listapad;;
+  ->nomination_documentary_listapad;;
+  ->nomination_national_film_schools_listapad;;
+  ->nomination_national_competition_listapad;;
+  ->nomination_listapadzik;;
+  *);
+=>nrel_founder:organization_The_Ministry_of_Culture_of_The_Republic_of_Belarus;;
+
+concept_situation->[*
+film_festival_listapad
+<=nrel_org:organization_artcorporation;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени, когда организация "Арт Корпорейшн" была организатором минского международного кинофестиваля "Листапад" 2019]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_2010;;
+*);;
+
+concept_situation->[*
+film_festival_listapad
+=>nrel_general_partner:organization_belarusbank;;
+*]
+(*
+      =>nrel_main_idtf:
+        [Контур периода времени, когда "Беларусбанк" была генеральным партнером минского международного кинофестиваля "Листапад" 2019]
+        (*
+          <-lang_ru;;
+        *);;
+        <-begin_date_11_2018;;
+*);;

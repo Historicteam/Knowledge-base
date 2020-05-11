@@ -1,0 +1,10 @@
+Sciah_Svabody
+=>nrel_main_idtf:
+	[Газета "Сьцяг свободы"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Newspaper "Sciah svabody"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Газета "Сцяг свабоды"] (* <-lang_by;; *);
+	
+<-concept_periodical;	
+<-sc_const;;

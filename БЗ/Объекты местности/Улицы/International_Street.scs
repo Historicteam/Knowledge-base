@@ -6,11 +6,4 @@ International_Street
 			(*
 			<- lang_by;;
 			*);
-	<= nrel_subdividing: 
-	{
-	house_31_International_street;
-	Moniuszkos_House;
-	Brons_House
-	};
 	<- concept_street;;
-

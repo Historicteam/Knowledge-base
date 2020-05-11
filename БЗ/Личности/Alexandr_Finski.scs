@@ -1,0 +1,28 @@
+Alexandr_Finski
+=>nrel_main_idtf:
+	[Финский Александр Михайлович]
+	(*
+	<-lang_ru;;
+	*);
+	[Finskiy Alexandr Mikhaylovich]
+	(*
+	<-lang_en;;
+	*);
+	[Аляксандр Міхайлавіч Фінскі]
+	(*
+	<-lang_by;;
+	*);
+<-begin_date_02_12_1953;
+<-concept_person;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Alexandr_Finski.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;

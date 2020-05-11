@@ -1,0 +1,29 @@
+concept_fortification_structure
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[фортификационное сооружение](*<- lang_ru;;*);
+	[fortification strucure](*<- lang_en;;*);
+        [фартыфікацыйнае будаванне](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Фортификационное сооружение - сооружение, предназначенное для укрытого размещения и наиболее эффективного применения оружия, военной техники, пунктов управления, а также для защиты войск, населения и объектов тыла государства от воздействия средств поражения противника.]
+    (*
+    <-lang_ru;;
+    *);
+  [Fortification structure is a facility designed for the sheltered deployment and the most efficient use of weapons, military equipment, command and control points, as well as for the protection of troops, population and objects of the state’s rear from the effects of enemy weapons.]
+    (*
+       <- lang_en;;
+    *);
+  [Фартыфікацыйнае будаванне - будаванне, прызначанае для схаванага размяшчэння і найбольш эфектыўнага прымянення зброі, ваеннай тэхнікі, пунктаў кіравання, а таксама для абароны войскаў, насельніцтва і аб'ектаў тылу дзяржавы ад уздзеяння сродкаў паразы суперніка.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

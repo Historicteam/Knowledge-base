@@ -1,0 +1,32 @@
+house_9_Sovetskaya_street
+=>nrel_main_idtf:
+    [Советская дом 9](*<-lang_ru;;*);
+    [House 9 Sovetskaya](* <-lang_en;;*);
+<-concept_building;
+=> nrel_osm_query: [node(1244311402);];
+<=nrel_whole_part:Sovetskaya_Street;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.894953, 27.543555]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.894953;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.543555;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;

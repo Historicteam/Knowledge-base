@@ -1,0 +1,30 @@
+concept_kirkha
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[кирха](*<- lang_ru;;*);
+	[kirkha](*<- lang_en;;*);
+        [кірха](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Kirkha is a lutheran ritual building]
+    (*
+    <- lang_en;;
+    *);
+  [Кирха - лютеранское обрядное сооружение.]
+    (*
+     <-lang_ru;;
+    *);
+  [Кірха - лютэранскае абраднае будаванне.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

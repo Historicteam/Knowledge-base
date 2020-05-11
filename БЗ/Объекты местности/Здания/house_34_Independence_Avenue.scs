@@ -1,0 +1,32 @@
+house_34_Independence_Avenue
+=>nrel_main_idtf:
+    [Проспект Независимости 34](*<-lang_ru;;*);
+    [House 34 Independence Avenue](* <-lang_en;;*);
+<-concept_building;
+=> nrel_osm_query: [way(25431867);];
+<=nrel_whole_part:Independence_Avenue;
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9069696, 27.5737976]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9069696;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5737976;;
+					*);;
+				*);;
+			*);;
+		*);;
+*);;

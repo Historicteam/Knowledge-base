@@ -1,0 +1,20 @@
+You_coffee_L_Bedy_45
+=>nrel_main_idtf:
+    [Ю кофе на Беды 45](*<-lang_ru;;*);
+    [you coffee at Bedy 45](* <-lang_en;;*);
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_8_00_23_00; 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/youcoffee_L_bedy.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_45_L_Bedy_street;;

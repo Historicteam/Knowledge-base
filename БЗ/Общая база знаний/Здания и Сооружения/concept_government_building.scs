@@ -1,0 +1,29 @@
+concept_government_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[здание органов управления](*<- lang_ru;;*);
+	[government buiding](*<- lang_en;;*);
+        [будынак органаў кіравання](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Government building is a building designed to house government bodies (ministries, state committees).]
+    (*
+    <- lang_en;;
+    *);
+  [Здание органов управления - здание, предназначенное для размещения органов государственного управления (министерства, государственные комитеты).]
+    (*
+     <-lang_ru;;
+    *);
+  [Будынак органаў кіравання - будынак, прызначаны для размяшчэння органаў дзяржаўнага кіравання (міністэрства, дзяржаўныя камітэты).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

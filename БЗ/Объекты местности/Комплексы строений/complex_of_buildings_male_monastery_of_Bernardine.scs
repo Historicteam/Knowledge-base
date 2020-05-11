@@ -14,7 +14,8 @@ complex_of_constructions_of_the_male_monastery_of_Bernardine
     <- lang_by;;
     *);
 	
- <-concept_complex_of_buildings;;               
+<-concept_complex_of_monastery_buildings;
+ <-concept_complex_of_constructions;;               
        
     concept_situation->[*
 	complex_of_constructions_of_the_male_monastery_of_Bernardine        

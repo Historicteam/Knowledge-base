@@ -1,0 +1,6 @@
+sc_text_of_agent_of_finding_caterings_with_more_than_one_cuisine
+-> rrel_key_sc_element:
+	agent_of_finding_caterings_with_more_than_one_cuisine;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_finding_caterings_with_more_than_one_cuisine = [*^"file://agent_of_finding_caterings_with_more_than_one_cuisine.scs"*];;

@@ -8,5 +8,5 @@ Action.sing_in_the_Mariinsky_Cathedral
 =>nrel_initiator:Dunin_Marcinkievich_Kamilla_Vincientovna;
 =>nrel_location:Mariinsky_Cathedral;
 =>nrel_performer:organization_the_kamilla_dunin_marcinkievich_female_vocal_group;
-<-begin_date_1861;
-<-completion_date_1861;;
+=>nrel_begin_date:begin_date_1861;
+=>nrel_completion_date:completion_date_1861;;

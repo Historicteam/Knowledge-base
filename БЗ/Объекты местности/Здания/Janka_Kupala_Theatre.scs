@@ -1,4 +1,5 @@
 Janka_Kupala_Theatre
+<=nrel_whole_part:Karla_Marksa_street;
 => nrel_main_idtf:
 	[Театр имени Янки Купалы]
 	(*
@@ -11,5 +12,32 @@ Janka_Kupala_Theatre
 	[Тэатр имя Янкі Купалы]
 	(*
 	<- lang_by;;
+	*);
+<=nrel_whole_part:Karla_Marksa_street;
+=> nrel_osm_query: [way(25327619);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.90085, 27.56265]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.90085;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.56265;;
+					*);;
+				*);;
+			*);;
+		*);;
 	*)
 ;;

@@ -1,0 +1,11 @@
+Gostiny_Dvor
+=>nrel_main_idtf:
+    [Гостиный двор](*<-lang_ru;;*);
+    [Gostiny Dvor](* <-lang_en;;*);
+=>nrel_cuisine:european_cuisine;
+=>nrel_cuisine:belarussian_cuisine;
+<-concept_catering_with_waiter_service;
+<-concept_restaurant;
+=>nrel_working_hours: Mon_Sun_12_00_00_00;
+=>nrel_location:house_17_Sovetskaya_street;;
+

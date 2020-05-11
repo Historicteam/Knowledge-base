@@ -1,0 +1,16 @@
+Shlyakhtin_Dmitry_Gennadyevich
+=> nrel_main_idtf:
+        [Шляхтин Дмитрий Геннадьевич]	
+        (*
+	<- lang_ru;;
+	*);
+	[Shlyakhtin Dmitry Gennadyevich]
+	(*
+	<- lang_en;;
+	*);
+	[Шляхцін Дзмітрый Генадзевіч]
+	(*
+	<- lang_by;;
+	*);
+<-concept_person;
+<-begin_date_1984;;

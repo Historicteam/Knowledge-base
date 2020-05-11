@@ -1,0 +1,6 @@
+state_ssrb
+=> nrel_main_idtf:
+  [Социалистическая Советская Республика Белоруссия] (* <- lang_ru;; *);
+  [Soviet Socialist Republic of Belarus] (* <- lang_en;; *);
+  [Сацыялістычная Савецкая Рэспубліка Беларусь] (* <- lang_by;; *);
+<-concept_socialist_state;;

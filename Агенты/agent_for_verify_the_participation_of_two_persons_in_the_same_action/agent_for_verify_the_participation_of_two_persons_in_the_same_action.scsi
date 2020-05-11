@@ -1,0 +1,352 @@
+agent_for_verify_the_participation_of_two_persons_in_the_same_action
+=>nrel_main_idtf:
+[агентная scp-программа проверки участия двух личностей в одном событии] (* <- lang_ru;; *);
+[agent scp-program of verify the participation of two persons in the same action] (* <- lang_en;; *);
+<- agent_scp_program;;
+
+
+scp_program -> agent_for_verify_the_participation_of_two_persons_in_the_same_action
+(*
+	-> rrel_params : ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_params
+	(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+	*);;
+	-> rrel_operators : ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operators
+	(*
+		-> rrel_init : ..agent_for_finding_games_that_support_a_particular_operating_system_quest_1
+		(*
+			<- searchElStr3;;
+		
+			-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+		
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_2 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_2
+		(*
+			<- searchElStr3;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_const: question_verify_the_participation_of_two_persons_in_the_same_action ;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+			=>nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_3 ;;
+			=>nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_3
+		(*
+			<- searchElStr5;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param1;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+
+			=>nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_4;;
+			=>nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return;;
+		*);;
+		
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_4
+			(*
+			<- searchElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param2;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+
+			=>nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_5 ;;
+			=>nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_quest_5
+		(*
+			<- genEl ;;
+
+			-> rrel_1: rrel_assign: rrel_scp_var: rrel_node: rrel_const: _answer ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_1 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_1
+		(*
+			<- searchElStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_person ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _param1 ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_2 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_2
+		(*
+			<- searchElStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_person ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _param2 ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_3 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_3
+		(*
+			<- searchSetStr5 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: actions_class ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_not_relation: _some_class_of_action ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion ;;
+	
+			-> rrel_set_3: rrel_assing: rrel_scp_var: rrel_node: _set_of_action_classes ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_4 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_4
+		(*
+			<- searchElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_action_classes ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_not_relation: _some_class_of_action ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_5 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_18 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_5
+		(*
+			<- eraseEl ;;	
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc ;;
+		
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_6 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_6
+		(*
+			<- contAssign ;;
+
+			-> rrel_1: rrel_assign: rrel_scp_var: rrel_link: _count ;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: [0] ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_7 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_7
+		(*
+			<- searchSetStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_class_of_action ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_action ;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: rrel_node: _set_of_actions ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_8 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_4 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_8
+		(*
+			<- searchElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_actions ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_action ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_9 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_16 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_9
+		(*
+			<- eraseEl ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc ;;
+	
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_10 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_10
+		(*
+			<- searchElStr5 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_action ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _param1 ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_assign: rrel_scp_var: rrel_norole_relation: _some_relation ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_11 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_8 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_11
+		(*
+			<- searchElStr5 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_action ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _param2 ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_assign: rrel_scp_var: rrel_norole_relation: _some_relation ;;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_12 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_8 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_12
+		(*
+			<- contAdd ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _count ;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _count ;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: [1] ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_13 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_13
+		(*
+			<- searchSetStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_class_of_action ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _answer_arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_action ;;
+		
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer ;;		
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_13A ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_13A
+		(*
+			<- genElStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _answer_arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_action ;;
+		
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_14 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_14
+		(*
+			<- searchSetStr5 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_action ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _begin_date ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_begin_date ;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_15 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_15
+		(*
+			<- searchSetStr5 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _some_action ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _begin_date ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_completion_date ;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_set_3: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_8 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_16
+		(*
+			<- ifGr ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _count ;;
+			-> rrel_2: rrel_fixed: rrel_scp_const: [0];;
+
+			=> nrel_then: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_17 ;;
+			=> nrel_else: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_4 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_17
+		(*
+			<- searchSetStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_const: actions_class ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_class_of_action ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion ;;
+
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_17A ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_17A
+		(*
+			<- genElStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _answer_arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_class_of_action ;;
+		
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_4 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_18
+		(*
+			<- genElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: actions_class ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_19 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_19
+		(*
+			<- genElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: nrel_inclusion ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_20 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_20
+		(*
+			<- genElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: nrel_begin_date ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_21 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_21
+		(*
+			<- genElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_const: nrel_completion_date ;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_22 ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_22
+		(*
+			<- genElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _com6;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc12;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+			=> nrel_goto: ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return ;;
+		*);;
+		-> ..agent_for_verify_the_participation_of_two_persons_in_the_same_action_operator_return
+		(*
+			<- return ;;
+		*);;
+	*);;
+*);;

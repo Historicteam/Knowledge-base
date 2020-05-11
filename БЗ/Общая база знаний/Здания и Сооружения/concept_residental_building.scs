@@ -1,0 +1,48 @@
+concept_residental_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[жилое здание](*<- lang_ru;;*);
+	[residental buiding](*<- lang_en;;*);
+        [жылы будынак ](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Residental building is a building for living.]
+    (*
+    <- lang_en;;
+    *);
+  [Жилое здание - здание, используемое для жилья.]
+    (*
+     <-lang_ru;;
+    *);
+  [Жылы будынак - будынак, які выкарыстоўваецца для жылля.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+<= nrel_subdividing:
+subdividing_of_residental_building
+	(*
+		=> nrel_main_idtf:
+			[разбиение жилого здания]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of residental building]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё жылога будынка]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_commercial_residental_building;;
+        ->concept_non_profit_residental_building;;
+	*);;

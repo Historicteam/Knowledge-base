@@ -1,0 +1,29 @@
+concept_transport_service_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[здание транспортного обслуживания](*<- lang_ru;;*);
+	[transport service buiding](*<- lang_en;;*);
+        [будынак транспартнага абслугоўвання](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Transport service building is a building designed for transport service (stations of all types of transport, cash pavilions, transport agencies).]
+    (*
+    <- lang_en;;
+    *);
+  [Здание транспортного обслуживания - здание, предназначенное для транспортного обслуживания (вокзалы всех видов транспорта, кассовые павильоны, транспортные агентства).]
+    (*
+     <-lang_ru;;
+    *);
+  [Будынак транспартнага абслугоўвання - будынак, прызначаны для транспартнага абслугоўвання (вакзалы ўсіх відаў транспарту, касавыя павільёны, транспартныя агенцтва).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

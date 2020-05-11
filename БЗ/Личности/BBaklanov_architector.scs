@@ -9,6 +9,7 @@ BBaklanov_architector
 	<- lang_ru;;
 	*);
 <-concept_male;
+<- concept_person;
 <-concept_architector; 
 =>nrel_surname: surname_Baklanov;
 =>nrel_first_name: name_Mickhail;;

@@ -7,6 +7,6 @@ Action.Dunin_Marcinkievich_Kamillas_concert_in_Minsk
 =>nrel_location:the_city_of_Minsk;
 =>nrel_initiator:Dunin_Marcinkievich_Kamilla_Vincientovna;
 <-action.give_a_concert;
-<-begin_date_1850;
-<-completion_date_1850;;
+=>nrel_begin_date:begin_date_1850;
+=>nrel_completion_date:completion_date_1850;;
 

@@ -1,0 +1,20 @@
+nrel_number_of_metro_lines
+
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[количество линий метрополитена*]
+	(*
+	<- lang_ru;;
+	*);
+	[number of metro lines*]
+	(*
+	<- lang_en;;
+	*);
+	[колькасць лiнiй метрапалiтэна*]
+	(*
+	<- lang_by;;
+	*);;

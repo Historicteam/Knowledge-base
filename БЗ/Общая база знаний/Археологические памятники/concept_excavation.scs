@@ -1,0 +1,29 @@
+concept_excavation
+
+=>nrel_main_idtf:
+	[раскопки] (* <-lang_ru;; *);
+	[excavation] (* <-lang_en;; *);
+	[раскопкі] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Вскрытие земли для исследования находящихся в культурном слое <sc_element sys_idtf="concept_archaeological_monument">археологических памятников</sc_element>.] (* <-lang_ru;; => nrel_format: format_html;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [The opening of the land for the study of <sc_element sys_idtf="concept_archaeological_monument">archaeological monuments</sc_element> in the cultural layer.] (* <-lang_en;; => nrel_format: format_html;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Ускрыццё зямлі для даследавання якія знаходзяцца ў культурным пласце <sc_element sys_idtf="concept_archaeological_monument">археалагічных помнікаў</sc_element>.] (* <-lang_by;; => nrel_format: format_html;; *);; 
+			*);;
+	*);
+
+<- sc_node_not_relation;;

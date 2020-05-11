@@ -6,8 +6,5 @@ Kirova_Street
 			(*
 			<- lang_by;;
 			*);
-		<= nrel_subdividing: 
-		{
-		Reiman_gymnasium_building
-		};
-		<-concept_street;; 
+
+<-concept_street;; 

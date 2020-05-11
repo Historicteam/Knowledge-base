@@ -1,0 +1,22 @@
+kommunalka
+=>nrel_main_idtf:
+    [Коммуналка](*<-lang_ru;;*);
+    [kommunalka](*<-lang_en;;*);
+    [Камуналка](*<-lang_by;;*);
+<-concept_back_to_ussr;
+<-concept_catering_with_waiter_service;
+<-concept_universal_catering_organization;
+=>nrel_working_hours: Mon_Sun_12_00_23_00;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/kommunalka.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+            *);;
+		*);;
+	*);
+=>nrel_location:house_21_Karla_Marksa_street;;

@@ -1,0 +1,89 @@
+first_Minsk_temple
+
+=>nrel_main_idtf:
+	[Первый Минский каменный храм] (* <-lang_ru;; *);
+	[The first Minsk stone temple] (* <-lang_en;; *);
+	[Першы Мінскі каменны храм] (* <-lang_by;; *);
+
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [В 1949 г. при раскопках в восточной части <sc_element sys_idtf="hillfort_zamchische">минского Замчища</sc_element> был открыт каменный фундамент небольшой каменной церкви — древнейшей храмовой постройки города, о которой нет никаких упоминаний ни в летописях, ни в древних актах. Несмотря на то, что храм не был достроен, его неповторимость привлекла внимание исследователей.] (* <-lang_ru;; => nrel_format: format_html;;*);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [In 1949, during excavations in the eastern part of the <sc_element sys_idtf="hillfort_zamchische">Minsk Zamchische</sc_element>, the stone foundation of a small stone church was discovered - the oldest temple building of the city, which is not mentioned in any chronicles or ancient acts. Despite the fact that the temple was not completed, its uniqueness attracted the attention of researchers.] (* <-lang_en;; => nrel_format: format_html;;*);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [У 1949 г.пры раскопках ва ўсходняй частцы <sc_element sys_idtf="hillfort_zamchische">мінскага замчышча</sc_element> быў адкрыты каменны падмурак невялікай каменнай царквы — найстаражытнай храмавай пабудовы горада, пра якую няма ніякіх згадак ні ў летапісах, ні ў старажытных актах. Нягледзячы на тое, што храм не быў дабудаваны, яго непаўторнасць прыцягнула ўвагу даследчыкаў.] (* <-lang_by;; => nrel_format: format_html;;*);; 
+			*);;
+	*);
+
+=> nrel_osm_query: [way(490770155);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.907232, 27.553260]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.907232;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.553260;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+
+<- rrel_key_sc_element: Picture_of_temple_foundation (*
+	=> nrel_main_idtf:
+		[Изображение фундамента храма] (* <- lang_ru;; *);
+		[Picture of temple foundation] (* <- lang_en;; *);
+		[Выява падмурка храма] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//temple_foundation.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_monument_to_tample (*
+	=> nrel_main_idtf:
+		[Изображение памятного знака в честь первой каменной церкви на территории Замка] (* <- lang_ru;; *);
+		[Picture of a memorial in honor of the first stone church on the territory of the Castle] (* <- lang_en;; *);
+		[Выява памятнага знака ў гонар першай каменнай царквы на тэрыторыі Замка] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//monument_to_temple.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<- concept_ritual_and_religious_monuments;
+<- concept_lost_archaeological_monument;;

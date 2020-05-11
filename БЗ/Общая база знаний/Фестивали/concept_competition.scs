@@ -1,0 +1,26 @@
+concept_competition
+<-sc_node_not_relation;
+<-sc_const;
+=>nrel_main_idtf:
+  [конкурс] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [competition] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [конкурс] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+  ...
+  (*
+  <- sc_explanation;;
+  <= nrel_sc_text_translation:
+    ...
+    (*
+    -> rrel_example:
+    [Конкурс — соревнование, соискательство нескольких лиц в области искусства, наук и прочего, с целью выделить наиболее выдающегося (или выдающихся) конкурсанта-претендента на победу.] (* <-lang_ru;; *);;
+    *);;
+  *);
+<=nrel_subdividing:...
+  (*
+  ->concept_film_festival;;
+  ->concept_music_competition;;
+  *);
+<-sc_const;;

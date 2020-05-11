@@ -12,7 +12,8 @@ building_of_Red_Church
 <- rrel_key_sc_element:
 	...
 	(*
-	<-sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;	
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -32,6 +33,7 @@ building_of_Red_Church
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -70,6 +72,7 @@ building_of_Red_Church
 			*);;
 		*);;
 	*);
+<-concept_catholic_temple;
 <-concept_building;;
 concept_situation->[*organization_mickevichs_lib => nrel_location: building_of_Red_Church;;*]
 (*
@@ -245,5 +248,3 @@ concept_situation->[*building_of_Red_Church<-concept_arch_neo_romanescue;;*]
   (*
     <- begin_date_1908;;
 *);;
-
-

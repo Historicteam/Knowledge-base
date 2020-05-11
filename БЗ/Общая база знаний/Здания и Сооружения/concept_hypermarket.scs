@@ -18,8 +18,7 @@ concept_hypermarket
 	<= nrel_using_constants:
 		...
 		(* 
-		->concept_score;			
-			concept_building;;
+		->concept_score;;
 		*);;
 	*);;
 

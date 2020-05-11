@@ -1,5 +1,36 @@
 Rabkorovskiys_Street_house_19
-	=> nrel_main_idtf:	[ул. Рабкоровского 19](* <- lang_ru;; *);
-				[вул. Рабкароўскага 19] (* <- lang_by;; *);
-				[Rabkorovskiy's Street, 19](* <- lang_en;; *);
+	=> nrel_main_idtf:	
+		[ул. Рабкоровская 19](* <- lang_ru;; *);
+		[вул. Рабкароўская 19] (* <- lang_by;; *);
+		[Rabkorovskaya's Street, 19](* <- lang_en;; *);
+
+=> nrel_osm_query: [way(25388652);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.88811, 27.54137]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.88811;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.54137;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*)
+;
+<-concept_non_profit_residental_building;
+<-concept_cultural_building;
 <-concept_building;;

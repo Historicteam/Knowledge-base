@@ -1,0 +1,6 @@
+home_cuisine
+=>nrel_main_idtf:
+    [Домашняя кухня](*<-lang_ru;;*);
+    [Дамашняя  кухня](*<-lang_by;;*);
+    [Home cuisine](*<-lang_en;;*);
+<-concept_cuisine;;

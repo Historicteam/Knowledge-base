@@ -1,0 +1,44 @@
+concept_hotel_without_staff
+=>nrel_main_idtf:
+    [отель без персонала](*<-lang_ru;;*);
+    [hotel without staff](* <-lang_en;; *);
+    [гатэль без персаналу](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_scattered_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Отель без персонала"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Hotel without staff concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Гатэль без персаналу"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Отель, функционирующий при помощи автоматических устройств, без непосредственного контакта гостя и обслуживающего персонала.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[A hotel operated by automatic devices, without direct contact between the guest and the staff.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Гатэль, які функцыянуе пры дапамозе аўтаматычных прылад, без непасрэднага кантакту госця і абслугоўваючага персаналу.] (* <-lang_by;; *);; 
+			*);;
+	*);;       

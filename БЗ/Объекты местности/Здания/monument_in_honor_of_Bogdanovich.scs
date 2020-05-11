@@ -1,4 +1,5 @@
 monument_in_honor_of_Bogdanovich
+<-concept_structure;
 => nrel_main_idtf:
 	[Памятник М.Богдановича]
 	(*
@@ -28,5 +29,4 @@ Square_of_the_Paris_Commune
 			(*
 			<- lang_by;;
 			*);
-	<= nrel_location: monument_in_honor_of_Bogdanovich;;
-
+<= nrel_location: monument_in_honor_of_Bogdanovich;;

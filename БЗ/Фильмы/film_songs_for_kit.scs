@@ -1,0 +1,6 @@
+film_songs_for_kit
+<-concept_film;
+=>nrel_main_idtf:
+  	[Песня для кита] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Songs for kit] (* <-lang_en;; *);;

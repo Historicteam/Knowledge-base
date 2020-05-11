@@ -59,6 +59,7 @@ State_Department_Store_Building
 		*);;
 	*);
 
+<= nrel_whole_part: Independence_Avenue;
 => nrel_osm_query: [way(27422412);];
 => nrel_geographical_location: ...
 	(*
@@ -89,7 +90,8 @@ State_Department_Store_Building
 	<- begin_date_1951;
 => nrel_architect: Gegart_Roman_Mikhailovich;
 <- concept_terrain_object;
-<- concept_building;;
+<-concept_building;
+<- concept_trade_enterprise_building;;
 
 concept_situation->[*State_Department_Store_Building
 	<=nrel_location: organization_State_Department_Store;;
@@ -102,6 +104,7 @@ concept_situation->[*State_Department_Store_Building
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -136,6 +139,3 @@ concept_situation->[*State_Department_Store_Building<-concept_arch_empire_style;
 (*
 	<- begin_date_1951;;
 *);;
-
-
-

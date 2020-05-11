@@ -1,0 +1,29 @@
+concept_transport_and_storage_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[транспортно-складского хозяйства здание](*<- lang_ru;;*);
+	[transport and storage buiding](*<- lang_en;;*);
+        [транспартна-складскога гаспадаркі будынак ](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Transport and storage building is a building intended for the placement and maintenance of vehicles at the disposal of the enterprise (garages, electric locomotives depots, etc.) or for the storage of raw materials, billets, semi-finished products, finished products, fuel and lubricants, etc.]
+    (*
+    <- lang_en;;
+    *);
+  [Транспортно-складского хозяйства здание - здание, предназначенное для размещения и обслуживания средств транспорта, находящегося в распоряжении предприятия (гара жи, электровозные депо и др.) либо для хранения сырья, заготовок, полуфабрикатов, готовой продукции, горюче-смазочных материалов и пр.]
+    (*
+     <-lang_ru;;
+    *);
+  [Транспартна-складскога гаспадаркі будынак - будынак, прызначанае для размяшчэння і абслугоўвання сродкаў транспарту, які знаходзіцца ў распараджэнні прадпрыемства (гаражы, электровозные дэпо і інш.) Альбо для захоўвання сыравіны, нарыхтовак, паўфабрыкатаў, гатовай прадукцыі, гаруча-змазачных матэрыялаў і інш .]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

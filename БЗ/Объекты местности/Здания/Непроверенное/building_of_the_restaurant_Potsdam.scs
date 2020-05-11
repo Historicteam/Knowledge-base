@@ -1,7 +1,38 @@
 building_of_the_restaurant_Potsdam
-<- concept_building;
+<- concept_trade_enterprise_building;
+<-concept_building;
 <- concept_arch_empire_style;
 => nrel_main_idtf:
 	[Здание ресторана «Потсдам»] (* <- lang_ru;; *);
 	[The restaurant Potsdam] (* <- lang_en;; *);
-	[Будынак рэстарацыі "Патсдам"] (* <- lang_by;; *);;
+	[Будынак рэстарацыі "Патсдам"] (* <- lang_by;; *);
+
+=> nrel_osm_query: [way(362537218);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.902261, 27.556202]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.902261;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.556202;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- begin_date_02_12_1956;;

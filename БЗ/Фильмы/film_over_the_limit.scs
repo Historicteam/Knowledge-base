@@ -1,0 +1,6 @@
+film_over_the_limit
+<-concept_film;
+=>nrel_main_idtf:
+  	[За пределом] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[Over the limit] (* <-lang_en;; *);;

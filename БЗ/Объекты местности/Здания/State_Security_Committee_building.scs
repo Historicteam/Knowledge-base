@@ -61,6 +61,7 @@ State_Security_Committee_building
 		*);;
 	*);
 
+<= nrel_whole_part: Independence_Avenue;
 => nrel_osm_query: [way(35995634);];
 => nrel_geographical_location: ...
 	(*
@@ -91,7 +92,8 @@ State_Security_Committee_building
 <- begin_date_1947;
 => nrel_architect: Parusnikov_Mikhail_Pavlovich;
 <- concept_terrain_object;
-<- concept_building;;
+<- concept_building;
+<- concept_government_building;;
 
 concept_situation->[*State_Security_Committee_building
 	<=nrel_location: organization_State_Security_Committee;;
@@ -104,6 +106,7 @@ concept_situation->[*State_Security_Committee_building
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -123,4 +126,3 @@ concept_situation->[*State_Security_Committee_building<- concept_arch_neoclassic
 (*
 	<- begin_date_1947;;
 *);;
-

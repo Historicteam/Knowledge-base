@@ -1,0 +1,18 @@
+concept_cafe_bakery
+=>nrel_main_idtf:
+    [cafe-bakery](*<-lang_en;;*);
+    [кафе-кондитерская](*<-lang_ru;;*);
+    [кафэ-кандытарская](*<-lang_by;;*);
+    <- rrel_key_sc_element:
+	Definition_of_the_bakery_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Кафе-кондитерская - это заведение общественного питания, совмещающее в себе небольшой магазин, кафетерий и мини цех, производящий кондитерские и хлебобулочные изделия] (* <-lang_ru;; *);; 
+			*);;
+	*);
+<=nrel_inclusion:concept_specialized_catering_organization;
+<-sc_node_not_relation;;

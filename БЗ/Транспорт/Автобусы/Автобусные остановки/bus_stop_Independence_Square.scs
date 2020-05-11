@@ -1,0 +1,31 @@
+bus_stop_Akademiya_ypravleniya
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Академия Управления](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Акадэмія Кіравання](*<- lang_by;;*);
+=> nrel_osm_query: [node(320719196);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.888083, 27.538490]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.888083;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.538490;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

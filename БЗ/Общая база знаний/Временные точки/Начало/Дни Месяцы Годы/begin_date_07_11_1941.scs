@@ -1,0 +1,24 @@
+begin_date_07_11_1941
+=> nrel_main_idtf:
+   [время начала - 7 ноября 1941]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 7 november of 1941]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 7 снежаня 1941]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [7];;
+   <- number_of_month_in_year: [11];;
+   <- number_of_year: [1941];;
+   *);
+   <- begin_date_11_1941;
+   <- begin_date_1941;;

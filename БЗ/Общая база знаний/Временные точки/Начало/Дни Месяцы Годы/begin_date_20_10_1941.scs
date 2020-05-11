@@ -1,0 +1,24 @@
+begin_date_20_10_1941
+=> nrel_main_idtf:
+   [время начала - 20 октября 1941]
+   (*
+   <- lang_ru;;
+   *);
+   [begin date - 20 october of 1941]
+   (*
+   <- lang_en;;
+   *);
+   [час пачатку - 20 кастрычнiка 1941]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [20];;
+   <- number_of_month_in_year: [10];;
+   <- number_of_year: [1941];;
+   *);
+   <- begin_date_10_1942;
+   <- begin_date_1941;;

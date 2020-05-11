@@ -1,0 +1,11 @@
+begin_date_8h
+=> nrel_main_idtf:
+   [время начала - 0 часов](*<- lang_ru;;*);
+   [begin date - 0 hours](*<- lang_en;; *);
+   [час пачатку - 0 гадзін] (*<- lang_by;; *);
+   <- exact_value;
+   <- begin;
+   => nrel_24hours_day_scale: ...
+   (*
+   <- number_of_hour_in_day: [0];;
+   *);;

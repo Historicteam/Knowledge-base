@@ -18,8 +18,7 @@ concept_livestock
 <= nrel_using_constants:
 		...
 		(* 
-		-> concept_agriculture;
-concept_building;;
+		-> concept_agriculture;;
 		*);;
 	*);;
 

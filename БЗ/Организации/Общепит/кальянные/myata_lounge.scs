@@ -1,0 +1,9 @@
+Myata_Lounge
+=>nrel_main_idtf:
+    [Myata Lounge](*<-lang_ru;;*);
+    [Myata Lounge](*<-lang_en;;*);
+<-concept_hookah_place;
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+=>nrel_working_hours:Mon_Sun_12_00_02_00;
+=>nrel_location:house_89_Winners_Avenue;;

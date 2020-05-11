@@ -8,7 +8,7 @@ Action.First_all_Belarusian_Congress_in_Minsk
 =>nrel_location: Minsk;
 ->rrel_head: organization_Presidium_of_all_Belarusian_Congress;
 =>nrel_initiator:organization_Council_of_Belarusian_People_s_Republic;
-<-begin_date_12_1917;
+=>nrel_begin_date:begin_date_12_1917;
 <-action.congress;;
 
 

@@ -18,8 +18,7 @@ concept_aviculture
 	<= nrel_using_constants:
 		...
 		(* 
-		-> concept_agriculture;			
-concept_building;;
+		-> concept_agriculture;;
 		*);;
 	*);;
 

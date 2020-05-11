@@ -7,5 +7,5 @@ Action.Proclamation_of_Belarusian_People_s_Republic
 =>nrel_object: state_belarusian_people_s_republic;
 =>nrel_location: Malinins_house;
 =>nrel_initiator:organization_Council_of_Belarusian_People_s_Republic;
-<-begin_date_25_03_1918;
+=>nrel_begin_date:begin_date_25_03_1918;
 <-action.proclamation;;

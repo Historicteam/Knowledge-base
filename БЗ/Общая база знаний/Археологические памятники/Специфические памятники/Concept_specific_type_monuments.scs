@@ -1,0 +1,59 @@
+concept_specific_type_monuments
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[специфические памятники]
+(*
+<- lang_ru;;
+*);
+[specific monuments]
+(*
+<- lang_en;;
+*);
+[спецыфічныя помнікі]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[Специфические памятники- особый вид <sc_element sys_idtf="concept_monument">памятников</sc_element>,который включает в себя <sc_element sys_idtf="concept_treasure">клады</sc_element>, <sc_element sys_idtf="concept_shipwreck">затонувшие корабли</sc_element>, <sc_element sys_idtf="concept_chance_find">случайные находки</sc_element>, <sc_element sys_idtf="concept_flooded_city">затопленные города</sc_element> или их части и другое]
+      (*
+<- lang_ru;;
+=> nrel_format: format_html;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Спецыфічныя помнікі- адмысловы выгляд <sc_element sys_idtf="concept_monument">помнікаў</sc_element>, які ўключае ў сябе <sc_element sys_idtf="concept_treasure">скарбы</sc_element>, <sc_element sys_idtf="concept_shipwreck">патанулыя караблі</sc_element>, <sc_element sys_idtf="concept_chance_find">выпадковыя знаходкі</sc_element>, <sc_element sys_idtf="concept_flooded_city">затопленыя горада</sc_element> ці іх часткі і іншае]
+      (*
+<- lang_by;;
+=> nrel_format: format_html;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Specific monuments- special kind of <sc_element sys_idtf="concept_monument">monuments</sc_element>, which includes <sc_element sys_idtf="concept_treasure">treasures</sc_element>, <sc_element sys_idtf="concept_shipwreck">shipwrecks</sc_element>, <sc_element sys_idtf="concept_chance_find">chance finds</sc_element>, <sc_element sys_idtf="concept_flooded_city">flooded city</sc_element> or parts thereof, and more]
+      (*
+<- lang_en;;
+=> nrel_format: format_html;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_treasure;;
+	-> concept_shipwreck;;
+	-> concept_chance_find;;
+	-> concept_flooded_city;;
+	*)
+;;

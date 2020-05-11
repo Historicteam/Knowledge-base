@@ -1,0 +1,29 @@
+concept_trade_enterprise_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[здание предприятия торговли](*<- lang_ru;;*);
+	[trade enterprise buiding](*<- lang_en;;*);
+        [будынак прадпрыемства гандлю](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Trade enterprise building is a building designed to house trade enterprises (retail buildings, canteens, restaurants and cafes).]
+    (*
+    <- lang_en;;
+    *);
+  [Здание предприятия торговли - здание, предназначенное для размещения предприятий торговли (здания для розничной торговли, столовые, рестораны и кафе).]
+    (*
+     <-lang_ru;;
+    *);
+  [Будынак прадпрыемства гандлю - будынак, прызначаны для размяшчэння прадпрыемстваў гандлю (будынка для рознічнага гандлю, сталовыя, рэстараны і кафэ).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

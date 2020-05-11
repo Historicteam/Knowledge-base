@@ -1,0 +1,29 @@
+concept_healthcare_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[здание здравоохранения](*<- lang_ru;;*);
+	[healthcare buiding](*<- lang_en;;*);
+        [будынак аховы здароўя](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Healthcare building is a building, which houses the institutions that organize and ensure the protection of public health. (polyclinics, pharmacies, hospitals, ambulance stations, dispensaries).]
+    (*
+    <- lang_en;;
+    *);
+  [Здание здравоохранения - здание, в котором размещаются учреждения, организующие и обеспечивающие охрану здоровья населения. (поликлиники, аптеки, больницы,станции скорой помощи, амбулатории).]
+    (*
+     <-lang_ru;;
+    *);
+  [Будынак аховы здароўя - будынак, у якім размяшчаюцца ўстановы, якія арганізуюць і забяспечваюць ахову здароўя насельніцтва. (Паліклінікі, аптэкі, бальніцы, станцыі хуткай дапамогі, амбулаторыі).]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

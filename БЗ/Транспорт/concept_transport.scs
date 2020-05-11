@@ -1,0 +1,47 @@
+concept_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[транспорт](*<- lang_ru;;*);
+	[transport](*<- lang_en;;*);
+	[транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Транспорт - совокупность всех видов путей сообщения, транспортных средств, технических устройств и сооружений на путях сообщения, обеспечивающих процесс перемещения людей и грузов различного назначения из одного места в другое.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Transport - a set of all types of communication lines, vehicles, technical devices and structures on the lines of communication, providing the process of moving people and goods of various purposes from one place to another.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Транспарт — сукупнасць сродкаў, прызначаных для перасоўвання людзей, грузаў, сігналаў і інфармацыі з аднаго месца ў іншае.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+=>nrel_inclusion:
+	concept_land_transport;
+	concept_underground_transport;
+	concept_air_transport;
+	concept_space_transport;
+	concept_water_transport;
+	concept_underwater_transport;
+	concept_pipeline_transport;;
+

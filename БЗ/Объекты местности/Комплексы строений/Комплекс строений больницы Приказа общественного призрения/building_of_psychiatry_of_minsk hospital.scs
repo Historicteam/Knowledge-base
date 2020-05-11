@@ -8,5 +8,6 @@ building_of_psychiatry_of_minsk_hospital
 	(*
 		<-lang_en;;
 	*);
+<-concept_healthcare_building;
 <-concept_building;
 <-begin_date_1847;;

@@ -1,0 +1,45 @@
+concept_universal_catering_organization
+=>nrel_main_idtf:
+    [неспециализированная организация общественного питания](*<-lang_ru;;*);
+    [non specialized catering organization](* <-lang_en;; *);
+    [неспецыялізаваная арганізацыя грамадскага харчавання](*<-lang_by;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_universal_catering_organization_concept
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "неспециализированная организация общественного питания"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the non specialized catering organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "неспецыялізаваная арганізацыя грамадскага харчавання"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[неспециализированная  организация общественного питания – организация общественного питания производящая и релизующая широкий ассортимент продукции ] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[non specialized catering organization - a catering organization producing and releasing a wide range of products] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[неспецыялізаваная арганізацыя грамадскага харчавання - арганізацыя грамадскага харчавання якая вырабляе і рэлізуе шырокі асартымент прадукцыі] (* <-lang_by;; *);; 
+			*);;
+
+
+	*);;

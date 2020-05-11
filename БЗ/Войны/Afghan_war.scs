@@ -1,0 +1,17 @@
+afghan_war
+<-concept_war;
+=> nrel_main_idtf:
+	[Афганская война]
+	(*
+	<- lang_ru;;
+	*);
+	[Afghan War]
+	(*
+	<- lang_en;;
+	*);
+	[Афганская вайна]
+	(*
+	<- lang_by;;
+	*);
+<-begin_date_12_1979;
+<-completion_date_02_1989;;

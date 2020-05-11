@@ -1,0 +1,22 @@
+SeaFoodBar_by_John_Dory
+=>nrel_main_idtf:
+    [SeaFoodBar by John_Dory](* <-lang_en;;*);
+    [Sea SeaFoodBar by John Dory](* <-lang_ru;;*);
+<-concept_catering_organization;
+<-concept_catering_with_waiter_service;
+<-concept_restaurant;
+<-concept_sea_food;
+=>nrel_working_hours: Mon_Sun_12_00_23_00;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/john_dory.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_17_Revolution_street;;

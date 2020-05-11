@@ -1,0 +1,29 @@
+house_10_Platonova_street
+=>nrel_main_idtf:
+    [Платонова дом 10](*<-lang_ru;;*);
+    [House 10 Platonova](* <-lang_en;;*);
+<-concept_building;
+<=nrel_whole_part:Platonova_street;
+=> nrel_osm_query: [way(378259102);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.90724, 27.59294]
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.90724;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.59294;;
+					*);;
+				*);;
+			*);;
+	*);;

@@ -1,0 +1,14 @@
+nrel_begin_date <- sc_node_norole_relation ;;
+nrel_completion_date <- sc_node_norole_relation ;;
+
+nrel_begin_date
+=> nrel_main_idtf:
+	[время начала*] (* <- lang_ru;; *);
+	[start time*] (* <- lang_en;; *);
+	[час пачатку*] (* <- lang_by;; *);;
+
+nrel_completion_date
+=> nrel_main_idtf:
+	[время конца*] (* <- lang_ru;; *);
+	[end time*] (* <- lang_en;; *);
+	[час канца*] (* <- lang_by;; *);;

@@ -12,7 +12,10 @@ Brons_House
 		(*
 		<- lang_by;;
 		*);
-<-concept_building;
+		
+<- concept_building;
+<=nrel_whole_part:International_Street;
+<-concept_non_profit_residental_building;
 =>nrel_osm_query:[way(332899360);];
 => nrel_geographical_location: ...
 	(*

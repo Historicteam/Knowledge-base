@@ -1,0 +1,26 @@
+lib_component_agent_of_finding_all_not_lost_buildings_by_type_of_building
+=> nrel_main_idtf:
+	[Компонент библиотеки. sc-агент поиска всех неутраченных зданий по типу здания для заданного объекта]
+	(* <- lang_ru;; *);
+	[Library component. sc-agent of finding all not lost buildings by type of building for the given object]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components; 
+<- library_of_atomic_reusable_components; 
+
+
+=> nrel_attendant_component: 
+	lib_component_ui_menu_file_for_finding_all_not_lost_buildings_by_type_of_building; 
+
+-> rrel_key_sc_element: 
+	.platform_independent_realization_of_sc_agent_of_finding_all_not_lost_buildings_type_of_building;; 
+
+
+question_find_all_not_lost_buildings_by_type_of_building
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+ 	[действие. найти все неутраченные здания данного типа]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[action. to find all non lost buildings of this type]
+	(* <- lang_en;;	*);;

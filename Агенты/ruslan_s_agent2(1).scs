@@ -1,0 +1,1140 @@
+ui_menu_search_actual_state_of_object
+	<- ui_user_command_class_atom; 
+	ui_user_command_class_view_kb;;
+// Указываем русский идентификатор нашей команды меню
+ui_menu_search_actual_state_of_object 
+=>nrel_main_idtf: 
+	[Запрос поиска актуального состояния объекта] 
+	(* <- lang_ru;; *);;
+// Указываем английский идентификатор нашей команды меню
+ui_menu_search_actual_state_of_object 
+=>nrel_main_idtf: 
+	[Request search] 
+	(* <- lang_en;; *);;
+// Указываем шаблон нашей команды
+ui_menu_search_actual_state_of_object 
+=>ui_nrel_command_template:
+[*
+	question_search_actual_state_of_object _-> ._question_search_actual_state_of_object_instance
+	(*
+		_-> rrel_1:: ui_arg_1;;
+		_-> rrel_2:: ui_arg_2;;
+	*);;
+	._question_search_actual_state_of_object_instance _<- question;;
+*];;
+// Указываем текстовый шаблон для истории диалога на русском языке
+ui_menu_search_actual_state_of_object 
+=>ui_nrel_command_lang_template: 
+	[Запрос поиска актуального состояния объекта $ui_arg_1 во временной точке "$ui_arg_2"] 
+	(*<- lang_ru;; *);;
+// Указываем текстовый шаблон для истории диалога на английском языке
+ui_menu_search_actual_state_of_object 
+=>ui_nrel_command_lang_template: 
+	[Request of search actual state of objects $ui_arg_1]
+	(* <- lang_en;; *);;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+scp_program ->proc_search_actual_state_of_object 
+(*
+	->rrel_params:...
+	(*
+		->rrel_1: rrel_in: _parameter;;
+		->rrel_2: rrel_in: _date;;	
+		->rrel_3: rrel_in: _answer;;
+	*);;
+	->rrel_operators:...
+	(*
+		->rrel_init:..proc_search_actual_state_of_object_op0_0_1
+		(*
+			<-genElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector0_0_1;;
+			->rrel_3: rrel_fixed: rre_scp_var: _parameter;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op0_1;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_1
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _date;;
+			//->rrel_1: rrel_fixed: rrel_scp_const: time_point_09_02_1852;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector0_1_1;;
+			->rrel_3: rrel_assign: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector0_1_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+			=>nrel_then:..proc_search_actual_state_of_object_op0_2;;
+			=>nrel_else:..proc_search_actual_state_of_object_op0_1_1;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_1_1
+		(*
+			<-printEl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _date;;
+			=>nrel_goto:..proc_search_actual_state_of_object_return;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_2
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _year_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector0_2_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector0_2_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+			=>nrel_then:..proc_search_actual_state_of_object_op0_3;;
+			=>nrel_else:..proc_search_actual_state_of_object_return;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_2_2
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _year_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op0_3;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_3
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _month_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector0_3_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector0_3_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_month_in_year;;
+			=>nrel_then:..proc_search_actual_state_of_object_op0_5;;
+			=>nrel_else:..proc_search_actual_state_of_object_op0_4;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_3_2
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _month_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op0_5;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_4
+		(*
+			<-contAssign;;
+			->rrel_1: rrel_assign: rrel_scp_var:_month_node;;
+			->rrel_2: rrel_fixed: rrel_scp_const: [01];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op0_6;;//Изменил с 0_5. НУЖНО ПРОВЕРИТЬ КОРРЕКТНОСТЬ РАБОТЫ
+		*);;
+		->..proc_search_actual_state_of_object_op0_5
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _day_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector0_5_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector0_5_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_day_in_month;;
+			=>nrel_then:..proc_search_actual_state_of_object_op1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op0_6;;
+		*);;		
+		->..proc_search_actual_state_of_object_op0_5_2
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _day_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op2_1;;
+		*);;
+		->..proc_search_actual_state_of_object_op0_6
+		(*
+			<-contAssign;;
+			->rrel_1: rrel_assign: rrel_scp_var:_day_node;;
+			->rrel_2: rrel_fixed: rrel_scp_const: [01];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op1;;			
+		*);;
+		->..proc_search_actual_state_of_object_op1
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [Начало работы агента];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op2_1;;
+		*);;
+/////////////////////////////////////////////////////////////Генерация элементов
+		->..proc_search_actual_state_of_object_op2_1
+		(*
+			<-genEl;;
+			->rrel_1: rrel_assign: rrel_scp_var: rrel_set: rrel_node: rrel_const:_temporary_node1;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op2_2;;
+		*);;
+		->..proc_search_actual_state_of_object_op2_2
+		(*
+			<-genEl;;
+			->rrel_1: rrel_assign: rrel_scp_var: rrel_set: rrel_node: rrel_const:_temporary_node2;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op2_3;;
+		*);;
+		->..proc_search_actual_state_of_object_op2_3
+		(*
+			<-genEl;;
+			->rrel_1: rrel_assign: rrel_scp_var: rrel_set: rrel_node: rrel_const:_temporary_node3;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op3;;
+		*);;
+/////////////////////////////////////////////////////////////
+		->..proc_search_actual_state_of_object_op3
+		(*
+			<-searchSetStr3;;
+			->rrel_1: rrel_assign: rrel_scp_var: _node1;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector3;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+			->rrel_set_1: rrel_fixed: rrel_scp_var: _temporary_node1;;
+			=>nrel_then:..proc_search_actual_state_of_object_op4;;			
+			=>nrel_else:..proc_search_actual_state_of_object_return;;
+		*);;
+////////////////////////////////////////////////////////////
+		->..proc_search_actual_state_of_object_op3_1
+		(*
+			<-searchElStr3;;
+			//->rrel_1: rrel_fixed: rrel_scp_var: _dates_node;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _temporary_node3;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector3;;
+			->rrel_3: rrel_assign: rrel_scp_var: _node1;;
+			=>nrel_then:..proc_search_actual_state_of_object_op3_2;;
+			=>nrel_else:..proc_search_actual_state_of_object_erase1;;
+		*);;
+		->..proc_search_actual_state_of_object_op3_2
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node1;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4;;
+			->rrel_3: rrel_assign: rrel_scp_var: _text;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector5;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_main_idtf;;
+			=>nrel_then:..proc_search_actual_state_of_object_op3_3;;
+			=>nrel_else:..proc_search_actual_state_of_object_op3_4;;
+		*);;
+		->..proc_search_actual_state_of_object_op3_3
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _text;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op3_4;;
+		*);;
+		->..proc_search_actual_state_of_object_op3_4
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector3;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op3_1;;
+		*);;
+///////////////////////////////////////////////////////////Поиск временных ситуаций и действий
+		->..proc_search_actual_state_of_object_op4
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _temporary_node1;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector3;;
+			->rrel_3: rrel_assign: rrel_scp_var: _node2;;
+			=>nrel_then:..proc_search_actual_state_of_object_op5_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op8_0;;
+			//=>nrel_else:..proc_search_actual_state_of_object_op3_1;;
+		*);;
+		->..proc_search_actual_state_of_object_op5_1
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: concept_situation;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node2;;
+			=>nrel_then:..proc_search_actual_state_of_object_op6;;
+			=>nrel_else:..proc_search_actual_state_of_object_op5_2a;;
+		*);;
+		->..proc_search_actual_state_of_object_op5_2a
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node2;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4_a;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector4_b;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_object;;
+			=>nrel_then:..proc_search_actual_state_of_object_search_action_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op5_2b;;
+		*);;
+		->..proc_search_actual_state_of_object_op5_2b
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node2;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4_a;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector4_b;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_initiator;;
+			=>nrel_then:..proc_search_actual_state_of_object_search_action_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op5_2c;;
+		*);;
+		->..proc_search_actual_state_of_object_op5_2c
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node2;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4_a;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector4_b;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_performer;;
+			=>nrel_then:..proc_search_actual_state_of_object_search_action_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op5_2d;;
+		*);;
+		->..proc_search_actual_state_of_object_op5_2d
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node2;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector4_a;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector4_b;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_location;;
+			=>nrel_then:..proc_search_actual_state_of_object_search_action_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op7;;
+		*);;
+//////////////////////////////////////////////////////////////////////////////Проверка на действие
+		->..proc_search_actual_state_of_object_search_action_1
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [Проверка сущности на принадлежность к классу действий];;
+			=>nrel_goto:..proc_search_actual_state_of_object_search_action_2;;
+		*);;
+		->..proc_search_actual_state_of_object_search_action_2
+		(*
+			<-searchSetStr3;;
+			->rrel_1: rrel_assign: rrel_scp_var: _node_sa;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector_sa;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node2;;
+			->rrel_set_1: rrel_assign: rrel_scp_var: _nodes_sa;;
+			=>nrel_then:..proc_search_actual_state_of_object_search_action_3;;
+			=>nrel_else:..proc_search_actual_state_of_object_op7;;
+		*);;
+		->..proc_search_actual_state_of_object_search_action_3
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _nodes_sa;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector_sa3;;
+			->rrel_3: rrel_assign: rrel_scp_var: _maybe_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_search_action_4;;
+			=>nrel_else:..proc_search_actual_state_of_object_op7;;
+		*);;
+		->..proc_search_actual_state_of_object_search_action_4
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_const:actions_class;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector_sa4_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _maybe_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector_sa4_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion;;
+			=>nrel_then:..proc_search_actual_state_of_object_search_action_5;;
+			=>nrel_else:..proc_search_actual_state_of_object_search_action_6;;
+		*);;
+		->..proc_search_actual_state_of_object_search_action_5
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _nodes_sa;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op6;;
+		*);;
+		->..proc_search_actual_state_of_object_search_action_6
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector_sa3;;
+			=>nrel_goto:..proc_search_actual_state_of_object_search_action_3;;
+		*);;
+//////////////////////////////////////////////////////////////////////////////		
+		->..proc_search_actual_state_of_object_op6
+		(*
+			<-genElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var:_temporary_node2;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector5;; //rrel_scp_var не нужен?
+			->rrel_3: rrel_fixed: rrel_scp_var: _node2;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op7;;
+		*);;
+		->..proc_search_actual_state_of_object_op7
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector3;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op4;;
+		*);;
+/////////////////////////////////////////////////////////////Поиск 1
+		->..proc_search_actual_state_of_object_op8_0
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [Поиск нужных событий];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op8_1;;
+		*);;
+		->..proc_search_actual_state_of_object_op8_1
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _temporary_node2;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector8;;
+			->rrel_3: rrel_assign: rrel_scp_var: _node3;;
+			=>nrel_then:..proc_search_actual_state_of_object_op8_2;;
+			=>nrel_else:..proc_search_actual_state_of_object_op41_0;;
+		*);;
+			->..proc_search_actual_state_of_object_op8_2
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _node3;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector8_2_1;;
+				->rrel_3: rrel_assign: rrel_scp_var: _text;;
+				->rrel_4: rrel_assign: rrel_scp_var: _connector8_2_2;;
+				->rrel_5: rrel_fixed: rrel_scp_const: nrel_main_idtf;;
+				=>nrel_then:..proc_search_actual_state_of_object_op8_3;;
+				=>nrel_else:..proc_search_actual_state_of_object_op9;;
+			*);;
+			->..proc_search_actual_state_of_object_op8_3
+			(*
+				<-printNl;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _text;;
+				=>nrel_goto:..proc_search_actual_state_of_object_op9;;
+			*);;
+		->..proc_search_actual_state_of_object_op9
+		(*
+			<-searchSetStr3;;
+			->rrel_1: rrel_assign: rrel_scp_var: _node4;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector9;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node3;;
+			->rrel_set_1: rrel_assign: rrel_scp_var: _dates_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op10;;	
+			=>nrel_else:..proc_search_actual_state_of_object_op21;;////КУДА НУЖНО ПЕРЕХОДИТЬ?		
+		*);;
+		->..proc_search_actual_state_of_object_op10
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _dates_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector10;;
+			->rrel_3: rrel_assign: rrel_scp_var: _node5;;
+			=>nrel_then:..proc_search_actual_state_of_object_op11;;
+			=>nrel_else:..proc_search_actual_state_of_object_op21;;
+		*);;
+		////////////Поиск даты начала
+		->..proc_search_actual_state_of_object_op11
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: begin;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector11;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node5;;
+			=>nrel_then:..proc_search_actual_state_of_object_op12_0;;
+			=>nrel_else:..proc_search_actual_state_of_object_op28;;
+			//=>nrel_else:..proc_search_actual_state_of_object_op13;;ПЕРЕХОДИТЬ В КОНСТРУКЦИЮ, ЗАНИМАЮЩУЮСЯ ПОИСКОМ ДАТЫ ЗАВЕРШЕНИЯ
+		*);;
+		->..proc_search_actual_state_of_object_op12_0
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [Сравнение актуальной даты и даты начала];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op12;;
+		*);;
+		////////////Поиск узла, хранящего год, месяц, день начала
+		->..proc_search_actual_state_of_object_op12
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node5;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector12_1;;
+			->rrel_3: rrel_assign: rrel_scp_var: _begin_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector12_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+			=>nrel_then:..proc_search_actual_state_of_object_op14;;
+			=>nrel_else:..proc_search_actual_state_of_object_op13;; 
+		*);;
+		////////////Удаление узла из _dates_node
+		->..proc_search_actual_state_of_object_op13
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector10;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op10;;
+		*);;
+		////////////Поиск года начала
+		->..proc_search_actual_state_of_object_op14
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _begin_year_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector14_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _begin_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector14_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+			=>nrel_then:..proc_search_actual_state_of_object_op15;;
+			=>nrel_else:..proc_search_actual_state_of_object_op22;;//КУДА НУЖНО ПЕРЕХОДИТЬ?
+		*);;
+		////////////Поиск месяца начала
+		->..proc_search_actual_state_of_object_op15
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _begin_month_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector15_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _begin_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector15_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_month_in_year;;
+			=>nrel_then:..proc_search_actual_state_of_object_op17;;
+			=>nrel_else:..proc_search_actual_state_of_object_op16;;
+		*);;
+		->..proc_search_actual_state_of_object_op16
+		(*
+			<-contAssign;;
+			->rrel_1: rrel_assign: rrel_scp_var:_begin_month_node;;
+			->rrel_2: rrel_fixed: rrel_scp_const: [01];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op18;;
+		*);;
+		////////////Поиск дня начала			
+		->..proc_search_actual_state_of_object_op17
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _begin_day_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector17_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _begin_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector17_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_day_in_month;;
+			=>nrel_then:..proc_search_actual_state_of_object_op19_1;;
+			//=>nrel_then:..proc_search_actual_state_of_object_op19;;
+			=>nrel_else:..proc_search_actual_state_of_object_op18;;	
+		*);;
+		->..proc_search_actual_state_of_object_op18
+		(*
+			<-contAssign;;
+			->rrel_1: rrel_assign: rrel_scp_var:_begin_day_node;;
+			->rrel_2: rrel_fixed: rrel_scp_const: [01];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op19_1;;
+			//=>nrel_goto:..proc_search_actual_state_of_object_op19;;
+		*);;
+		////////////Сравнение актуального года и года начала
+		->..proc_search_actual_state_of_object_op19_1
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _begin_year_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op19_2;;
+		*);;
+		->..proc_search_actual_state_of_object_op19_2
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _year_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op19;;
+		*);;
+		->..proc_search_actual_state_of_object_op19
+		(*
+			<-ifEq;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _year_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _begin_year_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op24;;
+			=>nrel_else:..proc_search_actual_state_of_object_op20;;
+		*);;
+		->..proc_search_actual_state_of_object_op20
+		(*
+			<-ifGr;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _year_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _begin_year_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op22;;
+		*);;
+		////////////Добавление узла события в _temporary_node3
+		->..proc_search_actual_state_of_object_op21
+		(*
+			<-genElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var:_temporary_node3;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector21;;
+			->rrel_3: rrel_fixed: rrel_scp_var:_node3;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op22;;
+		*);;
+		////////////Удаление узла _dates_node
+		->..proc_search_actual_state_of_object_op22
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _dates_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op23;;
+		*);;
+		////////////Удаление проверяемого события из _temporary_node2
+		->..proc_search_actual_state_of_object_op23
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector8;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op8_1;;
+		*);;
+		////////////Сравнение актуального месяца и месяца начала
+		->..proc_search_actual_state_of_object_op24
+		(*
+			<-ifEq;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _month_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _begin_month_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op26;;
+			=>nrel_else:..proc_search_actual_state_of_object_op25;;
+		*);;
+		->..proc_search_actual_state_of_object_op25
+		(*
+			<-ifGr;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _month_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _begin_month_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op22;;
+		*);;
+		////////////Сравнение актуального дня и дня начала
+		->..proc_search_actual_state_of_object_op26
+		(*
+			<-ifEq;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _day_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _begin_day_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op27;;
+		*);;
+		->..proc_search_actual_state_of_object_op27_1
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _begin_day_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op19_2;;
+		*);;
+		->..proc_search_actual_state_of_object_op27_2
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _day_node;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op27;;
+		*);;
+		->..proc_search_actual_state_of_object_op27
+		(*
+			<-ifGr;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _day_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _begin_day_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op22;;
+		*);;		
+		////////////Поиск даты завершения
+		->..proc_search_actual_state_of_object_op28
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: completion;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector28;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node5;;
+			=>nrel_then:..proc_search_actual_state_of_object_op29_0;;
+			=>nrel_else:..proc_search_actual_state_of_object_op13;;
+		*);;
+		->..proc_search_actual_state_of_object_op29_0
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [Сравнение актуальной даты и даты завершения];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op29;;
+		*);;
+		////////////Поиск узла, хранящего год, месяц, день завершения
+		->..proc_search_actual_state_of_object_op29
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node5;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector29_1;;
+			->rrel_3: rrel_assign: rrel_scp_var: _completion_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector29_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: nrel_Gregorian_calendar_scale;;
+			=>nrel_then:..proc_search_actual_state_of_object_op30;;
+			=>nrel_else:..proc_search_actual_state_of_object_op13;; 
+		*);;
+		////////////Поиск года завершения
+		->..proc_search_actual_state_of_object_op30
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _completion_year_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector30_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _completion_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector30_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_year;;
+			=>nrel_then:..proc_search_actual_state_of_object_op31;;
+			=>nrel_else:..proc_search_actual_state_of_object_op13;;////?????????
+		*);;
+		////////////Поиск месяца завершения
+		->..proc_search_actual_state_of_object_op31
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _completion_month_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector31_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _completion_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector31_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_month_in_year;;
+			=>nrel_then:..proc_search_actual_state_of_object_op33;;
+			=>nrel_else:..proc_search_actual_state_of_object_op32;;
+		*);;
+		->..proc_search_actual_state_of_object_op32
+		(*
+			<-contAssign;;
+			->rrel_1: rrel_assign: rrel_scp_var:_completion_month_node;;
+			->rrel_2: rrel_fixed: rrel_scp_const: [01];;///НУЖНО ЗАМЕНИТЬ НА 12????????
+			=>nrel_goto:..proc_search_actual_state_of_object_op34;;
+		*);;
+		////////////Поиск дня завершения
+		->..proc_search_actual_state_of_object_op33
+		(*
+			<-searchElStr5;;
+			->rrel_1: rrel_assign: rrel_scp_var: _completion_day_node;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector33_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _completion_date_node;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector33_2;;
+			->rrel_5: rrel_fixed: rrel_scp_const: number_of_day_in_month;;
+			=>nrel_then:..proc_search_actual_state_of_object_op35;;
+			=>nrel_else:..proc_search_actual_state_of_object_op34;;	
+		*);;
+		->..proc_search_actual_state_of_object_op34
+		(*
+			<-contAssign;;
+			->rrel_1: rrel_assign: rrel_scp_var:_completion_day_node;;
+			->rrel_2: rrel_fixed: rrel_scp_const: [01];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op35;;
+		*);;
+		////////////Сравнение актуального года и года завершения
+		->..proc_search_actual_state_of_object_op35
+		(*
+			<-ifEq;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _year_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _completion_year_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op37;;
+			=>nrel_else:..proc_search_actual_state_of_object_op36;;
+		*);;
+		->..proc_search_actual_state_of_object_op36
+		(*
+			<-ifGr;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _completion_year_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _year_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op22;;
+		*);;
+		////////////Сравнение актуального месяца и месяца завершения
+		->..proc_search_actual_state_of_object_op37
+		(*
+			<-ifEq;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _month_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _completion_month_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op39;;
+			=>nrel_else:..proc_search_actual_state_of_object_op38;;
+		*);;
+		->..proc_search_actual_state_of_object_op38
+		(*
+			<-ifGr;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _completion_month_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _month_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op22;;
+		*);;
+		////////////Сравнение актуального дня и дня завершения
+		->..proc_search_actual_state_of_object_op39
+		(*
+			<-ifEq;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _day_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _completion_day_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op40;;
+		*);;
+		->..proc_search_actual_state_of_object_op40
+		(*
+			<-ifGr;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _completion_day_node;;
+			->rrel_2: rrel_fixed: rrel_scp_var: _day_node;;
+			=>nrel_then:..proc_search_actual_state_of_object_op13;;
+			=>nrel_else:..proc_search_actual_state_of_object_op22;;
+		*);;	
+/////////////////////////////////////////////////////////////Формирование ответа
+		->..proc_search_actual_state_of_object_op41_0
+		(*
+			<-printNl;;
+			->rrel_1: rrel_fixed: rrel_scp_const: [Формирование ответа];;
+			=>nrel_goto:..proc_search_actual_state_of_object_op41;;
+		*);;
+		->..proc_search_actual_state_of_object_op41
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var:_temporary_node3;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector41;;
+			->rrel_3: rrel_assign: rrel_scp_var: _node41;;
+			=>nrel_then:..proc_search_actual_state_of_object_op42_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_erase1;;
+		*);;
+			->..proc_search_actual_state_of_object_op42_1
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _node41;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector42_1_1;;
+				->rrel_3: rrel_assign: rrel_scp_var: _text;;
+				->rrel_4: rrel_assign: rrel_scp_var: _connector42_1_2;;
+				->rrel_5: rrel_fixed: rrel_scp_const: nrel_main_idtf;;
+				=>nrel_then:..proc_search_actual_state_of_object_op42_2;;
+				=>nrel_else:..proc_search_actual_state_of_object_op42;;
+			*);;
+			->..proc_search_actual_state_of_object_op42_2
+			(*
+				<-printNl;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _text;;
+				=>nrel_goto:..proc_search_actual_state_of_object_op42;;
+			*);;		
+		->..proc_search_actual_state_of_object_op42
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector41;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op43;;
+		*);;
+		->..proc_search_actual_state_of_object_op43
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: concept_situation;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector43;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node41;;
+			=>nrel_then:..proc_search_actual_state_of_object_op44_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op45;;
+		*);;
+		->..proc_search_actual_state_of_object_op44_1
+		(*
+			<-searchSetStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node41;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector44_1;;
+			->rrel_3: rrel_assign: rrel_scp_var: _node44_1;;
+			->rrel_set_3: rrel_assign: rrel_scp_var: _node_for_situation;;
+			=>nrel_then:..proc_search_actual_state_of_object_op44_2;;
+			=>nrel_else:..proc_search_actual_state_of_object_op41;;
+		*);;
+		->..proc_search_actual_state_of_object_op44_2
+		(*
+			<-searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node_for_situation;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector44_2;;
+			->rrel_3: rrel_assign: rrel_scp_var: _node44_2;;
+			=>nrel_then:..proc_search_actual_state_of_object_op44_2_0_1;;
+			=>nrel_else:..proc_search_actual_state_of_object_op44_15;;
+		*);;
+			->..proc_search_actual_state_of_object_op44_2_0_1
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _node44_2;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector42_2_0_1_1;;
+				->rrel_3: rrel_assign: rrel_scp_var: _text;;
+				->rrel_4: rrel_assign: rrel_scp_var: _connector42_2_0_1_2;;
+				->rrel_5: rrel_fixed: rrel_scp_const: nrel_main_idtf;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_2_0_2;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_3;;
+			*);;
+			->..proc_search_actual_state_of_object_op44_2_0_2
+			(*
+				<-printNl;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _text;;
+				=>nrel_goto:..proc_search_actual_state_of_object_op44_3;;
+			*);;		
+		->..proc_search_actual_state_of_object_op44_3
+		(*
+			<-ifType;;
+			->rrel_1: rrel_node: rrel_scp_var:_node44_2;;
+			=>nrel_then:..proc_search_actual_state_of_object_op44_4;;
+			=>nrel_else:..proc_search_actual_state_of_object_op44_8;; 
+		*);;
+			->..proc_search_actual_state_of_object_op44_4
+			(*
+				<-searchElStr3;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _node44_2;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector44_4;;
+				->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_5;;
+			*);;
+			->..proc_search_actual_state_of_object_op44_5
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_assign: rrel_scp_var:_node44_5_1;;
+				->rrel_2: rrel_assign: rrel_scp_var:_connector44_5_1;;
+				->rrel_3: rrel_fixed: rrel_scp_var:_parameter;;
+				->rrel_4: rrel_assign: rrel_scp_var:_connector44_5_2;;
+				->rrel_5: rrel_fixed: rrel_scp_var:_node44_2;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_6;;
+			*);;
+			->..proc_search_actual_state_of_object_op44_6
+			(*
+				<-searchElStr3;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _parameter;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector44_3;;
+				->rrel_3: rrel_fixed: rrel_scp_var: _node44_2;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_7;;
+			*);;
+			->..proc_search_actual_state_of_object_op44_7
+			(*
+				<-searchElStr5;;
+				->rrel_3: rrel_assign: rrel_scp_var:_node44_7_1;;
+				->rrel_2: rrel_assign: rrel_scp_var:_connector44_7_1;;
+				->rrel_1: rrel_fixed: rrel_scp_var:_parameter;;
+				->rrel_4: rrel_assign: rrel_scp_var:_connector44_7_2;;
+				->rrel_5: rrel_fixed: rrel_scp_var:_node44_2;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_14;;
+			*);;
+		->..proc_search_actual_state_of_object_op44_8
+		(*
+			<-ifType;;
+			->rrel_1: rrel_link: rrel_scr_var:_node44_2;;
+			=>nrel_then:..proc_search_actual_state_of_object_op44_14;;
+			=>nrel_else:..proc_search_actual_state_of_object_op44_13;; 
+		*);;
+			->..proc_search_actual_state_of_object_op44_9
+			(*
+				<-searchElStr3;;
+				->rrel_1: rrel_assign: rrel_scp_var: _node44_9;;
+				->rrel_2: rrel_fixed: rrel_scp_var: _node44_2;;
+				->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_10;;
+			*);;
+			->..proc_search_actual_state_of_object_op44_10
+			(*
+				<-searchElStr5;;
+				->rrel_1: rrel_assign: rrel_scp_var: _node44_10_1;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector44_10;;
+				->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+				->rrel_4: rrel_fixed: rrel_scp_var: _node44_2;;
+				->rrel_5: rrel_assign: rrel_scp_var: _node44_10_2;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_11;;
+			*);;
+			->..proc_search_actual_state_of_object_op44_11
+			(*
+				<-searchElStr3;;
+				->rrel_3: rrel_assign: rrel_scp_var: _node44_11;;
+				->rrel_2: rrel_fixed: rrel_scp_var: _node44_2;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _parameter;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_12;;
+			*);;
+			->..proc_search_actual_state_of_object_op44_12
+			(*
+				<-searchElStr5;;
+				->rrel_3: rrel_assign: rrel_scp_var: _node44_12_1;;
+				->rrel_2: rrel_assign: rrel_scp_var: _connector44_12;;
+				->rrel_1: rrel_fixed: rrel_scp_var: _parameter;;
+				->rrel_4: rrel_fixed: rrel_scp_var: _node44_2;;
+				->rrel_5: rrel_assign: rrel_scp_var: _node44_12_2;;
+				=>nrel_then:..proc_search_actual_state_of_object_op44_13;;
+				=>nrel_else:..proc_search_actual_state_of_object_op44_14;;
+			*);;
+		->..proc_search_actual_state_of_object_op44_13
+		(*
+			<-genElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var:_answer;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector43;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node44_2;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op44_14;;
+		*);;
+		->..proc_search_actual_state_of_object_op44_14
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _connector44_2;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op44_2;;
+		*);;
+		->..proc_search_actual_state_of_object_op44_15
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _node_for_situation;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op41;;
+		*);;
+
+		->..proc_search_actual_state_of_object_op45
+		(*
+			<-searchSetStr5;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node41;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector45_1;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _parameter;;
+			->rrel_4: rrel_assign: rrel_scp_var: _connector45_2;;
+			->rrel_5: rrel_assign: rrel_scp_var: _node45;;
+			->rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+			->rrel_set_5: rrel_fixed: rrel_scp_var: _answer;;
+			=>nrel_then:..proc_search_actual_state_of_object_op46;;
+			=>nrel_else:..proc_search_actual_state_of_object_op41;;
+		*);;		
+
+		->..proc_search_actual_state_of_object_op46
+		(*
+			<-genElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var:_answer;;
+			->rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _connector43;;
+			->rrel_3: rrel_fixed: rrel_scp_var: _node41;;
+			=>nrel_goto:..proc_search_actual_state_of_object_op41;;
+		*);;
+		/*->..proc_search_actual_state_of_object_op44
+		(*
+			<-searchSetStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_var: _node41;;
+			->rrel_2: rrel_assign: rrel_scp_var: _connector44;;
+			->rrel_3: rrel_fixed: rrel_scp_const: _parameter;;
+			->rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+			=>nrel_then:..proc_search_actual_state_of_object_op41;;			
+			=>nrel_else:..proc_search_actual_state_of_object_op41;;
+		*);;*/
+/////////////////////////////////////////////////////////////Освобождение памяти		
+		->..proc_search_actual_state_of_object_erase1
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var:_temporary_node1;;
+			=>nrel_goto:..proc_search_actual_state_of_object_erase2;;
+		*);;
+		->..proc_search_actual_state_of_object_erase2
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var:_temporary_node2;;
+			=>nrel_goto:..proc_search_actual_state_of_object_erase3;;
+		*);;
+		->..proc_search_actual_state_of_object_erase3
+		(*
+			<-eraseEl;;
+			->rrel_1: rrel_fixed: rrel_erase: rrel_scp_var:_temporary_node3;;
+			=>nrel_goto:..proc_search_actual_state_of_object_return;;
+		*);;
+/////////////////////////////////////////////////////////////
+		->..proc_search_actual_state_of_object_return
+		(*
+			<-return;;
+		*);;
+	*);;
+*);;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+agent_proc_search_actual_state_of_object
+// Множество идентификаторов
+=>nrel_main_idtf:
+	[Агентная scp-программа поиска актуального состояния объекта] 
+	(* <- lang_ru;; *);
+	[Agent scp-program of search actual state of object] 
+	(* <- lang_en;; *);
+<- agent_scp_program;;
+// Указываем, что программа является агентной scp-программой
+scp_program ->agent_proc_search_actual_state_of_object 
+(*
+	// Множество параметров агентной программы
+	->rrel_params: .agent_proc_search_actual_state_of_object_params 
+	(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+	*);;
+	// Множество операторов агентной программы
+	->rrel_operators: .agent_proc_search_actual_state_of_object_operator_set 
+	(*
+		// Первый исполняемый оператор программы
+		->rrel_init: .agent_proc_search_actual_state_of_object_operator1 
+		(*
+			<- searchElStr3;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+			=>nrel_goto: .agent_proc_search_actual_state_of_object_operator2;;
+		*);;
+		// В rrel_1 устанавливаем имя придуманного нами класса вопросов (см. пункт 2.1).
+		// Агент будет просыпаться, только когда обнаружит наш вопрос.
+		-> .agent_proc_search_actual_state_of_object_operator2 
+		(*
+			<- searchElStr3;;
+			->rrel_1: rrel_fixed: rrel_scp_const: question_search_actual_state_of_object;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+			=>nrel_then: .agent_proc_search_actual_state_of_object_operator3_1;;
+			=>nrel_else: .agent_proc_search_actual_state_of_object_operator_return;;
+		*);;
+		// Найдём параметр запроса – его подал на вход сам пользователь
+		-> .agent_proc_search_actual_state_of_object_operator3_1 
+		(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_1_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param1;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_1_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+			=>nrel_then: .agent_proc_search_actual_state_of_object_operator3_2;;
+			=>nrel_else: .agent_proc_search_actual_state_of_object_operator_return;;
+		*);;
+		-> .agent_proc_search_actual_state_of_object_operator3_2
+		(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_2_1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param2;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc3_2_2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+			=>nrel_then: .agent_proc_search_actual_state_of_object_operator4;;
+			=>nrel_else: .agent_proc_search_actual_state_of_object_operator_return;;
+		*);;
+		// Сгенерировать узел, в который мы поместим конструкцию ответа
+		-> .agent_proc_search_actual_state_of_object_operator4 
+		(*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
+			=>nrel_goto: .agent_proc_search_actual_state_of_object_operator5;;
+		*);;
+		-> .agent_proc_search_actual_state_of_object_operator5 
+		(*
+			<- call;;// В первом параметре содержится название вызванной процедуры
+			-> rrel_1: rrel_fixed: rrel_scp_const: proc_search_actual_state_of_object;;
+			->rrel_2:rrel_fixed:rrel_scp_const:
+			// здесь описаны параметры, подаваемые на вход процедуре
+			.agent_proc_search_actual_state_of_object_operator5_params 
+			(*
+				-> rrel_1: rrel_fixed: rrel_scp_var: _param1;;
+				-> rrel_2: rrel_fixed: rrel_scp_var: _param2;;
+				-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			*);;
+			// Знак scp-процесса, который может быть использован для того, чтобы
+			// дождаться завершения созданного scp-процесса
+			-> rrel_3: rrel_assign: rrel_scp_var: _descr;;
+			=>nrel_goto: .agent_proc_search_actual_state_of_object_operator6;;
+		*);;
+		// scp-оператор ожидания завершения выполнения подпрограммы
+		-> .agent_proc_search_actual_state_of_object_operator6 
+		(*
+			<- waitReturn;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _descr;;
+			=>nrel_goto: .agent_proc_search_actual_state_of_object_operator_gen_answer;;
+		*);;
+		// Связываем ответ и вопрос отношением ответ*
+		-> .agent_proc_search_actual_state_of_object_operator_gen_answer 
+		(*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+			=>nrel_goto: .agent_proc_search_actual_state_of_object_operator_return;;
+		*);;
+		// Оператор завершения агентной программы
+		-> .agent_proc_search_actual_state_of_object_operator_return 
+		(*
+			<- return;;
+		*);;
+	*);;
+*);;
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Спецификация sc-агента
+sc_agent_of_search_actual_state_of_object
+// Указываем множество идентификаторов агента
+=>nrel_main_idtf:
+	// lang_ru – атрибут идентификатора на русском языке
+	[sc-агент поиска]
+	(* <- lang_ru;; *);
+	// lang_en – атрибут идентификатора на английском языке
+	[sc-agent of search] 
+	(* <- lang_en;; *);
+// Указываем, что наш агент принадлежит классу абстрактныхsc-агентов
+<- abstract_sc_agent;
+// Указываем начальное условие инициирования для нашего sc-агента
+=>nrel_primary_initiation_condition: 
+	(sc_event_add_output_arc =>question_initiated);
+// Указываем начальное условие и результат для нашего sc-агента
+=>nrel_initiation_condition_and_result: 
+	(..sc_agent_of_search_actual_state_of_object_initiation_condition =>
+	..sc_agent_of_search_actual_state_of_object_result);
+<= nrel_sc_agent_key_sc_elements:
+	{
+		question_initiated;
+		question;
+		question_search_actual_state_of_object
+	};// Описание деятельности sc-агента
+<- key_sc_element:
+	...
+	(*
+		<- sc_description_of_sc_agent_behavior;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+			->rrel_example:
+			[Задачей sc-агента поиска актуального состояния объекта является поиск действий и временных контуров, соответствующих данной временной точке];;
+		*);;
+	*); // Описание поведения sc-агента
+=>nrel_inclusion: 
+	...
+	(*
+		<- platform_independent_abstract_sc_agent;;
+		// Агент платформенно-независим, т.е. реализован на SCP
+		<= nrel_sc_agent_program:
+		{
+			agent_proc_search_actual_state_of_object;
+			proc_search_actual_state_of_object
+		};; // Перечень программ sc-агента, включая агентную программу
+		->sc_agent_of_search_actual_state_of_object_scp 
+			(* <- active_sc_agent;; *);;
+		// Экемпляр абстраткного sс-агента – конкретный sc-агент
+	*);;
+// Полное условие инициирования sc-агента
+..sc_agent_of_search_actual_state_of_object_initiation_condition
+	= [*
+		question_search_actual_state_of_object _-> .._question;;
+		question_initiated _-> .._question;;
+		question _-> .._question;;
+		.._question _-> .._parameter;;
+	*];;
+// Описание результатов выполнения sc-агента
+..sc_agent_of_search_actual_state_of_object_result
+	= [*
+		question_search_actual_state_of_object _-> .._question;;
+		question_finished _-> .._question;;
+		question _-> .._question;;
+		.._question _=>nrel_answer:: .._answer;;
+		.._question _-> .._parameter;;
+	*];;

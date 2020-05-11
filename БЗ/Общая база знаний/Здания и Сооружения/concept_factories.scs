@@ -3,21 +3,17 @@ concept_factories
 => nrel_main_idtf:
 	[Завод]
 	(* <- lang_ru;;	*);
-=> nrel_idtf:
-	[понятие завода]
-	(* <- lang_ru;; *);
-<- rrel_key_sc_element:
-	Definition_of_factories
-	(* 
-	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(* 
-		-> rrel_example: [Завод- промышленное предприятие с механической обработкой сырья, а также крупное промысловое предприятие ] (* <-lang_ru;; *);;
-		*);;
-	<= nrel_using_constants:
-		...
-		(* 
-		-> concept_building;;
-		*);;
-	*);;
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Завод- промышленное предприятие с механической обработкой сырья, а также крупное промысловое предприятие.]
+    (*
+     <-lang_ru;;
+    *);;
+  *);;
+*);;
+

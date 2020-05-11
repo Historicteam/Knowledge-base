@@ -1,8 +1,9 @@
-
 organization_pozemelni_bank_of_grodno
 			=> nrel_main_idtf:
 				[Поземельный банк в Гродно]  (* <- lang_ru;; *);
 				[Land Bank in Hrodna] (* <- lang_en;; *);
 				[Пазямельны банк у Гродна] (* <- lang_by;; *);
 
+<- begin_date_1885;
+<- completion_date_1917;
 <- concept_organization;;

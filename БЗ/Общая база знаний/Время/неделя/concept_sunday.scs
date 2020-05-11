@@ -1,0 +1,45 @@
+concept_sunday
+    => nrel_main_idtf:
+    [воскресение](* <- lang_ru;; *);
+    [нядзеля](* <-lang_by;;*);
+    [sunday](*<-lang_en;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_concept_sunday
+    
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "воскресение"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of concept sunday]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "нядзеля"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[воскресение -седьмой, последний день недели] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_eample:
+            [sunday is last 7th day of the week](*<-lang_en;;*);;
+            *);
+			...
+			(* 
+			-> rrel_example:
+			[ нядзеля - cёмы дзень тыдня ] (* <-lang_by;; *);; 
+			*);;
+	*);
+	<=nrel_inclusion:day;
+    <-rrel_number_of_day_in_week:7;;

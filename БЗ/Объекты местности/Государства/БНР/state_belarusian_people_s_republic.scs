@@ -13,7 +13,15 @@ state_belarusian_people_s_republic
 concept_unitary_state;
 
 =>nrel_state_emblem: emblem_of_BNR;
-=>nrel_state_flag: flag_of_BNR;;
+=>nrel_state_flag: flag_of_BNR;
+
+<=nrel_occupation:...
+(*
+  <-sc_identifier_tuple_set;;
+  ->rrel_occupier:state_rsfsr;;
+  ->rrel_occupier:state_second_polish_republic;;
+  ->nrel_time_of_event:polish_russian_war;;
+*);;
 
 concept_situation->
 [*organization_Council_of_Belarusian_People_s_Republic <- ... (* <- concept_legislature;;
@@ -31,3 +39,67 @@ concept_situation->
   <- begin_date_05_1918;;
   <- completion_date_10_1918;;
 *);;
+
+
+belarusian_people_s_republic_territory
+=> nrel_main_idtf:
+  [территория Белорусская Народная Республика] (* <- lang_ru;; *);
+  [territory Belarusian People's Republic] (* <- lang_en;; *);
+  [тэрыторыя Народная Рэспубліка] (* <- lang_by;; *);
+<=nrel_territory:state_belarusian_people_s_republic;
+<=nrel_section:...
+(*
+  <-sc_identifier_tuple_set;;
+  ->rrel_by_condition:Peace_of_Riga;;
+  ->rrel_part_of_section:state_bssr;;
+  ->rrel_part_of_section:west_belarus;;
+*);;
+
+
+nrel_section<-sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[раздел*]
+	(*
+	<- lang_ru;;
+	*);
+	[section*]
+	(*
+	<- lang_en;;
+	*);
+	[падзел*]
+	(*
+	<- lang_by;;
+	*);;
+
+rrel_part_of_section<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[часть раздел*]
+	(*
+	<- lang_ru;;
+	*);
+	[part of section*]
+	(*
+	<- lang_en;;
+	*);
+	[частка падзел*]
+	(*
+	<- lang_by;;
+	*);;
+
+rrel_by_condition<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[по условию*]
+	(*
+	<- lang_ru;;
+	*);
+	[part of section*]
+	(*
+	<- lang_en;;
+	*);
+	[частка падзел*]
+	(*
+	<- lang_by;;
+	*);;

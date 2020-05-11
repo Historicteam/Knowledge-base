@@ -1,0 +1,56 @@
+concept_ritual_and_religious_monuments
+
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[ритуально-культовые памятники]
+(*
+<- lang_ru;;
+*);
+[ritual and religious monuments]
+(*
+<- lang_en;;
+*);
+[рытуальна-культавыя помнікі]
+(*
+<- lang_by;;
+*);
+
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Ритуально-культовые памятники- особый вид памятников ,который включает в себя храмы, святилища, мегалиты, почитаемые места]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[  Рытуальна-культавыя помнікі- адмысловы выгляд помнікаў, які ўключае ў сябе храмы, сьвятыні, мегалітаў, ўшанаваныя месцы]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[Ritual and religious monuments - special kind of monuments, which includes churches, sanctuary, megaliths, revered places]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_sanctuary;;
+	-> concept_revered_place;;
+	-> concept_labyrinth;;
+	-> concept_megaliths;;
+	*)
+;;

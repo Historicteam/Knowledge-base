@@ -1,0 +1,10 @@
+Papa_Johns
+<-concept_catering_chain;
+=>nrel_main_idtf:
+    [Сеть ресторанов "Папа Джонс"](*<-lang_ru;;*);
+    [Catering chain "Papa Johns"](* <-lang_en;;*);
+    [Сетка рэстаранаў "Папа Джонс"](*<-lang_by;;*);
+<=nrel_basic_decomposition:
+{
+    papa_johns_at_winners_avenue_85
+};;

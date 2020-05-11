@@ -13,6 +13,7 @@ Bohdanovich_Stepan
 	<- lang_by;;
 	*);
 <-concept_male;
+<- concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Stepan;;
 
@@ -33,6 +34,7 @@ Bohdanovich_Lukyan_Stepanovich
 	*);
 
 <-concept_male; 
+<- concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Lukyan;
 =>nrel_parent:Bohdanovich_Stepan;
@@ -57,6 +59,7 @@ Bohdanovich_Arina_Ivanovna
 	<- lang_by;;
 	*);
 <-concept_woman;
+<- concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Arina;;
 
@@ -76,6 +79,7 @@ Bohdanovich_Semen_Lukyanovich
 	<- lang_by;;
 	*);
 <-concept_male; 
+<- concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Semen;
 =>nrel_parent:Bohdanovich_Lukyan_Stepanovich;
@@ -97,6 +101,7 @@ Bohdanovich_Anna_Lukyanovna
 	<- lang_by;;
 	*);
 <-concept_woman;
+<- concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Anna;
 =>nrel_parent:Bohdanovich_Lukyan_Stepanovich;
@@ -131,6 +136,7 @@ Bohdanovich_Fedor_Lukyanovich
 	<- lang_by;;
 	*);
 <-concept_male;
+<- concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Fedor;
 =>nrel_parent:Bohdanovich_Lukyan_Stepanovich;
@@ -165,6 +171,7 @@ Bohdanovich_Yuri_Lukyanovich
 	<- lang_by;;
 	*);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Yuri;
 =>nrel_parent:Bohdanovich_Lukyan_Stepanovich;
@@ -200,6 +207,7 @@ Osmak_Foma
 	<- lang_by;;
 	*);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Osmak;
 =>nrel_first_name: name_Foma;
 <=>nrel_spouse:Osmak_Ruzal_Kazimirovna;;
@@ -220,6 +228,7 @@ Osmak_Ruzal_Kazimirovna
 	<- lang_by;;
 	*);
 <-concept_woman; 
+<-concept_person;
 =>nrel_surname: surname_Osmak;
 =>nrel_first_name: name_Ruzal;;
 
@@ -239,6 +248,7 @@ Osmak_Maria_Fomichna
 	<- lang_by;;
 	*);
 <-concept_woman; 
+<-concept_person;
 =>nrel_surname: surname_Osmak;
 =>nrel_first_name: name_Marija;
 =>nrel_parent:Osmak_Foma;
@@ -290,6 +300,7 @@ Osmak_Anna_Fomichna
 	<- lang_by;;
 	*);
 <-concept_woman; 
+<-concept_person;
 =>nrel_surname: surname_Osmak;
 =>nrel_first_name: name_Anna;
 =>nrel_parent:Osmak_Foma;
@@ -324,6 +335,7 @@ Bohdanovich_Maria_Yurevna
 	<- lang_by;;
 	*);
 <-concept_woman;
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Marija;
 =>nrel_parent:Bohdanovich_Yuri_Lukyanovich;
@@ -340,6 +352,7 @@ Bohdanovich_Adam_Yurevich
 	[Bohdanovich Adam Yurevich]	(* <- lang_en;; *);
 	[Багдановіч Адам Юр'евіч]	(* <- lang_by;; *);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Adam;
 =>nrel_parent:Bohdanovich_Yuri_Lukyanovich;
@@ -404,6 +417,7 @@ Myakota_Maria_Afanasevna
 	<- lang_by;;
 	*);
 <-concept_woman; 
+<-concept_person;
 =>nrel_surname: surname_Myakota;
 =>nrel_first_name: name_Marija;
 =>nrel_parent:Myakota_Afanasiy;
@@ -450,6 +464,7 @@ Bohdanovich_Alexandra_Pavlovna
 	<- lang_by;;
 	*);
 <-concept_woman;
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Alieksandra;;
 
@@ -469,6 +484,7 @@ Peshkova_Yekaterina_Pavlovna
 	<- lang_by;;
 	*);
 <-concept_woman;
+<-concept_person;
 =>nrel_surname: surname_Peshkov;
 =>nrel_first_name: name_Alieksandra;
 =>nrel_parent: ... (* 
@@ -503,6 +519,7 @@ Peshkova_Alexey_Maksimovich
 	(*
 	<- lang_by;;
 	*);
+<-concept_person;
 <-concept_male;
 =>nrel_surname: surname_Peshkov;
 =>nrel_first_name: name_Alexey;
@@ -537,6 +554,7 @@ Bohdanovich_Alexey_Adamovich
 	<- lang_by;;
 	*);
 <-concept_male; 
+<-concept_person;
 =>nrel_surname: surname_Myakota;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Alexey;
@@ -559,6 +577,7 @@ Bohdanovich_Lev_Adamovich
 	<- lang_by;;
 	*);
 <-concept_male; 
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Liev;
 =>nrel_parent:Bohdanovich_Adam_Yurevich;
@@ -593,6 +612,7 @@ Bohdanovich_Nikolay_Adamovich
 	<- lang_by;;
 	*);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Myakota;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Nikolay;
@@ -615,6 +635,7 @@ Nina_Adamovna_Bohdanovich
 	<- lang_by;;
 	*);
 <-concept_woman; 
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Nina;
 =>nrel_parent:Bohdanovich_Adam_Yurevich;
@@ -706,6 +727,7 @@ Bohdanovich_Vadim_Adamovich
 	<- lang_by;;
 	*);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Vadim;
 =>nrel_parent:Bohdanovich_Adam_Yurevich;
@@ -740,6 +762,7 @@ Bohdanovich_Vyacheslav_Adamovich
 	<- lang_by;;
 	*);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Myakota;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Vyacheslav;
@@ -752,6 +775,7 @@ Bohdanovich_Maksim_Adamovich
 			[Bohdanovich Maksim Adamovich](* <- lang_en;; *);
 			[Багдановіч Максім Адамавіч](* <- lang_by;; *);
 <-concept_male;
+<-concept_person;
 =>nrel_surname: surname_Bohdanovich;
 =>nrel_first_name: name_Maksim;
 =>nrel_parent:Bohdanovich_Adam_Yurevich;

@@ -1,0 +1,79 @@
+hillfort_zamchische
+=>nrel_main_idtf:
+	[Городище "Замчище"] (* <-lang_ru;; *);
+	[Hillfort "Zamchische"] (* <-lang_en;; *);
+	[Гарадзішча "Замчышча"] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+    ... 
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example: [Начальная история Минска связана с Минским замчищем — местом, где когда-то стоял замок. На древность этого района города указывают все графические и письменные источники, в которых он фигурирует под разными названиями: «Замок», «Замчище», «Старое место», «Старый город». (Кстати, в Старый город, кроме Замчища с Нижним рынком, входили Раковское, Троицкое и Татарское предместья). Сохранились планы города XVIII — XIX веков, на которых зафиксированы участки оборонительного вала.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example: [The initial history of Minsk is connected with the Zamchische - the place where the castle once stood. The antiquity of this area of the city is indicated by all graphic and written sources, in which it appears under various names: “Castle”, “Castle”, “Old Place”, “Old Town”. (By the way, in the Old Town, except for Zamchishcha with the Lower Market, included Rakovskoe, Troitskoe and Tatar suburbs). The plans of the city of the XVIII - XIX centuries were preserved, on which the sections of the defensive wall were fixed.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example: [Пачатковая гісторыя Мінска звязаная з Мінскім замчышчам - месцам, дзе калісьці стаяў замак. На старажытнасць гэтага раёна горада паказваюць усе графічныя і пісьмовыя крыніцы, у якіх ён фігуруе пад рознымі назвамі: "Замак", "Замчышча", "Старое месца", "Стары горад". (Дарэчы, у стары горад, акрамя замчышча з ніжнім рынкам, уваходзілі Ракаўскае, Траецкае і Татарскае прадмесця). Захаваліся планы горада XVIII-XIX стагоддзяў, на якіх зафіксаваныя ўчасткі абарончага вала.] (* <-lang_by;; *);; 
+			*);;
+	*);
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.906749, 27.552861]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.906749;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.552861;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: Picture_of_Zamchische (*
+	=> nrel_main_idtf:
+		[Изображение Замчища] (* <- lang_ru;; *);
+		[Picture of Zamchische] (* <- lang_en;; *);
+		[Выява Замчышча] (* <- lang_by;; *);;
+
+	<- sc_illustration;;
+	<-begin_date_1903;;
+	<-completion_date_1903;;
+	<= nrel_sc_text_translation: 
+		... (*
+		-> rrel_example: "file://contents//zamchische.jpg" (*
+				=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);
+
+<= nrel_subdividing: ...
+	(*
+		-> Minsk_castle;;
+		-> zamchische_defenses;;
+		//-> fortress_gates_of_the_zamchische;;
+		-> first_Minsk_temple;;
+	*);
+
+<- concept_hillfort;;

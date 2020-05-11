@@ -2,7 +2,7 @@ action.detention
 =>nrel_main_idtf:
 	[действие. арест] (* <-lang_ru;; *);
 	[action. detention] (* <-lang_en;; *);	
-
+<- sc_node_not_relation;
 <=nrel_inclusion:actions_class;;
 
 

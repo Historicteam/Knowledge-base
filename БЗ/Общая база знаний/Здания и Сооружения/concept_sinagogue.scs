@@ -1,0 +1,37 @@
+concept_sinagogue
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[синагога]
+	(*
+	<- lang_ru;;
+	*);
+	[sinagogue]
+	(*
+	<- lang_en;;
+	*);
+	[сінагога]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Synagogue is a jewish building that serves as a place of public worship and the center of the religious life of the community.]
+    (*
+    <- lang_en;;
+    *);
+  [Синагога - еврейское сооружение, служащее местом общественного богослужения и центром религиозной жизни общины.]
+    (*
+     <-lang_ru;;
+    *);
+  [Сінагога - габрэйскае будаванне, якое служыць месцам грамадскага набажэнствы і цэнтрам рэлігійнага жыцця абшчыны.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

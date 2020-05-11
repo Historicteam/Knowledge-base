@@ -21,9 +21,9 @@ church_of_st_johns
 	(*
 	<- lang_by;;
 	*);
-<-concept_building;
+<-concept_catholic_church;
 <-concept_terrain_object;
-
+<=nrel_whole_part:Plehanova_street;
 => nrel_osm_query: [way(62008480);];
 => nrel_geographical_location: ...
 	(*

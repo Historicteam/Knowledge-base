@@ -1,0 +1,9 @@
+Naliboki_canteen
+=>nrel_main_idtf:
+    [Налибоки](*<-lang_ru;;*);
+    [Naliboki](*<-lang_en;;*);
+<-concept_canteen;
+<-concept_catering_with_self_service;
+<-concept_universal_catering_organization;
+=>nrel_working_hours: Mon_Fri_11_00_16_00;
+=>nrel_location:house_16_Kulman_street;;

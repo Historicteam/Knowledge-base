@@ -1,0 +1,15 @@
+Kolasa_street
+=> nrel_main_idtf:
+			[Улица Якуба Коласа]
+			(*
+			<- lang_ru;;
+			*);
+			[Kolasa street]
+			(*
+			<- lang_en;;
+			*);
+			[Вуліца Якуба Коласа]
+			(*
+			<- lang_by;;
+			*);
+<-concept_street;;

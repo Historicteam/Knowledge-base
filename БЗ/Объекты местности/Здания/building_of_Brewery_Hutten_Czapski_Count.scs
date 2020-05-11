@@ -13,7 +13,10 @@ building_of_The_1st_Minsk_Brewery_Olivariya
 	<- lang_by;;
 	*);
 
+<=nrel_whole_part:Bogdanovichs_Street;
+
 <-concept_building;
+<-concept_concept_manufacturing_building;
 <-concept_terrain_object;
 <- begin_date_1864;
 => nrel_osm_query: [way(380239356);];

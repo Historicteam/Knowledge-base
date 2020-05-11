@@ -6,10 +6,5 @@ Sovetskaya_Street
 				(*
 				<- lang_by;;
 				*);
-	<= nrel_subdividing:
-		{
-			building_Przhelyaskovskiys_House
-			
-		};
 	<-concept_street;;
 

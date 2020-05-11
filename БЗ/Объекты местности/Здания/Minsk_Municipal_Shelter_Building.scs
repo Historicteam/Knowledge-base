@@ -12,5 +12,9 @@ Minsk_Municipal_Shelter_Building
   (*
     <- lang_en;;
   *);
-<-concept_building;
+<-completion_date_01_03_1919;
+<-concept_lost_constructions;
+<=nrel_whole_part:Bogdanovichs_Street;
+<- concept_building;
+<-concept_non_profit_residental_building;
 <-concept_terrain_object;;

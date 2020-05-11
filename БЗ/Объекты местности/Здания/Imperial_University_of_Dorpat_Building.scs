@@ -12,6 +12,7 @@ Imperial_University_of_Dorpat_Building
 	(*
 	<- lang_by;;
 	*);
-<-concept_building
+<- concept_building;
+<-concept_educational_building
 ;;
 

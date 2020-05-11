@@ -1,0 +1,7 @@
+concept_bus_route_num
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[номер автобусного маршрута](*<- lang_ru;;*);
+	[bus route num](*<- lang_en;;*);
+	[нумар маршруту аўтобуса](*<- lang_by;;*);;

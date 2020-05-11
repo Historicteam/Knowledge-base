@@ -1,0 +1,44 @@
+concept_monday
+    => nrel_main_idtf:
+    [понедельник](* <- lang_ru;; *);
+    [панядзелак](* <-lang_by;;*);
+    [monday](*<-lang_en;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_monday
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "понедельник"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of monday]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "панядзелак"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Понедельник - первый день недели] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+            [Monday is first day of the week](*<-lang_en;;*);;
+            *);
+			...
+			(* 
+			-> rrel_example:
+			[Панядзелак  - першы дзень тыдня ] (* <-lang_by;; *);; 
+			*);;
+	*);
+	<=nrel_inclusion:day;
+    <-rrel_number_of_day_in_week:1;;

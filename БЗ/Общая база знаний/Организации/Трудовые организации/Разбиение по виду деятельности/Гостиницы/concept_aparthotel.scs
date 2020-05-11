@@ -1,0 +1,44 @@
+concept_aparthotel
+=>nrel_main_idtf:
+    [апарт-отель](*<-lang_ru;;*);
+    [aparthotel](* <-lang_en;; *);
+    [апарт-гатэль](*<-lang_by;;*);
+
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_concept_exotic_hotel
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "Апарт-отель"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the Aparthotel concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "Апарт-гатэль"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Созданы по принципу квартир (апартаментов), но при этом нет необходимости заключать договор с владельцем на определённый срок, а постоялец может выписаться практически в любой момент. Система бронирования стандартна, как и в других отелях. По степени комфорта апарт-отели можно сравнить с домашними условиями, а цены в них гораздо ниже традиционных гостиниц.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Created on the principle of apartments (apartments), but there is no need to conclude an agreement with the owner for a certain period, and a guest can be discharged at almost any time. The reservation system is standard, as in other hotels. In terms of comfort, apart-hotels can be compared with home conditions, and their prices are much lower than traditional hotels.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Створаны па прынцыпе кватэр (апартаментаў), але пры гэтым няма неабходнасці заключаць дагавор з уладальнікам на пэўны тэрмін, а пастаялец можа выпісацца практычна ў любы момант. Сістэма браніравання стандартная, як і ў іншых гатэлях. Па ступені камфорту апарт-гатэлі можна параўнаць з хатнімі ўмовамі, а кошты ў іх значна ніжэй традыцыйных гасцініц.] (* <-lang_by;; *);; 
+			*);;
+	*);;       

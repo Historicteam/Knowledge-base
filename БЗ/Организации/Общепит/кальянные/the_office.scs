@@ -1,0 +1,9 @@
+The_office
+=>nrel_main_idtf:
+    [The office](*<-lang_ru;;*);
+    [The office](*<-lang_en;;*);
+<-concept_hookah_place;
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+=>nrel_working_hours:Mon_Sun_00_00_00_00;
+=>nrel_location:house_9_Kulman_street;;

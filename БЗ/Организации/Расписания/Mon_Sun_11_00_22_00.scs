@@ -1,0 +1,68 @@
+Mon_Sun_11_00_22_00
+    <-concept_schedule;
+    =>nrel_main_idtf:
+            [Пн-Вск 11:00-22:00](*<-lang_ru;;*);
+        ->...
+        (*
+            ->rrel_1:concept_monday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_11h_00m;;
+                <-completion_date_22h_00m;;
+            *);;
+        *);
+        -> ...
+        (*
+            ->rrel_1:concept_tuesday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_11h_00m;;
+                <-completion_date_22h_00m;;
+            *);;
+        *);
+        ->...
+        (*
+            ->rrel_1:concept_wednesday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_11h_00m;;
+                <-completion_date_22h_00m;;
+            *);;
+        *);
+        ->...
+        (*
+            ->rrel_1:concept_thursday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_11h_00m;;
+                <-completion_date_22h_00m;;
+            *);;
+        *);
+        ->...
+        (*
+            ->rrel_1:concept_friday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_11h_00m;;
+                <-completion_date_22h_00m;;
+            *);;
+        *);
+        ->...
+        (*
+            ->rrel_1:concept_saturday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_11h_00m;;
+                <-completion_date_22h_00m;;
+            *);;
+        *);
+        ->...
+        (*
+            ->rrel_1:concept_sunday;;
+            ->rrel_2: ...
+            (*
+                <-begin_date_11h_00m;;
+                <-completion_date_22h_00m;;
+            *);;
+        *);;
+    

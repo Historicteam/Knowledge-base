@@ -1,0 +1,30 @@
+concept_fence
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[ограда](*<- lang_ru;;*);
+	[fence](*<- lang_en;;*);
+        [агароджа](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Fence is a wall, lattice, etc., which encloses a plot of land.]
+    (*
+    <- lang_en;;
+    *);
+  [Ограда - стена, решетка и т.п., которыми обнесен участок земли.]
+    (*
+     <-lang_ru;;
+    *);
+  [Агароджа - сцяна, рашотка і да т.п., якімі абнесены ўчастак зямлі.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

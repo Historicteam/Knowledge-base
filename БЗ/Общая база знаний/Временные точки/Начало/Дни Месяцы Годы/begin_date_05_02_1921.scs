@@ -19,4 +19,6 @@ begin_date_05_02_1921
    		<- number_of_day_in_month: [5];;
    		<- number_of_month_in_year: [2];;
    		<- number_of_year: [1921];;
-   	*);;
+   	*);
+<-begin_date_02_1921;
+<-begin_date_1921;;

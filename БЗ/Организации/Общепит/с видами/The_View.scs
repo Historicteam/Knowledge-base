@@ -1,0 +1,19 @@
+The_View
+=>nrel_main_idtf:
+    [The View](*<-lang_en;;*);
+<-concept_catering_with_great_view;
+<-concept_catering_with_waiter_service;
+=>nrel_working_hours: Mon_Sun_12_00_23_30;
+    <- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/the_view.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_7a_winners_Avenue;;

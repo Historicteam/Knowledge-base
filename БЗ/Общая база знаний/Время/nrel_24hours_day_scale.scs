@@ -1,0 +1,9 @@
+nrel_24hours_day_scale
+=>nrel_main_idtf:
+	[измерение по 24 часовому формату времени*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[measurement in 24 hour time format*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[вымярэнне па 24гадзіннаму фармату часу *] (* <-lang_by;; *);		
+<-sc_const;	
+<-sc_node_norole_relation;;

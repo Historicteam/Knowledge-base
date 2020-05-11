@@ -1,0 +1,30 @@
+concept_stairs
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[лестница](*<- lang_ru;;*);
+	[stairs](*<- lang_en;;*);
+        [фантан](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Stairs is a structure in the form of a series of steps for ascent and descent.]
+    (*
+    <- lang_en;;
+    *);
+  [Лестница - сооружение в виде ряда ступеней для подъема и спуска.]
+    (*
+     <-lang_ru;;
+    *);
+  [Лесвіца - будаванне ў выглядзе шэрагу прыступак для ўздыму і спуску.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

@@ -1,0 +1,8 @@
+coffee_kawa
+=>nrel_main_idtf:
+	[Coffee & кава](* <-lang_en;;*);
+	[Coffee & кава](* <-lang_ru;;*); 
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_8_00_00_00;
+=>nrel_location:house_35_Independence_Avenue;;

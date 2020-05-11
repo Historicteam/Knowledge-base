@@ -41,6 +41,8 @@ building_wooden_railway_church
 
 <- concept_terrain_object;
 <-concept_lost_constructions;
+<-concept_trade_enterprise_building;
+<-concept_cultural_building;
 =>nrel_material: material_wood;
 <- concept_building;;
 
@@ -102,6 +104,7 @@ concept_situation->[*building_wooden_railway_church
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*

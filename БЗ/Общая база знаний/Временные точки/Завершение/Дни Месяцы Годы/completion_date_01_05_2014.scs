@@ -1,0 +1,24 @@
+completion_date_01_05_2014
+=> nrel_main_idtf:
+   [время завершения - 1 мая 2014]
+   (*
+   <- lang_ru;;
+   *);
+   [completion date - 1 may of 2014]
+   (*
+   <- lang_en;;
+   *);
+   [час заканчэння - 1 мая 2014]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- completion;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [1];;
+   <- number_of_month_in_year: [5];;
+   <- number_of_year: [2014];;
+   *);
+   <- completion_date_05_2014;
+   <- completion_date_2014;;

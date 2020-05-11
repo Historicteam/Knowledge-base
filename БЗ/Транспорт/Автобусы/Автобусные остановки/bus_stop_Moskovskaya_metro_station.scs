@@ -1,0 +1,31 @@
+bus_stop_Moskovskaya_metro_station
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Станция метро Московская](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Станцыя метро Маскоўская](*<- lang_by;;*);
+=> nrel_osm_query: [node(446777623);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.927520, 27.625372]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.927520;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.625372;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,29 @@
+concept_structure_of_transport_communications
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[сооружение транспортных коммуникаций](*<- lang_ru;;*);
+	[structure of transport communications](*<- lang_en;;*);
+        [будаванне транспартных камунікацый](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [К сооружениям транспортных коммуникаций относятся метрополитены, железнодорожные, автомобильные тоннели.]
+    (*
+    <-lang_ru;;
+    *);
+  [Structures of transport communications include metro, railway, automobile tunnels.]
+    (*
+       <- lang_en;;
+    *);
+  [Да будаванняў транспартных камунікацый адносяцца метрапалітэны, чыгуначныя, аўтамабільныя тунэлі.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

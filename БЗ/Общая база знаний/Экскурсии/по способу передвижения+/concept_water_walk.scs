@@ -1,0 +1,49 @@
+concept_water_walk
+<-subdiving_the_method_of_movement;
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[водная прогулка]
+(*
+<- lang_ru;;
+*);
+[water walk]
+(*
+<- lang_en;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Прогулка осуществляемая на воде с использование различных видов водного транспорта. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Прагулка якая ажыццяўляецца на вадзе з выкарыстанне розных відаў воднага транспарту.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ Walk on water using various types of water transport.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);
+<= nrel_subdividing: ...
+	(*
+	-> concept_walk_with_catamaran;;
+	-> concept_walk_with_motor_ship;;
+	*)
+;;

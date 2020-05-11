@@ -1,0 +1,40 @@
+Moskowskaya_metro_line
+<- concept_metro_line;
+<- Minsk_Metro;
+=> nrel_main_idtf:
+	[Московская линия Минского метрополитена](*<- lang_ru;;*);
+	[Moskowskaya line of the Minsk Metro](*<- lang_en;;*);
+	[Маскоўская лінія Мінскага метрапалітэна](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Первая линия Минского метрополитена длиной 19,1 км,пересекает Минск с северо-востока на юго-запад. Время следования электропоезда от начальной станции до конечной 29 минут.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The first line of the Minsk Metro is 19.1 km long, crosses Minsk from northeast to southwest. The duration of the train from the initial station to the final 29 minutes.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Першая лінія Мінскага метрапалітэна даўжынёй 19,1 км, перасякае Мінск з паўночна-усходу на паўднёва-захад. Час руху электрацягніка ад пачатковай станцыі да канчатковай 29 хвілін.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- opening_date_30_06_1984;
+=> nrel_number_of_stations: [15];;

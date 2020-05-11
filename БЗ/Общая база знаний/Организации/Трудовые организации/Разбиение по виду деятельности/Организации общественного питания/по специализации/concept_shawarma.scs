@@ -1,0 +1,33 @@
+concept_shawarma
+=>nrel_main_idtf:
+    [шаурмичная](*<-lang_ru;;*);
+    [shawarma](* <-lang_en;; *);
+    [шаурмiчная](*<-lang_by;;*);
+
+<- rrel_key_sc_element:
+	Definition_of_the_shawarma_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+            [ Шаурмичная – это заведение, специализирующееся на изготовлении и продаже шаурмы.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[ Shawarma is organization specializing in the producing and saling of shawarma..] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[шаурмiчная -  установа,якая спецыялізуецца на вырабе і продажы шаурмы.] (* <-lang_by;; *);; 
+			*);;
+	*);
+<=nrel_inclusion:concept_specialized_catering_organization;
+<-sc_node_not_relation;;
+
+

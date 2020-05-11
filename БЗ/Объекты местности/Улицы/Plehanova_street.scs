@@ -1,0 +1,9 @@
+Plehanova_street
+=> nrel_main_idtf:
+		[Улица Плеханова](* <- lang_ru;; *);
+		[Plehanov's Street](* <- lang_en;; *);
+			[Вуліца Пляханава]
+			(*
+			<- lang_by;;
+			*);
+		<-concept_street;;

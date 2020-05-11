@@ -1,0 +1,43 @@
+concept_pond
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[водоем]
+(*
+<- lang_ru;;
+*);
+[вадаём]
+(*
+<- lang_by;;
+*);
+[pond]
+(*
+<- lang_en;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+  (*
+	-> rrel_example:
+	[ Водоём — постоянное или временное скопление стоячей или со сниженным стоком воды в естественных или искусственных впадинах. В широком смысле, также — обозначение морей и океанов.]
+	(* <- lang_ru;; *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Вадаём - пастаяннае або часовае навала стаялай або з паніжаным сцёкам вады ў натуральных або штучных западзінах. У шырокім сэнсе, таксама - абазначэнне мораў і акіянаў.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ A permanent or temporary accumulation of stagnant or with reduced runoff in natural or artificial cavities.]
+	(* <- lang_en;; *);;
+  *);;
+*);;

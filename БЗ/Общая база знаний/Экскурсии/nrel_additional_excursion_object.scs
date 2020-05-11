@@ -1,0 +1,38 @@
+nrel_additional_excursion_object<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+<-sc_node_norole_relation;
+	=> nrel_main_idtf:
+	[дополнительный объект экскурсии*] 
+	(* <- lang_ru;; *);
+	[additional excursion object*]	
+	(* <- lang_en;; *);
+=> nrel_first_domain:concept_object_of_town_planning;
+			concept_construction;
+			concept_nature_object;
+=> nrel_second_domain:concept_excursion;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Объект экскурсии который не является основной целью показа экскурсии, но имеет смысловую ценность.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The object of the excursion which is not the main purpose of showing the excursion, but has semantic value.]
+			(* 
+			<- lang_en;; 
+			*);;
+		*);;
+		
+	*);;

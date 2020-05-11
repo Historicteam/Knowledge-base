@@ -1,0 +1,34 @@
+concept_complex_nature_object<-sc_const;
+	<-sc_node_not_relation;
+	=> nrel_main_idtf:
+	[комплексный природный объект] 
+	(* <- lang_ru;; *);
+	[complex nature object]	
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "комплексный природный объект"] (* <-lang_ru;; *);
+		[Definition of the nature object concept] (* <-lang_en;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Комплексный природный объект – определенная территория, на которой расположены различные природные объекты.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [A complex nature object is a specific territory on which various natural sites are located.] (* <-lang_en;; *);; 
+		*);;
+	*);;
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_complex_nature_object;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В состав комплексныйх природныйх объектов также можно включать объекты антропоморфного происхождения, если они образуют завершенную систему с находящимися на рассматриеваемой территории природными объектами.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(комплексный природный объект)](*<- lang_ru;;*);;
+*);;

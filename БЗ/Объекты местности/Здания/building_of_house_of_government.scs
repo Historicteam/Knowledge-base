@@ -9,7 +9,8 @@ building_of_house_of_government
 <- rrel_key_sc_element:
 	...
 	(*
-	<-sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -28,6 +29,7 @@ building_of_house_of_government
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -65,6 +67,7 @@ building_of_house_of_government
 			*);;
 		*);;
 	*);
+<-concept_government_building;
 <-concept_building;;
 concept_situation->[*organization_Regional_Planning_Commission => nrel_location: building_of_house_of_government;;*]
 (*

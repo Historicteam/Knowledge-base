@@ -1,0 +1,29 @@
+concept_monastery
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[монастырь](*<- lang_ru;;*);
+	[monastery](*<- lang_en;;*);
+        [манастыр](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Монастырь - комплекс богослужебных, жилых, хозяйственных построек, принадлежащих религиозной общине монахов или монахинь, имеющей единый устав.]
+    (*
+    <-lang_ru;;
+    *);
+  [Monastery is a complex of liturgical, residential, farm buildings belonging to a religious community of monks or nuns, having a single charter.]
+    (*
+       <- lang_en;;
+    *);
+  [Манастыр - комплекс богаслужбовых, жылых, гаспадарчых пабудоў, якія належаць рэлігійнай суполцы манахаў або манашак, якая мае адзіны статут.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

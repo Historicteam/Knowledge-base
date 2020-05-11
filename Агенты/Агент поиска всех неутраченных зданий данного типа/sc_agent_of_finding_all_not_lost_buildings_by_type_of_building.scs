@@ -1,0 +1,50 @@
+sc_agent_of_finding_all_not_lost_buildings_by_type_of_building
+=> nrel_main_idtf:
+	[sc-агент поиска всех неутраченных зданий данного типа для заданного понятия] (* <- lang_ru;; *);
+	[sc-agent of finding all non lost buildings by type for the given concept] (* <- lang_en;; *);
+
+<- abstract_sc_agent;
+
+=> nrel_primary_initiation_condition: 
+	(sc_event_add_output_arc => question_initiated);
+
+=> nrel_initiation_condition_and_result: 
+	(..sc_agent_of_finding_all_not_lost_buildings_by_type_of_building_condition => ..sc_agent_of_finding_all_not_lost_buildings_by_type_of_building_result);
+
+<= nrel_sc_agent_key_sc_elements: 
+	{
+	question_initiated;
+	question;
+	question_of_finding_all_not_lost_buildings_by_type_of_building
+	};
+
+=> nrel_inclusion: 
+	.platform_independent_realization_of_sc_agent_of_finding_all_not_lost_buildings_by_type_of_building
+	(*
+	<- platform_independent_abstract_sc_agent;;
+	<= nrel_sc_agent_program: 
+		{
+		agent_of_finding_all_not_lost_buildings_by_type_of_building
+		};;
+	-> sc_agent_of_finding_all_not_lost_buildings_by_type_of_building   
+		(* 
+		<- active_sc_agent;; 
+		*);;  
+	*);;
+
+..sc_agent_of_finding_all_not_lost_buildings_by_type_of_building_condition
+= [*
+	question_of_finding_all_not_lost_buildings_by_type_of_building _-> .._question;;
+	question_initiated _-> .._question;;
+	question _-> .._question;;
+	.._question _-> .._parameter;;
+*];;
+
+..sc_agent_of_finding_all_not_lost_buildings_by_type_of_building_result
+= [*
+	question_of_finding_all_not_lost_buildings_by_type_of_building _-> .._question;;
+	question_finished _-> .._question;;
+	question _-> .._question;;
+	.._question _=> nrel_answer:: .._answer;;
+	.._question _-> .._parameter;;
+*];;

@@ -1,0 +1,88 @@
+concept_water_object
+	<-sc_node_not_relation;
+	=> nrel_main_idtf:
+	[водный объект] 
+	(* <- lang_ru;; *);
+	[водны аб'ект] 
+	(* <- lang_ru;; *);
+	[water object]	
+	(* <- lang_en;; *);;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_water_object;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Водный объект — природный или искусственный водоём, водоток либо иной объект, постоянное или временное сосредоточение вод, в котором имеет характерные формы и признаки водного режима. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "водный объект"](*<- lang_ru;;*);;
+	=> nrel_using_constants: concept_island;
+			concept_water_object;;
+*);;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_water_object;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Water object - a natural or artificial body of water, a waterflow or other object, permanent or temporary concentration of water, in which it has the characteristic forms and signs of the water regime. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Definition of water object concept](*<- lang_en;;*);;
+*);;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_water_object;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Водны аб'ект - прыродны ці штучны вадаём, вадацёк небудзь іншы аб'ект, пастаяннае або часовае засяроджванне вод, у якім мае характэрныя формы і прыкметы воднага рэжыму. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Азначэнне паняцця "водны аб'ект"](*<- lang_by;;*);;
+*);;
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_water_object ;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Водные объекты составляют основу водных ресурсов. С точки зрения экологии водные объекты представляют собой экологические системы.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Основная информация о водных объектах](*<- lang_ru;;*);;
+*);;
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_water_object ;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Водныя аб'екты складаюць аснову водных рэсурсаў. З пункту гледжання экалогіі водныя аб'екты ўяўляюць сабой экалагічныя сістэмы.](*<- lang_by;;*);;
+        *);;
+    => nrel_main_idtf: [Асноўная інфармацыя аб водных аб'ектах](*<- lang_by;;*);;
+*);;
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_water_object ;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Water object form the basis of water resources. From an environmental point of view, water bodies are ecological systems.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [The main information of water object](*<- lang_en;;*);;
+*);;
+concept_water_object
+<=nrel_subdividing:
+	types_of_water_move
+	(*
+		=>nrel_main_idtf:
+		[разбиение по виду движения вод] (* <-lang_ru;; *);
+		[разбіццё па тыпу руху вод] (* <-lang_by;; *);
+		[subdividing in types of water move] (* <-lang_en;; *);;
+		->concept_pond;
+		concept_waterflow;;
+	*);
+<=nrel_subdividing:
+	types_of_water_use
+	(*
+		=>nrel_main_idtf:
+		[разбиение по виду использования] (* <-lang_ru;; *);
+		[разбіццё па тыпу выкарыстання] (* <-lang_ru;; *);
+		[subdividing in types of water use] (* <-lang_en;; *);;
+		->concept_decorative_water_object;
+		concept_fishing_water_object;
+		concept_recreational_water_object;
+		concept_multifunctional_water_object;;
+	*);;

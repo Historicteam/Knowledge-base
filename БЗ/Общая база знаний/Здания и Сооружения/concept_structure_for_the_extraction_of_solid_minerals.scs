@@ -1,0 +1,29 @@
+concept_structure_for_the_extraction_of_solid_minerals
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[сооружение по добыче твердых полезных ископаемых](*<- lang_ru;;*);
+	[structure for the extraction of solid minerals](*<- lang_en;;*);
+        [будаванне па здабычы цвёрдых карысных выкапняў](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [К сооружениям по добыче твердых полезных ископаемых относятся шахты по добыче угля, руды, нерудных ископаемых и т д.]
+    (*
+    <-lang_ru;;
+    *);
+  [Structures for the extraction of solid minerals include mines for the extraction of coal, ore, nonmetallic minerals, etc.]
+    (*
+       <- lang_en;;
+    *);
+  [Да будаванняў па здабычы цвёрдых карысных выкапняў ставяцца шахты па здабычы вугалю, руды, нярудных выкапняў і т д.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

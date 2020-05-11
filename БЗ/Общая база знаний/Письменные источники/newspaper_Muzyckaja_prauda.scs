@@ -1,0 +1,27 @@
+Muzyckaja_prauda
+=>nrel_main_idtf:
+	[Газета "Мужицкая правда"] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Newspaper "Muzyckaja prauda"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[Газета "Мужыцкая праўда"] (* <-lang_by;; *);
+	
+<- rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example:
+		[Первая нелегальная газета на белорусском языке.] (* <-lang_ru;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example:
+		[Першая рэвалюцыйна-дэмакратычная газэта ў Беларусі і першая газэта на беларускай мове.] (* <-lang_by;; *);;
+		*);;
+	*);
+
+<-concept_periodical;	
+<-sc_const;;

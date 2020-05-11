@@ -1,0 +1,13 @@
+vasilki
+<-concept_catering_chain;
+=>nrel_main_idtf:
+    [Сеть ресторанов "Васильки"](*<-lang_ru;;*);
+    [Catering chain "Vasilki"](* <-lang_en;;*);
+    [Сетка рэстаранаў "Васількі"](*<-lang_by;;*);
+<=nrel_basic_decomposition:
+{
+    vasilki_at_independance_avenue_16;
+    vasilki_at_winners_avenue;
+    vasilki_at_Bobruiskaya_6;
+    vasilki_at_independance_avenue_89
+};;

@@ -1,0 +1,9 @@
+stary_Mensk
+=>nrel_main_idtf:
+	[Kew London](* <-lang_en;;*);
+	[Кью Лондон](* <-lang_ru;;*); 
+<-concept_catering_with_counter_service;
+<-concept_catering_with_bar_service;
+<-concept_coffee;
+=>nrel_working_hours:Mon_Sun_17_00_02_00;
+=>nrel_location:house_18_Independence_Avenue;;

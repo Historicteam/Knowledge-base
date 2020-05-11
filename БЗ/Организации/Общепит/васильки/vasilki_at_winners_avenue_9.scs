@@ -1,0 +1,10 @@
+vasilki_at_winners_avenue
+=>nrel_main_idtf:
+    ["Васильки" на Проспекте Победителей 9](*<-lang_ru;;*);
+    ["Vasilki" at Winners avenue 9](* <-lang_en;;*);
+    ["Васількі" на Праспетце Пераможцау 9](*<-lang_by;;*);
+<-concept_restaurant;
+=>nrel_cuisine:belarussian_cuisine;
+<-concept_catering_with_waiter_service;
+=>nrel_working_hours: Mon_Sun_10_00_23_00;
+=>nrel_location:house_9_winners_Avenue;;

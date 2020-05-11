@@ -1,0 +1,22 @@
+concept_lost_archaeological_monument
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[утраченный археологический памятник]
+	(* <- lang_ru;;	*);
+=> nrel_idtf:
+	[понятие утраченного археологического памятника]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Утраченный археологический памятник - археологический памятник, который больше не доступен для использования в силу разнообразных причин.] (* <-lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		...
+		(* 
+		-> 	concept_archaeological_monument;;
+		*);;
+	*);;

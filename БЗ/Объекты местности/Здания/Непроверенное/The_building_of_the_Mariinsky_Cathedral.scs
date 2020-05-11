@@ -1,5 +1,6 @@
 The_building_of_the_Mariinsky_Cathedral
-<- concept_building;
+<- concept_catholic_temple;
+<-concept_building;
 => nrel_main_idtf:
 	[Здание Иезуитского костёла Святой Варвары, Марии и Иисуса] (* <- lang_ru;; *);
 	[The building of Jesuit church of St. Barbara, Mary and Jesus] (* <- lang_en;; *);
@@ -10,7 +11,7 @@ The_building_of_the_Mariinsky_Cathedral
 	[Mariinsky Cathedral] (* <- lang_en;; *);
 	[Марыінскі кафедральны сабор] (* <- lang_by;; *);
 
-=> nrel_osm_query: [way(482601336);];
+=> nrel_osm_query: [way(538208752);];
 
 <= nrel_temporal_decomposition: 
     {
@@ -32,10 +33,6 @@ The_building_of_the_Mariinsky_Cathedral
             
         <- begin_date_1710;;
         <- completion_date_1799;;
-
-	
-	
-
         *);
 
 	Mariinsky_Cathedral
@@ -95,9 +92,6 @@ The_building_of_the_Mariinsky_Cathedral
 					    *);;
 					    
 					<- begin_date_1991;;
-						       	
-
-	
 		*)
     
     };
@@ -106,7 +100,7 @@ The_building_of_the_Mariinsky_Cathedral
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;
-	=> nrel_WGS_84_translation: [53.9031514, 27.5546604]
+	=> nrel_WGS_84_translation: [53.905040, 27.555910]
 		(*
 		-> ...
 			(*
@@ -115,14 +109,14 @@ The_building_of_the_Mariinsky_Cathedral
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 53.9031514;;
+					-> rrel_degree: 53.905040;;
 					*);;
 				*);;
 			->rrel_longitude: ...
 				(*
 				<=nrel_value: ...
 					(*
-					-> rrel_degree: 27.5546604;;
+					-> rrel_degree: 27.555910;;
 					*);;
 				*);;
 			*);;
@@ -250,10 +244,11 @@ concept_situation->[*
 The_building_of_the_Mariinsky_Cathedral <- rrel_key_sc_element: Image_Mariinskii_sobor_1918  
 		(*
 			<- sc_illustration;;
+			<-key_image;;
 			<= nrel_sc_text_translation: ... 
-		(*
-			->rrel_example: "file://contents//Мариинский_собор(2003).jpg"
-		(*
+			(*
+				->rrel_example: "file://contents//Мариинский_собор(2003).jpg"
+			(*
 			=> nrel_format: format_jpg;;
 			*);;
 			*);;

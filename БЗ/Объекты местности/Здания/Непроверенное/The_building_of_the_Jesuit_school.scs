@@ -1,7 +1,8 @@
 The_building_of_the_Jesuit_school
+<- concept_educational_building;
 <- concept_building;
 <- concept_terrain_object;
-<-concept_public_building;
+
 
 => nrel_main_idtf:
 	[Здание иезуитской школы] (* <- lang_ru;; *);
@@ -15,6 +16,7 @@ The_building_of_the_Jesuit_school
 		[Выява будынка езуіцкай школы] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Здание иезуитской школы.jpg" (*
@@ -63,7 +65,7 @@ The_building_of_the_Jesuit_school
             *);;
             
         		<- begin_date_1773;;
-       			 <- completion_date_1799;;
+       			<- completion_date_1799;;
         *);
 
 	Government_house
@@ -115,6 +117,7 @@ The_building_of_the_Jesuit_school
 			*);;
 		*);;
 	*);
+
 => nrel_geographical_location: ...
 	(*
 	<-concept_mapped_point;;

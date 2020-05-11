@@ -1,0 +1,38 @@
+concept_cemetry
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[кладбище]
+	(*
+	<- lang_ru;;
+	*);
+	[cemetery]
+	(*
+	<- lang_en;;
+	*);
+	[могілкі]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кладбище -  участок территории, специально предназначенный для погребения умерших или их праха после кремации..]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Могілкі - кавалак тэрыторыі, адмыслова прызначаная для пахавання памерлых або іх праху пасля крэмацыі]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

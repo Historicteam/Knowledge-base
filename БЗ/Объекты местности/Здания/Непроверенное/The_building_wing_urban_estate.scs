@@ -1,8 +1,36 @@
 The_building_wing_urban_estate
-<- concept_building;
+<- concept_structure;
+<- concept_wing;
 <- begin_date_1795;
 
 => nrel_osm_query: [way(25387290);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.903595, 27.552943]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.903595;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.552943;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+
 
 => nrel_main_idtf:
 	[Здание флигеля городской усадьбы] (* <- lang_ru;; *);
@@ -16,6 +44,7 @@ The_building_wing_urban_estate
 		[Выява будынка флігеля гарадской сядзібы] (* <- lang_by;; *);;
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Здание флигеля городской усадьбы.jpg" (*
@@ -73,5 +102,3 @@ concept_situation->[*The_building_wing_urban_estate<=nrel_location:organization_
  <- begin_date_1922;;
 <- completion_date_1924;;
 *);;
-
-

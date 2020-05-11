@@ -1,0 +1,22 @@
+small_minsk_ghetto
+=>nrel_main_idtf:
+	["Малое" гетто](*<-lang_ru;;*);
+	["Small" ghetto](*<-lang_en;;*);
+	["Малае" гета](*<-lang_by;;*);
+<-concept_ghetto;
+<- begin_date_10_1943;
+<- completion_date_30_06_1944;
+<-rrel_key_sc_element:
+...
+(*
+	<-sc_statement;;
+	<=nrel_sc_text_translation:
+		...
+			(*
+				->rrel_example:[«Малое» гетто находилось в районе радиозавода им. Молотова]
+				(*
+				<-lang_ru;;
+				*);;
+			*);;
+*);
+=>nrel_osm_query:[way(501362930);];;

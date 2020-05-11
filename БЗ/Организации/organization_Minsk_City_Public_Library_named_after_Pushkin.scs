@@ -12,7 +12,8 @@ organization_Minsk_Municipal_Public_Library_named_after_Pushkin
 	(*
 	<- lang_by;;
 	*);
-=>nrel_location: house_31_International_street(*=> nrel_main_idtf:
+=>nrel_location: house_31_International_street(*
+                => nrel_main_idtf:
 		[Интернациональная улица дом 31]
 		(*
 		<- lang_ru;;
@@ -26,5 +27,6 @@ organization_Minsk_Municipal_Public_Library_named_after_Pushkin
 		<- lang_by;;
 		*);;
 	*); 
+	   <=nrel_whole_part:International_Street;
 <-concept_library
 ;;

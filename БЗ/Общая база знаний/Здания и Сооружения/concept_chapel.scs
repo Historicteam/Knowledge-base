@@ -1,0 +1,30 @@
+concept_chapel
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[часовня](*<- lang_ru;;*);
+	[chapel](*<- lang_en;;*);
+        [капліца](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Chapel is a small christian building of religious purposes with icons, which has no special room where the altar would be located.]
+    (*
+    <- lang_en;;
+    *);
+  [Часовня - небольшая христианская постройка культового назначения с иконами, не имеющая особого помещения, где бы распологался алтарь.]
+    (*
+     <-lang_ru;;
+    *);
+  [Капліца - невялікая хрысціянская пабудова культавага прызначэння з абразамі, якая не мае асаблівага памяшкання, дзе б размяшчаўся алтар.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

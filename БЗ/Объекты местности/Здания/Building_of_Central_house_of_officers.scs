@@ -2,5 +2,36 @@ Building_of_Central_house_of_officers
 => nrel_main_idtf:
 	[Здание центрального дома офицеров](* <- lang_ru;; *);
 	[Central house of officers](* <- lang_en;; *);
+	<=nrel_whole_part:Krasnoarmiejskaja_street;
+	=> nrel_osm_query: [way(25327569);];
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.902301, 27.564688]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.902301;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.564688;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*)
+;
 	
+
+<- concept_government_building;
 <- concept_building;;

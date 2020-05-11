@@ -13,9 +13,11 @@ Residential_complex
 	<- lang_by;;
 	*);
 	
-<-concept_building;
+<-concept_non_profit_residental_building;
+<- concept_building;
 <-concept_terrain_object;
 
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 	
 <= nrel_temporal_decomposition: 
     {
@@ -63,6 +65,7 @@ Residential_complex
 <- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;
+	<-key_image;;
 	<=nrel_sc_text_translation:
 		...
 		(*
@@ -72,6 +75,7 @@ Residential_complex
 			*);;
 		*);;
 	*);
+
  =>nrel_osm_query:[way(538208752);];	
  => nrel_geographical_location: ...
 	(*

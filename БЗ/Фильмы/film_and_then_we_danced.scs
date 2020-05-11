@@ -1,0 +1,6 @@
+film_and_then_we_danced
+<-concept_film;
+=>nrel_main_idtf:
+  	[А потом мы танцевали] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  	[And then we danced] (* <-lang_en;; *);;

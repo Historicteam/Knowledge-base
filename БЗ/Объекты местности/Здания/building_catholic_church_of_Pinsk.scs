@@ -4,4 +4,5 @@ building_catholic_church_of_Pinsk
 	(*
 	<- lang_ru;;
 	*);
-<-concept_building;;
+<-concept_building;
+<-concept_catholic_temple;;

@@ -1,0 +1,29 @@
+concept_office_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[офисное здание](*<- lang_ru;;*);
+	[office buiding](*<- lang_en;;*);
+        [офісны будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Office building is a building where the offices are located.]
+    (*
+    <- lang_en;;
+    *);
+  [Офисное здание - здание, в котором размещаются офисы.]
+    (*
+     <-lang_ru;;
+    *);
+  [Офісны будынак - будынак, у якім размяшчаюцца офісы.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

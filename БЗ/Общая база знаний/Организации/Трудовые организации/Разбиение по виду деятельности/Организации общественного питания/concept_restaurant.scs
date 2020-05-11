@@ -1,0 +1,30 @@
+concept_restaurant
+=>nrel_main_idtf:
+    [ресторан](*<-lang_ru;;*);
+    [restaurant](* <-lang_en;; *);
+    [рэстаран](*<-lang_by;;*);
+    <- rrel_key_sc_element:
+	Definition_of_the_restaurant_concept
+	(* 
+        => nrel_main_idtf:
+			[Определение понятия "ресторан"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the restaurant concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "рэстаран"]
+			(*
+			<- lang_by;;
+			*);;
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Ресторан – это заведение общественного питания с широким ассортиментом блюд сложного приготовления, включая заказные и фирменные.] (* <-lang_ru;; *);; 
+			*);;
+	*);
+<-sc_node_not_relation;;

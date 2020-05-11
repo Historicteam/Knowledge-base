@@ -1,0 +1,29 @@
+concept_educational_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[образовательное здание](*<- lang_ru;;*);
+	[educational buiding](*<- lang_en;;*);
+        [адукацыйны будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Educational building is a building to house an educational institution carrying out an educational process, that is, implementing one or more educational programs and (or) ensuring the maintenance and upbringing of students and pupils.]
+    (*
+    <- lang_en;;
+    *);
+  [Образовательное здание – здание для размещения образовательного учреждения, осуществляющего образовательный процесс, то есть реализующего одну или несколько образовательных программ и (или) обеспечивающего содержание и воспитание обучающихся, воспитанников.]
+    (*
+     <-lang_ru;;
+    *);
+  [Адукацыйны будынак - будынак для размяшчэння адукацыйнай установы, які ажыццяўляе адукацыйны працэс, гэта значыць рэалізуе адну або некалькі адукацыйных праграм і (або) забяспечвае ўтрыманне і выхаванне навучэнцаў, выхаванцаў.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

@@ -1,0 +1,29 @@
+concept_bar
+=>nrel_main_idtf:
+    [бар](*<-lang_ru;;*);
+    [bar](* <-lang_en;; *);
+    [бар](*<-lang_by;;*);
+    <- rrel_key_sc_element:
+	Definition_of_the_bar_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Бар – это питейное заведение, в котором продаются алкогольные напитки.] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[Bar is a retail business establisment that serves alcoholic beverages.] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[Бар - это піцейная установа, дзе прадаюцца алкагольныя напоі.] (* <-lang_by;; *);; 
+			*);;
+	*);
+<-sc_node_not_relation;;

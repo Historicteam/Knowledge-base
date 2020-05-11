@@ -1,0 +1,7 @@
+spanish_cuisine
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+    [Испанская кухня](*<-lang_ru;;*);
+    [Spanish cuisine](* <-lang_en;; *);
+    [Iспанская кухня](*<-lang_by;;*);;
+

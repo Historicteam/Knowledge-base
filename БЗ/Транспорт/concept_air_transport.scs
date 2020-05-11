@@ -1,0 +1,42 @@
+concept_air_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[воздушный транспорт](*<- lang_ru;;*);
+	[air transport](*<- lang_en;;*);
+	[ваздушны транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Вид транспорта, осуществляющий перевозку грузов и пассажиров с помощью авиационной техники.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A type of transport that carries cargo and passengers using aircraft.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Від транспарту, які ажыццяўляе перавозку грузаў і пасажыраў з дапамогай авіяцыйнай тэхнікі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+=>nrel_inclusion:
+	concept_plane;
+	concept_helicopter;
+	concept_balloon;;

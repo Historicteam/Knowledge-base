@@ -1,0 +1,16 @@
+house_6_Kirilla_i_Mefodija_street
+=>nrel_main_idtf:
+	[Улица Кирилла и Мефодия 6]
+		(*
+		<- lang_ru;;
+		*);
+		[Kirill's and Mefodij's street, 6]
+		(*
+		<- lang_en;;
+		*);
+		[Вуліца Кірыла і Мефодыя 6]
+		(*
+		<- lang_by;;
+		*);
+<=nrel_whole_part: Street_of_Kirill_and_Miefodij;
+<-concept_building;;

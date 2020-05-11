@@ -1,0 +1,30 @@
+concept_small_architectural_form
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[малая архитектурная форма](*<- lang_ru;;*);
+	[small architectural form](*<- lang_en;;*);
+        [малая архітэктурная форма](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Small architectural form is an auxiliary architectural structure, equipment and artistic and decorative element, which has its own simple functions and complements the overall composition of the architectural ensemble of buildings.]
+    (*
+    <- lang_en;;
+    *);
+  [Малая архитектурная форма (МАФ) — вспомогательное архитектурные сооружение, оборудование и художественно-декоративный элемент, обладающий собственными простыми функциями и дополняющий общую композицию архитектурного ансамбля застройки.]
+    (*
+     <-lang_ru;;
+    *);
+  [Малая архітэктурная форма (МАФ) - дапаможнае архітэктурнае збудаванне, абсталяванне і мастацка-дэкаратыўны элемент, які валодае ўласнымі простымі функцыямі і дапаўняе агульную кампазіцыю архітэктурнага ансамбля забудовы.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

@@ -1,0 +1,57 @@
+concept_church
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[церковь]
+	(*
+	<- lang_ru;;
+	*);
+	[church]
+	(*
+	<- lang_en;;
+	*);
+	[царква]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Church is a religious building intended for the gathering of Christians, the performance of worship services and religious rites.]
+    (*
+    <- lang_en;;
+    *);
+  [Церковь - культовое сооружение, предназначенное для собрания христиан, совершения богослужений и религиозных обрядов.]
+    (*
+     <-lang_ru;;
+    *);
+  [Царква - культавае будаванне, прызначанае для сходу хрысціян, здзяйснення набажэнстваў і рэлігійных абрадаў.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+<= nrel_subdividing:
+subdividing_of_church
+	(*
+		=> nrel_main_idtf:
+			[разбиение понятия "церковь"]
+			(*
+			<- lang_ru;;
+			*);
+			[subdividing of church]
+			(*
+			<- lang_en;;
+			*);
+			[разбіццё паняцця "царква"]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_catholic_temple;;
+        ->concept_orthodox_temple;;
+        ->concept_kirkha;;
+	*);;
+

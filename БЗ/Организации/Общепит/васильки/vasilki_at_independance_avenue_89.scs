@@ -1,0 +1,22 @@
+vasilki_at_independance_avenue_89
+=>nrel_main_idtf:
+    ["Васильки" на Проспекте Независимости 89](*<-lang_ru;;*);
+    ["Vasilki" at Independnce avenue 89](* <-lang_en;;*);
+    ["Васількі" на Праспетце Незалежнасці 89](*<-lang_by;;*);
+<-concept_catering_with_waiter_service;
+<-concept_restaurant;
+=>nrel_working_hours: Mon_Sun_8_00_23_00;
+    
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/vasilki_indep_89.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_89_Independence_Avenue;;

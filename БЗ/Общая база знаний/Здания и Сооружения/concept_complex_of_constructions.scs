@@ -1,0 +1,89 @@
+concept_complex_of_constructions
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[комплекс строений]
+	(*
+	<- lang_ru;;
+	*);
+	[complex of constructions]
+	(*
+	<- lang_en;;
+	*);
+	[комплекс збудаванняў]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_inclusion: concept_terrain_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+-> rrel_example:
+			[Комплекс строений - это группа объектов(строений), обычно располагающихся на одной территории и имеющих одинаковое назначение.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+               ...
+		(*
+		-> rrel_example:
+			[Complex of constructions is a group of objects (buildings), usually located on the same territory and having the same purpose.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Комплекс збудаванняў - гэта група аб'ектаў (будынкаў), якія звычайна размяшчаюцца на адной тэрыторыі і якія маюць аднолькавае прызначэнне.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+=> nrel_inclusion:
+inclusion_to_complex_of_constructions_functional
+	(*
+		=> nrel_main_idtf:
+			[включение в комплекс строений по общему функционалу]
+			(*
+			<- lang_ru;;
+			*);
+			[inclusion to complex of constructions by functional]
+			(*
+			<- lang_en;;
+			*);
+			[ўключэнне ў комплекс будынкаў па агульнаму функцыяналу]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_complex_of_monastery_buildings;;
+        ->concept_manor_complex;;
+        ->concept_fortress_complex;;
+        ->concept_memorial_complex;;
+	*);
+=> nrel_inclusion:
+inclusion_to_complex_of_constructions_by_general_form
+	(*
+		=> nrel_main_idtf:
+			[включение в комплекс строений по общему виду]
+			(*
+			<- lang_ru;;
+			*);
+			[inclusion to complex of constructions by general form]
+			(*
+			<- lang_en;;
+			*);
+			[ўключэнне ў комплекс будынкаў па агульнаму выгляду]
+			(*
+			<- lang_by;;
+			*);;
+	->concept_palace_and_park_ensemble;;
+        ->concept_architectural_ensemble;;        
+	*);;
+

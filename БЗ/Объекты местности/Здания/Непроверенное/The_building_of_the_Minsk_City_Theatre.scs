@@ -1,6 +1,6 @@
-
 The_building_of_the_Minsk_City_Theatre
 <- concept_building;
+<- concept_cultural_building;
 <- begin_date_1815;
 <- completion_date_1984;
 => nrel_main_idtf:
@@ -11,7 +11,8 @@ The_building_of_the_Minsk_City_Theatre
 <- rrel_key_sc_element: 
 	...
 	(*
-	<- sc_definition;;
+	<-sc_explanation;;
+	<-key_explanation;;
 	<= nrel_sc_text_translation:
 		...
 		(*
@@ -43,6 +44,7 @@ The_building_of_the_Minsk_City_Theatre
 <- rrel_key_sc_element: ... (*
 
 	<- sc_illustration;;
+	<-key_image;;
 	<= nrel_sc_text_translation: 
 		... (*
 		-> rrel_example: "file://contents//Здание минского городского театра.jpg" (*
@@ -60,6 +62,9 @@ The_building_of_the_Minsk_City_Theatre
 			*);;
 		*);;
 	*);
+
+=> nrel_osm_query: [way(25327595);];
+
 =>nrel_geographical_location:...
 	(*
 		<-concept_mapped_point;;
@@ -89,7 +94,7 @@ The_building_of_the_Minsk_City_Theatre_1825
 	[Здание Минского городского театра] (* <- lang_ru;; *);
 	[The building of the Minsk City Theatre] (* <- lang_en;; *);
 	[Будынак Мінскага гарадскога тэатра] (* <- lang_by;; *);
-<- concept_building;;
+<- concept_cultural_building;;
 
 concept_situation->[*The_building_of_the_Minsk_City_Theatre<= nrel_temporal_decomposition: The_building_of_the_Minsk_City_Theatre_1825;;*]
 (*

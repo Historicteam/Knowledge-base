@@ -38,6 +38,34 @@ Oskar_Janickij_house
 	(*
 	<- lang_by;;
 	*);
+
+<- rrel_key_sc_element: Illustration_Oskar_Janickij_house
+	(*
+=> nrel_main_idtf:
+	[дом Оскара Яницкoгo в наши дни.] 
+		(* 
+		<- lang_ru;; 
+		*);
+	[Oskar Janickij house, our days] 
+		(* 
+		<- lang_en;; 
+		*);
+	[дом Оскара Яніцкага ў нашы дні.]
+		(* 
+		<- lang_by;;
+		 *);;
+	<-sc_illustration;;
+	<-key_image;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content//Oskar_Janickij_house.JPG"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;		
+		*);;
+ *);
+
 <- rrel_key_sc_element: Explanation_Oskar_Janickij_house
 	
 	(*
@@ -82,9 +110,13 @@ Oskar_Janickij_house
 			*);;
 		*);;
 	*);
+<- concept_non_profit_residental_building;
 <- concept_building;
+<-concept_educatioanal_building;
+<-concept_trade_enterprise_building;
 <- concept_terrain_object;
 
+<=nrel_whole_part:Sovetskaya_Street;
 => nrel_osm_query: [way(25435144);];
 => nrel_geographical_location: ...
 	(*
@@ -108,9 +140,11 @@ Oskar_Janickij_house
 				*);;
 			*);;
 	*);;
+
 concept_situation->[*^"file://Illustration_Oskar_Janickij_house.scsi"*]
 (*
-	<- completion_date_2016;;
+<- completion_date_2016;;
 *);;
+
 Oskar_Janickij_house <= nrel_location: organization_complex_for_education_on_the_basis_of_the_BSU_Institute_of_retraining_and_advanced_training_of_judges_prosecutors_courts_and_institutions_of_justice;;
 Oskar_Janickij_house <= nrel_location: organization_store_Khleb;;

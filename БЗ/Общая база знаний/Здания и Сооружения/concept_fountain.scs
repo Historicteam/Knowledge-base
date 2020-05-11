@@ -1,0 +1,30 @@
+concept_fountain
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[фонтан](*<- lang_ru;;*);
+	[fountain](*<- lang_en;;*);
+        [фантан](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Fountain is a structure that serves as a base or a frame for spurting water up or down.]
+    (*
+    <- lang_en;;
+    *);
+  [Фонтан - сооружение, служащее основанием или обрамлением для бьющих вверх или стекающих вниз струй воды.]
+    (*
+     <-lang_ru;;
+    *);
+  [Фантан - будаванне, якое служыць падставай або аблямоўкай для біццёвых ўверх або сцякаюць уніз бруй вады.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

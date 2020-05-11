@@ -1,0 +1,30 @@
+concept_wing
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[флигель](*<- lang_ru;;*);
+	[wing](*<- lang_en;;*);
+        [флігель](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Wing is an extension on the side of the main building or a house in the courtyard of a large building.]
+    (*
+    <- lang_en;;
+    *);
+  [Флигель - пристройка сбоку главного здания или дом во дворе большого здания.]
+    (*
+     <-lang_ru;;
+    *);
+  [Флігель - прыбудова збоку галоўнага будынка або дом у двары вялікага будынка.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

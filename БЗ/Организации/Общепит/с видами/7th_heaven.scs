@@ -1,0 +1,21 @@
+7h_heaven
+=>nrel_main_idtf:
+    [Седьмое небо](*<-lang_ru;;*);
+    [Seventh heaven](*<-lang_en;;*);
+    [Сёмае неба](*<-lang_by;;*);
+<-concept_catering_with_great_view;
+<-concept_catering_with_waiter_service;
+=>nrel_working_hours: Mon_Sun_12_00_23_00;
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/7th_heaven.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+            *);;
+		*);;
+	*);
+=>nrel_location:house_11_Independence_avenue;;

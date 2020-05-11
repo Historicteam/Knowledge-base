@@ -1,0 +1,11 @@
+walls_around_the_zamchische
+
+=> nrel_main_idtf:
+    [Стены вокруг Замчища] (* <- lang_ru;; *);
+    [Walls around the Zamchische] (* <- lang_en;; *);
+    [Сцены вакол Замчышча] (* <- lang_by;; *);
+
+=> nrel_height: [5];
+
+<- concept_defenses;
+<- concept_lost_archaeological_monument;;

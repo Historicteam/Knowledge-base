@@ -1,0 +1,29 @@
+concept_research_building
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[научно-исследовательское здание](*<- lang_ru;;*);
+	[research buiding](*<- lang_en;;*);
+        [навукова даследчы будынак](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Research building is a building, which houses the laboratory for conducting experiments and scientific research scientists and researchers. Can be attached to the university or research institute.]
+    (*
+    <- lang_en;;
+    *);
+  [Научно-исследовательское здание - здание, в котором располагается лаборатория для проведения экспериментов и научных исследований учёных и исследователей. Может быть присоединенной к ВУЗу или НИИ. .]
+    (*
+     <-lang_ru;;
+    *);
+  [Навукова-даследчы будынак - будынак, у якім размяшчаецца лабараторыя для правядзення эксперыментаў і навуковых даследаванняў навукоўцаў і даследчыкаў. Можа быць далучанай да ВНУ або НДІ. ]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

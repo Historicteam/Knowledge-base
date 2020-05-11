@@ -13,7 +13,7 @@ action.baptism
 		(* <-lang_ru;; *);; 
 		*);;
 	*);	
-
+<- sc_node_not_relation;
 <=nrel_inclusion:actions_class;;
 
 

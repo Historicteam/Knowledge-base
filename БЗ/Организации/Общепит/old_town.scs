@@ -1,0 +1,10 @@
+old_town
+=>nrel_main_idtf:
+    [Старый город](*<-lang_ru;;*);
+    [Old town](* <-lang_en;;*);
+<-concept_catering_with_waiter_service;
+<-concept_catering_with_bar_service;
+<-european_cuisine;
+<-concept_catering_with_great_view;
+=>nrel_working_hours: Mon_Sun_12_00_00_00;
+=>nrel_location:house_19_Bogdanovich_street;;

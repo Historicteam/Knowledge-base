@@ -1,0 +1,29 @@
+concept_structure_for_the_placement_of_water_storage
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[сооружение для размещения хранилищ воды](*<- lang_ru;;*);
+	[structure for the placement of water storage](*<- lang_en;;*);
+        [будаванне для размяшчэння сховішчаў вады](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_explanation;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [К сооружениям для размещения хранилищ воды относятся резервуары питьевой воды, заводы по очистке сточных вод и т д.]
+    (*
+    <-lang_ru;;
+    *);
+  [Structures for the placement of water storage include drinking water reservoirs, sewage treatment plants, etc.]
+    (*
+       <- lang_en;;
+    *);
+  [Да будаванняў для размяшчэння сховішчаў вады адносяцца рэзервуары пітной вады, заводы па ачыстцы сцёкавых вод і т д.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

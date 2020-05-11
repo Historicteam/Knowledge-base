@@ -1,0 +1,30 @@
+concept_banquet_room
+=>nrel_main_idtf:
+    [банкетный зал](*<-lang_ru;;*);
+    [banquet room](* <-lang_en;; *);
+    [банкетная зала](*<-lang_by;;*);
+    <- rrel_key_sc_element:
+	Definition_of_the_restaurant_concept
+	(* 
+        => nrel_main_idtf:
+			[Определение понятия "банкетный зал"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the banquet room]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "банкетная зала"]
+			(*
+			<- lang_by;;
+			*);;
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[Банкетный зал – это заведение общественного питания с широким ассортиментом блюд сложного приготовления, включая заказные и фирменные. Он специализируется исключительно на крупных мероприятиях, с большим количеством приглашенных.] (* <-lang_ru;; *);; 
+			*);;
+	*);
+<-sc_node_not_relation;;

@@ -8,7 +8,8 @@ complex_of_buildings_the_minsk_hospital_of_public_charity_order
 	(*
 		<-lang_en;;
 	*);
-<-concept_complex_of_buildings;
+<-concept_complex_of_constructions;
+<-concept_complex_of_monastery_buildings;
 ->building_of_psychiatry_of_minsk_hospital;
 <-rrel_key_sc_element:...
 	(*

@@ -1,0 +1,62 @@
+organization_Museum_of_great_patriotic_war
+=> nrel_main_idtf:
+	[Музей Великой Отечественной Войны]
+	(*
+	<- lang_ru;;
+	*);
+	[Museum of great patriotic war]
+	(*
+	<- lang_en;;
+	*);
+	[Музей Вялікай Айчыннай Вайны]
+	(*
+	<- lang_by;;
+	*);
+=>nrel_be_founded_in_memory_of:second_world_war;
+=>nrel_phone_number: [375172030872]
+		(*
+		<-concept_phone_number;;
+		*);
+=>nrel_site: [www.warmuseum.by]
+		(*
+		<-concept_site;;
+		*);
+=>nrel_email: [museumww2@tut.by]
+		(*
+		<-concept_email;;
+		*);
+<-concept_formal_organization;
+<-concept_museum;
+=>nrel_owner:building_of_Museum_of_great_patriotic_war;
+=>nrel_branch:organization_Branch_memorial_to_the_soldiers_internationalists;
+<-rrel_director:Shlyakhtin_Dmitry_Gennadyevich;
+
+<- begin_date_10_06_1942;;
+
+concept_situation->[* organization_Museum_of_great_patriotic_war=> nrel_location: house_25a_Independence_Avenue
+;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения музея ВОВ по пр.Независимости 25а](*<-lang_ru;;*);;
+	<- begin_date_1966;;
+	<- completion_date_02_07_2014;;
+*);;
+
+concept_situation->[* organization_Museum_of_great_patriotic_war=> nrel_location:Male_Basilian_Monastery_Building
+;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения музея ВОВ в здании Минского областного комитета профсоюза](*<-lang_ru;;*);;
+	<- begin_date_18_07_1944;;
+	<- completion_date_1966;;
+*);;
+
+concept_situation->[* organization_Museum_of_great_patriotic_war=> nrel_location:building_of_Museum_of_great_patriotic_war
+;;*]
+(*
+	=> nrel_main_idtf: [Контур периода времени расположения музея ВОВ по пр.Победителей 8](*<-lang_ru;;*);;
+	<- begin_date_02_07_2014;;
+*);;
+
+
+
+
+

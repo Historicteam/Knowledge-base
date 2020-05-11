@@ -1,0 +1,14 @@
+rrel_number_of_day_in_week
+=> nrel_main_idtf:
+    [номер дня в неделе'](* <- lang_ru;; *);
+    [нумар дня ў тыдні'](* <-lang_by;;*);
+    [number of day in week](*<-lang_en;;*);
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_first_domain: 
+	week;
+=> nrel_second_domain: 
+	concept_number
+;;

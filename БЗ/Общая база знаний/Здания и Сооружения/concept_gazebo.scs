@@ -1,0 +1,30 @@
+concept_gazebo
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[беседка](*<- lang_ru;;*);
+	[gazebo](*<- lang_en;;*);
+        [альтанка](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Gazebo is a covered light structure in the garden.]
+    (*
+    <- lang_en;;
+    *);
+  [Беседка - крытая легкая постройка в саду.]
+    (*
+     <-lang_ru;;
+    *);
+  [Альтанка - крытая лёгкая пабудова ў садзе.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;
+

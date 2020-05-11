@@ -6,9 +6,6 @@ Frunze_Street
 			(*
 			<- lang_by;;
 			*);
-	<= nrel_subdividing: 
-	{
-	building_Frunze_13
-	};
+
 	<- concept_street;;
 

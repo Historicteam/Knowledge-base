@@ -1,0 +1,56 @@
+nrel_execution_by_shooting
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[расстрел*]
+	(*
+	<- lang_ru;;
+	*);
+	[execution by shooting*]
+	(*
+	<- lang_en;;
+	*);
+	[расстрэл*]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_definition;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Расстрел — вид смертной казни, при котором умерщвление достигается с помощью огнестрельного оружия.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Расстрэл — выгляд смяротнай кары, пры якім змярцвенне дасягаецца з дапамогай агнявой зброі.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*)
+;;
+
+rrel_execution_by_organization<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[расстрельный орган*]
+	(*
+	<- lang_ru;;
+	*);
+	[execution by organization*]
+	(*
+	<- lang_en;;
+	*);
+	[расстрэльны орган*]
+	(*
+	<- lang_by;;
+	*);;

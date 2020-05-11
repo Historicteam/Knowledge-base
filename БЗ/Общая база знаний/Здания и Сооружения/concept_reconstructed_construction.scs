@@ -1,0 +1,29 @@
+concept_reconstructed_construction
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[реконструированное строение](*<- lang_ru;;*);
+	[reconstructed construction](*<- lang_en;;*);
+        [рэканструяванае збудаванне](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Reconstructed construction is a construction, reconstructed completely or to a large extent on the basis of the lost construction.]
+    (*
+    <- lang_en;;
+    *);
+  [Реконструированное строение - строение, воссозданное полностью или в значительной мере на основе утраченного строения.]
+    (*
+     <-lang_ru;;
+    *);
+  [Рэканструяванае збудаванне - збудаванне, адноўленнае цалкам або ў значнай меры на аснове страчанага збудавання.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

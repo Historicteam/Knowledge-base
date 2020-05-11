@@ -1,0 +1,10 @@
+book_Plevna_and_Grenadiers_November_28_1877
+=>nrel_main_idtf:
+  [Книга «Плевна и гренадеры 28 ноября 1877 г.»] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [The Book "Plevna and Grenadiers November 28, 1877"] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [Кніга «Плеўнай і грэнадзёры 28 лістапада 1877 г.»] (* <-lang_by;; *);
+  
+<-concept_book; 
+<-sc_const;;

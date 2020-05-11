@@ -1,0 +1,17 @@
+concept_back_to_ussr
+=>nrel_main_idtf:
+    [назад в СССР](*<-lang_ru;;*);
+    [back to USSR](*<-lang_en;;*);
+    <- rrel_key_sc_element:
+	Definition_of_the_back_to_ussr_concept
+	(* 
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+            [Заведения типа "назад в СССР" - организации общественного питания воспроизводящие интерьер советского периода и подающие блюда характерные для него] (* <-lang_ru;; *);; 
+			*);;
+	*);
+<=nrel_inclusion:concept_catering_organization;
+<-sc_node_not_relation;;

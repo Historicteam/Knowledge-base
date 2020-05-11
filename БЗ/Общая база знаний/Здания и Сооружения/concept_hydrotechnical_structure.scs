@@ -1,0 +1,29 @@
+concept_hydrotechnical_sructure
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	
+	[гидротехническое сооружение](*<- lang_ru;;*);
+	[hydrotechnical structure](*<- lang_en;;*);
+        [гідратэхнічнае будаванне](*<- lang_by;;*);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Гидротехническое сооружение — объект для использования водных ресурсов, а также для борьбы с вредным воздействием вод.]
+    (*
+    <-lang_ru;;
+    *);
+  [Hydrotechnical structure is a facility for the use of water resources, as well as for combating the harmful effects of water.]
+    (*
+       <- lang_en;;
+    *);
+  [Гідратэхнічнае будаванне - аб'ект для выкарыстання водных рэсурсаў, а таксама для барацьбы з шкодным уздзеяннем вод.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);;

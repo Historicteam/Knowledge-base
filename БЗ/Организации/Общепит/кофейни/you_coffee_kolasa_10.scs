@@ -1,0 +1,20 @@
+You_coffee_Kolasa_10
+=>nrel_main_idtf:
+    [Ю кофе на Якуба Коласа 10](*<-lang_ru;;*);
+    [You coffee at Kolasa 10 street](* <-lang_en;;*);
+<-concept_catering_with_counter_service;
+<-concept_coffee;
+=>nrel_working_hours: Mon_Sun_8_00_23_00; 
+<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/youcoffee_Kolasa.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=>nrel_location:house_10_Kolasa_street;;

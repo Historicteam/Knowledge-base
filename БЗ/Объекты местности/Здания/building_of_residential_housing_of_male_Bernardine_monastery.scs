@@ -14,8 +14,9 @@ building_of_residential_housing_of_male_Bernardine_monastery
 	<- lang_by;;
 	*);
 <-concept_building;
+<-concept_non_profit_residental_building;
 <-concept_terrain_object;
-
+<=nrel_whole_part:Street_of_Kirill_and_Miefodij;
 => nrel_osm_query: [way(25327547);];
 
 <= nrel_temporal_decomposition: 
@@ -173,6 +174,7 @@ concept_situation->[*
         <- rrel_key_sc_element: Image_of_residential_housing_of_male_Bernardine_monastery 
 	(*
 	<- sc_illustration;;
+	<-key_image;;
     	<= nrel_sc_text_translation: ... 
     		(*
      	   	->rrel_example: "file://content/berncy_corpus.jpg" 
@@ -225,4 +227,3 @@ concept_situation->[*organization_Monastic_hotel => nrel_location: building_of_r
     [Контур перыяду часу месцавання гатэля "Манастырскі", рэстарана "Лаўскі", археалагічнага музея ў будынку жылога корпуса мужчынскага манастыра бернардынаў](*<-lang_by;;*);;
     <- begin_date_2014;;
 *);;
- 

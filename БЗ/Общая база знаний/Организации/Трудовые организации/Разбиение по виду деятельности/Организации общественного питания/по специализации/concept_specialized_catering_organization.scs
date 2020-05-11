@@ -1,0 +1,45 @@
+concept_specialized_catering_organization
+=>nrel_main_idtf:
+    [специализированная организация общественного питания](*<-lang_ru;;*);
+    [specialized catering organization](* <-lang_en;; *);
+    [спецыялізаваная арганізацыя грамадскага харчавання](*<-lang_by;;*);
+<-sc_node_not_relation;
+<- rrel_key_sc_element:
+	 Definition_of_the_specialized_catering_organization_concept
+	(* 
+		=> nrel_main_idtf:
+			[Определение понятия "специализированная организация общественного питания"]
+			(*
+			<- lang_ru;;
+			*);
+			[Definition of the specialized catering organization concept]
+			(*
+			<- lang_en;;
+			*);
+			[Азначэнне паняцця "спецыялізаваная арганізацыя грамадскага харчавання"]
+			(*
+			<- lang_by;;
+			*);;
+
+		<- sc_definition;;
+		<= nrel_sc_text_translation:
+			...
+			(* 
+			-> rrel_example:
+			[специализированная  организация общественного питания – организации общественного питани специалихирующаяся на изготовлении и продаже определённого ассортимента ] (* <-lang_ru;; *);; 
+			*);
+
+			...
+			(* 
+			-> rrel_example:
+			[specialized catering organization - catering organizations specializing in the manufacture and sale of a certain range products] (* <-lang_en;; *);; 
+			*);
+			
+			...
+			(* 
+			-> rrel_example:
+			[спецыялізаваная арганізацыя грамадскага харчавання - арганізацыя грамадскага харчавання, якая спецыялізуецца на вырабе і продажу пэўнага асартыменту] (* <-lang_by;; *);; 
+			*);;
+
+
+	*);;
