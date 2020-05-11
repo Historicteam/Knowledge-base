@@ -1,0 +1,14 @@
+subject_domain_of_belarussian_national_movement
+	=> nrel_main_idtf:[Предметная область национальное белорусское движение](* <- lang_ru;; *);
+	=> nrel_main_idtf:[Subject belarussian national movement](* <- lang_en;; *);
+	=> nrel_main_idtf:[Прадметная вобласць нацыянальны беларускі рух](* <- lang_by;; *);
+<- subject_domain;
+
+-> rrel_maximum_studied_object_class: concept_belarus_national_movement;
+
+-> rrel_not_maximum_studied_object_class:
+        concept_state;
+        concept_uprising;
+        concept_war;
+        concept_belarussian_party;
+		concept_belarus_national_movement_person;;

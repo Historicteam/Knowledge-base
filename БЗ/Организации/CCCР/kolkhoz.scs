@@ -1,0 +1,14 @@
+kolkhoz<-concept_organization;
+=> nrel_main_idtf:
+	[колхоз]
+	(*
+	<- lang_ru;;
+	*);
+	[kolkhoz]
+	(*
+	<- lang_en;;
+	*);
+	[калгас]
+	(*
+	<- lang_by;;
+	*);;

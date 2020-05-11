@@ -1,0 +1,14 @@
+organization_belarusian_socialist_hramada<-concept_belarussian_left_party;
+=> nrel_main_idtf:
+	[Белорусская социалистическая громада]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian Socialist Assembly]
+	(*
+	<- lang_en;;
+	*);
+	[Беларуская сацыялістычная грамада]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,26 @@
+Peace_of_Riga<-concept_peace_treaty;
+=> nrel_main_idtf:
+	[Рижский мирный договор]
+	(*
+	<- lang_ru;;
+	*);
+	[Peace of Riga]
+	(*
+	<- lang_en;;
+	*);
+	[Рыжскі мірны дагавор]
+	(*
+	<- lang_by;;
+	*);
+    <- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/riga.png"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);;

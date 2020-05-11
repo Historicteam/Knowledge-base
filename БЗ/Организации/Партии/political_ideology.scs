@@ -1,0 +1,14 @@
+concept_political_ideology<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[политическая идеология]
+	(*
+	<- lang_ru;;
+	*);
+	[political ideology]
+	(*
+	<- lang_en;;
+	*);
+	[палітычная ідэалогія]
+	(*
+	<- lang_by;;
+	*);;

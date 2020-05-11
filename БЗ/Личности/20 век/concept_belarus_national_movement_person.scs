@@ -1,0 +1,14 @@
+concept_belarus_national_movement_person<=nrel_inclusion:concept_national_movement_person;
+=> nrel_main_idtf:
+	[личность белорусского национального движения]
+	(*
+	<- lang_ru;;
+	*);
+	[person of national Belarus movement]
+	(*
+	<- lang_en;;
+	*);
+	[асоба беларускага нацыянальнага руху]
+	(*
+	<- lang_by;;
+	*);;

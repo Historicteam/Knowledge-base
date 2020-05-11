@@ -1,0 +1,14 @@
+concept_nation<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[нация]
+	(*
+	<- lang_ru;;
+	*);
+	[nation]
+	(*
+	<- lang_en;;
+	*);
+	[нацыя]
+	(*
+	<- lang_by;;
+	*);;

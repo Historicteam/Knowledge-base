@@ -1,0 +1,60 @@
+slutsk_uprising
+=> nrel_main_idtf:
+	[Слуцкое восстание]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk uprising] 
+	(*
+	<- lang_en;;
+	*);
+	[Слуцкае паўстанне]
+	(*
+	<- lang_by;;
+	*);
+
+<-concept_uprising;
+<-begin_date_28_01_1920;
+<-completion_date_18_03_1921;
+<- rrel_key_sc_element: ...
+  (*
+    <-sc_illustration;;
+    <=nrel_sc_text_translation:
+      ...
+      (*
+      ->rrel_example: "file://content/slutsk.jpg"
+        (*
+        => nrel_format: format_png;;
+        *);;
+      *);;
+  *);;
+
+  Slutsk<-concept_city;
+  => nrel_main_idtf:
+	[Слуцк]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk] 
+	(*
+	<- lang_en;;
+	*);
+	[Слуцк]
+	(*
+	<- lang_by;;
+	*);;
+
+slutsk_population<=nrel_population:Slutsk;
+=> nrel_main_idtf:
+	[население Слуцка]
+	(*
+	<- lang_ru;;
+	*);
+	[Slutsk population] 
+	(*
+	<- lang_en;;
+	*);
+	[Слуцкае насельніцтва]
+	(*
+	<- lang_by;;
+	*);;

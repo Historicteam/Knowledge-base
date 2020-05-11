@@ -1,0 +1,15 @@
+concept_belarussian_party<-sc_node_not_relation;
+<=nrel_inclussion:concept_political_party;
+=> nrel_main_idtf:
+	[белорусская партия]
+	(*
+	<- lang_ru;;
+	*);
+	[belarussian party]
+	(*
+	<- lang_en;;
+	*);
+	[беларуская партыя]
+	(*
+	<- lang_by;;
+	*);;

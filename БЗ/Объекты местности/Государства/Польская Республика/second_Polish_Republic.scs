@@ -1,0 +1,69 @@
+state_second_polish_republic
+=> nrel_main_idtf:
+  [Польская Республика] (* <- lang_ru;; *);
+  [Second Polish Republic] (* <- lang_en;; *);
+  [Польская Рэспубліка] (* <- lang_by;; *);
+<-concept_state;;
+
+
+west_belarus
+=> nrel_main_idtf:
+  [Западная Беларусь] (* <- lang_ru;; *);
+  [West Belarus] (* <- lang_en;; *);
+  [Усходняя Беларусь] (* <- lang_by;; *);
+<-concept_territory;
+<=nrel_part_whole:state_second_polish_republic;;
+
+
+nrel_population<-sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[население*]
+	(*
+	<- lang_ru;;
+	*);
+	[population*]
+	(*
+	<- lang_en;;
+	*);
+	[насельніцтва*]
+	(*
+	<- lang_by;;
+	*);;
+
+west_belarus_population
+<-nrel_population:west_belarus;
+=> nrel_main_idtf:
+	[население западной Беларусі*]
+	(*
+	<- lang_ru;;
+	*);
+	[population West Belarus*]
+	(*
+	<- lang_en;;
+	*);
+	[насельніцтва Усходняй Беларусі*]
+	(*
+	<- lang_by;;
+	*);
+<=polonization:state_second_polish_republic;;
+
+polonization<-sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[полонизация*]
+	(*
+	<- lang_ru;;
+	*);
+	[polonization*]
+	(*
+	<- lang_en;;
+	*);
+	[паланізацыя*]
+	(*
+	<- lang_by;;
+	*);;

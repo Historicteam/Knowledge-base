@@ -1,0 +1,14 @@
+krajowcy<-concept_political_ideology;
+=> nrel_main_idtf:
+	[краёвцы]
+	(*
+	<- lang_ru;;
+	*);
+	[krajowcy]
+	(*
+	<- lang_en;;
+	*);
+	[краёўцы]
+	(*
+	<- lang_by;;
+	*);;

@@ -1,0 +1,56 @@
+red_army
+=> nrel_main_idtf:
+	[Красная армия]
+	(*
+	<- lang_ru;;
+	*);
+	[Red army]
+	(*
+	<- lang_en;;
+	*);
+	[Чырвоная армія]
+	(*
+	<- lang_by;;
+	*);
+<=nrel_resistance:...
+(*
+  <-sc_identifier_tuple_set;;
+  ->rrel_uprising:slutsk_uprising;;
+  ->rrel_member:slutsk_population;;
+*);;
+
+
+nrel_resistance
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[сопротивление*]
+	(*
+	<- lang_ru;;
+	*);
+	[resistance*]
+	(*
+	<- lang_en;;
+	*);
+	[супраціў*]
+	(*
+	<- lang_by;;
+	*);;
+
+rrel_uprising
+<- sc_node_role_relation;
+=> nrel_main_idtf:
+	[восстание']
+	(*
+	<- lang_ru;;
+	*);
+	[uprising']
+	(*
+	<- lang_en;;
+	*);
+	[паўстанне']
+	(*
+	<- lang_by;;
+	*);;

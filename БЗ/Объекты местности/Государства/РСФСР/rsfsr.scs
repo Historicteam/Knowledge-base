@@ -1,0 +1,6 @@
+state_rsfsr
+=> nrel_main_idtf:
+  [Российская Социалистическая Федеративная Советская Республика] (* <- lang_ru;; *);
+  [Russian Soviet Federative Socialist Republic] (* <- lang_en;; *);
+  [Расiйская Сацыялістычная Фeдэратыўная Савецкая Рэспубліка] (* <- lang_by;; *);
+<-concept_socialist_state;;
