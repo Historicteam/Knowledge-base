@@ -1,0 +1,6 @@
+sc_text_of_agent_of_finding_five_stars_hotels
+-> rrel_key_sc_element:
+	agent_of_finding_five_stars_hotels;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_finding_five_stars_hotels = [*^"file://agent_of_finding_five_stars_hotels.scs"*];;

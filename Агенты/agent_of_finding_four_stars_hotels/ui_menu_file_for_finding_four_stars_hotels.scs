@@ -1,0 +1,28 @@
+ui_menu_file_for_finding_four_stars_hotels<- ui_user_command_class_atom; 
+ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_four_stars_hotels => nrel_main_idtf: 
+	[Найти все четырехзвездочные отели на заданной улице]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_four_stars_hotels => nrel_main_idtf: 
+	[Search agent of finding all four hotels on the street]
+	(* <- lang_en;; *);;
+
+
+ui_menu_file_for_finding_four_stars_hotels => ui_nrel_command_template:
+	[*
+		question_of_finding_four_stars_hotels _-> ._question_of_finding_four_stars_hotels_instance
+			(*
+			_-> rrel_1:: ui_arg_1;;
+			*);;
+		._question_of_finding_four_stars_hotels_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_four_stars_hotels=> ui_nrel_command_lang_template: 
+	[Запрос поиска всех четырехзвездочных отелей на улице: $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_four_stars_hotels => ui_nrel_command_lang_template: 
+	[Request of finding all four hotels on the street: $ui_arg_1] 
+	(* <- lang_en;; *);;
