@@ -14,7 +14,7 @@ Crowne_Plaza_an_IHG_Hotel_Minsk
 <=nrel_sc_text_translation: 
 ... 
 (* 
-->rrel_example: "file://скщцт.jpg" 
+->rrel_example: "file://crown.jpg" 
 (* 
 => nrel_format: format_jpg;; 
 *);; 
