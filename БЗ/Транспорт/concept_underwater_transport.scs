@@ -1,0 +1,38 @@
+concept_underwater_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[подводный транспорт](*<- lang_ru;;*);
+	[underwater transport](*<- lang_en;;*);
+	[падводны транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Транспортное средство, которое сконструировано для того, чтобы плавать сквозь толщу воды с целью исполнения научной или военной миссии.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A vehicle that is designed to swim through the water in order to fulfill a scientific or military mission.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Транспартны сродак, які сканструяван для таго, каб плаваць скрозь тоўшчу вады з мэтай выканання навуковай або ваеннай місіі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;;

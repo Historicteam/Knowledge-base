@@ -1,0 +1,40 @@
+concept_underground_transport
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[подземный транспорт](*<- lang_ru;;*);
+	[underground transport](*<- lang_en;;*);
+	[падземны транспарт](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Транспорт, осуществляющий передвижение под землей.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Underground vehicles.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Транспарт, які ажыццяўляе рух пад зямлёй.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+=>nrel_inclusion:
+	concept_metro;;

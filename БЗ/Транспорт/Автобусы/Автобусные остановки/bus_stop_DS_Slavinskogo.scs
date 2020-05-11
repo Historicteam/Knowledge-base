@@ -1,0 +1,31 @@
+bus_stop_DS_Slavinskogo
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка ДС Славинского](*<- lang_ru;;*);
+	[Аўтобусны прыпынак ДС Славiнскага](*<- lang_by;;*);
+=> nrel_osm_query: [node(5184922390);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.939747, 27.632447]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.939747;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.632447;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

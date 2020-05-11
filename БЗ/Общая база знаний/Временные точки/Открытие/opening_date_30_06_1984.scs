@@ -1,0 +1,22 @@
+opening_date_30_06_1984
+=> nrel_main_idtf:
+   [Дата открытия - 30 июня 1984]
+   (*
+   <- lang_ru;;
+   *);
+   [Opening Date - June 30, 1984]
+   (*
+   <- lang_en;;
+   *);
+   [Дата адкрыцця - 30 чэрвеня 1984]
+   (*
+   <- lang_by;;
+   *);
+   <- exact_value;
+   <- begin;
+   => nrel_Gregorian_calendar_scale: ...
+   (*
+   <- number_of_day_in_month: [30];;
+   <- number_of_month_in_year: [06];;
+   <- number_of_year: [1984];;
+   *);;

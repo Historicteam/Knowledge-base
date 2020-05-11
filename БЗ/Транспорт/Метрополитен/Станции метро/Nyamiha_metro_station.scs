@@ -1,0 +1,85 @@
+Nyamiha_metro_station
+<- concept_metro_station;
+<- Autozavodskaya_metro_line;
+=> nrel_main_idtf:
+	[Станция метро Немига](*<- lang_ru;;*);
+	[Nyamiha metro station](*<- lang_en;;*);
+	[Станцыя метро Нямiга](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Cтанция Автозаводской линии Минского метрополитена. Расположена между станциями «Фрунзенская» и «Купаловская».]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Station of the Avtozavodskaya line of the Minsk metro. It is 
+Located between the Frunzenskaya and Kupalawskaya stations.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Cтанция Аўтазаводскай лініі Мінскага метрапалітэна. Размешчана паміж станцыямі «Фрунзенская» і «Купалаўская».]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- opening_date_31_12_1990;
+<- rrel_key_sc_element: Nyamiha_station_hall (*
+	=> nrel_main_idtf:
+		[Зал станции Немига] (* <- lang_ru;; *);
+		[Nyamiha station hall] (* <- lang_en;; *);
+		[Зала станцыі Нямiга] (* <- lang_by;; *);;
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/Nyamiha.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);
+=> nrel_osm_query: [node(209186415);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.905837, 27.554025]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.905837;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.554025;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+=>nrel_working_hours: Mon_Sun_05_30_01_00;
+=>nrel_neighboring_metro_station:
+	Frunzenskaya_metro_station;
+	Kupalawskaya_metro_station;;

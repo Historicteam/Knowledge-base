@@ -1,0 +1,50 @@
+concept_stopping_point
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[остановка](*<- lang_ru;;*);
+	[stopping point](*<- lang_en;;*);
+	[прыпынак](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Общественное место остановки транспортных средств по маршруту регулярных перевозок, оборудованное для посадки, высадки пассажиров и ожидания транспортных средств.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[A public stopping place for vehicles on the regular transport route, equipped for boarding, disembarking passengers and waiting for vehicles.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Грамадскае месца прыпынку транспартных сродкаў па маршруце рэгулярных перавозак, абсталяванае для пасадкі, высадкі пасажыраў і чакання транспартных сродкаў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/stopping_point.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

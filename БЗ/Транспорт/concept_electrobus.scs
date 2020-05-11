@@ -1,0 +1,50 @@
+concept_electric_bus
+<-sc_const;
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[электробус](*<- lang_ru;;*);
+	[electric bus](*<- lang_en;;*);
+	[электробус](*<- lang_by;;*);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<-sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Безрельсовое механическое транспортное средство общего пользования c электрическим приводом, предназначенное для перевозки по дорогам людей по установленному маршруту.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[An electric trackless general-purpose vehicle with electric drive, designed to transport people on roads along the established route.]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Бязрэйкавы механiчны транспартны сродак агульнага карыстання c электрычным прывадам, прызначаны для перавозкі па дарогах людзей па вызначаным маршруце.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*)
+;
+<- rrel_key_sc_element:...
+	(*
+	<-sc_illustration;;	
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://content/electric_bus.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+                        *);;
+		*);;
+	*);;

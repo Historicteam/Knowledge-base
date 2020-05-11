@@ -1,0 +1,30 @@
+nrel_bus_route
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+	[автобусный маршрут*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[bus route*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+	[аўтобусны маршрут*] (* <-lang_by;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_explanation;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example: [Номер автобусного маршрута.] (* <-lang_ru;; *);;
+		*);
+	...
+        (*
+        -> rrel_example: [Bus route number.] (* <-lang_en;; *);;
+		*);
+		...
+		(* 
+		-> rrel_example: [Нумар аўтобуснага маршруту.] (* <-lang_by;; *);; 
+		*);;
+    *);
+=>nrel_first_domain:
+    concept_autobus;
+=>nrel_second_domain:
+    concept_bus_route_num;;

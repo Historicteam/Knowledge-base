@@ -1,0 +1,76 @@
+autobus_100
+<- concept_bus_route_num;
+=> nrel_main_idtf:
+	[Маршрут движения автобуса №100] (* <- lang_ru;; *);
+	[Bus route №100] (* <- lang_en;; *);
+	[Маршрут руху аўтобуса №100] (* <- lang_by;; *);
+=> nrel_destination: 
+	bus_stop_DS_Slavinskogo;
+	bus_stop_Old_airport;
+=> nrel_route_point: 
+	[*
+	bus_stop_DS_Slavinskogo => nrel_next_point:bus_stop_Sevastopolskiy_park
+	(*
+	=> nrel_next_point:bus_stop_Bolshaya_Slepnya
+	(*
+	=> nrel_next_point:bus_stop_Kedyshko
+	(*
+	=> nrel_next_point:bus_stop_Moskovskaya_metro_station
+	(*
+	=> nrel_next_point:bus_stop_Detskaya_zheleznaya_doroga
+	(*
+	=> nrel_next_point:bus_stop_Park_Chelyuskintsev_metro_station
+	(*
+	=> nrel_next_point:bus_stop_Kalinina_Square
+	(*
+	=> nrel_next_point:bus_stop_Dom_pechaty
+	(*
+	=> nrel_next_point:bus_stop_Petrusya_Brovki
+	(*
+	=> nrel_next_point:bus_stop_Yakub_Kolas_Square
+	(*
+	=> nrel_next_point:bus_stop_Kozlova
+	(*
+	=> nrel_next_point:bus_stop_Victory_Square
+	(*
+	=> nrel_next_point:bus_stop_Yanki_Kupaly
+	(*
+	=> nrel_next_point:bus_stop_Oktyabrskaya_metro_station
+	(*
+	=> nrel_next_point:bus_stop_Lenina
+	(*
+	=> nrel_next_point:bus_stop_Independence_Square
+	(*
+	=> nrel_next_point:bus_stop_Akademiya_ypravleniya
+	(*
+	=> nrel_next_point:bus_stop_Sputnik_Hotel
+	(*
+	=> nrel_next_point:bus_stop_Chkalova
+	(*
+	=> nrel_next_point:bus_stop_Old_airport_disembarkation
+	(*
+	=> nrel_next_point:bus_stop_Old_airport;;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;	
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;
+	*);;	
+	*);;
+	*];;
+
+	
+	

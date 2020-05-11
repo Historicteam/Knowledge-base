@@ -1,0 +1,31 @@
+bus_stop_Kedyshko
+<- concept_stopping_point;
+=> nrel_main_idtf:
+	[Автобусная остановка Кедышко](*<- lang_ru;;*);
+	[Аўтобусны прыпынак Кедышкi](*<- lang_by;;*);
+=> nrel_osm_query: [node(767183800);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.930947, 27.623465]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.930947;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.623465;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
