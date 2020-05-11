@@ -1,0 +1,41 @@
+nrel_inflow<-sc_node_norole_relation;
+	<-sc_node_norole_relation;
+	=> nrel_main_idtf:
+	[приток*] 
+	(* <- lang_ru;; *);
+	[прыток*] 
+	(* <- lang_by;; *);
+	[inflow*]	
+	(* <- lang_en;; *);
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_first_domain:concept_waterflow;
+=> nrel_second_domain:concept_waterflow;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Прито́к — водоток, впадающий в другой водоток. Обычно отличается от последнего меньшей длиной и меньшей водностью, однако существуют и обратные примеры.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		-> rrel_example: 
+			[Прыток - вадацёк, ўпадае ў іншай вадацёк. Звычайна адрозніваецца ад апошняга меншай даўжынёй і меншай воднасцю, аднак існуюць і зваротныя прыклады.]
+			(* 
+			<- lang_by;; 
+			*);;
+		-> rrel_example: 
+			[A tributary is a waterflow that flows into another waterflow.]
+			(* 
+			<- lang_en;; 
+			*);;
+		*);;
+	*);;
+

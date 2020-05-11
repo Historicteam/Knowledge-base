@@ -1,0 +1,42 @@
+concept_walk_with_catamaran
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[прогулка на катамаране]
+(*
+<- lang_ru;;
+*);
+[walk with catamaran]
+(*
+<- lang_en;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Прогулка осуществляемая на воде с помощью катамарана. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Прагулка якая ажыццяўляецца на вадзе з выкарыстанне катамарана.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ Walk on water using catamaran.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);;

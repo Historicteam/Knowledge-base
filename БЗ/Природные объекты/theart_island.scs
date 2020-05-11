@@ -1,0 +1,105 @@
+thears_island<-concept_island;
+<=nrel_plot_of_land:Svisloch_river;
+=>nrel_osm_query:[way(99881325);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9096, 27.5543]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9096;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5543;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
+thears_island=> nrel_main_idtf:
+	[остров слез]
+	(*
+	<- lang_ru;;
+	*);
+	[остров мужества]
+	(*
+	<- lang_ru;;
+	*);
+	[tears island]
+	(*
+	<- lang_en;;
+	*);
+	[остров слез]
+	(*
+	<- lang_by;;
+	*);;
+
+Thears_island_monument => nrel_main_idtf: [памятник острова слез](*<- lang_ru;;*);;
+Thears_island_monument => nrel_main_idtf: [thears island monument](*<- lang_en;;*);;
+
+Thears_island_monument=>nrel_be_founded_in_memory_of:afghan_war;
+<=nrel_location:thears_island;
+<-begin_date_1996;
+<-concept_monument;
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Остров слёз в Минске является своеобразным мемориальным комплексом. Не зря его второе название – Остров мужества и скорби. Построенный в излучине реки Свислочь, рядом с Троицким предместьем, этот мемориал является данью памяти белорусским воинам-интернационалистам, участвовавшим в войне с Афганистаном 1979-1989 годов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+	<- rrel_key_sc_element: ...
+	(*
+	<-sc_illustration;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example: "file://картинки/il.jpg"
+			(*
+			=> nrel_format: format_jpg;;
+			*);;
+		*);;
+	*);;
+Thears_island_monument<- rrel_key_sc_element: 
+	...
+	(*
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Его строительство началось в 1988 году, когда война с Афганистаном ещё не была окончена. Однако официально комплекс был открыт лишь 3 августа 1996 года.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+

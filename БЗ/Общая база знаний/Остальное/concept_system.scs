@@ -1,0 +1,73 @@
+concept_system
+=>nrel_main_idtf:
+	[система] (* <-lang_ru;; *);
+	[system] (* <-lang_en;; *);
+<-sc_node_not_relation;
+<-sc_const;
+<- rrel_key_sc_element:
+	...
+	(* 
+	=>nrel_main_idtf:
+		[Определение понятия "система"] (* <-lang_ru;; *);
+		[Definition of the system concept] (* <-lang_en;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Систе́ма — множество элементов, находящихся в отношениях и связях друг с другом, которое образует определённую целостность, единство.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [A system is a group of interacting or interrelated entities that form a unified whole. A system is described by its spatial and temporal boundaries, surrounded and influenced by its environment, described by its structure and purpose and expressed in its functioning.] (* <-lang_en;; *);; 
+		*);;
+	*);
+	...
+	(*
+	=>nrel_main_idtf:
+		[Дескриптивное определение системы] (* <-lang_ru;; *);
+		[Descriptive definition of the system concept] (* <-lang_en;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Система — совокупность элементов, находящихся в определённых отношениях друг с другом и со средой.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Система — множество взаимосвязанных элементов, обособленное от среды и взаимодействующее с ней, как целое.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	...
+	(*
+	=>nrel_main_idtf:
+		[Конструктивное определение системы] (* <-lang_ru;; *);
+		[Konsructive definition of the system concept] (* <-lang_en;; *);;
+	<- sc_definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [ССистема — комбинация взаимодействующих элементов, организованных для достижения одной или нескольких поставленных целей.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Система — совокупность интегрированных и регулярно взаимодействующих или взаимозависимых элементов, созданная для достижения определённых целей, причём отношения между элементами определены и устойчивы, а общая производительность или функциональность системы лучше, чем у простой суммы элементов.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	...
+	(* 
+	=>nrel_main_idtf:
+		[Применение понятия "система"] (* <-lang_ru;; *);
+		[Employment  of the system concept] (* <-lang_en;; *);;
+	<- sc_statement;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Потребность в использовании термина «система» возникает в тех случаях, когда нужно подчеркнуть, что что-то является большим, сложным, не полностью сразу понятным, при этом целым, единым.] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [A need to use the term “system” arises in those cases where it is necessary to emphasize that something is large, complex, not completely immediately understandable, but at the same time whole, unified.] (* <-lang_en;; *);; 
+		*);;
+	*);;
+concept_system->numeral_system;;
+

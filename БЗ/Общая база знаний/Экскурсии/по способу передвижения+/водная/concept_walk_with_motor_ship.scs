@@ -1,0 +1,42 @@
+concept_walk_with_motor_ship
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[прогулка на теплоходе]
+(*
+<- lang_ru;;
+*);
+[walk with motor ship]
+(*
+<- lang_en;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+-> rrel_example:
+[ Прогулка осуществляемая на воде с помощью теплохода. ]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+(*
+-> rrel_example:
+[ Прагулка якая ажыццяўляецца на вадзе з выкарыстанне теплахода.]
+      (*
+<- lang_by;;
+      *);;
+*);
+...
+(*
+-> rrel_example:
+[ Walk on water using motor ship.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);;

@@ -1,0 +1,22 @@
+subject_domain_of_water_objects 
+<- subject_domain;
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область водных объектов]
+	(* <- lang_ru;; *);
+	[Subject domain of water objects]
+	(* <- lang_en;; *);
+-> rrel_maximum_studied_object_class:
+    concept_water_object ;
+-> rrel_not_maximum_studied_object_class:
+	concept_river;
+	concept_lake;
+	concept_reservoir;
+	concept_pond;
+	concept_waterflow;
+-> rrel_explored_relation:
+	nrel_plot_of_land;
+	nrel_water_barrier;
+	nrel_inflow;;
+
+

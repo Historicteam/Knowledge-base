@@ -1,0 +1,56 @@
+concept_dock
+<-sc_node_not_relation;
+<-concept_construction;
+<-sc_const;;
+concept_dock => nrel_main_idtf: [пирс](*<- lang_ru;;*);;
+concept_dock => nrel_main_idtf: [dock](*<- lang_en;;*);;
+
+
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_dock;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Портовое сооружение, род дамбы для причала судов с двух сторон. ](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [A dock is a maritime facility which may comprise one or more wharves where ships may dock to load and discharge passengers and cargo. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "пирс"](*<- lang_ru;;*);
+			[Definition of the dock concept] (* <-lang_en;; *);;
+    *);;
+
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_dock;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Пирс поднят над водой и, как правило, поддерживается опорами (сваями или столбами). Открытая структура позволяет потокам воды течь относительно беспрепятственно.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Конструкция пирса](*<- lang_ru;;*);;
+*);;
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_dock;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В Минске пирсы имеют небольшой размер так как предназначены для небольших судов на подобие катамаранов и речных теплоходов. В основном они сосредаточены на реке Свислочь.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Пирсы в Минске](*<- lang_ru;;*);;
+*);;
+
+concept_dock<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/kat.jpg"
+	(*
+		=>nrel_format:format_jpg;;
+	*);;	
+*);;
+*);;

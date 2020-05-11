@@ -1,0 +1,37 @@
+nrel_plot_of_land<-sc_node_norole_relation;
+<- relation;
+<-antisymmetric_relation;
+<-antireflexive_relation;
+<- binary_relation;
+<- oriented_relation;
+<-sc_node_norole_relation;
+	=> nrel_main_idtf:
+	[участок суши*] 
+	(* <- lang_ru;; *);
+	[plot of land*]	
+	(* <- lang_en;; *);
+=> nrel_first_domain:concept_island;
+=> nrel_second_domain:concept_water_object;
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Участок суши - область, состоящая из песка, горной породы или земли, окруженная водой.]
+			(* 
+			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[A plot of land is an area composed of sand, rock or land surrounded by water.]
+			(* 
+			<- lang_en;; 
+			*);;
+		*);;
+		
+	*);;

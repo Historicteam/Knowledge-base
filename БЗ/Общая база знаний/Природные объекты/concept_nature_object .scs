@@ -1,0 +1,65 @@
+concept_nature_object 
+	
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[природный объект] 
+	(* <- lang_ru;; *);
+	[прыродны об'ект] 
+	(* <- lang_by;; *);
+	[nature object]	
+	(* <- lang_en;; *);
+=>nrel_inclusion:
+		concept_island;
+		concept_water_object;
+		concept_coast;
+		concept_complex_nature_object;;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_nature_object;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Природный объект - естественная экологическая система, природный ландшафт, биотоп и составляющие их компоненты природной среды, сохранившие свои природные свойства. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "природный объект"](*<- lang_ru;;*);;
+*);;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_nature_object;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Прыродны аб'ект - натуральная экалагічная сістэма, прыродны ландшафт, біятопаў і складнікі іх кампаненты прыроднага асяроддзя, якія захавалі свае прыродныя ўласцівасці. ](*<- lang_by;;*);;
+        *);;
+    => nrel_main_idtf: [Вызначэнне паняцця "прыродны аб'ект"](*<- lang_by;;*);;
+*);;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_nature_object;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [A natural object is a natural ecological system, a natural landscape, a biotope and the components of the natural environment that have retained their natural properties. ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Definition of the term "nature object"](*<- lang_en;;*);;
+*);;
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_nature_object ;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [К природным объектам относятся целостные образования Земли, такие как ледники, пустыни, горы, острова, а также водные объекты.](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Да прыродных аб'ектаў адносяцца цэласныя адукацыі Зямлі, такія як ледавікі, пустыні, горы, выспы, а таксама водныя аб'екты.](*<- lang_by;;*);;
+        *);
+	...
+	(*
+            -> [Natural objects include holistic formations of the Earth, such as glaciers, deserts, mountains, islands, as well as water bodies.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Уточнение понятия "природный объект"](*<- lang_ru;;*);
+			[Ўдакладненне паняцці "прыродны аб'ект"](*<- lang_by;;*);
+			[Clarification of the concept of "nature object"](*<- lang_en;;*);;
+    => nrel_using_constants: concept_island;
+			concept_water_object;;
+*);;
+

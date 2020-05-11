@@ -1,0 +1,51 @@
+Gorky_park
+=> nrel_main_idtf:
+	[парк Горького]
+	(*
+	<- lang_ru;;
+	*);
+	[Gorky park]
+	(*
+	<- lang_en;;
+	*);
+
+<-concept_park;
+<- rrel_key_sc_element: 
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Центральный детский парк им. Максима Горького — парк культуры и отдыха в центре Минска недалеко от Площади Победы. Расположен между улицами Янки Купалы, Фрунзе, Первомайской и проспектом Независимости и на сегодняшний день занимает площадь в 28 гектаров.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);
+=>nrel_osm_query:[way(9095854);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9031, 27.5715]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9031;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5715;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

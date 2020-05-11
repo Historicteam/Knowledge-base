@@ -1,0 +1,42 @@
+concept_waterfront <-sc_node_not_relation;<-sc_const;
+	=> nrel_main_idtf: [набережная](*<- lang_ru;;*);
+			   [waterfront ](*<- lang_en;;*);
+<-concept_construction;;
+sc_definition -> ...
+(*
+    -> rrel_key_sc_element: concept_waterfront;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Набережная — сооружение, окаймляющее береговую линию моря, реки. Набережная служит для придания берегу правильной формы, укрепления его, предохранения от размыва, для удобного прохода и проезда вдоль берега.](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [The waterfront area of a city or town is its dockland district, or the area alongside a body of water.  ](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Определение понятия "набережная"](*<- lang_ru;;*);
+			[Definition of the waterfront concept] (* <-lang_en;; *);;
+    *);;
+
+
+sc_statement -> ...
+(*
+    -> rrel_key_sc_element: concept_waterfront;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Набережные в городах — проезды (улицы), расположенные вдоль берегов и ограниченные с одной стороны городской застройкой или парком.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(набережная)](*<- lang_ru;;*);;
+*);;
+
+concept_waterfront<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/water1.jpg"
+	(*
+		=>nrel_format:format_jpg;;
+	*);;	
+*);;
+*);;
