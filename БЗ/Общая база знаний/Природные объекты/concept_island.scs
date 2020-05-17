@@ -1,5 +1,6 @@
 concept_island<-sc_node_not_relation;<-sc_const;;
 concept_island => nrel_main_idtf: [остров](*<- lang_ru;;*);;
+concept_island => nrel_main_idtf: [востраў](*<- lang_by;;*);;
 concept_island => nrel_main_idtf: [island](*<- lang_en;;*);;
 
 
@@ -11,10 +12,15 @@ sc_definition -> ...
             -> [Участок суши (обычно естественного происхождения) в океане, море, озере или на реке, окружённый со всех сторон водой и постоянно возвышающийся над водой даже в период наибольшего прилива. ](*<- lang_ru;;*);;
         *);
 	...
+	(*
+            -> [Ўчастак сушы (звычайна натуральнага паходжання) у акіяне, мора, возеры або на рацэ, акружаны з усіх бакоў вадой і пастаянна ўзвышаецца над вадой нават у перыяд найбольшага прыліва. ](*<- lang_by;;*);;
+        *);
+	...
         (*
             -> [An island or isle is any piece of sub-continental land that is surrounded by water. ](*<- lang_en;;*);;
         *);;
     => nrel_main_idtf: [Определение понятия "остров"](*<- lang_ru;;*);
+			[Вызначэнне паняцця "востраў"](*<- lang_by;;*);
 			[Definition of the island concept] (* <-lang_en;; *);;
     *);;
 
@@ -25,8 +31,18 @@ sc_statement -> ...
     <= nrel_sc_text_translation:...
         (*
             -> [Острова различаются в зависимости от происхождения и их расположения относительно материков. При этом основным является деление островов на расположенные в морских водоёмах и в пресных.](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Выспы адрозніваюцца ў залежнасці ад паходжання і іх размяшчэння адносна мацерыкоў. Пры гэтым асноўным з'яўляецца дзяленне выспаў на размешчаныя ў марскіх вадаёмах і ў прэсных.](*<- lang_by;;*);;
+        *);
+	...
+	(*
+            -> [Islands vary depending on the origin and their location relative to the continents. In this case, the main is the division of the islands into those located in sea water bodies and in fresh ones.](*<- lang_en;;*);;
         *);;
-    => nrel_main_idtf: [Разновидности островов](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Разновидности островов](*<- lang_ru;;*);
+			[разнавіднасці выспаў](*<- lang_by;;*);
+			[Island species](*<- lang_en;;*);;
 *);;
 
 sc_statement -> ...
@@ -35,8 +51,18 @@ sc_statement -> ...
     <= nrel_sc_text_translation:...
         (*
             -> [От материков острова отличаются меньшими размерами.](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [Ад мацерыкоў выспы адрозніваюцца меншымі памерамі.](*<- lang_by;;*);;
+        *);
+	...
+        (*
+            -> [Islands differ from the mainland in smaller sizes.](*<- lang_en;;*);;
         *);;
     => nrel_main_idtf: [Отличие материков и остров](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Адрозненне мацерыкоў і востраў](*<- lang_by;;*);;
+    => nrel_main_idtf: [The difference between mainlands and islands](*<- lang_en;;*);;
 *);;
 
 concept_island<-rrel_key_sc_element:...

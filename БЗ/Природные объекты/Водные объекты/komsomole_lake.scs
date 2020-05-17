@@ -1,0 +1,69 @@
+komsomole_lake<-concept_lake;
+<-concept_recreational_water_object;
+<-concept_decorative_water_object;
+concept_multifunctional_water_object;
+=> nrel_main_idtf:
+	[Комсомольское озеро] 
+	(* <- lang_ru;; *);
+	[Komsomole lake]	
+	(* <- lang_en;; *);
+=>nrel_osm_query:[relation(19781);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9238, 27.5339]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9238;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5339;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);
+<= nrel_inclusion: svisloch_river;
+<- rrel_key_sc_element: 
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Комсомольское озеро — искусственный водоём в северо-западной части Минска, образованный плотиной на реке Свислочь.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Komsomolskoe Lake is an artificial reservoir in the northwestern part of Minsk, formed by a dam on the Svisloch River.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);
+<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/kom.jpg"
+	(*
+		=>nrel_format:format_jpg;;
+	*);;	
+*);;
+*);;

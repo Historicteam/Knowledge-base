@@ -1,5 +1,5 @@
 thears_island<-concept_island;
-<=nrel_plot_of_land:Svisloch_river;
+<=nrel_plot_of_land:svisloch_river;
 =>nrel_osm_query:[way(99881325);];
 => nrel_geographical_location: ...
 	(*
@@ -45,7 +45,7 @@ thears_island=> nrel_main_idtf:
 	*);;
 
 Thears_island_monument => nrel_main_idtf: [памятник острова слез](*<- lang_ru;;*);;
-Thears_island_monument => nrel_main_idtf: [thears island monument](*<- lang_en;;*);;
+Thears_island_monument => nrel_main_idtf: [tears island monument](*<- lang_en;;*);;
 
 Thears_island_monument=>nrel_be_founded_in_memory_of:afghan_war;
 <=nrel_location:thears_island;
@@ -62,6 +62,14 @@ Thears_island_monument=>nrel_be_founded_in_memory_of:afghan_war;
 			[Остров слёз в Минске является своеобразным мемориальным комплексом. Не зря его второе название – Остров мужества и скорби. Построенный в излучине реки Свислочь, рядом с Троицким предместьем, этот мемориал является данью памяти белорусским воинам-интернационалистам, участвовавшим в войне с Афганистаном 1979-1989 годов.]
 			(*
 			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The island of tears in Minsk is a kind of memorial complex. No wonder his second name is the Island of courage and sorrow. Built in the bend of the Svisloch River, next to the Trinity Suburb, this memorial is a tribute to the Belarusian soldiers-internationalists who participated in the 1979-1989 war with Afghanistan.]
+			(*
+			<- lang_en;;
 			*);;
 		*);;
 	*);
@@ -88,6 +96,14 @@ Thears_island_monument<- rrel_key_sc_element:
 			[Его строительство началось в 1988 году, когда война с Афганистаном ещё не была окончена. Однако официально комплекс был открыт лишь 3 августа 1996 года.]
 			(*
 			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Its construction began in 1988, when the war with Afghanistan was not yet over. However, the complex was officially opened only on August 3, 1996.]
+			(*
+			<- lang_en;;
 			*);;
 		*);;
 	*);;

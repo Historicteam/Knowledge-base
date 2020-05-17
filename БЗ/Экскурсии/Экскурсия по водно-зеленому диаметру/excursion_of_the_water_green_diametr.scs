@@ -1,0 +1,36 @@
+concept_excursion->excursion_of_the_water_green_diametr
+(*
+	=> nrel_route_point: 
+	[*
+		Starostinskaya_sloboda => nrel_next_point:Yanka_Kupala_park
+		(*
+			=> nrel_next_point:40th_anniversary_of_October_park
+			(*
+			=> nrel_next_point:Gorky_park
+			  (*
+			  => nrel_next_point:komsomol_island
+			     (*
+		 		  => nrel_next_point:birds_island
+					  (*
+					  	=> nrel_next_point:thears_island
+						(*
+							=> nrel_next_point:Pobedy_park;;
+						*);;
+
+					  *);;
+			     *);;
+			  *);;
+			*);;		
+		*);;
+	*];;
+*);;
+excursion_of_the_water_green_diametr=>nrel_main_excursion_object:water_green_diameter_of_Minsk;
+=> nrel_main_idtf:
+	[экскурсия по водно-зеленому диаметру Минска]
+	(*
+	<- lang_ru;;
+	*);
+	[excursion of the water green diametr]
+	(*
+	<- lang_en;;
+	*);;

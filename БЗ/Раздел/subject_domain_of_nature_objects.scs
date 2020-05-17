@@ -21,4 +21,14 @@ subject_domain_of_nature_objects
 -> rrel_explored_relation:
 	nrel_plot_of_land;
 	nrel_coastline;
-	nrel_coastline;;
+	nrel_coastal_object;
+<- rrel_key_sc_element: ...
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Предметная область природных объектов - изучает природные объекты существующие на данный момент времени.] 
+		(* <-lang_ru;; *);; 
+		*);;
+	*);;

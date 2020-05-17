@@ -1,6 +1,9 @@
-concept_waterfront <-sc_node_not_relation;<-sc_const;
-	=> nrel_main_idtf: [набережная](*<- lang_ru;;*);
-			   [waterfront ](*<- lang_en;;*);
+concept_waterfront 
+<-sc_node_not_relation;
+<-sc_const;
+=> nrel_main_idtf: [набережная](*<- lang_ru;;*);
+		   [набярэжная](*<- lang_by;;*);
+		   [waterfront ](*<- lang_en;;*);
 <-concept_construction;;
 sc_definition -> ...
 (*
@@ -10,10 +13,15 @@ sc_definition -> ...
             -> [Набережная — сооружение, окаймляющее береговую линию моря, реки. Набережная служит для придания берегу правильной формы, укрепления его, предохранения от размыва, для удобного прохода и проезда вдоль берега.](*<- lang_ru;;*);;
         *);
 	...
+	(*
+            -> [Набярэжная - збудаванне, адгароджваючы берагавую лінію мора, ракі. Набярэжная служыць для надання беразе правільнай формы, ўмацавання яго, засцярогі ад размыву, для зручнага праходу і праезду ўздоўж берага.](*<- lang_by;;*);;
+        *);
+	...
         (*
             -> [The waterfront area of a city or town is its dockland district, or the area alongside a body of water.  ](*<- lang_en;;*);;
         *);;
     => nrel_main_idtf: [Определение понятия "набережная"](*<- lang_ru;;*);
+			[Определение понятия "набярэжная"](*<- lang_by;;*);
 			[Definition of the waterfront concept] (* <-lang_en;; *);;
     *);;
 
@@ -24,8 +32,18 @@ sc_statement -> ...
     <= nrel_sc_text_translation:...
         (*
             -> [Набережные в городах — проезды (улицы), расположенные вдоль берегов и ограниченные с одной стороны городской застройкой или парком.](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [Набярэжныя ў гарадах - праезды (вуліцы), размешчаныя ўздоўж берагоў і абмежаваныя з аднаго боку гарадской забудовай або паркам.](*<- lang_by;;*);;
+        *);
+	...
+        (*
+            -> [Waterfronts in cities - driveways (streets) located along the coast and limited on one side by urban buildings or a park.](*<- lang_en;;*);;
         *);;
-    => nrel_main_idtf: [Утв.(набережная)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Утв.(набережная)](*<- lang_ru;;*);
+			[Вызн.(набярэжная)](*<- lang_by;;*);
+			[Def.(waterfront)](*<- lang_en;;*);;
 *);;
 
 concept_waterfront<-rrel_key_sc_element:...

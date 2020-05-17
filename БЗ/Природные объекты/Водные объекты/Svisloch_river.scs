@@ -1,8 +1,10 @@
-Svisloch_river<-concept_river;
+svisloch_river<-concept_river;
+<-concept_land_waterflow;
+<-concept_fishing_water_object;
 => nrel_main_idtf:
-	[свислоч] 
+	[Свислоч] 
 	(* <- lang_ru;; *);
-	[svisloch]	
+	[Svisloch]	
 	(* <- lang_en;; *);
 	[Свіслач]	
 	(* <- lang_by;; *);
@@ -38,5 +40,31 @@ Svisloch_river<-concept_river;
 			(*
 			<- lang_ru;;
 			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[svisloch is a river in Belarus, the right tributary of the Berezina (Dnieper basin). The main waterway of Minsk. ]
+			(*
+			<- lang_en;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[n the past it was used for fishing, shipping and timber rafting, now it has mainly limited recreational value.]
+			(*
+			<- lang_en;;
+			*);;
 		*);;
 	*);;
+svisloch_river<=nrel_inflow:berezina_river;;
+svisloch_river
+=>nrel_inflow:
+	loshitsa_river;
+	nemiga_river;
+	tcna_river;
+	krupka_river;
+=>nrel_bordering_constructure:waterfront_of_internationalist_warriors;;
+	
+	

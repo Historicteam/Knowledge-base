@@ -2,9 +2,9 @@ water_green_diameter_of_Minsk<-concept_complex_nature_object;
 <-concept_system;
 =>nrel_osm_query:[relation(10750311);];
 =>nrel_main_idtf:
-	[водно-зеленый диаметр Минска] (* <-lang_ru;; *);
-	[water-green diameter of Minsk] (* <-lang_en;; *);
-	[водна-зялёны дыяметр Мінска] (* <-lang_by;; *);
+	[Водно-зеленый диаметр Минска] (* <-lang_ru;; *);
+	[Water-green diameter of Minsk] (* <-lang_en;; *);
+	[Водна-зялёны дыяметр Мінска] (* <-lang_by;; *);
 <- rrel_key_sc_element:
 	...
 	(* 
@@ -15,9 +15,35 @@ water_green_diameter_of_Minsk<-concept_complex_nature_object;
 		*);
 		...
 		(* 
-		-> rrel_example: [Labour organization is an institutionalized set of people that act on a special plan to achieve goals which are significant for all members of the organization and to create certain socially necessary products or services.] (* <-lang_en;; *);; 
+		-> rrel_example: [Водна-зялёны дыяметр Мінска - сістэма паркаў, вадаёмаў, бульвараў і сквераў з абодвух бакоў ракі Свіслач, якая перасякае шырокай «зялёнай стужкай» ўвесь горад Мінск з паўночнага захаду на паўднёвы ўсход - ад вадасховішча Дразды да мікрараёна Шабаны. ] (* <-lang_by;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [The water-green diameter of Minsk is a system of parks, reservoirs, boulevards and squares on both sides of the Svisloch River, which crosses the whole city of Minsk with a wide "green ribbon" from the north-west to the south-east - from the Drozdy reservoir to the Shabany microdistrict.] (* <-lang_en;; *);; 
 		*);;
-*);;
+	=>nrel_using_constants: {
+		concept_reservoir;
+		concept_park;
+		concept_system
+		};;
+	*);
+<- rrel_key_sc_element:
+	...
+	(* 
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Водно-зелёный диаметр считается одной из главных достопримечательностей Минска. ] (* <-lang_ru;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Водна-зялёны дыяметр лічыцца адной з галоўных славутасцяў Мінска. ] (* <-lang_by;; *);; 
+		*);
+		...
+		(* 
+		-> rrel_example: [Water-green diameter is considered one of the main attractions of Minsk.] (* <-lang_en;; *);; 
+		*);;
+	*);;
 water_green_diameter_of_Minsk<-rrel_key_sc_element:...
 (*
 		<-illustration;;
@@ -30,27 +56,10 @@ water_green_diameter_of_Minsk<-rrel_key_sc_element:...
 	*);;	
 *);;
 *);;
-water_green_diameter_of_Minsk=>nrel_whole_part:Svisloch_river;
-				Pobedy_park;
-				Gorky_park;
-				40th_anniversary_of_October_park;
-				Yanka_Kupala_park;
-				Starostinskaya_sloboda;;
-
-40th_anniversary_of_October_park<-concept_park;
-=>nrel_osm_query:[relation(10750311);];
-=>nrel_main_idtf:
-	[парк 40-летия Октября] (* <-lang_ru;; *);
-	[40th anniversary of October park] (* <-lang_en;; *);;
-
-Yanka_Kupala_park<-concept_park;
-=>nrel_osm_query:[way(102188799);];
-=>nrel_main_idtf:
-	[парк Янки Купалы] (* <-lang_ru;; *);
-	[Yanka Kupala Park] (* <-lang_en;; *);;
-
-Starostinskaya_sloboda<=concept_public_garden;
-=>nrel_osm_query:[way(99877375);];
-=>nrel_main_idtf:
-	[сквер Старостинская слобода] (* <-lang_ru;; *);
-	[Starostinskaya sloboda] (* <-lang_en;; *);;
+water_green_diameter_of_Minsk=>nrel_inclusion:
+	svisloch_river;
+	Pobedy_park;
+	Gorky_park;
+	40th_anniversary_of_October_park;
+	Yanka_Kupala_park;
+	Starostinskaya_sloboda;;

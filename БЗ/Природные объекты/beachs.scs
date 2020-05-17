@@ -1,0 +1,87 @@
+komsomole_beach<-concept_beach;
+=> nrel_main_idtf:
+	[комсомольский пляж] 
+	(* <- lang_ru;; *);
+	[komsomole beach]	
+	(* <- lang_en;; *);
+<=nrel_coastal_object:komsomole_lake;
+<=nrel_whole_part:komsomole_lake_coast;;
+
+tsnyanski_beach<-concept_beach;
+=> nrel_main_idtf:
+	[цнянский пляж] 
+	(* <- lang_ru;; *);
+	[tsnyanski beach]	
+	(* <- lang_en;; *);
+<=nrel_coastal_object:tsnyanski_reservoir;
+<=nrel_whole_part:tsnyanski_reservoir_coast;
+=>nrel_osm_query:[node(6637077573);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [ 53.9548437, 27.5842778]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9548437;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.5842778;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
+
+chizhov_beach<-concept_beach;
+=> nrel_main_idtf:
+	[чижовский пляж] 
+	(* <- lang_ru;; *);
+	[chizhov beach]	
+	(* <- lang_en;; *);
+<=nrel_coastal_object:chizhov_reservoir;
+<=nrel_whole_part:chizhov_reservoir_coast;;
+
+drozdi_beach_2<-concept_beach;
+=> nrel_main_idtf:
+	[дроздовский пляж №2] 
+	(* <- lang_ru;; *);
+	[drozdi beach №2]	
+	(* <- lang_en;; *);
+<=nrel_coastal_object:drozdi_reservoir;
+<=nrel_whole_part:chizhov_reservoir_coast;
+=>nrel_osm_query:[way(155572406);];
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [ 53.94593, 27.48579]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.94593;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.48579;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

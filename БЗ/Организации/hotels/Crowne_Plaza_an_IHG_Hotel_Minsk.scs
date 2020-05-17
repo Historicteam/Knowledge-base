@@ -9,16 +9,15 @@ Crowne_Plaza_an_IHG_Hotel_Minsk
 
 <- rrel_key_sc_element: ... 
 (* 
-<-sc_illustration;; 
-<-key_image;; 
-<=nrel_sc_text_translation: 
-... 
-(* 
-->rrel_example: "file://скщцт.jpg" 
-(* 
-=> nrel_format: format_jpg;; 
-*);; 
-*);; 
+	<-sc_illustration;; 
+	<-key_image;; 
+	<=nrel_sc_text_translation:... 
+	(* 
+		->rrel_example: "file://crown.jpg" 
+		(* 
+			=> nrel_format: format_jpg;; 
+		*);; 
+	*);; 
 *);
 
 =>nrel_location:house_13_Kirova_street;

@@ -1,0 +1,9 @@
+concept_beach<-sc_const;
+<-sc_node_not_relation;
+<-concept_construction;
+=> nrel_main_idtf:
+	[пляж] 
+	(* <- lang_ru;; *);
+	[beach]	
+	(* <- lang_en;; *);;
+

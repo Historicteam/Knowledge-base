@@ -3,6 +3,8 @@ nrel_coastal_object<-sc_node_norole_relation;
 	=> nrel_main_idtf:
 	[прибрежный объект*] 
 	(* <- lang_ru;; *);
+	[прыбярэжны аб'ект*] 
+	(* <- lang_by;; *);
 	[coastal object*]	
 	(* <- lang_en;; *);
 <- relation;
@@ -13,6 +15,7 @@ nrel_coastal_object<-sc_node_norole_relation;
 => nrel_first_domain:concept_concept_terrain_object;
 			concept_construction;
 => nrel_second_domain:concept_coast;
+			concept_water_object;
 <- rrel_key_sc_element:
 	...
 	(*
@@ -24,6 +27,32 @@ nrel_coastal_object<-sc_node_norole_relation;
 			[Объект находящийся рядом с береговой линией водного объекта.]
 			(* 
 			<- lang_ru;; 
+			*);;
+		*);;
+	*);
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Аб'ект знаходзіцца побач з берагавой лініяй воднага аб'екта.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[An object located near the coastline of a water body.]
+			(* 
+			<- lang_en;; 
 			*);;
 		*);;
 	*);;

@@ -1,0 +1,9 @@
+concept_dam<-sc_const;
+<-sc_node_not_relation;
+<-concept_construction;
+=> nrel_main_idtf:
+	[дамба] 
+	(* <- lang_ru;; *);
+	[dam]	
+	(* <- lang_en;; *);;
+

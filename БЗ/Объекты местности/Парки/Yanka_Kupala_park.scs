@@ -1,0 +1,5 @@
+Yanka_Kupala_park<-concept_park;
+=>nrel_osm_query:[way(102188799);];
+=>nrel_main_idtf:
+	[парк Янки Купалы] (* <-lang_ru;; *);
+	[Yanka Kupala Park] (* <-lang_en;; *);;

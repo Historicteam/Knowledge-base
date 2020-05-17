@@ -8,6 +8,8 @@ nrel_plot_of_land<-sc_node_norole_relation;
 	=> nrel_main_idtf:
 	[участок суши*] 
 	(* <- lang_ru;; *);
+	[ўчастак сушы*] 
+	(* <- lang_by;; *);
 	[plot of land*]	
 	(* <- lang_en;; *);
 => nrel_first_domain:concept_island;
@@ -23,6 +25,14 @@ nrel_plot_of_land<-sc_node_norole_relation;
 			[Участок суши - область, состоящая из песка, горной породы или земли, окруженная водой.]
 			(* 
 			<- lang_ru;; 
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Ўчастак сушы - вобласць, якая складаецца з пяску, горнай пароды або зямлі, акружаная вадой.]
+			(* 
+			<- lang_by;; 
 			*);;
 		*);
 		...

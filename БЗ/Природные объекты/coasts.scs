@@ -1,0 +1,31 @@
+drozdi_reservoir_coast<-concept_coast;
+=> nrel_main_idtf:
+	[берег водохранилища Дрозды] 
+	(* <- lang_ru;; *);
+	[Drozdi reservoir coast]	
+	(* <- lang_en;; *);
+<=nrel_coastline:drozdi_reservoir;;
+
+chizhov_reservoir_coast<-concept_coast;
+=> nrel_main_idtf:
+	[берег Чижовского водохранилища] 
+	(* <- lang_ru;; *);
+	[Chizhov reservoir coast]	
+	(* <- lang_en;; *);
+<=nrel_coastline:chizhov_reservoir;;
+
+tsnyanski_reservoir_coast<-concept_coast;
+=> nrel_main_idtf:
+	[берег Цнянского водохранилища] 
+	(* <- lang_ru;; *);
+	[Tsnyanski reservoir coast]	
+	(* <- lang_en;; *);
+<=nrel_coastline:tsnyanski_reservoir;;
+
+komsomole_lake_coast<-concept_coast;
+=> nrel_main_idtf:
+	[берег Комсомольского озера] 
+	(* <- lang_ru;; *);
+	[komsomole lake coast]	
+	(* <- lang_en;; *);
+<=nrel_coastline:komsomole_lake;;
