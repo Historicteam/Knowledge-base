@@ -34,7 +34,8 @@ birds_island=> nrel_main_idtf:
 	(*
 	<- lang_en;;
 	*);
-	<=nrel_plot_of_land:Svisloch_river;
+	<=nrel_plot_of_land:komsomole_lake;
+	<=nrel_whole_part:Pobedy_park;
 	<- rrel_key_sc_element: ...
 	(*
 	<-sc_illustration;;

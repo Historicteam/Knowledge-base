@@ -1,0 +1,46 @@
+concept_land_waterflow
+<-sc_const;
+<-sc_node_not_relation;
+
+=> nrel_main_idtf:
+[наземный водоток]
+(*
+<- lang_ru;;
+*);
+[наземны вадацёк]
+(*
+<- lang_by;;
+*);
+[land waterflow]
+(*
+<- lang_en;;
+*);
+
+<- rrel_key_sc_element: ...
+(*
+<-sc_definition;;
+<=nrel_sc_text_translation: ...
+  (*
+  -> rrel_example:
+  [ Водото́к протекающий в углублении на поверхности земли.]
+      (*
+<- lang_ru;;
+      *);;
+  *);
+...
+  (*
+  -> rrel_example:
+  [ Вадацёк які працякае ў паглыбленні на паверхні зямлі.]
+      (*
+<- lang_by;;
+      *);;
+  *);
+...
+  (*
+  -> rrel_example:
+  [Waterflow that flowing in a recess on the surface of the earth.]
+      (*
+<- lang_en;;
+      *);;
+  *);;
+*);;

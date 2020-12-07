@@ -1,0 +1,5 @@
+40th_anniversary_of_October_park<-concept_park;
+=>nrel_osm_query:[relation(10750311);];
+=>nrel_main_idtf:
+	[парк 40-летия Октября] (* <-lang_ru;; *);
+	[40th anniversary of October park] (* <-lang_en;; *);;

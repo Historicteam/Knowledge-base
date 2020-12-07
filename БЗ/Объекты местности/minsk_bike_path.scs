@@ -1,4 +1,4 @@
-minsk_bike_path<-concept_waterfront;
+minsk_bike_path
 <-concept_road;
 => nrel_main_idtf:
 	[минская велосипедная дорожка] 
@@ -6,7 +6,6 @@ minsk_bike_path<-concept_waterfront;
 	[minsk bike path]	
 	(* <- lang_en;; *);
 =>nrel_osm_query:[way(1664226);];
-<=nrel_bordering_constructure:Svisloch_river;
 <- rrel_key_sc_element: 
 	...
 	(*
@@ -22,9 +21,9 @@ minsk_bike_path<-concept_waterfront;
 		...
 		(*
 		-> rrel_example:
-			[Полотно покрытия велодорожки хорошее, и позволяет получить максимум удовольствия от езды на велосипеде, однако есть некоторые участки, которые могут ввести велосипедистов в замешательство.]
+			[The cover of the bike path is good and allows you to get the most out of your cycling experience, however there are some areas that can confuse cyclists.]
 			(*
-			<- lang_ru;;
+			<- lang_en;;
 			*);;
 		*);;
 	*);;

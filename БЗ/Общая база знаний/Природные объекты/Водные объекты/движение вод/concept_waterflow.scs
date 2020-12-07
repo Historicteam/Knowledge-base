@@ -38,9 +38,25 @@ concept_waterflow
 ...
   (*
   -> rrel_example:
-  [ A generalized concept of water bodies with the forward movement of water in the direction of a slope in an elongated recess of the earth's surface. A watercourse is a permanent or temporary accumulation of standing or with a reduced flow of water in natural or artificial depressions.]
+  [ A generalized concept of water objects with the forward movement of water in the direction of a slope in an elongated recess of the earth's surface. A watercourse is a permanent or temporary accumulation of standing or with a reduced flow of water in natural or artificial depressions.]
       (*
 <- lang_en;;
       *);;
   *);;
-*);;
+=> nrel_main_idtf: [Определение понятия "водоток"](*<- lang_ru;;*);
+		[Вызначэнне паняцця "вадацёк"](*<- lang_by;;*);
+		[Definition of the waterflow concept] (* <-lang_en;; *);;
+=>nrel_using_constants: {
+		concept_water_object
+		};;
+*);
+<=nrel_subdividing:
+	types_of_waterflow_loction
+	(*
+		=>nrel_main_idtf:
+		[разбиение по расположению] (* <-lang_ru;; *);
+		[разбіццё па месце працекания] (* <-lang_ru;; *);
+		[subdividing in types of location] (* <-lang_en;; *);;
+		->concept_underground_waterflow;
+		concept_land_waterflow;;
+	*);;

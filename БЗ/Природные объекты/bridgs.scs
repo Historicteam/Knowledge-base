@@ -1,0 +1,31 @@
+Humpback_bridge<-concept_bridge;
+=> nrel_main_idtf:
+	[Горбатый мост] 
+	(* <- lang_ru;; *);
+	[Humpback bridge]	
+	(* <- lang_en;; *);
+=>nrel_water_barrier:svisloch_river;;
+
+nemiga_bridge<-concept_bridge;
+=> nrel_main_idtf:
+	[мост на немиге] 
+	(* <- lang_ru;; *);
+	[nemiga bridge]	
+	(* <- lang_en;; *);
+=>nrel_water_barrier:svisloch_river;;
+
+Police_bridge<-concept_bridge;
+=> nrel_main_idtf:
+	[полицейский мост] 
+	(* <- lang_ru;; *);
+	[Police bridge]	
+	(* <- lang_en;; *);
+=>nrel_water_barrier:svisloch_river;;
+
+Chizhevsky_passage<-concept_bridge;
+=> nrel_main_idtf:
+	[проезд Чижевских] 
+	(* <- lang_ru;; *);
+	[Chizhevsky passage]	
+	(* <- lang_en;; *);
+=>nrel_water_barrier:loshitsa_river;;

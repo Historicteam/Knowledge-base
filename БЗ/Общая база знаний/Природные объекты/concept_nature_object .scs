@@ -21,6 +21,9 @@ sc_definition -> ...
             -> [Природный объект - естественная экологическая система, природный ландшафт, биотоп и составляющие их компоненты природной среды, сохранившие свои природные свойства. ](*<- lang_ru;;*);;
         *);;
     => nrel_main_idtf: [Определение понятия "природный объект"](*<- lang_ru;;*);;
+    =>nrel_using_constants: {
+		concept_system
+		};;
 *);;
 sc_definition -> ...
 (*
@@ -59,7 +62,9 @@ sc_statement -> ...
     => nrel_main_idtf: [Уточнение понятия "природный объект"](*<- lang_ru;;*);
 			[Ўдакладненне паняцці "прыродны аб'ект"](*<- lang_by;;*);
 			[Clarification of the concept of "nature object"](*<- lang_en;;*);;
-    => nrel_using_constants: concept_island;
-			concept_water_object;;
+    =>nrel_using_constants: {
+		concept_island;
+		concept_water_object
+		};;
 *);;
 

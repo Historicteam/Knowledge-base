@@ -1,24 +1,34 @@
 concept_coast
 <-sc_const;
-<-sc_node_not_relation;
-<-concept_nature_object;;
+<-sc_node_not_relation;;
 concept_coast => nrel_main_idtf: [берег](*<- lang_ru;;*);;
+concept_coast => nrel_main_idtf: [берaг](*<- lang_by;;*);;
 concept_coast => nrel_main_idtf: [coast](*<- lang_en;;*);;
 
 
 sc_definition -> ...
 (*
     -> rrel_key_sc_element: concept_coast;;
-    <= nrel_sc_text_translation:...
+    <= nrel_sc_text_translation:
+	...
         (*
             -> [Бе́рег — узкая полоса взаимодействия между сушей и водоёмом или между сушей и водотоком. ](*<- lang_ru;;*);;
+        *);
+	...
+	(*
+            -> [Бераг - вузкая паласа ўзаемадзеяння паміж сушай і вадаёмам або паміж сушай і вадацёкам. ](*<- lang_by;;*);;
         *);
 	...
         (*
             -> [Coast - a narrow band of interaction between land and a reservoir or between land and a watercourse. ](*<- lang_en;;*);;
         *);;
-    => nrel_main_idtf: [Определение понятия "берег"](*<- lang_ru;;*);
+	=> nrel_main_idtf: [Определение понятия "берег"](*<- lang_ru;;*);
+			[Вызначэнне паняцця "бераг"](*<- lang_by;;*);
 			[Definition of the coast concept] (* <-lang_en;; *);;
+	=>nrel_using_constants: {
+		concept_pond;
+		concept_waterflow
+		};;
     *);;
 
 
@@ -28,6 +38,16 @@ sc_statement -> ...
     <= nrel_sc_text_translation:...
         (*
             -> [Основным фактором, влияющим на формирование берега, является волновой, а также производные от него прибойный поток и волновые течения.](*<- lang_ru;;*);;
+        *);
+	...
+        (*
+            -> [Асноўным фактарам, якія ўплываюць на фарміраванне берага, з'яўляецца хвалевай, а таксама вытворныя ад яго прыбойнай струмень і хвалевыя плыні.](*<- lang_by;;*);;
+        *);
+    	...
+        (*
+            -> [The main factor influencing the formation of the coast is the wave, as well as the surf stream and wave currents derived from it.](*<- lang_en;;*);;
         *);;
-    => nrel_main_idtf: [Факторы формирования берега](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Coast formation factors](*<- lang_en;;*);
+			[Факторы формирования берега](*<- lang_ru;;*);
+			[Фактары фарміравання берага](*<- lang_by;;*);;
 *);;

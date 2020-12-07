@@ -1,0 +1,155 @@
+loshitsa_river<-concept_river;
+<-concept_land_waterflow;
+=> nrel_main_idtf:
+	[Лошица] 
+	(* <- lang_ru;; *);
+	[Лошыца]	
+	(* <- lang_en;; *);
+	[Loshitsa]	
+	(* <- lang_by;; *);
+=>nrel_osm_query:[way(279044203);];
+=>nrel_inflow:mouse_river;;
+
+nemiga_river<-concept_river;
+<-concept_underground_waterflow;
+=> nrel_main_idtf:
+	[Немига] 
+	(* <- lang_ru;; *);
+	[Няміга]	
+	(* <- lang_en;; *);
+	[Nemiga]	
+	(* <- lang_by;; *);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[В 1926 году Немигу заключили в подземный коллектор. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[У 1926 году Нямігу заключылі ў падземны калектар.]
+			(*
+			<- lang_by;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[In 1926, Nemigu was enclosed in an underground collector. ]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);
+<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/nem.jpg"
+		(*
+		=>nrel_format:format_jpg;;
+		*);;	
+	*);
+	...
+	(*
+		->rrel_example:
+		"file://картинки/nem2.jpg"
+		(*
+		=>nrel_format:format_jpg;;
+		*);;	
+	*);;
+*);;
+
+tcna_river<-concept_river;
+<-concept_land_waterflow;
+=> nrel_main_idtf:
+	[Цна] 
+	(* <- lang_ru;; *);
+	[Цна]	
+	(* <- lang_en;; *);
+	[Tcna]	
+	(* <- lang_by;; *);
+=>nrel_osm_query:[way(36345306);];;
+
+berezina_river<-concept_river;
+<-concept_land_waterflow;
+=> nrel_main_idtf:
+	[Березина] 
+	(* <- lang_ru;; *);
+	[Бярэзіна]	
+	(* <- lang_en;; *);
+	[Berezina]	
+	(* <- lang_by;; *);
+=>nrel_osm_query:[way(899660);];
+<- rrel_key_sc_element: 
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Березина́  — самая длинная река, которая на всём своём течении расположена в Белоруссии. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Бярэзіна - самая доўгая рака, якая на ўсім сваім працягу размешчана ў Беларусі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Berezina is the longest river, which is located in Belarus along its entire course. ]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);
+<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/berez.jpg"
+		(*
+		=>nrel_format:format_jpg;;
+		*);;	
+	*);;
+*);;
+
+mouse_river<-concept_river;
+<-concept_land_waterflow;
+=> nrel_main_idtf:
+	[Мышка] 
+	(* <- lang_ru;; *);
+	[Мышка]	
+	(* <- lang_en;; *);
+	[Mouse river]	
+	(* <- lang_by;; *);
+=>nrel_osm_query:[way(279052658);];;
+
+krupka_river<-concept_river;
+<-concept_land_waterflow;
+=> nrel_main_idtf:
+	[Крупка] 
+	(* <- lang_ru;; *);
+	[Kрупка]	
+	(* <- lang_en;; *);
+	[Krupka]	
+	(* <- lang_by;; *);
+=>nrel_osm_query:[way(690207832);];;

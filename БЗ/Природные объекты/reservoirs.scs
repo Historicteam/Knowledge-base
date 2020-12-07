@@ -1,0 +1,67 @@
+drozdi_reservoir<-concept_reservoir;
+<-concept_recreational_water_object;
+<-concept_fishing_water_object;
+<-concept_multifunctional_water_object;
+=> nrel_main_idtf:
+	[водохранилище Дрозды] 
+	(* <- lang_ru;; *);
+	[вадасховiшча Дразды] 
+	(* <- lang_ru;; *);
+	[Drozdi reservoir]	
+	(* <- lang_en;; *);
+<- rrel_key_sc_element: 
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Здесь всегда можно встретить многочисленных рыбаков, но летом данная местность становится особенно оживленной. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[Тут заўсёды можна сустрэць шматлікіх рыбакоў, але летам дадзеная мясцовасць становіцца асабліва ажыўленай.]
+			(*
+			<- lang_by;;
+			*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[You can always meet numerous fishermen here, but in the summer this area becomes especially lively.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);
+<-rrel_key_sc_element:...
+(*
+		<-illustration;;
+		<=nrel_sc_text_translation:...
+	(*
+		->rrel_example:
+		"file://картинки/dr.jpg"
+		(*
+		=>nrel_format:format_jpg;;
+		*);;	
+	*);;
+*);;
+
+chizhov_reservoir<-concept_reservoir;
+=> nrel_main_idtf:
+	[ Чижовское водохранилище] 
+	(* <- lang_ru;; *);
+	[Chizhov reservoir]	
+	(* <- lang_en;; *);;
+
+tsnyanski_reservoir<-concept_reservoir;
+=> nrel_main_idtf:
+	[Цнянское водохранилище] 
+	(* <- lang_ru;; *);
+	[Tsnyanski reservoir]	
+	(* <- lang_en;; *);;
+

@@ -25,6 +25,10 @@ sc_definition -> ...
     => nrel_main_idtf: [Определение понятия "водохранилище"](*<- lang_ru;;*);
 			[Вызначэнне паняцця "вадасховишча"](*<- lang_by;;*);
 			[Definition of the reservoir concept](*<- lang_en;;*);;
+    =>nrel_using_constants: {
+		concept_pond;
+		concept_water_support_structure
+		};;
     *);;
 
 sc_statement -> ...

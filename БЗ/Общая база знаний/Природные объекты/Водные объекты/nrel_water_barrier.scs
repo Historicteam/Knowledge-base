@@ -22,17 +22,17 @@ nrel_water_barrier<-sc_node_norole_relation;
 		...
 		(*
 		-> rrel_example: 
-			[Водное препятствие — река, канал, озеро и водохранилище, лиман, фиорд, пролив и тому подобное, преодолеваемые с помощью мостов или других специальных сооружений.]
+			[Водное препятствие — река, канал, озеро и водохранилище, лиман, фиорд, пролив и тому подобное, преодолеваемые с помощью мостов.]
 			(* 
 			<- lang_ru;; 
 			*);;
 		-> rrel_example: 
-			[Воднае перашкода - рака, канал, возера і вадасховішча, ліман, фіёрдаў, праліў і да таго падобнае, пераадольваць з дапамогай мастоў ці іншых спецыяльных збудаванняў.]
+			[Воднае перашкода - рака, канал, возера і вадасховішча, ліман, фіёрдаў, праліў і да таго падобнае, пераадольваць з дапамогай мастоў.]
 			(* 
 			<- lang_by;; 
 			*);;
 		-> rrel_example: 
-			[Water barrier - a river, a canal, a lake and a reservoir, an estuary, a fjord, a strait and the like, overcome with the help of bridges or other special structures.]
+			[Water barrier - a river, a canal, a lake and a reservoir, an estuary, a fjord, a strait and the like, overcome with the help of bridges.]
 			(* 
 			<- lang_en;; 
 			*);;

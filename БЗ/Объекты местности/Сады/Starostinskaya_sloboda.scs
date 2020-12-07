@@ -1,0 +1,5 @@
+Starostinskaya_sloboda<=concept_public_garden;
+=>nrel_osm_query:[way(99877375);];
+=>nrel_main_idtf:
+	[сквер Старостинская слобода] (* <-lang_ru;; *);
+	[Starostinskaya sloboda] (* <-lang_en;; *);;
