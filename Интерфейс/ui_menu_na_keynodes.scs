@@ -26,6 +26,7 @@ ui_menu_na_keynodes
 	->ui_menu_search_affiche;;
 	->ui_menu_search_all_winners;;
 	->ui_menu_file_for_verify_entry_of_same_point_in_two_routes;;
+	->ui_menu_file_for_finding_all_three_stars_hotels_by_specified_type;;
 	*);
 => nrel_main_idtf:
 	[Ключевые узлы навигации] (* <- lang_ru;; *);

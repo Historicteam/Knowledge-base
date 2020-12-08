@@ -1,0 +1,35 @@
+Dabranach_Hostel
+=>nrel_main_idtf:
+	[Dabranach Hostel](* <-lang_en;;*);
+	[Гостиница «Дабранач»](* <-lang_ru;;*); 
+	[Гасцініца «Дабранач»](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_three_stars_hotel;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.92426, 27.64849]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.92426;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.64849;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

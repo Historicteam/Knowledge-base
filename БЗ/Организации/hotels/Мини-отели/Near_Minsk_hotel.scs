@@ -1,0 +1,35 @@
+Near_Minsk_hotel
+=>nrel_main_idtf:
+	[Near Minsk Hotel](* <-lang_en;;*);
+	[Гостиница Ля Менска](* <-lang_ru;;*); 
+	[Гасцініца Ля Менска](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_three_stars_hotel;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.96721, 27.51422]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.96721;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.51422;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;
