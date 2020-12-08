@@ -2,9 +2,10 @@ Hotel_Garni
 =>nrel_main_idtf:
 	[Hotel Garni](* <-lang_en;;*);
 	[Отель Гарни](* <-lang_ru;;*); 
-	[Гатэль Гарні](* <-lang_ru;;*); 
+	[Гатэль Гарні](* <-lang_by;;*); 
 
 <-concept_hotel;
+<-concept_pension;
 <-concept_three_stars_hotel;
 =>nrel_cuisine:belarussian_cuisine;
 

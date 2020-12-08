@@ -1,0 +1,9 @@
+Hotel_Victoria_na_Zamkava
+=>nrel_main_idtf:
+	[Victoria na Zamkava Hotel](* <-lang_en;;*);
+	[Гостиница «Виктория на Замковой»](* <-lang_ru;;*); 
+	[Гасцініца «Вiкторыя на Замкавай»](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_three_stars_hotel;;
