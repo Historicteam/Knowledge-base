@@ -1,0 +1,352 @@
+agent_for_verify_entry_of_same_point_in_two_routes
+=>nrel_main_idtf:
+[агентная scp-программа проверки наличия общих точек у двух маршрутов] (* <- lang_ru;; *);
+[agent scp-program of verify the participation of two persons in the same action] (* <- lang_en;; *);
+<- agent_scp_program;;
+
+
+scp_program -> agent_for_verify_entry_of_same_point_in_two_routes
+(*
+	-> rrel_params : ..agent_for_verify_entry_of_same_point_in_two_routes_params
+	(*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+	*);;
+	-> rrel_operators : ..agent_for_verify_entry_of_same_point_in_two_routes_operators
+	(*
+		-> rrel_init : ..agent_for_finding_games_that_support_a_particular_operating_system_quest_1
+		(*
+			<- searchElStr3;;
+		
+			-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+		
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_quest_2 ;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_quest_2
+		(*
+			<- searchElStr3;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_const: question_verify_entry_of_same_point_in_two_routes ;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+			=>nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_quest_3 ;;
+			=>nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_quest_3
+		(*
+			<- searchElStr5;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param1;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+
+			=>nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_quest_4;;
+			=>nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return;;
+		*);;
+		
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_quest_4
+			(*
+			<- searchElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param2;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+
+			=>nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_quest_5 ;;
+			=>nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_quest_5
+		(*
+			<- genEl ;;
+
+			-> rrel_1: rrel_assign: rrel_scp_var: rrel_node: rrel_const: _answer ;;
+
+			// => nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_1 ;;
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_print_1 ;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_print_1
+		(*
+			<- printEl;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_1 ;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_1
+		(*
+			<- searchElStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_route ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _param1 ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_2 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return ;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_2
+		(*
+			<- searchElStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_const: concept_route ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _param2 ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_3 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return ;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_3
+		(*
+			<- searchElStr5 ;;
+
+			-> rrel_1: rrel_assign: rrel_scp_var: _param1_decomposition ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: rrel_node: _param1 ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_basic_decomposition ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_4 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_4
+		(*
+			<- searchElStr5 ;;
+
+			-> rrel_1: rrel_assign: rrel_scp_var: _param2_decomposition ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: rrel_node: _param2 ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_basic_decomposition ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_5 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_5
+		(*
+			<- searchSetStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _param1_decomposition ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_point ;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: rrel_node: _set_of_param1_points ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_6 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_6
+		(*
+			<- searchElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_param1_points ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_param1_point ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_7 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_final_1 ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_7
+		(*
+			<- eraseEl ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc ;;
+	
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_8 ;;
+		*);;		
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_8
+		(*
+			<- searchElStr5 ;;
+
+            -> rrel_1: rrel_fixed: rrel_scp_var: _some_param1_point ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_param1_point_location ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_geographical_location ;;
+
+            => nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_9A ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_9B ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_9A
+        (*
+			<- searchElStr5 ;;
+
+            -> rrel_1: rrel_fixed: rrel_scp_var: _some_param1_point_location ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_link: _param1_point_cords ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_WGS_84_translation ;;
+
+            => nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_10 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_6 ;;
+        *);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_9B
+        (*
+			<- searchElStr5 ;;
+
+            -> rrel_1: rrel_fixed: rrel_scp_var: _some_param1_point ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_link: _param1_point_cords ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_osm_query ;;
+
+            => nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_10 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_6 ;;
+        *);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_10
+		(*
+			<- searchSetStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _param2_decomposition ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_point ;;
+
+			-> rrel_set_3: rrel_assign: rrel_scp_var: rrel_node: _set_of_param2_points ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_11 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_11
+		(*
+			<- searchElStr3 ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_param2_points ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_param2_point ;;
+
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_12 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_6 ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_12
+		(*
+			<- eraseEl ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc ;;
+	
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_13 ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_13
+		(*
+			<- searchElStr5 ;;
+
+            -> rrel_1: rrel_fixed: rrel_scp_var: _some_param2_point ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _some_param2_point_location ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_geographical_location ;;
+
+            => nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_14A ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_14B ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_14A
+        (*
+			<- searchElStr5 ;;
+
+            -> rrel_1: rrel_fixed: rrel_scp_var: _some_param2_point_location ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_link: _param2_point_cords ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_WGS_84_translation ;;
+
+            => nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_15 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_11 ;;
+        *);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_14B
+        (*
+			<- searchElStr5 ;;
+
+            -> rrel_1: rrel_fixed: rrel_scp_var: _some_param2_point ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+			-> rrel_3: rrel_assign: rrel_scp_var: rrel_link: _param2_point_cords ;;
+			-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_osm_query ;;
+
+            => nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_15 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_11 ;;
+        *);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_15
+		(*
+			<- ifEq ;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _param1_point_cords ;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _param2_point_cords ;;
+	
+			=> nrel_then: ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_1 ;;
+			=> nrel_else: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_11 ;;
+		*);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_1
+        (*
+            <- searchSetStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_param1_points ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _answer_arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_param1_point ;;
+		
+			-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer ;;		
+
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_2 ;;
+        *);;
+        -> ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_2
+        (*
+            <- genElStr3 ;;
+	
+			-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+			-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _answer_arc ;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _some_param1_point ;;
+		
+			// => nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_3 ;;
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_6 ;;
+        *);;
+		// -> ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_3
+		// (*
+		// 	<- genElStr3 ;;
+
+		// 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+		// 	-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+		// 	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_WGS_84_translation ;;
+
+		// 	=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_4 ;;
+		// *);;
+		// -> ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_4
+		// (*
+		// 	<- genElStr3 ;;
+
+		// 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+		// 	-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+		// 	-> rrel_3: rrel_fixed: rrel_scp_const: nrel_osm_query ;;
+
+		// 	=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_5 ;;
+		// *);;
+		// -> ..agent_for_verify_entry_of_same_point_in_two_routes_gen_answer_5
+		// (*
+		// 	<- genElStr3 ;;
+
+		// 	-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+		// 	-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+		// 	-> rrel_3: rrel_fixed: rrel_scp_var: _set_of_param1_points ;;
+
+		// 	=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_6 ;;
+		// *);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_final_1
+		(*
+			<- genElStr5;;
+
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _com21;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc21;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+
+			=> nrel_goto: ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return ;;
+		*);;
+		-> ..agent_for_verify_entry_of_same_point_in_two_routes_operator_return
+		(*
+			<- return ;;
+		*);;
+	*);;
+*);;

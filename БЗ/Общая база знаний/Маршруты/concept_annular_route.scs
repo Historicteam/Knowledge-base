@@ -1,0 +1,31 @@
+concept_annular_route 
+=> nrel_main_idtf:
+	[кольцевой маршрут] 
+	(* <- lang_ru;; *);
+	[annular route]	
+	(* <- lang_en;; *);
+	[кальцавы маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [A route with coincidence of the starting and ending points of the route and visiting several points on the route.]
+    (*
+    <- lang_en;;
+    *);
+  [Маршрут с совпадением точек начала и концамаршрута и посещением нескольких пунктов на маршруте.]
+    (*
+     <-lang_ru;;
+    *);
+  [Маршрут з супадзеннем кропак пачатку і канца маршруту і наведваннем некалькіх пунктаў на маршруце.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- sc_node_not_relation;;

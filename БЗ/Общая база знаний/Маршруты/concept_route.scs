@@ -1,0 +1,60 @@
+concept_route 
+=> nrel_main_idtf:
+	[маршрут] 
+	(* <- lang_ru;; *);
+	[route]	
+	(* <- lang_en;; *);
+	[маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Geographically defined, tied to a given area and special objects and described with varying degrees of detail, the route of the hike, travel, movement.]
+    (*
+    <- lang_en;;
+    *);
+  [Географически определенная, привязанная к данной местности и особенным объектам и описанная с различной степенью детальности, трасса похода, путешествия, передвижения.]
+    (*
+     <-lang_ru;;
+    *);
+  [Геаграфічна пэўная, прывязаная да дадзенай мясцовасці і асаблівым аб'ектах і апісаная з рознай ступенню дэталёвасці, траса паходу, падарожжа, перамяшчэння.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+
+<= nrel_subdividing: ...
+	(*
+	   =>nrel_main_idtf:
+        	[разбиение по типам](* <-lang_ru;; *);;
+	   -> concept_health_and_fitness_route; concept_combined_route; concept_thematic_route; concept_marching_route;;
+	*);
+
+<= nrel_subdividing: ...
+	(*
+	   =>nrel_main_idtf:
+        	[разбиение по сезонности](* <-lang_ru;; *);;
+	   -> concept_seasonal_route; concept_year_round_route;;
+	*);
+
+<= nrel_subdividing: ...
+	(*
+	   =>nrel_main_idtf:
+        	[разбиение по привязке к местности](* <-lang_ru;; *);;
+	   -> concept_linear_route; concept_radial_route; concept_annular_route;;
+	*);
+
+<= nrel_subdividing: ...
+	(*
+	   =>nrel_main_idtf:
+        	[разбиение по продолжительности](* <-lang_ru;; *);;
+	   -> concept_several_days_route; concept_several_hours_route; concept_multiday_route;;
+	*);
+
+<- sc_node_not_relation;;

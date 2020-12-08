@@ -1,0 +1,9 @@
+concept_several_hours_route 
+=> nrel_main_idtf:
+	[несколькочасовой маршрут] 
+	(* <- lang_ru;; *);
+	[several hours route]	
+	(* <- lang_en;; *);
+	[некалькігадзінны маршрут]	
+	(* <- lang_by;; *);
+<- sc_node_not_relation;;

@@ -1,0 +1,31 @@
+subject_domain_of_routes
+=> nrel_main_idtf:
+	[Предметная область маршрутов] 
+	(* <- lang_ru;; *);
+	[Subject domain of routes]	
+	(* <- lang_en;; *);
+	[Прадметная вобласць маршрутаў]	
+	(* <- lang_by;; *);
+<- subject_domain;
+
+//=> nrel_primary_elements_class_private_subject_domain: 
+
+-> rrel_maximum_studied_object_class:
+    concept_route;
+
+-> rrel_not_maximum_studied_object_class:
+    concept_annular_route;
+    concept_health_and_fitness_route;
+    concept_combined_route;
+    concept_marching_route;
+    concept_multiday_route;
+    concept_radial_route;
+    concept_seasonal_route;
+    concept_linear_route;
+    concept_year_round_route;
+    concept_several_hours_route;
+    concept_several_days_route;
+    concept_thematic_route;;
+
+//-> rrel_explored_relation:
+//	nrel_number_of_mounds;;

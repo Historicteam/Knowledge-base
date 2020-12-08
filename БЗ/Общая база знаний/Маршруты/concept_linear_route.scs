@@ -1,0 +1,31 @@
+concept_linear_route 
+=> nrel_main_idtf:
+	[линейный маршрут] 
+	(* <- lang_ru;; *);
+	[linear route]	
+	(* <- lang_en;; *);
+	[линейный маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [A route with a visit to one or several points (other than the initial one) located on the route.]
+    (*
+    <- lang_en;;
+    *);
+  [Маршрут с посещением одного или нескольких пунктов (кроме начального), находящихся на трассе.]
+    (*
+     <-lang_ru;;
+    *);
+  [Маршрут з наведваннем аднаго або некалькіх пунктаў (акрамя пачатковага), якія знаходзяцца на трасе.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- sc_node_not_relation;;

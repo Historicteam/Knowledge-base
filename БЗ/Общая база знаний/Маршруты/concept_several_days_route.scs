@@ -1,0 +1,9 @@
+concept_several_days_route 
+=> nrel_main_idtf:
+	[несколькодневный маршрут] 
+	(* <- lang_ru;; *);
+	[several days route]	
+	(* <- lang_en;; *);
+	[некалькідзённы маршрут]	
+	(* <- lang_by;; *);
+<- sc_node_not_relation;;

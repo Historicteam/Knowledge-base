@@ -1,0 +1,31 @@
+concept_health_and_fitness_route
+=> nrel_main_idtf:
+	[физкультурно-оздоровительный маршрут] 
+	(* <- lang_ru;; *);
+	[health and fitness route]	
+	(* <- lang_en;; *);
+	[фізкультурна-аздараўленчы маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [The route with a predominance of sports and physical culture and recreational activities.]
+    (*
+    <- lang_en;;
+    *);
+  [Маршрут с преобладанием в программе спортивных и физкультурно-оздоровительных мероприятий.]
+    (*
+     <-lang_ru;;
+    *);
+  [Маршрут з перавагай у праграме спартыўных і фізкультурна-аздараўленчых мерапрыемстваў.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- sc_node_not_relation;;

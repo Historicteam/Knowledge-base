@@ -1,0 +1,31 @@
+concept_thematic_route 
+=> nrel_main_idtf:
+	[тематический маршрут] 
+	(* <- lang_ru;; *);
+	[thematic route]	
+	(* <- lang_en;; *);
+	[тэматычны маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [The route with a predominance of excursion services and educational orientation.]
+    (*
+    <- lang_en;;
+    *);
+  [Маршрут с преобладанием экскурсионного обслуживания и познавательной направленности.]
+    (*
+     <-lang_ru;;
+    *);
+  [Маршрут з перавагай экскурсійнага абслугоўвання і пазнавальнай накіраванасці.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- sc_node_not_relation;;

@@ -1,0 +1,31 @@
+concept_radial_route 
+=> nrel_main_idtf:
+	[радиальный маршрут] 
+	(* <- lang_ru;; *);
+	[radial route]	
+	(* <- lang_en;; *);
+	[радыяльны маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Route with a visit to one point on the route.]
+    (*
+    <- lang_en;;
+    *);
+  [Маршрут с посещением одного пункта на маршруте.]
+    (*
+     <-lang_ru;;
+    *);
+  [Маршрут з наведваннем аднаго пункта на маршруце.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- sc_node_not_relation;;
