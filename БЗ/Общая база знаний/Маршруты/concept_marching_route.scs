@@ -1,0 +1,31 @@
+concept_marching_route 
+=> nrel_main_idtf:
+	[походный маршрут] 
+	(* <- lang_ru;; *);
+	[marching route]	
+	(* <- lang_en;; *);
+	[паходны маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [Route with active modes of transportation.]
+    (*
+    <- lang_en;;
+    *);
+  [Маршрут с активными способами передвижения.]
+    (*
+     <-lang_ru;;
+    *);
+  [Маршрут з актыўнымі спосабамі перамяшчэння.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- sc_node_not_relation;;

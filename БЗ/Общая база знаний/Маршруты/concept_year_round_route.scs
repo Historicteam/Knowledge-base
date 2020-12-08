@@ -1,0 +1,9 @@
+concept_year_round_route 
+=> nrel_main_idtf:
+	[круглогодичный маршрут] 
+	(* <- lang_ru;; *);
+	[year-round route]	
+	(* <- lang_en;; *);
+	[круглагодны маршрут]	
+	(* <- lang_by;; *);
+<- sc_node_not_relation;;

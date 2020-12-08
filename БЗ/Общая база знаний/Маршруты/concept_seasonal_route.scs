@@ -1,0 +1,9 @@
+concept_seasonal_route 
+=> nrel_main_idtf:
+	[сезонный маршрут] 
+	(* <- lang_ru;; *);
+	[seasonal route]	
+	(* <- lang_en;; *);
+	[сезонны маршрут]	
+	(* <- lang_by;; *);
+<- sc_node_not_relation;;

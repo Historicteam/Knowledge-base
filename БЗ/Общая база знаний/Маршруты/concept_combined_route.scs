@@ -1,0 +1,31 @@
+concept_combined_route 
+=> nrel_main_idtf:
+	[комбинированный маршрут] 
+	(* <- lang_ru;; *);
+	[combined route]	
+	(* <- lang_en;; *);
+	[камбінаваны маршрут]	
+	(* <- lang_by;; *);
+
+<- rrel_key_sc_element: ...
+(*
+  <-sc_definition;;
+  <=nrel_sc_text_translation: ...
+  (*
+  -> sc_example:
+  [A route that combines elements of thematic, hiking and health-improving routes.]
+    (*
+    <- lang_en;;
+    *);
+  [Маршрут, сочетающий элементы тематических, походных и физкультурно-оздоровительных маршрутов.]
+    (*
+     <-lang_ru;;
+    *);
+  [Маршрут, які спалучае элементы тэматычных, паходных і фізкультурна-аздараўленчых маршрутаў.]
+    (*
+    <-lang_by;;
+    *);;
+  *);;
+*);
+
+<- sc_node_not_relation;;
