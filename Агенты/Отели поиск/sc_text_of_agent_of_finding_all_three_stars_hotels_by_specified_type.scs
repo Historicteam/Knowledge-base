@@ -1,0 +1,7 @@
+sc_text_of_agent_of_finding_all_three_stars_hotels_by_specified_type
+-> rrel_key_sc_element:
+	agent_of_finding_all_three_stars_hotels_by_specified_type;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_finding_all_three_stars_hotels_by_specified_type = [*^"file://agent_of_finding_all_three_stars_hotels_by_specified_type.scsi"*];;
+

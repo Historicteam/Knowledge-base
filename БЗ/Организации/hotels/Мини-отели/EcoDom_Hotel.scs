@@ -1,0 +1,9 @@
+EcoDom_Hotel
+=>nrel_main_idtf:
+	[EcoDom Hotel](* <-lang_en;;*);
+	[Гостиница «ЭкоДом»](* <-lang_ru;;*); 
+	[Гасцініца «ЭкаДом»](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_three_stars_hotel;;

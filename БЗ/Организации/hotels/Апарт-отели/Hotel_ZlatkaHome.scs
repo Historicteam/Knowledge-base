@@ -1,0 +1,9 @@
+Hotel_ZlatkaHome
+=>nrel_main_idtf:
+	[Hotel «ZlatkaHome»](* <-lang_en;;*);
+	[Гостиница «ZlatkaHome»](* <-lang_ru;;*); 
+	[Гасцініца «ZlatkaHome»](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_three_stars_hotel;;

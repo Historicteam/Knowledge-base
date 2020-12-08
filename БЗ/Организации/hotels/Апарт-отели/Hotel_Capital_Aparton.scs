@@ -1,0 +1,36 @@
+Hotel_Capital_Aparton
+=>nrel_main_idtf:
+	[Hotel «Capital Aparton»](* <-lang_en;;*);
+	[Отель «Capital Aparton»](* <-lang_ru;;*); 
+	[Гасцініца «Capital Aparton»](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_four_stars_hotel;
+
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.9083, 27.57206]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.9083;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.57206;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

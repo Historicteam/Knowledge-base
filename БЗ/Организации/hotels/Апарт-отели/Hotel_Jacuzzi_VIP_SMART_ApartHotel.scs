@@ -1,0 +1,9 @@
+Hotel_Jacuzzi_VIP_SMART
+=>nrel_main_idtf:
+	[Hotel «Jacuzzi VIP SMART](* <-lang_en;;*);
+	[Гостиница «Jacuzzi VIP SMART](* <-lang_ru;;*); 
+	[Гасцініца «Jacuzzi VIP SMART](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_four_stars_hotel;;

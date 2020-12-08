@@ -1,0 +1,9 @@
+Hotel_Luxe_ApartComplex_Nemiga
+=>nrel_main_idtf:
+	[Hotel «Luxe ApartComplex Исторический центр Nemiga»](* <-lang_en;;*);
+	[Гостиница «Luxe ApartComplex Исторический центр Nemiga»](* <-lang_ru;;*); 
+	[Гасцініца «Luxe ApartComplex Исторический центр Nemiga»](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_four_stars_hotel;;

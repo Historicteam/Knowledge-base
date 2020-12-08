@@ -1,0 +1,35 @@
+Arena_Hotel
+=>nrel_main_idtf:
+	[Arena Hotel](* <-lang_en;;*);
+	[Гостиница Арена](* <-lang_ru;;*); 
+	[Гасцініца Арэна](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_pension;
+<-concept_three_stars_hotel;
+
+=> nrel_geographical_location: ...
+	(*
+	<-concept_mapped_point;;
+	=> nrel_WGS_84_translation: [53.84051, 27.62934]
+		(*
+		-> ...
+			(*
+			<- concept_coordinate;;
+			->rrel_latitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 53.84051;;
+					*);;
+				*);;
+			->rrel_longitude: ...
+				(*
+				<=nrel_value: ...
+					(*
+					-> rrel_degree: 27.62934;;
+					*);;
+				*);;
+			*);;
+		*);;
+	*);;

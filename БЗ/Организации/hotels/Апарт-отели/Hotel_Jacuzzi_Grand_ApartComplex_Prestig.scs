@@ -1,0 +1,9 @@
+Hotel_Jacuzzi_Grand_ApartComplex_Prestige_Centre
+=>nrel_main_idtf:
+	[Hotel «Jacuzzi Grand ApartComplex Prestige Centrel»](* <-lang_en;;*);
+	[Отель «Jacuzzi Grand ApartComplex Prestige Centrel»](* <-lang_ru;;*); 
+	[Гасцініца «Jacuzzi Grand ApartComplex Prestige Centrel»](* <-lang_by;;*); 
+
+<-concept_hotel;
+<-concept_mini_hotel;
+<-concept_three_stars_hotel;;
